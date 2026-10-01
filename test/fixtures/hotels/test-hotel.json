@@ -1,0 +1,30 @@
+{
+  "slug": "test-hotel",
+  "whatahotel_id": 1,
+  "whatahotel_url": "https://www.whatahotel.com/hotels/1/test-hotel.html",
+  "name": "Hotel Fixture",
+  "location": { "city": "Testville", "country": "IT" },
+  "category": "boutique",
+  "positioning": "Small clifftop hotel above the sea",
+  "best_for": ["Couples", "Food lovers"],
+  "facts": [
+    { "id": "f-rooms", "text": "The hotel has 40 rooms, each with a sea-facing terrace.", "source_ids": ["official"] },
+    { "id": "f-lift", "text": "A lift cut through the cliff takes guests down to a private beach.", "source_ids": ["official"] },
+    { "id": "f-dining", "text": "The restaurant cooks with produce from the hotel's own terraced garden.", "source_ids": ["wh-page"] }
+  ],
+  "highlights": [
+    { "id": "h-views", "text": "Every room looks straight out to sea.", "source_ids": ["official"] },
+    { "id": "h-beach", "text": "Private beach reached by the cliff lift.", "source_ids": ["official"] }
+  ],
+  "considerations": [
+    { "id": "c-season", "text": "The hotel closes in winter, roughly November to March.", "source_ids": ["official"] },
+    { "id": "c-steps", "text": "Getting into town means a boat or a steep walk with many steps.", "source_ids": ["wh-page"] }
+  ],
+  "pronunciations": [{ "term": "Testville", "say_as": "TEST-veel" }],
+  "sources": [
+    { "id": "official", "type": "official", "title": "Hotel Fixture official site", "url": "https://example.com", "accessed": "2026-10-01" },
+    { "id": "wh-page", "type": "whatahotel", "title": "WhataHotel page", "url": "https://www.whatahotel.com/hotels/1/test-hotel.html", "accessed": "2026-10-01" }
+  ],
+  "status": "draft",
+  "last_verified": "2026-10-01"
+}
