@@ -47,6 +47,13 @@ describe("mergeImport", () => {
     expect(second.profile.status).toBe("verified");
   });
 
+  it("skips Price Intelligence keyword signals", () => {
+    const signal = { motivator: "AMENITIES", claim: 'The property\'s own site mentions "spa"', sourceUrl: "https://hotelfixture.com", fetchedAt: "2026-09-20T10:00:00.000Z" };
+    const r = mergeImport(profile(), { db: db({ claims: [signal] }) });
+    expect(r.added).toEqual([]);
+    expect(r.skipped).toEqual(["1 keyword signal(s) from Price Intelligence (not usable as facts)"]);
+  });
+
   it("never touches curated claims", () => {
     const before = profile();
     const after = mergeImport(before, { db: db() }).profile;

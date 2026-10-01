@@ -94,7 +94,7 @@ npm test && npm run typecheck
 | Source | What is used | Safeguards |
 |---|---|---|
 | WhataHotel data API `hotel` + `info` | Restaurant names, kept as one fact (`api-restaurants`) | `info` is accepted only when its Amadeus code matches the hotel's, and only if not degraded. HTTP 200 is not trusted (`wahData.status` is checked). Malformed JSON is repaired narrowly. The key is redacted from logs and session tokens are never stored |
-| Price Intelligence DB `hotel_research_claim` | Claims read from the hotel's own website, each with its URL | Runs in a READ ONLY transaction. The hotel id and Amadeus code must agree with the API |
+| Price Intelligence DB `hotel_research_claim` | Claims read from the hotel's own website, each with its URL | Queried over HTTPS (Neon serverless driver; port 5432 is blocked in the cloud environment), every query READ ONLY. The hotel id and Amadeus code must agree with the API. Keyword-hit rows ("site mentions \"spa\"") are skipped: they are scoring signals, not facts. As of 2026-10-01 all 1,076 rows are of this kind |
 
 Imported claims are tagged with `origin` and get stable ids, so re-running is safe. Curated claims are never changed. Any change sets the profile back to `draft`. Raw snapshots go to `data/sources/<slug>.wah-api.json` and `.pi-db.json`. Amenity codes and `info` prose are kept in those snapshots for reference but are **not** turned into claims: the prose is hotel marketing copy, and its shape has not been measured.
 

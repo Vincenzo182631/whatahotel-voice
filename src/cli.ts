@@ -91,7 +91,8 @@ async function main() {
           console.log(`→ ${slug}${values["dry-run"] ? " (dry run)" : ""}`);
           try {
             const r = await importHotel(slug, { api, db, dryRun: values["dry-run"] });
-            console.log(`  ✓ ${r.added.length} added, ${r.updated.length} updated, ${r.skipped.length} duplicates skipped`);
+            console.log(`  ✓ ${r.added.length} added, ${r.updated.length} updated`);
+            for (const s of r.skipped) console.log(`    - skipped ${s}`);
             for (const id of [...r.added, ...r.updated]) {
               const claim = r.profile.facts.find((f) => f.id === id);
               console.log(`    + ${id}: ${claim?.text}`);

@@ -7,10 +7,12 @@
  *                         (read from the hotel's own site; source_url is NOT NULL)
  *   hotel_amenity         code, label from method=info, identity-checked
  *
- * Every query runs inside a READ ONLY transaction, so even a connection
- * string with write rights cannot change anything from here.
+ * Queries go over HTTPS with Neon's serverless driver (direct Postgres on
+ * port 5432 is blocked in the cloud environment), and every query runs as a
+ * READ ONLY transaction, so even a connection string with write rights cannot
+ * change anything from here.
  */
-import pg from "pg";
+import { neon } from "@neondatabase/serverless";
 
 export interface PiResearchClaim {
   motivator: string;
@@ -75,18 +77,11 @@ export async function loadPiHotel(query: Query, wahHotelId: number): Promise<PiH
   };
 }
 
-/** Opens one connection and runs `fn` inside a read-only transaction. */
+/** Runs `fn` with a query function whose every statement is a READ ONLY transaction. */
 export async function withReadOnlyDb<T>(fn: (query: Query) => Promise<T>): Promise<T> {
   const connectionString = process.env.PI_DATABASE_URL;
   if (!connectionString) throw new Error("PI_DATABASE_URL is not set. See .env.example.");
-  const client = new pg.Client({ connectionString });
-  await client.connect();
-  try {
-    await client.query("BEGIN TRANSACTION READ ONLY");
-    const query: Query = async (sql, params) => (await client.query(sql, params)).rows;
-    return await fn(query);
-  } finally {
-    await client.query("ROLLBACK").catch(() => {});
-    await client.end();
-  }
+  const sql = neon(connectionString, { readOnly: true });
+  const query: Query = async (text, params) => (await sql.query(text, params)) as never;
+  return fn(query);
 }

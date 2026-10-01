@@ -17,6 +17,13 @@ export interface MergeResult {
   skipped: string[];
 }
 
+/**
+ * Price Intelligence stores keyword hits ("The property's own site mentions \"spa\"")
+ * as research claims. They are scoring signals, not statements a host can say,
+ * so they are never imported as facts.
+ */
+export const KEYWORD_SIGNAL = /^The property's own site mentions "/;
+
 const norm = (t: string) => t.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 const shortHash = (t: string) => createHash("sha256").update(norm(t)).digest("hex").slice(0, 8);
 const host = (url: string) => {
@@ -72,7 +79,10 @@ export function mergeImport(profile: HotelProfile, input: ImportInput): MergeRes
   // Hotel-owned claims from the Price Intelligence research table → facts.
   if (input.db) {
     const siteHost = input.db.websiteUrl ? host(input.db.websiteUrl) : "";
+    const signals = input.db.claims.filter((c) => KEYWORD_SIGNAL.test(c.claim)).length;
+    if (signals) skipped.push(`${signals} keyword signal(s) from Price Intelligence (not usable as facts)`);
     for (const c of input.db.claims) {
+      if (KEYWORD_SIGNAL.test(c.claim)) continue;
       const id = `db-${shortHash(c.claim)}`;
       const dup = known().get(norm(c.claim));
       if (dup) {
