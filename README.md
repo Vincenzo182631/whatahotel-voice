@@ -81,6 +81,13 @@ npm test && npm run typecheck
 | Boutique | Il San Pietro di Positano |
 | Family | Four Seasons Orlando at Walt Disney World |
 
+## Data
+
+- `data/sources/`: raw whatahotel.com page extracts.
+- `data/research/`: per-hotel fact checks with evidence URLs, plus `SITE-COPY-ISSUES.md`, which lists claims on whatahotel.com that are contradicted or unverifiable.
+- `data/hotels/`: profiles used by the pipeline. All 5 are `draft` until a person checks their sources and sets `status: "verified"`.
+- `data/examples/`: a hand-written sample script, used to preview the format and run offline.
+
 ## Roadmap
 
 1. **Phase 1 (this):** schema, script engine, provider abstraction, CLI, pilot profiles.
