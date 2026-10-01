@@ -3,6 +3,9 @@ import path from "node:path";
 import { parseArgs } from "node:util";
 import { HOTELS_DIR, listProfileSlugs, loadProfile, validateProfile } from "./core/profile.js";
 import { generateHotel } from "./pipeline.js";
+import { importHotel } from "./sources/import.js";
+import { withReadOnlyDb, type Query } from "./sources/pi-db.js";
+import { WahClient } from "./sources/wah-api.js";
 import { fetchWhataHotelPage } from "./sources/whatahotel.js";
 import { listVersions, readMetadata, setStatus } from "./storage/local.js";
 
@@ -11,6 +14,9 @@ const HELP = `WhataHotel Voice — hotel conversation pipeline
 Usage: npm run hotel -- <command> [options]
 
   scrape    --hotel <slug> | --collection pilot   Fetch whatahotel.com page(s) into data/sources/
+  import    --hotel <slug> | --collection pilot [--from api,db] [--dry-run]
+                                                  Add claims from the WhataHotel data API and the
+                                                  Price Intelligence DB (read-only) to profiles
   validate  [--hotel <slug>]                      Check profile schema and source references
   script    --hotel <slug>                        Write + check a script only (no audio)
   generate  --hotel <slug> [--provider mock|elevenlabs|gemini]
@@ -34,6 +40,8 @@ const { positionals, values } = parseArgs({
     reject: { type: "boolean" },
     note: { type: "string" },
     force: { type: "boolean" },
+    from: { type: "string", default: "api,db" },
+    "dry-run": { type: "boolean" },
     help: { type: "boolean", short: "h" },
   },
 });
@@ -68,6 +76,35 @@ async function main() {
         await writeFile(file, JSON.stringify(page, null, 2) + "\n");
         console.log(`✓ ${h.slug}: ${page.pros.length} highlights, ${page.cons.length} considerations`);
       }
+      return;
+    }
+
+    case "import": {
+      const from = new Set(values.from!.split(",").map((s) => s.trim()));
+      for (const f of from) if (f !== "api" && f !== "db") throw new Error(`--from accepts api,db (got "${f}")`);
+      const slugs = values.hotel
+        ? [values.hotel]
+        : (await loadCollection(need(values.collection, "collection or --hotel"))).hotels.map((h) => h.slug);
+      const api = from.has("api") ? WahClient.fromEnv() : undefined;
+      const run = async (db?: Query) => {
+        for (const slug of slugs) {
+          console.log(`→ ${slug}${values["dry-run"] ? " (dry run)" : ""}`);
+          try {
+            const r = await importHotel(slug, { api, db, dryRun: values["dry-run"] });
+            console.log(`  ✓ ${r.added.length} added, ${r.updated.length} updated, ${r.skipped.length} duplicates skipped`);
+            for (const id of [...r.added, ...r.updated]) {
+              const claim = r.profile.facts.find((f) => f.id === id);
+              console.log(`    + ${id}: ${claim?.text}`);
+            }
+            for (const w of r.warnings) console.log(`    ! ${w}`);
+          } catch (err) {
+            process.exitCode = 1;
+            console.log(`  ✗ ${(err as Error).message}`);
+          }
+        }
+      };
+      if (from.has("db")) await withReadOnlyDb(run);
+      else await run();
       return;
     }
 

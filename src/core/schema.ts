@@ -14,6 +14,8 @@ export const ClaimSchema = z.object({
   id: z.string().regex(/^[a-z0-9-]+$/),
   text: z.string().min(3),
   source_ids: z.array(z.string()).min(1),
+  /** Set on claims an importer added, so reviewers can tell them apart. Absent = curated. */
+  origin: z.enum(["wah-api", "pi-db"]).optional(),
 });
 
 export const HotelCategory = z.enum(["urban", "beach", "safari", "boutique", "family", "mountain", "other"]);
