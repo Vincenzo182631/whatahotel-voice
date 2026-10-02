@@ -34,7 +34,12 @@ export function chunkLines(lines: DialogueLine[], limit = CHAR_LIMIT): DialogueL
 
 export class ElevenLabsProvider implements VoiceProvider {
   readonly name = "elevenlabs";
-  private readonly apiKey = requireEnv("ELEVENLABS_API_KEY");
+  /**
+   * Optional: in the cloud environment the key is an API credential that the
+   * egress proxy adds as `xi-api-key` for api.elevenlabs.io, so the code never
+   * sees it. Locally, set ELEVENLABS_API_KEY instead.
+   */
+  private readonly apiKey = process.env.ELEVENLABS_API_KEY;
   private readonly voices = {
     advisor: requireEnv("ELEVENLABS_VOICE_ADVISOR"),
     traveler: requireEnv("ELEVENLABS_VOICE_TRAVELER"),
@@ -62,7 +67,7 @@ export class ElevenLabsProvider implements VoiceProvider {
     };
     const res = await fetch(ENDPOINT, {
       method: "POST",
-      headers: { "xi-api-key": this.apiKey, "Content-Type": "application/json" },
+      headers: { ...(this.apiKey && { "xi-api-key": this.apiKey }), "Content-Type": "application/json" },
       body: JSON.stringify(body),
     });
     if (!res.ok) throw new Error(`ElevenLabs ${res.status}: ${await res.text()}`);
