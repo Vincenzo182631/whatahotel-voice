@@ -43,8 +43,8 @@ Keys (none are needed for the offline mock run):
 | Key | Used for |
 |---|---|
 | `WH_ANTHROPIC_API_KEY` | Writing scripts and fact checking (`claude-opus-5-5`). Not `ANTHROPIC_API_KEY`: Claude Code cloud environments reserve that name for their own login (it is still accepted as a fallback locally) |
-| `ELEVENLABS_API_KEY`, `ELEVENLABS_VOICE_ADVISOR`, `ELEVENLABS_VOICE_TRAVELER` | Text-to-Dialogue voices (`eleven_v3`). In the cloud environment the key is an **API credential** (host `api.elevenlabs.io`, header `xi-api-key`, no prefix) instead of a variable; the code then sends no key itself |
-| `ELEVENLABS_MODEL` | Optional model override for Text-to-Dialogue (default `eleven_v3`; `eleven_v4` is accepted by the endpoint). Recorded as `voice_model` in `metadata.json` |
+| `ELEVENLABS_API_KEY`, `ELEVENLABS_VOICE_ADVISOR`, `ELEVENLABS_VOICE_TRAVELER` | Text-to-Dialogue voices (model set by `ELEVENLABS_MODEL`, default `eleven_v4`). In the cloud environment the key is an **API credential** (host `api.elevenlabs.io`, header `xi-api-key`, no prefix) instead of a variable; the code then sends no key itself |
+| `ELEVENLABS_MODEL` | Optional model override for Text-to-Dialogue (default `eleven_v4`; `eleven_v3` also works). Recorded as `voice_model` in `metadata.json` |
 | `ELEVENLABS_PRONUNCIATION_DICT_ID` | Optional pronunciation dictionary; otherwise profile respellings are used |
 | `GEMINI_API_KEY` (+ optional `GEMINI_VOICE_*`, `GEMINI_TTS_MODEL`) | Optional fallback only: Gemini multi-speaker TTS. Not used, since ElevenLabs is the chosen provider |
 | `WAH_API_KEY` | WhataHotel data API (`hotel`, `info`): the same key Price Intelligence uses |
@@ -73,7 +73,7 @@ npm test && npm run typecheck
 
 - **Audio 75–100 s**, checked on the real audio after voicing (`length_check` in `metadata.json`). If a freshly written script lands outside the window, the pipeline rewrites it once with a target word count. `review --approve` refuses an out-of-range version.
 - **WhataHotel signature:** every clip ends with the same perks line, spoken word for word by the Luxury Advisor (`PERKS_SIGNATURE` in `src/script/rules.ts`). The pipeline adds it, so the writer never writes perks; it ends on the Candid Traveler's verdict. The line counts toward the word range.
-- 175–190 words (measured pace is 1.9–2.3 words/s), 8–12 turns, sections in order: hook → stands_out → best_for → to_know → bottom_line.
+- 205–230 words (eleven_v4 pace is about 2.3–2.7 words/s), 8–12 turns, sections in order: hook → stands_out → best_for → to_know → bottom_line.
 - The Candid Traveler must raise at least one sourced consideration.
 - Never "pros/cons", "podcast", guarantees, or sales pressure.
 - Any number must come from a cited claim.

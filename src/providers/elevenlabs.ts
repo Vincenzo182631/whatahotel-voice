@@ -11,8 +11,8 @@ import {
 // The streaming variant: same request and output, but audio starts flowing at once,
 // so long dialogues are not cut off by proxies with a 30-second response timeout.
 const ENDPOINT = "https://api.elevenlabs.io/v1/text-to-dialogue/stream?output_format=mp3_44100_128";
-/** eleven_v3 by default; set ELEVENLABS_MODEL (for example eleven_v4) to compare models. */
-const MODEL = process.env.ELEVENLABS_MODEL ?? "eleven_v3";
+/** eleven_v4 by default (chosen over eleven_v3 on 2026-10-02); set ELEVENLABS_MODEL to compare models. */
+const MODEL = process.env.ELEVENLABS_MODEL ?? "eleven_v4";
 /** Documented per-request ceiling across all inputs[].text. */
 const CHAR_LIMIT = 2000;
 

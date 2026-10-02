@@ -1,12 +1,12 @@
 import { allClaims } from "../core/profile.js";
 import { Section, type HotelProfile, type Script } from "../core/schema.js";
 
-/** ~2.2 spoken words per second, measured on ElevenLabs eleven_v3 two-host dialogue. */
-export const WORDS_PER_SECOND = 2.2;
+/** ~2.5 spoken words per second, measured on ElevenLabs eleven_v4 two-host dialogue (eleven_v3 was ~2.2). */
+export const WORDS_PER_SECOND = 2.5;
 /** The voiced audio must land inside this window (checked on the real audio, not estimated). */
 export const AUDIO_SECONDS = { min: 75, max: 100 } as const;
-/** Measured ElevenLabs pace is 1.9-2.3 words/s, so these words keep audio inside AUDIO_SECONDS. */
-export const WORD_RANGE = { min: 175, max: 190 } as const;
+/** eleven_v4 pace is about 2.3-2.7 words/s, so these words keep audio inside AUDIO_SECONDS. */
+export const WORD_RANGE = { min: 205, max: 230 } as const;
 /** ElevenLabs Text-to-Dialogue limit per request; longer scripts get chunked. */
 export const DIALOGUE_CHAR_LIMIT = 2000;
 

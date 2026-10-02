@@ -16,8 +16,8 @@ describe("generateHotel (mock provider, manual script)", () => {
     for (const f of ["audio.mp3", "transcript.json", "script.json", "source-profile.json", "metadata.json"]) {
       expect(existsSync(path.join(first.dir, f)), f).toBe(true);
     }
-    expect(first.metadata).toMatchObject({ version: 1, status: "needs_review", voice_provider: "mock", word_count: 187 });
-    // ~187 words at 2.2 w/s plus gaps: inside the 75-100 s window.
+    expect(first.metadata).toMatchObject({ version: 1, status: "needs_review", voice_provider: "mock", word_count: 227 });
+    // ~227 words at 2.5 w/s plus gaps: inside the 75-100 s window.
     expect(first.metadata.duration_seconds).toBeGreaterThanOrEqual(75);
     expect(first.metadata.duration_seconds).toBeLessThanOrEqual(100);
     expect(first.metadata.length_check).toEqual({ passed: true });

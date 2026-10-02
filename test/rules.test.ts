@@ -10,7 +10,7 @@ const script = (): Script =>
 describe("checkScript", () => {
   it("passes the fixture script", () => {
     expect(checkScript(script(), profile)).toEqual([]);
-    expect(wordCount(script())).toBe(187);
+    expect(wordCount(script())).toBe(227);
   });
 
   describe("WhataHotel signature", () => {
