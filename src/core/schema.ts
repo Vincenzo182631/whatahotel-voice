@@ -106,6 +106,8 @@ export const MetadataSchema = z.object({
   word_count: z.number().int(),
   duration_seconds: z.number().nullable(),
   fact_check: z.object({ passed: z.boolean(), issues: z.array(z.string()) }),
+  /** Audio length against AUDIO_SECONDS. Absent on older versions and script-only runs. */
+  length_check: z.object({ passed: z.boolean(), issue: z.string().optional() }).optional(),
   review_note: z.string().optional(),
 });
 export type Metadata = z.infer<typeof MetadataSchema>;

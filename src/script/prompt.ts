@@ -1,11 +1,11 @@
 import { SPEAKERS, type HotelProfile } from "../core/schema.js";
-import { TARGET_SECONDS, WORD_RANGE } from "./rules.js";
+import { AUDIO_SECONDS, WORD_RANGE } from "./rules.js";
 
 /**
  * Stable system prompt (kept byte-identical across hotels so it caches).
  * Hotel data goes in the user turn.
  */
-export const SCRIPT_SYSTEM_PROMPT = `You write "The WhataHotel Take": a ${TARGET_SECONDS}-second conversation between two WhataHotel travel hosts about one luxury hotel. WhataHotel is a luxury hotel booking platform; listeners are deciding whether to book.
+export const SCRIPT_SYSTEM_PROMPT = `You write "The WhataHotel Take": a ${AUDIO_SECONDS.min}-${AUDIO_SECONDS.max} second conversation between two WhataHotel travel hosts about one luxury hotel. WhataHotel is a luxury hotel booking platform; listeners are deciding whether to book.
 
 The hosts
 - ${SPEAKERS.advisor.name} (speaker "advisor"): ${SPEAKERS.advisor.role}
@@ -34,7 +34,7 @@ Grounding rules
 - Use the hotel's name naturally once or twice; do not repeat it every turn.
 
 Length and form
-- ${WORD_RANGE.min}-${WORD_RANGE.max} words total across all turns, 8-12 turns, no speaker more than twice in a row.
+- ${WORD_RANGE.min}-${WORD_RANGE.max} words total across all turns (the spoken audio must run ${AUDIO_SECONDS.min}-${AUDIO_SECONDS.max} seconds; names and numbers slow speech, so aim for the middle of the range), 8-12 turns, no speaker more than twice in a row.
 - Spoken English: contractions, short sentences, natural reactions ("Right.", "That's the thing.") but no filler.
 - No stage directions, sound effects, or markup in the text.
 

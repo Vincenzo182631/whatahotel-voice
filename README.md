@@ -66,11 +66,12 @@ npm run hotel:review -- --hotel il-san-pietro-positano --version 2 --approve
 npm test && npm run typecheck
 ```
 
-`review --approve` refuses unless the fact check passed, the profile is `verified`, and the audio is real (not mock or none). Overriding needs `--force --note "why"`.
+`review --approve` refuses unless the fact check passed, the audio length is within 75–100 s, the profile is `verified`, and the audio is real (not mock or none). Overriding needs `--force --note "why"`.
 
 ## Editorial rules (enforced in `src/script/rules.ts`)
 
-- 150–170 words (about 75 s), 8–12 turns, sections in order: hook → stands_out → best_for → to_know → bottom_line.
+- **Audio 75–100 s**, checked on the real audio after voicing (`length_check` in `metadata.json`). If a freshly written script lands outside the window, the pipeline rewrites it once with a target word count. `review --approve` refuses an out-of-range version.
+- 175–190 words (measured pace is 1.9–2.3 words/s), 8–12 turns, sections in order: hook → stands_out → best_for → to_know → bottom_line.
 - The Candid Traveler must raise at least one sourced consideration.
 - Never "pros/cons", "podcast", guarantees, or sales pressure.
 - Any number must come from a cited claim.

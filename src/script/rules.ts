@@ -3,8 +3,10 @@ import { Section, type HotelProfile, type Script } from "../core/schema.js";
 
 /** ~2.2 spoken words per second, measured on ElevenLabs eleven_v3 two-host dialogue. */
 export const WORDS_PER_SECOND = 2.2;
-export const TARGET_SECONDS = 75;
-export const WORD_RANGE = { min: 150, max: 170 } as const;
+/** The voiced audio must land inside this window (checked on the real audio, not estimated). */
+export const AUDIO_SECONDS = { min: 75, max: 100 } as const;
+/** Measured ElevenLabs pace is 1.9-2.3 words/s, so these words keep audio inside AUDIO_SECONDS. */
+export const WORD_RANGE = { min: 175, max: 190 } as const;
 /** ElevenLabs Text-to-Dialogue limit per request; longer scripts get chunked. */
 export const DIALOGUE_CHAR_LIMIT = 2000;
 
@@ -25,12 +27,19 @@ export function estimateSeconds(script: Script): number {
   return Math.round(wordCount(script) / WORDS_PER_SECOND);
 }
 
+/** Null when the audio length is inside AUDIO_SECONDS, otherwise what is wrong with it. */
+export function checkDuration(seconds: number): string | null {
+  if (seconds < AUDIO_SECONDS.min) return `audio is ${seconds}s, under the ${AUDIO_SECONDS.min}s minimum`;
+  if (seconds > AUDIO_SECONDS.max) return `audio is ${seconds}s, over the ${AUDIO_SECONDS.max}s maximum`;
+  return null;
+}
+
 /** Deterministic checks that need no model call. Returns a list of problems. */
 export function checkScript(script: Script, profile: HotelProfile): string[] {
   const issues: string[] = [];
   const words = wordCount(script);
   if (words < WORD_RANGE.min || words > WORD_RANGE.max) {
-    issues.push(`word count ${words} outside ${WORD_RANGE.min}-${WORD_RANGE.max} (~${TARGET_SECONDS}s)`);
+    issues.push(`word count ${words} outside ${WORD_RANGE.min}-${WORD_RANGE.max} (${AUDIO_SECONDS.min}-${AUDIO_SECONDS.max}s of audio)`);
   }
 
   const order = Section.options;

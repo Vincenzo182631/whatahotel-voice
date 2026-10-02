@@ -186,6 +186,7 @@ async function main() {
         const [meta, profile] = await Promise.all([readMetadata(slug, version), loadProfile(slug)]);
         const blockers = [
           ...(meta.fact_check.passed ? [] : ["fact check did not pass"]),
+          ...(meta.length_check && !meta.length_check.passed ? [meta.length_check.issue ?? "audio length out of range"] : []),
           ...(profile.status === "verified" ? [] : ["profile is still a draft"]),
           ...(meta.voice_provider === "mock" || meta.voice_provider === "none" ? ["no real audio"] : []),
         ];
@@ -210,6 +211,7 @@ function report(dir: string, m: import("./core/schema.js").Metadata) {
     `  ✓ v${m.version} ${m.status} · ${m.word_count} words · ${m.duration_seconds ?? "-"}s · ` +
       `fact check ${m.fact_check.passed ? "passed" : "FAILED"}`,
   );
+  if (m.length_check && !m.length_check.passed) console.log(`    ! ${m.length_check.issue}`);
   for (const issue of m.fact_check.issues) console.log(`    - ${issue}`);
   console.log(`  ${path.relative(process.cwd(), dir)}`);
 }

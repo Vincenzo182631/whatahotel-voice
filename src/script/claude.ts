@@ -68,9 +68,9 @@ async function parseWith<T extends z.ZodType>(
 /** Writes a script, re-prompting with rule failures up to maxAttempts. */
 export async function writeScript(
   profile: HotelProfile,
-  { client = createClient(), maxAttempts = 3 }: { client?: Anthropic; maxAttempts?: number } = {},
+  { client = createClient(), maxAttempts = 3, feedback: initialFeedback = [] }: { client?: Anthropic; maxAttempts?: number; feedback?: string[] } = {},
 ): Promise<ScriptResult> {
-  let feedback: string[] = [];
+  let feedback: string[] = initialFeedback;
   let script: Script | undefined;
   let attempt = 0;
   while (attempt < maxAttempts) {

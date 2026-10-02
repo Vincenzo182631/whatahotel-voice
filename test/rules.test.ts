@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import { HotelProfileSchema, ScriptSchema, type Script } from "../src/core/schema.js";
-import { checkScript, wordCount } from "../src/script/rules.js";
+import { checkDuration, checkScript, wordCount } from "../src/script/rules.js";
 
 const profile = HotelProfileSchema.parse(JSON.parse(readFileSync("test/fixtures/hotels/test-hotel.json", "utf8")));
 const script = (): Script =>
@@ -10,7 +10,7 @@ const script = (): Script =>
 describe("checkScript", () => {
   it("passes the fixture script", () => {
     expect(checkScript(script(), profile)).toEqual([]);
-    expect(wordCount(script())).toBe(168);
+    expect(wordCount(script())).toBe(187);
   });
 
   it("requires the bottom line to cite a perk when the profile has perks", () => {
@@ -59,5 +59,16 @@ describe("checkScript", () => {
     const s = script();
     s.turns[3]!.speaker = "advisor";
     expect(checkScript(s, profile).join()).toMatch(/three times in a row/);
+  });
+});
+
+describe("checkDuration", () => {
+  it("accepts audio from 75 to 100 seconds", () => {
+    for (const s of [75, 88.4, 100]) expect(checkDuration(s)).toBeNull();
+  });
+
+  it("flags audio outside 75-100 seconds", () => {
+    expect(checkDuration(74.9)).toMatch(/under the 75s minimum/);
+    expect(checkDuration(100.1)).toMatch(/over the 100s maximum/);
   });
 });

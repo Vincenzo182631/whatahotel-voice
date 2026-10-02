@@ -6,7 +6,7 @@ All five profiles are still `draft`: nothing can be approved until a person chec
 
 | Hotel | Pick | Words | Audio | Fact check | Runner-up |
 |---|---|---|---|---|---|
-| Il San Pietro di Positano | v14 | 165 | 71 s | passed | v15 (79 s) |
+| Il San Pietro di Positano | v15 | 169 | 79 s | passed | v16 (80.4 s) |
 | The Peninsula Tokyo | v12 | 168 | 78.8 s | passed | v10 (78.9 s) |
 | Four Seasons Maui at Wailea | v9 | 166 | 86.3 s | passed | v8 (87.1 s) |
 | Four Seasons Safari Lodge Serengeti | v8 | 168 | 83.1 s | passed | v7 (85.9 s) |
@@ -14,16 +14,15 @@ All five profiles are still `draft`: nothing can be approved until a person chec
 
 ## Notes
 
-- Picked from versions that passed the automated fact check, closest to 75 s; ties go to the earlier version.
-- Maui v7 failed the fact check (perk line dropped the "Preferred Rate" condition) and was not considered.
+- Rule: audio must run 75-100 s. Picks passed the automated fact check, are inside that window, and are closest to 75 s; ties go to the earlier version.
+- Il San Pietro v14 (71 s) and Maui v7 (failed fact check) were not considered.
 - Every script states the WhataHotel perks in the bottom line (p-1 to p-4, sourced to the WhataHotel page). The profile ties them to the WhataHotel Preferred Rate; the spoken line says "a WhataHotel booking includes ...". Decide whether "Preferred Rate" should be spoken.
-- Maui and Serengeti picks run 83-86 s, over the ~75 s target, because the perks add about 20 words.
 - Claims still needing a browser check are listed in `data/research/OFFICIAL-SITE-CHECK.md` (for example Tokyo airport times, Maui kids' programme hours).
 
 
-## Il San Pietro di Positano — v14
+## Il San Pietro di Positano — v15
 
-Audio: `data/shortlist/il-san-pietro-positano-v14.mp3` (source `output/il-san-pietro-positano/v14`). Profile status: `draft`, last verified 2026-10-01.
+Audio: `data/shortlist/il-san-pietro-positano-v15.mp3` (source `output/il-san-pietro-positano/v15`). Profile status: `draft`, last verified 2026-10-01.
 
 **Short version card**
 
@@ -33,27 +32,27 @@ Audio: `data/shortlist/il-san-pietro-positano-v14.mp3` (source `output/il-san-pi
 
 **Transcript**
 
-- **Luxury Advisor**: Il San Pietro di Positano. The thing to get is that it's built down a cliff, starting at a 17th-century chapel.  
+- **Luxury Advisor**: Il San Pietro di Positano begins at a 17th-century chapel, then steps right down the cliff below it.  
   _claims: f-4_
-- **Candid Traveler**: So the whole hotel steps down toward the sea?  
-  _claims: f-4, c-4_
-- **Luxury Advisor**: Right. An elevator carved into the rock takes you to a private beach and the Carlino restaurant. Every room has its own sea-view terrace.  
+- **Luxury Advisor**: An elevator carved into the rock takes you to a private beach, with a bar and Carlino restaurant. And every room has its own sea-view terrace.  
   _claims: h-1, f-1_
-- **Candid Traveler**: And the food's serious, isn't it?  
-  _claims: h-2_
-- **Luxury Advisor**: Very. Zass has a Michelin star, and ten organic garden terraces supply the kitchens. Plus a free boat cruise.  
-  _claims: h-2, f-5, h-3_
-- **Candid Traveler**: Sounds made for couples, then.  
-  _claims: f-1, h-3_
-- **Luxury Advisor**: Honeymooners especially. Kids are only welcome from ten.  
-  _claims: c-2_
-- **Candid Traveler**: Worth knowing: it's seasonal, roughly April to October. And it's outside town, so dinner in the centre means the free 24-hour shuttle.  
-  _claims: c-1, c-3_
-- **Luxury Advisor**: It's only a few minutes. Do take the car-plus-boat transfer from Naples, though. That coast road gets congested.  
-  _claims: f-6, c-5, f-7_
-- **Candid Traveler**: So, couples who'd rather stay on property and eat very well.  
-  _claims: h-1, h-4, h-2, f-5_
-- **Luxury Advisor**: And a WhataHotel booking includes free breakfast for two daily, a priority upgrade if available at check-in, and a $100 hotel credit.  
+- **Candid Traveler**: And the food?  
+  _claims: —_
+- **Luxury Advisor**: It is. Zass has a Michelin star, ten organic garden terraces supply the kitchens, and the hotel holds Three MICHELIN Keys.  
+  _claims: h-2, f-5, f-2_
+- **Candid Traveler**: Plus a free late-morning boat cruise with swimming and cocktails. That's made for couples.  
+  _claims: h-3_
+- **Luxury Advisor**: It suits staying put, too: heated pool, spa with hammam, tennis between cliffs.  
+  _claims: h-4_
+- **Candid Traveler**: Worth knowing: it's seasonal, roughly April to October, and children are welcome only from ten.  
+  _claims: c-1, c-2_
+- **Luxury Advisor**: And it's outside town, but a free 24-hour shuttle gets you in within minutes.  
+  _claims: c-3, f-6_
+- **Candid Traveler**: From Naples, the coast road can jam. Take the car-plus-boat transfer.  
+  _claims: c-5, f-7_
+- **Luxury Advisor**: It's right for couples who'll live by the sea and the table.  
+  _claims: h-1, h-2, f-1_
+- **Candid Traveler**: And a WhataHotel booking adds free breakfast for two daily, a priority upgrade if available at check-in, and a $100 hotel credit.  
   _claims: p-1, p-2, p-3_
 
 **Claims to verify against sources**
@@ -61,9 +60,9 @@ Audio: `data/shortlist/il-san-pietro-positano-v14.mp3` (source `output/il-san-pi
 - `c-1`: Seasonal hotel, closed in winter: it generally opens in April and closes in October.
 - `c-2`: Children are welcome only from age 10.
 - `c-3`: It sits outside Positano town, so reaching restaurants and shops in the centre means using the free 24-hour shuttle.
-- `c-4`: The hotel is terraced down a cliff. Elevators link the levels to the beach, and there is also a staircase path from the lobby to the sea.
 - `c-5`: The road from Naples along the Amalfi Coast can be congested. The hotel recommends a car-plus-boat transfer.
 - `f-1`: The hotel has about 57-58 rooms, suites and villas, each with a private sea-view terrace.
+- `f-2`: Awarded Three MICHELIN Keys, one of only eight Italian hotels with three Keys in the first (2024) selection.
 - `f-4`: A small 17th-century chapel dedicated to San Pietro marks the entrance, and the hotel steps down the cliff below it.
 - `f-5`: Ten cascading organic garden terraces supply the kitchens. The bars include the Terrace Bar and L'Alcova (next to Zass).
 - `f-6`: A complimentary 24-hour shuttle runs into Positano centre, a few minutes away.
