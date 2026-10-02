@@ -3,10 +3,11 @@ import path from "node:path";
 import { parseArgs } from "node:util";
 import { HOTELS_DIR, listProfileSlugs, loadProfile, validateProfile } from "./core/profile.js";
 import { generateHotel } from "./pipeline.js";
+import { FirecrawlClient } from "./sources/firecrawl.js";
 import { importHotel } from "./sources/import.js";
 import { withReadOnlyDb, type Query } from "./sources/pi-db.js";
 import { WahClient } from "./sources/wah-api.js";
-import { fetchWhataHotelPage } from "./sources/whatahotel.js";
+import { fetchWhataHotelPage, parseWhataHotelPage } from "./sources/whatahotel.js";
 import { listVersions, readMetadata, setStatus } from "./storage/local.js";
 
 const HELP = `WhataHotel Voice — hotel conversation pipeline
@@ -14,6 +15,8 @@ const HELP = `WhataHotel Voice — hotel conversation pipeline
 Usage: npm run hotel -- <command> [options]
 
   scrape    --hotel <slug> | --collection pilot   Fetch whatahotel.com page(s) into data/sources/
+  scrape    ... --via firecrawl                   Use Firecrawl instead of a plain fetch (needs FIRECRAWL_API_KEY)
+  research  --url <url> [--out file]              Firecrawl a page to markdown (default data/research/<host>.md)
   import    --hotel <slug> | --collection pilot [--from api,db] [--dry-run]
                                                   Add claims from the WhataHotel data API and the
                                                   Price Intelligence DB (read-only) to profiles
@@ -42,6 +45,9 @@ const { positionals, values } = parseArgs({
     force: { type: "boolean" },
     from: { type: "string", default: "api,db" },
     "dry-run": { type: "boolean" },
+    via: { type: "string" },
+    url: { type: "string" },
+    out: { type: "string" },
     help: { type: "boolean", short: "h" },
   },
 });
@@ -70,12 +76,25 @@ async function main() {
       const collection = await loadCollection(values.collection ?? "pilot");
       const targets = values.hotel ? collection.hotels.filter((h) => h.slug === values.hotel) : collection.hotels;
       if (!targets.length) throw new Error(`No hotel "${values.hotel}" in collection`);
+      const fc = values.via === "firecrawl" ? FirecrawlClient.fromEnv() : undefined;
+      if (values.via && !fc) throw new Error(`--via accepts firecrawl (got "${values.via}")`);
       for (const h of targets) {
-        const page = await fetchWhataHotelPage(h.url);
+        const page = fc
+          ? parseWhataHotelPage((await fc.scrape(h.url, ["rawHtml"])).rawHtml ?? "", h.url)
+          : await fetchWhataHotelPage(h.url);
         const file = path.resolve("data/sources", `${h.slug}.whatahotel.json`);
         await writeFile(file, JSON.stringify(page, null, 2) + "\n");
         console.log(`✓ ${h.slug}: ${page.pros.length} highlights, ${page.cons.length} considerations`);
       }
+      return;
+    }
+
+    case "research": {
+      const url = need(values.url, "url");
+      const page = await FirecrawlClient.fromEnv().scrape(url);
+      const file = path.resolve(values.out ?? path.join("data/research", `${new URL(url).hostname}.md`));
+      await writeFile(file, `<!-- ${url} -->\n\n${page.markdown ?? ""}\n`);
+      console.log(`✓ ${url} -> ${path.relative(process.cwd(), file)}`);
       return;
     }
 

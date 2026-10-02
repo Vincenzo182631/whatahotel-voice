@@ -47,6 +47,7 @@ Keys (none are needed for the offline mock run):
 | `ELEVENLABS_MODEL` | Optional model override for Text-to-Dialogue (default `eleven_v4`; `eleven_v3` also works). Recorded as `voice_model` in `metadata.json` |
 | `ELEVENLABS_PRONUNCIATION_DICT_ID` | Optional pronunciation dictionary; otherwise profile respellings are used |
 | `GEMINI_API_KEY` (+ optional `GEMINI_VOICE_*`, `GEMINI_TTS_MODEL`) | Optional fallback only: Gemini multi-speaker TTS. Not used, since ElevenLabs is the chosen provider |
+| `FIRECRAWL_API_KEY` | Optional. `scrape --via firecrawl` and `research --url` (page → markdown) |
 | `WAH_API_KEY` | WhataHotel data API (`hotel`, `info`): the same key Price Intelligence uses |
 | `PI_DATABASE_URL` | Price Intelligence Neon database. **Use a read-only role**; queries also run in a READ ONLY transaction |
 
@@ -54,6 +55,8 @@ Keys (none are needed for the offline mock run):
 
 ```bash
 npm run hotel:scrape -- --collection pilot          # refresh data/sources/ from whatahotel.com
+npm run hotel:scrape -- --collection pilot --via firecrawl   # same, through Firecrawl
+npm run hotel:research -- --url https://example.com/hotel     # official site → data/research/<host>.md
 npm run hotel:import -- --collection pilot --dry-run  # preview claims from the WhataHotel API + Price Intelligence DB
 npm run hotel:import -- --hotel peninsula-tokyo --from db   # one hotel, one source
 npm run hotel:validate                              # schema + source-reference checks
