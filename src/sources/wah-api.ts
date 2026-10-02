@@ -240,6 +240,11 @@ export function parseInfo(data: Record<string, unknown>): WahInfo {
   return { amadeusCode: text(amadeus.codes) ?? null, restaurants, amenities, degraded: status !== undefined && status !== "1", raw };
 }
 
+/** Remove non-ASCII characters (e.g. ®, é) and collapse the whitespace they leave behind. */
+export function stripNonAscii(s: string): string {
+  return s.replace(/[^\x20-\x7E]/g, "").replace(/\s+/g, " ").trim();
+}
+
 /**
  * Fetches `info` and refuses it unless its Amadeus code matches the hotel's.
  * Without this, one hotel's data can silently land on another with a similar name.
@@ -247,8 +252,11 @@ export function parseInfo(data: Record<string, unknown>): WahInfo {
 export async function fetchVerifiedInfo(client: WahClient, hotel: WahHotel): Promise<WahInfo> {
   if (!hotel.amadeusProperty) throw new Error(`hotel ${hotel.hotelID} has no Amadeus code; cannot verify info`);
   if (!hotel.city) throw new Error(`hotel ${hotel.hotelID} has no city; info needs one`);
-  // Non-ASCII names are rejected upstream with a 400; we do not transliterate.
-  const info = parseInfo(await client.call("info", { hotelName: hotel.name, hotelCity: hotel.city }));
+  // Non-ASCII names are rejected upstream with a 400, so they are stripped. A wrong match is
+  // still caught by the Amadeus check below.
+  const info = parseInfo(
+    await client.call("info", { hotelName: stripNonAscii(hotel.name), hotelCity: stripNonAscii(hotel.city) }),
+  );
   if (info.amadeusCode !== hotel.amadeusProperty) {
     throw new Error(
       `info identity mismatch for ${hotel.name}: got ${info.amadeusCode ?? "none"}, expected ${hotel.amadeusProperty}`,
