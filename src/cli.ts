@@ -3,6 +3,7 @@ import path from "node:path";
 import { parseArgs } from "node:util";
 import { HOTELS_DIR, listProfileSlugs, loadProfile, validateProfile } from "./core/profile.js";
 import { generateHotel } from "./pipeline.js";
+import { FirecrawlClient, snapshotOfficialSite } from "./sources/firecrawl.js";
 import { importHotel } from "./sources/import.js";
 import { withReadOnlyDb, type Query } from "./sources/pi-db.js";
 import { WahClient } from "./sources/wah-api.js";
@@ -17,6 +18,8 @@ Usage: npm run hotel -- <command> [options]
   import    --hotel <slug> | --collection pilot [--from api,db] [--dry-run]
                                                   Add claims from the WhataHotel data API and the
                                                   Price Intelligence DB (read-only) to profiles
+  official  --hotel <slug> | --collection pilot   Snapshot the hotel's OFFICIAL site via Firecrawl into
+                                                  data/sources/<slug>.official.json (pages in data/official-sites.json)
   validate  [--hotel <slug>]                      Check profile schema and source references
   script    --hotel <slug>                        Write + check a script only (no audio)
   generate  --hotel <slug> [--provider mock|elevenlabs|gemini]
@@ -106,6 +109,31 @@ async function main() {
       };
       if (from.has("db")) await withReadOnlyDb(run);
       else await run();
+      return;
+    }
+
+    case "official": {
+      const sites = JSON.parse(await readFile(path.resolve("data/official-sites.json"), "utf8")) as Record<
+        string,
+        { site: string; pages: string[] }
+      >;
+      const slugs = values.hotel
+        ? [values.hotel]
+        : (await loadCollection(need(values.collection, "collection or --hotel"))).hotels.map((h) => h.slug);
+      const client = FirecrawlClient.fromEnv();
+      for (const slug of slugs) {
+        const entry = sites[slug];
+        if (!entry) {
+          process.exitCode = 1;
+          console.log(`✗ ${slug}: no entry in data/official-sites.json`);
+          continue;
+        }
+        const snap = await snapshotOfficialSite(client, slug, entry.site, entry.pages);
+        await writeFile(path.resolve("data/sources", `${slug}.official.json`), JSON.stringify(snap, null, 2) + "\n");
+        console.log(`${snap.errors.length ? "!" : "✓"} ${slug}: ${snap.pages.length} pages, ${snap.errors.length} errors`);
+        for (const e of snap.errors) console.log(`    ! ${e.url}: ${e.error}`);
+        if (snap.errors.length) process.exitCode = 1;
+      }
       return;
     }
 
