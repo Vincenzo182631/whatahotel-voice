@@ -13,6 +13,7 @@
     "hotel:batch": "NODE_USE_ENV_PROXY=1 NODE_NO_WARNINGS=1 tsx src/cli.ts batch",
     "hotel:list": "NODE_USE_ENV_PROXY=1 NODE_NO_WARNINGS=1 tsx src/cli.ts list",
     "hotel:review": "NODE_USE_ENV_PROXY=1 NODE_NO_WARNINGS=1 tsx src/cli.ts review",
+    "widget:build": "node scripts/build-widget.mjs",
     "typecheck": "tsc --noEmit",
     "test": "vitest run"
   },
