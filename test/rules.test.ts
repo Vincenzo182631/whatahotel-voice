@@ -18,7 +18,10 @@ describe("checkScript", () => {
     expect(checkScript(script(), withPerks)).toContain('"bottom_line" must state the WhataHotel perks and cite a perk claim');
     const s = script();
     s.turns[s.turns.length - 1]!.claim_ids = ["p-1"];
+    s.turns[s.turns.length - 1]!.text = "With the WhataHotel Preferred Rate, breakfast for two is free daily.";
     expect(checkScript(s, withPerks)).toEqual([]);
+    s.turns[s.turns.length - 1]!.text = "A WhataHotel booking includes free breakfast for two daily.";
+    expect(checkScript(s, withPerks).join()).toMatch(/Preferred Rate/);
   });
 
   it("flags pros/cons framing", () => {

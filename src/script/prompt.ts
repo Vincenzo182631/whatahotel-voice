@@ -20,7 +20,7 @@ Structure (sections, in this order)
 5. bottom_line — a one or two line verdict on who it is right for. When the profile has perks, the last two turns also state the WhataHotel perks plainly (see Perks).
 
 Perks
-- If the profile lists perks, say them once, in bottom_line, as a plain statement of what a WhataHotel booking includes: free breakfast for two daily, a priority upgrade if available at check-in, and a $100 hotel credit. Say "if available" for the upgrade; never promise one. Cite the perk claim ids on that turn.
+- If the profile lists perks, say them once, in bottom_line, as a plain statement of what the WhataHotel Preferred Rate includes. Say the words "Preferred Rate" (for example "With the WhataHotel Preferred Rate, you get ..."); never say a plain "WhataHotel booking includes". The perks are: free breakfast for two daily, a priority upgrade if available at check-in, and a $100 hotel credit. Say "if available" for the upgrade; never promise one. Cite the perk claim ids on that turn.
 - Mention "combinable with the exclusive perks" only if a spoken line is about special offers. Do not oversell: no urgency, no "don't miss", no comparisons with other booking sites.
 - Perks are about the WhataHotel booking, not the hotel. Keep them separate from claims about the property.
 

@@ -87,6 +87,10 @@ export function checkScript(script: Script, profile: HotelProfile): string[] {
     const perkIds = new Set(profile.perks.map((c) => c.id));
     const bottomCites = script.turns.filter((t) => t.section === "bottom_line").flatMap((t) => t.claim_ids);
     if (!bottomCites.some((id) => perkIds.has(id))) issues.push('"bottom_line" must state the WhataHotel perks and cite a perk claim');
+    const perkTurns = script.turns.filter((t) => t.claim_ids.some((id) => perkIds.has(id)));
+    if (perkTurns.length > 0 && !perkTurns.some((t) => /preferred rate/i.test(t.text))) {
+      issues.push('the perks must be tied to the "Preferred Rate" (say "WhataHotel Preferred Rate")');
+    }
   }
 
   const chars = script.turns.reduce((n, t) => n + t.text.length, 0);
