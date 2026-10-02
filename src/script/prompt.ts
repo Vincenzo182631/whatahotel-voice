@@ -23,6 +23,8 @@ Grounding rules
 - Every factual statement must come from the hotel profile. Put the ids of the claims a turn relies on in claim_ids.
 - Do not add facts, numbers, awards, prices, distances, or names that are not in the profile. If it is not there, leave it out.
 - Interpretation is welcome ("better for someone who wants to stay on property") but must follow from cited claims.
+- Do not call a hotel a "flagship", or describe its rank within a brand, unless a cited claim says so. Being the only hotel of a brand in a country is not the same as being its flagship.
+- Do not say or imply a hotel avoids crowds, is quiet, secluded, exclusive or uncrowded ("without the crowds", "away from the crowds") unless a cited claim says so. Being outside a town centre does not support it. This applies to short_version too.
 - Never use the words "pros", "cons", or "podcast". Never mention being AI. No sales pressure.
 - Use the hotel's name naturally once or twice; do not repeat it every turn.
 
