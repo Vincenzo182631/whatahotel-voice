@@ -3,7 +3,7 @@ import { loadProfile } from "./core/profile.js";
 import { ScriptSchema, type Metadata, type Script } from "./core/schema.js";
 import { durationSeconds } from "./providers/audio.js";
 import { createProvider } from "./providers/index.js";
-import { SCRIPT_MODEL, factCheck, writeScript } from "./script/claude.js";
+import { SCRIPT_MODEL, factCheck, pipelineApiKey, writeScript } from "./script/claude.js";
 import { checkScript, wordCount } from "./script/rules.js";
 import { nextVersion, readScript, saveVersion } from "./storage/local.js";
 
@@ -24,7 +24,7 @@ export interface GenerateResult {
   ruleIssues: string[];
 }
 
-const hasClaude = () => Boolean(process.env.ANTHROPIC_API_KEY || process.env.ANTHROPIC_AUTH_TOKEN);
+const hasClaude = () => Boolean(pipelineApiKey());
 
 export async function generateHotel(slug: string, opts: GenerateOptions): Promise<GenerateResult> {
   const log = opts.log ?? (() => {});
@@ -39,7 +39,7 @@ export async function generateHotel(slug: string, opts: GenerateOptions): Promis
     script = ScriptSchema.parse(JSON.parse(await readFile(opts.scriptFile, "utf8")));
     scriptModel = "manual";
   } else {
-    if (!hasClaude()) throw new Error("No ANTHROPIC_API_KEY set. Use --script-file or --from-version, or add the key.");
+    if (!hasClaude()) throw new Error("No WH_ANTHROPIC_API_KEY set. Use --script-file or --from-version, or add the key.");
     log(`writing script with ${SCRIPT_MODEL}…`);
     const result = await writeScript(profile);
     script = result.script;
@@ -54,7 +54,7 @@ export async function generateHotel(slug: string, opts: GenerateOptions): Promis
     const fc = await factCheck(profile, script);
     fact = { passed: fc.passed && ruleIssues.length === 0, issues: [...ruleIssues, ...fc.issues] };
   } else {
-    fact = { passed: false, issues: [...ruleIssues, "model fact check skipped: no ANTHROPIC_API_KEY"] };
+    fact = { passed: false, issues: [...ruleIssues, "model fact check skipped: no WH_ANTHROPIC_API_KEY"] };
   }
 
   let audio: Buffer | undefined;

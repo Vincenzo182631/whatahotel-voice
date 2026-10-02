@@ -42,7 +42,7 @@ Keys (none are needed for the offline mock run):
 
 | Key | Used for |
 |---|---|
-| `ANTHROPIC_API_KEY` | Writing scripts and fact checking (`claude-opus-5-5`) |
+| `WH_ANTHROPIC_API_KEY` | Writing scripts and fact checking (`claude-opus-5-5`). Not `ANTHROPIC_API_KEY`: Claude Code cloud environments reserve that name for their own login (it is still accepted as a fallback locally) |
 | `ELEVENLABS_API_KEY`, `ELEVENLABS_VOICE_ADVISOR`, `ELEVENLABS_VOICE_TRAVELER` | Text-to-Dialogue voices (`eleven_v3`). In the cloud environment the key is an **API credential** (host `api.elevenlabs.io`, header `xi-api-key`, no prefix) instead of a variable; the code then sends no key itself |
 | `ELEVENLABS_PRONUNCIATION_DICT_ID` | Optional pronunciation dictionary; otherwise profile respellings are used |
 | `GEMINI_API_KEY` (+ optional `GEMINI_VOICE_*`, `GEMINI_TTS_MODEL`) | Optional fallback only: Gemini multi-speaker TTS. Not used, since ElevenLabs is the chosen provider |

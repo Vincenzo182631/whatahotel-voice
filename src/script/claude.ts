@@ -12,6 +12,18 @@ import { checkScript } from "./rules.js";
 
 export const SCRIPT_MODEL = "claude-opus-5-5";
 
+/**
+ * In Claude Code cloud environments ANTHROPIC_API_KEY is reserved for Claude
+ * Code's own login, so the pipeline reads WH_ANTHROPIC_API_KEY first.
+ */
+export function pipelineApiKey(): string | undefined {
+  return process.env.WH_ANTHROPIC_API_KEY || process.env.ANTHROPIC_API_KEY || undefined;
+}
+
+export function createClient(): Anthropic {
+  return new Anthropic({ apiKey: pipelineApiKey() });
+}
+
 const FactCheckSchema = z.object({
   passed: z.boolean(),
   issues: z.array(z.object({ turn: z.number().int(), problem: z.string() })),
@@ -56,7 +68,7 @@ async function parseWith<T extends z.ZodType>(
 /** Writes a script, re-prompting with rule failures up to maxAttempts. */
 export async function writeScript(
   profile: HotelProfile,
-  { client = new Anthropic(), maxAttempts = 3 }: { client?: Anthropic; maxAttempts?: number } = {},
+  { client = createClient(), maxAttempts = 3 }: { client?: Anthropic; maxAttempts?: number } = {},
 ): Promise<ScriptResult> {
   let feedback: string[] = [];
   let script: Script | undefined;
@@ -74,7 +86,7 @@ export async function writeScript(
 export async function factCheck(
   profile: HotelProfile,
   script: Script,
-  { client = new Anthropic() }: { client?: Anthropic } = {},
+  { client = createClient() }: { client?: Anthropic } = {},
 ): Promise<{ passed: boolean; issues: string[] }> {
   const result = await parseWith(
     client,
