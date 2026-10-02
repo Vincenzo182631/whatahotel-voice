@@ -11,6 +11,7 @@
     "hotel:script": "NODE_USE_ENV_PROXY=1 NODE_NO_WARNINGS=1 tsx src/cli.ts script",
     "hotel:generate": "NODE_USE_ENV_PROXY=1 NODE_NO_WARNINGS=1 tsx src/cli.ts generate",
     "hotel:batch": "NODE_USE_ENV_PROXY=1 NODE_NO_WARNINGS=1 tsx src/cli.ts batch",
+    "hotel:publish": "NODE_USE_ENV_PROXY=1 NODE_NO_WARNINGS=1 tsx src/cli.ts publish",
     "hotel:list": "NODE_USE_ENV_PROXY=1 NODE_NO_WARNINGS=1 tsx src/cli.ts list",
     "hotel:review": "NODE_USE_ENV_PROXY=1 NODE_NO_WARNINGS=1 tsx src/cli.ts review",
     "widget:build": "node scripts/build-widget.mjs",
@@ -28,6 +29,7 @@
   "dependencies": {
     "@anthropic-ai/sdk": "^0.131.0",
     "@neondatabase/serverless": "^1.1.0",
+    "@vercel/blob": "^2.8.0",
     "zod": "^4.6.5"
   },
   "devDependencies": {
