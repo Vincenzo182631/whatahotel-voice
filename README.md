@@ -45,7 +45,7 @@ Keys (none are needed for the offline mock run):
 | `ANTHROPIC_API_KEY` | Writing scripts and fact checking (`claude-opus-5-5`) |
 | `ELEVENLABS_API_KEY`, `ELEVENLABS_VOICE_ADVISOR`, `ELEVENLABS_VOICE_TRAVELER` | Text-to-Dialogue voices (`eleven_v3`) |
 | `ELEVENLABS_PRONUNCIATION_DICT_ID` | Optional pronunciation dictionary; otherwise profile respellings are used |
-| `GEMINI_API_KEY` (+ optional `GEMINI_VOICE_*`, `GEMINI_TTS_MODEL`) | Gemini multi-speaker TTS, for comparison |
+| `GEMINI_API_KEY` (+ optional `GEMINI_VOICE_*`, `GEMINI_TTS_MODEL`) | Optional fallback only: Gemini multi-speaker TTS. Not used, since ElevenLabs is the chosen provider |
 | `WAH_API_KEY` | WhataHotel data API (`hotel`, `info`): the same key Price Intelligence uses |
 | `PI_DATABASE_URL` | Price Intelligence Neon database. **Use a read-only role**; queries also run in a READ ONLY transaction |
 
@@ -106,6 +106,6 @@ Imported claims are tagged with `origin` and get stable ids, so re-running is sa
 ## Roadmap
 
 1. **Phase 1 (this):** schema, script engine, provider abstraction, CLI, pilot profiles.
-2. **Phase 2:** five-hotel pilot, with three script versions each and ElevenLabs vs. Gemini compared on identical scripts.
+2. **Phase 2:** five-hotel pilot, three script versions each, voiced with ElevenLabs (chosen provider, 2026-10-02; the Gemini provider stays in the code as an unused fallback).
 3. **Phase 3:** script-tag player widget, transcript, and "short version" card.
 4. **Phase 4:** batch generation and publishing to Vercel Blob.
