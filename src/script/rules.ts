@@ -1,10 +1,10 @@
 import { allClaims } from "../core/profile.js";
 import { Section, type HotelProfile, type Script } from "../core/schema.js";
 
-/** ~2.5 spoken words per second for relaxed two-host conversation. */
-export const WORDS_PER_SECOND = 2.5;
+/** ~2.2 spoken words per second, measured on ElevenLabs eleven_v3 two-host dialogue. */
+export const WORDS_PER_SECOND = 2.2;
 export const TARGET_SECONDS = 75;
-export const WORD_RANGE = { min: 165, max: 205 } as const;
+export const WORD_RANGE = { min: 150, max: 170 } as const;
 /** ElevenLabs Text-to-Dialogue limit per request; longer scripts get chunked. */
 export const DIALOGUE_CHAR_LIMIT = 2000;
 

@@ -70,7 +70,7 @@ npm test && npm run typecheck
 
 ## Editorial rules (enforced in `src/script/rules.ts`)
 
-- 165–205 words (about 75 s), 8–12 turns, sections in order: hook → stands_out → best_for → to_know → bottom_line.
+- 150–170 words (about 75 s), 8–12 turns, sections in order: hook → stands_out → best_for → to_know → bottom_line.
 - The Candid Traveler must raise at least one sourced consideration.
 - Never "pros/cons", "podcast", guarantees, or sales pressure.
 - Any number must come from a cited claim.
