@@ -8,7 +8,9 @@ import {
   type VoiceProvider,
 } from "./types.js";
 
-const ENDPOINT = "https://api.elevenlabs.io/v1/text-to-dialogue?output_format=mp3_44100_128";
+// The streaming variant: same request and output, but audio starts flowing at once,
+// so long dialogues are not cut off by proxies with a 30-second response timeout.
+const ENDPOINT = "https://api.elevenlabs.io/v1/text-to-dialogue/stream?output_format=mp3_44100_128";
 const MODEL = "eleven_v3";
 /** Documented per-request ceiling across all inputs[].text. */
 const CHAR_LIMIT = 2000;
