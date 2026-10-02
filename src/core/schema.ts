@@ -39,6 +39,8 @@ export const HotelProfileSchema = z.object({
   facts: z.array(ClaimSchema).min(3),
   highlights: z.array(ClaimSchema).min(2),
   considerations: z.array(ClaimSchema).min(1),
+  /** WhataHotel booking perks (same wording on every hotel page). Sourced from the WhataHotel page. */
+  perks: z.array(ClaimSchema).default([]),
   pronunciations: z.array(z.object({ term: z.string(), say_as: z.string() })).default([]),
   sources: z.array(SourceSchema).min(1),
   status: ProfileStatus,

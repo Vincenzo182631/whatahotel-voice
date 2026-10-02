@@ -74,6 +74,12 @@ export function checkScript(script: Script, profile: HotelProfile): string[] {
     issues.push('"to_know" must cite at least one consideration');
   }
 
+  if (profile.perks.length > 0) {
+    const perkIds = new Set(profile.perks.map((c) => c.id));
+    const bottomCites = script.turns.filter((t) => t.section === "bottom_line").flatMap((t) => t.claim_ids);
+    if (!bottomCites.some((id) => perkIds.has(id))) issues.push('"bottom_line" must state the WhataHotel perks and cite a perk claim');
+  }
+
   const chars = script.turns.reduce((n, t) => n + t.text.length, 0);
   if (chars > DIALOGUE_CHAR_LIMIT * 2) issues.push(`script is ${chars} chars; too long for a ~75s piece`);
   return issues;

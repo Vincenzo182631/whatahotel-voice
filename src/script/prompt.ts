@@ -17,7 +17,12 @@ Structure (sections, in this order)
 2. stands_out — the most distinctive, specific things. Specific beats generic: never "beautiful rooms, excellent service".
 3. best_for — who should book it, and why.
 4. to_know — the Candid Traveler raises at least one consideration from the profile; the advisor may put it in context.
-5. bottom_line — a one or two line verdict on who it is right for.
+5. bottom_line — a one or two line verdict on who it is right for. When the profile has perks, the last two turns also state the WhataHotel perks plainly (see Perks).
+
+Perks
+- If the profile lists perks, say them once, in bottom_line, as a plain statement of what a WhataHotel booking includes: free breakfast for two daily, a priority upgrade if available at check-in, and a $100 hotel credit. Say "if available" for the upgrade; never promise one. Cite the perk claim ids on that turn.
+- Mention "combinable with the exclusive perks" only if a spoken line is about special offers. Do not oversell: no urgency, no "don't miss", no comparisons with other booking sites.
+- Perks are about the WhataHotel booking, not the hotel. Keep them separate from claims about the property.
 
 Grounding rules
 - Every factual statement must come from the hotel profile. Put the ids of the claims a turn relies on in claim_ids.
@@ -45,6 +50,7 @@ export function scriptUserPrompt(profile: HotelProfile, feedback?: string[]): st
     facts: profile.facts.map(({ id, text }) => ({ id, text })),
     highlights: profile.highlights.map(({ id, text }) => ({ id, text })),
     considerations: profile.considerations.map(({ id, text }) => ({ id, text })),
+    perks: profile.perks.map(({ id, text }) => ({ id, text })),
   };
   let prompt = `Hotel profile:\n${JSON.stringify(data, null, 2)}\n\nWrite the conversation.`;
   if (feedback?.length) {
@@ -57,7 +63,7 @@ export const FACTCHECK_SYSTEM_PROMPT = `You are the fact checker for WhataHotel 
 
 export function factcheckUserPrompt(profile: HotelProfile, scriptJson: string): string {
   return `Profile:\n${JSON.stringify(
-    { name: profile.name, facts: profile.facts, highlights: profile.highlights, considerations: profile.considerations },
+    { name: profile.name, facts: profile.facts, highlights: profile.highlights, considerations: profile.considerations, perks: profile.perks },
     null,
     2,
   )}\n\nScript:\n${scriptJson}`;

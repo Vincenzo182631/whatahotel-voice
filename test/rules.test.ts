@@ -13,6 +13,14 @@ describe("checkScript", () => {
     expect(wordCount(script())).toBe(168);
   });
 
+  it("requires the bottom line to cite a perk when the profile has perks", () => {
+    const withPerks = { ...profile, perks: [{ id: "p-1", text: "Breakfast for two is free daily.", source_ids: ["official"] }] };
+    expect(checkScript(script(), withPerks)).toContain('"bottom_line" must state the WhataHotel perks and cite a perk claim');
+    const s = script();
+    s.turns[s.turns.length - 1]!.claim_ids = ["p-1"];
+    expect(checkScript(s, withPerks)).toEqual([]);
+  });
+
   it("flags pros/cons framing", () => {
     const s = script();
     s.turns[7]!.text = s.turns[7]!.text.replace("Two things I'd tell a client.", "Now the cons.");

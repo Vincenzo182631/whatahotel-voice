@@ -34,7 +34,7 @@ export function validateProfile(raw: unknown): ValidationResult {
 }
 
 export function allClaims(profile: HotelProfile): Claim[] {
-  return [...profile.facts, ...profile.highlights, ...profile.considerations];
+  return [...profile.facts, ...profile.highlights, ...profile.considerations, ...profile.perks];
 }
 
 export async function loadProfile(slug: string): Promise<HotelProfile> {
