@@ -4,6 +4,7 @@ import { parseArgs } from "node:util";
 import { HOTELS_DIR, listProfileSlugs, loadProfile, validateProfile } from "./core/profile.js";
 import { generateHotel } from "./pipeline.js";
 import { FirecrawlClient } from "./sources/firecrawl.js";
+import { publishTake } from "./publish/blob.js";
 import { importHotel } from "./sources/import.js";
 import { withReadOnlyDb, type Query } from "./sources/pi-db.js";
 import { WahClient } from "./sources/wah-api.js";
@@ -25,6 +26,9 @@ Usage: npm run hotel -- <command> [options]
   generate  --hotel <slug> [--provider mock|elevenlabs|gemini]
             [--from-version N] [--script-file path]  Script + audio as a new version
   batch     --collection pilot [--provider ...]   Generate for every hotel in a collection
+  publish   --hotel <slug> --version N --script-url <url>
+                                                  Upload an approved version to Vercel Blob (needs
+                                                  BLOB_READ_WRITE_TOKEN) and mark it published
   list                                            Latest version and status per hotel
   review    --hotel <slug> --version N (--approve | --reject) [--note "..."] [--force]
 
@@ -48,6 +52,7 @@ const { positionals, values } = parseArgs({
     via: { type: "string" },
     url: { type: "string" },
     out: { type: "string" },
+    "script-url": { type: "string" },
     help: { type: "boolean", short: "h" },
   },
 });
@@ -216,6 +221,16 @@ async function main() {
       }
       const updated = await setStatus(slug, version, values.approve ? "approved" : "rejected", values.note);
       console.log(`✓ ${slug} v${version} → ${updated.status}`);
+      return;
+    }
+
+    case "publish": {
+      const slug = need(values.hotel, "hotel");
+      const version = Number(need(values.version, "version"));
+      const scriptUrl = need(values["script-url"], "script-url");
+      if (!process.env.BLOB_READ_WRITE_TOKEN) throw new Error("BLOB_READ_WRITE_TOKEN is not set");
+      const m = await publishTake(slug, version, { scriptUrl });
+      console.log(`✓ ${slug} v${version} → published\n  audio: ${m.audio_url}\n  transcript: ${m.transcript_url}\n  embed: ${m.embed}`);
       return;
     }
 
