@@ -8,7 +8,7 @@ import {
   factcheckUserPrompt,
   scriptUserPrompt,
 } from "./prompt.js";
-import { checkScript } from "./rules.js";
+import { checkScript, withSignature } from "./rules.js";
 
 export const SCRIPT_MODEL = "claude-opus-5-5";
 
@@ -75,7 +75,7 @@ export async function writeScript(
   let attempt = 0;
   while (attempt < maxAttempts) {
     attempt++;
-    script = await parseWith(client, ScriptSchema, SCRIPT_SYSTEM_PROMPT, scriptUserPrompt(profile, feedback), "high");
+    script = withSignature(await parseWith(client, ScriptSchema, SCRIPT_SYSTEM_PROMPT, scriptUserPrompt(profile, feedback), "high"), profile);
     feedback = checkScript(script, profile);
     if (feedback.length === 0) break;
   }

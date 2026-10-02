@@ -4,7 +4,7 @@ import { ScriptSchema, type Metadata, type Script } from "./core/schema.js";
 import { durationSeconds } from "./providers/audio.js";
 import { createProvider } from "./providers/index.js";
 import { SCRIPT_MODEL, factCheck, pipelineApiKey, writeScript } from "./script/claude.js";
-import { AUDIO_SECONDS, checkDuration, checkScript, wordCount } from "./script/rules.js";
+import { AUDIO_SECONDS, checkDuration, checkScript, withSignature, wordCount } from "./script/rules.js";
 import { nextVersion, readScript, saveVersion } from "./storage/local.js";
 
 export interface GenerateOptions {
@@ -58,6 +58,7 @@ export async function generateHotel(slug: string, opts: GenerateOptions): Promis
       log(`script ready after ${result.attempts} attempt(s)`);
     }
 
+    script = withSignature(script, profile);
     ruleIssues = checkScript(script, profile);
     if (hasClaude()) {
       log("fact checking…");

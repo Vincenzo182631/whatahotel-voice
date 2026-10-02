@@ -71,6 +71,7 @@ npm test && npm run typecheck
 ## Editorial rules (enforced in `src/script/rules.ts`)
 
 - **Audio 75–100 s**, checked on the real audio after voicing (`length_check` in `metadata.json`). If a freshly written script lands outside the window, the pipeline rewrites it once with a target word count. `review --approve` refuses an out-of-range version.
+- **WhataHotel signature:** every clip ends with the same perks line, spoken word for word by the Luxury Advisor (`PERKS_SIGNATURE` in `src/script/rules.ts`). The pipeline adds it, so the writer never writes perks; it ends on the Candid Traveler's verdict. The line counts toward the word range.
 - 175–190 words (measured pace is 1.9–2.3 words/s), 8–12 turns, sections in order: hook → stands_out → best_for → to_know → bottom_line.
 - The Candid Traveler must raise at least one sourced consideration.
 - Never "pros/cons", "podcast", guarantees, or sales pressure.

@@ -1,5 +1,5 @@
 import { SPEAKERS, type HotelProfile } from "../core/schema.js";
-import { AUDIO_SECONDS, WORD_RANGE } from "./rules.js";
+import { AUDIO_SECONDS, PERKS_SIGNATURE_WORDS, WORD_RANGE } from "./rules.js";
 
 /**
  * Stable system prompt (kept byte-identical across hotels so it caches).
@@ -17,12 +17,11 @@ Structure (sections, in this order)
 2. stands_out — the most distinctive, specific things. Specific beats generic: never "beautiful rooms, excellent service".
 3. best_for — who should book it, and why.
 4. to_know — the Candid Traveler raises at least one consideration from the profile; the advisor may put it in context.
-5. bottom_line — a one or two line verdict on who it is right for. When the profile has perks, the last two turns also state the WhataHotel perks plainly (see Perks).
+5. bottom_line — a one or two line verdict on who it is right for. Your last turn is the Candid Traveler giving that verdict. The pipeline then adds the WhataHotel signature line (see Perks).
 
 Perks
-- If the profile lists perks, say them once, in bottom_line, as a plain statement of what the WhataHotel Preferred Rate includes. Say the words "Preferred Rate" (for example "With the WhataHotel Preferred Rate, you get ..."); never say a plain "WhataHotel booking includes". The perks are: free breakfast for two daily, a priority upgrade if available at check-in, and a $100 hotel credit. Say "if available" for the upgrade; never promise one. Cite the perk claim ids on that turn.
-- Mention "combinable with the exclusive perks" only if a spoken line is about special offers. Do not oversell: no urgency, no "don't miss", no comparisons with other booking sites.
-- Perks are about the WhataHotel booking, not the hotel. Keep them separate from claims about the property.
+- Never write, paraphrase or hint at the WhataHotel perks (free breakfast, upgrade, hotel credit, Preferred Rate, special offers). After your last turn the pipeline adds a fixed WhataHotel signature line spoken by the Luxury Advisor; it is ${PERKS_SIGNATURE_WORDS} words and counts toward the total.
+- Your last turn must be spoken by the Candid Traveler, so the Advisor delivers the signature next.
 
 Grounding rules
 - Every factual statement must come from the hotel profile. Put the ids of the claims a turn relies on in claim_ids.
@@ -34,7 +33,7 @@ Grounding rules
 - Use the hotel's name naturally once or twice; do not repeat it every turn.
 
 Length and form
-- ${WORD_RANGE.min}-${WORD_RANGE.max} words total across all turns (the spoken audio must run ${AUDIO_SECONDS.min}-${AUDIO_SECONDS.max} seconds; names and numbers slow speech, so aim for the middle of the range), 8-12 turns, no speaker more than twice in a row.
+- ${WORD_RANGE.min - PERKS_SIGNATURE_WORDS}-${WORD_RANGE.max - PERKS_SIGNATURE_WORDS} words across your turns, ${WORD_RANGE.min}-${WORD_RANGE.max} once the signature is added (the spoken audio must run ${AUDIO_SECONDS.min}-${AUDIO_SECONDS.max} seconds; names and numbers slow speech, so aim for the middle of the range), 8-12 turns, no speaker more than twice in a row.
 - Spoken English: contractions, short sentences, natural reactions ("Right.", "That's the thing.") but no filler.
 - No stage directions, sound effects, or markup in the text.
 

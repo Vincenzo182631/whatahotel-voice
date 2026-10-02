@@ -19,6 +19,24 @@ const BANNED: Array<[RegExp, string]> = [
   [/\b(book now|don'?t miss out|limited time)\b/i, "sales pressure language"],
 ];
 
+/**
+ * The WhataHotel signature: the perks, spoken word for word as the last turn of every clip by the
+ * Luxury Advisor. The pipeline adds it; the writer never writes perks.
+ */
+export const PERKS_SIGNATURE =
+  "With the WhataHotel Preferred Rate, you get free breakfast for two daily, a priority upgrade if available at check-in, and a $100 hotel credit.";
+export const PERKS_SIGNATURE_CLAIMS = ["p-1", "p-2", "p-3"] as const;
+export const PERKS_SIGNATURE_WORDS = PERKS_SIGNATURE.split(/\s+/).length;
+
+/** Appends the signature turn (replacing any perk turns already present, so it is idempotent). */
+export function withSignature(script: Script, profile: HotelProfile): Script {
+  const perkIds = new Set(profile.perks.map((c) => c.id));
+  if (!PERKS_SIGNATURE_CLAIMS.every((id) => perkIds.has(id))) return script;
+  const turns = script.turns.filter((t) => !t.claim_ids.some((id) => perkIds.has(id)));
+  turns.push({ speaker: "advisor", section: "bottom_line", text: PERKS_SIGNATURE, claim_ids: [...PERKS_SIGNATURE_CLAIMS] });
+  return { ...script, turns };
+}
+
 export function wordCount(script: Script): number {
   return script.turns.reduce((n, t) => n + t.text.trim().split(/\s+/).filter(Boolean).length, 0);
 }
@@ -83,14 +101,15 @@ export function checkScript(script: Script, profile: HotelProfile): string[] {
     issues.push('"to_know" must cite at least one consideration');
   }
 
-  if (profile.perks.length > 0) {
-    const perkIds = new Set(profile.perks.map((c) => c.id));
-    const bottomCites = script.turns.filter((t) => t.section === "bottom_line").flatMap((t) => t.claim_ids);
-    if (!bottomCites.some((id) => perkIds.has(id))) issues.push('"bottom_line" must state the WhataHotel perks and cite a perk claim');
-    const perkTurns = script.turns.filter((t) => t.claim_ids.some((id) => perkIds.has(id)));
-    if (perkTurns.length > 0 && !perkTurns.some((t) => /preferred rate/i.test(t.text))) {
-      issues.push('the perks must be tied to the "Preferred Rate" (say "WhataHotel Preferred Rate")');
+  if (PERKS_SIGNATURE_CLAIMS.every((id) => profile.perks.some((c) => c.id === id))) {
+    const last = script.turns[script.turns.length - 1];
+    if (last?.text !== PERKS_SIGNATURE || last.speaker !== "advisor" || last.section !== "bottom_line") {
+      issues.push("the last turn must be the WhataHotel signature line, spoken by the Luxury Advisor, word for word");
     }
+    const perkIds = new Set(profile.perks.map((c) => c.id));
+    script.turns.slice(0, -1).forEach((t, i) => {
+      if (t.claim_ids.some((id) => perkIds.has(id))) issues.push(`turn ${i} states the perks; only the signature line may`);
+    });
   }
 
   const chars = script.turns.reduce((n, t) => n + t.text.length, 0);

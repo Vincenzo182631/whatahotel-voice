@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import { HotelProfileSchema, ScriptSchema, type Script } from "../src/core/schema.js";
-import { checkDuration, checkScript, wordCount } from "../src/script/rules.js";
+import { PERKS_SIGNATURE, checkDuration, checkScript, withSignature, wordCount } from "../src/script/rules.js";
 
 const profile = HotelProfileSchema.parse(JSON.parse(readFileSync("test/fixtures/hotels/test-hotel.json", "utf8")));
 const script = (): Script =>
@@ -13,15 +13,40 @@ describe("checkScript", () => {
     expect(wordCount(script())).toBe(187);
   });
 
-  it("requires the bottom line to cite a perk when the profile has perks", () => {
-    const withPerks = { ...profile, perks: [{ id: "p-1", text: "Breakfast for two is free daily.", source_ids: ["official"] }] };
-    expect(checkScript(script(), withPerks)).toContain('"bottom_line" must state the WhataHotel perks and cite a perk claim');
-    const s = script();
-    s.turns[s.turns.length - 1]!.claim_ids = ["p-1"];
-    s.turns[s.turns.length - 1]!.text = "With the WhataHotel Preferred Rate, breakfast for two is free daily.";
-    expect(checkScript(s, withPerks)).toEqual([]);
-    s.turns[s.turns.length - 1]!.text = "A WhataHotel booking includes free breakfast for two daily.";
-    expect(checkScript(s, withPerks).join()).toMatch(/Preferred Rate/);
+  describe("WhataHotel signature", () => {
+    const perk = (id: string) => ({ id, text: `Perk ${id}.`, source_ids: ["official"] });
+    const withPerks = { ...profile, perks: [perk("p-1"), perk("p-2"), perk("p-3"), perk("p-4")] };
+
+    it("is required as the last turn when the profile has perks", () => {
+      expect(checkScript(script(), withPerks).join()).toMatch(/last turn must be the WhataHotel signature line/);
+    });
+
+    it("is appended word for word by the Luxury Advisor, once", () => {
+      const s = withSignature(script(), withPerks);
+      const last = s.turns[s.turns.length - 1]!;
+      expect(last).toMatchObject({ speaker: "advisor", section: "bottom_line", text: PERKS_SIGNATURE, claim_ids: ["p-1", "p-2", "p-3"] });
+      expect(withSignature(s, withPerks).turns).toHaveLength(s.turns.length);
+      expect(checkScript(s, withPerks).join()).not.toMatch(/signature|states the perks/);
+      expect(PERKS_SIGNATURE).toMatch(/WhataHotel Preferred Rate/);
+    });
+
+    it("replaces perks a script already states elsewhere", () => {
+      const s = script();
+      s.turns[s.turns.length - 1]!.claim_ids = ["p-1"];
+      const fixed = withSignature(s, withPerks);
+      expect(fixed.turns.filter((t) => t.claim_ids.includes("p-1"))).toHaveLength(1);
+      expect(fixed.turns[fixed.turns.length - 1]!.text).toBe(PERKS_SIGNATURE);
+    });
+
+    it("rejects perks spoken outside the signature", () => {
+      const s = withSignature(script(), withPerks);
+      s.turns[2]!.claim_ids = ["p-1"];
+      expect(checkScript(s, withPerks).join()).toMatch(/turn 2 states the perks/);
+    });
+
+    it("does nothing for a profile without perks", () => {
+      expect(withSignature(script(), profile)).toEqual(script());
+    });
   });
 
   it("flags pros/cons framing", () => {
