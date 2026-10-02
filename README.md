@@ -113,5 +113,5 @@ Imported claims are tagged with `origin` and get stable ids, so re-running is sa
 
 1. **Phase 1 (this):** schema, script engine, provider abstraction, CLI, pilot profiles.
 2. **Phase 2:** five-hotel pilot, three script versions each, voiced with ElevenLabs (chosen provider, 2026-10-02; the Gemini provider stays in the code as an unused fallback).
-3. **Phase 3:** script-tag player widget, transcript, and "short version" card.
+3. **Phase 3 (built):** script-tag player widget, transcript, and "short version" card. `npm run widget:build` bundles `dist/wah-take.js` and a local demo of approved hotels in `dist/demo/`. Embed with `<script src=".../wah-take.js" data-transcript=".../<slug>/transcript.json"></script>` (optional `data-audio`; default is `audio.mp3` beside the transcript). Renders in the light DOM so the transcript is crawlable; a failed load never breaks the page.
 4. **Phase 4:** batch generation and publishing to Vercel Blob.
