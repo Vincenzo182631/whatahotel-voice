@@ -92,3 +92,7 @@ Browser check: fourseasons.com/serengeti accommodations, Kijana Klub, safari adv
 Official Four Seasons copy (March 2026) still calls Capa "Michelin-starred"; the Michelin 2026 guide lists it as Recommended only.
 
 Browser check: fourseasons.com/orlando family page (s6), Capa, Explorer Island.
+
+## Applied (2026-10-02)
+
+The rewordings above were applied to the Tokyo, Maui, Serengeti and Orlando profiles. Not changed, because they need a browser check or have no proposed wording: Tokyo f-3, c-2 and h-4; Maui h-4, f-3 and `best_for`; Orlando c-3 ("family pool") and c-2's note about stale official copy. Added sources: Maui s13-s15 (press.fourseasons.com pages that loaded) and s16 (Elli Travel); Orlando s4 replaced (dead link) with the Visit Orlando blog. Dropped "Multi-generational groups" from Orlando `best_for`. Tokyo f-1 uses the fallback "about 300 rooms" because the 314 vs 302 conflict can't be settled from here. All profiles remain `draft`.
