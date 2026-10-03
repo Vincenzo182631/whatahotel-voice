@@ -5,11 +5,11 @@
  *   <script src="https://.../wah-take.js"
  *           data-transcript="https://.../il-san-pietro-positano/transcript.json"></script>
  *
- * Optional `data-audio` overrides the audio URL (default: audio.mp3 next to the
- * transcript). The player renders in place, in the light DOM, so the transcript
- * stays visible to crawlers.
+ * The audio is `audio.mp3` next to `data-transcript` (the transcript itself is
+ * not fetched or shown), or `data-audio` when given. The player renders in
+ * place and never throws into the host page.
  */
-import { renderTake, TAKE_CSS, type TakeTranscript } from "./render.js";
+import { renderTake, TAKE_CSS } from "./render.js";
 
 function ensureStyles(): void {
   if (document.getElementById("wah-take-css")) return;
@@ -19,23 +19,20 @@ function ensureStyles(): void {
   document.head.appendChild(style);
 }
 
-async function mount(script: HTMLScriptElement): Promise<void> {
-  const src = script.dataset.transcript;
-  if (!src) return;
+function mount(script: HTMLScriptElement): void {
   try {
-    const res = await fetch(src);
-    if (!res.ok) throw new Error(`transcript ${res.status}`);
-    const transcript = (await res.json()) as TakeTranscript;
-    const audio = script.dataset.audio ?? new URL("audio.mp3", new URL(src, document.baseURI)).href;
+    const transcript = script.dataset.transcript;
+    const audio =
+      script.dataset.audio ?? (transcript ? new URL("audio.mp3", new URL(transcript, document.baseURI)).href : undefined);
+    if (!audio) return;
     ensureStyles();
     const host = document.createElement("div");
-    host.innerHTML = renderTake(transcript, audio);
+    host.innerHTML = renderTake(audio);
     script.insertAdjacentElement("afterend", host);
   } catch (err) {
-    // A failed player must never break the hotel page.
     console.warn("[wah-take]", err);
   }
 }
 
 const current = document.currentScript as HTMLScriptElement | null;
-if (current) void mount(current);
+if (current) mount(current);
