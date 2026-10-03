@@ -5,11 +5,12 @@
  *   <script src="https://.../wah-take.js"
  *           data-transcript="https://.../il-san-pietro-positano/transcript.json"></script>
  *
- * Optional `data-audio` overrides the audio URL (default: audio.mp3 next to the
- * transcript). The player renders in place, in the light DOM, so the transcript
- * stays visible to crawlers.
+ * Renders a "Hear Hotel Highlights" pill in place; clicking it opens a player
+ * bar and plays. Audio is `audio.mp3` beside `data-transcript` (or `data-audio`).
+ * The transcript is read only for the hotel name. Optional `data-image` adds a
+ * thumbnail. A failure here never throws into the host page.
  */
-import { renderTake, TAKE_CSS, type TakeTranscript } from "./render.js";
+import { formatTime, ICONS, renderTake, TAKE_CSS } from "./render.js";
 
 function ensureStyles(): void {
   if (document.getElementById("wah-take-css")) return;
@@ -19,23 +20,84 @@ function ensureStyles(): void {
   document.head.appendChild(style);
 }
 
-async function mount(script: HTMLScriptElement): Promise<void> {
-  const src = script.dataset.transcript;
-  if (!src) return;
+function wire(root: HTMLElement): void {
+  const bar = root.querySelector<HTMLElement>(".wah-take__bar")!;
+  const audio = root.querySelector<HTMLAudioElement>("audio")!;
+  const q = (role: string) => root.querySelector<HTMLElement>(`[data-role="${role}"]`)!;
+  const setPlaying = (on: boolean) => {
+    root.dataset.playing = String(on);
+    q("toggle-icon").innerHTML = on ? ICONS.pause : ICONS.play;
+    root.querySelector('[data-act="toggle"]')!.setAttribute("aria-label", on ? "Pause" : "Play");
+  };
+  const showDuration = () => (q("duration").textContent = formatTime(audio.duration));
+
+  audio.addEventListener("loadedmetadata", showDuration);
+  audio.addEventListener("play", () => setPlaying(true));
+  audio.addEventListener("pause", () => setPlaying(false));
+  audio.addEventListener("ended", () => setPlaying(false));
+  audio.addEventListener("timeupdate", () => {
+    if (audio.duration > 0) q("progress").style.width = `${(audio.currentTime / audio.duration) * 100}%`;
+  });
+
+  root.addEventListener("click", (e) => {
+    const act = (e.target as Element).closest<HTMLElement>("[data-act]")?.dataset.act;
+    if (act === "open") {
+      root.dataset.state = "open";
+      bar.hidden = false;
+      void audio.play().catch(() => setPlaying(false));
+      root.querySelector<HTMLElement>('[data-act="toggle"]')!.focus();
+    } else if (act === "toggle") {
+      if (audio.paused) {
+        if (audio.ended) audio.currentTime = 0;
+        void audio.play().catch(() => setPlaying(false));
+      } else audio.pause();
+    } else if (act === "close") {
+      audio.pause();
+      audio.currentTime = 0;
+      q("progress").style.width = "0";
+      bar.hidden = true;
+      root.dataset.state = "idle";
+      root.querySelector<HTMLElement>('[data-act="open"]')!.focus();
+    }
+  });
+  root.addEventListener("keydown", (e) => {
+    if ((e as KeyboardEvent).key === "Escape" && root.dataset.state === "open") {
+      root.querySelector<HTMLElement>('[data-act="close"]')!.click();
+    }
+  });
+}
+
+async function hotelName(transcriptUrl: string): Promise<string | undefined> {
   try {
-    const res = await fetch(src);
-    if (!res.ok) throw new Error(`transcript ${res.status}`);
-    const transcript = (await res.json()) as TakeTranscript;
-    const audio = script.dataset.audio ?? new URL("audio.mp3", new URL(src, document.baseURI)).href;
+    const res = await fetch(transcriptUrl);
+    if (!res.ok) return undefined;
+    return ((await res.json()) as { hotel?: { name?: string } }).hotel?.name;
+  } catch {
+    return undefined;
+  }
+}
+
+function mount(script: HTMLScriptElement): void {
+  try {
+    const transcript = script.dataset.transcript;
+    const transcriptUrl = transcript ? new URL(transcript, document.baseURI).href : undefined;
+    const audioUrl = script.dataset.audio ?? (transcriptUrl ? new URL("audio.mp3", transcriptUrl).href : undefined);
+    if (!audioUrl) return;
     ensureStyles();
     const host = document.createElement("div");
-    host.innerHTML = renderTake(transcript, audio);
+    host.innerHTML = renderTake({ audioUrl, imageUrl: script.dataset.image });
+    const root = host.firstElementChild as HTMLElement;
+    wire(root);
     script.insertAdjacentElement("afterend", host);
+    if (transcriptUrl) {
+      void hotelName(transcriptUrl).then((name) => {
+        if (name) root.querySelector('[data-role="name"]')!.textContent = name;
+      });
+    }
   } catch (err) {
-    // A failed player must never break the hotel page.
     console.warn("[wah-take]", err);
   }
 }
 
 const current = document.currentScript as HTMLScriptElement | null;
-if (current) void mount(current);
+if (current) mount(current);

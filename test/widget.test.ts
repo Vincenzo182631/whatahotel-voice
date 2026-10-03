@@ -1,38 +1,34 @@
 import { describe, expect, it } from "vitest";
-import { esc, renderTake, type TakeTranscript } from "../src/widget/render.js";
-
-const t: TakeTranscript = {
-  hotel: { slug: "x", name: "X" },
-  title: 'The WhataHotel Take: A "Test" <Hotel>',
-  speakers: { advisor: "Luxury Advisor", traveler: "Candid Traveler" },
-  turns: [
-    { speaker: "advisor", name: "Luxury Advisor", text: "Cliffside & quiet." },
-    { speaker: "traveler", name: "Candid Traveler", text: "Seasonal <b>only</b>." },
-  ],
-  short_version: { best_for: "Couples", worth_knowing: "Closed in winter" },
-};
+import { esc, formatTime, renderTake, SUBTITLE, TITLE } from "../src/widget/render.js";
 
 describe("renderTake", () => {
-  it("renders audio, card rows that exist, and the full transcript", () => {
-    const html = renderTake(t, "a/audio.mp3");
+  it("renders the pill and a hidden player bar with the AI subtitle", () => {
+    const html = renderTake({ audioUrl: "a/audio.mp3", hotelName: "Il San Pietro di Positano" });
+    expect(html).toContain(TITLE);
+    expect(html).toContain(SUBTITLE);
+    expect(html).toContain('data-act="open"');
+    expect(html).toContain('class="wah-take__bar" role="region"');
+    expect(html).toMatch(/class="wah-take__bar"[^>]*hidden/);
+    expect(html).toContain("Il San Pietro di Positano");
     expect(html).toContain('src="a/audio.mp3"');
-    expect(html).toContain("Best for");
-    expect(html).toContain("Worth knowing");
-    expect(html).not.toContain("Atmosphere");
-    expect(html).toContain("Cliffside &amp; quiet.");
-    expect(html.match(/wah-take__turn /g)).toHaveLength(2);
+    expect(html).not.toMatch(/transcript|Best for|Atmosphere|<details/i);
   });
 
-  it("escapes all text, including the title and audio url", () => {
-    const html = renderTake(t, 'x"><script>');
+  it("uses an image thumbnail only when given, and escapes every input", () => {
+    expect(renderTake({ audioUrl: "a.mp3" })).toContain("wah-take__thumb--icon");
+    const html = renderTake({ audioUrl: 'x"><script>', hotelName: "<b>H</b>", imageUrl: 'i"><img>' });
     expect(html).not.toContain("<script>");
-    expect(html).not.toContain("<b>only</b>");
-    expect(html).toContain("&lt;Hotel&gt;");
+    expect(html).not.toContain("<b>H</b>");
+    expect(html).not.toContain('"><img>');
   });
+});
 
-  it("omits the card when there is no short version", () => {
-    expect(renderTake({ ...t, short_version: undefined }, "a.mp3")).not.toContain("wah-take__card");
+describe("formatTime", () => {
+  it("formats seconds as m:ss and hides bad values", () => {
+    expect(formatTime(87.3)).toBe("1:27");
+    expect(formatTime(59.6)).toBe("1:00");
+    expect(formatTime(0)).toBe("");
+    expect(formatTime(NaN)).toBe("");
   });
-
   it("esc handles quotes", () => expect(esc(`"'`)).toBe("&quot;&#39;"));
 });
