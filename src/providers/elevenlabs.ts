@@ -37,7 +37,7 @@ export function chunkLines(lines: DialogueLine[], limit = CHAR_LIMIT): DialogueL
 }
 
 /**
- * The hosts' voices (ElevenLabs premade voices, chosen by ear 2026-10-06): Luxury Advisor = Eric
+ * The hosts' voices (ElevenLabs premade voices, chosen by ear 2026-10-05): Luxury Advisor = Eric
  * ("Smooth, Trustworthy"), Candid Traveler = Jessica ("Playful, Bright, Warm"). An environment
  * variable overrides a default, so remove stale ELEVENLABS_VOICE_* settings; the voice ids actually
  * used are recorded in each clip's metadata.json.
