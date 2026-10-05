@@ -33,7 +33,7 @@ describe("publishTake", () => {
       calls.push([p, o.contentType, o.allowOverwrite]);
       return { url: `https://blob.test/${p}` };
     };
-    const m = await publishTake("a", 1, { scriptUrl: "https://blob.test/wah-take.js", put, now: new Date(0) });
+    const m = await publishTake("a", 1, { scriptUrl: "https://blob.test/wah-take.js", put, now: new Date(0), setCurrent: false });
     expect(calls).toEqual([
       ["takes/a/v1/audio.mp3", "audio/mpeg", false],
       ["takes/a/v1/transcript.json", "application/json", false],
@@ -51,5 +51,50 @@ describe("publishTake", () => {
     const put = async () => ((called = true), { url: "x" });
     await expect(publishTake("b", 1, { scriptUrl: "s", put })).rejects.toThrow(/only approved/);
     expect(called).toBe(false);
+  });
+});
+
+describe("current address", () => {
+  type Call = [string, boolean, number];
+  const mk = (calls: Call[]) => async (p: string, _b: Buffer, o: { allowOverwrite: boolean; cacheControlMaxAge: number }) => {
+    calls.push([p, o.allowOverwrite, o.cacheControlMaxAge]);
+    return { url: `https://blob.test/${p}` };
+  };
+
+  it("uploads the immutable copy first, then overwrites current with a short cache, and embeds current", async () => {
+    await seed("c", "approved");
+    const { publishTake } = await import("../src/publish/blob.js");
+    const calls: Call[] = [];
+    const m = await publishTake("c", 1, { scriptUrl: "https://blob.test/wah-take.js", put: mk(calls), now: new Date(0) });
+    expect(calls).toEqual([
+      ["takes/c/v1/audio.mp3", false, 31536000],
+      ["takes/c/v1/transcript.json", false, 31536000],
+      ["takes/c/current/audio.mp3", true, 300],
+      ["takes/c/current/transcript.json", true, 300],
+    ]);
+    expect(m.embed).toContain("takes/c/current/transcript.json");
+    expect(m.transcript_url).toContain("takes/c/v1/transcript.json");
+  });
+
+  it("--no-current leaves current alone and embeds the versioned transcript", async () => {
+    await seed("d", "approved");
+    const { publishTake } = await import("../src/publish/blob.js");
+    const calls: Call[] = [];
+    const m = await publishTake("d", 1, { scriptUrl: "s", put: mk(calls), setCurrent: false });
+    expect(calls.map((c) => c[0])).toEqual(["takes/d/v1/audio.mp3", "takes/d/v1/transcript.json"]);
+    expect(m.current_transcript_url).toBeUndefined();
+    expect(m.embed).toContain("takes/d/v1/transcript.json");
+  });
+
+  it("promoteToCurrent repoints current for a published version without touching the immutable copy", async () => {
+    await seed("e", "published");
+    const { promoteToCurrent } = await import("../src/publish/blob.js");
+    const calls: Call[] = [];
+    const m = await promoteToCurrent("e", 1, { scriptUrl: "https://blob.test/wah-take.js", put: mk(calls) });
+    expect(calls.map((c) => c[0])).toEqual(["takes/e/current/audio.mp3", "takes/e/current/transcript.json"]);
+    expect(m.audio_url).toBe("https://blob.test/takes/e/v1/audio.mp3");
+    expect(m.embed).toContain("takes/e/current/transcript.json");
+    await seed("f", "needs_review");
+    await expect(promoteToCurrent("f", 1, { scriptUrl: "s", put: mk([]) })).rejects.toThrow(/only approved or published/);
   });
 });

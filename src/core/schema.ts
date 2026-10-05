@@ -16,6 +16,11 @@ export const ClaimSchema = z.object({
   source_ids: z.array(z.string()).min(1),
   /** Set on claims an importer added, so reviewers can tell them apart. Absent = curated. */
   origin: z.enum(["wah-api", "pi-db"]).optional(),
+  /**
+   * Last day (YYYY-MM-DD) this claim should be used in a clip. Set it on anything time-bound
+   * (renovations, "new" openings, annual rankings, awards). Absent = does not expire.
+   */
+  expires: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional(),
 });
 
 export const HotelCategory = z.enum(["urban", "beach", "safari", "boutique", "family", "mountain", "other"]);

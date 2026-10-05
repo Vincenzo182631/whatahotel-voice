@@ -1,4 +1,5 @@
-import { SPEAKERS, type HotelProfile } from "../core/schema.js";
+import { isExpired, isoDay } from "../core/freshness.js";
+import { SPEAKERS, type Claim, type HotelProfile } from "../core/schema.js";
 import { AUDIO_SECONDS, PERKS_SIGNATURE_WORDS, WORD_RANGE } from "./rules.js";
 
 /**
@@ -26,6 +27,7 @@ Perks
 Grounding rules
 - Every factual statement must come from the hotel profile. Put the ids of the claims a turn relies on in claim_ids.
 - Do not add facts, numbers, awards, prices, distances, or names that are not in the profile. If it is not there, leave it out.
+- A claim with an "expires" date is time-bound. Use it only as the profile words it, in the present tense it gives, and never invent a timeframe, a "new", or an "until" that the claim does not state.
 - Interpretation is welcome ("better for someone who wants to stay on property") but must follow from cited claims.
 - Do not call a hotel a "flagship", or describe its rank within a brand, unless a cited claim says so. Being the only hotel of a brand in a country is not the same as being its flagship.
 - Do not say or imply a hotel avoids crowds, is quiet, secluded, exclusive or uncrowded ("without the crowds", "away from the crowds") unless a cited claim says so. Being outside a town centre does not support it. This applies to short_version too.
@@ -39,16 +41,20 @@ Length and form
 
 Also write short_version: three short phrases for the page card (best_for, atmosphere, worth_knowing), grounded in the same profile.`;
 
-export function scriptUserPrompt(profile: HotelProfile, feedback?: string[]): string {
+export function scriptUserPrompt(profile: HotelProfile, feedback?: string[], today: Date = new Date()): string {
+  // Expired claims are withheld from the writer entirely; the rule check also rejects any it cites.
+  const live = (claims: Claim[]) =>
+    claims.filter((c) => !isExpired(c, today)).map(({ id, text, expires }) => ({ id, text, ...(expires && { expires }) }));
   const data = {
+    today: isoDay(today),
     name: profile.name,
     location: profile.location,
     category: profile.category,
     positioning: profile.positioning,
     best_for: profile.best_for,
-    facts: profile.facts.map(({ id, text }) => ({ id, text })),
-    highlights: profile.highlights.map(({ id, text }) => ({ id, text })),
-    considerations: profile.considerations.map(({ id, text }) => ({ id, text })),
+    facts: live(profile.facts),
+    highlights: live(profile.highlights),
+    considerations: live(profile.considerations),
     perks: profile.perks.map(({ id, text }) => ({ id, text })),
   };
   let prompt = `Hotel profile:\n${JSON.stringify(data, null, 2)}\n\nWrite the conversation.`;
