@@ -10,6 +10,16 @@ export const SUBTITLE = "AI-generated highlights";
 const ESC: Record<string, string> = { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" };
 export const esc = (s: string): string => s.replace(/[&<>"']/g, (c) => ESC[c]!);
 
+/**
+ * Cleans a URL taken from an HTML attribute that was pasted from formatted text:
+ * removes backticks (also as %60), straight and curly quotes, angle brackets and
+ * all whitespace. None of these belong in a URL, so removing them is safe.
+ */
+export function cleanUrl(raw: string | undefined): string | undefined {
+  const url = raw?.replace(/%60/gi, "").replace(/[`'"\u2018\u2019\u201c\u201d<>\s]/g, "");
+  return url || undefined;
+}
+
 /** 87.3 -> "1:27". Returns "" for anything that is not a positive finite number. */
 export function formatTime(seconds: number): string {
   if (!Number.isFinite(seconds) || seconds <= 0) return "";
