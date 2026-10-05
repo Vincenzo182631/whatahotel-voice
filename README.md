@@ -86,6 +86,7 @@ npm test && npm run typecheck
 ## Pronunciation
 
 - **Global rules** (`GLOBAL_PRONUNCIATIONS` in `src/providers/types.ts`) apply to every clip for every hotel. Today: "WhataHotel" is voiced as "What a Hotel". They are respelled in the voiced text only; transcripts and on-page text keep the brand spelling. A hotel can override a global term in its own list.
+- **Respelling style:** lowercase, hyphenated syllables (`spah-goh`, `feh-rah-roh's`); no stress capitals, which the voice can read badly. Only single spelled-out letters stay capitals (`P B and G`). A test enforces this. A name already said correctly needs no entry.
 - **Per-hotel names** go in the profile's `pronunciations` (`term` -> `say_as`) and are respelled in the voiced text, or handled by an ElevenLabs dictionary when `ELEVENLABS_PRONUNCIATION_DICT_ID` is set (the global rules are respelled either way).
 
 ## Editorial rules (enforced in `src/script/rules.ts`)
