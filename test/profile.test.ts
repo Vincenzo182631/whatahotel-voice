@@ -40,3 +40,14 @@ describe("pronunciation respellings", () => {
     }
   });
 });
+
+describe("signature perks", () => {
+  it("every hotel profile carries all the perk claims the closing line states", async () => {
+    const { PERKS_SIGNATURE_CLAIMS } = await import("../src/script/rules.js");
+    for (const file of readdirSync("data/hotels").filter((f) => f.endsWith(".json"))) {
+      const profile = JSON.parse(readFileSync(path.join("data/hotels", file), "utf8"));
+      const ids = new Set((profile.perks as Array<{ id: string }>).map((c) => c.id));
+      for (const id of PERKS_SIGNATURE_CLAIMS) expect(ids.has(id), `${profile.slug} is missing perk ${id}`).toBe(true);
+    }
+  });
+});

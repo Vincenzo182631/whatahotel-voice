@@ -25,8 +25,8 @@ const BANNED: Array<[RegExp, string]> = [
  * Luxury Advisor. The pipeline adds it; the writer never writes perks.
  */
 export const PERKS_SIGNATURE =
-  "With the WhataHotel Preferred Rate, you get free breakfast for two daily, a priority upgrade if available at check-in, and a $100 hotel credit.";
-export const PERKS_SIGNATURE_CLAIMS = ["p-1", "p-2", "p-3"] as const;
+  "With the WhataHotel Preferred Rate, you get free breakfast for two daily, free Wi-Fi, a priority upgrade if available at check-in, a $100 hotel credit, among other perks.";
+export const PERKS_SIGNATURE_CLAIMS = ["p-1", "p-5", "p-2", "p-3"] as const;
 export const PERKS_SIGNATURE_WORDS = PERKS_SIGNATURE.split(/\s+/).length;
 
 /** Appends the signature turn (replacing any perk turns already present, so it is idempotent). */

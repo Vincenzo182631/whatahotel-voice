@@ -15,7 +15,7 @@ describe("checkScript", () => {
 
   describe("WhataHotel signature", () => {
     const perk = (id: string) => ({ id, text: `Perk ${id}.`, source_ids: ["official"] });
-    const withPerks = { ...profile, perks: [perk("p-1"), perk("p-2"), perk("p-3"), perk("p-4")] };
+    const withPerks = { ...profile, perks: [perk("p-1"), perk("p-2"), perk("p-3"), perk("p-4"), perk("p-5")] };
 
     it("is required as the last turn when the profile has perks", () => {
       expect(checkScript(script(), withPerks).join()).toMatch(/last turn must be the WhataHotel signature line/);
@@ -24,7 +24,7 @@ describe("checkScript", () => {
     it("is appended word for word by the Luxury Advisor, once", () => {
       const s = withSignature(script(), withPerks);
       const last = s.turns[s.turns.length - 1]!;
-      expect(last).toMatchObject({ speaker: "advisor", section: "bottom_line", text: PERKS_SIGNATURE, claim_ids: ["p-1", "p-2", "p-3"] });
+      expect(last).toMatchObject({ speaker: "advisor", section: "bottom_line", text: PERKS_SIGNATURE, claim_ids: ["p-1", "p-5", "p-2", "p-3"] });
       expect(withSignature(s, withPerks).turns).toHaveLength(s.turns.length);
       expect(checkScript(s, withPerks).join()).not.toMatch(/signature|states the perks/);
       expect(PERKS_SIGNATURE).toMatch(/WhataHotel Preferred Rate/);

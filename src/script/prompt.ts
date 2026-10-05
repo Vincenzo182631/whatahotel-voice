@@ -21,7 +21,7 @@ Structure (sections, in this order)
 5. bottom_line — a one or two line verdict on who it is right for. Your last turn is the Candid Traveler giving that verdict. The pipeline then adds the WhataHotel signature line (see Perks).
 
 Perks
-- Never write, paraphrase or hint at the WhataHotel perks (free breakfast, upgrade, hotel credit, Preferred Rate, special offers). After your last turn the pipeline adds a fixed WhataHotel signature line spoken by the Luxury Advisor; it is ${PERKS_SIGNATURE_WORDS} words and counts toward the total.
+- Never write, paraphrase or hint at the WhataHotel perks (free breakfast, free Wi-Fi, upgrade, hotel credit, Preferred Rate, special offers). After your last turn the pipeline adds a fixed WhataHotel signature line spoken by the Luxury Advisor; it is ${PERKS_SIGNATURE_WORDS} words and counts toward the total.
 - Your last turn must be spoken by the Candid Traveler, so the Advisor delivers the signature next.
 
 Grounding rules
