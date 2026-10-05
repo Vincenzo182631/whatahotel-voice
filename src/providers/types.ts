@@ -22,6 +22,19 @@ export interface VoiceProvider {
   synthesize(lines: DialogueLine[], pronunciations: Pronunciation[]): Promise<SynthesisResult>;
 }
 
+/**
+ * Applied to every clip for every hotel, ahead of the hotel's own list. "WhataHotel" is read as
+ * one made-up word otherwise; "What a Hotel" is how it is said (approved by ear 2026-10-06).
+ * Only the voiced text changes: transcripts and on-page text keep the brand spelling.
+ */
+export const GLOBAL_PRONUNCIATIONS: Pronunciation[] = [{ term: "WhataHotel", say_as: "What a Hotel" }];
+
+/** The global rules first, then the hotel's own; a hotel entry for the same term replaces the global one. */
+export function withGlobalPronunciations(own: Pronunciation[]): Pronunciation[] {
+  const terms = new Set(own.map((p) => p.term));
+  return [...GLOBAL_PRONUNCIATIONS.filter((g) => !terms.has(g.term)), ...own];
+}
+
 /** Rewrites hard names into phonetic spellings for providers without a dictionary. */
 export function applyPronunciations(text: string, pronunciations: Pronunciation[]): string {
   return pronunciations.reduce((t, p) => {

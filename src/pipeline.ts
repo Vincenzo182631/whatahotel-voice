@@ -3,6 +3,7 @@ import { loadProfile } from "./core/profile.js";
 import { ScriptSchema, type Metadata, type Script } from "./core/schema.js";
 import { durationSeconds } from "./providers/audio.js";
 import { createProvider } from "./providers/index.js";
+import { withGlobalPronunciations } from "./providers/types.js";
 import { SCRIPT_MODEL, factCheck, pipelineApiKey, writeScript } from "./script/claude.js";
 import { AUDIO_SECONDS, checkDuration, checkScript, withSignature, wordCount } from "./script/rules.js";
 import { nextVersion, readScript, saveVersion } from "./storage/local.js";
@@ -72,7 +73,7 @@ export async function generateHotel(slug: string, opts: GenerateOptions): Promis
     const provider = createProvider(opts.provider);
     log(`synthesizing with ${provider.name}…`);
     const lines = script.turns.map(({ speaker, text }) => ({ speaker, text }));
-    const result = await provider.synthesize(lines, profile.pronunciations);
+    const result = await provider.synthesize(lines, withGlobalPronunciations(profile.pronunciations));
     audio = result.audio;
     voiceModel = result.model;
     duration = await durationSeconds(audio);

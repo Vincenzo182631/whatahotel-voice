@@ -83,6 +83,11 @@ npm test && npm run typecheck
 - **Refreshing a clip:** re-verify the profile (update claims, `last_verified`, `expires`), `hotel:generate`, review and approve the new version, then `hotel:publish`.
 - **Stable address.** `publish` uploads the immutable `takes/<slug>/v<N>/` copy and also overwrites `takes/<slug>/current/` (5-minute cache). Hotel pages should embed the `current` transcript URL, so a refreshed clip reaches the page with no page edit; old versions stay in the store for audit. `--no-current` skips that, and `--current-only` repoints `current` at an already uploaded version (also usable to roll back).
 
+## Pronunciation
+
+- **Global rules** (`GLOBAL_PRONUNCIATIONS` in `src/providers/types.ts`) apply to every clip for every hotel. Today: "WhataHotel" is voiced as "What a Hotel". They are respelled in the voiced text only; transcripts and on-page text keep the brand spelling. A hotel can override a global term in its own list.
+- **Per-hotel names** go in the profile's `pronunciations` (`term` -> `say_as`) and are respelled in the voiced text, or handled by an ElevenLabs dictionary when `ELEVENLABS_PRONUNCIATION_DICT_ID` is set (the global rules are respelled either way).
+
 ## Editorial rules (enforced in `src/script/rules.ts`)
 
 - **Audio 75–100 s**, checked on the real audio after voicing (`length_check` in `metadata.json`). If a freshly written script lands outside the window, the pipeline rewrites it once with a target word count. `review --approve` refuses an out-of-range version.
