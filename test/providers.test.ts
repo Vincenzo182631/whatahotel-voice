@@ -1,4 +1,4 @@
-import { describe, expect, it } from "vitest";
+import { afterEach, describe, expect, it, vi } from "vitest";
 import { chunkLines } from "../src/providers/elevenlabs.js";
 import { extractAudio } from "../src/providers/gemini.js";
 import { applyPronunciations, GLOBAL_PRONUNCIATIONS, withGlobalPronunciations } from "../src/providers/types.js";
@@ -50,5 +50,36 @@ describe("global pronunciations", () => {
     const turn = { speaker: "advisor" as const, text: "WhataHotel picks." };
     applyPronunciations(turn.text, GLOBAL_PRONUNCIATIONS);
     expect(turn.text).toBe("WhataHotel picks.");
+  });
+});
+
+describe("host voices", () => {
+  afterEach(() => vi.unstubAllEnvs());
+
+  it("default to Eric (advisor) and Jessica (traveler) with no environment variables", async () => {
+    vi.stubEnv("ELEVENLABS_VOICE_ADVISOR", "");
+    vi.stubEnv("ELEVENLABS_VOICE_TRAVELER", "");
+    const { ElevenLabsProvider, DEFAULT_VOICES } = await import("../src/providers/elevenlabs.js");
+    expect(new ElevenLabsProvider().voices).toEqual(DEFAULT_VOICES);
+    expect(DEFAULT_VOICES).toEqual({ advisor: "cjVigY5qzO86Huf0OWal", traveler: "cgSgspJ2msm6clMCkdW9" });
+  });
+
+  it("let an environment variable override a default", async () => {
+    vi.stubEnv("ELEVENLABS_VOICE_ADVISOR", "custom-advisor");
+    vi.stubEnv("ELEVENLABS_VOICE_TRAVELER", "");
+    const { ElevenLabsProvider, DEFAULT_VOICES } = await import("../src/providers/elevenlabs.js");
+    expect(new ElevenLabsProvider().voices).toEqual({ advisor: "custom-advisor", traveler: DEFAULT_VOICES.traveler });
+  });
+
+  it("are recorded in clip metadata", async () => {
+    const { MetadataSchema } = await import("../src/core/schema.js");
+    const meta = {
+      hotel_slug: "x", version: 1, status: "needs_review", generated_at: "t", profile_last_verified: "2026-10-01",
+      script_model: "m", voice_provider: "elevenlabs", voice_model: "eleven_v4", word_count: 220, duration_seconds: 90,
+      fact_check: { passed: true, issues: [] },
+    };
+    expect(MetadataSchema.parse(meta).voices).toBeUndefined();
+    const withVoices = { ...meta, voices: { advisor: "a", traveler: "t" } };
+    expect(MetadataSchema.parse(withVoices).voices).toEqual({ advisor: "a", traveler: "t" });
   });
 });
