@@ -4,12 +4,13 @@ import { parseArgs } from "node:util";
 import { HOTELS_DIR, listProfileSlugs, loadProfile, validateProfile } from "./core/profile.js";
 import { generateHotel } from "./pipeline.js";
 import { FirecrawlClient } from "./sources/firecrawl.js";
-import { publishTake } from "./publish/blob.js";
+import { checkFreshness, isExpired, needsRefresh, WARN_DAYS } from "./core/freshness.js";
+import { promoteToCurrent, publishTake } from "./publish/blob.js";
 import { importHotel } from "./sources/import.js";
 import { withReadOnlyDb, type Query } from "./sources/pi-db.js";
 import { WahClient } from "./sources/wah-api.js";
 import { fetchWhataHotelPage, parseWhataHotelPage } from "./sources/whatahotel.js";
-import { listVersions, readMetadata, setStatus } from "./storage/local.js";
+import { listVersions, readMetadata, readScript, setStatus } from "./storage/local.js";
 
 const HELP = `WhataHotel Voice — hotel conversation pipeline
 
@@ -26,9 +27,14 @@ Usage: npm run hotel -- <command> [options]
   generate  --hotel <slug> [--provider mock|elevenlabs|gemini]
             [--from-version N] [--script-file path]  Script + audio as a new version
   batch     --collection pilot [--provider ...]   Generate for every hotel in a collection
-  publish   --hotel <slug> --version N --script-url <url>
+  publish   --hotel <slug> --version N --script-url <url> [--no-current | --current-only]
                                                   Upload an approved version to Vercel Blob (needs
-                                                  BLOB_READ_WRITE_TOKEN) and mark it published
+                                                  BLOB_READ_WRITE_TOKEN), mark it published and point
+                                                  takes/<slug>/current/ at it. --current-only just
+                                                  repoints current at an already uploaded version
+  freshness [--hotel <slug>] [--within N]         Claims expiring within N days (default ${WARN_DAYS}) or already
+                                                  expired, and profiles not verified for 90+ days.
+                                                  Exits 1 when a clip relies on an expired claim
   list                                            Latest version and status per hotel
   review    --hotel <slug> --version N (--approve | --reject) [--note "..."] [--force]
 
@@ -53,6 +59,9 @@ const { positionals, values } = parseArgs({
     url: { type: "string" },
     out: { type: "string" },
     "script-url": { type: "string" },
+    "current-only": { type: "boolean" },
+    "no-current": { type: "boolean" },
+    within: { type: "string" },
     help: { type: "boolean", short: "h" },
   },
 });
@@ -207,8 +216,11 @@ async function main() {
       const version = Number(need(values.version, "version"));
       if (values.approve === values.reject) throw new Error("Pass exactly one of --approve or --reject");
       if (values.approve) {
-        const [meta, profile] = await Promise.all([readMetadata(slug, version), loadProfile(slug)]);
+        const [meta, profile, script] = await Promise.all([readMetadata(slug, version), loadProfile(slug), readScript(slug, version).catch(() => undefined)]);
+        const cited = new Set(script?.turns.flatMap((t) => t.claim_ids) ?? []);
+        const expiredUsed = [...profile.facts, ...profile.highlights, ...profile.considerations].filter((c) => cited.has(c.id) && isExpired(c));
         const blockers = [
+          ...(expiredUsed.length ? [`uses expired claims (${expiredUsed.map((c) => `${c.id} expired ${c.expires}`).join(", ")})`] : []),
           ...(meta.fact_check.passed ? [] : ["fact check did not pass"]),
           ...(meta.length_check && !meta.length_check.passed ? [meta.length_check.issue ?? "audio length out of range"] : []),
           ...(profile.status === "verified" ? [] : ["profile is still a draft"]),
@@ -224,13 +236,39 @@ async function main() {
       return;
     }
 
+    case "freshness": {
+      const slugs = values.hotel ? [values.hotel] : await listProfileSlugs();
+      const within = values.within ? Number(values.within) : WARN_DAYS;
+      if (!Number.isInteger(within) || within < 0) throw new Error("--within needs a whole number of days");
+      let failing = false;
+      for (const slug of slugs) {
+        const profile = await loadProfile(slug);
+        const [latest] = (await listVersions(slug)).slice(-1);
+        const script = latest ? await readScript(slug, latest).catch(() => undefined) : undefined;
+        const f = checkFreshness(profile, { warnDays: within, script });
+        const note = (c: (typeof f.expired)[number]) =>
+          `    ${c.days_left < 0 ? `EXPIRED ${-c.days_left}d ago` : `expires in ${c.days_left}d`} (${c.expires}) ${c.id}${c.in_clip ? "" : " [not in latest clip]"}: ${c.text.slice(0, 90)}`;
+        const state = needsRefresh(f) ? "REFRESH" : f.expired.length || f.expiring.length ? "watch" : "ok";
+        console.log(`${state.padEnd(7)} ${slug}  (profile verified ${f.profile_age_days}d ago${f.profile_stale ? ", STALE" : ""}${latest ? `, clip v${latest}` : ", no clip"})`);
+        for (const c of [...f.expired, ...f.expiring]) console.log(note(c));
+        if (f.expired.some((c) => c.in_clip) && latest) failing = true;
+      }
+      if (failing) process.exitCode = 1;
+      return;
+    }
+
     case "publish": {
       const slug = need(values.hotel, "hotel");
       const version = Number(need(values.version, "version"));
       const scriptUrl = need(values["script-url"], "script-url");
       if (!process.env.BLOB_READ_WRITE_TOKEN) throw new Error("BLOB_READ_WRITE_TOKEN is not set");
-      const m = await publishTake(slug, version, { scriptUrl });
-      console.log(`✓ ${slug} v${version} → published\n  audio: ${m.audio_url}\n  transcript: ${m.transcript_url}\n  embed: ${m.embed}`);
+      if (values["current-only"] && values["no-current"]) throw new Error("--current-only and --no-current conflict");
+      const m = values["current-only"]
+        ? await promoteToCurrent(slug, version, { scriptUrl })
+        : await publishTake(slug, version, { scriptUrl, setCurrent: !values["no-current"] });
+      console.log(`✓ ${slug} v${version} → ${values["current-only"] ? "current" : "published"}\n  audio: ${m.audio_url}\n  transcript: ${m.transcript_url}`);
+      if (m.current_transcript_url) console.log(`  current transcript: ${m.current_transcript_url}`);
+      console.log(`  embed: ${m.embed}`);
       return;
     }
 

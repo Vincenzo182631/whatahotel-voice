@@ -67,12 +67,21 @@ npm run hotel:generate -- --hotel il-san-pietro-positano --provider gemini --fro
 npm run hotel:generate -- --hotel test --provider mock --script-file my-script.json            # offline
 npm run hotel:batch -- --collection pilot --provider elevenlabs
 npm run hotel:publish -- --hotel il-san-pietro-positano --version 1 --script-url https://<blob-host>/wah-take.js   # approved only
+npm run hotel:freshness                              # claims expiring within 45 days / expired; stale profiles (exit 1 if a clip uses an expired claim)
+npm run hotel:publish -- --hotel il-san-pietro-positano --version 1 --script-url <url> --current-only   # repoint takes/<slug>/current/ at an already uploaded version
 npm run hotel:list
 npm run hotel:review -- --hotel il-san-pietro-positano --version 2 --approve
 npm test && npm run typecheck
 ```
 
 `review --approve` refuses unless the fact check passed, the audio length is within 75–100 s, the profile is `verified`, and the audio is real (not mock or none). Overriding needs `--force --note "why"`.
+
+## Keeping clips current
+
+- **Expiry dates.** Any time-bound claim (a renovation, a "new" opening, an annual ranking or award) carries `"expires": "YYYY-MM-DD"` in its profile, the last day it may be used. Expired claims are withheld from the script writer, `checkScript` rejects any script that cites one, and `review --approve` refuses a version that uses one.
+- **Freshness check.** `npm run hotel:freshness` lists claims expiring soon (`--within N` days, default 45) or already expired, and profiles not verified for 90+ days. Hotels are marked `ok`, `watch` or `REFRESH`; it exits 1 when the latest clip relies on an expired claim, so it can run on a schedule.
+- **Refreshing a clip:** re-verify the profile (update claims, `last_verified`, `expires`), `hotel:generate`, review and approve the new version, then `hotel:publish`.
+- **Stable address.** `publish` uploads the immutable `takes/<slug>/v<N>/` copy and also overwrites `takes/<slug>/current/` (5-minute cache). Hotel pages should embed the `current` transcript URL, so a refreshed clip reaches the page with no page edit; old versions stay in the store for audit. `--no-current` skips that, and `--current-only` repoints `current` at an already uploaded version (also usable to roll back).
 
 ## Editorial rules (enforced in `src/script/rules.ts`)
 

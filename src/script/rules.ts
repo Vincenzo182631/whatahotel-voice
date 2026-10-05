@@ -1,3 +1,4 @@
+import { isExpired } from "../core/freshness.js";
 import { allClaims } from "../core/profile.js";
 import { Section, type HotelProfile, type Script } from "../core/schema.js";
 
@@ -53,7 +54,7 @@ export function checkDuration(seconds: number): string | null {
 }
 
 /** Deterministic checks that need no model call. Returns a list of problems. */
-export function checkScript(script: Script, profile: HotelProfile): string[] {
+export function checkScript(script: Script, profile: HotelProfile, today: Date = new Date()): string[] {
   const issues: string[] = [];
   const words = wordCount(script);
   if (words < WORD_RANGE.min || words > WORD_RANGE.max) {
@@ -83,11 +84,13 @@ export function checkScript(script: Script, profile: HotelProfile): string[] {
     issues.push('the Candid Traveler must speak in "to_know"');
   }
 
+  const expiredClaims = new Map(allClaims(profile).filter((c) => isExpired(c, today)).map((c) => [c.id, c.expires]));
   const claimIds = new Set(allClaims(profile).map((c) => c.id));
   const considerationIds = new Set(profile.considerations.map((c) => c.id));
   script.turns.forEach((t, i) => {
     for (const id of t.claim_ids) {
       if (!claimIds.has(id)) issues.push(`turn ${i} cites unknown claim "${id}"`);
+      if (expiredClaims.has(id)) issues.push(`turn ${i} cites claim "${id}", which expired on ${expiredClaims.get(id)}`);
     }
     for (const [re, why] of BANNED) {
       if (re.test(t.text)) issues.push(`turn ${i} ${why}`);
