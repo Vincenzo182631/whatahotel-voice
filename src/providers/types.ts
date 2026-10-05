@@ -26,7 +26,7 @@ export interface VoiceProvider {
 
 /**
  * Applied to every clip for every hotel, ahead of the hotel's own list. "WhataHotel" is read as
- * one made-up word otherwise; "What a Hotel" is how it is said (approved by ear 2026-10-06).
+ * one made-up word otherwise; "What a Hotel" is how it is said (approved by ear 2026-10-05).
  * Only the voiced text changes: transcripts and on-page text keep the brand spelling.
  */
 export const GLOBAL_PRONUNCIATIONS: Pronunciation[] = [{ term: "WhataHotel", say_as: "What a Hotel" }];

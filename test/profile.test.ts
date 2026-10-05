@@ -30,7 +30,7 @@ describe("validateProfile", () => {
 });
 
 describe("pronunciation respellings", () => {
-  it("are lowercase syllables (approved by ear 2026-10-06); only single spelled-out letters may be capitals", () => {
+  it("are lowercase syllables (approved by ear 2026-10-05); only single spelled-out letters may be capitals", () => {
     for (const slug of readdirSync("data/hotels").filter((f) => f.endsWith(".json"))) {
       const profile = JSON.parse(readFileSync(path.join("data/hotels", slug), "utf8"));
       for (const { term, say_as } of profile.pronunciations as Array<{ term: string; say_as: string }>) {
