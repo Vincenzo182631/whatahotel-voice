@@ -1,6 +1,7 @@
 import { concatMp3 } from "./audio.js";
 import {
   applyPronunciations,
+  GLOBAL_PRONUNCIATIONS,
   requireEnv,
   type DialogueLine,
   type Pronunciation,
@@ -50,10 +51,10 @@ export class ElevenLabsProvider implements VoiceProvider {
   private readonly dictionaryId = process.env.ELEVENLABS_PRONUNCIATION_DICT_ID;
 
   async synthesize(lines: DialogueLine[], pronunciations: Pronunciation[]): Promise<SynthesisResult> {
-    // With a dictionary, ElevenLabs handles pronunciation; otherwise respell in the text.
-    const prepared = this.dictionaryId
-      ? lines
-      : lines.map((l) => ({ ...l, text: applyPronunciations(l.text, pronunciations) }));
+    // With a dictionary, ElevenLabs handles the hotel's names; the global rules (the brand name) are
+    // still respelled in the text so they never depend on the dictionary. Without one, respell everything.
+    const rules = this.dictionaryId ? GLOBAL_PRONUNCIATIONS : pronunciations;
+    const prepared = lines.map((l) => ({ ...l, text: applyPronunciations(l.text, rules) }));
     const segments: Buffer[] = [];
     for (const chunk of chunkLines(prepared)) segments.push(await this.request(chunk));
     return { audio: await concatMp3(segments, 0.15), model: MODEL };

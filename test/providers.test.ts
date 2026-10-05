@@ -1,7 +1,8 @@
 import { describe, expect, it } from "vitest";
 import { chunkLines } from "../src/providers/elevenlabs.js";
 import { extractAudio } from "../src/providers/gemini.js";
-import { applyPronunciations } from "../src/providers/types.js";
+import { applyPronunciations, GLOBAL_PRONUNCIATIONS, withGlobalPronunciations } from "../src/providers/types.js";
+import { PERKS_SIGNATURE } from "../src/script/rules.js";
 
 describe("providers", () => {
   it("chunks dialogue at turn boundaries under the char limit", () => {
@@ -29,5 +30,25 @@ describe("providers", () => {
     };
     expect(extractAudio(json).data.toString()).toBe("new");
     expect(() => extractAudio({ steps: [] })).toThrow(/no audio/);
+  });
+});
+
+describe("global pronunciations", () => {
+  it("say the brand as 'What a Hotel' in the closing line and anywhere else it is spoken", () => {
+    expect(applyPronunciations(PERKS_SIGNATURE, withGlobalPronunciations([]))).toMatch(/^With the What a Hotel Preferred Rate,/);
+    expect(applyPronunciations("A WhataHotel! pick.", GLOBAL_PRONUNCIATIONS)).toBe("A What a Hotel! pick.");
+  });
+
+  it("apply to every hotel ahead of its own list, which can override a term", () => {
+    const own = [{ term: "Wailea", say_as: "why-LAY-ah" }];
+    expect(withGlobalPronunciations(own).map((p) => p.term)).toEqual(["WhataHotel", "Wailea"]);
+    const override = [{ term: "WhataHotel", say_as: "Whata Hotel" }];
+    expect(withGlobalPronunciations(override)).toEqual(override);
+  });
+
+  it("leave the written script untouched: only the voiced lines are respelled", () => {
+    const turn = { speaker: "advisor" as const, text: "WhataHotel picks." };
+    applyPronunciations(turn.text, GLOBAL_PRONUNCIATIONS);
+    expect(turn.text).toBe("WhataHotel picks.");
   });
 });
