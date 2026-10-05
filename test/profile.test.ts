@@ -1,4 +1,5 @@
-import { readFileSync } from "node:fs";
+import { readdirSync, readFileSync } from "node:fs";
+import path from "node:path";
 import { describe, expect, it } from "vitest";
 import { validateProfile } from "../src/core/profile.js";
 
@@ -25,5 +26,17 @@ describe("validateProfile", () => {
     const p = fixture();
     p.considerations[0].source_ids = [];
     expect(validateProfile(p).ok).toBe(false);
+  });
+});
+
+describe("pronunciation respellings", () => {
+  it("are lowercase syllables (approved by ear 2026-10-06); only single spelled-out letters may be capitals", () => {
+    for (const slug of readdirSync("data/hotels").filter((f) => f.endsWith(".json"))) {
+      const profile = JSON.parse(readFileSync(path.join("data/hotels", slug), "utf8"));
+      for (const { term, say_as } of profile.pronunciations as Array<{ term: string; say_as: string }>) {
+        const shouty = say_as.split(/[\s-]+/).filter((t) => /^[A-Z]{2,}$/.test(t));
+        expect(shouty, `${profile.slug}: "${term}" -> "${say_as}"`).toEqual([]);
+      }
+    }
   });
 });
