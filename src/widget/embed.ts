@@ -8,9 +8,11 @@
  * Renders a "Hear Hotel Highlights" pill in place; clicking it opens a player
  * bar and plays. Audio is `audio.mp3` beside `data-transcript` (or `data-audio`).
  * The transcript is read only for the hotel name. Optional `data-image` adds a
- * thumbnail. A failure here never throws into the host page.
+ * thumbnail. URLs are cleaned of stray backticks, quotes and spaces. If the audio
+ * cannot be loaded the widget removes itself, and it never throws into the host
+ * page.
  */
-import { formatTime, ICONS, renderTake, TAKE_CSS } from "./render.js";
+import { cleanUrl, formatTime, ICONS, renderTake, TAKE_CSS } from "./render.js";
 
 function ensureStyles(): void {
   if (document.getElementById("wah-take-css")) return;
@@ -32,6 +34,11 @@ function wire(root: HTMLElement): void {
   const showDuration = () => (q("duration").textContent = formatTime(audio.duration));
 
   audio.addEventListener("loadedmetadata", showDuration);
+  // A dead player is worse than none: if the audio cannot load, remove the widget.
+  audio.addEventListener("error", () => {
+    console.warn("[wah-take] audio failed to load:", audio.currentSrc || audio.src);
+    (root.parentElement ?? root).remove();
+  });
   audio.addEventListener("play", () => setPlaying(true));
   audio.addEventListener("pause", () => setPlaying(false));
   audio.addEventListener("ended", () => setPlaying(false));
@@ -79,13 +86,13 @@ async function hotelName(transcriptUrl: string): Promise<string | undefined> {
 
 function mount(script: HTMLScriptElement): void {
   try {
-    const transcript = script.dataset.transcript;
+    const transcript = cleanUrl(script.dataset.transcript);
     const transcriptUrl = transcript ? new URL(transcript, document.baseURI).href : undefined;
-    const audioUrl = script.dataset.audio ?? (transcriptUrl ? new URL("audio.mp3", transcriptUrl).href : undefined);
+    const audioUrl = cleanUrl(script.dataset.audio) ?? (transcriptUrl ? new URL("audio.mp3", transcriptUrl).href : undefined);
     if (!audioUrl) return;
     ensureStyles();
     const host = document.createElement("div");
-    host.innerHTML = renderTake({ audioUrl, imageUrl: script.dataset.image });
+    host.innerHTML = renderTake({ audioUrl, imageUrl: cleanUrl(script.dataset.image) });
     const root = host.firstElementChild as HTMLElement;
     wire(root);
     script.insertAdjacentElement("afterend", host);

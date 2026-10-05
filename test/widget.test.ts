@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { esc, formatTime, renderTake, SUBTITLE, TITLE } from "../src/widget/render.js";
+import { cleanUrl, esc, formatTime, renderTake, SUBTITLE, TITLE } from "../src/widget/render.js";
 
 describe("renderTake", () => {
   it("renders the pill and a hidden player bar with the AI subtitle", () => {
@@ -31,4 +31,20 @@ describe("formatTime", () => {
     expect(formatTime(NaN)).toBe("");
   });
   it("esc handles quotes", () => expect(esc(`"'`)).toBe("&quot;&#39;"));
+});
+
+describe("cleanUrl", () => {
+  const good = "https://x.test/takes/four-seasons-maui/v1/transcript.json";
+  it("strips backticks, quotes and whitespace pasted from formatted text", () => {
+    expect(cleanUrl("https://x.test/takes/`four-seasons-maui`/v1/transcript.json")).toBe(good);
+    expect(cleanUrl("https://x.test/takes/%60four-seasons-maui%60/v1/transcript.json")).toBe(good);
+    expect(cleanUrl(`  \u201c${good}\u201d \n`)).toBe(good);
+    expect(cleanUrl(`'${good}'`)).toBe(good);
+  });
+  it("leaves a clean URL alone and returns undefined for nothing", () => {
+    expect(cleanUrl(good)).toBe(good);
+    expect(cleanUrl("data:audio/mpeg;base64,AAAA")).toBe("data:audio/mpeg;base64,AAAA");
+    expect(cleanUrl(undefined)).toBeUndefined();
+    expect(cleanUrl("  `` ")).toBeUndefined();
+  });
 });
