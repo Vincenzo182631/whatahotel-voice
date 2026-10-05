@@ -1,8 +1,8 @@
 import { concatMp3 } from "./audio.js";
+import type { Speaker } from "../core/schema.js";
 import {
   applyPronunciations,
   GLOBAL_PRONUNCIATIONS,
-  requireEnv,
   type DialogueLine,
   type Pronunciation,
   type SynthesisResult,
@@ -36,6 +36,17 @@ export function chunkLines(lines: DialogueLine[], limit = CHAR_LIMIT): DialogueL
   return chunks;
 }
 
+/**
+ * The hosts' voices (ElevenLabs premade voices, chosen by ear 2026-10-06): Luxury Advisor = Eric
+ * ("Smooth, Trustworthy"), Candid Traveler = Jessica ("Playful, Bright, Warm"). An environment
+ * variable overrides a default, so remove stale ELEVENLABS_VOICE_* settings; the voice ids actually
+ * used are recorded in each clip's metadata.json.
+ */
+export const DEFAULT_VOICES: Record<Speaker, string> = {
+  advisor: "cjVigY5qzO86Huf0OWal",
+  traveler: "cgSgspJ2msm6clMCkdW9",
+};
+
 export class ElevenLabsProvider implements VoiceProvider {
   readonly name = "elevenlabs";
   /**
@@ -44,9 +55,9 @@ export class ElevenLabsProvider implements VoiceProvider {
    * sees it. Locally, set ELEVENLABS_API_KEY instead.
    */
   private readonly apiKey = process.env.ELEVENLABS_API_KEY;
-  private readonly voices = {
-    advisor: requireEnv("ELEVENLABS_VOICE_ADVISOR"),
-    traveler: requireEnv("ELEVENLABS_VOICE_TRAVELER"),
+  readonly voices: Record<Speaker, string> = {
+    advisor: process.env.ELEVENLABS_VOICE_ADVISOR || DEFAULT_VOICES.advisor,
+    traveler: process.env.ELEVENLABS_VOICE_TRAVELER || DEFAULT_VOICES.traveler,
   };
   private readonly dictionaryId = process.env.ELEVENLABS_PRONUNCIATION_DICT_ID;
 
@@ -57,7 +68,7 @@ export class ElevenLabsProvider implements VoiceProvider {
     const prepared = lines.map((l) => ({ ...l, text: applyPronunciations(l.text, rules) }));
     const segments: Buffer[] = [];
     for (const chunk of chunkLines(prepared)) segments.push(await this.request(chunk));
-    return { audio: await concatMp3(segments, 0.15), model: MODEL };
+    return { audio: await concatMp3(segments, 0.15), model: MODEL, voices: this.voices };
   }
 
   private async request(lines: DialogueLine[]): Promise<Buffer> {

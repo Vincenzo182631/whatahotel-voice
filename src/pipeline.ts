@@ -40,6 +40,7 @@ export async function generateHotel(slug: string, opts: GenerateOptions): Promis
   let ruleIssues: string[] = [];
   let audio: Buffer | undefined;
   let voiceModel = "none";
+  let voices: Metadata["voices"];
   let duration: number | null = null;
   let lengthIssue: string | null = null;
 
@@ -76,6 +77,8 @@ export async function generateHotel(slug: string, opts: GenerateOptions): Promis
     const result = await provider.synthesize(lines, withGlobalPronunciations(profile.pronunciations));
     audio = result.audio;
     voiceModel = result.model;
+    voices = result.voices;
+    if (voices) log(`voices: advisor=${voices.advisor}, traveler=${voices.traveler}`);
     duration = await durationSeconds(audio);
 
     lengthIssue = checkDuration(duration);
@@ -98,6 +101,7 @@ export async function generateHotel(slug: string, opts: GenerateOptions): Promis
     script_model: scriptModel,
     voice_provider: opts.scriptOnly ? "none" : opts.provider,
     voice_model: voiceModel,
+    ...(voices ? { voices } : {}),
     word_count: wordCount(script),
     duration_seconds: duration,
     fact_check: fact,

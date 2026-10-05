@@ -14,6 +14,8 @@ export interface SynthesisResult {
   /** MP3, ready to store. */
   audio: Buffer;
   model: string;
+  /** Voice ids used per speaker, recorded in the clip's metadata. Absent for providers without voice ids. */
+  voices?: Record<Speaker, string>;
 }
 
 /** Every TTS vendor sits behind this so hotels never depend on one provider. */
