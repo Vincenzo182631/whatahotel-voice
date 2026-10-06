@@ -72,9 +72,17 @@ export function quoteInText(quote: string, text: string): boolean {
   return parts.length > 0 && parts.every((p) => p.length >= 12 && hay.includes(p));
 }
 
-/** Perks are WhataHotel's own offer; "WhataHotel notes/lists/pro tip" claims report WhataHotel's own view. */
+/**
+ * Not checked against hotel pages, because WhataHotel is the source of truth:
+ * perks (WhataHotel's own offer), claims that open with "WhataHotel notes/lists/...", and
+ * considerations that come only from WhataHotel's own page and hold no numbers (pricing,
+ * traffic and location tradeoffs are WhataHotel's view, not hotel facts). Anything with a
+ * number still has to be proven.
+ */
 export function isExempt(claim: Claim, profile: HotelProfile): boolean {
-  return profile.perks.some((p) => p.id === claim.id) || /^whatahotel('s)?\b/i.test(claim.text.trim());
+  if (profile.perks.some((p) => p.id === claim.id) || /^whatahotel('s)?\b/i.test(claim.text.trim())) return true;
+  const whatahotelOnly = claim.source_ids.every((id) => profile.sources.find((s) => s.id === id)?.type === "whatahotel");
+  return whatahotelOnly && profile.considerations.some((c) => c.id === claim.id) && !/\d/.test(claim.text);
 }
 
 /** Turns raw findings into a status. A finding only counts if its quote was found in the page. */
@@ -91,6 +99,25 @@ export function resolveClaim(findings: Finding[]): { status: ClaimStatus; reason
 
 function documentsBlock(evidence: Evidence[]): string {
   return evidence.map((e) => `<document id="${e.id}" url="${e.url}" tier="${e.tier}">\n${e.text}\n</document>`).join("\n\n");
+}
+
+const ConfirmSchema = z.object({
+  checks: z.array(z.object({ id: z.number().int(), contradicts: z.boolean(), why: z.string() })),
+});
+
+export const CONFIRM_SYSTEM_PROMPT = `You double-check alleged contradictions about a hotel. For each item you get a claim and a quote from a page. Answer contradicts=true only if the quote is about the same thing as the claim and states something incompatible with it (a different number, name, place or fact). Answer false if the quote is about something else, if it is compatible with the claim, or if the difference is just rounding or "approximately" wording (for example 537 vs 538 square feet, or a travel time range that overlaps the claimed one).`;
+
+/** Keeps only the contradictions a second look agrees with, so an irrelevant quote cannot block a profile. */
+async function confirmContradictions(results: ClaimResult[], client: Anthropic): Promise<void> {
+  const items = results.flatMap((r) => r.findings.filter((f) => f.verdict === "contradicted" && f.quote_verified).map((f) => ({ r, f })));
+  if (!items.length) return;
+  const user = items.map(({ r, f }, id) => JSON.stringify({ id, claim: r.text, quote: f.quote })).join("\n");
+  const parsed = await parseWith(client, ConfirmSchema, CONFIRM_SYSTEM_PROMPT, user, "medium");
+  const agreed = new Set(parsed.checks.filter((c) => c.contradicts).map((c) => c.id));
+  items.forEach(({ r, f }, id) => {
+    if (!agreed.has(id)) r.findings = r.findings.filter((x) => x !== f);
+  });
+  for (const r of results) Object.assign(r, resolveClaim(r.findings));
 }
 
 /** Checks claims against the evidence in batches; every returned quote is verified in code. */
@@ -117,5 +144,6 @@ export async function judgeClaims(
       out.push({ claim_id: c.id, text: c.text, findings, ...resolveClaim(findings) });
     }
   }
+  await confirmContradictions(out, client);
   return out;
 }

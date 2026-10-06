@@ -59,7 +59,20 @@ describe("resolveClaim", () => {
 });
 
 describe("isExempt", () => {
-  const profile = { perks: [{ id: "p-1", text: "Breakfast is free.", source_ids: ["s1"] }] } as unknown as HotelProfile;
+  const profile = {
+    perks: [{ id: "p-1", text: "Breakfast is free.", source_ids: ["s1"] }],
+    considerations: [
+      { id: "c-5", text: "Traffic can be slow.", source_ids: ["s1"] },
+      { id: "c-6", text: "Cairo is 225 km away.", source_ids: ["s1"] },
+      { id: "c-7", text: "The pool is small.", source_ids: ["s2"] },
+    ],
+    sources: [{ id: "s1", type: "whatahotel" }, { id: "s2", type: "official" }],
+  } as unknown as HotelProfile;
+  it("exempts WhataHotel-only considerations without numbers, but not ones with numbers or other sources", () => {
+    expect(isExempt({ id: "c-5", text: "Traffic can be slow.", source_ids: ["s1"] }, profile)).toBe(true);
+    expect(isExempt({ id: "c-6", text: "Cairo is 225 km away.", source_ids: ["s1"] }, profile)).toBe(false);
+    expect(isExempt({ id: "c-7", text: "The pool is small.", source_ids: ["s2"] }, profile)).toBe(false);
+  });
   it("exempts perks and WhataHotel's own statements only", () => {
     expect(isExempt({ id: "p-1", text: "Breakfast is free.", source_ids: ["s1"] }, profile)).toBe(true);
     expect(isExempt({ id: "c-3", text: "WhataHotel notes premium pricing.", source_ids: ["s1"] }, profile)).toBe(true);
