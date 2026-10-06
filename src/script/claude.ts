@@ -40,7 +40,7 @@ export interface ScriptResult {
  * Structured-output call with refusal fallbacks routed server-side.
  * Thinking is adaptive (always on for this model); effort is set explicitly.
  */
-async function parseWith<T extends z.ZodType>(
+export async function parseWith<T extends z.ZodType>(
   client: Anthropic,
   schema: T,
   system: string,

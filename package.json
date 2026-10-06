@@ -14,6 +14,7 @@
     "hotel:publish": "NODE_USE_ENV_PROXY=1 NODE_NO_WARNINGS=1 tsx src/cli.ts publish",
     "hotel:freshness": "NODE_USE_ENV_PROXY=1 NODE_NO_WARNINGS=1 tsx src/cli.ts freshness",
     "hotel:list": "NODE_USE_ENV_PROXY=1 NODE_NO_WARNINGS=1 tsx src/cli.ts list",
+    "hotel:verify": "NODE_USE_ENV_PROXY=1 NODE_NO_WARNINGS=1 tsx src/cli.ts verify",
     "hotel:review": "NODE_USE_ENV_PROXY=1 NODE_NO_WARNINGS=1 tsx src/cli.ts review",
     "widget:build": "node scripts/build-widget.mjs",
     "typecheck": "tsc --noEmit",

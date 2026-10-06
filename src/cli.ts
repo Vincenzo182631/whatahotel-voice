@@ -7,6 +7,7 @@ import { FirecrawlClient } from "./sources/firecrawl.js";
 import { checkFreshness, isExpired, needsRefresh, WARN_DAYS } from "./core/freshness.js";
 import { promoteToCurrent, publishTake } from "./publish/blob.js";
 import { importHotel } from "./sources/import.js";
+import { verifyHotel } from "./verify/index.js";
 import { withReadOnlyDb, type Query } from "./sources/pi-db.js";
 import { WahClient } from "./sources/wah-api.js";
 import { fetchWhataHotelPage, parseWhataHotelPage } from "./sources/whatahotel.js";
@@ -35,6 +36,13 @@ Usage: npm run hotel -- <command> [options]
   freshness [--hotel <slug>] [--within N]         Claims expiring within N days (default ${WARN_DAYS}) or already
                                                   expired, and profiles not verified for 90+ days.
                                                   Exits 1 when a clip relies on an expired claim
+  verify    --hotel <slug> | --collection <name> [--apply] [--refresh]
+                                                  Check every claim against the hotel's own Four Seasons
+                                                  pages and its Condé Nast Traveler review (needs
+                                                  FIRECRAWL_API_KEY and WH_ANTHROPIC_API_KEY). Writes
+                                                  data/verification/<slug>.md. --apply marks the profile
+                                                  verified when nothing is contradicted and every claim a
+                                                  script uses is supported
   list                                            Latest version and status per hotel
   review    --hotel <slug> --version N (--approve | --reject) [--note "..."] [--force]
 
@@ -62,6 +70,8 @@ const { positionals, values } = parseArgs({
     "current-only": { type: "boolean" },
     "no-current": { type: "boolean" },
     within: { type: "string" },
+    apply: { type: "boolean" },
+    refresh: { type: "boolean" },
     help: { type: "boolean", short: "h" },
   },
 });
@@ -185,6 +195,32 @@ async function main() {
         try {
           const result = await generateHotel(h.slug, { provider: values.provider!, log });
           report(result.dir, result.metadata);
+        } catch (err) {
+          process.exitCode = 1;
+          console.log(`  ✗ ${(err as Error).message}`);
+        }
+      }
+      return;
+    }
+
+    case "verify": {
+      const slugs = values.hotel
+        ? [values.hotel]
+        : values.collection
+          ? (await loadCollection(values.collection)).hotels.map((h) => h.slug)
+          : await listProfileSlugs();
+      const fc = FirecrawlClient.fromEnv();
+      for (const slug of slugs) {
+        console.log(`→ ${slug}`);
+        try {
+          const r = await verifyHotel(slug, { fc, apply: values.apply, refresh: values.refresh });
+          const c = r.decision.counts;
+          console.log(
+            `  ${r.decision.eligible ? "✓" : "✗"} ${c.supported} supported, ${c.contradicted} contradicted, ${c.unverified} unverified, ${c.exempt} WhataHotel's own · ` +
+              `${r.evidence.length} pages${r.applied ? " · profile marked verified" : ""}`,
+          );
+          for (const b of r.decision.blockers) console.log(`    - ${b}`);
+          console.log(`  data/verification/${slug}.md`);
         } catch (err) {
           process.exitCode = 1;
           console.log(`  ✗ ${(err as Error).message}`);
