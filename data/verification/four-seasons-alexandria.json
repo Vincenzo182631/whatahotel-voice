@@ -1,0 +1,563 @@
+{
+  "hotel_slug": "four-seasons-alexandria",
+  "hotel_name": "Four Seasons Hotel Alexandria",
+  "checked_at": "2026-10-06T06:21:02.071Z",
+  "script_version": 3,
+  "decision": {
+    "eligible": false,
+    "blockers": [
+      "contradicted by a source: f-7",
+      "used in the script but not verified: h-4, c-4"
+    ],
+    "counts": {
+      "supported": 11,
+      "contradicted": 1,
+      "unverified": 4,
+      "exempt": 5,
+      "total": 21
+    }
+  },
+  "applied": false,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://press.fourseasons.com/alexandria/hotel-facts/",
+      "tier": "official",
+      "chars": 5574
+    },
+    {
+      "id": "d2",
+      "url": "https://www.fourseasons.com/alexandria/",
+      "tier": "official",
+      "chars": 10386
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/alexandria/dining/",
+      "tier": "official",
+      "chars": 8769
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/alexandria/spa/",
+      "tier": "official",
+      "chars": 4087
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/alexandria/accommodations/",
+      "tier": "official",
+      "chars": 8586
+    },
+    {
+      "id": "d6",
+      "url": "https://www.fourseasons.com/alexandria/services-and-amenities/",
+      "tier": "official",
+      "chars": 2811
+    },
+    {
+      "id": "d7",
+      "url": "https://www.fourseasons.com/alexandria/getting-here/",
+      "tier": "official",
+      "chars": 2057
+    },
+    {
+      "id": "d8",
+      "url": "https://www.fourseasons.com/alexandria/contact-us/",
+      "tier": "official",
+      "chars": 1503
+    },
+    {
+      "id": "d9",
+      "url": "https://www.fourseasons.com/alexandria/photos-and-videos/",
+      "tier": "official",
+      "chars": 7197
+    },
+    {
+      "id": "d10",
+      "url": "https://www.fourseasons.com/alexandria/discover/",
+      "tier": "official",
+      "chars": 1744
+    },
+    {
+      "id": "d11",
+      "url": "https://www.cntraveler.com/hotels/egypt/giza/four-seasons-hotel-alexandria-at-san-stefano--alexandria",
+      "tier": "editorial",
+      "chars": 3010
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Opened in July 2007.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "July 2007",
+          "note": "Press fact sheet lists the opening date as July 2007.",
+          "url": "https://press.fourseasons.com/alexandria/hotel-facts/",
+          "tier": "official",
+          "quote_verified": false
+        }
+      ],
+      "status": "unverified",
+      "reason": "quoted evidence could not be found in the page text"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Located at 399 El Geish Road, Alexandria, on the Corniche, with a 180-degree Mediterranean view.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "399 El Geish Road, Alexandria, Egypt",
+          "note": "Address confirmed.",
+          "url": "https://press.fourseasons.com/alexandria/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Iconic presence on the fashionable Corniche with 180-degree Mediterranean view",
+          "note": "Corniche location and 180-degree view confirmed.",
+          "url": "https://press.fourseasons.com/alexandria/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "170 accommodations in total: 87 guest rooms, 31 suites, 30 beach suites and 22 villas with private pool, plus The Palace.",
+      "findings": [
+        {
+          "verdict": "partial",
+          "doc_id": "d1",
+          "quote": "**Total Number of Rooms:** 170",
+          "note": "The total of 170 matches.",
+          "url": "https://press.fourseasons.com/alexandria/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "partial",
+          "doc_id": "d1",
+          "quote": "**Villas with Private Pool and The Palace:** 22",
+          "note": "The page counts The Palace within the 22, not in addition to 22 villas. The 87 guest rooms, 31 suites and 30 beach suites are also listed.",
+          "url": "https://press.fourseasons.com/alexandria/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "unverified",
+      "reason": "sources cover only part of the claim"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Interiors are by Pierre Yves Rochon and the architecture is by WZMH.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Interior Designer(s):** Pierre Yves Rochon",
+          "note": "Interior designer confirmed.",
+          "url": "https://press.fourseasons.com/alexandria/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Architect:** Webb Zerafa Menkes Housden Partnership (WZMH)",
+          "note": "Architect confirmed.",
+          "url": "https://press.fourseasons.com/alexandria/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Dining includes Stefano's (Southern Italian), Kala (international), Fresca Bistro and Lounge (Mediterranean) and Byblos (Lebanese), plus a seasonal Beach Restaurant.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Stefano’s serves up authentic Southern Italian cuisine in a warm and intimate setting.",
+          "note": "Stefano's is Southern Italian.",
+          "url": "https://www.fourseasons.com/alexandria/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Cuisine:** International breakfast and brunch on Fridays",
+          "note": "Kala's cuisine is international.",
+          "url": "https://press.fourseasons.com/alexandria/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Restaurant:** Fresca Bistro and Lounge",
+          "note": "Fresca is listed as a restaurant.",
+          "url": "https://press.fourseasons.com/alexandria/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Cuisine:** Mediterranean breakfast, lunch, and dinner",
+          "note": "Fresca's cuisine is Mediterranean.",
+          "url": "https://press.fourseasons.com/alexandria/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Byblos brings the rich flavours of Lebanon to Alexandria, pairing authentic Lebanese cuisine with panoramic Mediterranean Sea views.",
+          "note": "Byblos serves Lebanese cuisine.",
+          "url": "https://www.fourseasons.com/alexandria/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Fresh seafood is our specialty at this seasonal beachfront restaurant in Alexandria",
+          "note": "The Beach Restaurant is seasonal.",
+          "url": "https://www.fourseasons.com/alexandria/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Lounges include Bleu, Le Bar, the Lobby Lounge and the Arabesque shisha lounge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Lounge:** Bleu",
+          "note": "Bleu is a lounge.",
+          "url": "https://press.fourseasons.com/alexandria/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Lounge:** Le Bar",
+          "note": "Le Bar is a lounge.",
+          "url": "https://press.fourseasons.com/alexandria/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Lounge:** Lobby Lounge",
+          "note": "Lobby Lounge is listed.",
+          "url": "https://press.fourseasons.com/alexandria/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Lounge:** Arabesque",
+          "note": "Arabesque is listed as a lounge; the page also describes it as a Shisha Lounge.",
+          "url": "https://press.fourseasons.com/alexandria/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The spa has 13 treatment rooms in a contemporary European style, with signature treatments including the 1,001 Nights Sensation (140 minutes).",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Number of Treatment Rooms:** 13",
+          "note": "The press kit gives 13 treatment rooms.",
+          "url": "https://press.fourseasons.com/alexandria/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Contemporary European style with feather-filled lounge sofas",
+          "note": "Contemporary European style confirmed.",
+          "url": "https://press.fourseasons.com/alexandria/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "1,001 nights sensation (140 minutes)",
+          "note": "Signature treatment and its 140-minute duration confirmed.",
+          "url": "https://press.fourseasons.com/alexandria/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "contradicted",
+          "doc_id": "d4",
+          "quote": "our 14-treatment-room spa offers signature massages, advanced facials and body therapies",
+          "note": "The spa page says 14 treatment rooms.",
+          "url": "https://www.fourseasons.com/alexandria/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "contradicted",
+      "reason": "a source says something different"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Three pools: a circular infinity pool on the fourth floor, a heated indoor pool on the fifth floor, and a sea-water beach infinity pool with cabanas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Large circular infinity pool overlooking the Corniche and the Mediterranean from the fourth-floor terrace",
+          "note": "Fourth-floor circular infinity pool confirmed.",
+          "url": "https://press.fourseasons.com/alexandria/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Large circular, heated infinity pool with whirlpool facility, located on the fifth floor",
+          "note": "Heated indoor pool on the fifth floor confirmed.",
+          "url": "https://press.fourseasons.com/alexandria/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Large circular, infinity pool with bar, sea water, located on the beach, with four individual cabanas",
+          "note": "Sea-water beach infinity pool with cabanas confirmed.",
+          "url": "https://press.fourseasons.com/alexandria/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "A sandy beach with landscaping sits across the street from the hotel and is reached safely by a tunnel under the road.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Sandy beach with lush landscaping across from the Hotel, reached safely by a tunnel under the street",
+          "note": "Beach across the street, reached by a tunnel, confirmed.",
+          "url": "https://press.fourseasons.com/alexandria/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The beach has a sea-water infinity pool with cabanas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Large circular, infinity pool with bar, sea water, located on the beach, with four individual cabanas",
+          "note": "Sea-water infinity pool with cabanas on the beach confirmed.",
+          "url": "https://press.fourseasons.com/alexandria/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The hotel has five restaurants, from Southern Italian at Stefano's to Lebanese at Byblos.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Stefano’s serves up authentic Southern Italian cuisine in a warm and intimate setting.",
+          "note": "Stefano's is Southern Italian. The press kit (d1) lists five restaurants: Stefano's, Kala, Fresca, Byblos and Beach Restaurant.",
+          "url": "https://www.fourseasons.com/alexandria/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Restaurant:** Byblos",
+          "note": "Byblos is listed as a restaurant (cuisine: Lebanese) and is one of the five restaurants in the press kit.",
+          "url": "https://press.fourseasons.com/alexandria/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "22 villas with private pool, plus The Palace, are available for guests who want more privacy.",
+      "findings": [
+        {
+          "verdict": "partial",
+          "doc_id": "d1",
+          "quote": "**Villas with Private Pool and The Palace:** 22",
+          "note": "The 22 includes The Palace, so the page does not support 22 villas plus The Palace.",
+          "url": "https://press.fourseasons.com/alexandria/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "partial",
+          "doc_id": "d2",
+          "quote": "all in perfect privacy",
+          "note": "The villas are described as private.",
+          "url": "https://www.fourseasons.com/alexandria/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "unverified",
+      "reason": "sources cover only part of the claim"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel is about 60 kilometres (37 miles), or around 60 minutes, from Borg El Arab Airport.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "60 kilometres (37 miles) or 60 minutes from Borg El Arab Airport",
+          "note": "Distance and travel time confirmed.",
+          "url": "https://press.fourseasons.com/alexandria/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Travel Time60 minutes by carDistance60 km/37.3 miles",
+          "note": "The location page gives the same figures.",
+          "url": "https://www.fourseasons.com/alexandria/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The beach is across the street from the hotel, reached by a tunnel under the road, so it is not directly outside the main building.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Sandy beach with lush landscaping across from the Hotel, reached safely by a tunnel under the street",
+          "note": "The beach is across the street and reached by a tunnel.",
+          "url": "https://press.fourseasons.com/alexandria/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "An underground tunnel leads you safely across the Corniche to our private seaside playground",
+          "note": "The tunnel crosses the Corniche to the beach.",
+          "url": "https://www.fourseasons.com/alexandria/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "The Beach Restaurant and Lounge operates in summer only.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Opening Date:** Summer only",
+          "note": "The Beach Restaurant and Lounge operates in summer only.",
+          "url": "https://press.fourseasons.com/alexandria/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-4",
+      "text": "Cairo is 225 kilometres (140 miles) from the hotel, so a Pyramids visit means a long day trip.",
+      "findings": [
+        {
+          "verdict": "partial",
+          "doc_id": "d10",
+          "quote": "Day Trip to Cairo from Alexandria",
+          "note": "A Cairo day trip is offered, but no document gives the 225 km distance.",
+          "url": "https://www.fourseasons.com/alexandria/discover/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "unverified",
+      "reason": "sources cover only part of the claim"
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, breakfast for two is free daily (the standard published rate is room only, with breakfast usually extra).",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers are combinable with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access (the standard published rate charges extra for internet access).",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

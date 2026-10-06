@@ -1,0 +1,533 @@
+{
+  "hotel_slug": "four-seasons-buenos-aires",
+  "hotel_name": "Four Seasons Hotel Buenos Aires",
+  "checked_at": "2026-10-06T06:25:53.297Z",
+  "script_version": 6,
+  "decision": {
+    "eligible": false,
+    "blockers": [
+      "contradicted by a source: f-1, c-4",
+      "used in the script but not verified: f-3"
+    ],
+    "counts": {
+      "supported": 12,
+      "contradicted": 2,
+      "unverified": 3,
+      "exempt": 7,
+      "total": 24
+    }
+  },
+  "applied": false,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.fourseasons.com/buenosaires/",
+      "tier": "official",
+      "chars": 12009
+    },
+    {
+      "id": "d2",
+      "url": "https://www.fourseasons.com/buenosaires/dining/",
+      "tier": "official",
+      "chars": 3760
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/buenosaires/spa/",
+      "tier": "official",
+      "chars": 3607
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/buenosaires/services-and-amenities/",
+      "tier": "official",
+      "chars": 2963
+    },
+    {
+      "id": "d5",
+      "url": "https://en.wikipedia.org/wiki/Four_Seasons_Hotel_Buenos_Aires",
+      "tier": "press",
+      "chars": 4941
+    },
+    {
+      "id": "d6",
+      "url": "https://press.fourseasons.com/buenosaires/hotel-facts/",
+      "tier": "official",
+      "chars": 4732
+    },
+    {
+      "id": "d7",
+      "url": "https://www.fourseasons.com/buenosaires/accommodations/",
+      "tier": "official",
+      "chars": 6462
+    },
+    {
+      "id": "d8",
+      "url": "https://www.fourseasons.com/buenosaires/services-and-amenities/couples/",
+      "tier": "official",
+      "chars": 3856
+    },
+    {
+      "id": "d9",
+      "url": "https://www.fourseasons.com/buenosaires/getting-here/",
+      "tier": "official",
+      "chars": 1163
+    },
+    {
+      "id": "d10",
+      "url": "https://www.fourseasons.com/buenosaires/contact-us/",
+      "tier": "official",
+      "chars": 1457
+    },
+    {
+      "id": "d11",
+      "url": "https://www.fourseasons.com/buenosaires/photos-and-videos/",
+      "tier": "official",
+      "chars": 3373
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "Firecrawl 502 search \"\"Four Seasons Hotel Buenos Aires\" site:cntraveler.com\": no data returned"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is at Posadas 1086/88 in the Recoleta neighbourhood of Buenos Aires.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Posadas 1086/88, C1011ABB Buenos Aires, Argentina",
+          "note": "Address confirmed.",
+          "url": "https://press.fourseasons.com/buenosaires/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "a luxury hotel in the heart of the exclusive Recoleta neighbourhood in Argentina’s vibrant capital",
+          "note": "Recoleta neighbourhood confirmed.",
+          "url": "https://www.fourseasons.com/buenosaires/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d9",
+          "quote": "The Hotel is located in the distinguished neighbourhood of Recoleta",
+          "note": "Recoleta location confirmed.",
+          "url": "https://www.fourseasons.com/buenosaires/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "contradicted",
+          "doc_id": "d5",
+          "quote": "is a luxury hotel in the Retiro neighborhood of Buenos Aires, Argentina.",
+          "note": "Wikipedia places the hotel in Retiro, not Recoleta.",
+          "url": "https://en.wikipedia.org/wiki/Four_Seasons_Hotel_Buenos_Aires",
+          "tier": "press",
+          "quote_verified": true
+        }
+      ],
+      "status": "contradicted",
+      "reason": "a source says something different"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "It has 165 guest rooms, including 49 suites, in two wings: a 12-story main tower and the historic mansion wing, which houses suites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The hotel has 165 guest rooms, including 49 suites. They are contained in two wings. The 12-story main tower wing and the historic French Renaissance-style mansion wing, which houses the suites.",
+          "note": "All elements covered.",
+          "url": "https://en.wikipedia.org/wiki/Four_Seasons_Hotel_Buenos_Aires",
+          "tier": "press",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "**Total Number of Rooms:** 165",
+          "note": "Official fact sheet confirms 165 total rooms (116 guest rooms plus 49 suites).",
+          "url": "https://press.fourseasons.com/buenosaires/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The mansion was built in the Belle Époque style in 1920 as a wedding gift from Felix Alzaga Unzué to his wife Elena Peña.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The Mansion has a stone façade and was built in the Belle Époque style as a wedding gift from Mr. Felix Alzaga Unzué to his wife Elena Peña in 1920.",
+          "note": "All elements covered.",
+          "url": "https://en.wikipedia.org/wiki/Four_Seasons_Hotel_Buenos_Aires",
+          "tier": "press",
+          "quote_verified": true
+        }
+      ],
+      "status": "unverified",
+      "reason": "only supported by a press or Wikipedia page"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel opened in 1992 as the Park Hyatt Buenos Aires. Four Seasons took over management in 2001.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The hotel opened in 1992 as the **Park Hyatt Buenos Aires**. Toronto-based Four Seasons Hotels and Resorts assumed management in 2001",
+          "note": "Both opening and management takeover covered.",
+          "url": "https://en.wikipedia.org/wiki/Four_Seasons_Hotel_Buenos_Aires",
+          "tier": "press",
+          "quote_verified": true
+        }
+      ],
+      "status": "unverified",
+      "reason": "only supported by a press or Wikipedia page"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "A $49 million renovation was completed in 2013.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The hotel underwent a $49 million renovation that was completed in 2013.",
+          "note": "Confirmed.",
+          "url": "https://en.wikipedia.org/wiki/Four_Seasons_Hotel_Buenos_Aires",
+          "tier": "press",
+          "quote_verified": true
+        }
+      ],
+      "status": "unverified",
+      "reason": "only supported by a press or Wikipedia page"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Elena is a two-storey steakhouse built around dry-aged meats, brasserie cuisine and charcuterie, selected by the Michelin Guide and listed among the 101 Best Steak Restaurants in the World.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Selected by the Michelin Guide and featured among the 101 Best Steak Restaurants in the World, our two-storey restaurant is inspired by the historic houses of San Telmo.",
+          "note": "Michelin selection, 101 Best listing and two-storey layout.",
+          "url": "https://www.fourseasons.com/buenosaires/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Elena’s concept is built around three core pillars – dry-aged meats, brasserie cuisine and charcuterie",
+          "note": "Concept pillars confirmed; listed under Steakhouse.",
+          "url": "https://www.fourseasons.com/buenosaires/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Nuestro Secreto serves outdoor Argentinian barbecue, and Pony Line is a polo-inspired lounge with creative cocktails and burgers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our outdoor barbecues create a unique gastronomic experience, turning a Buenos Aires tradition into a social event focused on high-quality grilled meats.",
+          "note": "Nuestro Secreto, labeled Argentinian barbecue.",
+          "url": "https://www.fourseasons.com/buenosaires/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Creative cocktails and best-in-the-city burgers are just some of the highlights at our fun and lively lounge, inspired by polo, the sport of kings.",
+          "note": "Pony Line description.",
+          "url": "https://www.fourseasons.com/buenosaires/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Cielo Spa offers a signature Tango Porteño massage, a steam bath and sauna, and relaxation rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Elevate your well-being with our signature treatment, Tango Porteño",
+          "note": "Signature treatment.",
+          "url": "https://www.fourseasons.com/buenosaires/spa/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "STEAM BATH AND SAUNA",
+          "note": "Steam bath and sauna listed.",
+          "url": "https://www.fourseasons.com/buenosaires/spa/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Discover the epitome of relaxation in our relaxation rooms while enjoying a fantastic view of the city.",
+          "note": "Relaxation rooms.",
+          "url": "https://www.fourseasons.com/buenosaires/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The fitness centre is open 24 hours for in-house guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Fitness Centre24 Hours for In-House Guests",
+          "note": "Confirmed.",
+          "url": "https://www.fourseasons.com/buenosaires/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Dogs and cats under 25 pounds are welcome.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Dogs and cats under 25 pounds are welcome",
+          "note": "Confirmed.",
+          "url": "https://www.fourseasons.com/buenosaires/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The heated outdoor pool sits in the middle of the gardens, with food and drink delivered to your deck chair. The hotel says it is the only outdoor swimming pool in the Recoleta area.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Soak up the sun at our heated pool – the only outdoor swimming pool in the Recoleta Area – in the center of the gardens, and let our team deliver food and drinks right to your deck chair.",
+          "note": "All elements covered.",
+          "url": "https://www.fourseasons.com/buenosaires/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "A Sunday asado is held as an afternoon firepit barbecue in the secret garden.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Embrace a local tradition with an afternoon firepit barbecue in our secret garden.",
+          "note": "Listed under the heading Sunday Asado.",
+          "url": "https://www.fourseasons.com/buenosaires/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Elena has been recognised on Latin America's 50 Best Restaurants list.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Elena, recognised on Latin America’s 50 Best Restaurants list",
+          "note": "Confirmed.",
+          "url": "https://www.fourseasons.com/buenosaires/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Guests can book a one-hour private tango lesson with a professional dancer, from USD 75 per person.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Allow Four Seasons to connect you with a professional tango dancer, so you can learn the quintessential dance of Buenos Aires from an expert.",
+          "note": "Tango Lesson, listed as 1 hour.",
+          "url": "https://www.fourseasons.com/buenosaires/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "From USD 75/person",
+          "note": "Price for tango lesson.",
+          "url": "https://www.fourseasons.com/buenosaires/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Private tango dance class",
+          "note": "Private format.",
+          "url": "https://www.fourseasons.com/buenosaires/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The mansion holds suites including the Presidential Suite, with Slavonian oak floors, three crystal chandeliers and a terrace over the gardens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Make yourself at home in the elegant dining room, kitchen and living room featuring a terrace that overlooks the gardens. Slavonian oak floors, three crystal chandeliers",
+          "note": "Presidential Suite in the Mansion with listed features.",
+          "url": "https://www.fourseasons.com/buenosaires/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our glamorous Presidential Suite is located in the Hotel’s Mansion",
+          "note": "Location in mansion.",
+          "url": "https://www.fourseasons.com/buenosaires/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Pricing is premium, in line with its luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The atmosphere is formal and may not suit every traveler.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "The pool is open 8:00 am to 7:00 pm, and spa treatments run 10:00 am to 8:00 pm.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Spa treatments10:00 am – 8:00 pmPool8:00 am – 7:00 pm",
+          "note": "Both hours confirmed.",
+          "url": "https://www.fourseasons.com/buenosaires/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-4",
+      "text": "The hotel has two wings: a 12-story tower and the historic mansion, which houses the suites, so room type determines whether you stay in the old building or the new one.",
+      "findings": [
+        {
+          "verdict": "partial",
+          "doc_id": "d5",
+          "quote": "They are contained in two wings. The 12-story main tower wing and the historic French Renaissance-style mansion wing, which houses the suites.",
+          "note": "Two wings supported; the inference about room type determining building is not stated.",
+          "url": "https://en.wikipedia.org/wiki/Four_Seasons_Hotel_Buenos_Aires",
+          "tier": "press",
+          "quote_verified": true
+        },
+        {
+          "verdict": "contradicted",
+          "doc_id": "d8",
+          "quote": "Or, choose to elevate your stay in the Owner’s Suite in the Hotel’s main tower.",
+          "note": "Suites also exist in the tower, so the mansion does not house all suites.",
+          "url": "https://www.fourseasons.com/buenosaires/services-and-amenities/couples/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "contradicted",
+          "doc_id": "d11",
+          "quote": "Our corner One Bedroom Suites in the tower building offer views of La Mansión",
+          "note": "Suites located in the tower building.",
+          "url": "https://www.fourseasons.com/buenosaires/photos-and-videos/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "contradicted",
+      "reason": "a source says something different"
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, breakfast for two is free daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers are combinable with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

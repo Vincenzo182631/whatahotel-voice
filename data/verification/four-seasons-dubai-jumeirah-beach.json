@@ -1,0 +1,713 @@
+{
+  "hotel_slug": "four-seasons-dubai-jumeirah-beach",
+  "hotel_name": "Four Seasons Dubai at Jumeirah Beach",
+  "checked_at": "2026-10-06T06:24:58.450Z",
+  "script_version": 2,
+  "decision": {
+    "eligible": false,
+    "blockers": [
+      "contradicted by a source: c-1",
+      "used in the script but not verified: h-4, h-5, c-2, c-4"
+    ],
+    "counts": {
+      "supported": 12,
+      "contradicted": 1,
+      "unverified": 4,
+      "exempt": 6,
+      "total": 23
+    }
+  },
+  "applied": false,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://press.fourseasons.com/dubaijb/hotel-facts/",
+      "tier": "official",
+      "chars": 5285
+    },
+    {
+      "id": "d2",
+      "url": "https://lodgingmagazine.com/four-seasons-resort-dubai-to-open-at-jumeirah-beach/",
+      "tier": "press",
+      "chars": 5581
+    },
+    {
+      "id": "d3",
+      "url": "https://www.oyster.com/dubai/hotels/four-seasons-resort-dubai-at-jumeirah-beach/",
+      "tier": "press",
+      "chars": 9328
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/dubaijb/",
+      "tier": "official",
+      "chars": 8215
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/dubaijb/dining/",
+      "tier": "official",
+      "chars": 13719
+    },
+    {
+      "id": "d6",
+      "url": "https://www.fourseasons.com/dubaijb/spa/",
+      "tier": "official",
+      "chars": 4483
+    },
+    {
+      "id": "d7",
+      "url": "https://www.fourseasons.com/dubaijb/accommodations/",
+      "tier": "official",
+      "chars": 8210
+    },
+    {
+      "id": "d8",
+      "url": "https://www.fourseasons.com/dubaijb/accommodations/luxury-suites-in-dubai/",
+      "tier": "official",
+      "chars": 5574
+    },
+    {
+      "id": "d9",
+      "url": "https://www.fourseasons.com/dubaijb/services-and-amenities/",
+      "tier": "official",
+      "chars": 3515
+    },
+    {
+      "id": "d10",
+      "url": "https://www.fourseasons.com/dubaijb/services-and-amenities/couples/",
+      "tier": "official",
+      "chars": 6361
+    },
+    {
+      "id": "d11",
+      "url": "https://www.fourseasons.com/dubaijb/getting-here/",
+      "tier": "official",
+      "chars": 3467
+    },
+    {
+      "id": "d12",
+      "url": "https://www.fourseasons.com/dubaijb/contact-us/",
+      "tier": "official",
+      "chars": 1595
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Opened in November 2014 with 237 rooms and suites (188 guest rooms and 49 suites) on a 14-acre beachfront site.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "November 2014",
+          "note": "Opening date listed in the press-kit facts.",
+          "url": "https://press.fourseasons.com/dubaijb/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Total Number of Rooms:** 237",
+          "note": "Total room count is 237.",
+          "url": "https://press.fourseasons.com/dubaijb/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Guest Rooms:** 188",
+          "note": "188 guest rooms.",
+          "url": "https://press.fourseasons.com/dubaijb/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Suites:** 49",
+          "note": "49 suites.",
+          "url": "https://press.fourseasons.com/dubaijb/hotel-facts/",
+          "tier": "official",
+          "quote_verified": false
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Low-rise 14 acre (5.6 hectare)beachfront resort surrounded by lushly landscaped gardens and pools",
+          "note": "14-acre beachfront site.",
+          "url": "https://press.fourseasons.com/dubaijb/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Located on Jumeirah Beach Road in Jumeirah 2, Dubai, about 25 minutes from Dubai International Airport.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Jumeirah Beach Road, Jumeirah 2, PO Box 128777, Dubai, United Arab Emirates",
+          "note": "Address on Jumeirah Beach Road, Jumeirah 2.",
+          "url": "https://press.fourseasons.com/dubaijb/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "25 minutes to Dubai International Airport",
+          "note": "Airport distance of 25 minutes.",
+          "url": "https://press.fourseasons.com/dubaijb/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d11",
+          "quote": "It is approximately a 25-minute drive from Dubai International Airport (DXB) to our Jumeirah Beach resort.",
+          "note": "Confirms about 25 minutes from the airport.",
+          "url": "https://www.fourseasons.com/dubaijb/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Spanish-Mediterranean architecture with Arabic accents; the lobby has an octagonal dome finished in gold leaf.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Spanish-Mediterranean architecture with Arabic accents",
+          "note": "Architecture style.",
+          "url": "https://press.fourseasons.com/dubaijb/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The lobby is capped by an octagonal dome finished with gold leaf",
+          "note": "Octagonal gold-leaf lobby dome.",
+          "url": "https://lodgingmagazine.com/four-seasons-resort-dubai-to-open-at-jumeirah-beach/",
+          "tier": "press",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The resort has a 270-metre (886-foot) natural beach.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Beach:** 270 metre (886 foot) natural beach",
+          "note": "Beach length and natural beach.",
+          "url": "https://press.fourseasons.com/dubaijb/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d9",
+          "quote": "Our 270 metres (886 feet) of natural private beachfront offer soft golden sands",
+          "note": "Same beach length.",
+          "url": "https://www.fourseasons.com/dubaijb/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Dining: Mercury Rooftop (Mediterranean-Asian fusion), Sea Fu (modern seafood), Jou Jou Brasserie (Mediterranean), Sea Fu Bar, Shai Salon and Hendricks Bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Restaurant:** Mercury Rooftop",
+          "note": "Mercury Rooftop is listed; its cuisine is Mediterranean-Asian fusion.",
+          "url": "https://press.fourseasons.com/dubaijb/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Cuisine:** Mediterranean-Asian fusion",
+          "note": "Mercury Rooftop cuisine.",
+          "url": "https://press.fourseasons.com/dubaijb/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Cuisine:** Chic modern seafood",
+          "note": "Sea Fu cuisine.",
+          "url": "https://press.fourseasons.com/dubaijb/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Cuisine:** Authentic Mediterranean",
+          "note": "Jou Jou Brasserie cuisine.",
+          "url": "https://press.fourseasons.com/dubaijb/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Lounge:** Sea Fu Bar",
+          "note": "Sea Fu Bar.",
+          "url": "https://press.fourseasons.com/dubaijb/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Lounge:** Shai Salon",
+          "note": "Shai Salon.",
+          "url": "https://press.fourseasons.com/dubaijb/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Lounge:** Hendricks Bar",
+          "note": "Hendricks Bar.",
+          "url": "https://press.fourseasons.com/dubaijb/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Three pools: an outdoor Adult Pool, an outdoor Active Pool and an indoor spa pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Adult Pool**(outdoor): 6,458 sq. ft. / 600 sq. m.",
+          "note": "Outdoor Adult Pool.",
+          "url": "https://press.fourseasons.com/dubaijb/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Active Pool** (outdoor): 9,150 sq. ft. / 850 sq. m.",
+          "note": "Outdoor Active Pool.",
+          "url": "https://press.fourseasons.com/dubaijb/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Indoor Pool** (Spa): 1,502.24 sq. ft / 140 sq. m",
+          "note": "Indoor spa pool.",
+          "url": "https://press.fourseasons.com/dubaijb/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Pearl Spa has 10 treatment rooms, including a couple's suite, and a glass-canopied indoor pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Number of Treatment Rooms:** 10",
+          "note": "10 treatment rooms.",
+          "url": "https://press.fourseasons.com/dubaijb/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Includes luxurious Couple's Spa Suite",
+          "note": "Couple's suite.",
+          "url": "https://press.fourseasons.com/dubaijb/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Indoor swimming pool topped by a glass canopy",
+          "note": "Glass-canopied indoor pool.",
+          "url": "https://press.fourseasons.com/dubaijb/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Two hard tennis courts, and a fitness centre open 24 hours with a whirlpool, sauna and steam room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Tennis:** 2 hard surface, with pro shop",
+          "note": "Two hard tennis courts.",
+          "url": "https://press.fourseasons.com/dubaijb/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Whirlpool, sauna, steam room, weight training, studio classes",
+          "note": "Fitness facilities include whirlpool, sauna and steam room.",
+          "url": "https://press.fourseasons.com/dubaijb/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Open 24/7",
+          "note": "Fitness facilities open 24 hours.",
+          "url": "https://press.fourseasons.com/dubaijb/hotel-facts/",
+          "tier": "official",
+          "quote_verified": false
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Independent restaurants next door include Coya (Peruvian), Mimi Kakushi (Far Eastern), Nammos (Greek) and Nusr-Et (Turkish).",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Just opposite the Resort’s main entrance, several independent venues are located in a uniquely curved free-standing building.",
+          "note": "Independent venues next to the resort.",
+          "url": "https://press.fourseasons.com/dubaijb/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Coya:** Peruvian cuisine",
+          "note": "Coya is Peruvian.",
+          "url": "https://press.fourseasons.com/dubaijb/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Mimi Kakushi:** Far Eastern dishes with Western touches",
+          "note": "Mimi Kakushi is Far Eastern.",
+          "url": "https://press.fourseasons.com/dubaijb/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Nammos:** Greek cuisine",
+          "note": "Nammos is Greek.",
+          "url": "https://press.fourseasons.com/dubaijb/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**NusrEt:** Contemporary Turkish cuisine with a focus on meat",
+          "note": "Nusr-Et is Turkish.",
+          "url": "https://press.fourseasons.com/dubaijb/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "A 270-metre natural beach, with a watersports center on the 14-acre property.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Beach:** 270 metre (886 foot) natural beach",
+          "note": "270-metre natural beach.",
+          "url": "https://press.fourseasons.com/dubaijb/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "offers an on-property waterspouts center",
+          "note": "On-property watersports center (typo in source).",
+          "url": "https://lodgingmagazine.com/four-seasons-resort-dubai-to-open-at-jumeirah-beach/",
+          "tier": "press",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "with colors and textures influenced by the seaside lifestyle of this 14-acre resort",
+          "note": "14-acre property.",
+          "url": "https://lodgingmagazine.com/four-seasons-resort-dubai-to-open-at-jumeirah-beach/",
+          "tier": "press",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Mercury Rooftop is an outdoor Mediterranean-Asian restaurant with 250 outdoor seats.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Cuisine:** Mediterranean-Asian fusion",
+          "note": "Mercury Rooftop cuisine.",
+          "url": "https://press.fourseasons.com/dubaijb/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Outdoor Seating (and total):** 250",
+          "note": "250 outdoor seats, which is also the total, so the restaurant is all outdoor.",
+          "url": "https://press.fourseasons.com/dubaijb/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "An outdoor Adult Pool is separate from the family-oriented Active Pool, so quiet and family time each get their own space.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "An outdoor adult-only Quiet Pool is thoughtfully separated from the family-friendly Active Pool.",
+          "note": "Adult pool is separate from the family Active Pool.",
+          "url": "https://www.oyster.com/dubai/hotels/four-seasons-resort-dubai-at-jumeirah-beach/",
+          "tier": "press",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Adult Pool**(outdoor): 6,458 sq. ft. / 600 sq. m.",
+          "note": "Outdoor Adult Pool name.",
+          "url": "https://press.fourseasons.com/dubaijb/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Families get a free Kids For All Seasons activity center, babysitting, and mini treatments for children at the spa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Mini treatments are available for kids. Other child-friendly amenities include babysitting services and the free Kids For All Seasons Activity Center.",
+          "note": "Covers all three family elements.",
+          "url": "https://www.oyster.com/dubai/hotels/four-seasons-resort-dubai-at-jumeirah-beach/",
+          "tier": "press",
+          "quote_verified": true
+        }
+      ],
+      "status": "unverified",
+      "reason": "only supported by a press or Wikipedia page"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Rooms have 9.8-foot ceilings and marble floors, with either sea or city skyline views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "the 9.8-foot-high ceilings are accentuated by full height leather headboards",
+          "note": "9.8-foot ceilings.",
+          "url": "https://lodgingmagazine.com/four-seasons-resort-dubai-to-open-at-jumeirah-beach/",
+          "tier": "press",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Lavish details include marble flooring in the foyer, bath, and dressing room",
+          "note": "Marble floors.",
+          "url": "https://lodgingmagazine.com/four-seasons-resort-dubai-to-open-at-jumeirah-beach/",
+          "tier": "press",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Balconies off each of the 237 guestsrooms and suites offer panoramic sea views or the city’s skyline",
+          "note": "Sea or city skyline views.",
+          "url": "https://lodgingmagazine.com/four-seasons-resort-dubai-to-open-at-jumeirah-beach/",
+          "tier": "press",
+          "quote_verified": true
+        }
+      ],
+      "status": "unverified",
+      "reason": "only supported by a press or Wikipedia page"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The resort is isolated on the beach with little to see on foot. Old Dubai and downtown Dubai are each about a 20-minute drive away.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "there's little to see within walking distance. Both Old Dubai and downtown Dubai -- where Bhurj Khalifa and The Dubai Mall are located -- are a 20-minute drive away.",
+          "note": "Oyster supports little within walking distance and 20-minute drives.",
+          "url": "https://www.oyster.com/dubai/hotels/four-seasons-resort-dubai-at-jumeirah-beach/",
+          "tier": "press",
+          "quote_verified": true
+        },
+        {
+          "verdict": "contradicted",
+          "doc_id": "d11",
+          "quote": "It is less than a 15-minute drive to downtown Dubai from the Resort.",
+          "note": "Official site gives under 15 minutes to downtown.",
+          "url": "https://www.fourseasons.com/dubaijb/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "contradicted",
+      "reason": "a source says something different"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Restaurants and bars are expensive, and breakfast is not always included in room rates. The standard published rate is room only.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Restaurant and bars are expensive; breakfast not always included",
+          "note": "Expensive dining and breakfast not always included.",
+          "url": "https://www.oyster.com/dubai/hotels/four-seasons-resort-dubai-at-jumeirah-beach/",
+          "tier": "press",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "a large daily buffet breakfast (not included in room rates)",
+          "note": "Room rates exclude breakfast, i.e. room only.",
+          "url": "https://www.oyster.com/dubai/hotels/four-seasons-resort-dubai-at-jumeirah-beach/",
+          "tier": "press",
+          "quote_verified": true
+        }
+      ],
+      "status": "unverified",
+      "reason": "only supported by a press or Wikipedia page"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing and that the popular location can be busy in peak seasons.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-4",
+      "text": "Per an Oyster review, restaurants and bars may close during Ramadan, and some rooms overlook construction sites. Both are worth asking the hotel about before booking.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Restaurants and bars subject to close during Ramadan",
+          "note": "Ramadan closures.",
+          "url": "https://www.oyster.com/dubai/hotels/four-seasons-resort-dubai-at-jumeirah-beach/",
+          "tier": "press",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Some rooms overlook construction sites",
+          "note": "Construction views.",
+          "url": "https://www.oyster.com/dubai/hotels/four-seasons-resort-dubai-at-jumeirah-beach/",
+          "tier": "press",
+          "quote_verified": true
+        }
+      ],
+      "status": "unverified",
+      "reason": "only supported by a press or Wikipedia page"
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, breakfast for two is free daily (the standard published rate is room only, with breakfast usually extra).",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers are combinable with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

@@ -27,6 +27,7 @@ Usage: npm run hotel -- <command> [options]
   script    --hotel <slug>                        Write + check a script only (no audio)
   generate  --hotel <slug> [--provider mock|elevenlabs|gemini]
             [--from-version N] [--script-file path]  Script + audio as a new version
+            [--verified-only]                       Use only claims hotel:verify proved (also on script, batch)
   batch     --collection pilot [--provider ...]   Generate for every hotel in a collection
   publish   --hotel <slug> --version N --script-url <url> [--no-current | --current-only]
                                                   Upload an approved version to Vercel Blob (needs
@@ -71,6 +72,7 @@ const { positionals, values } = parseArgs({
     "no-current": { type: "boolean" },
     within: { type: "string" },
     apply: { type: "boolean" },
+    "verified-only": { type: "boolean" },
     refresh: { type: "boolean" },
     help: { type: "boolean", short: "h" },
   },
@@ -182,6 +184,7 @@ async function main() {
         fromVersion: values["from-version"] ? Number(values["from-version"]) : undefined,
         scriptFile: values["script-file"],
         scriptOnly: command === "script",
+        verifiedOnly: values["verified-only"],
         log,
       });
       report(result.dir, result.metadata);
@@ -193,7 +196,7 @@ async function main() {
       for (const h of collection.hotels) {
         console.log(`→ ${h.slug}`);
         try {
-          const result = await generateHotel(h.slug, { provider: values.provider!, log });
+          const result = await generateHotel(h.slug, { provider: values.provider!, verifiedOnly: values["verified-only"], log });
           report(result.dir, result.metadata);
         } catch (err) {
           process.exitCode = 1;

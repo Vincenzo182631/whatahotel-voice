@@ -15,7 +15,7 @@ They are two experienced luxury travel advisors talking a client through a prope
 
 Structure (sections, in this order)
 1. hook — one or two lines that name the hotel and tease the one thing to understand about it.
-2. stands_out — the most distinctive, specific things. Specific beats generic: never "beautiful rooms, excellent service".
+2. stands_out — the most distinctive, specific things. Specific beats generic: never "beautiful rooms, excellent service". Pick the three or four things a traveler most needs to hear to decide: the headline experiences, the setting and who it suits. Leave out minor detail (seat counts, treatment-room counts, square footage, small distances) and keep numbers to the few that matter. Fewer, clearer claims keep the conversation accurate.
 3. best_for — who should book it, and why.
 4. to_know — the Candid Traveler raises at least one consideration from the profile; the advisor may put it in context.
 5. bottom_line — a one or two line verdict on who it is right for. Your last turn is the Candid Traveler giving that verdict. The pipeline then adds the WhataHotel signature line (see Perks).

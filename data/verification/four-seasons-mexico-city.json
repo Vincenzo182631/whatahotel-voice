@@ -1,0 +1,504 @@
+{
+  "hotel_slug": "four-seasons-mexico-city",
+  "hotel_name": "Four Seasons Hotel Mexico, D.F.",
+  "checked_at": "2026-10-06T06:23:00.268Z",
+  "script_version": 6,
+  "decision": {
+    "eligible": false,
+    "blockers": [
+      "used in the script but not verified: f-4, f-5, h-2, c-2, c-3"
+    ],
+    "counts": {
+      "supported": 8,
+      "contradicted": 0,
+      "unverified": 7,
+      "exempt": 6,
+      "total": 21
+    }
+  },
+  "applied": false,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://press.fourseasons.com/mexico/hotel-facts",
+      "tier": "official",
+      "chars": 4534
+    },
+    {
+      "id": "d2",
+      "url": "https://www.fourseasons.com/mexico/",
+      "tier": "official",
+      "chars": 11420
+    },
+    {
+      "id": "d3",
+      "url": "https://press.fourseasons.com/mexico/hotel-facts/",
+      "tier": "official",
+      "chars": 4534
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/mexico/dining/",
+      "tier": "official",
+      "chars": 9660
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/mexico/spa/",
+      "tier": "official",
+      "chars": 4161
+    },
+    {
+      "id": "d6",
+      "url": "https://www.fourseasons.com/mexico/accommodations/",
+      "tier": "official",
+      "chars": 5880
+    },
+    {
+      "id": "d7",
+      "url": "https://www.fourseasons.com/mexico/services-and-amenities/",
+      "tier": "official",
+      "chars": 3209
+    },
+    {
+      "id": "d8",
+      "url": "https://www.fourseasons.com/mexico/getting-here/",
+      "tier": "official",
+      "chars": 1737
+    },
+    {
+      "id": "d9",
+      "url": "https://www.fourseasons.com/mexico/contact-us/",
+      "tier": "official",
+      "chars": 1595
+    },
+    {
+      "id": "d10",
+      "url": "https://www.fourseasons.com/mexico/photos-and-videos/",
+      "tier": "official",
+      "chars": 4524
+    },
+    {
+      "id": "d11",
+      "url": "https://www.fourseasons.com/mexico/discover/",
+      "tier": "official",
+      "chars": 2834
+    },
+    {
+      "id": "d12",
+      "url": "https://www.cntraveler.com/hotels/mexico-city-df/four-seasons-hotel-mexico-city",
+      "tier": "editorial",
+      "chars": 4344
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Located at Paseo de la Reforma 500 in Colonia Juárez, Mexico City, on a historic avenue near Chapultepec Park, the Zona Rosa and the Historic Centre.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Paseo de la Reforma #500, Colonia Juarez, Mexico City, 06600, Mexico",
+          "note": "Address and neighbourhood.",
+          "url": "https://press.fourseasons.com/mexico/hotel-facts",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "On historic Paseo de la Reforma avenue, steps from Chapultepec Park, Zona Rosa, the Historic Centre, and the iconic Angel of Independence monument",
+          "note": "Historic avenue near Chapultepec Park, Zona Rosa and the Historic Centre.",
+          "url": "https://press.fourseasons.com/mexico/hotel-facts",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Opened in March 1994 with 240 rooms and suites on 8 stories: 200 guest rooms and 40 suites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "March 1994",
+          "note": "Opening date.",
+          "url": "https://press.fourseasons.com/mexico/hotel-facts",
+          "tier": "official",
+          "quote_verified": false
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Number of Stories:** 8",
+          "note": "Eight stories.",
+          "url": "https://press.fourseasons.com/mexico/hotel-facts",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "With 240 accommodations, including 200 guest rooms and 40 suites",
+          "note": "Room breakdown.",
+          "url": "https://www.fourseasons.com/mexico/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Hacienda-style architecture built around a quiet garden courtyard with fruit trees, tropical plants and Mexican folk art; updated in a 2015 renovation.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Hacienda style, built around a quiet garden courtyard",
+          "note": "Hacienda style around courtyard.",
+          "url": "https://press.fourseasons.com/mexico/hotel-facts",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Renovated in 2015 with contemporary touches",
+          "note": "2015 renovation.",
+          "url": "https://press.fourseasons.com/mexico/hotel-facts",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The formal garden in the interior courtyard features fruit trees, tropical plants, and Mexican folk art",
+          "note": "Courtyard features.",
+          "url": "https://press.fourseasons.com/mexico/hotel-facts",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Guest rooms are described as 538 square feet, with French doors opening onto private terraces or balconies.",
+      "findings": [
+        {
+          "verdict": "partial",
+          "doc_id": "d2",
+          "quote": "Elegant French doors open onto a private terrace from these second-floor rooms",
+          "note": "French doors to terraces only for Premier Terrace Rooms; Premier Rooms have balconies.",
+          "url": "https://www.fourseasons.com/mexico/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "unverified",
+      "reason": "sources cover only part of the claim"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Zanaya serves Mexican Pacific cuisine (ceviches, aguachiles, wood-fired dishes) and hosts a Sunday brunch with live music.",
+      "findings": [
+        {
+          "verdict": "partial",
+          "doc_id": "d1",
+          "quote": "**Cuisine:** Mexican Pacific",
+          "note": "Zanaya cuisine confirmed; aguachiles and Sunday brunch at Zanaya not stated.",
+          "url": "https://press.fourseasons.com/mexico/hotel-facts",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "partial",
+          "doc_id": "d4",
+          "quote": "terrace seating, live music and champagne set the tone. Savour fresh ceviches, traditional favourites and wood-fired specialties",
+          "note": "Brunch with live music, ceviches and wood-fired dishes exists, but not tied to Zanaya or Sunday; no aguachiles.",
+          "url": "https://www.fourseasons.com/mexico/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "unverified",
+      "reason": "sources cover only part of the claim"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Other dining: Il Becco (Italian), OMA (Japanese omakase, 8 seats), Pan Dulce bakery and the Fifty Mils cocktail lounge with Mexican street food.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "authentic Italian cuisine at Il Becco, artisanal baking and fresh-brewed coffee at Pan Dulce, or modern Japanese dining at OMA",
+          "note": "Il Becco, Pan Dulce, OMA.",
+          "url": "https://www.fourseasons.com/mexico/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Indoor Seating:** 8, with private booth for 2",
+          "note": "OMA 8 seats.",
+          "url": "https://press.fourseasons.com/mexico/hotel-facts",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Cuisine:** Signature cocktails and Mexican street food",
+          "note": "Fifty Mils lounge with street food.",
+          "url": "https://press.fourseasons.com/mexico/hotel-facts",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Benito Juárez International Airport is approximately 30-40 minutes away by car.",
+      "findings": [],
+      "status": "unverified",
+      "reason": "no source states it"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel is pet-friendly: pets under 30 pounds are allowed, and size restrictions may apply.",
+      "findings": [
+        {
+          "verdict": "partial",
+          "doc_id": "d1",
+          "quote": "Pet-friendly rooms and services for guests traveling with their pets.",
+          "note": "Pet-friendly confirmed; 30-pound limit and size restrictions not stated.",
+          "url": "https://press.fourseasons.com/mexico/hotel-facts",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "unverified",
+      "reason": "sources cover only part of the claim"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The central courtyard garden, with fruit trees, tropical plants and Mexican folk art, is the heart of the hacienda-style building.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The formal garden in the interior courtyard features fruit trees, tropical plants, and Mexican folk art",
+          "note": "Courtyard features.",
+          "url": "https://press.fourseasons.com/mexico/hotel-facts",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Centred on a tranquil courtyard",
+          "note": "Courtyard is the centre of the hacienda-style hotel.",
+          "url": "https://www.fourseasons.com/mexico/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Zanaya, the Mexican Pacific restaurant, is known for ceviches, aguachiles and a Sunday brunch with live music.",
+      "findings": [
+        {
+          "verdict": "partial",
+          "doc_id": "d1",
+          "quote": "**Cuisine:** Mexican Pacific",
+          "note": "Mexican Pacific confirmed; aguachiles and Sunday brunch at Zanaya not stated.",
+          "url": "https://press.fourseasons.com/mexico/hotel-facts",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "partial",
+          "doc_id": "d4",
+          "quote": "terrace seating, live music and champagne set the tone. Savour fresh ceviches",
+          "note": "Brunch with live music and ceviches, but not tied to Zanaya or Sunday.",
+          "url": "https://www.fourseasons.com/mexico/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "unverified",
+      "reason": "sources cover only part of the claim"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Bosque de Chapultepec, one of the world's great urban parks, is steps away, with Condesa, Roma and Polanco described as within walking distance.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "great urban parks, the Bosque de Chapultepec",
+          "note": "Described as one of the world's great urban parks, a quick stroll away.",
+          "url": "https://www.fourseasons.com/mexico/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "Condesa, Roma and Polanco, all within walking distance",
+          "note": "Neighbourhoods within walking distance.",
+          "url": "https://www.fourseasons.com/mexico/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "steps from Chapultepec Park",
+          "note": "Steps away.",
+          "url": "https://press.fourseasons.com/mexico/hotel-facts",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "OMA is an intimate Japanese omakase counter with just 8 seats.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Serving just 10 guests, with eight seats at the counter and a private booth for two",
+          "note": "Counter has eight seats.",
+          "url": "https://www.fourseasons.com/mexico/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d10",
+          "quote": "Rooted in the art of Japanese omakase, OMA offers an intimate experience",
+          "note": "Intimate omakase.",
+          "url": "https://www.fourseasons.com/mexico/photos-and-videos/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "WhataHotel notes premium pricing that reflects the luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The spa is small: 2 treatment rooms plus in-room services, and there is one pool with a sun deck. WhataHotel notes the urban location lacks resort-style amenities.",
+      "findings": [
+        {
+          "verdict": "partial",
+          "doc_id": "d1",
+          "quote": "**Treatment rooms:** 2",
+          "note": "Two treatment rooms; 'small' characterization and WhataHotel note not covered.",
+          "url": "https://press.fourseasons.com/mexico/hotel-facts",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "partial",
+          "doc_id": "d1",
+          "quote": "Spa treatments also available in guest rooms",
+          "note": "In-room services.",
+          "url": "https://press.fourseasons.com/mexico/hotel-facts",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "partial",
+          "doc_id": "d1",
+          "quote": "**Special Features:** Overlook sun deck and outdoor pool",
+          "note": "Pool with sun deck; one pool listed.",
+          "url": "https://press.fourseasons.com/mexico/hotel-facts",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "unverified",
+      "reason": "sources cover only part of the claim"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "The airport is approximately 30-40 minutes away by car.",
+      "findings": [],
+      "status": "unverified",
+      "reason": "no source states it"
+    },
+    {
+      "claim_id": "c-4",
+      "text": "The hotel is in Colonia Juárez on Paseo de la Reforma, in the city rather than a resort setting.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Paseo de la Reforma #500, Colonia Juarez, Mexico City, 06600, Mexico",
+          "note": "Colonia Juárez on Paseo de la Reforma.",
+          "url": "https://press.fourseasons.com/mexico/hotel-facts",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "offers a calm retreat in the heart of the city",
+          "note": "City-centre urban setting.",
+          "url": "https://www.fourseasons.com/mexico/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, breakfast for two is free daily (the standard published rate is room only, with breakfast usually extra).",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers are combinable with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access (the standard published rate charges extra for internet access).",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

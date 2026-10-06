@@ -2,6 +2,8 @@ import { describe, expect, it } from "vitest";
 import { cleanText, nameOverlap, propertyCodes, subpageLinks, tierOf } from "../src/verify/evidence.js";
 import { isExempt, quoteInText, resolveClaim, type ClaimResult, type Finding } from "../src/verify/judge.js";
 import { decide } from "../src/verify/policy.js";
+import { restrictToVerified } from "../src/verify/restrict.js";
+import type { VerificationReport } from "../src/verify/report.js";
 import type { HotelProfile } from "../src/core/schema.js";
 
 const finding = (over: Partial<Finding>): Finding => ({
@@ -119,5 +121,35 @@ describe("evidence helpers", () => {
   });
   it("cleans markdown", () => {
     expect(cleanText("![x](http://a/b.jpg)\n[Rooms](http://a)\n\n\n\nText")).toBe("Rooms\n\nText");
+  });
+});
+
+describe("restrictToVerified", () => {
+  const claim = (id: string) => ({ id, text: id, source_ids: ["s1"] });
+  const profile = {
+    slug: "h",
+    positioning: "pitch",
+    best_for: ["x"],
+    facts: [claim("f-1"), claim("f-2"), claim("f-3")],
+    highlights: [claim("h-1"), claim("h-2")],
+    considerations: [claim("c-1"), claim("c-2")],
+    perks: [claim("p-1")],
+  } as unknown as HotelProfile;
+  const report = (statuses: Record<string, string>) =>
+    ({ claims: Object.entries(statuses).map(([claim_id, status]) => ({ claim_id, status })) }) as unknown as VerificationReport;
+
+  it("keeps only supported or exempt claims and clears the unsourced pitch lines", () => {
+    const r = restrictToVerified(profile, report({ "f-1": "supported", "f-2": "unverified", "f-3": "supported", "h-1": "exempt", "h-2": "contradicted", "c-1": "supported", "c-2": "unverified" }));
+    expect(r.facts.map((c) => c.id)).toEqual(["f-1", "f-3"]);
+    expect(r.highlights.map((c) => c.id)).toEqual(["h-1"]);
+    expect(r.considerations.map((c) => c.id)).toEqual(["c-1"]);
+    expect(r.best_for).toEqual([]);
+    expect(r.perks).toHaveLength(1);
+  });
+  it("refuses when there is no verified consideration", () => {
+    expect(() => restrictToVerified(profile, report({ "f-1": "supported", "f-2": "supported", "f-3": "supported", "c-1": "unverified" }))).toThrow(/consideration/);
+  });
+  it("refuses when too few facts and highlights survive", () => {
+    expect(() => restrictToVerified(profile, report({ "f-1": "supported", "c-1": "supported" }))).toThrow(/fewer than 3/);
   });
 });

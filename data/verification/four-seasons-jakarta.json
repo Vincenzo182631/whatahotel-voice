@@ -1,0 +1,505 @@
+{
+  "hotel_slug": "four-seasons-jakarta",
+  "hotel_name": "Four Seasons Hotel Jakarta",
+  "checked_at": "2026-10-06T06:22:25.182Z",
+  "script_version": 4,
+  "decision": {
+    "eligible": false,
+    "blockers": [
+      "used in the script but not verified: f-5, h-4, c-3, c-4"
+    ],
+    "counts": {
+      "supported": 10,
+      "contradicted": 0,
+      "unverified": 4,
+      "exempt": 7,
+      "total": 21
+    }
+  },
+  "applied": false,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://press.fourseasons.com/jakarta/hotel-facts/",
+      "tier": "official",
+      "chars": 4654
+    },
+    {
+      "id": "d2",
+      "url": "https://www.fourseasons.com/jakarta/",
+      "tier": "official",
+      "chars": 9601
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/jakarta/dining/",
+      "tier": "official",
+      "chars": 8671
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/jakarta/spa/",
+      "tier": "official",
+      "chars": 2973
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/jakarta/accommodations/",
+      "tier": "official",
+      "chars": 4125
+    },
+    {
+      "id": "d6",
+      "url": "https://www.fourseasons.com/jakarta/services-and-amenities/",
+      "tier": "official",
+      "chars": 3258
+    },
+    {
+      "id": "d7",
+      "url": "https://www.fourseasons.com/jakarta/services-and-amenities/club-benefits/",
+      "tier": "official",
+      "chars": 1526
+    },
+    {
+      "id": "d8",
+      "url": "https://www.fourseasons.com/jakarta/services-and-amenities/art-map/",
+      "tier": "official",
+      "chars": 1694
+    },
+    {
+      "id": "d9",
+      "url": "https://www.fourseasons.com/jakarta/getting-here/",
+      "tier": "official",
+      "chars": 1478
+    },
+    {
+      "id": "d10",
+      "url": "https://www.fourseasons.com/jakarta/contact-us/",
+      "tier": "official",
+      "chars": 1493
+    },
+    {
+      "id": "d11",
+      "url": "https://www.cntraveler.com/hotels/indonesia/jakarta/four-seasons-hotel-jakarta",
+      "tier": "editorial",
+      "chars": 2276
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Opened in 2016 with 125 rooms, all of them suites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Total Number of Rooms:** 125",
+          "note": "Fact sheet gives 125 rooms.",
+          "url": "https://press.fourseasons.com/jakarta/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Suites:** 125",
+          "note": "All 125 rooms are suites.",
+          "url": "https://press.fourseasons.com/jakarta/hotel-facts/",
+          "tier": "official",
+          "quote_verified": false
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d11",
+          "quote": "Opened 2016.",
+          "note": "Opening year 2016.",
+          "url": "https://www.cntraveler.com/hotels/indonesia/jakarta/four-seasons-hotel-jakarta",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "contradicted",
+          "doc_id": "d11",
+          "quote": "320",
+          "note": "The Condé Nast Traveler listing gives a room count of 320, not 125.",
+          "url": "https://www.cntraveler.com/hotels/indonesia/jakarta/four-seasons-hotel-jakarta",
+          "tier": "editorial",
+          "quote_verified": false
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The architect was César Pelli, the interiors are by Alexandra Champalimaud, and the gardens and landscaping are by Bill Bensley.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "César Pelli (architect)",
+          "note": "Architect confirmed.",
+          "url": "https://press.fourseasons.com/jakarta/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Alexandra Champalimaud (interiors)",
+          "note": "Interior designer confirmed.",
+          "url": "https://press.fourseasons.com/jakarta/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Bill Bensley (gardens and landscaping)",
+          "note": "Landscaping designer confirmed.",
+          "url": "https://press.fourseasons.com/jakarta/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "It is the centrepiece of the Capital Place mixed-use development on Jalan Gatot Subroto, with easy access to the Sudirman Central Business District and Mega-Kuningan.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Centrepiece of a Capital Place mixed-use development on Jalan Gatot Subroto",
+          "note": "Location confirmed.",
+          "url": "https://press.fourseasons.com/jakarta/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "with easy access to all major business destinations in south Jakarta, including the Sudirman Central Business District and Mega-Kuningan",
+          "note": "Access to SCBD and Mega-Kuningan confirmed.",
+          "url": "https://press.fourseasons.com/jakarta/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel is 40 minutes by car from Soekarno-Hatta International Airport.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "40 minutes by car from Soekarno-Hatta International Airport",
+          "note": "Travel time confirmed.",
+          "url": "https://press.fourseasons.com/jakarta/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d9",
+          "quote": "Travel Time40 minutes by car",
+          "note": "Getting-here page confirms the 40-minute drive.",
+          "url": "https://www.fourseasons.com/jakarta/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Palm Court is the main restaurant, serving elevated twists on local dishes, with daily afternoon tea and Sunday brunch. Signature dishes include Javanese lobster laksa and tom yum risotto.",
+      "findings": [
+        {
+          "verdict": "partial",
+          "doc_id": "d1",
+          "quote": "**Cuisine:** Elevated twists on local delights and staples, including daily Afternoon Tea and Sunday Brunch",
+          "note": "Cuisine, afternoon tea and brunch confirmed; no document calls Palm Court the 'main' restaurant.",
+          "url": "https://press.fourseasons.com/jakarta/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "partial",
+          "doc_id": "d1",
+          "quote": "**Signature Dishes:** Javanese lobster laksa, tom yum risotto",
+          "note": "Signature dishes confirmed.",
+          "url": "https://press.fourseasons.com/jakarta/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "unverified",
+      "reason": "sources cover only part of the claim"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Alto is an authentic Italian restaurant on the 20th floor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Cuisine:** Authentic Italian",
+          "note": "Alto's cuisine is authentic Italian.",
+          "url": "https://press.fourseasons.com/jakarta/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "hearty, traditional Italian dishes created by our culinary team at this 20th-floor restaurant",
+          "note": "Alto is on the 20th floor.",
+          "url": "https://www.fourseasons.com/jakarta/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Nautilus Bar serves craft cocktails with small plates inspired by local flavours, and La Patisserie sells cakes, pastries and batik chocolate pralines.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Offering:** Craft cocktails and drinks, plus selection of small plates inspired by local flavours and ingredients",
+          "note": "Nautilus Bar offering confirmed.",
+          "url": "https://press.fourseasons.com/jakarta/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Offering:** Cakes, pastries, pralines and other desserts to take out or enjoy on-site",
+          "note": "La Patisserie offering confirmed.",
+          "url": "https://press.fourseasons.com/jakarta/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Specialties:** batik chocolate pralines with local flavours",
+          "note": "Batik chocolate pralines confirmed.",
+          "url": "https://press.fourseasons.com/jakarta/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The spa is inspired by the iris flower and has 8 treatment rooms, including 2 couple's suites. The fitness centre is open 24/7.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Inspired by the beauty of the iris flower, 8 treatment rooms including 2 couple’s suites are the setting for results-oriented therapies",
+          "note": "Spa details confirmed.",
+          "url": "https://press.fourseasons.com/jakarta/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Open 24/7 featuring state-of-the-art cardio and weight training equipment",
+          "note": "Fitness centre hours confirmed.",
+          "url": "https://press.fourseasons.com/jakarta/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The outdoor pool and terrace sit among lush tropical landscaping, with a poolside bar, on the fourth floor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "A breath of fresh air in the heart of the city among lush tropical landscaping with a poolside bar for refreshments",
+          "note": "Landscaping and poolside bar confirmed.",
+          "url": "https://press.fourseasons.com/jakarta/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located on fourth floor",
+          "note": "Fourth floor confirmed.",
+          "url": "https://press.fourseasons.com/jakarta/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Every suite has wall-to-wall windows, and the hotel displays a collection of local art, its Art Map, tracing Indonesian history over four centuries.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Enjoy luxury accommodations in our stylish suites, featuring Italian marble bathrooms and wall-to-wall windows",
+          "note": "Suites feature wall-to-wall windows.",
+          "url": "https://www.fourseasons.com/jakarta/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "explore over four centuries of fascinating history",
+          "note": "Art Map spans four centuries of history.",
+          "url": "https://www.fourseasons.com/jakarta/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Palm Court breakfast is served beneath a custom Lasvit chandelier.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Stop in for breakfast beneath a custom Lasvit chandelier in Palm Court",
+          "note": "Confirmed.",
+          "url": "https://www.fourseasons.com/jakarta/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The hotel arranges Indonesian experiences, including culinary journeys with Chef Asep Hamdani, volcano visits, and Taman Safari trips.",
+      "findings": [
+        {
+          "verdict": "partial",
+          "doc_id": "d2",
+          "quote": "with Chef Asep guiding you along every step of your journey",
+          "note": "Chef Asep is named, but no document gives the surname Hamdani.",
+          "url": "https://www.fourseasons.com/jakarta/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "partial",
+          "doc_id": "d2",
+          "quote": "Feel the unmatched thrill of visiting an active volcano.",
+          "note": "Volcano visit confirmed.",
+          "url": "https://www.fourseasons.com/jakarta/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "partial",
+          "doc_id": "d2",
+          "quote": "This thrilling day begins at Taman Safari, the largest safari park in Indonesia",
+          "note": "Taman Safari trip confirmed.",
+          "url": "https://www.fourseasons.com/jakarta/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "unverified",
+      "reason": "sources cover only part of the claim"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Jakarta's notorious traffic congestion can lengthen travel times to key attractions and neighborhoods.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The city-centre location means limited access to natural landscapes or beach settings.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "The airport is 40 minutes away by car, per the hotel's own fact sheet, before any traffic delays.",
+      "findings": [
+        {
+          "verdict": "partial",
+          "doc_id": "d1",
+          "quote": "40 minutes by car from Soekarno-Hatta International Airport",
+          "note": "The fact sheet gives 40 minutes but says nothing about traffic delays.",
+          "url": "https://press.fourseasons.com/jakarta/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "unverified",
+      "reason": "sources cover only part of the claim"
+    },
+    {
+      "claim_id": "c-4",
+      "text": "The outdoor pool measures 5.4 by 27.2 metres (about 17.7 by 89.2 feet), so it is a compact terrace pool rather than a large resort pool.",
+      "findings": [
+        {
+          "verdict": "partial",
+          "doc_id": "d1",
+          "quote": "5.4 metres x 27.2 metres (17.7 feet x 89.2 feet)",
+          "note": "Dimensions confirmed; the 'compact rather than resort pool' characterization is not stated.",
+          "url": "https://press.fourseasons.com/jakarta/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "unverified",
+      "reason": "sources cover only part of the claim"
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, breakfast for two is free daily (the standard published rate is room only, with breakfast usually extra).",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers are combinable with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
