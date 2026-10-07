@@ -1,22 +1,20 @@
 {
   "hotel_slug": "four-seasons-florence",
   "hotel_name": "Four Seasons Hotel Florence",
-  "checked_at": "2026-10-07T21:33:21.358Z",
+  "checked_at": "2026-10-07T21:35:56.661Z",
   "script_version": null,
   "decision": {
-    "eligible": false,
-    "blockers": [
-      "used in the script but not verified: f-1"
-    ],
+    "eligible": true,
+    "blockers": [],
     "counts": {
       "supported": 19,
       "contradicted": 0,
-      "unverified": 1,
+      "unverified": 0,
       "exempt": 6,
-      "total": 26
+      "total": 25
     }
   },
-  "applied": false,
+  "applied": true,
   "evidence": [
     {
       "id": "d1",
@@ -86,23 +84,6 @@
     }
   ],
   "claims": [
-    {
-      "claim_id": "f-1",
-      "text": "The hotel opened in June 2008.",
-      "findings": [
-        {
-          "verdict": "supported",
-          "doc_id": "d1",
-          "quote": "June 2008",
-          "note": "opening date",
-          "url": "https://press.fourseasons.com/florence/hotel-facts/",
-          "tier": "official",
-          "quote_verified": false
-        }
-      ],
-      "status": "unverified",
-      "reason": "quoted evidence could not be found in the page text"
-    },
     {
       "claim_id": "f-2",
       "text": "The hotel has 121 rooms.",

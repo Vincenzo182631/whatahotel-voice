@@ -1,12 +1,8 @@
 # Verification checklist: Four Seasons Hotel Florence
 
-Checked 2026-10-07 against the hotel's own pages and Condé Nast Traveler. Result: **needs attention**.
+Checked 2026-10-07 against the hotel's own pages and Condé Nast Traveler. Result: **can be marked verified** (profile set to verified).
 
-Supported 19 · contradicted 0 · unverified 1 · WhataHotel's own statements 6 · total 26
-
-## Blockers
-
-- used in the script but not verified: f-1
+Supported 19 · contradicted 0 · unverified 0 · WhataHotel's own statements 6 · total 25
 
 ## Pages checked
 
@@ -26,7 +22,6 @@ Supported 19 · contradicted 0 · unverified 1 · WhataHotel's own statements 6 
 
 | | Claim | Evidence |
 |---|---|---|
-| ⚠️ | **f-1** The hotel opened in June 2008. | quoted evidence could not be found in the page text |
 | ✅ | **f-2** The hotel has 121 rooms. | "Discover our 121 luxury accommodations, comprising 76 hotel rooms and 45 luxury suites" (official, https://www.fourseasons.com/florence/accommodations/) |
 | ✅ | **f-3** Four Seasons Hotel Firenze is set within two Renaissance palaces. | "Set within two Renaissance palaces, Four Seasons Hotel Firenze stands as a 5-star retreat" (official, https://www.fourseasons.com/florence/) |
 | ✅ | **f-4** The hotel's address is Borgo Pinti 99. | "Borgo Pinti 99, 50121 Firenze, Italy" (official, https://www.fourseasons.com/florence/) |
