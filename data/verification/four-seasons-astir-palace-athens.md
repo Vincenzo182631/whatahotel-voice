@@ -1,12 +1,8 @@
 # Verification checklist: Four Seasons Astir Palace Hotel Athens
 
-Checked 2026-10-07 against the hotel's own pages and Condé Nast Traveler. Result: **needs attention**.
+Checked 2026-10-07 against the hotel's own pages and Condé Nast Traveler. Result: **can be marked verified** (profile set to verified).
 
-Supported 19 · contradicted 0 · unverified 1 · WhataHotel's own statements 6 · total 26
-
-## Blockers
-
-- used in the script but not verified: f-1
+Supported 19 · contradicted 0 · unverified 0 · WhataHotel's own statements 6 · total 25
 
 ## Pages checked
 
@@ -26,7 +22,6 @@ Supported 19 · contradicted 0 · unverified 1 · WhataHotel's own statements 6 
 
 | | Claim | Evidence |
 |---|---|---|
-| ⚠️ | **f-1** The hotel opened in March 2019. | quoted evidence could not be found in the page text |
 | ✅ | **f-2** The hotel has 303 rooms in total. | "**Total Number of Rooms**: 303" (official, https://press.fourseasons.com/athens/hotel-facts/) |
 | ✅ | **f-3** The hotel is at 40 Apollonos Street, Vouliagmeni, Athens. | "40 Apollonos Street, Vouliagmeni, Athens, 16671, Greece" (official, https://press.fourseasons.com/athens/hotel-facts/) |
 | ✅ | **f-4** The estate has three private beaches along the Aegean Sea. | "provides guests with exclusive access to three private beaches along the Aegean Sea" (official, https://www.fourseasons.com/athens/) |

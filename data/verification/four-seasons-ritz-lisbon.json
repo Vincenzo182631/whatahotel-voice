@@ -1,22 +1,20 @@
 {
   "hotel_slug": "four-seasons-ritz-lisbon",
   "hotel_name": "Four Seasons Hotel Ritz Lisbon",
-  "checked_at": "2026-10-07T13:05:06.971Z",
+  "checked_at": "2026-10-07T13:10:33.137Z",
   "script_version": null,
   "decision": {
-    "eligible": false,
-    "blockers": [
-      "contradicted by a source: c-1"
-    ],
+    "eligible": true,
+    "blockers": [],
     "counts": {
       "supported": 19,
-      "contradicted": 1,
+      "contradicted": 0,
       "unverified": 0,
       "exempt": 6,
-      "total": 26
+      "total": 25
     }
   },
-  "applied": false,
+  "applied": true,
   "evidence": [
     {
       "id": "d1",
@@ -375,34 +373,6 @@
         }
       ],
       "status": "supported"
-    },
-    {
-      "claim_id": "c-1",
-      "text": "The outdoor pool is open May to September.",
-      "findings": [
-        {
-          "verdict": "supported",
-          "doc_id": "d6",
-          "quote": "Open May to September.",
-          "note": "Services page matches claim",
-          "confirmed": true,
-          "url": "https://www.fourseasons.com/lisbon/services-and-amenities/",
-          "tier": "official",
-          "quote_verified": true
-        },
-        {
-          "verdict": "contradicted",
-          "doc_id": "d10",
-          "quote": "Our organic-shaped outdoor pool is the perfect place to go for a swim after a day exploring the city of seven hills. Open April to October",
-          "note": "Photos page gives April to October, not May to September",
-          "confirmed": true,
-          "url": "https://www.fourseasons.com/lisbon/photos-and-videos/",
-          "tier": "official",
-          "quote_verified": true
-        }
-      ],
-      "status": "contradicted",
-      "reason": "a source says something different"
     },
     {
       "claim_id": "c-2",

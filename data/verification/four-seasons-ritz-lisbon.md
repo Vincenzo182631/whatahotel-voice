@@ -1,12 +1,8 @@
 # Verification checklist: Four Seasons Hotel Ritz Lisbon
 
-Checked 2026-10-07 against the hotel's own pages and Condé Nast Traveler. Result: **needs attention**.
+Checked 2026-10-07 against the hotel's own pages and Condé Nast Traveler. Result: **can be marked verified** (profile set to verified).
 
-Supported 19 · contradicted 1 · unverified 0 · WhataHotel's own statements 6 · total 26
-
-## Blockers
-
-- contradicted by a source: c-1
+Supported 19 · contradicted 0 · unverified 0 · WhataHotel's own statements 6 · total 25
 
 ## Pages checked
 
@@ -43,7 +39,6 @@ Supported 19 · contradicted 1 · unverified 0 · WhataHotel's own statements 6 
 | ✅ | **h-3** The hotel features one of the country's largest and most important privately-owned collections of mid-twentieth century Portuguese art. | "The Hotel features one of the country's largest and most important privately-owned collections of mid-twentieth century Portuguese art" (official, https://press.fourseasons.com/lisbon/hotel-facts/) |
 | ✅ | **h-4** Grand Premier Park-View Rooms offer private terraces. | "these comfortable rooms offer private terraces perfect for morning coffee" (official, https://www.fourseasons.com/lisbon/) |
 | ✅ | **h-5** Handwoven tapestries by Portuguese artist José Sobral de Almada Negreiros hang throughout the hotel. | "handwoven tapestries by Portuguese artist José Sobral de Almada Negreiros hang throughout" (editorial, https://www.cntraveler.com/hotels/lisbon/four-seasons-hotel-ritz-lisbon) |
-| ❌ | **c-1** The outdoor pool is open May to September. | Source says: "Our organic-shaped outdoor pool is the perfect place to go for a swim after a day exploring the city of seven hills. Open April to October" (official, https://www.fourseasons.com/lisbon/photos-and-videos/) |
 | ✅ | **c-2** Rossio Square is approximately 2 kilometres from the hotel, about a 25-minute walk or a 10-minute drive. | "approximately 2 kilometres (1.2 miles) from Rossio Square (about a 25-minute walk or a 10-minute drive)" (official, https://www.fourseasons.com/lisbon/getting-here/) |
 | ✅ | **c-3** Condé Nast Traveler describes the hotel's silhouette as midcentury and blockish, dramatic, almost brutal. | "The midcentury, blockish silhouette of the hotel is dramatic, almost brutal" (editorial, https://www.cntraveler.com/hotels/lisbon/four-seasons-hotel-ritz-lisbon) |
 | ➖ | **c-4** WhataHotel notes premium luxury pricing reflecting the Four Seasons brand positioning. | WhataHotel's own offer or statement |

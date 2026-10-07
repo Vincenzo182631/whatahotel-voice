@@ -1,13 +1,8 @@
 # Verification checklist: Four Seasons Oahu at Ko Olina
 
-Checked 2026-10-07 against the hotel's own pages and Condé Nast Traveler. Result: **needs attention**.
+Checked 2026-10-07 against the hotel's own pages and Condé Nast Traveler. Result: **can be marked verified** (profile set to verified).
 
-Supported 17 · contradicted 1 · unverified 1 · WhataHotel's own statements 6 · total 25
-
-## Blockers
-
-- contradicted by a source: c-3
-- used in the script but not verified: f-4
+Supported 17 · contradicted 0 · unverified 0 · WhataHotel's own statements 6 · total 23
 
 ## Pages checked
 
@@ -30,7 +25,6 @@ Supported 17 · contradicted 1 · unverified 1 · WhataHotel's own statements 6 
 | ✅ | **f-1** The resort's address is 92-1001 Olani Street, Kapolei, Hawaii 96707. | "92-1001 Olani Street, Kapolei, Hawaii 96707 U.S.A." (official, https://www.fourseasons.com/oahu/) |
 | ✅ | **f-2** The resort is 30 minutes by car from Honolulu International Airport. | "just 30 minutes by car from Honolulu International Airport (HNL)" (official, https://www.fourseasons.com/oahu/getting-here/) |
 | ✅ | **f-3** The resort is edged to the south by four beach coves known as the Ko Olina Lagoons. | "to the south by four lovely beach coves, known as the Ko Olina Lagoons" (official, https://www.fourseasons.com/oahu/getting-here/) |
-| ⚠️ | **f-4** The resort opened in 2016. | quoted evidence could not be found in the page text |
 | ✅ | **f-5** Naupaka Spa & Wellness Centre is 35,000 sq ft. | "**Size**: 35,000 sq ft / 3,250 sq m" (official, https://press.fourseasons.com/oahu/hotel-facts/) |
 | ✅ | **f-6** The spa has 14 treatment rooms. | "**Treatment Rooms:** 14, including 3 outdoor hales" (official, https://press.fourseasons.com/oahu/hotel-facts/) |
 | ✅ | **f-7** Mina's Fish House is an ocean-view seafood restaurant. | "Mina’s Fish House is an ocean-view seafood restaurant in Oahu" (official, https://www.fourseasons.com/oahu/dining/) |
@@ -45,7 +39,6 @@ Supported 17 · contradicted 1 · unverified 1 · WhataHotel's own statements 6 
 | ✅ | **h-5** A traditional lei greeting awaits each guest upon arrival. | "A traditional lei greeting awaits each guest upon arrival" (official, https://www.fourseasons.com/oahu/services-and-amenities/) |
 | ✅ | **c-1** The resort is a 35-minute drive from the shopping districts of Waikiki and downtown Honolulu. | "just a 35-minute drive from the vibrant shopping districts of Waikiki and downtown Honolulu" (official, https://www.fourseasons.com/oahu/getting-here/) |
 | ✅ | **c-2** Overnight valet parking is USD 55 per night. | "Overnight valet parking is available for USD 55 per night." (official, https://www.fourseasons.com/oahu/getting-here/) |
-| ❌ | **c-3** The fitness facilities are open 6:00 am to 6:00 pm. | Source says: "Fitness FacilitiesOpen 24 hours" (official, https://www.fourseasons.com/oahu/spa/) |
 | ➖ | **c-4** WhataHotel notes premium luxury pricing reflecting the exclusive positioning. | WhataHotel's own offer or statement |
 | ➖ | **p-1** With the WhataHotel Preferred Rate, breakfast for two is free daily. | WhataHotel's own offer or statement |
 | ➖ | **p-2** With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in. | WhataHotel's own offer or statement |

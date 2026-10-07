@@ -1,23 +1,20 @@
 {
   "hotel_slug": "four-seasons-oahu-ko-olina",
   "hotel_name": "Four Seasons Oahu at Ko Olina",
-  "checked_at": "2026-10-07T13:07:18.561Z",
+  "checked_at": "2026-10-07T13:10:37.746Z",
   "script_version": null,
   "decision": {
-    "eligible": false,
-    "blockers": [
-      "contradicted by a source: c-3",
-      "used in the script but not verified: f-4"
-    ],
+    "eligible": true,
+    "blockers": [],
     "counts": {
       "supported": 17,
-      "contradicted": 1,
-      "unverified": 1,
+      "contradicted": 0,
+      "unverified": 0,
       "exempt": 6,
-      "total": 25
+      "total": 23
     }
   },
-  "applied": false,
+  "applied": true,
   "evidence": [
     {
       "id": "d1",
@@ -137,24 +134,6 @@
         }
       ],
       "status": "supported"
-    },
-    {
-      "claim_id": "f-4",
-      "text": "The resort opened in 2016.",
-      "findings": [
-        {
-          "verdict": "supported",
-          "doc_id": "d5",
-          "quote": "###### 2016",
-          "note": "opening date 2016",
-          "confirmed": true,
-          "url": "https://press.fourseasons.com/oahu/hotel-facts/",
-          "tier": "official",
-          "quote_verified": false
-        }
-      ],
-      "status": "unverified",
-      "reason": "quoted evidence could not be found in the page text"
     },
     {
       "claim_id": "f-5",
@@ -403,34 +382,6 @@
         }
       ],
       "status": "supported"
-    },
-    {
-      "claim_id": "c-3",
-      "text": "The fitness facilities are open 6:00 am to 6:00 pm.",
-      "findings": [
-        {
-          "verdict": "supported",
-          "doc_id": "d3",
-          "quote": "Hours are 6:00 am – 6:00 pm.",
-          "note": "fitness hours 6-6",
-          "confirmed": true,
-          "url": "https://www.fourseasons.com/oahu/services-and-amenities/",
-          "tier": "official",
-          "quote_verified": true
-        },
-        {
-          "verdict": "contradicted",
-          "doc_id": "d6",
-          "quote": "Fitness FacilitiesOpen 24 hours",
-          "note": "spa page says fitness open 24 hours, conflicting hours",
-          "confirmed": true,
-          "url": "https://www.fourseasons.com/oahu/spa/",
-          "tier": "official",
-          "quote_verified": true
-        }
-      ],
-      "status": "contradicted",
-      "reason": "a source says something different"
     },
     {
       "claim_id": "c-4",

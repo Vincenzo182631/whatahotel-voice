@@ -2,7 +2,7 @@
 
 Checked 2026-10-07 against the hotel's own pages and Condé Nast Traveler. Result: **can be marked verified** (profile set to verified).
 
-Supported 20 · contradicted 0 · unverified 0 · WhataHotel's own statements 5 · total 25
+Supported 19 · contradicted 0 · unverified 0 · WhataHotel's own statements 5 · total 24
 
 ## Pages checked
 
@@ -42,7 +42,6 @@ Supported 20 · contradicted 0 · unverified 0 · WhataHotel's own statements 5 
 | ✅ | **h-5** The hotel accommodates dogs and cats up to 60 pounds. | "We accommodate dogs and cats up to 60 pounds (27.22 kilograms)" (official, https://www.fourseasons.com/baltimore/getting-here/) |
 | ✅ | **c-1** The Spa page lists the outdoor pool as closed for the season. | "Outdoor PoolClosed for the season" (official, https://www.fourseasons.com/baltimore/spa/) |
 | ✅ | **c-2** Condé Nast Traveler describes the rooms as plush-but-generic. | "Plush-but-generic rooms are secondary to an excellent restaurant" (editorial, https://www.cntraveler.com/hotels/united-states/baltimore/four-seasons-hotel-baltimore) |
-| ✅ | **c-3** The dining page lists Splash Pool Bar & Grill as temporarily closed. | "Temporarily Closed" (official, https://www.fourseasons.com/baltimore/dining/) |
 | ➖ | **p-1** With the WhataHotel Preferred Rate, breakfast for two is free daily. | WhataHotel's own offer or statement |
 | ➖ | **p-2** With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in. | WhataHotel's own offer or statement |
 | ➖ | **p-3** With the WhataHotel Preferred Rate, guests get a $100 hotel credit. | WhataHotel's own offer or statement |

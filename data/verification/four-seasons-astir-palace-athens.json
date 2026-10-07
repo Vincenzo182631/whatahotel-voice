@@ -1,22 +1,20 @@
 {
   "hotel_slug": "four-seasons-astir-palace-athens",
   "hotel_name": "Four Seasons Astir Palace Hotel Athens",
-  "checked_at": "2026-10-07T13:05:09.002Z",
+  "checked_at": "2026-10-07T13:10:35.524Z",
   "script_version": null,
   "decision": {
-    "eligible": false,
-    "blockers": [
-      "used in the script but not verified: f-1"
-    ],
+    "eligible": true,
+    "blockers": [],
     "counts": {
       "supported": 19,
       "contradicted": 0,
-      "unverified": 1,
+      "unverified": 0,
       "exempt": 6,
-      "total": 26
+      "total": 25
     }
   },
-  "applied": false,
+  "applied": true,
   "evidence": [
     {
       "id": "d1",
@@ -87,24 +85,6 @@
   ],
   "skipped": [],
   "claims": [
-    {
-      "claim_id": "f-1",
-      "text": "The hotel opened in March 2019.",
-      "findings": [
-        {
-          "verdict": "supported",
-          "doc_id": "d1",
-          "quote": "###### March 2019",
-          "note": "Opening date listed as March 2019",
-          "confirmed": true,
-          "url": "https://press.fourseasons.com/athens/hotel-facts/",
-          "tier": "official",
-          "quote_verified": false
-        }
-      ],
-      "status": "unverified",
-      "reason": "quoted evidence could not be found in the page text"
-    },
     {
       "claim_id": "f-2",
       "text": "The hotel has 303 rooms in total.",
