@@ -1,0 +1,371 @@
+{
+  "hotel_slug": "four-seasons-rabat",
+  "hotel_name": "Four Seasons Rabat at Kasr Al Bahr",
+  "checked_at": "2026-10-07T23:56:22.038Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 13,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 7,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://press.fourseasons.com/rabat/hotel-facts/",
+      "tier": "official",
+      "chars": 5269
+    },
+    {
+      "id": "d2",
+      "url": "https://www.fourseasons.com/rabat/",
+      "tier": "official",
+      "chars": 12876
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/rabat/spa/",
+      "tier": "official",
+      "chars": 6818
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/rabat/accommodations/",
+      "tier": "official",
+      "chars": 6653
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/rabat/services-and-amenities/",
+      "tier": "official",
+      "chars": 6502
+    },
+    {
+      "id": "d6",
+      "url": "https://www.fourseasons.com/rabat/services-and-amenities/hotel-history/",
+      "tier": "official",
+      "chars": 4798
+    },
+    {
+      "id": "d7",
+      "url": "https://www.fourseasons.com/rabat/getting-here/",
+      "tier": "official",
+      "chars": 1534
+    },
+    {
+      "id": "d8",
+      "url": "https://www.fourseasons.com/rabat/contact-us/",
+      "tier": "official",
+      "chars": 1188
+    },
+    {
+      "id": "d9",
+      "url": "https://www.fourseasons.com/rabat/photos-and-videos/",
+      "tier": "official",
+      "chars": 425
+    },
+    {
+      "id": "d10",
+      "url": "https://www.cntraveler.com/hotels/rabat/four-seasons-rabat-at-kasr-al-bahr",
+      "tier": "editorial",
+      "chars": 10706
+    }
+  ],
+  "skipped": [
+    {
+      "url": "https://www.fourseasons.com/rabat/dining/",
+      "reason": "Firecrawl 429 for https://www.fourseasons.com/rabat/dining/: Rate limit exceeded. Consumed (req/min): 15, Remaining (req/min): 0. Upgrade your plan at https://f"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel opened in October 2024.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "October 2024",
+          "note": "Opening date listed in press facts",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/rabat/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel sits on the Atlantic coastline in Rabat's Quartier de l'Océan.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "On an expansive stretch of Atlantic coastline",
+          "note": "Atlantic coastline",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/rabat/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Ancien Hopital Marie Feuillet, Avenue Brahim Roudani, Quartier de l’Océan, Rabat, 10 000, Morocco",
+          "note": "Address in Quartier de l'Ocean",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/rabat/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The property was built in the late 1700s as a summer residence for Sultan Moulay Slimane.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "was built at the end of the 18th century as the summer residence of Morocco’s Sultan Moulay Slimane",
+          "note": "Built end of 18th century as summer residence",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/rabat/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The property has 11 buildings, five new and six historic.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Total of 11 buildings: five brand-new and six historical",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/rabat/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The spa has 10 treatment rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Find tranquillity in one of our 10 treatment rooms",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/rabat/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel has a traditional Moroccan hammam.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Unwind in the traditional hammam",
+          "note": "Traditional hammam",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/rabat/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The hotel has a 24-hour fitness centre with ocean views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "24-hour Fitness Centre with breathtaking ocean views",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/rabat/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel has two outdoor pools.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Two outdoor pools, including a resort-style pool and an ocean-view infinity pool",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/rabat/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Verdello serves Italian and Mediterranean dishes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Italian and Mediterranean specialties",
+          "note": "Verdello menu",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/rabat/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Flamme is an all-day dining venue with an interactive kitchen specializing in oven-baked cuisine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "all-day dining with oven-baked cuisine from an interactive kitchen",
+          "note": "Flamme menu",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/rabat/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Premier Rooms offer a panorama of the Atlantic Ocean.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Wake up to a breathtaking panorama of the Atlantic Ocean.",
+          "note": "Premier Room description",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/rabat/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The hotel has a year-round indoor pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Unique in Rabat, our year-round indoor pool is perfect for swimming laps or taking a soothing dip.",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/rabat/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The property was a military hospital that closed in 1999 before the hotel opened.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The palace later served as a military hospital before closing in 1999.",
+          "note": "Military hospital closed 1999",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/rabat/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "October 2024",
+          "note": "Hotel opened after closure",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/rabat/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes limited nightlife options in the immediate vicinity.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium luxury pricing.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, breakfast for two is free daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers can be combined with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
