@@ -1,0 +1,478 @@
+{
+  "hotel_slug": "four-seasons-ritz-lisbon",
+  "hotel_name": "Four Seasons Hotel Ritz Lisbon",
+  "checked_at": "2026-10-07T13:05:06.971Z",
+  "script_version": null,
+  "decision": {
+    "eligible": false,
+    "blockers": [
+      "contradicted by a source: c-1"
+    ],
+    "counts": {
+      "supported": 19,
+      "contradicted": 1,
+      "unverified": 0,
+      "exempt": 6,
+      "total": 26
+    }
+  },
+  "applied": false,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://press.fourseasons.com/lisbon/hotel-facts/",
+      "tier": "official",
+      "chars": 7250
+    },
+    {
+      "id": "d2",
+      "url": "https://www.fourseasons.com/lisbon/",
+      "tier": "official",
+      "chars": 9266
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/lisbon/dining/",
+      "tier": "official",
+      "chars": 10869
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/lisbon/spa/",
+      "tier": "official",
+      "chars": 3443
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/lisbon/getting-here/",
+      "tier": "official",
+      "chars": 3067
+    },
+    {
+      "id": "d6",
+      "url": "https://www.fourseasons.com/lisbon/services-and-amenities/",
+      "tier": "official",
+      "chars": 3077
+    },
+    {
+      "id": "d7",
+      "url": "https://www.cntraveler.com/hotels/lisbon/four-seasons-hotel-ritz-lisbon",
+      "tier": "editorial",
+      "chars": 5875
+    },
+    {
+      "id": "d8",
+      "url": "https://www.fourseasons.com/lisbon/accommodations/",
+      "tier": "official",
+      "chars": 7435
+    },
+    {
+      "id": "d9",
+      "url": "https://www.fourseasons.com/lisbon/contact-us/",
+      "tier": "official",
+      "chars": 1552
+    },
+    {
+      "id": "d10",
+      "url": "https://www.fourseasons.com/lisbon/photos-and-videos/",
+      "tier": "official",
+      "chars": 5702
+    },
+    {
+      "id": "d11",
+      "url": "https://www.fourseasons.com/lisbon/discover/",
+      "tier": "official",
+      "chars": 1712
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel has 282 rooms and suites in total.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Total Number of Rooms:** 282",
+          "note": "Total of 282 rooms and suites",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/lisbon/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel rises 10 storeys above the city beside Eduardo VII Park.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "rises 10 storeys above the city beside Eduardo VII Park",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/lisbon/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel's address is Rua Rodrigo da Fonseca, 88, Lisbon.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Rua Rodrigo da Fonseca, 88, Lisbon 1099-039, Portugal",
+          "note": "Address matches",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/lisbon/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel is 650 metres from Marquês de Pombal Square, about a nine-minute walk.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The Hotel is located just 650 metres (0.4 miles) from Marquês de Pombal Square (about a nine-minute walk)",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/lisbon/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Humberto Delgado Airport is 20 minutes by car from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "about 20 minutes by car, depending on traffic",
+          "note": "Airport is 20 minutes by car",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/lisbon/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The hotel's design is inspired by Art Deco and Louis XVI style.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Inspired by Art Deco and Louis XVI style, executed by Portuguese craftsmen",
+          "note": "Design aesthetic matches",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/lisbon/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "CURA, the Portuguese restaurant at the hotel, is distinguished with one Michelin star.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "the Portuguese restaurant at Four Seasons Hotel Ritz Lisbon distinguished with one Michelin star",
+          "note": "CURA one Michelin star",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/lisbon/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Rodolfo Lavrador is the chef at CURA.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "- **Chef:** Rodolfo Lavrador",
+          "note": "Chef at CURA",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/lisbon/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The hotel has a heated 18-metre indoor lap pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Go for a dip in our heated 18-metre (59-foot) indoor lap pool",
+          "note": "Heated 18 m indoor lap pool",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/lisbon/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The Ritz Spa has four treatment rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "the Spa offers four treatment rooms",
+          "note": "Four treatment rooms",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/lisbon/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel has a rooftop running track.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "- Rooftop Running Track",
+          "note": "Rooftop running track listed as amenity",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/lisbon/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The Almada Negreiros Lounge & Bar serves afternoon tea.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Indulge in a delightful afternoon tea at Almada Negreiros Lounge & Bar",
+          "note": "Afternoon tea served there",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/lisbon/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Varanda Restaurant is known for its lavish brunch.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Varanda is known for its lavish brunch",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/lisbon/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Royal Suite has three balconies.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Discover the charm of our Royal Suite, where panoramic windows, three balconies, a living area and dining room",
+          "note": "Three balconies",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/lisbon/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The hotel features one of the country's largest and most important privately-owned collections of mid-twentieth century Portuguese art.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Hotel features one of the country's largest and most important privately-owned collections of mid-twentieth century Portuguese art",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/lisbon/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Grand Premier Park-View Rooms offer private terraces.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "these comfortable rooms offer private terraces perfect for morning coffee",
+          "note": "Under Grand Premier Park-View Room",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/lisbon/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Handwoven tapestries by Portuguese artist José Sobral de Almada Negreiros hang throughout the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "handwoven tapestries by Portuguese artist José Sobral de Almada Negreiros hang throughout",
+          "note": "Editorial says this",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/lisbon/four-seasons-hotel-ritz-lisbon",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The outdoor pool is open May to September.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Open May to September.",
+          "note": "Services page matches claim",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/lisbon/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "contradicted",
+          "doc_id": "d10",
+          "quote": "Our organic-shaped outdoor pool is the perfect place to go for a swim after a day exploring the city of seven hills. Open April to October",
+          "note": "Photos page gives April to October, not May to September",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/lisbon/photos-and-videos/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "contradicted",
+      "reason": "a source says something different"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Rossio Square is approximately 2 kilometres from the hotel, about a 25-minute walk or a 10-minute drive.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "approximately 2 kilometres (1.2 miles) from Rossio Square (about a 25-minute walk or a 10-minute drive)",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/lisbon/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "Condé Nast Traveler describes the hotel's silhouette as midcentury and blockish, dramatic, almost brutal.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "The midcentury, blockish silhouette of the hotel is dramatic, almost brutal",
+          "note": "Condé Nast Traveler text",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/lisbon/four-seasons-hotel-ritz-lisbon",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-4",
+      "text": "WhataHotel notes premium luxury pricing reflecting the Four Seasons brand positioning.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, breakfast for two is free daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers can be combined with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

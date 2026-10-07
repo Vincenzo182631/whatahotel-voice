@@ -1,0 +1,468 @@
+{
+  "hotel_slug": "four-seasons-astir-palace-athens",
+  "hotel_name": "Four Seasons Astir Palace Hotel Athens",
+  "checked_at": "2026-10-07T13:05:09.002Z",
+  "script_version": null,
+  "decision": {
+    "eligible": false,
+    "blockers": [
+      "used in the script but not verified: f-1"
+    ],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 1,
+      "exempt": 6,
+      "total": 26
+    }
+  },
+  "applied": false,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://press.fourseasons.com/athens/hotel-facts/",
+      "tier": "official",
+      "chars": 4667
+    },
+    {
+      "id": "d2",
+      "url": "https://www.fourseasons.com/athens/",
+      "tier": "official",
+      "chars": 9124
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/athens/dining/",
+      "tier": "official",
+      "chars": 13196
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/athens/spa/",
+      "tier": "official",
+      "chars": 8523
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/athens/services-and-amenities/",
+      "tier": "official",
+      "chars": 4637
+    },
+    {
+      "id": "d6",
+      "url": "https://www.fourseasons.com/athens/getting-here/",
+      "tier": "official",
+      "chars": 1515
+    },
+    {
+      "id": "d7",
+      "url": "https://www.fourseasons.com/athens/accommodations/",
+      "tier": "official",
+      "chars": 8597
+    },
+    {
+      "id": "d8",
+      "url": "https://www.fourseasons.com/athens/accommodations/private-pool-suites/",
+      "tier": "official",
+      "chars": 8555
+    },
+    {
+      "id": "d9",
+      "url": "https://www.fourseasons.com/athens/contact-us/",
+      "tier": "official",
+      "chars": 1733
+    },
+    {
+      "id": "d10",
+      "url": "https://www.fourseasons.com/athens/photos-and-videos/",
+      "tier": "official",
+      "chars": 1921
+    },
+    {
+      "id": "d11",
+      "url": "https://www.cntraveler.com/hotels/athens/four-seasons-astir-palace-hotel-athens",
+      "tier": "editorial",
+      "chars": 10188
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel opened in March 2019.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "###### March 2019",
+          "note": "Opening date listed as March 2019",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/athens/hotel-facts/",
+          "tier": "official",
+          "quote_verified": false
+        }
+      ],
+      "status": "unverified",
+      "reason": "quoted evidence could not be found in the page text"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel has 303 rooms in total.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Total Number of Rooms**: 303",
+          "note": "Total rooms 303",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/athens/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel is at 40 Apollonos Street, Vouliagmeni, Athens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "40 Apollonos Street, Vouliagmeni, Athens, 16671, Greece",
+          "note": "Address matches",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/athens/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The estate has three private beaches along the Aegean Sea.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "provides guests with exclusive access to three private beaches along the Aegean Sea",
+          "note": "Three private beaches on the Aegean",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/athens/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Pelagos was awarded one Michelin star.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Awarded one Michelin star, Pelagos in Athens",
+          "note": "One Michelin star",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/athens/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Mercato is an upscale Italian restaurant.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Mercato brings to life the vibrance of an upscale Italian restaurant",
+          "note": "Upscale Italian",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/athens/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Taverna 37 is a beachfront traditional Greek taverna.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "our beachfront traditional Greek taverna set on the Athena Riviera is open seasonally",
+          "note": "Beachfront traditional Greek taverna",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/athens/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Helios has a Latin American vibe and a sharing menu.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "combining a lively Latin American vibe and divine sharing menu",
+          "note": "Latin American vibe and sharing menu",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/athens/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The spa has a heated indoor pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "alongside hydrotherapy zone, heated indoor pool, and private suites",
+          "note": "Heated indoor pool at the spa",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/athens/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The fitness centre is open 24/7.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Fitness CentreOpen 24/7, Manned 7:00 am – 10:00 pm",
+          "note": "Fitness centre open 24/7",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/athens/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Complimentary premium Wi-Fi is offered.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Complimentary premium Wi-Fi",
+          "note": "Listed under complimentary services",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/athens/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Arion rooms and suites have modernist architecture and a stylish retro-chic design.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Laid-back rooms and suites, just perfect for relaxing, meet modernist architecture, clean lines and a stylish retro-chic design.",
+          "note": "Arion description",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/athens/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Bungalows retain the same glamorous allure today as they did in the 1960s.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The Bungalows retain the same glamorous allure today as they did in the 1960s",
+          "note": "Bungalows description",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/athens/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Nafsika offers azure sea views from every room and suite.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Azure sea views from every room and suite, some with a private pool",
+          "note": "Nafsika description",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/athens/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Water sports are available directly from the boardwalk from 9:00 am to 7:00 pm daily.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "available directly from our boardwalk from 9:00 am to 7:00 pm daily",
+          "note": "Water sports hours",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/athens/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The hotel has a fully supervised kids club.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Fully supervised kids club",
+          "note": "Listed under recreation",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/athens/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel is 30 minutes from Athens' city centre.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "all just 30 minutes from Athens’ city centre and airport",
+          "note": "30 minutes from city centre",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/athens/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The three private beaches are in seasonal operation from April to October.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "all in seasonal operation from April to October",
+          "note": "Beaches seasonal April to October",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/athens/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "The two outdoor pools are in seasonal operation from March to October.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Bask in the sun at our two outdoor pools: a free-form family pool and a sleek infinity pool (both in seasonal operation from March to October).",
+          "note": "Two outdoor pools March to October",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/athens/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-4",
+      "text": "Taverna 37 is open seasonally.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "our beachfront traditional Greek taverna set on the Athena Riviera is open seasonally",
+          "note": "Taverna 37 open seasonally",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/athens/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-5",
+      "text": "WhataHotel notes the hotel is outside central Athens and requires transportation.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, breakfast for two is free daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers can be combined with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
