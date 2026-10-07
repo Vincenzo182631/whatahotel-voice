@@ -217,3 +217,17 @@ describe("importing a Claude Code subagent's findings", () => {
     expect(ExternalFindingsSchema.safeParse({ results: [{ claim_id: "f-1", findings: [{ verdict: "maybe", doc_id: "d1", quote: "x" }] }] }).success).toBe(false);
   });
 });
+
+describe("direct fetching", () => {
+  it("builds Condé Nast Traveler candidates from the hotel name and place", async () => {
+    const { condeNastCandidates } = await import("../src/verify/evidence.js");
+    const urls = condeNastCandidates({ name: "Four Seasons Hotel Boston", location: { city: "Boston", country: "United States" } } as never);
+    expect(urls[0]).toBe("https://www.cntraveler.com/hotels/boston/four-seasons-hotel-boston");
+    expect(urls.every((u) => u.startsWith("https://www.cntraveler.com/hotels/"))).toBe(true);
+  });
+
+  it("only fetches directly from hosts that allow it", async () => {
+    const { fetchDirect } = await import("../src/verify/evidence.js");
+    expect(await fetchDirect("https://www.fourseasons.com/boston/")).toBeUndefined();
+  });
+});

@@ -3,6 +3,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import type { HotelProfile } from "../core/schema.js";
 import { FirecrawlClient, FirecrawlError } from "../sources/firecrawl.js";
+import { htmlToLines } from "../sources/whatahotel.js";
 
 /**
  * Where a page comes from, which decides how much it can prove:
@@ -111,6 +112,27 @@ async function withRetry<T>(fn: () => Promise<T>): Promise<T> {
 
 const cacheFile = (url: string) => path.join(CACHE_DIR, `${createHash("sha1").update(url).digest("hex")}.json`);
 
+/** The Four Seasons press room and Condé Nast Traveler answer plain requests; fourseasons.com itself blocks them. */
+const DIRECT_HOSTS = /^https?:\/\/(press\.fourseasons\.com|(www\.)?cntraveler\.com)\//;
+const BROWSER_UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36";
+const NOT_A_PAGE = /we'?re sorry if we led you astray|page not found|404/i;
+
+/** Page text fetched without Firecrawl, or undefined when the site refuses or the page is empty. */
+export async function fetchDirect(url: string): Promise<string | undefined> {
+  if (!DIRECT_HOSTS.test(url)) return undefined;
+  try {
+    const res = await fetch(url, {
+      headers: { "user-agent": BROWSER_UA, "accept-language": "en-US,en;q=0.9" },
+      signal: AbortSignal.timeout(20_000),
+    });
+    if (!res.ok) return undefined;
+    const text = htmlToLines(await res.text()).join("\n");
+    return text.length >= 400 && !NOT_A_PAGE.test(text.slice(0, 600)) ? text : undefined;
+  } catch {
+    return undefined;
+  }
+}
+
 /** Raw markdown for a URL, from the cache unless refresh is set. */
 async function fetchMarkdown(fc: FirecrawlClient, url: string, refresh: boolean): Promise<string> {
   if (!refresh) {
@@ -120,7 +142,8 @@ async function fetchMarkdown(fc: FirecrawlClient, url: string, refresh: boolean)
       /* not cached */
     }
   }
-  const page = await withRetry(() => fc.scrape(url));
+  const direct = await fetchDirect(url);
+  const page = direct ? { markdown: direct } : await withRetry(() => fc.scrape(url));
   const markdown = page.markdown ?? "";
   if (markdown.length < 200) throw new FirecrawlError(`${url}: page had almost no text`);
   await mkdir(CACHE_DIR, { recursive: true });
@@ -128,8 +151,34 @@ async function fetchMarkdown(fc: FirecrawlClient, url: string, refresh: boolean)
   return markdown;
 }
 
+const slug = (t: string) =>
+  t
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+
+/** Likely Condé Nast Traveler addresses for a hotel; the real one is found by asking the site. */
+export function condeNastCandidates(profile: HotelProfile): string[] {
+  const name = slug(profile.name);
+  const city = slug(profile.location.city ?? "");
+  const country = slug(profile.location.country ?? "");
+  const names = [...new Set([name, name.replace(/-at-.*$/, ""), name.replace(/^four-seasons-(hotel-|resort-)?/, "four-seasons-")])];
+  const out: string[] = [];
+  for (const n of names) {
+    if (city) out.push(`https://www.cntraveler.com/hotels/${city}/${n}`);
+    if (city && country) out.push(`https://www.cntraveler.com/hotels/${country}/${city}/${n}`);
+    out.push(`https://www.cntraveler.com/hotels/${n}`);
+  }
+  return [...new Set(out)];
+}
+
 /** Finds a Condé Nast Traveler hotel page for the profile, or undefined. */
 export async function findCondeNast(fc: FirecrawlClient, profile: HotelProfile): Promise<string | undefined> {
+  for (const url of condeNastCandidates(profile)) {
+    if (await fetchDirect(url)) return url;
+  }
   const results = await withRetry(() => fc.search(`"${profile.name}" site:cntraveler.com`, 6));
   const hits = results
     .filter((r) => /cntraveler\.com\/hotels\//.test(r.url))
