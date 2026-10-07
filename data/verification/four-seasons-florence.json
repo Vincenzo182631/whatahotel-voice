@@ -1,0 +1,447 @@
+{
+  "hotel_slug": "four-seasons-florence",
+  "hotel_name": "Four Seasons Hotel Florence",
+  "checked_at": "2026-10-07T21:33:21.358Z",
+  "script_version": null,
+  "decision": {
+    "eligible": false,
+    "blockers": [
+      "used in the script but not verified: f-1"
+    ],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 1,
+      "exempt": 6,
+      "total": 26
+    }
+  },
+  "applied": false,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://press.fourseasons.com/florence/hotel-facts/",
+      "tier": "official",
+      "chars": 6198
+    },
+    {
+      "id": "d2",
+      "url": "https://www.fourseasons.com/florence/",
+      "tier": "official",
+      "chars": 11193
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/florence/dining/",
+      "tier": "official",
+      "chars": 7386
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/florence/spa/",
+      "tier": "official",
+      "chars": 5466
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/florence/accommodations/",
+      "tier": "official",
+      "chars": 9138
+    },
+    {
+      "id": "d6",
+      "url": "https://www.fourseasons.com/florence/services-and-amenities/",
+      "tier": "official",
+      "chars": 2937
+    },
+    {
+      "id": "d7",
+      "url": "https://www.fourseasons.com/florence/services-and-amenities/couples/",
+      "tier": "official",
+      "chars": 8075
+    },
+    {
+      "id": "d8",
+      "url": "https://www.fourseasons.com/florence/services-and-amenities/pool/",
+      "tier": "official",
+      "chars": 6830
+    },
+    {
+      "id": "d9",
+      "url": "https://www.fourseasons.com/florence/getting-here/",
+      "tier": "official",
+      "chars": 3738
+    },
+    {
+      "id": "d10",
+      "url": "https://www.fourseasons.com/florence/contact-us/",
+      "tier": "official",
+      "chars": 1605
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel opened in June 2008.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "June 2008",
+          "note": "opening date",
+          "url": "https://press.fourseasons.com/florence/hotel-facts/",
+          "tier": "official",
+          "quote_verified": false
+        }
+      ],
+      "status": "unverified",
+      "reason": "quoted evidence could not be found in the page text"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel has 121 rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Discover our 121 luxury accommodations, comprising 76 hotel rooms and 45 luxury suites",
+          "note": "",
+          "url": "https://www.fourseasons.com/florence/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Four Seasons Hotel Firenze is set within two Renaissance palaces.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Set within two Renaissance palaces, Four Seasons Hotel Firenze stands as a 5-star retreat",
+          "note": "",
+          "url": "https://www.fourseasons.com/florence/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel's address is Borgo Pinti 99.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Borgo Pinti 99, 50121 Firenze, Italy",
+          "note": "",
+          "url": "https://www.fourseasons.com/florence/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Palazzo della Gherardesca was built in 1473 by Bartolomeo Scala.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Built in 1473 by Renaissance visionary Bartolomeo Scala, Palazzo della Gherardesca",
+          "note": "",
+          "url": "https://press.fourseasons.com/florence/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Duomo, the Uffizi Gallery and the Accademia Gallery are a 10 to 15 minutes' walk away.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "10 to 15 minutes' walk to Duomo, Uffizi Gallery, Michelangelo's David in Accademia Gallery",
+          "note": "",
+          "url": "https://press.fourseasons.com/florence/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Il Palagio is the hotel's Michelin-starred restaurant.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Il Palagio, our Michelin-starred restaurant in Florence",
+          "note": "",
+          "url": "https://www.fourseasons.com/florence/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Spa is 791 sq m (8,511 sq ft).",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "791 sq m / 8,511 sq ft",
+          "note": "",
+          "url": "https://press.fourseasons.com/florence/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The hotel has one pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Number of Pools:** 1",
+          "note": "",
+          "url": "https://press.fourseasons.com/florence/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel's interior designer is Pierre Yves Rochon.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Interior Designer(s):** Pierre Yves Rochon",
+          "note": "",
+          "url": "https://press.fourseasons.com/florence/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel has an enclosed 4.5-hectare (11-acre) park with walking and jogging paths.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Walking/jogging paths in enclosed 4.5-hectare (11-acre) park",
+          "note": "",
+          "url": "https://press.fourseasons.com/florence/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The suites feature frescoes and original architectural details.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Its suites feature frescoes and original architectural details that evoke Florence’s golden age",
+          "note": "",
+          "url": "https://www.fourseasons.com/florence/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Garden Suite has a private pool (seasonal).",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Sip a Bellini in your private pool (seasonal)",
+          "note": "",
+          "url": "https://www.fourseasons.com/florence/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Duomo View Executive Suite is a bi-level suite with sweeping views of the Duomo and Florence's rooftops.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Enjoy a glass of champagne in the upstairs living room of this bi-level suite, with sweeping views of the Duomo and Florence’s rooftops.",
+          "note": "",
+          "url": "https://www.fourseasons.com/florence/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Guests can book a dinner on the Ponte Vecchio, on a terrace reserved just for guests of the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "atop Florence’s iconic Ponte Vecchio, with the terrace reserved just for guests of Four Seasons Hotel Firenze",
+          "note": "",
+          "url": "https://www.fourseasons.com/florence/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "A tasting-menu dinner is offered in the hotel's Renaissance chapel, decorated with original frescoes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Enjoy a unique tasting menu in a dream setting, the most romantic atmosphere: the Hotel's Renaissance chapel, entirely decorated with original frescoes and mother-of-pearl details.",
+          "note": "",
+          "url": "https://www.fourseasons.com/florence/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-6",
+      "text": "Every Sunday, Il Palagio hosts a gourmet buffet brunch.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Every Sunday, Il Palagio transforms into an elegant stage for a gourmet buffet inside the historic Palazzo della Gherardesca.",
+          "note": "",
+          "url": "https://www.fourseasons.com/florence/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Onde is listed as temporarily closed on the hotel's dining page.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Temporarily Closed",
+          "note": "label precedes Onde entry",
+          "url": "https://www.fourseasons.com/florence/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The Garden Suite's private pool is seasonal.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Sip a Bellini in your private pool (seasonal)",
+          "note": "",
+          "url": "https://www.fourseasons.com/florence/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "Golf is an off-site activity, 30 minutes away.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Golf – 30 minutes",
+          "note": "listed under Off-site Activities",
+          "url": "https://press.fourseasons.com/florence/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-4",
+      "text": "WhataHotel notes historic building constraints on room size variations.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, breakfast for two is free daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers can be combined with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
