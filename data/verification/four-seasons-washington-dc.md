@@ -2,7 +2,7 @@
 
 Checked 2026-10-07 against the hotel's own pages and Condé Nast Traveler. Result: **can be marked verified** (profile set to verified).
 
-Supported 19 · contradicted 0 · unverified 0 · WhataHotel's own statements 6 · total 25
+Supported 18 · contradicted 0 · unverified 0 · WhataHotel's own statements 6 · total 24
 
 ## Pages checked
 
@@ -23,7 +23,6 @@ Supported 19 · contradicted 0 · unverified 0 · WhataHotel's own statements 6 
 | | Claim | Evidence |
 |---|---|---|
 | ✅ | **f-1** The hotel opened in September 1979. | "September 1979" (official, https://press.fourseasons.com/washington/hotel-facts/) |
-| ✅ | **f-2** The hotel has 212 rooms in total. | "Total Number of Rooms:** 212" (official, https://press.fourseasons.com/washington/hotel-facts/) |
 | ✅ | **f-3** It was the first hotel in the United States to open under the Four Seasons name. | "The first hotel in the United States to open under the Four Seasons name" (official, https://press.fourseasons.com/washington/hotel-facts/) |
 | ✅ | **f-4** The hotel is in historic Georgetown on Pennsylvania Avenue, overlooking the Chesapeake and Ohio Canal. | "Located in historic Georgetown on Pennsylvania Avenue overlooking the Chesapeake and Ohio Canal" (official, https://press.fourseasons.com/washington/hotel-facts/) |
 | ✅ | **f-5** The hotel is just 12 blocks from the White House. | "Just 12 blocks from the White House" (official, https://press.fourseasons.com/washington/hotel-facts/) |
