@@ -3,6 +3,7 @@ import { cleanText, nameOverlap, propertyCodes, subpageLinks, tierOf } from "../
 import { isExempt, quoteInText, resolveClaim, type ClaimResult, type Finding } from "../src/verify/judge.js";
 import { decide } from "../src/verify/policy.js";
 import { restrictToVerified } from "../src/verify/restrict.js";
+import { ExternalFindingsSchema, FactCheckFileSchema, resultsFromExternal } from "../src/verify/external.js";
 import type { VerificationReport } from "../src/verify/report.js";
 import type { HotelProfile } from "../src/core/schema.js";
 
@@ -151,5 +152,68 @@ describe("restrictToVerified", () => {
   });
   it("refuses when too few facts and highlights survive", () => {
     expect(() => restrictToVerified(profile, report({ "f-1": "supported", "c-1": "supported" }))).toThrow(/fewer than 3/);
+  });
+});
+
+describe("importing a Claude Code subagent's findings", () => {
+  const evidence = [
+    { id: "d1", url: "https://www.fourseasons.com/x/", tier: "official" as const, text: "The hotel has 202 rooms. The airport is a 30-minute drive away." },
+    { id: "d2", url: "https://en.wikipedia.org/wiki/X", tier: "press" as const, text: "Opened in 2009 with 202 rooms." },
+  ];
+  const claims = [
+    { id: "f-1", text: "The hotel has 202 rooms.", source_ids: ["s1"] },
+    { id: "f-2", text: "The hotel has 250 rooms.", source_ids: ["s1"] },
+    { id: "f-3", text: "The airport is 45 minutes away.", source_ids: ["s1"] },
+    { id: "f-4", text: "Opened in 2009.", source_ids: ["s1"] },
+    { id: "f-5", text: "Has a pool.", source_ids: ["s1"] },
+  ];
+  const parse = (r: unknown) => ExternalFindingsSchema.parse({ results: r });
+
+  it("accepts a supported finding whose quote is on the page, and rejects an invented one", () => {
+    const out = resultsFromExternal(
+      claims,
+      evidence,
+      parse([
+        { claim_id: "f-1", findings: [{ verdict: "supported", doc_id: "d1", quote: "The hotel has 202 rooms", note: "" }] },
+        { claim_id: "f-2", findings: [{ verdict: "supported", doc_id: "d1", quote: "The hotel has 250 rooms", note: "" }] },
+      ]),
+    );
+    expect(out[0]!.status).toBe("supported");
+    expect(out[1]!.status).toBe("unverified");
+    expect(out[1]!.findings[0]!.quote_verified).toBe(false);
+  });
+
+  it("only counts a contradiction the subagent confirmed", () => {
+    const quote = "The airport is a 30-minute drive away";
+    const confirmed = resultsFromExternal(claims, evidence, parse([{ claim_id: "f-3", findings: [{ verdict: "contradicted", doc_id: "d1", quote, confirmed: true }] }]));
+    const unconfirmed = resultsFromExternal(claims, evidence, parse([{ claim_id: "f-3", findings: [{ verdict: "contradicted", doc_id: "d1", quote, confirmed: false }] }]));
+    const missing = resultsFromExternal(claims, evidence, parse([{ claim_id: "f-3", findings: [{ verdict: "contradicted", doc_id: "d1", quote }] }]));
+    expect(confirmed[2]!.status).toBe("contradicted");
+    expect(unconfirmed[2]!.status).toBe("unverified");
+    expect(missing[2]!.status).toBe("unverified");
+  });
+
+  it("does not let a press page alone verify a claim, and ignores unknown pages", () => {
+    const out = resultsFromExternal(
+      claims,
+      evidence,
+      parse([
+        { claim_id: "f-4", findings: [{ verdict: "supported", doc_id: "d2", quote: "Opened in 2009 with 202 rooms", note: "" }] },
+        { claim_id: "f-5", findings: [{ verdict: "supported", doc_id: "d9", quote: "There is a pool on the roof", note: "" }] },
+      ]),
+    );
+    expect(out[3]!.status).toBe("unverified");
+    expect(out[4]!.findings).toEqual([]);
+    expect(out[4]!.status).toBe("unverified");
+  });
+
+  it("returns one result per claim, in order, even when the subagent skipped some", () => {
+    expect(resultsFromExternal(claims, evidence, parse([])).map((r) => r.claim_id)).toEqual(["f-1", "f-2", "f-3", "f-4", "f-5"]);
+  });
+
+  it("validates the shape of the files a subagent writes", () => {
+    expect(FactCheckFileSchema.safeParse({ passed: true, issues: [] }).success).toBe(true);
+    expect(FactCheckFileSchema.safeParse({ passed: "yes" }).success).toBe(false);
+    expect(ExternalFindingsSchema.safeParse({ results: [{ claim_id: "f-1", findings: [{ verdict: "maybe", doc_id: "d1", quote: "x" }] }] }).success).toBe(false);
   });
 });

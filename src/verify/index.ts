@@ -3,11 +3,11 @@ import path from "node:path";
 import type Anthropic from "@anthropic-ai/sdk";
 import { HOTELS_DIR, allClaims, loadProfile } from "../core/profile.js";
 import { isoDay } from "../core/freshness.js";
-import type { HotelProfile } from "../core/schema.js";
+import type { Claim, HotelProfile } from "../core/schema.js";
 import { createClient } from "../script/claude.js";
 import type { FirecrawlClient } from "../sources/firecrawl.js";
 import { listVersions, readMetadata, readScript } from "../storage/local.js";
-import { gatherEvidence } from "./evidence.js";
+import { gatherEvidence, type Evidence, type Gathered } from "./evidence.js";
 import { isExempt, judgeClaims, type ClaimResult } from "./judge.js";
 import { decide } from "./policy.js";
 import { writeReport, type VerificationReport } from "./report.js";
@@ -46,27 +46,30 @@ async function markVerified(slug: string, today: Date): Promise<void> {
   await writeFile(file, JSON.stringify(raw, null, 2) + "\n");
 }
 
-export async function verifyHotel(slug: string, opts: VerifyOptions): Promise<VerificationReport> {
-  const profile = await loadProfile(slug);
-  const today = opts.today ?? new Date();
-  const { evidence, skipped } = await gatherEvidence(profile, opts.fc, { refresh: opts.refresh });
-  if (!evidence.length) throw new Error(`No evidence pages could be loaded for ${slug}`);
-
+/** Claims checked against hotel pages, and the ones that are WhataHotel's own statements and are not. */
+export function splitClaims(profile: HotelProfile): { exempt: Claim[]; toJudge: Claim[] } {
   const claims = allClaims(profile);
   const exempt = claims.filter((c) => isExempt(c, profile));
-  const toJudge = claims.filter((c) => !exempt.includes(c));
-  const judged = await judgeClaims(toJudge, evidence, { client: opts.client ?? createClient() });
-  const results: ClaimResult[] = claims.map(
+  return { exempt, toJudge: claims.filter((c) => !exempt.includes(c)) };
+}
+
+/** Merges judged claims with the exempt ones, applies the policy, optionally marks the profile verified, writes the report. */
+export async function finishVerification(
+  profile: HotelProfile,
+  evidence: Evidence[],
+  skipped: Gathered["skipped"],
+  judged: ClaimResult[],
+  { apply = false, today = new Date() }: { apply?: boolean; today?: Date } = {},
+): Promise<VerificationReport> {
+  const results: ClaimResult[] = allClaims(profile).map(
     (c) => judged.find((j) => j.claim_id === c.id) ?? { claim_id: c.id, text: c.text, status: "exempt", findings: [] },
   );
-
-  const used = await usedClaims(slug);
+  const used = await usedClaims(profile.slug);
   const decision = decide(results, used.ids);
-  const applied = Boolean(opts.apply && decision.eligible);
-  if (applied) await markVerified(slug, today);
-
+  const applied = apply && decision.eligible;
+  if (applied) await markVerified(profile.slug, today);
   const report: VerificationReport = {
-    hotel_slug: slug,
+    hotel_slug: profile.slug,
     hotel_name: profile.name,
     checked_at: today.toISOString(),
     script_version: used.version,
@@ -78,4 +81,12 @@ export async function verifyHotel(slug: string, opts: VerifyOptions): Promise<Ve
   };
   await writeReport(report);
   return report;
+}
+
+export async function verifyHotel(slug: string, opts: VerifyOptions): Promise<VerificationReport> {
+  const profile = await loadProfile(slug);
+  const { evidence, skipped } = await gatherEvidence(profile, opts.fc, { refresh: opts.refresh });
+  if (!evidence.length) throw new Error(`No evidence pages could be loaded for ${slug}`);
+  const judged = await judgeClaims(splitClaims(profile).toJudge, evidence, { client: opts.client ?? createClient() });
+  return finishVerification(profile, evidence, skipped, judged, { apply: opts.apply, today: opts.today });
 }

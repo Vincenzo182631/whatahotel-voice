@@ -8,6 +8,7 @@ import { checkFreshness, isExpired, needsRefresh, WARN_DAYS } from "./core/fresh
 import { promoteToCurrent, publishTake } from "./publish/blob.js";
 import { importHotel } from "./sources/import.js";
 import { verifyHotel } from "./verify/index.js";
+import { importFindings, prepareFactCheck, prepareVerification, prepareWriter } from "./verify/external.js";
 import { withReadOnlyDb, type Query } from "./sources/pi-db.js";
 import { WahClient } from "./sources/wah-api.js";
 import { fetchWhataHotelPage, parseWhataHotelPage } from "./sources/whatahotel.js";
@@ -44,6 +45,13 @@ Usage: npm run hotel -- <command> [options]
                                                   data/verification/<slug>.md. --apply marks the profile
                                                   verified when nothing is contradicted and every claim a
                                                   script uses is supported
+  verify    --hotel <slug> --prepare              Claude Code path: fetch the pages and write the judge task
+  verify    --hotel <slug> --import <findings.json> [--apply]
+                                                  Import a subagent's findings (quotes are re-checked in code)
+  script    --hotel <slug> --prepare [--verified-only]   Write the script-writing task for a subagent
+  check     --hotel <slug> --script-file <path> [--verified-only]
+                                                  Write the fact-check task for a subagent
+            ... --factcheck-file <path>           (script/generate) use the subagent's {passed, issues}
   list                                            Latest version and status per hotel
   review    --hotel <slug> --version N (--approve | --reject) [--note "..."] [--force]
 
@@ -73,6 +81,9 @@ const { positionals, values } = parseArgs({
     within: { type: "string" },
     apply: { type: "boolean" },
     "verified-only": { type: "boolean" },
+    prepare: { type: "boolean" },
+    import: { type: "string" },
+    "factcheck-file": { type: "string" },
     refresh: { type: "boolean" },
     help: { type: "boolean", short: "h" },
   },
@@ -175,9 +186,21 @@ async function main() {
       return;
     }
 
+    case "check": {
+      const slug = need(values.hotel, "hotel");
+      const file = await prepareFactCheck(slug, need(values["script-file"], "script-file"), { verifiedOnly: values["verified-only"] });
+      console.log(`✓ ${file}\n  Have a Claude Code subagent follow it, then pass its factcheck.json to script/generate with --factcheck-file`);
+      return;
+    }
+
     case "script":
     case "generate": {
       const slug = need(values.hotel, "hotel");
+      if (command === "script" && values.prepare) {
+        const file = await prepareWriter(slug, { verifiedOnly: values["verified-only"] });
+        console.log(`✓ ${file}\n  Have a Claude Code subagent follow it, then run hotel:check on the script it wrote`);
+        return;
+      }
       console.log(`→ ${slug}`);
       const result = await generateHotel(slug, {
         provider: values.provider!,
@@ -185,6 +208,7 @@ async function main() {
         scriptFile: values["script-file"],
         scriptOnly: command === "script",
         verifiedOnly: values["verified-only"],
+        factcheckFile: values["factcheck-file"],
         log,
       });
       report(result.dir, result.metadata);
@@ -212,6 +236,20 @@ async function main() {
         : values.collection
           ? (await loadCollection(values.collection)).hotels.map((h) => h.slug)
           : await listProfileSlugs();
+      if (values.prepare || values.import) {
+        const slug = need(values.hotel, "hotel");
+        if (values.prepare) {
+          const r = await prepareVerification(slug, FirecrawlClient.fromEnv(), { refresh: values.refresh });
+          console.log(`✓ ${slug}: ${r.docs} pages, ${r.claims} claims\n  Have a Claude Code subagent follow ${r.dir}/judge-instructions.md, then run:\n  hotel:verify --hotel ${slug} --import ${r.dir}/findings.json [--apply]`);
+        } else {
+          const r = await importFindings(slug, values.import!, { apply: values.apply });
+          const c = r.decision.counts;
+          console.log(`${r.decision.eligible ? "✓" : "✗"} ${slug}: ${c.supported} supported, ${c.contradicted} contradicted, ${c.unverified} unverified, ${c.exempt} WhataHotel's own${r.applied ? " · profile marked verified" : ""}`);
+          for (const b of r.decision.blockers) console.log(`    - ${b}`);
+          console.log(`  data/verification/${slug}.md`);
+        }
+        return;
+      }
       const fc = FirecrawlClient.fromEnv();
       for (const slug of slugs) {
         console.log(`→ ${slug}`);

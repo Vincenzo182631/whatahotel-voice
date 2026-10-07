@@ -120,6 +120,22 @@ async function confirmContradictions(results: ClaimResult[], client: Anthropic):
   for (const r of results) Object.assign(r, resolveClaim(r.findings));
 }
 
+export interface RawFinding {
+  verdict: "supported" | "partial" | "contradicted";
+  doc_id: string;
+  quote: string;
+  note: string;
+}
+
+/** Attaches the page and checks the quote word for word. Findings that cite an unknown page are dropped. */
+export function checkedFindings(raw: RawFinding[], byId: ReadonlyMap<string, Evidence>): Finding[] {
+  return raw.flatMap((f) => {
+    const doc = byId.get(f.doc_id);
+    if (!doc) return [];
+    return [{ ...f, url: doc.url, tier: doc.tier, quote: f.quote.trim(), quote_verified: quoteInText(f.quote, doc.text) }];
+  });
+}
+
 /** Checks claims against the evidence in batches; every returned quote is verified in code. */
 export async function judgeClaims(
   claims: Claim[],
@@ -136,11 +152,7 @@ export async function judgeClaims(
     const parsed = await parseWith(client, JudgeSchema, JUDGE_SYSTEM_PROMPT, user, "high");
     const returned = new Map(parsed.results.map((r) => [r.claim_id, r.findings]));
     for (const c of batch) {
-      const findings: Finding[] = (returned.get(c.id) ?? []).flatMap((f) => {
-        const doc = byId.get(f.doc_id);
-        if (!doc) return [];
-        return [{ ...f, url: doc.url, tier: doc.tier, quote: f.quote.trim(), quote_verified: quoteInText(f.quote, doc.text) }];
-      });
+      const findings = checkedFindings(returned.get(c.id) ?? [], byId);
       out.push({ claim_id: c.id, text: c.text, findings, ...resolveClaim(findings) });
     }
   }

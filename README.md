@@ -77,6 +77,27 @@ npm test && npm run typecheck
 
 `review --approve` refuses unless the fact check passed, the audio length is within 75–100 s, the profile is `verified`, and the audio is real (not mock or none). Overriding needs `--force --note "why"`.
 
+## Running the model steps in Claude Code (no Anthropic API)
+
+Verification, script writing and script fact-checking can run in a Claude Code session instead of calling the Anthropic API. The code prepares plain files, a Claude Code subagent reads them and writes a JSON answer, and the code imports it. Every safety check stays in code: each quote is matched word for word against the fetched page, and the verification policy and script rules run as before. Pages are still fetched with Firecrawl (`FIRECRAWL_API_KEY`); the ElevenLabs step is unchanged.
+
+```bash
+# 1. Verify a hotel's claims
+npm run hotel:verify -- --hotel <slug> --prepare            # fetches pages, writes data/verification/work/<slug>/
+#    subagent: follow work/<slug>/judge-instructions.md  -> findings.json
+npm run hotel:verify -- --hotel <slug> --import data/verification/work/<slug>/findings.json [--apply]
+
+# 2. Write and check a script
+npm run hotel:script -- --hotel <slug> --prepare --verified-only   # writes writer-instructions.md
+#    subagent: follow it                                   -> script.json
+npm run hotel:check  -- --hotel <slug> --script-file data/verification/work/<slug>/script.json --verified-only
+#    subagent: follow factcheck-instructions.md           -> factcheck.json
+npm run hotel:script -- --hotel <slug> --script-file .../script.json --factcheck-file .../factcheck.json --verified-only
+# then hotel:generate with the same --script-file and --factcheck-file for audio
+```
+
+A subagent's contradiction only counts when it marks it `confirmed: true`; a quote that is not on the page counts for nothing. The work folder is gitignored.
+
 ## Keeping clips current
 
 - **Expiry dates.** Any time-bound claim (a renovation, a "new" opening, an annual ranking or award) carries `"expires": "YYYY-MM-DD"` in its profile, the last day it may be used. Expired claims are withheld from the script writer, `checkScript` rejects any script that cites one, and `review --approve` refuses a version that uses one.

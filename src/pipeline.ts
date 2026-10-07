@@ -7,6 +7,7 @@ import { withGlobalPronunciations } from "./providers/types.js";
 import { SCRIPT_MODEL, factCheck, pipelineApiKey, writeScript } from "./script/claude.js";
 import { AUDIO_SECONDS, checkDuration, checkScript, withSignature, wordCount } from "./script/rules.js";
 import { nextVersion, readScript, saveVersion } from "./storage/local.js";
+import { FactCheckFileSchema } from "./verify/external.js";
 import { loadReport, restrictToVerified } from "./verify/restrict.js";
 
 export interface GenerateOptions {
@@ -19,6 +20,8 @@ export interface GenerateOptions {
   scriptOnly?: boolean;
   /** Write and check the script from claims that data/verification/<slug>.json proved, nothing else. */
   verifiedOnly?: boolean;
+  /** Use a fact-check result written by a Claude Code subagent ({passed, issues}) instead of calling the API. */
+  factcheckFile?: string;
   log?: (msg: string) => void;
 }
 
@@ -71,7 +74,11 @@ export async function generateHotel(slug: string, opts: GenerateOptions): Promis
 
     script = withSignature(script, profile);
     ruleIssues = checkScript(script, profile);
-    if (hasClaude()) {
+    if (opts.factcheckFile) {
+      const fc = FactCheckFileSchema.parse(JSON.parse(await readFile(opts.factcheckFile, "utf8")));
+      log("fact check imported from file");
+      fact = { passed: fc.passed && ruleIssues.length === 0, issues: [...ruleIssues, ...fc.issues] };
+    } else if (hasClaude()) {
       log("fact checking…");
       const fc = await factCheck(profile, script);
       fact = { passed: fc.passed && ruleIssues.length === 0, issues: [...ruleIssues, ...fc.issues] };
