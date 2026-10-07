@@ -1,0 +1,433 @@
+{
+  "hotel_slug": "four-seasons-danieli-venice",
+  "hotel_name": "Four Seasons Danieli",
+  "checked_at": "2026-10-07T21:46:19.462Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 6,
+      "total": 25
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.fourseasons.com/venice/",
+      "tier": "official",
+      "chars": 9534
+    },
+    {
+      "id": "d2",
+      "url": "https://www.fourseasons.com/venice/dining/",
+      "tier": "official",
+      "chars": 2316
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/venice/spa/",
+      "tier": "official",
+      "chars": 2392
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/venice/services-and-amenities/",
+      "tier": "official",
+      "chars": 3416
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/venice/getting-here/",
+      "tier": "official",
+      "chars": 3920
+    },
+    {
+      "id": "d6",
+      "url": "https://www.fourseasons.com/venice/accommodations/",
+      "tier": "official",
+      "chars": 5727
+    },
+    {
+      "id": "d7",
+      "url": "https://www.fourseasons.com/venice/contact-us/",
+      "tier": "official",
+      "chars": 1233
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    },
+    {
+      "url": "https://press.fourseasons.com/venice/hotel-facts/",
+      "reason": "https://press.fourseasons.com/venice/hotel-facts/: page had almost no text"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel's address is Riva degli Schiavoni, 4196, 30122 Venezia VE, Italy.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Riva degli Schiavoni, 4196, 30122 Venezia VE, Italy",
+          "note": "Address matches exactly",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/venice/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is located just steps from Piazza San Marco.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "located just steps from Piazza San Marco in the heart of the city centre",
+          "note": "Stated on page",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/venice/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Danieli is composed of three interconnecting palaces.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "the Danieli is composed of three interconnecting palaces that date back to the 15th, 19th and 20th centuries",
+          "note": "Stated on page",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/venice/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The Palazzo Dandolo was converted to a hotel in 1822.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "In 1822, the ornately decorated palace was converted to a hotel by Giuseppe Dal Niel",
+          "note": "Palace is the Palazzo Dandolo in the preceding sentence",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/venice/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The hotel lists 120 accommodations, including 52 suites, in 2026.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "120 ACCOMMODATIONS, INCLUDING 52 SUITES, IN 2026",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/venice/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Restaurant Terrazza Danieli offers indoor and outdoor seating with panoramic views of the city and lagoon.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "our signature restaurant offers indoor and outdoor seating with panoramic views of the city and lagoon",
+          "note": "Stated on page",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/venice/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Bar Dandolo offers coffee or crafted cocktails.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "discover a sophisticated hideaway for coffee or crafted cocktails",
+          "note": "Bar Dandolo description",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/venice/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel has a 24-hour fitness centre.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "24-HOUR FITNESS CENTRE",
+          "note": "Listed amenity",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/venice/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "In-room dining is available 24 hours.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "24-HOUR IN-ROOM DINING",
+          "note": "Listed service",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/venice/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Guest rooms and suites are newly renovated according to the vision of Pierre-Yves Rochon.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "all newly renovated according to the vision of famed French interior designer Pierre-Yves Rochon",
+          "note": "Stated on page",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/venice/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Private water taxis are located just a few steps from the Danieli and available 24 hours through the Concierge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "private water taxis are located just a few steps from the Danieli and available 24 hours through our Concierge",
+          "note": "Stated on page",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/venice/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The lobby is a four-storey atrium with soaring pink marble columns.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "This four-storey atrium welcomes you with soaring pink marble columns",
+          "note": "Follows description of the grandest of lobbies",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/venice/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The lobby has an iconic golden staircase.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Murano glass chandeliers and the iconic golden staircase",
+          "note": "Part of lobby description",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/venice/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Danieli offers a high number of connecting guest rooms and suites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "the Danieli offers a high number of connecting guest rooms and suites",
+          "note": "Stated on page",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/venice/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Presidential Suite is perched on the topmost fourth floor of the Danieli's Palazzo Dandolo.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "this elite one-bedroom suite is perched on the topmost fourth floor of the Danieli’s Palazzo Dandolo",
+          "note": "Presidential Suite description",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/venice/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Grand Lagoon-View Suite has views of the Venetian Lagoon and the Grand Canal.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Views of the Venetian Lagoon and the Grand Canal add to the appeal of this impressive one-bedroom suite.",
+          "note": "Grand Lagoon-View Suite description",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/venice/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The Danieli Spa is listed as opening in late 2026.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Opening in late 2026, the Danieli Spa will welcome you",
+          "note": "Also d3 says OPENING LATE 2026",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/venice/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The swimming pool is listed as opening in late 2026.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "SWIMMING POOL (OPENING LATE 2026)",
+          "note": "Listed amenity",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/venice/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "Hotel guests are exempt from the Venice access fee but must request a waiver in advance of their visit.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Hotel guests are exempt from this tax but must request a waiver in advance of their visit.",
+          "note": "Stated on page",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/venice/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-4",
+      "text": "WhataHotel notes premium pricing reflecting the luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, breakfast for two is free daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers can be combined with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
