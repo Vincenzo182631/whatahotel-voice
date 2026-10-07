@@ -1,0 +1,465 @@
+{
+  "hotel_slug": "four-seasons-baltimore",
+  "hotel_name": "Four Seasons Hotel Baltimore",
+  "checked_at": "2026-10-07T13:07:34.986Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 20,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 5,
+      "total": 25
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.fourseasons.com/baltimore/",
+      "tier": "official",
+      "chars": 7598
+    },
+    {
+      "id": "d2",
+      "url": "https://www.fourseasons.com/baltimore/dining/",
+      "tier": "official",
+      "chars": 6837
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/baltimore/spa/",
+      "tier": "official",
+      "chars": 6374
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/baltimore/accommodations/",
+      "tier": "official",
+      "chars": 6293
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/baltimore/services-and-amenities/",
+      "tier": "official",
+      "chars": 4722
+    },
+    {
+      "id": "d6",
+      "url": "https://www.fourseasons.com/baltimore/getting-here/",
+      "tier": "official",
+      "chars": 5061
+    },
+    {
+      "id": "d7",
+      "url": "https://press.fourseasons.com/baltimore/hotel-facts/",
+      "tier": "official",
+      "chars": 5763
+    },
+    {
+      "id": "d8",
+      "url": "https://www.cntraveler.com/hotels/united-states/baltimore/four-seasons-hotel-baltimore",
+      "tier": "editorial",
+      "chars": 2478
+    },
+    {
+      "id": "d9",
+      "url": "https://www.fourseasons.com/baltimore/services-and-amenities/pools/",
+      "tier": "official",
+      "chars": 6565
+    },
+    {
+      "id": "d10",
+      "url": "https://www.fourseasons.com/baltimore/services-and-amenities/baltimore-pet-friendly-hotel/",
+      "tier": "official",
+      "chars": 3642
+    },
+    {
+      "id": "d11",
+      "url": "https://www.fourseasons.com/baltimore/services-and-amenities/family/",
+      "tier": "official",
+      "chars": 4327
+    },
+    {
+      "id": "d12",
+      "url": "https://www.cntraveler.com/hotels/baltimore/four-seasons-hotel-baltimore",
+      "tier": "editorial",
+      "chars": 2505
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Four Seasons Hotel Baltimore has 256 guest rooms and suites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "**Total Number of Rooms:** 256",
+          "note": "211 guest rooms + 45 suites = 256",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/baltimore/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel opened in November 2011.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "November 2011",
+          "note": "opening date",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/baltimore/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel's address is 200 International Drive, Baltimore, Maryland 21202.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "200 International Drive, Baltimore, Maryland 21202 U.S.A.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/baltimore/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel is on the edge of Baltimore's Harbor East.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "a luxury hotel on the edge of Baltimore’s Harbor East",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/baltimore/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Four Seasons describes the hotel as a modern urban retreat.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our modern urban retreat",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/baltimore/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Bygone is located atop the hotel on the 29th floor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Located atop the Hotel on the 29th floor, The Bygone",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/baltimore/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Maximón serves contemporary South American and Mexican cuisine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "contemporary South American and Mexican cuisine at Maximón",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/baltimore/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Spa is 10,000 square feet overlooking the harbor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "With a spacious 10,000 square feet overlooking the harbor",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/baltimore/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The Spa has 11 private treatment rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Each of our 11 private treatment rooms",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/baltimore/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The Fitness Centre is open 24 hours.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "24-hour Harley Pasternak designed Fitness Centre",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/baltimore/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The Fitness Centre was designed by Harley Pasternak.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "24-hour Harley Pasternak designed Fitness Centre",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/baltimore/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Four Seasons lists the city's largest hotel art collection among the hotel's amenities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "City’s Largest Hotel Art Collection",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/baltimore/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel has a rooftop infinity-edge pool with panoramic views of the Inner Harbor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Take in panoramic views of the Inner Harbor from Baltimore",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/baltimore/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Use of a relaxation room, a Finnish sauna, an aromatherapy steam room and heated hydrotherapy pool are complimentary with each spa treatment.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Use of a relaxation room, a Finnish sauna, an aromatherapy steam room and heated hydrotherapy pool are complimentary with each spa treatment",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/baltimore/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Spa's private VIP Suite allows complete privacy to enjoy a couples' massage.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Our private VIP Suite allows you complete privacy to enjoy a couples’ massage",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/baltimore/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Winter Village offers a rotating prix fixe menu inside a private cottage overlooking Baltimore's Inner Harbor on the fourth-floor rooftop.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Enjoy a rotating prix fixe menu inside your own private cottage overlooking Baltimore’s Inner Harbor on our fourth-floor rooftop.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/baltimore/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The hotel accommodates dogs and cats up to 60 pounds.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "We accommodate dogs and cats up to 60 pounds (27.22 kilograms)",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/baltimore/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The Spa page lists the outdoor pool as closed for the season.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Outdoor PoolClosed for the season",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/baltimore/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Condé Nast Traveler describes the rooms as plush-but-generic.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "Plush-but-generic rooms are secondary to an excellent restaurant",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/baltimore/four-seasons-hotel-baltimore",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "The dining page lists Splash Pool Bar & Grill as temporarily closed.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Temporarily Closed",
+          "note": "label precedes the Splash Pool Bar & Grill entry",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/baltimore/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, breakfast for two is free daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers can be combined with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
