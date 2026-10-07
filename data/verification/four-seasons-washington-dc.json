@@ -1,0 +1,458 @@
+{
+  "hotel_slug": "four-seasons-washington-dc",
+  "hotel_name": "Four Seasons Hotel Washington, DC",
+  "checked_at": "2026-10-07T21:49:07.258Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 6,
+      "total": 25
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://press.fourseasons.com/washington/hotel-facts/",
+      "tier": "official",
+      "chars": 5945
+    },
+    {
+      "id": "d2",
+      "url": "https://www.fourseasons.com/washington/",
+      "tier": "official",
+      "chars": 10415
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/washington/dining/",
+      "tier": "official",
+      "chars": 4405
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/washington/spa/",
+      "tier": "official",
+      "chars": 3011
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/washington/getting-here/",
+      "tier": "official",
+      "chars": 4673
+    },
+    {
+      "id": "d6",
+      "url": "https://www.fourseasons.com/washington/services-and-amenities/",
+      "tier": "official",
+      "chars": 3933
+    },
+    {
+      "id": "d7",
+      "url": "https://www.fourseasons.com/washington/accommodations/",
+      "tier": "official",
+      "chars": 8133
+    },
+    {
+      "id": "d8",
+      "url": "https://www.fourseasons.com/washington/services-and-amenities/fitness/",
+      "tier": "official",
+      "chars": 4048
+    },
+    {
+      "id": "d9",
+      "url": "https://www.fourseasons.com/washington/contact-us/",
+      "tier": "official",
+      "chars": 2587
+    },
+    {
+      "id": "d10",
+      "url": "https://www.fourseasons.com/washington/photos-and-videos/",
+      "tier": "official",
+      "chars": 3297
+    },
+    {
+      "id": "d11",
+      "url": "https://www.cntraveler.com/hotels/united-states/washington/four-seasons-washington-d-c",
+      "tier": "editorial",
+      "chars": 3941
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel opened in September 1979.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "September 1979",
+          "note": "Opening date",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/washington/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel has 212 rooms in total.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Total Number of Rooms:** 212",
+          "note": "Press facts list 212 rooms",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/washington/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "contradicted",
+          "doc_id": "d11",
+          "quote": "222",
+          "note": "Editorial page lists 222 rooms",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/washington/four-seasons-washington-d-c",
+          "tier": "editorial",
+          "quote_verified": false
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "It was the first hotel in the United States to open under the Four Seasons name.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The first hotel in the United States to open under the Four Seasons name",
+          "note": "History fact",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/washington/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel is in historic Georgetown on Pennsylvania Avenue, overlooking the Chesapeake and Ohio Canal.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located in historic Georgetown on Pennsylvania Avenue overlooking the Chesapeake and Ohio Canal",
+          "note": "Location",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/washington/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The hotel is just 12 blocks from the White House.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Just 12 blocks from the White House",
+          "note": "Stated directly",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/washington/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The hotel is steps from the Kennedy Center.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Steps from shopping, Washington Harbor and the Kennedy Center",
+          "note": "Stated directly",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/washington/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Seasons restaurant is known for its iconic \"power breakfast\".",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "the restaurant is known for its iconic “power breakfast,”",
+          "note": "Stated directly",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/washington/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "David Rockwell designed BOURBON STEAK.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "David Rockwell (BOURBON STEAK)",
+          "note": "Interior designer listing",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/washington/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The spa has 9 treatment rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Number of Treatment Rooms:** 9",
+          "note": "Spa facts",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/washington/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The Fitness Centre is open 24 hours.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "our 24-hour Fitness Centre",
+          "note": "Stated directly",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/washington/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Premium Wi-Fi is a complimentary service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Complimentary premium Wi-Fi",
+          "note": "Listed as complimentary",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/washington/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Georgetown Suite with Terrace is a fifth-floor suite with sweeping views of the C&O Canal and the Potomac River.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "This fifth-floor suite offers sweeping views of the C&O Canal, the Potomac River and past the rooftops of Historic Georgetown",
+          "note": "Stated directly",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/washington/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Royal Suite has a private terrace overlooking 29th Street.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "a private terrace overlooking 29th Street",
+          "note": "Stated directly",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/washington/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The art on display includes works by Andy Warhol, Helen Frankenthaler and Fernando Botero.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "works by iconic artists including Andy Warhol, Helen Frankenthaler and Fernando Botero",
+          "note": "Stated directly",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/washington/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The hotel has an underground lap pool tucked beneath Georgetown.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Tucked beneath Georgetown, our serene underground lap pool",
+          "note": "Stated directly",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/washington/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The spa has a private Contrast Therapy Room with a cold plunge and infrared sauna.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "the private Contrast Therapy Room, featuring an invigorating cold plunge and infrared sauna",
+          "note": "Stated directly",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/washington/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-6",
+      "text": "The hotel is pet-friendly, welcoming dogs and cats with no weight restrictions.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Pet-friendly hotel welcoming dogs and cats with no weight restrictions",
+          "note": "Stated directly",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/washington/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The complimentary sedan service is only for drop-offs anywhere within DC, not Virginia or Maryland.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "the complimentary sedan service is only for drop-offs anywhere within DC (not Virginia or Maryland)",
+          "note": "Stated directly",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/washington/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The walk to the White House down Pennsylvania Avenue takes about 30 minutes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "a scenic 30-minute walk down Pennsylvania Avenue",
+          "note": "Stated directly",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/washington/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-4",
+      "text": "WhataHotel notes the Georgetown location may require travel to reach major DC monuments.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, breakfast for two is free daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers can be combined with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
