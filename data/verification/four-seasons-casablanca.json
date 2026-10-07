@@ -1,0 +1,466 @@
+{
+  "hotel_slug": "four-seasons-casablanca",
+  "hotel_name": "Four Seasons Hotel Casablanca",
+  "checked_at": "2026-10-07T06:08:59.489Z",
+  "script_version": null,
+  "decision": {
+    "eligible": false,
+    "blockers": [
+      "contradicted by a source: c-3",
+      "used in the script but not verified: f-3"
+    ],
+    "counts": {
+      "supported": 16,
+      "contradicted": 1,
+      "unverified": 1,
+      "exempt": 5,
+      "total": 23
+    }
+  },
+  "applied": false,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.fourseasons.com/casablanca/",
+      "tier": "official",
+      "chars": 7791
+    },
+    {
+      "id": "d2",
+      "url": "https://press.fourseasons.com/casablanca/hotel-facts/",
+      "tier": "official",
+      "chars": 4278
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/casablanca/dining/",
+      "tier": "official",
+      "chars": 5936
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/casablanca/spa/",
+      "tier": "official",
+      "chars": 3398
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/casablanca/getting-here/",
+      "tier": "official",
+      "chars": 2067
+    },
+    {
+      "id": "d6",
+      "url": "https://www.fourseasons.com/casablanca/accommodations/",
+      "tier": "official",
+      "chars": 7902
+    },
+    {
+      "id": "d7",
+      "url": "https://www.fourseasons.com/casablanca/services-and-amenities/",
+      "tier": "official",
+      "chars": 2596
+    },
+    {
+      "id": "d8",
+      "url": "https://www.fourseasons.com/casablanca/contact-us/",
+      "tier": "official",
+      "chars": 1482
+    },
+    {
+      "id": "d9",
+      "url": "https://www.fourseasons.com/casablanca/photos-and-videos/",
+      "tier": "official",
+      "chars": 2388
+    },
+    {
+      "id": "d10",
+      "url": "https://www.fourseasons.com/casablanca/discover/",
+      "tier": "official",
+      "chars": 1796
+    },
+    {
+      "id": "d11",
+      "url": "https://www.cntraveler.com/hotels/morocco/casablanca/four-seasons-hotel-casablanca",
+      "tier": "editorial",
+      "chars": 7947
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel opened in November 2015.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "November 2015",
+          "note": "Listed under OPENING DATE in the hotel facts.",
+          "url": "https://press.fourseasons.com/casablanca/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel has 184 rooms in total.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "**Total Number of Rooms:** 184",
+          "note": "Press fact sheet gives 184 total rooms.",
+          "url": "https://press.fourseasons.com/casablanca/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "contradicted",
+          "doc_id": "d11",
+          "quote": "185",
+          "note": "CN Traveler lists Rooms as 185.",
+          "url": "https://www.cntraveler.com/hotels/morocco/casablanca/four-seasons-hotel-casablanca",
+          "tier": "editorial",
+          "quote_verified": false
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel has 29 suites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "**Suites:** 29",
+          "note": "The fact sheet lists 29 suites.",
+          "url": "https://press.fourseasons.com/casablanca/hotel-facts/",
+          "tier": "official",
+          "quote_verified": false
+        }
+      ],
+      "status": "unverified",
+      "reason": "quoted evidence could not be found in the page text"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel is located on the city's vibrant Corniche, nestled between the Atlantic Ocean and the affluent Anfa residential neighbourhood.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Four Seasons Hotel Casablanca is located on the city’s vibrant Corniche, nestled between the Atlantic Ocean and the affluent Anfa residential neighbourhood",
+          "note": "Matches the claim exactly.",
+          "url": "https://www.fourseasons.com/casablanca/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The hotel was designed by architects Foster + Partners.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Foster + Partners",
+          "note": "Listed under Architects.",
+          "url": "https://press.fourseasons.com/casablanca/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d11",
+          "quote": "designed by the world-renowned Foster+Partners",
+          "note": "Editorial confirms the architect.",
+          "url": "https://www.cntraveler.com/hotels/morocco/casablanca/four-seasons-hotel-casablanca",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Interiors are modern with design elements inspired by traditional Moroccan motifs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Interiors are modern with design elements inspired by traditional Moroccan motifs",
+          "note": "Design aesthetic section.",
+          "url": "https://press.fourseasons.com/casablanca/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The hotel cascades down a hillside toward the ocean.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Hotel cascades down a hillside toward the ocean",
+          "note": "Design aesthetic section.",
+          "url": "https://press.fourseasons.com/casablanca/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "our seaside Hotel cascades down a hillside toward the Atlantic",
+          "note": "Homepage description.",
+          "url": "https://www.fourseasons.com/casablanca/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Bleu serves a refined breakfast with cold buffet selections and à la carte dishes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "At Bleu, savour a refined breakfast with cold buffet selections and à la carte dishes.",
+          "note": "Dining page description of Bleu.",
+          "url": "https://www.fourseasons.com/casablanca/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Mint is the hotel's lobby lounge, modelled after a traditional Moroccan salon.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Mint, our cosy yet refined lobby lounge modelled after a traditional Moroccan salon.",
+          "note": "Dining page Afternoon Tea description.",
+          "url": "https://www.fourseasons.com/casablanca/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Kyúb is a seasonal coastal restaurant offering al fresco dining.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Kyúb is a seasonal coastal restaurant offering an elegant al fresco dining experience from April to September.",
+          "note": "Dining page description of Kyúb.",
+          "url": "https://www.fourseasons.com/casablanca/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Grand Premier Ocean-View Room has a private balcony with unobstructed views of the Atlantic.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Floor-to-ceiling windows open onto a private balcony – a rarity in the city – where the gentle sea breeze invites you to relax as you look onto unobstructed views of the Atlantic.",
+          "note": "Grand Premier Ocean-View Room description.",
+          "url": "https://www.fourseasons.com/casablanca/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Le Spa has 10 treatment rooms, including 2 couples suites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "**Number of Treatment Rooms:** 10, including 2 couples suites",
+          "note": "Le Spa facts.",
+          "url": "https://press.fourseasons.com/casablanca/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The spa has two balneo-hydrotherapy pools.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "our two Swiss-style balneo-hydrotherapy pools",
+          "note": "Spa page.",
+          "url": "https://www.fourseasons.com/casablanca/spa/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "2 balneo pools",
+          "note": "Spa special facilities.",
+          "url": "https://press.fourseasons.com/casablanca/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The outdoor pool is heated year-round.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The year-round heated outdoor pool",
+          "note": "Spa wellness services.",
+          "url": "https://www.fourseasons.com/casablanca/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The hotel is oceanfront, just minutes away from the landmark Hassan II Mosque.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Oceanfront, just minutes away from the city’s business district, the landmark Hassan II Mosque and designer shopping",
+          "note": "Location in fact sheet.",
+          "url": "https://press.fourseasons.com/casablanca/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel does not possess a liquor license.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Our Hotel does not possess a liquor license.",
+          "note": "Dining page note.",
+          "url": "https://www.fourseasons.com/casablanca/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d11",
+          "quote": "the hotel doesn’t have an alcohol license",
+          "note": "Editorial confirms.",
+          "url": "https://www.cntraveler.com/hotels/morocco/casablanca/four-seasons-hotel-casablanca",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Kyúb offers al fresco dining from April to September.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Kyúb is a seasonal coastal restaurant offering an elegant al fresco dining experience from April to September.",
+          "note": "Season stated.",
+          "url": "https://www.fourseasons.com/casablanca/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "Mohammed V International Airport is 45 minutes by car from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "45 minutes by car",
+          "note": "Travel time from Mohammed V International Airport (CMN).",
+          "url": "https://www.fourseasons.com/casablanca/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "contradicted",
+          "doc_id": "d11",
+          "quote": "a 30-minute drive from the airport",
+          "note": "Editorial gives 30 minutes instead.",
+          "url": "https://www.cntraveler.com/hotels/morocco/casablanca/four-seasons-hotel-casablanca",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "contradicted",
+      "reason": "a source says something different"
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, full breakfast for two is included daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers can be combined with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

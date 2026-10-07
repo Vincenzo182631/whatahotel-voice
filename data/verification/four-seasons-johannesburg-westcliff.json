@@ -1,0 +1,415 @@
+{
+  "hotel_slug": "four-seasons-johannesburg-westcliff",
+  "hotel_name": "The Westcliff, Four Seasons Hotel Johannesburg",
+  "checked_at": "2026-10-07T06:08:10.314Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 6,
+      "total": 23
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://press.fourseasons.com/johannesburg/hotel-facts/",
+      "tier": "official",
+      "chars": 4012
+    },
+    {
+      "id": "d2",
+      "url": "https://www.fourseasons.com/johannesburg/",
+      "tier": "official",
+      "chars": 7765
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/johannesburg/dining/",
+      "tier": "official",
+      "chars": 9591
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/johannesburg/spa/",
+      "tier": "official",
+      "chars": 4793
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/johannesburg/getting-here/",
+      "tier": "official",
+      "chars": 2824
+    },
+    {
+      "id": "d6",
+      "url": "https://www.fourseasons.com/johannesburg/services-and-amenities/",
+      "tier": "official",
+      "chars": 2721
+    },
+    {
+      "id": "d7",
+      "url": "https://www.fourseasons.com/johannesburg/accommodations/",
+      "tier": "official",
+      "chars": 5926
+    },
+    {
+      "id": "d8",
+      "url": "https://www.fourseasons.com/johannesburg/contact-us/",
+      "tier": "official",
+      "chars": 1447
+    },
+    {
+      "id": "d9",
+      "url": "https://www.fourseasons.com/johannesburg/photos-and-videos/",
+      "tier": "official",
+      "chars": 2961
+    },
+    {
+      "id": "d10",
+      "url": "https://www.fourseasons.com/johannesburg/discover/",
+      "tier": "official",
+      "chars": 986
+    },
+    {
+      "id": "d11",
+      "url": "https://www.cntraveler.com/hotels/south-africa/johannesburg/the-westcliff-johannesburg",
+      "tier": "editorial",
+      "chars": 4416
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel opened in December 2014.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "December 2014",
+          "note": "Listed as the opening date in the press kit facts.",
+          "url": "https://press.fourseasons.com/johannesburg/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is at 67 Jan Smuts Avenue in Johannesburg.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "67 Jan Smuts Avenue, P.O. Box 2700, Saxonwold 2132, Johannesburg, South Africa",
+          "note": "Address matches.",
+          "url": "https://www.fourseasons.com/johannesburg/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The low-rise buildings are surrounded by eight acres (three hectares) of landscaped gardens and courtyards.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Low-rise buildings surrounded by eight acres (three hectares) of landscaped gardens and courtyards cascading down a hillside with panoramic views",
+          "note": "Exact match.",
+          "url": "https://press.fourseasons.com/johannesburg/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel has nine sun-splashed villas woven with courtyards, fountains and gardens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "with nine sun-splashed villas woven with courtyards, fountains and gardens",
+          "note": "Exact match.",
+          "url": "https://www.fourseasons.com/johannesburg/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Flames has an iconic terrace perched high above Johannesburg's urban forest.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Unwind on our iconic terrace at Flames, perched high above Johannesburg’s urban forest",
+          "note": "Exact match.",
+          "url": "https://www.fourseasons.com/johannesburg/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The spa has 11 treatment rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Number of Treatment Rooms:** 11",
+          "note": "The press kit lists 11 treatment rooms.",
+          "url": "https://press.fourseasons.com/johannesburg/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d11",
+          "quote": "Eleven treatment rooms, excellent thermal facilities",
+          "note": "The review confirms 11 treatment rooms.",
+          "url": "https://www.cntraveler.com/hotels/south-africa/johannesburg/the-westcliff-johannesburg",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The spa lap pool is a 25-metre (82-foot) adults-only pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Get up early for an invigorating morning swim in our 25-metre (82-foot) adults-only pool",
+          "note": "Listed under Spa Lap Pool.",
+          "url": "https://www.fourseasons.com/johannesburg/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel has an outdoor family pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Lounge in the cool shade of an umbrella on the terrace while the kids splash around in our outdoor pool",
+          "note": "Listed under Family Pool.",
+          "url": "https://www.fourseasons.com/johannesburg/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The location is a central starting point for safaris and exploration in South Africa and beyond.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Central starting point for safaris and exploration in South Africa and beyond",
+          "note": "Exact match.",
+          "url": "https://press.fourseasons.com/johannesburg/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Spa facilities and treatments are open every day, 9:00 am – 7:00 pm.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Spa facilities and treatmentsEvery day, 9:00 am – 7:00 pm",
+          "note": "Exact match.",
+          "url": "https://www.fourseasons.com/johannesburg/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Après-Spa is the city's only outdoor spa lounge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Après-Spa, the city's only outdoor spa lounge",
+          "note": "Exact match.",
+          "url": "https://press.fourseasons.com/johannesburg/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Three-Bedroom Royal Suite has an oversized living room with a marble fireplace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Featuring an oversized living room with a marble fireplace",
+          "note": "Describes the Three-Bedroom Royal Suite.",
+          "url": "https://www.fourseasons.com/johannesburg/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Two-Bedroom Family Room offers two interconnecting bedrooms and is located near the family pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "our Family Rooms are conveniently located near the family pool and offer two interconnecting bedrooms",
+          "note": "Describes the Two-Bedroom Family Room.",
+          "url": "https://www.fourseasons.com/johannesburg/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The signature Westcliff Breakfast is served at The View, overlooking Johannesburg's most iconic vista.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "From the comfort of The View, overlooking Johannesburg’s most iconic vista, our Four Seasons Westcliff Breakfast",
+          "note": "Matches.",
+          "url": "https://www.fourseasons.com/johannesburg/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Concierge can plan a safari to view Africa's big five at Kruger National Park.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "let our Concierge plan a thrilling safari to view Africa’s “big five” at Kruger National Park",
+          "note": "Matches.",
+          "url": "https://www.fourseasons.com/johannesburg/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "OR Tambo International Airport is 30–45 minutes by car from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "OR Tambo International Airport (JNB)",
+          "note": "Heading for the travel-time entry.",
+          "url": "https://www.fourseasons.com/johannesburg/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Travel Time30–45 minutes by carDistance22 kilometres/14 miles",
+          "note": "Travel time listed under OR Tambo.",
+          "url": "https://www.fourseasons.com/johannesburg/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The hotel is on the Witwatersrand, the rocky hills that run through the city.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Located on the Witwatersrand – the rocky hills that run through the city",
+          "note": "Matches.",
+          "url": "https://www.fourseasons.com/johannesburg/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the hotel requires transportation to downtown attractions.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, full breakfast for two is included daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers can be combined with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

@@ -1,0 +1,517 @@
+{
+  "hotel_slug": "four-seasons-madrid",
+  "hotel_name": "Four Seasons Hotel Madrid",
+  "checked_at": "2026-10-07T06:09:28.518Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 20,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 6,
+      "total": 26
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://press.fourseasons.com/madrid/hotel-facts/",
+      "tier": "official",
+      "chars": 3942
+    },
+    {
+      "id": "d2",
+      "url": "https://www.fourseasons.com/madrid/",
+      "tier": "official",
+      "chars": 11987
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/madrid/dining/",
+      "tier": "official",
+      "chars": 6536
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/madrid/spa/",
+      "tier": "official",
+      "chars": 5786
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/madrid/getting-here/",
+      "tier": "official",
+      "chars": 1214
+    },
+    {
+      "id": "d6",
+      "url": "https://www.fourseasons.com/madrid/services-and-amenities/",
+      "tier": "official",
+      "chars": 4852
+    },
+    {
+      "id": "d7",
+      "url": "https://www.cntraveler.com/hotels/madrid/four-seasons-hotel-madrid",
+      "tier": "editorial",
+      "chars": 5850
+    },
+    {
+      "id": "d8",
+      "url": "https://www.fourseasons.com/madrid/accommodations/",
+      "tier": "official",
+      "chars": 8500
+    },
+    {
+      "id": "d9",
+      "url": "https://www.fourseasons.com/madrid/services-and-amenities/art-collection/",
+      "tier": "official",
+      "chars": 4536
+    },
+    {
+      "id": "d10",
+      "url": "https://www.fourseasons.com/madrid/services-and-amenities/galeria-canalejas/",
+      "tier": "official",
+      "chars": 2167
+    },
+    {
+      "id": "d11",
+      "url": "https://www.fourseasons.com/madrid/contact-us/",
+      "tier": "official",
+      "chars": 1223
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel opened in September 2020.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "September 2020",
+          "note": "Listed under OPENING DATE.",
+          "url": "https://press.fourseasons.com/madrid/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel has 200 rooms in total.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Total Number of Rooms**: 200",
+          "note": "Press facts give 200 total rooms.",
+          "url": "https://press.fourseasons.com/madrid/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "Among our 200 guest rooms and suites are many one-of-a-kind layouts.",
+          "note": "Confirms 200 rooms and suites.",
+          "url": "https://www.fourseasons.com/madrid/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel has 39 suites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Suites:** 39",
+          "note": "Press facts list 39 suites.",
+          "url": "https://press.fourseasons.com/madrid/hotel-facts/",
+          "tier": "official",
+          "quote_verified": false
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "our 39 hotel suites are perfect for extended stays",
+          "note": "Accommodations page confirms 39 suites.",
+          "url": "https://www.fourseasons.com/madrid/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel is at Calle de Sevilla 3, Madrid.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Calle de Sevilla 3, Madrid, 28014, Spain",
+          "note": "Address matches.",
+          "url": "https://press.fourseasons.com/madrid/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d11",
+          "quote": "Calle de Sevilla, 3, Madrid, 28014 Spain",
+          "note": "Contact page address matches.",
+          "url": "https://www.fourseasons.com/madrid/contact-us/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The hotel is between Puerta del Sol and Barrio de las Letras.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Right in the heart of the Spanish capital – between Puerta del Sol and Barrio de las Letras – Four Seasons offers the best location for a visitor to Madrid.",
+          "note": "States the location directly.",
+          "url": "https://www.fourseasons.com/madrid/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The property is comprised of seven historic buildings.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Property is comprised of seven historic buildings, carefully restored and refurbished by a team of architects and designers including:",
+          "note": "Seven historic buildings.",
+          "url": "https://press.fourseasons.com/madrid/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "this iconic hotel unites seven historic buildings into one dynamic destination",
+          "note": "Confirms seven historic buildings.",
+          "url": "https://www.fourseasons.com/madrid/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The majority of attractions are within a 20-minute walk.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The majority of attractions are within a 20-minute walk.",
+          "note": "Exact statement.",
+          "url": "https://www.fourseasons.com/madrid/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "It's just a 25-minute drive to Madrid-Barajas International Airport.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "It’s just a 25-minute drive to Madrid-Barajas International Airport.",
+          "note": "Exact statement.",
+          "url": "https://www.fourseasons.com/madrid/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Dani Brasserie is a rooftop restaurant where chef Dani García blends Michelin-starred technique with more casual Spanish and international dishes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Discover Dani Brasserie, a rooftop restaurant in Madrid, where chef Dani García blends Michelin-starred technique with more casual Spanish and international dishes",
+          "note": "Matches claim.",
+          "url": "https://www.fourseasons.com/madrid/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Isa Restaurant & Cocktail Bar serves modern Asian street food.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Savour modern Asian street food in our social dining atmosphere and award-winning cocktail bar",
+          "note": "Under Isa Restaurant & Cocktail Bar heading.",
+          "url": "https://www.fourseasons.com/madrid/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "savor Asian street food at our award-winning Isa restaurant & cocktail bar",
+          "note": "Confirms Asian street food at Isa.",
+          "url": "https://www.fourseasons.com/madrid/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "El Patio is the hotel's lobby bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Our majestic lobby bar offers an excitingly unique blend of traditional Spanish fare",
+          "note": "Under El Patio heading.",
+          "url": "https://www.fourseasons.com/madrid/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The spa has 8 treatment rooms including one couple's suite.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Treatment Rooms:** 8 treatment rooms including one couple's suite",
+          "note": "Exact match.",
+          "url": "https://press.fourseasons.com/madrid/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Spa retreat with eight treatment rooms, including one couples’ suite",
+          "note": "Confirms.",
+          "url": "https://www.fourseasons.com/madrid/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The showpiece of the Spa is a 14-metre (46-foot) swimming pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "The showpiece of the Spa is our 14-metre (46-foot) swimming pool and sun terrace on the eighth floor",
+          "note": "Matches.",
+          "url": "https://www.fourseasons.com/madrid/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Find tranquillity in our 14-metre (46-foot) swimming pool – the stunning showpiece of the Spa.",
+          "note": "Matches.",
+          "url": "https://www.fourseasons.com/madrid/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The pool has modern glass walls and a skylight the full size of the pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Modern glass walls and a skylight the full size of the pool create an environment flooded with natural light.",
+          "note": "Matches.",
+          "url": "https://www.fourseasons.com/madrid/spa/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Modern glass walls and a skylight the full size of the pool create an environment flooded with natural light.",
+          "note": "Matches.",
+          "url": "https://www.fourseasons.com/madrid/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "In the grand lobby, the city's past is revealed in 3,700 restored artefacts.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "In the grand lobby, the city’s past is revealed in 3,700 restored artefacts, including key features from the banks that previously occupied the space.",
+          "note": "Exact statement.",
+          "url": "https://www.fourseasons.com/madrid/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Sound-proofing throughout the hotel is state-of-the-art.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Best of all, sound-proofing throughout the hotel is state-of-the-art—a serious plus in a neighborhood still rife with construction sites.",
+          "note": "Editorial review states this.",
+          "url": "https://www.cntraveler.com/hotels/madrid/four-seasons-hotel-madrid",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The hotel offers works of Spanish contemporary art throughout.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Works of Spanish contemporary art throughout",
+          "note": "Listed among amenities.",
+          "url": "https://www.fourseasons.com/madrid/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The pool area is reserved for guests ages 12 and over.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Pool area is reserved for guests ages 12 and over.",
+          "note": "Exact statement.",
+          "url": "https://www.fourseasons.com/madrid/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The hotel is in a neighborhood still rife with construction sites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "a serious plus in a neighborhood still rife with construction sites",
+          "note": "Editorial review states this.",
+          "url": "https://www.cntraveler.com/hotels/madrid/four-seasons-hotel-madrid",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "The hotel feels aimed largely at a mature client who likes everything to be just so.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "but the hotel feels aimed largely at a mature client who likes everything to be just so.",
+          "note": "Editorial review states this.",
+          "url": "https://www.cntraveler.com/hotels/madrid/four-seasons-hotel-madrid",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-4",
+      "text": "WhataHotel notes premium luxury pricing reflecting the high-end positioning.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, full breakfast for two is included daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers can be combined with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

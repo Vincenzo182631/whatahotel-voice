@@ -1,0 +1,500 @@
+{
+  "hotel_slug": "four-seasons-kuwait",
+  "hotel_name": "Four Seasons Hotel Kuwait at Burj Alshaya",
+  "checked_at": "2026-10-07T06:07:26.365Z",
+  "script_version": null,
+  "decision": {
+    "eligible": false,
+    "blockers": [
+      "contradicted by a source: c-1",
+      "used in the script but not verified: f-1, f-3"
+    ],
+    "counts": {
+      "supported": 15,
+      "contradicted": 1,
+      "unverified": 2,
+      "exempt": 6,
+      "total": 24
+    }
+  },
+  "applied": false,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://press.fourseasons.com/kuwait/hotel-facts/",
+      "tier": "official",
+      "chars": 5678
+    },
+    {
+      "id": "d2",
+      "url": "https://www.fourseasons.com/kuwait/",
+      "tier": "official",
+      "chars": 10923
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/kuwait/dining/",
+      "tier": "official",
+      "chars": 7233
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/kuwait/spa/",
+      "tier": "official",
+      "chars": 4098
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/kuwait/getting-here/",
+      "tier": "official",
+      "chars": 2726
+    },
+    {
+      "id": "d6",
+      "url": "https://www.fourseasons.com/kuwait/services-and-amenities/",
+      "tier": "official",
+      "chars": 3802
+    },
+    {
+      "id": "d7",
+      "url": "https://www.fourseasons.com/kuwait/accommodations/",
+      "tier": "official",
+      "chars": 5851
+    },
+    {
+      "id": "d8",
+      "url": "https://www.fourseasons.com/kuwait/services-and-amenities/art/",
+      "tier": "official",
+      "chars": 3844
+    },
+    {
+      "id": "d9",
+      "url": "https://www.fourseasons.com/kuwait/services-and-amenities/shopping/",
+      "tier": "official",
+      "chars": 1921
+    },
+    {
+      "id": "d10",
+      "url": "https://www.fourseasons.com/kuwait/contact-us/",
+      "tier": "official",
+      "chars": 1485
+    },
+    {
+      "id": "d11",
+      "url": "https://www.cntraveler.com/hotels/kuwait-city/four-seasons-hotel-kuwait-at-burj-alshaya",
+      "tier": "editorial",
+      "chars": 1477
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel opened in August 2017.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "August 2017",
+          "note": "Listed as the opening date in the press kit facts.",
+          "url": "https://press.fourseasons.com/kuwait/hotel-facts/",
+          "tier": "official",
+          "quote_verified": false
+        }
+      ],
+      "status": "unverified",
+      "reason": "quoted evidence could not be found in the page text"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel has 217 guest rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Guest Rooms:** 217",
+          "note": "The press kit lists 217 guest rooms.",
+          "url": "https://press.fourseasons.com/kuwait/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel has 67 suites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Suites:** 67",
+          "note": "The press kit lists 67 suites.",
+          "url": "https://press.fourseasons.com/kuwait/hotel-facts/",
+          "tier": "official",
+          "quote_verified": false
+        }
+      ],
+      "status": "unverified",
+      "reason": "quoted evidence could not be found in the page text"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel is on Al Soor Street within the two-tower Burj Alshaya development in the heart of Kuwait City.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Situated on the city’s first ring road on Al Soor Street within the two-tower Burj Alshaya development in the heart of Kuwait City",
+          "note": "Matches every element of the claim.",
+          "url": "https://press.fourseasons.com/kuwait/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Yabu Pushelberg designed the interiors.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Yabu Pushelberg (interior design)",
+          "note": "Yabu Pushelberg is credited with the interior design.",
+          "url": "https://press.fourseasons.com/kuwait/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Dai Forni serves Italian cuisine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Cuisine**: Italian",
+          "note": "Listed under the Dai Forni entry.",
+          "url": "https://press.fourseasons.com/kuwait/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "refined Italian cuisine at Dai Forni",
+          "note": "The dining page confirms Italian cuisine.",
+          "url": "https://www.fourseasons.com/kuwait/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "LÏ Beirut serves Lebanese cuisine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**On the Menu:** Lebanese cuisine, mezze, shisha and drinks",
+          "note": "Listed under the LÏ Beirut entry.",
+          "url": "https://press.fourseasons.com/kuwait/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "authentic Lebanese flavours at Lï Beirut",
+          "note": "The dining page confirms Lebanese food.",
+          "url": "https://www.fourseasons.com/kuwait/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Al Soor is known as \"La Chocolaterie de Kuwait\".",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Welcome to Al Soor – known as \"La Chocolaterie de Kuwait\"",
+          "note": "Exact nickname as claimed.",
+          "url": "https://www.fourseasons.com/kuwait/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Al Shaheed Park is next to the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Al Shaheed Park (next to the Hotel)",
+          "note": "The press kit places the park next to the hotel.",
+          "url": "https://press.fourseasons.com/kuwait/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Al Shaheed Park is just next door",
+          "note": "The location page confirms it.",
+          "url": "https://www.fourseasons.com/kuwait/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel is 20 minutes from Kuwait International Airport.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Four Seasons Hotel Kuwait is just 20 minutes from Kuwait International Airport",
+          "note": "The location FAQ gives 20 minutes.",
+          "url": "https://www.fourseasons.com/kuwait/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "20 minutes from Kuwait International Airport",
+          "note": "The press kit gives the same figure.",
+          "url": "https://press.fourseasons.com/kuwait/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The lobby features a 13 metre (43 foot) spiral staircase.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "a dramatic lobby featuring a 13 metre (43 foot) spiral staircase",
+          "note": "Exact match.",
+          "url": "https://press.fourseasons.com/kuwait/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "13-metre (43-foot) illuminated spiral stairway",
+          "note": "The art page confirms the staircase size.",
+          "url": "https://www.fourseasons.com/kuwait/services-and-amenities/art/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The lobby displays \"Etymology of the Baroque\", a fantastical bronze orchid by British artist Marc Quinn.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "From the lobby’s “Etymology of the Baroque” – a fantastical bronze orchid by British artist Marc Quinn",
+          "note": "Matches every element of the claim.",
+          "url": "https://www.fourseasons.com/kuwait/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The hotel's indoor spa pool is named the Best Indoor Swimming Pool in the Middle East.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Named the Best Indoor Swimming Pool in the Middle East, our fourth-floor Spa pool inspires relaxation.",
+          "note": "The amenities page states the award.",
+          "url": "https://www.fourseasons.com/kuwait/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Named the best indoor swimming pool in the Middle East, our Indoor Spa Pool",
+          "note": "The spa page confirms it.",
+          "url": "https://www.fourseasons.com/kuwait/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The hotel is the first and only hotel in Kuwait to receive the Forbes Five-Star rating.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "the first and only hotel in Kuwait to receive the prestigious Forbes Five-Star rating",
+          "note": "The claim is stated explicitly.",
+          "url": "https://www.fourseasons.com/kuwait/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Signature Moroccan Hammam is a 90-minute ritual that includes a black soap application.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Your signature hammam treatment consists of a 90-minute ritual that includes a black soap application to deeply cleanse and purify",
+          "note": "Exact match.",
+          "url": "https://www.fourseasons.com/kuwait/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The Souk Al-Mubarikiya traditional market is 15 minutes from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "15 minutes from the Souk Al-Mubarikiya traditional market",
+          "note": "The press kit gives 15 minutes.",
+          "url": "https://press.fourseasons.com/kuwait/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The Avenues is just 15 minutes away by car, as is the traditional market Souk Al-Mubarikiya.",
+          "note": "The location page also gives 15 minutes.",
+          "url": "https://www.fourseasons.com/kuwait/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "contradicted",
+          "doc_id": "d9",
+          "quote": "Just a 10-minute drive from our Hotel, the 200-year-old Souk Al-Mubarakiya (Old Souq)",
+          "note": "The shopping page gives a 10-minute drive instead.",
+          "url": "https://www.fourseasons.com/kuwait/services-and-amenities/shopping/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "contradicted",
+      "reason": "a source says something different"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "While visas are available on arrival for some nationalities, a pre-arranged visa is recommended.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "While visas are available on arrival for some nationalities, a pre-arranged visa is recommended.",
+          "note": "Verbatim match.",
+          "url": "https://www.fourseasons.com/kuwait/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "Airport arrival assistance is chargeable.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Airport arrival assistance (chargeable)",
+          "note": "Listed as chargeable on the services page.",
+          "url": "https://www.fourseasons.com/kuwait/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "For an additional fee, our staff is available to meet you in the airport to facilitate the immigration process.",
+          "note": "The location page confirms an extra fee applies.",
+          "url": "https://www.fourseasons.com/kuwait/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-4",
+      "text": "WhataHotel notes premium luxury pricing.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, full breakfast for two is included daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers can be combined with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
