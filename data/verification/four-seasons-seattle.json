@@ -1,0 +1,465 @@
+{
+  "hotel_slug": "four-seasons-seattle",
+  "hotel_name": "Four Seasons Hotel Seattle",
+  "checked_at": "2026-10-07T21:58:23.517Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 20,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 6,
+      "total": 26
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://press.fourseasons.com/seattle/hotel-facts/",
+      "tier": "official",
+      "chars": 5449
+    },
+    {
+      "id": "d2",
+      "url": "https://www.fourseasons.com/seattle/",
+      "tier": "official",
+      "chars": 10038
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/seattle/dining/",
+      "tier": "official",
+      "chars": 3883
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/seattle/spa/",
+      "tier": "official",
+      "chars": 6305
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/seattle/services-and-amenities/",
+      "tier": "official",
+      "chars": 2959
+    },
+    {
+      "id": "d6",
+      "url": "https://www.fourseasons.com/seattle/getting-here/",
+      "tier": "official",
+      "chars": 3487
+    },
+    {
+      "id": "d7",
+      "url": "https://www.fourseasons.com/seattle/accommodations/",
+      "tier": "official",
+      "chars": 7821
+    },
+    {
+      "id": "d8",
+      "url": "https://www.cntraveler.com/hotels/united-states/seattle/four-seasons-seattle",
+      "tier": "editorial",
+      "chars": 7529
+    },
+    {
+      "id": "d9",
+      "url": "https://www.fourseasons.com/seattle/services-and-amenities/couples-experiences/",
+      "tier": "official",
+      "chars": 6855
+    },
+    {
+      "id": "d10",
+      "url": "https://www.fourseasons.com/seattle/services-and-amenities/pool/",
+      "tier": "official",
+      "chars": 4196
+    },
+    {
+      "id": "d11",
+      "url": "https://www.fourseasons.com/seattle/contact-us/",
+      "tier": "official",
+      "chars": 1546
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel opened in November 2008.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "###### November 2008",
+          "note": "Opening date given as November 2008",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/seattle/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel has 147 rooms in total.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Total Number of Rooms:** 147",
+          "note": "147 total rooms",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/seattle/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel is across the street from the Seattle Art Museum.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Across the street from the Seattle Art Museum and one block from iconic Pike Place Market",
+          "note": "Directly states it",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/seattle/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel is one block from Pike Place Market.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Across the street from the Seattle Art Museum and one block from iconic Pike Place Market",
+          "note": "Directly states it",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/seattle/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The hotel comprises floors 1 through 10 of a 21-storey building.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Hotel comprises floors 1 through 10 of a 21-storey building",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/seattle/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Goldfinch Tavern is the hotel's upscale, waterfront restaurant.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Our upscale, waterfront restaurant in Seattle",
+          "note": "Goldfinch Tavern described this way",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/seattle/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Ethan Stowell is the consulting chef at Goldfinch Tavern.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Consulting Chef:** Ethan Stowell",
+          "note": "Listed under Goldfinch Tavern",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/seattle/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Spa has 8 treatment rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Number of Treatment Rooms:** 8",
+          "note": "Spa section",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/seattle/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The hotel's complimentary house car is available for destinations within a one-mile radius.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Our complimentary house car is available on a first-come, first-served basis for destinations within a one-mile radius.",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/seattle/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel's spa was renovated in 2026.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "The spa here, renovated in 2026",
+          "note": "Condé Nast Traveler review states spa renovated in 2026",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/seattle/four-seasons-seattle",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Condé Nast Traveler's review lists the hotel as family friendly: \"Extremely!\"",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "**Family friendly:** Extremely!",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/seattle/four-seasons-seattle",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Coffee Concierge delivers a complimentary cup of brew directly to your room each morning.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "your Coffee Concierge delivers a complimentary cup of brew directly to your room each morning",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/seattle/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The outdoor terrace overlooking Elliott Bay and Olympic Mountains features a heated infinity-edged pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Outdoor terrace overlooking Elliott Bay and Olympic Mountains features heated infinity-edged pool, fireplace and whirlpool",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/seattle/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Every guest room and suite has deep soaking tubs and separate rain showers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "deep soaking tubs and separate rain showers in every guest room and suite",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/seattle/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Goldfinch Tavern serves a Sunday buffet brunch.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Meet us at Goldfinch Tavern for a bountiful appetizer and dessert buffet",
+          "note": "Sunday Buffet Brunch at Goldfinch Tavern",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/seattle/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The hotel displays original works by Pacific Northwest School artists.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Original works by Pacific Northwest School artists",
+          "note": "Design aesthetic section",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/seattle/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Overnight valet parking costs USD 75 per night.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "We offer overnight valet parking for USD 75 per night.",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/seattle/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The garage has vehicle clearance restrictions.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Please note that the garage has vehicle clearance restrictions.",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/seattle/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "The hotel asks guests to contact it about the availability of the pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Please contact us on the availability of the pool.",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/seattle/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-4",
+      "text": "Guests must be ages 16 or over to access the spa facilities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Guests must be ages 16 or over to access the spa facilities",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/seattle/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-5",
+      "text": "WhataHotel notes the urban downtown setting may lack a tranquil resort atmosphere.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, breakfast for two is free daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers can be combined with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
