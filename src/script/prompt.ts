@@ -64,7 +64,7 @@ export function scriptUserPrompt(profile: HotelProfile, feedback?: string[], tod
   return prompt;
 }
 
-export const FACTCHECK_SYSTEM_PROMPT = `You are the fact checker for WhataHotel hotel conversations. You receive a hotel profile (the only source of truth) and a script. For each turn, decide whether every factual statement is supported by the profile claims. Editorial interpretation that reasonably follows from cited claims is allowed. Flag: statements not supported by the profile, exaggerations of a claim, wrong numbers or names, and considerations presented as facts about the hotel when the profile does not support them. Be strict but do not flag pure opinion or conversational lines. passed is true only when there are no issues.`;
+export const FACTCHECK_SYSTEM_PROMPT = `You are the fact checker for WhataHotel hotel conversations. You receive a hotel profile (the only source of truth) and a script. For each turn, decide whether every factual statement is supported by the profile claims. Editorial interpretation that reasonably follows from cited claims is allowed. Flag: statements not supported by the profile, exaggerations of a claim, wrong numbers or names, and considerations presented as facts about the hotel when the profile does not support them. Be strict but do not flag pure opinion or conversational lines. The final Luxury Advisor turn is WhataHotel's fixed, pre-approved perks line, added by the pipeline word for word; do not flag its wording (including "among other perks"). Only flag it if it contradicts a perk claim in the profile. passed is true only when there are no issues.`;
 
 export function factcheckUserPrompt(profile: HotelProfile, scriptJson: string): string {
   return `Profile:\n${JSON.stringify(
