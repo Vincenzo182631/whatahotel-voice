@@ -1,0 +1,493 @@
+{
+  "hotel_slug": "four-seasons-kuala-lumpur",
+  "hotel_name": "Four Seasons Kuala Lumpur",
+  "checked_at": "2026-10-07T05:53:50.731Z",
+  "script_version": null,
+  "decision": {
+    "eligible": false,
+    "blockers": [
+      "used in the script but not verified: f-1"
+    ],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 1,
+      "exempt": 6,
+      "total": 26
+    }
+  },
+  "applied": false,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://press.fourseasons.com/kualalumpur/hotel-facts/",
+      "tier": "official",
+      "chars": 9013
+    },
+    {
+      "id": "d2",
+      "url": "https://www.fourseasons.com/kualalumpur/",
+      "tier": "official",
+      "chars": 8202
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/kualalumpur/dining/",
+      "tier": "official",
+      "chars": 9152
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/kualalumpur/spa/",
+      "tier": "official",
+      "chars": 7167
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/kualalumpur/services-and-amenities/",
+      "tier": "official",
+      "chars": 3948
+    },
+    {
+      "id": "d6",
+      "url": "https://www.fourseasons.com/kualalumpur/getting-here/",
+      "tier": "official",
+      "chars": 3443
+    },
+    {
+      "id": "d7",
+      "url": "https://www.fourseasons.com/kualalumpur/accommodations/",
+      "tier": "official",
+      "chars": 7998
+    },
+    {
+      "id": "d8",
+      "url": "https://www.fourseasons.com/kualalumpur/contact-us/",
+      "tier": "official",
+      "chars": 1733
+    },
+    {
+      "id": "d9",
+      "url": "https://www.fourseasons.com/kualalumpur/photos-and-videos/",
+      "tier": "official",
+      "chars": 3060
+    },
+    {
+      "id": "d10",
+      "url": "https://www.fourseasons.com/kualalumpur/discover/",
+      "tier": "official",
+      "chars": 3256
+    },
+    {
+      "id": "d11",
+      "url": "https://www.cntraveler.com/hotels/kuala-lumpur/four-seasons-hotel-kuala-lumpur",
+      "tier": "editorial",
+      "chars": 6898
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel opened in July 2018.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "July 2018",
+          "note": "Listed under OPENING DATE in the hotel facts.",
+          "url": "https://press.fourseasons.com/kualalumpur/hotel-facts/",
+          "tier": "official",
+          "quote_verified": false
+        },
+        {
+          "verdict": "partial",
+          "doc_id": "d11",
+          "quote": "Opened in 2018, the sanctuary is part of the international Four Seasons chain",
+          "note": "Confirms the year but not the month.",
+          "url": "https://www.cntraveler.com/hotels/kuala-lumpur/four-seasons-hotel-kuala-lumpur",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "unverified",
+      "reason": "sources cover only part of the claim"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel has 209 rooms in total.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Total Number of Rooms:** 209",
+          "note": "Total room count matches.",
+          "url": "https://press.fourseasons.com/kualalumpur/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel is at 145 Jalan Ampang, Kuala Lumpur.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "145 Jalan Ampang, Kuala Lumpur, 50450, Malaysia",
+          "note": "Address matches.",
+          "url": "https://press.fourseasons.com/kualalumpur/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "145 Jalan Ampang, Kuala Lumpur, 50450 Malaysia",
+          "note": "Address on the contact page matches.",
+          "url": "https://www.fourseasons.com/kualalumpur/contact-us/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel is in the middle of the Golden Triangle neighbourhood, Kuala Lumpur's business, shopping and entertainment hub.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "In the middle of the Golden Triangle neighbourhood, Kuala Lumpur’s exciting business, shopping and entertainment hub",
+          "note": "Matches the claim.",
+          "url": "https://press.fourseasons.com/kualalumpur/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The hotel is adjacent to the landmark Petronas Twin Towers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Adjacent to the landmark Petronas Twin Towers and across the park from the Kuala Lumpur Convention Centre",
+          "note": "Matches the claim.",
+          "url": "https://press.fourseasons.com/kualalumpur/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The hotel overlooks Kuala Lumpur City Centre (KLCC) Park.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Overlooking Kuala Lumpur City Centre (KLCC) Park and offering lush views",
+          "note": "Matches the claim.",
+          "url": "https://press.fourseasons.com/kualalumpur/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "KLCC Park is a two-minute walk from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Yes, KLCC Park is a two-minute walk from our Hotel",
+          "note": "Matches the claim.",
+          "url": "https://www.fourseasons.com/kualalumpur/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel is a five-minute walk via a pedestrian subway to KLCC Station.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Five-minute walk via a pedestrian subway to KLCC Station, which offers rapid transit connections throughout the city",
+          "note": "Matches the claim.",
+          "url": "https://press.fourseasons.com/kualalumpur/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The hotel is 55 minutes from Kuala Lumpur International Airport by car.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "20 minutes from KL Sentral and 55 minutes from Kuala Lumpur International Airport by car",
+          "note": "Matches the claim.",
+          "url": "https://press.fourseasons.com/kualalumpur/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Travel Time55 minutes by carDistance60 km / 37 miles",
+          "note": "Listed under Kuala Lumpur International Airport (KUL).",
+          "url": "https://www.fourseasons.com/kualalumpur/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel has five on-site restaurants, lounges and bars.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Five on-site restaurants, lounges and bars",
+          "note": "Matches the claim.",
+          "url": "https://www.fourseasons.com/kualalumpur/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Yun House serves regional specialities of Hong Kong with a focus on Cantonese cuisine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Regional specialities of Hong Kong with a focus on Cantonese cuisine",
+          "note": "Cuisine listed for Yun House.",
+          "url": "https://press.fourseasons.com/kualalumpur/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The hotel has an infinity outdoor pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Infinity outdoor pool with cityscape",
+          "note": "Matches the claim.",
+          "url": "https://press.fourseasons.com/kualalumpur/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Premier Park-View Rooms have floor-to-ceiling views of KLCC Park's lush greenery and fountains.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Modern comforts combine with floor-to-ceiling views of KLCC Park’s lush greenery and fountains to offer a captivating look at KL’s calmer side.",
+          "note": "Description of the Premier Park-View Room.",
+          "url": "https://www.fourseasons.com/kualalumpur/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Yun House is Michelin-selected.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Michelin-selected Yun House introduces a modern approach on timeless dining.",
+          "note": "Matches the claim.",
+          "url": "https://press.fourseasons.com/kualalumpur/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d9",
+          "quote": "Experience authentic dining at Yun House, a 2023 Michelin-selected restaurant.",
+          "note": "Matches the claim.",
+          "url": "https://www.fourseasons.com/kualalumpur/photos-and-videos/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Bar Trigona is a stylish, award-winning bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "It is a stylish, award-winning bar that celebrates the rich and diverse flora found in the Malaysian Peninsula",
+          "note": "Describes Bar Trigona.",
+          "url": "https://press.fourseasons.com/kualalumpur/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The spa has a private couples' suite.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "featuring a private couples’ suite and thoughtfully designed relaxation spaces",
+          "note": "Matches the claim.",
+          "url": "https://www.fourseasons.com/kualalumpur/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "A traditional English high afternoon tea is served daily at The Lounge at Four Seasons.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "A traditional English high afternoon tea is served daily, complimenting the elegant setting of the lounge.",
+          "note": "Stated in The Lounge at Four Seasons entry.",
+          "url": "https://press.fourseasons.com/kualalumpur/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The spa is open from 11:00 am to 8:30 pm.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Hours11:00 am – 8:30 pm",
+          "note": "Spa hours match.",
+          "url": "https://www.fourseasons.com/kualalumpur/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Yun House's menu is pork-free.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Our expertly curated pork-free menu offers a selection of Chinese and Cantonese favourites, from seafood to dim sum delights.",
+          "note": "Stated in the Yun House description.",
+          "url": "https://www.fourseasons.com/kualalumpur/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "Guest rooms are on floors 8-18 of the main tower.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "65 (main tower); B1-4 (retail podium), 5-7 (hotel facilities), 8-18 (guest rooms)",
+          "note": "Guest rooms occupy floors 8-18 of the main tower.",
+          "url": "https://press.fourseasons.com/kualalumpur/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d11",
+          "quote": "Located on the 8th through 18th floors, the rooms",
+          "note": "Consistent floor range.",
+          "url": "https://www.cntraveler.com/hotels/kuala-lumpur/four-seasons-hotel-kuala-lumpur",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-4",
+      "text": "WhataHotel notes premium luxury pricing.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, full breakfast for two is included daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers can be combined with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
