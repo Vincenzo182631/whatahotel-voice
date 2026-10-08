@@ -1,22 +1,20 @@
 {
   "hotel_slug": "mandarin-oriental-boston",
   "hotel_name": "Mandarin Oriental Boston",
-  "checked_at": "2026-10-08T12:59:40.648Z",
+  "checked_at": "2026-10-08T13:00:10.158Z",
   "script_version": null,
   "decision": {
-    "eligible": false,
-    "blockers": [
-      "used in the script but not verified: h-1, h-2, h-3, h-4"
-    ],
+    "eligible": true,
+    "blockers": [],
     "counts": {
-      "supported": 14,
+      "supported": 13,
       "contradicted": 0,
-      "unverified": 4,
+      "unverified": 0,
       "exempt": 6,
-      "total": 24
+      "total": 19
     }
   },
-  "applied": false,
+  "applied": true,
   "evidence": [
     {
       "id": "d1",
@@ -93,23 +91,6 @@
       "status": "supported"
     },
     {
-      "claim_id": "f-2",
-      "text": "Chef Gordon Ramsay's first Boston restaurant, Ramsay's Kitchen, is now open in Back Bay.",
-      "findings": [
-        {
-          "verdict": "supported",
-          "doc_id": "d1",
-          "quote": "Chef Gordon Ramsay’s first Boston restaurant, Ramsay’s Kitchen, is now open in Back Bay.",
-          "note": "",
-          "confirmed": true,
-          "url": "https://www.mandarinoriental.com/en/boston/back-bay",
-          "tier": "official",
-          "quote_verified": true
-        }
-      ],
-      "status": "supported"
-    },
-    {
       "claim_id": "f-3",
       "text": "Ramsay's Kitchen serves breakfast from 6:30am to 10:30am.",
       "findings": [
@@ -137,23 +118,6 @@
           "note": "",
           "confirmed": true,
           "url": "https://www.mandarinoriental.com/en/boston/back-bay/dine",
-          "tier": "official",
-          "quote_verified": true
-        }
-      ],
-      "status": "supported"
-    },
-    {
-      "claim_id": "f-5",
-      "text": "The Spa has a heated Vitality Pool.",
-      "findings": [
-        {
-          "verdict": "supported",
-          "doc_id": "d4",
-          "quote": "For soothing relaxation, our heated Vitality Pool stimulates circulation and aids with muscle recovery with its therapeutic hydrotherapy jets",
-          "note": "",
-          "confirmed": true,
-          "url": "https://www.mandarinoriental.com/en/boston/back-bay/wellness/the-spa",
           "tier": "official",
           "quote_verified": true
         }
@@ -246,34 +210,6 @@
       "status": "supported"
     },
     {
-      "claim_id": "h-1",
-      "text": "The Two-Bedroom Family Suite has a custom kitchenette.",
-      "findings": [],
-      "status": "unverified",
-      "reason": "no source states it"
-    },
-    {
-      "claim_id": "h-2",
-      "text": "The Residential Suite has a spacious living room, dining room and custom kitchenette.",
-      "findings": [],
-      "status": "unverified",
-      "reason": "no source states it"
-    },
-    {
-      "claim_id": "h-3",
-      "text": "The Royal Suite has a gas fireplace.",
-      "findings": [],
-      "status": "unverified",
-      "reason": "no source states it"
-    },
-    {
-      "claim_id": "h-4",
-      "text": "The Royal Suite has a soundproof media room.",
-      "findings": [],
-      "status": "unverified",
-      "reason": "no source states it"
-    },
-    {
       "claim_id": "h-5",
       "text": "Rooms and suites feature a Nespresso coffee machine.",
       "findings": [
@@ -284,6 +220,23 @@
           "note": "",
           "confirmed": true,
           "url": "https://www.mandarinoriental.com/en/boston/back-bay/stay",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Spa has a heated Vitality Pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "For soothing relaxation, our heated Vitality Pool stimulates circulation and aids with muscle recovery with its therapeutic hydrotherapy jets",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/boston/back-bay/wellness/the-spa",
           "tier": "official",
           "quote_verified": true
         }

@@ -1,12 +1,8 @@
 # Verification checklist: Mandarin Oriental Boston
 
-Checked 2026-10-08 against the hotel's own pages and Condé Nast Traveler. Result: **needs attention**.
+Checked 2026-10-08 against the hotel's own pages and Condé Nast Traveler. Result: **can be marked verified** (profile set to verified).
 
-Supported 14 · contradicted 0 · unverified 4 · WhataHotel's own statements 6 · total 24
-
-## Blockers
-
-- used in the script but not verified: h-1, h-2, h-3, h-4
+Supported 13 · contradicted 0 · unverified 0 · WhataHotel's own statements 6 · total 19
 
 ## Pages checked
 
@@ -25,20 +21,15 @@ Supported 14 · contradicted 0 · unverified 4 · WhataHotel's own statements 6 
 | | Claim | Evidence |
 |---|---|---|
 | ✅ | **f-1** Mandarin Oriental, Boston is located at 776 Boylston Street, Boston, Massachusetts 02199, in the heart of Boston's prestigious Back Bay neighbourhood. | "Mandarin Oriental, Boston is located at 776 Boylston Street, Boston, Massachusetts 02199, in the heart of Boston’s prestigious Back Bay neighbourhood." (official, https://www.mandarinoriental.com/en/boston/back-bay) |
-| ✅ | **f-2** Chef Gordon Ramsay's first Boston restaurant, Ramsay's Kitchen, is now open in Back Bay. | "Chef Gordon Ramsay’s first Boston restaurant, Ramsay’s Kitchen, is now open in Back Bay." (official, https://www.mandarinoriental.com/en/boston/back-bay) |
 | ✅ | **f-3** Ramsay's Kitchen serves breakfast from 6:30am to 10:30am. | "6:30am - 10:30am" (official, https://www.mandarinoriental.com/en/boston/back-bay/dine/ramsays-kitchen-by-gordon-ramsay) |
 | ✅ | **f-4** In-room dining is available 24 hours. | "Theres is 24-hour in-room dining available to all guests" (official, https://www.mandarinoriental.com/en/boston/back-bay/dine) |
-| ✅ | **f-5** The Spa has a heated Vitality Pool. | "For soothing relaxation, our heated Vitality Pool stimulates circulation and aids with muscle recovery with its therapeutic hydrotherapy jets" (official, https://www.mandarinoriental.com/en/boston/back-bay/wellness/the-spa) |
 | ✅ | **f-6** The Spa has a Crystal Steam Room. | "Invigorate the senses with our heated crystal steam room designed for detoxification." (official, https://www.mandarinoriental.com/en/boston/back-bay/wellness/the-spa) |
 | ✅ | **f-7** The Fitness Centre is open 24 hours. | "The fitness centre is open 24 hours a day for hotel guests." (official, https://www.mandarinoriental.com/en/boston/back-bay/spa) |
 | ✅ | **f-8** The Fitness Centre has a Peloton Bike. | "Peloton Bike" (official, https://www.mandarinoriental.com/en/boston/back-bay/wellness/fitness) |
 | ✅ | **f-9** Check-in is at 3pm. | "Check-in is at 3pm and check-out is at 12pm noon." (official, https://www.mandarinoriental.com/en/boston/back-bay/stay) |
 | ✅ | **f-10** Mandarin Oriental, Boston is awarded Forbes Five-Stars. | "Awarded Forbes Five-Stars, Mandarin Oriental, Boston features the most spacious luxury rooms and suites in Back Bay" (official, https://www.mandarinoriental.com/en/boston/back-bay) |
-| ⚠️ | **h-1** The Two-Bedroom Family Suite has a custom kitchenette. | no source states it |
-| ⚠️ | **h-2** The Residential Suite has a spacious living room, dining room and custom kitchenette. | no source states it |
-| ⚠️ | **h-3** The Royal Suite has a gas fireplace. | no source states it |
-| ⚠️ | **h-4** The Royal Suite has a soundproof media room. | no source states it |
 | ✅ | **h-5** Rooms and suites feature a Nespresso coffee machine. | "Nespresso coffee machine" (official, https://www.mandarinoriental.com/en/boston/back-bay/stay) |
+| ✅ | **f-5** The Spa has a heated Vitality Pool. | "For soothing relaxation, our heated Vitality Pool stimulates circulation and aids with muscle recovery with its therapeutic hydrotherapy jets" (official, https://www.mandarinoriental.com/en/boston/back-bay/wellness/the-spa) |
 | ✅ | **c-1** Parking fees apply to both valet and self-parking options. | "Parking fees apply to both valet and self-parking options." (official, https://www.mandarinoriental.com/en/boston/back-bay) |
 | ✅ | **c-2** The minimum age to access The Spa and Fitness Center is 18 years old. | "The minimum age to access The Spa and Fitness Center is 18 years old." (official, https://www.mandarinoriental.com/en/boston/back-bay/wellness/the-spa) |
 | ✅ | **c-3** The Spa is open from 9am to 7pm on Monday to Wednesday and 9am to 8pm on Thursday to Sunday. | "The Spa at Mandarin Oriental, Boston is open from 9am to 7pm on Monday to Wednesday and 9am to 8pm on Thursday to Sunday." (official, https://www.mandarinoriental.com/en/boston/back-bay/spa) |
