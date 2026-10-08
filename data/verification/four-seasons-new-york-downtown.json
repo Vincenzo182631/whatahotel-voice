@@ -1,0 +1,454 @@
+{
+  "hotel_slug": "four-seasons-new-york-downtown",
+  "hotel_name": "Four Seasons Hotel New York Downtown",
+  "checked_at": "2026-10-08T05:58:30.209Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 6,
+      "total": 23
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://press.fourseasons.com/newyorkdowntown/hotel-facts/",
+      "tier": "official",
+      "chars": 5667
+    },
+    {
+      "id": "d2",
+      "url": "https://www.fourseasons.com/newyorkdowntown/",
+      "tier": "official",
+      "chars": 12351
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/newyorkdowntown/accommodations/",
+      "tier": "official",
+      "chars": 7706
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/newyorkdowntown/dining/",
+      "tier": "official",
+      "chars": 2530
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/newyorkdowntown/spa/",
+      "tier": "official",
+      "chars": 5301
+    },
+    {
+      "id": "d6",
+      "url": "https://www.fourseasons.com/newyorkdowntown/services-and-amenities/",
+      "tier": "official",
+      "chars": 3223
+    },
+    {
+      "id": "d7",
+      "url": "https://www.fourseasons.com/newyorkdowntown/getting-here/",
+      "tier": "official",
+      "chars": 4307
+    },
+    {
+      "id": "d8",
+      "url": "https://www.fourseasons.com/newyorkdowntown/contact-us/",
+      "tier": "official",
+      "chars": 1639
+    },
+    {
+      "id": "d9",
+      "url": "https://www.fourseasons.com/newyorkdowntown/photos-and-videos/",
+      "tier": "official",
+      "chars": 3681
+    },
+    {
+      "id": "d10",
+      "url": "https://www.fourseasons.com/newyorkdowntown/discover/",
+      "tier": "official",
+      "chars": 1220
+    },
+    {
+      "id": "d11",
+      "url": "https://www.cntraveler.com/hotels/new-york/four-seasons-hotel-new-york-downtown",
+      "tier": "editorial",
+      "chars": 8818
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel opened in 2016.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d11",
+          "quote": "anticipation for the opening of this “little sister” back in 2016",
+          "note": "opened 2016",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york/four-seasons-hotel-new-york-downtown",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is at 27 Barclay Street.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "27 Barclay Street, New York, New York, 10007, USA",
+          "note": "address",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/newyorkdowntown/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel occupies 24 stories of an 82-storey building.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "occupies the first 24 floors of the iconic, 82-storey tower",
+          "note": "24 floors of 82-storey tower",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/newyorkdowntown/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "24 of a 82-storey building",
+          "note": "stories",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/newyorkdowntown/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The building was designed by architect Robert A.M. Stern.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "82-storey tower designed by Robert A.M. Stern",
+          "note": "architect",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/newyorkdowntown/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The hotel interiors are by Yabu Pushelberg.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d11",
+          "quote": "features interiors by noted design firm Yabu Pushelberg",
+          "note": "interiors",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york/four-seasons-hotel-new-york-downtown",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The hotel is located next to the Woolworth Building.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "located next to the famed Woolworth Building",
+          "note": "next to Woolworth",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/newyorkdowntown/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "CUT by Wolfgang Puck is located just off the hotel lobby.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "CUT is located just off our hotel lobby",
+          "note": "location",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/newyorkdowntown/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "In-room dining is available 24/7.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Available 24/7",
+          "note": "in-room dining 24/7",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/newyorkdowntown/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "24-hour in-room dining",
+          "note": "24-hour",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/newyorkdowntown/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The spa has 7 treatment rooms, including a Couple's Suite.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "7, including a Couple’s Suite",
+          "note": "treatment rooms",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/newyorkdowntown/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "seven-room Spa",
+          "note": "seven rooms",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/newyorkdowntown/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel has a 75 ft indoor lap pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "75 ft. / 23 m. indoor 3-lane lap pool with depth of 4 ft. / 1.2 m.",
+          "note": "indoor 75 ft lap pool",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/newyorkdowntown/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "CUT is the first Manhattan establishment from chef Wolfgang Puck.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The first Manhattan establishment from celebrated chef Wolfgang Puck",
+          "note": "first Manhattan",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/newyorkdowntown/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The 75-foot lap pool is flooded with natural light.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "75-foot (22.86-metre) lap pool, flooded with natural light",
+          "note": "natural light",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/newyorkdowntown/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The spa offers more than 30 treatments.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "offers more than 30 treatments",
+          "note": "30+ treatments",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/newyorkdowntown/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Three suites have their own private terrace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "with 3 suites that have their very own terrace",
+          "note": "3 terrace suites",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/newyorkdowntown/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Guests can borrow Biria bikes during their stay.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Borrow one of our Biria Bikes during your stay with us.",
+          "note": "Biria bikes",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/newyorkdowntown/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The pool is open 6:00 am to 9:00 pm.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Pool6:00 am – 9:00 pm",
+          "note": "pool hours",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/newyorkdowntown/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Hotel parking is USD 115 for a 24 hour period for regular vehicles.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Hotel parking is priced at USD 115 for regular vehicles",
+          "note": "parking",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/newyorkdowntown/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "for a 24 hour period with no in-and-out privileges",
+          "note": "24 hour period",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/newyorkdowntown/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing reflects the luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, breakfast for two is free daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers can be combined with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
