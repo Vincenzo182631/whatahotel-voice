@@ -17,8 +17,9 @@
  *   --by=name         search by hotel name first (default: hotel ID first, then the name if the ID finds nothing)
  *   --hotels=URL      hotel list page (default https://www.whatahotel.com/admin/cms/hotels.cfm)
  *
- * Login: set WAH_ADMIN_EMAIL and WAH_ADMIN_PASS in your terminal, or type them when asked
- * (the password is not echoed). Results go to add-snippets-log.csv, screenshots to add-snippets-shots/.
+ * Login: by default a browser window opens on the admin login page and the script waits while YOU
+ * type your email and password into that page (nothing is typed in the terminal; the script never sees
+ * them). Or set WAH_ADMIN_EMAIL and WAH_ADMIN_PASS in your terminal to log in automatically. Results go to add-snippets-log.csv, screenshots to add-snippets-shots/.
  */
 import { chromium } from "playwright";
 import { appendFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
@@ -68,18 +69,24 @@ function ask(q, hidden = false) {
 }
 const log = (h, result, note = "") => appendFileSync(LOG, `${h.id},"${h.name}",${result},"${note.replace(/"/g, "'")}"\n`);
 
-const email = process.env.WAH_ADMIN_EMAIL || (await ask("Admin email: "));
-const pass = process.env.WAH_ADMIN_PASS || (await ask("Admin password: ", true));
+const email = process.env.WAH_ADMIN_EMAIL, pass = process.env.WAH_ADMIN_PASS;
+const manualLogin = !(email && pass);
 
 const browser = await chromium.launch({ headless: flag("headless") });
 const page = await (await browser.newContext({ viewport: { width: 1400, height: 1000 } })).newPage();
 page.setDefaultTimeout(20000);
 
 await page.goto(ADMIN);
-await page.fill('input[name="userEmail"]', email);
-await page.fill('input[name="userPass"]', pass);
-await Promise.all([page.waitForLoadState("load"), page.click('input[type="submit"][value^="LOG IN"]')]);
-if ((await page.locator('input[name="userPass"]').count()) || /invalid|incorrect|not found/i.test(await page.locator("body").innerText())) { console.error("Login failed. Check the email and password."); await browser.close(); process.exit(1); }
+if (manualLogin) {
+  console.log("A browser window is open on the admin login page. Log in there; the script continues by itself (waiting up to 10 minutes).");
+  await page.locator('input[name="userPass"]').waitFor({ state: "detached", timeout: 600000 }).catch(() => {});
+  await page.waitForLoadState("load");
+} else {
+  await page.fill('input[name="userEmail"]', email);
+  await page.fill('input[name="userPass"]', pass);
+  await Promise.all([page.waitForLoadState("load"), page.click('input[type="submit"][value^="LOG IN"]')]);
+}
+if ((await page.locator('input[name="userPass"]').count()) || /invalid|incorrect|not found/i.test(await page.locator("body").innerText())) { console.error("Login failed or timed out. Run it again and log in."); await browser.close(); process.exit(1); }
 console.log("Logged in.");
 
 async function openHotel(h) {
