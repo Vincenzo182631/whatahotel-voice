@@ -29,12 +29,35 @@ export const PERKS_SIGNATURE =
 export const PERKS_SIGNATURE_CLAIMS = ["p-1", "p-5", "p-2", "p-3"] as const;
 export const PERKS_SIGNATURE_WORDS = PERKS_SIGNATURE.split(/\s+/).length;
 
+/**
+ * Rewordings of the same perks, each exactly PERKS_SIGNATURE_WORDS long, so clips for different
+ * hotels do not all end on identical audio. Four Seasons clips keep the original line.
+ */
+export const PERKS_SIGNATURE_VARIANTS = [
+  PERKS_SIGNATURE,
+  "Book the WhataHotel Preferred Rate and enjoy free breakfast for two daily, free Wi-Fi, a priority upgrade when available at check-in, a $100 hotel credit, plus other perks.",
+  "The WhataHotel Preferred Rate brings free daily breakfast for two, free Wi-Fi, a priority upgrade if available at check-in, a $100 hotel credit, and other perks as well.",
+  "Reserve the WhataHotel Preferred Rate to get free daily breakfast for two, free Wi-Fi, a priority upgrade if available at check-in, a $100 hotel credit, among other perks.",
+  "Choose the WhataHotel Preferred Rate for free breakfast for two daily, free Wi-Fi, a priority upgrade if available at check-in, a $100 hotel credit, and other perks besides.",
+  "Under the WhataHotel Preferred Rate, enjoy free breakfast for two every day, free Wi-Fi, a priority upgrade if available at check-in, a $100 hotel credit, among other perks.",
+  "With the WhataHotel Preferred Rate comes free breakfast for two each day, free Wi-Fi, a priority upgrade if available at check-in, a $100 hotel credit, and other perks.",
+  "Booking the WhataHotel Preferred Rate means free breakfast for two every day, free Wi-Fi, a priority upgrade if available at check-in, a $100 hotel credit, among other perks.",
+];
+
+/** The signature line for a hotel: the original for Four Seasons, otherwise a stable pick by hotel name. */
+export function signatureFor(profile: HotelProfile): string {
+  if (/four seasons/i.test(profile.name)) return PERKS_SIGNATURE;
+  let h = 0;
+  for (const ch of profile.name) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
+  return PERKS_SIGNATURE_VARIANTS[h % PERKS_SIGNATURE_VARIANTS.length]!;
+}
+
 /** Appends the signature turn (replacing any perk turns already present, so it is idempotent). */
 export function withSignature(script: Script, profile: HotelProfile): Script {
   const perkIds = new Set(profile.perks.map((c) => c.id));
   if (!PERKS_SIGNATURE_CLAIMS.every((id) => perkIds.has(id))) return script;
   const turns = script.turns.filter((t) => !t.claim_ids.some((id) => perkIds.has(id)));
-  turns.push({ speaker: "advisor", section: "bottom_line", text: PERKS_SIGNATURE, claim_ids: [...PERKS_SIGNATURE_CLAIMS] });
+  turns.push({ speaker: "advisor", section: "bottom_line", text: signatureFor(profile), claim_ids: [...PERKS_SIGNATURE_CLAIMS] });
   return { ...script, turns };
 }
 
@@ -106,7 +129,7 @@ export function checkScript(script: Script, profile: HotelProfile, today: Date =
 
   if (PERKS_SIGNATURE_CLAIMS.every((id) => profile.perks.some((c) => c.id === id))) {
     const last = script.turns[script.turns.length - 1];
-    if (last?.text !== PERKS_SIGNATURE || last.speaker !== "advisor" || last.section !== "bottom_line") {
+    if (last?.text !== signatureFor(profile) || last.speaker !== "advisor" || last.section !== "bottom_line") {
       issues.push("the last turn must be the WhataHotel signature line, spoken by the Luxury Advisor, word for word");
     }
     const perkIds = new Set(profile.perks.map((c) => c.id));

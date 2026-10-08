@@ -33,6 +33,7 @@ const MAX_SUBPAGES = 8;
 export function tierOf(url: string): EvidenceTier {
   const host = new URL(url).hostname;
   if (host === "fourseasons.com" || host.endsWith(".fourseasons.com")) return "official";
+  if (host === "mandarinoriental.com" || host.endsWith(".mandarinoriental.com")) return "official";
   if (host === "cntraveler.com" || host.endsWith(".cntraveler.com")) return "editorial";
   return "press";
 }
@@ -113,7 +114,7 @@ async function withRetry<T>(fn: () => Promise<T>): Promise<T> {
 const cacheFile = (url: string) => path.join(CACHE_DIR, `${createHash("sha1").update(url).digest("hex")}.json`);
 
 /** The Four Seasons press room and Condé Nast Traveler answer plain requests; fourseasons.com itself blocks them. */
-const DIRECT_HOSTS = /^https?:\/\/(press\.fourseasons\.com|(www\.)?cntraveler\.com)\//;
+const DIRECT_HOSTS = /^https?:\/\/(press\.fourseasons\.com|(www\.)?cntraveler\.com|(www\.)?mandarinoriental\.com)\//;
 const BROWSER_UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36";
 const NOT_A_PAGE = /we'?re sorry if we led you astray|page not found|404/i;
 
@@ -199,7 +200,12 @@ export async function gatherEvidence(profile: HotelProfile, fc: FirecrawlClient,
   cited.forEach((u) => urls.add(u));
 
   let codes = propertyCodes(cited);
-  if (!codes.length) {
+  const moBases = new Set<string>();
+  for (const u of cited) {
+    const m = /^https?:\/\/(?:www\.)?mandarinoriental\.com\/(?:[a-z]{2}\/)?([a-z0-9-]+)\/([a-z0-9-]+)/i.exec(u);
+    if (m) moBases.add(`https://www.mandarinoriental.com/en/${m[1]}/${m[2]}`.toLowerCase());
+  }
+  if (!codes.length && !moBases.size && /four seasons/i.test(profile.name)) {
     try {
       const hits = await withRetry(() => fc.search(`"${profile.name}" site:fourseasons.com`, 5));
       codes = propertyCodes(hits.map((h) => h.url)).slice(0, 1);
@@ -227,6 +233,21 @@ export async function gatherEvidence(profile: HotelProfile, fc: FirecrawlClient,
     urls.add(`https://press.fourseasons.com/${code}/hotel-facts/`);
     const md = await load(home);
     if (md) subpageLinks(md, code).forEach((u) => urls.add(u));
+  }
+
+  for (const base of [...moBases].slice(0, 2)) {
+    urls.add(`${base}/`);
+    const md = await load(`${base}/`);
+    if (md) {
+      const path = new URL(base).pathname;
+      const found = new Set<string>();
+      for (const m of md.matchAll(new RegExp(`\\((?:https://www\\.mandarinoriental\\.com)?(${path}/[^)\\s#?]+)`, "gi"))) {
+        const p = m[1]!.replace(/\/+$/, "");
+        if (!PAGE_SKIP.test(p)) found.add(`https://www.mandarinoriental.com${p}/`);
+      }
+      const score = (u: string) => { const i = PAGE_KEYWORDS.findIndex((k) => u.includes(k)); return i === -1 ? PAGE_KEYWORDS.length : i; };
+      [...found].sort((a, b) => score(a) - score(b)).slice(0, MAX_SUBPAGES).forEach((u) => urls.add(u));
+    }
   }
 
   try {
