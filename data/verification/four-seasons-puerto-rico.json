@@ -1,0 +1,382 @@
+{
+  "hotel_slug": "four-seasons-puerto-rico",
+  "hotel_name": "Four Seasons Resort and Residences Puerto Rico",
+  "checked_at": "2026-10-08T03:07:02.882Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 15,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 6,
+      "total": 21
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.fourseasons.com/puertorico/",
+      "tier": "official",
+      "chars": 17473
+    },
+    {
+      "id": "d2",
+      "url": "https://press.fourseasons.com/puertorico/hotel-facts/",
+      "tier": "official",
+      "chars": 4058
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/puertorico/dining/",
+      "tier": "official",
+      "chars": 6860
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/puertorico/spa/",
+      "tier": "official",
+      "chars": 3025
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/puertorico/getting-here/",
+      "tier": "official",
+      "chars": 2049
+    },
+    {
+      "id": "d6",
+      "url": "https://www.fourseasons.com/puertorico/contact-us/",
+      "tier": "official",
+      "chars": 1272
+    },
+    {
+      "id": "d7",
+      "url": "https://www.fourseasons.com/puertorico/discover/",
+      "tier": "official",
+      "chars": 3893
+    },
+    {
+      "id": "d8",
+      "url": "https://www.cntraveler.com/hotels/rio-grande/four-seasons-resort-and-residences-puerto-rico",
+      "tier": "editorial",
+      "chars": 9338
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The resort opened in November 2025.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "November 2025",
+          "note": "Opening date",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/puertorico/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The resort is on Puerto Rico's northeastern coast within the exclusive Bahía Beach community.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Puerto Rico’s northeastern coast within the exclusive Bahía Beach community",
+          "note": "Location line",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/puertorico/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The resort stretches along two miles (3.2 kilometres) of golden beach.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Stretching along two miles (3.2 kilometres) of golden beach",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/puertorico/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Perla is an elevated supper club serving premium seafood and cuts.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Discover Perla, an elevated supper club inspired by one of nature's most precious treasures. Exceptional cuisine, premium seafood and cuts",
+          "note": "Perla description",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/puertorico/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Ocean Terrace is an oceanfront Mediterranean restaurant serving breakfast, lunch and dinner.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Experience the beauty of Mediterranean coastal living at Ocean Terrace, an oceanfront restaurant serving breakfast, lunch and dinner.",
+          "note": "Ocean Terrace",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/puertorico/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The spa has 10 treatment rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "10",
+          "note": "Number of Treatment Rooms: 10 (value on next line)",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/puertorico/hotel-facts/",
+          "tier": "official",
+          "quote_verified": false
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "A tropical pathway leads to 10 secluded treatment rooms",
+          "note": "Spa page",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/puertorico/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Bahia Beach Golf Club has 18 holes and was designed by Robert Trent Jones Jr.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Enjoy an 18-hole round at the Bahía Beach Golf Club on the lush oceanside course designed by Robert Trent Jones Jr.",
+          "note": "18 holes and designer",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/puertorico/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Over 65% of the property's 483 acres are considered sanctuary areas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Of the property’s 483 acres (195 hectares), over 65% are considered sanctuary areas",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/puertorico/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The resort is designated as a Certified Silver Audubon International Signature Sanctuary.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "designated as a Certified Silver Audubon International Signature Sanctuary",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/puertorico/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Kids For All Seasons is a complimentary, fully supervised program for children.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "complimentary, fully supervised program for children",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/puertorico/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The resort offers a fully guided night kayak trip to the bioluminescent lagoon Laguna Grande.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Discover one of the world’s most breathtaking natural phenomena in a fully guided night trip to Laguna Grande.",
+          "note": "Guided night trip to Laguna Grande",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/puertorico/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "KAYAK AT NIGHT ON A BIOLUMINESCENT LAGOON",
+          "note": "Kayak at bioluminescent lagoon",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/puertorico/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Governor Oceanfront Suite includes a private oceanfront beach cabana.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Available with a second bedroom and including a private oceanfront beach cabana.",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/puertorico/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Spa facilities are open from 9:30 am to 5:00 pm.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Spa Facilities9:30 am – 5:00 pm",
+          "note": "Hours",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/puertorico/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Old San Juan is about 27 miles (43 kilometres) from the resort.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "about 27 miles (43 kilometres) from Four Seasons Resort and Residences Puerto Rico",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/puertorico/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "The resort is in Río Grande, just 30 minutes from San Juan.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "in Río Grande – just 30 minutes from San Juan – at Four Seasons Resort and Residences Puerto Rico",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/puertorico/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-4",
+      "text": "WhataHotel notes hurricane season considerations during summer and fall.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, breakfast for two is free daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers can be combined with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
