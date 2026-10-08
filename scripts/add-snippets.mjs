@@ -126,12 +126,33 @@ async function addSnippet(h) {
   if (/Audio Highlight/i.test(contentPart.split("ADD HOTEL CONTENT")[0] ?? contentPart)) return { result: "exists", note: "already has an Audio Highlight entry; skipped" };
 
   await Promise.all([page.waitForLoadState("load"), page.getByRole("link", { name: /add hotel content/i }).or(page.getByRole("button", { name: /add hotel content/i })).first().click()]);
-  await page.getByLabel("Title", { exact: false }).first().fill("Audio Highlight");
-  await page.getByLabel("Category", { exact: false }).first().selectOption({ label: "Content" });
-  await page.getByLabel("Type", { exact: false }).first().selectOption({ label: "Audio Highlight" });
-  await page.getByLabel("Format", { exact: false }).first().selectOption({ label: "HTML" });
-  await page.getByLabel("Language", { exact: false }).first().selectOption({ label: "English" });
-  await page.locator("textarea").first().fill(h.snippet);
+  // the form may sit in the page, a modal, or an iframe: wait for its textarea in any frame
+  let ctx = null;
+  for (let i = 0; i < 40 && !ctx; i++) {
+    for (const f of page.frames()) if (await f.locator("textarea").count().catch(() => 0)) { ctx = f; break; }
+    if (!ctx) await page.waitForTimeout(500);
+  }
+  if (!ctx) throw new Error("could not find the content form (no textarea) after clicking Add Hotel Content");
+  const near = (label, tag) => ctx.locator(`xpath=(//*[self::label or self::td or self::th or self::div or self::span or self::p or self::b or self::strong][normalize-space(translate(., ':*', ''))='${label}']/following::${tag}[1])`).first();
+  const field = async (label, tag, idx) => {
+    for (const loc of [ctx.getByLabel(label, { exact: false }).first(), near(label, tag), ctx.locator(tag === "input" ? 'input[type="text"], input:not([type])' : "select").nth(idx)]) {
+      if (await loc.count().catch(() => 0)) return loc;
+    }
+    throw new Error(`form field "${label}" not found`);
+  };
+  const pick = async (label, idx, want) => {
+    const sel = await field(label, "select", idx);
+    const opts = await sel.locator("option").allInnerTexts();
+    const hit = opts.find((o) => o.trim().toLowerCase() === want.toLowerCase()) ?? opts.find((o) => o.toLowerCase().includes(want.toLowerCase()));
+    if (!hit) throw new Error(`"${want}" not in ${label} options: ${opts.map((o) => o.trim()).join(" | ")}`);
+    await sel.selectOption({ label: hit });
+  };
+  await (await field("Title", "input", 0)).fill("Audio Highlight");
+  await pick("Category", 0, "Content");
+  await pick("Type", 1, "Audio Highlight");
+  await pick("Format", 2, "HTML");
+  await pick("Language", 3, "English");
+  await ctx.locator("textarea").first().fill(h.snippet);
   const shot = `${SHOTS}/${h.id}-form.png`;
   await page.screenshot({ path: shot, fullPage: true });
   if (!flag("yes")) {
@@ -139,7 +160,7 @@ async function addSnippet(h) {
     const a = await ask("Press ENTER to click \"Create content\" (or type n to skip): ");
     if (a.trim().toLowerCase() === "n") return { result: "skipped", note: "you skipped it" };
   }
-  await Promise.all([page.waitForLoadState("load"), page.getByRole("button", { name: /create content/i }).or(page.locator('input[type="submit"][value*="reate" i]')).first().click()]);
+  await Promise.all([page.waitForLoadState("load"), (ctx.getByRole("button", { name: /create content/i }).or(ctx.locator('input[type="submit"][value*="reate" i]'))).first().click()]);
   await page.screenshot({ path: `${SHOTS}/${h.id}-after.png`, fullPage: true });
   // verify: the hotel's Hotel Content table now lists an Audio Highlight
   const after = await page.locator("body").innerText();
@@ -156,6 +177,7 @@ for (const h of hotels) {
     log(h, "error", e.message);
     console.error(`${h.id} ${h.name}: error: ${e.message}`);
     await page.screenshot({ path: `${SHOTS}/${h.id}-error.png`, fullPage: true }).catch(() => {});
+    for (const [i, f] of page.frames().entries()) writeFileSync(`${SHOTS}/${h.id}-error-frame${i}.html`, await f.content().catch(() => "")); 
   }
 }
 await browser.close();
