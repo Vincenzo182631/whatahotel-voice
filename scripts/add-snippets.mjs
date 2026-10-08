@@ -67,6 +67,7 @@ function ask(q, hidden = false) {
     rl.question("", (a) => { rl.close(); if (hidden) process.stdout.write("\n"); res(a); });
   });
 }
+process.on("unhandledRejection", (e) => console.error("Unexpected error:", e?.message ?? e));
 const log = (h, result, note = "") => appendFileSync(LOG, `${h.id},"${h.name}",${result},"${note.replace(/"/g, "'")}"\n`);
 
 const email = process.env.WAH_ADMIN_EMAIL, pass = process.env.WAH_ADMIN_PASS;
@@ -178,8 +179,10 @@ for (const h of hotels) {
     log(h, "error", e.message);
     console.error(`${h.id} ${h.name}: error: ${e.message}`);
     await page.screenshot({ path: `${SHOTS}/${h.id}-error.png`, fullPage: true }).catch(() => {});
-    for (const [i, f] of page.frames().entries()) writeFileSync(`${SHOTS}/${h.id}-error-frame${i}.html`, await f.content().catch(() => "")); 
+    for (const [i, f] of page.frames().entries()) writeFileSync(`${SHOTS}/${h.id}-error-frame${i}.html`, await f.content().catch(() => ""));
+    if (!flag("yes") && !flag("headless")) await ask("\nSomething went wrong (message above). The browser is still open so you can look. Press ENTER to continue: ");
   }
 }
+if (!flag("yes") && !flag("headless")) await ask("\nAll done. Check the browser, then press ENTER to close it: ");
 await browser.close();
 console.log(`Done. Log: ${LOG}`);
