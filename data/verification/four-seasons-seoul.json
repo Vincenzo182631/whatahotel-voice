@@ -1,0 +1,452 @@
+{
+  "hotel_slug": "four-seasons-seoul",
+  "hotel_name": "Four Seasons Hotel Seoul",
+  "checked_at": "2026-10-08T04:54:06.519Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 5,
+      "total": 24
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.fourseasons.com/seoul/",
+      "tier": "official",
+      "chars": 11176
+    },
+    {
+      "id": "d2",
+      "url": "https://press.fourseasons.com/seoul/hotel-facts/",
+      "tier": "official",
+      "chars": 6903
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/seoul/dining/",
+      "tier": "official",
+      "chars": 13641
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/seoul/services-and-amenities/",
+      "tier": "official",
+      "chars": 6569
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/seoul/getting-here/",
+      "tier": "official",
+      "chars": 5152
+    },
+    {
+      "id": "d6",
+      "url": "https://www.cntraveler.com/hotels/seoul/four-seasons-hotel-seoul",
+      "tier": "editorial",
+      "chars": 8940
+    },
+    {
+      "id": "d7",
+      "url": "https://www.fourseasons.com/seoul/spa/",
+      "tier": "official",
+      "chars": 3338
+    },
+    {
+      "id": "d8",
+      "url": "https://www.fourseasons.com/seoul/accommodations/",
+      "tier": "official",
+      "chars": 6566
+    },
+    {
+      "id": "d9",
+      "url": "https://www.fourseasons.com/seoul/contact-us/",
+      "tier": "official",
+      "chars": 1651
+    },
+    {
+      "id": "d10",
+      "url": "https://www.fourseasons.com/seoul/photos-and-videos/",
+      "tier": "official",
+      "chars": 2893
+    },
+    {
+      "id": "d11",
+      "url": "https://www.fourseasons.com/seoul/discover/",
+      "tier": "official",
+      "chars": 2899
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel opened in 2015.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Opened a decade ago in 2015",
+          "note": "Opening year stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/seoul/four-seasons-hotel-seoul",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel has 317 accommodations in total.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "Nestled in the heart of Seoul, our 317 luxury five-star accommodations, including 285 guest rooms and 32 specialized suites",
+          "note": "317 accommodations",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/seoul/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel has 32 suites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "Nestled in the heart of Seoul, our 317 luxury five-star accommodations, including 285 guest rooms and 32 specialized suites",
+          "note": "32 suites",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/seoul/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel is at 97 Saemunan-ro, Jongno-gu, Seoul.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "97 Saemunan-ro, Jongno-gu, Seoul, 03183, Korea",
+          "note": "Address matches",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/seoul/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The hotel is located in Gwanghwamun, steps from historic sites and neighbourhoods.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "In Gwanghwamun, steps from historic sites and neighbourhoods yet ideally located in the central business district",
+          "note": "Location statement",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/seoul/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Gwanghwamun Station is a three-minute walk from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "disembark at Gwanghwamun Station. Our Hotel is just a three-minute walk away.",
+          "note": "Three-minute walk from station",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/seoul/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "More than 160 contemporary artworks are on display throughout the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "More than 160 contemporary artworks on display throughout",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/seoul/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Yu Yuan is the hotel's Michelin-starred Cantonese restaurant.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Yu Yuan, our Michelin-starred Cantonese restaurant",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/seoul/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Boccalino is the hotel's Italian restaurant.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Boccalino, our Italian restaurant in Seoul",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/seoul/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The gym is open 24 hours a day.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Our expansive gym provides everything you need to stay on top of your fitness routine, 24 hours a day.",
+          "note": "Gym 24 hours",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/seoul/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The hotel is Four Seasons' first location in South Korea.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "this is South Korea’s first location for the storied Canadian hospitality brand",
+          "note": "First in South Korea",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/seoul/four-seasons-hotel-seoul",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "brings the Four Seasons experience to South Korea for the first time",
+          "note": "Same",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/seoul/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Palace-View Executive Suite has an unobstructed, floor-to-ceiling panorama of Gyeongbokgung Palace from every room, including the bathroom.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "With unparalleled views, this suite provides an unobstructed, floor-to-ceiling panorama of Gyeongbokgung Palace from every room, including the bathroom.",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/seoul/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Charles H. is a cocktail bar on the hotel's lower level.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "this hidden cocktail bar in Seoul tucked away on our lower level",
+          "note": "Cocktail bar on lower level",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/seoul/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "H. Bar is an eight-seat enclave offering a course-style cocktail experience.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "H. Bar is Korea’s first hotel bar to present a course-style cocktail experience – an intimate, eight-seat enclave",
+          "note": "Eight-seat, course-style",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/seoul/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Akira Back serves Japanese cuisine with a Korean twist.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "this creative dining destination offers Japanese cuisine with a Korean twist",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/seoul/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Korean sauna features cold, warm and hot baths as well as wet and dry sauna rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "our Korean sauna features cold, warm and hot baths as well as wet and dry sauna rooms",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/seoul/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "A fee applies for valet parking, excluding guests staying in suites or with promotional room packages that include complimentary valet parking services.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Fee applies (excluding guests staying in suites or with promotional room packages that include complimentary valet parking services)",
+          "note": "Footnote to Valet Parking",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/seoul/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Incheon International Airport is approximately 1 hour and 20 minutes from the hotel by car.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Travel timeApproximately 1 hour and 20 minutes by car",
+          "note": "Listed under Incheon International Airport",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/seoul/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "The Kids for All Seasons Lounge is a paid program that operates on a reservation-only basis.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "This paid program operates on a reservation-only basis",
+          "note": "Kids for All Seasons Lounge",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/seoul/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, breakfast for two is free daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers can be combined with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
