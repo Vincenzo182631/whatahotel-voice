@@ -5,7 +5,7 @@
  */
 
 export const TITLE = "Hear Hotel Highlights";
-export const SUBTITLE = "AI-generated highlights";
+export const SUBTITLE = "WhataHotel! generated highlights";
 
 const ESC: Record<string, string> = { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" };
 export const esc = (s: string): string => s.replace(/[&<>"']/g, (c) => ESC[c]!);
@@ -71,7 +71,7 @@ export function audioObjectJsonLd(t: TranscriptData, audioUrl: string, durationS
     "@context": "https://schema.org",
     "@type": "AudioObject",
     name: t.title || (hotel ? `${hotel}: Hotel Highlights` : TITLE),
-    description: hotel ? `AI-generated spoken highlights of ${hotel}, a conversation between a luxury advisor and a candid traveler.` : SUBTITLE,
+    description: hotel ? `WhataHotel! generated spoken highlights of ${hotel}, a conversation between a luxury advisor and a candid traveler.` : SUBTITLE,
     contentUrl: audioUrl,
     encodingFormat: "audio/mpeg",
     inLanguage: "en",
