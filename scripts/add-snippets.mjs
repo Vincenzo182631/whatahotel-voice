@@ -133,9 +133,10 @@ async function addSnippet(h) {
     if (!ctx) await page.waitForTimeout(500);
   }
   if (!ctx) throw new Error("could not find the content form (no textarea) after clicking Add Hotel Content");
-  const near = (label, tag) => ctx.locator(`xpath=(//*[self::label or self::td or self::th or self::div or self::span or self::p or self::b or self::strong][normalize-space(translate(., ':*', ''))='${label}']/following::${tag}[1])`).first();
+  const near = (label, tag) => ctx.locator(`xpath=(//*[self::label or self::td or self::th or self::div or self::span or self::p or self::b or self::strong][normalize-space(translate(., ':*', ''))='${label}']/following::${tag === "input" ? "input[not(@type) or @type='text']" : tag}[1])`).first();
   const field = async (label, tag, idx) => {
-    for (const loc of [ctx.getByLabel(label, { exact: false }).first(), near(label, tag), ctx.locator(tag === "input" ? 'input[type="text"], input:not([type])' : "select").nth(idx)]) {
+    const byName = ctx.locator(tag === "input" ? `input[name*="${label}" i]:not([type=number]):not([type=hidden])` : `select[name*="${label}" i]`).first();
+    for (const loc of [ctx.getByLabel(label, { exact: false }).first(), byName, near(label, tag), ctx.locator(tag === "input" ? 'input[type="text"], input:not([type])' : "select").nth(idx)]) {
       if (await loc.count().catch(() => 0)) return loc;
     }
     throw new Error(`form field "${label}" not found`);
