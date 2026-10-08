@@ -1,0 +1,420 @@
+{
+  "hotel_slug": "four-seasons-shenzhen",
+  "hotel_name": "Four Seasons Hotel Shenzhen",
+  "checked_at": "2026-10-08T02:56:34.563Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 15,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 6,
+      "total": 21
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://press.fourseasons.com/shenzhen/hotel-facts/",
+      "tier": "official",
+      "chars": 5573
+    },
+    {
+      "id": "d2",
+      "url": "https://www.fourseasons.com/shenzhen/",
+      "tier": "official",
+      "chars": 10734
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/shenzhen/dining/",
+      "tier": "official",
+      "chars": 6332
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/shenzhen/services-and-amenities/",
+      "tier": "official",
+      "chars": 2764
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/shenzhen/getting-here/",
+      "tier": "official",
+      "chars": 4686
+    },
+    {
+      "id": "d6",
+      "url": "https://www.fourseasons.com/shenzhen/spa/",
+      "tier": "official",
+      "chars": 2818
+    },
+    {
+      "id": "d7",
+      "url": "https://www.fourseasons.com/shenzhen/accommodations/",
+      "tier": "official",
+      "chars": 6172
+    },
+    {
+      "id": "d8",
+      "url": "https://www.fourseasons.com/shenzhen/contact-us/",
+      "tier": "official",
+      "chars": 1528
+    },
+    {
+      "id": "d9",
+      "url": "https://www.fourseasons.com/shenzhen/photos-and-videos/",
+      "tier": "official",
+      "chars": 2504
+    },
+    {
+      "id": "d10",
+      "url": "https://www.fourseasons.com/shenzhen/discover/",
+      "tier": "official",
+      "chars": 1381
+    },
+    {
+      "id": "d11",
+      "url": "https://www.cntraveler.com/hotels/shenzhen/four-seasons-hotel-shenzhen",
+      "tier": "editorial",
+      "chars": 6372
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel opened in September 2013.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "September 2013",
+          "note": "Opening date listed as September 2013",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/shenzhen/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel is located in the 26-story tower of a multi-use complex.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Hotel is located in the 26-story tower of a multi-use complex",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/shenzhen/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The address is 138 Fuhua Third Road, Futian District, Shenzhen.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "138 Fuhua Third Road, Futian District, Shenzhen, 518048, China",
+          "note": "Address matches",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/shenzhen/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Zhuo Yue Xuan offers classic Cantonese cuisine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Zhuo Yue Xuan is an acclaimed Chinese restaurant in Shenzhen offering classic Cantonese cuisine, handcrafted dim sum and 10 private dining rooms for special events.",
+          "note": "Classic Cantonese cuisine",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/shenzhen/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Matsuyi is the hotel's Japanese restaurant.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "contemporary Japanese cuisine at Matsuyi",
+          "note": "Matsuyi is Japanese",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/shenzhen/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Japanese",
+          "note": "Matsuyi cuisine: Japanese",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/shenzhen/hotel-facts/",
+          "tier": "official",
+          "quote_verified": false
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel has two pools.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Number of Pools:",
+          "note": "Label for pool count; value 2 on next line",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/shenzhen/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d11",
+          "quote": "two pools",
+          "note": "Editorial states two pools",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/shenzhen/four-seasons-hotel-shenzhen",
+          "tier": "editorial",
+          "quote_verified": false
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The fitness centre is open 24 hours.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "24-hour fitness centre",
+          "note": "Fitness centre 24-hour",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/shenzhen/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Fitness Centre24 hours",
+          "note": "Hours list 24 hours",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/shenzhen/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Zhuo Yue Xuan has 10 private dining rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Zhuo Yue Xuan is an acclaimed Chinese restaurant in Shenzhen offering classic Cantonese cuisine, handcrafted dim sum and 10 private dining rooms for special events.",
+          "note": "10 private dining rooms",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/shenzhen/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "80, plus 10 private dining rooms seating 10-14 each (total: 190)",
+          "note": "Consistent",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/shenzhen/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Club Grand Room offers sweeping 180° views of Shenzhen's skyline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "the Club Grand Room offers sweeping 180° views of Shenzhen’s skyline",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/shenzhen/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Matsuyi has a six-seat sushi and sashimi counter.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The restaurant features a main dining hall; 10-seat teppanyaki counter; and six-seat sushi and sashimi counter, where our chefs prepare each course right in front of you.",
+          "note": "Six-seat sushi and sashimi counter at Matsuyi",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/shenzhen/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "FOO is a buffet restaurant.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "At this buffet restaurant",
+          "note": "FOO described as buffet restaurant",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/shenzhen/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Hong Kong is a 15-minute high-speed rail journey from Futian station to West Kowloon station.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The Guangzhou-Shenzhen-Hong Kong high-speed rail makes Hong Kong just a 15-minute journey from Futian station to West Kowloon station.",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/shenzhen/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "A China visa is required when coming from Hong Kong unless your passport is from an exempt country.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "A China visa is required when coming from Hong Kong unless your passport is from an exempt country.",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/shenzhen/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The Executive Club Lounge is complimentary for select suite bookings, with paid access available for other guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Open daily, this space is complimentary for select suite bookings, with paid access available for other guests.",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/shenzhen/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "The hotel is in the heart of the commercial district of Futian.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "In the heart of the commercial district of Futian, across the Shenzhen Conference & Exhibition Center",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/shenzhen/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-4",
+      "text": "WhataHotel notes premium pricing reflects the luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, breakfast for two is free daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers can be combined with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
