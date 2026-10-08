@@ -1,0 +1,410 @@
+{
+  "hotel_slug": "four-seasons-dalian",
+  "hotel_name": "Four Seasons Hotel Dalian",
+  "checked_at": "2026-10-08T03:05:26.656Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 16,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 7,
+      "total": 23
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://press.fourseasons.com/dalian/hotel-facts/",
+      "tier": "official",
+      "chars": 7473
+    },
+    {
+      "id": "d2",
+      "url": "https://www.fourseasons.com/dalian/",
+      "tier": "official",
+      "chars": 9531
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/dalian/dining/",
+      "tier": "official",
+      "chars": 6476
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/dalian/services-and-amenities/",
+      "tier": "official",
+      "chars": 2912
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/dalian/getting-here/",
+      "tier": "official",
+      "chars": 1003
+    },
+    {
+      "id": "d6",
+      "url": "https://www.fourseasons.com/dalian/spa/",
+      "tier": "official",
+      "chars": 6164
+    },
+    {
+      "id": "d7",
+      "url": "https://www.fourseasons.com/dalian/contact-us/",
+      "tier": "official",
+      "chars": 1250
+    },
+    {
+      "id": "d8",
+      "url": "https://www.fourseasons.com/dalian/discover/",
+      "tier": "official",
+      "chars": 1630
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel has 204 guest rooms and 50 suites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "our 204 guest rooms and 50 suites and offer a combination of magnificent skyline and stunning ocean vistas",
+          "note": "204 guest rooms and 50 suites stated",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/dalian/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel is at 45 Zhuyu Street, Zhongshan District, Dalian.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "45 Zhuyu Street, Zhongshan District, Dalian, Liaoning",
+          "note": "address matches",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/dalian/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel is located at the heart of the Donggang CBD.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located in the picturesque coastal city of Dalian, at the heart of the Donggang CBD in Northern China",
+          "note": "heart of Donggang CBD",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/dalian/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The hotel is a 30-minute drive from Dalian Zhoushuizi International Airport.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "is a 30-minute drive from Dalian Zhoushuizi International Airport",
+          "note": "30-minute drive stated",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/dalian/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The hotel is steps from Gangwan Square station on Line 2 of the Dalian Metro.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "as well as Gangwan Square station on Line 2 of the Dalian Metro",
+          "note": "steps from Gangwan Square station, Line 2",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/dalian/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Sky Lobby is on the 41st floor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "floor-to-ceiling windows in our Sky Lobby on the 41st floor.",
+          "note": "Sky Lobby on 41st floor",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/dalian/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Saai Yue Heen, the signature Chinese restaurant, is on the 39th floor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Our signature Chinese restaurant on the 39th floor features a dynamic dining area",
+          "note": "Saai Yue Heen entry, 39th floor",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/dalian/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Bath amenities are from the fragrance brand Frédéric Malle.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Treat yourself to premium bath amenities from top fragrance brand Frédéric Malle",
+          "note": "bath amenities by Frédéric Malle",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/dalian/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel has a 24-hour Fitness Centre.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "24-hour Fitness Centre",
+          "note": "24-hour Fitness Centre listed",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/dalian/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The interior design draws inspiration from a luxurious European retro train.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Draw inspiration from a luxurious European retro train, creating elegant and stylish interiors",
+          "note": "design aesthetic",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/dalian/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel has an infinity swimming pool on the 38th floor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Swim laps in our 38th-floor infinity swimming pool",
+          "note": "infinity pool on 38th floor",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/dalian/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Saai Yue Heen has an open kitchen and a two-tier seafood tank.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "highlighted by an open kitchen and a two-tier seafood tank",
+          "note": "open kitchen and two-tier seafood tank at Saai Yue Heen",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/dalian/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Yotsuba is an authentic Japanese restaurant with sushi and sashimi.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "our authentic Japanese restaurant",
+          "note": "authentic Japanese restaurant",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/dalian/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "ranging from the freshest sushi and sashimi to prime-grade beef delicacies",
+          "note": "sushi and sashimi",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/dalian/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Hui Hai is an all-day restaurant with live cooking stations.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Enjoy an array of international flavours at our vibrant all-day restaurant",
+          "note": "all-day restaurant",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/dalian/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "with live cooking stations serving everything from Southeast Asian chili crab",
+          "note": "live cooking stations",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/dalian/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Harbour Bar is a bar on the 41st floor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "amid the high-energy ambience of our 41st-floor bar",
+          "note": "Harbour Bar is the 41st-floor bar",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/dalian/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The Spa is open daily from 10:00 am to 11:00 pm.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Daily10:00 am – 11:00 pm",
+          "note": "Spa hours",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/dalian/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes that premium luxury pricing reflects the hotel's high-end positioning.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes that some local staff members speak limited English.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, breakfast for two is free daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers can be combined with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
