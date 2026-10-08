@@ -14,6 +14,7 @@
  *   --yes             do not wait for ENTER before each save (use only after the first one looked right)
  *   --start=ID        begin at this Hotel ID
  *   --admin=URL       admin address (default https://www.whatahotel.com/admin/)
+ *   --by=name         search by hotel name first (default: hotel ID first, then the name if the ID finds nothing)
  *   --hotels=URL      hotel list page (default https://www.whatahotel.com/admin/cms/hotels.cfm)
  *
  * Login: set WAH_ADMIN_EMAIL and WAH_ADMIN_PASS in your terminal, or type them when asked
@@ -84,7 +85,7 @@ console.log("Logged in.");
 async function openHotel(h) {
   // 1. search the hotel on the hotels page (by ID first, then by name)
   // 2. click the eye icon: it is the middle one of the three action icons (pencil, eye, x)
-  for (const term of [h.id, h.name].filter(Boolean)) {
+  for (const term of (opt("by") === "name" ? [h.name, h.id] : [h.id, h.name]).filter(Boolean)) {
     await page.goto(HOTELS_PAGE);
     const box = page
       .locator('input[type="search"], input[name*="search" i], input[placeholder*="search" i], input[id*="search" i], input[name*="keyword" i], input[name*="name" i]')
