@@ -14,6 +14,7 @@
  *   --yes             do not wait for ENTER before each save (use only after the first one looked right)
  *   --start=ID        begin at this Hotel ID
  *   --admin=URL       admin address (default https://www.whatahotel.com/admin/)
+ *   --hotels=URL      hotel list page (default https://www.whatahotel.com/admin/cms/hotels.cfm)
  *
  * Login: set WAH_ADMIN_EMAIL and WAH_ADMIN_PASS in your terminal, or type them when asked
  * (the password is not echoed). Results go to add-snippets-log.csv, screenshots to add-snippets-shots/.
@@ -28,6 +29,7 @@ const opt = (n) => args.find((a) => a.startsWith(`--${n}=`))?.split("=").slice(1
 const csvPath = args.find((a) => !a.startsWith("--"));
 if (!csvPath) { console.error("Usage: node scripts/add-snippets.mjs <csv> [--all] [--yes] [--headless] [--start=ID] [--admin=URL]"); process.exit(1); }
 const ADMIN = (opt("admin") ?? "https://www.whatahotel.com/admin").replace(/\/+$/, "") + "/";
+const HOTELS_PAGE = opt("hotels") ?? new URL("cms/hotels.cfm", ADMIN).href;
 const SHOTS = "add-snippets-shots", LOG = "add-snippets-log.csv";
 mkdirSync(SHOTS, { recursive: true });
 if (!existsSync(LOG)) writeFileSync(LOG, "Hotel ID,Hotel name,Result,Note\n");
@@ -80,25 +82,31 @@ if ((await page.locator('input[name="userPass"]').count()) || /invalid|incorrect
 console.log("Logged in.");
 
 async function openHotel(h) {
-  // 1. search the hotel (by ID first, then by name), 2. click the eye icon
+  // 1. search the hotel on the hotels page (by ID first, then by name)
+  // 2. click the eye icon: it is the middle one of the three action icons (pencil, eye, x)
   for (const term of [h.id, h.name].filter(Boolean)) {
-    await page.goto(ADMIN);
-    const box = page.locator('input[type="search"], input[name*="search" i], input[placeholder*="search" i], input[id*="search" i]').first();
-    if (!(await box.count())) throw new Error("Could not find the hotel search box on the admin page");
+    await page.goto(HOTELS_PAGE);
+    const box = page
+      .locator('input[type="search"], input[name*="search" i], input[placeholder*="search" i], input[id*="search" i], input[name*="keyword" i], input[name*="name" i]')
+      .or(page.locator('input[type="text"]'))
+      .first();
+    if (!(await box.count())) throw new Error("Could not find the hotel search box on the hotels page");
     await box.fill(term);
     await box.press("Enter");
     await page.waitForLoadState("load");
-    const eyes = page.locator('a:has(.fa-eye), button:has(.fa-eye), a:has(.fa-eye-open), [title*="details" i], [title*="view" i]');
-    await eyes.first().waitFor({ timeout: 8000 }).catch(() => {});
-    const n = await eyes.count();
-    if (!n) continue;
-    // prefer the row that mentions the hotel ID or the name
-    const row = page.locator("tr", { hasText: new RegExp(`\\b${h.id}\\b`) }).locator('a:has(.fa-eye), button:has(.fa-eye)').first();
-    const target = (await row.count()) ? row : eyes.first();
+    await page.waitForTimeout(1500);
+    const rows = page.locator("tr", { hasText: new RegExp(`\\b${h.id}\\b`) });
+    const row = (await rows.count()) ? rows.first() : page.locator("tbody tr").first();
+    if (!(await row.count())) continue;
+    const actions = row.locator("a, button");
+    const named = row.locator("a:has(.fa-eye), button:has(.fa-eye), a:has(.fa-eye-open), a[title*='details' i], a[title*='view' i]");
+    const n = await actions.count();
+    const target = (await named.count()) ? named.first() : n >= 3 ? actions.nth(n - 2) : n === 2 ? actions.nth(1) : undefined;
+    if (!target) continue;
     await Promise.all([page.waitForLoadState("load"), target.click()]);
     return;
   }
-  throw new Error("Hotel not found in admin search");
+  throw new Error("Hotel not found on the hotels page, or its eye icon was not found");
 }
 
 async function addSnippet(h) {
