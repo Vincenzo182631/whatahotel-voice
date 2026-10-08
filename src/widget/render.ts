@@ -40,6 +40,58 @@ export const ICONS = {
   close: svg('<path d="M6.4 5 5 6.4 10.6 12 5 17.6 6.4 19l5.6-5.6 5.6 5.6 1.4-1.4-5.6-5.6L19 6.4 17.6 5 12 10.6z"/>'),
 };
 
+/** The parts of `transcript.json` the widget uses. */
+export interface TranscriptData {
+  hotel?: { name?: string; whatahotel_url?: string };
+  title?: string;
+  turns?: Array<{ name?: string; speaker?: string; text?: string }>;
+}
+
+/** 87.3 -> "PT1M27S". Returns undefined for anything that is not a positive finite number. */
+export function isoDuration(seconds: number): string | undefined {
+  if (!Number.isFinite(seconds) || seconds <= 0) return undefined;
+  const s = Math.round(seconds);
+  const m = Math.floor(s / 60);
+  return `PT${m ? `${m}M` : ""}${s % 60}S`;
+}
+
+/** The full spoken text, one line per turn, prefixed with the speaker. */
+export function transcriptText(t: TranscriptData): string {
+  return (t.turns ?? [])
+    .filter((x) => x.text)
+    .map((x) => `${x.name || x.speaker || "Speaker"}: ${x.text}`)
+    .join("\n");
+}
+
+/** schema.org AudioObject for the clip, with the transcript text. */
+export function audioObjectJsonLd(t: TranscriptData, audioUrl: string, durationSeconds?: number): Record<string, unknown> {
+  const hotel = t.hotel?.name;
+  const duration = durationSeconds === undefined ? undefined : isoDuration(durationSeconds);
+  return {
+    "@context": "https://schema.org",
+    "@type": "AudioObject",
+    name: t.title || (hotel ? `${hotel}: Hotel Highlights` : TITLE),
+    description: hotel ? `AI-generated spoken highlights of ${hotel}, a conversation between a luxury advisor and a candid traveler.` : SUBTITLE,
+    contentUrl: audioUrl,
+    encodingFormat: "audio/mpeg",
+    inLanguage: "en",
+    ...(duration && { duration }),
+    transcript: transcriptText(t),
+    publisher: { "@type": "Organization", name: "WhataHotel", url: "https://www.whatahotel.com" },
+    ...(hotel && { about: { "@type": "Hotel", name: hotel, ...(t.hotel?.whatahotel_url && { url: t.hotel.whatahotel_url }) } }),
+  };
+}
+
+/** Readable transcript, collapsed by default (a native disclosure: keyboard and screen-reader friendly). */
+export function renderTranscript(t: TranscriptData): string {
+  const turns = (t.turns ?? []).filter((x) => x.text);
+  if (!turns.length) return "";
+  const rows = turns
+    .map((x) => `<p class="wah-take__line"><strong>${esc(x.name || x.speaker || "Speaker")}:</strong> ${esc(x.text!)}</p>`)
+    .join("");
+  return `<details class="wah-take__transcript"><summary>Read the transcript</summary><div class="wah-take__lines" role="region" aria-label="Transcript">${rows}</div></details>`;
+}
+
 export interface TakeView {
   audioUrl: string;
   /** Shown in the bar; falls back to the feature title. */
@@ -93,6 +145,11 @@ background:#1b1b1f;border-radius:14px;padding:10px 12px;box-shadow:0 8px 28px rg
 .wah-take__progress{position:absolute;left:0;right:0;bottom:0;height:3px;background:rgba(255,255,255,.18)}
 .wah-take__progress>span{display:block;height:100%;width:0;background:#fff}
 .wah-take[data-state="open"] .wah-take__pill{visibility:hidden}
+.wah-take__transcript{margin-top:8px;color:#1b1b1f;font-weight:400;font-size:14px;max-width:640px}
+.wah-take__transcript summary{cursor:pointer;font-weight:600;width:max-content}
+.wah-take__transcript summary:focus-visible{outline:2px solid #1b1b1f;outline-offset:2px}
+.wah-take__lines{margin-top:6px;padding:10px 12px;background:#f4f4f6;border-radius:10px}
+.wah-take__line{margin:0 0 8px}.wah-take__line:last-child{margin:0}
 @media (prefers-reduced-motion:no-preference){.wah-take__bar:not([hidden]){animation:wah-take-in .18s ease-out}}
 @keyframes wah-take-in{from{opacity:0;transform:translate(-50%,8px)}to{opacity:1;transform:translate(-50%,0)}}
 `;
