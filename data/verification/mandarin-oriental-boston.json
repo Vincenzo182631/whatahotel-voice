@@ -1,0 +1,381 @@
+{
+  "hotel_slug": "mandarin-oriental-boston",
+  "hotel_name": "Mandarin Oriental Boston",
+  "checked_at": "2026-10-08T12:59:40.648Z",
+  "script_version": null,
+  "decision": {
+    "eligible": false,
+    "blockers": [
+      "used in the script but not verified: h-1, h-2, h-3, h-4"
+    ],
+    "counts": {
+      "supported": 14,
+      "contradicted": 0,
+      "unverified": 4,
+      "exempt": 6,
+      "total": 24
+    }
+  },
+  "applied": false,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.mandarinoriental.com/en/boston/back-bay",
+      "tier": "official",
+      "chars": 6337
+    },
+    {
+      "id": "d2",
+      "url": "https://www.mandarinoriental.com/en/boston/back-bay/dine",
+      "tier": "official",
+      "chars": 4846
+    },
+    {
+      "id": "d3",
+      "url": "https://www.mandarinoriental.com/en/boston/back-bay/spa",
+      "tier": "official",
+      "chars": 8323
+    },
+    {
+      "id": "d4",
+      "url": "https://www.mandarinoriental.com/en/boston/back-bay/wellness/the-spa",
+      "tier": "official",
+      "chars": 7581
+    },
+    {
+      "id": "d5",
+      "url": "https://www.mandarinoriental.com/en/boston/back-bay/wellness/fitness",
+      "tier": "official",
+      "chars": 4240
+    },
+    {
+      "id": "d6",
+      "url": "https://www.mandarinoriental.com/en/boston/back-bay/dine/ramsays-kitchen-by-gordon-ramsay",
+      "tier": "official",
+      "chars": 4579
+    },
+    {
+      "id": "d7",
+      "url": "https://www.mandarinoriental.com/en/boston/back-bay/stay",
+      "tier": "official",
+      "chars": 5273
+    },
+    {
+      "id": "d8",
+      "url": "https://www.mandarinoriental.com/en/boston/back-bay/",
+      "tier": "official",
+      "chars": 6337
+    },
+    {
+      "id": "d9",
+      "url": "https://www.cntraveler.com/hotels/united-states/boston/mandarin-oriental-boston",
+      "tier": "editorial",
+      "chars": 7221
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Mandarin Oriental, Boston is located at 776 Boylston Street, Boston, Massachusetts 02199, in the heart of Boston's prestigious Back Bay neighbourhood.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Mandarin Oriental, Boston is located at 776 Boylston Street, Boston, Massachusetts 02199, in the heart of Boston’s prestigious Back Bay neighbourhood.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/boston/back-bay",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Chef Gordon Ramsay's first Boston restaurant, Ramsay's Kitchen, is now open in Back Bay.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Chef Gordon Ramsay’s first Boston restaurant, Ramsay’s Kitchen, is now open in Back Bay.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/boston/back-bay",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Ramsay's Kitchen serves breakfast from 6:30am to 10:30am.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "6:30am - 10:30am",
+          "note": "time listed under Breakfast heading on Ramsay's Kitchen page",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/boston/back-bay/dine/ramsays-kitchen-by-gordon-ramsay",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "In-room dining is available 24 hours.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Theres is 24-hour in-room dining available to all guests",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/boston/back-bay/dine",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Spa has a heated Vitality Pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "For soothing relaxation, our heated Vitality Pool stimulates circulation and aids with muscle recovery with its therapeutic hydrotherapy jets",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/boston/back-bay/wellness/the-spa",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Spa has a Crystal Steam Room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Invigorate the senses with our heated crystal steam room designed for detoxification.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/boston/back-bay/wellness/the-spa",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Fitness Centre is open 24 hours.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The fitness centre is open 24 hours a day for hotel guests.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/boston/back-bay/spa",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Fitness Centre has a Peloton Bike.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Peloton Bike",
+          "note": "listed among Fitness Centre equipment",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/boston/back-bay/wellness/fitness",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Check-in is at 3pm.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Check-in is at 3pm and check-out is at 12pm noon.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/boston/back-bay/stay",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Mandarin Oriental, Boston is awarded Forbes Five-Stars.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Awarded Forbes Five-Stars, Mandarin Oriental, Boston features the most spacious luxury rooms and suites in Back Bay",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/boston/back-bay",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Two-Bedroom Family Suite has a custom kitchenette.",
+      "findings": [],
+      "status": "unverified",
+      "reason": "no source states it"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Residential Suite has a spacious living room, dining room and custom kitchenette.",
+      "findings": [],
+      "status": "unverified",
+      "reason": "no source states it"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Royal Suite has a gas fireplace.",
+      "findings": [],
+      "status": "unverified",
+      "reason": "no source states it"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Royal Suite has a soundproof media room.",
+      "findings": [],
+      "status": "unverified",
+      "reason": "no source states it"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Rooms and suites feature a Nespresso coffee machine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Nespresso coffee machine",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/boston/back-bay/stay",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Parking fees apply to both valet and self-parking options.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Parking fees apply to both valet and self-parking options.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/boston/back-bay",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The minimum age to access The Spa and Fitness Center is 18 years old.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The minimum age to access The Spa and Fitness Center is 18 years old.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/boston/back-bay/wellness/the-spa",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "The Spa is open from 9am to 7pm on Monday to Wednesday and 9am to 8pm on Thursday to Sunday.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The Spa at Mandarin Oriental, Boston is open from 9am to 7pm on Monday to Wednesday and 9am to 8pm on Thursday to Sunday.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/boston/back-bay/spa",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-4",
+      "text": "WhataHotel notes an ultra-luxury price point that may not suit budget-conscious travelers.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, breakfast for two is free daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers can be combined with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
