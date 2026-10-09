@@ -8,6 +8,8 @@ import { checkFreshness, isExpired, needsRefresh, WARN_DAYS } from "./core/fresh
 import { promoteToCurrent, publishTake } from "./publish/blob.js";
 import { importHotel } from "./sources/import.js";
 import { verifyHotel } from "./verify/index.js";
+import { Budget, limitsFromEnv } from "./research/budget.js";
+import { assertResearchReady, importResearch, runResearch } from "./research/research.js";
 import { importFindings, prepareFactCheck, prepareVerification, prepareWriter } from "./verify/external.js";
 import { withReadOnlyDb, type Query } from "./sources/pi-db.js";
 import { WahClient } from "./sources/wah-api.js";
@@ -21,6 +23,14 @@ Usage: npm run hotel -- <command> [options]
   scrape    --hotel <slug> | --collection pilot   Fetch whatahotel.com page(s) into data/sources/
   scrape    ... --via firecrawl                   Use Firecrawl instead of a plain fetch (needs FIRECRAWL_API_KEY)
   research  --url <url> [--out file]              Firecrawl a page to markdown (default data/research/<host>.md)
+  research  --hotel <slug> [--chain <id>|independent] [--official-url <url>] [--with-editorial] [--refresh]
+            [--max-pages N] [--max-fc-calls N] [--max-retries N] [--max-chars N]
+                                                  Confirm the hotel's official site (never guessed), fetch its
+                                                  property pages inside per-hotel limits, and write the extraction
+                                                  task. Limits default from WH_RESEARCH_MAX_PAGES/_FC_CALLS/_RETRIES/_CHARS
+  research  --hotel <slug> --import <facts.json>  Re-check every excerpt in code, hold out disputed/promotional/undated
+                                                  claims, and write data/research/<slug>/research.json. A hotel marked
+                                                  Needs review is refused by script/generate
   import    --hotel <slug> | --collection pilot [--from api,db] [--dry-run]
                                                   Add claims from the WhataHotel data API and the
                                                   Price Intelligence DB (read-only) to profiles
@@ -85,6 +95,13 @@ const { positionals, values } = parseArgs({
     import: { type: "string" },
     "factcheck-file": { type: "string" },
     refresh: { type: "boolean" },
+    chain: { type: "string" },
+    "official-url": { type: "string" },
+    "with-editorial": { type: "boolean" },
+    "max-pages": { type: "string" },
+    "max-fc-calls": { type: "string" },
+    "max-retries": { type: "string" },
+    "max-chars": { type: "string" },
     help: { type: "boolean", short: "h" },
   },
 });
@@ -127,6 +144,30 @@ async function main() {
     }
 
     case "research": {
+      if (values.hotel) {
+        const slug = values.hotel;
+        if (values.import) {
+          const r = await importResearch(slug, values.import);
+          console.log(`${r.status === "ready" ? "✓" : "✗"} ${slug}: ${r.verified_facts.length} verified facts, ${r.highlights.length} highlights, ${r.rejected.length} rejected, ${r.unresolved.length} unresolved, ${r.subjective.length} subjective, ${r.contradictions.length} contradictions`);
+          for (const reason of r.reasons) console.log(`    - ${reason}`);
+          console.log(`  data/research/${slug}/research.json`);
+          return;
+        }
+        const num = (v?: string) => (v ? Number(v) : undefined);
+        const budget = new Budget(limitsFromEnv(process.env, { maxPages: num(values["max-pages"]), maxFirecrawlCalls: num(values["max-fc-calls"]), maxRetries: num(values["max-retries"]), maxChars: num(values["max-chars"]) }));
+        const r = await runResearch(slug, { fc: FirecrawlClient.fromEnv(), budget, refresh: values.refresh, chain: values.chain, officialUrl: values["official-url"], withEditorial: values["with-editorial"] });
+        const id = r.identity;
+        console.log(`${id.status === "confirmed" ? "✓" : "✗"} ${slug}: official site ${id.status}${id.official_url ? ` ${id.official_url}` : ""}`);
+        for (const e of id.evidence) console.log(`    + ${e}`);
+        for (const reason of r.reasons) console.log(`    - ${reason}`);
+        const u = r.usage;
+        console.log(`  ${r.pages.length} pages · Firecrawl ${u.firecrawl_calls}/${r.limits.maxFirecrawlCalls} calls (${u.firecrawl_searches} searches) · ${u.cache_hits} cached · ${u.direct_fetches} direct · ~${u.est_claude_tokens} tokens of page text`);
+        if (r.partial) console.log("  ⚠ partial coverage: a limit was reached, so this hotel is flagged for review (progress saved)");
+        if (r.status === "awaiting_extraction") console.log(`  Have a Claude Code subagent follow data/research/${slug}/extract-instructions.md, then run:\n  hotel:research --hotel ${slug} --import data/research/${slug}/facts.json`);
+        else console.log(`  Needs review: see data/research/${slug}/research.json`);
+        if (r.status === "needs_review") process.exitCode = 1;
+        return;
+      }
       const url = need(values.url, "url");
       const page = await FirecrawlClient.fromEnv().scrape(url);
       const file = path.resolve(values.out ?? path.join("data/research", `${new URL(url).hostname}.md`));
@@ -196,6 +237,7 @@ async function main() {
     case "script":
     case "generate": {
       const slug = need(values.hotel, "hotel");
+      await assertResearchReady(slug);
       if (command === "script" && values.prepare) {
         const file = await prepareWriter(slug, { verifiedOnly: values["verified-only"] });
         console.log(`✓ ${file}\n  Have a Claude Code subagent follow it, then run hotel:check on the script it wrote`);

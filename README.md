@@ -79,6 +79,18 @@ npm test && npm run typecheck
 
 ## Running the model steps in Claude Code (no Anthropic API)
 
+### Hotel research (any chain or independent hotel)
+
+`hotel:research --hotel <slug>` finds and confirms the hotel's own website before reading anything, then collects source-backed facts:
+
+1. **Identity.** Search results are ranked, third-party sites (Booking, TripAdvisor, WhataHotel, Wikipedia...) are dropped, and a chain's domain is only accepted for that chain's own hotels (`src/research/chains.ts`). The page must carry the hotel's name and city, follow redirects to a property page (not a city landing page), and a rebrand is accepted only when the page ties the old name to the new one. If two properties of a chain match alike in one city (two Mandarin Oriental hotels in Hong Kong), or nothing confirms, the hotel is flagged **Needs review**; pass `--official-url <url>` or `--chain <id>|independent` to settle it. Nothing is guessed.
+2. **Pages.** From the confirmed home page it follows same-property links (rooms, dining, spa, amenities, experiences, location, FAQ), through the cache and free direct fetches first, Firecrawl last. Pages it cannot read are recorded as inaccessible, never treated as proof an amenity is missing.
+3. **Limits and usage.** Per hotel: `--max-pages` (12), `--max-fc-calls` (20), `--max-retries` (3), `--max-chars` (150000, a stand-in for the Claude subagent's token use), also settable as `WH_RESEARCH_MAX_*`. Usage is written to `data/research/<slug>/usage.json`. A limit stops the run, saves progress and marks coverage partial.
+4. **Extraction (Claude Code).** A subagent follows `extract-instructions.md` and writes `facts.json`: atomic facts with the page and a verbatim excerpt, subjective claims labelled, contradictions listed, and the 5-8 strongest highlights.
+5. **Import.** `hotel:research --hotel <slug> --import <facts.json>` re-checks every excerpt word for word in code, holds out promotional wording, undated awards/renovations and disputed topics, and writes `research.json` (identity, verified facts with URL and excerpt, highlights, contradictions, inaccessible pages, usage, timestamp). Under 5 verified facts, or an unconfirmed site, is **Needs review**, and `script`/`generate` refuse that hotel until it is resolved.
+
+A confirmed site is also registered as official evidence for `hotel:verify`, so verification works for chains beyond Four Seasons and Mandarin Oriental.
+
 Verification, script writing and script fact-checking can run in a Claude Code session instead of calling the Anthropic API. The code prepares plain files, a Claude Code subagent reads them and writes a JSON answer, and the code imports it. Every safety check stays in code: each quote is matched word for word against the fetched page, and the verification policy and script rules run as before. Pages are still fetched with Firecrawl (`FIRECRAWL_API_KEY`); the ElevenLabs step is unchanged.
 
 ```bash

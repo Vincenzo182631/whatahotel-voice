@@ -30,8 +30,13 @@ export const CACHE_DIR = path.resolve(process.env.WH_VERIFY_CACHE ?? "data/verif
 const MAX_CHARS = 30_000;
 const MAX_SUBPAGES = 8;
 
+/** Hosts confirmed as a hotel's own site by hotel:research (works for any chain or independent hotel). */
+const EXTRA_OFFICIAL = new Set<string>();
+export const registerOfficialHost = (host: string) => EXTRA_OFFICIAL.add(host.replace(/^www\./, "").toLowerCase());
+
 export function tierOf(url: string): EvidenceTier {
   const host = new URL(url).hostname;
+  if ([...EXTRA_OFFICIAL].some((h) => host === h || host.endsWith(`.${h}`))) return "official";
   if (host === "fourseasons.com" || host.endsWith(".fourseasons.com")) return "official";
   if (host === "mandarinoriental.com" || host.endsWith(".mandarinoriental.com")) return "official";
   if (host === "cntraveler.com" || host.endsWith(".cntraveler.com")) return "editorial";
@@ -80,7 +85,7 @@ export function subpageLinks(homepageMarkdown: string, code: string, max = MAX_S
 }
 
 const STOP = new Set(["the", "a", "at", "of", "hotel", "and", "by", "in"]);
-const words = (s: string) => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").split(/[^a-z0-9]+/).filter((w) => w && !STOP.has(w));
+export const words = (s: string) => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").split(/[^a-z0-9]+/).filter((w) => w && !STOP.has(w));
 
 /** Share of the hotel name's words found in a search result's title and URL. */
 export function nameOverlap(hotelName: string, title: string, url: string): number {
@@ -90,13 +95,27 @@ export function nameOverlap(hotelName: string, title: string, url: string): numb
   return name.filter((w) => hay.has(w)).length / name.length;
 }
 
+/** Official pages hotel:research already confirmed for this hotel (also registers the site as official). */
+async function researchPageUrls(slug: string): Promise<string[]> {
+  try {
+    const dir = path.resolve(process.env.WH_RESEARCH_DIR ?? "data/research", slug);
+    const identity = JSON.parse(await readFile(path.join(dir, "identity.json"), "utf8")) as { status: string; host?: string };
+    if (identity.status !== "confirmed" || !identity.host) return [];
+    registerOfficialHost(identity.host);
+    const index = JSON.parse(await readFile(path.join(dir, "index.json"), "utf8")) as { docs: Array<{ url: string; tier: string }> };
+    return index.docs.filter((d) => d.tier === "official").map((d) => d.url);
+  } catch {
+    return [];
+  }
+}
+
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 /** Firecrawl limits requests per minute, so live calls are spaced out (cached pages cost nothing). */
 const GAP_MS = Number(process.env.WH_FIRECRAWL_GAP_MS ?? 7000);
 let lastCall = 0;
 
-async function withRetry<T>(fn: () => Promise<T>): Promise<T> {
+export async function withRetry<T>(fn: () => Promise<T>, maxAttempts = 5): Promise<T> {
   for (let attempt = 1; ; attempt++) {
     const wait = lastCall + GAP_MS - Date.now();
     if (wait > 0) await sleep(wait);
@@ -105,7 +124,7 @@ async function withRetry<T>(fn: () => Promise<T>): Promise<T> {
       return await fn();
     } catch (err) {
       const rateLimited = err instanceof FirecrawlError && / 429 /.test(err.message);
-      if (!rateLimited || attempt >= 5) throw err;
+      if (!rateLimited || attempt >= maxAttempts) throw err;
       await sleep(20_000 * attempt);
     }
   }
@@ -134,17 +153,34 @@ export async function fetchDirect(url: string): Promise<string | undefined> {
   }
 }
 
+/** Optional callbacks so a caller can count cache hits, free direct fetches and Firecrawl calls. */
+export interface FetchHooks {
+  onCache?: () => void;
+  onDirect?: () => void;
+  /** Called before each Firecrawl scrape; throw to refuse the call (e.g. budget used up). */
+  beforeFirecrawl?: () => void;
+  maxAttempts?: number;
+}
+
 /** Raw markdown for a URL, from the cache unless refresh is set. */
-async function fetchMarkdown(fc: FirecrawlClient, url: string, refresh: boolean): Promise<string> {
+export async function fetchMarkdown(fc: FirecrawlClient, url: string, refresh: boolean, hooks: FetchHooks = {}): Promise<string> {
   if (!refresh) {
     try {
-      return (JSON.parse(await readFile(cacheFile(url), "utf8")) as { markdown: string }).markdown;
+      const cached = (JSON.parse(await readFile(cacheFile(url), "utf8")) as { markdown: string }).markdown;
+      hooks.onCache?.();
+      return cached;
     } catch {
       /* not cached */
     }
   }
   const direct = await fetchDirect(url);
-  const page = direct ? { markdown: direct } : await withRetry(() => fc.scrape(url));
+  if (direct) hooks.onDirect?.();
+  const page = direct
+    ? { markdown: direct }
+    : await withRetry(() => {
+        hooks.beforeFirecrawl?.();
+        return fc.scrape(url);
+      }, hooks.maxAttempts);
   const markdown = page.markdown ?? "";
   if (markdown.length < 200) throw new FirecrawlError(`${url}: page had almost no text`);
   await mkdir(CACHE_DIR, { recursive: true });
@@ -198,6 +234,7 @@ export async function gatherEvidence(profile: HotelProfile, fc: FirecrawlClient,
   const urls = new Set<string>();
   const cited = profile.sources.filter((s) => s.url && s.type !== "whatahotel").map((s) => s.url!);
   cited.forEach((u) => urls.add(u));
+  for (const u of await researchPageUrls(profile.slug)) urls.add(u);
 
   let codes = propertyCodes(cited);
   const moBases = new Set<string>();
