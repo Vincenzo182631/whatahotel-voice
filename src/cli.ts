@@ -140,12 +140,17 @@ async function main() {
       const fc = values.via === "firecrawl" ? FirecrawlClient.fromEnv() : undefined;
       if (values.via && !fc) throw new Error(`--via accepts firecrawl (got "${values.via}")`);
       for (const h of targets) {
-        const page = fc
-          ? parseWhataHotelPage((await fc.scrape(h.url, ["rawHtml"])).rawHtml ?? "", h.url)
-          : await fetchWhataHotelPage(h.url);
-        const file = path.resolve("data/sources", `${h.slug}.whatahotel.json`);
-        await writeFile(file, JSON.stringify(page, null, 2) + "\n");
-        console.log(`✓ ${h.slug}: ${page.pros.length} highlights, ${page.cons.length} considerations`);
+        try {
+          const page = fc
+            ? parseWhataHotelPage((await fc.scrape(h.url, ["rawHtml"])).rawHtml ?? "", h.url)
+            : await fetchWhataHotelPage(h.url);
+          const file = path.resolve("data/sources", `${h.slug}.whatahotel.json`);
+          await writeFile(file, JSON.stringify(page, null, 2) + "\n");
+          console.log(`✓ ${h.slug}: ${page.pros.length} highlights, ${page.cons.length} considerations`);
+        } catch (err) {
+          process.exitCode = 1;
+          console.log(`✗ ${h.slug}: ${(err as Error).message}`);
+        }
       }
       return;
     }
