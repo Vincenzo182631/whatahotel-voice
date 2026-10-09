@@ -1,0 +1,383 @@
+{
+  "hotel_slug": "ritz-carlton-abama",
+  "hotel_name": "The Ritz-Carlton, Abama",
+  "checked_at": "2026-10-09T14:49:10.570Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 0,
+      "total": 18
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ritzcarlton.com/en/hotels/tfsrz-the-ritz-carlton-abama/overview/",
+      "tier": "official",
+      "chars": 20706
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ritzcarlton.com/en/hotels/tfsrz-the-ritz-carlton-abama/dining/",
+      "tier": "official",
+      "chars": 8957
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ritzcarlton.com/en/hotels/tfsrz-the-ritz-carlton-abama/spa/",
+      "tier": "official",
+      "chars": 11365
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ritzcarlton.com/en/hotels/tfsrz-the-ritz-carlton-abama/experiences/",
+      "tier": "official",
+      "chars": 30000
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ritzcarlton.com/en/hotels/tfsrz-the-ritz-carlton-abama/rooms/signature-suites/",
+      "tier": "official",
+      "chars": 11795
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ritzcarlton.com/en/hotels/tfsrz-the-ritz-carlton-abama/rooms/",
+      "tier": "official",
+      "chars": 5021
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ritzcarlton.com/en/hotels/tfsrz-the-ritz-carlton-abama/retreat/",
+      "tier": "official",
+      "chars": 28628
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ritzcarlton.com/en/hotels/tfsrz-the-ritz-carlton-abama/reviews/",
+      "tier": "official",
+      "chars": 868
+    },
+    {
+      "id": "d9",
+      "url": "https://www.cntraveler.com/hotels/spain/tenerife/ritz-carlton-tenerife-abama",
+      "tier": "editorial",
+      "chars": 3392
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The resort sits on a 160-hectare estate on the southwest coast of Tenerife in Guia de Isora.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "iconic Moorish architecture governs a 160-hectare estate on the southwest coast in Guia de Isora",
+          "note": "Estate size and location stated; page places resort in Tenerife",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/tfsrz-the-ritz-carlton-abama/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The Del Mar Infinity pool is reserved for guests staying at The Retreat.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Reserved to guests staying at The Retreat and part of the new Club experience, the Del Mar Infinity pool",
+          "note": "Pool reserved for Retreat guests",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/tfsrz-the-ritz-carlton-abama/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Imperial Suite has a large outdoor terrace with its own private swimming pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "This 1,000sqm Penthouse offers a large outdoor terrace with its own private swimming pool",
+          "note": "Imperial Suite terrace with private pool",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/tfsrz-the-ritz-carlton-abama/rooms/signature-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The Royal Suites are on the 7th and 8th floors of the Citadel and each has two bedrooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The Royal Suites are located on the 7th and 8th floors of the resort Citadel, each with two bedrooms",
+          "note": "Floors, location and bedrooms match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/tfsrz-the-ritz-carlton-abama/rooms/signature-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Guests have a dedicated area with sunbeds and umbrellas at Abama Beach, complimentary and subject to availability.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "a dedicated area with sunbeds and umbrellas is available on a complimentary basis, subject to availability",
+          "note": "Matches claim at Abama Beach",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/tfsrz-the-ritz-carlton-abama/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Akira Back Tenerife brings chef Akira Back's cooking to Spain for the first time.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Akira Back Tenerife brings Chef Akira Back’s global culinary vision to Spain for the first time",
+          "note": "First time in Spain stated",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/tfsrz-the-ritz-carlton-abama/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Beach Club restaurant is on the sand of Abama Beach, with views of La Gomera.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Set on the golden sands of Abama Beach with views of La Gomera, Beach Club offers relaxed seaside dining",
+          "note": "On the sand with La Gomera views",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/tfsrz-the-ritz-carlton-abama/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Serenity Pool welcomes guests aged 13 and above and overlooks the Abama golf course.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "the Serenity Pool welcomes guests aged 13 and above. Overlooking the Abama golf course",
+          "note": "Age and view match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/tfsrz-the-ritz-carlton-abama/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The Ritz Kids club runs daily activities for children aged 4 to 12.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "An agenda of activities (kids from 4 to 12 years old) such as arts & crafts, workshops, karaoke and much more, is available daily",
+          "note": "Ages 4 to 12, daily activities",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/tfsrz-the-ritz-carlton-abama/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "A championship golf course overlooking the Atlantic Ocean and La Gomera is available to guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Guests may also enjoy a championship golf course overlooking the Atlantic Ocean and La Gomera island.",
+          "note": "Matches claim",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/tfsrz-the-ritz-carlton-abama/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Retreat is made up of four lanes of two-story casitas set against the hillside among subtropical gardens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Gently nestled against the hillside and surrounded by leafy subtropical gardens, The Retreat consists of four lanes of two-story casitas",
+          "note": "Matches claim",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/tfsrz-the-ritz-carlton-abama/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "A private train takes guests down to the beach.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The beach can be reached in comfort aboard our private train, offering a scenic and leisurely ride down to the shore.",
+          "note": "Private train to beach",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/tfsrz-the-ritz-carlton-abama/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The rooms and suites draw on the heritage of the Guanches, the ancient indigenous people of Tenerife, and on the island's volcanic landscapes and gardens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "heritage of the Guanches – the ancient indigenous people of Tenerife - the resort’s rooms and suites combine a contemporary and luxurious aesthetic with elements of the island's volcanic landscapes and lush gardens",
+          "note": "Guanche heritage plus volcanic landscapes and gardens",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/tfsrz-the-ritz-carlton-abama/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "M.B is led by Chef Erlantz Gorostiza under the vision of Martín Berasategui.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Led by Chef Erlantz Gorostiza under Martín Berasategui’s vision",
+          "note": "Matches claim",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/tfsrz-the-ritz-carlton-abama/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Verde Mar serves a farm-to-table menu built on local produce and guided by the seasons.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Verde Mar celebrates the essence of local produce through a refined farm-to-table experience. Guided by the seasons",
+          "note": "Matches claim",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/tfsrz-the-ritz-carlton-abama/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Hotel guests without a spa treatment can use the spa water facilities for a 25 € entrance fee.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "without having a spa treatment for a 25 € entrance fee.",
+          "note": "Hotel guests, water facilities, 25 EUR fee",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/tfsrz-the-ritz-carlton-abama/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Guests of the spa must be at least 18 years old to have spa treatments.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Guests of the Spa must be at least 18 years of age or older to experience Spa treatments and Rituals.",
+          "note": "Matches claim",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/tfsrz-the-ritz-carlton-abama/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "Pool opening days and times may vary according to seasonality.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Enjoy snacks, cocktails and more from the pool menu. Opening days and times may vary according to seasonality.",
+          "note": "Pool opening days and times vary seasonally",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/tfsrz-the-ritz-carlton-abama/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

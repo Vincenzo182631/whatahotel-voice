@@ -1,0 +1,380 @@
+{
+  "hotel_slug": "ritz-carlton-chengdu",
+  "hotel_name": "The Ritz-Carlton, Chengdu",
+  "checked_at": "2026-10-09T14:49:07.906Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 0,
+      "total": 17
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ritzcarlton.com/en/hotels/cturz-the-ritz-carlton-chengdu/overview/",
+      "tier": "official",
+      "chars": 15463
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ritzcarlton.com/en/hotels/cturz-the-ritz-carlton-chengdu/dining/",
+      "tier": "official",
+      "chars": 5542
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ritzcarlton.com/en/hotels/cturz-the-ritz-carlton-chengdu/experiences/",
+      "tier": "official",
+      "chars": 18031
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ritzcarlton.com/en/hotels/cturz-the-ritz-carlton-chengdu/club/",
+      "tier": "official",
+      "chars": 4865
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ritzcarlton.com/en/hotels/cturz-the-ritz-carlton-chengdu/rooms/",
+      "tier": "official",
+      "chars": 6036
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ritzcarlton.com/en/hotels/cturz-the-ritz-carlton-chengdu/rooms/signature-accommodations/",
+      "tier": "official",
+      "chars": 4287
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ritzcarlton.com/en/hotels/cturz-the-ritz-carlton-chengdu/reviews/",
+      "tier": "official",
+      "chars": 819
+    },
+    {
+      "id": "d8",
+      "url": "https://www.cntraveler.com/hotels/chengdu/ritz-carlton-chengdu",
+      "tier": "editorial",
+      "chars": 3319
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Guest rooms are on the 28th to the 41st floors.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "With guest rooms from the 28th to the 41st floor",
+          "note": "States the same floor range",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/cturz-the-ritz-carlton-chengdu/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "FLAIR serves Asian-inspired tapas indoors and on an outdoor patio.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The stylish FLAIR lounge serves Asian-inspired tapas indoors and on an outdoor patio.",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/cturz-the-ritz-carlton-chengdu/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "SPICES is the all-day dining restaurant, with live-action cooking stations serving international-style dishes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "SPICES All-day Dining Restaurant",
+          "note": "Named all-day dining restaurant",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/cturz-the-ritz-carlton-chengdu/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "SPICES features live-action cooking stations serving international-style dishes.",
+          "note": "Cooking stations and cuisine",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/cturz-the-ritz-carlton-chengdu/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The Dining Room serves Mediterranean dishes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Explore a variety of fine Mediterranean dishes",
+          "note": "Dining Room serves Mediterranean dishes",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/cturz-the-ritz-carlton-chengdu/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The indoor swimming pool has an underwater music system.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "an indoor swimming pool with underwater music",
+          "note": "Indoor pool with underwater music",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/cturz-the-ritz-carlton-chengdu/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The spa uses Valmont products and locally sourced teas in its treatments.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "A selection of innovative treatments makes use of VALMONT products in addition to locally sourced teas.",
+          "note": "Valmont and local teas",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/cturz-the-ritz-carlton-chengdu/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Complimentary parking is offered to in-house guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Complimentary parking for in-house guests.",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/cturz-the-ritz-carlton-chengdu/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Club level offers a dedicated concierge, a private Club Lounge and in-room amenities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "providing a dedicated Concierge, a private Club Lounge, unique in-room amenities",
+          "note": "All three elements listed",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/cturz-the-ritz-carlton-chengdu/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The Chengdu Research Base of Giant Panda Breeding is among the attractions near the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "among them the Wuhou Memorial Temple and the Chengdu Research Base of Giant Panda Breeding",
+          "note": "Listed among noteworthy attractions accessible from the hotel",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/cturz-the-ritz-carlton-chengdu/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel stands on the site of what was once an imperial palace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Perched on the site of what was once an imperial palace",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/cturz-the-ritz-carlton-chengdu/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "A Kongfu tea performance takes place daily in the 25th-floor hotel lobby.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Daily Kongfu Tea performance at 25F hotel lobby at 5pm",
+          "note": "Daily, 25F lobby",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/cturz-the-ritz-carlton-chengdu/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The hotel overlooks Tianfu Square in central Chengdu.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "overlooking the city's central Tianfu Square",
+          "note": "Overlooks central Tianfu Square in Chengdu",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/cturz-the-ritz-carlton-chengdu/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The spa occupies a full floor of the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "a full-floor luxury spa",
+          "note": "Full-floor spa",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/cturz-the-ritz-carlton-chengdu/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Ten spa treatment rooms encompass an entire floor of the hotel",
+          "note": "Entire floor",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/cturz-the-ritz-carlton-chengdu/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Li Xuan Chinese Restaurant specializes in Cantonese and local Sichuanese dishes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Li Xuan Chinese Restaurant specializes in Cantonese and local Sichuanese creations.",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/cturz-the-ritz-carlton-chengdu/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel does not provide shuttle service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "This hotel does not provide shuttle service.",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/cturz-the-ritz-carlton-chengdu/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The minimum age for access and treatments at the spa is 16.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The minimum age requirement for access and treatments at The Spa is 16.",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/cturz-the-ritz-carlton-chengdu/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "Club access requires an upgraded booking, and Marriott Bonvoy Elite status does not give complimentary access to Club.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "*Club access requires an upgraded booking at the Club. Marriott Bonvoy Elite Status does not provide complimentary access to Club.",
+          "note": "Both elements stated",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/cturz-the-ritz-carlton-chengdu/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

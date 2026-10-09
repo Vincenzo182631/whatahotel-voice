@@ -1,0 +1,376 @@
+{
+  "hotel_slug": "ritz-carlton-dallas-las-colinas-resort",
+  "hotel_name": "Ritz Carlton Dallas, Las Colinas Resort",
+  "checked_at": "2026-10-09T14:49:05.302Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 15,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 17
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ritzcarlton.com/en/hotels/dalil-the-ritz-carlton-dallas-las-colinas/overview/",
+      "tier": "official",
+      "chars": 17401
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ritzcarlton.com/en/hotels/dalil-the-ritz-carlton-dallas-las-colinas/dining/",
+      "tier": "official",
+      "chars": 5160
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ritzcarlton.com/en/hotels/dalil-the-ritz-carlton-dallas-las-colinas/spa/",
+      "tier": "official",
+      "chars": 10561
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ritzcarlton.com/en/hotels/dalil-the-ritz-carlton-dallas-las-colinas/rooms/",
+      "tier": "official",
+      "chars": 5869
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ritzcarlton.com/en/hotels/dalil-the-ritz-carlton-dallas-las-colinas/rooms/signature-villas/",
+      "tier": "official",
+      "chars": 14252
+    },
+    {
+      "id": "d6",
+      "url": "https://www.cntraveler.com/hotels/irving/the-ritz-carlton-dallas-las-colinas",
+      "tier": "editorial",
+      "chars": 6087
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ritzcarlton.com/en/hotels/dalil-the-ritz-carlton-dallas-las-colinas/golf/",
+      "tier": "official",
+      "chars": 4849
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ritzcarlton.com/en/hotels/dalil-the-ritz-carlton-dallas-las-colinas/experiences/",
+      "tier": "official",
+      "chars": 17489
+    },
+    {
+      "id": "d9",
+      "url": "https://www.ritzcarlton.com/en/hotels/dalil-the-ritz-carlton-dallas-las-colinas/experiences/holidays/",
+      "tier": "official",
+      "chars": 4635
+    },
+    {
+      "id": "d10",
+      "url": "https://www.ritzcarlton.com/en/hotels/dalil-the-ritz-carlton-dallas-las-colinas/club/",
+      "tier": "official",
+      "chars": 5632
+    },
+    {
+      "id": "d11",
+      "url": "https://www.ritzcarlton.com/en/hotels/dalil-the-ritz-carlton-dallas-las-colinas/reviews/",
+      "tier": "official",
+      "chars": 813
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The resort is set across 400 acres in the heart of Las Colinas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Set across 400 acres in the heart of Las Colinas, The Ritz-Carlton Dallas, Las Colinas is a luxury resort",
+          "note": "400 acres in the heart of Las Colinas",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dalil-the-ritz-carlton-dallas-las-colinas/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The guest rooms were refreshed by the design firms Jeffrey Beers International and Leo A Daly.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Led by design firms Jeffrey Beers International and Leo A Daly, the 427 guest rooms got a refresh",
+          "note": "both firms named for room refresh",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/irving/the-ritz-carlton-dallas-las-colinas",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Dining Room at The Ritz-Carlton serves Italian-inspired cuisine, Texas steaks and seafood, and has a raw bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "featuring Italian-inspired cuisine, premium Texas steaks, pristine seafood, and a vibrant raw bar.",
+          "note": "cuisine and raw bar covered",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dalil-the-ritz-carlton-dallas-las-colinas/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Aire Libre blends Texas flavors with Baja coastal cuisine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "This DFW-area restaurant blends bold Texas flavors with the fresh zest of Baja",
+          "note": "Aire Libre blends Texas and Baja coastal cuisine",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dalil-the-ritz-carlton-dallas-las-colinas/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Bar Juniper is in the hotel lobby.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Bar Juniper takes center stage in the lobby.",
+          "note": "lobby location",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dalil-the-ritz-carlton-dallas-las-colinas/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Ritz-Carlton Spa has a full-service hair and nail salon.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "With 20 treatment rooms, a full-service hair and nail salon, cold plunge pool, steam room",
+          "note": "spa has full-service hair and nail salon",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dalil-the-ritz-carlton-dallas-las-colinas/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The spa has a cold plunge pool and a steam room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "With 20 treatment rooms, a full-service hair and nail salon, cold plunge pool, steam room",
+          "note": "cold plunge pool and steam room",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dalil-the-ritz-carlton-dallas-las-colinas/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Villas overlook TPC Las Colinas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Overlooking TPC Las Colinas, The Villas at The Ritz-Carlton Dallas, Las Colinas are the epitome of intimate escapes.",
+          "note": "Villas overlook TPC Las Colinas",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dalil-the-ritz-carlton-dallas-las-colinas/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The Ritz-Carlton Suite is the largest suite, in the tower, with views of Downtown Las Colinas, TPC Las Colinas and the resort pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Our largest suite, The Ritz-Carlton Suite provides sweeping views of Downtown Las Colinas, TPC Las Colinas and the resort pool.",
+          "note": "largest suite with those views",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dalil-the-ritz-carlton-dallas-las-colinas/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "of dedicated living, dining, cooking and sleeping space provide plush comforts in the tower.",
+          "note": "located in the tower",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dalil-the-ritz-carlton-dallas-las-colinas/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "A $55 million transformation of the resort, now managed by Ritz-Carlton, wrapped up in Spring 2024.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "It is now being managed by the Ritz Carlton after a $55 million transformation that wrapped up in Spring 2024.",
+          "note": "all elements covered",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/irving/the-ritz-carlton-dallas-las-colinas",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "For more than 38 years the property was known as The Four Seasons Resort at Las Colinas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "For more than 38 years, this property was known as The Four Seasons Resort at Las Colinas.",
+          "note": "exact match",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/irving/the-ritz-carlton-dallas-las-colinas",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Poolside Villa has a terrace that opens directly into the resort pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "this villa features a terrace that opens directly into the resort pool",
+          "note": "terrace opens into pool, in Poolside Villa section",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dalil-the-ritz-carlton-dallas-las-colinas/rooms/signature-villas/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "TPC Las Colinas is an 18-hole, par-70 championship golf course.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "TPC Las Colinas is an 18-hole, par-70 golf course near Dallas",
+          "note": "18-hole par-70",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dalil-the-ritz-carlton-dallas-las-colinas/golf/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "has an 18-hole, par-70 championship course",
+          "note": "championship course",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dalil-the-ritz-carlton-dallas-las-colinas/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Club level access is now an option, with a dedicated concierge and a lounge that has a view of the resort pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "club level access is now an option which gets guests a dedicated concierge, gourmet culinary and a gorgeous lounge that has a great view of the resort pool.",
+          "note": "exact match",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/irving/the-ritz-carlton-dallas-las-colinas",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel does not provide shuttle service from the airports.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "This hotel does not provide shuttle service.",
+          "note": "stated for both DFW and Love Field airports",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dalil-the-ritz-carlton-dallas-las-colinas/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes the resort location may require transportation to downtown Dallas attractions.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium luxury pricing typical of Ritz-Carlton properties.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
