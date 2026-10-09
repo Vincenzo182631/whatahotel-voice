@@ -70,6 +70,7 @@ export interface RunOptions {
   refresh?: boolean;
   chain?: string;
   officialUrl?: string;
+  manualConfirm?: boolean;
   /** Also look for a Condé Nast Traveler page (one extra search). Labelled "editorial", never official. */
   withEditorial?: boolean;
   resolveUrl?: (url: string) => Promise<string>;
@@ -152,7 +153,7 @@ export async function runResearch(slug: string, opts: RunOptions): Promise<Resea
         resolveUrl: opts.resolveUrl ?? resolveUrl,
         now,
       },
-      { officialUrl: opts.officialUrl },
+      { officialUrl: opts.officialUrl, manualConfirm: opts.manualConfirm },
     ).catch((err) => {
       if (!(err instanceof BudgetExceeded)) throw err;
       return { status: "needs_review", hotel, affiliation: { kind: "unknown" }, evidence: [], reasons: [err.message], candidates: [], checked_at: now().toISOString() } as Identity;

@@ -165,7 +165,7 @@ export function baseUrlFor(url: string, aff: Identity["affiliation"]): string {
 }
 
 /** Finds and confirms the hotel's official website. Never guesses: anything unconfirmed comes back as needs_review. */
-export async function resolveOfficialSite(hotel: HotelRef, deps: IdentityDeps, opts: { officialUrl?: string } = {}): Promise<Identity> {
+export async function resolveOfficialSite(hotel: HotelRef, deps: IdentityDeps, opts: { officialUrl?: string; manualConfirm?: boolean } = {}): Promise<Identity> {
   const aff = affiliationOf(hotel);
   const checkedAt = (deps.now?.() ?? new Date()).toISOString();
   const base = { hotel, affiliation: aff, evidence: [] as string[], reasons: [] as string[], candidates: [] as string[], checked_at: checkedAt };
@@ -217,6 +217,12 @@ export async function resolveOfficialSite(hotel: HotelRef, deps: IdentityDeps, o
       finalUrl = await deps.resolveUrl(candidate);
       const text = await deps.load(finalUrl);
       const r = assessPage(hotel, aff, { url: finalUrl, text });
+      // a person vouched for this exact page: only the name and city wording may differ (renames, local place names); every other check still applies
+      if (!r.ok && opts.manualConfirm && opts.officialUrl && r.reasons.length && r.reasons.every((x) => /of the hotel name appears|does not mention/.test(x))) {
+        r.ok = true;
+        r.evidence.push(`confirmed by hand as this hotel's own page (${r.reasons.join("; ")})`);
+        r.reasons = [];
+      }
       if (r.ok) {
         const baseUrl = baseUrlFor(finalUrl, aff);
         const resolved: Identity["affiliation"] =

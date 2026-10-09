@@ -24,7 +24,7 @@ Usage: npm run hotel -- <command> [options]
   scrape    --hotel <slug> | --collection pilot   Fetch whatahotel.com page(s) into data/sources/
   scrape    ... --via firecrawl                   Use Firecrawl instead of a plain fetch (needs FIRECRAWL_API_KEY)
   research  --url <url> [--out file]              Firecrawl a page to markdown (default data/research/<host>.md)
-  research  --hotel <slug> [--chain <id>|independent] [--official-url <url>] [--with-editorial] [--refresh]
+  research  --hotel <slug> [--chain <id>|independent] [--official-url <url> [--confirm-official]] [--with-editorial] [--refresh]
             [--max-pages N] [--max-fc-calls N] [--max-retries N] [--max-chars N]
                                                   Confirm the hotel's official site (never guessed), fetch its
                                                   property pages inside per-hotel limits, and write the extraction
@@ -104,6 +104,7 @@ const { positionals, values } = parseArgs({
     chain: { type: "string" },
     "chain-url": { type: "string" },
     "official-url": { type: "string" },
+    "confirm-official": { type: "boolean" },
     "with-editorial": { type: "boolean" },
     "max-pages": { type: "string" },
     "max-fc-calls": { type: "string" },
@@ -167,7 +168,7 @@ async function main() {
         }
         const num = (v?: string) => (v ? Number(v) : undefined);
         const budget = new Budget(limitsFromEnv(process.env, { maxPages: num(values["max-pages"]), maxFirecrawlCalls: num(values["max-fc-calls"]), maxRetries: num(values["max-retries"]), maxChars: num(values["max-chars"]) }));
-        const r = await runResearch(slug, { fc: FirecrawlClient.fromEnv(), budget, refresh: values.refresh, chain: values.chain, officialUrl: values["official-url"], withEditorial: values["with-editorial"] });
+        const r = await runResearch(slug, { fc: FirecrawlClient.fromEnv(), budget, refresh: values.refresh, chain: values.chain, officialUrl: values["official-url"], manualConfirm: values["confirm-official"], withEditorial: values["with-editorial"] });
         const id = r.identity;
         console.log(`${id.status === "confirmed" ? "✓" : "✗"} ${slug}: official site ${id.status}${id.official_url ? ` ${id.official_url}` : ""}`);
         for (const e of id.evidence) console.log(`    + ${e}`);
