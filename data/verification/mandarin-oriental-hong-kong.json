@@ -1,0 +1,336 @@
+{
+  "hotel_slug": "mandarin-oriental-hong-kong",
+  "hotel_name": "Mandarin Oriental, Hong Kong",
+  "checked_at": "2026-10-09T00:16:41.587Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 13,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 6,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.mandarinoriental.com/en/hong-kong/victoria-harbour",
+      "tier": "official",
+      "chars": 7874
+    },
+    {
+      "id": "d2",
+      "url": "https://www.mandarinoriental.com/en/hong-kong/victoria-harbour/dine",
+      "tier": "official",
+      "chars": 6250
+    },
+    {
+      "id": "d3",
+      "url": "https://www.mandarinoriental.com/en/hong-kong/victoria-harbour/stay",
+      "tier": "official",
+      "chars": 6530
+    },
+    {
+      "id": "d4",
+      "url": "https://www.mandarinoriental.com/en/hong-kong/victoria-harbour/wellness",
+      "tier": "official",
+      "chars": 4647
+    },
+    {
+      "id": "d5",
+      "url": "https://www.mandarinoriental.com/en/hong-kong/victoria-harbour/",
+      "tier": "official",
+      "chars": 7874
+    },
+    {
+      "id": "d6",
+      "url": "https://www.cntraveler.com/hotels/hong-kong-s-a-r-/jordan/mandarin-oriental-hong-kong",
+      "tier": "editorial",
+      "chars": 8069
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is located at 5 Connaught Road Central, Hong Kong, overlooking Victoria Harbour.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Mandarin Oriental, Hong Kong is located at 5 Connaught Road Central, Hong Kong, overlooking the iconic Victoria Harbour.",
+          "note": "address and harbour",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/hong-kong/victoria-harbour",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel has direct access to the Star Ferry.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "with direct access to luxury shopping, transport links and the Star Ferry.",
+          "note": "direct Star Ferry access",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/hong-kong/victoria-harbour",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel describes itself as a five-star urban retreat in the heart of the city.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Mandarin Oriental, Hong Kong is a five-star urban retreat in the heart of the city.",
+          "note": "self-description",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/hong-kong/victoria-harbour/stay",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Man Wah is a Michelin-starred restaurant.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The hotel is home to Man Wah, a Michelin‑starred restaurant",
+          "note": "Michelin-starred",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/hong-kong/victoria-harbour/dine",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Man Wah is located high within the hotel and offers sweeping views across Victoria Harbour and Hong Kong's skyline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Located high within the hotel, it also offers sweeping views across Victoria Harbour and Hong Kong’s skyline.",
+          "note": "location and views",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/hong-kong/victoria-harbour/dine",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Terrace Boulud by Mandarin Oriental is a rooftop brasserie.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Rooftop Brasserie",
+          "note": "category label for Terrace Boulud",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/hong-kong/victoria-harbour",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "atop a spectacular rooftop,",
+          "note": "rooftop setting",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/hong-kong/victoria-harbour",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Aubrey is a Japanese izakaya.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "An eccentric Japanese izakaya experience inspired by the journey of a hungry mind",
+          "note": "The Aubrey is a Japanese izakaya",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/hong-kong/victoria-harbour",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Room categories include City View, Statue Square View and Harbour View Rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Accommodation options include City View, Statue Square View, and Harbour View Rooms",
+          "note": "room categories",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/hong-kong/victoria-harbour/stay",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Harbour View Rooms offer views of Victoria Harbour.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "or the spectacular Victoria Harbour. Accommodation options include City View, Statue Square View, and Harbour View Rooms",
+          "note": "Harbour View rooms showcase the harbour",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/hong-kong/victoria-harbour/stay",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Clipper Lounge is an international buffet restaurant.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Clipper Lounge is where the city's elite come to meet for Sunday brunch or a 5-star dinner buffet.",
+          "note": "buffet",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/hong-kong/victoria-harbour",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "International Buffet",
+          "note": "category label",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/hong-kong/victoria-harbour",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Krug Room offers creative tasting menus partnered with Krug champagne.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Brilliantly creative tasting menus partnered with Krug champagne in a sophisticated, intimate restaurant.",
+          "note": "Krug Room",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/hong-kong/victoria-harbour",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Mandarin Oriental, Hong Kong is in the next phase of its transformation.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "As Mandarin Oriental, Hong Kong enters the next phase of its transformation",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/hong-kong/victoria-harbour/wellness",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Spa and wellness experiences are currently available at Mandarin Oriental The Landmark, Hong Kong.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "spa and wellness experiences are currently available at Mandarin Oriental The Landmark, Hong Kong.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/hong-kong/victoria-harbour/wellness",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the busy Central District location can be crowded.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, breakfast for two is free daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers can be combined with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
