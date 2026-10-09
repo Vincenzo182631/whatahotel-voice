@@ -1,0 +1,380 @@
+{
+  "hotel_slug": "ritz-carlton-mexico-city",
+  "hotel_name": "The Ritz Carlton Mexico City",
+  "checked_at": "2026-10-09T14:51:22.332Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 0,
+      "total": 17
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ritzcarlton.com/en/hotels/mexrz-the-ritz-carlton-mexico-city/overview/",
+      "tier": "official",
+      "chars": 13620
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ritzcarlton.com/en/hotels/mexrz-the-ritz-carlton-mexico-city/rooms/",
+      "tier": "official",
+      "chars": 9417
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ritzcarlton.com/en/hotels/mexrz-the-ritz-carlton-mexico-city/dining/",
+      "tier": "official",
+      "chars": 5595
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ritzcarlton.com/en/hotels/mexrz-the-ritz-carlton-mexico-city/spa/",
+      "tier": "official",
+      "chars": 7215
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ritzcarlton.com/en/hotels/mexrz-the-ritz-carlton-mexico-city/experiences/",
+      "tier": "official",
+      "chars": 12992
+    },
+    {
+      "id": "d6",
+      "url": "https://www.cntraveler.com/hotels/mexico-city/the-ritz-carlton-mexico-city",
+      "tier": "editorial",
+      "chars": 8275
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ritzcarlton.com/en/hotels/mexrz-the-ritz-carlton-mexico-city/club/",
+      "tier": "official",
+      "chars": 4818
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ritzcarlton.com/en/hotels/mexrz-the-ritz-carlton-mexico-city/reviews/",
+      "tier": "official",
+      "chars": 760
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel overlooks Chapultepec Park in the Reforma area of Mexico City.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located in the heart of the city and overlooking Chapultepec Park, The Ritz-Carlton, Mexico City, our luxury hotel in Reforma",
+          "note": "Overlooks the park; Reforma",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/mexrz-the-ritz-carlton-mexico-city/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The address is Avenida Paseo de la Reforma 509, Cuauhtemoc, Mexico City.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Avenida Paseo de la Reforma 509, Cuauhtemoc, Mexico City, Mexico, 06500",
+          "note": "Address matches",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/mexrz-the-ritz-carlton-mexico-city/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel's design draws on surrealism, ancient rituals, folklore and the energy of contemporary Mexico.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Inspired by surrealism, ancient rituals, folklore, and the energy of contemporary Mexico",
+          "note": "All four influences named",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/mexrz-the-ritz-carlton-mexico-city/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Mexican artist Emilio Chapela created original works for selected rooms and suites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Mexican artist Emilio Chapela created original works for selected Rooms and Suites",
+          "note": "Direct match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/mexrz-the-ritz-carlton-mexico-city/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Carlotta is the hotel's rooftop cocktail bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Carlotta, our rooftop bar in Mexico City",
+          "note": "Rooftop cocktail bar",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/mexrz-the-ritz-carlton-mexico-city/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The spa has a steam room and a sauna.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "including a steam room, sauna, and time capsule treatments",
+          "note": "Spa amenities include both",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/mexrz-the-ritz-carlton-mexico-city/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel has an indoor pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "has one Indoor pool on-site for hotel guests",
+          "note": "Indoor pool",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/mexrz-the-ritz-carlton-mexico-city/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The Polanco district, with designer shops and high-end dining, is practically next door.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "The swankier district of Polanco is practically next door, with its parade of designer shops and high-end dining.",
+          "note": "Direct match",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/mexico-city/the-ritz-carlton-mexico-city",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Toronto firm Chapi Chapo Design gave the hotel a streamlined look with clean geometries and floor-to-ceiling windows.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Toronto firm Chapi Chapo Design, in favor of a more streamlined opulence that combines clean geometries and floor-to-ceiling windows",
+          "note": "Direct match",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/mexico-city/the-ritz-carlton-mexico-city",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Most rooms have private balconies with panoramic views over Chapultepec forest.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "About 90 percent of the rooms have private balconies offering panoramic views over the Bosque de Chapultepec",
+          "note": "About 90 percent equals most",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/mexico-city/the-ritz-carlton-mexico-city",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Multimedia artist Omar Barquet created site-specific works for the elevator halls.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "For the 10 elevator halls, Barquet created a series of site-specific works",
+          "note": "Elevator halls works",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/mexrz-the-ritz-carlton-mexico-city/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Multimedia artist Omar Barquet",
+          "note": "Identifies artist as multimedia artist",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/mexrz-the-ritz-carlton-mexico-city/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Spa treatments use botanical ingredients combined with the healing and spiritual traditions of Mexico City's Aztec culture.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "combined with the healing and spiritual traditions of the Aztec culture",
+          "note": "Spa treatments combine botanicals with Aztec traditions",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/mexrz-the-ritz-carlton-mexico-city/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "A Xochimilco experience led by agroecology expert Lucio Usobiaga includes a ride on a traditional trajinera boat.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "led by agroecology expert Lucio Usobiaga",
+          "note": "Expert named",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/mexrz-the-ritz-carlton-mexico-city/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "aboard a traditional trajinera",
+          "note": "Trajinera ride included",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/mexrz-the-ritz-carlton-mexico-city/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Guests can take a cooking class on making Mexican mole and hand-pressed tortillas with Chef Nayelli Caballero.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Learn the art of crafting authentic Mexican mole and hand-pressed tortillas from scratch as Chef Nayelli Caballero guides you",
+          "note": "Direct match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/mexrz-the-ritz-carlton-mexico-city/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The thick glass panels at the balconies magnify the afternoon sun and block mountain breezes, making the balconies hard to use through much of the day.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "tend to magnify the afternoon sun while also blocking the mountain breezes that keep this high-altitude city cool, making them practically unusable through much of the day",
+          "note": "Direct match",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/mexico-city/the-ritz-carlton-mexico-city",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The hotel does not provide shuttle service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "This hotel does not provide shuttle service.",
+          "note": "Direct match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/mexrz-the-ritz-carlton-mexico-city/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "Club access needs an upgraded booking; Marriott Bonvoy elite status does not give complimentary Club access.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Club access requires an upgraded booking at the Club. Marriott Bonvoy Elite Status does not provide complimentary access to Club.",
+          "note": "Direct match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/mexrz-the-ritz-carlton-mexico-city/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

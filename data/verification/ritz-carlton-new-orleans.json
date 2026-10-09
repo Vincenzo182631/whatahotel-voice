@@ -1,0 +1,485 @@
+{
+  "hotel_slug": "ritz-carlton-new-orleans",
+  "hotel_name": "The Ritz-Carlton, New Orleans",
+  "checked_at": "2026-10-09T14:51:38.640Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 0,
+      "total": 18
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ritzcarlton.com/en/hotels/msyrz-the-ritz-carlton-new-orleans/overview/",
+      "tier": "official",
+      "chars": 15444
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ritzcarlton.com/en/hotels/msyrz-the-ritz-carlton-new-orleans/rooms/signature-suites/",
+      "tier": "official",
+      "chars": 13561
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ritzcarlton.com/en/hotels/msyrz-the-ritz-carlton-new-orleans/dining/",
+      "tier": "official",
+      "chars": 5614
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ritzcarlton.com/en/hotels/msyrz-the-ritz-carlton-new-orleans/spa/",
+      "tier": "official",
+      "chars": 11491
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ritzcarlton.com/en/hotels/msyrz-the-ritz-carlton-new-orleans/rooms/",
+      "tier": "official",
+      "chars": 4918
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ritzcarlton.com/en/hotels/msyrz-the-ritz-carlton-new-orleans/club/",
+      "tier": "official",
+      "chars": 4826
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ritzcarlton.com/en/hotels/msyrz-the-ritz-carlton-new-orleans/hotel-stories/",
+      "tier": "official",
+      "chars": 2787
+    },
+    {
+      "id": "d8",
+      "url": "https://www.cntraveler.com/hotels/new-orleans/the-ritz-carlton-new-orleans",
+      "tier": "editorial",
+      "chars": 6545
+    },
+    {
+      "id": "d9",
+      "url": "https://www.ritzcarlton.com/en/hotels/msyrz-the-ritz-carlton-new-orleans/experiences/",
+      "tier": "official",
+      "chars": 17166
+    },
+    {
+      "id": "d10",
+      "url": "https://www.ritzcarlton.com/en/hotels/msyrz-the-ritz-carlton-new-orleans/experiences/planning-your-trip/",
+      "tier": "official",
+      "chars": 17866
+    },
+    {
+      "id": "d11",
+      "url": "https://www.ritzcarlton.com/en/hotels/msyrz-the-ritz-carlton-new-orleans/reviews/",
+      "tier": "official",
+      "chars": 788
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is set within the Beaux Arts Maison Blanche building, which was originally home to the Maison Blanche Department Store.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Set within the 1908 Beaux Arts Maison Blanche building",
+          "note": "named building",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/msyrz-the-ritz-carlton-new-orleans/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "this grand Beaux Arts structure was originally home to the Maison Blanche Department Store",
+          "note": "original use",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/msyrz-the-ritz-carlton-new-orleans/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is at 921 Canal Street, on the edge of the French Quarter, a block from Bourbon Street and Saenger Theatre.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "921 Canal Street, New Orleans, Louisiana, USA, 70112",
+          "note": "address",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/msyrz-the-ritz-carlton-new-orleans/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our luxury hotel in New Orleans is located on the edge of the French Quarter. We offer a desirable address just a block from Bourbon Street and Saenger Theatre",
+          "note": "location",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/msyrz-the-ritz-carlton-new-orleans/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel takes up an entire city block on the edge of the French Quarter.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "The hotel takes up an entire city block on the edge of the French Quarter.",
+          "note": "exact",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-orleans/the-ritz-carlton-new-orleans",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The Residence is a two-bedroom penthouse suite with a dining room and fully equipped kitchen, four fireplaces and a private rooftop terrace with views of the French Quarter.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The Residence is an opulent two-bedroom penthouse suite in New Orleans",
+          "note": "two-bedroom penthouse",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/msyrz-the-ritz-carlton-new-orleans/rooms/signature-suites/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "an elegant dining room with a fully equipped kitchen, four grand fireplaces, and a private rooftop terrace offering breathtaking views of the French Quarter",
+          "note": "rest",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/msyrz-the-ritz-carlton-new-orleans/rooms/signature-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Guest rooms feature commissioned artwork inspired by the city's heritage.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Our hotel rooms in downtown New Orleans feature commissioned artwork inspired by the city's heritage",
+          "note": "exact",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/msyrz-the-ritz-carlton-new-orleans/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Ritz-Carlton Spa covers 25,000 square feet and has 20 treatment rooms, a café and a boutique.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Spread across 25,000 square feet, our hotel's spa is the largest in New Orleans and is appointed with 20 treatment rooms, a café and a boutique.",
+          "note": "all elements",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/msyrz-the-ritz-carlton-new-orleans/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Signature spa treatments include a New Orleans-inspired Voodoo Ritual and a couples experience in a specially designed Couples Suite.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Signature treatments at our hotel day spa include a New Orleans-inspired Voodoo Ritual and an indulgent couple’s experience in a specially designed Couples Suite.",
+          "note": "exact",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/msyrz-the-ritz-carlton-new-orleans/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "M Bistro serves farm-to-table Louisiana cuisine, and Davenport Lounge offers cocktails and light fare with live jazz.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Savor farm-to-table Louisiana cuisine at M Bistro, then indulge in cocktails and light fare accompanied by live jazz at Davenport Lounge.",
+          "note": "exact",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/msyrz-the-ritz-carlton-new-orleans/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Afternoon tea is served at Davenport Lounge on Saturdays and Sundays, and reservations are required.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Experience a luxury New Orleans Afternoon Tea at Davenport Lounge, offered every Saturday and Sunday at 11:00 AM and 2:30 PM.",
+          "note": "days",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/msyrz-the-ritz-carlton-new-orleans/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Reservations are required for this cherished Ritz Carlton tradition.",
+          "note": "reservations",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/msyrz-the-ritz-carlton-new-orleans/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Private dining includes three booths named Stella, Desire and Blanche, and a wine room table that seats up to twelve.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Escape into one of the three plush booths. Choose from Stella, Desire, and Blanche.",
+          "note": "booths",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/msyrz-the-ritz-carlton-new-orleans/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "it features a table that can seat up to twelve",
+          "note": "wine room",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/msyrz-the-ritz-carlton-new-orleans/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The Michelin Guide named The Ritz-Carlton, New Orleans among fourteen hotels in its New Orleans MICHELIN Selected Stays.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "The MICHELIN Guide showcases fourteen hotels, including The Ritz-Carlton, New Orleans",
+          "note": "fourteen",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/msyrz-the-ritz-carlton-new-orleans/hotel-stories/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "New Orleans’ MICHELIN Selected Stays",
+          "note": "heading",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/msyrz-the-ritz-carlton-new-orleans/hotel-stories/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Residence is a two-bedroom penthouse suite with four fireplaces and a private rooftop terrace with views of the French Quarter.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The Residence is an opulent two-bedroom penthouse suite in New Orleans",
+          "note": "two-bedroom",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/msyrz-the-ritz-carlton-new-orleans/rooms/signature-suites/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "four grand fireplaces, and a private rooftop terrace offering breathtaking views of the French Quarter",
+          "note": "rest",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/msyrz-the-ritz-carlton-new-orleans/rooms/signature-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "A gumbo masterclass lets guests learn to make a Louisiana gumbo, from the roux to the finished dish, guided by the hotel's chef.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "you’ll learn to craft an award‑winning Louisiana classic, from a rich, velvety roux to a perfectly finished dish guided by our chef",
+          "note": "gumbo masterclass",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/msyrz-the-ritz-carlton-new-orleans/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Jeremy Davenport and his band play live jazz at Davenport Lounge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d9",
+          "quote": "Experience the melodic jazz of Jeremy Davenport and his band Wednesday-Thursday, 5:30PM - 9:30PM; Friday-Saturday, 8:00PM - 12:00AM.",
+          "note": "band",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/msyrz-the-ritz-carlton-new-orleans/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "indulge in cocktails and light fare accompanied by live jazz at Davenport Lounge",
+          "note": "at lounge",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/msyrz-the-ritz-carlton-new-orleans/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The spa covers 25,000 square feet with 20 treatment rooms, and offers a New Orleans-inspired Voodoo Ritual.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Spread across 25,000 square feet, our hotel's spa is the largest in New Orleans and is appointed with 20 treatment rooms, a café and a boutique.",
+          "note": "size",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/msyrz-the-ritz-carlton-new-orleans/spa/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "a New Orleans-inspired Voodoo Ritual",
+          "note": "voodoo",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/msyrz-the-ritz-carlton-new-orleans/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel does not provide shuttle service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "This hotel does not provide shuttle service.",
+          "note": "exact",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/msyrz-the-ritz-carlton-new-orleans/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Club access requires an upgraded booking, and Marriott Bonvoy Elite Status does not provide complimentary access to the Club.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "*Club access requires an upgraded booking at the Club. Marriott Bonvoy Elite Status does not provide complimentary access to the Club.",
+          "note": "exact",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/msyrz-the-ritz-carlton-new-orleans/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "Valet parking is offered at the hotel for a daily fee.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "On-site valet parking is available at The Ritz-Carlton, New Orleans. The daily valet fee is $62.00 per day.",
+          "note": "valet fee",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/msyrz-the-ritz-carlton-new-orleans/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

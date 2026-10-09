@@ -1,0 +1,411 @@
+{
+  "hotel_slug": "ritz-carlton-dallas",
+  "hotel_name": "The Ritz-Carlton, Dallas",
+  "checked_at": "2026-10-09T14:51:41.282Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 16,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 17
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ritzcarlton.com/en/hotels/dalrz-the-ritz-carlton-dallas/overview/",
+      "tier": "official",
+      "chars": 14563
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ritzcarlton.com/en/hotels/dalrz-the-ritz-carlton-dallas/rooms/",
+      "tier": "official",
+      "chars": 5926
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ritzcarlton.com/en/hotels/dalrz-the-ritz-carlton-dallas/rooms/signature-suites/",
+      "tier": "official",
+      "chars": 8291
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ritzcarlton.com/en/hotels/dalrz-the-ritz-carlton-dallas/dining/",
+      "tier": "official",
+      "chars": 8495
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ritzcarlton.com/en/hotels/dalrz-the-ritz-carlton-dallas/spa/",
+      "tier": "official",
+      "chars": 13958
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ritzcarlton.com/en/hotels/dalrz-the-ritz-carlton-dallas/experiences/",
+      "tier": "official",
+      "chars": 14662
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ritzcarlton.com/en/hotels/dalrz-the-ritz-carlton-dallas/club/",
+      "tier": "official",
+      "chars": 4750
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ritzcarlton.com/en/hotels/dalrz-the-ritz-carlton-dallas/hotel-stories/",
+      "tier": "official",
+      "chars": 2414
+    },
+    {
+      "id": "d9",
+      "url": "https://www.ritzcarlton.com/en/hotels/dalrz-the-ritz-carlton-dallas/reviews/",
+      "tier": "official",
+      "chars": 716
+    },
+    {
+      "id": "d10",
+      "url": "https://www.cntraveler.com/hotels/united-states/dallas/ritz-carlton-dallas",
+      "tier": "editorial",
+      "chars": 6188
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is on McKinney Avenue in Uptown Dallas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Located on McKinney Avenue in the heart of Uptown Dallas",
+          "note": "Location stated directly",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dalrz-the-ritz-carlton-dallas/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Fearing's Restaurant, led by celebrity chef Dean Fearing, offers a fine dining take on Southern cuisine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Fearing's Restaurant is home to the ‘Bold Flavors, No Borders’ cuisine of celebrity chef Dean Fearing. This Uptown Dallas restaurant offers a fine dining take on Southern cuisine.",
+          "note": "Matches claim",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dalrz-the-ritz-carlton-dallas/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Rattlesnake Bar has live music every Friday and Saturday, with curated cocktails and bar bites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Join us for live music every Friday and Saturday, alongside curated cocktails and inventive bar bites.",
+          "note": "Matches claim",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dalrz-the-ritz-carlton-dallas/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Fearing's Restaurant was named MICHELIN Recommended in 2025.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "2025 MICHELIN Recommended - Fearing's Restaurant",
+          "note": "Award listed",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dalrz-the-ritz-carlton-dallas/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Guest rooms and suites have Frette linens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Premium Frette bed and bath linens for a refined stay",
+          "note": "Hotel-wide room feature; suites also list Frette",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dalrz-the-ritz-carlton-dallas/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Featherbed, Duvet, and Frette luxury linens",
+          "note": "Suite room details",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dalrz-the-ritz-carlton-dallas/rooms/signature-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Guest bathrooms are marble with Diptyque bath amenities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Marble-appointed guest bathrooms with Diptyque bath amenities",
+          "note": "Matches claim",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dalrz-the-ritz-carlton-dallas/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Deluxe Suite blends modern luxury with Art Deco touches and brass details.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Blending modern luxury with Art Deco touches, it offers a sophisticated yet inviting residential feel.",
+          "note": "Deluxe Suite description",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dalrz-the-ritz-carlton-dallas/rooms/signature-suites/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The Deluxe Suite at The Ritz-Carlton, Dallas features a refined palette with rich textures, bold accents, and brass details.",
+          "note": "Brass details",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dalrz-the-ritz-carlton-dallas/rooms/signature-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Club Lounge offers complimentary food and beverage presentations five times each day.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Five times each day, the Club Lounge offers complimentary food and beverage presentations.",
+          "note": "Matches claim",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dalrz-the-ritz-carlton-dallas/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The spa has a sauna, steam room, cold plunge and whirlpool reserved for spa guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "additional amenities include a sauna, steam room, cold plunge, and whirlpool exclusively reserved for spa guests.",
+          "note": "Matches claim",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dalrz-the-ritz-carlton-dallas/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Children are welcome in the Club Lounge, where they can enjoy family games and freshly baked cookies.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Ritz Kids are welcome in the Lounge, where they can enjoy family games and freshly baked cookies.",
+          "note": "Matches claim",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dalrz-the-ritz-carlton-dallas/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Every night at 6 PM in the lobby, a live cellist plays and guests can have a signature toast with tequila created exclusively for Fearing's Restaurant.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Every night at 6 PM, join us in the lobby as a live cellist and modern Southern sounds mark the transition from day to evening.",
+          "note": "Time, place, cellist",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dalrz-the-ritz-carlton-dallas/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Raise a glass with a signature toast featuring tequila created exclusively for Fearing’s Restaurant, setting the tone for the evening ahead.",
+          "note": "Toast with tequila",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dalrz-the-ritz-carlton-dallas/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Ritz-Carlton, Dallas received the Forbes Travel Guide Five-Star designation for the sixth consecutive year, announced in February 2026.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "For the sixth consecutive year, Dallas' luxury Lone Star landmark, The Ritz-Carlton, Dallas, has been awarded with the prestigious Five-Star designation by Forbes Travel Guide.",
+          "note": "Sixth consecutive year",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dalrz-the-ritz-carlton-dallas/hotel-stories/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "Wednesday, February 11, 2026",
+          "note": "Dated news item, February 2026",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dalrz-the-ritz-carlton-dallas/hotel-stories/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Fearing's has seven seating options, including a live-action kitchen, the mahogany-walled Rattlesnake Bar and an alfresco patio.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Seven different seating options — including a live-action kitchen, the mahogany-walled Rattlesnake Bar, and an alfresco patio",
+          "note": "Matches claim",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dalrz-the-ritz-carlton-dallas/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The vintage McKinney Avenue trolley stops in front of the hotel and carries visitors to shopping, restaurants and attractions in Uptown Dallas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "The vintage McKinney Avenue trolley stops in front of our hotel near Victory Park, Dallas, carrying visitors to nearby shopping, restaurants and attractions throughout Uptown Dallas.",
+          "note": "Matches claim",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dalrz-the-ritz-carlton-dallas/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Club Lounge access requires an upgraded Club booking; Marriott Bonvoy Elite Status does not give complimentary access.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Club access requires an upgraded booking at the Club. Marriott Bonvoy Elite Status does not provide complimentary access to Club.",
+          "note": "Matches claim",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dalrz-the-ritz-carlton-dallas/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The hotel does not have an airport shuttle to Dallas Love Field, the closest airport.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "No, The Ritz-Carlton, Dallas does not have an airport shuttle to Dallas Love Field.",
+          "note": "No shuttle",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dalrz-the-ritz-carlton-dallas/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The closest airport near The Ritz-Carlton, Dallas is Dallas Love Field (DAL).",
+          "note": "Closest airport",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dalrz-the-ritz-carlton-dallas/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the urban setting may lack resort-style outdoor spaces.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
