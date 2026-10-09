@@ -20,3 +20,6 @@ Rebuild with `npm run hotel -- offers` then `npx tsx scripts/closing-audit.ts`. 
 
 ## Ritz-Carlton Bal Harbour (held, batch 4)
 The official site says the hotel is temporarily closed from April 6, 2026 to early January 2027 and will reopen as a reimagined resort (new restaurant, spa and members club). Research stopped at the closure check; no profile or clip was made. Redo the research once it reopens.
+
+## Al Bustan Palace, a Ritz-Carlton Hotel (held, batch 4)
+The official pages say a renovation began 1 July 2026 with no official reopening date (Condé Nast Traveler says plans to open by 2028). Seven venues are listed as temporarily closed. Research stopped at the closure check; no profile or clip was made. Redo the research once it reopens.
