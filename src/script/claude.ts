@@ -4,11 +4,11 @@ import { z } from "zod";
 import { ScriptSchema, type HotelProfile, type Script } from "../core/schema.js";
 import {
   FACTCHECK_SYSTEM_PROMPT,
-  SCRIPT_SYSTEM_PROMPT,
+  scriptSystemPrompt,
   factcheckUserPrompt,
   scriptUserPrompt,
 } from "./prompt.js";
-import { checkScript, withSignature } from "./rules.js";
+import { checkScript, closingFor, withSignature } from "./rules.js";
 
 export const SCRIPT_MODEL = "claude-opus-5-5";
 
@@ -75,7 +75,7 @@ export async function writeScript(
   let attempt = 0;
   while (attempt < maxAttempts) {
     attempt++;
-    script = withSignature(await parseWith(client, ScriptSchema, SCRIPT_SYSTEM_PROMPT, scriptUserPrompt(profile, feedback), "high"), profile);
+    script = withSignature(await parseWith(client, ScriptSchema, scriptSystemPrompt(closingFor(profile).words), scriptUserPrompt(profile, feedback), "high"), profile);
     feedback = checkScript(script, profile);
     if (feedback.length === 0) break;
   }

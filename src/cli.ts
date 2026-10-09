@@ -8,6 +8,7 @@ import { checkFreshness, isExpired, needsRefresh, WARN_DAYS } from "./core/fresh
 import { promoteToCurrent, publishTake } from "./publish/blob.js";
 import { importHotel } from "./sources/import.js";
 import { verifyHotel } from "./verify/index.js";
+import { buildOffers } from "./offers/index.js";
 import { Budget, limitsFromEnv } from "./research/budget.js";
 import { assertResearchReady, importResearch, runResearch } from "./research/research.js";
 import { importFindings, prepareFactCheck, prepareVerification, prepareWriter } from "./verify/external.js";
@@ -31,6 +32,11 @@ Usage: npm run hotel -- <command> [options]
   research  --hotel <slug> --import <facts.json>  Re-check every excerpt in code, hold out disputed/promotional/undated
                                                   claims, and write data/research/<slug>/research.json. A hotel marked
                                                   Needs review is refused by script/generate
+  offers    --hotel <slug> | --collection <name> [--chain-url <url>]   (no flag: every profile)
+                                                  Read the hotel's and its chain's WhataHotel pages, confirm which
+                                                  benefits apply to that property (conflicts and unclear terms are
+                                                  left out and flagged) and write data/research/<slug>/offers.json
+                                                  with the closing line the script will end on
   import    --hotel <slug> | --collection pilot [--from api,db] [--dry-run]
                                                   Add claims from the WhataHotel data API and the
                                                   Price Intelligence DB (read-only) to profiles
@@ -96,6 +102,7 @@ const { positionals, values } = parseArgs({
     "factcheck-file": { type: "string" },
     refresh: { type: "boolean" },
     chain: { type: "string" },
+    "chain-url": { type: "string" },
     "official-url": { type: "string" },
     "with-editorial": { type: "boolean" },
     "max-pages": { type: "string" },
@@ -173,6 +180,24 @@ async function main() {
       const file = path.resolve(values.out ?? path.join("data/research", `${new URL(url).hostname}.md`));
       await writeFile(file, `<!-- ${url} -->\n\n${page.markdown ?? ""}\n`);
       console.log(`✓ ${url} -> ${path.relative(process.cwd(), file)}`);
+      return;
+    }
+
+    case "offers": {
+      const slugs = values.hotel ? [values.hotel] : values.collection ? (await loadCollection(values.collection)).hotels.map((h) => h.slug) : await listProfileSlugs();
+      for (const slug of slugs) {
+        try {
+          const o = await buildOffers(slug, { chainUrl: values["chain-url"] });
+          console.log(`${o.status === "ready" ? "✓" : "✗"} ${slug}: ${o.benefits.filter((b) => b.status === "confirmed").map((b) => b.kind).join(", ") || "no confirmed benefits"}`);
+          for (const b of o.benefits.filter((x) => x.status !== "confirmed" && x.status !== "absent")) console.log(`    - ${b.kind}: ${b.status}`);
+          for (const i of o.issues) console.log(`    ! ${i.slice(0, 200)}`);
+          console.log(`  closing (${o.closing!.words} words, ${o.closing!.template}): ${o.closing!.text}\n  data/research/${slug}/offers.json`);
+          if (o.status === "needs_review") process.exitCode = 1;
+        } catch (err) {
+          process.exitCode = 1;
+          console.log(`✗ ${slug}: ${(err as Error).message}`);
+        }
+      }
       return;
     }
 

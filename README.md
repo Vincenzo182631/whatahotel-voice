@@ -91,6 +91,17 @@ npm test && npm run typecheck
 
 A confirmed site is also registered as official evidence for `hotel:verify`, so verification works for chains beyond Four Seasons and Mandarin Oriental.
 
+### Verified perks closing
+
+`hotel:offers --hotel <slug>` (or `--collection`, or no flag for every profile) replaces the fixed perks line with a closing built from what WhataHotel actually confirms for that property:
+
+1. It reads the hotel's WhataHotel page (the perks comparison table) and the chain's WhataHotel page (found from `/collection/`, or `--chain-url`), and compares them.
+2. A benefit is spoken only when it is confirmed: breakfast for two, Wi-Fi, a priority upgrade, a credit, and "combinable with the exclusive perks". An upgrade always carries "subject to availability" and is never promised. The credit keeps its amount and conditions (per stay, food and beverage or spa, a higher credit for suites). "Combinable" is said only when the hotel page states it and the chain page does not hedge it ("decided per offer").
+3. A conflict (a different credit amount elsewhere, an upgrade described as guaranteed) or unclear term leaves that benefit out and is listed under `issues` in `data/research/<slug>/offers.json`, together with source excerpts, current special offers and their terms. Those notes never go in the spoken script. With nothing confirmed, the closing just points to the hotel's WhataHotel page for available rates and offers.
+4. The wording, sentence shape and order of benefits vary per hotel (`src/offers/closing.ts`), and templates used by the last four hotels are avoided (`data/closing-log.json`). The chosen closing is stored in `offers.json`, so the writer's word budget, `hotel:check` and the audio all use the same words; `checkScript` rejects a closing that differs, names an unverified benefit or promises an upgrade.
+
+Hotels without an `offers.json` keep the original signature line.
+
 Verification, script writing and script fact-checking can run in a Claude Code session instead of calling the Anthropic API. The code prepares plain files, a Claude Code subagent reads them and writes a JSON answer, and the code imports it. Every safety check stays in code: each quote is matched word for word against the fetched page, and the verification policy and script rules run as before. Pages are still fetched with Firecrawl (`FIRECRAWL_API_KEY`); the ElevenLabs step is unchanged.
 
 ```bash

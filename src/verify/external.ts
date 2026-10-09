@@ -3,8 +3,8 @@ import path from "node:path";
 import { z } from "zod";
 import { loadProfile } from "../core/profile.js";
 import { ScriptSchema, type Claim, type HotelProfile } from "../core/schema.js";
-import { FACTCHECK_SYSTEM_PROMPT, SCRIPT_SYSTEM_PROMPT, factcheckUserPrompt, scriptUserPrompt } from "../script/prompt.js";
-import { withSignature } from "../script/rules.js";
+import { FACTCHECK_SYSTEM_PROMPT, factcheckUserPrompt, scriptSystemPrompt, scriptUserPrompt } from "../script/prompt.js";
+import { closingFor, withSignature } from "../script/rules.js";
 import type { FirecrawlClient } from "../sources/firecrawl.js";
 import { gatherEvidence, type Evidence, type EvidenceTier } from "./evidence.js";
 import { CONFIRM_SYSTEM_PROMPT, JUDGE_SYSTEM_PROMPT, checkedFindings, resolveClaim, type ClaimResult } from "./judge.js";
@@ -137,10 +137,10 @@ export async function prepareWriter(slug: string, { verifiedOnly = false } = {})
       "",
       `Follow the system prompt below using only the hotel data. Write the result as JSON to ${path.join(dir, "script.json")} with this shape and nothing else in the file:`,
       '{"title":"...","turns":[{"speaker":"advisor|traveler","section":"hook|stands_out|best_for|to_know|bottom_line","text":"...","claim_ids":["f-1"]}],"short_version":{"best_for":"...","atmosphere":"...","worth_knowing":"..."}}',
-      "Do not write the WhataHotel perks line; the pipeline adds it. Do not run other commands.",
+      "Do not write the WhataHotel closing or any perks; the pipeline adds the closing line. Do not run other commands.",
       "",
       "## System prompt",
-      SCRIPT_SYSTEM_PROMPT,
+      scriptSystemPrompt(closingFor(profile).words),
       "",
       "## Task",
       scriptUserPrompt(profile),

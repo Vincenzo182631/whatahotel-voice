@@ -6,7 +6,7 @@ import { AUDIO_SECONDS, PERKS_SIGNATURE_WORDS, WORD_RANGE } from "./rules.js";
  * Stable system prompt (kept byte-identical across hotels so it caches).
  * Hotel data goes in the user turn.
  */
-export const SCRIPT_SYSTEM_PROMPT = `You write "The WhataHotel Take": a ${AUDIO_SECONDS.min}-${AUDIO_SECONDS.max} second conversation between two WhataHotel travel hosts about one luxury hotel. WhataHotel is a luxury hotel booking platform; listeners are deciding whether to book.
+export const scriptSystemPrompt = (closingWords: number) => `You write "The WhataHotel Take": a ${AUDIO_SECONDS.min}-${AUDIO_SECONDS.max} second conversation between two WhataHotel travel hosts about one luxury hotel. WhataHotel is a luxury hotel booking platform; listeners are deciding whether to book.
 
 The hosts
 - ${SPEAKERS.advisor.name} (speaker "advisor"): ${SPEAKERS.advisor.role}
@@ -21,7 +21,7 @@ Structure (sections, in this order)
 5. bottom_line — a one or two line verdict on who it is right for. Your last turn is the Candid Traveler giving that verdict. The pipeline then adds the WhataHotel signature line (see Perks).
 
 Perks
-- Never write, paraphrase or hint at the WhataHotel perks (free breakfast, free Wi-Fi, upgrade, hotel credit, Preferred Rate, special offers). After your last turn the pipeline adds a fixed WhataHotel signature line spoken by the Luxury Advisor; it is ${PERKS_SIGNATURE_WORDS} words and counts toward the total.
+- Never write, paraphrase or hint at the WhataHotel perks (free breakfast, free Wi-Fi, upgrade, hotel credit, Preferred Rate, special offers). After your last turn the pipeline adds a fixed WhataHotel signature line spoken by the Luxury Advisor; it is ${closingWords} words and counts toward the total.
 - Your last turn must be spoken by the Candid Traveler, so the Advisor delivers the signature next.
 
 Grounding rules
@@ -35,11 +35,13 @@ Grounding rules
 - Use the hotel's name naturally once or twice; do not repeat it every turn.
 
 Length and form
-- ${WORD_RANGE.min - PERKS_SIGNATURE_WORDS}-${WORD_RANGE.max - PERKS_SIGNATURE_WORDS} words across your turns, ${WORD_RANGE.min}-${WORD_RANGE.max} once the signature is added (the spoken audio must run ${AUDIO_SECONDS.min}-${AUDIO_SECONDS.max} seconds; names and numbers slow speech, so aim for the middle of the range), 8-12 turns, no speaker more than twice in a row.
+- ${WORD_RANGE.min - closingWords}-${WORD_RANGE.max - closingWords} words across your turns, ${WORD_RANGE.min}-${WORD_RANGE.max} once the signature is added (the spoken audio must run ${AUDIO_SECONDS.min}-${AUDIO_SECONDS.max} seconds; names and numbers slow speech, so aim for the middle of the range), 8-12 turns, no speaker more than twice in a row.
 - Spoken English: contractions, short sentences, natural reactions ("Right.", "That's the thing.") but no filler.
 - No stage directions, sound effects, or markup in the text.
 
 Also write short_version: three short phrases for the page card (best_for, atmosphere, worth_knowing), grounded in the same profile.`;
+
+export const SCRIPT_SYSTEM_PROMPT = scriptSystemPrompt(PERKS_SIGNATURE_WORDS);
 
 export function scriptUserPrompt(profile: HotelProfile, feedback?: string[], today: Date = new Date()): string {
   // Expired claims are withheld from the writer entirely; the rule check also rejects any it cites.
@@ -64,7 +66,7 @@ export function scriptUserPrompt(profile: HotelProfile, feedback?: string[], tod
   return prompt;
 }
 
-export const FACTCHECK_SYSTEM_PROMPT = `You are the fact checker for WhataHotel hotel conversations. You receive a hotel profile (the only source of truth) and a script. For each turn, decide whether every factual statement is supported by the profile claims. Editorial interpretation that reasonably follows from cited claims is allowed. Flag: statements not supported by the profile, exaggerations of a claim, wrong numbers or names, and considerations presented as facts about the hotel when the profile does not support them. Be strict but do not flag pure opinion or conversational lines. The final Luxury Advisor turn is WhataHotel's fixed, pre-approved perks line, added by the pipeline word for word; do not flag its wording (including "among other perks"). Only flag it if it contradicts a perk claim in the profile. passed is true only when there are no issues.`;
+export const FACTCHECK_SYSTEM_PROMPT = `You are the fact checker for WhataHotel hotel conversations. You receive a hotel profile (the only source of truth) and a script. For each turn, decide whether every factual statement is supported by the profile claims. Editorial interpretation that reasonably follows from cited claims is allowed. Flag: statements not supported by the profile, exaggerations of a claim, wrong numbers or names, and considerations presented as facts about the hotel when the profile does not support them. Be strict but do not flag pure opinion or conversational lines. The final Luxury Advisor turn is WhataHotel's closing line, added by the pipeline word for word and checked in code against the verified offers; do not flag its wording. Only flag it if it contradicts a perk claim in the profile. passed is true only when there are no issues.`;
 
 export function factcheckUserPrompt(profile: HotelProfile, scriptJson: string): string {
   return `Profile:\n${JSON.stringify(

@@ -1,6 +1,8 @@
 import { isExpired } from "../core/freshness.js";
 import { allClaims } from "../core/profile.js";
 import { Section, type HotelProfile, type Script } from "../core/schema.js";
+import { checkClosing } from "../offers/closing.js";
+import { loadOffersSync } from "../offers/store.js";
 
 /** ~2.5 spoken words per second, measured on ElevenLabs eleven_v4 two-host dialogue (eleven_v3 was ~2.2). */
 export const WORDS_PER_SECOND = 2.5;
@@ -52,8 +54,25 @@ export function signatureFor(profile: HotelProfile): string {
   return PERKS_SIGNATURE_VARIANTS[h % PERKS_SIGNATURE_VARIANTS.length]!;
 }
 
-/** Appends the signature turn (replacing any perk turns already present, so it is idempotent). */
+/**
+ * The closing line for a hotel. Hotels with verified offers (hotel:offers) get a closing built from exactly the
+ * benefits WhataHotel confirmed for that property; hotels without them keep the fixed signature line.
+ */
+export function closingFor(profile: HotelProfile): { text: string; words: number; verified: boolean } {
+  const offers = loadOffersSync(profile.slug);
+  if (offers?.closing) return { text: offers.closing.text, words: offers.closing.words, verified: true };
+  const text = signatureFor(profile);
+  return { text, words: text.trim().split(/\s+/).length, verified: false };
+}
+
+/** Appends the closing turn (replacing any perk turns already present, so it is idempotent). */
 export function withSignature(script: Script, profile: HotelProfile): Script {
+  const closing = closingFor(profile);
+  if (closing.verified) {
+    const turns = script.turns.filter((t) => t.text !== closing.text);
+    turns.push({ speaker: "advisor", section: "bottom_line", text: closing.text, claim_ids: [] });
+    return { ...script, turns };
+  }
   const perkIds = new Set(profile.perks.map((c) => c.id));
   if (!PERKS_SIGNATURE_CLAIMS.every((id) => perkIds.has(id))) return script;
   const turns = script.turns.filter((t) => !t.claim_ids.some((id) => perkIds.has(id)));
@@ -127,7 +146,17 @@ export function checkScript(script: Script, profile: HotelProfile, today: Date =
     issues.push('"to_know" must cite at least one consideration');
   }
 
-  if (PERKS_SIGNATURE_CLAIMS.every((id) => profile.perks.some((c) => c.id === id))) {
+  const verifiedClosing = closingFor(profile);
+  if (verifiedClosing.verified) {
+    const last = script.turns[script.turns.length - 1];
+    if (last?.text !== verifiedClosing.text || last.speaker !== "advisor" || last.section !== "bottom_line") {
+      issues.push("the last turn must be the WhataHotel closing line for this hotel, spoken by the Luxury Advisor, word for word");
+    }
+    issues.push(...checkClosing(verifiedClosing.text, loadOffersSync(profile.slug)!.benefits));
+    script.turns.slice(0, -1).forEach((t, i) => {
+      if (/preferred rate|free breakfast|complimentary breakfast|\bwi-?fi\b|room upgrade|priority upgrade|hotel credit/i.test(t.text)) issues.push(`turn ${i} mentions WhataHotel benefits; only the closing line may`);
+    });
+  } else if (PERKS_SIGNATURE_CLAIMS.every((id) => profile.perks.some((c) => c.id === id))) {
     const last = script.turns[script.turns.length - 1];
     if (last?.text !== signatureFor(profile) || last.speaker !== "advisor" || last.section !== "bottom_line") {
       issues.push("the last turn must be the WhataHotel signature line, spoken by the Luxury Advisor, word for word");
