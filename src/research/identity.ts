@@ -35,6 +35,19 @@ export interface Candidate {
   score: number;
   /** Share of the hotel name's words found in the result's title and URL. */
   nameScore: number;
+  /** Share of the page address's own words that belong to the hotel name; "...-sharq-village-and-spa" is less exact for "Doha" than "...-the-ritz-carlton-doha". */
+  precision: number;
+}
+
+const PATH_NOISE = new Set(["en", "hotels", "hotel", "overview", "the", "a", "and", "at", "of", "in", "by"]);
+function addressWords(u: URL): string[] {
+  const segs = u.pathname.split("/").filter(Boolean);
+  const i = segs.indexOf("hotels");
+  const seg = i >= 0 ? segs[i + 1] : segs[segs.length - 1];
+  if (!seg) return [];
+  const toks = words(seg.replace(/-/g, " ")).filter((w) => w.length > 1 && !PATH_NOISE.has(w));
+  // chain pages start with a property code ("dohrz-the-ritz-carlton-doha"): drop it
+  return i >= 0 && seg.includes("-") ? toks.slice(1) : toks;
 }
 
 const significant = (s: string) => words(s).filter((w) => w.length > 1);
@@ -67,7 +80,10 @@ export function rankCandidates(hotel: HotelRef, results: Array<{ url: string; ti
     const nameScore = name.length ? name.filter((w) => hay.has(w)).length / name.length : 0;
     const cityScore = city.length ? city.filter((w) => hay.has(w)).length / city.length : 0;
     const depth = u.pathname.split("/").filter(Boolean).length;
-    out.push({ url: r.url, title: r.title, nameScore, score: 1.5 * nameScore + 0.5 * cityScore - 0.05 * depth });
+    const addr = addressWords(u);
+    const nameSet = new Set(name);
+    const precision = addr.length ? addr.filter((w) => nameSet.has(w)).length / addr.length : 1;
+    out.push({ url: r.url, title: r.title, nameScore, precision, score: 1.5 * nameScore + 0.5 * cityScore + 0.3 * precision - 0.05 * depth });
   }
   const seen = new Set<string>();
   return out
@@ -176,7 +192,10 @@ export async function resolveOfficialSite(hotel: HotelRef, deps: IdentityDeps, o
       const bases = new Map<string, number>();
       // only results whose name matches as well as the best one count: the same city is not the same hotel
       const bestName = Math.max(...ranked.map((c) => c.nameScore), 0);
-      for (const c of ranked.filter((x) => x.nameScore >= bestName - 0.1)) {
+      const named = ranked.filter((x) => x.nameScore >= bestName - 0.1);
+      // among equally named results, an address made only of the hotel's own words beats one carrying extra words
+      const bestPrecision = Math.max(...named.map((c) => c.precision), 0);
+      for (const c of named.filter((x) => x.precision >= bestPrecision - 0.15)) {
         const b = chain.base(new URL(c.url));
         if (b && !bases.has(b)) bases.set(b, c.score);
       }

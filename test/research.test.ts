@@ -67,6 +67,37 @@ describe("chains", () => {
     expect(id.status).toBe("confirmed");
     expect(id.official_url).toMatch(/waspc-the-ritz-carlton-pentagon-city/);
   });
+  it("prefers the address made only of the hotel's own name over one with extra words", async () => {
+    const run = async (name: string, city: string, urls: string[]) =>
+      resolveOfficialSite({ name, city, country: "x" }, {
+        search: async () => urls.map((url) => ({ url, title: `${name} ${city}` })),
+        load: async () => `${name} in ${city}, x. ${filler}`,
+        resolveUrl: async (u) => u,
+      });
+    const doha = await run("The Ritz Carlton Doha", "Doha", [
+      "https://www.ritzcarlton.com/en/hotels/dohsq-sharq-village-and-spa-a-ritz-carlton-hotel/",
+      "https://www.ritzcarlton.com/en/hotels/dohrz-the-ritz-carlton-doha/",
+    ]);
+    expect(doha.status).toBe("confirmed");
+    expect(doha.official_url).toMatch(/dohrz-the-ritz-carlton-doha/);
+    const dc = await run("The Ritz-Carlton, Washington, D.C.", "Washington", [
+      "https://www.ritzcarlton.com/en/hotels/wasgo-the-ritz-carlton-georgetown-washington-d-c/",
+      "https://www.ritzcarlton.com/en/hotels/wasrt-the-ritz-carlton-washington-d-c/",
+    ]);
+    expect(dc.status).toBe("confirmed");
+    expect(dc.official_url).toMatch(/wasrt-the-ritz-carlton-washington-d-c/);
+  });
+  it("still flags two equally exact addresses as ambiguous", async () => {
+    const id = await resolveOfficialSite({ name: "Mandarin Oriental, Hong Kong", city: "Hong Kong", country: "China" }, {
+      search: async () => [
+        { url: "https://www.mandarinoriental.com/en/hong-kong/victoria-harbour", title: "Mandarin Oriental, Hong Kong" },
+        { url: "https://www.mandarinoriental.com/en/hong-kong/the-landmark", title: "Mandarin Oriental, Hong Kong" },
+      ],
+      load: async () => `x ${filler}`,
+      resolveUrl: async (u) => u,
+    });
+    expect(id.status).toBe("needs_review");
+  });
   it("keeps a hotel's branded residences out of its candidates", () => {
     const hotel = { name: "Dorado Beach, a Ritz-Carlton Reserve", city: "Dorado", country: "Puerto Rico" };
     const chain = chainOfName(hotel.name)!;
