@@ -1,4 +1,4 @@
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { z } from "zod";
 import { loadProfile } from "../core/profile.js";
@@ -76,6 +76,26 @@ export interface RunOptions {
 }
 
 /** The hotel to research: its profile if one exists, otherwise what the scraped WhataHotel page says (so research can come first for a new hotel). */
+/** The chain a collection file declares for a hotel ("chain": "ritz-carlton"), for hotels whose name does not say it. */
+export async function chainFromCollections(slug: string): Promise<string | undefined> {
+  const dir = path.resolve(process.env.WH_COLLECTIONS_DIR ?? "data");
+  let names: string[] = [];
+  try {
+    names = (await readdir(dir)).filter((n) => /^[a-z0-9-]+\.json$/.test(n));
+  } catch {
+    return undefined;
+  }
+  for (const n of names) {
+    try {
+      const c = JSON.parse(await readFile(path.join(dir, n), "utf8")) as { chain?: string; hotels?: Array<{ slug?: string }> };
+      if (c.chain && c.hotels?.some((h) => h.slug === slug)) return c.chain;
+    } catch {
+      /* not a collection file */
+    }
+  }
+  return undefined;
+}
+
 export async function loadHotelRef(slug: string): Promise<{ name: string; whatahotel_url?: string; location: { city: string; country: string } }> {
   try {
     return await loadProfile(slug);
@@ -99,7 +119,7 @@ export async function runResearch(slug: string, opts: RunOptions): Promise<Resea
   const dir = researchDir(slug);
   await mkdir(path.join(dir, "pages"), { recursive: true });
   const { budget } = opts;
-  const hotel: HotelRef = { name: profile.name, city: profile.location.city, country: profile.location.country, ...(opts.chain ? { chain: opts.chain } : {}) };
+  const hotel: HotelRef = { name: profile.name, city: profile.location.city, country: profile.location.country, ...((opts.chain ?? (await chainFromCollections(slug))) ? { chain: opts.chain ?? (await chainFromCollections(slug)) } : {}) };
   const now = () => new Date();
   const lastSource = { v: "firecrawl" as PageDoc["source"] };
   const hooks = {

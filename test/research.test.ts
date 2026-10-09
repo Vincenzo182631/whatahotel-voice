@@ -20,7 +20,7 @@ import { chainOfHost, chainOfName, chainsOfHost, hostBelongsTo, isThirdParty } f
 import { tierOf } from "../src/verify/evidence.js";
 import { pickPages } from "../src/research/discover.js";
 import { assessPage, baseUrlFor, englishUrl, rankCandidates, resolveOfficialSite, type IdentityDeps } from "../src/research/identity.js";
-import { assertResearchReady, importResearch, loadHotelRef, researchDir, runResearch } from "../src/research/research.js";
+import { assertResearchReady, chainFromCollections, importResearch, loadHotelRef, researchDir, runResearch } from "../src/research/research.js";
 import { FirecrawlClient } from "../src/sources/firecrawl.js";
 
 const FS = { name: "Four Seasons Hotel Sydney", city: "Sydney", country: "Australia" };
@@ -294,5 +294,17 @@ describe("loadHotelRef", () => {
     process.env.WH_SOURCES_DIR = dir;
     expect(await loadHotelRef("new-hotel")).toEqual({ name: "The Ritz-Carlton, Kapalua", location: { city: "Kapalua", country: "United States" } });
     await expect(loadHotelRef("missing-hotel")).rejects.toThrow(/hotel:scrape/);
+  });
+});
+
+describe("chainFromCollections", () => {
+  it("reads the chain a collection file declares, for hotels whose name does not say it", async () => {
+    const dir = path.join(tmp, "collections");
+    mkdirSync(dir, { recursive: true });
+    writeFileSync(path.join(dir, "ritz-carlton-batch-1.json"), JSON.stringify({ collection: "x", chain: "ritz-carlton", hotels: [{ slug: "ritz-penha-longa-resort" }] }));
+    writeFileSync(path.join(dir, "pilot.json"), JSON.stringify({ collection: "pilot", hotels: [{ slug: "someone-else" }] }));
+    process.env.WH_COLLECTIONS_DIR = dir;
+    expect(await chainFromCollections("ritz-penha-longa-resort")).toBe("ritz-carlton");
+    expect(await chainFromCollections("someone-else")).toBeUndefined();
   });
 });
