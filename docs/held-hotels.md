@@ -17,3 +17,6 @@
 See `docs/closing-review.md` (summary and tables) and `exports/closing-review.csv` (every hotel: publish status, what is off, published vs new closing).
 Rebuild with `npm run hotel -- offers` then `npx tsx scripts/closing-audit.ts`. Includes the hotels not published or without a profile yet
 (Villa Caldera, The Sireya, and four Four Seasons hotels with no profile: Shanghai Puxi, Megève Les Chalets, Santa Barbara Biltmore, Aviara Residence Club).
+
+## Ritz-Carlton Bal Harbour (held, batch 4)
+The official site says the hotel is temporarily closed from April 6, 2026 to early January 2027 and will reopen as a reimagined resort (new restaurant, spa and members club). Research stopped at the closure check; no profile or clip was made. Redo the research once it reopens.

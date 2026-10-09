@@ -1,0 +1,110 @@
+{
+  "slug": "ritz-carlton-guangzhou",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "The Ritz-Carlton, Guangzhou",
+      "city": "Guangzhou",
+      "country": "CN",
+      "chain": "ritz-carlton"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "ritz-carlton"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Guangzhou, CN)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.ritzcarlton.com/en/hotels/canrz-the-ritz-carlton-guangzhou/overview/"
+    ],
+    "checked_at": "2026-10-09T14:46:12.792Z",
+    "status": "confirmed",
+    "official_url": "https://www.ritzcarlton.com/en/hotels/canrz-the-ritz-carlton-guangzhou/overview/",
+    "base_url": "https://www.ritzcarlton.com/en/hotels/canrz-the-ritz-carlton-guangzhou/",
+    "host": "ritzcarlton.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.ritzcarlton.com/en/hotels/canrz-the-ritz-carlton-guangzhou/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T14:46:18.909Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.ritzcarlton.com/en/hotels/canrz-the-ritz-carlton-guangzhou/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T14:46:19.221Z",
+      "source": "direct"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.ritzcarlton.com/en/hotels/canrz-the-ritz-carlton-guangzhou/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T14:46:20.320Z",
+      "source": "direct"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.ritzcarlton.com/en/hotels/canrz-the-ritz-carlton-guangzhou/spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T14:46:20.551Z",
+      "source": "direct"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.ritzcarlton.com/en/hotels/canrz-the-ritz-carlton-guangzhou/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T14:46:20.677Z",
+      "source": "direct"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.ritzcarlton.com/en/hotels/canrz-the-ritz-carlton-guangzhou/club/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T14:46:20.869Z",
+      "source": "direct"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.ritzcarlton.com/en/hotels/canrz-the-ritz-carlton-guangzhou/reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T14:46:20.997Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 3,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 7,
+    "pages": 7,
+    "chars": 57028,
+    "est_claude_tokens": 14257
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-09T14:46:26.529Z"
+}
