@@ -23,3 +23,6 @@ The official site says the hotel is temporarily closed from April 6, 2026 to ear
 
 ## Al Bustan Palace, a Ritz-Carlton Hotel (held, batch 4)
 The official pages say a renovation began 1 July 2026 with no official reopening date (Condé Nast Traveler says plans to open by 2028). Seven venues are listed as temporarily closed. Research stopped at the closure check; no profile or clip was made. Redo the research once it reopens.
+
+## Aman At Sea (Amangati) (held, Aman batch 1)
+WhataHotel ID 7138. A yacht rather than a hotel; held with the other non-hotel entries. Add if wanted.

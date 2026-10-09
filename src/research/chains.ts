@@ -59,7 +59,7 @@ export const CHAINS: Chain[] = [
     },
   },
   { id: "rosewood", name: "Rosewood", match: /rosewood/i, domains: ["rosewoodhotels.com"], base: firstTwo },
-  { id: "aman", name: "Aman", match: /^aman\b/i, domains: ["aman.com"], base: firstTwo },
+  { id: "aman", name: "Aman", match: /^aman/i, domains: ["aman.com"], base: firstTwo },
   { id: "belmond", name: "Belmond", match: /belmond/i, domains: ["belmond.com"], base: firstTwo },
   { id: "dorchester-collection", name: "Dorchester Collection", match: /dorchester/i, domains: ["dorchestercollection.com"], base: firstTwo },
   { id: "hyatt", name: "Hyatt", match: /\bhyatt\b/i, domains: ["hyatt.com"], base: firstTwo },
