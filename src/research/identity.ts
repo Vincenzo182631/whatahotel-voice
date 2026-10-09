@@ -65,7 +65,18 @@ export function rankCandidates(hotel: HotelRef, results: Array<{ url: string; ti
     const depth = u.pathname.split("/").filter(Boolean).length;
     out.push({ url: r.url, title: r.title, score: nameScore + 0.5 * cityScore - 0.05 * depth });
   }
-  return out.sort((a, b) => b.score - a.score);
+  const seen = new Set<string>();
+  return out
+    .sort((a, b) => b.score - a.score)
+    .map((c) => (chain ? { ...c, url: englishUrl(c.url) } : c))
+    .filter((c) => !seen.has(c.url) && seen.add(c.url));
+}
+
+/** The English version of a chain page URL (/zh-cn/hotels/x/ and /de/hotels/x/ are the same property as /en/hotels/x/). */
+export function englishUrl(url: string): string {
+  const u = new URL(url);
+  u.pathname = u.pathname.replace(/^\/(?!en\/)[a-z]{2}(?:-[a-z]{2})?\//i, "/en/");
+  return u.toString();
 }
 
 export interface PageForCheck {

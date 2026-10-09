@@ -19,7 +19,7 @@ import { Budget, BudgetExceeded, limitsFromEnv } from "../src/research/budget.js
 import { chainOfHost, chainOfName, chainsOfHost, hostBelongsTo, isThirdParty } from "../src/research/chains.js";
 import { tierOf } from "../src/verify/evidence.js";
 import { pickPages } from "../src/research/discover.js";
-import { assessPage, baseUrlFor, rankCandidates, resolveOfficialSite, type IdentityDeps } from "../src/research/identity.js";
+import { assessPage, baseUrlFor, englishUrl, rankCandidates, resolveOfficialSite, type IdentityDeps } from "../src/research/identity.js";
 import { assertResearchReady, importResearch, loadHotelRef, researchDir, runResearch } from "../src/research/research.js";
 import { FirecrawlClient } from "../src/sources/firecrawl.js";
 
@@ -53,6 +53,21 @@ describe("chains", () => {
     const r = assessPage({ name: "The Ritz-Carlton, Kapalua", city: "Kapalua", country: "United States" }, aff, { url: "https://www.ritzcarlton.com/en/journey/destination-guides/us-and-canada/a-tale-of-two-islands/", text: `The Ritz-Carlton Kapalua ${filler} Kapalua` });
     expect(r.ok).toBe(false);
     expect(r.reasons.join(" ")).toMatch(/landing page/);
+  });
+  it("treats language versions of one property page as the same hotel", async () => {
+    expect(englishUrl("https://www.ritzcarlton.com/zh-cn/hotels/jzhrz-rissai-valley/")).toBe("https://www.ritzcarlton.com/en/hotels/jzhrz-rissai-valley/");
+    expect(englishUrl("https://www.ritzcarlton.com/en/hotels/x/")).toBe("https://www.ritzcarlton.com/en/hotels/x/");
+    const hotel = { name: "Rissai Valley, a Ritz-Carlton Reserve", city: "Jiuzhaigou", country: "China" };
+    const id = await resolveOfficialSite(hotel, {
+      search: async () => [
+        { url: "https://www.ritzcarlton.com/en/hotels/jzhrz-rissai-valley-a-ritz-carlton-reserve/", title: "Rissai Valley" },
+        { url: "https://www.ritzcarlton.com/zh-cn/hotels/jzhrz-rissai-valley-a-ritz-carlton-reserve/", title: "Rissai Valley" },
+      ],
+      load: async () => `Rissai Valley, a Ritz-Carlton Reserve in Jiuzhaigou, China. ${filler}`,
+      resolveUrl: async (u) => u,
+    });
+    expect(id.status).toBe("confirmed");
+    expect(id.official_url).toMatch(/\/en\/hotels\/jzhrz/);
   });
   it("finds a property's own section per chain", () => {
     expect(baseUrlFor("https://www.fourseasons.com/sydney/dining/", { kind: "chain", chain: "four-seasons" })).toBe("https://www.fourseasons.com/sydney/");
