@@ -33,6 +33,8 @@ export interface Candidate {
   url: string;
   title?: string;
   score: number;
+  /** Share of the hotel name's words found in the result's title and URL. */
+  nameScore: number;
 }
 
 const significant = (s: string) => words(s).filter((w) => w.length > 1);
@@ -65,7 +67,7 @@ export function rankCandidates(hotel: HotelRef, results: Array<{ url: string; ti
     const nameScore = name.length ? name.filter((w) => hay.has(w)).length / name.length : 0;
     const cityScore = city.length ? city.filter((w) => hay.has(w)).length / city.length : 0;
     const depth = u.pathname.split("/").filter(Boolean).length;
-    out.push({ url: r.url, title: r.title, score: nameScore + 0.5 * cityScore - 0.05 * depth });
+    out.push({ url: r.url, title: r.title, nameScore, score: 1.5 * nameScore + 0.5 * cityScore - 0.05 * depth });
   }
   const seen = new Set<string>();
   return out
@@ -172,7 +174,9 @@ export async function resolveOfficialSite(hotel: HotelRef, deps: IdentityDeps, o
     // two different properties of one chain ranking alike (e.g. two Mandarin Oriental hotels in Hong Kong) cannot be told apart by name
     if (chain) {
       const bases = new Map<string, number>();
-      for (const c of ranked) {
+      // only results whose name matches as well as the best one count: the same city is not the same hotel
+      const bestName = Math.max(...ranked.map((c) => c.nameScore), 0);
+      for (const c of ranked.filter((x) => x.nameScore >= bestName - 0.1)) {
         const b = chain.base(new URL(c.url));
         if (b && !bases.has(b)) bases.set(b, c.score);
       }

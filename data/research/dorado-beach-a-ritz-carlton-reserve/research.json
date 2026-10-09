@@ -1,10 +1,8 @@
 {
   "slug": "dorado-beach-a-ritz-carlton-reserve",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "several The Ritz-Carlton properties match \"Dorado Beach, a Ritz Carlton Reserve\" in Dorado (https://www.ritzcarlton.com/en/hotels/sjudo-dorado-beach-a-ritz-carlton-reserve/, https://www.ritzcarlton.com/en/hotels/sjudb-residences-at-dorado-beach-a-ritz-carlton-reserve/); confirm with --official-url"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "Dorado Beach, a Ritz Carlton Reserve",
@@ -16,27 +14,98 @@
       "kind": "chain",
       "chain": "ritz-carlton"
     },
-    "evidence": [],
-    "reasons": [
-      "several The Ritz-Carlton properties match \"Dorado Beach, a Ritz Carlton Reserve\" in Dorado (https://www.ritzcarlton.com/en/hotels/sjudo-dorado-beach-a-ritz-carlton-reserve/, https://www.ritzcarlton.com/en/hotels/sjudb-residences-at-dorado-beach-a-ritz-carlton-reserve/); confirm with --official-url"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Dorado, PR)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://www.ritzcarlton.com/en/hotels/sjudo-dorado-beach-a-ritz-carlton-reserve/",
-      "https://www.ritzcarlton.com/en/hotels/sjudb-residences-at-dorado-beach-a-ritz-carlton-reserve/"
+      "https://www.ritzcarlton.com/en/hotels/sjudo-dorado-beach-a-ritz-carlton-reserve/overview/"
     ],
-    "checked_at": "2026-10-09T06:31:37.287Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-09T06:32:12.825Z",
+    "status": "confirmed",
+    "official_url": "https://www.ritzcarlton.com/en/hotels/sjudo-dorado-beach-a-ritz-carlton-reserve/overview/",
+    "base_url": "https://www.ritzcarlton.com/en/hotels/sjudo-dorado-beach-a-ritz-carlton-reserve/",
+    "host": "ritzcarlton.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.ritzcarlton.com/en/hotels/sjudo-dorado-beach-a-ritz-carlton-reserve/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T06:32:18.711Z",
+      "source": "direct"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.ritzcarlton.com/en/hotels/sjudo-dorado-beach-a-ritz-carlton-reserve/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T06:32:18.995Z",
+      "source": "direct"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.ritzcarlton.com/en/hotels/sjudo-dorado-beach-a-ritz-carlton-reserve/rooms/signature-accommodations/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T06:32:19.078Z",
+      "source": "direct"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.ritzcarlton.com/en/hotels/sjudo-dorado-beach-a-ritz-carlton-reserve/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T06:32:19.161Z",
+      "source": "direct"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.ritzcarlton.com/en/hotels/sjudo-dorado-beach-a-ritz-carlton-reserve/spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T06:32:19.279Z",
+      "source": "direct"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.ritzcarlton.com/en/hotels/sjudo-dorado-beach-a-ritz-carlton-reserve/reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T06:32:19.634Z",
+      "source": "direct"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.ritzcarlton.com/en/hotels/sjudo-dorado-beach-a-ritz-carlton-reserve/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T06:32:19.715Z",
+      "source": "direct"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.ritzcarlton.com/en/hotels/sjudo-dorado-beach-a-ritz-carlton-reserve/experiences/holidays/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T06:32:20.645Z",
+      "source": "direct"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.cntraveler.com/hotels/dorado/dorado-beach-a-ritz-carlton-reserve",
+      "tier": "editorial",
+      "fetched_at": "2026-10-09T06:32:22.331Z",
+      "source": "direct"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 2,
-    "firecrawl_searches": 2,
+    "firecrawl_calls": 3,
+    "firecrawl_searches": 3,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 11,
+    "pages": 9,
+    "chars": 72403,
+    "est_claude_tokens": 18101
   },
   "limits": {
     "maxPages": 12,
@@ -44,5 +113,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-09T06:31:42.283Z"
+  "researched_at": "2026-10-09T06:32:22.331Z"
 }

@@ -54,6 +54,19 @@ describe("chains", () => {
     expect(r.ok).toBe(false);
     expect(r.reasons.join(" ")).toMatch(/landing page/);
   });
+  it("does not call two hotels in one city alike when only one carries the hotel's name", async () => {
+    const hotel = { name: "The Ritz Carlton, Pentagon City", city: "Washington", country: "United States" };
+    const id = await resolveOfficialSite(hotel, {
+      search: async () => [
+        { url: "https://www.ritzcarlton.com/en/hotels/wasrt-the-ritz-carlton-washington-d-c/", title: "The Ritz-Carlton, Washington, D.C." },
+        { url: "https://www.ritzcarlton.com/en/hotels/waspc-the-ritz-carlton-pentagon-city/", title: "The Ritz-Carlton, Pentagon City" },
+      ],
+      load: async () => `The Ritz-Carlton, Pentagon City in Washington, United States. ${filler}`,
+      resolveUrl: async (u) => u,
+    });
+    expect(id.status).toBe("confirmed");
+    expect(id.official_url).toMatch(/waspc-the-ritz-carlton-pentagon-city/);
+  });
   it("keeps a hotel's branded residences out of its candidates", () => {
     const hotel = { name: "Dorado Beach, a Ritz-Carlton Reserve", city: "Dorado", country: "Puerto Rico" };
     const chain = chainOfName(hotel.name)!;
