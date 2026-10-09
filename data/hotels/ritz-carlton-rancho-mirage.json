@@ -3,7 +3,10 @@
   "whatahotel_id": 1212,
   "whatahotel_url": "https://www.whatahotel.com/hotels/1212/the-ritz-carlton-rancho-mirage.html",
   "name": "The Ritz-Carlton Rancho Mirage",
-  "location": { "city": "Rancho Mirage", "country": "US" },
+  "location": {
+    "city": "Rancho Mirage",
+    "country": "US"
+  },
   "category": "mountain",
   "positioning": "Desert resort in Rancho Mirage, official name The Ritz-Carlton, Rancho Mirage, overlooking the Coachella Valley and the San Jacinto Mountain Range, with a hillside spa and a cliff-top steakhouse",
   "best_for": [
@@ -12,46 +15,210 @@
     "Guests who want a hillside spa and steakhouse dinner on site"
   ],
   "facts": [
-    { "id": "f-1", "text": "The resort overlooks Palm Springs, the Coachella Valley and the San Jacinto Mountain Range.", "source_ids": ["s2"] },
-    { "id": "f-2", "text": "The Edge Steakhouse is set on a cliff above the Coachella Valley and serves steaks, seafood and craft cocktails.", "source_ids": ["s3"] },
-    { "id": "f-3", "text": "State Fare Bar & Kitchen serves a menu of seasonal ingredients alongside offerings from local wineries and small-batch distilleries.", "source_ids": ["s3"] },
-    { "id": "f-4", "text": "Air Pool Bar serves made-to-order burgers, salads and cocktails by the hotel pool.", "source_ids": ["s3"] },
-    { "id": "f-5", "text": "The pool area offers VIP-style cabanas for private dining.", "source_ids": ["s3"] },
-    { "id": "f-6", "text": "The One Bedroom Vista Residential Suite has a chef's kitchen with Wolf and Viking appliances.", "source_ids": ["s4"] },
-    { "id": "f-7", "text": "Select Vista Residential Suites have private backyard spaces.", "source_ids": ["s4"] },
-    { "id": "f-8", "text": "Club Lounge access is included with Vista Suites and The Ritz-Carlton Suites.", "source_ids": ["s5"] },
-    { "id": "f-9", "text": "The spa is set into the hillside with views over the valley.", "source_ids": ["s7"] },
-    { "id": "f-10", "text": "The spa menu uses indigenous botanicals in massages, facials and body treatments.", "source_ids": ["s7"] },
-    { "id": "f-11", "text": "In 2025 the property completed a two-year overhaul that updated the guest rooms, dining venues and poolscapes.", "source_ids": ["s9"], "expires": "2027-06-30" }
+    {
+      "id": "f-1",
+      "text": "The resort overlooks Palm Springs, the Coachella Valley and the San Jacinto Mountain Range.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "id": "f-2",
+      "text": "The Edge Steakhouse is set on a cliff above the Coachella Valley and serves steaks, seafood and craft cocktails.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "id": "f-3",
+      "text": "State Fare Bar & Kitchen serves a menu of seasonal ingredients alongside offerings from local wineries and small-batch distilleries.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "id": "f-4",
+      "text": "Air Pool Bar serves made-to-order burgers, salads and cocktails by the hotel pool.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "id": "f-5",
+      "text": "The pool area offers VIP-style cabanas for private dining.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "id": "f-6",
+      "text": "The One Bedroom Vista Residential Suite has a chef's kitchen with Wolf and Viking appliances.",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "id": "f-7",
+      "text": "Select Vista Residential Suites have private backyard spaces.",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "id": "f-8",
+      "text": "Club Lounge access is included with Vista Suites and The Ritz-Carlton Suites.",
+      "source_ids": [
+        "s5"
+      ]
+    },
+    {
+      "id": "f-9",
+      "text": "The spa is set into the hillside with views over the valley.",
+      "source_ids": [
+        "s7"
+      ]
+    },
+    {
+      "id": "f-10",
+      "text": "The spa menu uses indigenous botanicals in massages, facials and body treatments.",
+      "source_ids": [
+        "s7"
+      ]
+    }
   ],
   "highlights": [
-    { "id": "h-1", "text": "The Edge Steakhouse sits on a cliff above the Coachella Valley, serving steaks, seafood and craft cocktails.", "source_ids": ["s3"] },
-    { "id": "h-2", "text": "The Vista Residential Suites page describes a private suite with a plunge pool or fire pit.", "source_ids": ["s4"] },
-    { "id": "h-3", "text": "Guests at The Edge Steakhouse receive a complimentary welcome drink, The Edge old-fashioned, smoked under a cloche.", "source_ids": ["s9"] },
-    { "id": "h-4", "text": "The spa is set into the hillside with views over the valley.", "source_ids": ["s7"] },
-    { "id": "h-5", "text": "The Club Lounge holds an art collection by Dawson Cole Fine Art, with works by Timothy Mulligan.", "source_ids": ["s5"] }
+    {
+      "id": "h-1",
+      "text": "The Edge Steakhouse sits on a cliff above the Coachella Valley, serving steaks, seafood and craft cocktails.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "id": "h-2",
+      "text": "The Vista Residential Suites page describes a private suite with a plunge pool or fire pit.",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "id": "h-3",
+      "text": "Guests at The Edge Steakhouse receive a complimentary welcome drink, The Edge old-fashioned, smoked under a cloche.",
+      "source_ids": [
+        "s9"
+      ]
+    },
+    {
+      "id": "h-4",
+      "text": "The spa is set into the hillside with views over the valley.",
+      "source_ids": [
+        "s7"
+      ]
+    },
+    {
+      "id": "h-5",
+      "text": "The Club Lounge holds an art collection by Dawson Cole Fine Art, with works by Timothy Mulligan.",
+      "source_ids": [
+        "s5"
+      ]
+    }
   ],
   "considerations": [
-    { "id": "c-1", "text": "Club access requires an upgraded booking, and Marriott Bonvoy Elite status does not include it.", "source_ids": ["s6"] },
-    { "id": "c-2", "text": "The hotel does not provide shuttle service from the airports.", "source_ids": ["s2"] },
-    { "id": "c-3", "text": "WhataHotel notes the desert location may be warm during summer months.", "source_ids": ["s1"] }
+    {
+      "id": "c-1",
+      "text": "Club access requires an upgraded booking, and Marriott Bonvoy Elite status does not include it.",
+      "source_ids": [
+        "s6"
+      ]
+    },
+    {
+      "id": "c-2",
+      "text": "The hotel does not provide shuttle service from the airports.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "id": "c-3",
+      "text": "WhataHotel notes the desert location may be warm during summer months.",
+      "source_ids": [
+        "s1"
+      ]
+    }
   ],
   "perks": [],
   "pronunciations": [
-    { "term": "Rancho Mirage", "say_as": "rahn-cho mih-rahzh" },
-    { "term": "Coachella", "say_as": "koh-chel-ah" },
-    { "term": "San Jacinto", "say_as": "san hah-sin-toh" }
+    {
+      "term": "Rancho Mirage",
+      "say_as": "rahn-cho mih-rahzh"
+    },
+    {
+      "term": "Coachella",
+      "say_as": "koh-chel-ah"
+    },
+    {
+      "term": "San Jacinto",
+      "say_as": "san hah-sin-toh"
+    }
   ],
   "sources": [
-    { "id": "s1", "type": "whatahotel", "title": "WhataHotel: The Ritz-Carlton Rancho Mirage", "url": "https://www.whatahotel.com/hotels/1212/the-ritz-carlton-rancho-mirage.html", "accessed": "2026-10-09" },
-    { "id": "s2", "type": "official", "title": "The Ritz-Carlton, Rancho Mirage overview", "url": "https://www.ritzcarlton.com/en/hotels/pspps-the-ritz-carlton-rancho-mirage/overview/", "accessed": "2026-10-09" },
-    { "id": "s3", "type": "official", "title": "The Ritz-Carlton, Rancho Mirage dining", "url": "https://www.ritzcarlton.com/en/hotels/pspps-the-ritz-carlton-rancho-mirage/dining/", "accessed": "2026-10-09" },
-    { "id": "s4", "type": "official", "title": "The Ritz-Carlton, Rancho Mirage signature accommodations", "url": "https://www.ritzcarlton.com/en/hotels/pspps-the-ritz-carlton-rancho-mirage/rooms/signature-accommodations/", "accessed": "2026-10-09" },
-    { "id": "s5", "type": "official", "title": "The Ritz-Carlton, Rancho Mirage suites and rooms", "url": "https://www.ritzcarlton.com/en/hotels/pspps-the-ritz-carlton-rancho-mirage/rooms/", "accessed": "2026-10-09" },
-    { "id": "s6", "type": "official", "title": "The Ritz-Carlton, Rancho Mirage Club", "url": "https://www.ritzcarlton.com/en/hotels/pspps-the-ritz-carlton-rancho-mirage/club/", "accessed": "2026-10-09" },
-    { "id": "s7", "type": "official", "title": "The Ritz-Carlton, Rancho Mirage spa", "url": "https://www.ritzcarlton.com/en/hotels/pspps-the-ritz-carlton-rancho-mirage/spa/", "accessed": "2026-10-09" },
-    { "id": "s9", "type": "press", "title": "Condé Nast Traveler: The Ritz-Carlton, Rancho Mirage", "url": "https://www.cntraveler.com/hotels/rancho-mirage/ritz-carlton-rancho-mirage", "accessed": "2026-10-09" }
+    {
+      "id": "s1",
+      "type": "whatahotel",
+      "title": "WhataHotel: The Ritz-Carlton Rancho Mirage",
+      "url": "https://www.whatahotel.com/hotels/1212/the-ritz-carlton-rancho-mirage.html",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "s2",
+      "type": "official",
+      "title": "The Ritz-Carlton, Rancho Mirage overview",
+      "url": "https://www.ritzcarlton.com/en/hotels/pspps-the-ritz-carlton-rancho-mirage/overview/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "s3",
+      "type": "official",
+      "title": "The Ritz-Carlton, Rancho Mirage dining",
+      "url": "https://www.ritzcarlton.com/en/hotels/pspps-the-ritz-carlton-rancho-mirage/dining/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "s4",
+      "type": "official",
+      "title": "The Ritz-Carlton, Rancho Mirage signature accommodations",
+      "url": "https://www.ritzcarlton.com/en/hotels/pspps-the-ritz-carlton-rancho-mirage/rooms/signature-accommodations/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "s5",
+      "type": "official",
+      "title": "The Ritz-Carlton, Rancho Mirage suites and rooms",
+      "url": "https://www.ritzcarlton.com/en/hotels/pspps-the-ritz-carlton-rancho-mirage/rooms/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "s6",
+      "type": "official",
+      "title": "The Ritz-Carlton, Rancho Mirage Club",
+      "url": "https://www.ritzcarlton.com/en/hotels/pspps-the-ritz-carlton-rancho-mirage/club/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "s7",
+      "type": "official",
+      "title": "The Ritz-Carlton, Rancho Mirage spa",
+      "url": "https://www.ritzcarlton.com/en/hotels/pspps-the-ritz-carlton-rancho-mirage/spa/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "s9",
+      "type": "press",
+      "title": "Condé Nast Traveler: The Ritz-Carlton, Rancho Mirage",
+      "url": "https://www.cntraveler.com/hotels/rancho-mirage/ritz-carlton-rancho-mirage",
+      "accessed": "2026-10-09"
+    }
   ],
-  "status": "draft",
+  "status": "verified",
   "last_verified": "2026-10-09"
 }

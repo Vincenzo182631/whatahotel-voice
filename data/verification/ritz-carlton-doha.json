@@ -1,0 +1,380 @@
+{
+  "hotel_slug": "ritz-carlton-doha",
+  "hotel_name": "The Ritz Carlton Doha",
+  "checked_at": "2026-10-09T06:39:44.809Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 15,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 16
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ritzcarlton.com/en/hotels/dohrz-the-ritz-carlton-doha/overview/",
+      "tier": "official",
+      "chars": 16402
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ritzcarlton.com/en/hotels/dohrz-the-ritz-carlton-doha/rooms/",
+      "tier": "official",
+      "chars": 9645
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ritzcarlton.com/en/hotels/dohrz-the-ritz-carlton-doha/rooms/signature-suites/",
+      "tier": "official",
+      "chars": 4330
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ritzcarlton.com/en/hotels/dohrz-the-ritz-carlton-doha/dining/",
+      "tier": "official",
+      "chars": 13197
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ritzcarlton.com/en/hotels/dohrz-the-ritz-carlton-doha/spa/",
+      "tier": "official",
+      "chars": 19447
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ritzcarlton.com/en/hotels/dohrz-the-ritz-carlton-doha/experiences/boutique/",
+      "tier": "official",
+      "chars": 6215
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ritzcarlton.com/en/hotels/dohrz-the-ritz-carlton-doha/experiences/planning-your-trip/",
+      "tier": "official",
+      "chars": 13894
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ritzcarlton.com/en/hotels/dohrz-the-ritz-carlton-doha/club/",
+      "tier": "official",
+      "chars": 4076
+    },
+    {
+      "id": "d9",
+      "url": "https://www.cntraveler.com/hotels/doha/the-ritz-carlton-doha",
+      "tier": "editorial",
+      "chars": 3858
+    },
+    {
+      "id": "d10",
+      "url": "https://www.ritzcarlton.com/en/hotels/dohrz-the-ritz-carlton-doha/experiences/",
+      "tier": "official",
+      "chars": 22380
+    },
+    {
+      "id": "d11",
+      "url": "https://www.ritzcarlton.com/en/hotels/dohrz-the-ritz-carlton-doha/reviews/",
+      "tier": "official",
+      "chars": 755
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel has a private beach island.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "tranquil days on our private beach island and exhilarating watersports",
+          "note": "private beach island stated",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dohrz-the-ritz-carlton-doha/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel has a private beach with watersports activities and cabanas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Our Private Beach, with watersports activities and cabanas, is available.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dohrz-the-ritz-carlton-doha/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel has four Grand Amiri Suites, each with a unique layout and decor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Each of the four Grand Amiri Suites features a unique layout, striking décor, and curated artwork.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dohrz-the-ritz-carlton-doha/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "B-Lounge serves Asian fusion cuisine and handcrafted cocktails by the marina, with sea views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "B-Lounge is one of the standout Doha restaurants by the marina, serving Asian fusion cuisine, handcrafted cocktails, with sea views in a vibrant setting.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dohrz-the-ritz-carlton-doha/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Sel & Miel is a French brasserie.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Sel & Miel Doha, French Brasserie",
+          "note": "named French Brasserie",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dohrz-the-ritz-carlton-doha/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Lagoon Restaurant has an open kitchen with an international buffet and live cooking stations.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Featuring an open kitchen with international buffet, live cooking stations, and family-friendly offerings.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dohrz-the-ritz-carlton-doha/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Habanos is a lounge with an indoor space and a terrace facing the Doha skyline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Savor rich mixology and colorful cuisine in a luxe indoor lounge or on the terrace, set against Doha skyline views.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dohrz-the-ritz-carlton-doha/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel has an indoor pool, two tennis courts, a squash court and a fitness center.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "offering everything from a private beach island and an indoor pool to tennis courts and exceptional dining",
+          "note": "indoor pool",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dohrz-the-ritz-carlton-doha/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "a state-of-the-art gym with panoramic sea views, two indoor tennis courts, a squash court",
+          "note": "gym, two tennis courts, squash",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dohrz-the-ritz-carlton-doha/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d10",
+          "quote": "Fitness Center",
+          "note": "fitness center listed",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dohrz-the-ritz-carlton-doha/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The hotel has its own boutique in the lobby.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Ritz-Carlton, Doha Boutique is a curated luxury retail experience in the hotel lobby.",
+          "note": "boutique in lobby",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dohrz-the-ritz-carlton-doha/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "proudly has its own Boutique",
+          "note": "own boutique",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dohrz-the-ritz-carlton-doha/experiences/boutique/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Condé Nast Traveler lists the hotel in its Readers' Choice Awards for 2023, 2024 and 2025.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d9",
+          "quote": "Readers' Choice Awards 2023, 2024, 2025",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/doha/the-ritz-carlton-doha",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Cobalt Suite is inspired by cars and motorsports.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Inspired by Qatar’s love for the thrill of cars and motorsports",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dohrz-the-ritz-carlton-doha/rooms/signature-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "STK Doha is a steakhouse on the 23rd floor with skyline views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "this Doha steakhouse reimagines the steakhouse scene from the 23rd floor, with premium cuts, a vibrant ambiance, and sweeping skyline views.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dohrz-the-ritz-carlton-doha/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Club Lounge is on the 23rd floor and has sea views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Located on the 23rd floor, with sweeping sea views, the Club Lounge",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dohrz-the-ritz-carlton-doha/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The Club Lounge is exclusively for guests aged 21 and above.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "The Ritz-Carlton, Doha Club Lounge, exclusively for guests aged 21 and above",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dohrz-the-ritz-carlton-doha/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Guests must be 18 or older to use the spa facilities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "guests must be 18 years of age or older to access the Spa facilities and treatment areas.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/dohrz-the-ritz-carlton-doha/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the hotel is in a busy business district with limited nearby attractions.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

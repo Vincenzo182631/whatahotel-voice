@@ -1,0 +1,387 @@
+{
+  "hotel_slug": "ritz-carlton-central-park",
+  "hotel_name": "Ritz-Carlton Central Park",
+  "checked_at": "2026-10-09T06:39:18.180Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 16,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 0,
+      "total": 16
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ritzcarlton.com/en/hotels/nyccp-the-ritz-carlton-new-york-central-park/overview/",
+      "tier": "official",
+      "chars": 11606
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ritzcarlton.com/en/hotels/nyccp-the-ritz-carlton-new-york-central-park/experiences/",
+      "tier": "official",
+      "chars": 17079
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ritzcarlton.com/en/hotels/nyccp-the-ritz-carlton-new-york-central-park/dining/",
+      "tier": "official",
+      "chars": 5070
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ritzcarlton.com/en/hotels/nyccp-the-ritz-carlton-new-york-central-park/club/",
+      "tier": "official",
+      "chars": 5390
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ritzcarlton.com/en/hotels/nyccp-the-ritz-carlton-new-york-central-park/rooms/",
+      "tier": "official",
+      "chars": 7004
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ritzcarlton.com/en/hotels/nyccp-the-ritz-carlton-new-york-central-park/rooms/signature-suites/",
+      "tier": "official",
+      "chars": 13809
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ritzcarlton.com/en/hotels/nyccp-the-ritz-carlton-new-york-central-park/experiences/holidays/",
+      "tier": "official",
+      "chars": 4597
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ritzcarlton.com/en/hotels/nyccp-the-ritz-carlton-new-york-central-park/spa/",
+      "tier": "official",
+      "chars": 7475
+    },
+    {
+      "id": "d9",
+      "url": "https://www.ritzcarlton.com/en/hotels/nyccp-the-ritz-carlton-new-york-central-park/overview/what-to-expect/",
+      "tier": "official",
+      "chars": 6852
+    },
+    {
+      "id": "d10",
+      "url": "https://www.ritzcarlton.com/en/hotels/nyccp-the-ritz-carlton-new-york-central-park/reviews/",
+      "tier": "official",
+      "chars": 831
+    },
+    {
+      "id": "d11",
+      "url": "https://www.ritzcarlton.com/en/hotels/nyccp-the-ritz-carlton-new-york-central-park/hotel-stories/",
+      "tier": "official",
+      "chars": 7969
+    },
+    {
+      "id": "d12",
+      "url": "https://www.cntraveler.com/hotels/new-york/the-ritz-carlton-new-york-central-park",
+      "tier": "editorial",
+      "chars": 9334
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel sits on the doorstep of Central Park.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Nestled on the doorstep of Central Park, our hotel offers guests",
+          "note": "Page says doorstep of Central Park",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nyccp-the-ritz-carlton-new-york-central-park/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is steps from Museum Mile, home to the Met, MoMA and the Guggenheim.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "puts you steps from Museum Mile, home to the Met, MoMA, and Guggenheim.",
+          "note": "Page states it",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nyccp-the-ritz-carlton-new-york-central-park/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Fifth Avenue is just steps from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Just steps from our hotel, Fifth Avenue offers an unrivaled expression of New York luxury.",
+          "note": "Page states it",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nyccp-the-ritz-carlton-new-york-central-park/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The spa offers Swiss skincare and personalized treatments.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "La Prairie Spa, where Swiss skincare and personalized treatments offer a tranquil escape",
+          "note": "Page states it",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nyccp-the-ritz-carlton-new-york-central-park/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Contour is the hotel's restaurant and bar, with a social dining concept of handcrafted cocktails and crafted dishes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Contour Gastro Lounge and Bar",
+          "note": "Restaurant and bar name",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nyccp-the-ritz-carlton-new-york-central-park/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Our restaurant located in Midtown Manhattan follows this rhythm with a social dining concept featuring handcrafted cocktails and carefully crafted dishes.",
+          "note": "Social dining concept covered",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nyccp-the-ritz-carlton-new-york-central-park/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Club Lounge is described as a hotel within a hotel, with a private lounge and a dedicated concierge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Often described as a “hotel within a hotel,” Club offers access to a private lounge, a dedicated Concierge",
+          "note": "All elements covered",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nyccp-the-ritz-carlton-new-york-central-park/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Artists' Gate Suite has 13 windows with views of Central Park from the third floor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "13 expansive windows that frame captivating, eye-level views of Central Park from the third floor.",
+          "note": "All elements covered",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nyccp-the-ritz-carlton-new-york-central-park/rooms/signature-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Movement Studio offers virtual on-demand classes from yoga and Pilates to high-intensity interval training.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "dedicated Movement Studio offers additional space to move, stretch and recharge, with virtual on-demand classes ranging from yoga and Pilates to high-intensity interval training.",
+          "note": "All elements covered",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nyccp-the-ritz-carlton-new-york-central-park/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel's accommodations overlook the route of the Macy's Thanksgiving Day Parade.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Overlooking the iconic parade route, our coveted accommodations offer a once-in-a-lifetime opportunity to watch the world-famous Macy’s Thanksgiving Day Parade",
+          "note": "Page states it",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nyccp-the-ritz-carlton-new-york-central-park/experiences/holidays/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Royal Suite has handcrafted wood accents, a curated collection of artwork and panoramic views of Central Park.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "This bold, luxurious suite has unique handcrafted wood accents, a curated collection of artwork, and playful furnishings. Enjoy panoramic views of Central Park",
+          "note": "All elements covered",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nyccp-the-ritz-carlton-new-york-central-park/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Young guests have a dedicated check-in area, a welcome toy, special dining options, and sweets and games in the Club Lounge through the Ritz Kids program.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Kids enjoy a dedicated check-in area, welcome toy, special dining options and sweets and games in the Club Lounge.",
+          "note": "All elements covered under Ritz Kids",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nyccp-the-ritz-carlton-new-york-central-park/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Manhattan Minute at the Contour Bar Room is a take on the traditional happy hour that teaches the history of the Manhattan cocktail and sends guests home with a recipe card.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "A nod to the traditional happy hour, enjoy a taste of the hotel’s Contour Manhattan while learning about the history of the iconic cocktail.",
+          "note": "Happy hour nod, history of cocktail",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nyccp-the-ritz-carlton-new-york-central-park/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "As a memento, take with you our special recipe card",
+          "note": "Recipe card",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nyccp-the-ritz-carlton-new-york-central-park/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The concierges are members of Les Clefs d'Or, the global association of hotel concierges.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The gold keys on our concierges’ lapels symbolize Les Clefs d’Or, the elite global association of hotel concierges.",
+          "note": "Page states it",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nyccp-the-ritz-carlton-new-york-central-park/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Club access requires an upgraded booking, and Marriott Bonvoy Elite Status does not provide complimentary access to Club.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "*Club access requires an upgraded booking at the Club. Marriott Bonvoy Elite Status does not provide complimentary access to the Club.",
+          "note": "Page states it",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nyccp-the-ritz-carlton-new-york-central-park/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The hotel does not provide shuttle service from the airports.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "This hotel does not provide shuttle service.",
+          "note": "Stated for LGA, JFK and Newark",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nyccp-the-ritz-carlton-new-york-central-park/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "Breakfast is available at Contour for a fee.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Yes, breakfast is available onsite at Contour Gastro Lounge and Bar for a fee.",
+          "note": "Page states it",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nyccp-the-ritz-carlton-new-york-central-park/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

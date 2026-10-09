@@ -1,0 +1,398 @@
+{
+  "hotel_slug": "ritz-carlton-istanbul",
+  "hotel_name": "Ritz-Carlton, Istanbul",
+  "checked_at": "2026-10-09T06:39:30.411Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 18
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ritzcarlton.com/en/hotels/istrz-the-ritz-carlton-istanbul/overview/",
+      "tier": "official",
+      "chars": 19263
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ritzcarlton.com/en/hotels/istrz-the-ritz-carlton-istanbul/rooms/",
+      "tier": "official",
+      "chars": 6735
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ritzcarlton.com/en/hotels/istrz-the-ritz-carlton-istanbul/rooms/signature-suites/",
+      "tier": "official",
+      "chars": 25809
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ritzcarlton.com/en/hotels/istrz-the-ritz-carlton-istanbul/dining/",
+      "tier": "official",
+      "chars": 8341
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ritzcarlton.com/en/hotels/istrz-the-ritz-carlton-istanbul/experiences/",
+      "tier": "official",
+      "chars": 23923
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ritzcarlton.com/en/hotels/istrz-the-ritz-carlton-istanbul/club/",
+      "tier": "official",
+      "chars": 4595
+    },
+    {
+      "id": "d7",
+      "url": "https://www.cntraveler.com/hotels/istanbul/the-ritz-carlton-istanbul",
+      "tier": "editorial",
+      "chars": 3705
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ritzcarlton.com/en/hotels/istrz-the-ritz-carlton-istanbul/reviews/",
+      "tier": "official",
+      "chars": 807
+    },
+    {
+      "id": "d9",
+      "url": "https://www.ritzcarlton.com/en/hotels/istrz-the-ritz-carlton-istanbul/hotel-stories/",
+      "tier": "official",
+      "chars": 1694
+    },
+    {
+      "id": "d10",
+      "url": "https://www.cntraveler.com/hotels/turkey/istanbul/ritz-carlton-istanbul",
+      "tier": "editorial",
+      "chars": 3634
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is in the Dolmabahçe area, overlooking the Bosphorus.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "located in the prestigious Dolmabahçe area overlooking the Bosphorus",
+          "note": "Area and Bosphorus view stated.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/istrz-the-ritz-carlton-istanbul/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Nobu Istanbul, the hotel's Nobu restaurant, serves Japanese-Peruvian cuisine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Nobu Istanbul for Japanese-Peruvian Cuisine",
+          "note": "Nobu Istanbul listed as Japanese-Peruvian.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/istrz-the-ritz-carlton-istanbul/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Atölye Restaurant serves Anatolian cuisine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Atölye Restaurant for Anatolian Kitchen",
+          "note": "Atölye is Anatolian.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/istrz-the-ritz-carlton-istanbul/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Limoré is the hotel's Italian restaurant.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Limoré offers a menu rooted in the traditions of Italian cuisine, elevated with contemporary flair.",
+          "note": "Limoré is Italian dining at the hotel.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/istrz-the-ritz-carlton-istanbul/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Roof shows open-air cinema evenings every Tuesday from June to September.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "At The Roof, guests can enjoy open-air cinema evenings every Tuesday from June to September",
+          "note": "Day, months and venue match.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/istrz-the-ritz-carlton-istanbul/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The hotel offers a private Bosphorus yacht cruise that departs from Kabataş İskelesi.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Private yacht embarkation from Kabataş İskelesi, 2+ hour cruise along the Bosphorus",
+          "note": "Private Bosphorus Yacht Cruise departs from Kabataş İskelesi.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/istrz-the-ritz-carlton-istanbul/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The hotel runs a Ritz Kids program with tailored excursions to Istanbul attractions.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The hotel's Ritz Kids program, meanwhile, captures imaginations with tailored excursions to Istanbul’s most colorful attractions.",
+          "note": "Ritz Kids with tailored excursions.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/istrz-the-ritz-carlton-istanbul/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Club Lounge food is presented five times daily.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "exquisite culinary offerings presented five times daily in our Club Lounge",
+          "note": "Matches.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/istrz-the-ritz-carlton-istanbul/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Club guests can have Turkish coffee brewed in hot sand every Wednesday.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Enjoy Turkish coffee brewed in hot sand to perfection, every Wednesday.",
+          "note": "Listed among Club exclusive offerings.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/istrz-the-ritz-carlton-istanbul/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Condé Nast Traveler lists the hotel among its Readers' Choice Awards for 2017, 2023, 2024, 2025 and 2026.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Readers' Choice Awards 2017, 2023, 2024, 2025, 2026",
+          "note": "Years match on the Condé Nast Traveler hotel page.",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/istanbul/the-ritz-carlton-istanbul",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Nobu Suite has a private terrace with an ofuro soaking tub overlooking the Bosphorus.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The private terrace with Ofuro Tub offers sweeping Bosphorus views",
+          "note": "Private terrace, Ofuro tub, Bosphorus views.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/istrz-the-ritz-carlton-istanbul/rooms/signature-suites/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The ofuro tub is a traditional Japanese soaking tub that is an essential part of Japanese culture",
+          "note": "Ofuro is a soaking tub.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/istrz-the-ritz-carlton-istanbul/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The spa's hammam is modeled after the 16th-century Turkish baths of Roxelana and has a couple's suite.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "a hammam, modeled after the 16th-century Turkish baths of Roxelana and offering separate areas for ladies and gentlemen as well as a couple’s suite",
+          "note": "Both elements stated.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/istrz-the-ritz-carlton-istanbul/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Atölye's plates use produce grown in the hotel's own vegetable garden.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The fresh produce grown at The Ritz-Carlton, Istanbul’s own vegetable garden, brings a completely natural spirit to Atölye’s plates.",
+          "note": "Matches.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/istrz-the-ritz-carlton-istanbul/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Roof is a rooftop terrace with an infinity pool and views of the Bosphorus.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Embraced by the lush greenery, with an infinity pool, The Roof at The Ritz-Carlton, Istanbul offers magical views of the Bosphorus",
+          "note": "Infinity pool and Bosphorus views.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/istrz-the-ritz-carlton-istanbul/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Roof for an urban oasis, a stylish, sleek sunbathing terrace, massage rooms and an infinity pool.",
+          "note": "Terrace described.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/istrz-the-ritz-carlton-istanbul/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Room decor reflects Turkish culture and Ottoman times, with tulips and İznik tiles.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Decoration of rooms reflecting the Turkish culture and Ottoman times with Tulips and İznik tiles.",
+          "note": "Matches.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/istrz-the-ritz-carlton-istanbul/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The outdoor infinity pool is available during the summer period.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Our outdoor infinity pool is available during the summer period",
+          "note": "Matches.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/istrz-the-ritz-carlton-istanbul/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Club access requires an upgraded booking.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Club access requires an upgraded booking at the Club.",
+          "note": "Matches.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/istrz-the-ritz-carlton-istanbul/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the formal atmosphere may not suit casual travelers.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
