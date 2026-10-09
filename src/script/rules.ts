@@ -16,6 +16,7 @@ export const DIALOGUE_CHAR_LIMIT = 2000;
 const BANNED: Array<[RegExp, string]> = [
   [/\bpros\b|\bcons\b/i, 'uses "pros/cons" framing; say "what stands out" / "things to consider"'],
   [/\bpodcast\b/i, 'calls itself a podcast'],
+  [/\bwho(?:'s|\s+is|\s+are)\s+(?:it|this|that|these)\s+(?:really\s+|actually\s+|then\s+|just\s+)?(?:right\s+)?for\b|\bwho\s+should\s+(?:book|stay|go)\b/i, 'uses the stock "who is it for / who should book" question; ask it in fresh words'],
   [/\b(as an ai|language model)\b/i, "mentions being AI"],
   [/\bguarantee[ds]?\b/i, "makes a guarantee"],
   [/\b(best|greatest) (hotel|resort) in the world\b/i, "unsupported superlative"],

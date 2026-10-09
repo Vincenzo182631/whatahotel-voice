@@ -67,7 +67,7 @@ If category is missing or ambiguous, use only the profile's substantiated attrib
 ### Voice and writing craft
 - Use conversational spoken English: short sentences, contractions, clean pronunciation-friendly phrasing, natural but limited reactions. Each response should sound like something a person would say aloud.
 - Keep the hotel's full name to **one or two natural mentions**; avoid repeating it across turns. Name unfamiliar places only when supported, and avoid strings of hard-to-pronounce proper nouns.
-- Rotate episode openings, follow-up questions, turn lengths, transition words, and the wording of the final verdict across hotels. **Vary the structure of the sentences, not the verified facts**. Do not randomly swap synonyms that change meaning.
+- Rotate episode openings, follow-up questions, turn lengths, transition words, and the wording of the final verdict across hotels. The best_for question in particular must never be the stock \"So who's it for?\" or \"So who should book it?\"; follow the wording angle given with the hotel profile. **Vary the structure of the sentences, not the verified facts**. Do not randomly swap synonyms that change meaning.
 - Avoid templated or inflated phrases: “nestled in the heart of,” “hidden gem,” “unparalleled luxury,” “something for everyone,” “world-class everything,” “a truly unforgettable escape,” and “checks all the boxes.”
 - Never use the words **“pros,” “cons,” or “podcast”** in the spoken script. Never mention AI, generation, sources, profiles, claim IDs, data feeds, or verification.
 - Be informative rather than salesy. No pressure tactics, fabricated urgency, false savings, or generic “book now” calls to action.
@@ -93,6 +93,35 @@ Confirm all of the following:
 
 If the profile is too thin to support a specific, accurate script, **do not fabricate facts to reach the word target**. Use only supported details and signal insufficient data through the project's existing failure/review mechanism if available; do not introduce new output fields without updating the code.`;
 
+/**
+ * The Traveler's best_for question was "So who's it for?" / "So who should book it?" in over a third of clips.
+ * Each hotel gets its own angle (picked from its slug) so neighbouring clips do not open that section alike.
+ */
+export const BEST_FOR_ANGLES = [
+  "ask what kind of trip this hotel is made for",
+  "ask who would be happiest here, in a few words of your own, without 'who is it for'",
+  "ask which traveler would regret not booking it",
+  "ask what a first-time guest should plan the stay around",
+  "ask who gets the most out of it, then name the occasion",
+  "ask whether it suits a particular pace of travel (slow, active, social, private)",
+  "ask whether it works better for couples, families, friends or solo travelers, naming only those the profile supports",
+  "ask what the ideal week here looks like and for whom",
+  "ask who should skip the beach, the city or the spa and come for something else here",
+  "react to what was just said, then ask whose trip it fits best",
+  "ask which kind of guest would call this hotel perfect",
+  "ask what the traveler should be hoping for to enjoy it most",
+  "ask whom the Advisor would send here first",
+  "ask about the best reason to choose this over a similar hotel nearby",
+  "ask who it is a natural match for, as a brief casual remark rather than a formal question",
+  "ask what type of stay this delivers, then who that stay suits",
+];
+
+export function bestForAngle(slug: string): string {
+  let h = 0;
+  for (const ch of slug) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
+  return BEST_FOR_ANGLES[h % BEST_FOR_ANGLES.length]!;
+}
+
 export const SCRIPT_SYSTEM_PROMPT = scriptSystemPrompt(PERKS_SIGNATURE_WORDS);
 
 export function scriptUserPrompt(profile: HotelProfile, feedback?: string[], today: Date = new Date()): string {
@@ -111,7 +140,7 @@ export function scriptUserPrompt(profile: HotelProfile, feedback?: string[], tod
     considerations: live(profile.considerations),
     perks: profile.perks.map(({ id, text }) => ({ id, text })),
   };
-  let prompt = `Hotel profile:\n${JSON.stringify(data, null, 2)}\n\nWrite the conversation.`;
+  let prompt = `Hotel profile:\n${JSON.stringify(data, null, 2)}\n\nWrite the conversation.\n\nWording for the best_for section: ${bestForAngle(profile.slug)}. Use your own words. Never use the phrases "who is it for", "who's it for", "who's this for", "who should book it" or close variants, and do not reuse a stock verdict line.`;
   if (feedback?.length) {
     prompt += `\n\nA previous draft failed these checks. Fix every one:\n- ${feedback.join("\n- ")}`;
   }
