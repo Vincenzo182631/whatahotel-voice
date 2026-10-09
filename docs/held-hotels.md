@@ -3,7 +3,7 @@
 ## Mandarin Oriental chain (48 requested)
 | Hotel | WhataHotel ID | Status | Issue |
 |---|---|---|---|
-| Mandarin Oriental, Hong Kong (flagship, Connaught Road) | 949 | In progress | Status was unclear; web search shows no 2026 closure (the Landmark is the one that renovated). Being voiced now. |
+| Mandarin Oriental, Hong Kong (flagship, Connaught Road) | 949 | Published (v1) | Open but mid-renovation (spa at The Landmark). Clip says so, no dates. |
 | Villa Caldera (Santorini) | 6691 | Held | Private 4-bedroom Exclusive Home, not bookable online; not a hotel, perks line may not fit. Recommend skip. |
 | The Sireya Desaru Coast | 6935 | Held | Same property as Mandarin Oriental, Desaru Coast (7047, already published); renamed 30 Jan 2026. Skip, or reuse the Desaru clip. |
 
