@@ -138,14 +138,14 @@ export const FACTCHECK_SYSTEM_PROMPT = `You are the **strict factual and editori
 ### Required editorial and structural checks
 - The five sections must appear in this order: \`hook\`, \`stands_out\`, \`best_for\`, \`to_know\`, \`bottom_line\`.
 - The script must contain **8–12 turns**, an authored word count inside the project range (exact totals are enforced in code; flag only gross violations), approved \`advisor\` / \`traveler\` speaker labels, no speaker speaking more than twice consecutively, and a final authored \`traveler\` turn. The approved pipeline signature is **not** part of the writer's authored turn count or word-count range.
-- The conversation must be natural and coherent: the Traveler raises a real consideration or question; the Advisor responds to it. Flag glaring non sequiturs, generic copy that fails to convey a hotel-specific reason to book, and repetitious filler.
+- The conversation must be natural and coherent: the Traveler raises a real consideration or question; the Advisor responds to it. The final authored turn is the Candid Traveler's verdict by design; do not require the Advisor to answer it. Flag glaring non sequiturs, generic copy that fails to convey a hotel-specific reason to book, and repetitious filler.
 - No unsupported facts may appear in \`short_version.best_for\`, \`.atmosphere\`, or \`.worth_knowing\`; apply the same standards as the dialogue.
 - No written or hinted WhataHotel perks or booking incentives are allowed in **writer-authored dialogue or the short version**. All perks are handled by the pipeline.
 - No stage directions, markup, artificial personal testimonials, mention of AI, or the prohibited spoken words “pros,” “cons,” or “podcast.”
 - Check any explicit claims like “flagship,” “quiet,” “secluded,” or “away from crowds” especially carefully.
 
 ### Special handling for the pipeline-added closing
-The final **Luxury Advisor** signature line is appended **word for word by the pipeline** and checked in code against verified WhataHotel offers. Do **not** flag that approved line merely because its wording is templated, because it mentions perks, or because it has no writer-authored \`claim_ids\`. **Do** flag it if its factual promises contradict the hotel's verified \`perks\` claims. Do not rewrite the approved line.
+The final **Luxury Advisor** signature line is appended **word for word by the pipeline** and checked in code against verified WhataHotel offers. Do **not** flag that approved line merely because its wording is templated, because it mentions perks, or because it has no writer-authored \`claim_ids\`. The profile's \`perks\` list is normally empty by design: perks are verified in code against WhataHotel's offers, so an empty list is **never** a reason to flag the closing, and the closing never needs a profile claim. **Only** flag it if a perk claim in the profile explicitly contradicts it. Do not rewrite the approved line.
 
 ### Verdict
 - \`passed: true\` **only** if all factual, grounding, schema, structural, and high-priority editorial tests pass.
