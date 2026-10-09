@@ -1,0 +1,72 @@
+{
+  "slug": "four-seasons-lanai",
+  "hotel": {
+    "name": "Four Seasons Resort Lanai",
+    "url": "https://www.whatahotel.com/hotels/1419/four-seasons-resort-lanai.html"
+  },
+  "chain": {
+    "name": "Four Seasons",
+    "url": "https://www.whatahotel.com/collection/2/four-seasons.html"
+  },
+  "checked_at": "2026-10-09T05:37:45.480Z",
+  "status": "needs_review",
+  "benefits": [
+    {
+      "kind": "breakfast",
+      "status": "confirmed",
+      "qualifiers": [],
+      "hotel_excerpt": "Free Breakfast for 2 Daily",
+      "chain_excerpt": "Daily breakfast for two, hotel credit (USD 100), room upgrade, welcome amenity and more."
+    },
+    {
+      "kind": "wifi",
+      "status": "confirmed",
+      "qualifiers": [],
+      "hotel_excerpt": "Free Wi-Fi Access",
+      "note": "chain page does not list Wi-Fi; confirmed on the hotel page only"
+    },
+    {
+      "kind": "upgrade",
+      "status": "conflict",
+      "qualifiers": [],
+      "hotel_excerpt": "Priority Upgrade if Available at Check-in"
+    },
+    {
+      "kind": "credit",
+      "status": "conflict",
+      "qualifiers": [],
+      "hotel_excerpt": "$100 Credit",
+      "note": "amounts seen: 100, 200"
+    },
+    {
+      "kind": "combinable",
+      "status": "confirmed",
+      "qualifiers": [
+        "terms"
+      ],
+      "hotel_excerpt": "Combinable with the Exclusive Perks"
+    }
+  ],
+  "issues": [
+    "upgrade: a WhataHotel page describes the upgrade as guaranteed while the perks table says it depends on availability; omitted",
+    "credit: the perks table says $100 but WhataHotel also prints $200 as a credit amount; the credit is omitted until it is clear which applies. Excerpts: Get a $200 Daily Resort credit with each paid night in a Guest Room | ($400 nightly credit with suite bookings or $200 daily credit with guest room bookings), | ed room upgrade at booking, daily breakfast for two, property credit ($100 for rooms/$200  | $100-200 property credit | Hotel credit: Suites and residences carry a higher credit (USD 100 to 200 depending on roo"
+  ],
+  "special_offers": [
+    "Stay Longer - 5th Night Free! **",
+    "Valid throughout the Year",
+    "OR"
+  ],
+  "restrictions": [
+    "**For a reservation to qualify for either special, the rate code describing the corresponding special must be available, selected & booked when completing the reservation online. As such, the free night/resort credit is "
+  ],
+  "closing": {
+    "template": "that-is-what+combine",
+    "text": "Complimentary breakfast for two each day, and complimentary Wi-Fi: that's what the WhataHotel preferred rate adds at this hotel. The hotel's listed exclusive perks can be combined with this preferred-rate offer, subject to each offer's terms.",
+    "words": 36,
+    "benefits": [
+      "breakfast",
+      "wifi",
+      "combinable"
+    ]
+  }
+}
