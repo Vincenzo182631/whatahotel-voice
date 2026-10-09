@@ -1,8 +1,8 @@
 import { existsSync, readFileSync } from "node:fs";
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { chainOfName } from "../research/chains.js";
-import { loadHotelRef } from "../research/research.js";
+import { chainById, chainOfName } from "../research/chains.js";
+import { chainFromCollections, loadHotelRef } from "../research/research.js";
 import { composeClosing } from "./closing.js";
 import { parseChainOffer, parseHotelOffer, type ChainOffer, type HotelOffer } from "./extract.js";
 import { offersDir, offersFile, type Benefit, type OfferSet } from "./store.js";
@@ -139,7 +139,9 @@ export async function buildOffers(slug: string, opts: BuildOptions = {}): Promis
   const hotel = parseHotelOffer(hotelHtml);
   if (!hotel.found.length) issues.push("the hotel's WhataHotel page lists no perks table; no benefit can be confirmed");
 
-  const chain = chainOfName(profile.name);
+  // a hotel whose name does not say its chain (Ritz Penha Longa) still belongs to the chain its collection file declares
+  const declared = await chainFromCollections(slug);
+  const chain = chainOfName(profile.name) ?? (declared ? chainById(declared) : undefined);
   let chainUrl = opts.chainUrl;
   let chainOffer: ChainOffer | undefined;
   try {
