@@ -1,0 +1,358 @@
+{
+  "hotel_slug": "ritz-carlton-al-wadi-desert",
+  "hotel_name": "The Ritz Carlton Al Wadi Desert",
+  "checked_at": "2026-10-09T13:23:40.490Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 15,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 16
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ritzcarlton.com/en/hotels/rktrw-the-ritz-carlton-ras-al-khaimah-al-wadi-desert/overview/",
+      "tier": "official",
+      "chars": 16093
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ritzcarlton.com/en/hotels/rktrw-the-ritz-carlton-ras-al-khaimah-al-wadi-desert/rooms/villas/",
+      "tier": "official",
+      "chars": 5853
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ritzcarlton.com/en/hotels/rktrw-the-ritz-carlton-ras-al-khaimah-al-wadi-desert/spa/",
+      "tier": "official",
+      "chars": 10487
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ritzcarlton.com/en/hotels/rktrw-the-ritz-carlton-ras-al-khaimah-al-wadi-desert/experiences/",
+      "tier": "official",
+      "chars": 13333
+    },
+    {
+      "id": "d5",
+      "url": "https://www.cntraveler.com/hotels/ras-al-khaimah/the-ritz-carlton-ras-al-khaimah",
+      "tier": "editorial",
+      "chars": 10810
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ritzcarlton.com/en/hotels/rktrw-the-ritz-carlton-ras-al-khaimah-al-wadi-desert/rooms/",
+      "tier": "official",
+      "chars": 5948
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ritzcarlton.com/en/hotels/rktrw-the-ritz-carlton-ras-al-khaimah-al-wadi-desert/dining/",
+      "tier": "official",
+      "chars": 6729
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ritzcarlton.com/en/hotels/rktrw-the-ritz-carlton-ras-al-khaimah-al-wadi-desert/experiences/planning-your-trip/",
+      "tier": "official",
+      "chars": 16439
+    },
+    {
+      "id": "d9",
+      "url": "https://www.ritzcarlton.com/en/hotels/rktrw-the-ritz-carlton-ras-al-khaimah-al-wadi-desert/reviews/",
+      "tier": "official",
+      "chars": 790
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The resort sits within a gated private nature reserve.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located in a 1,235-acre gated private Nature Reserve",
+          "note": "gated private reserve stated",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/rktrw-the-ritz-carlton-ras-al-khaimah-al-wadi-desert/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The resort opened as a Banyan Tree resort in 2010 and became a Ritz-Carlton property in 2017.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Originally opened as a Banyan Tree resort back in 2010, the resort became a Ritz-Carlton property in 2017.",
+          "note": "both years stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/ras-al-khaimah/the-ritz-carlton-ras-al-khaimah",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Each villa features a private pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Each features a private pool, expansive living space",
+          "note": "villas each have private pool",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/rktrw-the-ritz-carlton-ras-al-khaimah-al-wadi-desert/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The resort’s accommodations are spread over 109 villas, all with a private pool.",
+          "note": "all villas with pool",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/ras-al-khaimah/the-ritz-carlton-ras-al-khaimah",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Signature villa guests are welcomed by a private butler.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "A private Butler, welcomes you with a complimentary bottle of Champagne",
+          "note": "Signature Villas page",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/rktrw-the-ritz-carlton-ras-al-khaimah-al-wadi-desert/rooms/villas/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The tented villas have canopied ceilings and brass lanterns.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "the tented villas, sprawling over 253 square metres of dark wood detailing, canopied ceilings, brass lanterns, and huge bathrooms",
+          "note": "both features named",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/ras-al-khaimah/the-ritz-carlton-ras-al-khaimah",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The spa's Rainforest combines European hydrothermal culture with Middle Eastern bathing rituals.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The Rainforest combines European hydrothermal culture with Middle Eastern bathing rituals",
+          "note": "exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/rktrw-the-ritz-carlton-ras-al-khaimah-al-wadi-desert/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Ritz Kids offers children educational activities about the desert.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Ritz Kids invites young explorers to discover the wonders of the desert through engaging, educational activities.",
+          "note": "exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/rktrw-the-ritz-carlton-ras-al-khaimah-al-wadi-desert/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Zuma at the resort serves Japanese izakaya-style dining, with a menu from sushi to robata grill.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Zuma is a sophisticated twist on the traditional Japanese Izakaya style of informal eating and drinking. The menu showcases a variety of dishes from sushi to robata grill.",
+          "note": "exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/rktrw-the-ritz-carlton-ras-al-khaimah-al-wadi-desert/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "A Falcon and Owl show takes place daily one hour before sunset.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "interactive Falcon and Owl show daily, one hour before sunset",
+          "note": "exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/rktrw-the-ritz-carlton-ras-al-khaimah-al-wadi-desert/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The resort is in the Al Wadi Nature Reserve, which is home to gazelles and Arabian oryx.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "It sits in the Al Wadi Nature Reserve, established in 2010 and today home to gazelles and Arabian Oryxes",
+          "note": "gazelles and Arabian oryx stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/ras-al-khaimah/the-ritz-carlton-ras-al-khaimah",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Experience Concierge introduces guests to falconry, archery, fishing, desert biking, horseback riding and stargazing.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "guests are introduced to falconry, archery, fishing, desert biking, horseback riding, stargazing",
+          "note": "all six listed under Experience Concierge",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/rktrw-the-ritz-carlton-ras-al-khaimah-al-wadi-desert/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The spa offers the Arabian Sand Tide Journey, performed on a treatment table topped with quartz sand.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Arabian Sand Tide Journey, performed on a treatment table topped by a layer of quartz sand",
+          "note": "exact match",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/ras-al-khaimah/the-ritz-carlton-ras-al-khaimah",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Signature villas with private mini-gyms and an infinity-edge pool opened in 2024.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "the opening of eight new two-bedroom signature villas in 2024",
+          "note": "2024 opening",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/ras-al-khaimah/the-ritz-carlton-ras-al-khaimah",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "private mini-gyms, and an infinity-edge pool",
+          "note": "features stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/ras-al-khaimah/the-ritz-carlton-ras-al-khaimah",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "WhataHotel notes the remote desert location requires planned transportation.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The hotel does not provide airport shuttle service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "This hotel does not provide shuttle service.",
+          "note": "stated under airport transportation",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/rktrw-the-ritz-carlton-ras-al-khaimah-al-wadi-desert/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "The Al Wadi Equestrian Centre is run by a third-party operator independently from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Al Wadi Equestrian Centre is a third-party operator who manages the Equestrian Centre and Equestrian Activities independently from the hotel.",
+          "note": "exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/rktrw-the-ritz-carlton-ras-al-khaimah-al-wadi-desert/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}
