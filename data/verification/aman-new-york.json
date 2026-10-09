@@ -1,0 +1,359 @@
+{
+  "hotel_slug": "aman-new-york",
+  "hotel_name": "Aman New York",
+  "checked_at": "2026-10-09T22:02:13.158Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 16,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 17
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.aman.com/hotels/aman-new-york",
+      "tier": "official",
+      "chars": 1927
+    },
+    {
+      "id": "d2",
+      "url": "https://www.aman.com/hotels/aman-new-york/accommodation/rooms-suites/",
+      "tier": "official",
+      "chars": 1813
+    },
+    {
+      "id": "d3",
+      "url": "https://www.aman.com/hotels/aman-new-york/experiences/whats-on/",
+      "tier": "official",
+      "chars": 8121
+    },
+    {
+      "id": "d4",
+      "url": "https://www.cntraveler.com/hotels/new-york/aman-new-york",
+      "tier": "editorial",
+      "chars": 16640
+    },
+    {
+      "id": "d5",
+      "url": "https://www.aman.com/hotels/aman-new-york/aman-new-york-accommodation/",
+      "tier": "official",
+      "chars": 1813
+    },
+    {
+      "id": "d6",
+      "url": "https://www.aman.com/hotels/aman-new-york/dining/",
+      "tier": "official",
+      "chars": 415
+    },
+    {
+      "id": "d7",
+      "url": "https://www.aman.com/hotels/aman-new-york/homes/",
+      "tier": "official",
+      "chars": 1103
+    },
+    {
+      "id": "d8",
+      "url": "https://www.aman.com/hotels/aman-new-york/exclusives/",
+      "tier": "official",
+      "chars": 535
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Aman New York is set on the corner of Fifth Avenue and 57th Street.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Set on the corner of Fifth Avenue and 57th Street",
+          "note": "covers the claim",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york/aman-new-york",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel occupies the Crown Building, dating from around 1921, a Beaux-Arts landmark.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "the iconic Crown Building, circa 1921—is one of the city’s finest examples of Beaux-Arts architecture, a landmark building",
+          "note": "covers the claim",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york/aman-new-york",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Crown Building housed the first iteration of the Museum of Modern Art until 1932.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "until 1932, housed the first iteration of the",
+          "note": "covers the claim",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york/aman-new-york",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Museum of Modern Art",
+          "note": "covers the claim",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york/aman-new-york",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The Spa Houses are centred around either a traditional Banya or a Hammam experience.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Centred around either a traditional Banya or Hammam experience",
+          "note": "covers the claim",
+          "confirmed": true,
+          "url": "https://www.aman.com/hotels/aman-new-york/experiences/whats-on/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The hotel has a three-floor wellness facility including an indoor pool, Fitness Centre, Cold Plunge Terrace, sauna and steam room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Access to a comprehensive three-floor wellness facility including an indoor pool, Fitness Centre, Cold Plunge Terrace, sauna and steam room",
+          "note": "covers the claim",
+          "confirmed": true,
+          "url": "https://www.aman.com/hotels/aman-new-york/accommodation/rooms-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Arva is Aman New York's signature Italian restaurant.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Arva, Aman’s signature Italian restaurant",
+          "note": "covers the claim",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york/aman-new-york",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Akari presents Kaiseki and Omakase at an intimate hinoki wood counter.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "At the intimate hinoki wood counter, Akari presents the Japanese traditions of Kaiseki, centred on a progression of intricately crafted dishes, and Omakase, a sushi-led tasting",
+          "note": "covers the claim",
+          "confirmed": true,
+          "url": "https://www.aman.com/hotels/aman-new-york/experiences/whats-on/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Garden Terrace is open year-round and serves light bites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "the year-round Garden Terrace serving light bites",
+          "note": "covers the claim",
+          "confirmed": true,
+          "url": "https://www.aman.com/hotels/aman-new-york/experiences/whats-on/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The Jazz Club is open to the public.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The Jazz Club is open to the public",
+          "note": "covers the claim",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york/aman-new-york",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Suite stays include daily breakfast at Arva or in-suite.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Daily breakfast at Arva or in-suite",
+          "note": "covers the claim",
+          "confirmed": true,
+          "url": "https://www.aman.com/hotels/aman-new-york/accommodation/rooms-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Each private Spa House has a private terrace with a cold plunge and hot bath.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "each Spa House offers its own transformational wellness journey, complete with double treatment rooms, an interior lounge and a private terrace with a cold plunge and hot bath for leisure use",
+          "note": "covers the claim",
+          "confirmed": true,
+          "url": "https://www.aman.com/hotels/aman-new-york/experiences/whats-on/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Each suite has a working fireplace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "the working fireplace, which, in an impressive New York first, each of the building’s 83 suites and 22 residences are outfitted with",
+          "note": "covers the claim",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york/aman-new-york",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Jazz Club is a subterranean venue that hosts evening shows.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "I headed down to the subterranean Jazz Club for an evening show",
+          "note": "covers the claim",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york/aman-new-york",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Suite design has a Japanese sensibility, such as textured paneling behind the bed that resembles a shoji screen.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Many of the elements reflected a distinctly Japanese sensibility: the textured paneling behind the bed that resembled a shoji screen",
+          "note": "covers the claim",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york/aman-new-york",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Transfers from the area's airports take 30-75 minutes by car.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "30-75 minutes by car",
+          "note": "covers the claim",
+          "confirmed": true,
+          "url": "https://www.aman.com/hotels/aman-new-york",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Alfresco dining is heated and covered during winter.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "heated and covered during winter",
+          "note": "covers the claim",
+          "confirmed": true,
+          "url": "https://www.aman.com/hotels/aman-new-york/experiences/whats-on/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes ultra-premium pricing.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

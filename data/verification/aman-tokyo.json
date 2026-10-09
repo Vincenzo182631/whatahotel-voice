@@ -1,0 +1,419 @@
+{
+  "hotel_slug": "aman-tokyo",
+  "hotel_name": "Aman Tokyo",
+  "checked_at": "2026-10-09T22:02:04.651Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.aman.com/hotels/aman-tokyo/accommodation/rooms-suites/",
+      "tier": "official",
+      "chars": 799
+    },
+    {
+      "id": "d2",
+      "url": "https://www.aman.com/hotels/aman-tokyo/dining/musashi-aman/",
+      "tier": "official",
+      "chars": 1274
+    },
+    {
+      "id": "d3",
+      "url": "https://www.aman.com/hotels/aman-tokyo/wellness/",
+      "tier": "official",
+      "chars": 1864
+    },
+    {
+      "id": "d4",
+      "url": "https://www.cntraveler.com/hotels/tokyo/aman-tokyo",
+      "tier": "editorial",
+      "chars": 7794
+    },
+    {
+      "id": "d5",
+      "url": "https://www.aman.com/hotels/aman-tokyo",
+      "tier": "official",
+      "chars": 1248
+    },
+    {
+      "id": "d6",
+      "url": "https://www.aman.com/hotels/aman-tokyo/suites-aman-tokyo/",
+      "tier": "official",
+      "chars": 507
+    },
+    {
+      "id": "d7",
+      "url": "https://www.aman.com/hotels/aman-tokyo/signature-suites-aman-tokyo/",
+      "tier": "official",
+      "chars": 561
+    },
+    {
+      "id": "d8",
+      "url": "https://www.aman.com/hotels/aman-tokyo/exclusives/",
+      "tier": "official",
+      "chars": 199
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Aman Tokyo is in the Otemachi Tower in Chiyoda-ku, Tokyo.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The Otemachi Tower, 1-5-6 Otemachi, Chiyoda-ku, Tokyo 100-0004",
+          "note": "Address given",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/tokyo/aman-tokyo",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Architect Kerry Hill played with the tenets of the Japanese house and its delineation of indoor and outdoor space in the lobby, using natural materials.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "played with the tenets of the Japanese house, and its delineation of indoor and outdoor space in the lobby, using a bevy of natural materials",
+          "note": "Matches lobby claim",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/tokyo/aman-tokyo",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Aman Tokyo was the first urban property from the Aman brand.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Aman Tokyo was the first urban essay by the brand",
+          "note": "First urban essay by the brand",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/tokyo/aman-tokyo",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Sliding washi-covered door panels open to a stone-laid bathroom with a furo bathtub overlooking the city.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Slide the washi-covered door panels to reveal a stone-laid bathroom within, complete with a",
+          "note": "Door panels and stone-laid bathroom",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/tokyo/aman-tokyo",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "bathtub overlooking the city.",
+          "note": "Furo bathtub overlooking city",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/tokyo/aman-tokyo",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "At Musashi by Aman, chef Musashi serves omakase-style sushi and sashimi across a hinoki wood bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "the eponymous chef serves omakase-style sushi and sashimi to delighted diners from across the sweeping hinoki wood bar",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/tokyo/aman-tokyo",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The rice that chef Musashi grows also goes into making his original sake and craft spirits.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The rice that chef Musashi grows also goes into making his original sake and craft spirits.",
+          "note": "Exact",
+          "confirmed": true,
+          "url": "https://www.aman.com/hotels/aman-tokyo/dining/musashi-aman/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The spa and wellness area covers 2,500 square metres over two floors.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "2,500sqm (26,900sqft) over two floors",
+          "note": "Area and floors",
+          "confirmed": true,
+          "url": "https://www.aman.com/hotels/aman-tokyo/wellness/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The spa has eight treatment rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Eight treatment rooms",
+          "note": "Count",
+          "confirmed": true,
+          "url": "https://www.aman.com/hotels/aman-tokyo/wellness/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Suite stays include access to wellness facilities with Japanese-style bathing facilities, steam rooms, an indoor swimming pool and a fitness centre.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Access to wellness facilities including Japanese-style bathing facilities, steam rooms, 30-metre indoor swimming pool and fitness centre",
+          "note": "Listed as suite inclusion",
+          "confirmed": true,
+          "url": "https://www.aman.com/hotels/aman-tokyo/accommodation/rooms-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Suite stays include daily breakfast.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Daily breakfast",
+          "note": "Listed as suite inclusion",
+          "confirmed": true,
+          "url": "https://www.aman.com/hotels/aman-tokyo/accommodation/rooms-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Traditional Japanese acupuncture is available in the Aman Spa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "In the Aman Spa, traditional Japanese acupuncture is available",
+          "note": "Exact",
+          "confirmed": true,
+          "url": "https://www.aman.com/hotels/aman-tokyo/wellness/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Aman-led excursions in the Nihonbashi area let guests order custom kimono, engrave their own chopsticks and decorate handmade fans.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "the neighboring area of Nihonbashi",
+          "note": "Area",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/tokyo/aman-tokyo",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "On an Aman-led excursion, guests can order custom kimono, engrave their own chopsticks, and decorate handmade fans",
+          "note": "Activities",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/tokyo/aman-tokyo",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "At Musashi by Aman, chef Musashi serves omakase-style sushi and sashimi across a hinoki wood bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "the eponymous chef serves omakase-style sushi and sashimi to delighted diners from across the sweeping hinoki wood bar",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/tokyo/aman-tokyo",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The spa and wellness area covers 2,500 square metres over two floors.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "2,500sqm (26,900sqft) over two floors",
+          "note": "Area and floors",
+          "confirmed": true,
+          "url": "https://www.aman.com/hotels/aman-tokyo/wellness/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Architect Kerry Hill played with the tenets of the Japanese house and its delineation of indoor and outdoor space in the lobby, using natural materials.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "played with the tenets of the Japanese house, and its delineation of indoor and outdoor space in the lobby, using a bevy of natural materials",
+          "note": "Matches lobby claim",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/tokyo/aman-tokyo",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Aman Tokyo was the first urban property from the Aman brand.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Aman Tokyo was the first urban essay by the brand",
+          "note": "First urban essay by the brand",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/tokyo/aman-tokyo",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Sliding washi-covered door panels open to a stone-laid bathroom with a furo bathtub overlooking the city.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Slide the washi-covered door panels to reveal a stone-laid bathroom within, complete with a",
+          "note": "Door panels and stone-laid bathroom",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/tokyo/aman-tokyo",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "bathtub overlooking the city.",
+          "note": "Furo bathtub overlooking city",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/tokyo/aman-tokyo",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The language barrier can be a hurdle at Musashi by Aman for those who do not speak Japanese.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The language barrier can be somewhat of a hurdle at times for those who don’t speak Japanese",
+          "note": "Page says this",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/tokyo/aman-tokyo",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes limited dining options within the hotel.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes ultra-luxury pricing reflecting premium positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
