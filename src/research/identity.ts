@@ -1,5 +1,5 @@
 import { words } from "../verify/evidence.js";
-import { CHAINS, chainById, chainOfHost, chainOfName, isThirdParty, type Chain } from "./chains.js";
+import { CHAINS, chainById, chainOfHost, chainOfName, hostBelongsTo, isThirdParty, type Chain } from "./chains.js";
 
 export interface HotelRef {
   name: string;
@@ -58,7 +58,7 @@ export function rankCandidates(hotel: HotelRef, results: Array<{ url: string; ti
     }
     const host = u.hostname.replace(/^www\./, "");
     if (!/^https?:$/.test(u.protocol) || isThirdParty(host)) continue;
-    if (chain && chainOfHost(host)?.id !== chain.id) continue;
+    if (chain && !hostBelongsTo(chain.id, host)) continue;
     const hay = new Set(words(`${r.title ?? ""} ${u.hostname} ${u.pathname}`));
     const nameScore = name.length ? name.filter((w) => hay.has(w)).length / name.length : 0;
     const cityScore = city.length ? city.filter((w) => hay.has(w)).length / city.length : 0;
@@ -81,7 +81,7 @@ export function assessPage(hotel: HotelRef, aff: Identity["affiliation"], page: 
   const host = new URL(page.url).hostname.replace(/^www\./, "");
   const hostChain = chainOfHost(host);
   if (isThirdParty(host)) reasons.push(`${host} is a third-party site, not the hotel's own`);
-  if (aff.kind === "chain" && hostChain?.id !== aff.chain) reasons.push(`${host} does not belong to ${chainById(aff.chain!)?.name ?? aff.chain}; chain sources are only used for that chain's own properties`);
+  if (aff.kind === "chain" && !hostBelongsTo(aff.chain!, host)) reasons.push(`${host} does not belong to ${chainById(aff.chain!)?.name ?? aff.chain}; chain sources are only used for that chain's own properties`);
   if (aff.kind === "independent" && hostChain) reasons.push(`${host} is a ${hostChain.name} site but the hotel was marked independent`);
   if (hostChain && !hostChain.base(new URL(page.url))) reasons.push(`${page.url} is a ${hostChain.name} landing page, not a property page`);
   if (hostChain && aff.kind !== "independent" && aff.kind !== "chain") evidence.push(`page is on ${hostChain.name}'s own site (${host})`);

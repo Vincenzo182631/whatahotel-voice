@@ -16,10 +16,11 @@ const tmp = vi.hoisted(() => {
 });
 
 import { Budget, BudgetExceeded, limitsFromEnv } from "../src/research/budget.js";
-import { chainOfHost, chainOfName, isThirdParty } from "../src/research/chains.js";
+import { chainOfHost, chainOfName, chainsOfHost, hostBelongsTo, isThirdParty } from "../src/research/chains.js";
+import { tierOf } from "../src/verify/evidence.js";
 import { pickPages } from "../src/research/discover.js";
 import { assessPage, baseUrlFor, rankCandidates, resolveOfficialSite, type IdentityDeps } from "../src/research/identity.js";
-import { assertResearchReady, importResearch, researchDir, runResearch } from "../src/research/research.js";
+import { assertResearchReady, importResearch, loadHotelRef, researchDir, runResearch } from "../src/research/research.js";
 import { FirecrawlClient } from "../src/sources/firecrawl.js";
 
 const FS = { name: "Four Seasons Hotel Sydney", city: "Sydney", country: "Australia" };
@@ -33,6 +34,25 @@ describe("chains", () => {
     expect(isThirdParty("www.booking.com")).toBe(true);
     expect(isThirdParty("www.whatahotel.com")).toBe(true);
     expect(isThirdParty("www.ilsanpietro.it")).toBe(false);
+  });
+  it("keeps each chain's pages to its own properties, with parent-company sites as secondary", () => {
+    expect(chainOfName("The Ritz-Carlton, Kapalua")?.id).toBe("ritz-carlton");
+    expect(chainOfName("Mandapa, a Ritz-Carlton Reserve")?.id).toBe("ritz-carlton");
+    expect(hostBelongsTo("ritz-carlton", "www.ritzcarlton.com")).toBe(true);
+    expect(hostBelongsTo("ritz-carlton", "www.marriott.com")).toBe(true);
+    expect(hostBelongsTo("ritz-carlton", "www.fourseasons.com")).toBe(false);
+    expect(hostBelongsTo("four-seasons", "www.ritzcarlton.com")).toBe(false);
+    expect(chainOfHost("www.marriott.com")?.id).toBe("marriott");
+    expect(chainsOfHost("www.marriott.com").map((c) => c.id)).toEqual(expect.arrayContaining(["ritz-carlton", "marriott"]));
+    expect(tierOf("https://www.ritzcarlton.com/en/hotels/jhmrz-the-ritz-carlton-maui-kapalua/overview/")).toBe("official");
+    expect(tierOf("https://www.tripadvisor.com/Hotel_Review-x")).toBe("press");
+  });
+  it("finds the Ritz-Carlton property section and rejects its editorial pages", () => {
+    const aff = { kind: "chain" as const, chain: "ritz-carlton" };
+    expect(baseUrlFor("https://www.ritzcarlton.com/en/hotels/jhmrz-the-ritz-carlton-maui-kapalua/overview/", aff)).toBe("https://www.ritzcarlton.com/en/hotels/jhmrz-the-ritz-carlton-maui-kapalua/");
+    const r = assessPage({ name: "The Ritz-Carlton, Kapalua", city: "Kapalua", country: "United States" }, aff, { url: "https://www.ritzcarlton.com/en/journey/destination-guides/us-and-canada/a-tale-of-two-islands/", text: `The Ritz-Carlton Kapalua ${filler} Kapalua` });
+    expect(r.ok).toBe(false);
+    expect(r.reasons.join(" ")).toMatch(/landing page/);
   });
   it("finds a property's own section per chain", () => {
     expect(baseUrlFor("https://www.fourseasons.com/sydney/dining/", { kind: "chain", chain: "four-seasons" })).toBe("https://www.fourseasons.com/sydney/");
@@ -248,5 +268,16 @@ describe("runResearch + importResearch (independent hotel, mocked Firecrawl)", (
     expect(rec.status).toBe("needs_review");
     expect(rec.identity.official_url).toBeUndefined();
     expect(JSON.parse(readFileSync(path.join(researchDir(slug), "research.json"), "utf8")).status).toBe("needs_review");
+  });
+});
+
+describe("loadHotelRef", () => {
+  it("falls back to the scraped WhataHotel page when there is no profile yet", async () => {
+    const dir = path.join(tmp, "sources");
+    mkdirSync(dir, { recursive: true });
+    writeFileSync(path.join(dir, "new-hotel.whatahotel.json"), JSON.stringify({ name: "The Ritz-Carlton, Kapalua", address: { city: "Kapalua", country: "United States" } }));
+    process.env.WH_SOURCES_DIR = dir;
+    expect(await loadHotelRef("new-hotel")).toEqual({ name: "The Ritz-Carlton, Kapalua", location: { city: "Kapalua", country: "United States" } });
+    await expect(loadHotelRef("missing-hotel")).rejects.toThrow(/hotel:scrape/);
   });
 });

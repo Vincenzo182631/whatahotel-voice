@@ -2,6 +2,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { z } from "zod";
 import { loadProfile } from "../core/profile.js";
+import type { HotelProfile } from "../core/schema.js";
 import type { FirecrawlClient } from "../sources/firecrawl.js";
 import { cleanText, fetchMarkdown, findCondeNast, tierOf, withRetry, type EvidenceTier } from "../verify/evidence.js";
 import { quoteInText } from "../verify/judge.js";
@@ -74,9 +75,27 @@ export interface RunOptions {
   resolveUrl?: (url: string) => Promise<string>;
 }
 
+/** The hotel to research: its profile if one exists, otherwise what the scraped WhataHotel page says (so research can come first for a new hotel). */
+export async function loadHotelRef(slug: string): Promise<{ name: string; whatahotel_url?: string; location: { city: string; country: string } }> {
+  try {
+    return await loadProfile(slug);
+  } catch {
+    /* no profile yet */
+  }
+  const file = path.resolve(process.env.WH_SOURCES_DIR ?? "data/sources", `${slug}.whatahotel.json`);
+  let src: { name?: string; url?: string; address?: { city?: string; country?: string } };
+  try {
+    src = JSON.parse(await readFile(file, "utf8"));
+  } catch {
+    throw new Error(`${slug}: no profile and no scraped WhataHotel page (${path.relative(process.cwd(), file)}). Run hotel:scrape --hotel ${slug} first.`);
+  }
+  if (!src.name || !src.address?.city || !src.address?.country) throw new Error(`${slug}: the scraped WhataHotel page has no name, city or country`);
+  return { name: src.name, whatahotel_url: src.url, location: { city: src.address.city, country: src.address.country } };
+}
+
 /** Step 1 of hotel research: confirm the official site, fetch the property's pages inside the limits, write the extraction task. */
 export async function runResearch(slug: string, opts: RunOptions): Promise<ResearchRecord> {
-  const profile = await loadProfile(slug);
+  const profile = await loadHotelRef(slug);
   const dir = researchDir(slug);
   await mkdir(path.join(dir, "pages"), { recursive: true });
   const { budget } = opts;
@@ -147,7 +166,7 @@ export async function runResearch(slug: string, opts: RunOptions): Promise<Resea
       for (const u of links) await addPage(u, "official");
       if (!links.length) inaccessible.push({ url: identity.base_url, reason: "no same-property sub-page links found on the home page" });
       if (opts.withEditorial) {
-        const cnt = await withRetry(async () => { budget.firecrawl("search"); return findCondeNast(opts.fc, profile); }, budget.limits.maxRetries).catch(() => undefined);
+        const cnt = await withRetry(async () => { budget.firecrawl("search"); return findCondeNast(opts.fc, profile as HotelProfile); }, budget.limits.maxRetries).catch(() => undefined);
         if (cnt) await addPage(cnt, "editorial");
         else inaccessible.push({ url: "cntraveler.com", reason: "no Condé Nast Traveler hotel page found" });
       }

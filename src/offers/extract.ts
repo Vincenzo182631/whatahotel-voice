@@ -148,7 +148,7 @@ export function parseChainOffer(html: string): ChainOffer {
     found,
     creditFacts: credit.facts,
     suitesHigher: credit.suitesHigher,
-    creditQualifiers: creditLine ? qualifiersIn(creditLine) : [],
+    creditQualifiers: creditLine ? qualifiersIn(perkLines.filter((l) => /(USD|\$)\s?\d+.*credit|credit.*(USD|\$)\s?\d+/i.test(l)).join(" ")) : [],
     upgradeNotes,
     upgradeGuaranteed: GUARANTEED.test(perkLines.filter((l) => /upgrade/i.test(l)).join("\n")),
     breakfastGuests: [...text.matchAll(/breakfast for (two|2|one|1|three|3|four|4)\b/gi)].map((m) => ({ one: 1, "1": 1, two: 2, "2": 2, three: 3, "3": 3, four: 4, "4": 4 })[m[1]!.toLowerCase() as "two"]!),

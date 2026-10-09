@@ -1,8 +1,8 @@
 import { existsSync, readFileSync } from "node:fs";
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { loadProfile } from "../core/profile.js";
 import { chainOfName } from "../research/chains.js";
+import { loadHotelRef } from "../research/research.js";
 import { composeClosing } from "./closing.js";
 import { parseChainOffer, parseHotelOffer, type ChainOffer, type HotelOffer } from "./extract.js";
 import { offersDir, offersFile, type Benefit, type OfferSet } from "./store.js";
@@ -130,7 +130,8 @@ export interface BuildOptions {
 /** Reads the hotel's and chain's WhataHotel pages, verifies every benefit and writes offers.json with the chosen closing. */
 export async function buildOffers(slug: string, opts: BuildOptions = {}): Promise<OfferSet> {
   const get = opts.get ?? fetchHtml;
-  const profile = await loadProfile(slug);
+  const profile = await loadHotelRef(slug);
+  if (!profile.whatahotel_url) throw new Error(`${slug}: no WhataHotel page URL (write the profile or scrape the page first)`);
   const now = (opts.now?.() ?? new Date()).toISOString();
   const issues: string[] = [];
 

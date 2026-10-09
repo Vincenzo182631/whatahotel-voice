@@ -4,6 +4,7 @@ import path from "node:path";
 import type { HotelProfile } from "../core/schema.js";
 import { FirecrawlClient, FirecrawlError } from "../sources/firecrawl.js";
 import { htmlToLines } from "../sources/whatahotel.js";
+import { chainOfName, chainsOfHost } from "../research/chains.js";
 
 /**
  * Where a page comes from, which decides how much it can prove:
@@ -40,6 +41,7 @@ export function tierOf(url: string): EvidenceTier {
   if (host === "fourseasons.com" || host.endsWith(".fourseasons.com")) return "official";
   if (host === "mandarinoriental.com" || host.endsWith(".mandarinoriental.com")) return "official";
   if (host === "cntraveler.com" || host.endsWith(".cntraveler.com")) return "editorial";
+  if (chainsOfHost(host).length) return "official";
   return "press";
 }
 
@@ -133,7 +135,7 @@ export async function withRetry<T>(fn: () => Promise<T>, maxAttempts = 5): Promi
 const cacheFile = (url: string) => path.join(CACHE_DIR, `${createHash("sha1").update(url).digest("hex")}.json`);
 
 /** The Four Seasons press room and Condé Nast Traveler answer plain requests; fourseasons.com itself blocks them. */
-const DIRECT_HOSTS = /^https?:\/\/(press\.fourseasons\.com|(www\.)?cntraveler\.com|(www\.)?mandarinoriental\.com)\//;
+const DIRECT_HOSTS = /^https?:\/\/(press\.fourseasons\.com|(www\.)?cntraveler\.com|(www\.)?mandarinoriental\.com|(www\.)?ritzcarlton\.com)\//;
 const BROWSER_UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36";
 const NOT_A_PAGE = /we'?re sorry if we led you astray|page not found|404/i;
 
@@ -293,6 +295,18 @@ export async function gatherEvidence(profile: HotelProfile, fc: FirecrawlClient,
     else skipped.push({ url: "cntraveler.com", reason: "no Condé Nast Traveler hotel page found for this name" });
   } catch (err) {
     skipped.push({ url: "cntraveler.com", reason: (err as Error).message.slice(0, 160) });
+  }
+
+  // a chain's own pages only count for that chain's properties (a Four Seasons page never backs up a Ritz-Carlton claim)
+  const hotelChain = chainOfName(profile.name);
+  if (hotelChain) {
+    for (const url of [...urls]) {
+      const owners = chainsOfHost(new URL(url).hostname);
+      if (owners.length && !owners.some((c) => c.id === hotelChain.id)) {
+        urls.delete(url);
+        skipped.push({ url, reason: `belongs to ${owners[0]!.name}, not ${hotelChain.name}` });
+      }
+    }
   }
 
   const evidence: Evidence[] = [];
