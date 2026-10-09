@@ -1,0 +1,82 @@
+{
+  "slug": "amangiri",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "Amangiri",
+      "city": "Canyon Point",
+      "country": "US",
+      "chain": "aman"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "aman"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Canyon Point, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.aman.com/resorts/amangiri/getting-here"
+    ],
+    "checked_at": "2026-10-09T21:57:58.202Z",
+    "status": "confirmed",
+    "official_url": "https://www.aman.com/resorts/amangiri/getting-here",
+    "base_url": "https://www.aman.com/resorts/amangiri/",
+    "host": "aman.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.aman.com/resorts/amangiri/getting-here",
+      "tier": "official",
+      "fetched_at": "2026-10-09T21:58:14.256Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.aman.com/resorts/amangiri/getting-here/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T21:58:34.836Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.aman.com/resorts/amangiri/+1%20435%20675%203999/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T21:58:41.717Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.cntraveler.com/hotels/united-states/canyon-point/amangiri-canyon-point",
+      "tier": "editorial",
+      "fetched_at": "2026-10-09T21:58:51.394Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 4,
+    "chars": 14326,
+    "est_claude_tokens": 3582
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-09T21:58:51.394Z"
+}
