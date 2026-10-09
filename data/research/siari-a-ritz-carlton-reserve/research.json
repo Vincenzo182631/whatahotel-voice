@@ -1,0 +1,110 @@
+{
+  "slug": "siari-a-ritz-carlton-reserve",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Siari, a Ritz-Carlton Reserve",
+      "city": "Riviera Nayarit",
+      "country": "MX",
+      "chain": "ritz-carlton"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "ritz-carlton"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Riviera Nayarit, MX)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.ritzcarlton.com/en/hotels/pvrcc-siari-riviera-nayarit-a-ritz-carlton-reserve/overview/"
+    ],
+    "checked_at": "2026-10-09T13:18:07.072Z",
+    "status": "confirmed",
+    "official_url": "https://www.ritzcarlton.com/en/hotels/pvrcc-siari-riviera-nayarit-a-ritz-carlton-reserve/overview/",
+    "base_url": "https://www.ritzcarlton.com/en/hotels/pvrcc-siari-riviera-nayarit-a-ritz-carlton-reserve/",
+    "host": "ritzcarlton.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.ritzcarlton.com/en/hotels/pvrcc-siari-riviera-nayarit-a-ritz-carlton-reserve/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T13:18:12.766Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.ritzcarlton.com/en/hotels/pvrcc-siari-riviera-nayarit-a-ritz-carlton-reserve/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T13:18:13.040Z",
+      "source": "direct"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.ritzcarlton.com/en/hotels/pvrcc-siari-riviera-nayarit-a-ritz-carlton-reserve/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T13:18:13.164Z",
+      "source": "direct"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.ritzcarlton.com/en/hotels/pvrcc-siari-riviera-nayarit-a-ritz-carlton-reserve/spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T13:18:13.283Z",
+      "source": "direct"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.ritzcarlton.com/en/hotels/pvrcc-siari-riviera-nayarit-a-ritz-carlton-reserve/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T13:18:13.386Z",
+      "source": "direct"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.ritzcarlton.com/en/hotels/pvrcc-siari-riviera-nayarit-a-ritz-carlton-reserve/experiences/holidays/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T13:18:13.503Z",
+      "source": "direct"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.ritzcarlton.com/en/hotels/pvrcc-siari-riviera-nayarit-a-ritz-carlton-reserve/reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T13:18:13.653Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 3,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 7,
+    "pages": 7,
+    "chars": 39728,
+    "est_claude_tokens": 9932
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-09T13:18:20.312Z"
+}
