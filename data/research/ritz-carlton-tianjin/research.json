@@ -1,0 +1,103 @@
+{
+  "slug": "ritz-carlton-tianjin",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "The Ritz-Carlton, Tianjin",
+      "city": "Tianjin",
+      "country": "CN",
+      "chain": "ritz-carlton"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "ritz-carlton"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Tianjin, CN)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.ritzcarlton.com/en/hotels/tsnrz-the-ritz-carlton-tianjin/overview/"
+    ],
+    "checked_at": "2026-10-09T06:34:12.743Z",
+    "status": "confirmed",
+    "official_url": "https://www.ritzcarlton.com/en/hotels/tsnrz-the-ritz-carlton-tianjin/overview/",
+    "base_url": "https://www.ritzcarlton.com/en/hotels/tsnrz-the-ritz-carlton-tianjin/",
+    "host": "ritzcarlton.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.ritzcarlton.com/en/hotels/tsnrz-the-ritz-carlton-tianjin/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T06:34:18.717Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.ritzcarlton.com/en/hotels/tsnrz-the-ritz-carlton-tianjin/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T06:34:20.452Z",
+      "source": "direct"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.ritzcarlton.com/en/hotels/tsnrz-the-ritz-carlton-tianjin/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T06:34:21.147Z",
+      "source": "direct"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.ritzcarlton.com/en/hotels/tsnrz-the-ritz-carlton-tianjin/spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T06:34:21.255Z",
+      "source": "direct"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.ritzcarlton.com/en/hotels/tsnrz-the-ritz-carlton-tianjin/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T06:34:22.052Z",
+      "source": "direct"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.ritzcarlton.com/en/hotels/tsnrz-the-ritz-carlton-tianjin/reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T06:34:22.268Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 3,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 6,
+    "pages": 6,
+    "chars": 45628,
+    "est_claude_tokens": 11407
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-09T06:34:27.253Z"
+}
