@@ -9,6 +9,7 @@
  * Default: does ONE hotel, fills the form, saves a screenshot and waits for you to press ENTER
  * before clicking "Create content". Then add --all to run the rest (it still skips hotels that
  * already have an Audio Highlight). Flags:
+ *   --chrome          use your installed Google Chrome instead of the bundled browser (--edge for Microsoft Edge)
  *   --headless        run without a visible browser (not recommended for the first hotel)
  *   --all             process every row (otherwise only the first one not yet done)
  *   --yes             do not wait for ENTER before each save (use only after the first one looked right)
@@ -73,7 +74,8 @@ const log = (h, result, note = "") => appendFileSync(LOG, `${h.id},"${h.name}",$
 const email = process.env.WAH_ADMIN_EMAIL, pass = process.env.WAH_ADMIN_PASS;
 const manualLogin = !(email && pass);
 
-const browser = await chromium.launch({ headless: flag("headless") });
+const browser = await chromium.launch({ headless: flag("headless"), ...(flag("chrome") ? { channel: "chrome" } : flag("edge") ? { channel: "msedge" } : {}) });
+browser.on("disconnected", () => { if (globalThis.__done) return; console.error("\nThe browser window was closed or crashed. Run the command again; hotels already added are skipped."); process.exit(1); });
 const page = await (await browser.newContext({ viewport: { width: 1400, height: 1000 } })).newPage();
 page.setDefaultTimeout(20000);
 
@@ -87,7 +89,7 @@ if (manualLogin) {
   await page.fill('input[name="userPass"]', pass);
   await Promise.all([page.waitForLoadState("load"), page.click('input[type="submit"][value^="LOG IN"]')]);
 }
-if ((await page.locator('input[name="userPass"]').count()) || /invalid|incorrect|not found/i.test(await page.locator("body").innerText())) { console.error("Login failed or timed out. Run it again and log in."); await browser.close(); process.exit(1); }
+if ((await page.locator('input[name="userPass"]').count()) || /invalid|incorrect|not found/i.test(await page.locator("body").innerText())) { console.error("Login failed or timed out. Run it again and log in."); globalThis.__done = true; await browser.close(); process.exit(1); }
 console.log("Logged in.");
 
 async function openHotel(h) {
@@ -184,5 +186,5 @@ for (const h of hotels) {
   }
 }
 if (!flag("yes") && !flag("headless")) await ask("\nAll done. Check the browser, then press ENTER to close it: ");
-await browser.close();
+globalThis.__done = true; await browser.close();
 console.log(`Done. Log: ${LOG}`);
