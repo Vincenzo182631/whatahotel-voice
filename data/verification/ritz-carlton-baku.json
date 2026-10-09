@@ -1,0 +1,303 @@
+{
+  "hotel_slug": "ritz-carlton-baku",
+  "hotel_name": "Ritz Carlton Baku",
+  "checked_at": "2026-10-09T13:21:04.777Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 13,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 14
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ritzcarlton.com/en/hotels/gydrz-the-ritz-carlton-baku/overview/",
+      "tier": "official",
+      "chars": 20806
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ritzcarlton.com/en/hotels/gydrz-the-ritz-carlton-baku/rooms/",
+      "tier": "official",
+      "chars": 8058
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ritzcarlton.com/en/hotels/gydrz-the-ritz-carlton-baku/dining/",
+      "tier": "official",
+      "chars": 9699
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ritzcarlton.com/en/hotels/gydrz-the-ritz-carlton-baku/experiences/",
+      "tier": "official",
+      "chars": 13176
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ritzcarlton.com/en/hotels/gydrz-the-ritz-carlton-baku/club/",
+      "tier": "official",
+      "chars": 4257
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ritzcarlton.com/en/hotels/gydrz-the-ritz-carlton-baku/rooms/apartments/",
+      "tier": "official",
+      "chars": 13392
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ritzcarlton.com/en/hotels/gydrz-the-ritz-carlton-baku/spa/",
+      "tier": "official",
+      "chars": 6353
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ritzcarlton.com/en/hotels/gydrz-the-ritz-carlton-baku/reviews/",
+      "tier": "official",
+      "chars": 778
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is set steps away from the Heydar Aliyev Cultural Center in Baku.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Set steps away from the Heydar Aliyev Cultural Center, The Ritz-Carlton, Baku offers an inviting retreat",
+          "note": "States the location steps from the Center",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/gydrz-the-ritz-carlton-baku/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "In select rooms, a private balcony frames the Heydar Aliyev Cultural Center.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "In select rooms, a private balcony frames the Heydar Aliyev Cultural Center",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/gydrz-the-ritz-carlton-baku/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The one-, two- and three-bedroom apartments each have a fully equipped kitchen, private bathrooms for every bedroom and in-room laundry.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our one-, two- and three-bedroom apartments, each with a fully equipped kitchen, private bathrooms for every bedroom and in-room laundry",
+          "note": "Covers all elements",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/gydrz-the-ritz-carlton-baku/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Families have access to a dedicated children's pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Throughout the stay, families enjoy access to a dedicated children's pool",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/gydrz-the-ritz-carlton-baku/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Club Lounge is on the 13th floor and has a 180-degree panoramic view of the city.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "View situated on the 13th floor, the Club Lounge offers a 180-degree panoramic view of the city.",
+          "note": "Floor and view both stated",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/gydrz-the-ritz-carlton-baku/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The kitchen grows herbs in an on-site Mystique Garden.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Sustainable dining at The Ritz-Carlton, Baku starts in the Mystique Garden, where the herbs that supply Tribeca's kitchen are grown on-site throughout the season.",
+          "note": "Herbs grown on-site in Mystique Garden for the kitchen",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/gydrz-the-ritz-carlton-baku/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "A clay atelier experience lets guests shape and decorate a piece at a local atelier rooted in Azerbaijan's ceramic heritage.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Creating by hand at a local clay atelier rooted in Azerbaijan's ceramic heritage. Guided by skilled artists, shape and decorate a piece reflecting your imagination",
+          "note": "Covers all elements",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/gydrz-the-ritz-carlton-baku/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Blind Tiger Cocktail Journey has six cocktails, each representing one of the world's remaining tiger species.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Six cocktails. Six tigers. Each drink in the Journey represents one of the world's remaining tiger species",
+          "note": "Six cocktails, each a remaining tiger species",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/gydrz-the-ritz-carlton-baku/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Blind Tiger is Azerbaijan's first speakeasy bar, behind a quiet door off the lobby.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The Blind Tiger is Azerbaijan's first speakeasy bar, a quiet door off the lobby that opens into an entirely different evening.",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/gydrz-the-ritz-carlton-baku/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The spa offers an ancestral oil ritual drawing on the heritage of Naftalan.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "An ancestral oil ritual, drawing from the ancient heritage of Naftalan, anchors your transition into quiet.",
+          "note": "Described in spa section",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/gydrz-the-ritz-carlton-baku/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The rooms were designed by Kristina Zanic Consultants using a visual language rooted in Azerbaijani craft.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Designed by Kristina Zanic Consultants using a visual language rooted in Azerbaijani craft",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/gydrz-the-ritz-carlton-baku/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Tribeca is an American brasserie whose kitchen draws from the hotel's own Mystique Garden.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Tribeca is an American brasserie open from early morning through late evening, where the kitchen draws from the hotel's own Mystique Garden",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/gydrz-the-ritz-carlton-baku/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel is 24.5 km from Heydar Aliyev International Airport.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The closest airport near The Ritz-Carlton, Baku is Heydar Aliyev International Airport (GYD). GYD is located approximately 24.5 KM from the hotel.",
+          "note": "Distance matches",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/gydrz-the-ritz-carlton-baku/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes premium luxury pricing typical of Ritz-Carlton properties.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

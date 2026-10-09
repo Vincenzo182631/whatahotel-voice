@@ -1,0 +1,416 @@
+{
+  "hotel_slug": "ritz-carlton-sanya",
+  "hotel_name": "The Ritz Carlton, Sanya",
+  "checked_at": "2026-10-09T13:21:10.329Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ritzcarlton.com/en/hotels/syxrz-the-ritz-carlton-sanya-yalong-bay/overview/",
+      "tier": "official",
+      "chars": 11087
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ritzcarlton.com/en/hotels/syxrz-the-ritz-carlton-sanya-yalong-bay/rooms/",
+      "tier": "official",
+      "chars": 7199
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ritzcarlton.com/en/hotels/syxrz-the-ritz-carlton-sanya-yalong-bay/dining/",
+      "tier": "official",
+      "chars": 5413
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ritzcarlton.com/en/hotels/syxrz-the-ritz-carlton-sanya-yalong-bay/spa/",
+      "tier": "official",
+      "chars": 5346
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ritzcarlton.com/en/hotels/syxrz-the-ritz-carlton-sanya-yalong-bay/experiences/",
+      "tier": "official",
+      "chars": 16509
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ritzcarlton.com/en/hotels/syxrz-the-ritz-carlton-sanya-yalong-bay/reviews/",
+      "tier": "official",
+      "chars": 761
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is in Sanya, a beachfront city on the southernmost tip of Hainan Island.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Lying on the southernmost tip of Hainan Island, Sanya is a beachfront city",
+          "note": "Page states Sanya is a beachfront city at the southernmost tip of Hainan Island and the hotel is there.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/syxrz-the-ritz-carlton-sanya-yalong-bay/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The resort sits along a secluded beach in Hainan province.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located in the Hainan province along a secluded beach, this luxury resort",
+          "note": "Direct match.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/syxrz-the-ritz-carlton-sanya-yalong-bay/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Club Lounge is on the 6th floor with an ocean view of Yalong Bay.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Located on the 6th floor with a stunning ocean view of Yalong Bay",
+          "note": "Direct match for the Club Lounge.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/syxrz-the-ritz-carlton-sanya-yalong-bay/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Sofia serves Italian cuisine, including homemade pasta and Neapolitan-style pizzas baked in an open-fire oven.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "classics such as homemade pasta as well as Neapolitan-style pizzas baked in an open-fire oven",
+          "note": "Sofia pasta and pizza.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/syxrz-the-ritz-carlton-sanya-yalong-bay/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Casual Restaurant & Bar featuring Italian cuisine for lunch and dinner",
+          "note": "Sofia is Italian.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/syxrz-the-ritz-carlton-sanya-yalong-bay/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Sand is at the beachside and offers grill, deli and beverages.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Located at the beachside, it offers grill, deli and beverages",
+          "note": "Sand listing.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/syxrz-the-ritz-carlton-sanya-yalong-bay/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Fresh 8 is an interactive buffet restaurant with show kitchens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "An interactive buffet restaurant featuring 8 show kitchens",
+          "note": "Fresh 8 listing.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/syxrz-the-ritz-carlton-sanya-yalong-bay/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Scene, the lobby lounge, has views of the South China Sea and serves Afternoon Tea, light bites and cocktails.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Offering breathtaking views of the South China Sea, this refined lounge bar showcases a tempting Afternoon Tea as well as an enticing selection of light bites and mixologist-crafted cocktails.",
+          "note": "Scene description.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/syxrz-the-ritz-carlton-sanya-yalong-bay/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The Lobby Lounge, Ocean View, Asian-inspired cocktails",
+          "note": "Scene is the lobby lounge.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/syxrz-the-ritz-carlton-sanya-yalong-bay/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The spa also has an outdoor pool, courtyards, whirlpools, relaxation rooms and a jade steam room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "the spa also features distinctive spaces like an outdoor pool, courtyards, whirlpools, relaxation rooms, a jade steam room and fitness studios.",
+          "note": "Direct match.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/syxrz-the-ritz-carlton-sanya-yalong-bay/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "A complimentary shuttle service runs to Sanya Duty-Free Mall.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Complimentary shuttle service to Sanya Duty-Free Mall.",
+          "note": "Direct match.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/syxrz-the-ritz-carlton-sanya-yalong-bay/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "A complimentary shuttle runs between the hotel and Yalong Bay Golf Club and Sun Valley Golf Club.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Complimentary shuttle service between The Ritz-Carlton Sanya, Yalong Bay and Yalong Bay Golf Club / Sun Valley Golf Club is provided.",
+          "note": "Direct match.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/syxrz-the-ritz-carlton-sanya-yalong-bay/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The fitness center has a separate Kinesis Studio for Technogym's cable-based Kinesis system.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "A separate space provides a dedicated Kinesis Studio, with more than 30 square meter reserved for Technogym’s Kinesis system, a unique line of equipment that uses cables for weight resistance",
+          "note": "Separate Kinesis Studio, cable-based Technogym system.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/syxrz-the-ritz-carlton-sanya-yalong-bay/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Lagoon Rooms are on the first floor and let guests swim into the lagoon pool from their balcony steps.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Lagoon Rooms on the first floor, enable to \"swim into\" the lagoon pool from their balcony steps.",
+          "note": "Direct match.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/syxrz-the-ritz-carlton-sanya-yalong-bay/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Villas have one to three bedrooms, a private pool, a sala and a lotus water pond.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Villa with 1-3 bedrooms, private pool, sala & lotus water pond.",
+          "note": "Direct match.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/syxrz-the-ritz-carlton-sanya-yalong-bay/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The spa is set across three levels, with locally inspired therapies using ingredients such as coconut milk, bamboo and Himalayan salt.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Set across three levels, the spa at The Ritz-Carlton Sanya, Yalong Bay invites you to unwind with signature treatments",
+          "note": "Three levels.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/syxrz-the-ritz-carlton-sanya-yalong-bay/spa/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Locally inspired therapies incorporate ingredients like coconut milk, bamboo and Himalayan salt",
+          "note": "Ingredients match.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/syxrz-the-ritz-carlton-sanya-yalong-bay/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Pearl serves Cantonese dishes in a contemporary interpretation, plus Hainan and Sichuan dishes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "A Cantonese restaurant featuring authentic dishes in a new contemporary interpretation and offers Hainan dishes and Sichuan dishes.",
+          "note": "Pearl listing.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/syxrz-the-ritz-carlton-sanya-yalong-bay/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Ritz Kids offers complimentary access with an indoor and outdoor playground.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Complimentary access to Ritz Kids with indoor and outdoor playground",
+          "note": "Direct match.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/syxrz-the-ritz-carlton-sanya-yalong-bay/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Club Lounge access comes with a Club Level room, or by purchasing a Daily Access Pass subject to availability.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Search for rooms marked with lounge access for an upgraded access",
+          "note": "Room purchase route.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/syxrz-the-ritz-carlton-sanya-yalong-bay/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Purchase a Daily Access Pass (Pending availability)",
+          "note": "Daily pass subject to availability.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/syxrz-the-ritz-carlton-sanya-yalong-bay/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Spa visits require an appointment.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Appointment required",
+          "note": "Spa listing.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/syxrz-the-ritz-carlton-sanya-yalong-bay/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing and a remote tropical location that may require longer travel time.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
