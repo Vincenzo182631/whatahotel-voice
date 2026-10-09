@@ -54,6 +54,15 @@ describe("chains", () => {
     expect(r.ok).toBe(false);
     expect(r.reasons.join(" ")).toMatch(/landing page/);
   });
+  it("keeps a hotel's branded residences out of its candidates", () => {
+    const hotel = { name: "Dorado Beach, a Ritz-Carlton Reserve", city: "Dorado", country: "Puerto Rico" };
+    const chain = chainOfName(hotel.name)!;
+    const r = rankCandidates(hotel, [
+      { url: "https://www.ritzcarlton.com/en/hotels/sjudo-dorado-beach-a-ritz-carlton-reserve/", title: "Dorado Beach" },
+      { url: "https://www.ritzcarlton.com/en/hotels/sjudb-residences-at-dorado-beach-a-ritz-carlton-reserve/", title: "Residences at Dorado Beach" },
+    ], chain);
+    expect(r.map((c) => c.url)).toEqual(["https://www.ritzcarlton.com/en/hotels/sjudo-dorado-beach-a-ritz-carlton-reserve/"]);
+  });
   it("treats language versions of one property page as the same hotel", async () => {
     expect(englishUrl("https://www.ritzcarlton.com/zh-cn/hotels/jzhrz-rissai-valley/")).toBe("https://www.ritzcarlton.com/en/hotels/jzhrz-rissai-valley/");
     expect(englishUrl("https://www.ritzcarlton.com/en/hotels/x/")).toBe("https://www.ritzcarlton.com/en/hotels/x/");

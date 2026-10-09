@@ -59,6 +59,8 @@ export function rankCandidates(hotel: HotelRef, results: Array<{ url: string; ti
     const host = u.hostname.replace(/^www\./, "");
     if (!/^https?:$/.test(u.protocol) || isThirdParty(host)) continue;
     if (chain && !hostBelongsTo(chain.id, host)) continue;
+    // branded residences share a name with their hotel; they are separate properties unless the hotel is one
+    if (/residences?/i.test(u.pathname) && !/residences?/i.test(hotel.name)) continue;
     const hay = new Set(words(`${r.title ?? ""} ${u.hostname} ${u.pathname}`));
     const nameScore = name.length ? name.filter((w) => hay.has(w)).length / name.length : 0;
     const cityScore = city.length ? city.filter((w) => hay.has(w)).length / city.length : 0;
