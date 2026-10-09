@@ -1,0 +1,103 @@
+{
+  "slug": "ritz-carlton-almaty",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "The Ritz-Carlton, Almaty",
+      "city": "Almaty",
+      "country": "KZ",
+      "chain": "ritz-carlton"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "ritz-carlton"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Almaty, KZ)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.ritzcarlton.com/en/hotels/alarz-the-ritz-carlton-almaty/overview/"
+    ],
+    "checked_at": "2026-10-09T06:33:29.430Z",
+    "status": "confirmed",
+    "official_url": "https://www.ritzcarlton.com/en/hotels/alarz-the-ritz-carlton-almaty/overview/",
+    "base_url": "https://www.ritzcarlton.com/en/hotels/alarz-the-ritz-carlton-almaty/",
+    "host": "ritzcarlton.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.ritzcarlton.com/en/hotels/alarz-the-ritz-carlton-almaty/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T06:33:35.502Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.ritzcarlton.com/en/hotels/alarz-the-ritz-carlton-almaty/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T06:33:37.689Z",
+      "source": "direct"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.ritzcarlton.com/en/hotels/alarz-the-ritz-carlton-almaty/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T06:33:37.860Z",
+      "source": "direct"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.ritzcarlton.com/en/hotels/alarz-the-ritz-carlton-almaty/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T06:33:38.779Z",
+      "source": "direct"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.ritzcarlton.com/en/hotels/alarz-the-ritz-carlton-almaty/club/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T06:33:39.432Z",
+      "source": "direct"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.ritzcarlton.com/en/hotels/alarz-the-ritz-carlton-almaty/reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T06:33:39.690Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 3,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 6,
+    "pages": 6,
+    "chars": 44161,
+    "est_claude_tokens": 11040
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-09T06:33:44.496Z"
+}

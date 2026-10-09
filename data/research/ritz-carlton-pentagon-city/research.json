@@ -1,10 +1,8 @@
 {
   "slug": "ritz-carlton-pentagon-city",
-  "status": "needs_review",
+  "status": "ready",
   "partial": false,
-  "reasons": [
-    "several The Ritz-Carlton properties match \"The Ritz Carlton, Pentagon City\" in Washington DC (https://www.ritzcarlton.com/en/hotels/waspc-the-ritz-carlton-pentagon-city/, https://www.ritzcarlton.com/en/hotels/wasrt-the-ritz-carlton-washington-d-c/); confirm with --official-url"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "The Ritz Carlton, Pentagon City",
@@ -16,27 +14,105 @@
       "kind": "chain",
       "chain": "ritz-carlton"
     },
-    "evidence": [],
-    "reasons": [
-      "several The Ritz-Carlton properties match \"The Ritz Carlton, Pentagon City\" in Washington DC (https://www.ritzcarlton.com/en/hotels/waspc-the-ritz-carlton-pentagon-city/, https://www.ritzcarlton.com/en/hotels/wasrt-the-ritz-carlton-washington-d-c/); confirm with --official-url"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Washington DC, US)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://www.ritzcarlton.com/en/hotels/waspc-the-ritz-carlton-pentagon-city/",
-      "https://www.ritzcarlton.com/en/hotels/wasrt-the-ritz-carlton-washington-d-c/"
+      "https://www.ritzcarlton.com/en/hotels/waspc-the-ritz-carlton-pentagon-city/overview/"
     ],
-    "checked_at": "2026-10-09T06:31:42.635Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-09T06:32:37.144Z",
+    "status": "confirmed",
+    "official_url": "https://www.ritzcarlton.com/en/hotels/waspc-the-ritz-carlton-pentagon-city/overview/",
+    "base_url": "https://www.ritzcarlton.com/en/hotels/waspc-the-ritz-carlton-pentagon-city/",
+    "host": "ritzcarlton.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.ritzcarlton.com/en/hotels/waspc-the-ritz-carlton-pentagon-city/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T06:32:43.207Z",
+      "source": "direct"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.ritzcarlton.com/en/hotels/waspc-the-ritz-carlton-pentagon-city/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T06:32:43.560Z",
+      "source": "direct"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.ritzcarlton.com/en/hotels/waspc-the-ritz-carlton-pentagon-city/rooms/signature-suites/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T06:32:43.713Z",
+      "source": "direct"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.ritzcarlton.com/en/hotels/waspc-the-ritz-carlton-pentagon-city/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T06:32:43.868Z",
+      "source": "direct"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.ritzcarlton.com/en/hotels/waspc-the-ritz-carlton-pentagon-city/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T06:32:44.000Z",
+      "source": "direct"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.ritzcarlton.com/en/hotels/waspc-the-ritz-carlton-pentagon-city/experiences/holidays/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T06:32:44.245Z",
+      "source": "direct"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.ritzcarlton.com/en/hotels/waspc-the-ritz-carlton-pentagon-city/club/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T06:32:44.350Z",
+      "source": "direct"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.ritzcarlton.com/en/hotels/waspc-the-ritz-carlton-pentagon-city/reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T06:32:44.431Z",
+      "source": "direct"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.ritzcarlton.com/en/hotels/waspc-the-ritz-carlton-pentagon-city/hotel-stories/",
+      "tier": "official",
+      "fetched_at": "2026-10-09T06:32:45.023Z",
+      "source": "direct"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.cntraveler.com/hotels/arlington/ritz-carlton-pentagon-city",
+      "tier": "editorial",
+      "fetched_at": "2026-10-09T06:32:54.004Z",
+      "source": "direct"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 2,
-    "firecrawl_searches": 2,
+    "firecrawl_calls": 3,
+    "firecrawl_searches": 3,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 12,
+    "pages": 10,
+    "chars": 67818,
+    "est_claude_tokens": 16955
   },
   "limits": {
     "maxPages": 12,
@@ -44,5 +120,180 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-09T06:31:48.779Z"
+  "researched_at": "2026-10-09T06:32:54.004Z",
+  "hotel": {
+    "name": "The Ritz Carlton, Pentagon City",
+    "city": "Washington DC",
+    "country": "US",
+    "chain": "ritz-carlton",
+    "confirmed_affiliation": {
+      "kind": "chain",
+      "chain": "ritz-carlton"
+    }
+  },
+  "official_url": "https://www.ritzcarlton.com/en/hotels/waspc-the-ritz-carlton-pentagon-city/overview/",
+  "verified_facts": [
+    {
+      "id": "r-1",
+      "category": "location",
+      "text": "The hotel is at 1250 South Hayes Street, Arlington, Virginia.",
+      "source_url": "https://www.ritzcarlton.com/en/hotels/waspc-the-ritz-carlton-pentagon-city/overview/",
+      "source_tier": "official",
+      "excerpt": "1250 South Hayes Street, Arlington, Virginia, USA, 22202"
+    },
+    {
+      "id": "r-2",
+      "category": "location",
+      "text": "The hotel is two Metro stops from downtown Washington, DC.",
+      "source_url": "https://www.ritzcarlton.com/en/hotels/waspc-the-ritz-carlton-pentagon-city/overview/",
+      "source_tier": "official",
+      "excerpt": "convenient location just two Metro stops from downtown Washington, DC, and DCA Airport"
+    },
+    {
+      "id": "r-3",
+      "category": "location",
+      "text": "The hotel is steps from Fashion Centre at Pentagon City and Pentagon Row.",
+      "source_url": "https://www.ritzcarlton.com/en/hotels/waspc-the-ritz-carlton-pentagon-city/experiences/",
+      "source_tier": "official",
+      "excerpt": "steps from Fashion Centre at Pentagon City and Pentagon Row"
+    },
+    {
+      "id": "r-4",
+      "category": "dining",
+      "text": "Santé is the hotel's Mediterranean-inspired restaurant on the lobby level, with seasonal ingredients and handcrafted cocktails.",
+      "source_url": "https://www.ritzcarlton.com/en/hotels/waspc-the-ritz-carlton-pentagon-city/dining/",
+      "source_tier": "official",
+      "excerpt": "Located on our Lobby level, featuring Mediterranean-inspired dishes, seasonal ingredients, and handcrafted cocktails."
+    },
+    {
+      "id": "r-5",
+      "category": "dining",
+      "text": "Afternoon Tea includes a Teddy Bear Tea for children, with hot chocolate and a teddy bear to take home.",
+      "source_url": "https://www.ritzcarlton.com/en/hotels/waspc-the-ritz-carlton-pentagon-city/dining/",
+      "source_tier": "official",
+      "excerpt": "Our youngest tea goers can enjoy Teddy Bear Tea, with hot chocolate and a teddy bear to take home."
+    },
+    {
+      "id": "r-6",
+      "category": "amenities",
+      "text": "The Club Lounge is on the 18th floor, with views of the Pentagon and Washington, DC's monuments.",
+      "source_url": "https://www.ritzcarlton.com/en/hotels/waspc-the-ritz-carlton-pentagon-city/club/",
+      "source_tier": "official",
+      "excerpt": "The 18th Floor Club Lounge offers breathtaking views of The Pentagon and sweeping Views over Washington, DC’s beautiful monuments."
+    },
+    {
+      "id": "r-7",
+      "category": "amenities",
+      "text": "The Club Lounge offers five complimentary food and beverage presentations each day.",
+      "source_url": "https://www.ritzcarlton.com/en/hotels/waspc-the-ritz-carlton-pentagon-city/club/",
+      "source_tier": "official",
+      "excerpt": "Five times each day, the Club Lounge offers complimentary food and beverage presentations."
+    },
+    {
+      "id": "r-8",
+      "category": "practical",
+      "text": "Club Lounge access requires a Club Level booking; Marriott Bonvoy Elite status does not include it.",
+      "source_url": "https://www.ritzcarlton.com/en/hotels/waspc-the-ritz-carlton-pentagon-city/club/",
+      "source_tier": "official",
+      "excerpt": "Marriott Bonvoy Elite Status does not provide complimentary access to Club."
+    },
+    {
+      "id": "r-9",
+      "category": "rooms",
+      "text": "Guest room beds have Egyptian cotton linens.",
+      "source_url": "https://www.ritzcarlton.com/en/hotels/waspc-the-ritz-carlton-pentagon-city/rooms/",
+      "source_tier": "official",
+      "excerpt": "feature beds with 400-thread-count Egyptian cotton linens"
+    },
+    {
+      "id": "r-10",
+      "category": "rooms",
+      "text": "Bathrooms have Italian marble and rainfall showerheads.",
+      "source_url": "https://www.ritzcarlton.com/en/hotels/waspc-the-ritz-carlton-pentagon-city/rooms/",
+      "source_tier": "official",
+      "excerpt": "Enjoy Italian marble baths with rainfall showerheads"
+    },
+    {
+      "id": "r-11",
+      "category": "rooms",
+      "text": "Monument View Rooms and Suites are offered, as are Premier Rooms on higher floors.",
+      "source_url": "https://www.ritzcarlton.com/en/hotels/waspc-the-ritz-carlton-pentagon-city/rooms/",
+      "source_tier": "official",
+      "excerpt": "Elevate your view with Premier Rooms on higher floors, or with Monument View Rooms and Suites"
+    },
+    {
+      "id": "r-12",
+      "category": "rooms",
+      "text": "The Ritz-Carlton Suite has views of Arlington and Washington, D.C., a living and dining area, a bedroom and Club Lounge access.",
+      "source_url": "https://www.ritzcarlton.com/en/hotels/waspc-the-ritz-carlton-pentagon-city/rooms/signature-suites/",
+      "source_tier": "official",
+      "excerpt": "magnificent views of Arlington and Washington, D.C., an expansive living and dining area, a spacious bedroom, and exclusive access to The Ritz-Carlton Club Lounge"
+    },
+    {
+      "id": "r-13",
+      "category": "family",
+      "text": "The hotel offers the Ritz Kids program for children.",
+      "source_url": "https://www.ritzcarlton.com/en/hotels/waspc-the-ritz-carlton-pentagon-city/experiences/",
+      "source_tier": "official",
+      "excerpt": "child-friendly hotel amenities, like the Ritz Kids program, offering fun, locally inspired entertainment"
+    },
+    {
+      "id": "r-14",
+      "category": "amenities",
+      "text": "The third-floor Fitness Center has a Peloton bike, steam room and sauna.",
+      "source_url": "https://www.ritzcarlton.com/en/hotels/waspc-the-ritz-carlton-pentagon-city/experiences/",
+      "source_tier": "official",
+      "excerpt": "Located on the third floor, the Fitness Center features a Peloton bike, steam room, and sauna."
+    },
+    {
+      "id": "r-15",
+      "category": "experiences",
+      "text": "Each evening, Virginia apples hand-dipped in a seasonal flavor are presented in the Lobby.",
+      "source_url": "https://www.ritzcarlton.com/en/hotels/waspc-the-ritz-carlton-pentagon-city/experiences/",
+      "source_tier": "official",
+      "excerpt": "Enjoy a presentation of Virginia apples, hand-dipped in a seasonal flavor with a topping of your choosing, each evening in the Lobby."
+    },
+    {
+      "id": "r-16",
+      "category": "amenities",
+      "text": "The Club Lounge has an Enomatic wine system with a selection of rare wines chosen by a sommelier.",
+      "source_url": "https://www.ritzcarlton.com/en/hotels/waspc-the-ritz-carlton-pentagon-city/club/",
+      "source_tier": "official",
+      "excerpt": "Our Enomatic Wine System features a hand-picked selection of exclusive and rare wines, curated from our sommelier."
+    },
+    {
+      "id": "r-17",
+      "category": "practical",
+      "text": "The hotel has no airport shuttle to Ronald Reagan Washington National Airport.",
+      "source_url": "https://www.ritzcarlton.com/en/hotels/waspc-the-ritz-carlton-pentagon-city/overview/",
+      "source_tier": "official",
+      "excerpt": "No, The Ritz-Carlton, Pentagon City does not have an airport shuttle to Ronald Reagan Washington National Airport."
+    },
+    {
+      "id": "r-18",
+      "category": "practical",
+      "text": "Pets are not allowed at the hotel.",
+      "source_url": "https://www.ritzcarlton.com/en/hotels/waspc-the-ritz-carlton-pentagon-city/overview/",
+      "source_tier": "official",
+      "excerpt": "No, pets are not allowed at The Ritz-Carlton, Pentagon City."
+    }
+  ],
+  "highlights": [
+    "r-6",
+    "r-4",
+    "r-16",
+    "r-15",
+    "r-5",
+    "r-13"
+  ],
+  "subjective": [
+    {
+      "id": "r-19",
+      "text": "Parking is valet only, with no self-parking.",
+      "reason": "promotional wording; rewrite as a plain fact or leave out"
+    }
+  ],
+  "unresolved": [],
+  "rejected": [],
+  "contradictions": []
 }
