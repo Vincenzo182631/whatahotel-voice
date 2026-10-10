@@ -1,9 +1,10 @@
 {
   "slug": "fairmont-makati",
-  "status": "awaiting_extraction",
+  "status": "needs_review",
   "partial": false,
   "reasons": [
-    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+    "https://www.fairmont.com/en/hotels/manila/fairmont-makati.html: page does not mention Luzon Island",
+    "official website could not be confirmed; flag for review"
   ],
   "identity": {
     "hotel": {
@@ -16,55 +17,27 @@
       "kind": "chain",
       "chain": "fairmont"
     },
-    "evidence": [
-      "100% of the hotel name appears on the page",
-      "location matches (Luzon Island, PH)"
+    "evidence": [],
+    "reasons": [
+      "https://www.fairmont.com/en/hotels/manila/fairmont-makati.html: page does not mention Luzon Island",
+      "official website could not be confirmed; flag for review"
     ],
-    "reasons": [],
     "candidates": [
-      "https://www.fairmont.com/en/hotels/manila/fairmont-makati.html",
-      "https://www.fairmont.com/en/destinations/asia-pacific/philippines.html"
+      "https://www.fairmont.com/en/hotels/manila/fairmont-makati.html"
     ],
-    "checked_at": "2026-10-10T16:29:35.218Z",
-    "status": "confirmed",
-    "official_url": "https://www.fairmont.com/en/destinations/asia-pacific/philippines.html",
-    "base_url": "https://www.fairmont.com/en/destinations/",
-    "host": "fairmont.com",
-    "checks": {
-      "name_coverage": 1,
-      "location_match": true
-    }
+    "checked_at": "2026-10-10T16:30:30.146Z",
+    "status": "needs_review"
   },
-  "pages": [
-    {
-      "id": "p1",
-      "url": "https://www.fairmont.com/en/destinations/asia-pacific/philippines.html",
-      "tier": "official",
-      "fetched_at": "2026-10-10T16:29:50.947Z",
-      "source": "cache"
-    },
-    {
-      "id": "p2",
-      "url": "https://www.cntraveler.com/hotels/philippines/makati-city/fairmont-makati-and-raffles-makati--manila",
-      "tier": "editorial",
-      "fetched_at": "2026-10-10T16:29:59.016Z",
-      "source": "direct"
-    }
-  ],
-  "inaccessible": [
-    {
-      "url": "https://www.fairmont.com/en/destinations/",
-      "reason": "no same-property sub-page links found on the home page"
-    }
-  ],
+  "pages": [],
+  "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 5,
-    "firecrawl_searches": 3,
-    "cache_hits": 2,
-    "direct_fetches": 1,
-    "pages": 2,
-    "chars": 17184,
-    "est_claude_tokens": 4296
+    "firecrawl_calls": 0,
+    "firecrawl_searches": 0,
+    "cache_hits": 1,
+    "direct_fetches": 0,
+    "pages": 0,
+    "chars": 0,
+    "est_claude_tokens": 0
   },
   "limits": {
     "maxPages": 12,
@@ -72,5 +45,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-10T16:29:59.016Z"
+  "researched_at": "2026-10-10T16:30:31.239Z"
 }
