@@ -1,0 +1,328 @@
+{
+  "hotel_slug": "fairmont-waterfront",
+  "hotel_name": "Fairmont Waterfront",
+  "checked_at": "2026-10-10T07:35:25.419Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 13,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 14
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.fairmont.com/en/hotels/vancouver/fairmont-waterfront.html",
+      "tier": "official",
+      "chars": 29215
+    },
+    {
+      "id": "d2",
+      "url": "https://www.cntraveler.com/hotels/vancouver/fairmont-waterfront",
+      "tier": "editorial",
+      "chars": 10682
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fairmont.com/en/hotels/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "chars": 931
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is on Vancouver's harbour, steps from the Vancouver Convention Centre, the cruise terminal and the seawall.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Steps from the Vancouver Convention Centre, cruise terminal, and the iconic seawall",
+          "note": "steps from convention centre, cruise terminal, seawall",
+          "confirmed": true,
+          "url": "https://www.fairmont.com/en/hotels/vancouver/fairmont-waterfront.html",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "With a location on Vancouver’s working harbor",
+          "note": "on the harbour",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/vancouver/fairmont-waterfront",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel has a heated rooftop pool with panoramic views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Relax by the heated rooftop pool with panoramic views",
+          "note": "heated rooftop pool, panoramic views",
+          "confirmed": true,
+          "url": "https://www.fairmont.com/en/hotels/vancouver/fairmont-waterfront.html",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "ARC Restaurant and Bar serves West Coast cuisine made with locally sourced ingredients and produce from the rooftop garden.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "ARC Restaurant and Bar is the property’s singular on-site dining experience, featuring locally sourced ingredients and produce plucked straight from the rooftop garden to create expert odes to West Coast cuisine.",
+          "note": "all elements",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/vancouver/fairmont-waterfront",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Executive Chef Harris Sakalis created the Province to Plate menu at ARC, which changes seasonally.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Executive Harris Sakalis has created our Province to Plate menu at ARC highlighting the best of British Columbia’s seasonal bounty, changing seasonally",
+          "note": "created menu, seasonal",
+          "confirmed": true,
+          "url": "https://www.fairmont.com/en/hotels/vancouver/fairmont-waterfront.html",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Led by Executive Chef Harris Sakalis",
+          "note": "chef title",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/vancouver/fairmont-waterfront",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Guests can use a complimentary bike program to ride the seawall.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "you can travel by wheels thanks to the property’s complimentary bike program available to all guests",
+          "note": "complimentary bike program for seawall",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/vancouver/fairmont-waterfront",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The fitness centre is open 24 hours a day.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Yes! Our fitness center is open 24 hours, seven days a week",
+          "note": "24 hours",
+          "confirmed": true,
+          "url": "https://www.fairmont.com/en/hotels/vancouver/fairmont-waterfront.html",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Fairmont Gold offers a hotel-within-a-hotel experience with private check-in and exclusive lounge access.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Upgrade to Fairmont Gold for an exclusive hotel-within-a-hotel experience",
+          "note": "hotel-within-a-hotel",
+          "confirmed": true,
+          "url": "https://www.fairmont.com/en/hotels/vancouver/fairmont-waterfront.html",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Experience Fairmont Gold with private check-in and exclusive lounge access.",
+          "note": "private check-in and lounge",
+          "confirmed": true,
+          "url": "https://www.fairmont.com/en/hotels/vancouver/fairmont-waterfront.html",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel welcomes pets.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Fairmont Waterfront warmly welcomes pets with amenities like comfy beds, bowls, and treats.",
+          "note": "welcomes pets",
+          "confirmed": true,
+          "url": "https://www.fairmont.com/en/hotels/vancouver/fairmont-waterfront.html",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "A rooftop garden, launched in 1996, grows herbs, fruits, vegetables and edible blossoms without herbicides or pesticides.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Launched in 1996, the 2,100-square-foot rooftop garden grows herbs, fruits, vegetables, and edible blossoms without the use of herbicides or pesticides.",
+          "note": "all elements",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/vancouver/fairmont-waterfront",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The hotel runs an outdoor Bee Program, with daily Bee Tours of the apiaries in the warmer months.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Not far from the garden is the hotel’s outdoor Bee Program",
+          "note": "bee program",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/vancouver/fairmont-waterfront",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "During the warmer months, the team offers daily Bee Tours that introduce guests to the world of beekeeping",
+          "note": "daily bee tours warmer months",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/vancouver/fairmont-waterfront",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "A booking package with Talaysay Tours includes a 90-minute walking tour led by a local First Nations guide.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "They’ve teamed up with Talaysay Tours, an immersive Indigenous tourism and education company, to offer guests a",
+          "note": "Talaysay package",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/vancouver/fairmont-waterfront",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "which includes a 90-minute walking tour led by a local First Nations guide",
+          "note": "90-minute tour",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/vancouver/fairmont-waterfront",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "All guest rooms and signature suites are undergoing a renovation, which is scheduled to wrap in 2029.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Currently undergoing a massive renovation project across all 489 guest rooms and signature suites",
+          "note": "renovation underway",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/vancouver/fairmont-waterfront",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "officially scheduled to wrap in 2029",
+          "note": "wrap 2029",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/vancouver/fairmont-waterfront",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Self parking is available at the hotel for $58 per night.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Self parking is available at $58/night.",
+          "note": "$58 per night",
+          "confirmed": true,
+          "url": "https://www.fairmont.com/en/hotels/vancouver/fairmont-waterfront.html",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes a busy downtown location with urban noise levels.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
