@@ -1,0 +1,75 @@
+{
+  "slug": "belmond-copacabana-palace",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Belmond Copacabana Palace",
+      "city": "Rio de Janeiro",
+      "country": "BR",
+      "chain": "belmond"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "belmond"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Rio de Janeiro, BR)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.belmond.com/en/stories/copacabana-palace-hall-of-fame?srsltid=AU7gw4UWFngg-Cc-X8mCR71HV0j1qW7mKiMeZER6EyRHGkojre7nmk2l"
+    ],
+    "checked_at": "2026-10-10T23:14:52.787Z",
+    "status": "confirmed",
+    "official_url": "https://www.belmond.com/en/stories/copacabana-palace-hall-of-fame?srsltid=AU7gw4UWFngg-Cc-X8mCR71HV0j1qW7mKiMeZER6EyRHGkojre7nmk2l",
+    "base_url": "https://www.belmond.com/en/stories/copacabana-palace-hall-of-fame/",
+    "host": "belmond.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.belmond.com/en/stories/copacabana-palace-hall-of-fame?srsltid=AU7gw4UWFngg-Cc-X8mCR71HV0j1qW7mKiMeZER6EyRHGkojre7nmk2l",
+      "tier": "official",
+      "fetched_at": "2026-10-10T23:15:05.469Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.cntraveler.com/hotels/rio-de-janeiro/copacabana-palace-a-belmond-hotel-rio-de-janeiro",
+      "tier": "editorial",
+      "fetched_at": "2026-10-10T23:15:12.245Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.belmond.com/en/stories/copacabana-palace-hall-of-fame/",
+      "reason": "no same-property sub-page links found on the home page"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 4,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 2,
+    "chars": 18308,
+    "est_claude_tokens": 4577
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-10T23:15:12.245Z"
+}
