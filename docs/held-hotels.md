@@ -59,3 +59,16 @@ WhataHotel ID 7138. A yacht rather than a hotel; held with the other non-hotel e
 | Grace Santorini, Auberge Collection | 2927 | auberge.com/grace/ returns almost no text; official page not confirmed. |
 | Esperanza, Auberge Collection (Cabo San Lucas) | 1215 | auberge.com/esperanza/: only 67% of the name matches and Cabo San Lucas is not mentioned. |
 | Susurros del Corazón, Auberge Collection (Mexico) | 6286 | auberge.com/susurros-del-corazon/ returns almost no text; official page not confirmed. |
+
+## Belmond (batches 1 and 2)
+
+| Hotel | WhataHotel ID | Why held |
+| --- | --- | --- |
+| Romazzino (Costa Smeralda) | 1047 | Belmond page https://www.belmond.com/en/hotels/europe/italy/romazzino-costa-smeralda found, but identity check failed: the page does not mention Porto Cervo (WhataHotel's city). Needs hand-confirmation. |
+| Belmond Le Manoir aux Quat'Saisons | 2409 | Belmond page https://www.belmond.com/en/hotels/europe/uk/le-manoir-aux-quat-saisons-oxfordshire found, but the page does not mention Cotswolds (WhataHotel's city; the hotel is in Oxfordshire). Needs hand-confirmation. |
+| Belmond Savute Elephant Lodge | 2463 | Belmond page https://www.belmond.com/en/lodges/africa/botswana/savute-elephant-lodge-chobe-national-park found; identity check failed. Needs hand-confirmation. |
+| Belmond Khwai River Lodge | 1676 | Not on belmond.com any more (sitemap lists Savute and Eagle Island only). |
+| Belmond La Residence d'Angkor | 2730 | Not on belmond.com any more. |
+| Belmond Grand Hotel Europe | 1195 | Not on belmond.com any more. |
+| Belmond Napasai | 2513 | Not on belmond.com any more. |
+| El Encanto | 2667 | Not on belmond.com any more. |
