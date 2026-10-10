@@ -1,11 +1,8 @@
 {
   "slug": "hotel-jerome",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "https://auberge.com/hotel-jerome/: only 67% of the hotel name appears on the page",
-    "official website could not be confirmed; flag for review"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "Hotel Jerome, Auberge Collection",
@@ -17,27 +14,112 @@
       "kind": "chain",
       "chain": "auberge"
     },
-    "evidence": [],
-    "reasons": [
-      "https://auberge.com/hotel-jerome/: only 67% of the hotel name appears on the page",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "location matches (Aspen, US)",
+      "confirmed by hand as this hotel's own page (only 67% of the hotel name appears on the page)"
     ],
+    "reasons": [],
     "candidates": [
       "https://auberge.com/hotel-jerome/"
     ],
-    "checked_at": "2026-10-10T17:14:25.182Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-10T22:56:51.717Z",
+    "status": "confirmed",
+    "official_url": "https://auberge.com/hotel-jerome/",
+    "base_url": "https://auberge.com/hotel-jerome/",
+    "host": "auberge.com",
+    "checks": {
+      "name_coverage": 0.67,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://auberge.com/hotel-jerome/",
+      "tier": "official",
+      "fetched_at": "2026-10-10T22:56:52.255Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://auberge.com/hotel-jerome/stay/",
+      "tier": "official",
+      "fetched_at": "2026-10-10T22:56:53.854Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://auberge.com/hotel-jerome/dine/",
+      "tier": "official",
+      "fetched_at": "2026-10-10T22:56:56.579Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://auberge.com/hotel-jerome/wellness/spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-10T22:57:01.482Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://auberge.com/hotel-jerome/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-10T22:57:06.949Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://auberge.com/hotel-jerome/contact-us/",
+      "tier": "official",
+      "fetched_at": "2026-10-10T22:57:10.265Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://auberge.com/hotel-jerome/galleries/resort/",
+      "tier": "official",
+      "fetched_at": "2026-10-10T22:57:13.537Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://auberge.com/hotel-jerome/stories/art-of-apres/",
+      "tier": "official",
+      "fetched_at": "2026-10-10T22:57:18.373Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://auberge.com/hotel-jerome/stories/west-was-worn/",
+      "tier": "official",
+      "fetched_at": "2026-10-10T22:57:22.404Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://auberge.com/hotel-jerome/stories/on-the-mountain/",
+      "tier": "official",
+      "fetched_at": "2026-10-10T22:57:27.115Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://www.cntraveler.com/hotels/united-states/aspen/hotel-jerome-aspen",
+      "tier": "editorial",
+      "fetched_at": "2026-10-10T22:57:32.964Z",
+      "source": "cache"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 0,
-    "firecrawl_searches": 0,
-    "cache_hits": 1,
+    "firecrawl_calls": 10,
+    "firecrawl_searches": 1,
+    "cache_hits": 4,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 11,
+    "chars": 74731,
+    "est_claude_tokens": 18683
   },
   "limits": {
     "maxPages": 12,
@@ -45,5 +127,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-10T17:14:25.746Z"
+  "researched_at": "2026-10-10T22:57:32.964Z"
 }
