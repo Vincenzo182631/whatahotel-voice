@@ -8,7 +8,7 @@
     "name": "Four Seasons",
     "url": "https://www.whatahotel.com/collection/2/four-seasons.html"
   },
-  "checked_at": "2026-10-09T05:40:11.169Z",
+  "checked_at": "2026-10-10T00:08:16.709Z",
   "status": "needs_review",
   "benefits": [
     {
@@ -36,10 +36,15 @@
     },
     {
       "kind": "credit",
-      "status": "conflict",
-      "qualifiers": [],
+      "status": "confirmed",
+      "amount": 100,
+      "suiteAmount": 200,
+      "qualifiers": [
+        "per_stay"
+      ],
       "hotel_excerpt": "$100 Credit",
-      "note": "amounts seen: 100, 200"
+      "chain_excerpt": "Daily breakfast for two, hotel credit (USD 100), room upgrade, welcome amenity and more.",
+      "note": "WhataHotel says suites carry a higher credit; the closing says so"
     },
     {
       "kind": "combinable",
@@ -51,7 +56,7 @@
     }
   ],
   "issues": [
-    "credit: the perks table says $100 but WhataHotel also prints $200 as a credit amount; the credit is omitted until it is clear which applies. Excerpts: $200 credit when booking suites | d room upgrade at check-in, daily breakfast for two, property credit ($100 for rooms/$200  | room upgrade at check-in, daily breakfast for two, $100-200 property credit | Hotel credit: Suites and residences carry a higher credit (USD 100 to 200 depending on roo"
+    "credit: WhataHotel also prints $200; the closing states the perks table's $100. Excerpts: $200 credit when booking suites | d room upgrade at check-in, daily breakfast for two, property credit ($100 for rooms/$200  | room upgrade at check-in, daily breakfast for two, $100-200 property credit | Hotel credit: Suites and residences carry a higher credit (USD 100 to 200 depending on roo"
   ],
   "special_offers": [
     "Fifth Night Free!*",
@@ -62,14 +67,14 @@
     "*For a reservation to qualify, the rate code describing the special must be available, selected & booked when completing the reservation online. As such, the special is not automatic on any booking w/o the ratecode selec"
   ],
   "closing": {
-    "template": "expect+combine",
-    "text": "With WhataHotel's preferred rate at this hotel, expect priority for an upgrade at check-in when one is available, free breakfast for two every day, and complimentary Wi-Fi access. That preferred-rate offer can also be combined with the hotel's listed exclusive perks, subject to each offer's terms.",
-    "words": 46,
+    "template": "worth-asking",
+    "text": "Worth knowing: WhataHotel's preferred rate includes free breakfast for two every day, complimentary Wi-Fi access, a priority upgrade when one is available at check-in, and a $100 hotel credit per stay, or $200 for suites.",
+    "words": 35,
     "benefits": [
       "breakfast",
       "wifi",
       "upgrade",
-      "combinable"
+      "credit"
     ]
   }
 }

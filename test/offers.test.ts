@@ -52,9 +52,9 @@ describe("compareOffers", () => {
     const r = compareOffers(parseHotelOffer(hotelHtml("", false)), parseChainOffer(chainHtml("Yes.")));
     expect(confirmed(r.benefits, "combinable").status).toBe("absent");
   });
-  it("omits the credit when WhataHotel shows conflicting amounts", () => {
+  it("states the perks table's credit when WhataHotel also prints other amounts, and logs them", () => {
     const r = compareOffers(parseHotelOffer(hotelHtml(`<p>$250 resort credit</p>`)), undefined);
-    expect(confirmed(r.benefits, "credit").status).toBe("conflict");
+    expect(confirmed(r.benefits, "credit")).toMatchObject({ status: "confirmed", amount: 100 });
     expect(r.issues.join(" ")).toMatch(/also prints/);
   });
   it("keeps the credit with the suites condition when WhataHotel states it", () => {
@@ -125,9 +125,9 @@ describe("composeClosing", () => {
       expect(checkClosing(t, b)).toEqual([]);
     }
   });
-  it("only mentions combining when it is confirmed, and says terms apply", () => {
-    expect(composeClosing("h", all({ combinable: { status: "unclear" } })).text).not.toMatch(/combin/i);
-    expect(composeClosing("h", all()).text).toMatch(/combined[^.]*terms|terms[^.]*combined/i);
+  it("never mentions combining offers or terms, even when combining is confirmed", () => {
+    expect(composeClosing("h", all({ combinable: { status: "unclear" } })).text).not.toMatch(/combin|terms/i);
+    expect(composeClosing("h", all()).text).not.toMatch(/combin|terms/i);
   });
   it("falls back to a simple pointer to the hotel's WhataHotel page when nothing is verified", () => {
     const none = composeClosing("h", all({ breakfast: { status: "absent" }, wifi: { status: "absent" }, upgrade: { status: "absent" }, credit: { status: "conflict" }, combinable: { status: "absent" } }));

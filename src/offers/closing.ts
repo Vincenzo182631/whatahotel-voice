@@ -62,12 +62,6 @@ function phrases(b: Benefit): string[] {
   }
 }
 
-const COMBINE = [
-  "That preferred-rate offer can also be combined with the hotel's listed exclusive perks, subject to each offer's terms.",
-  "The hotel's listed exclusive perks can be combined with this preferred-rate offer, subject to each offer's terms.",
-  "It can also be combined with the hotel's listed exclusive perks, subject to the terms of each offer.",
-];
-
 const list = (xs: string[]) => (xs.length <= 1 ? (xs[0] ?? "") : `${xs.slice(0, -1).join(", ")}, and ${xs[xs.length - 1]}`);
 const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 
@@ -105,7 +99,6 @@ export interface ComposeOptions {
 
 export function composeClosing(slug: string, benefits: Benefit[], opts: ComposeOptions = {}): Closing {
   const confirmed = benefits.filter((b) => b.status === "confirmed" && (b.kind !== "credit" || b.amount) && b.kind !== "combinable");
-  const combine = benefits.some((b) => b.kind === "combinable" && b.status === "confirmed");
   const recentT = new Set(opts.recentTemplates ?? []);
   const recentX = new Set(opts.recentTexts ?? []);
   const kinds = confirmed.map((b) => b.kind);
@@ -134,9 +127,9 @@ export function composeClosing(slug: string, benefits: Benefit[], opts: ComposeO
     const items = list(parts);
     const pool = TEMPLATES.filter((t) => !recentT.has(t.id));
     const t = pick(r, pool.length ? pool : TEMPLATES);
-    const text = `${t.build(items)}${combine ? ` ${pick(r, COMBINE)}` : ""}`;
+    const text = t.build(items);
     if (attempt < 39 && recentX.has(text)) continue;
-    return { template: `${t.id}${combine ? "+combine" : ""}`, text, words: wordCount(text), benefits: [...kinds, ...(combine ? (["combinable"] as const) : [])] };
+    return { template: t.id, text, words: wordCount(text), benefits: [...kinds] };
   }
   throw new Error("unreachable");
 }

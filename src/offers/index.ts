@@ -65,10 +65,11 @@ export function compareOffers(hotel: HotelOffer, chain?: ChainOffer, opts: { ind
 
   const upgrade = has(hotel, "upgrade");
   if (!upgrade) benefits.push({ kind: "upgrade", status: "absent", qualifiers: [] });
-  else if (hotel.upgradeGuaranteed || chain?.upgradeGuaranteed) {
-    issues.push("upgrade: a WhataHotel page describes the upgrade as guaranteed while the perks table says it depends on availability; omitted");
-    benefits.push({ kind: "upgrade", status: "conflict", qualifiers: [], hotel_excerpt: upgrade.excerpt });
-  } else benefits.push({ kind: "upgrade", status: "confirmed", qualifiers: ["availability"], hotel_excerpt: upgrade.excerpt, chain_excerpt: chain?.upgradeNotes[0] });
+  else {
+    // the closing always says "when available", so a page calling the upgrade guaranteed does not change what is said
+    if (hotel.upgradeGuaranteed || chain?.upgradeGuaranteed) issues.push("upgrade: a WhataHotel page describes the upgrade as guaranteed while the perks table says it depends on availability; the closing says it depends on availability");
+    benefits.push({ kind: "upgrade", status: "confirmed", qualifiers: ["availability"], hotel_excerpt: upgrade.excerpt, chain_excerpt: chain?.upgradeNotes[0] });
+  }
 
   const credit = has(hotel, "credit");
   const base = hotel.tableCredit;
@@ -85,10 +86,9 @@ export function compareOffers(hotel: HotelOffer, chain?: ChainOffer, opts: { ind
   else if (base === undefined) {
     issues.push("credit: the perks table lists a credit but no amount; omitted");
     benefits.push({ kind: "credit", status: "unclear", qualifiers: [], hotel_excerpt: credit.excerpt });
-  } else if (stray.length) {
-    issues.push(`credit: the perks table says $${base} but WhataHotel also prints ${stray.map((a) => `$${a}`).join(", ")} as a credit amount; the credit is omitted until it is clear which applies. Excerpts: ${facts.filter((f) => stray.includes(f.amount)).map((f) => f.excerpt.slice(0, 90)).join(" | ")}`);
-    benefits.push({ kind: "credit", status: "conflict", qualifiers: [], hotel_excerpt: credit.excerpt, note: `amounts seen: ${[base, ...stray].join(", ")}` });
   } else {
+    // other amounts on the pages (a suite figure, a resort-credit promo) never change the table's amount, which is what the closing states
+    if (stray.length) issues.push(`credit: WhataHotel also prints ${stray.map((a) => `$${a}`).join(", ")}; the closing states the perks table's $${base}. Excerpts: ${facts.filter((f) => stray.includes(f.amount)).map((f) => f.excerpt.slice(0, 90)).join(" | ")}`);
     const qualifiers = [...new Set([...(chain?.creditQualifiers ?? []), ...hotel.creditQualifiers])];
     benefits.push({
       kind: "credit",
