@@ -66,6 +66,7 @@ export const CHAINS: Chain[] = [
   { id: "hyatt", name: "Hyatt", match: /\bhyatt\b/i, domains: ["hyatt.com"], base: firstTwo },
   { id: "marriott", name: "Marriott", match: /marriott|st\.? regis|w hotel|jw marriott|edition/i, domains: ["marriott.com"], base: firstTwo },
   { id: "one-and-only", name: "One&Only", match: /one&only/i, domains: ["oneandonlyresorts.com"], base: firstTwo },
+  { id: "auberge", name: "Auberge Collection", match: /auberge/i, domains: ["aubergeresorts.com", "auberge.com"], base: firstOne },
   { id: "six-senses", name: "Six Senses", match: /six senses/i, domains: ["sixsenses.com"], base: firstTwo },
 ];
 
@@ -86,6 +87,6 @@ const THIRD_PARTY = [
   "hotelscombined.", "makemytrip.", "trip.com", "ctrip.", "wikipedia.org", "wikivoyage.org", "facebook.com", "instagram.com",
   "youtube.com", "yelp.", "lonelyplanet.", "fodors.", "forbes.com", "telegraph.co.uk", "cntraveler.com", "whatahotel.com",
   "mrandmrssmith.", "smallluxuryhotels.", "slh.com", "leadinghotels.", "relaischateaux.", "preferredhotels.", "virtuoso.",
-  "tablethotels.", "hotelplanner.", "reservations.com", "google.com", "bing.com", "linkedin.com", "pinterest.", "tiktok.com",
+  "tablethotels.", "hotelsone.", "americanexpress.com", "hotelplanner.", "reservations.com", "google.com", "bing.com", "linkedin.com", "pinterest.", "tiktok.com",
 ];
 export const isThirdParty = (host: string) => THIRD_PARTY.some((t) => host.includes(t));
