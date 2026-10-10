@@ -40,3 +40,5 @@ WhataHotel ID 7138. A yacht rather than a hotel; held with the other non-hotel e
 | WhataHotel ID | Name | Reason |
 |---|---|---|
 | 4850 | The Claremont Resort (Berkeley) | No fairmont.com property page found (search returns only generic Fairmont pages); may no longer be a Fairmont. Held until the official URL is confirmed. |
+| — | Fairmont Winnipeg | Paused operations from 1 July 2026 for a full reinvention, reopening spring 2027 (per fairmont.com). Redo after reopening. |
+| — | Fairmont Grand Hotel Kyiv | Official page rejected by the identity check only because WhataHotel spells the city "Kiev"; needs hand-confirmation of the fairmont.com URL and an open-status check. |
