@@ -1,0 +1,75 @@
+{
+  "slug": "belmond-cadogan-hotel",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Belmond Cadogan Hotel",
+      "city": "London",
+      "country": "GB",
+      "chain": "belmond"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "belmond"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (London, GB)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.belmond.com/en/stories/belmond-cadogan-hotel?srsltid=AU7gw4W_67ECjGAWIMkOIMgD-hFvkcPPVtsciWsBb0PKP0NGtESl_Qgo"
+    ],
+    "checked_at": "2026-10-10T23:25:36.389Z",
+    "status": "confirmed",
+    "official_url": "https://www.belmond.com/en/stories/belmond-cadogan-hotel?srsltid=AU7gw4W_67ECjGAWIMkOIMgD-hFvkcPPVtsciWsBb0PKP0NGtESl_Qgo",
+    "base_url": "https://www.belmond.com/en/stories/belmond-cadogan-hotel/",
+    "host": "belmond.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.belmond.com/en/stories/belmond-cadogan-hotel?srsltid=AU7gw4W_67ECjGAWIMkOIMgD-hFvkcPPVtsciWsBb0PKP0NGtESl_Qgo",
+      "tier": "official",
+      "fetched_at": "2026-10-10T23:25:46.238Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.cntraveler.com/hotels/london/belmond-cadogan-hotel",
+      "tier": "editorial",
+      "fetched_at": "2026-10-10T23:25:48.920Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.belmond.com/en/stories/belmond-cadogan-hotel/",
+      "reason": "no same-property sub-page links found on the home page"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 4,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 2,
+    "chars": 13186,
+    "est_claude_tokens": 3297
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-10T23:25:48.920Z"
+}
