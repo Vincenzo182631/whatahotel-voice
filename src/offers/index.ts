@@ -75,13 +75,10 @@ export function compareOffers(hotel: HotelOffer, chain?: ChainOffer, opts: { ind
   const base = hotel.tableCredit;
   const facts = [...hotel.creditFacts, ...(chain?.creditFacts ?? [])];
   const stray = [...new Set(facts.filter((f) => f.kind === "standalone" && base !== undefined && f.amount !== base).map((f) => f.amount))];
-  // A higher credit for suites is stated only when the chain page confirms it too; a hotel-page-only figure is flagged and left out.
   const hotelSuite = facts.find((f) => f.kind === "suite");
   const hotelSuitesHigher = hotel.suitesHigher || !!chain?.suitesHigher;
-  const suiteConfirmed = !chain || !!chain.creditFacts.some((f) => f.kind === "suite") || chain.suitesHigher;
-  const suite = suiteConfirmed ? hotelSuite : undefined;
-  const suitesHigher = suiteConfirmed && hotelSuitesHigher;
-  if ((hotelSuite || hotelSuitesHigher) && !suiteConfirmed) issues.push("credit: the hotel page mentions a higher credit for suites but the chain page does not confirm it; the suite amount is left out");
+  // The closing never states a suite amount (or that suites get more): only the perks table's amount is spoken.
+  if (hotelSuite || hotelSuitesHigher) issues.push("credit: WhataHotel mentions a higher credit for suites; the closing states only the perks table's amount");
   if (!credit) benefits.push({ kind: "credit", status: "absent", qualifiers: [] });
   else if (base === undefined) {
     issues.push("credit: the perks table lists a credit but no amount; omitted");
@@ -94,11 +91,9 @@ export function compareOffers(hotel: HotelOffer, chain?: ChainOffer, opts: { ind
       kind: "credit",
       status: "confirmed",
       amount: base,
-      ...(suite ? { suiteAmount: suite.amount } : suitesHigher ? { suitesHigher: true } : {}),
       qualifiers,
       hotel_excerpt: credit.excerpt,
       chain_excerpt: has(chain, "credit")?.excerpt,
-      ...(suite || suitesHigher ? { note: "WhataHotel says suites carry a higher credit; the closing says so" } : {}),
     });
   }
 

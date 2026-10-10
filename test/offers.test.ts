@@ -57,16 +57,18 @@ describe("compareOffers", () => {
     expect(confirmed(r.benefits, "credit")).toMatchObject({ status: "confirmed", amount: 100 });
     expect(r.issues.join(" ")).toMatch(/also prints/);
   });
-  it("keeps the credit with the suites condition when WhataHotel states it", () => {
+  it("states only the table's credit when WhataHotel also gives a suites amount", () => {
     const r = compareOffers(parseHotelOffer(hotelHtml(`<p>a $100 property credit ($200 for suites)</p>`)), undefined);
-    expect(confirmed(r.benefits, "credit")).toMatchObject({ status: "confirmed", amount: 100, suiteAmount: 200 });
+    const c = confirmed(r.benefits, "credit");
+    expect(c).toMatchObject({ status: "confirmed", amount: 100 });
+    expect(c.suiteAmount).toBeUndefined();
   });
-  it("treats a chain-wide range and a higher suites credit as a condition, not a conflict", () => {
+  it("treats a chain-wide range and a higher suites credit as a note, not a conflict, and does not speak it", () => {
     const hotel = parseHotelOffer(hotelHtml(`<script>{"description":"Includes $100-$200 Resort Credit"}</script>`));
     const chain = parseChainOffer(chainHtml("Yes.", "USD 100 hotel credit per stay, usable for spa treatments, dining or other incidental charges.").replace("</body>", "<p>Hotel credit: Suites and residences carry a higher credit (USD 100 to 200 depending on room category).</p></body>"));
     const r = compareOffers(hotel, chain);
-    expect(confirmed(r.benefits, "credit")).toMatchObject({ status: "confirmed", amount: 100, suitesHigher: true, qualifiers: ["per_stay"] });
-    expect(r.issues).toEqual([]);
+    expect(confirmed(r.benefits, "credit")).toMatchObject({ status: "confirmed", amount: 100, qualifiers: ["per_stay"] });
+    expect(confirmed(r.benefits, "credit").suitesHigher).toBeUndefined();
   });
   it("ignores another promotion's credit (nightly resort credit) but flags a stray flat amount", () => {
     expect(confirmed(compareOffers(parseHotelOffer(hotelHtml(`<p>Special: $200 Nightly Resort Credit</p>`))).benefits, "credit").status).toBe("confirmed");

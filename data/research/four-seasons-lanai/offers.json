@@ -8,7 +8,7 @@
     "name": "Four Seasons",
     "url": "https://www.whatahotel.com/collection/2/four-seasons.html"
   },
-  "checked_at": "2026-10-10T00:08:20.680Z",
+  "checked_at": "2026-10-10T00:19:42.201Z",
   "status": "needs_review",
   "benefits": [
     {
@@ -38,13 +38,11 @@
       "kind": "credit",
       "status": "confirmed",
       "amount": 100,
-      "suiteAmount": 200,
       "qualifiers": [
         "per_stay"
       ],
       "hotel_excerpt": "$100 Credit",
-      "chain_excerpt": "Daily breakfast for two, hotel credit (USD 100), room upgrade, welcome amenity and more.",
-      "note": "WhataHotel says suites carry a higher credit; the closing says so"
+      "chain_excerpt": "Daily breakfast for two, hotel credit (USD 100), room upgrade, welcome amenity and more."
     },
     {
       "kind": "combinable",
@@ -57,6 +55,7 @@
   ],
   "issues": [
     "upgrade: a WhataHotel page describes the upgrade as guaranteed while the perks table says it depends on availability; the closing says it depends on availability",
+    "credit: WhataHotel mentions a higher credit for suites; the closing states only the perks table's amount",
     "credit: WhataHotel also prints $200; the closing states the perks table's $100. Excerpts: Get a $200 Daily Resort credit with each paid night in a Guest Room | ($400 nightly credit with suite bookings or $200 daily credit with guest room bookings), | ed room upgrade at booking, daily breakfast for two, property credit ($100 for rooms/$200  | $100-200 property credit | Hotel credit: Suites and residences carry a higher credit (USD 100 to 200 depending on roo"
   ],
   "special_offers": [
@@ -69,8 +68,8 @@
   ],
   "closing": {
     "template": "expect",
-    "text": "With WhataHotel's preferred rate at this hotel, expect complimentary daily breakfast for two, a priority upgrade when one is available at check-in, free Wi-Fi, and a $100 hotel credit per stay, or $200 for suites.",
-    "words": 35,
+    "text": "With WhataHotel's preferred rate at this hotel, expect complimentary daily breakfast for two, a priority upgrade when one is available at check-in, free Wi-Fi, and a $100 hotel credit per stay.",
+    "words": 31,
     "benefits": [
       "breakfast",
       "wifi",
