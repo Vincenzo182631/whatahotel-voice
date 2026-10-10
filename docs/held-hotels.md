@@ -35,3 +35,8 @@ WhataHotel ID 7138. A yacht rather than a hotel; held with the other non-hotel e
 | 6692 | Fairmont Heritage Place, Franz Klammer Lodge | Branded residences, not a hotel |
 | 7139 | Orient Express Sailing Yachts | Yacht, not a hotel |
 | — | Fairmont Beijing | Closed since 2026-09-16 for full renovation, no reopening date (per fairmont.com banner); redo after reopening |
+
+## Fairmont batch 3
+| WhataHotel ID | Name | Reason |
+|---|---|---|
+| 4850 | The Claremont Resort (Berkeley) | No fairmont.com property page found (search returns only generic Fairmont pages); may no longer be a Fairmont. Held until the official URL is confirmed. |

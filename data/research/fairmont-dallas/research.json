@@ -1,0 +1,75 @@
+{
+  "slug": "fairmont-dallas",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "Fairmont Dallas",
+      "city": "Dallas",
+      "country": "US",
+      "chain": "fairmont"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "fairmont"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Dallas, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.fairmont.com/en/hotels/dallas/fairmont-dallas.html"
+    ],
+    "checked_at": "2026-10-10T16:01:54.598Z",
+    "status": "confirmed",
+    "official_url": "https://www.fairmont.com/en/hotels/dallas/fairmont-dallas.html",
+    "base_url": "https://www.fairmont.com/en/hotels/",
+    "host": "fairmont.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.fairmont.com/en/hotels/dallas/fairmont-dallas.html",
+      "tier": "official",
+      "fetched_at": "2026-10-10T16:02:04.656Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.fairmont.com/en/hotels/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "fetched_at": "2026-10-10T16:02:04.661Z",
+      "source": "cache"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.cntraveler.com/hotels/united-states/dallas/the-fairmont-dallas",
+      "tier": "editorial",
+      "fetched_at": "2026-10-10T16:02:15.148Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 4,
+    "firecrawl_searches": 3,
+    "cache_hits": 3,
+    "direct_fetches": 1,
+    "pages": 3,
+    "chars": 22081,
+    "est_claude_tokens": 5520
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-10T16:02:15.149Z"
+}

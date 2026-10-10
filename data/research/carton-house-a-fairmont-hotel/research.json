@@ -1,0 +1,76 @@
+{
+  "slug": "carton-house-a-fairmont-hotel",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Carton House - A Fairmont Hotel",
+      "city": "Maynooth",
+      "country": "IE",
+      "chain": "fairmont"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "fairmont"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Maynooth, IE)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.fairmont.com/en/hotels/county-kildare/carton-house.html",
+      "https://www.fairmont.com/en/hotels/county-kildare/carton-house/location-contact.html"
+    ],
+    "checked_at": "2026-10-10T16:01:56.116Z",
+    "status": "confirmed",
+    "official_url": "https://www.fairmont.com/en/hotels/county-kildare/carton-house/location-contact.html",
+    "base_url": "https://www.fairmont.com/en/hotels/",
+    "host": "fairmont.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.fairmont.com/en/hotels/county-kildare/carton-house/location-contact.html",
+      "tier": "official",
+      "fetched_at": "2026-10-10T16:02:11.867Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.cntraveler.com/hotels/co-kildare/carton-house-a-fairmont-managed-hotel",
+      "tier": "editorial",
+      "fetched_at": "2026-10-10T16:02:18.409Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.fairmont.com/en/hotels/",
+      "reason": "no same-property sub-page links found on the home page"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 5,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 2,
+    "chars": 7954,
+    "est_claude_tokens": 1989
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-10T16:02:18.410Z"
+}
