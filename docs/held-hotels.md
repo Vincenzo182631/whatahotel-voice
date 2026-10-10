@@ -34,3 +34,4 @@ WhataHotel ID 7138. A yacht rather than a hotel; held with the other non-hotel e
 | 4823 | Fairmont Heritage Place, Mayakoba | Branded residences, not a hotel |
 | 6692 | Fairmont Heritage Place, Franz Klammer Lodge | Branded residences, not a hotel |
 | 7139 | Orient Express Sailing Yachts | Yacht, not a hotel |
+| — | Fairmont Beijing | Closed since 2026-09-16 for full renovation, no reopening date (per fairmont.com banner); redo after reopening |
