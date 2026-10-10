@@ -1,0 +1,76 @@
+{
+  "slug": "fairmont-la-hacienda-costa-del-sol",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Fairmont La Hacienda Costa Del Sol",
+      "city": "Malaga",
+      "country": "ES",
+      "chain": "fairmont"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "fairmont"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Malaga, ES)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.fairmont.com/en/hotels/san-roque/fairmont-la-hacienda-costa-del-sol.html",
+      "https://www.fairmont.com/en/hotels/san-roque/fairmont-la-hacienda-costa-del-sol/location-contact.html"
+    ],
+    "checked_at": "2026-10-10T16:29:38.483Z",
+    "status": "confirmed",
+    "official_url": "https://www.fairmont.com/en/hotels/san-roque/fairmont-la-hacienda-costa-del-sol/location-contact.html",
+    "base_url": "https://www.fairmont.com/en/hotels/",
+    "host": "fairmont.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.fairmont.com/en/hotels/san-roque/fairmont-la-hacienda-costa-del-sol/location-contact.html",
+      "tier": "official",
+      "fetched_at": "2026-10-10T16:29:52.149Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.cntraveler.com/hotels/san-roque/fairmont-la-hacienda-costa-del-sol",
+      "tier": "editorial",
+      "fetched_at": "2026-10-10T16:29:59.931Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.fairmont.com/en/hotels/",
+      "reason": "no same-property sub-page links found on the home page"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 5,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 2,
+    "chars": 18201,
+    "est_claude_tokens": 4550
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-10T16:29:59.931Z"
+}

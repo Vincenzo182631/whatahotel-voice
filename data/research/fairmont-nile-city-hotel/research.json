@@ -1,0 +1,75 @@
+{
+  "slug": "fairmont-nile-city-hotel",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Fairmont Nile City Hotel",
+      "city": "Cairo",
+      "country": "EG",
+      "chain": "fairmont"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "fairmont"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Cairo, EG)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.fairmont.com/en/hotels/cairo/fairmont-nile-city.html"
+    ],
+    "checked_at": "2026-10-10T16:29:38.734Z",
+    "status": "confirmed",
+    "official_url": "https://www.fairmont.com/en/hotels/cairo/fairmont-nile-city.html",
+    "base_url": "https://www.fairmont.com/en/hotels/",
+    "host": "fairmont.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.fairmont.com/en/hotels/cairo/fairmont-nile-city.html",
+      "tier": "official",
+      "fetched_at": "2026-10-10T16:29:52.560Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.fairmont.com/en/hotels/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "fetched_at": "2026-10-10T16:29:52.563Z",
+      "source": "cache"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 4,
+    "firecrawl_searches": 3,
+    "cache_hits": 3,
+    "direct_fetches": 0,
+    "pages": 2,
+    "chars": 23442,
+    "est_claude_tokens": 5861
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-10T16:29:58.284Z"
+}
