@@ -1,0 +1,75 @@
+{
+  "slug": "belmond-cap-juluca",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Belmond Cap Juluca",
+      "city": "Anguilla ",
+      "country": "AI",
+      "chain": "belmond"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "belmond"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Anguilla , AI)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.belmond.com/en/stories/belmond-cap-juluca?srsltid=AU7gw4Vk399vDE4_ALJVTbeVWthRpg-Kj04en_2VU6uxnhd7mSq9kYKe"
+    ],
+    "checked_at": "2026-10-10T23:14:34.038Z",
+    "status": "confirmed",
+    "official_url": "https://www.belmond.com/en/stories/belmond-cap-juluca?srsltid=AU7gw4Vk399vDE4_ALJVTbeVWthRpg-Kj04en_2VU6uxnhd7mSq9kYKe",
+    "base_url": "https://www.belmond.com/en/stories/belmond-cap-juluca/",
+    "host": "belmond.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.belmond.com/en/stories/belmond-cap-juluca?srsltid=AU7gw4Vk399vDE4_ALJVTbeVWthRpg-Kj04en_2VU6uxnhd7mSq9kYKe",
+      "tier": "official",
+      "fetched_at": "2026-10-10T23:14:44.039Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.cntraveler.com/hotels/anguilla/the-valley/cap-juluca-anguilla",
+      "tier": "editorial",
+      "fetched_at": "2026-10-10T23:14:51.016Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.belmond.com/en/stories/belmond-cap-juluca/",
+      "reason": "no same-property sub-page links found on the home page"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 4,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 2,
+    "chars": 14400,
+    "est_claude_tokens": 3600
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-10T23:14:51.016Z"
+}
