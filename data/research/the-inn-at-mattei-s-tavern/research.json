@@ -1,0 +1,75 @@
+{
+  "slug": "the-inn-at-mattei-s-tavern",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "The Inn at Mattei's Tavern, Auberge Collection",
+      "city": "Santa Barbara",
+      "country": "US",
+      "chain": "auberge"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "auberge"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Santa Barbara, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://auberge.com/press/welcome-the-inn-at-matteis-tavern/"
+    ],
+    "checked_at": "2026-10-10T17:00:47.579Z",
+    "status": "confirmed",
+    "official_url": "https://auberge.com/press/welcome-the-inn-at-matteis-tavern/",
+    "base_url": "https://auberge.com/press/",
+    "host": "auberge.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://auberge.com/press/welcome-the-inn-at-matteis-tavern/",
+      "tier": "official",
+      "fetched_at": "2026-10-10T17:01:04.974Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.cntraveler.com/hotels/los-olivos/the-inn-at-matteis-tavern-auberge-resorts-collection",
+      "tier": "editorial",
+      "fetched_at": "2026-10-10T17:01:13.501Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://auberge.com/press/",
+      "reason": "no same-property sub-page links found on the home page"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 6,
+    "firecrawl_searches": 5,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 2,
+    "chars": 14303,
+    "est_claude_tokens": 3576
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-10T17:01:13.501Z"
+}

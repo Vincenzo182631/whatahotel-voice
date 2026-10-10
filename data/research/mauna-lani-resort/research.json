@@ -1,0 +1,84 @@
+{
+  "slug": "mauna-lani-resort",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "Mauna Lani Resort, Auberge Collection",
+      "city": "Big Island",
+      "country": "US",
+      "chain": "auberge"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "auberge"
+    },
+    "evidence": [
+      "redirected from https://aubergeresorts.com/maunalani/special-offers/",
+      "80% of the hotel name appears on the page",
+      "location matches (Big Island, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://auberge.com/mauna-lani/",
+      "https://aubergeresorts.com/maunalani/special-offers/"
+    ],
+    "checked_at": "2026-10-10T17:03:41.043Z",
+    "status": "confirmed",
+    "official_url": "https://auberge.com/mauna-lani/special-offers/",
+    "base_url": "https://auberge.com/mauna-lani/",
+    "host": "auberge.com",
+    "checks": {
+      "name_coverage": 0.8,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://auberge.com/mauna-lani/special-offers/",
+      "tier": "official",
+      "fetched_at": "2026-10-10T17:04:02.700Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://auberge.com/mauna-lani/contact-us/",
+      "tier": "official",
+      "fetched_at": "2026-10-10T17:04:07.416Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://auberge.com/mauna-lani/francis-brown-club/",
+      "tier": "official",
+      "fetched_at": "2026-10-10T17:04:11.701Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.cntraveler.com/hotels/united-states/kamuela/mauna-lani-auberge-resorts-collection",
+      "tier": "editorial",
+      "fetched_at": "2026-10-10T17:04:19.832Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 9,
+    "firecrawl_searches": 5,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 4,
+    "chars": 16266,
+    "est_claude_tokens": 4067
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-10T17:04:19.832Z"
+}

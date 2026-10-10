@@ -1,0 +1,76 @@
+{
+  "slug": "the-vanderbilt",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "The Vanderbilt, Auberge Collection",
+      "city": "Newport",
+      "country": "US",
+      "chain": "auberge"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "auberge"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Newport, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://auberge.com/vanderbilt/",
+      "https://auberge.com/press/the-vanderbilt-auberge-resorts-collection/"
+    ],
+    "checked_at": "2026-10-10T17:05:54.785Z",
+    "status": "confirmed",
+    "official_url": "https://auberge.com/press/the-vanderbilt-auberge-resorts-collection/",
+    "base_url": "https://auberge.com/press/",
+    "host": "auberge.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://auberge.com/press/the-vanderbilt-auberge-resorts-collection/",
+      "tier": "official",
+      "fetched_at": "2026-10-10T17:06:16.613Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.cntraveler.com/hotels/newport/the-vanderbilt-auberge-resorts-collection",
+      "tier": "editorial",
+      "fetched_at": "2026-10-10T17:06:23.662Z",
+      "source": "cache"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://auberge.com/press/",
+      "reason": "no same-property sub-page links found on the home page"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 5,
+    "cache_hits": 3,
+    "direct_fetches": 0,
+    "pages": 2,
+    "chars": 26375,
+    "est_claude_tokens": 6594
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-10T17:06:23.662Z"
+}
