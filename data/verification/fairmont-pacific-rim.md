@@ -1,0 +1,34 @@
+# Verification checklist: Fairmont Pacific Rim
+
+Checked 2026-10-10 against the hotel's own pages and Condé Nast Traveler. Result: **can be marked verified** (profile set to verified).
+
+Supported 17 · contradicted 0 · unverified 0 · WhataHotel's own statements 1 · total 18
+
+## Pages checked
+
+- official: https://www.fairmont.com/en/hotels/vancouver/fairmont-pacific-rim.html
+- editorial: https://www.cntraveler.com/hotels/vancouver/fairmont-pacific-rim
+- official: https://www.fairmont.com/en/hotels/%3CBase64-Image-Removed%3E/
+
+## Claims
+
+| | Claim | Evidence |
+|---|---|---|
+| ✅ | **f-1** Fairmont Pacific Rim is located in the heart of Vancouver. | "Fairmont Pacific Rim is a Forbes Five-Star hotel located in the heart of Vancouver." (official, https://www.fairmont.com/en/hotels/vancouver/fairmont-pacific-rim.html) |
+| ✅ | **f-2** The Pacific Gallery is an intimate exhibition space showing works by established and emerging artists from Canada and around the world, in partnership with the Equinox Gallery and Westbank. | "In partnership with the Equinox Gallery and Westbank, our intimate exhibition space showcases works of art by accomplished and emerging visionary talent from across Canada and the world." (official, https://www.fairmont.com/en/hotels/vancouver/fairmont-pacific-rim.html) |
+| ✅ | **f-3** Dining and drinking venues include the restaurant Botanist, Botanist Bar, and The Lobby Lounge & RawBar, which serves sushi and drinks. | "Discover the best of the Pacific Northwest at Botanist, award-winning cocktails at Botanist Bar and exceptional sushi and drinks at The Lobby Lounge & RawBar." (official, https://www.fairmont.com/en/hotels/vancouver/fairmont-pacific-rim.html) |
+| ✅ | **f-4** Giovane is a more casual Italian bakery and cafe serving pasta, pizza, panini and desserts. | "There’s also the more casual Giovane, an Italian bakery and café that serves pasta, pizza, panini, and desserts." (editorial, https://www.cntraveler.com/hotels/vancouver/fairmont-pacific-rim) |
+| ✅ | **f-5** Fairmont Spa is on the fifth floor of the hotel. | "Fairmont Pacific Rim is home to a Forbes Five-Star spa, located on the fifth floor of the hotel. Fairmont Spa" (official, https://www.fairmont.com/en/hotels/vancouver/fairmont-pacific-rim.html) |
+| ✅ | **f-6** Guest rooms and suites have Stearns & Foster beds, marble bathrooms and a variety of city and mountain views. | "feature dreamy Stearns & Foster beds, spacious spa-like marble bathrooms and a variety of city and mountain views." (official, https://www.fairmont.com/en/hotels/vancouver/fairmont-pacific-rim.html) |
+| ✅ | **f-7** Signature Ofuro rooms have a Japanese deep soaker ofuro jetted tub in an oversized marble bathroom, with views of Coal Harbour and the North Shore Mountains. | "Signature Ofuro rooms boast Vancouver's most stunning views of Coal Harbour and North Shore Mountains, enjoyed from a Japanese deep soaker ofuro jetted tub in an oversized marble bathroom." (official, https://www.fairmont.com/en/hotels/vancouver/fairmont-pacific-rim.html) |
+| ✅ | **f-8** The hotel has a spa, a rooftop pool and a fitness center. | "Explore our award-winning dining options, five-star hotel spa, rooftop pool and fitness center" (official, https://www.fairmont.com/en/hotels/vancouver/fairmont-pacific-rim.html) |
+| ✅ | **f-9** Deluxe Partial Harbour View rooms look over the city and part of the harbour, where seaplanes and sailboats can be seen. | "Our modern contemporary Deluxe Partial Harbour View rooms showcase views spanning the city and partial harbour, where seaplanes and sailboats can be seen." (official, https://www.fairmont.com/en/hotels/vancouver/fairmont-pacific-rim.html) |
+| ✅ | **f-10** The northern view takes in the living roof of the Vancouver Convention Centre across the street, Burrard Inlet and the North Shore Mountains. | "the northern view, which takes in the living roof of the dramatic Vancouver Convention Centre across the street, as well as the Burrard Inlet and North Shore Mountains" (editorial, https://www.cntraveler.com/hotels/vancouver/fairmont-pacific-rim) |
+| ✅ | **h-1** Suite X, a Fairmont Gold one-bedroom suite, was designed by artist Douglas Coupland and has a private patio, artist-designed art installations and custom furnishings. | "Designed by celebrated artist Douglas Coupland, this expansive suite offers luxury living, complete with private patio and breathtaking views. Features include artist designed vibrant art installations, custom furnishings" (official, https://www.fairmont.com/en/hotels/vancouver/fairmont-pacific-rim.html) |
+| ✅ | **h-2** The Chairmans Suite is a two-story, villa-style suite with a private gazebo, pond and fire pit, reached by private elevator. | "This two-story, villa-style masterpiece includes two living rooms, Swarovski crystal chandelier, pantry, fireplace, ensuite marble bathroom with hand-carved soaker tub, outdoor patio, private gazebo, pond and fire pit." (official, https://www.fairmont.com/en/hotels/vancouver/fairmont-pacific-rim.html) |
+| ✅ | **h-3** Deluxe Pool View rooms have private patios or balconies, some with outdoor fireplaces, overlooking the pool terrace, cabanas and palm trees. | "Deluxe Pool View rooms offer private patios or balconies, some with outdoor fireplaces, overlooking the hotels pool terrace, cabanas and palm trees." (official, https://www.fairmont.com/en/hotels/vancouver/fairmont-pacific-rim.html) |
+| ✅ | **h-4** The hotel's art collection was established under the direction of owners and developers Westbank and the Peterson Group. | "Fairmont Pacific Rim established its art collection under the direction of owners and developers Westbank and the Peterson Group." (official, https://www.fairmont.com/en/hotels/vancouver/fairmont-pacific-rim.html) |
+| ✅ | **h-5** A dedicated library on the second floor holds over 275 TASCHEN books, from artist monographs to signed Collector's Editions. | "Explore over 275 TASCHEN books, ranging from artist monographs to signed Collector’s Editions, in our dedicated Library on the second floor." (official, https://www.fairmont.com/en/hotels/vancouver/fairmont-pacific-rim.html) |
+| ✅ | **c-1** Parking is available for an additional fee. | "Parking available for an additional fee" (official, https://www.fairmont.com/en/hotels/vancouver/fairmont-pacific-rim.html) |
+| ✅ | **c-2** Vancouver International Airport is around 30-40 minutes from the hotel by car and 40 minutes by Skytrain; the closest Skytrain station is Waterfront. | "Vancouver International Airport is around 30-40 minutes away by car, and 40 minutes by Skytrain. The closest Skytrain station to the hotel is Waterfront." (official, https://www.fairmont.com/en/hotels/vancouver/fairmont-pacific-rim.html) |
+| ➖ | **c-3** WhataHotel notes the hotel is in a bustling downtown district, which may not suit guests seeking a quiet, secluded retreat. | WhataHotel's own offer or statement |

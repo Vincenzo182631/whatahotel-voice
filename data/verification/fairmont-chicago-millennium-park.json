@@ -1,0 +1,346 @@
+{
+  "hotel_slug": "fairmont-chicago-millennium-park",
+  "hotel_name": "Fairmont Chicago Millennium Park",
+  "checked_at": "2026-10-10T08:32:12.525Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 18
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.fairmont.com/en/hotels/chicago/fairmont-chicago-millennium-park.html",
+      "tier": "official",
+      "chars": 21770
+    },
+    {
+      "id": "d2",
+      "url": "https://www.cntraveler.com/hotels/chicago/fairmont-chicago-millennium-park",
+      "tier": "editorial",
+      "chars": 6660
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fairmont.com/en/hotels/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "chars": 931
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is steps from Millennium Park and Grant Park, shopping on The Magnificent Mile and the Riverwalk.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Steps from Millennium and Grant Parks, world-renowned shopping on The Magnificent Mile",
+          "note": "all locations named",
+          "confirmed": true,
+          "url": "https://www.fairmont.com/en/hotels/chicago/fairmont-chicago-millennium-park.html",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Guest rooms and suites have views of Lake Michigan, the Chicago skyline and surrounding parks.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "each offers sweeping views of Lake Michigan, the Chicago skyline, and surrounding parks.",
+          "note": "views",
+          "confirmed": true,
+          "url": "https://www.fairmont.com/en/hotels/chicago/fairmont-chicago-millennium-park.html",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Toro, Chef Richard Sandoval's restaurant, serves Latin American flavors throughout the day.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Toro restaurant offers Latin American flavors throughout the day",
+          "note": "Toro serves Latin American flavors all day",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/chicago/fairmont-chicago-millennium-park",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Toro's pan-Latin menu includes ceviche and empanadas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "interpretation of pan-Latin cuisine, featuring dishes like ceviche and empanadas",
+          "note": "menu",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/chicago/fairmont-chicago-millennium-park",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The lobby bar serves breakfast, coffee and evening drinks.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Guests can also head to the lobby bar for breakfast, coffee, or evening drinks.",
+          "note": "lobby bar",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/chicago/fairmont-chicago-millennium-park",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Leaf Spa offers nature-inspired, holistic treatments that draw inspiration from the seasons.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Leaf Spa features a range of nature-inspired, holistic treatments that draw inspiration from the seasons.",
+          "note": "spa treatments",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/chicago/fairmont-chicago-millennium-park",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "After treatments, spa guests can use the steam room, meditation room or soaking tub.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Post-treatment, guests can enjoy the steam room, meditation room, or soaking tub.",
+          "note": "spa facilities",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/chicago/fairmont-chicago-millennium-park",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Bathrooms have marble finishes, rainfall showers and Le Labo amenities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Bathrooms are outfitted with marble finishes, rainfall showers, Le Labo amenities",
+          "note": "bathrooms",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/chicago/fairmont-chicago-millennium-park",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The hotel has mobility-accessible rooms with roll-in showers and hearing-accessible rooms with visual alarms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "mobility-accessible rooms with roll-in showers and accessible entry doors, hearing-accessible rooms with visual alarms and TDD access",
+          "note": "accessible rooms",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/chicago/fairmont-chicago-millennium-park",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Guests can get views of Millennium Park or Lake Michigan from Deluxe Cityscape or Signature Parkview rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Book a Deluxe Cityscape or Signature Parkview room for prime views of Millennium Park or Lake Michigan",
+          "note": "views",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/chicago/fairmont-chicago-millennium-park",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Presidential Suite has a library with a fireplace and grand piano, a bar and butler's pantry, and a bedroom with a Jacuzzi bath.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "library with fireplace and grand piano, a bar and butlers pantry, and a bedoom with a Jacuzzi bath",
+          "note": "presidential suite",
+          "confirmed": true,
+          "url": "https://www.fairmont.com/en/hotels/chicago/fairmont-chicago-millennium-park.html",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Toro, Chef Richard Sandoval's restaurant, serves Latin American flavors throughout the day.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Toro restaurant offers Latin American flavors throughout the day",
+          "note": "Toro serves Latin American flavors all day",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/chicago/fairmont-chicago-millennium-park",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Leaf Spa offers nature-inspired, holistic treatments that draw inspiration from the seasons.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Leaf Spa features a range of nature-inspired, holistic treatments that draw inspiration from the seasons.",
+          "note": "spa treatments",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/chicago/fairmont-chicago-millennium-park",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Millennium Park two-bedroom suite has two king bedrooms, a separate living room with a pullout sofa and a full kitchenette.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "2 Bedrooms with 1 King each. Separate Living Room with pullout sofa and Full Kitchenette.",
+          "note": "2BR suite",
+          "confirmed": true,
+          "url": "https://www.fairmont.com/en/hotels/chicago/fairmont-chicago-millennium-park.html",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Fairmont Gold rooms and suites include access to the Fairmont Gold Lounge, with hot breakfast and evening snacks.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Fairmont Gold Lounge access, includes hot breakfast and evening snacks",
+          "note": "gold rooms",
+          "confirmed": true,
+          "url": "https://www.fairmont.com/en/hotels/chicago/fairmont-chicago-millennium-park.html",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Access to Fairmont Gold Lounge includes hot breakfast and evenings snacks.",
+          "note": "gold suite",
+          "confirmed": true,
+          "url": "https://www.fairmont.com/en/hotels/chicago/fairmont-chicago-millennium-park.html",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Access to the Fairmont Gold Lounge comes with booking a Fairmont Gold room or suite.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Fairmont Gold Lounge access, includes hot breakfast and evening snacks",
+          "note": "gold room booking includes lounge access",
+          "confirmed": true,
+          "url": "https://www.fairmont.com/en/hotels/chicago/fairmont-chicago-millennium-park.html",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The hotel hosts a number of special events year-round, from weddings to galas, so it is a busy city hotel with business travelers and families.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Expect to see a mix of business travelers and families in town looking to explore, plus those staying onsite for a number of special events hosted year-round (from weddings to galas).",
+          "note": "events and guests",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/chicago/fairmont-chicago-millennium-park",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing that reflects the luxury positioning and prime location.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
