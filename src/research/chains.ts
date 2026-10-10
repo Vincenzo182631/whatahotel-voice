@@ -58,6 +58,7 @@ export const CHAINS: Chain[] = [
       return s[0] === "hotels" && s[1] ? `${u.origin}/${seg(u)[0] !== s[0] ? seg(u)[0] + "/" : ""}hotels/${s[1]}/` : undefined;
     },
   },
+  { id: "fairmont", name: "Fairmont", match: /fairmont/i, domains: ["fairmont.com"], secondaryDomains: ["accor.com"], base: firstOne },
   { id: "rosewood", name: "Rosewood", match: /rosewood/i, domains: ["rosewoodhotels.com"], base: firstTwo },
   { id: "aman", name: "Aman", match: /^aman/i, domains: ["aman.com"], base: (u) => { const s = dropLang(seg(u)); return s.length >= 2 ? `${u.origin}/${s[0]}/${s[1]}/` : undefined; } },
   { id: "belmond", name: "Belmond", match: /belmond/i, domains: ["belmond.com"], base: firstTwo },

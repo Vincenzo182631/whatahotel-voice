@@ -26,3 +26,11 @@ The official pages say a renovation began 1 July 2026 with no official reopening
 
 ## Aman At Sea (Amangati) (held, Aman batch 1)
 WhataHotel ID 7138. A yacht rather than a hotel; held with the other non-hotel entries. Add if wanted.
+
+## Fairmont chain (held, Fairmont batches)
+| WhataHotel ID | Name | Reason |
+|---|---|---|
+| 2520 | Fairmont Heritage Place, Ghirardelli Square | Branded residences, not a hotel |
+| 4823 | Fairmont Heritage Place, Mayakoba | Branded residences, not a hotel |
+| 6692 | Fairmont Heritage Place, Franz Klammer Lodge | Branded residences, not a hotel |
+| 7139 | Orient Express Sailing Yachts | Yacht, not a hotel |
