@@ -1,5 +1,5 @@
 # Extract verified facts for Belmond La Residencia
-Official site confirmed: https://www.belmond.com/en/destinations/europe/spain?srsltid=AU7gw4XY7HscZtwBFuDJDudCnEMxnsa1GZuPKSQ2NfhBc_oNXMrbOXkH (chain: belmond).
+Official site confirmed: https://www.belmond.com/en/hotels/europe/spain/la-residencia-mallorca (chain: belmond).
 Read /home/user/whatahotel-voice/data/research/belmond-la-residencia/index.json and the page text in /home/user/whatahotel-voice/data/research/belmond-la-residencia/pages/<id>.txt. Use ONLY those pages, never memory. Do not run other commands or fetch anything.
 Write /home/user/whatahotel-voice/data/research/belmond-la-residencia/facts.json (JSON only) with this shape:
 {"facts":[{"id":"r-1","category":"dining","kind":"fact|subjective|unresolved","text":"one atomic statement","doc_id":"p3","excerpt":"copied verbatim from that page, max 240 chars","topic":"short key, e.g. pool-count","as_of":"YYYY-MM-DD or null"}],
