@@ -47,3 +47,15 @@ WhataHotel ID 7138. A yacht rather than a hotel; held with the other non-hotel e
 | WhataHotel ID | Name | Reason |
 |---|---|---|
 | 4967 | Fairmont Makati | Official page (fairmont.com/en/hotels/manila/fairmont-makati.html) rejected by the identity check only because WhataHotel gives the location as "Luzon Island"; shares its building with Raffles Makati. Needs hand-confirmation of the URL and an open-status check. |
+
+## Auberge batch 2
+
+| Hotel | WhataHotel ID | Why held |
+| --- | --- | --- |
+| Cambridge House, Auberge Collection (London) | 7131 | Not open yet: official pages say "Debuting 2027". Profile it after it opens. |
+| Malliouhana, Auberge Collection (Anguilla) | 3706 | Official Auberge page not confirmed: auberge.com/malliouhana/ is a landing page without the property name or Anguilla. |
+| Auberge Saint-Antoine (Quebec City) | 2640 | auberge.com/saint-antoine/ returns almost no text; official page not confirmed. |
+| Hacienda AltaGracia, Auberge Collection (Costa Rica) | 3039 | auberge.com/hacienda-altagracia/ returns almost no text; official page not confirmed. |
+| Grace Santorini, Auberge Collection | 2927 | auberge.com/grace/ returns almost no text; official page not confirmed. |
+| Esperanza, Auberge Collection (Cabo San Lucas) | 1215 | auberge.com/esperanza/: only 67% of the name matches and Cabo San Lucas is not mentioned. |
+| Susurros del Corazón, Auberge Collection (Mexico) | 6286 | auberge.com/susurros-del-corazon/ returns almost no text; official page not confirmed. |
