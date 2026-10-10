@@ -1,0 +1,74 @@
+{
+  "slug": "hotel-jerome",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Hotel Jerome, Auberge Collection",
+      "city": "Aspen",
+      "country": "US",
+      "chain": "auberge"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Aspen, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hotelsone.com/aspen-hotels-us/hotel-jerome-auberge-collection.html"
+    ],
+    "checked_at": "2026-10-10T16:58:19.620Z",
+    "status": "confirmed",
+    "official_url": "https://www.hotelsone.com/aspen-hotels-us/hotel-jerome-auberge-collection.html",
+    "base_url": "https://www.hotelsone.com/",
+    "host": "hotelsone.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hotelsone.com/aspen-hotels-us/hotel-jerome-auberge-collection.html",
+      "tier": "official",
+      "fetched_at": "2026-10-10T16:58:25.163Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.cntraveler.com/hotels/united-states/aspen/hotel-jerome-aspen",
+      "tier": "editorial",
+      "fetched_at": "2026-10-10T16:58:33.196Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.hotelsone.com/",
+      "reason": "no same-property sub-page links found on the home page"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 3,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 2,
+    "chars": 33416,
+    "est_claude_tokens": 8354
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-10T16:58:33.197Z"
+}
