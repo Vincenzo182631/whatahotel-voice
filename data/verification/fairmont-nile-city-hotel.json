@@ -1,0 +1,313 @@
+{
+  "hotel_slug": "fairmont-nile-city-hotel",
+  "hotel_name": "Fairmont Nile City Hotel",
+  "checked_at": "2026-10-10T16:35:01.062Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 15,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 16
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.fairmont.com/en/hotels/cairo/fairmont-nile-city.html",
+      "tier": "official",
+      "chars": 22511
+    },
+    {
+      "id": "d2",
+      "url": "https://www.fairmont.com/en/hotels/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "chars": 931
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is in the city center of Cairo, at 2005 B, Corniche El Nil, Ramlet Beaulac.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Fairmont Nile City is located in the city center of Cairo, Egypt. The hotel's address is 2005 B, Corniche El Nil, Ramlet Beaulac.",
+          "note": "city center and address",
+          "url": "https://www.fairmont.com/en/hotels/cairo/fairmont-nile-city.html",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Rooms combine Art Deco and contemporary design, with 100% Egyptian cotton bedding.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Elements of Art Deco and contemporary design combined to provide timeless elegance, including 100% Egyptian cotton bedding",
+          "note": "Art Deco, contemporary, Egyptian cotton",
+          "url": "https://www.fairmont.com/en/hotels/cairo/fairmont-nile-city.html",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Fairmont Gold is a private hotel-within-a-hotel experience across three dedicated floors.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Fairmont Gold at Fairmont Nile City is a private hotel-within-a-hotel experience across three dedicated floors.",
+          "note": "exact",
+          "url": "https://www.fairmont.com/en/hotels/cairo/fairmont-nile-city.html",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The Sky Pool is on the 25th floor and has views of the Nile and the Cairo skyline, with glimpses of the Giza Pyramids on clear days.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Sky Pool at Fairmont Nile City is located on the 25th floor and offers panoramic views of the Nile River and Cairo skyline, with glimpses of the Giza Pyramids on clear days.",
+          "note": "exact",
+          "url": "https://www.fairmont.com/en/hotels/cairo/fairmont-nile-city.html",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Dining venues include L'Uliveto, Gingko, Bab El Nil, La Mie and Onyx Lounge, and all are open to outside visitors.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "All dining venues at Fairmont Nile City — including L'Uliveto, Gingko, Bab El Nil, La Mie, Onyx Lounge, and Sky Pool — are open to outside visitors.",
+          "note": "all venues incl. the five listed open to outside visitors",
+          "url": "https://www.fairmont.com/en/hotels/cairo/fairmont-nile-city.html",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Fairmont Spa is open to hotel guests and outside visitors, and guests must be 18 or older.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The spa is open to hotel guests and outside visitors daily from 06:30 AM.",
+          "note": "guests and outside visitors",
+          "url": "https://www.fairmont.com/en/hotels/cairo/fairmont-nile-city.html",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Guests must be 18 or older.",
+          "note": "age",
+          "url": "https://www.fairmont.com/en/hotels/cairo/fairmont-nile-city.html",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The fitness center offers personal training and is on the same wellness floor as the Fairmont Spa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Personal training is available. The fitness center is open to hotel guests and is located within the same wellness floor as Fairmont Spa.",
+          "note": "personal training, same wellness floor",
+          "url": "https://www.fairmont.com/en/hotels/cairo/fairmont-nile-city.html",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Cairo International Airport is the closest airport, about 30 minutes away by car.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The closest airport to our hotel is Cairo International Airport. It is about 30 minutes away by car.",
+          "note": "exact",
+          "url": "https://www.fairmont.com/en/hotels/cairo/fairmont-nile-city.html",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Sky Pool is on the 25th floor, with views of the Nile and the Cairo skyline, and glimpses of the Giza Pyramids on clear days.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Sky Pool at Fairmont Nile City is located on the 25th floor and offers panoramic views of the Nile River and Cairo skyline, with glimpses of the Giza Pyramids on clear days.",
+          "note": "exact",
+          "url": "https://www.fairmont.com/en/hotels/cairo/fairmont-nile-city.html",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Fairmont Gold is a private hotel-within-a-hotel experience across three dedicated floors.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Fairmont Gold at Fairmont Nile City is a private hotel-within-a-hotel experience across three dedicated floors.",
+          "note": "exact",
+          "url": "https://www.fairmont.com/en/hotels/cairo/fairmont-nile-city.html",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Presidential Suite has a full Nile view, two bedrooms, a kitchen and four bathrooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Presidential Suite, Full Nile view, 2 Bedrooms, Separate Living Area, Kitchen, 4 Bathrooms",
+          "note": "all elements",
+          "url": "https://www.fairmont.com/en/hotels/cairo/fairmont-nile-city.html",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The hotel's design is Art Deco, with views of the Nile or the Cairo skyline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "sophisticated Art Deco design meets breathtaking views of the Nile or Cairo",
+          "note": "Art Deco, Nile or skyline views",
+          "url": "https://www.fairmont.com/en/hotels/cairo/fairmont-nile-city.html",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Fairmont Gold rooms come with 24-hour on-call butler service and access to the Fairmont Gold Lounge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Fairmont Gold rooms with 24-hour on-call butler service, and access to the spectacular Fairmont Gold Lounge.",
+          "note": "butler and lounge",
+          "url": "https://www.fairmont.com/en/hotels/cairo/fairmont-nile-city.html",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Reservations are required for the Sky Pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Reservations are recommended for Bab El Nil, Gingko, and L'Uliveto on weekend evenings and are required for Sky Pool.",
+          "note": "required for Sky Pool (another passage says advance reservations recommended)",
+          "url": "https://www.fairmont.com/en/hotels/cairo/fairmont-nile-city.html",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Indoor parking and valet parking are available for an additional fee.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Parking available for an additional fee",
+          "note": "fee",
+          "url": "https://www.fairmont.com/en/hotels/cairo/fairmont-nile-city.html",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Indoor parking",
+          "note": "indoor",
+          "url": "https://www.fairmont.com/en/hotels/cairo/fairmont-nile-city.html",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Valet parking",
+          "note": "valet",
+          "url": "https://www.fairmont.com/en/hotels/cairo/fairmont-nile-city.html",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes an urban city location with traffic noise.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
