@@ -1,10 +1,9 @@
 {
   "slug": "kempinski-grand-hotel-cancun",
-  "status": "needs_review",
-  "partial": false,
+  "status": "awaiting_extraction",
+  "partial": true,
   "reasons": [
-    "https://www.kempinski.com/en/hotel-cancun/overview: only 67% of the hotel name appears on the page",
-    "official website could not be confirmed; flag for review"
+    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue"
   ],
   "identity": {
     "hotel": {
@@ -17,27 +16,119 @@
       "kind": "chain",
       "chain": "kempinski"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.kempinski.com/en/hotel-cancun/overview: only 67% of the hotel name appears on the page",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "location matches (Cancun, MX)",
+      "confirmed by hand as this hotel's own page (only 67% of the hotel name appears on the page)"
     ],
+    "reasons": [],
     "candidates": [
       "https://www.kempinski.com/en/hotel-cancun/overview"
     ],
-    "checked_at": "2026-10-11T04:09:41.366Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-11T04:21:14.296Z",
+    "status": "confirmed",
+    "official_url": "https://www.kempinski.com/en/hotel-cancun/overview",
+    "base_url": "https://www.kempinski.com/en/hotel-cancun/overview/",
+    "host": "kempinski.com",
+    "checks": {
+      "name_coverage": 0.67,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.kempinski.com/en/hotel-cancun/overview",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:21:19.852Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.kempinski.com/en/hotel-cancun/overview/hotel-information/prepare-your-stay/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:21:29.887Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.kempinski.com/en/hotel-cancun/overview/services-and-facilities/beach-villas/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:21:36.895Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.kempinski.com/en/hotel-cancun/overview/services-and-facilities/outdoor-pools/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:21:38.563Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.kempinski.com/en/hotel-cancun/overview/services-and-facilities/narita/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:21:42.921Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.kempinski.com/en/hotel-cancun/overview/services-and-facilities/lady-in-red/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:21:46.855Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.kempinski.com/en/hotel-cancun/overview/services-and-facilities/tennis-courts/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:21:50.811Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.kempinski.com/en/hotel-cancun/overview/services-and-facilities/kempinski-paws/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:21:55.145Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.kempinski.com/en/hotel-cancun/overview/services-and-facilities/the-club-lounge/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:21:59.209Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.kempinski.com/en/hotel-cancun/overview/services-and-facilities/pickleball-courts/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:22:06.402Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://www.kempinski.com/en/hotel-cancun/overview/services-and-facilities/concierge-services/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:22:08.414Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p12",
+      "url": "https://www.kempinski.com/en/hotel-cancun/overview/services-and-facilities/service-pet-policy/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:22:16.033Z",
+      "source": "firecrawl"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 0,
+    "firecrawl_calls": 15,
     "firecrawl_searches": 0,
-    "cache_hits": 1,
+    "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 12,
+    "chars": 34218,
+    "est_claude_tokens": 8555
   },
   "limits": {
     "maxPages": 12,
@@ -45,5 +136,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-11T04:09:42.224Z"
+  "researched_at": "2026-10-11T04:22:19.396Z"
 }

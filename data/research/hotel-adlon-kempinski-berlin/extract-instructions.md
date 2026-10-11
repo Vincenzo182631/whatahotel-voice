@@ -14,4 +14,3 @@ Write /home/user/whatahotel-voice/data/research/hotel-adlon-kempinski-berlin/fac
 - Awards, renovations, restaurant distinctions, openings: set as_of to the date or year the page gives; if the page gives none, use kind "unresolved".
 - If two pages disagree about the same thing, list it under contradictions, still list the facts with the same topic, and the code will hold the disputed ones out.
 - highlights: your strongest 5-8 fact ids, most distinctive first. If fewer than 5 verified facts exist, list fewer; do not pad.
-- These pages could not be read (do not assume anything about them): https://www.kempinski.com/en/hotel-adlon/overview/

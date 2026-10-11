@@ -1,15 +1,15 @@
 {
   "slug": "hotel-adlon-kempinski-berlin",
-  "status": "ready",
-  "partial": false,
+  "status": "awaiting_extraction",
+  "partial": true,
   "reasons": [
-    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue"
   ],
   "identity": {
     "hotel": {
       "name": "Hotel Adlon Kempinski Berlin",
       "city": "Berlin",
-      "country": "DE",
+      "country": "Germany",
       "chain": "kempinski"
     },
     "affiliation": {
@@ -18,13 +18,13 @@
     },
     "evidence": [
       "100% of the hotel name appears on the page",
-      "location matches (Berlin, DE)"
+      "location matches (Berlin, Germany)"
     ],
     "reasons": [],
     "candidates": [
       "https://www.kempinski.com/en/hotel-adlon/overview"
     ],
-    "checked_at": "2026-10-11T04:08:26.242Z",
+    "checked_at": "2026-10-11T04:16:06.356Z",
     "status": "confirmed",
     "official_url": "https://www.kempinski.com/en/hotel-adlon/overview",
     "base_url": "https://www.kempinski.com/en/hotel-adlon/overview/",
@@ -39,31 +39,96 @@
       "id": "p1",
       "url": "https://www.kempinski.com/en/hotel-adlon/overview",
       "tier": "official",
-      "fetched_at": "2026-10-11T04:08:30.167Z",
-      "source": "cache"
+      "fetched_at": "2026-10-11T04:16:11.599Z",
+      "source": "firecrawl"
     },
     {
       "id": "p2",
-      "url": "https://www.cntraveler.com/hotels/germany/ortsteil-tiergarten/hotel-adlon-kempinski-berlin",
-      "tier": "editorial",
-      "fetched_at": "2026-10-11T04:08:36.086Z",
-      "source": "cache"
-    }
-  ],
-  "inaccessible": [
+      "url": "https://www.kempinski.com/en/hotel-adlon/overview/destination/family-stays-in-berlin/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:16:21.899Z",
+      "source": "firecrawl"
+    },
     {
-      "url": "https://www.kempinski.com/en/hotel-adlon/overview/",
-      "reason": "no same-property sub-page links found on the home page"
+      "id": "p3",
+      "url": "https://www.kempinski.com/en/hotel-adlon/overview/hotel-information/prepare-your-stay/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:16:25.793Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.kempinski.com/en/hotel-adlon/overview/services-and-facilities/roomservice/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:16:29.530Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.kempinski.com/en/hotel-adlon/overview/destination/restaurants-in-berlin/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:16:33.684Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.kempinski.com/en/hotel-adlon/overview/destination/theatre-opera-and-music/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:16:37.259Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.kempinski.com/en/hotel-adlon/overview/services-and-facilities/city-tour/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:16:41.790Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.kempinski.com/en/hotel-adlon/overview/services-and-facilities/bike-rental/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:16:47.336Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.kempinski.com/en/hotel-adlon/overview/services-and-facilities/flower-shop/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:16:49.446Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.kempinski.com/en/hotel-adlon/overview/services-and-facilities/business-centre/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:16:53.614Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://www.kempinski.com/en/hotel-adlon/overview/services-and-facilities/shopping-arcade/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:16:57.475Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p12",
+      "url": "https://www.kempinski.com/en/hotel-adlon/overview/services-and-facilities/concierge-service/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:17:01.139Z",
+      "source": "firecrawl"
     }
   ],
+  "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 2,
-    "firecrawl_searches": 1,
-    "cache_hits": 3,
+    "firecrawl_calls": 15,
+    "firecrawl_searches": 0,
+    "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 2,
-    "chars": 12564,
-    "est_claude_tokens": 3141
+    "pages": 12,
+    "chars": 30135,
+    "est_claude_tokens": 7534
   },
   "limits": {
     "maxPages": 12,
@@ -71,142 +136,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-11T04:08:36.086Z",
-  "hotel": {
-    "name": "Hotel Adlon Kempinski Berlin",
-    "city": "Berlin",
-    "country": "DE",
-    "chain": "kempinski",
-    "confirmed_affiliation": {
-      "kind": "chain",
-      "chain": "kempinski"
-    }
-  },
-  "official_url": "https://www.kempinski.com/en/hotel-adlon/overview",
-  "verified_facts": [
-    {
-      "id": "r-1",
-      "category": "location",
-      "text": "The hotel is directly at the Brandenburg Gate.",
-      "source_url": "https://www.kempinski.com/en/hotel-adlon/overview",
-      "source_tier": "official",
-      "excerpt": "directly at the Brandenburg Gate"
-    },
-    {
-      "id": "r-2",
-      "category": "location",
-      "text": "The hotel is on the Unter den Linden boulevard in Berlin's Mitte district.",
-      "source_url": "https://www.cntraveler.com/hotels/germany/ortsteil-tiergarten/hotel-adlon-kempinski-berlin",
-      "source_tier": "editorial",
-      "excerpt": "takes up an important position on the Unter den Linden"
-    },
-    {
-      "id": "r-3",
-      "category": "design_history",
-      "text": "The central elephant fountain was a gift from a visiting Maharajah at the hotel's launch in 1907.",
-      "source_url": "https://www.cntraveler.com/hotels/germany/ortsteil-tiergarten/hotel-adlon-kempinski-berlin",
-      "source_tier": "editorial",
-      "excerpt": "a gift from a visiting Maharajah at the launch of the hotel in 1907"
-    },
-    {
-      "id": "r-4",
-      "category": "design_history",
-      "text": "The current hotel opened under the Kempinski name in 1997 as a symbol of German Reunification.",
-      "source_url": "https://www.cntraveler.com/hotels/germany/ortsteil-tiergarten/hotel-adlon-kempinski-berlin",
-      "source_tier": "editorial",
-      "excerpt": "the new Aldon opened as a symbol of German Reunification under the Kempinski name, once again establishing itself immediately as a social hub in 1997."
-    },
-    {
-      "id": "r-5",
-      "category": "rooms",
-      "text": "Rooms have windows that open and look out on the Brandenburg Gate.",
-      "source_url": "https://www.cntraveler.com/hotels/germany/ortsteil-tiergarten/hotel-adlon-kempinski-berlin",
-      "source_tier": "editorial",
-      "excerpt": "The light-filled rooms and windows that you can open look out on the Brandenburg Gate."
-    },
-    {
-      "id": "r-6",
-      "category": "dining",
-      "text": "Breakfast is served at the BeL Etage.",
-      "source_url": "https://www.cntraveler.com/hotels/germany/ortsteil-tiergarten/hotel-adlon-kempinski-berlin",
-      "source_tier": "editorial",
-      "excerpt": "Breakfast at the BeL Etage"
-    },
-    {
-      "id": "r-7",
-      "category": "dining",
-      "text": "Brasserie Quarre has outdoor tables and serves bistro dishes such as bouillabaisse.",
-      "source_url": "https://www.cntraveler.com/hotels/germany/ortsteil-tiergarten/hotel-adlon-kempinski-berlin",
-      "source_tier": "editorial",
-      "excerpt": "Brasserie Quarré meanwhile has tables outside and bistro favourites such as bouillabaisse or a Berlin Special; veal liver."
-    },
-    {
-      "id": "r-8",
-      "category": "dining",
-      "text": "The hotel serves currywurst Adlon-style with gold leaf.",
-      "source_url": "https://www.cntraveler.com/hotels/germany/ortsteil-tiergarten/hotel-adlon-kempinski-berlin",
-      "source_tier": "editorial",
-      "excerpt": "Another Adlon classic is the Berliners favourite street food, Currywurst, served Adlon-style with gold leaf."
-    },
-    {
-      "id": "r-9",
-      "category": "amenities",
-      "text": "The spa has a Finnish sauna, a hammam, ice baths and an ice waterfall.",
-      "source_url": "https://www.cntraveler.com/hotels/germany/ortsteil-tiergarten/hotel-adlon-kempinski-berlin",
-      "source_tier": "editorial",
-      "excerpt": "the Finnish sauna and hamman, the ice baths, and the ice waterfall"
-    },
-    {
-      "id": "r-10",
-      "category": "amenities",
-      "text": "The spa is a child-free zone for guests under 16.",
-      "source_url": "https://www.cntraveler.com/hotels/germany/ortsteil-tiergarten/hotel-adlon-kempinski-berlin",
-      "source_tier": "editorial",
-      "excerpt": "the Spa is a child-free zone for those under 16."
-    },
-    {
-      "id": "r-11",
-      "category": "experiences",
-      "text": "Guests can take an Adlon Bike to the Tiergarten park.",
-      "source_url": "https://www.cntraveler.com/hotels/germany/ortsteil-tiergarten/hotel-adlon-kempinski-berlin",
-      "source_tier": "editorial",
-      "excerpt": "the vast state park, the Tiergarten, to which you can take your Adlon Bike for an adventure"
-    },
-    {
-      "id": "r-12",
-      "category": "design_history",
-      "text": "The hotel has original Art Deco elevator clocks that show which floor you are on, an antique from the original building.",
-      "source_url": "https://www.cntraveler.com/hotels/germany/ortsteil-tiergarten/hotel-adlon-kempinski-berlin",
-      "source_tier": "editorial",
-      "excerpt": "Look out for the original Art Deco elevator clocks, which tell you which floor you are on; an antique from the original building."
-    },
-    {
-      "id": "r-13",
-      "category": "family",
-      "text": "Children receive age-appropriate gifts in the bedrooms.",
-      "source_url": "https://www.cntraveler.com/hotels/germany/ortsteil-tiergarten/hotel-adlon-kempinski-berlin",
-      "source_tier": "editorial",
-      "excerpt": "From age-appropriate gifts in the bedrooms"
-    },
-    {
-      "id": "r-14",
-      "category": "practical",
-      "text": "The hotel has ground-floor suites and wheelchair access points with adaptable bed levels.",
-      "source_url": "https://www.cntraveler.com/hotels/germany/ortsteil-tiergarten/hotel-adlon-kempinski-berlin",
-      "source_tier": "editorial",
-      "excerpt": "There are ground-floor suites and access points destined for those in wheelchairs with adaptable bed levels."
-    }
-  ],
-  "highlights": [
-    "r-3",
-    "r-1",
-    "r-4",
-    "r-8",
-    "r-9",
-    "r-12"
-  ],
-  "subjective": [],
-  "unresolved": [],
-  "rejected": [],
-  "contradictions": []
+  "researched_at": "2026-10-11T04:17:05.414Z"
 }

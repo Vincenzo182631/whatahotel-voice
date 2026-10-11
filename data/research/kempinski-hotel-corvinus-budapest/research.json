@@ -1,15 +1,15 @@
 {
   "slug": "kempinski-hotel-corvinus-budapest",
-  "status": "ready",
-  "partial": false,
+  "status": "awaiting_extraction",
+  "partial": true,
   "reasons": [
-    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue"
   ],
   "identity": {
     "hotel": {
       "name": "Kempinski Hotel Corvinus Budapest",
       "city": "Budapest",
-      "country": "HU",
+      "country": "Hungary",
       "chain": "kempinski"
     },
     "affiliation": {
@@ -18,13 +18,13 @@
     },
     "evidence": [
       "100% of the hotel name appears on the page",
-      "location matches (Budapest, HU)"
+      "location matches (Budapest, Hungary)"
     ],
     "reasons": [],
     "candidates": [
       "https://www.kempinski.com/en/hotel-corvinus-budapest/overview"
     ],
-    "checked_at": "2026-10-11T04:11:02.805Z",
+    "checked_at": "2026-10-11T04:21:46.014Z",
     "status": "confirmed",
     "official_url": "https://www.kempinski.com/en/hotel-corvinus-budapest/overview",
     "base_url": "https://www.kempinski.com/en/hotel-corvinus-budapest/overview/",
@@ -39,31 +39,96 @@
       "id": "p1",
       "url": "https://www.kempinski.com/en/hotel-corvinus-budapest/overview",
       "tier": "official",
-      "fetched_at": "2026-10-11T04:11:03.844Z",
-      "source": "cache"
+      "fetched_at": "2026-10-11T04:21:51.150Z",
+      "source": "firecrawl"
     },
     {
       "id": "p2",
-      "url": "https://www.cntraveler.com/hotels/hungary/budapest/kempinski-hotel-corvinus--budapest",
-      "tier": "editorial",
-      "fetched_at": "2026-10-11T04:11:09.780Z",
-      "source": "cache"
-    }
-  ],
-  "inaccessible": [
+      "url": "https://www.kempinski.com/en/hotel-corvinus-budapest/overview/hotel-information/prepare-your-stay/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:22:01.180Z",
+      "source": "firecrawl"
+    },
     {
-      "url": "https://www.kempinski.com/en/hotel-corvinus-budapest/overview/",
-      "reason": "no same-property sub-page links found on the home page"
+      "id": "p3",
+      "url": "https://www.kempinski.com/en/hotel-corvinus-budapest/overview/services-and-facilities/in-room-dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:22:05.370Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.kempinski.com/en/hotel-corvinus-budapest/overview/destination/restaurants-nightlife-in-budapest/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:22:09.150Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.kempinski.com/en/hotel-corvinus-budapest/overview/services-and-facilities/parking/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:22:13.445Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.kempinski.com/en/hotel-corvinus-budapest/overview/services-and-facilities/lady-in-red/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:22:17.125Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.kempinski.com/en/hotel-corvinus-budapest/overview/services-and-facilities/clothing-services/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:22:21.450Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.kempinski.com/en/hotel-corvinus-budapest/overview/services-and-facilities/concierge-services/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:22:25.112Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.kempinski.com/en/hotel-corvinus-budapest/overview/services-and-facilities/kempinski-for-kids/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:22:29.135Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.kempinski.com/en/hotel-corvinus-budapest/overview/services-and-facilities/travelling-with-pets/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:22:33.030Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://www.kempinski.com/en/hotel-corvinus-budapest/overview/destination/budapest-for-kids/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:22:37.163Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p12",
+      "url": "https://www.kempinski.com/en/hotel-corvinus-budapest/overview/hotel-information/location/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:22:41.004Z",
+      "source": "firecrawl"
     }
   ],
+  "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 1,
-    "firecrawl_searches": 1,
-    "cache_hits": 4,
+    "firecrawl_calls": 15,
+    "firecrawl_searches": 0,
+    "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 2,
-    "chars": 5802,
-    "est_claude_tokens": 1451
+    "pages": 12,
+    "chars": 48769,
+    "est_claude_tokens": 12192
   },
   "limits": {
     "maxPages": 12,
@@ -71,101 +136,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-11T04:11:09.780Z",
-  "hotel": {
-    "name": "Kempinski Hotel Corvinus Budapest",
-    "city": "Budapest",
-    "country": "HU",
-    "chain": "kempinski",
-    "confirmed_affiliation": {
-      "kind": "chain",
-      "chain": "kempinski"
-    }
-  },
-  "official_url": "https://www.kempinski.com/en/hotel-corvinus-budapest/overview",
-  "verified_facts": [
-    {
-      "id": "r-1",
-      "category": "location",
-      "text": "The hotel is in downtown Budapest.",
-      "source_url": "https://www.kempinski.com/en/hotel-corvinus-budapest/overview",
-      "source_tier": "official",
-      "excerpt": "Treat yourself to a luxury getaway in downtown Budapest."
-    },
-    {
-      "id": "r-2",
-      "category": "location",
-      "text": "The hotel is a short walk from Vörösmarty Square and its Christmas market.",
-      "source_url": "https://www.kempinski.com/en/hotel-corvinus-budapest/overview",
-      "source_tier": "official",
-      "excerpt": "A short walk from Vörösmarty Square and its Christmas market, or Advent Basilica Market, Kempinski Hotel Corvinus sits at the heart of the festive city."
-    },
-    {
-      "id": "r-3",
-      "category": "location",
-      "text": "The hotel's address is Erzsébet tér 7, Budapest.",
-      "source_url": "https://www.cntraveler.com/hotels/hungary/budapest/kempinski-hotel-corvinus--budapest",
-      "source_tier": "editorial",
-      "excerpt": "Erzsébet tér 7, Budapest 1051"
-    },
-    {
-      "id": "r-5",
-      "category": "amenities",
-      "text": "A spa package combines a city break with a course of massage treatments.",
-      "source_url": "https://www.kempinski.com/en/hotel-corvinus-budapest/overview",
-      "source_tier": "official",
-      "excerpt": "Combine your luxury city break in Budapest with a course of massage treatments to bring your body and soul into balance at Kempinski Hotel Corvinus Budapest."
-    },
-    {
-      "id": "r-10",
-      "category": "practical",
-      "text": "The hotel offers a business package, with premium services and a super-central location.",
-      "source_url": "https://www.kempinski.com/en/hotel-corvinus-budapest/overview",
-      "source_tier": "official",
-      "excerpt": "Benefit from super-central location and premium services when reserving Kempinski Hotel Budapest's Business Package."
-    },
-    {
-      "id": "r-11",
-      "category": "experiences",
-      "text": "The hotel promotes romantic getaways, proposal trips, honeymoons and anniversary trips.",
-      "source_url": "https://www.kempinski.com/en/hotel-corvinus-budapest/overview",
-      "source_tier": "official",
-      "excerpt": "For a wonderful romantic getaway, proposal trip, honeymoon or anniversary trip, or even for a Valentine’s Day hideaway, our city remains an exceptional destination."
-    },
-    {
-      "id": "r-12",
-      "category": "experiences",
-      "text": "Condé Nast Traveler listed the hotel in its Readers' Choice Awards in 2017 and 2018.",
-      "source_url": "https://www.cntraveler.com/hotels/hungary/budapest/kempinski-hotel-corvinus--budapest",
-      "source_tier": "editorial",
-      "excerpt": "Readers' Choice Awards 2017, 2018",
-      "as_of": "2018",
-      "needs_date_check": true
-    },
-    {
-      "id": "r-14",
-      "category": "amenities",
-      "text": "Condé Nast Traveler lists a bar, free wifi, a gym, a pool and a spa among the hotel's amenities.",
-      "source_url": "https://www.cntraveler.com/hotels/hungary/budapest/kempinski-hotel-corvinus--budapest",
-      "source_tier": "editorial",
-      "excerpt": "Amenities\nBar\nFree Wifi\nGym\nPool\nservice 24 hrs\nSpa"
-    }
-  ],
-  "highlights": [
-    "r-2",
-    "r-5",
-    "r-12",
-    "r-10",
-    "r-1"
-  ],
-  "subjective": [],
-  "unresolved": [
-    {
-      "id": "r-13",
-      "text": "The hotel offers redesigned suites.",
-      "reason": "marked unresolved"
-    }
-  ],
-  "rejected": [],
-  "contradictions": []
+  "researched_at": "2026-10-11T04:22:45.002Z"
 }

@@ -1,10 +1,9 @@
 {
   "slug": "siam-kempinski-hotel-bangkok",
-  "status": "needs_review",
-  "partial": false,
+  "status": "awaiting_extraction",
+  "partial": true,
   "reasons": [
-    "https://www.kempinski.com/en/siam-hotel/overview: only 67% of the hotel name appears on the page; page does not mention Bangkok",
-    "official website could not be confirmed; flag for review"
+    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue"
   ],
   "identity": {
     "hotel": {
@@ -17,27 +16,118 @@
       "kind": "chain",
       "chain": "kempinski"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.kempinski.com/en/siam-hotel/overview: only 67% of the hotel name appears on the page; page does not mention Bangkok",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "confirmed by hand as this hotel's own page (only 67% of the hotel name appears on the page; page does not mention Bangkok)"
     ],
+    "reasons": [],
     "candidates": [
       "https://www.kempinski.com/en/siam-hotel/overview"
     ],
-    "checked_at": "2026-10-11T04:09:03.819Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-11T04:20:13.608Z",
+    "status": "confirmed",
+    "official_url": "https://www.kempinski.com/en/siam-hotel/overview",
+    "base_url": "https://www.kempinski.com/en/siam-hotel/overview/",
+    "host": "kempinski.com",
+    "checks": {
+      "name_coverage": 0.67,
+      "location_match": false
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.kempinski.com/en/siam-hotel/overview",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:20:18.705Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.kempinski.com/en/siam-hotel/overview/hotel-information/prepare-your-stay/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:20:28.311Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.kempinski.com/en/siam-hotel/overview/services-and-facilities/the-exquisite-suite-experiences2/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:20:32.709Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.kempinski.com/en/siam-hotel/overview/services-and-facilities/garden-and-pools/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:20:36.687Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.kempinski.com/en/siam-hotel/overview/services-and-facilities/lady-in-red/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:20:40.524Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.kempinski.com/en/siam-hotel/overview/services-and-facilities/pet-is-welcome/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:20:44.588Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.kempinski.com/en/siam-hotel/overview/services-and-facilities/executive-lounge/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:20:48.636Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.kempinski.com/en/siam-hotel/overview/services-and-facilities/concierge-services/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:20:52.558Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.kempinski.com/en/siam-hotel/overview/services-and-facilities/kempinski-for-kids/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:20:56.314Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.kempinski.com/en/siam-hotel/overview/services-and-facilities/limousine-services/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:21:00.626Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://www.kempinski.com/en/siam-hotel/overview/services-and-facilities/kempinski-kids-club/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:21:05.005Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p12",
+      "url": "https://www.kempinski.com/en/siam-hotel/overview/services-and-facilities/kempinski-health-club/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:21:08.445Z",
+      "source": "firecrawl"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 1,
+    "firecrawl_calls": 15,
     "firecrawl_searches": 0,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 12,
+    "chars": 15326,
+    "est_claude_tokens": 3832
   },
   "limits": {
     "maxPages": 12,
@@ -45,5 +135,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-11T04:09:07.259Z"
+  "researched_at": "2026-10-11T04:21:12.506Z"
 }

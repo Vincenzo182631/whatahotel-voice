@@ -1,10 +1,9 @@
 {
   "slug": "the-apurva-kempinski-bali",
-  "status": "needs_review",
-  "partial": false,
+  "status": "awaiting_extraction",
+  "partial": true,
   "reasons": [
-    "some pages were inaccessible; missing information is not proof an amenity does not exist",
-    "only 2 verified facts (need 5); Needs review"
+    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue"
   ],
   "identity": {
     "hotel": {
@@ -25,7 +24,7 @@
     "candidates": [
       "https://www.kempinski.com/en/the-apurva-kempinski-bali/overview"
     ],
-    "checked_at": "2026-10-11T04:10:00.327Z",
+    "checked_at": "2026-10-11T04:19:27.860Z",
     "status": "confirmed",
     "official_url": "https://www.kempinski.com/en/the-apurva-kempinski-bali/overview",
     "base_url": "https://www.kempinski.com/en/the-apurva-kempinski-bali/overview/",
@@ -40,31 +39,96 @@
       "id": "p1",
       "url": "https://www.kempinski.com/en/the-apurva-kempinski-bali/overview",
       "tier": "official",
-      "fetched_at": "2026-10-11T04:10:08.711Z",
-      "source": "cache"
+      "fetched_at": "2026-10-11T04:19:33.325Z",
+      "source": "firecrawl"
     },
     {
       "id": "p2",
-      "url": "https://www.cntraveler.com/hotels/bali/the-apurva-kempinski-bali",
-      "tier": "editorial",
-      "fetched_at": "2026-10-11T04:10:11.126Z",
-      "source": "direct"
-    }
-  ],
-  "inaccessible": [
+      "url": "https://www.kempinski.com/en/the-apurva-kempinski-bali/overview/destination/why-stay-with-us/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:19:54.561Z",
+      "source": "firecrawl"
+    },
     {
-      "url": "https://www.kempinski.com/en/the-apurva-kempinski-bali/overview/",
-      "reason": "no same-property sub-page links found on the home page"
+      "id": "p3",
+      "url": "https://www.kempinski.com/en/the-apurva-kempinski-bali/overview/hotel-information/prepare-your-stay/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:20:06.497Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.kempinski.com/en/the-apurva-kempinski-bali/overview/services-and-facilities/swimming-pool-and-kids-pool/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:20:08.468Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.kempinski.com/en/the-apurva-kempinski-bali/overview/services-and-facilities/lady-in-red/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:20:12.365Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.kempinski.com/en/the-apurva-kempinski-bali/overview/services-and-facilities/cliff-lounge/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:20:16.827Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.kempinski.com/en/the-apurva-kempinski-bali/overview/services-and-facilities/business-centre/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:20:20.361Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.kempinski.com/en/the-apurva-kempinski-bali/overview/services-and-facilities/jalak-family-club/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:20:24.292Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.kempinski.com/en/the-apurva-kempinski-bali/overview/services-and-facilities/electric-vehicle-experience/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:20:28.249Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.kempinski.com/en/the-apurva-kempinski-bali/overview/destination/experience/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:20:32.297Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://www.kempinski.com/en/the-apurva-kempinski-bali/overview/hotel-information/explore-the-apurva-k/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:20:36.491Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p12",
+      "url": "https://www.kempinski.com/en/the-apurva-kempinski-bali/overview/hotel-information/location/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:20:40.450Z",
+      "source": "firecrawl"
     }
   ],
+  "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 2,
-    "firecrawl_searches": 1,
-    "cache_hits": 2,
-    "direct_fetches": 1,
-    "pages": 2,
-    "chars": 4370,
-    "est_claude_tokens": 1093
+    "firecrawl_calls": 15,
+    "firecrawl_searches": 0,
+    "cache_hits": 0,
+    "direct_fetches": 0,
+    "pages": 12,
+    "chars": 28842,
+    "est_claude_tokens": 7211
   },
   "limits": {
     "maxPages": 12,
@@ -72,53 +136,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-11T04:10:11.126Z",
-  "hotel": {
-    "name": "The Apurva Kempinski Bali",
-    "city": "Bali",
-    "country": "ID",
-    "chain": "kempinski",
-    "confirmed_affiliation": {
-      "kind": "chain",
-      "chain": "kempinski"
-    }
-  },
-  "official_url": "https://www.kempinski.com/en/the-apurva-kempinski-bali/overview",
-  "verified_facts": [
-    {
-      "id": "r-1",
-      "category": "practical",
-      "text": "The hotel is suited for business and leisure travellers.",
-      "source_url": "https://www.kempinski.com/en/the-apurva-kempinski-bali/overview",
-      "source_tier": "official",
-      "excerpt": "Suited for business and leisure travellers, The Apurva Kempinski Bali"
-    },
-    {
-      "id": "r-3",
-      "category": "practical",
-      "text": "The hotel offers a Family Escape Offer.",
-      "source_url": "https://www.kempinski.com/en/the-apurva-kempinski-bali/overview",
-      "source_tier": "official",
-      "excerpt": "Family Escape Offer"
-    }
-  ],
-  "highlights": [
-    "r-1"
-  ],
-  "subjective": [
-    {
-      "id": "r-2",
-      "text": "The hotel describes itself as the epitome of Bali's beachfront luxury.",
-      "reason": "the hotel's own opinion or praise; keep out of facts"
-    }
-  ],
-  "unresolved": [
-    {
-      "id": "r-4",
-      "text": "Condé Nast Traveler's page for the hotel carries a Readers' Choice Awards 2026 label.",
-      "reason": "marked unresolved"
-    }
-  ],
-  "rejected": [],
-  "contradictions": []
+  "researched_at": "2026-10-11T04:20:42.711Z"
 }

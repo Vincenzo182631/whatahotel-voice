@@ -1,10 +1,9 @@
 {
   "slug": "hotel-vier-jahreszeiten-kempinski-munich",
-  "status": "needs_review",
-  "partial": false,
+  "status": "awaiting_extraction",
+  "partial": true,
   "reasons": [
-    "some pages were inaccessible; missing information is not proof an amenity does not exist",
-    "only 2 verified facts (need 5); Needs review"
+    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue"
   ],
   "identity": {
     "hotel": {
@@ -25,7 +24,7 @@
     "candidates": [
       "https://www.kempinski.com/en/hotel-vier-jahreszeiten/overview"
     ],
-    "checked_at": "2026-10-11T04:08:37.742Z",
+    "checked_at": "2026-10-11T04:17:07.197Z",
     "status": "confirmed",
     "official_url": "https://www.kempinski.com/en/hotel-vier-jahreszeiten/overview",
     "base_url": "https://www.kempinski.com/en/hotel-vier-jahreszeiten/overview/",
@@ -40,31 +39,96 @@
       "id": "p1",
       "url": "https://www.kempinski.com/en/hotel-vier-jahreszeiten/overview",
       "tier": "official",
-      "fetched_at": "2026-10-11T04:08:41.427Z",
-      "source": "cache"
+      "fetched_at": "2026-10-11T04:17:12.405Z",
+      "source": "firecrawl"
     },
     {
       "id": "p2",
-      "url": "https://www.cntraveler.com/hotels/germany/munich/hotel-vier-jahreszeiten-kempinski-munich",
-      "tier": "editorial",
-      "fetched_at": "2026-10-11T04:08:47.260Z",
-      "source": "cache"
-    }
-  ],
-  "inaccessible": [
+      "url": "https://www.kempinski.com/en/hotel-vier-jahreszeiten/overview/hotel-information/value-of-stay/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:17:23.807Z",
+      "source": "firecrawl"
+    },
     {
-      "url": "https://www.kempinski.com/en/hotel-vier-jahreszeiten/overview/",
-      "reason": "no same-property sub-page links found on the home page"
+      "id": "p3",
+      "url": "https://www.kempinski.com/en/hotel-vier-jahreszeiten/overview/hotel-information/prepare-your-stay/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:17:26.582Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.kempinski.com/en/hotel-vier-jahreszeiten/overview/services-and-facilities/guest-service/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:17:31.229Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.kempinski.com/en/hotel-vier-jahreszeiten/overview/services-and-facilities/krigler-boutique/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:17:34.525Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.kempinski.com/en/hotel-vier-jahreszeiten/overview/services-and-facilities/purity-chocolate/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:17:41.575Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.kempinski.com/en/hotel-vier-jahreszeiten/overview/services-and-facilities/exclusive-benefits-with-sixt/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:17:43.760Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.kempinski.com/en/hotel-vier-jahreszeiten/overview/hotel-information/location/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:17:48.805Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.kempinski.com/en/hotel-vier-jahreszeiten/overview/hotel-information/find-here-the-most-frequently-asked-questions-about-hotel-vier-jahreszeiten-kempinski-munich/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:17:52.009Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.kempinski.com/en/hotel-vier-jahreszeiten/overview/destination/oktoberfest/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:17:55.865Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://www.kempinski.com/en/hotel-vier-jahreszeiten/overview/destination/sightseeing/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:18:00.328Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p12",
+      "url": "https://www.kempinski.com/en/hotel-vier-jahreszeiten/overview/destination/operafestival/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:18:10.955Z",
+      "source": "firecrawl"
     }
   ],
+  "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 2,
-    "firecrawl_searches": 1,
-    "cache_hits": 3,
+    "firecrawl_calls": 15,
+    "firecrawl_searches": 0,
+    "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 2,
-    "chars": 4364,
-    "est_claude_tokens": 1091
+    "pages": 12,
+    "chars": 52870,
+    "est_claude_tokens": 13218
   },
   "limits": {
     "maxPages": 12,
@@ -72,48 +136,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-11T04:08:47.260Z",
-  "hotel": {
-    "name": "Hotel Vier Jahreszeiten Kempinski Munich",
-    "city": "Munich",
-    "country": "DE",
-    "chain": "kempinski",
-    "confirmed_affiliation": {
-      "kind": "chain",
-      "chain": "kempinski"
-    }
-  },
-  "official_url": "https://www.kempinski.com/en/hotel-vier-jahreszeiten/overview",
-  "verified_facts": [
-    {
-      "id": "r-1",
-      "category": "location",
-      "text": "The hotel is at Maximilianstrasse 17 in Munich.",
-      "source_url": "https://www.cntraveler.com/hotels/germany/munich/hotel-vier-jahreszeiten-kempinski-munich",
-      "source_tier": "editorial",
-      "excerpt": "Maximilianstrasse 17, Munich, 80539"
-    },
-    {
-      "id": "r-2",
-      "category": "amenities",
-      "text": "The hotel lists a bar, free wifi, a gym, a pool and a spa.",
-      "source_url": "https://www.cntraveler.com/hotels/germany/munich/hotel-vier-jahreszeiten-kempinski-munich",
-      "source_tier": "editorial",
-      "excerpt": "Bar\nFree Wifi\nGym\nPool\nSpa"
-    }
-  ],
-  "highlights": [
-    "r-1",
-    "r-2"
-  ],
-  "subjective": [],
-  "unresolved": [
-    {
-      "id": "r-3",
-      "text": "The page names a Readers' Choice Awards 2021 distinction, but the page is headed Fairmont and mentions Inner Alster Lake (not Munich).",
-      "reason": "marked unresolved"
-    }
-  ],
-  "rejected": [],
-  "contradictions": []
+  "researched_at": "2026-10-11T04:18:14.800Z"
 }

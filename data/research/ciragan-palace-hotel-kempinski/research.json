@@ -1,15 +1,15 @@
 {
   "slug": "ciragan-palace-hotel-kempinski",
-  "status": "ready",
-  "partial": false,
+  "status": "awaiting_extraction",
+  "partial": true,
   "reasons": [
-    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue"
   ],
   "identity": {
     "hotel": {
       "name": "Ciragan Palace Hotel Kempinski",
       "city": "Istanbul",
-      "country": "TR",
+      "country": "Turkey",
       "chain": "kempinski"
     },
     "affiliation": {
@@ -18,13 +18,13 @@
     },
     "evidence": [
       "100% of the hotel name appears on the page",
-      "location matches (Istanbul, TR)"
+      "location matches (Istanbul, Turkey)"
     ],
     "reasons": [],
     "candidates": [
       "https://www.kempinski.com/en/ciragan-palace/overview"
     ],
-    "checked_at": "2026-10-11T04:08:14.687Z",
+    "checked_at": "2026-10-11T04:15:02.683Z",
     "status": "confirmed",
     "official_url": "https://www.kempinski.com/en/ciragan-palace/overview",
     "base_url": "https://www.kempinski.com/en/ciragan-palace/overview/",
@@ -39,31 +39,96 @@
       "id": "p1",
       "url": "https://www.kempinski.com/en/ciragan-palace/overview",
       "tier": "official",
-      "fetched_at": "2026-10-11T04:08:17.772Z",
-      "source": "cache"
+      "fetched_at": "2026-10-11T04:15:07.839Z",
+      "source": "firecrawl"
     },
     {
       "id": "p2",
-      "url": "https://www.cntraveler.com/hotels/istanbul/istanbulciragan-palace-kempinski-istanbul",
-      "tier": "editorial",
-      "fetched_at": "2026-10-11T04:08:24.455Z",
-      "source": "cache"
-    }
-  ],
-  "inaccessible": [
+      "url": "https://www.kempinski.com/en/ciragan-palace/overview/hotel-information/prepare-your-stay/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:15:19.325Z",
+      "source": "firecrawl"
+    },
     {
-      "url": "https://www.kempinski.com/en/ciragan-palace/overview/",
-      "reason": "no same-property sub-page links found on the home page"
+      "id": "p3",
+      "url": "https://www.kempinski.com/en/ciragan-palace/overview/hotel-information/ciragan-palace-suites/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:15:22.426Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.kempinski.com/en/ciragan-palace/overview/services-and-facilities/soap-service-for-palace-suites/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:15:27.174Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.kempinski.com/en/ciragan-palace/overview/services-and-facilities/lady-in-red/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:15:30.076Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.kempinski.com/en/ciragan-palace/overview/services-and-facilities/buggy-service/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:15:37.074Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.kempinski.com/en/ciragan-palace/overview/services-and-facilities/transfer-services/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:15:40.338Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.kempinski.com/en/ciragan-palace/overview/services-and-facilities/concierge-services/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:15:43.137Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.kempinski.com/en/ciragan-palace/overview/services-and-facilities/special-decoration/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:15:48.056Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.kempinski.com/en/ciragan-palace/overview/services-and-facilities/the-new-hotel-lobby/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:15:51.212Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://www.kempinski.com/en/ciragan-palace/overview/services-and-facilities/a-journey-into-history/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:15:58.575Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p12",
+      "url": "https://www.kempinski.com/en/ciragan-palace/overview/services-and-facilities/delicious-palace-amenities/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T04:16:02.507Z",
+      "source": "firecrawl"
     }
   ],
+  "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 2,
-    "firecrawl_searches": 1,
-    "cache_hits": 3,
+    "firecrawl_calls": 15,
+    "firecrawl_searches": 0,
+    "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 2,
-    "chars": 13321,
-    "est_claude_tokens": 3330
+    "pages": 12,
+    "chars": 13363,
+    "est_claude_tokens": 3341
   },
   "limits": {
     "maxPages": 12,
@@ -71,160 +136,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-11T04:08:24.455Z",
-  "hotel": {
-    "name": "Ciragan Palace Hotel Kempinski",
-    "city": "Istanbul",
-    "country": "TR",
-    "chain": "kempinski",
-    "confirmed_affiliation": {
-      "kind": "chain",
-      "chain": "kempinski"
-    }
-  },
-  "official_url": "https://www.kempinski.com/en/ciragan-palace/overview",
-  "verified_facts": [
-    {
-      "id": "r-2",
-      "category": "design_history",
-      "text": "Before becoming a hotel, the palace was a royal court, parliamentary meeting space and beauty pageant venue.",
-      "source_url": "https://www.cntraveler.com/hotels/istanbul/istanbulciragan-palace-kempinski-istanbul",
-      "source_tier": "editorial",
-      "excerpt": "before becoming a hotel, it was a royal court, parliamentary meeting space, and beauty pageant venue"
-    },
-    {
-      "id": "r-3",
-      "category": "rooms",
-      "text": "Rooms have four-poster beds, and many have tulip-patterned headboards.",
-      "source_url": "https://www.cntraveler.com/hotels/istanbul/istanbulciragan-palace-kempinski-istanbul",
-      "source_tier": "editorial",
-      "excerpt": "a four-poster bed (many of them have tulip-patterned headboards"
-    },
-    {
-      "id": "r-4",
-      "category": "rooms",
-      "text": "Bathroom products are specially made by Atelier Rebul.",
-      "source_url": "https://www.cntraveler.com/hotels/istanbul/istanbulciragan-palace-kempinski-istanbul",
-      "source_tier": "editorial",
-      "excerpt": "filled with specially-made products from Atelier Rebul"
-    },
-    {
-      "id": "r-5",
-      "category": "rooms",
-      "text": "The original palace houses several suites furnished with antiques.",
-      "source_url": "https://www.cntraveler.com/hotels/istanbul/istanbulciragan-palace-kempinski-istanbul",
-      "source_tier": "editorial",
-      "excerpt": "the original palace also houses several suites filled with antique furniture"
-    },
-    {
-      "id": "r-6",
-      "category": "dining",
-      "text": "Akdeniz and Tuğra Restaurant both serve Turkish dishes in a fine dining setting.",
-      "source_url": "https://www.cntraveler.com/hotels/istanbul/istanbulciragan-palace-kempinski-istanbul",
-      "source_tier": "editorial",
-      "excerpt": "Akdeniz and Tuğra Restaurant—both of which serve Turkish dishes within a fine dining setting"
-    },
-    {
-      "id": "r-7",
-      "category": "dining",
-      "text": "Le Fumoir is a cigar lounge at the hotel.",
-      "source_url": "https://www.cntraveler.com/hotels/istanbul/istanbulciragan-palace-kempinski-istanbul",
-      "source_tier": "editorial",
-      "excerpt": "grab a drink at the cigar lounge Le Fumoir"
-    },
-    {
-      "id": "r-8",
-      "category": "dining",
-      "text": "Breakfast is a Turkish buffet spread with eggs made to order.",
-      "source_url": "https://www.cntraveler.com/hotels/istanbul/istanbulciragan-palace-kempinski-istanbul",
-      "source_tier": "editorial",
-      "excerpt": "Breakfast itself is dominated by a Turkish spread served buffet style"
-    },
-    {
-      "id": "r-9",
-      "category": "amenities",
-      "text": "The spa has its own hammam of polished marble.",
-      "source_url": "https://www.cntraveler.com/hotels/istanbul/istanbulciragan-palace-kempinski-istanbul",
-      "source_tier": "editorial",
-      "excerpt": "The Çırağan has its own: a haven of polished marble"
-    },
-    {
-      "id": "r-10",
-      "category": "amenities",
-      "text": "The spa has indoor and outdoor pools.",
-      "source_url": "https://www.cntraveler.com/hotels/istanbul/istanbulciragan-palace-kempinski-istanbul",
-      "source_tier": "editorial",
-      "excerpt": "plus indoor and outdoor pools"
-    },
-    {
-      "id": "r-11",
-      "category": "experiences",
-      "text": "The original palace hammam can be seen on a private tour arranged through the front desk.",
-      "source_url": "https://www.cntraveler.com/hotels/istanbul/istanbulciragan-palace-kempinski-istanbul",
-      "source_tier": "editorial",
-      "excerpt": "the original palace hammam, hidden behind a large wooden door. Ask the front desk to arrange a private tour."
-    },
-    {
-      "id": "r-12",
-      "category": "practical",
-      "text": "Guests can arrive by private boat.",
-      "source_url": "https://www.cntraveler.com/hotels/istanbul/istanbulciragan-palace-kempinski-istanbul",
-      "source_tier": "editorial",
-      "excerpt": "if arrival by private boat is more your thing, the hotel can accommodate that"
-    },
-    {
-      "id": "r-13",
-      "category": "practical",
-      "text": "Reaching attractions such as the Grand Bazaar or Hagia Sophia requires a taxi or public transport.",
-      "source_url": "https://www.cntraveler.com/hotels/istanbul/istanbulciragan-palace-kempinski-istanbul",
-      "source_tier": "editorial",
-      "excerpt": "need to get a taxi or public transport to get to must-see attractions like the Grand Bazaar or Hagia Sophia"
-    },
-    {
-      "id": "r-14",
-      "category": "practical",
-      "text": "The hotel is a member of Leading Hotels of the World.",
-      "source_url": "https://www.kempinski.com/en/ciragan-palace/overview",
-      "source_tier": "official",
-      "excerpt": "A member of Leading Hotels of the World"
-    },
-    {
-      "id": "r-15",
-      "category": "practical",
-      "text": "Condé Nast Traveler lists the hotel on its Gold List 2024.",
-      "source_url": "https://www.cntraveler.com/hotels/istanbul/istanbulciragan-palace-kempinski-istanbul",
-      "source_tier": "editorial",
-      "excerpt": "Gold List 2024",
-      "as_of": "2024-12-31"
-    }
-  ],
-  "highlights": [
-    "r-11",
-    "r-5",
-    "r-9",
-    "r-6",
-    "r-3",
-    "r-7"
-  ],
-  "subjective": [
-    {
-      "id": "r-1",
-      "text": "The hotel occupies the original Ottoman palace on the Bosphorus, which CNT describes as the only Ottoman palace overlooking the Bosphorus.",
-      "reason": "promotional wording; rewrite as a plain fact or leave out"
-    }
-  ],
-  "unresolved": [
-    {
-      "id": "r-16",
-      "text": "The rooms and restaurants were renovated under architect Mustafa Toner and interior designer Serdar Gülgün; the page gives no date.",
-      "reason": "marked unresolved"
-    },
-    {
-      "id": "r-17",
-      "text": "Accessible rooms are closed due to ongoing renovations; the page gives no date.",
-      "reason": "marked unresolved"
-    }
-  ],
-  "rejected": [],
-  "contradictions": []
+  "researched_at": "2026-10-11T04:16:04.627Z"
 }
