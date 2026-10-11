@@ -72,3 +72,14 @@ WhataHotel ID 7138. A yacht rather than a hotel; held with the other non-hotel e
 | Belmond Grand Hotel Europe | 1195 | Not on belmond.com any more. |
 | Belmond Napasai | 2513 | Not on belmond.com any more. |
 | El Encanto | 2667 | Not on belmond.com any more. |
+
+## Kempinski (collection/4)
+
+14 of the 18 Kempinski hotels are live; the 4 below are held.
+
+| Hotel | Reason |
+|---|---|
+| Kempinski Adriatic Istria | Official page blank; nothing to ground facts on |
+| Kempinski Hotel Bahía Estepona | Too few verifiable facts from official pages |
+| Commune by the Great Wall | Too few verifiable facts from official pages |
+| Kempinski Hotel Amman | Only a third-party travel article found; no official page |
