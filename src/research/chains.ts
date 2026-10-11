@@ -69,6 +69,7 @@ export const CHAINS: Chain[] = [
   { id: "one-and-only", name: "One&Only", match: /one&only/i, domains: ["oneandonlyresorts.com"], base: firstTwo },
   { id: "auberge", name: "Auberge Collection", match: /auberge/i, domains: ["aubergeresorts.com", "auberge.com"], base: firstOne },
   { id: "bulgari", name: "Bvlgari", match: /bvlgari|bulgari/i, domains: ["bulgarihotels.com"], base: firstTwo },
+  { id: "kempinski", name: "Kempinski", match: /kempinski/i, domains: ["kempinski.com"], base: firstTwo },
   { id: "six-senses", name: "Six Senses", match: /six senses/i, domains: ["sixsenses.com"], base: firstTwo },
 ];
 
