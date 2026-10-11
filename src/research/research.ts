@@ -64,6 +64,31 @@ export async function directHtmlLinks(url: string): Promise<string> {
   }
 }
 
+/** Fallback for sites that render their navigation client-side: property pages listed in the site's sitemap(s). */
+export async function sitemapLinks(baseUrl: string): Promise<string> {
+  const base = new URL(baseUrl);
+  const headers = { "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36" };
+  const locs = async (u: string): Promise<string[]> => {
+    try {
+      const res = await fetch(u, { headers, signal: AbortSignal.timeout(20_000) });
+      if (!res.ok) return [];
+      return [...(await res.text()).matchAll(/<loc>\s*([^<\s]+)\s*<\/loc>/gi)].map((m) => m[1]!);
+    } catch {
+      return [];
+    }
+  };
+  const lang = base.pathname.split("/").filter(Boolean)[0] ?? "";
+  const index = await locs(`${base.origin}/sitemap.xml`);
+  const children = index.filter((u) => u.endsWith(".xml") && (!lang || new RegExp(`[-_/]${lang}[-_.]`, "i").test(u))).slice(0, 8);
+  const urls = new Set<string>();
+  for (const c of children.length ? children : index.filter((u) => u.endsWith(".xml")).slice(0, 4)) for (const u of await locs(c)) urls.add(u);
+  const basePath = base.pathname.replace(/\/+$/, "");
+  return [...urls]
+    .filter((u) => { try { const x = new URL(u); return x.hostname === base.hostname && (x.pathname === basePath || x.pathname.startsWith(`${basePath}/`)); } catch { return false; } })
+    .map((u) => `[${new URL(u).pathname.split("/").filter(Boolean).slice(-2).join(" ")}](${u})`)
+    .join("\n");
+}
+
 export interface RunOptions {
   fc: FirecrawlClient;
   budget: Budget;
@@ -184,6 +209,7 @@ export async function runResearch(slug: string, opts: RunOptions): Promise<Resea
       const raw = homeText ? await load(identity.official_url).catch(() => "") : "";
       let links = pickPages(raw, identity.base_url, budget.limits.maxPages * 2);
       if (!links.length) links = pickPages(await directHtmlLinks(identity.official_url), identity.base_url, budget.limits.maxPages * 2);
+      if (!links.length) links = pickPages(await sitemapLinks(identity.base_url), identity.base_url, budget.limits.maxPages * 2);
       for (const u of links) await addPage(u, "official");
       if (!links.length) inaccessible.push({ url: identity.base_url, reason: "no same-property sub-page links found on the home page" });
       if (opts.withEditorial) {

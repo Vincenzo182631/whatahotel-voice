@@ -1,9 +1,10 @@
 {
   "slug": "the-apurva-kempinski-bali",
-  "status": "awaiting_extraction",
+  "status": "needs_review",
   "partial": false,
   "reasons": [
-    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+    "some pages were inaccessible; missing information is not proof an amenity does not exist",
+    "only 2 verified facts (need 5); Needs review"
   ],
   "identity": {
     "hotel": {
@@ -71,5 +72,53 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-11T04:10:11.126Z"
+  "researched_at": "2026-10-11T04:10:11.126Z",
+  "hotel": {
+    "name": "The Apurva Kempinski Bali",
+    "city": "Bali",
+    "country": "ID",
+    "chain": "kempinski",
+    "confirmed_affiliation": {
+      "kind": "chain",
+      "chain": "kempinski"
+    }
+  },
+  "official_url": "https://www.kempinski.com/en/the-apurva-kempinski-bali/overview",
+  "verified_facts": [
+    {
+      "id": "r-1",
+      "category": "practical",
+      "text": "The hotel is suited for business and leisure travellers.",
+      "source_url": "https://www.kempinski.com/en/the-apurva-kempinski-bali/overview",
+      "source_tier": "official",
+      "excerpt": "Suited for business and leisure travellers, The Apurva Kempinski Bali"
+    },
+    {
+      "id": "r-3",
+      "category": "practical",
+      "text": "The hotel offers a Family Escape Offer.",
+      "source_url": "https://www.kempinski.com/en/the-apurva-kempinski-bali/overview",
+      "source_tier": "official",
+      "excerpt": "Family Escape Offer"
+    }
+  ],
+  "highlights": [
+    "r-1"
+  ],
+  "subjective": [
+    {
+      "id": "r-2",
+      "text": "The hotel describes itself as the epitome of Bali's beachfront luxury.",
+      "reason": "the hotel's own opinion or praise; keep out of facts"
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "r-4",
+      "text": "Condé Nast Traveler's page for the hotel carries a Readers' Choice Awards 2026 label.",
+      "reason": "marked unresolved"
+    }
+  ],
+  "rejected": [],
+  "contradictions": []
 }

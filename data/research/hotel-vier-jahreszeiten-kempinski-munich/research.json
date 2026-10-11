@@ -1,9 +1,10 @@
 {
   "slug": "hotel-vier-jahreszeiten-kempinski-munich",
-  "status": "awaiting_extraction",
+  "status": "needs_review",
   "partial": false,
   "reasons": [
-    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+    "some pages were inaccessible; missing information is not proof an amenity does not exist",
+    "only 2 verified facts (need 5); Needs review"
   ],
   "identity": {
     "hotel": {
@@ -71,5 +72,48 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-11T04:08:47.260Z"
+  "researched_at": "2026-10-11T04:08:47.260Z",
+  "hotel": {
+    "name": "Hotel Vier Jahreszeiten Kempinski Munich",
+    "city": "Munich",
+    "country": "DE",
+    "chain": "kempinski",
+    "confirmed_affiliation": {
+      "kind": "chain",
+      "chain": "kempinski"
+    }
+  },
+  "official_url": "https://www.kempinski.com/en/hotel-vier-jahreszeiten/overview",
+  "verified_facts": [
+    {
+      "id": "r-1",
+      "category": "location",
+      "text": "The hotel is at Maximilianstrasse 17 in Munich.",
+      "source_url": "https://www.cntraveler.com/hotels/germany/munich/hotel-vier-jahreszeiten-kempinski-munich",
+      "source_tier": "editorial",
+      "excerpt": "Maximilianstrasse 17, Munich, 80539"
+    },
+    {
+      "id": "r-2",
+      "category": "amenities",
+      "text": "The hotel lists a bar, free wifi, a gym, a pool and a spa.",
+      "source_url": "https://www.cntraveler.com/hotels/germany/munich/hotel-vier-jahreszeiten-kempinski-munich",
+      "source_tier": "editorial",
+      "excerpt": "Bar\nFree Wifi\nGym\nPool\nSpa"
+    }
+  ],
+  "highlights": [
+    "r-1",
+    "r-2"
+  ],
+  "subjective": [],
+  "unresolved": [
+    {
+      "id": "r-3",
+      "text": "The page names a Readers' Choice Awards 2021 distinction, but the page is headed Fairmont and mentions Inner Alster Lake (not Munich).",
+      "reason": "marked unresolved"
+    }
+  ],
+  "rejected": [],
+  "contradictions": []
 }
