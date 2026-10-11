@@ -1,0 +1,89 @@
+{
+  "slug": "bvlgari-hotel-beijing",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Bvlgari Hotel Beijing",
+      "city": "Beijing",
+      "country": "CN",
+      "chain": "bulgari"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "bulgari"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Beijing, CN)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.bulgarihotels.com/en_US/beijing/"
+    ],
+    "checked_at": "2026-10-11T00:12:02.043Z",
+    "status": "confirmed",
+    "official_url": "https://www.bulgarihotels.com/en_US/beijing/",
+    "base_url": "https://www.bulgarihotels.com/en_US/beijing/",
+    "host": "bulgarihotels.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.bulgarihotels.com/en_US/beijing/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T00:12:07.498Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.bulgarihotels.com/en_US/beijing/dining/il-bar/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T00:12:10.996Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.bulgarihotels.com/en_US/beijing/dining/il-ristorante-niko-romito/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T00:12:17.764Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.bulgarihotels.com/en_US/beijing/spa-and-fitness/the-bulgari-spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T00:12:20.841Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 5,
+    "firecrawl_searches": 1,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 4,
+    "chars": 19448,
+    "est_claude_tokens": 4862
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-11T00:12:26.526Z"
+}

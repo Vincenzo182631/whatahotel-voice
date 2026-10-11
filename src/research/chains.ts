@@ -67,6 +67,7 @@ export const CHAINS: Chain[] = [
   { id: "marriott", name: "Marriott", match: /marriott|st\.? regis|w hotel|jw marriott|edition/i, domains: ["marriott.com"], base: firstTwo },
   { id: "one-and-only", name: "One&Only", match: /one&only/i, domains: ["oneandonlyresorts.com"], base: firstTwo },
   { id: "auberge", name: "Auberge Collection", match: /auberge/i, domains: ["aubergeresorts.com", "auberge.com"], base: firstOne },
+  { id: "bulgari", name: "Bvlgari", match: /bvlgari|bulgari/i, domains: ["bulgarihotels.com"], base: firstTwo },
   { id: "six-senses", name: "Six Senses", match: /six senses/i, domains: ["sixsenses.com"], base: firstTwo },
 ];
 
@@ -89,4 +90,4 @@ const THIRD_PARTY = [
   "mrandmrssmith.", "smallluxuryhotels.", "slh.com", "leadinghotels.", "relaischateaux.", "preferredhotels.", "virtuoso.",
   "tablethotels.", "hotelsone.", "americanexpress.com", "hotelplanner.", "reservations.com", "google.com", "bing.com", "linkedin.com", "pinterest.", "tiktok.com",
 ];
-export const isThirdParty = (host: string) => THIRD_PARTY.some((t) => host.includes(t));
+export const isThirdParty = (host: string) => !chainOfHost(host) && THIRD_PARTY.some((t) => host.includes(t));

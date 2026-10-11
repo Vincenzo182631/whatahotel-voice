@@ -1,0 +1,89 @@
+{
+  "slug": "bvlgari-hotel-paris",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Bvlgari Hotel Paris",
+      "city": "Paris",
+      "country": "FR",
+      "chain": "bulgari"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "bulgari"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Paris, FR)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.bulgarihotels.com/en_US/paris"
+    ],
+    "checked_at": "2026-10-11T00:09:38.771Z",
+    "status": "confirmed",
+    "official_url": "https://www.bulgarihotels.com/en_US/paris",
+    "base_url": "https://www.bulgarihotels.com/en_US/paris/",
+    "host": "bulgarihotels.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.bulgarihotels.com/en_US/paris",
+      "tier": "official",
+      "fetched_at": "2026-10-11T00:09:50.105Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.bulgarihotels.com/en_US/paris/dining/the-bvlgari-bar/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T00:09:52.406Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.bulgarihotels.com/en_US/paris/dining/il-ristorante-niko-romito/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T00:09:59.119Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.bulgarihotels.com/en_US/paris/spa-and-fitness/the-bvlgari-spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-11T00:10:01.686Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 4,
+    "chars": 17887,
+    "est_claude_tokens": 4472
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-11T00:10:08.527Z"
+}
