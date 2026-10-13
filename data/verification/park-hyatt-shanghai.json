@@ -1,0 +1,414 @@
+{
+  "hotel_slug": "park-hyatt-shanghai",
+  "hotel_name": "Park Hyatt Shanghai",
+  "checked_at": "2026-10-13T08:31:47.995Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/shaph-park-hyatt-shanghai",
+      "tier": "official",
+      "chars": 10090
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/shaph-park-hyatt-shanghai/rooms/",
+      "tier": "official",
+      "chars": 15660
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/shaph-park-hyatt-shanghai/dining/",
+      "tier": "official",
+      "chars": 7013
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/shaph-park-hyatt-shanghai/parking-and-transportation/",
+      "tier": "official",
+      "chars": 3139
+    },
+    {
+      "id": "d5",
+      "url": "https://www.cntraveler.com/hotels/china/shanghai/park-hyatt-shanghai",
+      "tier": "editorial",
+      "chars": 4056
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/shaph-park-hyatt-shanghai/hotel-info/",
+      "tier": "official",
+      "chars": 963
+    },
+    {
+      "id": "d7",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/shaph-park-hyatt-shanghai/reviews/",
+      "tier": "official",
+      "chars": 5717
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel occupies the 79th to the 93rd floors of the Shanghai World Financial Centre.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Spanning the 79th to the 93rd floors of the Shanghai World Financial Centre (SWFC)",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/shaph-park-hyatt-shanghai",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Asia's second most vertiginous hotel is on floors 79 through 93 of the Shanghai World Financial Center",
+          "note": "same floors",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/china/shanghai/park-hyatt-shanghai",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is in the heart of the Lujiazui business district.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Park Hyatt Shanghai's prime location in the heart of the Lujiazui business district",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/shaph-park-hyatt-shanghai",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel is a 5-minute walk from Exit 6 of Lujiazui Metro Station.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Park Hyatt Shanghai is located a 5-minute walk from Exit 6 of Lujiazui Station.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/shaph-park-hyatt-shanghai/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Every room has views of either the Huangpu River or the Shanghai cityscape.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Every room features views of either the Huangpu River or the Shanghai cityscape.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/shaph-park-hyatt-shanghai",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Rooms have a separate powder room with a Washlet and a bathroom with a walk-in rain shower and deep soaking tub.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "a separate powder room for privacy with a Washlet, and a deluxe bathroom with a walk-in rain shower and deep soaking tub.",
+          "note": "stated in room descriptions",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/shaph-park-hyatt-shanghai/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "An infinity pool and heated hot tub are on level 85.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Water’s Edge signature infinity pool and heated hot tub on level 85",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/shaph-park-hyatt-shanghai",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The spa offers treatments focused on health, wellbeing and harmonious balance.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Water’s Edge Spa provides a selection of treatments that focus on the concept of health, wellbeing and harmonious balance.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/shaph-park-hyatt-shanghai",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Dining Room on level 87 is a contemporary Chinese restaurant serving modern Shanghainese, Zhejiang and Jiangsu cuisines.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Located on Level 87, Dining Room is a contemporary Chinese restaurant that celebrates modern Shanghainese, Zhejiang and Jiangsu cuisines",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/shaph-park-hyatt-shanghai/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "100 Century Avenue Steakhouse serves a grill menu of prime beef, market-fresh seafood and premium poultry.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "presenting a grill menu that features a wide selection of prime beef, market-fresh seafood, and premium poultry.",
+          "note": "stated in 100 Century Avenue Steakhouse entry",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/shaph-park-hyatt-shanghai/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "100 Century Avenue Cantonese serves traditional dim sum on the east side of level 91.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "100 Century Avenue Cantonese brings you traditional dim sum, steamed and authentic hot dishes on the east side of Level 91.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/shaph-park-hyatt-shanghai/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "100 Century Avenue Bar is on level 91.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Located on level 91, 100 Century Avenue Bar offers guests a comfortable, intimate setting for casual drinks.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/shaph-park-hyatt-shanghai/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The Living Room on level 87 is a residential-style venue that encloses the reception area.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Living Room is a residential-style venue located on level 87, enclosing the reception area.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/shaph-park-hyatt-shanghai/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Dining Room was named a Selected Restaurant in the 2026 MICHELIN Guide Shanghai and received One Diamond in the 2026 Black Pearl Restaurant Guide.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Dining Room has been awarded the 2026 Black Pearl Restaurant Guide – One Diamond and the 2026 MICHELIN Guide Shanghai \"Selected Restaurant.\".",
+          "note": "both awards stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/shaph-park-hyatt-shanghai/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The art includes hundreds of ceramics by Liu Jianhua hanging from the ceiling of 100 Century Avenue.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "hundreds of kitsch ceramics by Liu Jianhua hanging from the ceiling of 100 Century Avenue",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/china/shanghai/park-hyatt-shanghai",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The hotel was designed by New York-based designer Tony Chi as a modern-Chinese residence.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Designed by award-winning New York-based designer Tony Chi, Park Hyatt Shanghai was conceived as a sophisticated modern-Chinese residence.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/shaph-park-hyatt-shanghai",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "In-house guests can join a complimentary Morning Sound Bowl Floating Experience at Water's Edge on level 85 on Thursdays and Sundays, with reservations required.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "a complimentary Morning Sound Bowl Floating Experience from 6:30–7:30 a.m. every Thursday and Sunday at Water's Edge on level 85, exclusively for in-house guests. Reservations are required.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/shaph-park-hyatt-shanghai",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Park Salon on level 86 is open exclusively to in-house guests and offers free-flow champagne and premium wines.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Perched on Level 86, Park Salon is a perfect space for business engagements and leisurely staycations. Open exclusively for in-house guests",
+          "note": "level 86, in-house guests only",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/shaph-park-hyatt-shanghai",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "intimate space features all-day champagne and premium wines free-flow",
+          "note": "free-flow champagne and premium wines",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/shaph-park-hyatt-shanghai",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Hotel parking spaces are limited and reserved for in-house guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Park Hyatt Shanghai offers limited parking spaces exclusively for in-house guests, on the hotel’s ground floor driveway.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/shaph-park-hyatt-shanghai/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The hotel recommends local mapping apps such as Gaode Map or Baidu Map, as international mapping apps may not be accurate in Chinese Mainland.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "we recommend using local mapping applications such as Gaode Map or Baidu Map. International mapping apps may not be accurate in Chinese Mainland.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/shaph-park-hyatt-shanghai/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the modern skyscraper setting may lack traditional Shanghai charm.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

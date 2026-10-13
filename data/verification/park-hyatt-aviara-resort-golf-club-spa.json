@@ -1,0 +1,363 @@
+{
+  "hotel_slug": "park-hyatt-aviara-resort-golf-club-spa",
+  "hotel_name": "Park Hyatt Aviara Resort, Golf Club & Spa",
+  "checked_at": "2026-10-13T08:31:14.101Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/sanpa-park-hyatt-aviara-resort/hotel-info",
+      "tier": "official",
+      "chars": 706
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/sanpa-park-hyatt-aviara-resort/parking-and-transportation/",
+      "tier": "official",
+      "chars": 1072
+    },
+    {
+      "id": "d3",
+      "url": "https://www.cntraveler.com/hotels/carlsbad/carlsbadpark-hyatt-aviara-resort",
+      "tier": "editorial",
+      "chars": 11117
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The resort's address is 7100 Aviara Resort Drive, Carlsbad, California.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "7100 Aviara Resort Drive, Carlsbad CA United States, 92011",
+          "note": "address stated",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/sanpa-park-hyatt-aviara-resort/hotel-info",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "7100 Aviara Resort Dr., Carlsbad, California 92011",
+          "note": "address stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/carlsbad/carlsbadpark-hyatt-aviara-resort",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "McClellan-Palomar Airport (CLD) is 4 miles from the resort.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "McClellan-Palomar Airport (CLD)4 miles",
+          "note": "4 miles to CLD",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/sanpa-park-hyatt-aviara-resort/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "San Diego International Airport (SAN) is 32 miles from the resort.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "San Diego International Airport (SAN)32 miles",
+          "note": "32 miles to SAN",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/sanpa-park-hyatt-aviara-resort/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The resort has covered valet parking with EV charging stations, including ChargePoint chargers for resort guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "covered valet parking and convenient access to newly expanded EV charging stations, including ChargePoint chargers available for resort guests",
+          "note": "covered valet, EV charging, ChargePoint",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/sanpa-park-hyatt-aviara-resort/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Miraval Life in Balance Spa Aviara debuted at the resort in 2023.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Miraval Life in Balance Spa Aviara debuted in 2023 as part of the property’s $60-million renovation",
+          "note": "debuted 2023",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/carlsbad/carlsbadpark-hyatt-aviara-resort",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Ember & Rye, a collaboration with chef Richard Blais, is located in the Aviara Golf Club.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Ember & Rye officially opened its doors in fall 2021. Featuring a collaboration with chef Richard Blais, the restaurant, is located in the Aviara Golf Club",
+          "note": "Blais collaboration, in Golf Club",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/carlsbad/carlsbadpark-hyatt-aviara-resort",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Ponto Lago is Baja-California inspired and serves breakfast, dinner and weekend brunch.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Baja-California inspired Ponto Lago available for breakfast, dinner and weekend brunch",
+          "note": "all elements stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/carlsbad/carlsbadpark-hyatt-aviara-resort",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Pacific Point is a nod to Pacific Rim fare.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Pacific Point, a nod to Pacific Rim fare",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/carlsbad/carlsbadpark-hyatt-aviara-resort",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The resort has a Racquet Club with tennis and pickleball facilities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "a state-of-the-art Racquet Club including tennis and pickleball facilities",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/carlsbad/carlsbadpark-hyatt-aviara-resort",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The resort has two Topgolf Swing Suites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "two Topgolf Swing Suites",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/carlsbad/carlsbadpark-hyatt-aviara-resort",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "A recreation center and game lawn at the Aviara Golf Club offers volleyball, a croquet field, horseshoes, a badminton court and bocce.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Located at the Aviara Golf Club, a recreation center and game lawn offers volleyball, a croquet field, horseshoes, a badminton court and bocce.",
+          "note": "all items stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/carlsbad/carlsbadpark-hyatt-aviara-resort",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The hotel was originally part of the Four Seasons chain and Hyatt acquired it in 2010.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Originally part of the Four Seasons chain of luxury hotels and resorts, Hyatt acquired the hotel in 2010",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/carlsbad/carlsbadpark-hyatt-aviara-resort",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Aviara Golf Club has an Arnold Palmer signature golf course.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "the iconic Aviara Golf Club, Southern California’s only coastal designed Arnold Palmer signature golf course",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/carlsbad/carlsbadpark-hyatt-aviara-resort",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The resort is set on a bluff overlooking Batiquitos Lagoon with the Pacific Ocean in the distance.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Set on a bluff overlooking Batiquitos Lagoon and the Pacific Ocean in the distance",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/carlsbad/carlsbadpark-hyatt-aviara-resort",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Guests can use complimentary transportation to Aviara Golf Club, Aviara Racquet Club, Ember & Rye, Carlsbad Village and Carlsbad State Beach with advance reservation.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Guests may also enjoy complimentary transportation to Aviara Golf Club, Aviara Racquet Club, Ember & Rye, Carlsbad Village, and Carlsbad State Beach with advance reservation.",
+          "note": "all destinations stated",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/sanpa-park-hyatt-aviara-resort/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The family pool area has a waterslide tower.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "a family pool area that now offers a fantastic waterslide tower",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/carlsbad/carlsbadpark-hyatt-aviara-resort",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel is set a few miles inland from the beach in a quiet residential neighborhood.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The hotel is set a few miles inland from the beach in a quiet residential neighborhood",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/carlsbad/carlsbadpark-hyatt-aviara-resort",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The hotel is expansive and might not suit travelers with limited mobility.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "this hotel is expansive and might not be suitable for travelers with limited mobility",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/carlsbad/carlsbadpark-hyatt-aviara-resort",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the resort may feel large and formal for some guests.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
