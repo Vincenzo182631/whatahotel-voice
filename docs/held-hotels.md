@@ -83,3 +83,13 @@ WhataHotel ID 7138. A yacht rather than a hotel; held with the other non-hotel e
 | Kempinski Hotel Bahía Estepona | Too few verifiable facts from official pages |
 | Commune by the Great Wall | Too few verifiable facts from official pages |
 | Kempinski Hotel Amman | Only a third-party travel article found; no official page |
+
+## Kimpton (collection/87)
+
+25 of the 28 Kimpton hotels are live; the 3 below are held (official page not confirmed).
+
+| Hotel | Reason |
+|---|---|
+| Kimpton RiverPlace Hotel (Portland) | No official property page found |
+| Kimpton Grand Roatan Resort & Spa | No official property page found |
+| Kimpton De Witt Amsterdam | No official property page found |
