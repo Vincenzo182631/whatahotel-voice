@@ -101,3 +101,12 @@ WhataHotel ID 7138. A yacht rather than a hotel; held with the other non-hotel e
 | Hotel | Reason |
 |---|---|
 | The Langham, Custom House, Bangkok | Not yet open: official page says stays start 20 December 2026. Redo after opening. |
+
+## Montage (collection/93)
+
+4 of the 6 Montage hotels are live; the 2 below are held pending approval to hand-accept the official page.
+
+| Hotel | Reason |
+|---|---|
+| Montage Palmetto Bluff | Official page montage.com/palmettobluff/ does not mention Bluffton (WhataHotel's city); identity not auto-confirmed |
+| Montage Los Cabos | Official page montage.com/loscabos/ does not mention Cabo San Lucas (WhataHotel's city); identity not auto-confirmed |
