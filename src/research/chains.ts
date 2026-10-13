@@ -63,7 +63,20 @@ export const CHAINS: Chain[] = [
   { id: "aman", name: "Aman", match: /^aman/i, domains: ["aman.com"], base: (u) => { const s = dropLang(seg(u)); return s.length >= 2 ? `${u.origin}/${s[0]}/${s[1]}/` : undefined; } },
   { id: "belmond", name: "Belmond", match: /belmond/i, domains: ["belmond.com"], base: firstTwo },
   { id: "dorchester-collection", name: "Dorchester Collection", match: /dorchester/i, domains: ["dorchestercollection.com"], base: firstTwo },
-  { id: "hyatt", name: "Hyatt", match: /\bhyatt\b/i, domains: ["hyatt.com"], base: firstTwo },
+  {
+    id: "hyatt",
+    name: "Hyatt",
+    match: /\bhyatt\b/i,
+    domains: ["hyatt.com"],
+    // /park-hyatt/en-US/tyoph-park-hyatt-tokyo/... -> /park-hyatt/en-US/tyoph-park-hyatt-tokyo/ ; /en-US/hotel/japan/park-hyatt-tokyo/tyoph -> /en-US/hotel/japan/park-hyatt-tokyo/
+    base: (u) => {
+      const s = seg(u);
+      const lang = (x?: string) => !!x && /^[a-z]{2}(-[a-z]{2})?$/i.test(x);
+      if (lang(s[0]) && s[1] === "hotel" && s[3]) return `${u.origin}/${s.slice(0, 4).join("/")}/`;
+      if (s[0] && !lang(s[0]) && lang(s[1]) && s[2]) return `${u.origin}/${s.slice(0, 3).join("/")}/`;
+      return undefined;
+    },
+  },
   { id: "edition", name: "EDITION", match: /\bedition\b/i, domains: ["editionhotels.com"], base: firstOne },
   { id: "marriott", name: "Marriott", match: /marriott|st\.? regis|w hotel|jw marriott/i, domains: ["marriott.com"], base: firstTwo },
   { id: "one-and-only", name: "One&Only", match: /one&only/i, domains: ["oneandonlyresorts.com"], base: firstTwo },
