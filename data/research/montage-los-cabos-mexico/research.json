@@ -1,10 +1,9 @@
 {
   "slug": "montage-los-cabos-mexico",
-  "status": "needs_review",
+  "status": "ready",
   "partial": false,
   "reasons": [
-    "https://montage.com/loscabos/: page does not mention Cabo San Lucas",
-    "official website could not be confirmed; flag for review"
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
   ],
   "identity": {
     "hotel": {
@@ -17,27 +16,54 @@
       "kind": "chain",
       "chain": "montage"
     },
-    "evidence": [],
-    "reasons": [
-      "https://montage.com/loscabos/: page does not mention Cabo San Lucas",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "75% of the hotel name appears on the page",
+      "confirmed by hand as this hotel's own page (page does not mention Cabo San Lucas)"
     ],
+    "reasons": [],
     "candidates": [
       "https://montage.com/loscabos/"
     ],
-    "checked_at": "2026-10-13T06:15:41.869Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-13T06:39:27.966Z",
+    "status": "confirmed",
+    "official_url": "https://montage.com/loscabos/",
+    "base_url": "https://montage.com/loscabos/",
+    "host": "montage.com",
+    "checks": {
+      "name_coverage": 0.75,
+      "location_match": false
+    }
   },
-  "pages": [],
-  "inaccessible": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://montage.com/loscabos/",
+      "tier": "official",
+      "fetched_at": "2026-10-13T06:39:32.736Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.cntraveler.com/hotels/cabo-san-lucas/montage-los-cabos",
+      "tier": "editorial",
+      "fetched_at": "2026-10-13T06:39:48.976Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://montage.com/loscabos/",
+      "reason": "no same-property sub-page links found on the home page"
+    }
+  ],
   "usage": {
-    "firecrawl_calls": 1,
-    "firecrawl_searches": 0,
+    "firecrawl_calls": 4,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 2,
+    "chars": 10708,
+    "est_claude_tokens": 2677
   },
   "limits": {
     "maxPages": 12,
@@ -45,5 +71,231 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-13T06:15:42.956Z"
+  "researched_at": "2026-10-13T06:39:48.976Z",
+  "hotel": {
+    "name": "Montage Los Cabos, Mexico",
+    "city": "Cabo San Lucas",
+    "country": "MX",
+    "chain": "montage",
+    "confirmed_affiliation": {
+      "kind": "chain",
+      "chain": "montage"
+    }
+  },
+  "official_url": "https://montage.com/loscabos/",
+  "verified_facts": [
+    {
+      "id": "r-1",
+      "category": "location",
+      "text": "The resort spans 39 acres along Santa Maria Bay.",
+      "source_url": "https://montage.com/loscabos/",
+      "source_tier": "official",
+      "excerpt": "Spanning 39 acres along the gentle azure waters of Santa Maria Bay, Montage Los Cabos resort"
+    },
+    {
+      "id": "r-2",
+      "category": "location",
+      "text": "The hotel is set on the Golden Corridor, an undeveloped stretch between the hotel zones of Cabo San Lucas and San Jose del Cabo.",
+      "source_url": "https://www.cntraveler.com/hotels/cabo-san-lucas/montage-los-cabos",
+      "source_tier": "editorial",
+      "excerpt": "The hotel is set on the Golden Corridor, an undeveloped stretch between the hotel zones of Cabo San Lucas and San José del Cabo."
+    },
+    {
+      "id": "r-3",
+      "category": "location",
+      "text": "The city centers of both Cabo San Lucas and San Jose del Cabo are each about a 20-minute taxi ride away.",
+      "source_url": "https://www.cntraveler.com/hotels/cabo-san-lucas/montage-los-cabos",
+      "source_tier": "editorial",
+      "excerpt": "the city centers of both Cabos are each a 20-minute taxi ride away"
+    },
+    {
+      "id": "r-4",
+      "category": "location",
+      "text": "The hotel faces the calm Santa Maria Bay, one of the rare beaches in Cabo without breaking waves where you can wade in and swim.",
+      "source_url": "https://www.cntraveler.com/hotels/cabo-san-lucas/montage-los-cabos",
+      "source_tier": "editorial",
+      "excerpt": "Cabo where there aren't crazy breaking waves and wily currents, where you can just wade right in and go for a swim"
+    },
+    {
+      "id": "r-5",
+      "category": "design_history",
+      "text": "The landscaping uses native and drought-tolerant plants such as rock figs, agave and saguaro instead of green lawns.",
+      "source_url": "https://www.cntraveler.com/hotels/cabo-san-lucas/montage-los-cabos",
+      "source_tier": "editorial",
+      "excerpt": "using native and drought-tolerant plants such as beautiful rock figs, all sorts of agave, and tall saguaro, instead of the area"
+    },
+    {
+      "id": "r-6",
+      "category": "design_history",
+      "text": "Montage Los Cabos is the first international hotel from the American-based Montage group.",
+      "source_url": "https://www.cntraveler.com/hotels/cabo-san-lucas/montage-los-cabos",
+      "source_tier": "editorial",
+      "excerpt": "The hotel is the first international hotel from the American-based Montage group"
+    },
+    {
+      "id": "r-7",
+      "category": "rooms",
+      "text": "Interiors use creamy sandstone, indigenous hardwood, updated equipale chairs and woven throws and wall hangings.",
+      "source_url": "https://www.cntraveler.com/hotels/cabo-san-lucas/montage-los-cabos",
+      "source_tier": "editorial",
+      "excerpt": "lots of creamy sandstone and indigenous hardwood, updated equipale chairs, and woven throws and wall hangings"
+    },
+    {
+      "id": "r-8",
+      "category": "rooms",
+      "text": "Buildings are low-slung and low-density.",
+      "source_url": "https://www.cntraveler.com/hotels/cabo-san-lucas/montage-los-cabos",
+      "source_tier": "editorial",
+      "excerpt": "Buildings are low-slung and low-density"
+    },
+    {
+      "id": "r-9",
+      "category": "rooms",
+      "text": "Many rooms have floor-to-ceiling glass doors leading to large terraces with daybeds, dining areas and outdoor showers.",
+      "source_url": "https://www.cntraveler.com/hotels/cabo-san-lucas/montage-los-cabos",
+      "source_tier": "editorial",
+      "excerpt": "huge floor-to-ceiling glass doors that lead to large terraces with daybeds and dining areas, and outdoor showers"
+    },
+    {
+      "id": "r-10",
+      "category": "rooms",
+      "text": "Guests wanting sea breezes and whale-spotting from the terrace can request a room close to the water.",
+      "source_url": "https://www.cntraveler.com/hotels/cabo-san-lucas/montage-los-cabos",
+      "source_tier": "editorial",
+      "excerpt": "For sea breezes and optimal whale-spotting from your terrace, request a room close to the water."
+    },
+    {
+      "id": "r-11",
+      "category": "dining",
+      "text": "Mezcal serves modern Mexican cuisine.",
+      "source_url": "https://montage.com/loscabos/",
+      "source_tier": "official",
+      "excerpt": "including modern Mexican cuisine at Mezcal"
+    },
+    {
+      "id": "r-12",
+      "category": "dining",
+      "text": "Talay serves Thai-inspired street-food dishes from a food truck setup.",
+      "source_url": "https://www.cntraveler.com/hotels/cabo-san-lucas/montage-los-cabos",
+      "source_tier": "editorial",
+      "excerpt": "Talay adds an unexpected twist with Thai-inspired street-food dishes served from a stylish food truck setup"
+    },
+    {
+      "id": "r-13",
+      "category": "dining",
+      "text": "Marea, the more casual restaurant, has a separate vegan menu.",
+      "source_url": "https://www.cntraveler.com/hotels/cabo-san-lucas/montage-los-cabos",
+      "source_tier": "editorial",
+      "excerpt": "Marea, the more casual restaurant, has a separate vegan menu"
+    },
+    {
+      "id": "r-14",
+      "category": "dining",
+      "text": "Paletas is a marketplace selling handicrafts and gifts where guests can also grab coffee and pan dulce.",
+      "source_url": "https://www.cntraveler.com/hotels/cabo-san-lucas/montage-los-cabos",
+      "source_tier": "editorial",
+      "excerpt": "Paletas, which is more like a marketplace, selling handicrafts and gifts, but where you can also grab a quick café con leche and pan dulce"
+    },
+    {
+      "id": "r-15",
+      "category": "amenities",
+      "text": "Spa Montage rituals are inspired by the rhythms of the ocean and local traditions of Baja California Sur.",
+      "source_url": "https://montage.com/loscabos/",
+      "source_tier": "official",
+      "excerpt": "Inspired by the rhythms of the ocean and local traditions, rituals at Spa Montage are steeped in the beauty and healing power of Baja California Sur."
+    },
+    {
+      "id": "r-16",
+      "category": "amenities",
+      "text": "The spa offers guided journeys with the hotel's resident shaman.",
+      "source_url": "https://www.cntraveler.com/hotels/cabo-san-lucas/montage-los-cabos",
+      "source_tier": "editorial",
+      "excerpt": "including guided journeys with the hotel's resident shaman"
+    },
+    {
+      "id": "r-17",
+      "category": "experiences",
+      "text": "The resort offers complimentary scuba discovery sessions for beginner divers, guided by PADI-certified instructors.",
+      "source_url": "https://montage.com/loscabos/",
+      "source_tier": "official",
+      "excerpt": "Experience the thrill of diving with our complimentary scuba discovery sessions, tailored to beginner divers."
+    },
+    {
+      "id": "r-18",
+      "category": "amenities",
+      "text": "Full-day cabana rentals are available at the pool or beach.",
+      "source_url": "https://montage.com/loscabos/",
+      "source_tier": "official",
+      "excerpt": "a full-day luxury cabana rental at the pool or beach"
+    },
+    {
+      "id": "r-19",
+      "category": "dining",
+      "text": "The hotel partnered with nutritionist Kelly LeVeque to create seasonal options.",
+      "source_url": "https://www.cntraveler.com/hotels/cabo-san-lucas/montage-los-cabos",
+      "source_tier": "editorial",
+      "excerpt": "the hotel partnered with celebrity nutritionist Kelly LeVeque to create seasonal options"
+    },
+    {
+      "id": "r-20",
+      "category": "rooms",
+      "text": "Accommodations include guestrooms, suites and casas, plus Montage Residences.",
+      "source_url": "https://montage.com/loscabos/",
+      "source_tier": "official",
+      "excerpt": "122 expansive guestrooms, suites and casas and 52 Montage Residences"
+    }
+  ],
+  "highlights": [
+    "r-4",
+    "r-2",
+    "r-6",
+    "r-16",
+    "r-12",
+    "r-17",
+    "r-9",
+    "r-5"
+  ],
+  "subjective": [
+    {
+      "id": "r-23",
+      "text": "The hotel calls its beachfront the premier beachfront in Cabo.",
+      "reason": "the hotel's own opinion or praise; keep out of facts"
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "r-21",
+      "text": "The resort has four distinct dining concepts.",
+      "reason": "marked unresolved"
+    },
+    {
+      "id": "r-22",
+      "text": "There are three signature restaurants.",
+      "reason": "marked unresolved"
+    },
+    {
+      "id": "r-24",
+      "text": "Conde Nast Traveler lists Readers' Choice Awards 2020, 2021, 2026.",
+      "reason": "marked unresolved"
+    }
+  ],
+  "rejected": [],
+  "contradictions": [
+    {
+      "topic": "dining-count",
+      "note": "p1 says four distinct dining concepts, p2 says three signature restaurants (plus Paletas marketplace)",
+      "sources": [
+        {
+          "url": "https://montage.com/loscabos/",
+          "excerpt": "throughout our four distinct dining concepts",
+          "quote_verified": true
+        },
+        {
+          "url": "https://www.cntraveler.com/hotels/cabo-san-lucas/montage-los-cabos",
+          "excerpt": "There are three signature restaurants.",
+          "quote_verified": true
+        }
+      ]
+    }
+  ]
 }
