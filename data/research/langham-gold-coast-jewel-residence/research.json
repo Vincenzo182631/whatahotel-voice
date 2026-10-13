@@ -1,0 +1,91 @@
+{
+  "slug": "langham-gold-coast-jewel-residence",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Langham Gold Coast & Jewel Residence",
+      "city": "Queensland",
+      "country": "AU",
+      "chain": "langham"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "langham"
+    },
+    "evidence": [
+      "80% of the hotel name appears on the page",
+      "location matches (Queensland, AU)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.langhamhotels.com/en/the-langham/gold-coast/jewel-residences/residences/two-bedroom-ocean-residence/",
+      "https://www.langhamhotels.com/en/the-langham/gold-coast/jewel-residences/",
+      "https://www.langhamhotels.com/en/the-langham/gold-coast/"
+    ],
+    "checked_at": "2026-10-13T04:48:23.033Z",
+    "status": "confirmed",
+    "official_url": "https://www.langhamhotels.com/en/the-langham/gold-coast/",
+    "base_url": "https://www.langhamhotels.com/en/the-langham/gold-coast/",
+    "host": "langhamhotels.com",
+    "checks": {
+      "name_coverage": 0.8,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.langhamhotels.com/en/the-langham/gold-coast/",
+      "tier": "official",
+      "fetched_at": "2026-10-13T04:49:11.239Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.langhamhotels.com/en/the-langham/gold-coast/dine/",
+      "tier": "official",
+      "fetched_at": "2026-10-13T04:49:21.989Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.langhamhotels.com/en/the-langham/gold-coast/dine/palm-court/",
+      "tier": "official",
+      "fetched_at": "2026-10-13T04:49:32.888Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.langhamhotels.com/en/the-langham/gold-coast/discover/our-neighbourhood/",
+      "tier": "official",
+      "fetched_at": "2026-10-13T04:49:43.660Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 11,
+    "firecrawl_searches": 5,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 4,
+    "chars": 22468,
+    "est_claude_tokens": 5617
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-13T04:49:48.374Z"
+}
