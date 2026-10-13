@@ -93,3 +93,11 @@ WhataHotel ID 7138. A yacht rather than a hotel; held with the other non-hotel e
 | Kimpton RiverPlace Hotel (Portland) | No official property page found |
 | Kimpton Grand Roatan Resort & Spa | No official property page found |
 | Kimpton De Witt Amsterdam | No official property page found |
+
+## Langham (collection/30)
+
+11 of the 12 Langham hotels are live; the one below is held.
+
+| Hotel | Reason |
+|---|---|
+| The Langham, Custom House, Bangkok | Not yet open: official page says stays start 20 December 2026. Redo after opening. |
