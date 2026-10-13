@@ -109,3 +109,17 @@ All 6 Montage hotels are live. Palmetto Bluff and Los Cabos were hand-accepted (
 ## Oetker Collection (collection/63)
 
 All 4 Oetker hotels are live. Jumby Bay was hand-accepted (official page does not name St. John's). WhataHotel lists Jumby Bay as adults-only, but the official site shows a Kids Club; the WhataHotel copy may need fixing.
+
+## Park Hyatt (collection/8)
+
+46 of the 51 hotels are live. Held:
+
+| Hotel | Reason |
+|---|---|
+| Park Hyatt Los Cabos at Cabo del Sol | Official page hyatt.com/.../cabph-park-hyatt-cabo-del-sol does not mention Cabo San Lucas; awaiting hand-accept approval |
+| Park Hyatt Changbaishan | Official page hyatt.com/.../nbsph-park-hyatt-changbaishan does not mention Baishan; awaiting hand-accept approval |
+| Ararat Park Hyatt Moscow | No hyatt.com property page found (only a spa landing page) |
+| Hyatt Vancouver Downtown Alberni | Under renovation; Conde Nast says it will reopen as a Park Hyatt (target end of 2026) |
+| Park Hyatt Dubai | Official site: long-term enhancement from May 2026; all hotel outlets temporarily closed |
+
+Many WhataHotel Park Hyatt pages contradict the official sites (locations, floors, pools, restaurants), e.g. Toronto, Kuala Lumpur, Jakarta, Chennai, Shenzhen, Guangzhou, Washington, Johannesburg, Bangkok; those claims were not used.
