@@ -83,6 +83,7 @@ export const CHAINS: Chain[] = [
       return s[0] === "stay" && s[1] ? `${u.origin}/stay/${s[1]}/` : undefined;
     },
   },
+  { id: "langham", name: "Langham", match: /langham|cordis/i, domains: ["langhamhotels.com", "cordishotels.com"], base: (u) => (u.hostname.includes("cordishotels") ? firstOne(u) : firstTwo(u)) },
   { id: "kempinski", name: "Kempinski", match: /kempinski/i, domains: ["kempinski.com"], base: firstTwo },
   { id: "six-senses", name: "Six Senses", match: /six senses/i, domains: ["sixsenses.com"], base: firstTwo },
 ];
