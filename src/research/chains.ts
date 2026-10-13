@@ -84,6 +84,7 @@ export const CHAINS: Chain[] = [
     },
   },
   { id: "langham", name: "Langham", match: /langham|cordis/i, domains: ["langhamhotels.com", "cordishotels.com"], base: (u) => (u.hostname.includes("cordishotels") ? firstOne(u) : firstTwo(u)) },
+  { id: "montage", name: "Montage", match: /montage/i, domains: ["montagehotels.com"], base: firstTwo },
   { id: "kempinski", name: "Kempinski", match: /kempinski/i, domains: ["kempinski.com"], base: firstTwo },
   { id: "six-senses", name: "Six Senses", match: /six senses/i, domains: ["sixsenses.com"], base: firstTwo },
 ];
