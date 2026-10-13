@@ -1,0 +1,110 @@
+{
+  "slug": "park-hyatt-sydney",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Park Hyatt Sydney",
+      "city": "Sydney",
+      "country": "AU",
+      "chain": "hyatt"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hyatt"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Sydney, AU)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hyatt.com/park-hyatt/en-US/sydph-park-hyatt-sydney"
+    ],
+    "checked_at": "2026-10-13T08:23:17.258Z",
+    "status": "confirmed",
+    "official_url": "https://www.hyatt.com/park-hyatt/en-US/sydph-park-hyatt-sydney",
+    "base_url": "https://www.hyatt.com/park-hyatt/en-US/sydph-park-hyatt-sydney/",
+    "host": "hyatt.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/sydph-park-hyatt-sydney",
+      "tier": "official",
+      "fetched_at": "2026-10-13T08:23:25.497Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/sydph-park-hyatt-sydney/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-13T08:23:33.388Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/sydph-park-hyatt-sydney/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-13T08:23:37.661Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/sydph-park-hyatt-sydney/hotel-info/",
+      "tier": "official",
+      "fetched_at": "2026-10-13T08:23:42.319Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/sydph-park-hyatt-sydney/reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-13T08:23:50.078Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/sydph-park-hyatt-sydney/parking-and-transportation/",
+      "tier": "official",
+      "fetched_at": "2026-10-13T08:23:58.556Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.cntraveler.com/hotels/australia/sydney/park-hyatt-sydney",
+      "tier": "editorial",
+      "fetched_at": "2026-10-13T08:24:04.210Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.hyatt.com/park-hyatt/en-US/sydph-park-hyatt-sydney/%3CBase64-Image-Removed%3E/",
+      "reason": "https://www.hyatt.com/park-hyatt/en-US/sydph-park-hyatt-sydney/%3CBase64-Image-Removed%3E/: page had almost no text"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 10,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 7,
+    "chars": 53107,
+    "est_claude_tokens": 13277
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-13T08:24:04.211Z"
+}

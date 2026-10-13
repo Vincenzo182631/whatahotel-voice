@@ -1,0 +1,103 @@
+{
+  "slug": "park-hyatt-siem-reap",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "Park Hyatt Siem Reap",
+      "city": "Siem Reap",
+      "country": "KH",
+      "chain": "hyatt"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hyatt"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Siem Reap, KH)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hyatt.com/park-hyatt/en-US/repph-park-hyatt-siem-reap"
+    ],
+    "checked_at": "2026-10-13T08:24:48.573Z",
+    "status": "confirmed",
+    "official_url": "https://www.hyatt.com/park-hyatt/en-US/repph-park-hyatt-siem-reap",
+    "base_url": "https://www.hyatt.com/park-hyatt/en-US/repph-park-hyatt-siem-reap/",
+    "host": "hyatt.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/repph-park-hyatt-siem-reap",
+      "tier": "official",
+      "fetched_at": "2026-10-13T08:25:01.148Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/repph-park-hyatt-siem-reap/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-13T08:25:03.309Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/repph-park-hyatt-siem-reap/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-13T08:25:09.741Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/repph-park-hyatt-siem-reap/hotel-info/",
+      "tier": "official",
+      "fetched_at": "2026-10-13T08:25:14.489Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/repph-park-hyatt-siem-reap/reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-13T08:25:16.679Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/repph-park-hyatt-siem-reap/parking-and-transportation/",
+      "tier": "official",
+      "fetched_at": "2026-10-13T08:25:25.390Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.cntraveler.com/hotels/siem-reap/park-hyatt-siem-reap",
+      "tier": "editorial",
+      "fetched_at": "2026-10-13T08:25:28.263Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 9,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 7,
+    "chars": 60326,
+    "est_claude_tokens": 15082
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-13T08:25:28.263Z"
+}

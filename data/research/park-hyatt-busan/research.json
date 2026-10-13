@@ -1,0 +1,103 @@
+{
+  "slug": "park-hyatt-busan",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Park Hyatt Busan",
+      "city": "Busan",
+      "country": "KR",
+      "chain": "hyatt"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hyatt"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Busan, KR)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan"
+    ],
+    "checked_at": "2026-10-13T08:20:21.940Z",
+    "status": "confirmed",
+    "official_url": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan",
+    "base_url": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan/",
+    "host": "hyatt.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan",
+      "tier": "official",
+      "fetched_at": "2026-10-13T08:20:34.922Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-13T08:20:37.161Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-13T08:20:43.766Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan/hotel-info/",
+      "tier": "official",
+      "fetched_at": "2026-10-13T08:20:46.177Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan/reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-13T08:20:52.678Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan/parking-and-transportation/",
+      "tier": "official",
+      "fetched_at": "2026-10-13T08:21:00.157Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 9,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 6,
+    "chars": 58750,
+    "est_claude_tokens": 14688
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-13T08:21:05.182Z"
+}
