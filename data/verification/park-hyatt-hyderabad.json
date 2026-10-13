@@ -1,0 +1,394 @@
+{
+  "hotel_slug": "park-hyatt-hyderabad",
+  "hotel_name": "Park Hyatt Hyderabad",
+  "checked_at": "2026-10-13T08:35:56.675Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/hydph-park-hyatt-hyderabad",
+      "tier": "official",
+      "chars": 10928
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/hydph-park-hyatt-hyderabad/rooms/",
+      "tier": "official",
+      "chars": 17923
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/hydph-park-hyatt-hyderabad/dining/",
+      "tier": "official",
+      "chars": 4924
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/hydph-park-hyatt-hyderabad/parking-and-transportation/",
+      "tier": "official",
+      "chars": 982
+    },
+    {
+      "id": "d5",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/hydph-park-hyatt-hyderabad/hotel-info/",
+      "tier": "official",
+      "chars": 959
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/hydph-park-hyatt-hyderabad/reviews/",
+      "tier": "official",
+      "chars": 8027
+    },
+    {
+      "id": "d7",
+      "url": "https://www.cntraveler.com/hotels/india/hyderabad/ista",
+      "tier": "editorial",
+      "chars": 4342
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is on Road No. 2 in Banjara Hills, Hyderabad.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Road No. 2, Banjara Hills, Hyderabad - 500034, Telangana, India",
+          "note": "address stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/hydph-park-hyatt-hyderabad",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Jubilee Hills and Banjara Hills are less than 10 minutes from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Explore Jubilee Hills and Banjara Hills, two residential neighbourhoods less than 10 minutes from our doorstep",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/hydph-park-hyatt-hyderabad",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel suggests visiting the 16th-century Golconda Fort and the Qutub Shahi tombs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "For a little history, visit the 16th-century Golconda Fort and the stunning Qutub Shahi tombs and mosques.",
+          "note": "hotel suggests both sites",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/hydph-park-hyatt-hyderabad",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Guest rooms have a marble bathroom with a walk-in rain shower and a soaking tub.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "the room features a marble bathroom with a walk-in rain shower and soaking tub",
+          "note": "guest room description",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/hydph-park-hyatt-hyderabad/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Apartments have a fully equipped kitchen with a microwave and dishwasher.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Fully equipped kitchen with microwave and dishwasher",
+          "note": "apartment in-room amenities",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/hydph-park-hyatt-hyderabad/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Tre-Forni serves Northern Italian cooking, including rustic pastas and wood-fired pizzas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Tre-Forni brings the essence of Northern Italy to Hyderabad with rustic pastas, wood-fired pizzas, and carefully curated seasonal dishes.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/hydph-park-hyatt-hyderabad/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Tre-Forni hosts Italian Sunday brunches.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The restaurant is a destination for Italian Sunday brunches",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/hydph-park-hyatt-hyderabad/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Rika serves sushi, dim sum and Teppan dishes by day.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "By day, enjoy sushi, dim sum, and signature Teppan dishes in a serene, design-focused setting.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/hydph-park-hyatt-hyderabad/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The Living Room lounge serves afternoon tea.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Perfect for afternoon tea, informal meetings, or quiet reflection, the lounge blends sophistication with warmth",
+          "note": "The Living Room description",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/hydph-park-hyatt-hyderabad/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The outdoor pool is temperature-controlled and has cabanas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The temperature-controlled pool is complemented by cosy cabanas with a spectacular view",
+          "note": "outdoor pool described in same paragraph",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/hydph-park-hyatt-hyderabad",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The fitness centre is on the mezzanine and overlooks the pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located on the mezzanine, enjoy the stunning pool view as you work out.",
+          "note": "Fitness Centre description",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/hydph-park-hyatt-hyderabad",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The hotel has a pillarless ballroom for weddings.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Host a lavish ceremony in our pillarless ballroom",
+          "note": "Weddings & Celebrations section",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/hydph-park-hyatt-hyderabad",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "An Art Walkway on the lobby level displays a collection of paintings and sculptures.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Explore the Art Walkway, located on the lobby level, to view a stunning collection of paintings and sculptures",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/hydph-park-hyatt-hyderabad",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The spa is inspired by the wellness traditions of the Nizams, combined with modern therapeutic techniques.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Inspired by the wellness traditions of the Nizams and enhanced with modern therapeutic techniques",
+          "note": "spa description",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/hydph-park-hyatt-hyderabad",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The hotel offers fully serviced, pet-friendly apartments.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The property is also the first luxury hotel in Hyderabad to offer 41 fully serviced, pet friendly apartments.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/hydph-park-hyatt-hyderabad/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Tre-Forni has a wine list of over 1,000 bottles.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "an extensive wine list of over 1,000 bottles",
+          "note": "Tre-Forni description",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/hydph-park-hyatt-hyderabad/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "By night, Rika After Dark becomes a social venue with cocktails and music.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "By night, Rika After Dark transforms into a lively social hub with inventive cocktails, music, and a vibrant ambiance",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/hydph-park-hyatt-hyderabad/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Rajiv Gandhi International Airport is 35.6 kilometers from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Rajiv Gandhi International Airport (HYD)35.6 kilometers",
+          "note": "distance stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/hydph-park-hyatt-hyderabad/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "For sustainability, certain room amenities are discontinued or only available on request.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "As part of our commitment to sustainability, certain room amenities are discontinued or only available on request.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/hydph-park-hyatt-hyderabad",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes a business-focused atmosphere that may feel formal for leisure travelers.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
