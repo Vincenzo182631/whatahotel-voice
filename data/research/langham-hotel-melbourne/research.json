@@ -1,0 +1,75 @@
+{
+  "slug": "langham-hotel-melbourne",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "Langham Hotel, Melbourne",
+      "city": "Melbourne",
+      "country": "AU",
+      "chain": "langham"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "langham"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Melbourne, AU)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.langhamhotels.com/en/the-langham/melbourne/"
+    ],
+    "checked_at": "2026-10-13T04:56:19.002Z",
+    "status": "confirmed",
+    "official_url": "https://www.langhamhotels.com/en/the-langham/melbourne/",
+    "base_url": "https://www.langhamhotels.com/en/the-langham/melbourne/",
+    "host": "langhamhotels.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.langhamhotels.com/en/the-langham/melbourne/",
+      "tier": "official",
+      "fetched_at": "2026-10-13T04:56:46.602Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.langhamhotels.com/en/the-langham/melbourne/stay/",
+      "tier": "official",
+      "fetched_at": "2026-10-13T04:56:57.628Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.cntraveler.com/hotels/australia/melbourne/the-langham-melbourne",
+      "tier": "editorial",
+      "fetched_at": "2026-10-13T04:57:02.870Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 5,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 3,
+    "chars": 12892,
+    "est_claude_tokens": 3223
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-13T04:57:02.870Z"
+}
