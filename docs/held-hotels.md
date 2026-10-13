@@ -104,9 +104,8 @@ WhataHotel ID 7138. A yacht rather than a hotel; held with the other non-hotel e
 
 ## Montage (collection/93)
 
-4 of the 6 Montage hotels are live; the 2 below are held pending approval to hand-accept the official page.
+All 6 Montage hotels are live. Palmetto Bluff and Los Cabos were hand-accepted (official pages do not name WhataHotel's city).
 
-| Hotel | Reason |
-|---|---|
-| Montage Palmetto Bluff | Official page montage.com/palmettobluff/ does not mention Bluffton (WhataHotel's city); identity not auto-confirmed |
-| Montage Los Cabos | Official page montage.com/loscabos/ does not mention Cabo San Lucas (WhataHotel's city); identity not auto-confirmed |
+## Oetker Collection (collection/63)
+
+All 4 Oetker hotels are live. Jumby Bay was hand-accepted (official page does not name St. John's). WhataHotel lists Jumby Bay as adults-only, but the official site shows a Kids Club; the WhataHotel copy may need fixing.
