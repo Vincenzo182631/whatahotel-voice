@@ -1,0 +1,75 @@
+{
+  "slug": "kimpton-harper-hotel",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Kimpton Harper Hotel",
+      "city": "Fort Worth",
+      "country": "US",
+      "chain": "kimpton"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "kimpton"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Fort Worth, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.kimptonhotels.com/hotels/us/en/harper-hotel-fort-worth-tx/ftwms/hoteldetail"
+    ],
+    "checked_at": "2026-10-13T03:54:18.664Z",
+    "status": "confirmed",
+    "official_url": "https://www.kimptonhotels.com/hotels/us/en/harper-hotel-fort-worth-tx/ftwms/hoteldetail",
+    "base_url": "https://www.kimptonhotels.com/hotels/us/en/harper-hotel-fort-worth-tx/ftwms/",
+    "host": "kimptonhotels.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.kimptonhotels.com/hotels/us/en/harper-hotel-fort-worth-tx/ftwms/hoteldetail",
+      "tier": "official",
+      "fetched_at": "2026-10-13T03:54:23.438Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.kimptonhotels.com/hotels/us/en/harper-hotel-fort-worth-tx/ftwms/hoteldetail/",
+      "tier": "official",
+      "fetched_at": "2026-10-13T03:54:31.446Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 5,
+    "firecrawl_searches": 1,
+    "cache_hits": 0,
+    "direct_fetches": 0,
+    "pages": 2,
+    "chars": 17310,
+    "est_claude_tokens": 4328
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-13T03:54:39.964Z"
+}

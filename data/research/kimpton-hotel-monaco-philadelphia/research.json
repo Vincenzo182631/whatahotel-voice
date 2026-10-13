@@ -1,0 +1,75 @@
+{
+  "slug": "kimpton-hotel-monaco-philadelphia",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Kimpton Hotel Monaco Philadelphia",
+      "city": "Philadelphia",
+      "country": "US",
+      "chain": "kimpton"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "kimpton"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Philadelphia, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.kimptonhotels.com/stay/hotel-monaco-philadelphia-pa"
+    ],
+    "checked_at": "2026-10-13T03:52:21.374Z",
+    "status": "confirmed",
+    "official_url": "https://www.kimptonhotels.com/stay/hotel-monaco-philadelphia-pa",
+    "base_url": "https://www.kimptonhotels.com/stay/hotel-monaco-philadelphia-pa/",
+    "host": "kimptonhotels.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.kimptonhotels.com/stay/hotel-monaco-philadelphia-pa",
+      "tier": "official",
+      "fetched_at": "2026-10-13T03:52:26.279Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.cntraveler.com/hotels/philadelphia/kimpton-hotel-monaco-philadelphia",
+      "tier": "editorial",
+      "fetched_at": "2026-10-13T03:52:34.477Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.kimptonhotels.com/stay/hotel-monaco-philadelphia-pa/",
+      "reason": "no same-property sub-page links found on the home page"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 4,
+    "firecrawl_searches": 1,
+    "cache_hits": 0,
+    "direct_fetches": 1,
+    "pages": 2,
+    "chars": 16376,
+    "est_claude_tokens": 4094
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-13T03:52:34.477Z"
+}

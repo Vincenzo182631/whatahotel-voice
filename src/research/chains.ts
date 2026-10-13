@@ -69,6 +69,20 @@ export const CHAINS: Chain[] = [
   { id: "one-and-only", name: "One&Only", match: /one&only/i, domains: ["oneandonlyresorts.com"], base: firstTwo },
   { id: "auberge", name: "Auberge Collection", match: /auberge/i, domains: ["aubergeresorts.com", "auberge.com"], base: firstOne },
   { id: "bulgari", name: "Bvlgari", match: /bvlgari|bulgari/i, domains: ["bulgarihotels.com"], base: firstTwo },
+  {
+    id: "kimpton",
+    name: "Kimpton",
+    match: /kimpton/i,
+    domains: ["kimptonhotels.com"],
+    secondaryDomains: ["ihg.com"],
+    // .../kimptonhotels/hotels/us/en/montecito/sbaki/hoteldetail -> .../hotels/us/en/montecito/sbaki/ ; kimptonhotels.com/stay/<slug>/ is a property page too
+    base: (u) => {
+      const s = seg(u);
+      const i = s.indexOf("hotels");
+      if (i >= 0 && s.length >= i + 5 && /^[a-z]{2}$/i.test(s[i + 1] ?? "") && /^[a-z]{2}$/i.test(s[i + 2] ?? "") && s[0] !== "blog") return `${u.origin}/${s.slice(0, i + 5).join("/")}/`;
+      return s[0] === "stay" && s[1] ? `${u.origin}/stay/${s[1]}/` : undefined;
+    },
+  },
   { id: "kempinski", name: "Kempinski", match: /kempinski/i, domains: ["kempinski.com"], base: firstTwo },
   { id: "six-senses", name: "Six Senses", match: /six senses/i, domains: ["sixsenses.com"], base: firstTwo },
 ];

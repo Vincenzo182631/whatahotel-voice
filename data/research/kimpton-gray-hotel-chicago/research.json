@@ -1,0 +1,75 @@
+{
+  "slug": "kimpton-gray-hotel-chicago",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Kimpton Gray Hotel Chicago",
+      "city": "Chicago",
+      "country": "US",
+      "chain": "kimpton"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "kimpton"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Chicago, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.kimptonhotels.com/stay/the-kimpton-gray-hotel-chicago-il"
+    ],
+    "checked_at": "2026-10-13T03:47:13.086Z",
+    "status": "confirmed",
+    "official_url": "https://www.kimptonhotels.com/stay/the-kimpton-gray-hotel-chicago-il",
+    "base_url": "https://www.kimptonhotels.com/stay/the-kimpton-gray-hotel-chicago-il/",
+    "host": "kimptonhotels.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.kimptonhotels.com/stay/the-kimpton-gray-hotel-chicago-il",
+      "tier": "official",
+      "fetched_at": "2026-10-13T03:47:18.136Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.cntraveler.com/hotels/chicago/the-kimpton-gray-hotel",
+      "tier": "editorial",
+      "fetched_at": "2026-10-13T03:47:30.435Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.kimptonhotels.com/stay/the-kimpton-gray-hotel-chicago-il/",
+      "reason": "no same-property sub-page links found on the home page"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 4,
+    "firecrawl_searches": 1,
+    "cache_hits": 0,
+    "direct_fetches": 1,
+    "pages": 2,
+    "chars": 14147,
+    "est_claude_tokens": 3537
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-13T03:47:30.435Z"
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "kimpton-seafire-resort",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Kimpton Seafire Resort",
+      "city": "Grand Cayman",
+      "country": "KY",
+      "chain": "kimpton"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "kimpton"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Grand Cayman, KY)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.kimptonhotels.com/stay/seafire-resort-and-spa"
+    ],
+    "checked_at": "2026-10-13T04:01:22.592Z",
+    "status": "confirmed",
+    "official_url": "https://www.kimptonhotels.com/stay/seafire-resort-and-spa",
+    "base_url": "https://www.kimptonhotels.com/stay/seafire-resort-and-spa/",
+    "host": "kimptonhotels.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.kimptonhotels.com/stay/seafire-resort-and-spa",
+      "tier": "official",
+      "fetched_at": "2026-10-13T04:01:27.447Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.cntraveler.com/hotels/grand-cayman/kimpton-seafire-resort-and-spa",
+      "tier": "editorial",
+      "fetched_at": "2026-10-13T04:01:39.974Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.kimptonhotels.com/stay/seafire-resort-and-spa/",
+      "reason": "no same-property sub-page links found on the home page"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 4,
+    "firecrawl_searches": 1,
+    "cache_hits": 0,
+    "direct_fetches": 1,
+    "pages": 2,
+    "chars": 19928,
+    "est_claude_tokens": 4982
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-13T04:01:39.974Z"
+}
