@@ -1,9 +1,10 @@
 {
   "slug": "chateau-saint-martin-spa",
-  "status": "awaiting_extraction",
+  "status": "needs_review",
   "partial": false,
   "reasons": [
-    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+    "https://www.oetkercollection.com/hotels/chateau-saint-martin/: page does not mention Vence",
+    "official website could not be confirmed; flag for review"
   ],
   "identity": {
     "hotel": {
@@ -16,55 +17,27 @@
       "kind": "chain",
       "chain": "oetker"
     },
-    "evidence": [
-      "100% of the hotel name appears on the page",
-      "location matches (Vence, FR)"
+    "evidence": [],
+    "reasons": [
+      "https://www.oetkercollection.com/hotels/chateau-saint-martin/: page does not mention Vence",
+      "official website could not be confirmed; flag for review"
     ],
-    "reasons": [],
     "candidates": [
-      "https://www.oetkercollection.com/hotels/chateau-saint-martin/restaurants-bars/",
-      "https://www.oetkercollection.com/hotels/chateau-saint-martin/accommodation/?utm_source=newsletter&utm_medium=email&utm_campaign=CSM_Endofseason_Dec_17_tag&sertrack=1"
+      "https://www.oetkercollection.com/hotels/chateau-saint-martin/"
     ],
-    "checked_at": "2026-10-13T06:41:11.145Z",
-    "status": "confirmed",
-    "official_url": "https://www.oetkercollection.com/hotels/chateau-saint-martin/accommodation/?utm_source=newsletter&utm_medium=email&utm_campaign=CSM_Endofseason_Dec_17_tag&sertrack=1",
-    "base_url": "https://www.oetkercollection.com/hotels/chateau-saint-martin/",
-    "host": "oetkercollection.com",
-    "checks": {
-      "name_coverage": 1,
-      "location_match": true
-    }
+    "checked_at": "2026-10-13T06:46:23.336Z",
+    "status": "needs_review"
   },
-  "pages": [
-    {
-      "id": "p1",
-      "url": "https://www.oetkercollection.com/hotels/chateau-saint-martin/accommodation/?utm_source=newsletter&utm_medium=email&utm_campaign=CSM_Endofseason_Dec_17_tag&sertrack=1",
-      "tier": "official",
-      "fetched_at": "2026-10-13T06:41:28.240Z",
-      "source": "cache"
-    },
-    {
-      "id": "p2",
-      "url": "https://www.cntraveler.com/hotels/vence/chateau-saint-martin-and-spa",
-      "tier": "editorial",
-      "fetched_at": "2026-10-13T06:41:37.567Z",
-      "source": "direct"
-    }
-  ],
-  "inaccessible": [
-    {
-      "url": "https://www.oetkercollection.com/hotels/chateau-saint-martin/",
-      "reason": "no same-property sub-page links found on the home page"
-    }
-  ],
+  "pages": [],
+  "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 5,
-    "firecrawl_searches": 3,
-    "cache_hits": 2,
-    "direct_fetches": 1,
-    "pages": 2,
-    "chars": 6470,
-    "est_claude_tokens": 1618
+    "firecrawl_calls": 1,
+    "firecrawl_searches": 0,
+    "cache_hits": 0,
+    "direct_fetches": 0,
+    "pages": 0,
+    "chars": 0,
+    "est_claude_tokens": 0
   },
   "limits": {
     "maxPages": 12,
@@ -72,5 +45,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-13T06:41:37.568Z"
+  "researched_at": "2026-10-13T06:46:29.184Z"
 }
