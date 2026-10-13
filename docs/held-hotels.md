@@ -112,12 +112,10 @@ All 4 Oetker hotels are live. Jumby Bay was hand-accepted (official page does no
 
 ## Park Hyatt (collection/8)
 
-46 of the 51 hotels are live. Held:
+48 of the 51 hotels are live (Los Cabos and Changbaishan hand-accepted). Held:
 
 | Hotel | Reason |
 |---|---|
-| Park Hyatt Los Cabos at Cabo del Sol | Official page hyatt.com/.../cabph-park-hyatt-cabo-del-sol does not mention Cabo San Lucas; awaiting hand-accept approval |
-| Park Hyatt Changbaishan | Official page hyatt.com/.../nbsph-park-hyatt-changbaishan does not mention Baishan; awaiting hand-accept approval |
 | Ararat Park Hyatt Moscow | No hyatt.com property page found (only a spa landing page) |
 | Hyatt Vancouver Downtown Alberni | Under renovation; Conde Nast says it will reopen as a Park Hyatt (target end of 2026) |
 | Park Hyatt Dubai | Official site: long-term enhancement from May 2026; all hotel outlets temporarily closed |
