@@ -1,13 +1,8 @@
 {
   "slug": "hotel-savoy-a-rocco-forte-hotel",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "https://careers.roccofortehotels.com/locations/hotel-savoy-florence: https://careers.roccofortehotels.com/locations/hotel-savoy-florence is a Rocco Forte landing page, not a property page",
-    "https://press.roccofortehotels.com/rocco-forte-hotels-unveils-new-design-at-hotel-savoy-in-florence-and-hotel-de-russie-in-rome/?lang=en: https://press.roccofortehotels.com/rocco-forte-hotels-unveils-new-design-at-hotel-savoy-in-florence-and-hotel-de-russie-in-rome/?lang=en is a Rocco Forte landing page, not a property page",
-    "https://www.roccofortehotels.com/hotels-and-resorts/hotel-savoy/accommodation/: only 67% of the hotel name appears on the page",
-    "official website could not be confirmed; flag for review"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "Hotel Savoy, a Rocco Forte Hotel",
@@ -19,31 +14,77 @@
       "kind": "chain",
       "chain": "rocco-forte"
     },
-    "evidence": [],
-    "reasons": [
-      "https://careers.roccofortehotels.com/locations/hotel-savoy-florence: https://careers.roccofortehotels.com/locations/hotel-savoy-florence is a Rocco Forte landing page, not a property page",
-      "https://press.roccofortehotels.com/rocco-forte-hotels-unveils-new-design-at-hotel-savoy-in-florence-and-hotel-de-russie-in-rome/?lang=en: https://press.roccofortehotels.com/rocco-forte-hotels-unveils-new-design-at-hotel-savoy-in-florence-and-hotel-de-russie-in-rome/?lang=en is a Rocco Forte landing page, not a property page",
-      "https://www.roccofortehotels.com/hotels-and-resorts/hotel-savoy/accommodation/: only 67% of the hotel name appears on the page",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Florence, IT)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://careers.roccofortehotels.com/locations/hotel-savoy-florence",
-      "https://press.roccofortehotels.com/rocco-forte-hotels-unveils-new-design-at-hotel-savoy-in-florence-and-hotel-de-russie-in-rome/",
-      "https://www.roccofortehotels.com/hotels-and-resorts/hotel-savoy/accommodation/"
+      "https://www.roccofortehotels.com/hotels-and-resorts/hotel-savoy/"
     ],
-    "checked_at": "2026-10-14T04:18:39.849Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-14T04:37:11.085Z",
+    "status": "confirmed",
+    "official_url": "https://www.roccofortehotels.com/hotels-and-resorts/hotel-savoy/",
+    "base_url": "https://www.roccofortehotels.com/hotels-and-resorts/hotel-savoy/",
+    "host": "roccofortehotels.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.roccofortehotels.com/hotels-and-resorts/hotel-savoy/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T04:37:15.702Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.roccofortehotels.com/hotels-and-resorts/hotel-savoy/accommodation/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T04:37:23.762Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.roccofortehotels.com/hotels-and-resorts/hotel-savoy/dining/irene/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T04:37:31.885Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.roccofortehotels.com/hotels-and-resorts/hotel-savoy/dining/bar-artemisia/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T04:37:36.663Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.roccofortehotels.com/hotels-and-resorts/hotel-savoy/experiences-activities/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T04:37:41.137Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.cntraveler.com/hotels/florence/hotels/italy/scandicci/hotel-savoy-florence",
+      "tier": "editorial",
+      "fetched_at": "2026-10-14T04:37:46.158Z",
+      "source": "direct"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 5,
-    "firecrawl_searches": 2,
+    "firecrawl_calls": 8,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 6,
+    "chars": 51357,
+    "est_claude_tokens": 12839
   },
   "limits": {
     "maxPages": 12,
@@ -51,5 +92,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-14T04:19:10.995Z"
+  "researched_at": "2026-10-14T04:37:46.158Z"
 }
