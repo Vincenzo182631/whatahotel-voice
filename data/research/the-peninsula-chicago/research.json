@@ -1,9 +1,9 @@
 {
   "slug": "the-peninsula-chicago",
   "status": "awaiting_extraction",
-  "partial": false,
+  "partial": true,
   "reasons": [
-    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+    "limit reached: 16 Firecrawl calls; progress saved (11 pages), rerun with higher limits to continue"
   ],
   "identity": {
     "hotel": {
@@ -22,12 +22,13 @@
     ],
     "reasons": [],
     "candidates": [
-      "https://www.peninsula.com/en/newsroom/chicago"
+      "https://www.peninsula.com/en/newsroom/chicago",
+      "https://www.peninsula.com/en/chicago/5-star-luxury-hotel-downtown-chicago"
     ],
-    "checked_at": "2026-10-14T00:04:48.242Z",
+    "checked_at": "2026-10-14T00:06:51.779Z",
     "status": "confirmed",
-    "official_url": "https://www.peninsula.com/en/newsroom/chicago",
-    "base_url": "https://www.peninsula.com/en/newsroom/",
+    "official_url": "https://www.peninsula.com/en/chicago/5-star-luxury-hotel-downtown-chicago",
+    "base_url": "https://www.peninsula.com/en/chicago/",
     "host": "peninsula.com",
     "checks": {
       "name_coverage": 1,
@@ -37,33 +38,91 @@
   "pages": [
     {
       "id": "p1",
-      "url": "https://www.peninsula.com/en/newsroom/chicago",
+      "url": "https://www.peninsula.com/en/chicago/5-star-luxury-hotel-downtown-chicago",
       "tier": "official",
-      "fetched_at": "2026-10-14T00:05:03.584Z",
-      "source": "cache"
+      "fetched_at": "2026-10-14T00:07:13.340Z",
+      "source": "firecrawl"
     },
     {
       "id": "p2",
-      "url": "https://www.cntraveler.com/hotels/united-states/chicago/the-peninsula-chicago",
-      "tier": "editorial",
-      "fetched_at": "2026-10-14T00:05:09.990Z",
-      "source": "direct"
-    }
-  ],
-  "inaccessible": [
+      "url": "https://www.peninsula.com/en/chicago/pet-friendly-accommodations/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T00:07:21.164Z",
+      "source": "firecrawl"
+    },
     {
-      "url": "https://www.peninsula.com/en/newsroom/",
-      "reason": "no same-property sub-page links found on the home page"
+      "id": "p3",
+      "url": "https://www.peninsula.com/en/chicago/luxury-hotel-room-suite-types/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T00:07:25.694Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.peninsula.com/en/chicago/hotel-fine-dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T00:07:29.328Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.peninsula.com/en/chicago/hotel-fine-dining/shanghai-terrace-cantonese/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T00:07:33.556Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.peninsula.com/en/chicago/wellness/pool/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T00:07:37.258Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.peninsula.com/en/chicago/wellness/membership/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T00:07:41.196Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.peninsula.com/en/chicago/wellness/sun-terrace/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T00:07:45.783Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.peninsula.com/en/chicago/wellness/fitness-centre/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T00:07:50.109Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.peninsula.com/en/chicago/wellness/luxury-hotel-spa-chicago/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T00:07:53.316Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://www.peninsula.com/en/chicago/25th-anniversary/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T00:07:57.154Z",
+      "source": "firecrawl"
     }
   ],
+  "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 4,
-    "firecrawl_searches": 3,
-    "cache_hits": 2,
-    "direct_fetches": 1,
-    "pages": 2,
-    "chars": 12273,
-    "est_claude_tokens": 3068
+    "firecrawl_calls": 16,
+    "firecrawl_searches": 2,
+    "cache_hits": 0,
+    "direct_fetches": 0,
+    "pages": 11,
+    "chars": 50714,
+    "est_claude_tokens": 12679
   },
   "limits": {
     "maxPages": 12,
@@ -71,5 +130,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-14T00:05:09.991Z"
+  "researched_at": "2026-10-14T00:07:59.680Z"
 }
