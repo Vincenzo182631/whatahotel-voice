@@ -124,9 +124,16 @@ export const CHAINS: Chain[] = [
     match: /\bregent\b/i,
     domains: ["regenthotels.com"],
     secondaryDomains: ["ihg.com"],
+    // <city>.regenthotels.com/... -> origin; regenthotels.com/<property>/... -> first segment;
     // ihg.com/regent/hotels/us/en/<city>/<code>/hoteldetail -> .../hotels/us/en/<city>/<code>/
     base: (u) => {
+      const host = u.hostname.toLowerCase();
+      if (host.endsWith(".regenthotels.com") && !host.startsWith("www.")) return `${u.origin}/`;
       const s = seg(u);
+      if (host.endsWith("regenthotels.com")) {
+        const b = firstOne(u);
+        return b && !/\/(offers|media|careers|about|destinations|search|legal|privacy|news|stories|wp-content)\/$/i.test(b) ? b : undefined;
+      }
       const i = s.indexOf("hotels");
       if (i >= 0 && s.length >= i + 5 && /^[a-z]{2}$/i.test(s[i + 1] ?? "") && /^[a-z]{2}$/i.test(s[i + 2] ?? "")) return `${u.origin}/${s.slice(0, i + 5).join("/")}/`;
       return undefined;
