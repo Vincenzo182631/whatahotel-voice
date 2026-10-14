@@ -145,3 +145,9 @@ All 14 done. The Carlton Milano hand-accepted by the user (official page names i
 - Hotel de Rome (Berlin): official pages were unreadable; script is sourced from Condé Nast Traveler only.
 - Rocco Forte House Rome: WhataHotel's page is badly wrong (1930s villa in Parioli, 15 suites, rooftop restaurant); official: 18th-century palazzo at 114 Via del Babuino, five apartments, no restaurant. WhataHotel copy needs correcting.
 - Other WhataHotel contradictions: The Charles (Old Town/Frauenkirche, "Michelin-starred Sophia's"), Brown's (1837, HIX Mayfair), de la Ville (Mosaico rooftop), Amigo (Belgian comic art at Bocconi), Balmoral (Number One Michelin star; official says Michelin Guide-recommended), Savoy (rooftop bar), Verdura villas (three courses, IRENE Spa), House Milan (14 suites vs 11 apartments).
+
+## Rosewood (collection/10)
+
+All 42 published. Hand-accepted by the user (official page lacks WhataHotel's city name): Kauri Cliffs, Matakauri, Bermuda, Cape Kidnappers, Kona Village, Mandarina, Miyakojima, Las Ventanas, Baha Mar.
+- rosewoodhotels.com sub-pages mostly scrape as homepage copies, so many profiles rest on the official homepage + dining page + Condé Nast Traveler.
+- WhataHotel page errors worth fixing: The Chancery Rosewood page describes Rosewood London (Holborn) instead of the former US Embassy on Grosvenor Square; Sao Paulo neighborhood (Vila Madalena/Cidade Jardim vs Bela Vista); Sand Hill city (Palo Alto vs Menlo Park); Bangkok (Lakorn/spa floors); Phnom Penh (Iza is Japanese, not Khmer); Villa Magna ("Flor de Caña" not a venue); Beijing (Red Bowl is hot pot, not Peking duck); San Miguel (new build 2011, not a convent); Mayakoba (1,600 vs 620 acres); Castiglion (4,200 vs 5,000 acres); Bermuda (one golf club, Hamilton Parish).
