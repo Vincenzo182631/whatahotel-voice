@@ -1,0 +1,397 @@
+{
+  "hotel_slug": "waldorf-versailles-trianon-palace",
+  "hotel_name": "Waldorf Versailles Trianon Palace",
+  "checked_at": "2026-10-14T23:06:47.377Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hilton.com/en/hotels/cdgtpwa-waldorf-astoria-versailles-trianon-palace/",
+      "tier": "official",
+      "chars": 30000
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hilton.com/en/hotels/cdgtpwa-waldorf-astoria-versailles-trianon-palace/rooms/trianon-palace/",
+      "tier": "official",
+      "chars": 7494
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hilton.com/en/hotels/cdgtpwa-waldorf-astoria-versailles-trianon-palace/rooms/pavillon-du-trianon/",
+      "tier": "official",
+      "chars": 6435
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hilton.com/en/hotels/cdgtpwa-waldorf-astoria-versailles-trianon-palace/dining/",
+      "tier": "official",
+      "chars": 3596
+    },
+    {
+      "id": "d5",
+      "url": "https://www.cntraveler.com/hotels/versailles/trianon-palace-versailles",
+      "tier": "editorial",
+      "chars": 6965
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "Firecrawl 402 search \"\"Waldorf Versailles Trianon Palace\" site:cntraveler.com\": Insufficient credits to perform this request. For more credits, you can upgrade "
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel sits at the edge of the Chateau de Versailles gardens and has occupied its site since 1910.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Just at the edge of the Chateau de Versailles gardens, the Trianon Palace has occupied a prime piece of real estate since 1910.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/versailles/trianon-palace-versailles",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The architecture takes its inspiration from the Grand Trianon at Versailles.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The architecture takes its inspiration from the Grand Trianon, the pink-marble hideaway built by the Louis XIV as an escape from confining courtly life.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/versailles/trianon-palace-versailles",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Trianon Palace building features neoclassical architecture and a grand gallery filled with daylight.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The Trianon Palace is a 5 star venue featuring majestic neoclassical architecture and opulent décor. Discover our grand gallery filled with daylight",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/cdgtpwa-waldorf-astoria-versailles-trianon-palace/rooms/trianon-palace/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel has two sections, Trianon Palace and Pavillon du Trianon.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "guests will have the choice of two sections, Trianon Palace and Pavillon du Trianon",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/cdgtpwa-waldorf-astoria-versailles-trianon-palace/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Most Pavillon du Trianon rooms overlook the hotel's gardens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The Pavillon is a 4 star building accommodating 99 rooms, most of which overlook the hotel’s stunning gardens.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/cdgtpwa-waldorf-astoria-versailles-trianon-palace/rooms/pavillon-du-trianon/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Palace suites have a separate living area and views of the Chateau and its Royal Domain.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Experience unrivalled luxury in our collection of five-star suites. Relax with a separate living area and views of the Chateau and its Royal Domain.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/cdgtpwa-waldorf-astoria-versailles-trianon-palace/rooms/trianon-palace/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Rooms have mosaic-tiled marble bathrooms with heated floors.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Rooms come with Nespresso machines, Salvatore Ferragamo bath products, and mosaic-tiled marble bathrooms with heated floors.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/versailles/trianon-palace-versailles",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "La Véranda brasserie serves breakfast, lunch and dinner with continental cuisine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Open for breakfast, lunch, and dinner, La Véranda brasserie offers exquisite continental cuisine",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/cdgtpwa-waldorf-astoria-versailles-trianon-palace/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Peacock Alley serves afternoon tea and a wide selection of wines.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Enjoy afternoon tea, a wide selection of wines, plus a warm and relaxing atmosphere at Peacock Alley.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/cdgtpwa-waldorf-astoria-versailles-trianon-palace/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel's culinary duo is Executive Chef Frédéric Larquemin and Pastry Chef Eddie Benghanem.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Learn more about Executive Chef Frédéric Larquemin and Pastry Chef Eddie Benghanem, our unique duo at Waldorf Astoria Versailles.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/cdgtpwa-waldorf-astoria-versailles-trianon-palace/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "There is a kids club for younger guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "There’s also a well-equipped kids club to keep younger guests entertained.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/versailles/trianon-palace-versailles",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The hotel has a conference center for corporate meetings and events.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "there’s a well-equipped conference center staging corporate meetings and events",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/versailles/trianon-palace-versailles",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Salon Clemenceau, the hotel's historic ballroom, hosted the official delegations working out the details of the Treaty of Versailles in 1919.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The Salon Clemenceau, the historic gold-etched ballroom, illuminated by crystal chandeliers, was the site of the official delegations for hammering out the details of the Treaty of Versailles in 1919.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/versailles/trianon-palace-versailles",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Guests can walk directly from the hotel into the Chateau de Versailles gardens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Walking directly into the Chateau de Versailles gardens from the hotel.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/versailles/trianon-palace-versailles",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The architect, René Sergent, also designed the Savoy and Claridge's hotels in London.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Its architect René Sergent was also the mastermind behind the Savoy and Claridge’s hotels in London",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/versailles/trianon-palace-versailles",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Guerlain spa's treatment rooms are arranged around a glass-roofed swimming pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The Guerlain spa, spread across 30,000 square feet on three levels",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/versailles/trianon-palace-versailles",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "14 treatment rooms are oriented around the glass-roofed swimming pool.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/versailles/trianon-palace-versailles",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "In warmer months, La Véranda's terrace has a view of the Palace of Versailles.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "During the warmer months, ask for a table on the terrace to enjoy the beautiful view of the Palace of Versailles.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/cdgtpwa-waldorf-astoria-versailles-trianon-palace/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The restaurants, bar, spa and swimming pool are all in the Palace building; Pavillon du Trianon guests reach them by a dedicated pathway.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The restaurants, bar, spa, and swimming pool are located in the Palace building, which is easily accessible through a dedicated pathway.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/cdgtpwa-waldorf-astoria-versailles-trianon-palace/rooms/pavillon-du-trianon/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Condé Nast Traveler advises requesting a garden- or park-facing room in the historic hotel rather than the newer annex.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Request a garden or park-facing room in the historic hotel and not the newer annex.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/versailles/trianon-palace-versailles",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the hotel is outside central Paris, so city sights need transportation.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
