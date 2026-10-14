@@ -1,10 +1,9 @@
 {
   "slug": "the-st-regis-bahia-beach-resort",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
   "reasons": [
-    "https://www.marriott.com/en-us/hotels/sjuxr-the-st-regis-bahia-beach-resort-puerto-rico/overview/: page does not mention Rio Grande",
-    "official website could not be confirmed; flag for review"
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
   ],
   "identity": {
     "hotel": {
@@ -17,27 +16,54 @@
       "kind": "chain",
       "chain": "marriott"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.marriott.com/en-us/hotels/sjuxr-the-st-regis-bahia-beach-resort-puerto-rico/overview/: page does not mention Rio Grande",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "confirmed by hand as this hotel's own page (page does not mention Rio Grande)"
     ],
+    "reasons": [],
     "candidates": [
       "https://www.marriott.com/en-us/hotels/sjuxr-the-st-regis-bahia-beach-resort-puerto-rico/overview/"
     ],
-    "checked_at": "2026-10-14T08:07:35.269Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-14T11:18:00.749Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/sjuxr-the-st-regis-bahia-beach-resort-puerto-rico/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/sjuxr-the-st-regis-bahia-beach-resort-puerto-rico/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": false
+    }
   },
-  "pages": [],
-  "inaccessible": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/sjuxr-the-st-regis-bahia-beach-resort-puerto-rico/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T11:18:05.610Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.cntraveler.com/hotels/rio-grande/rio-grande/st-regis-bahia-beach-resort-rio-grande",
+      "tier": "editorial",
+      "fetched_at": "2026-10-14T11:18:20.283Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.marriott.com/en-us/hotels/sjuxr-the-st-regis-bahia-beach-resort-puerto-rico/",
+      "reason": "no same-property sub-page links found on the home page"
+    }
+  ],
   "usage": {
-    "firecrawl_calls": 1,
-    "firecrawl_searches": 0,
+    "firecrawl_calls": 4,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 2,
+    "chars": 12570,
+    "est_claude_tokens": 3143
   },
   "limits": {
     "maxPages": 12,
@@ -45,5 +71,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-14T08:07:36.136Z"
+  "researched_at": "2026-10-14T11:18:20.283Z"
 }
