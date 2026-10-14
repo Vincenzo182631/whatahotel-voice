@@ -2,9 +2,7 @@
   "slug": "the-peninsula-london",
   "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "some pages were inaccessible; missing information is not proof an amenity does not exist"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "The Peninsula London",
@@ -22,12 +20,13 @@
     ],
     "reasons": [],
     "candidates": [
-      "https://www.peninsula.com/en/newsroom/london"
+      "https://www.peninsula.com/en/newsroom/london",
+      "https://www.peninsula.com/en/london/5-star-luxury-hotel-belgravia"
     ],
-    "checked_at": "2026-10-14T00:04:54.433Z",
+    "checked_at": "2026-10-14T00:15:55.428Z",
     "status": "confirmed",
-    "official_url": "https://www.peninsula.com/en/newsroom/london",
-    "base_url": "https://www.peninsula.com/en/newsroom/",
+    "official_url": "https://www.peninsula.com/en/london/5-star-luxury-hotel-belgravia",
+    "base_url": "https://www.peninsula.com/en/london/",
     "host": "peninsula.com",
     "checks": {
       "name_coverage": 1,
@@ -37,33 +36,84 @@
   "pages": [
     {
       "id": "p1",
-      "url": "https://www.peninsula.com/en/newsroom/london",
+      "url": "https://www.peninsula.com/en/london/5-star-luxury-hotel-belgravia",
       "tier": "official",
-      "fetched_at": "2026-10-14T00:05:06.240Z",
-      "source": "cache"
+      "fetched_at": "2026-10-14T00:16:11.622Z",
+      "source": "firecrawl"
     },
     {
       "id": "p2",
+      "url": "https://www.peninsula.com/en/london/luxury-hotel-room-suite-types/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T00:16:21.380Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.peninsula.com/en/london/hotel-fine-dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T00:16:24.796Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.peninsula.com/en/london/hotel-fine-dining/the-lobby/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T00:16:28.895Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.peninsula.com/en/london/wellness/spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T00:16:33.551Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.peninsula.com/en/london/wellness/pool/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T00:16:37.551Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.peninsula.com/en/london/wellness/fitness-centre/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T00:16:41.221Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.peninsula.com/en/london/the-art-fleet/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T00:16:45.066Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.peninsula.com/en/london/5-star-luxury-hotel-belgravia/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T00:16:47.659Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
       "url": "https://www.cntraveler.com/hotels/the-peninsula-london",
       "tier": "editorial",
-      "fetched_at": "2026-10-14T00:05:11.683Z",
+      "fetched_at": "2026-10-14T00:16:52.750Z",
       "source": "direct"
     }
   ],
-  "inaccessible": [
-    {
-      "url": "https://www.peninsula.com/en/newsroom/",
-      "reason": "no same-property sub-page links found on the home page"
-    }
-  ],
+  "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 4,
+    "firecrawl_calls": 15,
     "firecrawl_searches": 3,
-    "cache_hits": 2,
+    "cache_hits": 0,
     "direct_fetches": 1,
-    "pages": 2,
-    "chars": 15336,
-    "est_claude_tokens": 3834
+    "pages": 10,
+    "chars": 49022,
+    "est_claude_tokens": 12256
   },
   "limits": {
     "maxPages": 12,
@@ -71,5 +121,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-14T00:05:11.684Z"
+  "researched_at": "2026-10-14T00:16:52.750Z"
 }
