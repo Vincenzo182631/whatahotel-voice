@@ -1,11 +1,8 @@
 {
   "slug": "trump-hotel-doonbeg-ireland",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "https://www.trumphotels.com/ireland: page does not mention County Clare",
-    "official website could not be confirmed; flag for review"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "Trump Hotel, Doonbeg Ireland",
@@ -17,27 +14,84 @@
       "kind": "chain",
       "chain": "trump"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.trumphotels.com/ireland: page does not mention County Clare",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "confirmed by hand as this hotel's own page (page does not mention County Clare)"
     ],
+    "reasons": [],
     "candidates": [
       "https://www.trumphotels.com/ireland"
     ],
-    "checked_at": "2026-10-14T22:30:12.814Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-14T22:32:05.649Z",
+    "status": "confirmed",
+    "official_url": "https://www.trumphotels.com/ireland",
+    "base_url": "https://www.trumphotels.com/ireland/",
+    "host": "trumphotels.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": false
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.trumphotels.com/ireland",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:32:06.167Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.trumphotels.com/ireland/accommodations/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:32:09.023Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.trumphotels.com/ireland/spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:32:13.441Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.trumphotels.com/ireland/golf/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:32:16.389Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.trumphotels.com/ireland/signature-programs/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:32:20.812Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.trumphotels.com/ireland/awards-and-accolades/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:32:30.142Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.cntraveler.com/hotels/ireland/doonbeg/lodge-at-doonbeg-co-clare",
+      "tier": "editorial",
+      "fetched_at": "2026-10-14T22:32:34.723Z",
+      "source": "cache"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 1,
-    "firecrawl_searches": 0,
-    "cache_hits": 0,
+    "firecrawl_calls": 6,
+    "firecrawl_searches": 1,
+    "cache_hits": 4,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 7,
+    "chars": 29028,
+    "est_claude_tokens": 7257
   },
   "limits": {
     "maxPages": 12,
@@ -45,5 +99,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-14T22:30:13.862Z"
+  "researched_at": "2026-10-14T22:32:34.723Z"
 }
