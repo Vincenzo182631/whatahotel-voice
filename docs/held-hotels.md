@@ -173,7 +173,7 @@ All 9 published.
 
 ## Thompson (collection/75)
 
-15 of 16 done.
+15 of 16 published.
 - Thompson Miami Beach: held. No Thompson property page; Hyatt newsroom says the hotel was acquired and rebranded as The Confidante (Unbound Collection).
 - Offers: WhataHotel pages print both $100 and $200 credits; closings use the hotel perks table ($100). The offers check reads WhataHotel's Hyatt Centric collection page as the chain page.
 - WhataHotel page errors: The Beekman (address 5 Beekman St vs 123 Nassau St; Keith McNally/Augustine vs Colicchio/Boulud venues); Gild Hall (gothic guildhall vs midcentury Walrod design); The Cape (adults-only, swimmable beach, Japanese Manta); Zihuatanejo (clifftop/adults-only vs beachfront Playa La Ropa); Savannah (Bull St vs 201 Port St; rooftop bar is Bar Julian, not Fleeting); Central Park (57th St vs 119 W 56th St); Denver (Golden Triangle vs LoDo); Dallas (Deep Ellum/Arts District vs Main Street District; Catbird is 10th floor); Austin (Lady Bird Lake views, 2nd Street); Madrid (Justicia/Prado vs Plaza del Carmen); Washington DC (downtown vs Navy Yard); Chicago (rooftop bar not listed). Several pages claim rooftop bars the official sites don't list.
