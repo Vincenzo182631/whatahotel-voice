@@ -1,0 +1,103 @@
+{
+  "slug": "trump-international-tower-las-vegas",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "Trump International Tower Las Vegas",
+      "city": "Las Vegas",
+      "country": "US",
+      "chain": "trump"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "trump"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Las Vegas, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.trumphotels.com/las-vegas/las-vegas-luxury-hotel"
+    ],
+    "checked_at": "2026-10-14T22:26:40.652Z",
+    "status": "confirmed",
+    "official_url": "https://www.trumphotels.com/las-vegas/las-vegas-luxury-hotel",
+    "base_url": "https://www.trumphotels.com/las-vegas/",
+    "host": "trumphotels.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.trumphotels.com/las-vegas/las-vegas-luxury-hotel",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:26:59.693Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.trumphotels.com/las-vegas/accommodations/las-vegas-hotel-suites/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:27:02.304Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.trumphotels.com/las-vegas/accommodations/las-vegas-penthouse-suites/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:27:06.842Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.trumphotels.com/las-vegas/spa/spa-services-las-vegas/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:27:11.477Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.trumphotels.com/las-vegas/luxury-hotel-programs/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:27:15.451Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.trumphotels.com/las-vegas/las-vegas-luxury-hotel/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:27:16.837Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.cntraveler.com/hotels/las-vegas/trump-international-hotel-las-vegas",
+      "tier": "editorial",
+      "fetched_at": "2026-10-14T22:27:26.751Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 11,
+    "firecrawl_searches": 5,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 7,
+    "chars": 27670,
+    "est_claude_tokens": 6918
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-14T22:27:26.752Z"
+}
