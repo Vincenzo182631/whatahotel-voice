@@ -121,3 +121,7 @@ All 4 Oetker hotels are live. Jumby Bay was hand-accepted (official page does no
 | Park Hyatt Dubai | Official site: long-term enhancement from May 2026; all hotel outlets temporarily closed |
 
 Many WhataHotel Park Hyatt pages contradict the official sites (locations, floors, pools, restaurants), e.g. Toronto, Kuala Lumpur, Jakarta, Chennai, Shenzhen, Guangzhou, Washington, Johannesburg, Bangkok; those claims were not used.
+
+## Peninsula (collection/9)
+
+All 12 hotels are live (Tokyo was published earlier as peninsula-tokyo). WhataHotel's Peninsula pages often contradict the official sites (Rolls-Royce fleets vs BMW/MINI, ESPA spas, helipads, Paris address and rooftop spa); only official facts were used.
