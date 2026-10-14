@@ -164,3 +164,9 @@ All 42 published. Hand-accepted by the user (official page lacks WhataHotel's ci
 - Held: St. Regis Moscow Nikolskaya (Marriott has exited Russia; no official page). Dubai The Palm (closed, reopening 1 Nov 2026). Houston (renamed Houston Grand Hotel – River Oaks; no longer a St. Regis).
 - Bahia Beach: official page didn't load; script sourced only from an undated Condé Nast Traveler review.
 - WhataHotel page errors: Hong Kong page describes The Ritz-Carlton Hong Kong; Mexico City (Polanco vs Reforma 439, Cuauhtémoc); Riyadh (KAFD vs Diplomatic Quarter); London (Belgravia vs 37 Conduit St, Mayfair); Longboat Key (no golf on property); Aruba (Surfside vs Palm Beach); Costa Mujeres (distances, overwater suites); Aspen ("only ski-in", Remède spa, 5-star vs 4-star with RAKxa spa).
+
+## Dorchester Collection (collection/37)
+
+All 9 published.
+- Principe di Savoia (Milan): Condé Nast Traveler says it closes 1 Jan 2027 for restoration, reopening 2029 (not on the official site). The script mentions it; consideration expires 2027-01-01, so re-check/unpublish then.
+- WhataHotel page errors: The Dorchester (claims its own daylit spa pool; official: guests use 45 Park Lane's pool); 45 Park Lane ("largest suites, 3,000 sq ft" vs 1,829 sq ft top suite; robatayaki at CUT); Beverly Hills Hotel (postcode 9641 vs 90210; "Cabana Club"); Bel-Air (Wolfgang Puck/Michelin); Plaza Athénée (Alain Ducasse restaurant now La Grande Table); Le Meurice (tea in Bar 228 vs Le Dalí); Eden (Michelin star at Il Giardino vs La Terrazza; "top of Spanish Steps"); The Lana (DIFC vs Business Bay; Stay by Yannick Alléno not listed).
