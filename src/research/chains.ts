@@ -154,6 +154,8 @@ export const CHAINS: Chain[] = [
       return (s[o] === "hotels-and-resorts" || s[o] === "rocco-forte-house") && s[o + 1] ? `${u.origin}/${s.slice(0, o + 2).join("/")}/` : undefined;
     },
   },
+  { id: "sls", name: "SLS", match: /\bsls\b/i, domains: ["slshotels.com"], secondaryDomains: ["all.accor.com", "ennismore.com"],
+    base: (u) => { const b = firstOne(u); return b && !/\/(offers|about|careers|press|news|destinations|search|legal|privacy|residences|stories|loyalty|en|es|fr)\/$/i.test(b) ? b : undefined; } },
   { id: "langham", name: "Langham", match: /langham|cordis/i, domains: ["langhamhotels.com", "cordishotels.com"], base: (u) => (u.hostname.includes("cordishotels") ? firstOne(u) : firstTwo(u)) },
   { id: "montage", name: "Montage", match: /montage/i, domains: ["montage.com", "montagehotels.com"], base: firstOne },
   { id: "oetker", name: "Oetker Collection", match: /oetker|le bristol paris|eden rock|jumby bay|chateau saint-martin/i, domains: ["oetkercollection.com"], base: firstTwo },
