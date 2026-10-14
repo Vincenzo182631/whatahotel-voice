@@ -1,0 +1,433 @@
+{
+  "hotel_slug": "raffles-hotel-le-royal",
+  "hotel_name": "Raffles Hotel Le Royal",
+  "checked_at": "2026-10-14T01:19:03.192Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.raffles.com/phnom-penh/",
+      "tier": "official",
+      "chars": 19108
+    },
+    {
+      "id": "d2",
+      "url": "https://www.raffles.com/phnom-penh/rooms-and-suites/",
+      "tier": "official",
+      "chars": 23309
+    },
+    {
+      "id": "d3",
+      "url": "https://www.raffles.com/phnom-penh/spa/",
+      "tier": "official",
+      "chars": 23979
+    },
+    {
+      "id": "d4",
+      "url": "https://www.raffles.com/phnom-penh/dining/restaurant-le-royal/",
+      "tier": "official",
+      "chars": 22430
+    },
+    {
+      "id": "d5",
+      "url": "https://www.raffles.com/phnom-penh/experiences/happy-hour-at-the-elephant-bar/",
+      "tier": "official",
+      "chars": 21358
+    },
+    {
+      "id": "d6",
+      "url": "https://www.raffles.com/phnom-penh/experiences/the-elephant-bar-gin-experience/",
+      "tier": "official",
+      "chars": 21436
+    },
+    {
+      "id": "d7",
+      "url": "https://www.cntraveler.com/hotels/phnom-penh/raffles-hotel-le-royal",
+      "tier": "editorial",
+      "chars": 10770
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel was built in 1929.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Built in 1929, it reopened as Raffles Hotel Le Royal in 1997",
+          "note": "built 1929",
+          "confirmed": true,
+          "url": "https://www.raffles.com/phnom-penh/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Le Royal opened in 1929",
+          "note": "opened 1929",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/phnom-penh/raffles-hotel-le-royal",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "It reopened as Raffles Hotel Le Royal in 1997 after extension and renovation.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "it reopened as Raffles Hotel Le Royal in 1997, following sensitive extension and renovation",
+          "note": "reopened 1997 after extension/renovation",
+          "confirmed": true,
+          "url": "https://www.raffles.com/phnom-penh/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel is set on a tree-lined avenue in central Phnom Penh.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Set on a tree-lined avenue in central Phnom Penh",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.raffles.com/phnom-penh/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Raffles Hotel Le Royal sits on a leafy, tree-lined street in central Phnom Penh",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/phnom-penh/raffles-hotel-le-royal",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel's style draws on French colonial, Khmer and Art Deco influences.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Inspired by French colonial, Khmer and Art Deco influences",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.raffles.com/phnom-penh/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Rooms have high ceilings, wooden floors and marble bathrooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Each room features high ceilings, wooden floors, and marble bathrooms",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.raffles.com/phnom-penh/rooms-and-suites/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "with their traditional high ceilings, wooden floors, and bathrooms of marble",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/phnom-penh/raffles-hotel-le-royal",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "State Rooms have air-conditioning, overhead fans and windows that open for fresh air.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "all rooms are beautifully appointed with air-conditioning, overhead fans and windows that open for fresh air",
+          "note": "State Room description",
+          "confirmed": true,
+          "url": "https://www.raffles.com/phnom-penh/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Elephant Bar Gin Experience includes two hours of unlimited gin cocktails and a gin tasting.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Enjoy two hours of unlimited gin cocktails and a gin tasting as part of this stupendous gin experience.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.raffles.com/phnom-penh/experiences/the-elephant-bar-gin-experience/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Elephant Bar has a daily happy hour with 40% off selected drinks between 6pm and 8pm.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Every day, the city’s favourite watering hole offers 40% off selected drinks between 6.00pm and 8.00pm.",
+          "note": "daily, 40%, 6-8pm",
+          "confirmed": true,
+          "url": "https://www.raffles.com/phnom-penh/experiences/happy-hour-at-the-elephant-bar/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Raffles Spa offers traditional Khmer and modern treatments.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "offering traditional Khmer and modern treatments",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.raffles.com/phnom-penh/spa/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Raffles Spa offers traditional Khmer and modern treatments",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.raffles.com/phnom-penh/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The spa has male and female wet areas with saunas, steam rooms and Jacuzzi, plus an outdoor lap pool and fitness centre.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "features male and female wet areas with saunas, steam rooms and Jacuzzi as well as five comfortably appointed treatment rooms, outdoor lap pool and fitness centre",
+          "note": "all elements",
+          "confirmed": true,
+          "url": "https://www.raffles.com/phnom-penh/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The signature Khmer massage, known as chad ta shai, is a vigorous, firm pressure point massage.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Signature Khmer Massage",
+          "note": "signature name",
+          "confirmed": true,
+          "url": "https://www.raffles.com/phnom-penh/spa/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "the traditional Khmer therapeutic massage, also known as chad ta shai, is a vigorous, firm pressure point massage",
+          "note": "description",
+          "confirmed": true,
+          "url": "https://www.raffles.com/phnom-penh/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Afternoon Tea is served at the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Step into a timeless tradition with Afternoon Tea at Raffles Hotel Le Royal",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.raffles.com/phnom-penh/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Suites are named to honour Cambodia's history or four former residents: Charlie Chaplin, Jacqueline Kennedy, Charles de Gaulle and Somerset Maugham.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "All of our suites have been individually named to honour Cambodia's history or to recall four of the hotel’s most illustrious former residents: Charlie Chaplin, Jacqueline Kennedy, Charles de Gaulle and Somerset Maugham.",
+          "note": "all four names",
+          "confirmed": true,
+          "url": "https://www.raffles.com/phnom-penh/rooms-and-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Many dishes at Restaurant Le Royal are made from recipes entrusted to the hotel by Cambodia's Royal Palace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Many of the succulent dishes offered in Restaurant Le Royal are crafted from recipes entrusted to us by Cambodia’s Royal Palace.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.raffles.com/phnom-penh/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Elephant Bar offers over 200 different types of gin, including its own locally crafted Elephant Bar Gin.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "offers over 200 different types of gin, including the legendary Sipsmith Raffles 1915 as well as our own locally crafted Elephant Bar Gin",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.raffles.com/phnom-penh/experiences/the-elephant-bar-gin-experience/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Landmark Rooms are in the 1929 historic building and have an original clawfoot bath.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located in 1929 historic building, high ceiling, wooden floor, ceiling fan, original clawfoot bath",
+          "note": "Landmark Room description",
+          "confirmed": true,
+          "url": "https://www.raffles.com/phnom-penh/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Restaurant Le Royal is set beneath a handpainted ceiling.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Set beneath a glorious handpainted ceiling, Restaurant Le Royal",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.raffles.com/phnom-penh/dining/restaurant-le-royal/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel names November to February as the best time to visit Phnom Penh, when the weather is cooler.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The ideal time to visit is from November to February when the weather is cooler and more pleasant for exploring the city.",
+          "note": "hotel FAQ",
+          "confirmed": true,
+          "url": "https://www.raffles.com/phnom-penh/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes premium luxury pricing reflecting the heritage brand positioning.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the historic building has traditional room layouts.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

@@ -1,9 +1,10 @@
 {
   "slug": "raffles-hotel-singapore",
-  "status": "awaiting_extraction",
+  "status": "ready",
   "partial": true,
   "reasons": [
-    "limit reached: 150000 characters of page text; progress saved (5 pages), rerun with higher limits to continue"
+    "limit reached: 150000 characters of page text; progress saved (5 pages), rerun with higher limits to continue",
+    "coverage is partial: a limit stopped the page fetch early; raise the limits and rerun to read the rest"
   ],
   "identity": {
     "hotel": {
@@ -87,5 +88,385 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-14T01:11:00.742Z"
+  "researched_at": "2026-10-14T01:11:00.742Z",
+  "hotel": {
+    "name": "Raffles Hotel Singapore",
+    "city": "Singapore",
+    "country": "SG",
+    "chain": "raffles",
+    "confirmed_affiliation": {
+      "kind": "chain",
+      "chain": "raffles"
+    }
+  },
+  "official_url": "https://www.raffles.com/singapore/",
+  "verified_facts": [
+    {
+      "id": "r-1",
+      "category": "location",
+      "text": "The hotel is at the heart of Singapore's business and civic district, a preserved colonial building among modern skyscrapers.",
+      "source_url": "https://www.raffles.com/singapore/about/",
+      "source_tier": "official",
+      "excerpt": "Raffles Singapore is at the heart of the vibrant business and civic district, a beacon of classic colonial architecture perfectly preserved among our modern-skyscraper neighbours."
+    },
+    {
+      "id": "r-2",
+      "category": "location",
+      "text": "The hotel is within walking distance of the Singapore International Convention & Exhibition Centre and Esplanade - Theatres on the Bay.",
+      "source_url": "https://www.raffles.com/singapore/about/",
+      "source_tier": "official",
+      "excerpt": "we are walking distance to Singapore International Convention & Exhibition Centre and Esplanade – Theatres on the Bay"
+    },
+    {
+      "id": "r-3",
+      "category": "location",
+      "text": "The Orchard Road shopping strip is a two-minute ride away on the Mass Rapid Transit.",
+      "source_url": "https://www.raffles.com/singapore/about/",
+      "source_tier": "official",
+      "excerpt": "It is a two-minute ride on the Mass Rapid Transit to the bustling Orchard Road shopping strip"
+    },
+    {
+      "id": "r-4",
+      "category": "practical",
+      "text": "The nearest Mass Rapid Transit stations are City Hall Station and Esplanade Station.",
+      "source_url": "https://www.raffles.com/singapore/about/",
+      "source_tier": "official",
+      "excerpt": "By Mass Rapid Transit (MRT): City Hall Station or Esplanade Station"
+    },
+    {
+      "id": "r-7",
+      "category": "design_history",
+      "text": "The hotel opened to the public on 1 December 1887 as a 10-room hotel run by the Armenian Sarkies brothers.",
+      "source_url": "https://www.raffles.com/singapore/about/",
+      "source_tier": "official",
+      "excerpt": "On 1 December, Raffles Hotel Singapore opened to the public as a 10-room hotel, by the Armenian Sarkies brothers.",
+      "as_of": "1887-12-01"
+    },
+    {
+      "id": "r-8",
+      "category": "design_history",
+      "text": "The hotel was officially declared a National Monument by the Singapore government in 1987, on its 100th anniversary.",
+      "source_url": "https://www.raffles.com/singapore/about/",
+      "source_tier": "official",
+      "excerpt": "Raffles Hotel Singapore is officially declared a National Monument by the Singapore government on her 100th anniversary.",
+      "as_of": "1987"
+    },
+    {
+      "id": "r-9",
+      "category": "design_history",
+      "text": "Hainanese bartender Ngiam Tong Boon created the Singapore Sling so that ladies of the time could enjoy alcohol in public.",
+      "source_url": "https://www.raffles.com/singapore/about/",
+      "source_tier": "official",
+      "excerpt": "Hainanese bartender Ngiam Tong Boon creates the iconic Singapore Sling, to allow ladies of the time to enjoy alcohol in public.",
+      "as_of": "1915"
+    },
+    {
+      "id": "r-10",
+      "category": "design_history",
+      "text": "Early guests included the writers Joseph Conrad, Rudyard Kipling and Somerset Maugham.",
+      "source_url": "https://www.raffles.com/singapore/about/",
+      "source_tier": "official",
+      "excerpt": "Some of our earliest guests included distinguished men of letters; Joseph Conrad, Rudyard Kipling and Somerset Maugham."
+    },
+    {
+      "id": "r-11",
+      "category": "design_history",
+      "text": "The hotel reopened in August 2019 after a restoration.",
+      "source_url": "https://www.raffles.com/singapore/about/",
+      "source_tier": "official",
+      "excerpt": "After a sensitive restoration, the hotel reopens in August 2019",
+      "as_of": "2019-08",
+      "needs_date_check": true
+    },
+    {
+      "id": "r-12",
+      "category": "design_history",
+      "text": "Parts of the film Crazy Rich Asians were filmed in the hotel's Presidential Suite and Grand Lobby.",
+      "source_url": "https://www.raffles.com/singapore/about/",
+      "source_tier": "official",
+      "excerpt": "is partly filmed in the Presidential Suite and Grand Lobby at Raffles",
+      "as_of": "2018"
+    },
+    {
+      "id": "r-13",
+      "category": "design_history",
+      "text": "The hotel is one of the world's few remaining functioning 19th-century hotels.",
+      "source_url": "https://www.raffles.com/singapore/",
+      "source_tier": "official",
+      "excerpt": "it is one of the world's few remaining functioning 19-century hotels"
+    },
+    {
+      "id": "r-14",
+      "category": "rooms",
+      "text": "The suites sit within colonial-style architecture with original 14ft ceilings.",
+      "source_url": "https://www.raffles.com/singapore/suites/",
+      "source_tier": "official",
+      "excerpt": "Within distinctive colonial style architecture and original 14ft ceilings"
+    },
+    {
+      "id": "r-15",
+      "category": "rooms",
+      "text": "The Palm Court Suites overlook the Palm Court, a garden reserved exclusively for hotel guests.",
+      "source_url": "https://www.raffles.com/singapore/",
+      "source_tier": "official",
+      "excerpt": "overlook the verdant Palm Court, a hidden gem at Raffles Singapore reserved exclusively for our guests"
+    },
+    {
+      "id": "r-16",
+      "category": "rooms",
+      "text": "The Personality Suites are a tribute to renowned past guests and feature memorabilia related to each one.",
+      "source_url": "https://www.raffles.com/singapore/",
+      "source_tier": "official",
+      "excerpt": "are a tribute to renowned guests who have visited Raffles over the last century. Featuring unique memorabilia related to each legendary name in the parlour and bedroom."
+    },
+    {
+      "id": "r-17",
+      "category": "rooms",
+      "text": "The State Room Suites, in the historic Bras Basah wing, have two separate entrances, one to the parlour and one to the bedroom.",
+      "source_url": "https://www.raffles.com/singapore/",
+      "source_tier": "official",
+      "excerpt": "Housed in Bras Basah wing, one of the most historic sections of Raffles Singapore, the State Room Suites have two separate entrances, one leading to the parlour, the other to your sumptuous bedroom."
+    },
+    {
+      "id": "r-18",
+      "category": "rooms",
+      "text": "The Residence Suites in the Raffles Arcade are named after famous local cinemas from the early to mid-1900s.",
+      "source_url": "https://www.raffles.com/singapore/",
+      "source_tier": "official",
+      "excerpt": "Residence Suites are named after famous local cinemas from the early to mid-1900s"
+    },
+    {
+      "id": "r-19",
+      "category": "amenities",
+      "text": "Guest amenities include personalised butler service.",
+      "source_url": "https://www.raffles.com/singapore/",
+      "source_tier": "official",
+      "excerpt": "Amenities include luxury suites, personalised butler service, spa, fitness facilities, pool, and curated dining experiences."
+    },
+    {
+      "id": "r-20",
+      "category": "amenities",
+      "text": "Tropical gardens occupy more than a quarter of the estate.",
+      "source_url": "https://www.raffles.com/singapore/about/",
+      "source_tier": "official",
+      "excerpt": "lush tropical gardens which occupy more than a quarter of the estate"
+    },
+    {
+      "id": "r-21",
+      "category": "amenities",
+      "text": "The pool is surrounded by tropical gardens on the third level of the main building.",
+      "source_url": "https://www.raffles.com/singapore/about/",
+      "source_tier": "official",
+      "excerpt": "Take an invigorating dip in the pool, surrounded by lush tropical gardens on the third level of the main building"
+    },
+    {
+      "id": "r-22",
+      "category": "amenities",
+      "text": "The hotel has a resident historian, Leslie Danker, who keeps many of its stories and legends.",
+      "source_url": "https://www.raffles.com/singapore/about/",
+      "source_tier": "official",
+      "excerpt": "Leslie Danker has been at Raffles Singapore for over 50 years, and is the keeper of many of its stories and legends."
+    },
+    {
+      "id": "r-23",
+      "category": "amenities",
+      "text": "Raffles Spa's hydrotherapy includes a vitality pool filled with Peruvian pink salt, a herbal sauna, an aromatherapy steam room and an ice fountain.",
+      "source_url": "https://www.raffles.com/singapore/spa/",
+      "source_tier": "official",
+      "excerpt": "A vitality pool filled with mineral-rich Peruvian pink salt, a herbal sauna, an aromatherapy steam room that releases pure salt vapour, and an ice fountain for cooling relaxation."
+    },
+    {
+      "id": "r-24",
+      "category": "amenities",
+      "text": "The spa has a Gem Suite, a private enclave for couples.",
+      "source_url": "https://www.raffles.com/singapore/spa/",
+      "source_tier": "official",
+      "excerpt": "The Gem Suite, a private enclave for couples"
+    },
+    {
+      "id": "r-25",
+      "category": "amenities",
+      "text": "The spa has a Pedi:Mani:Cure Studio by Bastien Gonzalez offering hand and foot treatments.",
+      "source_url": "https://www.raffles.com/singapore/spa/",
+      "source_tier": "official",
+      "excerpt": "Bastien Gonzalez's bespoke hand and foot treatments blend health, well-being, and beauty"
+    },
+    {
+      "id": "r-28",
+      "category": "amenities",
+      "text": "The Raffles Arcade shopping destination is within the hotel's walls.",
+      "source_url": "https://www.raffles.com/singapore/about/",
+      "source_tier": "official",
+      "excerpt": "Within our walls, the Raffles Arcade is an exciting shopping destination in its own right"
+    },
+    {
+      "id": "r-29",
+      "category": "dining",
+      "text": "1887 by Andre serves contemporary French cuisine.",
+      "source_url": "https://www.raffles.com/singapore/",
+      "source_tier": "official",
+      "excerpt": "1887 by André (contemporary French)"
+    },
+    {
+      "id": "r-30",
+      "category": "dining",
+      "text": "Yi by Jereme Leung serves refined Chinese cuisine.",
+      "source_url": "https://www.raffles.com/singapore/",
+      "source_tier": "official",
+      "excerpt": "yì by Jereme Leung (refined Chinese)"
+    },
+    {
+      "id": "r-31",
+      "category": "dining",
+      "text": "Tiffin Room serves North Indian cuisine.",
+      "source_url": "https://www.raffles.com/singapore/",
+      "source_tier": "official",
+      "excerpt": "Tiffin Room (North Indian)"
+    },
+    {
+      "id": "r-32",
+      "category": "dining",
+      "text": "The hotel has been serving tiffin curries since 1910.",
+      "source_url": "https://www.raffles.com/singapore/about/",
+      "source_tier": "official",
+      "excerpt": "Raffles Hotel Singapore has been serving tiffin curries since 1910."
+    },
+    {
+      "id": "r-33",
+      "category": "dining",
+      "text": "Butcher's Block serves wood-fire cuisine.",
+      "source_url": "https://www.raffles.com/singapore/",
+      "source_tier": "official",
+      "excerpt": "Butcher's Block (wood-fire cuisine)"
+    },
+    {
+      "id": "r-34",
+      "category": "dining",
+      "text": "Butcher's Block is led by Chef de Cuisine Jordan Keao, who was born and raised in Hawaii.",
+      "source_url": "https://www.raffles.com/singapore/dining/butchers-block/",
+      "source_tier": "official",
+      "excerpt": "Helmed by Chef de Cuisine Jordan Keao, who was born and raised in Hawaii"
+    },
+    {
+      "id": "r-35",
+      "category": "dining",
+      "text": "Dining options include Raffles Courtyard for casual Asian food, Writers Bar and Long Bar.",
+      "source_url": "https://www.raffles.com/singapore/",
+      "source_tier": "official",
+      "excerpt": "Raffles Courtyard (casual Asian), Writers Bar, and Long Bar"
+    },
+    {
+      "id": "r-37",
+      "category": "dining",
+      "text": "The Long Bar has a Raffles Sling Shaker, a cast-iron hand-cranked machine that can shake up to 18 Slings at a time.",
+      "source_url": "https://www.raffles.com/singapore/about/",
+      "source_tier": "official",
+      "excerpt": "a cast-iron hand-cranked machine that can shake up to 18 Slings at a go",
+      "as_of": "2018"
+    },
+    {
+      "id": "r-38",
+      "category": "practical",
+      "text": "The hotel holds Forbes Travel Guide's Forbes 5-Star rating for 2026.",
+      "source_url": "https://www.raffles.com/singapore/about/",
+      "source_tier": "official",
+      "excerpt": "Forbes 5-Star",
+      "as_of": "2026",
+      "needs_date_check": true
+    },
+    {
+      "id": "r-39",
+      "category": "practical",
+      "text": "The hotel holds Three MICHELIN Keys in the MICHELIN Guide for 2026.",
+      "source_url": "https://www.raffles.com/singapore/about/",
+      "source_tier": "official",
+      "excerpt": "Three MICHELIN Keys",
+      "as_of": "2026",
+      "needs_date_check": true
+    }
+  ],
+  "highlights": [
+    "r-9",
+    "r-8",
+    "r-15",
+    "r-10",
+    "r-16",
+    "r-32",
+    "r-20",
+    "r-37"
+  ],
+  "subjective": [
+    {
+      "id": "r-40",
+      "text": "A suite at the hotel is described as one of the world's most desirable addresses.",
+      "reason": "the hotel's own opinion or praise; keep out of facts"
+    },
+    {
+      "id": "r-41",
+      "text": "The Raffles Doormen are described as world-renowned.",
+      "reason": "the hotel's own opinion or praise; keep out of facts"
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "r-5",
+      "text": "Changi Airport is 20 minutes away.",
+      "reason": "sources conflict on \"airport-time\"; held out of scripts until resolved"
+    },
+    {
+      "id": "r-6",
+      "text": "Singapore Changi Airport is 16 to 21 minutes away by taxi or private car.",
+      "reason": "sources conflict on \"airport-time\"; held out of scripts until resolved"
+    },
+    {
+      "id": "r-26",
+      "text": "The spa has 6 treatment suites named after gemstones.",
+      "reason": "sources conflict on \"spa-treatment-suites\"; held out of scripts until resolved"
+    },
+    {
+      "id": "r-27",
+      "text": "The spa has seven treatment suites named after gemstones.",
+      "reason": "sources conflict on \"spa-treatment-suites\"; held out of scripts until resolved"
+    },
+    {
+      "id": "r-36",
+      "text": "After the 1991 reopening, the Long Bar moved to the Raffles Arcade.",
+      "reason": "time-bound (award, renovation or opening) with no date; confirm before use"
+    }
+  ],
+  "rejected": [],
+  "contradictions": [
+    {
+      "topic": "airport-time",
+      "note": "p5 says Changi Airport is 20 minutes away; the same page also says 16 to 21 minutes by taxi or private car",
+      "sources": [
+        {
+          "url": "https://www.raffles.com/singapore/about/",
+          "excerpt": "Changi Airport is 20 minutes away.",
+          "quote_verified": true
+        },
+        {
+          "url": "https://www.raffles.com/singapore/about/",
+          "excerpt": "By taxi/private car: 16 to 21 minutes from Singapore Changi Airport.",
+          "quote_verified": true
+        }
+      ]
+    },
+    {
+      "topic": "spa-treatment-suites",
+      "note": "p3 facilities list says 6 treatment suites named after gemstones; the p3 FAQ says seven",
+      "sources": [
+        {
+          "url": "https://www.raffles.com/singapore/spa/",
+          "excerpt": "6 treatment suites named after gemstones",
+          "quote_verified": true
+        },
+        {
+          "url": "https://www.raffles.com/singapore/spa/",
+          "excerpt": "the spa features seven treatment suites named after gemstones",
+          "quote_verified": true
+        }
+      ]
+    }
+  ]
 }
