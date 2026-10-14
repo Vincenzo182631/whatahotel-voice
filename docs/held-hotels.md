@@ -131,3 +131,17 @@ All 12 hotels are live (Tokyo was published earlier as peninsula-tokyo). WhataHo
 20 of 21 hotels done. Hainan, Makati and Makkah Palace were hand-accepted by the user (official raffles.com pages that don't name Sanya / Luzon Island / Mecca).
 - Raffles Maldives Meradhoo: held. raffles.com/maldives/ now redirects to the Indian Ocean destinations page, which lists only Raffles Seychelles; no official property page found (likely left the brand).
 - WhataHotel contradicts the official sites for Hainan (says Shimei Bay, all-villa with 32 villas; official: Clear Water Bay, rooms/suites/villas) and Makati (Writers Bar on 46th floor and rooftop pool; official: lobby-level bar, 9th-floor pool). Only official facts were used.
+
+## Regent (collection/94)
+
+9 of 10 done.
+- Regent Porto Montenegro: held. The user hand-accepted the official page, but every official URL (regenthotels.com/regent-portomontenegro/, ihg.com .../tivpm/hoteldetail in US and GB locales) redirects to a generic IHG "Where to Next" landing page, so no property facts could be read. Retry later.
+- Shanghai on the Bund was first auto-matched to Regent Shanghai Pudong's site; rerun with ihg.com .../shanghai/shabn/hoteldetail. Cannes uses ihg.com .../cannes/ceqha/hoteldetail.
+- WhataHotel contradicts official sites for Hong Kong (Yan Toh Heen vs Lai Ching Heen, Rolls-Royce transfers), Bali Canggu (clifftop, Pura Batu Bolong), Taipei (Silks Palace, address), Bund (1930s Art Deco origins, rooftop restaurant, spa), Santa Monica (direct beach access). Only official/editorial facts used.
+
+## Rocco Forte (collection/14)
+
+All 14 done. The Carlton Milano hand-accepted by the user (official page names it "The Carlton Milan"); only its home page was readable.
+- Hotel de Rome (Berlin): official pages were unreadable; script is sourced from Condé Nast Traveler only.
+- Rocco Forte House Rome: WhataHotel's page is badly wrong (1930s villa in Parioli, 15 suites, rooftop restaurant); official: 18th-century palazzo at 114 Via del Babuino, five apartments, no restaurant. WhataHotel copy needs correcting.
+- Other WhataHotel contradictions: The Charles (Old Town/Frauenkirche, "Michelin-starred Sophia's"), Brown's (1837, HIX Mayfair), de la Ville (Mosaico rooftop), Amigo (Belgian comic art at Bocconi), Balmoral (Number One Michelin star; official says Michelin Guide-recommended), Savoy (rooftop bar), Verdura villas (three courses, IRENE Spa), House Milan (14 suites vs 11 apartments).
