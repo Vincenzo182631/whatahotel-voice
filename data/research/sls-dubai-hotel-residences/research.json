@@ -1,0 +1,82 @@
+{
+  "slug": "sls-dubai-hotel-residences",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "SLS Dubai Hotel & Residences",
+      "city": "Dubai",
+      "country": "AE",
+      "chain": "sls"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "sls"
+    },
+    "evidence": [
+      "location matches (Dubai, AE)",
+      "confirmed by hand as this hotel's own page (only 67% of the hotel name appears on the page)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://slshotels.com/dubai/"
+    ],
+    "checked_at": "2026-10-14T06:21:29.949Z",
+    "status": "confirmed",
+    "official_url": "https://slshotels.com/dubai/",
+    "base_url": "https://slshotels.com/dubai/",
+    "host": "slshotels.com",
+    "checks": {
+      "name_coverage": 0.67,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://slshotels.com/dubai/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T06:21:34.550Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://slshotels.com/dubai/rooms-and-suites/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T06:21:43.808Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://slshotels.com/dubai/restaurants-and-bars/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T06:21:47.864Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 6,
+    "firecrawl_searches": 1,
+    "cache_hits": 0,
+    "direct_fetches": 0,
+    "pages": 3,
+    "chars": 30324,
+    "est_claude_tokens": 7581
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-14T06:21:55.084Z"
+}

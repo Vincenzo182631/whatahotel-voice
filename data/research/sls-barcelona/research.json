@@ -1,0 +1,110 @@
+{
+  "slug": "sls-barcelona",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "SLS Barcelona",
+      "city": "Barcelona",
+      "country": "ES",
+      "chain": "sls"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "sls"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Barcelona, ES)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://slshotels.com/barcelona/"
+    ],
+    "checked_at": "2026-10-14T06:20:13.248Z",
+    "status": "confirmed",
+    "official_url": "https://slshotels.com/barcelona/",
+    "base_url": "https://slshotels.com/barcelona/",
+    "host": "slshotels.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://slshotels.com/barcelona/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T06:20:22.742Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://slshotels.com/barcelona/rooms-and-suites/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T06:20:26.846Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://slshotels.com/barcelona/pools/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T06:20:30.832Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://slshotels.com/barcelona/location/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T06:20:34.516Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://slshotels.com/barcelona/festive-season/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T06:20:38.463Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://slshotels.com/barcelona/spa-and-wellness/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T06:20:43.445Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://slshotels.com/barcelona/restaurants-and-bars/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T06:20:46.691Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.cntraveler.com/hotels/barcelona/sls-barcelona",
+      "tier": "editorial",
+      "fetched_at": "2026-10-14T06:20:49.927Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 10,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 8,
+    "chars": 68740,
+    "est_claude_tokens": 17185
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-14T06:20:49.927Z"
+}
