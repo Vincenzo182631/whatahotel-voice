@@ -183,3 +183,10 @@ All 9 published.
 All 5 published. Doonbeg hand-accepted by the user (trumphotels.com/ireland doesn't mention County Clare).
 - Time-bound: Doral script mentions the PGA Tour returning March 2027 (expires 2027-03-07); Doonbeg mentions a Jan 4 - Feb 4, 2027 course closure (expires 2027-02-05). Re-check after those dates.
 - WhataHotel page errors: Las Vegas ("all-suite" vs 1,282 rooms/352 suites; rooftop pool vs 7th-floor deck; DJT on 64th floor); Chicago (98 vs 92 stories; "Terrace at Trump" vs Terrace 16); Doral (50,000 vs 48,000 sq ft spa; WGC-Cadillac vs LIV/PGA Tour; Gil Hanse credited for all courses); Doonbeg ("clifftop castle" vs dunes-side manor, Greg Norman vs Martin Hawtree); New York (floors 3-17, "largest suites in NYC" unsupported).
+
+## Waldorf Astoria (collection/45)
+
+12 of 39 published. The other 27 are blocked: Firecrawl credits ran out mid-research (account at -1,499 of 5,000; plan resets 2026-11-08). hilton.com only renders through Firecrawl's stealth proxy, which costs more per page. Resume with `research` on the remaining slugs once credits are available.
+- Arizona Biltmore is now branded "Arizona Biltmore, LXR Hotels & Resorts" on hilton.com.
+- Several profiles rest on thin official coverage (Chengdu 3 pages; Monarch Beach mostly Condé Nast Traveler).
+- WhataHotel page errors: Grand Wailea (Spa Grande vs Kilolani Spa; slide/pool details); Monarch Beach (clifftop/oceanfront, three golf courses, Miraval spa); Los Cabos (swimmable beach vs CNT "swimming prohibited"); Jeddah (separate men's/women's spa vs ladies-only); Las Vegas (sky bridge to Aria/Bellagio vs The Shops at Crystals); Maldives (Terra "underwater restaurant" vs treetop nests); Dubai Palm (Sombreros not listed); Dubai DIFC (LAO by David Chang not listed); Chengdu (Wuhou District vs Financial City); Versailles ("multiple Michelin-starred" vs one).
