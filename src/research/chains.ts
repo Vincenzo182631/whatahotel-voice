@@ -81,7 +81,7 @@ export const CHAINS: Chain[] = [
     },
   },
   { id: "fairmont", name: "Fairmont", match: /fairmont/i, domains: ["fairmont.com"], secondaryDomains: ["accor.com"], base: firstOne },
-  { id: "rosewood", name: "Rosewood", match: /rosewood/i, domains: ["rosewoodhotels.com"], base: firstTwo },
+  { id: "rosewood", name: "Rosewood", match: /rosewood|hotel de crillon|las ventanas al para[ií]so|the carlyle/i, domains: ["rosewoodhotels.com"], base: (u) => { const b = firstTwo(u); return b && !/\/(offers|about-us|about|careers|press|news|newsroom|destinations|search|legal|privacy|explore|stories|residences|gift-cards|our-hotels|sense-of-place|asaya|loyalty)\/$/i.test(b) ? b : undefined; } },
   { id: "aman", name: "Aman", match: /^aman/i, domains: ["aman.com"], base: (u) => { const s = dropLang(seg(u)); return s.length >= 2 ? `${u.origin}/${s[0]}/${s[1]}/` : undefined; } },
   { id: "belmond", name: "Belmond", match: /belmond/i, domains: ["belmond.com"], base: firstTwo },
   { id: "dorchester-collection", name: "Dorchester Collection", match: /dorchester/i, domains: ["dorchestercollection.com"], base: firstTwo },
