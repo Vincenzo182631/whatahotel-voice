@@ -53,6 +53,8 @@ function addressWords(u: URL): string[] {
 const significant = (s: string) => words(s).filter((w) => w.length > 1);
 const cityWords = (city: string) => significant(city.split(/[(,]/)[0] ?? city).filter((w) => w.length > 2);
 
+const GENERIC_NAME_WORDS = new Set(["hotel", "hotels", "resort", "resorts", "spa", "palace", "grand", "villa", "villas", "club", "house", "lodge", "suites", "beach", "collection", "luxury", "boutique", "golf", "country", "royal", "park"]);
+
 export function affiliationOf(hotel: HotelRef): Identity["affiliation"] {
   if (hotel.chain === "independent") return { kind: "independent" };
   const chain = hotel.chain ? chainById(hotel.chain) : chainOfName(hotel.name);
@@ -116,6 +118,15 @@ export function assessPage(hotel: HotelRef, aff: Identity["affiliation"], page: 
   if (aff.kind === "independent" && hostChain) reasons.push(`${host} is a ${hostChain.name} site but the hotel was marked independent`);
   if (hostChain && !hostChain.base(new URL(page.url))) reasons.push(`${page.url} is a ${hostChain.name} landing page, not a property page`);
   if (hostChain && aff.kind !== "independent" && aff.kind !== "chain") evidence.push(`page is on ${hostChain.name}'s own site (${host})`);
+
+  // an independent hotel's own site carries its name in the domain; directories, aggregators and sister hotels that
+  // merely mention the name (e.g. halepuna.com for Halekulani) do not
+  if (!hostChain && aff.kind !== "chain") {
+    const label = host.split(".").slice(0, -1).join("").replace(/[^a-z0-9]/g, "");
+    const cityW = new Set(cityWords(hotel.city));
+    const distinctive = significant(hotel.name).filter((w) => w.length >= 4 && !GENERIC_NAME_WORDS.has(w) && !cityW.has(w));
+    if (distinctive.length && !distinctive.some((w) => label.includes(w))) reasons.push(`${host} does not carry the hotel's name; an independent hotel's own site normally does`);
+  }
 
   const head = `${page.title ?? ""}\n${page.text.slice(0, 4000)}\n${page.url}`;
   const hay = new Set(words(head));

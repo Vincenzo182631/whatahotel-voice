@@ -172,6 +172,14 @@ describe("assessPage", () => {
     const bad = assessPage(hotel, aff2, { url: "https://www.mandarinoriental.com/en/desaru-coast/desaru", text: `Mandarin Oriental, Desaru Coast is a resort in Desaru Coast, Malaysia. ${filler}` });
     expect(bad.ok).toBe(false);
   });
+  it("refuses directories and sister hotels for an independent hotel whose domain lacks its name", () => {
+    const hotel = { name: "Halekulani", city: "Honolulu", country: "United States" };
+    const unk = { kind: "unknown" as const };
+    const text = `Halekulani ${filler} Honolulu`;
+    expect(assessPage(hotel, unk, { url: "https://www.halepuna.com/", text }).ok).toBe(false);
+    expect(assessPage(hotel, unk, { url: "https://www.travelweekly.com/Hotels/Honolulu/Halekulani-p1", text }).ok).toBe(false);
+    expect(assessPage(hotel, unk, { url: "https://www.halekulani.com/", text }).ok).toBe(true);
+  });
   it("never accepts a third-party site as official", () => {
     expect(assessPage(FS, { kind: "independent" }, { url: "https://www.tripadvisor.com/Hotel_Review", text: `Four Seasons Hotel Sydney ${filler} Sydney` }).ok).toBe(false);
   });

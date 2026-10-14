@@ -1,0 +1,80 @@
+{
+  "slug": "baglioni-hotel-regina",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "Baglioni Hotel Regina",
+      "city": "Rome",
+      "country": "IT"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Rome, IT)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.lhw.com/hotel/Baglioni-Hotel-Regina-Rome-Italy"
+    ],
+    "checked_at": "2026-10-14T23:44:28.692Z",
+    "status": "confirmed",
+    "official_url": "https://www.lhw.com/hotel/Baglioni-Hotel-Regina-Rome-Italy",
+    "base_url": "https://www.lhw.com/",
+    "host": "lhw.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.lhw.com/hotel/Baglioni-Hotel-Regina-Rome-Italy",
+      "tier": "official",
+      "fetched_at": "2026-10-14T23:44:34.888Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.lhw.com/customer-care/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T23:44:40.427Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.lhw.com/hotel/Baglioni-Hotel-Regina-Rome-Italy/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T23:44:40.930Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.cntraveler.com/hotels/rome/baglioni-hotel-regina",
+      "tier": "editorial",
+      "fetched_at": "2026-10-14T23:44:56.660Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 5,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 4,
+    "chars": 50699,
+    "est_claude_tokens": 12675
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-14T23:44:56.660Z"
+}

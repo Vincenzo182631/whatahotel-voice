@@ -195,6 +195,7 @@ const THIRD_PARTY = [
   "hotelscombined.", "makemytrip.", "trip.com", "ctrip.", "wikipedia.org", "wikivoyage.org", "facebook.com", "instagram.com",
   "youtube.com", "yelp.", "lonelyplanet.", "fodors.", "forbes.com", "telegraph.co.uk", "cntraveler.com", "whatahotel.com",
   "mrandmrssmith.", "smallluxuryhotels.", "slh.com", "leadinghotels.", "relaischateaux.", "preferredhotels.", "virtuoso.",
-  "tablethotels.", "hotelsone.", "americanexpress.com", "hotelplanner.", "reservations.com", "google.com", "bing.com", "linkedin.com", "pinterest.", "tiktok.com",
+  "tablethotels.", "hotelsone.", "travelweekly.", "travelagewest.", "travelpulse.", "forbestravelguide.", "lhw.com", "lartisien.",
+  "hotelsearch.", "hotels-in-", "fivestaralliance.", "travelandleisure.", "cntraveller.", "momondo.", "skyscanner.", "jetsetter.", "americanexpress.com", "hotelplanner.", "reservations.com", "google.com", "bing.com", "linkedin.com", "pinterest.", "tiktok.com",
 ];
 export const isThirdParty = (host: string) => !chainOfHost(host) && THIRD_PARTY.some((t) => host.includes(t));
