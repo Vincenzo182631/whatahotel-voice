@@ -1,13 +1,8 @@
 {
   "slug": "rocco-forte-house-rome",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "https://careers.roccofortehotels.com/locations/rocco-forte-house-rome: https://careers.roccofortehotels.com/locations/rocco-forte-house-rome is a Rocco Forte landing page, not a property page",
-    "https://www.roccofortehotels.com/rocco-forte-house/piazza-di-spagna/: https://www.roccofortehotels.com/rocco-forte-house/piazza-di-spagna/ is a Rocco Forte landing page, not a property page",
-    "https://www.roccofortehotels.com/rocco-forte-house/piazza-di-spagna/families/: https://www.roccofortehotels.com/rocco-forte-house/piazza-di-spagna/families/ is a Rocco Forte landing page, not a property page",
-    "official website could not be confirmed; flag for review"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "Rocco Forte House, Rome",
@@ -19,31 +14,77 @@
       "kind": "chain",
       "chain": "rocco-forte"
     },
-    "evidence": [],
-    "reasons": [
-      "https://careers.roccofortehotels.com/locations/rocco-forte-house-rome: https://careers.roccofortehotels.com/locations/rocco-forte-house-rome is a Rocco Forte landing page, not a property page",
-      "https://www.roccofortehotels.com/rocco-forte-house/piazza-di-spagna/: https://www.roccofortehotels.com/rocco-forte-house/piazza-di-spagna/ is a Rocco Forte landing page, not a property page",
-      "https://www.roccofortehotels.com/rocco-forte-house/piazza-di-spagna/families/: https://www.roccofortehotels.com/rocco-forte-house/piazza-di-spagna/families/ is a Rocco Forte landing page, not a property page",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Rome, IT)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://careers.roccofortehotels.com/locations/rocco-forte-house-rome",
-      "https://www.roccofortehotels.com/rocco-forte-house/piazza-di-spagna/",
-      "https://www.roccofortehotels.com/rocco-forte-house/piazza-di-spagna/families/"
+      "https://www.roccofortehotels.com/rocco-forte-house/piazza-di-spagna/"
     ],
-    "checked_at": "2026-10-14T04:26:43.092Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-14T04:37:47.983Z",
+    "status": "confirmed",
+    "official_url": "https://www.roccofortehotels.com/rocco-forte-house/piazza-di-spagna/",
+    "base_url": "https://www.roccofortehotels.com/rocco-forte-house/piazza-di-spagna/",
+    "host": "roccofortehotels.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.roccofortehotels.com/rocco-forte-house/piazza-di-spagna/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T04:37:52.577Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.roccofortehotels.com/rocco-forte-house/piazza-di-spagna/private-apartments/bernini/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T04:38:05.339Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.roccofortehotels.com/rocco-forte-house/piazza-di-spagna/private-apartments/piranesi/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T04:38:09.745Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.roccofortehotels.com/rocco-forte-house/piazza-di-spagna/private-apartments/borghese/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T04:38:13.813Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.roccofortehotels.com/rocco-forte-house/piazza-di-spagna/private-apartments/spagna-penthouse-with-terrace/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T04:38:18.456Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.cntraveler.com/hotels/rome/rocco-forte-house",
+      "tier": "editorial",
+      "fetched_at": "2026-10-14T04:38:25.008Z",
+      "source": "direct"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 5,
-    "firecrawl_searches": 2,
+    "firecrawl_calls": 8,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 6,
+    "chars": 40483,
+    "est_claude_tokens": 10121
   },
   "limits": {
     "maxPages": 12,
@@ -51,5 +92,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-14T04:27:04.537Z"
+  "researched_at": "2026-10-14T04:38:25.008Z"
 }
