@@ -2,9 +2,7 @@
   "slug": "the-peninsula-shanghai",
   "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "some pages were inaccessible; missing information is not proof an amenity does not exist"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "The Peninsula Shanghai",
@@ -22,12 +20,13 @@
     ],
     "reasons": [],
     "candidates": [
-      "https://www.peninsula.com/en/newsroom/shanghai"
+      "https://www.peninsula.com/en/newsroom/shanghai",
+      "https://www.peninsula.com/en/shanghai/special-offers/rooms/discover-shanghai"
     ],
-    "checked_at": "2026-10-14T00:06:01.488Z",
+    "checked_at": "2026-10-14T00:11:17.426Z",
     "status": "confirmed",
-    "official_url": "https://www.peninsula.com/en/newsroom/shanghai",
-    "base_url": "https://www.peninsula.com/en/newsroom/",
+    "official_url": "https://www.peninsula.com/en/shanghai/special-offers/rooms/discover-shanghai",
+    "base_url": "https://www.peninsula.com/en/shanghai/",
     "host": "peninsula.com",
     "checks": {
       "name_coverage": 1,
@@ -37,33 +36,35 @@
   "pages": [
     {
       "id": "p1",
-      "url": "https://www.peninsula.com/en/newsroom/shanghai",
+      "url": "https://www.peninsula.com/en/shanghai/special-offers/rooms/discover-shanghai",
       "tier": "official",
-      "fetched_at": "2026-10-14T00:06:11.791Z",
-      "source": "cache"
+      "fetched_at": "2026-10-14T00:11:33.589Z",
+      "source": "firecrawl"
     },
     {
       "id": "p2",
+      "url": "https://www.peninsula.com/en/shanghai/wechat/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T00:11:43.228Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
       "url": "https://www.cntraveler.com/hotels/united-states/united-states/marana/peninsula-shanghai",
       "tier": "editorial",
-      "fetched_at": "2026-10-14T00:06:18.423Z",
+      "fetched_at": "2026-10-14T00:11:50.033Z",
       "source": "direct"
     }
   ],
-  "inaccessible": [
-    {
-      "url": "https://www.peninsula.com/en/newsroom/",
-      "reason": "no same-property sub-page links found on the home page"
-    }
-  ],
+  "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 4,
+    "firecrawl_calls": 8,
     "firecrawl_searches": 3,
-    "cache_hits": 2,
+    "cache_hits": 0,
     "direct_fetches": 1,
-    "pages": 2,
-    "chars": 9170,
-    "est_claude_tokens": 2293
+    "pages": 3,
+    "chars": 12049,
+    "est_claude_tokens": 3012
   },
   "limits": {
     "maxPages": 12,
@@ -71,5 +72,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-14T00:06:18.423Z"
+  "researched_at": "2026-10-14T00:11:50.033Z"
 }
