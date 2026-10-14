@@ -1,13 +1,8 @@
 {
   "slug": "rosewood-matakauri-lodge",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "https://www.rosewoodhotels.com/en/matakauri/accommodation: https://www.rosewoodhotels.com/en/matakauri/accommodation: page had almost no text",
-    "https://www.rosewoodhotels.com/en/matakauri/dining: only 67% of the hotel name appears on the page; page does not mention Queenstown",
-    "https://www.rosewoodhotels.com/en/matakauri: only 67% of the hotel name appears on the page; page does not mention Queenstown",
-    "official website could not be confirmed; flag for review"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "Rosewood Matakauri Lodge",
@@ -19,31 +14,69 @@
       "kind": "chain",
       "chain": "rosewood"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.rosewoodhotels.com/en/matakauri/accommodation: https://www.rosewoodhotels.com/en/matakauri/accommodation: page had almost no text",
-      "https://www.rosewoodhotels.com/en/matakauri/dining: only 67% of the hotel name appears on the page; page does not mention Queenstown",
-      "https://www.rosewoodhotels.com/en/matakauri: only 67% of the hotel name appears on the page; page does not mention Queenstown",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "confirmed by hand as this hotel's own page (only 67% of the hotel name appears on the page; page does not mention Queenstown)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://www.rosewoodhotels.com/en/matakauri/accommodation",
-      "https://www.rosewoodhotels.com/en/matakauri/dining",
       "https://www.rosewoodhotels.com/en/matakauri"
     ],
-    "checked_at": "2026-10-14T05:25:34.569Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-14T05:35:39.590Z",
+    "status": "confirmed",
+    "official_url": "https://www.rosewoodhotels.com/en/matakauri",
+    "base_url": "https://www.rosewoodhotels.com/en/matakauri/",
+    "host": "rosewoodhotels.com",
+    "checks": {
+      "name_coverage": 0.67,
+      "location_match": false
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.rosewoodhotels.com/en/matakauri",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:35:44.852Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.rosewoodhotels.com/en/matakauri/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:35:52.954Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.rosewoodhotels.com/en/matakauri/wellness/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:35:58.135Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.rosewoodhotels.com/en/matakauri/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:36:02.551Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.cntraveler.com/hotels/new-zealand/queenstown/matakauri-lodge",
+      "tier": "editorial",
+      "fetched_at": "2026-10-14T05:36:10.545Z",
+      "source": "direct"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 5,
-    "firecrawl_searches": 2,
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 5,
+    "chars": 35322,
+    "est_claude_tokens": 8831
   },
   "limits": {
     "maxPages": 12,
@@ -51,5 +84,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-14T05:25:50.756Z"
+  "researched_at": "2026-10-14T05:36:10.545Z"
 }
