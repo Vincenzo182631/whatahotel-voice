@@ -1,0 +1,464 @@
+{
+  "hotel_slug": "hotel-sacher-wien",
+  "hotel_name": "Hotel Sacher Wien",
+  "checked_at": "2026-10-14T23:46:59.610Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.sacher.com/en/faqs/",
+      "tier": "official",
+      "chars": 16654
+    },
+    {
+      "id": "d2",
+      "url": "https://www.sacher.com/en/vienna/",
+      "tier": "official",
+      "chars": 12292
+    },
+    {
+      "id": "d3",
+      "url": "https://www.sacher.com/en/sacher-vienna-150-years/",
+      "tier": "official",
+      "chars": 5145
+    },
+    {
+      "id": "d4",
+      "url": "https://www.sacher.com/en/restaurants/cafe-sacher-wien/",
+      "tier": "official",
+      "chars": 30000
+    },
+    {
+      "id": "d5",
+      "url": "https://www.sacher.com/en/contact/",
+      "tier": "official",
+      "chars": 1999
+    },
+    {
+      "id": "d6",
+      "url": "https://www.sacher.com/en/",
+      "tier": "official",
+      "chars": 2478
+    },
+    {
+      "id": "d7",
+      "url": "https://www.sacher.com/en/imprint/",
+      "tier": "official",
+      "chars": 3200
+    },
+    {
+      "id": "d8",
+      "url": "https://www.sacher.com/en/whistleblowing-hotline/",
+      "tier": "official",
+      "chars": 2352
+    },
+    {
+      "id": "d9",
+      "url": "https://www.sacher.com/en/sacher-confiserie-vienna/",
+      "tier": "official",
+      "chars": 23307
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel was founded by Eduard Sacher, son of the creator of the Original Sacher-Torte; under Anna Sacher it became a meeting place for nobility, artists and businessmen.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Founded in 1876 by Eduard Sacher, the son of the creator of the Original Sacher-Torte",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.sacher.com/en/faqs/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Under the renowned Anna Sacher, it evolved into a meeting place for nobility, artists and businessmen.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.sacher.com/en/faqs/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Franz Sacher created the Original Sacher-Torte in 1832, and it is still handcrafted in 34 steps.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The foundations of Sacher date back to 1832, when Franz Sacher created the Original Sacher-Torte. To this day, it is handcrafted in 34 steps",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.sacher.com/en/sacher-vienna-150-years/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Since 1934 the hotel has been managed by the Gürtler family and is privately owned.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Since 1934, the hotel has been carefully managed by the Gürtler family – privately owned",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.sacher.com/en/faqs/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The rooms and suites were designed by co-owner Alexandra Winkler with French designer Pierre-Yves Rochon.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The rooms and suites were designed by co-owner Alexandra Winkler in collaboration with internationally renowned French star designer Pierre-Yves Rochon.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.sacher.com/en/vienna/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Rooms feature marble bathrooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Selected materials, marble bathrooms and elegant interiors",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.sacher.com/en/vienna/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The hotel is steps from the Vienna State Opera, the Albertina Museum and St. Stephen's Cathedral, and the main sights are reachable on foot.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "just steps away from the world-famous Vienna State Opera, the Albertina Museum and the magnificent St. Stephen’s Cathedral. The finest sights of Vienna are easily accessible on foot.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.sacher.com/en/faqs/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The hotel is within steps of Karlsplatz/Oper, a hub for U-Bahn lines U1 and U4.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Guests are within steps of **Karlsplatz/Oper**, a major hub for **U-Bahn (subway) lines U1 and U4**.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.sacher.com/en/faqs/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Restaurant Rote Bar serves authentic Austrian cuisine, with classic Viennese dishes made from seasonal and regional ingredients.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Rote Bar: Our head chef serves authentic Austrian cuisine at the highest level, featuring classic Viennese dishes made with seasonal and regional ingredients.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.sacher.com/en/faqs/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Restaurant Grüne Bar offers international haute cuisine with modern accents and regional influence, with both set menus and a la carte.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Grüne Bar: Offers a special experience of international haute cuisine with modern accents and regional influence. Both set menus and à la carte options are available.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.sacher.com/en/faqs/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "At lunch and dinner, Cafe Sacher Wien serves classic Viennese dishes such as Wiener Schnitzel, veal goulash and Original Sacher Sausages, plus vegetarian and vegan options.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "At lunch and dinner, Café Sacher Wien invites you to discover the flavours of classic Viennese cuisine.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.sacher.com/en/restaurants/cafe-sacher-wien/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Enjoy favourites such as Wiener Schnitzel, creamy veal goulash and Original Sacher Sausages, alongside lighter dishes and a selection of vegetarian and vegan options.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.sacher.com/en/restaurants/cafe-sacher-wien/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The Sacher Boutique Spa has a hammam, a sauna and a fitness room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "discover the Sacher Boutique Spa, an exclusive spa and wellness retreat at Hotel Sacher Vienna",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.sacher.com/en/vienna/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Guests can also enjoy soothing moments in the hammam, sauna or modern fitness room.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.sacher.com/en/vienna/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The concierge service is available around the clock.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Yes, our experienced concierge service is available around the clock",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.sacher.com/en/faqs/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Cafe Sacher Wien serves the Original Sacher-Torte alongside Viennese coffees and apple and curd cheese strudel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Whether a Sacher Melange, a black coffee or the Original Anna Sacher Coffee, Café Sacher Wien celebrates Viennese coffee house culture at its finest.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.sacher.com/en/restaurants/cafe-sacher-wien/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Alongside our coffees, we serve the Original Sacher-Torte, traditional Viennese apple and curd cheese strudel",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.sacher.com/en/restaurants/cafe-sacher-wien/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Some rooms look onto Kärntner Strasse, the Vienna State Opera or the Albertina Museum; others overlook the quiet Maysedergasse or the courtyard.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Some of the Hotel Sacher Vienna rooms have views of the iconic Kärntner Straße, Vienna State Opera or the Albertina Museum. Others overlook the quiet Maysedergasse or the courtyard.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.sacher.com/en/faqs/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "On request the hotel organizes horse-drawn carriage rides through the Old Town, Danube river cruises and customized city tours.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Yes, upon request we organize:",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.sacher.com/en/faqs/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Horse-drawn carriage rides through the Old Town\n- Danube river cruises\n- Customized city tours",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.sacher.com/en/faqs/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Original Sacher-Torte is sold in various sizes at the in-house Sacher Shop, and online orders ship worldwide.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "the Original Sacher-Torte is available in various sizes at our in-house Sacher Shop",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.sacher.com/en/faqs/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Online orders with worldwide shipping are also available",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.sacher.com/en/faqs/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel has no swimming pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Unfortunately, we don’t have a swimming pool on site.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.sacher.com/en/faqs/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes premium pricing that reflects the hotel's luxury positioning and historic significance.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "There is no formal dress code, but smart casual to elegant attire is recommended in Rote Bar and Grüne Bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "There is no formal dress code.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.sacher.com/en/faqs/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "In our restaurants such as the Rote Bar and Grüne Bar, we recommend smart casual to elegant attire.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.sacher.com/en/faqs/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}
