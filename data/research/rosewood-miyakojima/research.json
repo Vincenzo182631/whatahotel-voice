@@ -1,0 +1,77 @@
+{
+  "slug": "rosewood-miyakojima",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Rosewood Miyakojima",
+      "city": "Okinawa",
+      "country": "JP",
+      "chain": "rosewood"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "rosewood"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Okinawa, JP)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.rosewoodhotels.com/en/miyakojima",
+      "https://www.rosewoodhotels.com/en/miyakojima/accommodation",
+      "https://www.rosewoodhotels.com/en/global/media-hub/press-releases/rosewood-miyakojima-to-open-in-march-2025/"
+    ],
+    "checked_at": "2026-10-14T05:20:34.778Z",
+    "status": "confirmed",
+    "official_url": "https://www.rosewoodhotels.com/en/global/media-hub/press-releases/rosewood-miyakojima-to-open-in-march-2025/",
+    "base_url": "https://www.rosewoodhotels.com/en/global/media-hub/",
+    "host": "rosewoodhotels.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.rosewoodhotels.com/en/global/media-hub/press-releases/rosewood-miyakojima-to-open-in-march-2025/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:20:52.170Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.rosewoodhotels.com/en/global/media-hub/media-contacts/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:20:52.658Z",
+      "source": "cache"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 6,
+    "firecrawl_searches": 3,
+    "cache_hits": 3,
+    "direct_fetches": 0,
+    "pages": 2,
+    "chars": 5565,
+    "est_claude_tokens": 1391
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-14T05:20:59.658Z"
+}

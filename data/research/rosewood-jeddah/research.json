@@ -1,0 +1,77 @@
+{
+  "slug": "rosewood-jeddah",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Rosewood Jeddah",
+      "city": "Jeddah",
+      "country": "SA",
+      "chain": "rosewood"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "rosewood"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Jeddah, SA)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.rosewoodhotels.com/en/jeddah",
+      "https://www.rosewoodhotels.com/en/jeddah.html",
+      "https://www.rosewoodhotels.com/en/jeddah/contact"
+    ],
+    "checked_at": "2026-10-14T05:21:10.838Z",
+    "status": "confirmed",
+    "official_url": "https://www.rosewoodhotels.com/en/jeddah/contact",
+    "base_url": "https://www.rosewoodhotels.com/en/jeddah/contact/",
+    "host": "rosewoodhotels.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.rosewoodhotels.com/en/jeddah/contact",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:21:24.572Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.cntraveler.com/hotels/jeddah/rosewood-jeddah",
+      "tier": "editorial",
+      "fetched_at": "2026-10-14T05:21:28.629Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.rosewoodhotels.com/en/jeddah/contact/",
+      "reason": "no same-property sub-page links found on the home page"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 5,
+    "firecrawl_searches": 3,
+    "cache_hits": 3,
+    "direct_fetches": 1,
+    "pages": 2,
+    "chars": 22255,
+    "est_claude_tokens": 5564
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-14T05:21:28.629Z"
+}

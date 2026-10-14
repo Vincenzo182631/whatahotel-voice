@@ -1,0 +1,105 @@
+{
+  "slug": "hotel-de-crillon",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "Hotel de Crillon",
+      "city": "Paris",
+      "country": "FR",
+      "chain": "rosewood"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "rosewood"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Paris, FR)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.rosewoodhotels.com/en/hotel-de-crillon",
+      "https://www.rosewoodhotels.com/en/hotel-de-crillon/accommodation",
+      "https://www.rosewoodhotels.com/en/hotel-de-crillon/dining"
+    ],
+    "checked_at": "2026-10-14T05:18:49.488Z",
+    "status": "confirmed",
+    "official_url": "https://www.rosewoodhotels.com/en/hotel-de-crillon/dining",
+    "base_url": "https://www.rosewoodhotels.com/en/hotel-de-crillon/dining/",
+    "host": "rosewoodhotels.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.rosewoodhotels.com/en/hotel-de-crillon/dining",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:19:07.082Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.rosewoodhotels.com/en/hotel-de-crillon/dining/la-cave/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:19:11.170Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.rosewoodhotels.com/en/hotel-de-crillon/dining/jardin-d-hiver/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:19:15.283Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.rosewoodhotels.com/en/hotel-de-crillon/dining/butterfly-patisserie/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:19:18.943Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.rosewoodhotels.com/en/hotel-de-crillon/dining/bar-les-ambassadeurs/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:19:23.192Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.rosewoodhotels.com/en/hotel-de-crillon/dining/nonos-comestibles-paul-pairet/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:19:27.377Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.cntraveler.com/hotels/paris/hotel-de-crillon-a-rosewood-hotel",
+      "tier": "editorial",
+      "fetched_at": "2026-10-14T05:19:34.654Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 11,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 7,
+    "chars": 51340,
+    "est_claude_tokens": 12835
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-14T05:19:34.654Z"
+}
