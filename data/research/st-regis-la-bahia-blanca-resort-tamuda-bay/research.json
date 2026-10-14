@@ -22,11 +22,11 @@
     ],
     "reasons": [],
     "candidates": [
-      "https://www.marriott.com/en/hotels/ttubb-the-st-regis-la-bahia-blanca-resort-tamuda-bay/overview/"
+      "https://www.marriott.com/en-us/hotels/ttubb-the-st-regis-la-bahia-blanca-resort-tamuda-bay/overview/"
     ],
-    "checked_at": "2026-10-14T07:53:30.290Z",
+    "checked_at": "2026-10-14T08:07:38.710Z",
     "status": "confirmed",
-    "official_url": "https://www.marriott.com/en/hotels/ttubb-the-st-regis-la-bahia-blanca-resort-tamuda-bay/overview/",
+    "official_url": "https://www.marriott.com/en-us/hotels/ttubb-the-st-regis-la-bahia-blanca-resort-tamuda-bay/overview/",
     "base_url": "https://www.marriott.com/en-us/hotels/ttubb-the-st-regis-la-bahia-blanca-resort-tamuda-bay/",
     "host": "marriott.com",
     "checks": {
@@ -37,30 +37,61 @@
   "pages": [
     {
       "id": "p1",
-      "url": "https://www.marriott.com/en/hotels/ttubb-the-st-regis-la-bahia-blanca-resort-tamuda-bay/overview/",
+      "url": "https://www.marriott.com/en-us/hotels/ttubb-the-st-regis-la-bahia-blanca-resort-tamuda-bay/overview/",
       "tier": "official",
-      "fetched_at": "2026-10-14T07:54:07.909Z",
+      "fetched_at": "2026-10-14T08:07:57.511Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/ttubb-the-st-regis-la-bahia-blanca-resort-tamuda-bay/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T08:08:06.630Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/ttubb-the-st-regis-la-bahia-blanca-resort-tamuda-bay/rooms/suites/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T08:08:13.312Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/ttubb-the-st-regis-la-bahia-blanca-resort-tamuda-bay/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T08:08:19.368Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.marriott.com/en-us/hotels/ttubb-the-st-regis-la-bahia-blanca-resort-tamuda-bay/spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T08:08:24.390Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.marriott.com/en-us/hotels/ttubb-the-st-regis-la-bahia-blanca-resort-tamuda-bay/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T08:08:27.353Z",
       "source": "firecrawl"
     }
   ],
   "inaccessible": [
-    {
-      "url": "https://www.marriott.com/en-us/hotels/ttubb-the-st-regis-la-bahia-blanca-resort-tamuda-bay/",
-      "reason": "no same-property sub-page links found on the home page"
-    },
     {
       "url": "cntraveler.com",
       "reason": "no Condé Nast Traveler hotel page found"
     }
   ],
   "usage": {
-    "firecrawl_calls": 6,
-    "firecrawl_searches": 3,
+    "firecrawl_calls": 9,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 1,
-    "chars": 3556,
-    "est_claude_tokens": 889
+    "pages": 6,
+    "chars": 80265,
+    "est_claude_tokens": 20066
   },
   "limits": {
     "maxPages": 12,
@@ -68,5 +99,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-14T07:54:16.743Z"
+  "researched_at": "2026-10-14T08:08:32.838Z"
 }

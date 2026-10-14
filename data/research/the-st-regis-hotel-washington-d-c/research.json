@@ -2,9 +2,7 @@
   "slug": "the-st-regis-hotel-washington-d-c",
   "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "some pages were inaccessible; missing information is not proof an amenity does not exist"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "The St. Regis Hotel Washington D.C.",
@@ -22,11 +20,11 @@
     ],
     "reasons": [],
     "candidates": [
-      "https://www.marriott.com/en/hotels/wassx-the-st-regis-washington-dc/overview/"
+      "https://www.marriott.com/en-us/hotels/wassx-the-st-regis-washington-dc/overview/"
     ],
-    "checked_at": "2026-10-14T07:54:06.028Z",
+    "checked_at": "2026-10-14T08:08:46.088Z",
     "status": "confirmed",
-    "official_url": "https://www.marriott.com/en/hotels/wassx-the-st-regis-washington-dc/overview/",
+    "official_url": "https://www.marriott.com/en-us/hotels/wassx-the-st-regis-washington-dc/overview/",
     "base_url": "https://www.marriott.com/en-us/hotels/wassx-the-st-regis-washington-dc/",
     "host": "marriott.com",
     "checks": {
@@ -37,33 +35,42 @@
   "pages": [
     {
       "id": "p1",
-      "url": "https://www.marriott.com/en/hotels/wassx-the-st-regis-washington-dc/overview/",
+      "url": "https://www.marriott.com/en-us/hotels/wassx-the-st-regis-washington-dc/overview/",
       "tier": "official",
-      "fetched_at": "2026-10-14T07:54:45.150Z",
+      "fetched_at": "2026-10-14T08:09:04.525Z",
       "source": "firecrawl"
     },
     {
       "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/wassx-the-st-regis-washington-dc/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T08:09:13.843Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/wassx-the-st-regis-washington-dc/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T08:09:14.118Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
       "url": "https://www.cntraveler.com/hotels/united-states/washington/st-regis-washington-d-c",
       "tier": "editorial",
-      "fetched_at": "2026-10-14T07:54:55.029Z",
+      "fetched_at": "2026-10-14T08:09:28.449Z",
       "source": "direct"
     }
   ],
-  "inaccessible": [
-    {
-      "url": "https://www.marriott.com/en-us/hotels/wassx-the-st-regis-washington-dc/",
-      "reason": "no same-property sub-page links found on the home page"
-    }
-  ],
+  "inaccessible": [],
   "usage": {
     "firecrawl_calls": 6,
-    "firecrawl_searches": 3,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
     "direct_fetches": 1,
-    "pages": 2,
-    "chars": 7769,
-    "est_claude_tokens": 1942
+    "pages": 4,
+    "chars": 30485,
+    "est_claude_tokens": 7621
   },
   "limits": {
     "maxPages": 12,
@@ -71,5 +78,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-14T07:54:55.030Z"
+  "researched_at": "2026-10-14T08:09:28.449Z"
 }

@@ -2,9 +2,7 @@
   "slug": "the-resort-at-kapalua-bay",
   "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "some pages were inaccessible; missing information is not proof an amenity does not exist"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "The Resort at Kapalua Bay",
@@ -22,11 +20,11 @@
     ],
     "reasons": [],
     "candidates": [
-      "https://www.marriott.com/en/hotels/oggxr-the-resort-at-kapalua-bay-maui/overview/"
+      "https://www.marriott.com/en-us/hotels/oggxr-the-resort-at-kapalua-bay-maui/overview/"
     ],
-    "checked_at": "2026-10-14T07:53:50.914Z",
+    "checked_at": "2026-10-14T08:07:37.661Z",
     "status": "confirmed",
-    "official_url": "https://www.marriott.com/en/hotels/oggxr-the-resort-at-kapalua-bay-maui/overview/",
+    "official_url": "https://www.marriott.com/en-us/hotels/oggxr-the-resort-at-kapalua-bay-maui/overview/",
     "base_url": "https://www.marriott.com/en-us/hotels/oggxr-the-resort-at-kapalua-bay-maui/",
     "host": "marriott.com",
     "checks": {
@@ -37,33 +35,49 @@
   "pages": [
     {
       "id": "p1",
-      "url": "https://www.marriott.com/en/hotels/oggxr-the-resort-at-kapalua-bay-maui/overview/",
+      "url": "https://www.marriott.com/en-us/hotels/oggxr-the-resort-at-kapalua-bay-maui/overview/",
       "tier": "official",
-      "fetched_at": "2026-10-14T07:54:28.007Z",
+      "fetched_at": "2026-10-14T08:07:49.413Z",
       "source": "firecrawl"
     },
     {
       "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/oggxr-the-resort-at-kapalua-bay-maui/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T08:07:53.625Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/oggxr-the-resort-at-kapalua-bay-maui/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T08:08:03.977Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/oggxr-the-resort-at-kapalua-bay-maui/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T08:08:12.078Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
       "url": "https://www.cntraveler.com/hotels/lahaina-maui/montage-kapalua-bay",
       "tier": "editorial",
-      "fetched_at": "2026-10-14T07:54:39.348Z",
+      "fetched_at": "2026-10-14T08:08:16.793Z",
       "source": "direct"
     }
   ],
-  "inaccessible": [
-    {
-      "url": "https://www.marriott.com/en-us/hotels/oggxr-the-resort-at-kapalua-bay-maui/",
-      "reason": "no same-property sub-page links found on the home page"
-    }
-  ],
+  "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 6,
-    "firecrawl_searches": 3,
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
     "direct_fetches": 1,
-    "pages": 2,
-    "chars": 11610,
-    "est_claude_tokens": 2903
+    "pages": 5,
+    "chars": 56578,
+    "est_claude_tokens": 14145
   },
   "limits": {
     "maxPages": 12,
@@ -71,5 +85,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-14T07:54:39.348Z"
+  "researched_at": "2026-10-14T08:08:16.793Z"
 }
