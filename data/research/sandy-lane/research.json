@@ -1,8 +1,13 @@
 {
   "slug": "sandy-lane",
-  "status": "awaiting_extraction",
+  "status": "needs_review",
   "partial": false,
-  "reasons": [],
+  "reasons": [
+    "https://www.sandylane.com/: Firecrawl 500 for https://www.sandylane.com/: All scraping engines failed to retrieve content from this URL. Engines tried: [index, fire-eng",
+    "https://www.sandylane.com/barbados-resorts: page does not mention St. James (Barbados)",
+    "https://www.britishairways.com/en-gb/destinations/hotel-information/Barbados/Sandy-Lane/BB-BGI-4442000: britishairways.com does not carry the hotel's name; an independent hotel's own site normally does",
+    "official website could not be confirmed; flag for review"
+  ],
   "identity": {
     "hotel": {
       "name": "Sandy Lane",
@@ -10,121 +15,33 @@
       "country": "BB"
     },
     "affiliation": {
-      "kind": "independent"
+      "kind": "unknown"
     },
-    "evidence": [
-      "100% of the hotel name appears on the page",
-      "location matches (St. James (Barbados), BB)"
+    "evidence": [],
+    "reasons": [
+      "https://www.sandylane.com/: Firecrawl 500 for https://www.sandylane.com/: All scraping engines failed to retrieve content from this URL. Engines tried: [index, fire-eng",
+      "https://www.sandylane.com/barbados-resorts: page does not mention St. James (Barbados)",
+      "https://www.britishairways.com/en-gb/destinations/hotel-information/Barbados/Sandy-Lane/BB-BGI-4442000: britishairways.com does not carry the hotel's name; an independent hotel's own site normally does",
+      "official website could not be confirmed; flag for review"
     ],
-    "reasons": [],
     "candidates": [
-      "https://www.travelagewest.com/Hotels/St-James-Parish-Barbados/Sandy-Lane-Hotel-p51912497"
+      "https://www.sandylane.com/",
+      "https://www.sandylane.com/barbados-resorts",
+      "https://www.britishairways.com/en-gb/destinations/hotel-information/Barbados/Sandy-Lane/BB-BGI-4442000"
     ],
-    "checked_at": "2026-10-14T23:41:24.611Z",
-    "status": "confirmed",
-    "official_url": "https://www.travelagewest.com/Hotels/St-James-Parish-Barbados/Sandy-Lane-Hotel-p51912497",
-    "base_url": "https://www.travelagewest.com/",
-    "host": "travelagewest.com",
-    "checks": {
-      "name_coverage": 1,
-      "location_match": true
-    }
+    "checked_at": "2026-10-14T23:46:07.648Z",
+    "status": "needs_review"
   },
-  "pages": [
-    {
-      "id": "p1",
-      "url": "https://www.travelagewest.com/Hotels/St-James-Parish-Barbados/Sandy-Lane-Hotel-p51912497",
-      "tier": "official",
-      "fetched_at": "2026-10-14T23:41:30.897Z",
-      "source": "cache"
-    },
-    {
-      "id": "p2",
-      "url": "https://www.travelagewest.com/Hotels/Barbados/",
-      "tier": "official",
-      "fetched_at": "2026-10-14T23:41:33.747Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p3",
-      "url": "https://www.travelagewest.com/Hotels/Barbados,Deluxe/",
-      "tier": "official",
-      "fetched_at": "2026-10-14T23:41:37.596Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p4",
-      "url": "https://www.travelagewest.com/Hotels/Barbados,First-Class/",
-      "tier": "official",
-      "fetched_at": "2026-10-14T23:41:41.802Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p5",
-      "url": "https://www.travelagewest.com/Hotels/Barbados,Tourist-Class/",
-      "tier": "official",
-      "fetched_at": "2026-10-14T23:41:45.649Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p6",
-      "url": "https://www.travelagewest.com/Hotels/St-James-Parish-Barbados/",
-      "tier": "official",
-      "fetched_at": "2026-10-14T23:41:49.511Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p7",
-      "url": "https://www.travelagewest.com/Hotels/St-James-Parish-Barbados,Deluxe/",
-      "tier": "official",
-      "fetched_at": "2026-10-14T23:41:53.741Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p8",
-      "url": "https://www.travelagewest.com/Hotels/St-James-Parish-Barbados,First-Class/",
-      "tier": "official",
-      "fetched_at": "2026-10-14T23:41:57.534Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p9",
-      "url": "https://www.travelagewest.com/Hotels/St-James-Parish-Barbados,Tourist-Class/",
-      "tier": "official",
-      "fetched_at": "2026-10-14T23:42:01.550Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p10",
-      "url": "https://www.travelagewest.com/Hotels/About-Classifications/",
-      "tier": "official",
-      "fetched_at": "2026-10-14T23:42:05.469Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p11",
-      "url": "https://www.travelagewest.com/Hotels/Advanced/",
-      "tier": "official",
-      "fetched_at": "2026-10-14T23:42:09.654Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p12",
-      "url": "https://www.cntraveler.com/hotels/barbados/holetown/sandy-lane-barbados",
-      "tier": "editorial",
-      "fetched_at": "2026-10-14T23:42:17.606Z",
-      "source": "direct"
-    }
-  ],
+  "pages": [],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 13,
-    "firecrawl_searches": 2,
-    "cache_hits": 2,
-    "direct_fetches": 1,
-    "pages": 12,
-    "chars": 128025,
-    "est_claude_tokens": 32006
+    "firecrawl_calls": 4,
+    "firecrawl_searches": 1,
+    "cache_hits": 0,
+    "direct_fetches": 0,
+    "pages": 0,
+    "chars": 0,
+    "est_claude_tokens": 0
   },
   "limits": {
     "maxPages": 12,
@@ -132,5 +49,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-14T23:42:17.606Z"
+  "researched_at": "2026-10-14T23:48:13.266Z"
 }
