@@ -1,0 +1,407 @@
+{
+  "hotel_slug": "waldorf-astoria-jeddah-qasr-al-sharq",
+  "hotel_name": "Waldorf Astoria Jeddah Qasr Al Sharq",
+  "checked_at": "2026-10-14T23:03:27.820Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hilton.com/en/hotels/jedwawa-waldorf-astoria-jeddah-qasr-al-sharq/",
+      "tier": "official",
+      "chars": 30000
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hilton.com/en/hotels/jedwawa-waldorf-astoria-jeddah-qasr-al-sharq/rooms/",
+      "tier": "official",
+      "chars": 1958
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hilton.com/en/hotels/jedwawa-waldorf-astoria-jeddah-qasr-al-sharq/amenities/spa/",
+      "tier": "official",
+      "chars": 2230
+    },
+    {
+      "id": "d4",
+      "url": "https://www.cntraveler.com/hotels/saudi-arabia/jeddah/qasr-al-sharq",
+      "tier": "editorial",
+      "chars": 3973
+    },
+    {
+      "id": "d5",
+      "url": "https://www.hilton.com/en/hotels/jedwawa-waldorf-astoria-jeddah-qasr-al-sharq/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "chars": 649
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "Firecrawl 402 search \"\"Waldorf Astoria Jeddah Qasr Al Sharq\" site:cntraveler.com\": Insufficient credits to perform this request. For more credits, you can upgra"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is on North Corniche Road in Jeddah.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "North Corniche Road,",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jedwawa-waldorf-astoria-jeddah-qasr-al-sharq/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "PO Box 7079 Jeddah, 21462 Saudi Arabia",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jedwawa-waldorf-astoria-jeddah-qasr-al-sharq/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is adorned with gold accents, Italian furnishings and crystal.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Adorned with gold accents, Italian furnishings, and glistening crystal, our hotel is an oasis on the Red Sea.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jedwawa-waldorf-astoria-jeddah-qasr-al-sharq/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Rooms and suites mix modern and Arabic interior design.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Lounge in exquisite rooms and suites that feature a mix of modern and Arabic interior design.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jedwawa-waldorf-astoria-jeddah-qasr-al-sharq/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Each suite has golden ceilings, marble bathrooms and a view of the Red Sea.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Each suite exhibits golden ceilings, marble bathrooms, and a view of the Red Sea.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jedwawa-waldorf-astoria-jeddah-qasr-al-sharq/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The hotel has two restaurants: Mataam Al Sharq for Middle Eastern cuisine and Aromi for Italian cuisine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Indulge in both Middle Eastern and Italian cuisines at our two restaurants, Mataam Al Sharq and Aromi.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jedwawa-waldorf-astoria-jeddah-qasr-al-sharq/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Al Shurfa Lounge serves coffee, tea and pastries for a quick breakfast.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Need a quick breakfast? Visit Al Shurfa Lounge for coffee, tea, and pastries.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jedwawa-waldorf-astoria-jeddah-qasr-al-sharq/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Al Shurfa Lounge serves afternoon tea.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Experience our luxury afternoon tea at Al Shurfa Lounge, with a selection of delicious desserts",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jedwawa-waldorf-astoria-jeddah-qasr-al-sharq/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The spa offers an AquaMed Hydrotherapy bed.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "We invite you to try our AquaMed Hydrotherapy bed for ultimate relaxation.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jedwawa-waldorf-astoria-jeddah-qasr-al-sharq/amenities/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Spa treatments include custom spa rituals, deep cleansing facials and Thai massages.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "We offer custom spa rituals, deep cleansing facials, Thai massages, and more.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jedwawa-waldorf-astoria-jeddah-qasr-al-sharq/amenities/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The spa menu includes Clarins facials.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Clarins Facials, Exfoliations & Body Wraps",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jedwawa-waldorf-astoria-jeddah-qasr-al-sharq/amenities/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel offers personalized butler service and an EV charging station.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Enjoy personalized butler service and modern amenities including an EV charging station.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jedwawa-waldorf-astoria-jeddah-qasr-al-sharq/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The hotel has meeting rooms equipped with a business center.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Plan your next event or meeting at Waldorf Astoria's luxurious meeting rooms equipped with a fully-fledged business center",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jedwawa-waldorf-astoria-jeddah-qasr-al-sharq/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel was originally built as a palace and then converted into a Waldorf Astoria hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Did you know that Waldorf Astoria Jeddah - Qasr Al Sharq was originally built as a palace then it was converted to be the smallest Waldorf Astoria in the world ?",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jedwawa-waldorf-astoria-jeddah-qasr-al-sharq/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Qasr al Sharq suite covers half of an entire floor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Covering half of an entire floor, the vast Qasr al Sharq suite is nearly 1,000 square meters.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jedwawa-waldorf-astoria-jeddah-qasr-al-sharq/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Qasr al Sharq suite includes two master bedrooms, a formal majlis and a private health club.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The ravishing suite includes two master bedrooms, a formal majlis, a private health club, and more.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jedwawa-waldorf-astoria-jeddah-qasr-al-sharq/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Guests arrive under a three-story Swarovski chandelier.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Arrive to elegance under a three-story Swarovski chandelier and wake up to views of Jeddah.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jedwawa-waldorf-astoria-jeddah-qasr-al-sharq/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Conde Nast Traveler reports the hotel was designed by the firm behind Dubai's Burj Al Arab.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Designed by the firm behind Dubai’s Burj Al Arab and managed by the Waldorf-Astoria Collection hotel chain",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/saudi-arabia/jeddah/qasr-al-sharq",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The spa is reserved for women.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our ladies-only spa provides a variety of mind and body healing services following holistic methods.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jedwawa-waldorf-astoria-jeddah-qasr-al-sharq/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "our ladies-only spa is a serene getaway from bustling Jeddah",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jedwawa-waldorf-astoria-jeddah-qasr-al-sharq/amenities/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Pets are not allowed.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Pets not allowed",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jedwawa-waldorf-astoria-jeddah-qasr-al-sharq/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes no alcoholic beverages are served on property, in keeping with Saudi regulations.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "slug": "waldorf-astoria-las-vegas",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Waldorf Astoria Las Vegas",
+      "city": "Las Vegas",
+      "country": "US",
+      "chain": "hilton"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hilton"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Las Vegas, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hilton.com/en/hotels/laswdwa-waldorf-astoria-las-vegas/"
+    ],
+    "checked_at": "2026-10-14T23:01:48.360Z",
+    "status": "confirmed",
+    "official_url": "https://www.hilton.com/en/hotels/laswdwa-waldorf-astoria-las-vegas/",
+    "base_url": "https://www.hilton.com/en/hotels/laswdwa-waldorf-astoria-las-vegas/",
+    "host": "hilton.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hilton.com/en/hotels/laswdwa-waldorf-astoria-las-vegas/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T23:02:10.539Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hilton.com/en/hotels/laswdwa-waldorf-astoria-las-vegas/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T23:02:25.040Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hilton.com/en/hotels/laswdwa-waldorf-astoria-las-vegas/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T23:02:39.590Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hilton.com/en/hotels/laswdwa-waldorf-astoria-las-vegas/spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T23:02:54.546Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hilton.com/en/hotels/laswdwa-waldorf-astoria-las-vegas/amenities/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T23:03:02.439Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.cntraveler.com/hotels/las-vegas/waldorf-astoria-las-vegas",
+      "tier": "editorial",
+      "fetched_at": "2026-10-14T23:03:46.564Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.hilton.com/en/hotels/laswdwa-waldorf-astoria-las-vegas/%3CBase64-Image-Removed%3E/",
+      "reason": "https://www.hilton.com/en/hotels/laswdwa-waldorf-astoria-las-vegas/%3CBase64-Image-Removed%3E/: page had almost no text"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 9,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 6,
+    "chars": 29351,
+    "est_claude_tokens": 7338
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-14T23:03:46.564Z"
+}

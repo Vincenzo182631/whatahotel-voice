@@ -1,0 +1,65 @@
+{
+  "slug": "waldorf-astoria-dubai-palm-jumeirah",
+  "hotel": {
+    "name": "Waldorf Astoria Dubai Palm Jumeirah",
+    "url": "https://www.whatahotel.com/hotels/4172/waldorf-astoria-dubai-palm-jumeirah.html"
+  },
+  "chain": {
+    "name": "Hilton"
+  },
+  "checked_at": "2026-10-14T23:02:42.894Z",
+  "status": "needs_review",
+  "benefits": [
+    {
+      "kind": "breakfast",
+      "status": "confirmed",
+      "qualifiers": [],
+      "hotel_excerpt": "Free Breakfast for 2 Daily"
+    },
+    {
+      "kind": "wifi",
+      "status": "confirmed",
+      "qualifiers": [],
+      "hotel_excerpt": "Free Wi-Fi Access"
+    },
+    {
+      "kind": "upgrade",
+      "status": "confirmed",
+      "qualifiers": [
+        "availability"
+      ],
+      "hotel_excerpt": "Priority Upgrade if Available at Check-in"
+    },
+    {
+      "kind": "credit",
+      "status": "confirmed",
+      "amount": 100,
+      "qualifiers": [],
+      "hotel_excerpt": "$100 Credit"
+    },
+    {
+      "kind": "combinable",
+      "status": "unclear",
+      "qualifiers": [],
+      "hotel_excerpt": "Combinable with the Exclusive Perks"
+    }
+  ],
+  "issues": [
+    "no WhataHotel chain page found for this hotel; the chain cross-check was skipped (pass --chain-url to add it)",
+    "credit: WhataHotel mentions a higher credit for suites; the closing states only the perks table's amount",
+    "combinable: the chain page could not be checked, so combinability is not stated"
+  ],
+  "special_offers": [],
+  "restrictions": [],
+  "closing": {
+    "template": "expect",
+    "text": "With WhataHotel's preferred rate at this hotel, expect free breakfast for two every day, priority for an upgrade at check-in when one is available, a $100 hotel credit, and complimentary Wi-Fi.",
+    "words": 31,
+    "benefits": [
+      "breakfast",
+      "wifi",
+      "upgrade",
+      "credit"
+    ]
+  }
+}
