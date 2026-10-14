@@ -1,0 +1,430 @@
+{
+  "hotel_slug": "thompson-washington-d-c",
+  "hotel_name": "Thompson Washington D.C.",
+  "checked_at": "2026-10-14T22:16:47.657Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/iadth-thompson-washington-dc",
+      "tier": "official",
+      "chars": 10745
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/iadth-thompson-washington-dc/rooms/",
+      "tier": "official",
+      "chars": 8627
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/iadth-thompson-washington-dc/dining/",
+      "tier": "official",
+      "chars": 3273
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/iadth-thompson-washington-dc/policies/",
+      "tier": "official",
+      "chars": 1644
+    },
+    {
+      "id": "d5",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/iadth-thompson-washington-dc/parking-and-transportation/",
+      "tier": "official",
+      "chars": 4306
+    },
+    {
+      "id": "d6",
+      "url": "https://www.cntraveler.com/hotels/washington-dc/thompson-washington-dc",
+      "tier": "editorial",
+      "chars": 7944
+    },
+    {
+      "id": "d7",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/iadth-thompson-washington-dc/hotel-info/",
+      "tier": "official",
+      "chars": 1247
+    },
+    {
+      "id": "d8",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/iadth-thompson-washington-dc/reviews/",
+      "tier": "official",
+      "chars": 8280
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is at 221 Tingey Street SE in Washington, D.C.'s Navy Yard neighborhood.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "221 Tingey Street SE, Washington, D.C. 20003, United States of America",
+          "note": "address",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/iadth-thompson-washington-dc",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Discover the vibrant Navy Yard neighborhood in Washington, D.C.",
+          "note": "Navy Yard neighborhood",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/iadth-thompson-washington-dc",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The nearest Metro station is Navy Yard-Ballpark on the Green Line.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The nearest Metro station to Thompson Washington D.C. is the Navy Yard-Ballpark Metro station on the Green Line.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/iadth-thompson-washington-dc/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Conde Nast Traveler says the hotel is steps from the Nationals baseball stadium and right by the Anacostia waterfront and marina.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Nationals baseball stadium\n, Audi stadium, and right by the Anacostia waterfront and marina",
+          "note": "CNT location",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/washington-dc/thompson-washington-dc",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The design includes subtle nods to the Navy Yard's nautical history in public spaces and guest rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "You will notice the subtle nods to the Navy Yard’s rich nautical history throughout the hotel’s public spaces and your private room.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/iadth-thompson-washington-dc",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "New York-based Parts and Labor Design did the interiors.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "NYC-based Parts and Labor Design did the interiors",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/washington-dc/thompson-washington-dc",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Thompson Bar Room serves light bites, wine and handcrafted cocktails.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The Thompson Bar Room provides a sophisticated atmosphere where you can indulge in light bites, wine and handcrafted cocktails.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/iadth-thompson-washington-dc/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The rooftop bar has floor-to-ceiling windows and terrace seating.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Floor-to-ceiling windows allow you to experience all the outdoor elements from the comfort of our chic bar top. When the weather is nice, soak up some sun on our plush terrace seating.",
+          "note": "rooftop section",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/iadth-thompson-washington-dc/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Some suites and guest rooms have a private balcony.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "For an elevated experience, choose a suite or guest room with a private balcony.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/iadth-thompson-washington-dc/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Rooms have D.S. & Durga bath amenities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "D.S. & Durga bath amenities",
+          "note": "listed in room amenities",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/iadth-thompson-washington-dc/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The rooftop lounge has over 6,000 square feet of bookable event space.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "With over 6,000 square feet of stunning, bookable event space",
+          "note": "rooftop events section",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/iadth-thompson-washington-dc",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Dogs are welcome at no additional charge for stays under 30 nights.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "We welcome dogs at no additional charge for stays less than 30 nights.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/iadth-thompson-washington-dc/policies/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The hotel suggests a bike ride along the Anacostia Riverwalk Trail.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Embark on a bike adventure along the scenic Anacostia Riverwalk Trail",
+          "note": "hotel suggests",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/iadth-thompson-washington-dc",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Rooftop at the Thompson offers 360-degree views of Washington D.C. and the waterfront.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "head up to the Rooftop at the Thompson and unwind with 360-degree views of Washington D.C. and the waterfront",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/iadth-thompson-washington-dc/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Curved walls, porthole-style lights and mirrored accents link to the neighborhood's history as a naval center.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "curved walls and porthole-style lights and mirrored accents, for example, link to the neighborhood's long history as a naval center",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/washington-dc/thompson-washington-dc",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Thompson Suite Ballpark View looks onto the national ballpark through floor-to-ceiling windows and has a balcony.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "take in sweeping views of D.C.’s professional baseball team’s national ballpark through the floor-to-ceiling windows; the suite offers one king bed, a separate living room, a balcony, and guest bathroom",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/iadth-thompson-washington-dc/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The 1 King River View room looks out on the Anacostia River.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Admire Anacostia River views through the oversized industrial windows of this spacious room",
+          "note": "1 King River View",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/iadth-thompson-washington-dc/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The daily destination fee includes access to pedal assist electric bicycles and a Capital Bikeshare day pass.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "A daily destination fee of $32.00 (subject to change)",
+          "note": "daily fee",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/iadth-thompson-washington-dc/policies/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Access to pedal assist electric bicycles",
+          "note": "e-bikes",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/iadth-thompson-washington-dc/policies/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Day pass for Capital Bikeshare",
+          "note": "bikeshare",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/iadth-thompson-washington-dc/policies/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "A daily destination fee applies to each room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "A daily destination fee of $32.00 (subject to change) is applied to each room of your stay",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/iadth-thompson-washington-dc/policies/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Parking is by valet, which includes in-and-out privileges.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Valet parking is available at the hotel entrance 6:00 am – 12:00 am and includes in-and-out privileges.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/iadth-thompson-washington-dc/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes an urban location with typical city noise levels.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
