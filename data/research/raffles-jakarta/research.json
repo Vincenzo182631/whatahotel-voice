@@ -1,0 +1,105 @@
+{
+  "slug": "raffles-jakarta",
+  "status": "awaiting_extraction",
+  "partial": true,
+  "reasons": [
+    "limit reached: 150000 characters of page text; progress saved (7 pages), rerun with higher limits to continue"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Raffles Jakarta",
+      "city": "Jakarta",
+      "country": "ID",
+      "chain": "raffles"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "raffles"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Jakarta, ID)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.raffles.com/jakarta/"
+    ],
+    "checked_at": "2026-10-14T01:10:25.009Z",
+    "status": "confirmed",
+    "official_url": "https://www.raffles.com/jakarta/",
+    "base_url": "https://www.raffles.com/jakarta/",
+    "host": "raffles.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.raffles.com/jakarta/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:10:35.981Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.raffles.com/jakarta/rooms-and-suites/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:10:42.167Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.raffles.com/jakarta/spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:10:53.467Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.raffles.com/jakarta/dining/arts-cafe/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:11:05.101Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.raffles.com/jakarta/about/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:11:08.838Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.raffles.com/jakarta/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:11:12.818Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.raffles.com/jakarta/experiences/butchers-table/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:11:16.752Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 10,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 7,
+    "chars": 149609,
+    "est_claude_tokens": 37402
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-14T01:11:20.425Z"
+}

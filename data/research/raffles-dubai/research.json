@@ -1,0 +1,105 @@
+{
+  "slug": "raffles-dubai",
+  "status": "awaiting_extraction",
+  "partial": true,
+  "reasons": [
+    "limit reached: 150000 characters of page text; progress saved (7 pages), rerun with higher limits to continue"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Raffles Dubai",
+      "city": "Dubai",
+      "country": "AE",
+      "chain": "raffles"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "raffles"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Dubai, AE)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.raffles.com/dubai/"
+    ],
+    "checked_at": "2026-10-14T01:12:49.011Z",
+    "status": "confirmed",
+    "official_url": "https://www.raffles.com/dubai/",
+    "base_url": "https://www.raffles.com/dubai/",
+    "host": "raffles.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.raffles.com/dubai/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:13:08.994Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.raffles.com/dubai/rooms-and-suites/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:13:20.484Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.raffles.com/dubai/experiences/calligraphy-workshop-stay/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:13:31.997Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.raffles.com/dubai/spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:13:34.922Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.raffles.com/dubai/dining/solo-italian-restaurant-and-bar/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:13:38.523Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.raffles.com/dubai/about/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:13:43.007Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.raffles.com/dubai/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:13:47.102Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 10,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 7,
+    "chars": 142931,
+    "est_claude_tokens": 35733
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-14T01:13:50.835Z"
+}

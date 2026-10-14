@@ -1,0 +1,98 @@
+{
+  "slug": "raffles-europejski-warsaw",
+  "status": "awaiting_extraction",
+  "partial": true,
+  "reasons": [
+    "limit reached: 150000 characters of page text; progress saved (6 pages), rerun with higher limits to continue"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Raffles Europejski Warsaw",
+      "city": "Warsaw",
+      "country": "PL",
+      "chain": "raffles"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "raffles"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Warsaw, PL)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.raffles.com/warsaw/"
+    ],
+    "checked_at": "2026-10-14T01:12:00.957Z",
+    "status": "confirmed",
+    "official_url": "https://www.raffles.com/warsaw/",
+    "base_url": "https://www.raffles.com/warsaw/",
+    "host": "raffles.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.raffles.com/warsaw/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:12:09.472Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.raffles.com/warsaw/rooms-and-suites/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:12:16.083Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.raffles.com/warsaw/spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:12:20.497Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.raffles.com/warsaw/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:12:24.198Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.raffles.com/warsaw/experiences/immersive-art-retreat/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:12:30.783Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.raffles.com/warsaw/experiences/private-dining-in-warsaw/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:12:33.444Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 9,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 6,
+    "chars": 135813,
+    "est_claude_tokens": 33953
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-14T01:12:38.951Z"
+}

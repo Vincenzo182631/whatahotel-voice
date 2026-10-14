@@ -1,0 +1,98 @@
+{
+  "slug": "raffles-the-palm-dubai",
+  "status": "awaiting_extraction",
+  "partial": true,
+  "reasons": [
+    "limit reached: 150000 characters of page text; progress saved (6 pages), rerun with higher limits to continue"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Raffles The Palm Dubai",
+      "city": "Dubai",
+      "country": "AE",
+      "chain": "raffles"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "raffles"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Dubai, AE)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.raffles.com/thepalm-dubai/"
+    ],
+    "checked_at": "2026-10-14T01:13:52.263Z",
+    "status": "confirmed",
+    "official_url": "https://www.raffles.com/thepalm-dubai/",
+    "base_url": "https://www.raffles.com/thepalm-dubai/",
+    "host": "raffles.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.raffles.com/thepalm-dubai/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:14:03.864Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.raffles.com/thepalm-dubai/rooms-and-suites/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:14:07.628Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.raffles.com/thepalm-dubai/dining/piatti-by-the-beach/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:14:11.549Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.raffles.com/thepalm-dubai/spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:14:15.568Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.raffles.com/thepalm-dubai/experiences/pool-beach-day-pass/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:14:20.644Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.raffles.com/thepalm-dubai/experiences/Raffles-Spa-Exclusively-Yours/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:14:25.103Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 9,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 6,
+    "chars": 148212,
+    "est_claude_tokens": 37053
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-14T01:14:28.449Z"
+}

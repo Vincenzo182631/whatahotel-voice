@@ -1,0 +1,91 @@
+{
+  "slug": "raffles-doha",
+  "status": "awaiting_extraction",
+  "partial": true,
+  "reasons": [
+    "limit reached: 150000 characters of page text; progress saved (5 pages), rerun with higher limits to continue"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Raffles Doha",
+      "city": "Doha",
+      "country": "QA",
+      "chain": "raffles"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "raffles"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Doha, QA)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.raffles.com/doha/"
+    ],
+    "checked_at": "2026-10-14T01:12:40.308Z",
+    "status": "confirmed",
+    "official_url": "https://www.raffles.com/doha/",
+    "base_url": "https://www.raffles.com/doha/",
+    "host": "raffles.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.raffles.com/doha/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:12:51.962Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.raffles.com/doha/suites/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:12:55.320Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.raffles.com/doha/suites/skc/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:13:07.969Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.raffles.com/doha/suites/ska/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:13:11.338Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.raffles.com/doha/suites/skcbc/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:13:17.377Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 8,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 5,
+    "chars": 131701,
+    "est_claude_tokens": 32925
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-14T01:13:21.463Z"
+}

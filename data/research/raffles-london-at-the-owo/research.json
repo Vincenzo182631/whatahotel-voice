@@ -1,0 +1,91 @@
+{
+  "slug": "raffles-london-at-the-owo",
+  "status": "awaiting_extraction",
+  "partial": true,
+  "reasons": [
+    "limit reached: 150000 characters of page text; progress saved (5 pages), rerun with higher limits to continue"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Raffles London at The OWO",
+      "city": "London",
+      "country": "GB",
+      "chain": "raffles"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "raffles"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (London, GB)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.raffles.com/london/"
+    ],
+    "checked_at": "2026-10-14T01:14:29.881Z",
+    "status": "confirmed",
+    "official_url": "https://www.raffles.com/london/",
+    "base_url": "https://www.raffles.com/london/",
+    "host": "raffles.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.raffles.com/london/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:14:40.862Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.raffles.com/london/rooms-and-suites/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:14:44.990Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.raffles.com/london/experiences/royal-spa-suite-journey/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:14:49.323Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.raffles.com/london/dining/afternoon-tea/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:14:52.422Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.raffles.com/london/dining/mauro-colagreco/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:14:57.224Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 8,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 5,
+    "chars": 133504,
+    "est_claude_tokens": 33376
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-14T01:15:01.699Z"
+}

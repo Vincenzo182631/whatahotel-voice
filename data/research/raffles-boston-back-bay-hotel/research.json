@@ -1,0 +1,89 @@
+{
+  "slug": "raffles-boston-back-bay-hotel",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Raffles Boston Back Bay Hotel",
+      "city": "Boston",
+      "country": "US",
+      "chain": "raffles"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "raffles"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Boston, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.raffles.com/boston/"
+    ],
+    "checked_at": "2026-10-14T01:09:44.414Z",
+    "status": "confirmed",
+    "official_url": "https://www.raffles.com/boston/",
+    "base_url": "https://www.raffles.com/boston/",
+    "host": "raffles.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.raffles.com/boston/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:09:55.232Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.raffles.com/boston/rooms-suites/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:09:59.736Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.raffles.com/boston/dining/long-bar-and-terrace/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:10:11.912Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.raffles.com/boston/about/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:10:14.204Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 4,
+    "chars": 98687,
+    "est_claude_tokens": 24672
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-14T01:10:20.608Z"
+}

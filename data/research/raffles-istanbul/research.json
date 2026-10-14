@@ -1,0 +1,112 @@
+{
+  "slug": "raffles-istanbul",
+  "status": "awaiting_extraction",
+  "partial": true,
+  "reasons": [
+    "limit reached: 150000 characters of page text; progress saved (8 pages), rerun with higher limits to continue"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Raffles Istanbul",
+      "city": "Istanbul",
+      "country": "TR",
+      "chain": "raffles"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "raffles"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Istanbul, TR)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.raffles.com/istanbul/"
+    ],
+    "checked_at": "2026-10-14T01:11:56.172Z",
+    "status": "confirmed",
+    "official_url": "https://www.raffles.com/istanbul/",
+    "base_url": "https://www.raffles.com/istanbul/",
+    "host": "raffles.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.raffles.com/istanbul/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:12:04.421Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.raffles.com/istanbul/rooms-and-suites/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:12:11.356Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.raffles.com/istanbul/spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:12:15.705Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.raffles.com/istanbul/dining/isokyo/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:12:28.794Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.raffles.com/istanbul/experiences/hammam-treatment/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:12:32.228Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.raffles.com/istanbul/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:12:35.978Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.raffles.com/istanbul/experiences/aromatherapy-massage/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:12:40.454Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.raffles.com/istanbul/experiences/dinner-for-two-isokyo/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T01:12:44.700Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 11,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 8,
+    "chars": 142998,
+    "est_claude_tokens": 35750
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-14T01:12:47.531Z"
+}
