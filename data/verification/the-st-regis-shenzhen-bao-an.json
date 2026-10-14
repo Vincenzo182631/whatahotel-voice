@@ -1,0 +1,384 @@
+{
+  "hotel_slug": "the-st-regis-shenzhen-bao-an",
+  "hotel_name": "The St. Regis. Shenzhen Bao An",
+  "checked_at": "2026-10-14T11:25:56.059Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/szxxs-the-st-regis-shenzhen-baoan/overview/",
+      "tier": "official",
+      "chars": 14910
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/szxxs-the-st-regis-shenzhen-baoan/rooms/",
+      "tier": "official",
+      "chars": 5392
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/szxxs-the-st-regis-shenzhen-baoan/dining/",
+      "tier": "official",
+      "chars": 7383
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/szxxs-the-st-regis-shenzhen-baoan/experiences/",
+      "tier": "official",
+      "chars": 7281
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is at 1088 Xingye Road in Shenzhen's Bao'an District.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "1088 Xingye Road, Bao’an District, Shenzhen, Guangdong, China, 518101",
+          "note": "address stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/szxxs-the-st-regis-shenzhen-baoan/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Shenzhen Bao'an International Airport is about 20 km from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "SZX is located approximately 20.0 KM from the hotel.",
+          "note": "distance stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/szxxs-the-st-regis-shenzhen-baoan/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The rooms and suites were designed by architect Andre Fu, pairing New York glamour with Shenzhen's energy.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Designed by architect André Fu, harmonizes New York timeless glamour with Shenzhen dynamic energy",
+          "note": "rooms page design note",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/szxxs-the-st-regis-shenzhen-baoan/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Rooms feature dark oak parquet, dusty grey veneer and Carrara marble, with oriental-inspired timber screens and marquetry headboards.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The rooms feature dark oak parquet, dusty grey veneer, and Carrara marble, with highlights like oriental-inspired timber screens, bronze and glass wall sconces, and intricate marquetry on the headboard",
+          "note": "materials stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/szxxs-the-st-regis-shenzhen-baoan/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Floor-to-ceiling windows in the rooms frame views of the city or Qianhai Bay.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Floor-to-ceiling windows frame sweeping views of the city or Qianhai Bay",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/szxxs-the-st-regis-shenzhen-baoan/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Yan Ting serves classic Cantonese dishes reimagined with modern artistry, led by Chinese Executive Chef Watson Chen.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Helmed by the acclaimed Chinese Executive Chef and culinary talent Watson Chen, Yan Ting serves classic Cantonese dishes that are reimagined with modern artistry",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/szxxs-the-st-regis-shenzhen-baoan/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Drawing Room in the lobby serves afternoon tea every afternoon as a tribute to Caroline Astor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Indulge in a luxurious experience at our elegant lobby venue",
+          "note": "Drawing Room is the lobby venue",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/szxxs-the-st-regis-shenzhen-baoan/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Every afternoon, immerse yourself in our modern interpretation of Afternoon Tea, a tribute to the refined legacy of Caroline Astor from the early 1900s",
+          "note": "afternoon tea tribute",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/szxxs-the-st-regis-shenzhen-baoan/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The St. Regis evening ritual is performed in the Great Hall on the 35th floor every evening.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "This St. Regis ritual will be performed at the Great Hall at the 35th floor every evening at 6:00 PM.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/szxxs-the-st-regis-shenzhen-baoan/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The evening ritual is a sabrage ceremony celebrating the transition from day to evening.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The St. Regis Shenzhen Bao’an honors this tradition and performs the sabrage ceremony to celebrate the transition from day to evening.",
+          "note": "under Evening Ritual heading",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/szxxs-the-st-regis-shenzhen-baoan/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "St. Regis Butler Service is offered at the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Enjoy the St. Regis Butler Service, a personalized signature offering of the brand",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/szxxs-the-st-regis-shenzhen-baoan/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel has one indoor pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Yes, The St. Regis Shenzhen Bao'an has one Indoor pool on-site for hotel guests.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/szxxs-the-st-regis-shenzhen-baoan/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Nearby attractions include OH Bay, Xiwan Mangrove Park, Nantou Ancient City and the Bay Opera of Shenzhen.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Shenzhen Uniwalk Qianhai, OH Bay, Nantou Ancient City, Xiwan Mangrove Park, Bay Opera of Shenzhen and more are nearby",
+          "note": "all four listed",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/szxxs-the-st-regis-shenzhen-baoan/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The St. Regis Bar's Bay Mary cocktail blends lychee and osmanthus as the hotel's twist on the St. Regis Bloody Mary.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "including the Bay Mary – a distinctive blend of lychee and osmanthus that also serves as the hotel’s unique twist on the iconic St. Regis Bloody Mary",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/szxxs-the-st-regis-shenzhen-baoan/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "At the center of The St. Regis Bar is a 4-meter-wide mural hand-painted by a local artist that tells stories of Bao'an.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "At the center of the bar, a 4-meter-wide mural hand-painted by a local artist tells the untold stories of Bao’an",
+          "note": "under The St. Regis Bar",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/szxxs-the-st-regis-shenzhen-baoan/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The St. Regis Astor Terrace Bar is on an outdoor rooftop terrace with a cylindrical bar and views of the bay.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "St. Regis Astor Terrace Bar highlights the beauty and tranquility of the outdoor rooftop terrace",
+          "note": "rooftop terrace",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/szxxs-the-st-regis-shenzhen-baoan/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The cylindrical bar serves as a visual focal point, while the outdoor seating area creates a relaxed and leisurely atmosphere. As guests savor their drinks, they can enjoy stunning views of the bay.",
+          "note": "cylindrical bar and bay views",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/szxxs-the-st-regis-shenzhen-baoan/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Caroline Astor Suite is a bay-view suite with views of the bay, the Bay Glory Ferris wheel and the Bao'an coastal skyline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "the bay view suite at 90 sqm, offering breathtaking views of the azure bay, the Bay Glory Ferries wheel, and the coastal skyline of the center of Bao’an distrcit",
+          "note": "page typo Ferries for Ferris",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/szxxs-the-st-regis-shenzhen-baoan/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel does not provide an airport shuttle.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "This hotel does not provide shuttle service.",
+          "note": "listed for each airport",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/szxxs-the-st-regis-shenzhen-baoan/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The St. Regis Spa has four treatment rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The St. Regis Spa promises to transcend the traditional luxury spa experience. The four treatment rooms will offer an exquisite sanctuary",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/szxxs-the-st-regis-shenzhen-baoan/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the Bao'an District location means travel to reach central Shenzhen attractions.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
