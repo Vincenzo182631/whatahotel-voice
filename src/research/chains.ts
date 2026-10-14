@@ -45,7 +45,17 @@ export const CHAINS: Chain[] = [
       return s.length >= 2 ? `${u.origin}/en/${s[0]}/${s[1]}/` : undefined;
     },
   },
-  { id: "peninsula", name: "The Peninsula", match: /\bpeninsula\b/i, domains: ["peninsula.com"], base: firstOne },
+  {
+    id: "peninsula",
+    name: "The Peninsula",
+    match: /\bpeninsula\b/i,
+    domains: ["peninsula.com"],
+    // /en/hong-kong/... is a property section; /en/newsroom/, /en/perspectives/ etc. are chain-wide
+    base: (u) => {
+      const b = firstOne(u);
+      return b && /\/(newsroom|perspectives|global|offers|careers|about-us|peninsula-academy|stories|search|privacy|legal)\/$/i.test(b) ? undefined : b;
+    },
+  },
   {
     id: "ritz-carlton",
     name: "The Ritz-Carlton",

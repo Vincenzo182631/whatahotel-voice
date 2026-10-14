@@ -1,0 +1,75 @@
+{
+  "slug": "the-peninsula-manila",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "The Peninsula Manila",
+      "city": "Manila",
+      "country": "PH",
+      "chain": "peninsula"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "peninsula"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Manila, PH)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.peninsula.com/en/newsroom/manila"
+    ],
+    "checked_at": "2026-10-14T00:04:10.024Z",
+    "status": "confirmed",
+    "official_url": "https://www.peninsula.com/en/newsroom/manila",
+    "base_url": "https://www.peninsula.com/en/newsroom/",
+    "host": "peninsula.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.peninsula.com/en/newsroom/manila",
+      "tier": "official",
+      "fetched_at": "2026-10-14T00:04:19.332Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.cntraveler.com/hotels/philippines/makati-city/the-peninsula-manila",
+      "tier": "editorial",
+      "fetched_at": "2026-10-14T00:04:27.223Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.peninsula.com/en/newsroom/",
+      "reason": "no same-property sub-page links found on the home page"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 4,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 2,
+    "chars": 15799,
+    "est_claude_tokens": 3950
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-14T00:04:27.223Z"
+}
