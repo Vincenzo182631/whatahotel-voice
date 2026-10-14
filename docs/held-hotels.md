@@ -151,3 +151,9 @@ All 14 done. The Carlton Milano hand-accepted by the user (official page names i
 All 42 published. Hand-accepted by the user (official page lacks WhataHotel's city name): Kauri Cliffs, Matakauri, Bermuda, Cape Kidnappers, Kona Village, Mandarina, Miyakojima, Las Ventanas, Baha Mar.
 - rosewoodhotels.com sub-pages mostly scrape as homepage copies, so many profiles rest on the official homepage + dining page + Condé Nast Traveler.
 - WhataHotel page errors worth fixing: The Chancery Rosewood page describes Rosewood London (Holborn) instead of the former US Embassy on Grosvenor Square; Sao Paulo neighborhood (Vila Madalena/Cidade Jardim vs Bela Vista); Sand Hill city (Palo Alto vs Menlo Park); Bangkok (Lakorn/spa floors); Phnom Penh (Iza is Japanese, not Khmer); Villa Magna ("Flor de Caña" not a venue); Beijing (Red Bowl is hot pot, not Peking duck); San Miguel (new build 2011, not a convent); Mayakoba (1,600 vs 620 acres); Castiglion (4,200 vs 5,000 acres); Bermuda (one golf club, Hamilton Parish).
+
+## SLS (collection/92)
+
+6 of 7 done. Baha Mar, Dubai and Puerto Madero hand-accepted by the user.
+- SLS Beverly Hills: held. slshotels.com/beverly-hills/ is a single page with no sub-pages and no CNT review; only 8 thin facts. WhataHotel names Bazaar Meat, which the official page doesn't list (LADiDa Rooftop instead).
+- WhataHotel contradictions: Barcelona (Eixample/Starck vs Port Fòrum in Sant Adrià de Besòs, b720 design); Dubai (Starck vs Paul Bishop/Aedas, José Andrés venues not listed, Business Bay not Downtown); Cancún (Starck vs Piero Lissoni, rooftop lagoon pool vs Gulf infinity pool); Playa Mujeres (called adults-only, but has kids/teen clubs); Baha Mar (Bazaar not listed; ~15 min from downtown Nassau, not steps).
