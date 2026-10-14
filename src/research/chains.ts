@@ -163,6 +163,10 @@ export const CHAINS: Chain[] = [
   { id: "sls", name: "SLS", match: /\bsls\b/i, domains: ["slshotels.com"], secondaryDomains: ["all.accor.com", "ennismore.com"],
     base: (u) => { const b = firstOne(u); return b && !/\/(offers|about|careers|press|news|destinations|search|legal|privacy|residences|stories|loyalty|en|es|fr)\/$/i.test(b) ? b : undefined; } },
   { id: "langham", name: "Langham", match: /langham|cordis/i, domains: ["langhamhotels.com", "cordishotels.com"], base: (u) => (u.hostname.includes("cordishotels") ? firstOne(u) : firstTwo(u)) },
+  { id: "trump", name: "Trump Hotels", match: /\btrump\b/i, domains: ["trumphotels.com", "trumpdoonbeg.com"],
+    // trumphotels.com/<property>/... -> /<property>/ (chain-wide sections excluded); trumpdoonbeg.com is single-property
+    base: (u) => { if (u.hostname.includes("trumpdoonbeg")) return `${u.origin}/`; const b = firstOne(u);
+      return b && !/\/(properties|special-offers?|special-offer-overview|luxury-hotel-programs|meetings-weddings|pet-friendly-hotels|family-friendly-hotels|best-rate-commitment|careers|contact-us|privacy-policy|terms-of-service|site-map|media|trumpcard|affiliate-charities|luxury-hotel-development|culinary-passport-dinner-series|trump-hotels-planner-privileges)\/$/i.test(b) ? b : undefined; } },
   { id: "montage", name: "Montage", match: /montage/i, domains: ["montage.com", "montagehotels.com"], base: firstOne },
   { id: "oetker", name: "Oetker Collection", match: /oetker|le bristol paris|eden rock|jumby bay|chateau saint-martin/i, domains: ["oetkercollection.com"], base: firstTwo },
   { id: "kempinski", name: "Kempinski", match: /kempinski/i, domains: ["kempinski.com"], base: firstTwo },
