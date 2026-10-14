@@ -1,0 +1,96 @@
+{
+  "slug": "st-regis-new-york",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "St. Regis New York",
+      "city": "New York",
+      "country": "US",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (New York, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/nycxr-the-st-regis-new-york/overview/"
+    ],
+    "checked_at": "2026-10-14T07:48:38.413Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/nycxr-the-st-regis-new-york/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/nycxr-the-st-regis-new-york/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/nycxr-the-st-regis-new-york/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T07:48:58.544Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/nycxr-the-st-regis-new-york/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T07:49:02.753Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/nycxr-the-st-regis-new-york/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T07:49:16.349Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/nycxr-the-st-regis-new-york/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T07:49:26.326Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.marriott.com/en-us/hotels/nycxr-the-st-regis-new-york/experiences/holidays/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T07:49:35.394Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.cntraveler.com/hotels/new-york-city/the-st-regis-new-york",
+      "tier": "editorial",
+      "fetched_at": "2026-10-14T07:49:40.851Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 8,
+    "firecrawl_searches": 1,
+    "cache_hits": 0,
+    "direct_fetches": 1,
+    "pages": 6,
+    "chars": 63039,
+    "est_claude_tokens": 15760
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-14T07:49:40.851Z"
+}
