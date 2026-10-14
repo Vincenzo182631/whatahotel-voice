@@ -2,9 +2,7 @@
   "slug": "rosewood-guangzhou",
   "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "some pages were inaccessible; missing information is not proof an amenity does not exist"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "Rosewood Guangzhou",
@@ -22,14 +20,12 @@
     ],
     "reasons": [],
     "candidates": [
-      "https://www.rosewoodhotels.com/en/guangzhou",
-      "https://www.rosewoodhotels.com/en/guangzhou/dining",
-      "https://www.rosewoodhotels.com/en/guangzhou/contact"
+      "https://www.rosewoodhotels.com/en/guangzhou"
     ],
-    "checked_at": "2026-10-14T05:18:00.272Z",
+    "checked_at": "2026-10-14T05:24:19.773Z",
     "status": "confirmed",
-    "official_url": "https://www.rosewoodhotels.com/en/guangzhou/contact",
-    "base_url": "https://www.rosewoodhotels.com/en/guangzhou/contact/",
+    "official_url": "https://www.rosewoodhotels.com/en/guangzhou",
+    "base_url": "https://www.rosewoodhotels.com/en/guangzhou/",
     "host": "rosewoodhotels.com",
     "checks": {
       "name_coverage": 1,
@@ -39,33 +35,77 @@
   "pages": [
     {
       "id": "p1",
-      "url": "https://www.rosewoodhotels.com/en/guangzhou/contact",
+      "url": "https://www.rosewoodhotels.com/en/guangzhou",
       "tier": "official",
-      "fetched_at": "2026-10-14T05:18:17.954Z",
-      "source": "cache"
+      "fetched_at": "2026-10-14T05:24:31.972Z",
+      "source": "firecrawl"
     },
     {
       "id": "p2",
+      "url": "https://www.rosewoodhotels.com/en/guangzhou/dining/the-butterfly-room/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:24:41.264Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.rosewoodhotels.com/en/guangzhou/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:24:43.921Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.rosewoodhotels.com/en/guangzhou/dining/too-high/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:24:49.408Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.rosewoodhotels.com/en/guangzhou/overview/our-story/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:24:53.330Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.rosewoodhotels.com/en/guangzhou/dining/lingnan-house/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:24:57.572Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.rosewoodhotels.com/en/guangzhou/dining/patina-european-brasserie/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:25:01.345Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.rosewoodhotels.com/en/guangzhou/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:25:07.556Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
       "url": "https://www.cntraveler.com/hotels/guangzhou/rosewood-guangzhou",
       "tier": "editorial",
-      "fetched_at": "2026-10-14T05:18:23.047Z",
+      "fetched_at": "2026-10-14T05:25:08.360Z",
       "source": "direct"
     }
   ],
-  "inaccessible": [
-    {
-      "url": "https://www.rosewoodhotels.com/en/guangzhou/contact/",
-      "reason": "no same-property sub-page links found on the home page"
-    }
-  ],
+  "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 6,
+    "firecrawl_calls": 13,
     "firecrawl_searches": 3,
-    "cache_hits": 2,
+    "cache_hits": 0,
     "direct_fetches": 1,
-    "pages": 2,
-    "chars": 23623,
-    "est_claude_tokens": 5906
+    "pages": 9,
+    "chars": 54902,
+    "est_claude_tokens": 13726
   },
   "limits": {
     "maxPages": 12,
@@ -73,5 +113,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-14T05:18:23.047Z"
+  "researched_at": "2026-10-14T05:25:08.360Z"
 }

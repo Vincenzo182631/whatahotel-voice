@@ -2,9 +2,7 @@
   "slug": "rosewood-jeddah",
   "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "some pages were inaccessible; missing information is not proof an amenity does not exist"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "Rosewood Jeddah",
@@ -22,14 +20,12 @@
     ],
     "reasons": [],
     "candidates": [
-      "https://www.rosewoodhotels.com/en/jeddah",
-      "https://www.rosewoodhotels.com/en/jeddah.html",
-      "https://www.rosewoodhotels.com/en/jeddah/contact"
+      "https://www.rosewoodhotels.com/en/jeddah"
     ],
-    "checked_at": "2026-10-14T05:21:10.838Z",
+    "checked_at": "2026-10-14T05:31:00.846Z",
     "status": "confirmed",
-    "official_url": "https://www.rosewoodhotels.com/en/jeddah/contact",
-    "base_url": "https://www.rosewoodhotels.com/en/jeddah/contact/",
+    "official_url": "https://www.rosewoodhotels.com/en/jeddah",
+    "base_url": "https://www.rosewoodhotels.com/en/jeddah/",
     "host": "rosewoodhotels.com",
     "checks": {
       "name_coverage": 1,
@@ -39,33 +35,70 @@
   "pages": [
     {
       "id": "p1",
-      "url": "https://www.rosewoodhotels.com/en/jeddah/contact",
+      "url": "https://www.rosewoodhotels.com/en/jeddah",
       "tier": "official",
-      "fetched_at": "2026-10-14T05:21:24.572Z",
-      "source": "cache"
+      "fetched_at": "2026-10-14T05:31:13.049Z",
+      "source": "firecrawl"
     },
     {
       "id": "p2",
+      "url": "https://www.rosewoodhotels.com/en/jeddah/accommodation/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:31:22.757Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.rosewoodhotels.com/en/jeddah/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:31:26.436Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.rosewoodhotels.com/en/jeddah/dining/soleil/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:31:30.409Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.rosewoodhotels.com/en/jeddah/dining/habsburg/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:31:34.368Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.rosewoodhotels.com/en/jeddah/dining/soleil-rooftop/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:31:38.357Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.rosewoodhotels.com/en/jeddah/wellness/fitness/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:31:42.315Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
       "url": "https://www.cntraveler.com/hotels/jeddah/rosewood-jeddah",
       "tier": "editorial",
-      "fetched_at": "2026-10-14T05:21:28.629Z",
+      "fetched_at": "2026-10-14T05:31:45.785Z",
       "source": "direct"
     }
   ],
-  "inaccessible": [
-    {
-      "url": "https://www.rosewoodhotels.com/en/jeddah/contact/",
-      "reason": "no same-property sub-page links found on the home page"
-    }
-  ],
+  "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 5,
+    "firecrawl_calls": 12,
     "firecrawl_searches": 3,
-    "cache_hits": 3,
+    "cache_hits": 0,
     "direct_fetches": 1,
-    "pages": 2,
-    "chars": 22255,
-    "est_claude_tokens": 5564
+    "pages": 8,
+    "chars": 45997,
+    "est_claude_tokens": 11499
   },
   "limits": {
     "maxPages": 12,
@@ -73,5 +106,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-14T05:21:28.629Z"
+  "researched_at": "2026-10-14T05:31:45.785Z"
 }

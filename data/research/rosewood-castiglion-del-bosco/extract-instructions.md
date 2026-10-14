@@ -1,5 +1,5 @@
 # Extract verified facts for Rosewood Castiglion del Bosco
-Official site confirmed: https://www.rosewoodhotels.com/en/castiglion-del-bosco/experiences (chain: rosewood).
+Official site confirmed: https://www.rosewoodhotels.com/en/castiglion-del-bosco (chain: rosewood).
 Read /home/user/whatahotel-voice/data/research/rosewood-castiglion-del-bosco/index.json and the page text in /home/user/whatahotel-voice/data/research/rosewood-castiglion-del-bosco/pages/<id>.txt. Use ONLY those pages, never memory. Do not run other commands or fetch anything.
 Write /home/user/whatahotel-voice/data/research/rosewood-castiglion-del-bosco/facts.json (JSON only) with this shape:
 {"facts":[{"id":"r-1","category":"dining","kind":"fact|subjective|unresolved","text":"one atomic statement","doc_id":"p3","excerpt":"copied verbatim from that page, max 240 chars","topic":"short key, e.g. pool-count","as_of":"YYYY-MM-DD or null"}],

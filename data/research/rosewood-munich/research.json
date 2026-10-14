@@ -2,7 +2,9 @@
   "slug": "rosewood-munich",
   "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [],
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
   "identity": {
     "hotel": {
       "name": "Rosewood Munich",
@@ -20,14 +22,12 @@
     ],
     "reasons": [],
     "candidates": [
-      "https://www.rosewoodhotels.com/en/munich",
-      "https://www.rosewoodhotels.com/en/munich/accommodation",
-      "https://www.rosewoodhotels.com/en/munich/dining"
+      "https://www.rosewoodhotels.com/en/munich"
     ],
-    "checked_at": "2026-10-14T05:19:32.045Z",
+    "checked_at": "2026-10-14T05:27:06.675Z",
     "status": "confirmed",
-    "official_url": "https://www.rosewoodhotels.com/en/munich/dining",
-    "base_url": "https://www.rosewoodhotels.com/en/munich/dining/",
+    "official_url": "https://www.rosewoodhotels.com/en/munich",
+    "base_url": "https://www.rosewoodhotels.com/en/munich/",
     "host": "rosewoodhotels.com",
     "checks": {
       "name_coverage": 1,
@@ -37,63 +37,82 @@
   "pages": [
     {
       "id": "p1",
-      "url": "https://www.rosewoodhotels.com/en/munich/dining",
+      "url": "https://www.rosewoodhotels.com/en/munich",
       "tier": "official",
-      "fetched_at": "2026-10-14T05:19:49.660Z",
-      "source": "cache"
+      "fetched_at": "2026-10-14T05:27:18.900Z",
+      "source": "firecrawl"
     },
     {
       "id": "p2",
-      "url": "https://www.rosewoodhotels.com/en/munich/dining/palaishof/",
+      "url": "https://www.rosewoodhotels.com/en/munich/dining/",
       "tier": "official",
-      "fetched_at": "2026-10-14T05:19:53.651Z",
+      "fetched_at": "2026-10-14T05:27:30.879Z",
       "source": "firecrawl"
     },
     {
       "id": "p3",
       "url": "https://www.rosewoodhotels.com/en/munich/dining/bar-montez/",
       "tier": "official",
-      "fetched_at": "2026-10-14T05:19:57.611Z",
+      "fetched_at": "2026-10-14T05:27:34.891Z",
       "source": "firecrawl"
     },
     {
       "id": "p4",
       "url": "https://www.rosewoodhotels.com/en/munich/dining/wintergarten/",
       "tier": "official",
-      "fetched_at": "2026-10-14T05:20:01.702Z",
+      "fetched_at": "2026-10-14T05:27:38.912Z",
       "source": "firecrawl"
     },
     {
       "id": "p5",
       "url": "https://www.rosewoodhotels.com/en/munich/dining/schanigarten/",
       "tier": "official",
-      "fetched_at": "2026-10-14T05:20:05.623Z",
+      "fetched_at": "2026-10-14T05:27:42.935Z",
       "source": "firecrawl"
     },
     {
       "id": "p6",
       "url": "https://www.rosewoodhotels.com/en/munich/dining/brasserie-cuvillies/",
       "tier": "official",
-      "fetched_at": "2026-10-14T05:20:10.009Z",
+      "fetched_at": "2026-10-14T05:27:46.924Z",
       "source": "firecrawl"
     },
     {
       "id": "p7",
+      "url": "https://www.rosewoodhotels.com/en/munich/experiences/oktoberfest/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:27:52.385Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.rosewoodhotels.com/en/munich/discover/holiday-at-rosewood/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:27:56.313Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
       "url": "https://www.cntraveler.com/hotels/munich/rosewood-munich",
       "tier": "editorial",
-      "fetched_at": "2026-10-14T05:20:14.182Z",
+      "fetched_at": "2026-10-14T05:27:59.395Z",
       "source": "direct"
     }
   ],
-  "inaccessible": [],
+  "inaccessible": [
+    {
+      "url": "https://www.rosewoodhotels.com/en/munich/accommodation/",
+      "reason": "https://www.rosewoodhotels.com/en/munich/accommodation/: page had almost no text"
+    }
+  ],
   "usage": {
-    "firecrawl_calls": 11,
+    "firecrawl_calls": 14,
     "firecrawl_searches": 3,
-    "cache_hits": 2,
+    "cache_hits": 0,
     "direct_fetches": 1,
-    "pages": 7,
-    "chars": 56584,
-    "est_claude_tokens": 14146
+    "pages": 9,
+    "chars": 72650,
+    "est_claude_tokens": 18163
   },
   "limits": {
     "maxPages": 12,
@@ -101,5 +120,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-14T05:20:14.182Z"
+  "researched_at": "2026-10-14T05:27:59.395Z"
 }

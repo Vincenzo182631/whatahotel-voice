@@ -2,9 +2,7 @@
   "slug": "rosewood-phuket",
   "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "some pages were inaccessible; missing information is not proof an amenity does not exist"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "Rosewood Phuket",
@@ -22,14 +20,12 @@
     ],
     "reasons": [],
     "candidates": [
-      "https://www.rosewoodhotels.com/en/phuket",
-      "https://www.rosewoodhotels.com/en/phuket/accommodation",
-      "https://www.rosewoodhotels.com/en/phuket/resort-updates"
+      "https://www.rosewoodhotels.com/en/phuket"
     ],
-    "checked_at": "2026-10-14T05:20:41.273Z",
+    "checked_at": "2026-10-14T05:31:00.791Z",
     "status": "confirmed",
-    "official_url": "https://www.rosewoodhotels.com/en/phuket/resort-updates",
-    "base_url": "https://www.rosewoodhotels.com/en/phuket/resort-updates/",
+    "official_url": "https://www.rosewoodhotels.com/en/phuket",
+    "base_url": "https://www.rosewoodhotels.com/en/phuket/",
     "host": "rosewoodhotels.com",
     "checks": {
       "name_coverage": 1,
@@ -39,33 +35,70 @@
   "pages": [
     {
       "id": "p1",
-      "url": "https://www.rosewoodhotels.com/en/phuket/resort-updates",
+      "url": "https://www.rosewoodhotels.com/en/phuket",
       "tier": "official",
-      "fetched_at": "2026-10-14T05:20:58.724Z",
-      "source": "cache"
+      "fetched_at": "2026-10-14T05:31:13.010Z",
+      "source": "firecrawl"
     },
     {
       "id": "p2",
+      "url": "https://www.rosewoodhotels.com/en/phuket/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:31:22.698Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.rosewoodhotels.com/en/phuket/dining/mai/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:31:26.590Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.rosewoodhotels.com/en/phuket/dining/ta-khai/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:31:30.993Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.rosewoodhotels.com/en/phuket/dining/red-sauce/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:31:34.490Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.rosewoodhotels.com/en/phuket/dining/the-shack/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:31:38.350Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.rosewoodhotels.com/en/phuket/experiences/phuket-excursions/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:31:42.460Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
       "url": "https://www.cntraveler.com/hotels/phuket/rosewood-phuket",
       "tier": "editorial",
-      "fetched_at": "2026-10-14T05:21:01.951Z",
+      "fetched_at": "2026-10-14T05:31:45.563Z",
       "source": "direct"
     }
   ],
-  "inaccessible": [
-    {
-      "url": "https://www.rosewoodhotels.com/en/phuket/resort-updates/",
-      "reason": "no same-property sub-page links found on the home page"
-    }
-  ],
+  "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 6,
+    "firecrawl_calls": 12,
     "firecrawl_searches": 3,
-    "cache_hits": 2,
+    "cache_hits": 0,
     "direct_fetches": 1,
-    "pages": 2,
-    "chars": 7951,
-    "est_claude_tokens": 1988
+    "pages": 8,
+    "chars": 80370,
+    "est_claude_tokens": 20093
   },
   "limits": {
     "maxPages": 12,
@@ -73,5 +106,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-14T05:21:01.951Z"
+  "researched_at": "2026-10-14T05:31:45.563Z"
 }

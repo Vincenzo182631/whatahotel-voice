@@ -2,7 +2,9 @@
   "slug": "rosewood-mansion-on-turtle-creek",
   "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [],
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
   "identity": {
     "hotel": {
       "name": "Rosewood Mansion On Turtle Creek",
@@ -20,14 +22,12 @@
     ],
     "reasons": [],
     "candidates": [
-      "https://www.rosewoodhotels.com/en/mansion-on-turtle-creek-dallas",
-      "https://www.rosewoodhotels.com/en/mansion-on-turtle-creek-dallas/accommodation",
-      "https://www.rosewoodhotels.com/en/mansion-on-turtle-creek-dallas/overview/awards"
+      "https://www.rosewoodhotels.com/en/mansion-on-turtle-creek-dallas"
     ],
-    "checked_at": "2026-10-14T05:18:06.922Z",
+    "checked_at": "2026-10-14T05:25:51.908Z",
     "status": "confirmed",
-    "official_url": "https://www.rosewoodhotels.com/en/mansion-on-turtle-creek-dallas/overview/awards",
-    "base_url": "https://www.rosewoodhotels.com/en/mansion-on-turtle-creek-dallas/overview/",
+    "official_url": "https://www.rosewoodhotels.com/en/mansion-on-turtle-creek-dallas",
+    "base_url": "https://www.rosewoodhotels.com/en/mansion-on-turtle-creek-dallas/",
     "host": "rosewoodhotels.com",
     "checks": {
       "name_coverage": 1,
@@ -37,56 +37,89 @@
   "pages": [
     {
       "id": "p1",
-      "url": "https://www.rosewoodhotels.com/en/mansion-on-turtle-creek-dallas/overview/awards",
+      "url": "https://www.rosewoodhotels.com/en/mansion-on-turtle-creek-dallas",
       "tier": "official",
-      "fetched_at": "2026-10-14T05:18:24.543Z",
-      "source": "cache"
+      "fetched_at": "2026-10-14T05:26:04.164Z",
+      "source": "firecrawl"
     },
     {
       "id": "p2",
-      "url": "https://www.rosewoodhotels.com/en/mansion-on-turtle-creek-dallas/overview/services/",
+      "url": "https://www.rosewoodhotels.com/en/mansion-on-turtle-creek-dallas/dining/",
       "tier": "official",
-      "fetched_at": "2026-10-14T05:18:28.705Z",
+      "fetched_at": "2026-10-14T05:26:16.102Z",
       "source": "firecrawl"
     },
     {
       "id": "p3",
-      "url": "https://www.rosewoodhotels.com/en/mansion-on-turtle-creek-dallas/overview/location/",
+      "url": "https://www.rosewoodhotels.com/en/mansion-on-turtle-creek-dallas/dining/mansion-bar/",
       "tier": "official",
-      "fetched_at": "2026-10-14T05:18:32.606Z",
+      "fetched_at": "2026-10-14T05:26:20.159Z",
       "source": "firecrawl"
     },
     {
       "id": "p4",
-      "url": "https://www.rosewoodhotels.com/en/mansion-on-turtle-creek-dallas/overview/awards/",
+      "url": "https://www.rosewoodhotels.com/en/mansion-on-turtle-creek-dallas/dining/afternoon-tea/",
       "tier": "official",
-      "fetched_at": "2026-10-14T05:18:35.100Z",
+      "fetched_at": "2026-10-14T05:26:24.134Z",
       "source": "firecrawl"
     },
     {
       "id": "p5",
-      "url": "https://www.rosewoodhotels.com/en/mansion-on-turtle-creek-dallas/overview/our-story/",
+      "url": "https://www.rosewoodhotels.com/en/mansion-on-turtle-creek-dallas/dining/mansion-restaurant/",
       "tier": "official",
-      "fetched_at": "2026-10-14T05:18:40.695Z",
+      "fetched_at": "2026-10-14T05:26:28.218Z",
       "source": "firecrawl"
     },
     {
       "id": "p6",
+      "url": "https://www.rosewoodhotels.com/en/mansion-on-turtle-creek-dallas/dining/restaurant-terrace/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:26:32.150Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.rosewoodhotels.com/en/mansion-on-turtle-creek-dallas/wellness/pool/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:26:37.480Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.rosewoodhotels.com/en/mansion-on-turtle-creek-dallas/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:26:41.849Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.rosewoodhotels.com/en/mansion-on-turtle-creek-dallas/experiences/gray-malin/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:26:45.537Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
       "url": "https://www.cntraveler.com/hotels/united-states/united-states/dallas/rosewood-mansion-on-turtle-creek-dallas",
       "tier": "editorial",
-      "fetched_at": "2026-10-14T05:18:48.238Z",
+      "fetched_at": "2026-10-14T05:26:52.759Z",
       "source": "direct"
     }
   ],
-  "inaccessible": [],
+  "inaccessible": [
+    {
+      "url": "https://www.rosewoodhotels.com/en/mansion-on-turtle-creek-dallas/accommodation/",
+      "reason": "https://www.rosewoodhotels.com/en/mansion-on-turtle-creek-dallas/accommodation/: page had almost no text"
+    }
+  ],
   "usage": {
-    "firecrawl_calls": 10,
+    "firecrawl_calls": 15,
     "firecrawl_searches": 3,
-    "cache_hits": 2,
+    "cache_hits": 0,
     "direct_fetches": 1,
-    "pages": 6,
-    "chars": 33724,
-    "est_claude_tokens": 8431
+    "pages": 10,
+    "chars": 53604,
+    "est_claude_tokens": 13401
   },
   "limits": {
     "maxPages": 12,
@@ -94,5 +127,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-14T05:18:48.238Z"
+  "researched_at": "2026-10-14T05:26:52.759Z"
 }
