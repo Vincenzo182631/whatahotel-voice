@@ -170,3 +170,10 @@ All 42 published. Hand-accepted by the user (official page lacks WhataHotel's ci
 All 9 published.
 - Principe di Savoia (Milan): Condé Nast Traveler says it closes 1 Jan 2027 for restoration, reopening 2029 (not on the official site). The script mentions it; consideration expires 2027-01-01, so re-check/unpublish then.
 - WhataHotel page errors: The Dorchester (claims its own daylit spa pool; official: guests use 45 Park Lane's pool); 45 Park Lane ("largest suites, 3,000 sq ft" vs 1,829 sq ft top suite; robatayaki at CUT); Beverly Hills Hotel (postcode 9641 vs 90210; "Cabana Club"); Bel-Air (Wolfgang Puck/Michelin); Plaza Athénée (Alain Ducasse restaurant now La Grande Table); Le Meurice (tea in Bar 228 vs Le Dalí); Eden (Michelin star at Il Giardino vs La Terrazza; "top of Spanish Steps"); The Lana (DIFC vs Business Bay; Stay by Yannick Alléno not listed).
+
+## Thompson (collection/75)
+
+15 of 16 done.
+- Thompson Miami Beach: held. No Thompson property page; Hyatt newsroom says the hotel was acquired and rebranded as The Confidante (Unbound Collection).
+- Offers: WhataHotel pages print both $100 and $200 credits; closings use the hotel perks table ($100). The offers check reads WhataHotel's Hyatt Centric collection page as the chain page.
+- WhataHotel page errors: The Beekman (address 5 Beekman St vs 123 Nassau St; Keith McNally/Augustine vs Colicchio/Boulud venues); Gild Hall (gothic guildhall vs midcentury Walrod design); The Cape (adults-only, swimmable beach, Japanese Manta); Zihuatanejo (clifftop/adults-only vs beachfront Playa La Ropa); Savannah (Bull St vs 201 Port St; rooftop bar is Bar Julian, not Fleeting); Central Park (57th St vs 119 W 56th St); Denver (Golden Triangle vs LoDo); Dallas (Deep Ellum/Arts District vs Main Street District; Catbird is 10th floor); Austin (Lady Bird Lake views, 2nd Street); Madrid (Justicia/Prado vs Plaza del Carmen); Washington DC (downtown vs Navy Yard); Chicago (rooftop bar not listed). Several pages claim rooftop bars the official sites don't list.
