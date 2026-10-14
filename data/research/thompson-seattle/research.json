@@ -1,0 +1,110 @@
+{
+  "slug": "thompson-seattle",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "Thompson Seattle",
+      "city": "Seattle",
+      "country": "US",
+      "chain": "hyatt"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hyatt"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Seattle, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hyatt.com/thompson-hotels/en-US/seath-thompson-seattle"
+    ],
+    "checked_at": "2026-10-14T22:06:41.808Z",
+    "status": "confirmed",
+    "official_url": "https://www.hyatt.com/thompson-hotels/en-US/seath-thompson-seattle",
+    "base_url": "https://www.hyatt.com/thompson-hotels/en-US/seath-thompson-seattle/",
+    "host": "hyatt.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/seath-thompson-seattle",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:06:54.450Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/seath-thompson-seattle/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:06:58.820Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/seath-thompson-seattle/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:07:02.882Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/seath-thompson-seattle/reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:07:07.791Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/seath-thompson-seattle/policies/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:07:12.165Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/seath-thompson-seattle/hotel-info/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:07:17.408Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/seath-thompson-seattle/parking-and-transportation/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:07:24.324Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.cntraveler.com/hotels/seattle/thompson-seattle",
+      "tier": "editorial",
+      "fetched_at": "2026-10-14T22:07:27.529Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 10,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 8,
+    "chars": 51296,
+    "est_claude_tokens": 12824
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-14T22:07:27.529Z"
+}

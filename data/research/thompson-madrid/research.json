@@ -1,0 +1,96 @@
+{
+  "slug": "thompson-madrid",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "Thompson Madrid",
+      "city": "Madrid",
+      "country": "ES",
+      "chain": "hyatt"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hyatt"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Madrid, ES)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hyatt.com/thompson-hotels/en-US/madrp-thompson-madrid"
+    ],
+    "checked_at": "2026-10-14T22:12:23.771Z",
+    "status": "confirmed",
+    "official_url": "https://www.hyatt.com/thompson-hotels/en-US/madrp-thompson-madrid",
+    "base_url": "https://www.hyatt.com/thompson-hotels/en-US/madrp-thompson-madrid/",
+    "host": "hyatt.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/madrp-thompson-madrid",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:12:35.560Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/madrp-thompson-madrid/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:12:43.062Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/madrp-thompson-madrid/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:12:47.732Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/madrp-thompson-madrid/hotel-info/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:12:52.463Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/madrp-thompson-madrid/parking-and-transportation/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:12:59.665Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.cntraveler.com/hotels/madrid/thompson-madrid",
+      "tier": "editorial",
+      "fetched_at": "2026-10-14T22:13:00.312Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 8,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 6,
+    "chars": 46629,
+    "est_claude_tokens": 11657
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-14T22:13:00.312Z"
+}

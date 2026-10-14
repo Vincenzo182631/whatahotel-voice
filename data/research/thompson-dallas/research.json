@@ -1,0 +1,110 @@
+{
+  "slug": "thompson-dallas",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "Thompson Dallas",
+      "city": "Dallas",
+      "country": "US",
+      "chain": "hyatt"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hyatt"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Dallas, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hyatt.com/thompson-hotels/en-US/dfwth-thompson-dallas"
+    ],
+    "checked_at": "2026-10-14T22:10:55.278Z",
+    "status": "confirmed",
+    "official_url": "https://www.hyatt.com/thompson-hotels/en-US/dfwth-thompson-dallas",
+    "base_url": "https://www.hyatt.com/thompson-hotels/en-US/dfwth-thompson-dallas/",
+    "host": "hyatt.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/dfwth-thompson-dallas",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:11:07.942Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/dfwth-thompson-dallas/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:11:12.236Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/dfwth-thompson-dallas/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:11:12.464Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/dfwth-thompson-dallas/hotel-info/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:11:20.758Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/dfwth-thompson-dallas/reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:11:30.011Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/dfwth-thompson-dallas/policies/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:11:34.725Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/dfwth-thompson-dallas/parking-and-transportation/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:11:38.460Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.cntraveler.com/hotels/dallas/thompson-dallas",
+      "tier": "editorial",
+      "fetched_at": "2026-10-14T22:11:39.486Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 10,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 8,
+    "chars": 53170,
+    "est_claude_tokens": 13293
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-14T22:11:39.486Z"
+}

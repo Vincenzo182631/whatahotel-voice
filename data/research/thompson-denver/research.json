@@ -1,0 +1,103 @@
+{
+  "slug": "thompson-denver",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "Thompson Denver",
+      "city": "Denver",
+      "country": "US",
+      "chain": "hyatt"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hyatt"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Denver, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hyatt.com/thompson-hotels/en-US/denth-thompson-denver"
+    ],
+    "checked_at": "2026-10-14T22:13:01.447Z",
+    "status": "confirmed",
+    "official_url": "https://www.hyatt.com/thompson-hotels/en-US/denth-thompson-denver",
+    "base_url": "https://www.hyatt.com/thompson-hotels/en-US/denth-thompson-denver/",
+    "host": "hyatt.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/denth-thompson-denver",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:13:14.155Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/denth-thompson-denver/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:13:21.948Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/denth-thompson-denver/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:13:22.141Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/denth-thompson-denver/hotel-info/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:13:26.200Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/denth-thompson-denver/policies/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:13:33.638Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/denth-thompson-denver/parking-and-transportation/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:13:41.145Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.cntraveler.com/hotels/denver/thompson-denver",
+      "tier": "editorial",
+      "fetched_at": "2026-10-14T22:13:41.925Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 9,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 7,
+    "chars": 38105,
+    "est_claude_tokens": 9526
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-14T22:13:41.925Z"
+}
