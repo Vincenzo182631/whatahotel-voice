@@ -139,6 +139,14 @@ export const CHAINS: Chain[] = [
       return undefined;
     },
   },
+  {
+    id: "rocco-forte",
+    name: "Rocco Forte",
+    match: /rocco forte|hotel de russie|brown'?s hotel|hotel de rome|hotel de la ville|villa igiea|verdura|the balmoral|hotel amigo|hotel savoy|the charles hotel|the carlton milano/i,
+    domains: ["roccofortehotels.com"],
+    // roccofortehotels.com/hotels-and-resorts/<property>/... -> first two segments
+    base: (u) => { const s = seg(u); return s[0] === "hotels-and-resorts" && s[1] ? `${u.origin}/${s.slice(0, 2).join("/")}/` : undefined; },
+  },
   { id: "langham", name: "Langham", match: /langham|cordis/i, domains: ["langhamhotels.com", "cordishotels.com"], base: (u) => (u.hostname.includes("cordishotels") ? firstOne(u) : firstTwo(u)) },
   { id: "montage", name: "Montage", match: /montage/i, domains: ["montage.com", "montagehotels.com"], base: firstOne },
   { id: "oetker", name: "Oetker Collection", match: /oetker|le bristol paris|eden rock|jumby bay|chateau saint-martin/i, domains: ["oetkercollection.com"], base: firstTwo },
