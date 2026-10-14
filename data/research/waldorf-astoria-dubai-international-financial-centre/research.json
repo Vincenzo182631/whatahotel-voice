@@ -1,0 +1,104 @@
+{
+  "slug": "waldorf-astoria-dubai-international-financial-centre",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Waldorf Astoria Dubai International Financial Centre",
+      "city": "Dubai",
+      "country": "AE",
+      "chain": "hilton"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hilton"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Dubai, AE)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://stories.hilton.com/media-library/waldorf-astoria-dubai-international-financial-centre-interior",
+      "https://www.hilton.com/en/hotels/dxbwawa-waldorf-astoria-dubai-international-financial-centre/"
+    ],
+    "checked_at": "2026-10-14T22:53:52.267Z",
+    "status": "confirmed",
+    "official_url": "https://www.hilton.com/en/hotels/dxbwawa-waldorf-astoria-dubai-international-financial-centre/",
+    "base_url": "https://www.hilton.com/en/hotels/dxbwawa-waldorf-astoria-dubai-international-financial-centre/",
+    "host": "hilton.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hilton.com/en/hotels/dxbwawa-waldorf-astoria-dubai-international-financial-centre/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:54:35.620Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hilton.com/en/hotels/dxbwawa-waldorf-astoria-dubai-international-financial-centre/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:54:50.070Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hilton.com/en/hotels/dxbwawa-waldorf-astoria-dubai-international-financial-centre/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:55:04.422Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hilton.com/en/hotels/dxbwawa-waldorf-astoria-dubai-international-financial-centre/spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:55:18.575Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hilton.com/en/hotels/dxbwawa-waldorf-astoria-dubai-international-financial-centre/amenities/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:55:29.719Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.cntraveler.com/hotels/dubai/waldorf-astoria-dubai-international-financial-centre",
+      "tier": "editorial",
+      "fetched_at": "2026-10-14T22:55:43.725Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.hilton.com/en/hotels/dxbwawa-waldorf-astoria-dubai-international-financial-centre/%3CBase64-Image-Removed%3E/",
+      "reason": "https://www.hilton.com/en/hotels/dxbwawa-waldorf-astoria-dubai-international-financial-centre/%3CBase64-Image-Removed%3E/: page had almost no text"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 10,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 6,
+    "chars": 54651,
+    "est_claude_tokens": 13663
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-14T22:55:43.726Z"
+}
