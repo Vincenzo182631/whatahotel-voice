@@ -1,0 +1,89 @@
+{
+  "slug": "waldorf-astoria-chengdu",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Waldorf Astoria Chengdu",
+      "city": "Chengdu",
+      "country": "CN",
+      "chain": "hilton"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hilton"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Chengdu, CN)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hilton.com/en/hotels/ctuwawa-waldorf-astoria-chengdu/"
+    ],
+    "checked_at": "2026-10-14T22:52:27.483Z",
+    "status": "confirmed",
+    "official_url": "https://www.hilton.com/en/hotels/ctuwawa-waldorf-astoria-chengdu/",
+    "base_url": "https://www.hilton.com/en/hotels/ctuwawa-waldorf-astoria-chengdu/",
+    "host": "hilton.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hilton.com/en/hotels/ctuwawa-waldorf-astoria-chengdu/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:52:50.070Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hilton.com/en/hotels/ctuwawa-waldorf-astoria-chengdu/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:53:04.423Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hilton.com/en/hotels/ctuwawa-waldorf-astoria-chengdu/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:53:04.638Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.cntraveler.com/hotels/chengdu/waldorf-astoria-chengdu",
+      "tier": "editorial",
+      "fetched_at": "2026-10-14T22:53:51.181Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.hilton.com/en/hotels/ctuwawa-waldorf-astoria-chengdu/%3CBase64-Image-Removed%3E/",
+      "reason": "https://www.hilton.com/en/hotels/ctuwawa-waldorf-astoria-chengdu/%3CBase64-Image-Removed%3E/: page had almost no text"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 4,
+    "chars": 21499,
+    "est_claude_tokens": 5375
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-14T22:53:51.181Z"
+}
