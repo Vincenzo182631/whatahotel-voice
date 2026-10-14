@@ -103,7 +103,12 @@ export const CHAINS: Chain[] = [
     },
   },
   { id: "edition", name: "EDITION", match: /\bedition\b/i, domains: ["editionhotels.com"], base: firstOne },
-  { id: "marriott", name: "Marriott", match: /marriott|st\.? regis|w hotel|jw marriott/i, domains: ["marriott.com"], base: firstTwo },
+  { id: "marriott", name: "Marriott", match: /marriott|st\.? regis|w hotel|jw marriott|kapalua bay/i, domains: ["marriott.com"],
+    // marriott.com/<lang>/hotels/<code>-<name>/... -> property root; brand/offer pages excluded
+    base: (u) => { const s = seg(u); const o = /^[a-z]{2}(-[a-z]{2})?$/i.test(s[0] ?? "") ? 1 : 0;
+      if (s[o] !== "hotels" || !s[o + 1]) return undefined;
+      if (s[o + 1] === "travel") return s[o + 2] ? `${u.origin}/${s.slice(0, o + 3).join("/")}/` : undefined;
+      return `${u.origin}/${s.slice(0, o + 2).join("/")}/`; } },
   { id: "one-and-only", name: "One&Only", match: /one&only/i, domains: ["oneandonlyresorts.com"], base: firstTwo },
   { id: "auberge", name: "Auberge Collection", match: /auberge/i, domains: ["aubergeresorts.com", "auberge.com"], base: firstOne },
   { id: "bulgari", name: "Bvlgari", match: /bvlgari|bulgari/i, domains: ["bulgarihotels.com"], base: firstTwo },
