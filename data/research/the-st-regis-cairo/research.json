@@ -2,9 +2,7 @@
   "slug": "the-st-regis-cairo",
   "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "some pages were inaccessible; missing information is not proof an amenity does not exist"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "The St. Regis Cairo",
@@ -22,11 +20,11 @@
     ],
     "reasons": [],
     "candidates": [
-      "https://www.marriott.com/en/hotels/caixr-the-st-regis-cairo/overview/"
+      "https://www.marriott.com/en-us/hotels/caixr-the-st-regis-cairo/overview/"
     ],
-    "checked_at": "2026-10-14T07:58:58.987Z",
+    "checked_at": "2026-10-14T08:12:18.327Z",
     "status": "confirmed",
-    "official_url": "https://www.marriott.com/en/hotels/caixr-the-st-regis-cairo/overview/",
+    "official_url": "https://www.marriott.com/en-us/hotels/caixr-the-st-regis-cairo/overview/",
     "base_url": "https://www.marriott.com/en-us/hotels/caixr-the-st-regis-cairo/",
     "host": "marriott.com",
     "checks": {
@@ -37,33 +35,49 @@
   "pages": [
     {
       "id": "p1",
-      "url": "https://www.marriott.com/en/hotels/caixr-the-st-regis-cairo/overview/",
+      "url": "https://www.marriott.com/en-us/hotels/caixr-the-st-regis-cairo/overview/",
       "tier": "official",
-      "fetched_at": "2026-10-14T07:59:24.220Z",
+      "fetched_at": "2026-10-14T08:12:45.506Z",
       "source": "firecrawl"
     },
     {
       "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/caixr-the-st-regis-cairo/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T08:12:55.614Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/caixr-the-st-regis-cairo/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T08:13:00.269Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/caixr-the-st-regis-cairo/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T08:13:09.326Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
       "url": "https://www.cntraveler.com/hotels/cairo/the-st-regis-cairo",
       "tier": "editorial",
-      "fetched_at": "2026-10-14T07:59:29.248Z",
+      "fetched_at": "2026-10-14T08:13:10.002Z",
       "source": "direct"
     }
   ],
-  "inaccessible": [
-    {
-      "url": "https://www.marriott.com/en-us/hotels/caixr-the-st-regis-cairo/",
-      "reason": "no same-property sub-page links found on the home page"
-    }
-  ],
+  "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 6,
-    "firecrawl_searches": 3,
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
     "direct_fetches": 1,
-    "pages": 2,
-    "chars": 5306,
-    "est_claude_tokens": 1327
+    "pages": 5,
+    "chars": 64935,
+    "est_claude_tokens": 16234
   },
   "limits": {
     "maxPages": 12,
@@ -71,5 +85,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-14T07:59:29.248Z"
+  "researched_at": "2026-10-14T08:13:10.002Z"
 }

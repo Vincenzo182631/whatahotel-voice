@@ -1,5 +1,5 @@
 # Extract verified facts for The St. Regis Deer Valley
-Official site confirmed: https://www.marriott.com/en/hotels/slcxr-the-st-regis-deer-valley/overview/ (chain: marriott).
+Official site confirmed: https://www.marriott.com/en-us/hotels/slcxr-the-st-regis-deer-valley/overview/ (chain: marriott).
 Read /home/user/whatahotel-voice/data/research/the-st-regis-deer-valley/index.json and the page text in /home/user/whatahotel-voice/data/research/the-st-regis-deer-valley/pages/<id>.txt. Use ONLY those pages, never memory. Do not run other commands or fetch anything.
 Write /home/user/whatahotel-voice/data/research/the-st-regis-deer-valley/facts.json (JSON only) with this shape:
 {"facts":[{"id":"r-1","category":"dining","kind":"fact|subjective|unresolved","text":"one atomic statement","doc_id":"p3","excerpt":"copied verbatim from that page, max 240 chars","topic":"short key, e.g. pool-count","as_of":"YYYY-MM-DD or null"}],
@@ -14,4 +14,3 @@ Write /home/user/whatahotel-voice/data/research/the-st-regis-deer-valley/facts.j
 - Awards, renovations, restaurant distinctions, openings: set as_of to the date or year the page gives; if the page gives none, use kind "unresolved".
 - If two pages disagree about the same thing, list it under contradictions, still list the facts with the same topic, and the code will hold the disputed ones out.
 - highlights: your strongest 5-8 fact ids, most distinctive first. If fewer than 5 verified facts exist, list fewer; do not pad.
-- These pages could not be read (do not assume anything about them): https://www.marriott.com/en-us/hotels/slcxr-the-st-regis-deer-valley/

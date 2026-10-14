@@ -2,9 +2,7 @@
   "slug": "the-st-regis-london",
   "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "some pages were inaccessible; missing information is not proof an amenity does not exist"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "The St. Regis London",
@@ -22,11 +20,11 @@
     ],
     "reasons": [],
     "candidates": [
-      "https://www.marriott.com/en/hotels/lonxr-the-st-regis-london/overview/"
+      "https://www.marriott.com/en-us/hotels/lonxr-the-st-regis-london/overview/"
     ],
-    "checked_at": "2026-10-14T08:01:26.895Z",
+    "checked_at": "2026-10-14T08:15:33.778Z",
     "status": "confirmed",
-    "official_url": "https://www.marriott.com/en/hotels/lonxr-the-st-regis-london/overview/",
+    "official_url": "https://www.marriott.com/en-us/hotels/lonxr-the-st-regis-london/overview/",
     "base_url": "https://www.marriott.com/en-us/hotels/lonxr-the-st-regis-london/",
     "host": "marriott.com",
     "checks": {
@@ -37,33 +35,42 @@
   "pages": [
     {
       "id": "p1",
-      "url": "https://www.marriott.com/en/hotels/lonxr-the-st-regis-london/overview/",
+      "url": "https://www.marriott.com/en-us/hotels/lonxr-the-st-regis-london/overview/",
       "tier": "official",
-      "fetched_at": "2026-10-14T08:01:56.588Z",
+      "fetched_at": "2026-10-14T08:15:52.063Z",
       "source": "firecrawl"
     },
     {
       "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/lonxr-the-st-regis-london/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T08:16:04.279Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/lonxr-the-st-regis-london/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T08:16:09.840Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
       "url": "https://www.cntraveler.com/hotels/budapest/st-regis-budapest",
       "tier": "editorial",
-      "fetched_at": "2026-10-14T08:02:21.185Z",
+      "fetched_at": "2026-10-14T08:16:15.446Z",
       "source": "direct"
     }
   ],
-  "inaccessible": [
-    {
-      "url": "https://www.marriott.com/en-us/hotels/lonxr-the-st-regis-london/",
-      "reason": "no same-property sub-page links found on the home page"
-    }
-  ],
+  "inaccessible": [],
   "usage": {
     "firecrawl_calls": 6,
-    "firecrawl_searches": 3,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
     "direct_fetches": 1,
-    "pages": 2,
-    "chars": 13357,
-    "est_claude_tokens": 3339
+    "pages": 4,
+    "chars": 29634,
+    "est_claude_tokens": 7409
   },
   "limits": {
     "maxPages": 12,
@@ -71,5 +78,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-14T08:02:21.185Z"
+  "researched_at": "2026-10-14T08:16:15.446Z"
 }

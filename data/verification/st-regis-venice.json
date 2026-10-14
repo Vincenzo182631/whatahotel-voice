@@ -1,0 +1,433 @@
+{
+  "hotel_slug": "st-regis-venice",
+  "hotel_name": "St. Regis Venice",
+  "checked_at": "2026-10-14T08:16:06.764Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 20,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 0,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/vcexr-the-st-regis-venice/overview/",
+      "tier": "official",
+      "chars": 19471
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/vcexr-the-st-regis-venice/rooms/",
+      "tier": "official",
+      "chars": 5176
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/vcexr-the-st-regis-venice/dining/",
+      "tier": "official",
+      "chars": 8459
+    },
+    {
+      "id": "d4",
+      "url": "https://www.cntraveler.com/hotels/venice/the-st-regis-venice",
+      "tier": "editorial",
+      "chars": 7720
+    },
+    {
+      "id": "d5",
+      "url": "https://www.marriott.com/en-us/hotels/vcexr-the-st-regis-venice/rooms/suites/",
+      "tier": "official",
+      "chars": 4462
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel sits on the Grand Canal, with views across the city's landmarks.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "A property on the Grand Canal with views across iconic landmarks",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/vcexr-the-st-regis-venice/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel has stood in its spot on the Grand Canal for over a century and a half.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "has stood in this privileged position for over a century and a half",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/vcexr-the-st-regis-venice/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The former Westin Europa and Regina was reinvented as the St. Regis Venice in 2019.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The old Westin Europa and Regina was a pleasant enough hotel",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/venice/the-st-regis-venice",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Its reinvention as the St. Regis Venice in 2019 changed all that",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/venice/the-st-regis-venice",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel spreads across four interconnected palazzi.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The St. Regis spreads across four interconnected\npalazzi",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/venice/the-st-regis-venice",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "A garden lies between the hotel's two canal-facing wings.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Between the two canal-facing wings, a gorgeous garden is the perfect venue for",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/venice/the-st-regis-venice",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The art collection includes works by Olivier Masmonteil, Jaume Plensa and Lorenzo Quinn.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The St. Regis Venice features a curated collection of contemporary masterpieces, with works by Olivier Masmonteil, Jaume Plensa, Lorenzo Quinn and others.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/vcexr-the-st-regis-venice/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Gio's restaurant is named after San Giorgio Island, just across the canal.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Named after San Giorgio Island, the restaurant pays tribute to the picturesque island just across the canal",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/vcexr-the-st-regis-venice/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Monet Room is a private dining room inside Gio's that seats up to ten.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "the Monet Room is a stylish and luxurious private dining space within Gio's Restaurant itself. Seating parties of up to ten",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/vcexr-the-st-regis-venice/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Arts Bar serves cocktails created to celebrate masterpieces of art.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Arts Bar with its jazzy atmosphere and outdoor terrace is where cocktails have been specially created to celebrate masterpieces of art",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/vcexr-the-st-regis-venice/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "St. Regis Butler service is available to all guests of the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "the anticipatory personalized service of the St. Regis Butler is available to all guests of The St. Regis Venice",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/vcexr-the-st-regis-venice/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "A private jewelry workshop with Venetian artist Valeria Boncompagni teaches lost wax casting.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Experience a bespoke artisan workshop with Venetian artist Valeria Boncompagni. Indulge in a private Jewelry Crafting Lesson where you and your family will learn how to design a jewel from scratch to an ancient technique: lost wax casting.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/vcexr-the-st-regis-venice/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Multi-bedroom suites and connecting rooms are offered for family travel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our range of multi-bedroom suites and connecting rooms facilitates extended family travel.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/vcexr-the-st-regis-venice/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Ai Weiwei's White Chandelier hangs in the Gran Salone, part of a glass collaboration with Berengo Studio.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located at the Gran Salone, the “White Chandelier” by Ai Weiwei serves as the protagonist of this collaboration.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/vcexr-the-st-regis-venice/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Venetian tradition of glassmaking also lives on, in collaboration with the artisans of Berengo Studio.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/vcexr-the-st-regis-venice/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Claude Monet was a former guest of the hotel, and the Monet Suites are inspired by his Venetian paintings.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Inspired by the Venetian masterpieces of famed Impressionist Claude Monet, former guest of the hotel, the Monet Suites are characterized by unique palettes",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/vcexr-the-st-regis-venice/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The bar's signature Bloody Mary, Santa Maria, is named after the basilica just in front of the bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Santa Maria - Signature Bloody Mary",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/vcexr-the-st-regis-venice/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Santa Maria, named after the basilica just in front of the bar",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/vcexr-the-st-regis-venice/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The hotel faces the basilica of Santa Maria della Salute at close range.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "If it's a close-up relationship with the superb basilica of Santa Maria della Salute you're seeking, this is the hotel for you.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/venice/the-st-regis-venice",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Ginori Terrace was created in collaboration with the porcelain house Ginori 1735.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The St. Regis Venice, in collaboration with Ginori 1735, presents the Ginori Terrace",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/vcexr-the-st-regis-venice/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Off-White™ c/o Ginori 1735 porcelain",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/vcexr-the-st-regis-venice/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The street toward St. Mark's Square near the hotel is very touristy.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "it's tourist central on this thoroughfare towards St. Mark's square",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/venice/the-st-regis-venice",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The hotel does not offer on-site parking.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The St. Regis Venice does not offer on-site parking.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/vcexr-the-st-regis-venice/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "Gio's restaurant is closed from 7 to 29 January.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Closed from 7 to 29 January.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/vcexr-the-st-regis-venice/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

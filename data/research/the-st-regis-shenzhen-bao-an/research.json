@@ -17,36 +17,50 @@
       "chain": "marriott"
     },
     "evidence": [
-      "80% of the hotel name appears on the page",
+      "100% of the hotel name appears on the page",
       "location matches (Shenzhen, CN)"
     ],
     "reasons": [],
     "candidates": [
-      "https://www.marriott.com/en/hotels/szxxs-the-st-regis-shenzhen-baoan/overview/"
+      "https://www.marriott.com/en-us/hotels/szxxs-the-st-regis-shenzhen-baoan/overview/"
     ],
-    "checked_at": "2026-10-14T07:57:49.104Z",
+    "checked_at": "2026-10-14T08:11:45.192Z",
     "status": "confirmed",
-    "official_url": "https://www.marriott.com/en/hotels/szxxs-the-st-regis-shenzhen-baoan/overview/",
+    "official_url": "https://www.marriott.com/en-us/hotels/szxxs-the-st-regis-shenzhen-baoan/overview/",
     "base_url": "https://www.marriott.com/en-us/hotels/szxxs-the-st-regis-shenzhen-baoan/",
     "host": "marriott.com",
     "checks": {
-      "name_coverage": 0.8,
+      "name_coverage": 1,
       "location_match": true
     }
   },
   "pages": [
     {
       "id": "p1",
-      "url": "https://www.marriott.com/en/hotels/szxxs-the-st-regis-shenzhen-baoan/overview/",
+      "url": "https://www.marriott.com/en-us/hotels/szxxs-the-st-regis-shenzhen-baoan/overview/",
       "tier": "official",
-      "fetched_at": "2026-10-14T07:58:24.436Z",
+      "fetched_at": "2026-10-14T08:12:08.017Z",
       "source": "firecrawl"
     },
     {
       "id": "p2",
-      "url": "https://www.marriott.com/en-us/hotels/szxxs-the-st-regis-shenzhen-baoan/%3CBase64-Image-Removed%3E/",
+      "url": "https://www.marriott.com/en-us/hotels/szxxs-the-st-regis-shenzhen-baoan/rooms/",
       "tier": "official",
-      "fetched_at": "2026-10-14T07:58:36.104Z",
+      "fetched_at": "2026-10-14T08:12:16.265Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/szxxs-the-st-regis-shenzhen-baoan/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T08:12:22.501Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/szxxs-the-st-regis-shenzhen-baoan/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T08:12:30.275Z",
       "source": "firecrawl"
     }
   ],
@@ -58,12 +72,12 @@
   ],
   "usage": {
     "firecrawl_calls": 7,
-    "firecrawl_searches": 3,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 2,
-    "chars": 5482,
-    "est_claude_tokens": 1371
+    "pages": 4,
+    "chars": 34966,
+    "est_claude_tokens": 8742
   },
   "limits": {
     "maxPages": 12,
@@ -71,5 +85,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-14T07:58:41.227Z"
+  "researched_at": "2026-10-14T08:12:34.667Z"
 }

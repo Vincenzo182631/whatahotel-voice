@@ -2,9 +2,7 @@
   "slug": "the-st-regis-atlanta",
   "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "some pages were inaccessible; missing information is not proof an amenity does not exist"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "The St. Regis Atlanta",
@@ -22,11 +20,11 @@
     ],
     "reasons": [],
     "candidates": [
-      "https://www.marriott.com/en/hotels/atlxr-the-st-regis-atlanta/overview/"
+      "https://www.marriott.com/en-us/hotels/atlxr-the-st-regis-atlanta/overview/"
     ],
-    "checked_at": "2026-10-14T07:59:10.197Z",
+    "checked_at": "2026-10-14T08:13:53.680Z",
     "status": "confirmed",
-    "official_url": "https://www.marriott.com/en/hotels/atlxr-the-st-regis-atlanta/overview/",
+    "official_url": "https://www.marriott.com/en-us/hotels/atlxr-the-st-regis-atlanta/overview/",
     "base_url": "https://www.marriott.com/en-us/hotels/atlxr-the-st-regis-atlanta/",
     "host": "marriott.com",
     "checks": {
@@ -37,33 +35,56 @@
   "pages": [
     {
       "id": "p1",
-      "url": "https://www.marriott.com/en/hotels/atlxr-the-st-regis-atlanta/overview/",
+      "url": "https://www.marriott.com/en-us/hotels/atlxr-the-st-regis-atlanta/overview/",
       "tier": "official",
-      "fetched_at": "2026-10-14T07:59:45.245Z",
+      "fetched_at": "2026-10-14T08:14:03.802Z",
       "source": "firecrawl"
     },
     {
       "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/atlxr-the-st-regis-atlanta/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T08:14:13.592Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/atlxr-the-st-regis-atlanta/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T08:14:13.855Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/atlxr-the-st-regis-atlanta/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T08:14:27.677Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.marriott.com/en-us/hotels/atlxr-the-st-regis-atlanta/experiences/holidays/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T08:14:37.792Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
       "url": "https://www.cntraveler.com/hotels/united-states/atlanta/st-regis-atlanta",
       "tier": "editorial",
-      "fetched_at": "2026-10-14T07:59:54.348Z",
+      "fetched_at": "2026-10-14T08:14:42.667Z",
       "source": "direct"
     }
   ],
-  "inaccessible": [
-    {
-      "url": "https://www.marriott.com/en-us/hotels/atlxr-the-st-regis-atlanta/",
-      "reason": "no same-property sub-page links found on the home page"
-    }
-  ],
+  "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 6,
-    "firecrawl_searches": 3,
+    "firecrawl_calls": 8,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
     "direct_fetches": 1,
-    "pages": 2,
-    "chars": 11123,
-    "est_claude_tokens": 2781
+    "pages": 6,
+    "chars": 74386,
+    "est_claude_tokens": 18597
   },
   "limits": {
     "maxPages": 12,
@@ -71,5 +92,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-14T07:59:54.348Z"
+  "researched_at": "2026-10-14T08:14:42.667Z"
 }
