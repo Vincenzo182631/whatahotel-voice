@@ -1,8 +1,10 @@
 {
   "slug": "rosewood-phnom-penh",
   "status": "awaiting_extraction",
-  "partial": false,
-  "reasons": [],
+  "partial": true,
+  "reasons": [
+    "limit reached: 150000 characters of page text; progress saved (11 pages), rerun with higher limits to continue"
+  ],
   "identity": {
     "hotel": {
       "name": "Rosewood Phnom Penh",
@@ -20,13 +22,12 @@
     ],
     "reasons": [],
     "candidates": [
-      "https://www.rosewoodhotels.com/en/phnom-penh",
-      "https://www.rosewoodhotels.com/en/global/media-hub/press-releases/rosewood-phnom-penh-opens-in-the-heart-of-the-capitals-culture-and/"
+      "https://www.rosewoodhotels.com/en/phnom-penh"
     ],
-    "checked_at": "2026-10-14T05:21:30.440Z",
+    "checked_at": "2026-10-14T05:32:33.065Z",
     "status": "confirmed",
-    "official_url": "https://www.rosewoodhotels.com/en/global/media-hub/press-releases/rosewood-phnom-penh-opens-in-the-heart-of-the-capitals-culture-and/",
-    "base_url": "https://www.rosewoodhotels.com/en/global/media-hub/",
+    "official_url": "https://www.rosewoodhotels.com/en/phnom-penh",
+    "base_url": "https://www.rosewoodhotels.com/en/phnom-penh/",
     "host": "rosewoodhotels.com",
     "checks": {
       "name_coverage": 1,
@@ -36,35 +37,91 @@
   "pages": [
     {
       "id": "p1",
-      "url": "https://www.rosewoodhotels.com/en/global/media-hub/press-releases/rosewood-phnom-penh-opens-in-the-heart-of-the-capitals-culture-and/",
+      "url": "https://www.rosewoodhotels.com/en/phnom-penh",
       "tier": "official",
-      "fetched_at": "2026-10-14T05:21:43.450Z",
-      "source": "cache"
+      "fetched_at": "2026-10-14T05:32:45.284Z",
+      "source": "firecrawl"
     },
     {
       "id": "p2",
-      "url": "https://www.rosewoodhotels.com/en/global/media-hub/media-contacts/",
+      "url": "https://www.rosewoodhotels.com/en/phnom-penh/dining/living-room/",
       "tier": "official",
-      "fetched_at": "2026-10-14T05:21:44.070Z",
-      "source": "cache"
+      "fetched_at": "2026-10-14T05:32:55.288Z",
+      "source": "firecrawl"
     },
     {
       "id": "p3",
-      "url": "https://www.cntraveler.com/hotels/phnom-penh/rosewood-phnom-penh",
-      "tier": "editorial",
-      "fetched_at": "2026-10-14T05:21:47.082Z",
-      "source": "direct"
+      "url": "https://www.rosewoodhotels.com/en/phnom-penh/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:32:59.019Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.rosewoodhotels.com/en/phnom-penh/dining/iza/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:33:02.952Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.rosewoodhotels.com/en/phnom-penh/dining/cuts/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:33:06.951Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.rosewoodhotels.com/en/phnom-penh/dining/sora/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:33:10.703Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.rosewoodhotels.com/en/phnom-penh/dining/zhan-liang/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:33:14.651Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.rosewoodhotels.com/en/phnom-penh/dining/whisky-library/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:33:19.584Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.rosewoodhotels.com/en/phnom-penh/dining/brasserie-louis/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:33:23.939Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.rosewoodhotels.com/en/phnom-penh/wellness/sense-a-rosewood-spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:33:30.743Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://www.rosewoodhotels.com/en/phnom-penh/experiences/art-in-residence/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T05:33:32.854Z",
+      "source": "firecrawl"
     }
   ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 5,
-    "firecrawl_searches": 3,
-    "cache_hits": 3,
-    "direct_fetches": 1,
-    "pages": 3,
-    "chars": 16001,
-    "est_claude_tokens": 4000
+    "firecrawl_calls": 16,
+    "firecrawl_searches": 2,
+    "cache_hits": 0,
+    "direct_fetches": 0,
+    "pages": 11,
+    "chars": 144342,
+    "est_claude_tokens": 36086
   },
   "limits": {
     "maxPages": 12,
@@ -72,5 +129,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-14T05:21:47.082Z"
+  "researched_at": "2026-10-14T05:33:36.493Z"
 }
