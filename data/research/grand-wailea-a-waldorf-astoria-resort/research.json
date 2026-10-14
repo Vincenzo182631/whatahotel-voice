@@ -1,0 +1,103 @@
+{
+  "slug": "grand-wailea-a-waldorf-astoria-resort",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Grand Wailea, A Waldorf Astoria Resort",
+      "city": "Maui",
+      "country": "US",
+      "chain": "hilton"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hilton"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Maui, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hilton.com/en/hotels/jhmgwwa-grand-wailea/"
+    ],
+    "checked_at": "2026-10-14T22:56:51.315Z",
+    "status": "confirmed",
+    "official_url": "https://www.hilton.com/en/hotels/jhmgwwa-grand-wailea/",
+    "base_url": "https://www.hilton.com/en/hotels/jhmgwwa-grand-wailea/",
+    "host": "hilton.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hilton.com/en/hotels/jhmgwwa-grand-wailea/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:57:25.266Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hilton.com/en/hotels/jhmgwwa-grand-wailea/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:57:39.097Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hilton.com/en/hotels/jhmgwwa-grand-wailea/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:57:53.111Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hilton.com/en/hotels/jhmgwwa-grand-wailea/things-to-do/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:58:07.658Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hilton.com/en/hotels/jhmgwwa-grand-wailea/things-to-do/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:58:22.512Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.cntraveler.com/hotels/united-states/kihei/grand-wailea-maui",
+      "tier": "editorial",
+      "fetched_at": "2026-10-14T22:58:59.787Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.hilton.com/en/hotels/jhmgwwa-grand-wailea/%3CBase64-Image-Removed%3E/",
+      "reason": "Firecrawl 500 for https://www.hilton.com/en/hotels/jhmgwwa-grand-wailea/%3CBase64-Image-Removed%3E/: All scraping engines failed to retrieve content from this U"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 9,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 6,
+    "chars": 64515,
+    "est_claude_tokens": 16129
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-14T22:58:59.787Z"
+}

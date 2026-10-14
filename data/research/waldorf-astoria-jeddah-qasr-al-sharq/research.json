@@ -1,0 +1,97 @@
+{
+  "slug": "waldorf-astoria-jeddah-qasr-al-sharq",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Waldorf Astoria Jeddah Qasr Al Sharq",
+      "city": "Jeddah",
+      "country": "SA",
+      "chain": "hilton"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hilton"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Jeddah, SA)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://stories.hilton.com/media-library/waldorf-astoria-jeddah-qasr-al-sharq-lounge",
+      "https://www.hilton.com/en/hotels/jedwawa-waldorf-astoria-jeddah-qasr-al-sharq/"
+    ],
+    "checked_at": "2026-10-14T22:57:49.749Z",
+    "status": "confirmed",
+    "official_url": "https://www.hilton.com/en/hotels/jedwawa-waldorf-astoria-jeddah-qasr-al-sharq/",
+    "base_url": "https://www.hilton.com/en/hotels/jedwawa-waldorf-astoria-jeddah-qasr-al-sharq/",
+    "host": "hilton.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hilton.com/en/hotels/jedwawa-waldorf-astoria-jeddah-qasr-al-sharq/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:58:18.069Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hilton.com/en/hotels/jedwawa-waldorf-astoria-jeddah-qasr-al-sharq/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:58:32.492Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hilton.com/en/hotels/jedwawa-waldorf-astoria-jeddah-qasr-al-sharq/amenities/spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:59:15.207Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hilton.com/en/hotels/jedwawa-waldorf-astoria-jeddah-qasr-al-sharq/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:59:22.663Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.cntraveler.com/hotels/saudi-arabia/jeddah/qasr-al-sharq",
+      "tier": "editorial",
+      "fetched_at": "2026-10-14T22:59:28.077Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.hilton.com/en/hotels/jedwawa-waldorf-astoria-jeddah-qasr-al-sharq/dining/",
+      "reason": "Firecrawl 500 for https://www.hilton.com/en/hotels/jedwawa-waldorf-astoria-jeddah-qasr-al-sharq/dining/: All scraping engines failed to retrieve content from th"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 9,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 5,
+    "chars": 38810,
+    "est_claude_tokens": 9703
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-14T22:59:28.077Z"
+}
