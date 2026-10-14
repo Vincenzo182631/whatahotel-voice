@@ -118,6 +118,20 @@ export const CHAINS: Chain[] = [
       return s[0] === "stay" && s[1] ? `${u.origin}/stay/${s[1]}/` : undefined;
     },
   },
+  {
+    id: "regent",
+    name: "Regent",
+    match: /\bregent\b/i,
+    domains: ["regenthotels.com"],
+    secondaryDomains: ["ihg.com"],
+    // ihg.com/regent/hotels/us/en/<city>/<code>/hoteldetail -> .../hotels/us/en/<city>/<code>/
+    base: (u) => {
+      const s = seg(u);
+      const i = s.indexOf("hotels");
+      if (i >= 0 && s.length >= i + 5 && /^[a-z]{2}$/i.test(s[i + 1] ?? "") && /^[a-z]{2}$/i.test(s[i + 2] ?? "")) return `${u.origin}/${s.slice(0, i + 5).join("/")}/`;
+      return undefined;
+    },
+  },
   { id: "langham", name: "Langham", match: /langham|cordis/i, domains: ["langhamhotels.com", "cordishotels.com"], base: (u) => (u.hostname.includes("cordishotels") ? firstOne(u) : firstTwo(u)) },
   { id: "montage", name: "Montage", match: /montage/i, domains: ["montage.com", "montagehotels.com"], base: firstOne },
   { id: "oetker", name: "Oetker Collection", match: /oetker|le bristol paris|eden rock|jumby bay|chateau saint-martin/i, domains: ["oetkercollection.com"], base: firstTwo },
