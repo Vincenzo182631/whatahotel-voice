@@ -2,9 +2,7 @@
   "slug": "the-st-regis-doha",
   "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "some pages were inaccessible; missing information is not proof an amenity does not exist"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "The St. Regis Doha",
@@ -17,53 +15,77 @@
       "chain": "marriott"
     },
     "evidence": [
-      "100% of the hotel name appears on the page",
+      "100% of the hotel name appears on the page; rebrand noted: \"The Guerlain Spa at St Regis Doha promises to transport guests to a level of ultimate luxury and refinement that previously only existed in the realm of imagination\"",
       "location matches (Doha, QA)"
     ],
     "reasons": [],
     "candidates": [
-      "https://www.marriott.com/en/hotels/dohxr-the-st-regis-doha/overview/"
+      "https://www.marriott.com/en-us/hotels/dohxr-the-st-regis-doha/overview/"
     ],
-    "checked_at": "2026-10-14T07:52:06.054Z",
+    "checked_at": "2026-10-14T08:05:56.562Z",
     "status": "confirmed",
-    "official_url": "https://www.marriott.com/en/hotels/dohxr-the-st-regis-doha/overview/",
+    "official_url": "https://www.marriott.com/en-us/hotels/dohxr-the-st-regis-doha/overview/",
     "base_url": "https://www.marriott.com/en-us/hotels/dohxr-the-st-regis-doha/",
     "host": "marriott.com",
     "checks": {
       "name_coverage": 1,
-      "location_match": true
+      "location_match": true,
+      "rebrand": "The Guerlain Spa at St Regis Doha promises to transport guests to a level of ultimate luxury and refinement that previously only existed in the realm of imagination"
     }
   },
   "pages": [
     {
       "id": "p1",
-      "url": "https://www.marriott.com/en/hotels/dohxr-the-st-regis-doha/overview/",
+      "url": "https://www.marriott.com/en-us/hotels/dohxr-the-st-regis-doha/overview/",
       "tier": "official",
-      "fetched_at": "2026-10-14T07:52:39.875Z",
+      "fetched_at": "2026-10-14T08:06:11.285Z",
       "source": "firecrawl"
     },
     {
       "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/dohxr-the-st-regis-doha/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T08:06:21.671Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/dohxr-the-st-regis-doha/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T08:06:31.904Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/dohxr-the-st-regis-doha/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T08:06:38.170Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.marriott.com/en-us/hotels/dohxr-the-st-regis-doha/experiences/seasonal-experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T08:06:42.111Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
       "url": "https://www.cntraveler.com/hotels/qatar/doha/st--regis--doha",
       "tier": "editorial",
-      "fetched_at": "2026-10-14T07:52:50.793Z",
+      "fetched_at": "2026-10-14T08:06:46.753Z",
       "source": "direct"
     }
   ],
-  "inaccessible": [
-    {
-      "url": "https://www.marriott.com/en-us/hotels/dohxr-the-st-regis-doha/",
-      "reason": "no same-property sub-page links found on the home page"
-    }
-  ],
+  "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 6,
-    "firecrawl_searches": 3,
+    "firecrawl_calls": 8,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
     "direct_fetches": 1,
-    "pages": 2,
-    "chars": 6770,
-    "est_claude_tokens": 1693
+    "pages": 6,
+    "chars": 75358,
+    "est_claude_tokens": 18840
   },
   "limits": {
     "maxPages": 12,
@@ -71,5 +93,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-14T07:52:50.793Z"
+  "researched_at": "2026-10-14T08:06:46.753Z"
 }

@@ -2,9 +2,7 @@
   "slug": "the-st-regis-rome",
   "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "some pages were inaccessible; missing information is not proof an amenity does not exist"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "The St. Regis Rome",
@@ -22,11 +20,11 @@
     ],
     "reasons": [],
     "candidates": [
-      "https://www.marriott.com/en/hotels/romxr-the-st-regis-rome/overview/"
+      "https://www.marriott.com/en-us/hotels/romxr-the-st-regis-rome/overview/"
     ],
-    "checked_at": "2026-10-14T07:51:50.611Z",
+    "checked_at": "2026-10-14T08:06:43.287Z",
     "status": "confirmed",
-    "official_url": "https://www.marriott.com/en/hotels/romxr-the-st-regis-rome/overview/",
+    "official_url": "https://www.marriott.com/en-us/hotels/romxr-the-st-regis-rome/overview/",
     "base_url": "https://www.marriott.com/en-us/hotels/romxr-the-st-regis-rome/",
     "host": "marriott.com",
     "checks": {
@@ -37,33 +35,56 @@
   "pages": [
     {
       "id": "p1",
-      "url": "https://www.marriott.com/en/hotels/romxr-the-st-regis-rome/overview/",
+      "url": "https://www.marriott.com/en-us/hotels/romxr-the-st-regis-rome/overview/",
       "tier": "official",
-      "fetched_at": "2026-10-14T07:52:25.258Z",
+      "fetched_at": "2026-10-14T08:06:58.514Z",
       "source": "firecrawl"
     },
     {
       "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/romxr-the-st-regis-rome/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T08:07:08.382Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/romxr-the-st-regis-rome/rooms/suites/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T08:07:17.889Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/romxr-the-st-regis-rome/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T08:07:23.717Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.marriott.com/en-us/hotels/romxr-the-st-regis-rome/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T08:07:28.437Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
       "url": "https://www.cntraveler.com/hotels/italy/quartiere-monte-sacro/st-regis-rome",
       "tier": "editorial",
-      "fetched_at": "2026-10-14T07:52:39.652Z",
+      "fetched_at": "2026-10-14T08:07:34.539Z",
       "source": "direct"
     }
   ],
-  "inaccessible": [
-    {
-      "url": "https://www.marriott.com/en-us/hotels/romxr-the-st-regis-rome/",
-      "reason": "no same-property sub-page links found on the home page"
-    }
-  ],
+  "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 6,
-    "firecrawl_searches": 3,
+    "firecrawl_calls": 8,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
     "direct_fetches": 1,
-    "pages": 2,
-    "chars": 10296,
-    "est_claude_tokens": 2574
+    "pages": 6,
+    "chars": 64343,
+    "est_claude_tokens": 16086
   },
   "limits": {
     "maxPages": 12,
@@ -71,5 +92,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-14T07:52:39.652Z"
+  "researched_at": "2026-10-14T08:07:34.539Z"
 }

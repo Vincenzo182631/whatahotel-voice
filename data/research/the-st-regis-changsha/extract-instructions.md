@@ -1,5 +1,5 @@
 # Extract verified facts for The St. Regis Changsha
-Official site confirmed: https://www.marriott.com/en/hotels/csxxr-the-st-regis-changsha/overview/ (chain: marriott).
+Official site confirmed: https://www.marriott.com/en-us/hotels/csxxr-the-st-regis-changsha/overview/ (chain: marriott).
 Read /home/user/whatahotel-voice/data/research/the-st-regis-changsha/index.json and the page text in /home/user/whatahotel-voice/data/research/the-st-regis-changsha/pages/<id>.txt. Use ONLY those pages, never memory. Do not run other commands or fetch anything.
 Write /home/user/whatahotel-voice/data/research/the-st-regis-changsha/facts.json (JSON only) with this shape:
 {"facts":[{"id":"r-1","category":"dining","kind":"fact|subjective|unresolved","text":"one atomic statement","doc_id":"p3","excerpt":"copied verbatim from that page, max 240 chars","topic":"short key, e.g. pool-count","as_of":"YYYY-MM-DD or null"}],
