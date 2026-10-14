@@ -2,9 +2,7 @@
   "slug": "the-st-regis-langkawi",
   "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "some pages were inaccessible; missing information is not proof an amenity does not exist"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "The St. Regis Langkawi",
@@ -22,11 +20,11 @@
     ],
     "reasons": [],
     "candidates": [
-      "https://www.marriott.com/en/hotels/lgkxr-the-st-regis-langkawi/overview/"
+      "https://www.marriott.com/en-us/hotels/lgkxr-the-st-regis-langkawi/overview/"
     ],
-    "checked_at": "2026-10-14T07:58:10.650Z",
+    "checked_at": "2026-10-14T08:11:12.495Z",
     "status": "confirmed",
-    "official_url": "https://www.marriott.com/en/hotels/lgkxr-the-st-regis-langkawi/overview/",
+    "official_url": "https://www.marriott.com/en-us/hotels/lgkxr-the-st-regis-langkawi/overview/",
     "base_url": "https://www.marriott.com/en-us/hotels/lgkxr-the-st-regis-langkawi/",
     "host": "marriott.com",
     "checks": {
@@ -37,33 +35,42 @@
   "pages": [
     {
       "id": "p1",
-      "url": "https://www.marriott.com/en/hotels/lgkxr-the-st-regis-langkawi/overview/",
+      "url": "https://www.marriott.com/en-us/hotels/lgkxr-the-st-regis-langkawi/overview/",
       "tier": "official",
-      "fetched_at": "2026-10-14T07:58:48.047Z",
+      "fetched_at": "2026-10-14T08:11:35.031Z",
       "source": "firecrawl"
     },
     {
       "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/lgkxr-the-st-regis-langkawi/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T08:12:06.941Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/lgkxr-the-st-regis-langkawi/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T08:12:12.467Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
       "url": "https://www.cntraveler.com/hotels/malaysia/langkawi/st-regis-langkawi",
       "tier": "editorial",
-      "fetched_at": "2026-10-14T07:58:57.157Z",
+      "fetched_at": "2026-10-14T08:12:17.019Z",
       "source": "direct"
     }
   ],
-  "inaccessible": [
-    {
-      "url": "https://www.marriott.com/en-us/hotels/lgkxr-the-st-regis-langkawi/",
-      "reason": "no same-property sub-page links found on the home page"
-    }
-  ],
+  "inaccessible": [],
   "usage": {
     "firecrawl_calls": 6,
-    "firecrawl_searches": 3,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
     "direct_fetches": 1,
-    "pages": 2,
-    "chars": 7176,
-    "est_claude_tokens": 1794
+    "pages": 4,
+    "chars": 37561,
+    "est_claude_tokens": 9390
   },
   "limits": {
     "maxPages": 12,
@@ -71,5 +78,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-14T07:58:57.157Z"
+  "researched_at": "2026-10-14T08:12:17.019Z"
 }
