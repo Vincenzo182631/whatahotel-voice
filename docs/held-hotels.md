@@ -177,3 +177,9 @@ All 9 published.
 - Thompson Miami Beach: held. No Thompson property page; Hyatt newsroom says the hotel was acquired and rebranded as The Confidante (Unbound Collection).
 - Offers: WhataHotel pages print both $100 and $200 credits; closings use the hotel perks table ($100). The offers check reads WhataHotel's Hyatt Centric collection page as the chain page.
 - WhataHotel page errors: The Beekman (address 5 Beekman St vs 123 Nassau St; Keith McNally/Augustine vs Colicchio/Boulud venues); Gild Hall (gothic guildhall vs midcentury Walrod design); The Cape (adults-only, swimmable beach, Japanese Manta); Zihuatanejo (clifftop/adults-only vs beachfront Playa La Ropa); Savannah (Bull St vs 201 Port St; rooftop bar is Bar Julian, not Fleeting); Central Park (57th St vs 119 W 56th St); Denver (Golden Triangle vs LoDo); Dallas (Deep Ellum/Arts District vs Main Street District; Catbird is 10th floor); Austin (Lady Bird Lake views, 2nd Street); Madrid (Justicia/Prado vs Plaza del Carmen); Washington DC (downtown vs Navy Yard); Chicago (rooftop bar not listed). Several pages claim rooftop bars the official sites don't list.
+
+## Trump Hotels (collection/42)
+
+All 5 done. Doonbeg hand-accepted by the user (trumphotels.com/ireland doesn't mention County Clare).
+- Time-bound: Doral script mentions the PGA Tour returning March 2027 (expires 2027-03-07); Doonbeg mentions a Jan 4 - Feb 4, 2027 course closure (expires 2027-02-05). Re-check after those dates.
+- WhataHotel page errors: Las Vegas ("all-suite" vs 1,282 rooms/352 suites; rooftop pool vs 7th-floor deck; DJT on 64th floor); Chicago (98 vs 92 stories; "Terrace at Trump" vs Terrace 16); Doral (50,000 vs 48,000 sq ft spa; WGC-Cadillac vs LIV/PGA Tour; Gil Hanse credited for all courses); Doonbeg ("clifftop castle" vs dunes-side manor, Greg Norman vs Martin Hawtree); New York (floors 3-17, "largest suites in NYC" unsupported).
