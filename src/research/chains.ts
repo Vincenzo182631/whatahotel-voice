@@ -107,7 +107,7 @@ export const CHAINS: Chain[] = [
     // marriott.com/<lang>/hotels/<code>-<name>/... -> property root; brand/offer pages excluded
     base: (u) => { const s = seg(u); const o = /^[a-z]{2}(-[a-z]{2})?$/i.test(s[0] ?? "") ? 1 : 0;
       if (s[o] !== "hotels" || !s[o + 1]) return undefined;
-      if (o === 1 && s[0].toLowerCase() === "en") s[0] = "en-us"; // marriott.com/en/... 404s for crawlers; /en-us/ serves the page
+      if (o === 1 && s[0]?.toLowerCase() === "en") s[0] = "en-us"; // marriott.com/en/... 404s for crawlers; /en-us/ serves the page
       if (s[o + 1] === "travel") return s[o + 2] ? `${u.origin}/${s.slice(0, o + 3).join("/")}/` : undefined;
       return `${u.origin}/${s.slice(0, o + 2).join("/")}/`; } },
   { id: "one-and-only", name: "One&Only", match: /one&only/i, domains: ["oneandonlyresorts.com"], base: firstTwo },
