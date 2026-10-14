@@ -46,6 +46,18 @@ export const CHAINS: Chain[] = [
     },
   },
   {
+    id: "raffles",
+    name: "Raffles",
+    match: /\braffles\b/i,
+    domains: ["raffles.com"],
+    secondaryDomains: ["all.accor.com"],
+    // raffles.com/singapore/... -> raffles.com/singapore/ ; chain-wide sections excluded
+    base: (u) => {
+      const b = firstOne(u);
+      return b && /\/(offers|experiences|about|media|careers|destinations|search|legal|privacy|stories|press|newsroom)\/$/i.test(b) ? undefined : b;
+    },
+  },
+  {
     id: "peninsula",
     name: "The Peninsula",
     match: /\bpeninsula\b/i,
