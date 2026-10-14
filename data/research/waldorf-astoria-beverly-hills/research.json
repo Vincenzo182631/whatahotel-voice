@@ -1,0 +1,131 @@
+{
+  "slug": "waldorf-astoria-beverly-hills",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Waldorf Astoria Beverly Hills",
+      "city": "Beverly Hills",
+      "country": "US",
+      "chain": "hilton"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hilton"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Beverly Hills, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/"
+    ],
+    "checked_at": "2026-10-14T22:49:25.830Z",
+    "status": "confirmed",
+    "official_url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/",
+    "base_url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/",
+    "host": "hilton.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:49:38.120Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:50:00.604Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:50:14.714Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/dining/baldi/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:50:29.555Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/dining/gemma/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:50:44.337Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:50:58.828Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/amenities/fitness/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:51:12.803Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/amenities/salon-de-lucy/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:51:24.294Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T22:51:35.670Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.cntraveler.com/hotels/los-angeles/waldorf-astoria-beverly-hills",
+      "tier": "editorial",
+      "fetched_at": "2026-10-14T22:52:11.050Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/%3CBase64-Image-Removed%3E/",
+      "reason": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/%3CBase64-Image-Removed%3E/: page had almost no text"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 15,
+    "firecrawl_searches": 3,
+    "cache_hits": 0,
+    "direct_fetches": 1,
+    "pages": 10,
+    "chars": 81001,
+    "est_claude_tokens": 20250
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-14T22:52:11.051Z"
+}

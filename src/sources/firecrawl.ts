@@ -21,6 +21,14 @@ export interface FirecrawlSearchResult {
 
 export class FirecrawlError extends Error {}
 
+// Hosts that serve crawlers an empty shell unless fetched through Firecrawl's stealth proxy (costs more credits per page).
+const STEALTH_HOSTS = ["hilton.com"];
+function stealthOptions(url: string): { proxy?: "stealth"; waitFor?: number } {
+  let host = "";
+  try { host = new URL(url).hostname; } catch { return {}; }
+  return STEALTH_HOSTS.some((h) => host === h || host.endsWith(`.${h}`)) ? { proxy: "stealth", waitFor: 3000 } : {};
+}
+
 export class FirecrawlClient {
   constructor(
     private readonly apiKey: string,
@@ -37,7 +45,7 @@ export class FirecrawlClient {
     const res = await this.fetchFn(`${BASE_URL}/scrape`, {
       method: "POST",
       headers: { Authorization: `Bearer ${this.apiKey}`, "Content-Type": "application/json" },
-      body: JSON.stringify({ url, formats }),
+      body: JSON.stringify({ url, formats, ...stealthOptions(url) }),
     });
     const body = (await res.json().catch(() => ({}))) as {
       success?: boolean;
