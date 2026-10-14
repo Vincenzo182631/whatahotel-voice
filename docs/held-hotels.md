@@ -180,6 +180,6 @@ All 9 published.
 
 ## Trump Hotels (collection/42)
 
-All 5 done. Doonbeg hand-accepted by the user (trumphotels.com/ireland doesn't mention County Clare).
+All 5 published. Doonbeg hand-accepted by the user (trumphotels.com/ireland doesn't mention County Clare).
 - Time-bound: Doral script mentions the PGA Tour returning March 2027 (expires 2027-03-07); Doonbeg mentions a Jan 4 - Feb 4, 2027 course closure (expires 2027-02-05). Re-check after those dates.
 - WhataHotel page errors: Las Vegas ("all-suite" vs 1,282 rooms/352 suites; rooftop pool vs 7th-floor deck; DJT on 64th floor); Chicago (98 vs 92 stories; "Terrace at Trump" vs Terrace 16); Doral (50,000 vs 48,000 sq ft spa; WGC-Cadillac vs LIV/PGA Tour; Gil Hanse credited for all courses); Doonbeg ("clifftop castle" vs dunes-side manor, Greg Norman vs Martin Hawtree); New York (floors 3-17, "largest suites in NYC" unsupported).
