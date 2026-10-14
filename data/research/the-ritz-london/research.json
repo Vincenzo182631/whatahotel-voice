@@ -4,6 +4,7 @@
   "partial": true,
   "reasons": [
     "limit reached: 150000 characters of page text; progress saved (9 pages), rerun with higher limits to continue",
+    "coverage is partial: a limit stopped the page fetch early; raise the limits and rerun to read the rest",
     "coverage is partial: a limit stopped the page fetch early; raise the limits and rerun to read the rest"
   ],
   "identity": {
@@ -125,6 +126,16 @@
   },
   "official_url": "https://www.theritzlondon.com/",
   "verified_facts": [
+    {
+      "id": "r-1",
+      "category": "history",
+      "text": "The Ritz opened in 1906.",
+      "source_url": "https://www.theritzlondon.com/about-the-ritz/",
+      "source_tier": "official",
+      "excerpt": "When The Ritz opened its doors in 1906",
+      "as_of": "1906",
+      "needs_date_check": true
+    },
     {
       "id": "r-2",
       "category": "history",
@@ -454,11 +465,6 @@
     }
   ],
   "unresolved": [
-    {
-      "id": "r-1",
-      "text": "The Ritz opened in 1906.",
-      "reason": "time-bound (award, renovation or opening) with no date; confirm before use"
-    },
     {
       "id": "r-5",
       "text": "The Ritz Restaurant holds two Michelin stars.",
