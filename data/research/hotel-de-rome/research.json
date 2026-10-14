@@ -2,7 +2,9 @@
   "slug": "hotel-de-rome",
   "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [],
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
   "identity": {
     "hotel": {
       "name": "Hotel de Rome",
@@ -20,14 +22,12 @@
     ],
     "reasons": [],
     "candidates": [
-      "https://www.roccofortehotels.com/media/evmkp002/rfh-hotel-de-rome-exclusive-group-experiences-berlin-december-2020-interactive.pdf",
-      "https://www.roccofortehotels.com/blog-repository/articles/stepping-into-an-urban-oasis-olga-polizzi-unveils-hotel-de-rome-s-new-lobby/",
-      "https://www.roccofortehotels.com/hotels-and-resorts/hotel-de-russie/"
+      "https://www.roccofortehotels.com/hotels-and-resorts/hotel-de-rome/"
     ],
-    "checked_at": "2026-10-14T04:21:04.072Z",
+    "checked_at": "2026-10-14T04:36:00.754Z",
     "status": "confirmed",
-    "official_url": "https://www.roccofortehotels.com/hotels-and-resorts/hotel-de-russie/",
-    "base_url": "https://www.roccofortehotels.com/hotels-and-resorts/hotel-de-russie/",
+    "official_url": "https://www.roccofortehotels.com/hotels-and-resorts/hotel-de-rome/",
+    "base_url": "https://www.roccofortehotels.com/hotels-and-resorts/hotel-de-rome/",
     "host": "roccofortehotels.com",
     "checks": {
       "name_coverage": 1,
@@ -37,77 +37,30 @@
   "pages": [
     {
       "id": "p1",
-      "url": "https://www.roccofortehotels.com/hotels-and-resorts/hotel-de-russie/",
-      "tier": "official",
-      "fetched_at": "2026-10-14T04:21:28.691Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p2",
-      "url": "https://www.roccofortehotels.com/hotels-and-resorts/hotel-de-russie/accommodation/",
-      "tier": "official",
-      "fetched_at": "2026-10-14T04:21:36.705Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p3",
-      "url": "https://www.roccofortehotels.com/hotels-and-resorts/hotel-de-russie/accommodation/nijinsky-suite-with-terrace/",
-      "tier": "official",
-      "fetched_at": "2026-10-14T04:21:40.675Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p4",
-      "url": "https://www.roccofortehotels.com/hotels-and-resorts/hotel-de-russie/dining/le-jardin/",
-      "tier": "official",
-      "fetched_at": "2026-10-14T04:21:44.880Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p5",
-      "url": "https://www.roccofortehotels.com/hotels-and-resorts/hotel-de-russie/dining/aquazzura-bar/",
-      "tier": "official",
-      "fetched_at": "2026-10-14T04:21:48.683Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p6",
-      "url": "https://www.roccofortehotels.com/hotels-and-resorts/hotel-de-russie/dining/stravinskij-bar/",
-      "tier": "official",
-      "fetched_at": "2026-10-14T04:21:52.680Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p7",
-      "url": "https://www.roccofortehotels.com/hotels-and-resorts/hotel-de-russie/irene-forte-spa/",
-      "tier": "official",
-      "fetched_at": "2026-10-14T04:21:56.684Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p8",
-      "url": "https://www.roccofortehotels.com/hotels-and-resorts/hotel-de-russie/families/",
-      "tier": "official",
-      "fetched_at": "2026-10-14T04:22:00.679Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p9",
       "url": "https://www.cntraveler.com/hotels/germany/ortsteil-mitte/hotel-de-rome",
       "tier": "editorial",
-      "fetched_at": "2026-10-14T04:22:11.607Z",
+      "fetched_at": "2026-10-14T04:36:14.413Z",
       "source": "direct"
     }
   ],
-  "inaccessible": [],
+  "inaccessible": [
+    {
+      "url": "https://www.roccofortehotels.com/hotels-and-resorts/hotel-de-rome/",
+      "reason": "https://www.roccofortehotels.com/hotels-and-resorts/hotel-de-rome/: page had almost no text"
+    },
+    {
+      "url": "https://www.roccofortehotels.com/hotels-and-resorts/hotel-de-rome/",
+      "reason": "no same-property sub-page links found on the home page"
+    }
+  ],
   "usage": {
-    "firecrawl_calls": 15,
-    "firecrawl_searches": 3,
+    "firecrawl_calls": 3,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
     "direct_fetches": 1,
-    "pages": 9,
-    "chars": 74689,
-    "est_claude_tokens": 18672
+    "pages": 1,
+    "chars": 7861,
+    "est_claude_tokens": 1965
   },
   "limits": {
     "maxPages": 12,
@@ -115,5 +68,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-14T04:22:11.607Z"
+  "researched_at": "2026-10-14T04:36:14.413Z"
 }
