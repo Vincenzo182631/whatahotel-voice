@@ -1,0 +1,129 @@
+{
+  "slug": "hotel-royal-riviera",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Hotel Royal Riviera",
+      "city": "Cap Ferrat",
+      "country": "FR"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Cap Ferrat, FR)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.royal-riviera.com/en/personal-data-protection-policy/"
+    ],
+    "checked_at": "2026-10-14T23:56:25.555Z",
+    "status": "confirmed",
+    "official_url": "https://www.royal-riviera.com/en/personal-data-protection-policy/",
+    "base_url": "https://www.royal-riviera.com/",
+    "host": "royal-riviera.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.royal-riviera.com/en/personal-data-protection-policy/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T23:56:33.742Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.royal-riviera.com/en/rooms-and-suites/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T23:56:45.466Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.royal-riviera.com/en/bar-restaurant/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T23:56:48.013Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.royal-riviera.com/en/family-holidays/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T23:56:52.277Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.royal-riviera.com/en/contact-us/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T23:56:59.564Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.royal-riviera.com/en/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T23:57:06.311Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.royal-riviera.com/en/leisure/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T23:57:10.378Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.royal-riviera.com/en/royal-kid/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T23:57:12.754Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.royal-riviera.com/en/legal-notice/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T23:57:16.956Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.royal-riviera.com/en/the-royal-riviera/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T23:57:20.651Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 14,
+    "firecrawl_searches": 2,
+    "cache_hits": 0,
+    "direct_fetches": 0,
+    "pages": 10,
+    "chars": 41100,
+    "est_claude_tokens": 10275
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-14T23:57:27.120Z"
+}
