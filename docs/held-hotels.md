@@ -157,3 +157,10 @@ All 42 published. Hand-accepted by the user (official page lacks WhataHotel's ci
 6 of 7 done. Baha Mar, Dubai and Puerto Madero hand-accepted by the user.
 - SLS Beverly Hills: held. slshotels.com/beverly-hills/ is a single page with no sub-pages and no CNT review; only 8 thin facts. WhataHotel names Bazaar Meat, which the official page doesn't list (LADiDa Rooftop instead).
 - WhataHotel contradictions: Barcelona (Eixample/Starck vs Port Fòrum in Sant Adrià de Besòs, b720 design); Dubai (Starck vs Paul Bishop/Aedas, José Andrés venues not listed, Business Bay not Downtown); Cancún (Starck vs Piero Lissoni, rooftop lagoon pool vs Gulf infinity pool); Playa Mujeres (called adults-only, but has kids/teen clubs); Baha Mar (Bazaar not listed; ~15 min from downtown Nassau, not steps).
+
+## St. Regis (collection/16)
+
+56 of 59 done. Location-only official-URL mismatches hand-accepted by the user ("accept all such").
+- Held: St. Regis Moscow Nikolskaya (Marriott has exited Russia; no official page). Dubai The Palm (closed, reopening 1 Nov 2026). Houston (renamed Houston Grand Hotel – River Oaks; no longer a St. Regis).
+- Bahia Beach: official page didn't load; script sourced only from an undated Condé Nast Traveler review.
+- WhataHotel page errors: Hong Kong page describes The Ritz-Carlton Hong Kong; Mexico City (Polanco vs Reforma 439, Cuauhtémoc); Riyadh (KAFD vs Diplomatic Quarter); London (Belgravia vs 37 Conduit St, Mayfair); Longboat Key (no golf on property); Aruba (Surfside vs Palm Beach); Costa Mujeres (distances, overwater suites); Aspen ("only ski-in", Remède spa, 5-star vs 4-star with RAKxa spa).
