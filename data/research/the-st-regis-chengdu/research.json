@@ -1,0 +1,75 @@
+{
+  "slug": "the-st-regis-chengdu",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "The St. Regis Chengdu",
+      "city": "Chengdu",
+      "country": "CN",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Chengdu, CN)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en/hotels/ctuxr-the-st-regis-chengdu/overview/"
+    ],
+    "checked_at": "2026-10-14T07:54:40.760Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en/hotels/ctuxr-the-st-regis-chengdu/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/ctuxr-the-st-regis-chengdu/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en/hotels/ctuxr-the-st-regis-chengdu/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T07:55:14.769Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/ctuxr-the-st-regis-chengdu/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T07:55:26.227Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.cntraveler.com/hotels/china/chengdu/st-regis-chengdu",
+      "tier": "editorial",
+      "fetched_at": "2026-10-14T07:55:32.823Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 3,
+    "cache_hits": 0,
+    "direct_fetches": 1,
+    "pages": 3,
+    "chars": 8710,
+    "est_claude_tokens": 2178
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-14T07:55:32.823Z"
+}

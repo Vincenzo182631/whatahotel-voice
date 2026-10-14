@@ -209,6 +209,8 @@ export async function resolveOfficialSite(hotel: HotelRef, deps: IdentityDeps, o
     if (!urls.length) return { ...base, status: "needs_review", reasons: [...base.reasons, "no candidate official site found; flag for review"] };
   }
 
+  // marriott.com/en/hotels/... serves crawlers a 404 page; the /en-us/ address serves the property page
+  urls = urls.map((x) => x.replace(/^(https:\/\/(?:www\.)?marriott\.com)\/en\/hotels\//i, "$1/en-us/hotels/"));
   const tried: string[] = [];
   for (const candidate of urls) {
     tried.push(candidate);
