@@ -125,3 +125,9 @@ Many WhataHotel Park Hyatt pages contradict the official sites (locations, floor
 ## Peninsula (collection/9)
 
 All 12 hotels are live (Tokyo was published earlier as peninsula-tokyo). WhataHotel's Peninsula pages often contradict the official sites (Rolls-Royce fleets vs BMW/MINI, ESPA spas, helipads, Paris address and rooftop spa); only official facts were used.
+
+## Raffles (collection/11)
+
+20 of 21 hotels done. Hainan, Makati and Makkah Palace were hand-accepted by the user (official raffles.com pages that don't name Sanya / Luzon Island / Mecca).
+- Raffles Maldives Meradhoo: held. raffles.com/maldives/ now redirects to the Indian Ocean destinations page, which lists only Raffles Seychelles; no official property page found (likely left the brand).
+- WhataHotel contradicts the official sites for Hainan (says Shimei Bay, all-villa with 32 villas; official: Clear Water Bay, rooms/suites/villas) and Makati (Writers Bar on 46th floor and rooftop pool; official: lobby-level bar, 9th-floor pool). Only official facts were used.
