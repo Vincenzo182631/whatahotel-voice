@@ -4,6 +4,8 @@
   "partial": true,
   "reasons": [
     "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue",
+    "coverage is partial: a limit stopped the page fetch early; raise the limits and rerun to read the rest",
+    "coverage is partial: a limit stopped the page fetch early; raise the limits and rerun to read the rest",
     "coverage is partial: a limit stopped the page fetch early; raise the limits and rerun to read the rest"
   ],
   "identity": {
@@ -157,7 +159,7 @@
     {
       "id": "r-2",
       "category": "experiences",
-      "text": "Every Saturday at 10 am, the Palace Historian leads a one-hour guided tour of the Villard Mansion, complimentary to guests.",
+      "text": "The Palace Historian leads a one-hour guided tour of the Villard Mansion, one of New York City's few surviving Gilded Age mansions.",
       "source_url": "https://www.lottenypalace.com/",
       "source_tier": "official",
       "excerpt": "Join our Palace Historian for a one-hour guided tour of our Villard Mansion, one of New York City’s few surviving Gilded Age mansions."
@@ -173,7 +175,7 @@
     {
       "id": "r-5",
       "category": "rooms",
-      "text": "The Towers has a private lobby and check-in, maitre d'etage butler service and a dedicated Les Clefs d'Or concierge.",
+      "text": "The Towers has a private lobby and check-in and maitre d'etage butler service.",
       "source_url": "https://www.lottenypalace.com/the-towers/",
       "source_tier": "official",
       "excerpt": "- Private lobby and check-in\n- Maître d'etage butler service"
@@ -209,6 +211,22 @@
       "source_url": "https://www.lottenypalace.com/the-palace/",
       "source_tier": "official",
       "excerpt": "Our elegantly furnished Cathedral Room has views of the iconic St. Patrick's Cathedral and Rockefeller Center."
+    },
+    {
+      "id": "r-11",
+      "category": "experiences",
+      "text": "The hotel's St. Patrick's Cathedral VIP tour includes the lower halls and staircases, the main altar, the bishop's crypt and the choir loft.",
+      "source_url": "https://www.lottenypalace.com/",
+      "source_tier": "official",
+      "excerpt": "The tour includes the lower labyrinth of halls and staircases, the main altar, the bishop's crypt, the choir loft, and the heart of the cathedral."
+    },
+    {
+      "id": "r-12",
+      "category": "amenities",
+      "text": "The hotel has a spa called ila at Lotte New York Palace.",
+      "source_url": "https://www.lottenypalace.com/",
+      "source_tier": "official",
+      "excerpt": "ila only Spa at Lotte New York Palace"
     },
     {
       "id": "r-13",
@@ -290,31 +308,34 @@
       "source_url": "https://www.lottenypalace.com/",
       "source_tier": "official",
       "excerpt": "Be dazzled by the \"Millionaire's Magician\" each Friday and Saturday evening in our Madison Room."
+    },
+    {
+      "id": "r-25",
+      "category": "experiences",
+      "text": "The full fee for the St. Patrick's Cathedral VIP tour is donated to the cathedral.",
+      "source_url": "https://www.lottenypalace.com/",
+      "source_tier": "official",
+      "excerpt": "100% of the tour fee is donated to St. Patrick’s Cathedral."
+    },
+    {
+      "id": "r-26",
+      "category": "rooms",
+      "text": "Higher-floor Skyline Cathedral View rooms look toward Manhattan's West Side, Rockefeller Center and St. Patrick's Cathedral.",
+      "source_url": "https://www.lottenypalace.com/the-palace/",
+      "source_tier": "official",
+      "excerpt": "Located on higher floors, our Cathedral View High Floor Rooms offer panoramic skyline views of Manhattan’s West Side, Rockefeller Center, and St. Patrick’s Cathedral."
     }
   ],
   "highlights": [
     "r-2",
     "r-7",
     "r-8",
+    "r-11",
     "r-10",
-    "r-17"
+    "r-17",
+    "r-26"
   ],
   "subjective": [
-    {
-      "id": "r-9",
-      "text": "The Hastens Ultimate Sleep Suite on the 43rd floor was designed with bed maker Hastens and features the Vividus king bed.",
-      "reason": "promotional wording; rewrite as a plain fact or leave out"
-    },
-    {
-      "id": "r-11",
-      "text": "A VIP tour of St. Patrick's Cathedral, including the bishop's crypt and choir loft, is available only to hotel guests, with the full fee donated to the cathedral.",
-      "reason": "promotional wording; rewrite as a plain fact or leave out"
-    },
-    {
-      "id": "r-12",
-      "text": "The hotel has the ila only Spa.",
-      "reason": "promotional wording; rewrite as a plain fact or leave out"
-    },
     {
       "id": "r-23",
       "text": "The hotel calls itself New York City's most iconic and instantly recognizable hotel.",
@@ -329,7 +350,7 @@
   "unresolved": [
     {
       "id": "r-4",
-      "text": "The Towers is a hotel-within-a-hotel of guest rooms and suites on the hotel's top 14 floors.",
+      "text": "The Towers comprises guest rooms and suites on the hotel's top 14 floors.",
       "reason": "time-bound (award, renovation or opening) with no date; confirm before use"
     }
   ],

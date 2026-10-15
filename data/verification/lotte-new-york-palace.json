@@ -1,0 +1,509 @@
+{
+  "hotel_slug": "lotte-new-york-palace",
+  "hotel_name": "Lotte New York Palace",
+  "checked_at": "2026-10-15T23:53:41.033Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.lottenypalace.com/",
+      "tier": "official",
+      "chars": 8876
+    },
+    {
+      "id": "d2",
+      "url": "https://www.lottenypalace.com/hotel-history/",
+      "tier": "official",
+      "chars": 2060
+    },
+    {
+      "id": "d3",
+      "url": "https://www.lottenypalace.com/the-towers/",
+      "tier": "official",
+      "chars": 1407
+    },
+    {
+      "id": "d4",
+      "url": "https://www.lottenypalace.com/royal-suite-collection/",
+      "tier": "official",
+      "chars": 4871
+    },
+    {
+      "id": "d5",
+      "url": "https://www.lottenypalace.com/concierge-services/",
+      "tier": "official",
+      "chars": 4045
+    },
+    {
+      "id": "d6",
+      "url": "https://www.lottenypalace.com/dining/",
+      "tier": "official",
+      "chars": 3428
+    },
+    {
+      "id": "d7",
+      "url": "https://www.lottenypalace.com/experience-nyc/",
+      "tier": "official",
+      "chars": 27068
+    },
+    {
+      "id": "d8",
+      "url": "https://www.lottenypalace.com/little-royals/",
+      "tier": "official",
+      "chars": 1991
+    },
+    {
+      "id": "d9",
+      "url": "https://www.lottenypalace.com/the-palace/",
+      "tier": "official",
+      "chars": 8319
+    },
+    {
+      "id": "d10",
+      "url": "https://www.lottenypalace.com/suites/",
+      "tier": "official",
+      "chars": 9917
+    },
+    {
+      "id": "d11",
+      "url": "https://www.lottenypalace.com/autumn-bar-menu/",
+      "tier": "official",
+      "chars": 4381
+    },
+    {
+      "id": "d12",
+      "url": "https://www.lottenypalace.com/holidays-at-the-palace/",
+      "tier": "official",
+      "chars": 7416
+    },
+    {
+      "id": "d13",
+      "url": "https://www.cntraveler.com/hotels/united-states/new-york/new-york-palace-new-york",
+      "tier": "editorial",
+      "chars": 9781
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is rooted in the Villard Mansion, built by Henry Villard in Italian Renaissance Revival style and designed by McKim, Mead & White.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Built in 1882 by Henry Villard, the mansion is a masterpiece of Italian Renaissance Revival architecture, designed by the esteemed firm McKim, Mead & White.",
+          "note": "history page",
+          "confirmed": true,
+          "url": "https://www.lottenypalace.com/hotel-history/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Lotte New York Palace stands as a striking blend of Gilded Age grandeur and modern luxury, rooted in the history of the Villard Mansion.",
+          "note": "rooted in Villard Mansion",
+          "confirmed": true,
+          "url": "https://www.lottenypalace.com/hotel-history/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The Gilded Age history tour is complimentary to guests and gathers in the Grand Lobby.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Complimentary to guests. Please visit the concierge to sign up. Tours gather in the Grand Lobby.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.lottenypalace.com/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "A Glimpse of The Gilded Age",
+          "note": "tour name",
+          "confirmed": true,
+          "url": "https://www.lottenypalace.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Towers has a private lobby and check-in and maitre d'etage butler service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "- Private lobby and check-in\n- Maître d'etage butler service",
+          "note": "Towers at a glance",
+          "confirmed": true,
+          "url": "https://www.lottenypalace.com/the-towers/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The Royal Suite Collection suites range from 2,500 to 5,000 square feet with panoramic skyline views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "this premier collection ranges from 2,500 to 5,000 square feet and features glamorous living spaces framed by panoramic skyline views.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.lottenypalace.com/royal-suite-collection/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The concierge team are Les Clefs d'Or concierges.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Our dedicated team of Les Clefs d'Or concierge is here to help you find",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.lottenypalace.com/concierge-services/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The hotel has a spa, ila only Spa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "ila only Spa at Lotte New York Palace",
+          "note": "spa name",
+          "confirmed": true,
+          "url": "https://www.lottenypalace.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Rockefeller Center and MoMA are among the Midtown sights near the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "From Rockefeller Center to MoMA, the best of Midtown Manhattan is at your doorstep.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.lottenypalace.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Bergdorf Goodman is less than a ten-minute walk from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Less than a ten minute walk from the hotel is landmark department store Bergdorf Goodman",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.lottenypalace.com/experience-nyc/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "FAO Schwarz's flagship store is two blocks from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "FAO Schwarz’s flagship store (located just two blocks from The Palace)",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.lottenypalace.com/little-royals/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Steve Cohen's Chamber Magic performs each Friday and Saturday evening in the hotel's Madison Room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Steve Cohen’s Chamber Magic",
+          "note": "name",
+          "confirmed": true,
+          "url": "https://www.lottenypalace.com/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "each Friday and Saturday evening in our Madison Room",
+          "note": "schedule and room",
+          "confirmed": true,
+          "url": "https://www.lottenypalace.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The full fee for the St. Patrick's Cathedral VIP tour is donated to the cathedral.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "100% of the tour fee is donated to St. Patrick’s Cathedral.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.lottenypalace.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "MITANI New York is the newest outpost of Tokyo's Sushi Mitani.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Proudly introducing MITANI New York, the newest outpost of Tokyo’s esteemed Sushi Mitani",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.lottenypalace.com/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Palace Historian leads a one-hour guided tour of the Villard Mansion, one of New York City's few surviving Gilded Age mansions.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Join our Palace Historian for a one-hour guided tour of our Villard Mansion, one of New York City’s few surviving Gilded Age mansions.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.lottenypalace.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The hotel's St. Patrick's Cathedral VIP tour includes the lower halls and staircases, the main altar, the bishop's crypt and the choir loft.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The tour includes the lower labyrinth of halls and staircases, the main altar, the bishop's crypt, the choir loft, and the heart of the cathedral.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.lottenypalace.com/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "St. Patrick's Cathedral VIP Tour",
+          "note": "name",
+          "confirmed": true,
+          "url": "https://www.lottenypalace.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Jewel Suite, created with jewelry designer Martin Katz, is a triplex with a two-story crystal chandelier and a terrace-level hideaway with a wood-burning fireplace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Created in collaboration with the celebrated jewelry designer, this extravagant triplex suite is an urban oasis of one-of-a-kind Art Deco details.",
+          "note": "designer collab, triplex",
+          "confirmed": true,
+          "url": "https://www.lottenypalace.com/royal-suite-collection/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The Jewel Suite by Martin Katz",
+          "note": "name",
+          "confirmed": true,
+          "url": "https://www.lottenypalace.com/royal-suite-collection/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "A two-story crystal chandelier sets the tone for this glamorous suite",
+          "note": "chandelier",
+          "confirmed": true,
+          "url": "https://www.lottenypalace.com/royal-suite-collection/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "a terrace-level hideaway with a wood-burning fireplace inside",
+          "note": "hideaway",
+          "confirmed": true,
+          "url": "https://www.lottenypalace.com/royal-suite-collection/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Champagne Suite spans three floors, with a two-story marble parlor, a wine cave and a rooftop terrace with a custom waterfall spa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "the Champagne Suite spans three floors and features a grand two-story marble parlor adorned with a mural by French artists Alex et Marine, a formal dining room seating ten, and a wine cave.",
+          "note": "floors, parlor, wine cave",
+          "confirmed": true,
+          "url": "https://www.lottenypalace.com/royal-suite-collection/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "sweeping rooftop terrace with a custom waterfall spa",
+          "note": "terrace",
+          "confirmed": true,
+          "url": "https://www.lottenypalace.com/royal-suite-collection/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Cathedral View rooms look out on St. Patrick's Cathedral and Rockefeller Center.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d9",
+          "quote": "Our elegantly furnished Cathedral Room has views of the iconic St. Patrick's Cathedral and Rockefeller Center.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.lottenypalace.com/the-palace/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Panoramic skyline views of Manhattan's West Side are offered by the Skyline Cathedral View rooms, which are on higher floors.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d9",
+          "quote": "Located on higher floors, our Cathedral View High Floor Rooms offer panoramic skyline views of Manhattan’s West Side, Rockefeller Center, and St. Patrick’s Cathedral.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.lottenypalace.com/the-palace/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d9",
+          "quote": "## Skyline Cathedral View",
+          "note": "category name",
+          "confirmed": true,
+          "url": "https://www.lottenypalace.com/the-palace/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes premium pricing that reflects the luxury Manhattan location.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes a busy tourist area with heavy foot traffic.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
