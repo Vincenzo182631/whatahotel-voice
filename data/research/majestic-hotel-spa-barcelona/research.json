@@ -1,0 +1,73 @@
+{
+  "slug": "majestic-hotel-spa-barcelona",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "Majestic Hotel & Spa Barcelona",
+      "city": "Barcelona",
+      "country": "ES"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Barcelona, ES)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://majestichotelgroup.com/en/barcelona/hotel-majestic"
+    ],
+    "checked_at": "2026-10-15T03:03:20.294Z",
+    "status": "confirmed",
+    "official_url": "https://majestichotelgroup.com/en/barcelona/hotel-majestic",
+    "base_url": "https://majestichotelgroup.com/",
+    "host": "majestichotelgroup.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://majestichotelgroup.com/en/barcelona/hotel-majestic",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:03:28.043Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://majestichotelgroup.com/en/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:03:32.183Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.cntraveler.com/hotels/spain/placa-de-catalunya/majestic-hotel-spa-barcelona",
+      "tier": "editorial",
+      "fetched_at": "2026-10-15T03:03:42.084Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 4,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 3,
+    "chars": 31871,
+    "est_claude_tokens": 7968
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-15T03:03:42.084Z"
+}
