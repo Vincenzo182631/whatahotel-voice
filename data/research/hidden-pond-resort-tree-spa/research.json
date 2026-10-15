@@ -1,12 +1,9 @@
 {
   "slug": "hidden-pond-resort-tree-spa",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
   "reasons": [
-    "https://travel.usnews.com/hotels/review-hidden_pond_resort_tree_spa-kennebunkport-maine-193255/: travel.usnews.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "https://www.luxurylink.com/5star/hotels/kennebunkport-maine/hidden-pond-resort-and-tree-spa: luxurylink.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "https://www.vincentvacations.com/luxury-hotels/north-america/united-states/hidden-pond-resort-and-tree-spa: vincentvacations.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "official website could not be confirmed; flag for review"
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
   ],
   "identity": {
     "hotel": {
@@ -15,33 +12,77 @@
       "country": "US"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://travel.usnews.com/hotels/review-hidden_pond_resort_tree_spa-kennebunkport-maine-193255/: travel.usnews.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "https://www.luxurylink.com/5star/hotels/kennebunkport-maine/hidden-pond-resort-and-tree-spa: luxurylink.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "https://www.vincentvacations.com/luxury-hotels/north-america/united-states/hidden-pond-resort-and-tree-spa: vincentvacations.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "80% of the hotel name appears on the page",
+      "location matches (Kennebunkport, US)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://travel.usnews.com/hotels/review-hidden_pond_resort_tree_spa-kennebunkport-maine-193255/",
-      "https://www.luxurylink.com/5star/hotels/kennebunkport-maine/hidden-pond-resort-and-tree-spa",
-      "https://www.vincentvacations.com/luxury-hotels/north-america/united-states/hidden-pond-resort-and-tree-spa"
+      "https://www.hiddenpondmaine.com/"
     ],
-    "checked_at": "2026-10-15T16:21:51.315Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-15T16:34:15.883Z",
+    "status": "confirmed",
+    "official_url": "https://www.hiddenpondmaine.com/",
+    "base_url": "https://www.hiddenpondmaine.com/",
+    "host": "hiddenpondmaine.com",
+    "checks": {
+      "name_coverage": 0.8,
+      "location_match": true
+    }
   },
-  "pages": [],
-  "inaccessible": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hiddenpondmaine.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:34:20.774Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hiddenpondmaine.com/corporate-retreats/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:34:31.148Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hiddenpondmaine.com/hideaways/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:34:36.296Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hiddenpondmaine.com/activities/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:34:38.794Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hiddenpondmaine.com/closeElement/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:34:41.874Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
   "usage": {
-    "firecrawl_calls": 4,
+    "firecrawl_calls": 8,
     "firecrawl_searches": 1,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 5,
+    "chars": 42675,
+    "est_claude_tokens": 10669
   },
   "limits": {
     "maxPages": 12,
@@ -49,5 +90,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T16:22:19.979Z"
+  "researched_at": "2026-10-15T16:34:49.541Z"
 }
