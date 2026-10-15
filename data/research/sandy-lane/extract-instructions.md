@@ -1,5 +1,5 @@
 # Extract verified facts for Sandy Lane
-Official site confirmed: https://www.travelagewest.com/Hotels/St-James-Parish-Barbados/Sandy-Lane-Hotel-p51912497 (independent).
+Official site confirmed: https://www.sandylane.com/barbados-resorts (independent).
 Read /home/user/whatahotel-voice/data/research/sandy-lane/index.json and the page text in /home/user/whatahotel-voice/data/research/sandy-lane/pages/<id>.txt. Use ONLY those pages, never memory. Do not run other commands or fetch anything.
 Write /home/user/whatahotel-voice/data/research/sandy-lane/facts.json (JSON only) with this shape:
 {"facts":[{"id":"r-1","category":"dining","kind":"fact|subjective|unresolved","text":"one atomic statement","doc_id":"p3","excerpt":"copied verbatim from that page, max 240 chars","topic":"short key, e.g. pool-count","as_of":"YYYY-MM-DD or null"}],
