@@ -1,0 +1,427 @@
+{
+  "hotel_slug": "hotel-d-angleterre-copenhagen",
+  "hotel_name": "Hotel D'Angleterre Copenhagen",
+  "checked_at": "2026-10-15T03:43:19.646Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.dangleterre.com/en/rooms-and-suites/",
+      "tier": "official",
+      "chars": 18315
+    },
+    {
+      "id": "d2",
+      "url": "https://www.dangleterre.com/en/the-hotel/",
+      "tier": "official",
+      "chars": 25012
+    },
+    {
+      "id": "d3",
+      "url": "https://www.dangleterre.com/en/experiences/",
+      "tier": "official",
+      "chars": 9543
+    },
+    {
+      "id": "d4",
+      "url": "https://www.dangleterre.com/en",
+      "tier": "official",
+      "chars": 7539
+    },
+    {
+      "id": "d5",
+      "url": "https://www.dangleterre.com/en/banquet/",
+      "tier": "official",
+      "chars": 2491
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is on Kongens Nytorv, in the heart of Copenhagen.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "is located in the very heart of Copenhagen - on the city's most prominent square, Kongens Nytorv",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.dangleterre.com/en/rooms-and-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The nearest metro stop, Kongens Nytorv, is steps from the hotel entrance, and the metro runs directly to Copenhagen Airport in about 15 minutes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The metro runs directly to Copenhagen Airport in approximately 15 minutes. The metro stop nearest the hotel is called Kongens Nytorv and is only steps away from the hotel entrance.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.dangleterre.com/en/rooms-and-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Amalienborg Castle, The Marble Church, Christiansborg, Tivoli Gardens and Strøget can be reached on foot.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "many attractions can be reached on foot – for example Amalienborg Castle, The Marble Church, Christiansborg, Tivoli Gardens and pedestrian shopping street Strøget",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.dangleterre.com/en/rooms-and-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The name Hotel d'Angleterre, French for The England Hotel, came from The English Club hosted by owner Gottfried Rau.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Gottfried Rau who was the habitual host of meetings of “The English Club” in Copenhagen. The club’s title was soon adopted as the identification of the new property",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.dangleterre.com/en/the-hotel/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "he renamed the building Hotel d’Angleterre, French for The England Hotel.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.dangleterre.com/en/the-hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The building balances stately Victorian architecture and contemporary Nordic design.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "balancing stately Victorian architecture and contemporary Nordic design",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.dangleterre.com/en/the-hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "When the weather allows, the restaurant Marchal extends onto the terrace and sidewalk of Kongens Nytorv.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "When the weather allows, Marchal extends onto the terrace and sidewalk of Kongens Nytorv",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.dangleterre.com/en/rooms-and-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Breakfast is served in Marchal with a view over Kongens Nytorv.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "breakfast is served in Marchal restaurant with a spectacular view over Kongens Nytorv",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.dangleterre.com/en/rooms-and-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Room service is available around the clock.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "room service is available at d’Angleterre around the clock",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.dangleterre.com/en/rooms-and-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The hotel is fully wheelchair accessible, with elevators to all floors.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "d’Angleterre is a fully wheelchair accessible hotel in Copenhagen. The hotel consists of accessible rooms and public areas, and elevators run to all floors of the building.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.dangleterre.com/en/rooms-and-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel's art collection includes an original Andy Warhol.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Experience our original Andy Warhol.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.dangleterre.com/en/the-hotel/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "d'Angleterre is a treasury of art",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.dangleterre.com/en/the-hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel offers baby and children amenities such as a baby cot, high chair, baby bathtub and toys, on advance request.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "for example a baby cot, high chair, baby bathtub, potty, changing mat, toys, and much more. Please let us know in advance",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.dangleterre.com/en/rooms-and-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The hotel was awarded Two MICHELIN Keys in the 2026 MICHELIN Guide selection.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "we have been awarded Two MICHELIN Keys, remaining the only hotel in Denmark recognised with more than one key in the 2026 MICHELIN Guide selection",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.dangleterre.com/en/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "In 2001 the glass artist Albano Poli gave the Palm Court a mosaic roof, which the hotel describes as the biggest mosaic roof in Northern Europe.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "In 2001 on the occasion of Henning Remmen’s 70th birthday",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.dangleterre.com/en/the-hotel/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "he commissioned Albano Poli, one of the world’s most famous glass artists to give the Palm Court an impressive mosaic roof",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.dangleterre.com/en/the-hotel/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "to make the biggest mosaic roof in Northern Europe",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.dangleterre.com/en/the-hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Balthazar Champagne Bar offers more than 200 Champagnes, caviar service and live DJs on weekends.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "the bar offers a selection of more than 200 Champagnes, tapas-style dishes, caviar service, and live DJs on weekends",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.dangleterre.com/en/rooms-and-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Alfred Hitchcock's film Torn Curtain was filmed at the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Alfred Hitchcock's movie \"Torn Curtain\" was filmed at d'Angleterre.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.dangleterre.com/en/the-hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The hotel has a private pool and spa managed by the holistic spa and skincare concept Amazing Space.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "a private pool and spa managed by the world-renowned holistic spa & skincare concept Amazing Space",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.dangleterre.com/en/rooms-and-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The hotel's history dates to 1755, when Jean Marchal and Maria Coppy founded a restaurant that later turned into a luxury hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "In 1755 the French servant Jean Marchal married the royal chef's daughter Maria Coppy and they founded a restaurant that later turned into a luxury hotel.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.dangleterre.com/en/rooms-and-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Not all rooms have balconies.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Please note that not all rooms have balconies.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.dangleterre.com/en/rooms-and-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Dogs are not allowed in Marchal, the bar area or Balthazar Champagne Bar, but are welcome in the Upper Lobby.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Kindly note that dogs are not allowed in Marchal, our bar area, or Balthazar Champagne Bar, but are welcome in the Upper Lobby.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.dangleterre.com/en/rooms-and-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium luxury pricing that reflects the hotel's exclusive positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

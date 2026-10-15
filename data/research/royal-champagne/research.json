@@ -1,9 +1,10 @@
 {
   "slug": "royal-champagne",
-  "status": "awaiting_extraction",
+  "status": "ready",
   "partial": true,
   "reasons": [
-    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue"
+    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue",
+    "coverage is partial: a limit stopped the page fetch early; raise the limits and rerun to read the rest"
   ],
   "identity": {
     "hotel": {
@@ -134,5 +135,251 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T03:36:47.498Z"
+  "researched_at": "2026-10-15T03:36:47.498Z",
+  "hotel": {
+    "name": "Royal Champagne",
+    "city": "Reims ",
+    "country": "FR",
+    "confirmed_affiliation": {
+      "kind": "independent"
+    }
+  },
+  "official_url": "https://royalchampagne.com/en/",
+  "verified_facts": [
+    {
+      "id": "r-1",
+      "category": "location",
+      "text": "Royal Champagne Hotel & Spa overlooks the vineyards on the hills of the Champagne region.",
+      "source_url": "https://royalchampagne.com/en/",
+      "source_tier": "official",
+      "excerpt": "Overlooking the vineyards that stripe the hills of the Champagne region, Royal Champagne Hotel & Spa reimagines the wine-country retreat."
+    },
+    {
+      "id": "r-2",
+      "category": "design_history",
+      "text": "The hotel is a pale-stone building, a kind of modern amphitheatre, overlooking the whole Marne Valley.",
+      "source_url": "https://royalchampagne.com/fitness/",
+      "source_tier": "official",
+      "excerpt": "Un monolithe à la pierre claire, sorte d’amphithéâtre moderne dominant toute la Vallée de la Marne."
+    },
+    {
+      "id": "r-3",
+      "category": "location",
+      "text": "The surrounding Champagne hillsides are UNESCO World Heritage listed.",
+      "source_url": "https://royalchampagne.com/fitness/",
+      "source_tier": "official",
+      "excerpt": "Celui des coteaux de Champagne inscrits au patrimoine de l’UNESCO."
+    },
+    {
+      "id": "r-4",
+      "category": "location",
+      "text": "Reims, with the cathedral where the kings of France were crowned, is 20 minutes away.",
+      "source_url": "https://royalchampagne.com/yoga/",
+      "source_tier": "official",
+      "excerpt": "Reims se trouve à seulement 20 minutes, avec sa cathédrale imposante où étaient couronnés les rois de France"
+    },
+    {
+      "id": "r-5",
+      "category": "location",
+      "text": "Epernay and its Avenue de Champagne, home to Moet & Chandon, Dom Perignon and Perrier-Jouet, are even closer than Reims.",
+      "source_url": "https://royalchampagne.com/yoga/",
+      "source_tier": "official",
+      "excerpt": "Épernay et sa légendaire Avenue de Champagne – qui abrite Moët & Chandon, Dom Pérignon et Perrier-Jouët – vous attendent encore plus près."
+    },
+    {
+      "id": "r-6",
+      "category": "practical",
+      "text": "Reims and Epernay are reached by train from Paris Gare de l'Est in 45 minutes by TGV, or by private transfer arranged by the concierge.",
+      "source_url": "https://royalchampagne.com/yoga/",
+      "source_tier": "official",
+      "excerpt": "Ces deux villes sont facilement accessibles en train depuis la Gare de l’Est à Paris (45 minutes en TGV) ou grâce à un transport privé organisé par notre concierge."
+    },
+    {
+      "id": "r-7",
+      "category": "rooms",
+      "text": "The rooms and suites have no facing neighbours and open through bay windows onto the heart of Champagne.",
+      "source_url": "https://royalchampagne.com/bed/",
+      "source_tier": "official",
+      "excerpt": "sans vis-à-vis aucun, s’ouvrent par baies vitrées et clairesvoies sur le cœur de la Champagne."
+    },
+    {
+      "id": "r-8",
+      "category": "rooms",
+      "text": "The interior decorator took inspiration from the natural and cultural heritage of the region, favouring natural materials.",
+      "source_url": "https://royalchampagne.com/en/",
+      "source_tier": "official",
+      "excerpt": "Our interior decorator took inspiration from the natural and cultural heritage of the region, favoring natural materials"
+    },
+    {
+      "id": "r-9",
+      "category": "rooms",
+      "text": "The Garden Junior Suite includes a private terrace.",
+      "source_url": "https://royalchampagne.com/bed/",
+      "source_tier": "official",
+      "excerpt": "Junior Suite Garden avec terrasse privative"
+    },
+    {
+      "id": "r-10",
+      "category": "dining",
+      "text": "Le Royal restaurant holds one star in the 2025 Michelin Guide.",
+      "source_url": "https://royalchampagne.com/silverware/",
+      "source_tier": "official",
+      "excerpt": "_1 étoile au guide Michelin 2025_",
+      "as_of": "2025",
+      "needs_date_check": true
+    },
+    {
+      "id": "r-11",
+      "category": "dining",
+      "text": "Le Royal sits in the historic part of the hotel, under a gold-patinated ceiling, in a salon paying homage to the women in Napoleon's life.",
+      "source_url": "https://royalchampagne.com/silverware/",
+      "source_tier": "official",
+      "excerpt": "Sous un plafond patiné d’or, un salon royal rend hommage aux femmes ayant joué un rôle dans la vie de Napoléon."
+    },
+    {
+      "id": "r-12",
+      "category": "dining",
+      "text": "Executive chef Christophe Raoux was named Meilleur Ouvrier de France in 2015.",
+      "source_url": "https://royalchampagne.com/en/",
+      "source_tier": "official",
+      "excerpt": "Chef Christophe Raoux, awarded Meilleur Ouvrier de France in 2015"
+    },
+    {
+      "id": "r-13",
+      "category": "dining",
+      "text": "Chef Christophe Raoux is a disciple of chef Alain Ducasse.",
+      "source_url": "https://royalchampagne.com/silverware/",
+      "source_tier": "official",
+      "excerpt": "Disciple du Chef Alain Ducasse"
+    },
+    {
+      "id": "r-14",
+      "category": "dining",
+      "text": "Le Bellevue, the bistronomic restaurant, has a 180-degree panorama over the Epernay and Marne valley.",
+      "source_url": "https://royalchampagne.com/silverware/",
+      "source_tier": "official",
+      "excerpt": "Un panorama à 180 degrés sur la vallée d’Epernay et de la Marne."
+    },
+    {
+      "id": "r-15",
+      "category": "dining",
+      "text": "At nightfall Le Bellevue is lit by a thousand crystal pendants hanging from the ceiling.",
+      "source_url": "https://royalchampagne.com/silverware/",
+      "source_tier": "official",
+      "excerpt": "à la nuit tombée, s’éclaire par la magie du millier de pampilles en cristal suspendues au plafond"
+    },
+    {
+      "id": "r-16",
+      "category": "amenities",
+      "text": "The spa covers 1,500 square metres.",
+      "source_url": "https://royalchampagne.com/lotus/",
+      "source_tier": "official",
+      "excerpt": "ce spa de 1 500 m² est une destination à part entière"
+    },
+    {
+      "id": "r-17",
+      "category": "amenities",
+      "text": "The spa has nine treatment rooms, indoor and outdoor pools, a hammam, a sauna, whirlpool baths, a yoga studio, a fitness room and a beauty salon.",
+      "source_url": "https://royalchampagne.com/lotus/",
+      "source_tier": "official",
+      "excerpt": "Neuf cabines de soins, deux piscines (intérieure et extérieure), hammam, sauna, bains à remous, studio de yoga, salle de fitness et salon de beauté"
+    },
+    {
+      "id": "r-18",
+      "category": "amenities",
+      "text": "Spa facials are offered in partnership with myBlend and Clarins Precious.",
+      "source_url": "https://royalchampagne.com/lotus/",
+      "source_tier": "official",
+      "excerpt": "En partenariat avec myBlend et Clarins Precious"
+    },
+    {
+      "id": "r-19",
+      "category": "family",
+      "text": "The spa offers a Bonpoint treatment ritual, Le Soin Reverie, for children from age 6.",
+      "source_url": "https://royalchampagne.com/lotus/",
+      "source_tier": "official",
+      "excerpt": "découvrez le rituel de soin Bonpoint : Le Soin Rêverie. Dès 6 ans"
+    },
+    {
+      "id": "r-20",
+      "category": "amenities",
+      "text": "Shiatsu master Koji Okada gives personalised shiatsu sessions every weekend.",
+      "source_url": "https://royalchampagne.com/lotus/",
+      "source_tier": "official",
+      "excerpt": "Koji Okada, Maître Shiatsu depuis 37 ans, vous donne rendez-vous tous les weekends"
+    },
+    {
+      "id": "r-21",
+      "category": "experiences",
+      "text": "The hotel arranges a royal picnic in the vineyards with a menu by chef Christophe Raoux, set up by a private butler.",
+      "source_url": "https://royalchampagne.com/yoga/",
+      "source_tier": "official",
+      "excerpt": "Notre pique-nique royal transforme la campagne champenoise en votre salle à manger privée."
+    },
+    {
+      "id": "r-22",
+      "category": "experiences",
+      "text": "The experience team organises private visits to prestigious champagne houses and lesser-known producers.",
+      "source_url": "https://royalchampagne.com/yoga/",
+      "source_tier": "official",
+      "excerpt": "organisent des visites privées aussi bien dans des maisons de champagne prestigieuses que dans des joyaux méconnus"
+    },
+    {
+      "id": "r-23",
+      "category": "experiences",
+      "text": "Guests can take electric-bike rides from the hotel to nearby villages such as Hautvillers.",
+      "source_url": "https://royalchampagne.com/yoga/",
+      "source_tier": "official",
+      "excerpt": "Partez de l'hôtel et partez à la découverte des villages voisins, tels que Hautvillers"
+    },
+    {
+      "id": "r-24",
+      "category": "experiences",
+      "text": "Hot-air balloon flights over the Montagne de Reims can be arranged.",
+      "source_url": "https://royalchampagne.com/yoga/",
+      "source_tier": "official",
+      "excerpt": "à bord d'une montgolfière qui survole avec grâce les paysages à couper le souffle de la Montagne de Reims"
+    },
+    {
+      "id": "r-25",
+      "category": "amenities",
+      "text": "A tennis court a few steps from the hotel is reserved exclusively for guests.",
+      "source_url": "https://royalchampagne.com/yoga/",
+      "source_tier": "official",
+      "excerpt": "À quelques pas de l'hôtel, vous découvrirez un court de tennis réservé exclusivement à nos clients."
+    },
+    {
+      "id": "r-26",
+      "category": "design_history",
+      "text": "Royal Champagne Hotel & Spa belongs to the Champagne Hospitality group.",
+      "source_url": "https://royalchampagne.com/fitness/",
+      "source_tier": "official",
+      "excerpt": "Le Royal Champagne Hotel & Spa est une propriété du groupe Champagne Hospitality"
+    }
+  ],
+  "highlights": [
+    "r-10",
+    "r-2",
+    "r-21",
+    "r-17",
+    "r-11",
+    "r-14",
+    "r-22"
+  ],
+  "subjective": [
+    {
+      "id": "r-28",
+      "text": "The spa is a destination spa with views over the vines.",
+      "reason": "the hotel's own opinion or praise; keep out of facts"
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "r-27",
+      "text": "Villa Les Trois Clochers sleeps 10 guests.",
+      "reason": "marked unresolved"
+    }
+  ],
+  "rejected": [],
+  "contradictions": []
 }
