@@ -1,0 +1,73 @@
+{
+  "slug": "omni-nashville-hotel",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Omni Nashville Hotel",
+      "city": "Nashville",
+      "country": "US"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Nashville, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.omnihotels.com/hotels/nashville"
+    ],
+    "checked_at": "2026-10-15T23:44:47.001Z",
+    "status": "confirmed",
+    "official_url": "https://www.omnihotels.com/hotels/nashville",
+    "base_url": "https://www.omnihotels.com/",
+    "host": "omnihotels.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.omnihotels.com/hotels/nashville",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:44:52.539Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.cntraveler.com/hotels/nashville/omni-nashville-hotel",
+      "tier": "editorial",
+      "fetched_at": "2026-10-15T23:44:55.604Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.omnihotels.com/",
+      "reason": "no same-property sub-page links found on the home page"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 3,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 2,
+    "chars": 13282,
+    "est_claude_tokens": 3321
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-15T23:44:55.604Z"
+}

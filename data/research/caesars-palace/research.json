@@ -1,0 +1,145 @@
+{
+  "slug": "caesars-palace",
+  "status": "awaiting_extraction",
+  "partial": true,
+  "reasons": [
+    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue",
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Caesars Palace",
+      "city": "Las Vegas",
+      "country": "US"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Las Vegas, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.guestreservations.com/caesars-palace-las-vegas/booking",
+      "https://www.caesars.com/caesars-palace"
+    ],
+    "checked_at": "2026-10-15T23:35:59.156Z",
+    "status": "confirmed",
+    "official_url": "https://www.caesars.com/caesars-palace",
+    "base_url": "https://www.caesars.com/",
+    "host": "caesars.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.caesars.com/caesars-palace",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:36:07.388Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.caesars.com/caesars-palace/restaurants/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:36:11.396Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.caesars.com/caesars-palace/things-to-do/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:36:17.125Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.caesars.com/caesars-palace/faqs/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:36:20.823Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.caesars.com/email/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:36:24.965Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.caesars.com/myrewards/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:36:35.916Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.caesars.com/myrewards/air/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:36:42.110Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.caesars.com/las-vegas/hotels/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:36:48.607Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.caesars.com/caesars-palace/60/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:36:50.386Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.caesars.com/myrewards/olympus/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:36:54.067Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://www.caesars.com/caesars-palace/shows/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:36:58.317Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p12",
+      "url": "https://www.caesars.com/caesars-palace/hotel/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:37:00.887Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.caesars.com/reserve/",
+      "reason": "Firecrawl 500 for https://www.caesars.com/reserve/: All scraping engines failed to retrieve content from this URL. Engines tried: [index, fire-engine;chrome-cdp"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 16,
+    "firecrawl_searches": 1,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 12,
+    "chars": 103923,
+    "est_claude_tokens": 25981
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-15T23:37:06.045Z"
+}

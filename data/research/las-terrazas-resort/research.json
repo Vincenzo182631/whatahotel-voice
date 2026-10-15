@@ -1,0 +1,122 @@
+{
+  "slug": "las-terrazas-resort",
+  "status": "awaiting_extraction",
+  "partial": true,
+  "reasons": [
+    "limit reached: 16 Firecrawl calls; progress saved (2 pages), rerun with higher limits to continue",
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Las Terrazas Resort",
+      "city": "San Pedro",
+      "country": "BZ"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (San Pedro, BZ)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://lasterrazasresort.com/"
+    ],
+    "checked_at": "2026-10-15T23:42:26.179Z",
+    "status": "confirmed",
+    "official_url": "https://lasterrazasresort.com/",
+    "base_url": "https://lasterrazasresort.com/",
+    "host": "lasterrazasresort.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://lasterrazasresort.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:42:30.505Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://lasterrazasresort.com/rooms-rates/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:42:34.452Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://lasterrazasresort.com/room-images/1782298470_3.webp-preview/",
+      "reason": "https://lasterrazasresort.com/room-images/1782298470_3.webp-preview/: page had almost no text"
+    },
+    {
+      "url": "https://lasterrazasresort.com/room-images/1782298487_4.webp-preview/",
+      "reason": "https://lasterrazasresort.com/room-images/1782298487_4.webp-preview/: page had almost no text"
+    },
+    {
+      "url": "https://lasterrazasresort.com/room-images/1782298500_6.webp-preview/",
+      "reason": "https://lasterrazasresort.com/room-images/1782298500_6.webp-preview/: page had almost no text"
+    },
+    {
+      "url": "https://lasterrazasresort.com/room-images/1782298515_7.webp-preview/",
+      "reason": "https://lasterrazasresort.com/room-images/1782298515_7.webp-preview/: page had almost no text"
+    },
+    {
+      "url": "https://lasterrazasresort.com/room-images/1782298528_8.webp-preview/",
+      "reason": "https://lasterrazasresort.com/room-images/1782298528_8.webp-preview/: page had almost no text"
+    },
+    {
+      "url": "https://lasterrazasresort.com/room-images/1774380767_4.webp-preview/",
+      "reason": "https://lasterrazasresort.com/room-images/1774380767_4.webp-preview/: page had almost no text"
+    },
+    {
+      "url": "https://lasterrazasresort.com/room-images/1774380740_1.webp-preview/",
+      "reason": "https://lasterrazasresort.com/room-images/1774380740_1.webp-preview/: page had almost no text"
+    },
+    {
+      "url": "https://lasterrazasresort.com/room-images/1774380748_2.webp-preview/",
+      "reason": "https://lasterrazasresort.com/room-images/1774380748_2.webp-preview/: page had almost no text"
+    },
+    {
+      "url": "https://lasterrazasresort.com/room-images/1774380758_3.webp-preview/",
+      "reason": "https://lasterrazasresort.com/room-images/1774380758_3.webp-preview/: page had almost no text"
+    },
+    {
+      "url": "https://lasterrazasresort.com/room-images/1774380779_5.webp-preview/",
+      "reason": "https://lasterrazasresort.com/room-images/1774380779_5.webp-preview/: page had almost no text"
+    },
+    {
+      "url": "https://lasterrazasresort.com/room-images/1774350716_7.webp-preview/",
+      "reason": "https://lasterrazasresort.com/room-images/1774350716_7.webp-preview/: page had almost no text"
+    },
+    {
+      "url": "https://lasterrazasresort.com/room-images/1774350687_1.webp-preview/",
+      "reason": "https://lasterrazasresort.com/room-images/1774350687_1.webp-preview/: page had almost no text"
+    },
+    {
+      "url": "https://lasterrazasresort.com/room-images/1774427946_06.webp-preview/",
+      "reason": "https://lasterrazasresort.com/room-images/1774427946_06.webp-preview/: page had almost no text"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 16,
+    "firecrawl_searches": 1,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 2,
+    "chars": 60000,
+    "est_claude_tokens": 15000
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-15T23:43:30.221Z"
+}

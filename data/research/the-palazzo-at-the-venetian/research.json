@@ -1,0 +1,82 @@
+{
+  "slug": "the-palazzo-at-the-venetian",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "The Palazzo at the Venetian",
+      "city": "Las Vegas",
+      "country": "US"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hyatt"
+    },
+    "evidence": [
+      "page is on Hyatt's own site (hyatt.com)",
+      "100% of the hotel name appears on the page",
+      "location matches (Las Vegas, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hyatt.com/stay/en-US/lasvp-the-palazzo-at-the-venetian-resort"
+    ],
+    "checked_at": "2026-10-15T23:41:27.734Z",
+    "status": "confirmed",
+    "official_url": "https://www.hyatt.com/stay/en-US/lasvp-the-palazzo-at-the-venetian-resort",
+    "base_url": "https://www.hyatt.com/stay/en-US/lasvp-the-palazzo-at-the-venetian-resort/",
+    "host": "hyatt.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hyatt.com/stay/en-US/lasvp-the-palazzo-at-the-venetian-resort",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:41:35.766Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hyatt.com/stay/en-US/lasvp-the-palazzo-at-the-venetian-resort/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:41:41.930Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hyatt.com/stay/en-US/lasvp-the-palazzo-at-the-venetian-resort/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:41:46.208Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.cntraveler.com/hotels/las-vegas/the-palazzo-at-the-venetian-resort",
+      "tier": "editorial",
+      "fetched_at": "2026-10-15T23:41:57.406Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 5,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 4,
+    "chars": 46066,
+    "est_claude_tokens": 11517
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-15T23:41:57.406Z"
+}

@@ -1,0 +1,122 @@
+{
+  "slug": "mount-lofty-house",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Mount Lofty House",
+      "city": "Adelaide",
+      "country": "AU"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Adelaide, AU)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.mtloftyhouse.com.au/"
+    ],
+    "checked_at": "2026-10-15T23:35:41.862Z",
+    "status": "confirmed",
+    "official_url": "https://www.mtloftyhouse.com.au/",
+    "base_url": "https://www.mtloftyhouse.com.au/",
+    "host": "mtloftyhouse.com.au",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.mtloftyhouse.com.au/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:35:48.892Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.mtloftyhouse.com.au/stay/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:35:54.376Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.mtloftyhouse.com.au/function-rooms-adelaide/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:36:03.316Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.mtloftyhouse.com.au/hardys-verandah-restaurant-hvr/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:36:08.861Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.mtloftyhouse.com.au/the-art-of-high-tea-at-mount-lofty-house-adults-retreat/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:36:13.692Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.mtloftyhouse.com.au/boutique/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:36:23.584Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.mtloftyhouse.com.au/40th-anniversary/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:36:28.922Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.mtloftyhouse.com.au/christmas-at-mount-lofty-house/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:36:34.165Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.mtloftyhouse.com.au/function-conference-venues-adelaide/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:36:39.579Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 11,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 9,
+    "chars": 63245,
+    "est_claude_tokens": 15811
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-15T23:36:44.505Z"
+}

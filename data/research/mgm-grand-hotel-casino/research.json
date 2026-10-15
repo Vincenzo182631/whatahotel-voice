@@ -1,0 +1,89 @@
+{
+  "slug": "mgm-grand-hotel-casino",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "MGM Grand Hotel & Casino",
+      "city": "Las Vegas",
+      "country": "US"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "page is on Marriott's own site (marriott.com)",
+      "100% of the hotel name appears on the page",
+      "location matches (Las Vegas, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/lasgm-mgm-grand-hotel-and-casino/overview/"
+    ],
+    "checked_at": "2026-10-15T23:39:43.045Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/lasgm-mgm-grand-hotel-and-casino/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/lasgm-mgm-grand-hotel-and-casino/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/lasgm-mgm-grand-hotel-and-casino/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:39:51.870Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/lasgm-mgm-grand-hotel-and-casino/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:39:56.568Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/lasgm-mgm-grand-hotel-and-casino/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:39:59.641Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/lasgm-mgm-grand-hotel-and-casino/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:40:02.153Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.cntraveler.com/hotels/las-vegas/mgm-grand",
+      "tier": "editorial",
+      "fetched_at": "2026-10-15T23:40:09.526Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 6,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 5,
+    "chars": 53440,
+    "est_claude_tokens": 13360
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-15T23:40:09.526Z"
+}

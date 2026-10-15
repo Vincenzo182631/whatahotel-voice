@@ -1,0 +1,138 @@
+{
+  "slug": "virgin-hotels-nashville",
+  "status": "awaiting_extraction",
+  "partial": true,
+  "reasons": [
+    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Virgin Hotels Nashville",
+      "city": "Nashville",
+      "country": "US"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Nashville, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://virginhotels.com/nashville/"
+    ],
+    "checked_at": "2026-10-15T23:44:56.728Z",
+    "status": "confirmed",
+    "official_url": "https://virginhotels.com/nashville/",
+    "base_url": "https://virginhotels.com/",
+    "host": "virginhotels.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://virginhotels.com/nashville/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:44:58.315Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://virginhotels.com/nashville/stay/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:45:03.784Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://virginhotels.com/nashville/eat-drink/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:45:06.332Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://virginhotels.com/nashville/the-hotel/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:45:10.011Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://virginhotels.com/dallas/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:45:10.180Z",
+      "source": "cache"
+    },
+    {
+      "id": "p6",
+      "url": "https://virginhotels.com/new-york/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:45:10.181Z",
+      "source": "cache"
+    },
+    {
+      "id": "p7",
+      "url": "https://virginhotels.com/the-know/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:45:10.182Z",
+      "source": "cache"
+    },
+    {
+      "id": "p8",
+      "url": "https://virginhotels.com/las-vegas/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:45:10.184Z",
+      "source": "cache"
+    },
+    {
+      "id": "p9",
+      "url": "https://virginhotels.com/edinburgh/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:45:10.184Z",
+      "source": "cache"
+    },
+    {
+      "id": "p10",
+      "url": "https://virginhotels.com/new-orleans/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:45:10.185Z",
+      "source": "cache"
+    },
+    {
+      "id": "p11",
+      "url": "https://virginhotels.com/credit-card/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:45:10.186Z",
+      "source": "cache"
+    },
+    {
+      "id": "p12",
+      "url": "https://virginhotels.com/london-shoreditch/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:45:10.186Z",
+      "source": "cache"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 5,
+    "firecrawl_searches": 1,
+    "cache_hits": 11,
+    "direct_fetches": 0,
+    "pages": 12,
+    "chars": 48933,
+    "est_claude_tokens": 12233
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-15T23:45:15.119Z"
+}
