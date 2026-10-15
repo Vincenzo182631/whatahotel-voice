@@ -176,6 +176,9 @@ export const CHAINS: Chain[] = [
     base: (u) => { const s = seg(u); const i = s.indexOf("hotel-monaco"); return i >= 0 && s[i + 1] ? `${u.origin}/${s.slice(0, i + 2).join("/")}/` : undefined; } },
   { id: "imperial", name: "Imperial Hotels", match: /(?!)/, domains: ["imperialhotel.co.jp"],
     base: (u) => { const s = seg(u); const o = /^[a-z]{2}$/i.test(s[0] ?? "") ? 1 : 0; return /^(tokyo|osaka|kamikochi|kyoto)$/.test(s[o] ?? "") ? `${u.origin}/${s.slice(0, o + 1).join("/")}/` : undefined; } },
+  { id: "melia", name: "Meliá", match: /(?!)/, domains: ["melia.com"],
+    // melia.com/<lang>/hotels/<country>/<city>/<hotel>/... -> the hotel's section
+    base: (u) => { const s = seg(u); const i = s.indexOf("hotels"); return i >= 0 && s[i + 3] ? `${u.origin}/${s.slice(0, i + 4).join("/")}/` : undefined; } },
   { id: "trump", name: "Trump Hotels", match: /\btrump\b/i, domains: ["trumphotels.com", "trumpdoonbeg.com"],
     // trumphotels.com/<property>/... -> /<property>/ (chain-wide sections excluded); trumpdoonbeg.com is single-property
     base: (u) => { if (u.hostname.includes("trumpdoonbeg")) return `${u.origin}/`; const b = firstOne(u);
