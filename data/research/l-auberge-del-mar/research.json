@@ -1,0 +1,81 @@
+{
+  "slug": "l-auberge-del-mar",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "L'Auberge Del Mar",
+      "city": "San Diego",
+      "country": "US"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "auberge"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (San Diego, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://auberge.com/esperanza/dine/cocina-del-mar/"
+    ],
+    "checked_at": "2026-10-15T16:24:27.386Z",
+    "status": "confirmed",
+    "official_url": "https://auberge.com/esperanza/dine/cocina-del-mar/",
+    "base_url": "https://auberge.com/esperanza/",
+    "host": "auberge.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://auberge.com/esperanza/dine/cocina-del-mar/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:24:45.541Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://auberge.com/esperanza/contact-us/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:24:45.783Z",
+      "source": "cache"
+    },
+    {
+      "id": "p3",
+      "url": "https://auberge.com/esperanza/cocina-del-mar/breakfast-2/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:24:49.557Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.cntraveler.com/hotels/del-mar/lauberge-del-mar",
+      "tier": "editorial",
+      "fetched_at": "2026-10-15T16:25:03.012Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 5,
+    "cache_hits": 3,
+    "direct_fetches": 1,
+    "pages": 4,
+    "chars": 13843,
+    "est_claude_tokens": 3461
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-15T16:25:03.012Z"
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "canyon-ranch-tucson-br-all-inclusive",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Canyon Ranch, Tucson<br> **All Inclusive**",
+      "city": "Tucson",
+      "country": "US"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "83% of the hotel name appears on the page",
+      "location matches (Tucson, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.canyonranch.com/tucson"
+    ],
+    "checked_at": "2026-10-15T16:11:12.411Z",
+    "status": "confirmed",
+    "official_url": "https://www.canyonranch.com/tucson",
+    "base_url": "https://www.canyonranch.com/",
+    "host": "canyonranch.com",
+    "checks": {
+      "name_coverage": 0.83,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.canyonranch.com/tucson",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:11:16.762Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.canyonranch.com/tucson/stay/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:11:23.163Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.canyonranch.com/tucson/services/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:11:30.482Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.canyonranch.com/_next/image/",
+      "reason": "https://www.canyonranch.com/_next/image/: page had almost no text"
+    },
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 6,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 3,
+    "chars": 16338,
+    "est_claude_tokens": 4085
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-15T16:11:37.394Z"
+}

@@ -1,0 +1,87 @@
+{
+  "slug": "outrigger-waikiki-beach-resort",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Outrigger Waikiki Beach Resort",
+      "city": "Honolulu",
+      "country": "US"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Honolulu, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.outrigger.com/hawaii/oahu/outrigger-waikiki-beach-resort"
+    ],
+    "checked_at": "2026-10-15T16:14:12.697Z",
+    "status": "confirmed",
+    "official_url": "https://www.outrigger.com/hawaii/oahu/outrigger-waikiki-beach-resort",
+    "base_url": "https://www.outrigger.com/",
+    "host": "outrigger.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.outrigger.com/hawaii/oahu/outrigger-waikiki-beach-resort",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:14:21.571Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.outrigger.com/stories/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:14:21.593Z",
+      "source": "cache"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.outrigger.com/travel-quiz/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:14:21.596Z",
+      "source": "cache"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.cntraveler.com/hotels/oahu/outrigger-reef-on-the-beach",
+      "tier": "editorial",
+      "fetched_at": "2026-10-15T16:16:28.762Z",
+      "source": "cache"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.outrigger.com/%3CBase64-Image-Removed%3E/",
+      "reason": "Firecrawl 408 for https://www.outrigger.com/%3CBase64-Image-Removed%3E/: The scrape operation timed out before completing. This happens when a page takes too lo"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 4,
+    "firecrawl_searches": 2,
+    "cache_hits": 5,
+    "direct_fetches": 0,
+    "pages": 4,
+    "chars": 25416,
+    "est_claude_tokens": 6354
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-15T16:16:28.762Z"
+}

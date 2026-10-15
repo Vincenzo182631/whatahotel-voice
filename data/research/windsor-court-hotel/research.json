@@ -1,0 +1,108 @@
+{
+  "slug": "windsor-court-hotel",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "Windsor Court Hotel",
+      "city": "New Orleans",
+      "country": "US"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (New Orleans, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://thewindsorcourt.com/"
+    ],
+    "checked_at": "2026-10-15T16:21:12.557Z",
+    "status": "confirmed",
+    "official_url": "https://thewindsorcourt.com/",
+    "base_url": "https://thewindsorcourt.com/",
+    "host": "thewindsorcourt.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://thewindsorcourt.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:21:16.786Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://thewindsorcourt.com/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:21:22.853Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://thewindsorcourt.com/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:21:27.367Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://thewindsorcourt.com/amenities/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:21:30.208Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://thewindsorcourt.com/amenities/windsor-court-spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:21:34.299Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://thewindsorcourt.com/holidays/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:21:38.220Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://thewindsorcourt.com/pampered-pets/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:21:42.796Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.cntraveler.com/hotels/new-orleans/the-windsor-court",
+      "tier": "editorial",
+      "fetched_at": "2026-10-15T16:21:49.865Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 9,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 8,
+    "chars": 36052,
+    "est_claude_tokens": 9013
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-15T16:21:49.865Z"
+}
