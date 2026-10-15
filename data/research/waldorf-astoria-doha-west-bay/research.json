@@ -1,9 +1,8 @@
 {
   "slug": "waldorf-astoria-doha-west-bay",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
   "reasons": [
-    "no pages could be read from the confirmed official site",
     "some pages were inaccessible; missing information is not proof an amenity does not exist"
   ],
   "identity": {
@@ -25,7 +24,7 @@
     "candidates": [
       "https://www.hilton.com/en/hotels/dohnzwa-waldorf-astoria-doha-west-bay/"
     ],
-    "checked_at": "2026-10-15T05:53:31.987Z",
+    "checked_at": "2026-10-15T05:58:45.218Z",
     "status": "confirmed",
     "official_url": "https://www.hilton.com/en/hotels/dohnzwa-waldorf-astoria-doha-west-bay/",
     "base_url": "https://www.hilton.com/en/hotels/dohnzwa-waldorf-astoria-doha-west-bay/",
@@ -35,12 +34,16 @@
       "location_match": true
     }
   },
-  "pages": [],
-  "inaccessible": [
+  "pages": [
     {
+      "id": "p1",
       "url": "https://www.hilton.com/en/hotels/dohnzwa-waldorf-astoria-doha-west-bay/",
-      "reason": "Firecrawl 500 for https://www.hilton.com/en/hotels/dohnzwa-waldorf-astoria-doha-west-bay/: All scraping engines failed to retrieve content from this URL. Engine"
-    },
+      "tier": "official",
+      "fetched_at": "2026-10-15T05:58:57.349Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
     {
       "url": "https://www.hilton.com/en/hotels/dohnzwa-waldorf-astoria-doha-west-bay/",
       "reason": "no same-property sub-page links found on the home page"
@@ -51,13 +54,13 @@
     }
   ],
   "usage": {
-    "firecrawl_calls": 5,
+    "firecrawl_calls": 6,
     "firecrawl_searches": 3,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 1,
+    "chars": 169,
+    "est_claude_tokens": 42
   },
   "limits": {
     "maxPages": 12,
@@ -65,5 +68,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T05:55:29.002Z"
+  "researched_at": "2026-10-15T05:59:35.566Z"
 }
