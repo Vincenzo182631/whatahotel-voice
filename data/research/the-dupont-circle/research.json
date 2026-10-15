@@ -1,9 +1,10 @@
 {
   "slug": "the-dupont-circle",
-  "status": "awaiting_extraction",
-  "partial": true,
+  "status": "needs_review",
+  "partial": false,
   "reasons": [
-    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue"
+    "https://www.doylecollection.com/hotels/the-dupont-circle-hotel: doylecollection.com does not carry the hotel's name; an independent hotel's own site normally does",
+    "official website could not be confirmed; flag for review"
   ],
   "identity": {
     "hotel": {
@@ -12,123 +13,29 @@
       "country": "US"
     },
     "affiliation": {
-      "kind": "independent"
+      "kind": "unknown"
     },
-    "evidence": [
-      "100% of the hotel name appears on the page",
-      "location matches (Washington DC, US)"
+    "evidence": [],
+    "reasons": [
+      "https://www.doylecollection.com/hotels/the-dupont-circle-hotel: doylecollection.com does not carry the hotel's name; an independent hotel's own site normally does",
+      "official website could not be confirmed; flag for review"
     ],
-    "reasons": [],
     "candidates": [
-      "https://www.doylecollection.com/hotels/the-dupont-circle-hotel",
-      "https://washington.org/dc-neighborhoods/dupont-circle",
-      "https://dupontcirclebid.org/go/dupont-circle-hotel"
+      "https://www.doylecollection.com/hotels/the-dupont-circle-hotel"
     ],
-    "checked_at": "2026-10-15T16:26:24.573Z",
-    "status": "confirmed",
-    "official_url": "https://dupontcirclebid.org/go/dupont-circle-hotel",
-    "base_url": "https://dupontcirclebid.org/",
-    "host": "dupontcirclebid.org",
-    "checks": {
-      "name_coverage": 1,
-      "location_match": true
-    }
+    "checked_at": "2026-10-15T16:36:15.956Z",
+    "status": "needs_review"
   },
-  "pages": [
-    {
-      "id": "p1",
-      "url": "https://dupontcirclebid.org/go/dupont-circle-hotel",
-      "tier": "official",
-      "fetched_at": "2026-10-15T16:26:39.472Z",
-      "source": "cache"
-    },
-    {
-      "id": "p2",
-      "url": "https://dupontcirclebid.org/go/the-doyle/",
-      "tier": "official",
-      "fetched_at": "2026-10-15T16:26:43.483Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p3",
-      "url": "https://dupontcirclebid.org/go/kindred-barber/",
-      "tier": "official",
-      "fetched_at": "2026-10-15T16:26:50.168Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p4",
-      "url": "https://dupontcirclebid.org/go/doyle-and-co-coffee-bar/",
-      "tier": "official",
-      "fetched_at": "2026-10-15T16:26:51.644Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p5",
-      "url": "https://dupontcirclebid.org/go/pnc-bank/",
-      "tier": "official",
-      "fetched_at": "2026-10-15T16:26:55.627Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p6",
-      "url": "https://dupontcirclebid.org/visit/hotels/",
-      "tier": "official",
-      "fetched_at": "2026-10-15T16:26:59.642Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p7",
-      "url": "https://dupontcirclebid.org/go/alton-lane-dc/",
-      "tier": "official",
-      "fetched_at": "2026-10-15T16:27:03.563Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p8",
-      "url": "https://dupontcirclebid.org/go/the-pembroke-1/",
-      "tier": "official",
-      "fetched_at": "2026-10-15T16:27:07.407Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p9",
-      "url": "https://dupontcirclebid.org/go/starbucks-coffee-1/",
-      "tier": "official",
-      "fetched_at": "2026-10-15T16:27:11.689Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p10",
-      "url": "https://dupontcirclebid.org/go/dupont-circle-hotel/",
-      "tier": "official",
-      "fetched_at": "2026-10-15T16:27:14.657Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p11",
-      "url": "https://dupontcirclebid.org/go/tessa-suppes-ma-lpc/",
-      "tier": "official",
-      "fetched_at": "2026-10-15T16:27:19.613Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p12",
-      "url": "https://dupontcirclebid.org/go/connecticut-avenue-wine-and-liquor/",
-      "tier": "official",
-      "fetched_at": "2026-10-15T16:27:23.660Z",
-      "source": "firecrawl"
-    }
-  ],
+  "pages": [],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 16,
-    "firecrawl_searches": 1,
-    "cache_hits": 2,
+    "firecrawl_calls": 1,
+    "firecrawl_searches": 0,
+    "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 12,
-    "chars": 18260,
-    "est_claude_tokens": 4565
+    "pages": 0,
+    "chars": 0,
+    "est_claude_tokens": 0
   },
   "limits": {
     "maxPages": 12,
@@ -136,5 +43,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T16:27:27.588Z"
+  "researched_at": "2026-10-15T16:36:17.132Z"
 }
