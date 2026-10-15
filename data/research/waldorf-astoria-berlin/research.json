@@ -2,9 +2,7 @@
   "slug": "waldorf-astoria-berlin",
   "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "some pages were inaccessible; missing information is not proof an amenity does not exist"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "Waldorf Astoria Berlin",
@@ -22,14 +20,13 @@
     ],
     "reasons": [],
     "candidates": [
-      "https://www.hilton.com/en/hotels/berwawa-waldorf-astoria-berlin/",
-      "https://www.hilton.com/en/hotels/berwawa-waldorf-astoria-berlin/waldorf-astoria-spa/"
+      "https://waldorfastoriaberlin.de/en/"
     ],
-    "checked_at": "2026-10-15T09:49:02.835Z",
+    "checked_at": "2026-10-15T11:45:55.234Z",
     "status": "confirmed",
-    "official_url": "https://www.hilton.com/en/hotels/berwawa-waldorf-astoria-berlin/waldorf-astoria-spa/",
-    "base_url": "https://www.hilton.com/en/hotels/berwawa-waldorf-astoria-berlin/",
-    "host": "hilton.com",
+    "official_url": "https://waldorfastoriaberlin.de/en/",
+    "base_url": "https://waldorfastoriaberlin.de/",
+    "host": "waldorfastoriaberlin.de",
     "checks": {
       "name_coverage": 1,
       "location_match": true
@@ -38,33 +35,49 @@
   "pages": [
     {
       "id": "p1",
-      "url": "https://www.hilton.com/en/hotels/berwawa-waldorf-astoria-berlin/waldorf-astoria-spa/",
+      "url": "https://waldorfastoriaberlin.de/en/",
       "tier": "official",
-      "fetched_at": "2026-10-15T09:49:18.995Z",
+      "fetched_at": "2026-10-15T11:46:00.173Z",
       "source": "firecrawl"
     },
     {
       "id": "p2",
+      "url": "https://waldorfastoriaberlin.de/en/stay/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T11:46:10.238Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://waldorfastoriaberlin.de/en/dine/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T11:46:14.228Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://waldorfastoriaberlin.de/en/waldorfastoria-spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T11:46:17.780Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
       "url": "https://www.cntraveler.com/hotels/berlin/waldorf-astoria-berlin",
       "tier": "editorial",
-      "fetched_at": "2026-10-15T09:49:54.397Z",
+      "fetched_at": "2026-10-15T11:46:20.416Z",
       "source": "direct"
     }
   ],
-  "inaccessible": [
-    {
-      "url": "https://www.hilton.com/en/hotels/berwawa-waldorf-astoria-berlin/",
-      "reason": "no same-property sub-page links found on the home page"
-    }
-  ],
+  "inaccessible": [],
   "usage": {
     "firecrawl_calls": 7,
-    "firecrawl_searches": 3,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
     "direct_fetches": 1,
-    "pages": 2,
-    "chars": 7217,
-    "est_claude_tokens": 1804
+    "pages": 5,
+    "chars": 38728,
+    "est_claude_tokens": 9682
   },
   "limits": {
     "maxPages": 12,
@@ -72,5 +85,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T09:49:54.397Z"
+  "researched_at": "2026-10-15T11:46:20.416Z"
 }

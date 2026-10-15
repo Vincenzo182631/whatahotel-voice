@@ -164,7 +164,7 @@ export const CHAINS: Chain[] = [
     base: (u) => { const b = firstOne(u); return b && !/\/(offers|about|careers|press|news|destinations|search|legal|privacy|residences|stories|loyalty|en|es|fr)\/$/i.test(b) ? b : undefined; } },
   { id: "langham", name: "Langham", match: /langham|cordis/i, domains: ["langhamhotels.com", "cordishotels.com"], base: (u) => (u.hostname.includes("cordishotels") ? firstOne(u) : firstTwo(u)) },
   { id: "hilton", name: "Hilton", match: /waldorf|hilton|conrad|\blxr\b/i, domains: ["hilton.com"],
-    secondaryDomains: ["grandwailea.com", "romecavalieri.com", "arizonabiltmore.com", "therooseveltneworleans.com", "waldorfastoria.com"],
+    secondaryDomains: ["grandwailea.com", "romecavalieri.com", "arizonabiltmore.com", "therooseveltneworleans.com", "waldorfastoria.com", "waldorfastoriaberlin.de"],
     // hilton.com/<lang>/hotels/<ctyhocc-name>/... -> /<lang>/hotels/<ctyhocc-name>/ ; standalone resort domains are single-property
     base: (u) => { if (!u.hostname.endsWith("hilton.com")) return `${u.origin}/`; const s = seg(u); const o = /^[a-z]{2}(-[a-z]{2})?$/i.test(s[0] ?? "") ? 1 : 0;
       return s[o] === "hotels" && s[o + 1] ? `${u.origin}/${s.slice(0, o + 2).join("/")}/` : undefined; } },
