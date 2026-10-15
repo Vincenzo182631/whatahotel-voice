@@ -1,0 +1,80 @@
+{
+  "slug": "la-reserve-paris",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "La Reserve Paris",
+      "city": "Paris",
+      "country": "FR"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Paris, FR)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.lareserve-paris.com/en/"
+    ],
+    "checked_at": "2026-10-15T00:32:44.316Z",
+    "status": "confirmed",
+    "official_url": "https://www.lareserve-paris.com/en/",
+    "base_url": "https://www.lareserve-paris.com/",
+    "host": "lareserve-paris.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.lareserve-paris.com/en/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:32:48.899Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.lareserve-paris.com/en/spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:32:56.720Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.lareserve-paris.com/en/find-us/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:33:01.640Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.cntraveler.com/hotels/paris/paris/la-reserve-paris-hotel-and-spa",
+      "tier": "editorial",
+      "fetched_at": "2026-10-15T00:33:06.569Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 5,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 4,
+    "chars": 33252,
+    "est_claude_tokens": 8313
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-15T00:33:06.569Z"
+}

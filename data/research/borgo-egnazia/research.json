@@ -1,0 +1,117 @@
+{
+  "slug": "borgo-egnazia",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Borgo Egnazia",
+      "city": "Savelletri di Fasano",
+      "country": "IT"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Savelletri di Fasano, IT)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://guide.michelin.com/en/hotels-stays/savelletri-di-fasano/borgo-egnazia-5839",
+      "https://www.borgoegnazia.com/",
+      "https://www.borgoegnazia.com/about/"
+    ],
+    "checked_at": "2026-10-15T00:32:44.274Z",
+    "status": "confirmed",
+    "official_url": "https://www.borgoegnazia.com/about/",
+    "base_url": "https://www.borgoegnazia.com/",
+    "host": "borgoegnazia.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.borgoegnazia.com/about/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:32:57.926Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.borgoegnazia.com/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:33:03.967Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.borgoegnazia.com/food-and-drink/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:33:06.021Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.borgoegnazia.com/contacts/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:33:08.454Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.borgoegnazia.com/main/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:33:14.595Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.borgoegnazia.com/awards/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:33:18.361Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.borgoegnazia.com//travel-trade/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:33:27.830Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.cntraveler.com/hotels/puglia/borgo-egnazia",
+      "tier": "editorial",
+      "fetched_at": "2026-10-15T00:33:36.437Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.borgoegnazia.com/be-staff/",
+      "reason": "https://www.borgoegnazia.com/be-staff/: page had almost no text"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 12,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 8,
+    "chars": 17038,
+    "est_claude_tokens": 4260
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-15T00:33:36.437Z"
+}
