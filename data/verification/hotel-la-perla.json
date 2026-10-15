@@ -1,0 +1,447 @@
+{
+  "hotel_slug": "hotel-la-perla",
+  "hotel_name": "Hotel La Perla",
+  "checked_at": "2026-10-15T03:07:36.887Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 18
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.laperlacorvara.it/it",
+      "tier": "official",
+      "chars": 2361
+    },
+    {
+      "id": "d2",
+      "url": "https://www.laperlacorvara.it/it/sapere/",
+      "tier": "official",
+      "chars": 1365
+    },
+    {
+      "id": "d3",
+      "url": "https://www.laperlacorvara.it/it/dormire/",
+      "tier": "official",
+      "chars": 5305
+    },
+    {
+      "id": "d4",
+      "url": "https://www.laperlacorvara.it/it/mangiare/",
+      "tier": "official",
+      "chars": 1231
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is in Corvara, in Val Badia, in the Dolomites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Corvara, Val Badia, Dolomiti",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.laperlacorvara.it/it/sapere/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel describes itself as a Ladin house in the Dolomites where traditional warmth meets Tyrolean elegance.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Una casa ladina nel cuore delle Dolomiti, dove il calore della tradizione incontra l’eleganza tirolese.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.laperlacorvara.it/it",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Costa family has run the hotel generation after generation.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Da allora, generazione dopo generazione, la famiglia Costa porta avanti questo gesto antico",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.laperlacorvara.it/it/sapere/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Chef Simone Cantafio cooks at La Stüa de Michil.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Dalla cucina stellata de La Stüa de Michil di Simone Cantafio",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.laperlacorvara.it/it",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "La Stüa de Michil-Simone Cantafio",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.laperlacorvara.it/it/mangiare/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Bistrot Music Club offers international dishes, cocktails and live music.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "al Bistrot Music Club, per momenti conviviali tra piatti internazionali, cocktail e musica dal vivo",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.laperlacorvara.it/it",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Ristorante Ladinia is a Ladin osteria with an alpine touch.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Ristorante Ladinia",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.laperlacorvara.it/it/mangiare/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Osteria ladina in salsa alpina",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.laperlacorvara.it/it/mangiare/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "In summer, L'Murin becomes a beer hall with an osteria feel, serving simple dishes with evenings in the garden.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "fino al L'Murin, che d’estate diventa una birreria con anima d’osteria, tra piatti semplici e serate in giardino fino all’ultimo sole",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.laperlacorvara.it/it",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Romantik rooms are all different from one another and carry the scent of Swiss stone pine wood.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Queste camere, tutte diverse una dall’altra",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.laperlacorvara.it/it/dormire/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "parlano la lingua del legno di cirmolo che profuma in ogni dove",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.laperlacorvara.it/it/dormire/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The top-floor Suite Dolomites has two separate double bedrooms, two bathrooms and two balconies with Dolomite views, for up to six guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Collocata all’ultimo piano della Casa, la Suite Dolomites",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.laperlacorvara.it/it/dormire/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Qui tutto è doppio: due camere doppie separate",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.laperlacorvara.it/it/dormire/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "doppio bagno con vasca e doccia",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.laperlacorvara.it/it/dormire/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "doppio balcone con vista ammaliante sulle Dolomiti. L’ambiente è stato congeniato per un numero massimo di sei ospiti.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.laperlacorvara.it/it/dormire/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Suite Ernesto includes its own sauna.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "La Suite Ernesto è un rifugio di 75 metri quadri",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.laperlacorvara.it/it/dormire/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "con spazi esclusivi come la sauna",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.laperlacorvara.it/it/dormire/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Rooms are furnished with original pieces from the Costa family, such as ceramic cups, headboards, typewriters, paintings, clocks, vases and sculptures.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "ogni ambiente è arricchito da pezzi originali appartenenti alla famiglia Costa – tazzine in ceramica, testiere del letto, macchine da scrivere, quadri, orologi, vasi e sculture",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.laperlacorvara.it/it/dormire/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Comfort rooms are the oldest in the house; in some, the ceilings came from 17th-century stuben.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Sono le camere più antiche della Casa. In alcune i soffitti appartenevano a stuben del XVII secolo",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.laperlacorvara.it/it/dormire/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Suite Ernesto honors Ernesto Costa, who founded La Perla in 1956.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Un omaggio a Ernesto Costa, visionario fondatore della Perla nel 1956",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.laperlacorvara.it/it/dormire/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Les Stües is made up of six unique stuben, and the Mahatma Wine cellar holds fine labels.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Sei Stuben uniche",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.laperlacorvara.it/it/mangiare/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "La nostra cantina vini Mahatma Wine custodisce etichette pregiate",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.laperlacorvara.it/it/mangiare/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Romantik Dolomites rooms look out on the Sassongher, the Sass Ciampac and the Sella group.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "### Romantik Dolomites",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.laperlacorvara.it/it/dormire/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Romantik è la vista che si gode sul Sassongher, sul Sass Ciampac e sul gruppo del Sella.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.laperlacorvara.it/it/dormire/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel closes between seasons; the official site says it reopens on 4 December.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Dal 4 Dicembre torniamo ad accogliervi, nella nostra casa tra le Dolomiti.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.laperlacorvara.it/it",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "sia d'inverno che d'estate",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.laperlacorvara.it/it/dormire/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The hotel calls its spa a small beauty and wellness center.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "La nostra Spa è un piccolo centro di bellezza e benessere",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.laperlacorvara.it/it",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the remote mountain location requires travel planning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
