@@ -1,0 +1,87 @@
+{
+  "slug": "vidago-palace-hotel",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Vidago Palace Hotel",
+      "city": "Vidago",
+      "country": "PT"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Vidago, PT)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://vidagopalace.com/en/"
+    ],
+    "checked_at": "2026-10-15T03:07:58.398Z",
+    "status": "confirmed",
+    "official_url": "https://vidagopalace.com/en/",
+    "base_url": "https://vidagopalace.com/",
+    "host": "vidagopalace.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://vidagopalace.com/en/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:08:10.233Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://vidagopalace.com/recruitment/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:08:16.486Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://vidagopalace.com/en/parquevidago/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:08:20.193Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://vidagopalace.com/en/pet-friendly/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:08:24.119Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 6,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 4,
+    "chars": 11924,
+    "est_claude_tokens": 2981
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-15T03:08:30.975Z"
+}
