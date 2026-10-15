@@ -171,7 +171,7 @@ export const CHAINS: Chain[] = [
   // multi-property group sites used by Leading Hotels members; matched by host only, never guessed from a hotel name
   { id: "como", name: "COMO Hotels", match: /^como\b/i, domains: ["comohotels.com"], base: (u) => { const s = dropLang(seg(u)); return s.length >= 2 ? `${u.origin}/${s[0]}/${s[1]}/` : undefined; } },
   { id: "starhotels", name: "Starhotels", match: /(?!)/, domains: ["starhotels.com", "starhotelscollezione.com"],
-    base: (u) => { const s = seg(u); const i = s.indexOf("scrigno-our-hotels"); return i >= 0 && s[i + 1] ? `${u.origin}/${s.slice(0, i + 2).join("/")}/` : undefined; } },
+    base: (u) => { const s = seg(u); const i = s.findIndex((x) => x === "our-hotels" || x === "scrigno-our-hotels"); return i >= 0 && s[i + 1] ? `${u.origin}/${s.slice(0, i + 2).join("/")}/` : undefined; } },
   { id: "sbm", name: "Monte-Carlo Société des Bains de Mer", match: /(?!)/, domains: ["montecarlosbm.com"],
     base: (u) => { const s = seg(u); const i = s.indexOf("hotel-monaco"); return i >= 0 && s[i + 1] ? `${u.origin}/${s.slice(0, i + 2).join("/")}/` : undefined; } },
   { id: "trump", name: "Trump Hotels", match: /\btrump\b/i, domains: ["trumphotels.com", "trumpdoonbeg.com"],
