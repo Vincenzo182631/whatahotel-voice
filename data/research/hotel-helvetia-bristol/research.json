@@ -2,9 +2,7 @@
   "slug": "hotel-helvetia-bristol",
   "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "some pages were inaccessible; missing information is not proof an amenity does not exist"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "Hotel Helvetia & Bristol",
@@ -22,12 +20,12 @@
     ],
     "reasons": [],
     "candidates": [
-      "https://collezione.starhotels.com/en/scrigno-our-hotels/helvetia-e-bristol/"
+      "https://collezione.starhotels.com/en/our-hotels/helvetia-and-bristol-florence/"
     ],
-    "checked_at": "2026-10-15T00:23:40.681Z",
+    "checked_at": "2026-10-15T00:31:24.504Z",
     "status": "confirmed",
-    "official_url": "https://collezione.starhotels.com/en/scrigno-our-hotels/helvetia-e-bristol/",
-    "base_url": "https://collezione.starhotels.com/en/scrigno-our-hotels/helvetia-e-bristol/",
+    "official_url": "https://collezione.starhotels.com/en/our-hotels/helvetia-and-bristol-florence/",
+    "base_url": "https://collezione.starhotels.com/en/our-hotels/helvetia-and-bristol-florence/",
     "host": "collezione.starhotels.com",
     "checks": {
       "name_coverage": 1,
@@ -37,33 +35,56 @@
   "pages": [
     {
       "id": "p1",
-      "url": "https://collezione.starhotels.com/en/scrigno-our-hotels/helvetia-e-bristol/",
+      "url": "https://collezione.starhotels.com/en/our-hotels/helvetia-and-bristol-florence/",
       "tier": "official",
-      "fetched_at": "2026-10-15T00:23:49.816Z",
+      "fetched_at": "2026-10-15T00:31:29.757Z",
       "source": "firecrawl"
     },
     {
       "id": "p2",
+      "url": "https://collezione.starhotels.com/en/our-hotels/helvetia-and-bristol-florence/rooms-and-suites/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:31:47.271Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://collezione.starhotels.com/en/our-hotels/helvetia-and-bristol-florence/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:31:50.567Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://collezione.starhotels.com/en/our-hotels/helvetia-and-bristol-florence/dining/restaurant-winter-garden/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:31:58.864Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://collezione.starhotels.com/en/our-hotels/helvetia-and-bristol-florence/dining/restaurant-bristol-winter-garden/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:32:03.382Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
       "url": "https://www.cntraveler.com/hotels/italy/scandicci/hotel-helvetia-bristol-florence",
       "tier": "editorial",
-      "fetched_at": "2026-10-15T00:24:02.357Z",
+      "fetched_at": "2026-10-15T00:32:08.259Z",
       "source": "direct"
     }
   ],
-  "inaccessible": [
-    {
-      "url": "https://collezione.starhotels.com/en/scrigno-our-hotels/helvetia-e-bristol/",
-      "reason": "no same-property sub-page links found on the home page"
-    }
-  ],
+  "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 4,
+    "firecrawl_calls": 8,
     "firecrawl_searches": 1,
     "cache_hits": 0,
     "direct_fetches": 1,
-    "pages": 2,
-    "chars": 17461,
-    "est_claude_tokens": 4365
+    "pages": 6,
+    "chars": 73264,
+    "est_claude_tokens": 18316
   },
   "limits": {
     "maxPages": 12,
@@ -71,5 +92,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T00:24:02.357Z"
+  "researched_at": "2026-10-15T00:32:08.259Z"
 }
