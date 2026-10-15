@@ -190,3 +190,21 @@ All 5 published. Doonbeg hand-accepted by the user (trumphotels.com/ireland does
 - Arizona Biltmore is now branded "Arizona Biltmore, LXR Hotels & Resorts" on hilton.com.
 - Several profiles rest on thin official coverage (Chengdu 3 pages; Monarch Beach mostly Condé Nast Traveler).
 - WhataHotel page errors: Grand Wailea (Spa Grande vs Kilolani Spa; slide/pool details); Monarch Beach (clifftop/oceanfront, three golf courses, Miraval spa); Los Cabos (swimmable beach vs CNT "swimming prohibited"); Jeddah (separate men's/women's spa vs ladies-only); Las Vegas (sky bridge to Aria/Bellagio vs The Shops at Crystals); Maldives (Terra "underwater restaurant" vs treetop nests); Dubai Palm (Sombreros not listed); Dubai DIFC (LAO by David Chang not listed); Chengdu (Wuhou District vs Financial City); Versailles ("multiple Michelin-starred" vs one).
+
+## Leading Hotels of the World (collection/38)
+
+136 hotels split into 3 groups. 128 published (group 1: 45, group 2: 45, group 3: 38). Many official sites were hand-accepted by the user (group/brand sites such as melia.com, hotelsbarriere.com, doylecollection.com, lungarnocollection.com, chablehotels.com, gracebayresorts.com, duetorrihotels.com).
+Held, no clip:
+- Byblos Saint-Tropez: closed for the season.
+- Grace Bay Club Villa Seascape / Villa Seaclusion: no villa-specific official page.
+- Katikies Kirini Santorini: not listed on katikies.com.
+- Baglioni Resort Cala del Porto: held by the user; may now be Cala Beach Resort (already published).
+- Bristol Panama: official site (bristolpanama.com) has only a booking widget and slogans; too few facts.
+- Unico 20°87° Riviera Maya, Bürgenstock Hotel & Alpine Spa: official sites block Firecrawl, including stealth mode.
+Flags on published clips:
+- Thin official coverage: Westbury Dublin, Vila Vita Parc, Valverde Sintra, Bayerischer Hof, Grand Velas Riviera Maya, Kivotos.
+- Mostly Condé Nast Traveler: Ritz Paris, Beau-Rivage Geneva, San Corrado di Noto.
+- Closing lists the breakfast perk at all-inclusive resorts: Marquis Los Cabos, Paradisus Los Cabos, Paradisus Grand Cana, Baglioni Maldives, San Ysidro Ranch (dining included).
+- Borgo Egnazia: audio 73.9s, force-approved under the 75s minimum.
+- Every LHW closing states the $100 credit; WhataHotel pages mention a higher credit for suites.
+- WhataHotel page errors (worth correcting on the site): Villa Le Blanc (describes a Mallorca hotel; it's in Menorca, not adults-only); Biltmore Villas Dubai (describes Biltmore Miami); Setai Tel Aviv ("American Colony", rooftop infinity pool); Paradisus Grand Cana and Chablé Maroma (called adults-only; both welcome families); Palacio de los Duques (wrong address and restaurants); The Lodhi (slug/name says "Shima-shi").
