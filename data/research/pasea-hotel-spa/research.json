@@ -1,13 +1,8 @@
 {
   "slug": "pasea-hotel-spa",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "https://pasea-hotel-and-spa.beach-cities-orange-county.net/en/: pasea-hotel-and-spa.beach-cities-orange-county.net does not carry the hotel's name; an independent hotel's own site normally does",
-    "https://www.paseahotel.com/contact/: only 50% of the hotel name appears on the page",
-    "https://www.guestreservations.com/pasea-hotel-and-spa/booking: guestreservations.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "official website could not be confirmed; flag for review"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "Pasea Hotel & Spa",
@@ -15,33 +10,114 @@
       "country": "US"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://pasea-hotel-and-spa.beach-cities-orange-county.net/en/: pasea-hotel-and-spa.beach-cities-orange-county.net does not carry the hotel's name; an independent hotel's own site normally does",
-      "https://www.paseahotel.com/contact/: only 50% of the hotel name appears on the page",
-      "https://www.guestreservations.com/pasea-hotel-and-spa/booking: guestreservations.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Huntington Beach, US)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://pasea-hotel-and-spa.beach-cities-orange-county.net/en/",
-      "https://www.paseahotel.com/contact/",
-      "https://www.guestreservations.com/pasea-hotel-and-spa/booking"
+      "https://www.paseahotel.com/"
     ],
-    "checked_at": "2026-10-15T16:28:29.302Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-15T16:34:35.713Z",
+    "status": "confirmed",
+    "official_url": "https://www.paseahotel.com/",
+    "base_url": "https://www.paseahotel.com/",
+    "host": "paseahotel.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.paseahotel.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:34:40.467Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.paseahotel.com/sleep/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:34:51.709Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.paseahotel.com/taste/pool-bar/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:34:54.910Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.paseahotel.com/taste/lorea-restaurant/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:34:56.402Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.paseahotel.com/taste/treehouse-on-pch-bar/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:35:03.120Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.paseahotel.com/relax/aarna-spa-huntington-beach/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:35:04.403Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.paseahotel.com/experience/local-activities/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:35:11.384Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.paseahotel.com/taste/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:35:17.255Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.paseahotel.com/taste/blend-cafe/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:35:20.434Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.paseahotel.com/gather/celebrations/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:35:23.980Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://www.cntraveler.com/hotels/huntington-beach/pasea-hotel-and-spa",
+      "tier": "editorial",
+      "fetched_at": "2026-10-15T16:35:33.560Z",
+      "source": "direct"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 4,
+    "firecrawl_calls": 13,
     "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 11,
+    "chars": 32678,
+    "est_claude_tokens": 8170
   },
   "limits": {
     "maxPages": 12,
@@ -49,5 +125,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T16:28:54.258Z"
+  "researched_at": "2026-10-15T16:35:33.560Z"
 }
