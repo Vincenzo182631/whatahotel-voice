@@ -1,0 +1,115 @@
+{
+  "slug": "royal-hotel-sanremo",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Royal Hotel Sanremo",
+      "city": "Sanremo",
+      "country": "IT"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Sanremo, IT)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.royalhotelsanremo.com/"
+    ],
+    "checked_at": "2026-10-15T03:05:13.453Z",
+    "status": "confirmed",
+    "official_url": "https://www.royalhotelsanremo.com/",
+    "base_url": "https://www.royalhotelsanremo.com/",
+    "host": "royalhotelsanremo.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.royalhotelsanremo.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:05:17.648Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.royalhotelsanremo.com/en/wellness-stay-in-sanremo/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:05:21.711Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.royalhotelsanremo.com/en/where-to-sleep-in-sanremo/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:05:25.645Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.royalhotelsanremo.com/[1]/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:05:32.464Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.royalhotelsanremo.com/en/lawrence-lounge/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:05:37.331Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.royalhotelsanremo.com/en/what-to-do-in-sanremo/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:05:40.422Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.royalhotelsanremo.com/en/5-star-luxury-hotel-sanremo/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:05:44.533Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.royalhotelsanremo.com/en/luxury-hotel-sanremo-center/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:05:48.715Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 10,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 8,
+    "chars": 142275,
+    "est_claude_tokens": 35569
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-15T03:05:55.698Z"
+}
