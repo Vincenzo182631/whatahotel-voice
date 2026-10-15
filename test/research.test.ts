@@ -185,6 +185,12 @@ describe("assessPage", () => {
     const r = assessPage(hotel, { kind: "unknown" as const }, { url: "https://www.kivotoshotels.com/", text: `Kivotos Mykonos ${filler} Mykonos` });
     expect(r.reasons.join(" ")).not.toMatch(/third-party/);
   });
+  it("refuses an aggregator subdomain named after the hotel", () => {
+    const hotel = { name: "The Westbury", city: "Dublin", country: "Ireland" };
+    const r = assessPage(hotel, { kind: "unknown" as const }, { url: "https://thewestbury.hoteldublin.net/en/", text: `The Westbury ${filler} Dublin` });
+    expect(r.ok).toBe(false);
+    expect(assessPage(hotel, { kind: "unknown" as const }, { url: "https://www.thewestbury.ie/", text: `The Westbury ${filler} Dublin` }).ok).toBe(true);
+  });
   it("never accepts a third-party site as official", () => {
     expect(assessPage(FS, { kind: "independent" }, { url: "https://www.tripadvisor.com/Hotel_Review", text: `Four Seasons Hotel Sydney ${filler} Sydney` }).ok).toBe(false);
   });

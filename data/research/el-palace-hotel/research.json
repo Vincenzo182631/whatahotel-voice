@@ -1,8 +1,10 @@
 {
   "slug": "el-palace-hotel",
-  "status": "awaiting_extraction",
+  "status": "needs_review",
   "partial": false,
-  "reasons": [],
+  "reasons": [
+    "no candidate official site found; flag for review"
+  ],
   "identity": {
     "hotel": {
       "name": "El Palace Hotel",
@@ -10,51 +12,26 @@
       "country": "ES"
     },
     "affiliation": {
-      "kind": "independent"
+      "kind": "unknown"
     },
-    "evidence": [
-      "100% of the hotel name appears on the page",
-      "location matches (Barcelona, ES)"
+    "evidence": [],
+    "reasons": [
+      "no candidate official site found; flag for review"
     ],
-    "reasons": [],
-    "candidates": [
-      "https://lushexperiences.com/portfolio/hotel-el-palace-barcelona/"
-    ],
-    "checked_at": "2026-10-15T00:33:07.892Z",
-    "status": "confirmed",
-    "official_url": "https://lushexperiences.com/portfolio/hotel-el-palace-barcelona/",
-    "base_url": "https://lushexperiences.com/",
-    "host": "lushexperiences.com",
-    "checks": {
-      "name_coverage": 1,
-      "location_match": true
-    }
+    "candidates": [],
+    "checked_at": "2026-10-15T02:54:02.071Z",
+    "status": "needs_review"
   },
-  "pages": [
-    {
-      "id": "p1",
-      "url": "https://lushexperiences.com/portfolio/hotel-el-palace-barcelona/",
-      "tier": "official",
-      "fetched_at": "2026-10-15T00:33:14.083Z",
-      "source": "cache"
-    },
-    {
-      "id": "p2",
-      "url": "https://www.cntraveler.com/hotels/barcelona/el-palace-hotel",
-      "tier": "editorial",
-      "fetched_at": "2026-10-15T00:33:16.619Z",
-      "source": "direct"
-    }
-  ],
+  "pages": [],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 3,
-    "firecrawl_searches": 2,
-    "cache_hits": 2,
-    "direct_fetches": 1,
-    "pages": 2,
-    "chars": 13168,
-    "est_claude_tokens": 3292
+    "firecrawl_calls": 1,
+    "firecrawl_searches": 1,
+    "cache_hits": 0,
+    "direct_fetches": 0,
+    "pages": 0,
+    "chars": 0,
+    "est_claude_tokens": 0
   },
   "limits": {
     "maxPages": 12,
@@ -62,5 +39,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T00:33:16.619Z"
+  "researched_at": "2026-10-15T02:54:02.990Z"
 }

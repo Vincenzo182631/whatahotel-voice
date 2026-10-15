@@ -122,7 +122,10 @@ export function assessPage(hotel: HotelRef, aff: Identity["affiliation"], page: 
   // an independent hotel's own site carries its name in the domain; directories, aggregators and sister hotels that
   // merely mention the name (e.g. halepuna.com for Halekulani) do not
   if (!hostChain && aff.kind !== "chain") {
-    const label = host.split(".").slice(0, -1).join("").replace(/[^a-z0-9]/g, "");
+    // the registrable name only: "thewestbury.hoteldublin.net" is hoteldublin's site, not the Westbury's
+    const parts = host.split(".");
+    const sld = parts.length >= 3 && /^(co|com|org|net|ac|gov|edu)$/.test(parts[parts.length - 2]!) && parts[parts.length - 1]!.length === 2 ? parts[parts.length - 3]! : parts[parts.length - 2] ?? "";
+    const label = sld.replace(/[^a-z0-9]/g, "");
     const cityW = new Set(cityWords(hotel.city));
     const named = significant(hotel.name).filter((w) => w.length >= 4 && !cityW.has(w));
     const specific = named.filter((w) => !GENERIC_NAME_WORDS.has(w));
