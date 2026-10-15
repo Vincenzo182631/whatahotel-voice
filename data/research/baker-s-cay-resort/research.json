@@ -1,0 +1,86 @@
+{
+  "slug": "baker-s-cay-resort",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Baker's Cay Resort",
+      "city": "Key Largo",
+      "country": "US"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hilton"
+    },
+    "evidence": [
+      "page is on Hilton's own site (hilton.com)",
+      "100% of the hotel name appears on the page",
+      "location matches (Key Largo, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hilton.com/en/hotels/kylcuqq-bakers-cay-resort-key-largo/"
+    ],
+    "checked_at": "2026-10-15T16:28:21.552Z",
+    "status": "confirmed",
+    "official_url": "https://www.hilton.com/en/hotels/kylcuqq-bakers-cay-resort-key-largo/",
+    "base_url": "https://www.hilton.com/en/hotels/kylcuqq-bakers-cay-resort-key-largo/",
+    "host": "hilton.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hilton.com/en/hotels/kylcuqq-bakers-cay-resort-key-largo/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:28:45.406Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hilton.com/en/hotels/kylcuqq-bakers-cay-resort-key-largo/hotel-info/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:30:12.569Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.cntraveler.com/hotels/key-largo/key-largo/hilton-key-largo-resort",
+      "tier": "editorial",
+      "fetched_at": "2026-10-15T16:30:18.331Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.hilton.com/en/hotels/kylcuqq-bakers-cay-resort-key-largo/rooms/",
+      "reason": "Firecrawl 500 for https://www.hilton.com/en/hotels/kylcuqq-bakers-cay-resort-key-largo/rooms/: All scraping engines failed to retrieve content from this URL. En"
+    },
+    {
+      "url": "https://www.hilton.com/en/hotels/kylcuqq-bakers-cay-resort-key-largo/dining/",
+      "reason": "Firecrawl 500 for https://www.hilton.com/en/hotels/kylcuqq-bakers-cay-resort-key-largo/dining/: All scraping engines failed to retrieve content from this URL. E"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 6,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 3,
+    "chars": 10880,
+    "est_claude_tokens": 2720
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-15T16:30:18.331Z"
+}
