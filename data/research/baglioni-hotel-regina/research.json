@@ -1,11 +1,8 @@
 {
   "slug": "baglioni-hotel-regina",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "https://rome.baglionihotels.com/: rome.baglionihotels.com is a third-party site, not the hotel's own",
-    "official website could not be confirmed; flag for review"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "Baglioni Hotel Regina",
@@ -13,29 +10,86 @@
       "country": "IT"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://rome.baglionihotels.com/: rome.baglionihotels.com is a third-party site, not the hotel's own",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Rome, IT)"
     ],
+    "reasons": [],
     "candidates": [
       "https://rome.baglionihotels.com/"
     ],
-    "checked_at": "2026-10-15T00:24:12.426Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-15T00:29:04.660Z",
+    "status": "confirmed",
+    "official_url": "https://rome.baglionihotels.com/",
+    "base_url": "https://rome.baglionihotels.com/",
+    "host": "rome.baglionihotels.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://rome.baglionihotels.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:29:09.432Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://rome.baglionihotels.com/accommodations/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:29:25.372Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://rome.baglionihotels.com/accommodations/superior-room/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:29:28.219Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://rome.baglionihotels.com/restaurant-primiera/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:29:34.443Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://rome.baglionihotels.com/spa-wellness/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:29:37.657Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://rome.baglionihotels.com/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:29:41.521Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.cntraveler.com/hotels/rome/baglioni-hotel-regina",
+      "tier": "editorial",
+      "fetched_at": "2026-10-15T00:29:43.091Z",
+      "source": "direct"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 1,
-    "firecrawl_searches": 0,
+    "firecrawl_calls": 9,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 7,
+    "chars": 20345,
+    "est_claude_tokens": 5086
   },
   "limits": {
     "maxPages": 12,
@@ -43,5 +97,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T00:24:20.006Z"
+  "researched_at": "2026-10-15T00:29:43.091Z"
 }

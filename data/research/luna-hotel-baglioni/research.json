@@ -1,11 +1,8 @@
 {
   "slug": "luna-hotel-baglioni",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "https://venice.baglionihotels.com/: venice.baglionihotels.com is a third-party site, not the hotel's own",
-    "official website could not be confirmed; flag for review"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "Luna Hotel Baglioni",
@@ -13,29 +10,86 @@
       "country": "IT"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://venice.baglionihotels.com/: venice.baglionihotels.com is a third-party site, not the hotel's own",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Venice, IT)"
     ],
+    "reasons": [],
     "candidates": [
       "https://venice.baglionihotels.com/"
     ],
-    "checked_at": "2026-10-15T00:24:03.562Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-15T00:28:26.078Z",
+    "status": "confirmed",
+    "official_url": "https://venice.baglionihotels.com/",
+    "base_url": "https://venice.baglionihotels.com/",
+    "host": "venice.baglionihotels.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://venice.baglionihotels.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:28:30.719Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://venice.baglionihotels.com/accommodations/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:28:42.675Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://venice.baglionihotels.com/accommodations/superior-room/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:28:46.270Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://venice.baglionihotels.com/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:28:49.266Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://venice.baglionihotels.com/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:28:53.238Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://venice.baglionihotels.com/things-to-do/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:28:56.664Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.cntraveler.com/hotels/italy/roma/luna-hotel-baglioni-venice",
+      "tier": "editorial",
+      "fetched_at": "2026-10-15T00:29:03.332Z",
+      "source": "direct"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 1,
-    "firecrawl_searches": 0,
+    "firecrawl_calls": 9,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 7,
+    "chars": 16580,
+    "est_claude_tokens": 4145
   },
   "limits": {
     "maxPages": 12,
@@ -43,5 +97,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T00:24:11.257Z"
+  "researched_at": "2026-10-15T00:29:03.332Z"
 }
