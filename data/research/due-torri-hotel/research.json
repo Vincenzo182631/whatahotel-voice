@@ -1,0 +1,80 @@
+{
+  "slug": "due-torri-hotel",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Due Torri Hotel",
+      "city": "Verona",
+      "country": "IT"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Verona, IT)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://hotelduetorri.duetorrihotels.com/en"
+    ],
+    "checked_at": "2026-10-15T03:01:26.483Z",
+    "status": "confirmed",
+    "official_url": "https://hotelduetorri.duetorrihotels.com/en",
+    "base_url": "https://hotelduetorri.duetorrihotels.com/",
+    "host": "hotelduetorri.duetorrihotels.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://hotelduetorri.duetorrihotels.com/en",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:01:37.062Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://hotelduetorri.duetorrihotels.com/en/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:01:40.579Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://hotelduetorri.duetorrihotels.com/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:01:44.037Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 5,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 3,
+    "chars": 35025,
+    "est_claude_tokens": 8756
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-15T03:01:50.258Z"
+}

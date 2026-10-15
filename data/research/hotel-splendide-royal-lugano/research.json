@@ -1,0 +1,80 @@
+{
+  "slug": "hotel-splendide-royal-lugano",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "Hotel Splendide Royal Lugano",
+      "city": "Lugano",
+      "country": "CH"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Lugano, CH)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.splendide.ch/"
+    ],
+    "checked_at": "2026-10-15T03:02:52.339Z",
+    "status": "confirmed",
+    "official_url": "https://www.splendide.ch/",
+    "base_url": "https://www.splendide.ch/",
+    "host": "splendide.ch",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.splendide.ch/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:03:03.151Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.splendide.ch/en/index/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:03:06.828Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.splendide.ch/hotel-di-lusso-lugano/hotel-di-lusso-cantonticino/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:03:11.257Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.cntraveler.com/hotels/rome/hotel-splendide-royal",
+      "tier": "editorial",
+      "fetched_at": "2026-10-15T03:03:19.184Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 5,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 4,
+    "chars": 63332,
+    "est_claude_tokens": 15833
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-15T03:03:19.184Z"
+}
