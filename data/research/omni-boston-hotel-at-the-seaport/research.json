@@ -1,0 +1,80 @@
+{
+  "slug": "omni-boston-hotel-at-the-seaport",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "Omni Boston Hotel at the Seaport",
+      "city": "Boston",
+      "country": "US"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Boston, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.omnihotels.com/hotels/boston-seaport"
+    ],
+    "checked_at": "2026-10-15T16:24:53.433Z",
+    "status": "confirmed",
+    "official_url": "https://www.omnihotels.com/hotels/boston-seaport",
+    "base_url": "https://www.omnihotels.com/",
+    "host": "omnihotels.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.omnihotels.com/hotels/boston-seaport",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:24:58.829Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.omnihotels.com/destinations/boston/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:25:05.790Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.omnihotels.com/hotels/boston-seaport/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:25:06.405Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.cntraveler.com/hotels/boston/omni-boston-hotel-at-the-seaport",
+      "tier": "editorial",
+      "fetched_at": "2026-10-15T16:25:15.655Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 5,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 4,
+    "chars": 35901,
+    "est_claude_tokens": 8975
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-15T16:25:15.655Z"
+}

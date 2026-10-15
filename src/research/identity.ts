@@ -107,6 +107,11 @@ export interface PageForCheck {
   title?: string;
 }
 
+export const isErrorPage = (title: string | undefined, text: string) => {
+  const t = `${title ?? ""}\n${text.slice(0, 1500)}`;
+  return text.trim().length < 2000 && /something went wrong|page not found|\b404\b|page (you requested|cannot be found|doesn't exist|does not exist)/i.test(t);
+};
+
 /** Decides whether a fetched page is the requested hotel's own official page. */
 export function assessPage(hotel: HotelRef, aff: Identity["affiliation"], page: PageForCheck): { ok: boolean; checks: Checks; evidence: string[]; reasons: string[] } {
   const reasons: string[] = [];
@@ -159,6 +164,9 @@ export function assessPage(hotel: HotelRef, aff: Identity["affiliation"], page: 
   if (location) evidence.push(`location matches (${hotel.city}, ${hotel.country})`);
   else reasons.push(`page does not mention ${hotel.city}`);
   if (/permanently closed|has closed|no longer operating/i.test(page.text.slice(0, 3000))) reasons.push("page suggests the hotel is closed");
+  // error pages still "match" through the hotel name in their URL (hilton.com serves "Something went wrong" to crawlers)
+  if (isErrorPage(page.title, page.text)) reasons.push(`${page.url} is an error page, not the hotel's content`);
+  if (/^(careers?|jobs)\./.test(host)) reasons.push(`${host} is a careers site, not the hotel's own`);
   coverage = Math.round(coverage * 100) / 100;
   return { ok: reasons.length === 0 && (coverage >= 0.75 || !!rebrand), checks: { name_coverage: coverage, location_match: location, ...(rebrand ? { rebrand } : {}) }, evidence, reasons };
 }

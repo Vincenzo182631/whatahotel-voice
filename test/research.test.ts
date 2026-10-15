@@ -180,6 +180,15 @@ describe("assessPage", () => {
     expect(assessPage(hotel, unk, { url: "https://www.travelweekly.com/Hotels/Honolulu/Halekulani-p1", text }).ok).toBe(false);
     expect(assessPage(hotel, unk, { url: "https://www.halekulani.com/", text }).ok).toBe(true);
   });
+  it("rejects error pages and careers sites even when the URL carries the hotel name", () => {
+    const hotel = { name: "Waldorf Astoria Osaka", city: "Osaka", country: "Japan" };
+    const aff = { kind: "chain" as const, chain: "hilton" };
+    const err = assessPage(hotel, aff, { url: "https://www.hilton.com/en/hotels/osawawa-waldorf-astoria-osaka/", text: "Something went wrong. Maybe it's us, maybe it's you. Reference No. 27.d6ab Osaka Japan" });
+    expect(err.ok).toBe(false);
+    expect(err.reasons.join(" ")).toMatch(/error page/);
+    const jobs = assessPage({ name: "Canyon Ranch Woodside", city: "Woodside", country: "United States" }, { kind: "unknown" as const }, { url: "https://careers.canyonranch.com/retreat", text: `Canyon Ranch Woodside ${filler} Woodside` });
+    expect(jobs.reasons.join(" ")).toMatch(/careers site/);
+  });
   it("does not mistake a hotel domain ending in hotels.com for hotels.com", () => {
     const hotel = { name: "Kivotos Mykonos", city: "Mykonos", country: "Greece" };
     const r = assessPage(hotel, { kind: "unknown" as const }, { url: "https://www.kivotoshotels.com/", text: `Kivotos Mykonos ${filler} Mykonos` });
