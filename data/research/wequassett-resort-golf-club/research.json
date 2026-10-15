@@ -1,12 +1,9 @@
 {
   "slug": "wequassett-resort-golf-club",
-  "status": "needs_review",
-  "partial": false,
+  "status": "awaiting_extraction",
+  "partial": true,
   "reasons": [
-    "https://wequassett.829stage.com/: wequassett.829stage.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "https://www.inspirato.com/destinations/cape-cod/properties/wequassett-resort-golf-club/: inspirato.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "https://www.capecodchamber.org/listing/wequassett-resort-%26-golf-club/5855/: capecodchamber.org does not carry the hotel's name; an independent hotel's own site normally does",
-    "official website could not be confirmed; flag for review"
+    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue"
   ],
   "identity": {
     "hotel": {
@@ -15,33 +12,122 @@
       "country": "US"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://wequassett.829stage.com/: wequassett.829stage.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "https://www.inspirato.com/destinations/cape-cod/properties/wequassett-resort-golf-club/: inspirato.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "https://www.capecodchamber.org/listing/wequassett-resort-%26-golf-club/5855/: capecodchamber.org does not carry the hotel's name; an independent hotel's own site normally does",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "redirected from https://www.wequassett.com/",
+      "100% of the hotel name appears on the page",
+      "location matches (Cape Cod, US)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://wequassett.829stage.com/",
-      "https://www.inspirato.com/destinations/cape-cod/properties/wequassett-resort-golf-club/",
-      "https://www.capecodchamber.org/listing/wequassett-resort-%26-golf-club/5855/"
+      "https://www.wequassett.com/"
     ],
-    "checked_at": "2026-10-15T16:25:17.625Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-15T16:34:59.501Z",
+    "status": "confirmed",
+    "official_url": "https://wequassett.com/",
+    "base_url": "https://wequassett.com/",
+    "host": "wequassett.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://wequassett.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:35:05.017Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://wequassett.com/accommodations/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:35:16.131Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://wequassett.com/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:35:18.948Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://wequassett.com/dining/thoreaus/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:35:24.694Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://wequassett.com/dining/the-sill/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:35:26.704Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://wequassett.com/dining/outer-bar/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:35:40.299Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://wequassett.com/dining/libaytion/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:35:45.756Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://wequassett.com/dining/verandahs/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:35:48.429Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://wequassett.com/corporate-retreats/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:35:53.450Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://wequassett.com/dining/twenty-eight-atlantic/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:35:55.427Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://wequassett.com/experience/poolside-retreats-cabanas-jacuzzi/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:36:00.532Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p12",
+      "url": "https://wequassett.com/experience/tennis-courts-lessons-and-amenities/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:36:03.403Z",
+      "source": "firecrawl"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 4,
-    "firecrawl_searches": 1,
+    "firecrawl_calls": 15,
+    "firecrawl_searches": 0,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 12,
+    "chars": 41825,
+    "est_claude_tokens": 10456
   },
   "limits": {
     "maxPages": 12,
@@ -49,5 +135,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T16:25:40.782Z"
+  "researched_at": "2026-10-15T16:36:08.480Z"
 }
