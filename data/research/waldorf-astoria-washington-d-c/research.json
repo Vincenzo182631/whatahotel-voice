@@ -2,9 +2,7 @@
   "slug": "waldorf-astoria-washington-d-c",
   "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "some pages were inaccessible; missing information is not proof an amenity does not exist"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "Waldorf Astoria Washington D.C.",
@@ -24,7 +22,7 @@
     "candidates": [
       "https://www.hilton.com/en/hotels/dcawawa-waldorf-astoria-washington-dc/"
     ],
-    "checked_at": "2026-10-15T05:50:47.096Z",
+    "checked_at": "2026-10-15T09:58:22.799Z",
     "status": "confirmed",
     "official_url": "https://www.hilton.com/en/hotels/dcawawa-waldorf-astoria-washington-dc/",
     "base_url": "https://www.hilton.com/en/hotels/dcawawa-waldorf-astoria-washington-dc/",
@@ -37,30 +35,56 @@
   "pages": [
     {
       "id": "p1",
+      "url": "https://www.hilton.com/en/hotels/dcawawa-waldorf-astoria-washington-dc/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T09:58:35.063Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hilton.com/en/hotels/dcawawa-waldorf-astoria-washington-dc/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T09:58:48.886Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hilton.com/en/hotels/dcawawa-waldorf-astoria-washington-dc/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T09:58:55.244Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hilton.com/en/hotels/dcawawa-waldorf-astoria-washington-dc/spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T09:59:02.130Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hilton.com/en/hotels/dcawawa-waldorf-astoria-washington-dc/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T09:59:08.836Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
       "url": "https://www.cntraveler.com/hotels/washington-dc/waldorf-astoria-washington-dc",
       "tier": "editorial",
-      "fetched_at": "2026-10-15T05:52:49.894Z",
+      "fetched_at": "2026-10-15T09:59:15.858Z",
       "source": "direct"
     }
   ],
-  "inaccessible": [
-    {
-      "url": "https://www.hilton.com/en/hotels/dcawawa-waldorf-astoria-washington-dc/",
-      "reason": "Firecrawl 500 for https://www.hilton.com/en/hotels/dcawawa-waldorf-astoria-washington-dc/: All scraping engines failed to retrieve content from this URL. Engine"
-    },
-    {
-      "url": "https://www.hilton.com/en/hotels/dcawawa-waldorf-astoria-washington-dc/",
-      "reason": "no same-property sub-page links found on the home page"
-    }
-  ],
+  "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 5,
+    "firecrawl_calls": 10,
     "firecrawl_searches": 3,
     "cache_hits": 0,
     "direct_fetches": 1,
-    "pages": 1,
-    "chars": 11696,
-    "est_claude_tokens": 2924
+    "pages": 6,
+    "chars": 18234,
+    "est_claude_tokens": 4559
   },
   "limits": {
     "maxPages": 12,
@@ -68,5 +92,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T05:52:49.894Z"
+  "researched_at": "2026-10-15T09:59:15.859Z"
 }

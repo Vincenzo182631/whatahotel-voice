@@ -2,9 +2,7 @@
   "slug": "waldorf-astoria-seychelles-platte-island",
   "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "some pages were inaccessible; missing information is not proof an amenity does not exist"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "Waldorf Astoria Seychelles Platte Island",
@@ -24,7 +22,7 @@
     "candidates": [
       "https://www.hilton.com/en/hotels/sezpiwa-waldorf-astoria-seychelles-platte-island/"
     ],
-    "checked_at": "2026-10-15T05:40:06.045Z",
+    "checked_at": "2026-10-15T09:56:51.762Z",
     "status": "confirmed",
     "official_url": "https://www.hilton.com/en/hotels/sezpiwa-waldorf-astoria-seychelles-platte-island/",
     "base_url": "https://www.hilton.com/en/hotels/sezpiwa-waldorf-astoria-seychelles-platte-island/",
@@ -37,30 +35,70 @@
   "pages": [
     {
       "id": "p1",
+      "url": "https://www.hilton.com/en/hotels/sezpiwa-waldorf-astoria-seychelles-platte-island/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T09:57:17.482Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hilton.com/en/hotels/sezpiwa-waldorf-astoria-seychelles-platte-island/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T09:57:32.105Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hilton.com/en/hotels/sezpiwa-waldorf-astoria-seychelles-platte-island/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T09:57:39.253Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hilton.com/en/hotels/sezpiwa-waldorf-astoria-seychelles-platte-island/spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T09:57:46.539Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hilton.com/en/hotels/sezpiwa-waldorf-astoria-seychelles-platte-island/things-to-do/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T09:57:53.547Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.hilton.com/en/hotels/sezpiwa-waldorf-astoria-seychelles-platte-island/hotel-location/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T09:58:08.213Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.hilton.com/en/hotels/sezpiwa-waldorf-astoria-seychelles-platte-island/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T09:58:14.305Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
       "url": "https://www.cntraveler.com/hotels/waldorf-astoria-seychelles-platte-island",
       "tier": "editorial",
-      "fetched_at": "2026-10-15T05:42:01.429Z",
+      "fetched_at": "2026-10-15T09:58:20.716Z",
       "source": "direct"
     }
   ],
-  "inaccessible": [
-    {
-      "url": "https://www.hilton.com/en/hotels/sezpiwa-waldorf-astoria-seychelles-platte-island/",
-      "reason": "Firecrawl 500 for https://www.hilton.com/en/hotels/sezpiwa-waldorf-astoria-seychelles-platte-island/: All scraping engines failed to retrieve content from this "
-    },
-    {
-      "url": "https://www.hilton.com/en/hotels/sezpiwa-waldorf-astoria-seychelles-platte-island/",
-      "reason": "no same-property sub-page links found on the home page"
-    }
-  ],
+  "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 5,
+    "firecrawl_calls": 12,
     "firecrawl_searches": 3,
     "cache_hits": 0,
     "direct_fetches": 1,
-    "pages": 1,
-    "chars": 12548,
-    "est_claude_tokens": 3137
+    "pages": 8,
+    "chars": 24364,
+    "est_claude_tokens": 6091
   },
   "limits": {
     "maxPages": 12,
@@ -68,5 +106,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T05:42:01.429Z"
+  "researched_at": "2026-10-15T09:58:20.716Z"
 }

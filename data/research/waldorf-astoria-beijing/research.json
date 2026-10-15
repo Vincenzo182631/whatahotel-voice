@@ -2,9 +2,7 @@
   "slug": "waldorf-astoria-beijing",
   "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "some pages were inaccessible; missing information is not proof an amenity does not exist"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "Waldorf Astoria Beijing",
@@ -22,13 +20,11 @@
     ],
     "reasons": [],
     "candidates": [
-      "https://www.hilton.com/en/hotels/bjswawa-waldorf-astoria-beijing/",
-      "https://www.hilton.com/en/hotels/bjswawa-waldorf-astoria-beijing/hotel-location/",
-      "https://www.hilton.com/en/hotels/bjswawa-waldorf-astoria-beijing/dining/"
+      "https://www.hilton.com/en/hotels/bjswawa-waldorf-astoria-beijing/"
     ],
-    "checked_at": "2026-10-15T05:43:44.876Z",
+    "checked_at": "2026-10-15T09:48:26.226Z",
     "status": "confirmed",
-    "official_url": "https://www.hilton.com/en/hotels/bjswawa-waldorf-astoria-beijing/dining/",
+    "official_url": "https://www.hilton.com/en/hotels/bjswawa-waldorf-astoria-beijing/",
     "base_url": "https://www.hilton.com/en/hotels/bjswawa-waldorf-astoria-beijing/",
     "host": "hilton.com",
     "checks": {
@@ -39,30 +35,35 @@
   "pages": [
     {
       "id": "p1",
+      "url": "https://www.hilton.com/en/hotels/bjswawa-waldorf-astoria-beijing/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T09:48:46.410Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hilton.com/en/hotels/bjswawa-waldorf-astoria-beijing/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T09:48:57.276Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
       "url": "https://www.cntraveler.com/hotels/beijing/waldorf-astoria-beijing",
       "tier": "editorial",
-      "fetched_at": "2026-10-15T05:46:59.641Z",
+      "fetched_at": "2026-10-15T09:49:01.120Z",
       "source": "direct"
     }
   ],
-  "inaccessible": [
-    {
-      "url": "https://www.hilton.com/en/hotels/bjswawa-waldorf-astoria-beijing/dining/",
-      "reason": "Firecrawl 500 for https://www.hilton.com/en/hotels/bjswawa-waldorf-astoria-beijing/dining/: All scraping engines failed to retrieve content from this URL. Engin"
-    },
-    {
-      "url": "https://www.hilton.com/en/hotels/bjswawa-waldorf-astoria-beijing/",
-      "reason": "no same-property sub-page links found on the home page"
-    }
-  ],
+  "inaccessible": [],
   "usage": {
     "firecrawl_calls": 7,
     "firecrawl_searches": 3,
     "cache_hits": 0,
     "direct_fetches": 1,
-    "pages": 1,
-    "chars": 8031,
-    "est_claude_tokens": 2008
+    "pages": 3,
+    "chars": 9598,
+    "est_claude_tokens": 2400
   },
   "limits": {
     "maxPages": 12,
@@ -70,5 +71,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T05:46:59.641Z"
+  "researched_at": "2026-10-15T09:49:01.120Z"
 }
