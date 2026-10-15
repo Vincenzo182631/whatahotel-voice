@@ -1,12 +1,9 @@
 {
   "slug": "fouquet-s-paris",
-  "status": "needs_review",
-  "partial": false,
+  "status": "awaiting_extraction",
+  "partial": true,
   "reasons": [
-    "https://www.hotelsbarriere.com/en/collection-fouquet-s/paris: hotelsbarriere.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "https://www.hotelsbarriere.com/en/collection-fouquet-s/paris/restaurants-and-bars/brasserie-fouquet-s-paris: hotelsbarriere.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "https://www.hotelsbarriere.com/en/collection-fouquet-s/paris/landing-page/a-winter-at-fouquet-s-paris: hotelsbarriere.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "official website could not be confirmed; flag for review"
+    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue"
   ],
   "identity": {
     "hotel": {
@@ -15,33 +12,122 @@
       "country": "FR"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.hotelsbarriere.com/en/collection-fouquet-s/paris: hotelsbarriere.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "https://www.hotelsbarriere.com/en/collection-fouquet-s/paris/restaurants-and-bars/brasserie-fouquet-s-paris: hotelsbarriere.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "https://www.hotelsbarriere.com/en/collection-fouquet-s/paris/landing-page/a-winter-at-fouquet-s-paris: hotelsbarriere.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Paris, FR)",
+      "confirmed by hand as this hotel's own page (hotelsbarriere.com does not carry the hotel's name; an independent hotel's own site normally does)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://www.hotelsbarriere.com/en/collection-fouquet-s/paris",
-      "https://www.hotelsbarriere.com/en/collection-fouquet-s/paris/restaurants-and-bars/brasserie-fouquet-s-paris",
-      "https://www.hotelsbarriere.com/en/collection-fouquet-s/paris/landing-page/a-winter-at-fouquet-s-paris"
+      "https://www.hotelsbarriere.com/en/collection-fouquet-s/paris"
     ],
-    "checked_at": "2026-10-15T03:07:29.211Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-15T03:33:45.060Z",
+    "status": "confirmed",
+    "official_url": "https://www.hotelsbarriere.com/en/collection-fouquet-s/paris",
+    "base_url": "https://www.hotelsbarriere.com/",
+    "host": "hotelsbarriere.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hotelsbarriere.com/en/collection-fouquet-s/paris",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:33:50.549Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hotelsbarriere.com/offres/experience-suite/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:34:01.784Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hotelsbarriere.com/maison-barriere-vendome/chambres-et-suites/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:34:05.573Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hotelsbarriere.com/maison-barriere-vendome/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:34:09.872Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hotelsbarriere.com/en/maison-barriere-vendome/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:34:13.666Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.hotelsbarriere.com/lille/resort-barriere-lille/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:34:15.047Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.hotelsbarriere.com/maison-barriere-vendome/offres/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:34:21.054Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.hotelsbarriere.com/experiences/les-plages-barriere/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:34:26.889Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.hotelsbarriere.com/experiences/restaurants-et-bars/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:34:31.323Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.hotelsbarriere.com/landing-page/cine-club-barriere/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:34:35.467Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://www.hotelsbarriere.com/maison-barriere-vendome/galerie/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:34:37.881Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p12",
+      "url": "https://www.hotelsbarriere.com/collection-fouquet-s/saint-barth/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:34:42.569Z",
+      "source": "firecrawl"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 4,
-    "firecrawl_searches": 1,
+    "firecrawl_calls": 15,
+    "firecrawl_searches": 0,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 12,
+    "chars": 95547,
+    "est_claude_tokens": 23887
   },
   "limits": {
     "maxPages": 12,
@@ -49,5 +135,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T03:07:41.420Z"
+  "researched_at": "2026-10-15T03:34:46.304Z"
 }

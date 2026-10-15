@@ -1,13 +1,8 @@
 {
   "slug": "portrait-roma",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "https://www.lungarnocollection.com/rome/portrait-roma/: lungarnocollection.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "https://www.lungarnocollection.com/rome/portrait-roma/rooms-suites/: lungarnocollection.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "https://www.lungarnocollection.com/luxury-hotel-in-rome-city-centre/: lungarnocollection.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "official website could not be confirmed; flag for review"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "Portrait Roma",
@@ -15,33 +10,108 @@
       "country": "IT"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.lungarnocollection.com/rome/portrait-roma/: lungarnocollection.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "https://www.lungarnocollection.com/rome/portrait-roma/rooms-suites/: lungarnocollection.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "https://www.lungarnocollection.com/luxury-hotel-in-rome-city-centre/: lungarnocollection.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Rome, IT)",
+      "confirmed by hand as this hotel's own page (lungarnocollection.com does not carry the hotel's name; an independent hotel's own site normally does)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://www.lungarnocollection.com/rome/portrait-roma/",
-      "https://www.lungarnocollection.com/rome/portrait-roma/rooms-suites/",
-      "https://www.lungarnocollection.com/luxury-hotel-in-rome-city-centre/"
+      "https://www.lungarnocollection.com/rome/portrait-roma/"
     ],
-    "checked_at": "2026-10-15T03:07:01.534Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-15T03:31:47.833Z",
+    "status": "confirmed",
+    "official_url": "https://www.lungarnocollection.com/rome/portrait-roma/",
+    "base_url": "https://www.lungarnocollection.com/",
+    "host": "lungarnocollection.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.lungarnocollection.com/rome/portrait-roma/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:31:52.822Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.lungarnocollection.com/company/about-us/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:32:03.739Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.lungarnocollection.com/awards/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:32:07.329Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.lungarnocollection.com/gds-codes/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:32:10.887Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.lungarnocollection.com/company/legals/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:32:14.030Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.lungarnocollection.com/milan/portrait-milano/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:32:18.373Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.lungarnocollection.com/form/information-request/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:32:22.211Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.lungarnocollection.com/florence/portrait-firenze/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:32:26.278Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.lungarnocollection.com/discovery/lungarno-discovery-loyalty-programme/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:32:30.226Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.cntraveler.com/hotels/rome/portrait-roma",
+      "tier": "editorial",
+      "fetched_at": "2026-10-15T03:32:33.404Z",
+      "source": "direct"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 4,
+    "firecrawl_calls": 12,
     "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 10,
+    "chars": 82146,
+    "est_claude_tokens": 20537
   },
   "limits": {
     "maxPages": 12,
@@ -49,5 +119,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T03:07:13.696Z"
+  "researched_at": "2026-10-15T03:32:33.404Z"
 }

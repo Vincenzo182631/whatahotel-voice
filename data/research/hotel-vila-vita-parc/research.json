@@ -1,11 +1,9 @@
 {
   "slug": "hotel-vila-vita-parc",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
   "reasons": [
-    "https://www.fandptravel.com/hotel/vila-vita-parc-resort-and-spa-algarve-portugal/: fandptravel.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "https://www.onthebeach.ie/hotels/portugal/algarve/porches/vila-vita-parc: onthebeach.ie does not carry the hotel's name; an independent hotel's own site normally does",
-    "official website could not be confirmed; flag for review"
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
   ],
   "identity": {
     "hotel": {
@@ -14,31 +12,56 @@
       "country": "PT"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.fandptravel.com/hotel/vila-vita-parc-resort-and-spa-algarve-portugal/: fandptravel.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "https://www.onthebeach.ie/hotels/portugal/algarve/porches/vila-vita-parc: onthebeach.ie does not carry the hotel's name; an independent hotel's own site normally does",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Algarve, PT)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://www.fandptravel.com/hotel/vila-vita-parc-resort-and-spa-algarve-portugal/",
-      "https://www.onthebeach.ie/hotels/portugal/algarve/porches/vila-vita-parc"
+      "https://www.vilavitaparc.com/en/"
     ],
-    "checked_at": "2026-10-15T03:08:35.584Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-15T03:36:48.607Z",
+    "status": "confirmed",
+    "official_url": "https://www.vilavitaparc.com/en/",
+    "base_url": "https://www.vilavitaparc.com/",
+    "host": "vilavitaparc.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
-  "inaccessible": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.vilavitaparc.com/en/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:37:18.874Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.cntraveler.com/hotels/portugal/alporchinhos/vila-vita-parc",
+      "tier": "editorial",
+      "fetched_at": "2026-10-15T03:37:29.531Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.vilavitaparc.com/",
+      "reason": "no same-property sub-page links found on the home page"
+    }
+  ],
   "usage": {
-    "firecrawl_calls": 3,
+    "firecrawl_calls": 4,
     "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 2,
+    "chars": 14163,
+    "est_claude_tokens": 3541
   },
   "limits": {
     "maxPages": 12,
@@ -46,5 +69,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T03:08:46.305Z"
+  "researched_at": "2026-10-15T03:37:29.531Z"
 }

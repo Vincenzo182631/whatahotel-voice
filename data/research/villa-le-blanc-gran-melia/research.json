@@ -1,32 +1,33 @@
 {
   "slug": "villa-le-blanc-gran-melia",
-  "status": "ready",
-  "partial": false,
+  "status": "awaiting_extraction",
+  "partial": true,
   "reasons": [
-    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue"
   ],
   "identity": {
     "hotel": {
       "name": "Villa Le Blanc Gran Melia",
       "city": "Balearic Islands",
-      "country": "ES"
+      "country": "Spain"
     },
     "affiliation": {
-      "kind": "independent"
+      "kind": "chain",
+      "chain": "melia"
     },
     "evidence": [
+      "page is on Meliá's own site (melia.com)",
       "100% of the hotel name appears on the page",
-      "location matches (Balearic Islands, ES)"
+      "location matches (Balearic Islands, Spain)"
     ],
     "reasons": [],
     "candidates": [
-      "https://www.melia.com/en/hotels/spain/menorca/villa-le-blanc-gran-melia",
-      "https://www.melia.com/en/hotels/spain/menorca/villa-le-blanc-gran-melia/experiences/personal-taste"
+      "https://www.melia.com/en/hotels/spain/menorca/villa-le-blanc-gran-melia"
     ],
-    "checked_at": "2026-10-15T03:04:41.590Z",
+    "checked_at": "2026-10-15T03:36:23.518Z",
     "status": "confirmed",
-    "official_url": "https://www.melia.com/en/hotels/spain/menorca/villa-le-blanc-gran-melia/experiences/personal-taste",
-    "base_url": "https://www.melia.com/",
+    "official_url": "https://www.melia.com/en/hotels/spain/menorca/villa-le-blanc-gran-melia",
+    "base_url": "https://www.melia.com/en/hotels/spain/menorca/villa-le-blanc-gran-melia/",
     "host": "melia.com",
     "checks": {
       "name_coverage": 1,
@@ -36,33 +37,98 @@
   "pages": [
     {
       "id": "p1",
-      "url": "https://www.melia.com/en/hotels/spain/menorca/villa-le-blanc-gran-melia/experiences/personal-taste",
+      "url": "https://www.melia.com/en/hotels/spain/menorca/villa-le-blanc-gran-melia",
       "tier": "official",
-      "fetched_at": "2026-10-15T03:04:57.489Z",
-      "source": "cache"
+      "fetched_at": "2026-10-15T03:36:29.138Z",
+      "source": "firecrawl"
     },
     {
       "id": "p2",
-      "url": "https://www.melia.com/en/experiences/",
+      "url": "https://www.melia.com/en/hotels/spain/menorca/villa-le-blanc-gran-melia/rooms/",
       "tier": "official",
-      "fetched_at": "2026-10-15T03:05:19.198Z",
+      "fetched_at": "2026-10-15T03:36:43.510Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.melia.com/en/hotels/spain/menorca/villa-le-blanc-gran-melia/highlighted/thai-room-spa-and-wellness/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:36:49.251Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.melia.com/en/hotels/spain/menorca/villa-le-blanc-gran-melia/restaurants/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:36:53.824Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.melia.com/en/hotels/spain/menorca/villa-le-blanc-gran-melia/restaurants/nivi/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:36:58.722Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.melia.com/en/hotels/spain/menorca/villa-le-blanc-gran-melia/restaurants/le-blanc-grand-cafe/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:37:02.252Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.melia.com/en/hotels/spain/menorca/villa-le-blanc-gran-melia/restaurants/la-terraza-del-balear/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:37:08.976Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.melia.com/en/hotels/spain/menorca/villa-le-blanc-gran-melia/reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:37:14.278Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.melia.com/en/hotels/spain/menorca/villa-le-blanc-gran-melia/experiences/personal-taste/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:37:14.556Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.melia.com/en/hotels/spain/menorca/villa-le-blanc-gran-melia/experiences/the-artists-inspiration/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:37:29.792Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://www.melia.com/en/hotels/spain/menorca/villa-le-blanc-gran-melia/experiences/menorca-unseen-and-talayotic/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:37:36.787Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p12",
+      "url": "https://www.melia.com/en/hotels/spain/menorca/villa-le-blanc-gran-melia/experiences/the-pleasure-of-llaut-sailing/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:37:50.902Z",
       "source": "firecrawl"
     }
   ],
-  "inaccessible": [
-    {
-      "url": "cntraveler.com",
-      "reason": "no Condé Nast Traveler hotel page found"
-    }
-  ],
+  "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 5,
-    "firecrawl_searches": 2,
-    "cache_hits": 2,
+    "firecrawl_calls": 15,
+    "firecrawl_searches": 0,
+    "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 2,
-    "chars": 11587,
-    "est_claude_tokens": 2897
+    "pages": 12,
+    "chars": 84425,
+    "est_claude_tokens": 21106
   },
   "limits": {
     "maxPages": 12,
@@ -70,124 +136,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T03:05:24.956Z",
-  "hotel": {
-    "name": "Villa Le Blanc Gran Melia",
-    "city": "Balearic Islands",
-    "country": "ES",
-    "confirmed_affiliation": {
-      "kind": "independent"
-    }
-  },
-  "official_url": "https://www.melia.com/en/hotels/spain/menorca/villa-le-blanc-gran-melia/experiences/personal-taste",
-  "verified_facts": [
-    {
-      "id": "r-1",
-      "category": "location",
-      "text": "Villa Le Blanc Gran Melia is in Santo Tomas, Menorca, Spain.",
-      "source_url": "https://www.melia.com/en/hotels/spain/menorca/villa-le-blanc-gran-melia/experiences/personal-taste",
-      "source_tier": "official",
-      "excerpt": "Villa Le Blanc Gran Meliá, Menorca - Santo Tomás Spain"
-    },
-    {
-      "id": "r-2",
-      "category": "experiences",
-      "text": "The hotel's Personal Taste experience lets guests taste typical Menorcan products and discover island workshops.",
-      "source_url": "https://www.melia.com/en/hotels/spain/menorca/villa-le-blanc-gran-melia/experiences/personal-taste",
-      "source_tier": "official",
-      "excerpt": "Taste typical Menorcan products accompanied by the best masters, take part in their elaboration, and discover the island’s most emblematic workshops."
-    },
-    {
-      "id": "r-3",
-      "category": "experiences",
-      "text": "Guests can choose an oil or saffron tasting that includes a visit to the plantation.",
-      "source_url": "https://www.melia.com/en/hotels/spain/menorca/villa-le-blanc-gran-melia/experiences/personal-taste",
-      "source_tier": "official",
-      "excerpt": "Choose between an oil or saffron tasting visiting the plantation"
-    },
-    {
-      "id": "r-4",
-      "category": "experiences",
-      "text": "Guests can make their own cheese as part of the experience.",
-      "source_url": "https://www.melia.com/en/hotels/spain/menorca/villa-le-blanc-gran-melia/experiences/personal-taste",
-      "source_tier": "official",
-      "excerpt": "making your own cheese"
-    },
-    {
-      "id": "r-5",
-      "category": "experiences",
-      "text": "Guests can visit a Menorcan wine and vermouth cellar with a tasting included.",
-      "source_url": "https://www.melia.com/en/hotels/spain/menorca/villa-le-blanc-gran-melia/experiences/personal-taste",
-      "source_tier": "official",
-      "excerpt": "visit a Menorcan wine and vermouth cellar with an exquisite tasting included"
-    },
-    {
-      "id": "r-6",
-      "category": "experiences",
-      "text": "Guests can enjoy a tasting of the island's artisan beers.",
-      "source_url": "https://www.melia.com/en/hotels/spain/menorca/villa-le-blanc-gran-melia/experiences/personal-taste",
-      "source_tier": "official",
-      "excerpt": "enjoy a tasting of the island's artisan beers"
-    },
-    {
-      "id": "r-7",
-      "category": "experiences",
-      "text": "The experience includes a tour of Menorca in a Land Rover Defender.",
-      "source_url": "https://www.melia.com/en/hotels/spain/menorca/villa-le-blanc-gran-melia/experiences/personal-taste",
-      "source_tier": "official",
-      "excerpt": "Embark on an unforgettable tour of Menorca in a Land Rover Defender"
-    },
-    {
-      "id": "r-8",
-      "category": "experiences",
-      "text": "These private experiences belong to the hotel's collection called The art of good living.",
-      "source_url": "https://www.melia.com/en/hotels/spain/menorca/villa-le-blanc-gran-melia/experiences/personal-taste",
-      "source_tier": "official",
-      "excerpt": "Private and exclusive experiences of Villa Le Blanc Gran Meliá and its collection \"The art of good living\"."
-    },
-    {
-      "id": "r-9",
-      "category": "practical",
-      "text": "The experience takes a maximum of 8 people.",
-      "source_url": "https://www.melia.com/en/hotels/spain/menorca/villa-le-blanc-gran-melia/experiences/personal-taste",
-      "source_tier": "official",
-      "excerpt": "Maximum 8 people per experience."
-    },
-    {
-      "id": "r-10",
-      "category": "practical",
-      "text": "The experience must be booked at least 48 hours in advance, subject to availability.",
-      "source_url": "https://www.melia.com/en/hotels/spain/menorca/villa-le-blanc-gran-melia/experiences/personal-taste",
-      "source_tier": "official",
-      "excerpt": "Book at least 48 hours in advance, subject to availability."
-    },
-    {
-      "id": "r-11",
-      "category": "experiences",
-      "text": "The experience includes up to two dining experiences to choose from plus the Land Rover Defender trip.",
-      "source_url": "https://www.melia.com/en/hotels/spain/menorca/villa-le-blanc-gran-melia/experiences/personal-taste",
-      "source_tier": "official",
-      "excerpt": "Up to two dining experiences to choose from plus trip in Land Rover Defender."
-    },
-    {
-      "id": "r-12",
-      "category": "practical",
-      "text": "Bookings are made through the hotel reservations team by phone or email.",
-      "source_url": "https://www.melia.com/en/hotels/spain/menorca/villa-le-blanc-gran-melia/experiences/personal-taste",
-      "source_tier": "official",
-      "excerpt": "To book or request detailed information, please contact our hotel reservations team by phone or email."
-    }
-  ],
-  "highlights": [
-    "r-7",
-    "r-4",
-    "r-3",
-    "r-5",
-    "r-8",
-    "r-6"
-  ],
-  "subjective": [],
-  "unresolved": [],
-  "rejected": [],
-  "contradictions": []
+  "researched_at": "2026-10-15T03:38:06.098Z"
 }

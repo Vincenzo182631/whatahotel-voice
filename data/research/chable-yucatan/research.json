@@ -1,11 +1,9 @@
 {
   "slug": "chable-yucatan",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
   "reasons": [
-    "https://www.blacktomato.com/us/destinations/mexico/chable/: blacktomato.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "https://guide.michelin.com/us/en/hotels-stays/chochola/chable-yucatan-8415: guide.michelin.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "official website could not be confirmed; flag for review"
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
   ],
   "identity": {
     "hotel": {
@@ -14,31 +12,70 @@
       "country": "MX"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.blacktomato.com/us/destinations/mexico/chable/: blacktomato.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "https://guide.michelin.com/us/en/hotels-stays/chochola/chable-yucatan-8415: guide.michelin.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "confirmed by hand as this hotel's own page (page does not mention Merida)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://www.blacktomato.com/us/destinations/mexico/chable/",
-      "https://guide.michelin.com/us/en/hotels-stays/chochola/chable-yucatan-8415"
+      "https://yucatan.chablehotels.com/"
     ],
-    "checked_at": "2026-10-15T03:00:57.330Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-15T03:37:45.530Z",
+    "status": "confirmed",
+    "official_url": "https://yucatan.chablehotels.com/",
+    "base_url": "https://yucatan.chablehotels.com/",
+    "host": "yucatan.chablehotels.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": false
+    }
   },
-  "pages": [],
-  "inaccessible": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://yucatan.chablehotels.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:37:53.449Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://yucatan.chablehotels.com/stay/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:38:04.556Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://yucatan.chablehotels.com/contact/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:38:07.989Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://yucatan.chablehotels.com/faqs/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:38:11.281Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
   "usage": {
-    "firecrawl_calls": 3,
+    "firecrawl_calls": 7,
     "firecrawl_searches": 1,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 4,
+    "chars": 19579,
+    "est_claude_tokens": 4895
   },
   "limits": {
     "maxPages": 12,
@@ -46,5 +83,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T03:01:08.731Z"
+  "researched_at": "2026-10-15T03:38:18.068Z"
 }

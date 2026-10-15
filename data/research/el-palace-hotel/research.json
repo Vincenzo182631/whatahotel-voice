@@ -1,9 +1,9 @@
 {
   "slug": "el-palace-hotel",
-  "status": "needs_review",
-  "partial": false,
+  "status": "awaiting_extraction",
+  "partial": true,
   "reasons": [
-    "no candidate official site found; flag for review"
+    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue"
   ],
   "identity": {
     "hotel": {
@@ -12,26 +12,121 @@
       "country": "ES"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "no candidate official site found; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Barcelona, ES)"
     ],
-    "candidates": [],
-    "checked_at": "2026-10-15T02:54:02.071Z",
-    "status": "needs_review"
+    "reasons": [],
+    "candidates": [
+      "https://www.hotelpalacebarcelona.com/"
+    ],
+    "checked_at": "2026-10-15T03:29:02.767Z",
+    "status": "confirmed",
+    "official_url": "https://www.hotelpalacebarcelona.com/",
+    "base_url": "https://www.hotelpalacebarcelona.com/",
+    "host": "hotelpalacebarcelona.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hotelpalacebarcelona.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:29:11.560Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hotelpalacebarcelona.com/rooms-suites/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:29:27.395Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hotelpalacebarcelona.com/rooms-suites/family-room/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:29:27.613Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hotelpalacebarcelona.com/rooms-suites/family-suite/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:29:31.582Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hotelpalacebarcelona.com/rooms-suites/suite-deluxe/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:29:35.566Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.hotelpalacebarcelona.com/rooms-suites/junior-suite/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:29:39.644Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.hotelpalacebarcelona.com/rooms-suites/classic-room/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:29:43.619Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.hotelpalacebarcelona.com/rooms-suites/superior-room/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:29:47.641Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.hotelpalacebarcelona.com/rooms-suites/superior-suite/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:29:51.613Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.hotelpalacebarcelona.com/rooms-suites/joan-miro-art-suite/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:29:55.580Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://www.hotelpalacebarcelona.com/rooms-suites/cesar-ritz-art-suite/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:29:59.666Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p12",
+      "url": "https://www.hotelpalacebarcelona.com/rooms-suites/salvador-dali-art-suite/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:30:03.599Z",
+      "source": "firecrawl"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 1,
-    "firecrawl_searches": 1,
+    "firecrawl_calls": 15,
+    "firecrawl_searches": 0,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 12,
+    "chars": 25263,
+    "est_claude_tokens": 6316
   },
   "limits": {
     "maxPages": 12,
@@ -39,5 +134,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T02:54:02.990Z"
+  "researched_at": "2026-10-15T03:30:07.690Z"
 }

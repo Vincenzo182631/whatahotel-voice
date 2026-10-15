@@ -1,12 +1,8 @@
 {
   "slug": "rock-house",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "https://rockhouse.gracebayresorts.com/: rockhouse.gracebayresorts.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "https://rockhouse.gracebayresorts.com/dining/: rockhouse.gracebayresorts.com does not carry the hotel's name; an independent hotel's own site normally does; page does not mention Turks & Caicos",
-    "official website could not be confirmed; flag for review"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "Rock House",
@@ -14,31 +10,80 @@
       "country": "TC"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://rockhouse.gracebayresorts.com/: rockhouse.gracebayresorts.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "https://rockhouse.gracebayresorts.com/dining/: rockhouse.gracebayresorts.com does not carry the hotel's name; an independent hotel's own site normally does; page does not mention Turks & Caicos",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Turks & Caicos, TC)",
+      "confirmed by hand as this hotel's own page (rockhouse.gracebayresorts.com does not carry the hotel's name; an independent hotel's own site normally does)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://rockhouse.gracebayresorts.com/",
-      "https://rockhouse.gracebayresorts.com/dining/"
+      "https://rockhouse.gracebayresorts.com/"
     ],
-    "checked_at": "2026-10-15T03:07:10.051Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-15T03:32:56.698Z",
+    "status": "confirmed",
+    "official_url": "https://rockhouse.gracebayresorts.com/",
+    "base_url": "https://rockhouse.gracebayresorts.com/",
+    "host": "rockhouse.gracebayresorts.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://rockhouse.gracebayresorts.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:33:01.609Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://rockhouse.gracebayresorts.com/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:33:09.614Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://rockhouse.gracebayresorts.com/spa-at-rock-house/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:33:15.596Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://rockhouse.gracebayresorts.com/amenities/activities-and-excursions/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:33:19.184Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://rockhouse.gracebayresorts.com/villas/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:33:23.840Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.cntraveler.com/hotels/providenciales/rock-house",
+      "tier": "editorial",
+      "fetched_at": "2026-10-15T03:33:33.236Z",
+      "source": "direct"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 3,
+    "firecrawl_calls": 8,
     "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 6,
+    "chars": 32419,
+    "est_claude_tokens": 8105
   },
   "limits": {
     "maxPages": 12,
@@ -46,5 +91,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T03:07:25.044Z"
+  "researched_at": "2026-10-15T03:33:33.236Z"
 }

@@ -1,5 +1,5 @@
 # Extract verified facts for The Westbury Dublin
-Official site confirmed: https://thewestbury.hoteldublin.net/en/ (independent).
+Official site confirmed: https://www.doylecollection.com/hotels/the-westbury-hotel (independent).
 Read /home/user/whatahotel-voice/data/research/the-westbury-dublin/index.json and the page text in /home/user/whatahotel-voice/data/research/the-westbury-dublin/pages/<id>.txt. Use ONLY those pages, never memory. Do not run other commands or fetch anything.
 Write /home/user/whatahotel-voice/data/research/the-westbury-dublin/facts.json (JSON only) with this shape:
 {"facts":[{"id":"r-1","category":"dining","kind":"fact|subjective|unresolved","text":"one atomic statement","doc_id":"p3","excerpt":"copied verbatim from that page, max 240 chars","topic":"short key, e.g. pool-count","as_of":"YYYY-MM-DD or null"}],

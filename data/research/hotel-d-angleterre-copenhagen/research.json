@@ -1,11 +1,9 @@
 {
   "slug": "hotel-d-angleterre-copenhagen",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
   "reasons": [
-    "https://www.blacktomato.com/us/destinations/denmark/hotel-dangleterre-copenhagen/: blacktomato.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "https://indagare.com/lodging/hotel-dangleterre: indagare.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "official website could not be confirmed; flag for review"
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
   ],
   "identity": {
     "hotel": {
@@ -14,31 +12,77 @@
       "country": "DK"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.blacktomato.com/us/destinations/denmark/hotel-dangleterre-copenhagen/: blacktomato.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "https://indagare.com/lodging/hotel-dangleterre: indagare.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Copenhagen, DK)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://www.blacktomato.com/us/destinations/denmark/hotel-dangleterre-copenhagen/",
-      "https://indagare.com/lodging/hotel-dangleterre"
+      "https://www.dangleterre.com/en"
     ],
-    "checked_at": "2026-10-15T03:08:10.263Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-15T03:37:31.254Z",
+    "status": "confirmed",
+    "official_url": "https://www.dangleterre.com/en",
+    "base_url": "https://www.dangleterre.com/",
+    "host": "dangleterre.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
-  "inaccessible": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.dangleterre.com/en",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:37:36.825Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.dangleterre.com/en/rooms-and-suites/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:37:47.916Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.dangleterre.com/en/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:37:52.092Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.dangleterre.com/en/the-hotel/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:37:55.355Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.dangleterre.com/en/banquet/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:37:59.472Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
   "usage": {
-    "firecrawl_calls": 3,
+    "firecrawl_calls": 8,
     "firecrawl_searches": 1,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 5,
+    "chars": 62900,
+    "est_claude_tokens": 15725
   },
   "limits": {
     "maxPages": 12,
@@ -46,5 +90,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T03:08:18.438Z"
+  "researched_at": "2026-10-15T03:38:07.727Z"
 }

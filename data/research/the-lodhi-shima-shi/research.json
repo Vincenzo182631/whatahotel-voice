@@ -1,9 +1,9 @@
 {
   "slug": "the-lodhi-shima-shi",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
   "reasons": [
-    "no candidate official site found; flag for review"
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
   ],
   "identity": {
     "hotel": {
@@ -12,26 +12,112 @@
       "country": "IN"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "no candidate official site found; flag for review"
+    "evidence": [
+      "location matches (New Delhi, IN)",
+      "confirmed by hand as this hotel's own page (only 33% of the hotel name appears on the page)"
     ],
-    "candidates": [],
-    "checked_at": "2026-10-15T03:08:08.612Z",
-    "status": "needs_review"
+    "reasons": [],
+    "candidates": [
+      "https://www.thelodhi.com/"
+    ],
+    "checked_at": "2026-10-15T03:36:05.867Z",
+    "status": "confirmed",
+    "official_url": "https://www.thelodhi.com/",
+    "base_url": "https://www.thelodhi.com/",
+    "host": "thelodhi.com",
+    "checks": {
+      "name_coverage": 0.33,
+      "location_match": true
+    }
   },
-  "pages": [],
-  "inaccessible": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.thelodhi.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:36:11.921Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.thelodhi.com/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:36:35.087Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.thelodhi.com/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:36:47.604Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.thelodhi.com/experiences/dine-under-the-stars/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:37:01.357Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.thelodhi.com/fitness/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:37:03.622Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.thelodhi.com/wellness/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:37:07.714Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.thelodhi.com/experiences-concierge/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:37:12.246Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.thelodhi.com/experiences/the-lodhi-salon/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:37:15.991Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.thelodhi.com/experiences/victorian-hi-tea/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:37:19.994Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.thelodhi.com/the-curator/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:37:24.075Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
   "usage": {
-    "firecrawl_calls": 1,
+    "firecrawl_calls": 13,
     "firecrawl_searches": 1,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 10,
+    "chars": 61750,
+    "est_claude_tokens": 15438
   },
   "limits": {
     "maxPages": 12,
@@ -39,5 +125,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T03:08:08.894Z"
+  "researched_at": "2026-10-15T03:37:30.109Z"
 }

@@ -1,9 +1,9 @@
 {
   "slug": "paradisus-grand-cana",
   "status": "awaiting_extraction",
-  "partial": false,
+  "partial": true,
   "reasons": [
-    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue"
   ],
   "identity": {
     "hotel": {
@@ -12,21 +12,23 @@
       "country": "DO"
     },
     "affiliation": {
-      "kind": "independent"
+      "kind": "chain",
+      "chain": "melia"
     },
     "evidence": [
+      "page is on Meliá's own site (melia.com)",
       "100% of the hotel name appears on the page",
       "location matches (Punta Cana, DO)"
     ],
     "reasons": [],
     "candidates": [
-      "https://www.paradisusgrandcana.com/"
+      "https://www.melia.com/en/hotels/dominican-republic/punta-cana/paradisus-grand-cana"
     ],
-    "checked_at": "2026-10-15T00:34:33.424Z",
+    "checked_at": "2026-10-15T03:30:09.034Z",
     "status": "confirmed",
-    "official_url": "https://www.paradisusgrandcana.com/",
-    "base_url": "https://www.paradisusgrandcana.com/",
-    "host": "paradisusgrandcana.com",
+    "official_url": "https://www.melia.com/en/hotels/dominican-republic/punta-cana/paradisus-grand-cana",
+    "base_url": "https://www.melia.com/en/hotels/dominican-republic/punta-cana/paradisus-grand-cana/",
+    "host": "melia.com",
     "checks": {
       "name_coverage": 1,
       "location_match": true
@@ -35,30 +37,98 @@
   "pages": [
     {
       "id": "p1",
-      "url": "https://www.paradisusgrandcana.com/",
+      "url": "https://www.melia.com/en/hotels/dominican-republic/punta-cana/paradisus-grand-cana",
       "tier": "official",
-      "fetched_at": "2026-10-15T00:35:02.388Z",
-      "source": "cache"
-    }
-  ],
-  "inaccessible": [
-    {
-      "url": "https://www.paradisusgrandcana.com/",
-      "reason": "no same-property sub-page links found on the home page"
+      "fetched_at": "2026-10-15T03:30:22.597Z",
+      "source": "firecrawl"
     },
     {
-      "url": "cntraveler.com",
-      "reason": "no Condé Nast Traveler hotel page found"
+      "id": "p2",
+      "url": "https://www.melia.com/en/hotels/dominican-republic/punta-cana/paradisus-grand-cana/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:30:32.179Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.melia.com/en/hotels/dominican-republic/punta-cana/paradisus-grand-cana/restaurants/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:30:35.905Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.melia.com/en/hotels/dominican-republic/punta-cana/paradisus-grand-cana/restaurants/ginger/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:30:40.706Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.melia.com/en/hotels/dominican-republic/punta-cana/paradisus-grand-cana/restaurants/mama-and-juana/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:30:53.657Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.melia.com/en/hotels/dominican-republic/punta-cana/paradisus-grand-cana/highlighted/yhi-spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:31:00.091Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.melia.com/en/hotels/dominican-republic/punta-cana/paradisus-grand-cana/activities/beach-club/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:31:04.552Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.melia.com/en/hotels/dominican-republic/punta-cana/paradisus-grand-cana/family-concierge/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:31:09.500Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.melia.com/en/hotels/dominican-republic/punta-cana/paradisus-grand-cana/activities/water-park/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:31:14.002Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.melia.com/en/hotels/dominican-republic/punta-cana/paradisus-grand-cana/activities/fun-activities-for-kids/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:31:17.958Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://www.melia.com/en/hotels/dominican-republic/punta-cana/paradisus-grand-cana/activities/cocotal-golf-and-country-club/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:31:21.202Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p12",
+      "url": "https://www.melia.com/en/hotels/dominican-republic/punta-cana/paradisus-grand-cana/activities/sport-and-values-in-an-exceptional-environment/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T03:31:26.902Z",
+      "source": "firecrawl"
     }
   ],
+  "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 3,
-    "firecrawl_searches": 2,
-    "cache_hits": 2,
+    "firecrawl_calls": 15,
+    "firecrawl_searches": 0,
+    "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 1,
-    "chars": 6058,
-    "est_claude_tokens": 1515
+    "pages": 12,
+    "chars": 73413,
+    "est_claude_tokens": 18353
   },
   "limits": {
     "maxPages": 12,
@@ -66,5 +136,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T00:35:08.244Z"
+  "researched_at": "2026-10-15T03:31:34.207Z"
 }
