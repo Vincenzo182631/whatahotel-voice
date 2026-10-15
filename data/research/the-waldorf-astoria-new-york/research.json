@@ -1,11 +1,9 @@
 {
   "slug": "the-waldorf-astoria-new-york",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
   "reasons": [
-    "search failed: Firecrawl 402 search \"\"The Waldorf Astoria New York\" New York site:hilton.com\": Insufficient credits to perform this req",
-    "search failed: Firecrawl 402 search \"The Waldorf Astoria New York hotel New York US site:hilton.com\": Insufficient credits to perform t",
-    "no candidate official site found; flag for review"
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
   ],
   "identity": {
     "hotel": {
@@ -18,26 +16,76 @@
       "kind": "chain",
       "chain": "hilton"
     },
-    "evidence": [],
-    "reasons": [
-      "search failed: Firecrawl 402 search \"\"The Waldorf Astoria New York\" New York site:hilton.com\": Insufficient credits to perform this req",
-      "search failed: Firecrawl 402 search \"The Waldorf Astoria New York hotel New York US site:hilton.com\": Insufficient credits to perform t",
-      "no candidate official site found; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (New York, US)"
     ],
-    "candidates": [],
-    "checked_at": "2026-10-14T23:03:58.235Z",
-    "status": "needs_review"
+    "reasons": [],
+    "candidates": [
+      "https://www.hilton.com/en/hotels/nycwawa-waldorf-astoria-new-york/"
+    ],
+    "checked_at": "2026-10-15T05:39:24.083Z",
+    "status": "confirmed",
+    "official_url": "https://www.hilton.com/en/hotels/nycwawa-waldorf-astoria-new-york/",
+    "base_url": "https://www.hilton.com/en/hotels/nycwawa-waldorf-astoria-new-york/",
+    "host": "hilton.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
-  "inaccessible": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hilton.com/en/hotels/nycwawa-waldorf-astoria-new-york/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T05:40:12.776Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hilton.com/en/hotels/nycwawa-waldorf-astoria-new-york/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T05:40:56.065Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hilton.com/en/hotels/nycwawa-waldorf-astoria-new-york/history/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T05:42:09.358Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.cntraveler.com/hotels/new-york-city/waldorf-astoria-new-york",
+      "tier": "editorial",
+      "fetched_at": "2026-10-15T05:42:39.204Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.hilton.com/en/hotels/nycwawa-waldorf-astoria-new-york/dining/",
+      "reason": "Firecrawl 500 for https://www.hilton.com/en/hotels/nycwawa-waldorf-astoria-new-york/dining/: All scraping engines failed to retrieve content from this URL. Engi"
+    },
+    {
+      "url": "https://www.hilton.com/en/hotels/nycwawa-waldorf-astoria-new-york/spa/",
+      "reason": "Firecrawl 500 for https://www.hilton.com/en/hotels/nycwawa-waldorf-astoria-new-york/spa/: All scraping engines failed to retrieve content from this URL. Engines"
+    },
+    {
+      "url": "https://www.hilton.com/en/hotels/nycwawa-waldorf-astoria-new-york/%3CBase64-Image-Removed%3E/",
+      "reason": "Firecrawl 500 for https://www.hilton.com/en/hotels/nycwawa-waldorf-astoria-new-york/%3CBase64-Image-Removed%3E/: All scraping engines failed to retrieve content"
+    }
+  ],
   "usage": {
-    "firecrawl_calls": 2,
-    "firecrawl_searches": 2,
+    "firecrawl_calls": 11,
+    "firecrawl_searches": 3,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 4,
+    "chars": 26151,
+    "est_claude_tokens": 6538
   },
   "limits": {
     "maxPages": 12,
@@ -45,5 +93,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-14T23:04:02.302Z"
+  "researched_at": "2026-10-15T05:42:39.204Z"
 }

@@ -1,0 +1,73 @@
+{
+  "slug": "waldorf-astoria-jerusalem",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Waldorf Astoria Jerusalem",
+      "city": "Jerusalem",
+      "country": "IL",
+      "chain": "hilton"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hilton"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Jerusalem, IL)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hilton.com/en/hotels/jrswawa-waldorf-astoria-jerusalem/",
+      "https://www.hilton.com/en/hotels/jrswawa-waldorf-astoria-jerusalem/rooms/"
+    ],
+    "checked_at": "2026-10-15T05:48:13.689Z",
+    "status": "confirmed",
+    "official_url": "https://www.hilton.com/en/hotels/jrswawa-waldorf-astoria-jerusalem/rooms/",
+    "base_url": "https://www.hilton.com/en/hotels/jrswawa-waldorf-astoria-jerusalem/",
+    "host": "hilton.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.cntraveler.com/hotels/jerusalem/waldorf-astoria-jerusalem",
+      "tier": "editorial",
+      "fetched_at": "2026-10-15T05:50:45.825Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.hilton.com/en/hotels/jrswawa-waldorf-astoria-jerusalem/rooms/",
+      "reason": "Firecrawl 500 for https://www.hilton.com/en/hotels/jrswawa-waldorf-astoria-jerusalem/rooms/: All scraping engines failed to retrieve content from this URL. Engi"
+    },
+    {
+      "url": "https://www.hilton.com/en/hotels/jrswawa-waldorf-astoria-jerusalem/",
+      "reason": "no same-property sub-page links found on the home page"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 6,
+    "firecrawl_searches": 3,
+    "cache_hits": 0,
+    "direct_fetches": 1,
+    "pages": 1,
+    "chars": 3239,
+    "est_claude_tokens": 810
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-15T05:50:45.825Z"
+}

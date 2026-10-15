@@ -1,11 +1,9 @@
 {
   "slug": "waldorf-astoria-osaka",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
   "reasons": [
-    "search failed: Firecrawl 402 search \"\"Waldorf Astoria Osaka\" Osaka site:hilton.com\": Insufficient credits to perform this request. For ",
-    "search failed: Firecrawl 402 search \"Waldorf Astoria Osaka hotel Osaka JP site:hilton.com\": Insufficient credits to perform this reques",
-    "no candidate official site found; flag for review"
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
   ],
   "identity": {
     "hotel": {
@@ -18,26 +16,54 @@
       "kind": "chain",
       "chain": "hilton"
     },
-    "evidence": [],
-    "reasons": [
-      "search failed: Firecrawl 402 search \"\"Waldorf Astoria Osaka\" Osaka site:hilton.com\": Insufficient credits to perform this request. For ",
-      "search failed: Firecrawl 402 search \"Waldorf Astoria Osaka hotel Osaka JP site:hilton.com\": Insufficient credits to perform this reques",
-      "no candidate official site found; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Osaka, JP)"
     ],
-    "candidates": [],
-    "checked_at": "2026-10-14T23:03:53.895Z",
-    "status": "needs_review"
+    "reasons": [],
+    "candidates": [
+      "https://www.hilton.com/en/hotels/osawawa-waldorf-astoria-osaka/"
+    ],
+    "checked_at": "2026-10-15T05:47:17.174Z",
+    "status": "confirmed",
+    "official_url": "https://www.hilton.com/en/hotels/osawawa-waldorf-astoria-osaka/",
+    "base_url": "https://www.hilton.com/en/hotels/osawawa-waldorf-astoria-osaka/",
+    "host": "hilton.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
-  "inaccessible": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hilton.com/en/hotels/osawawa-waldorf-astoria-osaka/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T05:48:11.970Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.cntraveler.com/hotels/osaka/first-in-waldorf-astoria-osaka-japan",
+      "tier": "editorial",
+      "fetched_at": "2026-10-15T05:48:49.420Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.hilton.com/en/hotels/osawawa-waldorf-astoria-osaka/",
+      "reason": "no same-property sub-page links found on the home page"
+    }
+  ],
   "usage": {
-    "firecrawl_calls": 2,
-    "firecrawl_searches": 2,
+    "firecrawl_calls": 6,
+    "firecrawl_searches": 3,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 2,
+    "chars": 11683,
+    "est_claude_tokens": 2921
   },
   "limits": {
     "maxPages": 12,
@@ -45,5 +71,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-14T23:03:57.967Z"
+  "researched_at": "2026-10-15T05:48:49.420Z"
 }

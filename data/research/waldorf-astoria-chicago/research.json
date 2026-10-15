@@ -1,0 +1,76 @@
+{
+  "slug": "waldorf-astoria-chicago",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "Waldorf Astoria Chicago",
+      "city": "Chicago",
+      "country": "US",
+      "chain": "hilton"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hilton"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Chicago, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hilton.com/en/hotels/chiwawa-waldorf-astoria-chicago/",
+      "https://www.hilton.com/en/hotels/chiwawa-waldorf-astoria-chicago/rooms/"
+    ],
+    "checked_at": "2026-10-15T05:46:25.743Z",
+    "status": "confirmed",
+    "official_url": "https://www.hilton.com/en/hotels/chiwawa-waldorf-astoria-chicago/rooms/",
+    "base_url": "https://www.hilton.com/en/hotels/chiwawa-waldorf-astoria-chicago/",
+    "host": "hilton.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hilton.com/en/hotels/chiwawa-waldorf-astoria-chicago/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T05:47:55.592Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hilton.com/en/hotels/chiwawa-waldorf-astoria-chicago/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T05:48:07.151Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.cntraveler.com/hotels/united-states/chicago/waldorf-astoria-chicago",
+      "tier": "editorial",
+      "fetched_at": "2026-10-15T05:48:12.427Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 8,
+    "firecrawl_searches": 3,
+    "cache_hits": 0,
+    "direct_fetches": 1,
+    "pages": 3,
+    "chars": 16420,
+    "est_claude_tokens": 4105
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-15T05:48:12.427Z"
+}

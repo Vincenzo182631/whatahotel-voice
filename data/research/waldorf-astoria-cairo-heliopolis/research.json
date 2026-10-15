@@ -1,0 +1,90 @@
+{
+  "slug": "waldorf-astoria-cairo-heliopolis",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Waldorf Astoria Cairo Heliopolis",
+      "city": "Cairo",
+      "country": "EG",
+      "chain": "hilton"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hilton"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Cairo, EG)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hilton.com/en/hotels/caiwewa-waldorf-astoria-cairo-heliopolis/"
+    ],
+    "checked_at": "2026-10-15T05:39:22.160Z",
+    "status": "confirmed",
+    "official_url": "https://www.hilton.com/en/hotels/caiwewa-waldorf-astoria-cairo-heliopolis/",
+    "base_url": "https://www.hilton.com/en/hotels/caiwewa-waldorf-astoria-cairo-heliopolis/",
+    "host": "hilton.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hilton.com/en/hotels/caiwewa-waldorf-astoria-cairo-heliopolis/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T05:40:10.808Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hilton.com/en/hotels/caiwewa-waldorf-astoria-cairo-heliopolis/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T05:40:29.390Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hilton.com/en/hotels/caiwewa-waldorf-astoria-cairo-heliopolis/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T05:40:43.296Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.hilton.com/en/hotels/caiwewa-waldorf-astoria-cairo-heliopolis/amenities/",
+      "reason": "Firecrawl 500 for https://www.hilton.com/en/hotels/caiwewa-waldorf-astoria-cairo-heliopolis/amenities/: All scraping engines failed to retrieve content from thi"
+    },
+    {
+      "url": "https://www.hilton.com/en/hotels/caiwewa-waldorf-astoria-cairo-heliopolis/%3CBase64-Image-Removed%3E/",
+      "reason": "Firecrawl 500 for https://www.hilton.com/en/hotels/caiwewa-waldorf-astoria-cairo-heliopolis/%3CBase64-Image-Removed%3E/: All scraping engines failed to retrieve"
+    },
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 10,
+    "firecrawl_searches": 3,
+    "cache_hits": 0,
+    "direct_fetches": 0,
+    "pages": 3,
+    "chars": 9334,
+    "est_claude_tokens": 2334
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-15T05:41:58.068Z"
+}

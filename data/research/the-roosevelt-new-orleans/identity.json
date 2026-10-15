@@ -9,13 +9,21 @@
     "kind": "chain",
     "chain": "hilton"
   },
-  "evidence": [],
-  "reasons": [
-    "search failed: Firecrawl 402 search \"\"The Roosevelt New Orleans\" New Orleans site:hilton.com\": Insufficient credits to perform this req",
-    "search failed: Firecrawl 402 search \"The Roosevelt New Orleans hotel New Orleans US site:hilton.com\": Insufficient credits to perform t",
-    "no candidate official site found; flag for review"
+  "evidence": [
+    "100% of the hotel name appears on the page",
+    "location matches (New Orleans, US)"
   ],
-  "candidates": [],
-  "checked_at": "2026-10-14T23:04:08.889Z",
-  "status": "needs_review"
+  "reasons": [],
+  "candidates": [
+    "https://www.hilton.com/en/hotels/msyrhwa-the-roosevelt-new-orleans/"
+  ],
+  "checked_at": "2026-10-15T05:44:34.843Z",
+  "status": "confirmed",
+  "official_url": "https://www.hilton.com/en/hotels/msyrhwa-the-roosevelt-new-orleans/",
+  "base_url": "https://www.hilton.com/en/hotels/msyrhwa-the-roosevelt-new-orleans/",
+  "host": "hilton.com",
+  "checks": {
+    "name_coverage": 1,
+    "location_match": true
+  }
 }

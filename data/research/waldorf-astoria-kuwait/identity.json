@@ -9,13 +9,21 @@
     "kind": "chain",
     "chain": "hilton"
   },
-  "evidence": [],
-  "reasons": [
-    "search failed: Firecrawl 402 search \"\"Waldorf Astoria Kuwait\" Kuwait City site:hilton.com\": Insufficient credits to perform this reques",
-    "search failed: Firecrawl 402 search \"Waldorf Astoria Kuwait hotel Kuwait City KW site:hilton.com\": Insufficient credits to perform this",
-    "no candidate official site found; flag for review"
+  "evidence": [
+    "100% of the hotel name appears on the page",
+    "location matches (Kuwait City, KW)"
   ],
-  "candidates": [],
-  "checked_at": "2026-10-14T23:03:22.050Z",
-  "status": "needs_review"
+  "reasons": [],
+  "candidates": [
+    "https://www.hilton.com/en/hotels/kwiwawa-waldorf-astoria-kuwait/"
+  ],
+  "checked_at": "2026-10-15T05:35:11.783Z",
+  "status": "confirmed",
+  "official_url": "https://www.hilton.com/en/hotels/kwiwawa-waldorf-astoria-kuwait/",
+  "base_url": "https://www.hilton.com/en/hotels/kwiwawa-waldorf-astoria-kuwait/",
+  "host": "hilton.com",
+  "checks": {
+    "name_coverage": 1,
+    "location_match": true
+  }
 }

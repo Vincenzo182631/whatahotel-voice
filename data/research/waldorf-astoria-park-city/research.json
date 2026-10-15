@@ -1,11 +1,9 @@
 {
   "slug": "waldorf-astoria-park-city",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
   "reasons": [
-    "search failed: Firecrawl 402 search \"\"Waldorf Astoria Park City\" Park City site:hilton.com\": Insufficient credits to perform this reque",
-    "search failed: Firecrawl 402 search \"Waldorf Astoria Park City hotel Park City US site:hilton.com\": Insufficient credits to perform thi",
-    "no candidate official site found; flag for review"
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
   ],
   "identity": {
     "hotel": {
@@ -18,26 +16,51 @@
       "kind": "chain",
       "chain": "hilton"
     },
-    "evidence": [],
-    "reasons": [
-      "search failed: Firecrawl 402 search \"\"Waldorf Astoria Park City\" Park City site:hilton.com\": Insufficient credits to perform this reque",
-      "search failed: Firecrawl 402 search \"Waldorf Astoria Park City hotel Park City US site:hilton.com\": Insufficient credits to perform thi",
-      "no candidate official site found; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Park City, US)"
     ],
-    "candidates": [],
-    "checked_at": "2026-10-14T23:04:03.563Z",
-    "status": "needs_review"
+    "reasons": [],
+    "candidates": [
+      "https://www.hilton.com/en/hotels/slcdmwa-waldorf-astoria-park-city/"
+    ],
+    "checked_at": "2026-10-15T05:42:40.586Z",
+    "status": "confirmed",
+    "official_url": "https://www.hilton.com/en/hotels/slcdmwa-waldorf-astoria-park-city/",
+    "base_url": "https://www.hilton.com/en/hotels/slcdmwa-waldorf-astoria-park-city/",
+    "host": "hilton.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
-  "inaccessible": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.cntraveler.com/hotels/united-states/park-city/waldorf-astoria-park-city",
+      "tier": "editorial",
+      "fetched_at": "2026-10-15T05:44:33.635Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.hilton.com/en/hotels/slcdmwa-waldorf-astoria-park-city/",
+      "reason": "Firecrawl 500 for https://www.hilton.com/en/hotels/slcdmwa-waldorf-astoria-park-city/: All scraping engines failed to retrieve content from this URL. Engines tr"
+    },
+    {
+      "url": "https://www.hilton.com/en/hotels/slcdmwa-waldorf-astoria-park-city/",
+      "reason": "no same-property sub-page links found on the home page"
+    }
+  ],
   "usage": {
-    "firecrawl_calls": 2,
-    "firecrawl_searches": 2,
+    "firecrawl_calls": 5,
+    "firecrawl_searches": 3,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 1,
+    "chars": 4248,
+    "est_claude_tokens": 1062
   },
   "limits": {
     "maxPages": 12,
@@ -45,5 +68,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-14T23:04:07.642Z"
+  "researched_at": "2026-10-15T05:44:33.635Z"
 }

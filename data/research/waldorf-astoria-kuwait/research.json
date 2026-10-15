@@ -1,11 +1,9 @@
 {
   "slug": "waldorf-astoria-kuwait",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
   "reasons": [
-    "search failed: Firecrawl 402 search \"\"Waldorf Astoria Kuwait\" Kuwait City site:hilton.com\": Insufficient credits to perform this reques",
-    "search failed: Firecrawl 402 search \"Waldorf Astoria Kuwait hotel Kuwait City KW site:hilton.com\": Insufficient credits to perform this",
-    "no candidate official site found; flag for review"
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
   ],
   "identity": {
     "hotel": {
@@ -18,26 +16,86 @@
       "kind": "chain",
       "chain": "hilton"
     },
-    "evidence": [],
-    "reasons": [
-      "search failed: Firecrawl 402 search \"\"Waldorf Astoria Kuwait\" Kuwait City site:hilton.com\": Insufficient credits to perform this reques",
-      "search failed: Firecrawl 402 search \"Waldorf Astoria Kuwait hotel Kuwait City KW site:hilton.com\": Insufficient credits to perform this",
-      "no candidate official site found; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Kuwait City, KW)"
     ],
-    "candidates": [],
-    "checked_at": "2026-10-14T23:03:22.050Z",
-    "status": "needs_review"
+    "reasons": [],
+    "candidates": [
+      "https://www.hilton.com/en/hotels/kwiwawa-waldorf-astoria-kuwait/"
+    ],
+    "checked_at": "2026-10-15T05:35:11.783Z",
+    "status": "confirmed",
+    "official_url": "https://www.hilton.com/en/hotels/kwiwawa-waldorf-astoria-kuwait/",
+    "base_url": "https://www.hilton.com/en/hotels/kwiwawa-waldorf-astoria-kuwait/",
+    "host": "hilton.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
-  "inaccessible": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hilton.com/en/hotels/kwiwawa-waldorf-astoria-kuwait/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T05:35:48.242Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hilton.com/en/hotels/kwiwawa-waldorf-astoria-kuwait/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T05:36:00.453Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hilton.com/en/hotels/kwiwawa-waldorf-astoria-kuwait/rooms/ikaros-club/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T05:36:15.130Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hilton.com/en/hotels/kwiwawa-waldorf-astoria-kuwait/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T05:36:29.732Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hilton.com/en/hotels/kwiwawa-waldorf-astoria-kuwait/things-to-do/spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T05:36:51.924Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.hilton.com/en/hotels/kwiwawa-waldorf-astoria-kuwait/things-to-do/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T05:37:06.441Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.hilton.com/en/hotels/kwiwawa-waldorf-astoria-kuwait/%3CBase64-Image-Removed%3E/",
+      "reason": "Firecrawl 500 for https://www.hilton.com/en/hotels/kwiwawa-waldorf-astoria-kuwait/%3CBase64-Image-Removed%3E/: All scraping engines failed to retrieve content f"
+    },
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
   "usage": {
-    "firecrawl_calls": 2,
-    "firecrawl_searches": 2,
+    "firecrawl_calls": 12,
+    "firecrawl_searches": 3,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 6,
+    "chars": 30468,
+    "est_claude_tokens": 7617
   },
   "limits": {
     "maxPages": 12,
@@ -45,5 +103,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-14T23:03:26.116Z"
+  "researched_at": "2026-10-15T05:37:51.526Z"
 }

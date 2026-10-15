@@ -1,0 +1,96 @@
+{
+  "slug": "waldorf-astoria-panama",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Waldorf Astoria Panama",
+      "city": "Panama City",
+      "country": "PA",
+      "chain": "hilton"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hilton"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Panama City, PA)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hilton.com/en/hotels/ptytpwa-waldorf-astoria-panama/"
+    ],
+    "checked_at": "2026-10-15T05:35:11.785Z",
+    "status": "confirmed",
+    "official_url": "https://www.hilton.com/en/hotels/ptytpwa-waldorf-astoria-panama/",
+    "base_url": "https://www.hilton.com/en/hotels/ptytpwa-waldorf-astoria-panama/",
+    "host": "hilton.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hilton.com/en/hotels/ptytpwa-waldorf-astoria-panama/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T05:35:55.905Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hilton.com/en/hotels/ptytpwa-waldorf-astoria-panama/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T05:36:14.230Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hilton.com/en/hotels/ptytpwa-waldorf-astoria-panama/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T05:36:29.055Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hilton.com/en/hotels/ptytpwa-waldorf-astoria-panama/spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T05:36:43.013Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.cntraveler.com/hotels/panama-city/waldorf-astoria-panama",
+      "tier": "editorial",
+      "fetched_at": "2026-10-15T05:37:31.307Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.hilton.com/en/hotels/ptytpwa-waldorf-astoria-panama/%3CBase64-Image-Removed%3E/",
+      "reason": "Firecrawl 500 for https://www.hilton.com/en/hotels/ptytpwa-waldorf-astoria-panama/%3CBase64-Image-Removed%3E/: All scraping engines failed to retrieve content f"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 10,
+    "firecrawl_searches": 3,
+    "cache_hits": 0,
+    "direct_fetches": 1,
+    "pages": 5,
+    "chars": 22704,
+    "est_claude_tokens": 5676
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-15T05:37:31.307Z"
+}

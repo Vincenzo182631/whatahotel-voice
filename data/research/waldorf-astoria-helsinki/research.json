@@ -3,9 +3,10 @@
   "status": "needs_review",
   "partial": false,
   "reasons": [
-    "search failed: Firecrawl 402 search \"\"Waldorf Astoria Helsinki\" Helsinki site:hilton.com\": Insufficient credits to perform this request",
-    "search failed: Firecrawl 402 search \"Waldorf Astoria Helsinki hotel Helsinki FI site:hilton.com\": Insufficient credits to perform this ",
-    "no candidate official site found; flag for review"
+    "https://www.hilton.com/en/hotels/helwcwa-waldorf-astoria-helsinki/: Firecrawl 500 for https://www.hilton.com/en/hotels/helwcwa-waldorf-astoria-helsinki/: All scraping engines failed to retrieve content from t",
+    "https://www.hilton.com/en/hotels/helwcwa-waldorf-astoria-helsinki/spa/: Firecrawl 500 for https://www.hilton.com/en/hotels/helwcwa-waldorf-astoria-helsinki/spa/: All scraping engines failed to retrieve content fr",
+    "https://www.hilton.com/en/hotels/helwcwa-waldorf-astoria-helsinki/rooms/: Firecrawl 500 for https://www.hilton.com/en/hotels/helwcwa-waldorf-astoria-helsinki/rooms/: All scraping engines failed to retrieve content ",
+    "official website could not be confirmed; flag for review"
   ],
   "identity": {
     "hotel": {
@@ -20,18 +21,23 @@
     },
     "evidence": [],
     "reasons": [
-      "search failed: Firecrawl 402 search \"\"Waldorf Astoria Helsinki\" Helsinki site:hilton.com\": Insufficient credits to perform this request",
-      "search failed: Firecrawl 402 search \"Waldorf Astoria Helsinki hotel Helsinki FI site:hilton.com\": Insufficient credits to perform this ",
-      "no candidate official site found; flag for review"
+      "https://www.hilton.com/en/hotels/helwcwa-waldorf-astoria-helsinki/: Firecrawl 500 for https://www.hilton.com/en/hotels/helwcwa-waldorf-astoria-helsinki/: All scraping engines failed to retrieve content from t",
+      "https://www.hilton.com/en/hotels/helwcwa-waldorf-astoria-helsinki/spa/: Firecrawl 500 for https://www.hilton.com/en/hotels/helwcwa-waldorf-astoria-helsinki/spa/: All scraping engines failed to retrieve content fr",
+      "https://www.hilton.com/en/hotels/helwcwa-waldorf-astoria-helsinki/rooms/: Firecrawl 500 for https://www.hilton.com/en/hotels/helwcwa-waldorf-astoria-helsinki/rooms/: All scraping engines failed to retrieve content ",
+      "official website could not be confirmed; flag for review"
     ],
-    "candidates": [],
-    "checked_at": "2026-10-14T23:03:48.455Z",
+    "candidates": [
+      "https://www.hilton.com/en/hotels/helwcwa-waldorf-astoria-helsinki/",
+      "https://www.hilton.com/en/hotels/helwcwa-waldorf-astoria-helsinki/spa/",
+      "https://www.hilton.com/en/hotels/helwcwa-waldorf-astoria-helsinki/rooms/"
+    ],
+    "checked_at": "2026-10-15T05:45:22.415Z",
     "status": "needs_review"
   },
   "pages": [],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 2,
+    "firecrawl_calls": 5,
     "firecrawl_searches": 2,
     "cache_hits": 0,
     "direct_fetches": 0,
@@ -45,5 +51,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-14T23:03:52.532Z"
+  "researched_at": "2026-10-15T05:47:15.929Z"
 }
