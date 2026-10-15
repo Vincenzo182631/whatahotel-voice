@@ -1,0 +1,365 @@
+{
+  "hotel_slug": "waldorf-astoria-park-city",
+  "hotel_name": "Waldorf Astoria Park City",
+  "checked_at": "2026-10-15T11:47:23.256Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 14,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 15
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hilton.com/en/hotels/slcdmwa-waldorf-astoria-park-city/",
+      "tier": "official",
+      "chars": 25942
+    },
+    {
+      "id": "d2",
+      "url": "https://www.cntraveler.com/hotels/united-states/park-city/waldorf-astoria-park-city",
+      "tier": "editorial",
+      "chars": 4248
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hilton.com/en/hotels/slcdmwa-waldorf-astoria-park-city/rooms/",
+      "tier": "official",
+      "chars": 880
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hilton.com/en/hotels/slcdmwa-waldorf-astoria-park-city/dining/",
+      "tier": "official",
+      "chars": 652
+    },
+    {
+      "id": "d5",
+      "url": "https://www.hilton.com/en/hotels/slcdmwa-waldorf-astoria-park-city/experiences/spa/",
+      "tier": "official",
+      "chars": 169
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hilton.com/en/hotels/slcdmwa-waldorf-astoria-park-city/experiences/",
+      "tier": "official",
+      "chars": 880
+    },
+    {
+      "id": "d7",
+      "url": "https://www.hilton.com/en/hotels/slcdmwa-waldorf-astoria-park-city/experiences/holidays/",
+      "tier": "official",
+      "chars": 652
+    },
+    {
+      "id": "d8",
+      "url": "https://www.hilton.com/en/hotels/slcdmwa-waldorf-astoria-park-city/experiences/ski-snowboard/",
+      "tier": "official",
+      "chars": 879
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Many of the accommodations include furnished balconies, soaking tubs and full kitchens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Many include furnished balconies, soaking tubs, and full kitchens.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/slcdmwa-waldorf-astoria-park-city/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Rooms in natural colors have custom furnishings and views of the ski slopes and Wasatch Mountains.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Beautiful rooms in natural colors have custom furnishings and views of the ski slopes and Wasatch Mountains.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/park-city/waldorf-astoria-park-city",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Dining is modern alpine cuisine made from seasonal ingredients, with artisanal cocktails, curated wines and locally distilled spirits.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Savor modern alpine cuisine artfully crafted from seasonal ingredients, complemented by artisanal cocktails, curated wines, and locally distilled spirits.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/slcdmwa-waldorf-astoria-park-city/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "An outdoor patio has fire pits near the heated pool and whirlpools.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "relax on the outdoor patio near the fire pits, heated pool, and whirlpools",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/park-city/waldorf-astoria-park-city",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Curated outdoor pursuits in the Wasatch Mountains include hiking, fly-fishing and mountain biking.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Reconnect with the natural world through thoughtfully curated outdoor pursuits designed to immerse you in the beauty of the majestic Wasatch Mountains.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/slcdmwa-waldorf-astoria-park-city/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "## Hiking",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/slcdmwa-waldorf-astoria-park-city/",
+          "tier": "official",
+          "quote_verified": false
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "## Fly-Fishing",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/slcdmwa-waldorf-astoria-park-city/",
+          "tier": "official",
+          "quote_verified": false
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "## Mountain Biking",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/slcdmwa-waldorf-astoria-park-city/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The hotel was formerly the Dakota Mountain Lodge, at the base of Canyons Resort.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "formerly the Dakota Mountain Lodge, at the base of Canyons Resort",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/park-city/waldorf-astoria-park-city",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The resort is dog-friendly.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "As a proud dog-friendly resort, we ensure every member of the family feels right at home.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/slcdmwa-waldorf-astoria-park-city/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Event venues framed by the Wasatch Mountains host meetings and celebrations.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our venues, framed by the Wasatch Mountains, are designed to host unforgettable meetings and celebrations led by an experienced team.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/slcdmwa-waldorf-astoria-park-city/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The resort is in Canyons Village, with ski-in, gondola-out access to Park City Mountain in winter.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Escape to a refined retreat in Canyons Village, where scenic trails give way to ski-in, gondola-out access to Park City Mountain come winter.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/slcdmwa-waldorf-astoria-park-city/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Every room, suite and residence has its own fireplace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "## Rooms, Suites, and Residences",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/slcdmwa-waldorf-astoria-park-city/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Each accommodation is anchored by its own fireplace.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/slcdmwa-waldorf-astoria-park-city/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Bi-level residences have an upstairs primary bedroom overlooking a living room with mountain views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Bi-level residences feature an upstairs primary bedroom overlooking a generous living room framed by mountain views.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/slcdmwa-waldorf-astoria-park-city/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The resort has a year-round heated pool and hot tubs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "complemented by a year-round heated pool and hot tubs",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/slcdmwa-waldorf-astoria-park-city/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Ski access to Park City Mountain is ski-in, gondola-out, via the Frostwood Gondola steps from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "ski-in, gondola-out access to Park City Mountain come winter",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/slcdmwa-waldorf-astoria-park-city/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "This winter, wake up just steps from the Frostwood Gondola to ski Park City Mountain with seamless ski-in access",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/slcdmwa-waldorf-astoria-park-city/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Deer Valley Resort is reached on the hotel's complimentary shuttle.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "or hop aboard our complimentary shuttle to discover Deer Valley Resort.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/slcdmwa-waldorf-astoria-park-city/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium luxury pricing year-round.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
