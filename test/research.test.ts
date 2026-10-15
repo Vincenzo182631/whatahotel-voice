@@ -180,6 +180,11 @@ describe("assessPage", () => {
     expect(assessPage(hotel, unk, { url: "https://www.travelweekly.com/Hotels/Honolulu/Halekulani-p1", text }).ok).toBe(false);
     expect(assessPage(hotel, unk, { url: "https://www.halekulani.com/", text }).ok).toBe(true);
   });
+  it("does not mistake a hotel domain ending in hotels.com for hotels.com", () => {
+    const hotel = { name: "Kivotos Mykonos", city: "Mykonos", country: "Greece" };
+    const r = assessPage(hotel, { kind: "unknown" as const }, { url: "https://www.kivotoshotels.com/", text: `Kivotos Mykonos ${filler} Mykonos` });
+    expect(r.reasons.join(" ")).not.toMatch(/third-party/);
+  });
   it("never accepts a third-party site as official", () => {
     expect(assessPage(FS, { kind: "independent" }, { url: "https://www.tripadvisor.com/Hotel_Review", text: `Four Seasons Hotel Sydney ${filler} Sydney` }).ok).toBe(false);
   });

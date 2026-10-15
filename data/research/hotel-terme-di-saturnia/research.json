@@ -1,11 +1,9 @@
 {
   "slug": "hotel-terme-di-saturnia",
-  "status": "needs_review",
-  "partial": false,
+  "status": "awaiting_extraction",
+  "partial": true,
   "reasons": [
-    "https://www.toscana.info/grosseto/provincia/terme-saturnia/: toscana.info does not carry the hotel's name; an independent hotel's own site normally does",
-    "https://www.hrs.com/en/hotel/46729: hrs.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "official website could not be confirmed; flag for review"
+    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue"
   ],
   "identity": {
     "hotel": {
@@ -14,31 +12,121 @@
       "country": "IT"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.toscana.info/grosseto/provincia/terme-saturnia/: toscana.info does not carry the hotel's name; an independent hotel's own site normally does",
-      "https://www.hrs.com/en/hotel/46729: hrs.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Saturnia (Grosseto), IT)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://www.toscana.info/grosseto/provincia/terme-saturnia/",
-      "https://www.hrs.com/en/hotel/46729"
+      "https://www.termedisaturnia.it/en/resort/"
     ],
-    "checked_at": "2026-10-14T23:46:07.481Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-15T00:22:08.168Z",
+    "status": "confirmed",
+    "official_url": "https://www.termedisaturnia.it/en/resort/",
+    "base_url": "https://www.termedisaturnia.it/",
+    "host": "termedisaturnia.it",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.termedisaturnia.it/en/resort/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:22:17.411Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.termedisaturnia.it/terme-e-spa/cure-termali/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:22:27.326Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.termedisaturnia.it/en/spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:22:31.845Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.termedisaturnia.it/terme-e-spa/programmi-di-benessere-e-bellezza/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:22:42.606Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.termedisaturnia.it/golf/en/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:22:51.824Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.termedisaturnia.it/en/golf-calendar/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:23:01.558Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.termedisaturnia.it/en/locations-and-contacts/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:23:04.404Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.termedisaturnia.it/en/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:23:09.206Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.termedisaturnia.it/resort/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:23:12.728Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.termedisaturnia.it/magazine/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:23:18.485Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://www.termedisaturnia.it/en/vipets/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:23:21.162Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p12",
+      "url": "https://www.termedisaturnia.it/en/the-club/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:23:25.043Z",
+      "source": "firecrawl"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 3,
-    "firecrawl_searches": 1,
+    "firecrawl_calls": 15,
+    "firecrawl_searches": 0,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 12,
+    "chars": 93079,
+    "est_claude_tokens": 23270
   },
   "limits": {
     "maxPages": 12,
@@ -46,5 +134,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-14T23:46:19.754Z"
+  "researched_at": "2026-10-15T00:23:39.489Z"
 }

@@ -1,11 +1,9 @@
 {
   "slug": "halekulani",
-  "status": "needs_review",
-  "partial": false,
+  "status": "awaiting_extraction",
+  "partial": true,
   "reasons": [
-    "https://www.halepuna.com/: halepuna.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "https://www.halekulani.com/: page does not mention Honolulu",
-    "official website could not be confirmed; flag for review"
+    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue"
   ],
   "identity": {
     "hotel": {
@@ -14,31 +12,121 @@
       "country": "US"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.halepuna.com/: halepuna.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "https://www.halekulani.com/: page does not mention Honolulu",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "confirmed by hand as this hotel's own page (page does not mention Honolulu)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://www.halepuna.com/",
       "https://www.halekulani.com/"
     ],
-    "checked_at": "2026-10-14T23:48:14.636Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-15T00:20:24.802Z",
+    "status": "confirmed",
+    "official_url": "https://www.halekulani.com/",
+    "base_url": "https://www.halekulani.com/",
+    "host": "halekulani.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": false
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.halekulani.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:20:29.776Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.halekulani.com/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:20:38.971Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.halekulani.com/room-category/suites/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:20:43.058Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.halekulani.com/room-category/guest-rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:20:46.925Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.halekulani.com/room-category/premier-suites/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:20:50.812Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.halekulani.com/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:20:55.903Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.halekulani.com/dining/terns/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:20:58.663Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.halekulani.com/dining/la-mer/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:21:01.710Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.halekulani.com/dining/orchids/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:21:07.412Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.halekulani.com/dining/lewers-lounge/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:21:13.144Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://www.halekulani.com/dining/halekulani-bakery/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:21:15.444Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p12",
+      "url": "https://www.halekulani.com/dining/house-without-a-key/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:21:17.718Z",
+      "source": "firecrawl"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 3,
-    "firecrawl_searches": 1,
+    "firecrawl_calls": 15,
+    "firecrawl_searches": 0,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 12,
+    "chars": 77080,
+    "est_claude_tokens": 19270
   },
   "limits": {
     "maxPages": 12,
@@ -46,5 +134,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-14T23:48:22.904Z"
+  "researched_at": "2026-10-15T00:21:31.222Z"
 }

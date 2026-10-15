@@ -204,4 +204,6 @@ const THIRD_PARTY = [
   "tablethotels.", "hotelsone.", "travelweekly.", "travelagewest.", "travelpulse.", "forbestravelguide.", "lhw.com", "lartisien.",
   "hotelsearch.", "hotels-in-", "fivestaralliance.", "travelandleisure.", "cntraveller.", "momondo.", "skyscanner.", "jetsetter.", "americanexpress.com", "hotelplanner.", "reservations.com", "google.com", "bing.com", "linkedin.com", "pinterest.", "tiktok.com",
 ];
-export const isThirdParty = (host: string) => !chainOfHost(host) && THIRD_PARTY.some((t) => host.includes(t));
+// an entry matches at a label boundary, so "hotels.com" catches www.hotels.com but not kivotoshotels.com
+const matchesAt = (host: string, t: string) => host.startsWith(t) || host.includes(`.${t}`);
+export const isThirdParty = (host: string) => !chainOfHost(host) && THIRD_PARTY.some((t) => matchesAt(host, t));

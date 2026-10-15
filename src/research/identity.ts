@@ -231,7 +231,7 @@ export async function resolveOfficialSite(hotel: HotelRef, deps: IdentityDeps, o
       const text = await deps.load(finalUrl);
       const r = assessPage(hotel, aff, { url: finalUrl, text });
       // a person vouched for this exact page: only the name and city wording may differ (renames, local place names); every other check still applies
-      if (!r.ok && opts.manualConfirm && opts.officialUrl && r.reasons.length && r.reasons.every((x) => /of the hotel name appears|does not mention/.test(x))) {
+      if (!r.ok && opts.manualConfirm && opts.officialUrl && r.reasons.length && r.reasons.every((x) => /of the hotel name appears|does not mention|does not carry the hotel's name/.test(x))) {
         r.ok = true;
         r.evidence.push(`confirmed by hand as this hotel's own page (${r.reasons.join("; ")})`);
         r.reasons = [];

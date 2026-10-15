@@ -1,13 +1,8 @@
 {
   "slug": "baur-au-lac",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "https://www.bauraulac.ch/en/home.html: only 0% of the hotel name appears on the page",
-    "https://www.bauraulac.ch/en/lets_connect.html: only 0% of the hotel name appears on the page",
-    "https://www.bauraulac.ch/en/explore.html: only 0% of the hotel name appears on the page",
-    "official website could not be confirmed; flag for review"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "Baur au Lac",
@@ -15,33 +10,58 @@
       "country": "CH"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.bauraulac.ch/en/home.html: only 0% of the hotel name appears on the page",
-      "https://www.bauraulac.ch/en/lets_connect.html: only 0% of the hotel name appears on the page",
-      "https://www.bauraulac.ch/en/explore.html: only 0% of the hotel name appears on the page",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "location matches (Zurich, CH)",
+      "confirmed by hand as this hotel's own page (only 0% of the hotel name appears on the page)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://www.bauraulac.ch/en/home.html",
-      "https://www.bauraulac.ch/en/lets_connect.html",
-      "https://www.bauraulac.ch/en/explore.html"
+      "https://www.bauraulac.ch/en/home.html"
     ],
-    "checked_at": "2026-10-14T23:52:19.904Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-15T00:21:35.613Z",
+    "status": "confirmed",
+    "official_url": "https://www.bauraulac.ch/en/home.html",
+    "base_url": "https://www.bauraulac.ch/",
+    "host": "bauraulac.ch",
+    "checks": {
+      "name_coverage": 0,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.bauraulac.ch/en/home.html",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:21:40.894Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.bauraulac.ch/en/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:21:51.273Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.cntraveler.com/hotels/switzerland/zurich/baur-au-lac-zurich",
+      "tier": "editorial",
+      "fetched_at": "2026-10-15T00:21:59.959Z",
+      "source": "direct"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 4,
+    "firecrawl_calls": 5,
     "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 3,
+    "chars": 36386,
+    "est_claude_tokens": 9097
   },
   "limits": {
     "maxPages": 12,
@@ -49,5 +69,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-14T23:52:34.565Z"
+  "researched_at": "2026-10-15T00:21:59.959Z"
 }

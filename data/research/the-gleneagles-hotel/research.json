@@ -1,13 +1,8 @@
 {
   "slug": "the-gleneagles-hotel",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "https://gleneagles.com/our-impact/: page does not mention Perthshire",
-    "https://gleneagles.com/careers/: page does not mention Perthshire",
-    "https://gleneagles.com/explore/hotel-grounds/history/: page does not mention Perthshire",
-    "official website could not be confirmed; flag for review"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "The Gleneagles Hotel",
@@ -15,33 +10,114 @@
       "country": "SCT"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://gleneagles.com/our-impact/: page does not mention Perthshire",
-      "https://gleneagles.com/careers/: page does not mention Perthshire",
-      "https://gleneagles.com/explore/hotel-grounds/history/: page does not mention Perthshire",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "confirmed by hand as this hotel's own page (page does not mention Perthshire)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://gleneagles.com/our-impact/",
-      "https://gleneagles.com/careers/",
-      "https://gleneagles.com/explore/hotel-grounds/history/"
+      "https://gleneagles.com/"
     ],
-    "checked_at": "2026-10-14T23:47:50.243Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-15T00:24:21.188Z",
+    "status": "confirmed",
+    "official_url": "https://gleneagles.com/",
+    "base_url": "https://gleneagles.com/",
+    "host": "gleneagles.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": false
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://gleneagles.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:24:25.897Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://gleneagles.com/stay/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:24:38.004Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://gleneagles.com/eat-drink/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:24:39.555Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://gleneagles.com/spa-wellness/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:24:43.536Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://gleneagles.com/golf/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:24:47.629Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://gleneagles.com/families/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:25:00.341Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://gleneagles.com/pursuits/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:25:02.618Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://gleneagles.com/occasions/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:25:06.239Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://gleneagles.com/townhouse/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:25:09.502Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://gleneagles.com/pursuits/the-gleneagles-sporting-club/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:25:14.014Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://www.cntraveler.com/hotels/perthshire/the-gleneagles-hotel",
+      "tier": "editorial",
+      "fetched_at": "2026-10-15T00:25:17.982Z",
+      "source": "direct"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 4,
+    "firecrawl_calls": 13,
     "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 11,
+    "chars": 94044,
+    "est_claude_tokens": 23511
   },
   "limits": {
     "maxPages": 12,
@@ -49,5 +125,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-14T23:48:05.902Z"
+  "researched_at": "2026-10-15T00:25:17.982Z"
 }
