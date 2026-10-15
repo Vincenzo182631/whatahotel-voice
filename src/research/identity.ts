@@ -124,7 +124,10 @@ export function assessPage(hotel: HotelRef, aff: Identity["affiliation"], page: 
   if (!hostChain && aff.kind !== "chain") {
     const label = host.split(".").slice(0, -1).join("").replace(/[^a-z0-9]/g, "");
     const cityW = new Set(cityWords(hotel.city));
-    const distinctive = significant(hotel.name).filter((w) => w.length >= 4 && !GENERIC_NAME_WORDS.has(w) && !cityW.has(w));
+    const named = significant(hotel.name).filter((w) => w.length >= 4 && !cityW.has(w));
+    const specific = named.filter((w) => !GENERIC_NAME_WORDS.has(w));
+    // a name made only of generic words ("El Palace Hotel") still needs one of them in the domain
+    const distinctive = specific.length ? specific : named.filter((w) => w !== "hotel" && w !== "hotels");
     if (distinctive.length && !distinctive.some((w) => label.includes(w))) reasons.push(`${host} does not carry the hotel's name; an independent hotel's own site normally does`);
   }
 
