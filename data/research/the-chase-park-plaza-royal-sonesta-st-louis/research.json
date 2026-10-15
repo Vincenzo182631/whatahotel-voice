@@ -1,8 +1,11 @@
 {
   "slug": "the-chase-park-plaza-royal-sonesta-st-louis",
-  "status": "awaiting_extraction",
+  "status": "needs_review",
   "partial": false,
-  "reasons": [],
+  "reasons": [
+    "https://www.chaseparkplaza.com/: Firecrawl 500 for https://www.chaseparkplaza.com/: The URL failed to load in the browser with error code \"ERR_TUNNEL_CONNECTION_FAILED\". Fir",
+    "official website could not be confirmed; flag for review"
+  ],
   "identity": {
     "hotel": {
       "name": "The Chase Park Plaza Royal Sonesta St. Louis",
@@ -10,73 +13,29 @@
       "country": "US"
     },
     "affiliation": {
-      "kind": "independent"
+      "kind": "unknown"
     },
-    "evidence": [
-      "100% of the hotel name appears on the page",
-      "location matches (St. Louis, US)"
+    "evidence": [],
+    "reasons": [
+      "https://www.chaseparkplaza.com/: Firecrawl 500 for https://www.chaseparkplaza.com/: The URL failed to load in the browser with error code \"ERR_TUNNEL_CONNECTION_FAILED\". Fir",
+      "official website could not be confirmed; flag for review"
     ],
-    "reasons": [],
     "candidates": [
-      "https://www.hospitalityonline.com/chase-park-plaza",
-      "https://www.sonesta.com/locations/us/missouri/st-louis"
+      "https://www.chaseparkplaza.com/"
     ],
-    "checked_at": "2026-10-15T16:25:42.376Z",
-    "status": "confirmed",
-    "official_url": "https://www.sonesta.com/locations/us/missouri/st-louis",
-    "base_url": "https://www.sonesta.com/",
-    "host": "sonesta.com",
-    "checks": {
-      "name_coverage": 1,
-      "location_match": true
-    }
+    "checked_at": "2026-10-15T16:40:18.579Z",
+    "status": "needs_review"
   },
-  "pages": [
-    {
-      "id": "p1",
-      "url": "https://www.sonesta.com/locations/us/missouri/st-louis",
-      "tier": "official",
-      "fetched_at": "2026-10-15T16:25:53.637Z",
-      "source": "cache"
-    },
-    {
-      "id": "p2",
-      "url": "https://www.sonesta.com/paws/",
-      "tier": "official",
-      "fetched_at": "2026-10-15T16:26:00.314Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p3",
-      "url": "https://www.sonesta.com/travel-pass/",
-      "tier": "official",
-      "fetched_at": "2026-10-15T16:26:05.624Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p4",
-      "url": "https://www.sonesta.com/%3CBase64-Image-Removed%3E/",
-      "tier": "official",
-      "fetched_at": "2026-10-15T16:26:05.625Z",
-      "source": "cache"
-    },
-    {
-      "id": "p5",
-      "url": "https://www.cntraveler.com/hotels/st-louis/the-chase-park-plaza",
-      "tier": "editorial",
-      "fetched_at": "2026-10-15T16:26:11.911Z",
-      "source": "direct"
-    }
-  ],
+  "pages": [],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 6,
-    "firecrawl_searches": 2,
-    "cache_hits": 3,
-    "direct_fetches": 1,
-    "pages": 5,
-    "chars": 40320,
-    "est_claude_tokens": 10080
+    "firecrawl_calls": 1,
+    "firecrawl_searches": 0,
+    "cache_hits": 0,
+    "direct_fetches": 0,
+    "pages": 0,
+    "chars": 0,
+    "est_claude_tokens": 0
   },
   "limits": {
     "maxPages": 12,
@@ -84,5 +43,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T16:26:11.911Z"
+  "researched_at": "2026-10-15T16:41:07.636Z"
 }
