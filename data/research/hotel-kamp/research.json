@@ -1,0 +1,139 @@
+{
+  "slug": "hotel-kamp",
+  "status": "awaiting_extraction",
+  "partial": true,
+  "reasons": [
+    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Hotel Kamp",
+      "city": "Helsinki",
+      "country": "FI"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "redirected from https://www.hotelkamp.com/en/",
+      "100% of the hotel name appears on the page",
+      "location matches (Helsinki, FI)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hotelkamp.com/en/"
+    ],
+    "checked_at": "2026-10-15T00:38:36.871Z",
+    "status": "confirmed",
+    "official_url": "https://hotelkamp.com/",
+    "base_url": "https://hotelkamp.com/",
+    "host": "hotelkamp.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://hotelkamp.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:38:44.550Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://hotelkamp.com/rooms-suites/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:38:48.979Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://hotelkamp.com/rooms-suites/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:38:52.868Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://hotelkamp.com/rooms-suites/suites/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:38:57.707Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://hotelkamp.com/food-drink/kamp-bar/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:39:04.898Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://hotelkamp.com/food-drink/restaurant-ala-kamp/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:39:23.417Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://hotelkamp.com/kamp-spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:39:38.061Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://hotelkamp.com/festive-season/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:39:42.526Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://hotelkamp.com/contact-us/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:39:45.694Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://hotelkamp.com/about-us/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:39:50.220Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://hotelkamp.com/about-us/our-heritage/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:39:54.857Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p12",
+      "url": "https://hotelkamp.com/calendar/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:40:00.075Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 14,
+    "firecrawl_searches": 1,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 12,
+    "chars": 51877,
+    "est_claude_tokens": 12969
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-15T00:40:03.424Z"
+}

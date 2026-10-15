@@ -1,0 +1,138 @@
+{
+  "slug": "faena-hotel-miami-beach",
+  "status": "awaiting_extraction",
+  "partial": true,
+  "reasons": [
+    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Faena Hotel Miami Beach",
+      "city": "Miami Beach",
+      "country": "US"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Miami Beach, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.faena.com/miami-beach"
+    ],
+    "checked_at": "2026-10-15T00:40:51.977Z",
+    "status": "confirmed",
+    "official_url": "https://www.faena.com/miami-beach",
+    "base_url": "https://www.faena.com/",
+    "host": "faena.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.faena.com/miami-beach",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:40:56.188Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.faena.com/miami-beach/accommodations/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:41:02.196Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.faena.com/miami-beach/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:41:04.217Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.faena.com/miami-beach/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:41:08.185Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.faena.com/miami-beach/wellness/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:41:13.705Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.faena.com/miami-beach/things-to-do/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:41:18.529Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.faena.com/legal/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:41:20.230Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.faena.com/journal/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:41:25.376Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.faena.com/faena-art/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:41:29.894Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.faena.com/hotel-policies/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:41:33.317Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://www.faena.com/journal-issue-63/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:41:37.127Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p12",
+      "url": "https://www.faena.com/journal/celebrating-20-years/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T00:41:41.358Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 14,
+    "firecrawl_searches": 1,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 12,
+    "chars": 46046,
+    "est_claude_tokens": 11512
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-15T00:41:45.615Z"
+}
