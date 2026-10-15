@@ -168,6 +168,12 @@ export const CHAINS: Chain[] = [
     // hilton.com/<lang>/hotels/<ctyhocc-name>/... -> /<lang>/hotels/<ctyhocc-name>/ ; standalone resort domains are single-property
     base: (u) => { if (!u.hostname.endsWith("hilton.com")) return `${u.origin}/`; const s = seg(u); const o = /^[a-z]{2}(-[a-z]{2})?$/i.test(s[0] ?? "") ? 1 : 0;
       return s[o] === "hotels" && s[o + 1] ? `${u.origin}/${s.slice(0, o + 2).join("/")}/` : undefined; } },
+  // multi-property group sites used by Leading Hotels members; matched by host only, never guessed from a hotel name
+  { id: "como", name: "COMO Hotels", match: /^como\b/i, domains: ["comohotels.com"], base: (u) => { const s = dropLang(seg(u)); return s.length >= 2 ? `${u.origin}/${s[0]}/${s[1]}/` : undefined; } },
+  { id: "starhotels", name: "Starhotels", match: /(?!)/, domains: ["starhotels.com", "starhotelscollezione.com"],
+    base: (u) => { const s = seg(u); const i = s.indexOf("scrigno-our-hotels"); return i >= 0 && s[i + 1] ? `${u.origin}/${s.slice(0, i + 2).join("/")}/` : undefined; } },
+  { id: "sbm", name: "Monte-Carlo Société des Bains de Mer", match: /(?!)/, domains: ["montecarlosbm.com"],
+    base: (u) => { const s = seg(u); const i = s.indexOf("hotel-monaco"); return i >= 0 && s[i + 1] ? `${u.origin}/${s.slice(0, i + 2).join("/")}/` : undefined; } },
   { id: "trump", name: "Trump Hotels", match: /\btrump\b/i, domains: ["trumphotels.com", "trumpdoonbeg.com"],
     // trumphotels.com/<property>/... -> /<property>/ (chain-wide sections excluded); trumpdoonbeg.com is single-property
     base: (u) => { if (u.hostname.includes("trumpdoonbeg")) return `${u.origin}/`; const b = firstOne(u);
