@@ -1,0 +1,352 @@
+{
+  "hotel_slug": "the-waldorf-astoria-new-york",
+  "hotel_name": "The Waldorf Astoria New York",
+  "checked_at": "2026-10-15T09:45:06.432Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 18
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hilton.com/en/hotels/nycwawa-waldorf-astoria-new-york/",
+      "tier": "official",
+      "chars": 30000
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hilton.com/en/hotels/nycwawa-waldorf-astoria-new-york/rooms/",
+      "tier": "official",
+      "chars": 4680
+    },
+    {
+      "id": "d3",
+      "url": "https://www.cntraveler.com/hotels/new-york-city/waldorf-astoria-new-york",
+      "tier": "editorial",
+      "chars": 18026
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hilton.com/en/hotels/nycwawa-waldorf-astoria-new-york/history/",
+      "tier": "official",
+      "chars": 169
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is at 301 Park Avenue in Midtown Manhattan.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Midtown Manhattan",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/nycwawa-waldorf-astoria-new-york/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "301 Park Avenue, New York, New York, 10022",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york-city/waldorf-astoria-new-york",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is less than two miles from Rockefeller Center, Fifth Avenue and Grand Central Terminal.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Stay less than two miles from Rockefeller Center, Fifth Avenue, and Grand Central Terminal",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/nycwawa-waldorf-astoria-new-york/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel has been revitalized, fully restored and enriched with the latest technology.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Waldorf Astoria New York has been revitalized, fully-restored and enriched with the latest technology.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/nycwawa-waldorf-astoria-new-york/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Skidmore, Owings & Merrill led the transformation of the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The architects Skidmore, Owings & Merrill (SOM) led the transformation.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york-city/waldorf-astoria-new-york",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Lex Yard is helmed by Chef Michael Anthony, with a menu of seasonal food and local ingredients.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Helmed by Chef Michael Anthony, the menu celebrates seasonal food and local ingredients",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/nycwawa-waldorf-astoria-new-york/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Yoshoku serves Western interpretations of traditional Japanese dishes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "celebrating Western interpretations of traditional Japanese dishes",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/nycwawa-waldorf-astoria-new-york/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Yoshoku serves a Japanese six-course tasting menu in the Park Avenue lobby.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Yoshoku, which serves a Japanese six-course tasting menu in the Park Avenue lobby",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york-city/waldorf-astoria-new-york",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Afternoon tea is served at Yoshoku.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Afternoon Tea at Yoshoku",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/nycwawa-waldorf-astoria-new-york/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The concierge arranges curated experiences including intimate chef-curated dinners and live music.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "curated experiences including intimate chef-curated dinners, live music, and more",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/nycwawa-waldorf-astoria-new-york/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Rooms are laid out so luggage never has to touch a carpeted area, with a hallway leading to a walk-in wardrobe.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "laid out in such a way that your luggage never has to touch a carpeted area; a hallway leads from the entrance straight to a walk-in wardrobe",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york-city/waldorf-astoria-new-york",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel is pet-friendly.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Pet-Friendly",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/nycwawa-waldorf-astoria-new-york/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Peacock Alley holds a Steinway piano that once belonged to Cole Porter and the Waldorf Astoria Clock, crafted for the 1893 Chicago World's Fair.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "In the center of the room were a Steinway piano that once belonged to the American composer Cole Porter, and the iconic Waldorf Astoria Clock, crafted for the 1893 Chicago World’s Fair",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york-city/waldorf-astoria-new-york",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Silver Corridor is a mirrored hallway with ceiling murals depicting the 12 months of the year and the four seasons.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "the Silver Corridor, a gleaming mirrored hallway with ceiling murals that depict the 12 months of the year and the four seasons",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york-city/waldorf-astoria-new-york",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Basildon Room was shipped from Basildon Park, an 18th-century English estate, where it was a dining hall.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "transferred and shipped from Basildon Park Manor, an 18th-century English estate, where it was originally a dining hall",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york-city/waldorf-astoria-new-york",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Guerlain Wellness Spa covers 22,000 square feet, with facials, body treatments and wellness programs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Guerlain Wellness Spa\n\nRestore and re-center in a tranquil 22,000 sq. ft. oasis in the heart of the busy city offering a variety of services from facials and body treatments to Wellness Programs.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/nycwawa-waldorf-astoria-new-york/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Guest rooms and suites were designed by Pierre-Yves Rochon.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Designed by Pierre-Yves Rochon, the guest rooms and suites at Waldorf Astoria New York are a masterpiece",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/nycwawa-waldorf-astoria-new-york/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "There are no kids' clubs or babysitting service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "There’s nothing here in the way of kids’ clubs or babysitter service, at least not yet.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york-city/waldorf-astoria-new-york",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes premium pricing that reflects the luxury positioning and Manhattan location.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

@@ -1,24 +1,230 @@
-{"facts":[
-{"id":"r-1","category":"design_history","kind":"fact","text":"The hotel features Parisian-inspired decor.","doc_id":"p1","excerpt":"Enjoy Parisian-inspired decor, a private courtyard entrance, and terraces and fireplaces in select suites.","topic":"decor","as_of":null},
-{"id":"r-2","category":"design_history","kind":"fact","text":"The hotel has a private courtyard entrance.","doc_id":"p1","excerpt":"Enjoy Parisian-inspired decor, a private courtyard entrance, and terraces and fireplaces in select suites.","topic":"courtyard-entrance","as_of":null},
-{"id":"r-3","category":"rooms","kind":"fact","text":"Select suites have terraces and fireplaces.","doc_id":"p1","excerpt":"Enjoy Parisian-inspired decor, a private courtyard entrance, and terraces and fireplaces in select suites.","topic":"suite-terraces-fireplaces","as_of":null},
-{"id":"r-4","category":"location","kind":"fact","text":"The hotel is in downtown Chicago's Gold Coast neighborhood.","doc_id":"p1","excerpt":"Gold Coast neighborhood","topic":"neighborhood","as_of":null},
-{"id":"r-5","category":"amenities","kind":"fact","text":"The hotel has an indoor pool.","doc_id":"p1","excerpt":"Indoor pool","topic":"pool","as_of":null},
-{"id":"r-6","category":"amenities","kind":"fact","text":"The hotel has a spa.","doc_id":"p1","excerpt":"Spa\n\nLuxury","topic":"spa","as_of":null},
-{"id":"r-7","category":"practical","kind":"fact","text":"The hotel is pet-friendly.","doc_id":"p1","excerpt":"Pet-Friendly","topic":"pets","as_of":null},
-{"id":"r-8","category":"family","kind":"fact","text":"The hotel offers childcare and cribs.","doc_id":"p1","excerpt":"Cribs\n\nChildcare","topic":"childcare","as_of":null},
-{"id":"r-9","category":"practical","kind":"fact","text":"The hotel offers EV charging.","doc_id":"p1","excerpt":"EV charging","topic":"ev-charging","as_of":null},
-{"id":"r-10","category":"design_history","kind":"fact","text":"The hotel's motor court is credited to architect Lucien Lagrange.","doc_id":"p3","excerpt":"with its regal purple awnings and old-world motor court (credit celebrated architect Lucien Lagrange)","topic":"architect","as_of":null},
-{"id":"r-11","category":"dining","kind":"fact","text":"Brass Tack on the third floor serves breakfast, lunch, dinner and weekend brunch.","doc_id":"p3","excerpt":"Visit Brass Tack on the third floor for breakfast, lunch, and dinner (and weekend brunch).","topic":"brass-tack","as_of":null},
-{"id":"r-12","category":"dining","kind":"fact","text":"Brass Tack serves modern American-meets-French brasserie fare.","doc_id":"p3","excerpt":"serve modern American-meets-French brasserie fare","topic":"brass-tack-cuisine","as_of":null},
-{"id":"r-13","category":"dining","kind":"fact","text":"Bernard's is a craft cocktail and Champagne speakeasy on the second floor.","doc_id":"p3","excerpt":"the second floor’s intimate craft cocktail and Champagne speakeasy","topic":"bernards","as_of":null},
-{"id":"r-14","category":"design_history","kind":"fact","text":"Bernard's is named for Bernard Heerey, who owned the land the hotel was built on and donated the sale proceeds to Chicago youth organizations.","doc_id":"p3","excerpt":"The hotel was originally built on land owned by Bernard Heerey, who donated proceeds of the sale to Chicago youth organizations","topic":"heerey","as_of":null},
-{"id":"r-15","category":"amenities","kind":"fact","text":"The spa has eucalyptus steam rooms, a dry sauna, jacuzzis and an outdoor spa terrace.","doc_id":"p3","excerpt":"amenities like the eucalyptus steam rooms, dry sauna, jacuzzis, and outdoor spa terrace","topic":"spa-facilities","as_of":null},
-{"id":"r-16","category":"experiences","kind":"fact","text":"An annual holiday ceremony lights the Gold Coast's largest tree with 14,000 lights, benefiting Ann & Robert H. Lurie Children's Hospital.","doc_id":"p3","excerpt":"when the Gold Coast’s largest tree is illuminated with 14,000 twinkling lights—an event benefitting Ann & Robert H. Lurie Children's Hospital","topic":"holiday-tree","as_of":null},
-{"id":"r-17","category":"family","kind":"fact","text":"Kids may get teddy bears on arrival or an in-room tent set-up.","doc_id":"p3","excerpt":"kids will enjoy thoughtful touches like teddy bears upon arrival or an in-room tent set-up","topic":"kids-touches","as_of":null},
-{"id":"r-18","category":"practical","kind":"fact","text":"A Personal Concierge team can arrange touches such as a courtesy car for pick-ups and drop-offs.","doc_id":"p3","excerpt":"a Personal Concierge team helps to accommodate special requests and touches before, during, and after stays (e.g. a courtesy car for pick-ups and drop-offs","topic":"concierge","as_of":null},
-{"id":"r-19","category":"rooms","kind":"fact","text":"Rooms have a floral headboard from designer Ashley Woodson Bailey.","doc_id":"p3","excerpt":"a whimsical, floral headboard from designer Ashley Woodson Bailey serves as a centerpiece","topic":"headboard","as_of":null},
-{"id":"r-20","category":"amenities","kind":"unresolved","text":"The spa is award-winning.","doc_id":"p3","excerpt":"The award-winning Waldorf Astoria Chicago Spa & Health Club","topic":"spa-award","as_of":null}
-],
-"highlights":["r-2","r-10","r-13","r-14","r-15","r-16","r-1","r-11"],
-"contradictions":[{"topic":"room-count","note":"p1 says 214 rooms and suites, p3 lists 215 rooms","sources":[{"doc_id":"p1","excerpt":"featuring 214 elegantly designed rooms and suites across 19 floors"},{"doc_id":"p3","excerpt":"Rooms\n215"}]}]}
+{
+ "facts": [
+  {
+   "id": "r-1",
+   "category": "design_history",
+   "kind": "fact",
+   "text": "The hotel features Parisian-inspired decor.",
+   "doc_id": "p1",
+   "excerpt": "Enjoy Parisian-inspired decor, a private courtyard entrance, and terraces and fireplaces in select suites.",
+   "topic": "decor",
+   "as_of": null
+  },
+  {
+   "id": "r-2",
+   "category": "design_history",
+   "kind": "fact",
+   "text": "The hotel has a private courtyard entrance.",
+   "doc_id": "p1",
+   "excerpt": "Enjoy Parisian-inspired decor, a private courtyard entrance, and terraces and fireplaces in select suites.",
+   "topic": "courtyard-entrance",
+   "as_of": null
+  },
+  {
+   "id": "r-3",
+   "category": "rooms",
+   "kind": "fact",
+   "text": "Select suites have terraces and fireplaces.",
+   "doc_id": "p1",
+   "excerpt": "Enjoy Parisian-inspired decor, a private courtyard entrance, and terraces and fireplaces in select suites.",
+   "topic": "suite-terraces-fireplaces",
+   "as_of": null
+  },
+  {
+   "id": "r-4",
+   "category": "location",
+   "kind": "fact",
+   "text": "The hotel is in downtown Chicago's Gold Coast neighborhood.",
+   "doc_id": "p1",
+   "excerpt": "Gold Coast neighborhood",
+   "topic": "neighborhood",
+   "as_of": null
+  },
+  {
+   "id": "r-5",
+   "category": "amenities",
+   "kind": "fact",
+   "text": "The hotel has an indoor pool.",
+   "doc_id": "p1",
+   "excerpt": "Smoke-free\n\nIndoor pool",
+   "topic": "pool",
+   "as_of": null
+  },
+  {
+   "id": "r-6",
+   "category": "amenities",
+   "kind": "fact",
+   "text": "The hotel has a spa.",
+   "doc_id": "p1",
+   "excerpt": "Digital Key\n\nSpa\n\nLuxury",
+   "topic": "spa",
+   "as_of": null
+  },
+  {
+   "id": "r-7",
+   "category": "practical",
+   "kind": "fact",
+   "text": "The hotel is pet-friendly.",
+   "doc_id": "p1",
+   "excerpt": "Pet-Friendly",
+   "topic": "pets",
+   "as_of": null
+  },
+  {
+   "id": "r-8",
+   "category": "family",
+   "kind": "fact",
+   "text": "The hotel offers childcare and cribs.",
+   "doc_id": "p1",
+   "excerpt": "Cribs\n\nChildcare",
+   "topic": "childcare",
+   "as_of": null
+  },
+  {
+   "id": "r-9",
+   "category": "practical",
+   "kind": "fact",
+   "text": "The hotel offers EV charging.",
+   "doc_id": "p1",
+   "excerpt": "EV charging\n\nStreaming entertainment",
+   "topic": "ev-charging",
+   "as_of": null
+  },
+  {
+   "id": "r-10",
+   "category": "design_history",
+   "kind": "fact",
+   "text": "The hotel's motor court is credited to architect Lucien Lagrange.",
+   "doc_id": "p3",
+   "excerpt": "with its regal purple awnings and old-world motor court (credit celebrated architect Lucien Lagrange)",
+   "topic": "architect",
+   "as_of": null
+  },
+  {
+   "id": "r-11",
+   "category": "dining",
+   "kind": "fact",
+   "text": "Brass Tack on the third floor serves breakfast, lunch, dinner and weekend brunch.",
+   "doc_id": "p3",
+   "excerpt": "Visit Brass Tack on the third floor for breakfast, lunch, and dinner (and weekend brunch).",
+   "topic": "brass-tack",
+   "as_of": null
+  },
+  {
+   "id": "r-12",
+   "category": "dining",
+   "kind": "fact",
+   "text": "Brass Tack serves modern American-meets-French brasserie fare.",
+   "doc_id": "p3",
+   "excerpt": "serve modern American-meets-French brasserie fare",
+   "topic": "brass-tack-cuisine",
+   "as_of": null
+  },
+  {
+   "id": "r-13",
+   "category": "dining",
+   "kind": "fact",
+   "text": "Bernard's is a craft cocktail and Champagne speakeasy on the second floor.",
+   "doc_id": "p3",
+   "excerpt": "the second floor’s intimate craft cocktail and Champagne speakeasy",
+   "topic": "bernards",
+   "as_of": null
+  },
+  {
+   "id": "r-14",
+   "category": "design_history",
+   "kind": "fact",
+   "text": "Bernard's is named for Bernard Heerey, who owned the land the hotel was built on and donated the sale proceeds to Chicago youth organizations.",
+   "doc_id": "p3",
+   "excerpt": "The hotel was originally built on land owned by Bernard Heerey, who donated proceeds of the sale to Chicago youth organizations",
+   "topic": "heerey",
+   "as_of": null
+  },
+  {
+   "id": "r-15",
+   "category": "amenities",
+   "kind": "fact",
+   "text": "The spa has eucalyptus steam rooms, a dry sauna, jacuzzis and an outdoor spa terrace.",
+   "doc_id": "p3",
+   "excerpt": "amenities like the eucalyptus steam rooms, dry sauna, jacuzzis, and outdoor spa terrace",
+   "topic": "spa-facilities",
+   "as_of": null
+  },
+  {
+   "id": "r-16",
+   "category": "experiences",
+   "kind": "fact",
+   "text": "An annual holiday ceremony lights the Gold Coast's largest tree with 14,000 lights, benefiting Ann & Robert H. Lurie Children's Hospital.",
+   "doc_id": "p3",
+   "excerpt": "when the Gold Coast’s largest tree is illuminated with 14,000 twinkling lights—an event benefitting Ann & Robert H. Lurie Children's Hospital",
+   "topic": "holiday-tree",
+   "as_of": null
+  },
+  {
+   "id": "r-17",
+   "category": "family",
+   "kind": "fact",
+   "text": "Kids may get teddy bears on arrival or an in-room tent set-up.",
+   "doc_id": "p3",
+   "excerpt": "kids will enjoy thoughtful touches like teddy bears upon arrival or an in-room tent set-up",
+   "topic": "kids-touches",
+   "as_of": null
+  },
+  {
+   "id": "r-18",
+   "category": "practical",
+   "kind": "fact",
+   "text": "A Personal Concierge team can arrange touches such as a courtesy car for pick-ups and drop-offs.",
+   "doc_id": "p3",
+   "excerpt": "a Personal Concierge team helps to accommodate special requests and touches before, during, and after stays (e.g. a courtesy car for pick-ups and drop-offs",
+   "topic": "concierge",
+   "as_of": null
+  },
+  {
+   "id": "r-19",
+   "category": "rooms",
+   "kind": "fact",
+   "text": "Rooms have a floral headboard from designer Ashley Woodson Bailey.",
+   "doc_id": "p3",
+   "excerpt": "a whimsical, floral headboard from designer Ashley Woodson Bailey serves as a centerpiece",
+   "topic": "headboard",
+   "as_of": null
+  },
+  {
+   "id": "r-20",
+   "category": "amenities",
+   "kind": "unresolved",
+   "text": "The spa is award-winning.",
+   "doc_id": "p3",
+   "excerpt": "The award-winning Waldorf Astoria Chicago Spa & Health Club",
+   "topic": "spa-award",
+   "as_of": null
+  }
+ ],
+ "highlights": [
+  "r-2",
+  "r-10",
+  "r-13",
+  "r-14",
+  "r-15",
+  "r-16",
+  "r-1",
+  "r-11"
+ ],
+ "contradictions": [
+  {
+   "topic": "room-count",
+   "note": "p1 says 214 rooms and suites, p3 lists 215 rooms",
+   "sources": [
+    {
+     "doc_id": "p1",
+     "excerpt": "featuring 214 elegantly designed rooms and suites across 19 floors"
+    },
+    {
+     "doc_id": "p3",
+     "excerpt": "Rooms\n215"
+    }
+   ]
+  }
+ ]
+}
