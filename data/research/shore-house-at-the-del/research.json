@@ -1,9 +1,10 @@
 {
   "slug": "shore-house-at-the-del",
-  "status": "awaiting_extraction",
+  "status": "needs_review",
   "partial": false,
   "reasons": [
-    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+    "https://www.hoteldel.com/stay/shore-house/: hoteldel.com does not carry the hotel's name; an independent hotel's own site normally does",
+    "official website could not be confirmed; flag for review"
   ],
   "identity": {
     "hotel": {
@@ -12,57 +13,29 @@
       "country": "US"
     },
     "affiliation": {
-      "kind": "chain",
-      "chain": "hilton"
+      "kind": "unknown"
     },
-    "evidence": [
-      "page is on Hilton's own site (hilton.com)",
-      "100% of the hotel name appears on the page",
-      "location matches (Coronado, US)"
+    "evidence": [],
+    "reasons": [
+      "https://www.hoteldel.com/stay/shore-house/: hoteldel.com does not carry the hotel's name; an independent hotel's own site normally does",
+      "official website could not be confirmed; flag for review"
     ],
-    "reasons": [],
     "candidates": [
-      "https://www.hoteldel.com/stay/shore-house/",
-      "https://lajollamom.com/shore-house-at-the-del/",
-      "https://www.hilton.com/en/hotels/sanrhol-shore-house-at-the-del/"
+      "https://www.hoteldel.com/stay/shore-house/"
     ],
-    "checked_at": "2026-10-15T16:14:26.094Z",
-    "status": "confirmed",
-    "official_url": "https://www.hilton.com/en/hotels/sanrhol-shore-house-at-the-del/",
-    "base_url": "https://www.hilton.com/en/hotels/sanrhol-shore-house-at-the-del/",
-    "host": "hilton.com",
-    "checks": {
-      "name_coverage": 1,
-      "location_match": true
-    }
+    "checked_at": "2026-10-15T16:26:37.680Z",
+    "status": "needs_review"
   },
-  "pages": [
-    {
-      "id": "p1",
-      "url": "https://www.hilton.com/en/hotels/sanrhol-shore-house-at-the-del/",
-      "tier": "official",
-      "fetched_at": "2026-10-15T16:15:28.595Z",
-      "source": "cache"
-    }
-  ],
-  "inaccessible": [
-    {
-      "url": "https://www.hilton.com/en/hotels/sanrhol-shore-house-at-the-del/",
-      "reason": "no same-property sub-page links found on the home page"
-    },
-    {
-      "url": "cntraveler.com",
-      "reason": "no Condé Nast Traveler hotel page found"
-    }
-  ],
+  "pages": [],
+  "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 5,
-    "firecrawl_searches": 2,
-    "cache_hits": 2,
+    "firecrawl_calls": 1,
+    "firecrawl_searches": 0,
+    "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 1,
-    "chars": 169,
-    "est_claude_tokens": 42
+    "pages": 0,
+    "chars": 0,
+    "est_claude_tokens": 0
   },
   "limits": {
     "maxPages": 12,
@@ -70,5 +43,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T16:16:02.696Z"
+  "researched_at": "2026-10-15T16:26:39.907Z"
 }

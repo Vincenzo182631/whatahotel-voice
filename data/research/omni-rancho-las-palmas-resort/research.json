@@ -1,0 +1,73 @@
+{
+  "slug": "omni-rancho-las-palmas-resort",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Omni Rancho Las Palmas Resort",
+      "city": "Rancho Mirage",
+      "country": "US"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Rancho Mirage, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.omnihotels.com/hotels/palm-springs-rancho-las-palmas"
+    ],
+    "checked_at": "2026-10-15T16:28:03.525Z",
+    "status": "confirmed",
+    "official_url": "https://www.omnihotels.com/hotels/palm-springs-rancho-las-palmas",
+    "base_url": "https://www.omnihotels.com/",
+    "host": "omnihotels.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.omnihotels.com/hotels/palm-springs-rancho-las-palmas",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:28:09.190Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.cntraveler.com/hotels/united-states/rancho-mirage/omni-rancho-las-palmas-resort---spa--rancho-mirage",
+      "tier": "editorial",
+      "fetched_at": "2026-10-15T16:28:27.693Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.omnihotels.com/",
+      "reason": "no same-property sub-page links found on the home page"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 3,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 2,
+    "chars": 10826,
+    "est_claude_tokens": 2707
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-15T16:28:27.694Z"
+}
