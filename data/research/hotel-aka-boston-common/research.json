@@ -1,9 +1,10 @@
 {
   "slug": "hotel-aka-boston-common",
-  "status": "awaiting_extraction",
+  "status": "ready",
   "partial": true,
   "reasons": [
-    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue"
+    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue",
+    "coverage is partial: a limit stopped the page fetch early; raise the limits and rerun to read the rest"
   ],
   "identity": {
     "hotel": {
@@ -135,5 +136,133 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T20:57:10.667Z"
+  "researched_at": "2026-10-15T20:57:10.667Z",
+  "hotel": {
+    "name": "Hotel AKA Boston Common",
+    "city": "Boston",
+    "country": "US",
+    "confirmed_affiliation": {
+      "kind": "independent"
+    }
+  },
+  "official_url": "https://www.stayaka.com/hotel-aka-boston-common",
+  "verified_facts": [
+    {
+      "id": "r-1",
+      "category": "location",
+      "text": "The hotel sits at the crossroads of Beacon Hill, Downtown Crossing and the Financial District.",
+      "source_url": "https://www.stayaka.com/hotel-aka-boston-common",
+      "source_tier": "official",
+      "excerpt": "Nestled at the crossroads of Beacon Hill, Downtown Crossing, and the Financial District"
+    },
+    {
+      "id": "r-2",
+      "category": "location",
+      "text": "The hotel is moments from Boston Common, the Freedom Trail and the city's theaters.",
+      "source_url": "https://www.stayaka.com/hotel-aka-boston-common",
+      "source_tier": "official",
+      "excerpt": "our hotel places you moments from Boston Common, the Freedom Trail, and world-renowned theaters"
+    },
+    {
+      "id": "r-3",
+      "category": "design_history",
+      "text": "The hotel's reimagined public spaces, including the lobby, were designed by Rafael de Cardenas.",
+      "source_url": "https://www.stayaka.com/hotel-aka-boston-common",
+      "source_tier": "official",
+      "excerpt": "Experience reimagined spaces designed by Rafael de Cárdenas, including a refined and inviting lobby crafted for seamless arrivals and relaxation."
+    },
+    {
+      "id": "r-4",
+      "category": "rooms",
+      "text": "The redesigned guest rooms are by Studio NA.GI, with minimalist Scandinavian influences.",
+      "source_url": "https://www.stayaka.com/hotel-aka-boston-common",
+      "source_tier": "official",
+      "excerpt": "Discover redesigned accommodations by Studio NA.GI, where minimalist Scandinavian influences meet modern luxury"
+    },
+    {
+      "id": "r-5",
+      "category": "rooms",
+      "text": "The hotel's 1,000-square-foot penthouse has floor-to-ceiling windows framing panoramic city views.",
+      "source_url": "https://www.stayaka.com/hotel-aka-boston-common",
+      "source_tier": "official",
+      "excerpt": "Elevate your stay in our expansive 1,000-square-foot penthouse, featuring floor-to-ceiling windows that frame panoramic city views."
+    },
+    {
+      "id": "r-6",
+      "category": "amenities",
+      "text": "The hotel has a 24-hour Technogym fitness center.",
+      "source_url": "https://www.stayaka.com/hotel-aka-boston-common",
+      "source_tier": "official",
+      "excerpt": "Stay active in the 24-hour Technogym fitness center"
+    },
+    {
+      "id": "r-7",
+      "category": "dining",
+      "text": "a.bar is an intimate lobby lounge with rich wood paneling, sleek accents and moody lighting.",
+      "source_url": "https://www.stayaka.com/hotel-aka-boston-common",
+      "source_tier": "official",
+      "excerpt": "Discover a.bar, an intimate lobby lounge where rich wood paneling, sleek accents, and moody lighting create an eclectic yet inviting atmosphere."
+    },
+    {
+      "id": "r-8",
+      "category": "dining",
+      "text": "On-site restaurant The Bosworth blends New England flavors with Mediterranean-inspired cooking.",
+      "source_url": "https://www.stayaka.com/hotel-aka-boston-common",
+      "source_tier": "official",
+      "excerpt": "on-site dining at The Bosworth, where New England flavors meet Mediterranean-inspired creativity"
+    },
+    {
+      "id": "r-9",
+      "category": "practical",
+      "text": "Services include valet parking, Tesla charging stations, laundry, dry cleaning and business services.",
+      "source_url": "https://www.stayaka.com/hotel-aka-boston-common",
+      "source_tier": "official",
+      "excerpt": "From valet parking and Tesla charging stations to laundry, dry cleaning, and business services"
+    },
+    {
+      "id": "r-10",
+      "category": "practical",
+      "text": "The guest services team is available 24/7.",
+      "source_url": "https://www.stayaka.com/hotel-aka-boston-common",
+      "source_tier": "official",
+      "excerpt": "Hotel AKA Boston Common ensures a seamless stay with a world-class guest services team available 24/7."
+    },
+    {
+      "id": "r-11",
+      "category": "design_history",
+      "text": "Conde Nast Traveler's 2025 Readers' Choice Awards named the hotel one of the Top 50 Hotels in the World and ranked it #3 in Boston.",
+      "source_url": "https://www.stayaka.com/hotel-aka-boston-common",
+      "source_tier": "official",
+      "excerpt": "named one of the Top 50 Hotels in the World and ranked #3 in Boston in Condé Nast Traveler’s 2025 Readers’ Choice Awards",
+      "as_of": "2025",
+      "needs_date_check": true
+    },
+    {
+      "id": "r-12",
+      "category": "amenities",
+      "text": "The hotel has versatile meeting and event spaces.",
+      "source_url": "https://www.stayaka.com/hotel-aka-boston-common",
+      "source_tier": "official",
+      "excerpt": "versatile meeting and event spaces"
+    }
+  ],
+  "highlights": [
+    "r-11",
+    "r-3",
+    "r-4",
+    "r-5",
+    "r-1",
+    "r-2",
+    "r-7"
+  ],
+  "subjective": [],
+  "unresolved": [
+    {
+      "id": "r-13",
+      "text": "The hotel has been newly transformed.",
+      "reason": "marked unresolved"
+    }
+  ],
+  "rejected": [],
+  "contradictions": []
 }
