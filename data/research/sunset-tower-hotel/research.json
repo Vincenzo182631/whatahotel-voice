@@ -1,11 +1,8 @@
 {
   "slug": "sunset-tower-hotel",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "search failed: fetch failed",
-    "no candidate official site found; flag for review"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "Sunset Tower Hotel",
@@ -13,27 +10,79 @@
       "country": "US"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "search failed: fetch failed",
-      "no candidate official site found; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (West Hollywood, US)"
     ],
-    "candidates": [],
-    "checked_at": "2026-10-15T16:16:04.084Z",
-    "status": "needs_review"
+    "reasons": [],
+    "candidates": [
+      "https://www.sunsettowerhotel.com/"
+    ],
+    "checked_at": "2026-10-15T16:36:10.534Z",
+    "status": "confirmed",
+    "official_url": "https://www.sunsettowerhotel.com/",
+    "base_url": "https://www.sunsettowerhotel.com/",
+    "host": "sunsettowerhotel.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.sunsettowerhotel.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:36:17.812Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.sunsettowerhotel.com/rooms-suites/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:36:26.045Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.sunsettowerhotel.com/restaurants-and-bar/tower-bar/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:36:29.248Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.sunsettowerhotel.com/amenities/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:36:33.926Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.sunsettowerhotel.com/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:36:38.012Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.cntraveler.com/hotels/west-hollywood/sunset-tower-hotel",
+      "tier": "editorial",
+      "fetched_at": "2026-10-15T16:36:47.391Z",
+      "source": "direct"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 1,
+    "firecrawl_calls": 8,
     "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 6,
+    "chars": 23655,
+    "est_claude_tokens": 5914
   },
   "limits": {
     "maxPages": 12,
@@ -41,5 +90,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T16:16:21.665Z"
+  "researched_at": "2026-10-15T16:36:47.391Z"
 }
