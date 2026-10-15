@@ -1,11 +1,8 @@
 {
   "slug": "ojai-valley-inn-spa",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "https://www.ojaivalleyinn.com/: page does not mention Santa Barbara",
-    "official website could not be confirmed; flag for review"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "Ojai Valley Inn & Spa",
@@ -13,29 +10,93 @@
       "country": "US"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.ojaivalleyinn.com/: page does not mention Santa Barbara",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "75% of the hotel name appears on the page",
+      "confirmed by hand as this hotel's own page (page does not mention Santa Barbara)"
     ],
+    "reasons": [],
     "candidates": [
       "https://www.ojaivalleyinn.com/"
     ],
-    "checked_at": "2026-10-15T16:34:33.242Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-15T20:59:26.599Z",
+    "status": "confirmed",
+    "official_url": "https://www.ojaivalleyinn.com/",
+    "base_url": "https://www.ojaivalleyinn.com/",
+    "host": "ojaivalleyinn.com",
+    "checks": {
+      "name_coverage": 0.75,
+      "location_match": false
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.ojaivalleyinn.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:59:31.245Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.ojaivalleyinn.com/ojai-hotel-rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:59:42.858Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.ojaivalleyinn.com/ojai-restaurants/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:59:44.979Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.ojaivalleyinn.com/ojai-activities/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:59:49.411Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.ojaivalleyinn.com/ojai-golf-course/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:59:51.270Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.ojaivalleyinn.com/autumn-activities-ojai/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:59:57.505Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.ojaivalleyinn.com/preserving-the-valley/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T21:00:00.794Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.cntraveler.com/hotels/united-states/ojai/ojai-valley-inn-spa",
+      "tier": "editorial",
+      "fetched_at": "2026-10-15T21:00:09.415Z",
+      "source": "direct"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 1,
-    "firecrawl_searches": 0,
+    "firecrawl_calls": 10,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 8,
+    "chars": 52529,
+    "est_claude_tokens": 13132
   },
   "limits": {
     "maxPages": 12,
@@ -43,5 +104,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T16:34:34.068Z"
+  "researched_at": "2026-10-15T21:00:09.415Z"
 }

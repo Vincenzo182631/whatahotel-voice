@@ -1,10 +1,9 @@
 {
   "slug": "the-green-o-br-all-inclusive-br",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
   "reasons": [
-    "https://www.pawsup.com/green-o/: pawsup.com does not carry the hotel's name; an independent hotel's own site normally does; only 40% of the hotel name appears on the page; page does not mention Greenough",
-    "official website could not be confirmed; flag for review"
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
   ],
   "identity": {
     "hotel": {
@@ -13,29 +12,97 @@
       "country": "US"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.pawsup.com/green-o/: pawsup.com does not carry the hotel's name; an independent hotel's own site normally does; only 40% of the hotel name appears on the page; page does not mention Greenough",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "confirmed by hand as this hotel's own page (pawsup.com does not carry the hotel's name; an independent hotel's own site normally does; only 40% of the hotel name appears on the page; page does not mention Greenough)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://www.thegreeno.com/"
+      "https://www.pawsup.com/green-o/"
     ],
-    "checked_at": "2026-10-15T16:36:10.740Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-15T20:57:11.905Z",
+    "status": "confirmed",
+    "official_url": "https://www.pawsup.com/green-o/",
+    "base_url": "https://www.pawsup.com/",
+    "host": "pawsup.com",
+    "checks": {
+      "name_coverage": 0.4,
+      "location_match": false
+    }
   },
-  "pages": [],
-  "inaccessible": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.pawsup.com/green-o/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:57:16.615Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.pawsup.com/accommodations/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:57:25.645Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.pawsup.com/accommodation/tree-haus/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:57:29.358Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.pawsup.com/accommodation/green-haus/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:57:33.390Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.pawsup.com/accommodation/light-haus/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:57:37.364Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.pawsup.com/accommodation/round-haus/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:57:41.393Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.pawsup.com/experience/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:57:45.216Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.pawsup.com/whats-included/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:57:49.367Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
   "usage": {
-    "firecrawl_calls": 1,
-    "firecrawl_searches": 0,
+    "firecrawl_calls": 11,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 8,
+    "chars": 27550,
+    "est_claude_tokens": 6888
   },
   "limits": {
     "maxPages": 12,
@@ -43,5 +110,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T16:36:13.805Z"
+  "researched_at": "2026-10-15T20:57:57.761Z"
 }

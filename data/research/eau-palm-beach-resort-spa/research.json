@@ -1,10 +1,9 @@
 {
   "slug": "eau-palm-beach-resort-spa",
-  "status": "needs_review",
-  "partial": false,
+  "status": "awaiting_extraction",
+  "partial": true,
   "reasons": [
-    "https://www.eauresortandspa.com/: only 0% of the hotel name appears on the page; page does not mention Palm Beach",
-    "official website could not be confirmed; flag for review"
+    "limit reached: 150000 characters of page text; progress saved (5 pages), rerun with higher limits to continue"
   ],
   "identity": {
     "hotel": {
@@ -13,29 +12,71 @@
       "country": "US"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.eauresortandspa.com/: only 0% of the hotel name appears on the page; page does not mention Palm Beach",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "confirmed by hand as this hotel's own page (only 0% of the hotel name appears on the page; page does not mention Palm Beach)"
     ],
+    "reasons": [],
     "candidates": [
       "https://www.eauresortandspa.com/"
     ],
-    "checked_at": "2026-10-15T16:34:10.463Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-15T20:57:59.656Z",
+    "status": "confirmed",
+    "official_url": "https://www.eauresortandspa.com/",
+    "base_url": "https://www.eauresortandspa.com/",
+    "host": "eauresortandspa.com",
+    "checks": {
+      "name_coverage": 0,
+      "location_match": false
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.eauresortandspa.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:58:05.263Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.eauresortandspa.com/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:58:16.214Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.eauresortandspa.com/restaurants-bars/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:58:20.319Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.eauresortandspa.com/restaurants-bars/nobu/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:58:21.338Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.eauresortandspa.com/restaurants-bars/stir/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:58:25.286Z",
+      "source": "firecrawl"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 1,
+    "firecrawl_calls": 8,
     "firecrawl_searches": 0,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 5,
+    "chars": 145979,
+    "est_claude_tokens": 36495
   },
   "limits": {
     "maxPages": 12,
@@ -43,5 +84,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T16:34:12.479Z"
+  "researched_at": "2026-10-15T20:58:29.296Z"
 }

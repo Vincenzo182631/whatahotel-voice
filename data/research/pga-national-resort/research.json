@@ -1,10 +1,10 @@
 {
   "slug": "pga-national-resort",
-  "status": "needs_review",
-  "partial": false,
+  "status": "awaiting_extraction",
+  "partial": true,
   "reasons": [
-    "https://www.pgaresort.com/: pgaresort.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "official website could not be confirmed; flag for review"
+    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue",
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
   ],
   "identity": {
     "hotel": {
@@ -13,29 +13,127 @@
       "country": "US"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.pgaresort.com/: pgaresort.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Palm Beach, US)",
+      "confirmed by hand as this hotel's own page (pgaresort.com does not carry the hotel's name; an independent hotel's own site normally does)"
     ],
+    "reasons": [],
     "candidates": [
       "https://www.pgaresort.com/"
     ],
-    "checked_at": "2026-10-15T16:33:41.896Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-15T20:57:28.345Z",
+    "status": "confirmed",
+    "official_url": "https://www.pgaresort.com/",
+    "base_url": "https://www.pgaresort.com/",
+    "host": "pgaresort.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
-  "inaccessible": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.pgaresort.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:57:33.181Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.pgaresort.com/stay/suites/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:57:42.532Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.pgaresort.com/stay/cottages/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:57:46.836Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.pgaresort.com/stay/guestrooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:57:50.487Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.pgaresort.com/dining/sushi/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:57:53.165Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.pgaresort.com/spa/treatments/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:57:57.227Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.pgaresort.com/dining/honeybelle/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:58:01.194Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.pgaresort.com/dining/birdies-diner/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:58:05.191Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.pgaresort.com/dining/the-butchers-club/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:58:09.270Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.pgaresort.com/activities/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:58:14.511Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://www.pgaresort.com/spa/specials-and-promotions/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:58:31.427Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p12",
+      "url": "https://www.pgaresort.com/golf/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:58:36.693Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.pgaresort.com/spa/appointments/",
+      "reason": "https://www.pgaresort.com/spa/appointments/: page had almost no text"
+    }
+  ],
   "usage": {
-    "firecrawl_calls": 1,
+    "firecrawl_calls": 16,
     "firecrawl_searches": 0,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 12,
+    "chars": 82948,
+    "est_claude_tokens": 20737
   },
   "limits": {
     "maxPages": 12,
@@ -43,5 +141,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T16:33:43.654Z"
+  "researched_at": "2026-10-15T20:58:39.948Z"
 }

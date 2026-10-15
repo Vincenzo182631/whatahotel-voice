@@ -1,10 +1,9 @@
 {
   "slug": "sea-island-resort",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
   "reasons": [
-    "https://www.seaisland.com/: seaisland.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "official website could not be confirmed; flag for review"
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
   ],
   "identity": {
     "hotel": {
@@ -13,29 +12,113 @@
       "country": "US"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.seaisland.com/: seaisland.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Sea Island, US)",
+      "confirmed by hand as this hotel's own page (seaisland.com does not carry the hotel's name; an independent hotel's own site normally does)"
     ],
+    "reasons": [],
     "candidates": [
       "https://www.seaisland.com/"
     ],
-    "checked_at": "2026-10-15T16:34:08.553Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-15T20:58:41.103Z",
+    "status": "confirmed",
+    "official_url": "https://www.seaisland.com/",
+    "base_url": "https://www.seaisland.com/",
+    "host": "seaisland.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
-  "inaccessible": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.seaisland.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:58:45.810Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.seaisland.com/stay/the-inn/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:58:55.464Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.seaisland.com/stay/the-lodge/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:58:59.055Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.seaisland.com/stay/broadfield/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:59:03.937Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.seaisland.com/stay/the-cloister/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:59:05.868Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.seaisland.com/experience/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:59:09.886Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.seaisland.com/experience/spa-fitness/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:59:15.647Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.seaisland.com/golf/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:59:19.013Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.seaisland.com/experience/shopping/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:59:22.853Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.seaisland.com/experience/activities/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:59:27.840Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
   "usage": {
-    "firecrawl_calls": 1,
-    "firecrawl_searches": 0,
+    "firecrawl_calls": 13,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 10,
+    "chars": 69495,
+    "est_claude_tokens": 17374
   },
   "limits": {
     "maxPages": 12,
@@ -43,5 +126,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T16:34:09.818Z"
+  "researched_at": "2026-10-15T20:59:34.439Z"
 }

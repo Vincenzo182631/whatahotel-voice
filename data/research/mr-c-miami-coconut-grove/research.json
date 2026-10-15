@@ -1,11 +1,8 @@
 {
   "slug": "mr-c-miami-coconut-grove",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "https://www.mrchotels.com/hotels/coconut-grove: mrchotels.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "official website could not be confirmed; flag for review"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "Mr. C Miami - Coconut Grove",
@@ -13,29 +10,59 @@
       "country": "US"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.mrchotels.com/hotels/coconut-grove: mrchotels.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Miami, US)",
+      "confirmed by hand as this hotel's own page (mrchotels.com does not carry the hotel's name; an independent hotel's own site normally does)"
     ],
+    "reasons": [],
     "candidates": [
       "https://www.mrchotels.com/hotels/coconut-grove"
     ],
-    "checked_at": "2026-10-15T16:35:35.691Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-15T20:56:46.913Z",
+    "status": "confirmed",
+    "official_url": "https://www.mrchotels.com/hotels/coconut-grove",
+    "base_url": "https://www.mrchotels.com/",
+    "host": "mrchotels.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.mrchotels.com/hotels/coconut-grove",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:56:51.786Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.mrchotels.com/hotels/coconut-grove/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:57:00.394Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.cntraveler.com/hotels/miami/mr-c-miami-coconut-grove",
+      "tier": "editorial",
+      "fetched_at": "2026-10-15T20:57:04.231Z",
+      "source": "direct"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 1,
-    "firecrawl_searches": 0,
+    "firecrawl_calls": 5,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 3,
+    "chars": 19127,
+    "est_claude_tokens": 4782
   },
   "limits": {
     "maxPages": 12,
@@ -43,5 +70,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T16:35:36.779Z"
+  "researched_at": "2026-10-15T20:57:04.231Z"
 }

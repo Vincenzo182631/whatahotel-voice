@@ -1,10 +1,9 @@
 {
   "slug": "beach-village-at-the-del",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
   "reasons": [
-    "https://www.hoteldel.com/stay/beach-village/: hoteldel.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "official website could not be confirmed; flag for review"
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
   ],
   "identity": {
     "hotel": {
@@ -13,29 +12,120 @@
       "country": "US"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.hoteldel.com/stay/beach-village/: hoteldel.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Coronado, US)",
+      "confirmed by hand as this hotel's own page (hoteldel.com does not carry the hotel's name; an independent hotel's own site normally does)"
     ],
+    "reasons": [],
     "candidates": [
       "https://www.hoteldel.com/stay/beach-village/"
     ],
-    "checked_at": "2026-10-15T16:33:43.394Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-15T20:56:08.747Z",
+    "status": "confirmed",
+    "official_url": "https://www.hoteldel.com/stay/beach-village/",
+    "base_url": "https://www.hoteldel.com/",
+    "host": "hoteldel.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
-  "inaccessible": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hoteldel.com/stay/beach-village/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:56:16.036Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hoteldel.com/stay/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:56:23.989Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hoteldel.com/stay/shore-house/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:56:28.181Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hoteldel.com/stay/views-neighborhood/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:56:32.019Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hoteldel.com/stay/cabanas-neighborhood/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:56:36.018Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.hoteldel.com/stay/victorian-neighborhood/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:56:40.002Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.hoteldel.com/dine/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:56:43.942Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.hoteldel.com/experience/spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:56:48.008Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.hoteldel.com/experience/beach-village-exclusive-experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:56:54.936Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.hoteldel.com/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:56:55.986Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://www.hoteldel.com/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:57:02.636Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
   "usage": {
-    "firecrawl_calls": 1,
-    "firecrawl_searches": 0,
+    "firecrawl_calls": 14,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 11,
+    "chars": 104382,
+    "est_claude_tokens": 26096
   },
   "limits": {
     "maxPages": 12,
@@ -43,5 +133,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T16:33:45.216Z"
+  "researched_at": "2026-10-15T20:57:08.833Z"
 }

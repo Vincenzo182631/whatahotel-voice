@@ -1,10 +1,9 @@
 {
   "slug": "hotel-aka-boston-common",
-  "status": "needs_review",
-  "partial": false,
+  "status": "awaiting_extraction",
+  "partial": true,
   "reasons": [
-    "https://www.stayaka.com/hotel-aka-boston-common: stayaka.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "official website could not be confirmed; flag for review"
+    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue"
   ],
   "identity": {
     "hotel": {
@@ -13,29 +12,122 @@
       "country": "US"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.stayaka.com/hotel-aka-boston-common: stayaka.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Boston, US)",
+      "confirmed by hand as this hotel's own page (stayaka.com does not carry the hotel's name; an independent hotel's own site normally does)"
     ],
+    "reasons": [],
     "candidates": [
       "https://www.stayaka.com/hotel-aka-boston-common"
     ],
-    "checked_at": "2026-10-15T16:34:56.751Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-15T20:56:11.211Z",
+    "status": "confirmed",
+    "official_url": "https://www.stayaka.com/hotel-aka-boston-common",
+    "base_url": "https://www.stayaka.com/",
+    "host": "stayaka.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.stayaka.com/hotel-aka-boston-common",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:56:15.943Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.stayaka.com/contact/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:56:25.805Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.stayaka.com/aka-west-palm/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:56:29.662Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.stayaka.com/aka-marylebone/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:56:33.742Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.stayaka.com/hotel-aka-nomad/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:56:35.990Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.stayaka.com/aka-white-house/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:56:41.740Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.stayaka.com/aka-central-park/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:56:43.973Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.stayaka.com/aka-times-square/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:56:49.852Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.stayaka.com/aka-sutton-place/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:56:54.601Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.stayaka.com/hotel-aka-backbay/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:56:55.996Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://www.stayaka.com/aka-beverly-hills/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:57:03.851Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p12",
+      "url": "https://www.stayaka.com/aka-west-hollywood/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:57:08.493Z",
+      "source": "firecrawl"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 1,
+    "firecrawl_calls": 15,
     "firecrawl_searches": 0,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 12,
+    "chars": 127187,
+    "est_claude_tokens": 31797
   },
   "limits": {
     "maxPages": 12,
@@ -43,5 +135,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T16:34:57.911Z"
+  "researched_at": "2026-10-15T20:57:10.667Z"
 }

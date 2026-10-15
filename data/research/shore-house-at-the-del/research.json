@@ -1,10 +1,9 @@
 {
   "slug": "shore-house-at-the-del",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
   "reasons": [
-    "https://www.hoteldel.com/stay/shore-house/: hoteldel.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "official website could not be confirmed; flag for review"
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
   ],
   "identity": {
     "hotel": {
@@ -13,29 +12,127 @@
       "country": "US"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.hoteldel.com/stay/shore-house/: hoteldel.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Coronado, US)",
+      "confirmed by hand as this hotel's own page (hoteldel.com does not carry the hotel's name; an independent hotel's own site normally does)"
     ],
+    "reasons": [],
     "candidates": [
       "https://www.hoteldel.com/stay/shore-house/"
     ],
-    "checked_at": "2026-10-15T16:33:52.102Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-15T20:57:10.114Z",
+    "status": "confirmed",
+    "official_url": "https://www.hoteldel.com/stay/shore-house/",
+    "base_url": "https://www.hoteldel.com/",
+    "host": "hoteldel.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
-  "inaccessible": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hoteldel.com/stay/shore-house/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:57:15.001Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hoteldel.com/stay/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:57:22.896Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hoteldel.com/stay/beach-village/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:57:26.990Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hoteldel.com/stay/views-neighborhood/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:57:30.895Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hoteldel.com/stay/cabanas-neighborhood/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:57:34.914Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.hoteldel.com/stay/victorian-neighborhood/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:57:38.914Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.hoteldel.com/dine/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:57:42.860Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.hoteldel.com/dine/shore-house-bistro/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:57:49.398Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.hoteldel.com/experience/spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:57:50.988Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.hoteldel.com/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:57:54.931Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://www.hoteldel.com/experience/shore-house-exclusive-experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:58:02.137Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p12",
+      "url": "https://www.hoteldel.com/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:58:02.878Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
   "usage": {
-    "firecrawl_calls": 1,
-    "firecrawl_searches": 0,
+    "firecrawl_calls": 15,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 12,
+    "chars": 108419,
+    "est_claude_tokens": 27105
   },
   "limits": {
     "maxPages": 12,
@@ -43,5 +140,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T16:33:54.659Z"
+  "researched_at": "2026-10-15T20:58:11.129Z"
 }

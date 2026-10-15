@@ -1,10 +1,9 @@
 {
   "slug": "l-auberge-del-mar",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
   "reasons": [
-    "https://auberge.com/laubergedelmar/: only 67% of the hotel name appears on the page",
-    "official website could not be confirmed; flag for review"
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
   ],
   "identity": {
     "hotel": {
@@ -16,27 +15,54 @@
       "kind": "chain",
       "chain": "auberge"
     },
-    "evidence": [],
-    "reasons": [
-      "https://auberge.com/laubergedelmar/: only 67% of the hotel name appears on the page",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "location matches (San Diego, US)",
+      "confirmed by hand as this hotel's own page (only 67% of the hotel name appears on the page)"
     ],
+    "reasons": [],
     "candidates": [
       "https://auberge.com/laubergedelmar/"
     ],
-    "checked_at": "2026-10-15T16:36:18.695Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-15T20:58:40.494Z",
+    "status": "confirmed",
+    "official_url": "https://auberge.com/laubergedelmar/",
+    "base_url": "https://auberge.com/laubergedelmar/",
+    "host": "auberge.com",
+    "checks": {
+      "name_coverage": 0.67,
+      "location_match": true
+    }
   },
-  "pages": [],
-  "inaccessible": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://auberge.com/laubergedelmar/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:58:45.444Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.cntraveler.com/hotels/del-mar/lauberge-del-mar",
+      "tier": "editorial",
+      "fetched_at": "2026-10-15T20:59:01.147Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://auberge.com/laubergedelmar/",
+      "reason": "no same-property sub-page links found on the home page"
+    }
+  ],
   "usage": {
-    "firecrawl_calls": 1,
-    "firecrawl_searches": 0,
+    "firecrawl_calls": 4,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 2,
+    "chars": 10567,
+    "est_claude_tokens": 2642
   },
   "limits": {
     "maxPages": 12,
@@ -44,5 +70,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T16:36:20.067Z"
+  "researched_at": "2026-10-15T20:59:01.147Z"
 }
