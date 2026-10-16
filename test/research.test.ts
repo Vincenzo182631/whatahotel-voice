@@ -188,6 +188,8 @@ describe("assessPage", () => {
     const err = assessPage(hotel, aff, { url: "https://www.hilton.com/en/hotels/osawawa-waldorf-astoria-osaka/", text: "Something went wrong. Maybe it's us, maybe it's you. Reference No. 27.d6ab Osaka Japan" });
     expect(err.ok).toBe(false);
     expect(err.reasons.join(" ")).toMatch(/error page/);
+    const longErr = assessPage({ name: "The Reef at Atlantis", city: "Nassau", country: "Bahamas" }, aff, { url: "https://www.marriott.com/en-us/hotels/nasrf-the-reef-at-atlantis-autograph-collection/overview/", text: `Loading...\n\nSorry! - Page Not Found on Marriott.com (404 Error)\n\n${filler.repeat(20)} The Reef at Atlantis Nassau` });
+    expect(longErr.reasons.join(" ")).toMatch(/error page/);
     const jobs = assessPage({ name: "Canyon Ranch Woodside", city: "Woodside", country: "United States" }, { kind: "unknown" as const }, { url: "https://careers.canyonranch.com/retreat", text: `Canyon Ranch Woodside ${filler} Woodside` });
     expect(jobs.reasons.join(" ")).toMatch(/careers site/);
     const work = assessPage({ name: "The Reef House", city: "Palm Cove", country: "Australia" }, { kind: "unknown" as const }, { url: "https://www.reefhouse.com.au/work/", text: `The Reef House ${filler} Palm Cove` });

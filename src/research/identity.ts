@@ -109,6 +109,8 @@ export interface PageForCheck {
 
 export const isErrorPage = (title: string | undefined, text: string) => {
   const t = `${title ?? ""}\n${text.slice(0, 1500)}`;
+  // chain 404 pages (marriott.com) carry long booking widgets, so a 404 headline counts whatever the length
+  if (/^\W*(sorry!?\s*-\s*)?page not found\b|\b404 error\b/i.test(`${title ?? ""}\n${text.trim().slice(0, 200)}`)) return true;
   return text.trim().length < 2000 && /something went wrong|page not found|\b404\b|page (you requested|cannot be found|doesn't exist|does not exist)/i.test(t);
 };
 
