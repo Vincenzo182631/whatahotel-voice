@@ -1,10 +1,9 @@
 {
   "slug": "the-ranch-at-rock-creek-br-all-inclusive",
-  "status": "needs_review",
-  "partial": false,
+  "status": "awaiting_extraction",
+  "partial": true,
   "reasons": [
-    "https://theranchatrockcreek.com/: only 17% of the hotel name appears on the page; page does not mention Philipsburg",
-    "official website could not be confirmed; flag for review"
+    "limit reached: 150000 characters of page text; progress saved (7 pages), rerun with higher limits to continue"
   ],
   "identity": {
     "hotel": {
@@ -13,29 +12,85 @@
       "country": "US"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://theranchatrockcreek.com/: only 17% of the hotel name appears on the page; page does not mention Philipsburg",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "confirmed by hand as this hotel's own page (only 17% of the hotel name appears on the page; page does not mention Philipsburg)"
     ],
+    "reasons": [],
     "candidates": [
       "https://theranchatrockcreek.com/"
     ],
-    "checked_at": "2026-10-15T23:51:00.415Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-16T01:02:51.591Z",
+    "status": "confirmed",
+    "official_url": "https://theranchatrockcreek.com/",
+    "base_url": "https://theranchatrockcreek.com/",
+    "host": "theranchatrockcreek.com",
+    "checks": {
+      "name_coverage": 0.17,
+      "location_match": false
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://theranchatrockcreek.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:02:56.672Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://theranchatrockcreek.com/accommodations/",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:03:04.762Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://theranchatrockcreek.com/accommodation/glamping/",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:03:10.294Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://theranchatrockcreek.com/accommodation/historic-barn/",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:03:16.020Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://theranchatrockcreek.com/accommodation/luxury-cabins/",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:03:18.630Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://theranchatrockcreek.com/accommodation/the-granite-lodge/",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:03:22.294Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://theranchatrockcreek.com/activities/",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:03:24.754Z",
+      "source": "firecrawl"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 1,
+    "firecrawl_calls": 10,
     "firecrawl_searches": 0,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 7,
+    "chars": 142875,
+    "est_claude_tokens": 35719
   },
   "limits": {
     "maxPages": 12,
@@ -43,5 +98,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T23:51:01.367Z"
+  "researched_at": "2026-10-16T01:03:30.396Z"
 }
