@@ -190,7 +190,8 @@ export const CHAINS: Chain[] = [
 ];
 
 export const chainById = (id: string) => CHAINS.find((c) => c.id === id);
-export const chainOfName = (name: string) => CHAINS.find((c) => c.match.test(name));
+// "Hilton Head" is a place (Omni Hilton Head Oceanfront Resort), not the Hilton chain
+export const chainOfName = (name: string) => CHAINS.find((c) => c.match.test(name.replace(/\bhilton head\b/gi, "")));
 
 const hostIs = (host: string, domain: string) => host === domain || host.endsWith(`.${domain}`);
 const bare = (host: string) => host.replace(/^www\./, "").toLowerCase();

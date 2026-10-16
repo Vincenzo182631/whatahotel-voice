@@ -30,6 +30,8 @@ describe("chains", () => {
   it("matches chains by name and host, and flags third-party sites", () => {
     expect(chainOfName("Four Seasons Hotel Sydney")?.id).toBe("four-seasons");
     expect(chainOfName("Il San Pietro di Positano")).toBeUndefined();
+    expect(chainOfName("Omni Hilton Head Oceanfront Resort")).toBeUndefined();
+    expect(chainOfName("Hilton Head Marriott Resort")?.id).not.toBe("hilton");
     expect(chainOfHost("www.mandarinoriental.com")?.id).toBe("mandarin-oriental");
     expect(isThirdParty("www.booking.com")).toBe(true);
     expect(isThirdParty("www.whatahotel.com")).toBe(true);
