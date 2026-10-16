@@ -1,10 +1,9 @@
 {
   "slug": "itz-ana-resort",
-  "status": "needs_review",
-  "partial": false,
+  "status": "awaiting_extraction",
+  "partial": true,
   "reasons": [
-    "https://www.itzanabelize.com/: itzanabelize.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "official website could not be confirmed; flag for review"
+    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue"
   ],
   "identity": {
     "hotel": {
@@ -13,29 +12,122 @@
       "country": "BZ"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.itzanabelize.com/: itzanabelize.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Placencia, BZ)",
+      "confirmed by hand as this hotel's own page (itzanabelize.com does not carry the hotel's name; an independent hotel's own site normally does)"
     ],
+    "reasons": [],
     "candidates": [
       "https://www.itzanabelize.com/"
     ],
-    "checked_at": "2026-10-15T23:51:13.668Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-16T01:02:56.180Z",
+    "status": "confirmed",
+    "official_url": "https://www.itzanabelize.com/",
+    "base_url": "https://www.itzanabelize.com/",
+    "host": "itzanabelize.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.itzanabelize.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:03:01.056Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.itzanabelize.com/accommodations/penthouses/",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:03:13.259Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.itzanabelize.com/accommodations/beach-villas/",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:03:24.373Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.itzanabelize.com/accommodations/marina-villas/",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:03:29.105Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.itzanabelize.com/explore/",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:03:33.549Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.itzanabelize.com/culinary-experience/",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:03:37.340Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.itzanabelize.com/sea-tours-and-cultural-tours/",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:03:45.174Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.itzanabelize.com/health-and-wellness/",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:03:55.860Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.itzanabelize.com/the-resort/marina/",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:04:02.048Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.itzanabelize.com/specials-promotions/",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:04:08.974Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://www.itzanabelize.com/coral-caye-private-island/",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:04:13.477Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p12",
+      "url": "https://www.itzanabelize.com/experiences-and-adventures/",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:04:18.303Z",
+      "source": "firecrawl"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 1,
+    "firecrawl_calls": 15,
     "firecrawl_searches": 0,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 12,
+    "chars": 105723,
+    "est_claude_tokens": 26431
   },
   "limits": {
     "maxPages": 12,
@@ -43,5 +135,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T23:51:14.779Z"
+  "researched_at": "2026-10-16T01:04:23.236Z"
 }

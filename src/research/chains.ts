@@ -207,7 +207,7 @@ const THIRD_PARTY = [
   "youtube.com", "yelp.", "lonelyplanet.", "fodors.", "forbes.com", "telegraph.co.uk", "cntraveler.com", "whatahotel.com",
   "mrandmrssmith.", "smallluxuryhotels.", "slh.com", "leadinghotels.", "relaischateaux.", "preferredhotels.", "virtuoso.",
   "tablethotels.", "hotelsone.", "travelweekly.", "travelagewest.", "travelpulse.", "forbestravelguide.", "lhw.com", "lartisien.",
-  "hotelsearch.", "hotels-in-", "fivestaralliance.", "travelandleisure.", "cntraveller.", "momondo.", "skyscanner.", "jetsetter.", "com-hotel.com", "lushexperiences.", "dupontcirclebid.", "americanexpress.com", "hotelplanner.", "reservations.com", "google.com", "bing.com", "linkedin.com", "pinterest.", "tiktok.com",
+  "hotelsearch.", "hotels-in-", "fivestaralliance.", "travelandleisure.", "cntraveller.", "momondo.", "skyscanner.", "jetsetter.", "com-hotel.com", "lushexperiences.", "dupontcirclebid.", "hummingbird.travel", "americanexpress.com", "hotelplanner.", "reservations.com", "google.com", "bing.com", "linkedin.com", "pinterest.", "tiktok.com",
 ];
 // an entry matches at a label boundary, so "hotels.com" catches www.hotels.com but not kivotoshotels.com
 const matchesAt = (host: string, t: string) => host.startsWith(t) || host.includes(`.${t}`);

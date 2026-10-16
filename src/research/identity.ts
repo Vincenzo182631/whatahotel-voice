@@ -167,6 +167,7 @@ export function assessPage(hotel: HotelRef, aff: Identity["affiliation"], page: 
   // error pages still "match" through the hotel name in their URL (hilton.com serves "Something went wrong" to crawlers)
   if (isErrorPage(page.title, page.text)) reasons.push(`${page.url} is an error page, not the hotel's content`);
   if (/^(careers?|jobs)\./.test(host)) reasons.push(`${host} is a careers site, not the hotel's own`);
+  else if (/^\/(careers?|jobs|work|employment)(\/|$)/i.test(new URL(page.url).pathname)) reasons.push(`${page.url} is a careers page, not the hotel's content`);
   coverage = Math.round(coverage * 100) / 100;
   return { ok: reasons.length === 0 && (coverage >= 0.75 || !!rebrand), checks: { name_coverage: coverage, location_match: location, ...(rebrand ? { rebrand } : {}) }, evidence, reasons };
 }

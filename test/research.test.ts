@@ -188,6 +188,9 @@ describe("assessPage", () => {
     expect(err.reasons.join(" ")).toMatch(/error page/);
     const jobs = assessPage({ name: "Canyon Ranch Woodside", city: "Woodside", country: "United States" }, { kind: "unknown" as const }, { url: "https://careers.canyonranch.com/retreat", text: `Canyon Ranch Woodside ${filler} Woodside` });
     expect(jobs.reasons.join(" ")).toMatch(/careers site/);
+    const work = assessPage({ name: "The Reef House", city: "Palm Cove", country: "Australia" }, { kind: "unknown" as const }, { url: "https://www.reefhouse.com.au/work/", text: `The Reef House ${filler} Palm Cove` });
+    expect(work.ok).toBe(false);
+    expect(work.reasons.join(" ")).toMatch(/careers page/);
   });
   it("does not mistake a hotel domain ending in hotels.com for hotels.com", () => {
     const hotel = { name: "Kivotos Mykonos", city: "Mykonos", country: "Greece" };
