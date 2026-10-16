@@ -1,10 +1,9 @@
 {
   "slug": "the-james-nomad",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
   "reasons": [
-    "https://thejames.sonesta.com/: thejames.sonesta.com does not carry the hotel's name; an independent hotel's own site normally does; only 50% of the hotel name appears on the page; page does not mention New York",
-    "official website could not be confirmed; flag for review"
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
   ],
   "identity": {
     "hotel": {
@@ -13,29 +12,55 @@
       "country": "US"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://thejames.sonesta.com/: thejames.sonesta.com does not carry the hotel's name; an independent hotel's own site normally does; only 50% of the hotel name appears on the page; page does not mention New York",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "confirmed by hand as this hotel's own page (thejames.sonesta.com does not carry the hotel's name; an independent hotel's own site normally does; only 50% of the hotel name appears on the page; page does not mention New York)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://www.jameshotels.com/nomad"
+      "https://thejames.sonesta.com/"
     ],
-    "checked_at": "2026-10-15T23:52:08.124Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-16T01:04:17.888Z",
+    "status": "confirmed",
+    "official_url": "https://thejames.sonesta.com/",
+    "base_url": "https://thejames.sonesta.com/",
+    "host": "thejames.sonesta.com",
+    "checks": {
+      "name_coverage": 0.5,
+      "location_match": false
+    }
   },
-  "pages": [],
-  "inaccessible": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://thejames.sonesta.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:04:22.670Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://thejames.sonesta.com/nautilus-miami-beach/",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:04:32.051Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
   "usage": {
-    "firecrawl_calls": 1,
-    "firecrawl_searches": 0,
+    "firecrawl_calls": 5,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 2,
+    "chars": 16165,
+    "est_claude_tokens": 4041
   },
   "limits": {
     "maxPages": 12,
@@ -43,5 +68,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T23:52:10.757Z"
+  "researched_at": "2026-10-16T01:04:40.254Z"
 }

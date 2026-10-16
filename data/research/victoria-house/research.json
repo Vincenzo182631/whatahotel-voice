@@ -1,9 +1,10 @@
 {
   "slug": "victoria-house",
-  "status": "awaiting_extraction",
+  "status": "ready",
   "partial": true,
   "reasons": [
-    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue"
+    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue",
+    "coverage is partial: a limit stopped the page fetch early; raise the limits and rerun to read the rest"
   ],
   "identity": {
     "hotel": {
@@ -135,5 +136,241 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T23:44:36.167Z"
+  "researched_at": "2026-10-15T23:44:36.167Z",
+  "hotel": {
+    "name": "Victoria House",
+    "city": "San Pedro",
+    "country": "BZ",
+    "confirmed_affiliation": {
+      "kind": "independent"
+    }
+  },
+  "official_url": "https://www.victoria-house.com/victoria-house/",
+  "verified_facts": [
+    {
+      "id": "r-1",
+      "category": "location",
+      "text": "Victoria House is a beach resort on the east side of Ambergris Caye, facing Coconut Drive, the road into nearby San Pedro.",
+      "source_url": "https://www.victoria-house.com/victoria-house/",
+      "source_tier": "official",
+      "excerpt": "Victoria House is a beautiful beach resort on the east side of Ambergris Caye. We face Coconut Drive which is the road that takes you into nearby San Pedro."
+    },
+    {
+      "id": "r-2",
+      "category": "location",
+      "text": "Victoria House sits at the edge of the Belize Barrier Reef.",
+      "source_url": "https://www.victoria-house.com/victoria-house/",
+      "source_tier": "official",
+      "excerpt": "perched right at the edge of one of the most stunning natural wonders of the world, the Belize Barrier Reef"
+    },
+    {
+      "id": "r-3",
+      "category": "design_history",
+      "text": "A tropical buffer separates the road from the resort's rooms, villas and casitas, which all face the Caribbean Sea.",
+      "source_url": "https://www.victoria-house.com/victoria-house/",
+      "source_tier": "official",
+      "excerpt": "a tropical buffer lays between the roadway and our blend of luxury staterooms, villas, Palmetto Rooms and casitas, which all face the magnificent Caribbean Sea"
+    },
+    {
+      "id": "r-4",
+      "category": "amenities",
+      "text": "The resort has outdoor infinity-edged pools and a private beach.",
+      "source_url": "https://www.victoria-house.com/victoria-house/",
+      "source_tier": "official",
+      "excerpt": "outdoor infinity-edged pools and a spectacular private beach"
+    },
+    {
+      "id": "r-5",
+      "category": "amenities",
+      "text": "The resort has an onsite dive shop and a tour desk.",
+      "source_url": "https://www.victoria-house.com/victoria-house/",
+      "source_tier": "official",
+      "excerpt": "tour desk, onsite dive shop, stunning public gardens, an on-site wedding planner"
+    },
+    {
+      "id": "r-6",
+      "category": "amenities",
+      "text": "Guests can use the resort's bicycles, kayaks and paddleboards.",
+      "source_url": "https://www.victoria-house.com/victoria-house/",
+      "source_tier": "official",
+      "excerpt": "Stay on site and enjoy our refreshing pools, bicycles, kayaks and paddleboards"
+    },
+    {
+      "id": "r-7",
+      "category": "experiences",
+      "text": "Excursions include ancient Mayan temples, a zip-line tour over the jungle canopy, rainforest expeditions, fishing trips and diving the Great Blue Hole.",
+      "source_url": "https://www.victoria-house.com/victoria-house/",
+      "source_tier": "official",
+      "excerpt": "Explore ancient Mayan temples, take an exhilarating zip-line tour over the verdant jungle canopy, embark on a rainforest expedition, take a fishing trip or dive the renowned Great Blue Hole."
+    },
+    {
+      "id": "r-9",
+      "category": "rooms",
+      "text": "The casitas have a thatched roof, a queen bed, a private veranda and a hammock.",
+      "source_url": "https://www.victoria-house.com/belize-accommodations/",
+      "source_tier": "official",
+      "excerpt": "Discover the quintessential tropical casita, complete with a thatched roof, queen bed, private veranda, and your own hammock to relax in."
+    },
+    {
+      "id": "r-10",
+      "category": "rooms",
+      "text": "The beachfront villas Casa Playa Blanca and Casa Azul each have their own private pool.",
+      "source_url": "https://www.victoria-house.com/belize-accommodations/villas/",
+      "source_tier": "official",
+      "excerpt": "Casa Playa Blanca and Casa Azul both have their own private pools."
+    },
+    {
+      "id": "r-11",
+      "category": "rooms",
+      "text": "The villas feature locally handcrafted wicker and mahogany furniture and private verandahs with views of the Caribbean Sea.",
+      "source_url": "https://www.victoria-house.com/belize-accommodations/villas/",
+      "source_tier": "official",
+      "excerpt": "All units feature locally hand crafted wicker and mahogany furniture and private verandahs offering stunning views of the Caribbean Sea."
+    },
+    {
+      "id": "r-12",
+      "category": "rooms",
+      "text": "The Luxury Villas have traditional thatch roofs, mahogany four-poster canopied king beds and travertine bathrooms.",
+      "source_url": "https://www.victoria-house.com/belize-accommodations/villas/",
+      "source_tier": "official",
+      "excerpt": "Each villa offers traditional thatch roofs, mahogany poster king size canopied beds, luxurious travertine bathrooms and more."
+    },
+    {
+      "id": "r-13",
+      "category": "rooms",
+      "text": "The Rainforest Suite is the resort's beachfront Honeymoon Suite, with a wraparound veranda, a private hammock and views of the Caribbean Sea.",
+      "source_url": "https://www.victoria-house.com/belize-accommodations/ambergris-caye-suites/",
+      "source_tier": "official",
+      "excerpt": "This beachfront villa is our Honeymoon Suite and features a king bed, large tiled bathroom, a wraparound veranda with private hammock and stunning views of the Caribbean Sea."
+    },
+    {
+      "id": "r-14",
+      "category": "rooms",
+      "text": "The one-bedroom Infinity Suites have a gourmet kitchen and three private verandas, including a secluded upper terrace with ocean views.",
+      "source_url": "https://www.victoria-house.com/belize-accommodations/ambergris-caye-suites/",
+      "source_tier": "official",
+      "excerpt": "Featuring a gourmet kitchen and three private verandas, including a secluded upper terrace with incredible ocean views."
+    },
+    {
+      "id": "r-15",
+      "category": "amenities",
+      "text": "The spa is called La Luna Spa.",
+      "source_url": "https://www.victoria-house.com/la-luna-spa-belize/spa-menu/",
+      "source_tier": "official",
+      "excerpt": "La Luna Spa - Victoria House"
+    },
+    {
+      "id": "r-16",
+      "category": "amenities",
+      "text": "The Victoria House Signature Treatment combines a Coco Body Polish, a warm al fresco shower and a Signature Relaxation Massage.",
+      "source_url": "https://www.victoria-house.com/la-luna-spa-belize/spa-menu/",
+      "source_tier": "official",
+      "excerpt": "Start with a Coco Body Polish, followed by a warm al-fresco shower, and finish with our Signature Relaxation Massage."
+    },
+    {
+      "id": "r-17",
+      "category": "amenities",
+      "text": "The spa offers the Arvigo Maya Abdominal Massage, developed in Belize with a traditional Maya healer.",
+      "source_url": "https://www.victoria-house.com/la-luna-spa-belize/spa-menu/",
+      "source_tier": "official",
+      "excerpt": "Developed in Belize with a traditional Maya healer, used worldwide, and personally tailored to each individual"
+    },
+    {
+      "id": "r-18",
+      "category": "family",
+      "text": "The spa has Junior Spa Services with treatments for kids.",
+      "source_url": "https://www.victoria-house.com/la-luna-spa-belize/spa-menu/",
+      "source_tier": "official",
+      "excerpt": "Kids can enjoy their very own treatments created with our Junior Spa Services"
+    },
+    {
+      "id": "r-19",
+      "category": "dining",
+      "text": "Palmilla Restaurant is a full-service waterfront restaurant where fresh, local seafood is a specialty.",
+      "source_url": "https://www.victoria-house.com/dining/",
+      "source_tier": "official",
+      "excerpt": "fresh, local seafood being a particular specialty"
+    },
+    {
+      "id": "r-20",
+      "category": "dining",
+      "text": "Private candlelit dinners can be held on the pier palapa or at a private beach table lit with tiki torches.",
+      "source_url": "https://www.victoria-house.com/dining/private-dinners/",
+      "source_tier": "official",
+      "excerpt": "dine in the seclusion of either our pier palapa or at your private beach table, lit with tiki torches under the tropical sky"
+    },
+    {
+      "id": "r-21",
+      "category": "dining",
+      "text": "Admiral Nelson's is a palapa-style beach bar overlooking the Belize Barrier Reef and the Caribbean Sea.",
+      "source_url": "https://www.victoria-house.com/dining/admiral-nelsons-bar/",
+      "source_tier": "official",
+      "excerpt": "is our palapa style beach bar overlooking the Belize Barrier Reef and the Caribbean Sea"
+    },
+    {
+      "id": "r-22",
+      "category": "practical",
+      "text": "A complimentary continental breakfast buffet is included in the room rate.",
+      "source_url": "https://www.victoria-house.com/dining/meal-plans/",
+      "source_tier": "official",
+      "excerpt": "A complimentary continental breakfast buffet is included in the room rate."
+    },
+    {
+      "id": "r-23",
+      "category": "design_history",
+      "text": "Victoria House describes itself as a boutique resort for travelers seeking seclusion and intimacy.",
+      "source_url": "https://www.victoria-house.com/belize-accommodations/",
+      "source_tier": "official",
+      "excerpt": "Victoria House Resort and Spa is a boutique resort, offering exclusive Belize accommodations for those wondering where to stay in Belize and looking for seclusion and intimacy."
+    },
+    {
+      "id": "r-24",
+      "category": "practical",
+      "text": "Staff can help arrange golf cart rentals, taxis and shuttles.",
+      "source_url": "https://www.victoria-house.com/victoria-house/",
+      "source_tier": "official",
+      "excerpt": "They can also assist with golf cart rentals, taxis and shuttles."
+    },
+    {
+      "id": "r-25",
+      "category": "practical",
+      "text": "Room rates do not include government tax and service charge.",
+      "source_url": "https://www.victoria-house.com/belize-accommodations/belize-casitas/",
+      "source_tier": "official",
+      "excerpt": "Rates are in $USD and do not include 9% government tax & 10% service charge."
+    },
+    {
+      "id": "r-26",
+      "category": "experiences",
+      "text": "Private yoga sessions can be arranged through the spa receptionist.",
+      "source_url": "https://www.victoria-house.com/la-luna-spa-belize/spa-menu/",
+      "source_tier": "official",
+      "excerpt": "Can be arranged with our Spa receptionist"
+    }
+  ],
+  "highlights": [
+    "r-2",
+    "r-10",
+    "r-13",
+    "r-4",
+    "r-17",
+    "r-9",
+    "r-7",
+    "r-5"
+  ],
+  "subjective": [
+    {
+      "id": "r-8",
+      "text": "Victoria House won the Conde Nast Johansens award for Best for Romance in 2025.",
+      "reason": "promotional wording; rewrite as a plain fact or leave out"
+    },
+    {
+      "id": "r-27",
+      "text": "The resort calls itself perfect for couples and honeymoons.",
+      "reason": "the hotel's own opinion or praise; keep out of facts"
+    }
+  ],
+  "unresolved": [],
+  "rejected": [],
+  "contradictions": []
 }

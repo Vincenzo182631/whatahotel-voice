@@ -1,11 +1,8 @@
 {
   "slug": "hermitage-bay",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "https://www.hermitagebay.com/: page does not mention St. Mary's",
-    "official website could not be confirmed; flag for review"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "Hermitage Bay",
@@ -13,29 +10,79 @@
       "country": "AG"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.hermitagebay.com/: page does not mention St. Mary's",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "confirmed by hand as this hotel's own page (page does not mention St. Mary's)"
     ],
+    "reasons": [],
     "candidates": [
       "https://www.hermitagebay.com/"
     ],
-    "checked_at": "2026-10-15T23:53:40.019Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-16T01:06:05.880Z",
+    "status": "confirmed",
+    "official_url": "https://www.hermitagebay.com/",
+    "base_url": "https://www.hermitagebay.com/",
+    "host": "hermitagebay.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": false
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hermitagebay.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:06:11.125Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hermitagebay.com/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:06:20.571Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hermitagebay.com/about-us/",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:06:24.409Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hermitagebay.com/villas/",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:06:28.908Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hermitagebay.com/wellbeing/",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:06:35.214Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.cntraveler.com/hotels/antigua-and-barbuda/yorks/hermitage-bay",
+      "tier": "editorial",
+      "fetched_at": "2026-10-16T01:06:43.985Z",
+      "source": "direct"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 1,
-    "firecrawl_searches": 0,
+    "firecrawl_calls": 8,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 6,
+    "chars": 22572,
+    "est_claude_tokens": 5643
   },
   "limits": {
     "maxPages": 12,
@@ -43,5 +90,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T23:53:44.598Z"
+  "researched_at": "2026-10-16T01:06:43.985Z"
 }

@@ -1,10 +1,9 @@
 {
   "slug": "bellagio",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
   "reasons": [
-    "https://bellagio.mgmresorts.com/en.html: bellagio.mgmresorts.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "official website could not be confirmed; flag for review"
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
   ],
   "identity": {
     "hotel": {
@@ -13,29 +12,57 @@
       "country": "US"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://bellagio.mgmresorts.com/en.html: bellagio.mgmresorts.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Las Vegas, US)",
+      "confirmed by hand as this hotel's own page (bellagio.mgmresorts.com does not carry the hotel's name; an independent hotel's own site normally does)"
     ],
+    "reasons": [],
     "candidates": [
       "https://bellagio.mgmresorts.com/en.html"
     ],
-    "checked_at": "2026-10-15T23:52:34.525Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-16T01:04:25.036Z",
+    "status": "confirmed",
+    "official_url": "https://bellagio.mgmresorts.com/en.html",
+    "base_url": "https://bellagio.mgmresorts.com/",
+    "host": "bellagio.mgmresorts.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
-  "inaccessible": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://bellagio.mgmresorts.com/en.html",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:04:44.323Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.cntraveler.com/hotels/las-vegas/bellagio",
+      "tier": "editorial",
+      "fetched_at": "2026-10-16T01:04:56.576Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://bellagio.mgmresorts.com/checkin/",
+      "reason": "https://bellagio.mgmresorts.com/checkin/: page had almost no text"
+    }
+  ],
   "usage": {
-    "firecrawl_calls": 1,
-    "firecrawl_searches": 0,
+    "firecrawl_calls": 5,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 2,
+    "chars": 14559,
+    "est_claude_tokens": 3640
   },
   "limits": {
     "maxPages": 12,
@@ -43,5 +70,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T23:52:50.492Z"
+  "researched_at": "2026-10-16T01:04:56.576Z"
 }

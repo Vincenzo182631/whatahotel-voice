@@ -1,0 +1,462 @@
+{
+  "hotel_slug": "nobu-las-vegas-at-caesars-palace",
+  "hotel_name": "Nobu Las Vegas at Caesars Palace",
+  "checked_at": "2026-10-16T01:06:20.503Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.caesars.com/nobu-caesars-palace",
+      "tier": "official",
+      "chars": 8252
+    },
+    {
+      "id": "d2",
+      "url": "https://www.caesars.com/nobu-caesars-palace/hotel/",
+      "tier": "official",
+      "chars": 12903
+    },
+    {
+      "id": "d3",
+      "url": "https://www.caesars.com/nobu-caesars-palace/things-to-do/",
+      "tier": "official",
+      "chars": 3329
+    },
+    {
+      "id": "d4",
+      "url": "https://www.caesars.com/las-vegas/hotels/",
+      "tier": "official",
+      "chars": 8249
+    },
+    {
+      "id": "d5",
+      "url": "https://www.caesars.com/caesars-palace/restaurants/",
+      "tier": "official",
+      "chars": 7045
+    },
+    {
+      "id": "d6",
+      "url": "https://www.caesars.com/email/",
+      "tier": "official",
+      "chars": 1609
+    },
+    {
+      "id": "d7",
+      "url": "https://www.caesars.com/myrewards/",
+      "tier": "official",
+      "chars": 2966
+    },
+    {
+      "id": "d8",
+      "url": "https://www.caesars.com/myrewards/air/",
+      "tier": "official",
+      "chars": 9627
+    },
+    {
+      "id": "d9",
+      "url": "https://www.caesars.com/myrewards/olympus/",
+      "tier": "official",
+      "chars": 4066
+    },
+    {
+      "id": "d10",
+      "url": "https://www.caesars.com/caesars-palace/shows/",
+      "tier": "official",
+      "chars": 4989
+    },
+    {
+      "id": "d11",
+      "url": "https://www.caesars.com/caesars-palace/casino/",
+      "tier": "official",
+      "chars": 10759
+    },
+    {
+      "id": "d12",
+      "url": "https://www.caesars.com/help-and-support/hotel-folio-request/",
+      "tier": "official",
+      "chars": 2066
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Nobu Hotel occupies a separate tower at Caesars Palace, in the center of the Las Vegas Strip.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Situated inside a separate tower at Caesars Palace, nestled within the center of strip action and excitement",
+          "note": "separate tower, center Strip",
+          "confirmed": true,
+          "url": "https://www.caesars.com/nobu-caesars-palace",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is decorated with zen plum and gold accent furnishings and artwork.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "guests will feel miles away from Vegas with the zen plum and gold accent furnishings and clever artwork",
+          "note": "plum and gold furnishings and artwork",
+          "confirmed": true,
+          "url": "https://www.caesars.com/nobu-caesars-palace/hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Nobu's nature theme is reminiscent of a quiet Japanese garden.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Nobu's nature theme is reminiscent of a quiet Japanese garden",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.caesars.com/las-vegas/hotels/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Partial Strip View rooms are on the upper floors of Nobu Hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Located on the upper floors of Nobu Hotel, experience the sights of Las Vegas with a partial Strip View.",
+          "note": "upper floors, partial Strip View",
+          "confirmed": true,
+          "url": "https://www.caesars.com/nobu-caesars-palace/hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Nobu Penthouse has a curved staircase with a second-story terrace and a stone hearth wall.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The Las Vegas suite features a curved staircase with a second-story terrace, a stone hearth wall and sleek Japanese-inspired décor.",
+          "note": "Penthouse features",
+          "confirmed": true,
+          "url": "https://www.caesars.com/nobu-caesars-palace/hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Butler service is included in all Penthouse and Villa bookings.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Experience seamless luxury with butler service,",
+          "note": "butler service",
+          "confirmed": true,
+          "url": "https://www.caesars.com/nobu-caesars-palace/hotel/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "included in all Penthouse and Villa bookings.",
+          "note": "included in Penthouse and Villa bookings",
+          "confirmed": true,
+          "url": "https://www.caesars.com/nobu-caesars-palace/hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Nobu Penthouse and Villa guests receive complimentary airport transfers in a luxury Escalade.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Nobu Penthouse and Villa guests receive complimentary airport transfers via luxury Escalade.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.caesars.com/nobu-caesars-palace/hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Guests have the exclusive Nobu Pool plus access to all seven Caesars Palace pools.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "the exclusive Nobu Pool with access",
+          "note": "exclusive Nobu Pool",
+          "confirmed": true,
+          "url": "https://www.caesars.com/nobu-caesars-palace/hotel/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "to all seven Caesars Palace pools.",
+          "note": "seven pools",
+          "confirmed": true,
+          "url": "https://www.caesars.com/nobu-caesars-palace/hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Qua Spa at Caesars Palace has three Roman baths and a snowing Arctic Ice Room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Three Roman baths use the ancient healing powers of water, while the snowing Arctic Ice Room is the only one of its kind in the world.",
+          "note": "Roman baths, Arctic Ice Room",
+          "confirmed": true,
+          "url": "https://www.caesars.com/nobu-caesars-palace/things-to-do/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d11",
+          "quote": "Qua Baths & Spa in the heart of Caesars Palace Las Vegas",
+          "note": "Qua is at Caesars Palace",
+          "confirmed": true,
+          "url": "https://www.caesars.com/caesars-palace/casino/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Nobu Hotel has its own private fitness area for guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Exclusive aceess to Nobu's private fitness area,",
+          "note": "private fitness area",
+          "confirmed": true,
+          "url": "https://www.caesars.com/nobu-caesars-palace/hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Nobu Hotel guests receive dedicated concierge service and priority seating at Nobu Restaurant.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Guests of Nobu Hotel receive dedicated Concierge service and enjoy priority seating in Nobu Restaurant.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.caesars.com/nobu-caesars-palace",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Nobu Hotel at Caesars Palace is the world's first Nobu Hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The world's first Nobu Hotel",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.caesars.com/nobu-caesars-palace/hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Nobu Villa is a Japanese-inspired rooftop villa with a large patio overlooking the Strip and a secluded Zen garden with an Italian-made whirlpool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The Japanese-inspired rooftop villa has a massive patio overlooking the Strip. It features a barbecue pit, full bar, fire and water fixture, and a secluded Zen garden with an Italian-made whirlpool.",
+          "note": "villa features",
+          "confirmed": true,
+          "url": "https://www.caesars.com/nobu-caesars-palace/hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The decor of the Nobu Deluxe rooms is inspired by kintsugi, the Japanese art of repairing broken pottery with gold epoxy.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Décor is inspired from kintsugi, the Japanese art of repairing broken pottery with gold epoxy.",
+          "note": "Nobu Deluxe rooms decor",
+          "confirmed": true,
+          "url": "https://www.caesars.com/nobu-caesars-palace",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Tanoshi Wellness Hour is a nightly rotation of calming rituals, from sound bowls to tea moments, in the Nobu Hotel Living Room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Experience a nightly rotation of calming rituals offered in the serene Nobu Hotel Living Room—ranging from meditative sound bowls to refined tea moments",
+          "note": "Tanoshi Wellness Hour",
+          "confirmed": true,
+          "url": "https://www.caesars.com/nobu-caesars-palace/hotel/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Tanoshi Wellness Hour",
+          "note": "name",
+          "confirmed": true,
+          "url": "https://www.caesars.com/nobu-caesars-palace/hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Nobu Hotel suite guests get complimentary rides within a 10-mile radius in the hotel's Porsche house cars, subject to availability.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Guests staying in a Nobu Hotel suite can enjoy complimentary transportation within a 10-mile radius of the resort in one of our exclusive Porsche house cars, subject to availability.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.caesars.com/nobu-caesars-palace/hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Nobu Hotel sits within Caesars Palace, with the sprawling casino only steps away from the rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Raise the stakes at the sprawling Caesars Palace casino, only steps away from your Nobu hotel room.",
+          "note": "casino steps away",
+          "confirmed": true,
+          "url": "https://www.caesars.com/nobu-caesars-palace",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Nobu Hotel inside Caesars Palace",
+          "note": "within Caesars Palace",
+          "confirmed": true,
+          "url": "https://www.caesars.com/las-vegas/hotels/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The Porsche house cars carry up to three guests and cannot take large luggage.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Each ride accommodates up to three guests (including passenger seat next to driver). House cars cannot accommodate large luggage.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.caesars.com/nobu-caesars-palace/hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing that reflects the hotel's luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

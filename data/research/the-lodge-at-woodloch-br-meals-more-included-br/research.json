@@ -1,10 +1,9 @@
 {
   "slug": "the-lodge-at-woodloch-br-meals-more-included-br",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
   "reasons": [
-    "https://www.thelodgeatwoodloch.com/: only 43% of the hotel name appears on the page",
-    "official website could not be confirmed; flag for review"
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
   ],
   "identity": {
     "hotel": {
@@ -13,29 +12,63 @@
       "country": "US"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.thelodgeatwoodloch.com/: only 43% of the hotel name appears on the page",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "location matches (Hawley, US)",
+      "confirmed by hand as this hotel's own page (only 43% of the hotel name appears on the page)"
     ],
+    "reasons": [],
     "candidates": [
       "https://www.thelodgeatwoodloch.com/"
     ],
-    "checked_at": "2026-10-15T23:52:55.628Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-16T01:04:41.509Z",
+    "status": "confirmed",
+    "official_url": "https://www.thelodgeatwoodloch.com/",
+    "base_url": "https://www.thelodgeatwoodloch.com/",
+    "host": "thelodgeatwoodloch.com",
+    "checks": {
+      "name_coverage": 0.43,
+      "location_match": true
+    }
   },
-  "pages": [],
-  "inaccessible": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.thelodgeatwoodloch.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:04:46.987Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.thelodgeatwoodloch.com/about-us/",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:04:56.130Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.thelodgeatwoodloch.com/about-us/awards-accolades/",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:04:59.743Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
   "usage": {
-    "firecrawl_calls": 1,
-    "firecrawl_searches": 0,
+    "firecrawl_calls": 6,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 3,
+    "chars": 12134,
+    "est_claude_tokens": 3034
   },
   "limits": {
     "maxPages": 12,
@@ -43,5 +76,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T23:52:56.491Z"
+  "researched_at": "2026-10-16T01:05:07.713Z"
 }
