@@ -37,5 +37,5 @@ Supported 19 · contradicted 0 · unverified 0 · WhataHotel's own statements 1 
 | ✅ | **h-4** The Granite Lodge is built and decorated in the style of the great National Park lodges. | "the Granite Lodge, built and decorated in the style of the great National Park lodges" (official, https://theranchatrockcreek.com/accommodation/the-granite-lodge/) |
 | ✅ | **h-5** Treatments at The Spa at Rock Creek include access to the cedar sauna and relaxation area. | "Treatments include access to the cedar sauna, shower facilities and relaxation area." (official, https://theranchatrockcreek.com/accommodations/) |
 | ✅ | **c-1** Classic Canvas Cabins are open in spring, summer and fall. | "Classic Canvas Cabins are open in the spring, summer and fall." (official, https://theranchatrockcreek.com/accommodation/glamping/) |
-| ✅ | **c-2** Homesteader wagons are available from mid-May through Labor Day. | "Glamping wagons can be added to luxury homes" (official, https://theranchatrockcreek.com/accommodation/glamping/) |
+| ✅ | **c-2** Homesteader wagons are available from mid-May through Labor Day. | "Available mid-May through Labor Day." (official, https://theranchatrockcreek.com/accommodation/glamping/) |
 | ➖ | **c-3** WhataHotel notes the remote location requires significant travel planning. | WhataHotel's own offer or statement |
