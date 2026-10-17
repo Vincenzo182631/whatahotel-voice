@@ -7,12 +7,12 @@
  *
  * Renders a "Hear Hotel Highlights" pill in place; clicking it opens a player
  * bar and plays. Audio is `audio.mp3` beside `data-transcript` (or `data-audio`).
- * The transcript is read only for the hotel name. Optional `data-image` adds a
+ * The transcript supplies the hotel name, a collapsed "Read the transcript" panel and a JSON-LD AudioObject (with the transcript text) added to the page head. Optional `data-image` adds a
  * thumbnail. URLs are cleaned of stray backticks, quotes and spaces. If the audio
  * cannot be loaded the widget removes itself, and it never throws into the host
  * page.
  */
-import { cleanUrl, formatTime, ICONS, renderTake, TAKE_CSS } from "./render.js";
+import { audioObjectJsonLd, cleanUrl, formatTime, ICONS, renderTake, renderTranscript, TAKE_CSS, type TranscriptData } from "./render.js";
 
 function ensureStyles(): void {
   if (document.getElementById("wah-take-css")) return;
@@ -74,14 +74,25 @@ function wire(root: HTMLElement): void {
   });
 }
 
-async function hotelName(transcriptUrl: string): Promise<string | undefined> {
+async function fetchTranscript(transcriptUrl: string): Promise<TranscriptData | undefined> {
   try {
     const res = await fetch(transcriptUrl);
     if (!res.ok) return undefined;
-    return ((await res.json()) as { hotel?: { name?: string } }).hotel?.name;
+    return (await res.json()) as TranscriptData;
   } catch {
     return undefined;
   }
+}
+
+/** Adds the AudioObject JSON-LD to the page; the duration is filled in once the audio reports it. */
+function addJsonLd(t: TranscriptData, audioUrl: string, audio: HTMLAudioElement): void {
+  const tag = document.createElement("script");
+  tag.type = "application/ld+json";
+  tag.dataset.wahTake = "audio-object";
+  const write = () => (tag.textContent = JSON.stringify(audioObjectJsonLd(t, audioUrl, Number.isFinite(audio.duration) ? audio.duration : undefined)));
+  write();
+  audio.addEventListener("loadedmetadata", write);
+  document.head.appendChild(tag);
 }
 
 function mount(script: HTMLScriptElement): void {
@@ -97,8 +108,11 @@ function mount(script: HTMLScriptElement): void {
     wire(root);
     script.insertAdjacentElement("afterend", host);
     if (transcriptUrl) {
-      void hotelName(transcriptUrl).then((name) => {
-        if (name) root.querySelector('[data-role="name"]')!.textContent = name;
+      void fetchTranscript(transcriptUrl).then((t) => {
+        if (!t) return;
+        if (t.hotel?.name) root.querySelector('[data-role="name"]')!.textContent = t.hotel.name;
+        root.insertAdjacentHTML("beforeend", renderTranscript(t));
+        addJsonLd(t, audioUrl, root.querySelector<HTMLAudioElement>("audio")!);
       });
     }
   } catch (err) {

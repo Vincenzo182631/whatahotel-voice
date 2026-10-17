@@ -1,0 +1,115 @@
+{
+  "slug": "equinox-hotel-hudson-yard",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Equinox Hotel, Hudson Yard",
+      "city": "New York",
+      "country": "US"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "redirected from https://www.equinox-hotels.com/newyork",
+      "confirmed by hand as this hotel's own page (only 33% of the hotel name appears on the page; page does not mention New York)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.equinox-hotels.com/newyork"
+    ],
+    "checked_at": "2026-10-16T01:03:30.131Z",
+    "status": "confirmed",
+    "official_url": "https://equinox-hotels.com/newyork",
+    "base_url": "https://equinox-hotels.com/",
+    "host": "equinox-hotels.com",
+    "checks": {
+      "name_coverage": 0.33,
+      "location_match": false
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://equinox-hotels.com/newyork",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:03:35.395Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://equinox-hotels.com/spa-policies/",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:03:45.423Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://equinox-hotels.com/contact/",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:03:48.933Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://equinox-hotels.com/about/",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:03:51.514Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://equinox-hotels.com/sleep/",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:03:57.683Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://equinox-hotels.com/awards/",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:04:00.999Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://equinox-hotels.com/development/",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:04:03.516Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://equinox-hotels.com/equinox-resort-anguilla-port-nimara/",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:04:08.873Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 11,
+    "firecrawl_searches": 1,
+    "cache_hits": 0,
+    "direct_fetches": 0,
+    "pages": 8,
+    "chars": 47387,
+    "est_claude_tokens": 11847
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-16T01:04:16.588Z"
+}

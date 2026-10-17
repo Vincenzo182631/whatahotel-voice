@@ -1,0 +1,448 @@
+{
+  "hotel_slug": "grand-hotel-portovenere",
+  "hotel_name": "Grand Hotel Portovenere",
+  "checked_at": "2026-10-17T14:05:04.487Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 20,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 0,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.portoveneregrand.com/",
+      "tier": "official",
+      "chars": 1679
+    },
+    {
+      "id": "d2",
+      "url": "https://www.portoveneregrand.com/rooms-suites/",
+      "tier": "official",
+      "chars": 8246
+    },
+    {
+      "id": "d3",
+      "url": "https://www.portoveneregrand.com/hotel/",
+      "tier": "official",
+      "chars": 3824
+    },
+    {
+      "id": "d4",
+      "url": "https://www.portoveneregrand.com/dining/palmaria/",
+      "tier": "official",
+      "chars": 1971
+    },
+    {
+      "id": "d5",
+      "url": "https://www.portoveneregrand.com/destination/",
+      "tier": "official",
+      "chars": 1571
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The building dates back to the 1600s, when it hosted the Convento di San Francesco monastery.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "dates back to the 1600s**, when it hosted the monastery called",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.portoveneregrand.com/hotel/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "di San Francesco_” under its elegant vaults",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.portoveneregrand.com/hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is a Dimora Storica, an ancient building recognized as part of Italy's historic and cultural heritage.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "_Dimora Storica_**, an ancient building that has been recognized as part of Italy’s historic and cultural heritage",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.portoveneregrand.com/hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Towards the mid-1800s the monastery became the Hospital of the Marine Military, and later the headquarters of the Municipality of Porto Venere.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Towards the mid-1800s, the monastery was transformed into the Hospital of the Marine Military, and later still into the headquarters of the Municipality of Porto Venere.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.portoveneregrand.com/hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel overlooks the marina and the historic center of Porto Venere.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "overlooks the **marina** and the **historic center** of Porto Venere",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.portoveneregrand.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The hotel is just steps from the boats to the Cinque Terre and the Bay of La Spezia.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "It is just steps away from the boats that take you to the Cinque Terre and the Bay of La Spezia",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.portoveneregrand.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The hotel sits between the Cinque Terre and the Gulf of Poets in eastern Liguria.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "between the famous Cinque Terre and the inspirational Gulf of Poets in eastern Liguria",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.portoveneregrand.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Many rooms have terraces, balconies and French windows overlooking the bay and the village.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Many rooms are also enriched with terraces, balconies and French windows overlooking the bay and the village",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.portoveneregrand.com/rooms-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Deluxe Rooms have large windows overlooking Palmaria Island or the castle and hills of Portovenere.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Deluxe Rooms are bright and feature large windows overlooking Palmaria Island or the castle and hills of Portovenere.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.portoveneregrand.com/rooms-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The Scriptorium Studio has a writing desk reminiscent of the historic convent's Scriptorium.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "a writing desk reminiscent of the historic convent’s Scriptorium",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.portoveneregrand.com/rooms-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The Portovenere Wellness center offers a humid zone, a relaxation area with herbal teas, a fitness room, and massages and beauty treatments.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Our wellness center offers a humid zone; a relaxation area with herbal teas; a fitness room; and different massages and beauty treatments.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.portoveneregrand.com/hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Palmaria Restaurant sits on a veranda overlooking Portovenere.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Palmaria Restaurant sits on a **spectacular veranda** overlooking Portovenere.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.portoveneregrand.com/dining/palmaria/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Breakfast is served in the sea-view Palmaria Restaurant and is complimentary for direct bookings.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our breakfast is always complimentary for Direct Bookings!",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.portoveneregrand.com/rooms-suites/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our breakfast, served in the sea-view Palmaria Restaurant",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.portoveneregrand.com/rooms-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The restoration brought back details of the original convent, including red-brick vaulted ceilings.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "brought back to life beautiful details of the original convent, including red-brick vaulted ceilings",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.portoveneregrand.com/hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Cloister Junior Suites have a panoramic terrace under the arches of the ancient cloister.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "With a panoramic terrace under the arches that belonged to the ancient cloister, our Junior Suites showcase the beauty and history of Portovenere.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.portoveneregrand.com/rooms-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Suite dei Poeti overlooks the Gulf of Poets and has a bespoke cellar for private wine tastings.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The Suite overlooks the Gulf that has enchanted poets and painters from all over the world and from which it takes its name. It features a bespoke cellar for private wine tastings.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.portoveneregrand.com/rooms-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "A grand terrace overlooks the village and harbor of Portovenere.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "the grand terrace overlooking the charming village and harbor of Portovenere",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.portoveneregrand.com/hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Guests can rent boats to explore the coastline, including the traditional Ligurian gozzo.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "### Boat Rental",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.portoveneregrand.com/hotel/",
+          "tier": "official",
+          "quote_verified": false
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Choose from a selection of vessels, including the traditional Ligurian _gozzo_, and experience the coastline",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.portoveneregrand.com/hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Beach time is through the hotel's partner beach clubs in Portovenere, and access to them is at an extra charge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "We are partners with the most beautiful beach clubs in Portovenere.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.portoveneregrand.com/hotel/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Access to the beach clubs is subject to an extra charge.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.portoveneregrand.com/hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Palmaria Restaurant asks guests to dress formally for meals, with no t-shirts, tank tops, bathing suits or beach flip-flops.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "We kindly request the Palmaria Restaurant guests to attend meals in formal attire.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.portoveneregrand.com/dining/palmaria/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Please refrain from using t-shirts, tank tops, bathing suits, beach flip-flops and plastic sandals.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.portoveneregrand.com/dining/palmaria/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "When ferries are suspended due to bad weather or rough seas, the hotel offers a minivan transfer to and from La Spezia Station at scheduled times.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "offers a transfer service when the ferries are suspended due to bad weather or rough seas. The minivan is available to/from La Spezia Station at scheduled times.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.portoveneregrand.com/hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

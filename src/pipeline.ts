@@ -7,6 +7,8 @@ import { withGlobalPronunciations } from "./providers/types.js";
 import { SCRIPT_MODEL, factCheck, pipelineApiKey, writeScript } from "./script/claude.js";
 import { AUDIO_SECONDS, checkDuration, checkScript, withSignature, wordCount } from "./script/rules.js";
 import { nextVersion, readScript, saveVersion } from "./storage/local.js";
+import { FactCheckFileSchema } from "./verify/external.js";
+import { loadReport, restrictToVerified } from "./verify/restrict.js";
 
 export interface GenerateOptions {
   provider: string;
@@ -16,6 +18,10 @@ export interface GenerateOptions {
   scriptFile?: string;
   /** Stop after the script; no audio. */
   scriptOnly?: boolean;
+  /** Write and check the script from claims that data/verification/<slug>.json proved, nothing else. */
+  verifiedOnly?: boolean;
+  /** Use a fact-check result written by a Claude Code subagent ({passed, issues}) instead of calling the API. */
+  factcheckFile?: string;
   log?: (msg: string) => void;
 }
 
@@ -29,7 +35,13 @@ const hasClaude = () => Boolean(pipelineApiKey());
 
 export async function generateHotel(slug: string, opts: GenerateOptions): Promise<GenerateResult> {
   const log = opts.log ?? (() => {});
-  const profile = await loadProfile(slug);
+  let profile = await loadProfile(slug);
+  if (opts.verifiedOnly) {
+    const report = await loadReport(slug);
+    if (!report) throw new Error(`No verification report for ${slug}. Run hotel:verify first.`);
+    profile = restrictToVerified(profile, report);
+    log(`verified-only: ${profile.facts.length} facts, ${profile.highlights.length} highlights, ${profile.considerations.length} considerations`);
+  }
 
   const fresh = !opts.fromVersion && !opts.scriptFile;
   const MAX_ROUNDS = 2;
@@ -62,7 +74,11 @@ export async function generateHotel(slug: string, opts: GenerateOptions): Promis
 
     script = withSignature(script, profile);
     ruleIssues = checkScript(script, profile);
-    if (hasClaude()) {
+    if (opts.factcheckFile) {
+      const fc = FactCheckFileSchema.parse(JSON.parse(await readFile(opts.factcheckFile, "utf8")));
+      log("fact check imported from file");
+      fact = { passed: fc.passed && ruleIssues.length === 0, issues: [...ruleIssues, ...fc.issues] };
+    } else if (hasClaude()) {
       log("fact checking…");
       const fc = await factCheck(profile, script);
       fact = { passed: fc.passed && ruleIssues.length === 0, issues: [...ruleIssues, ...fc.issues] };

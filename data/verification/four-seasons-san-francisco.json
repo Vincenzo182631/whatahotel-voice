@@ -1,0 +1,465 @@
+{
+  "hotel_slug": "four-seasons-san-francisco",
+  "hotel_name": "Four Seasons Hotel San Francisco",
+  "checked_at": "2026-10-07T23:03:53.330Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 20,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 6,
+      "total": 26
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.fourseasons.com/sanfrancisco/",
+      "tier": "official",
+      "chars": 12124
+    },
+    {
+      "id": "d2",
+      "url": "https://press.fourseasons.com/sanfrancisco/hotel-facts/",
+      "tier": "official",
+      "chars": 5444
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/sanfrancisco/spa/",
+      "tier": "official",
+      "chars": 3667
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/sanfrancisco/dining/",
+      "tier": "official",
+      "chars": 3742
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/sanfrancisco/getting-here/",
+      "tier": "official",
+      "chars": 1500
+    },
+    {
+      "id": "d6",
+      "url": "https://www.fourseasons.com/sanfrancisco/services-and-amenities/",
+      "tier": "official",
+      "chars": 4196
+    },
+    {
+      "id": "d7",
+      "url": "https://www.cntraveler.com/hotels/san-francisco/four-seasons-hotel-san-francisco",
+      "tier": "editorial",
+      "chars": 6852
+    },
+    {
+      "id": "d8",
+      "url": "https://www.fourseasons.com/sanfrancisco/accommodations/",
+      "tier": "official",
+      "chars": 8559
+    },
+    {
+      "id": "d9",
+      "url": "https://www.fourseasons.com/sanfrancisco/services-and-amenities/pet-friendly-stays/",
+      "tier": "official",
+      "chars": 5004
+    },
+    {
+      "id": "d10",
+      "url": "https://www.fourseasons.com/sanfrancisco/contact-us/",
+      "tier": "official",
+      "chars": 1668
+    },
+    {
+      "id": "d11",
+      "url": "https://www.fourseasons.com/sanfrancisco/photos-and-videos/",
+      "tier": "official",
+      "chars": 2879
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel comprises 12 floors of a 42-floor building.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Hotel comprises 12 floors of a 42-floor building",
+          "note": "exact",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/sanfrancisco/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel opened in October 2001.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "October 2001",
+          "note": "opening date",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/sanfrancisco/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel is at 757 Market Street, San Francisco.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "757 Market Street, San Francisco",
+          "note": "address",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/sanfrancisco/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel is in the heart of the Yerba Buena Arts District, steps from Union Square.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "In the heart of the Yerba Buena Arts District, steps from Union Square",
+          "note": "location",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/sanfrancisco/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "MKT Restaurant & Bar is a modern American restaurant in downtown San Francisco.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "MKT Restaurant & Bar is a modern American restaurant in downtown San Francisco",
+          "note": "exact",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/sanfrancisco/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The MKT menu features California cuisine with locally sourced ingredients such as Mary’s chicken, Liberty Farms duck and Five Dot Ranch prime steaks.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "the menu features California cuisine with locally sourced ingredients such as Mary’s chicken, Liberty Farms duck and Five Dot Ranch prime steaks",
+          "note": "exact",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/sanfrancisco/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "In-room dining is 24-hour.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "24-hour In-Room Dining",
+          "note": "service list",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/sanfrancisco/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel’s art collection has more than 90 works of art by more than 40 California artists.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Filled with more than 90 works of art by more than 40 California artists",
+          "note": "exact",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/sanfrancisco/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Dogs and cats are welcomed with thoughtful amenities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "dogs and cats are welcomed with thoughtful amenities",
+          "note": "exact",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/sanfrancisco/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel has a 24-hour concierge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "24-hour Concierge",
+          "note": "service list",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/sanfrancisco/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Hotel guests have unlimited access to the exclusive Equinox Sports Club.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Enjoy unlimited access to the exclusive Equinox Sports Club",
+          "note": "exact",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/sanfrancisco/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Equinox Sports Club has a Junior Olympic lap pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Junior Olympic lap pool",
+          "note": "Equinox highlights",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/sanfrancisco/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Equinox Sports Club has a basketball court.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Basketball court",
+          "note": "Equinox highlights",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/sanfrancisco/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Spa at Equinox Sports Club is located on the fourth floor of the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The Spa at Equinox Sports Club, located on the fourth floor of the Hotel",
+          "note": "exact",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/sanfrancisco/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-6",
+      "text": "Guest rooms feature floor-to-ceiling windows with views of San Francisco.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Guest rooms feature floor-to-ceiling windows with views of San Francisco",
+          "note": "exact",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/sanfrancisco/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-7",
+      "text": "Guests can relax on a terrace that overlooks the Yerba Buena Gardens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "hang out on the terrace that overlooks the Yerba Buena Gardens",
+          "note": "exact",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/san-francisco/four-seasons-hotel-san-francisco",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The valet parking entrance is accessed from Third Street, not Market Street.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "the valet parking entrance is accessed from Third Street, not Market Street",
+          "note": "exact",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/sanfrancisco/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Valet parking is available during your stay for a nightly fee.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Valet parking services are available during your stay for a nightly fee.",
+          "note": "exact",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/sanfrancisco/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "The Equinox Sports Club welcomes guests aged 15 and older only.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "The Equinox Sports Club welcomes guests aged 15 and older only.",
+          "note": "exact",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/sanfrancisco/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-4",
+      "text": "If you’re a luxury traveler looking for a historic San Francisco Hotel, this isn’t it.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "If you're a luxury traveler looking for a historic San Francisco Hotel, this isn't it.",
+          "note": "exact",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/san-francisco/four-seasons-hotel-san-francisco",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-5",
+      "text": "WhataHotel notes a busy downtown location with urban noise levels.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, breakfast for two is free daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers can be combined with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

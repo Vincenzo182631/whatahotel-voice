@@ -1,0 +1,339 @@
+{
+  "hotel_slug": "the-st-regis-london",
+  "hotel_name": "The St. Regis London",
+  "checked_at": "2026-10-14T11:26:11.454Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 16,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 0,
+      "total": 16
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/lonxr-the-st-regis-london/overview/",
+      "tier": "official",
+      "chars": 8695
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/lonxr-the-st-regis-london/rooms/",
+      "tier": "official",
+      "chars": 6448
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/lonxr-the-st-regis-london/dining/",
+      "tier": "official",
+      "chars": 3845
+    },
+    {
+      "id": "d4",
+      "url": "https://www.cntraveler.com/hotels/budapest/st-regis-budapest",
+      "tier": "editorial",
+      "chars": 9594
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is set amongst London's designer boutiques, art galleries and dining and social hubs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "set amongst London's designer boutiques, leading art galleries and extensive dining and social hubs",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lonxr-the-st-regis-london/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Le Perroquet is open for breakfast, lunch and dinner, with a smart casual dress code.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Open for breakfast, lunch and dinner",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lonxr-the-st-regis-london/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Dress Code:\nSmart Casual",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lonxr-the-st-regis-london/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel has two spa suites and a fully equipped gym.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "the destination offers two indulgent spa suites, a fully equipped gym",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lonxr-the-st-regis-london/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Rooms come with fine linens, a pillow menu and selected in-room refreshments.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Curated comforts: fine linens, pillow menu, and carefully selected in-room refreshments.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lonxr-the-st-regis-london/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Rooms are designed with contemporary glamour reflecting Mayfair's fashion, art and cultural spirit.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Designed with contemporary glamour, reflecting Mayfair’s fashion, art and cultural spirit.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lonxr-the-st-regis-london/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Penthouse Suite is the largest-occupancy room, for up to 6 guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The largest occupancy room at The St. Regis London is the Penthouse Suite with a maximum occupancy of 6.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lonxr-the-st-regis-london/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Pets are welcome: one pet per room up to 25kg, with a non-refundable fee.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Pets Welcome",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lonxr-the-st-regis-london/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "1 pets 25kg max per pet per room with non-refundable fee",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lonxr-the-st-regis-london/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "24-hour room service is offered.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "24 Hour Room Service",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lonxr-the-st-regis-london/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Nearby Underground stations include Bond Street, Oxford Circus and Green Park.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Subway Station\n\nBond Street\n\nOxford Circus\n\nGreen Park",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lonxr-the-st-regis-london/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel is in Mayfair, at the junction of Conduit Street and Bond Street.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The St. Regis London stands as Mayfair's gathering place for art, fashion and influence, at the junction of Conduit Street and Bond Street.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lonxr-the-st-regis-london/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Le Perroquet is an all-day French brasserie by Chef Daniel Rose.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Le Perroquet is an all-day brasserie by renowned Chef Daniel Rose, where authentic French cuisine, colourful characters and classic service come together.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lonxr-the-st-regis-london/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Hotel rituals include the St. Regis Butler Service, Champagne Sabering and Midnight Suppers, inspired by the Astor legacy and Caroline Astor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "from the signature St. Regis Butler Service to Champagne Sabering and Midnight Suppers, each inspired by the storied Astor legacy and the enduring spirit of Caroline Astor herself",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lonxr-the-st-regis-london/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Rooms have generous windows with views of Bond and Conduit Streets.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Generous windows with sweeping views of Bond and Conduit Streets.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lonxr-the-st-regis-london/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Rooms do not have a fridge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "No, rooms at The St. Regis London do not have a fridge.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lonxr-the-st-regis-london/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Breakfast is available at Le Perroquet for a fee.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Yes, breakfast is available onsite at Le Perroquet for a fee.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lonxr-the-st-regis-london/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "The hotel does not provide an airport shuttle from Heathrow.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Heathrow Airport\n\nDistance from Property: 18.1 Miles\n\nVisit Website\n\nThis hotel does not provide shuttle service.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lonxr-the-st-regis-london/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

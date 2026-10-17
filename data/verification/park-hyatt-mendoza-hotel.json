@@ -1,0 +1,413 @@
+{
+  "hotel_slug": "park-hyatt-mendoza-hotel",
+  "hotel_name": "Park Hyatt Mendoza Hotel",
+  "checked_at": "2026-10-13T08:31:26.379Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/menph-park-hyatt-mendoza-hotel-casino-and-spa",
+      "tier": "official",
+      "chars": 8236
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/menph-park-hyatt-mendoza-hotel-casino-and-spa/dining/",
+      "tier": "official",
+      "chars": 3682
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/menph-park-hyatt-mendoza-hotel-casino-and-spa/rooms/",
+      "tier": "official",
+      "chars": 9511
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/menph-park-hyatt-mendoza-hotel-casino-and-spa/parking-and-transportation/",
+      "tier": "official",
+      "chars": 335
+    },
+    {
+      "id": "d5",
+      "url": "https://www.cntraveler.com/hotels/argentina/villa-hipodromo/park-hyatt-mendoza-hotel--casino---spa",
+      "tier": "editorial",
+      "chars": 3637
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/menph-park-hyatt-mendoza-hotel-casino-and-spa/hotel-info/",
+      "tier": "official",
+      "chars": 863
+    },
+    {
+      "id": "d7",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/menph-park-hyatt-mendoza-hotel-casino-and-spa/reviews/",
+      "tier": "official",
+      "chars": 9826
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is in Mendoza's city center, opposite the historic Plaza Independencia.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Situated in the city center opposite the historic Plaza Independencia",
+          "note": "location stated",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/menph-park-hyatt-mendoza-hotel-casino-and-spa",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel has an on-site casino, Casino Dreams Plaza, with slot machines, gaming tables and a VIP room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our hotel's on-site casino offers excitement in the form of 550 state-of-the-art slot machines, plus gaming tables and a VIP room.",
+          "note": "casino features",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/menph-park-hyatt-mendoza-hotel-casino-and-spa",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Casino Dreams Plaza",
+          "note": "casino name",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/menph-park-hyatt-mendoza-hotel-casino-and-spa",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Kaua Club & Spa has a sauna and a Turkish steam bath.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "It also offers a sauna, a Turkish steam bath and more.",
+          "note": "spa facilities",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/menph-park-hyatt-mendoza-hotel-casino-and-spa",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Bistro M serves a menu inspired by Mendocinian cuisine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "This original restaurant offers an extensive menu inspired by Mendocinian cuisine.",
+          "note": "Bistro M menu",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/menph-park-hyatt-mendoza-hotel-casino-and-spa/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "UVAS Lounge & Bar is the hotel's pool bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "UVAS is the pool bar, a space designed for leisurely enjoyment.",
+          "note": "pool bar",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/menph-park-hyatt-mendoza-hotel-casino-and-spa/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Balcony Bar is on the first floor and serves an international menu from tapas to signature cocktails and wine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The international menu offers innovative and healthy dishes, from tapas to signature cocktails and wine. Located on the first floor",
+          "note": "menu and floor",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/menph-park-hyatt-mendoza-hotel-casino-and-spa/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Room service is available around the clock.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The ultimate convenience, 24-hour Room Service is available for guests wishing to dine in the privacy of their rooms.",
+          "note": "24-hour room service",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/menph-park-hyatt-mendoza-hotel-casino-and-spa/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Rooms are decorated in an understated, contemporary style with light furnishings, local artwork and earthy palettes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our 186 luxurious accommodations are decorated in an understated, contemporary style, with light furnishings, local artwork and earthy palettes.",
+          "note": "decor stated",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/menph-park-hyatt-mendoza-hotel-casino-and-spa",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Mountain-view rooms look out to the Andes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "There is a spectacular view to the Andes mountains",
+          "note": "mountain view rooms face Andes",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/menph-park-hyatt-mendoza-hotel-casino-and-spa/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Guests can enjoy outdoor experiences ranging from an Aconcagua expedition to trekking and mountain tours.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "enjoy unforgettable outdoor experiences, from the breathtaking Aconcagua Expedition to trekking and mountain tours.",
+          "note": "outdoor experiences",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/menph-park-hyatt-mendoza-hotel-casino-and-spa",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel serves afternoon tea.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "stay at the hotel for a delightful afternoon tea",
+          "note": "afternoon tea mentioned",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/menph-park-hyatt-mendoza-hotel-casino-and-spa",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Self-parking is available and complimentary.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Self-parking is available.",
+          "note": "available",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/menph-park-hyatt-mendoza-hotel-casino-and-spa/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Complimentary",
+          "note": "complimentary",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/menph-park-hyatt-mendoza-hotel-casino-and-spa/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel's Balcony of the Arts displays sculptures, paintings and other works from Mendoza, including work by Julio Le Parc.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our Balcony of the Arts hosts outstanding sculptures, paintings and other creations from Mendoza, including work by artists such as Julio Le Parc.",
+          "note": "art balcony",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/menph-park-hyatt-mendoza-hotel-casino-and-spa",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Bistro M's wine cellar is two stories high.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "its cellar is two stories high",
+          "note": "CNT on Bistro M cellar",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/argentina/villa-hipodromo/park-hyatt-mendoza-hotel--casino---spa",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Kaua Club & Spa offers olive- and wine-based treatments and products.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Kaua Club & Spa offers a wide variety of olive- and wine-based treatments and products",
+          "note": "spa treatments",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/menph-park-hyatt-mendoza-hotel-casino-and-spa",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "At Bistro M, vegetables, fish and meats are roasted in a wood-burning oven visible in the open kitchen.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Roasted vegetables, fish and meats are showcased in our exclusive wood burning oven, visible in our open kitchen.",
+          "note": "wood oven",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/menph-park-hyatt-mendoza-hotel-casino-and-spa/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Diner Plaza, on the casino's lower level, is a restaurant inspired by the famous diners of the 1950s.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Located on the lower level of the Dreams Plaza Casino, this quirky Mendoza restaurant is a gastronomic experience inspired by the famous diners of the ’50s.",
+          "note": "Diner Plaza",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/menph-park-hyatt-mendoza-hotel-casino-and-spa/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "WhataHotel notes the urban setting may not appeal to guests seeking a secluded wine country retreat.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The hotel is pet friendly, but pet-friendly rooms should be reserved at least three days before arrival.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Pet Friendly",
+          "note": "amenity listed",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/menph-park-hyatt-mendoza-hotel-casino-and-spa",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Please reserve your pet-friendly room at least three days in advance of your arrival.",
+          "note": "advance requirement",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/menph-park-hyatt-mendoza-hotel-casino-and-spa",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium luxury pricing reflecting the high-end positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

@@ -1,0 +1,421 @@
+{
+  "hotel_slug": "the-julius-prague",
+  "hotel_name": "The Julius Prague",
+  "checked_at": "2026-10-17T13:26:29.813Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.thejulius.eu/",
+      "tier": "official",
+      "chars": 5568
+    },
+    {
+      "id": "d2",
+      "url": "https://www.thejulius.eu/rooms/",
+      "tier": "official",
+      "chars": 3861
+    },
+    {
+      "id": "d3",
+      "url": "https://www.thejulius.eu/dining/",
+      "tier": "official",
+      "chars": 2850
+    },
+    {
+      "id": "d4",
+      "url": "https://www.thejulius.eu/history/",
+      "tier": "official",
+      "chars": 3209
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The Julius is on Senovážné Square in the heart of Prague, moments from the city's historic streets.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Senovážné Square, in the heart of Prague, moments from the city’s historic streets",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thejulius.eu/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Václav Havel Airport is around 30 minutes away by cab.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Václav Havel Airport is around 30 minutes away by cab.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thejulius.eu/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Main Train Station is a six-minute walk from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Main Train Station is just a six-minute walk",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thejulius.eu/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The Julius comes from the House of Julius Meinl, a Central European heritage built on craftsmanship and quality.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Julius comes from the House of Julius Meinl – a Central European heritage built on craftsmanship, quality, and genuine care for people.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thejulius.eu/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Julius Meinl story began in Vienna in 1862, where its founder introduced a new approach to coffee roasting.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Vienna, 1862",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thejulius.eu/history/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Julius Meinl's story began in 19th-century Vienna",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thejulius.eu/history/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Our founder introduced a new approach to coffee roasting",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thejulius.eu/history/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Rooms, Studios and Suites are designed around calm, natural materials and considered detail.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "A collection of Rooms, Studios, and Suites designed around calm, natural materials, and considered detail.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thejulius.eu/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The One-Bedroom Suite has a kitchen and distinct living and sleeping areas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Space to settle into and a kitchen to make your own. Distinct living and sleeping areas",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thejulius.eu/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Deluxe Studio has a private kitchenette, with living and resting areas that flow into one another.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "A generous studio with a private kitchenette. The living and resting areas flow naturally into one another.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thejulius.eu/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Interconnecting Rooms are available.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Interconnecting Rooms",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thejulius.eu/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The Brasserie serves breakfast, lunch and dinner in an Italian-inspired setting, shaped by seasonal ingredients.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Breakfast moves easily into lunch and into evening, shaped by seasonal ingredients",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thejulius.eu/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The setting is Italian-inspired, calm, and unhurried.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thejulius.eu/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The breakfast buffet includes fresh pastries, warm dishes, breads, homemade preserves and seasonal local produce.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Fresh pastries, warm dishes, breads, homemade preserves, and seasonal local produce",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thejulius.eu/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The hotel's spaces and services are designed for business or leisure, a single night or an extended stay.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "an environment that works for business or leisure, a single night or an extended stay",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thejulius.eu/history/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Next door to the hotel, the House of Julius Meinl Gourmet Shop sells fine chocolates, teas, coffees, jams, wines and prosecco.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Next door to The Julius Prague, the House of Julius Meinl Gourmet Shop brings together a carefully chosen selection of fine chocolates, aromatic teas, distinctive coffees, jams, wines, and prosecco.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thejulius.eu/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Deluxe One-Bedroom Suite with Bathtub is the most spacious One-Bedroom Suite, with a fully equipped kitchen and a generously sized bathtub.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our most spacious One-bedroom Suite. Separate living and sleeping areas, a fully equipped kitchen, and a generously sized bathtub.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thejulius.eu/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The One-Bedroom Suite with Terrace adds a private terrace to a suite with separate living and sleeping areas and a fully equipped kitchen.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "All the space of our One-bedroom Suite, with a private terrace that opens things up further. Separate living and sleeping areas, a fully equipped kitchen",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thejulius.eu/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Deluxe Studio with Terrace has a kitchenette and a private terrace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "A spacious studio with a kitchenette and a private terrace.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thejulius.eu/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Superior Room has a king-size bed and a walk-in rainforest shower.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "A king-size bed, walk-in rainforest shower",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thejulius.eu/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Pets are not permitted, except certified service dogs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Pets and other animals are not permitted, with the exception of certified service dogs.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thejulius.eu/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Check-in is from 15:00 and check-out is until 11:00.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Check-in: from 15.00",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thejulius.eu/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Check-out: till 11.00",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thejulius.eu/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes limited parking availability in the historic city centre.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

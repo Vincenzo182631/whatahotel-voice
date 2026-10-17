@@ -1,0 +1,396 @@
+{
+  "hotel_slug": "mandarin-oriental-vienna",
+  "hotel_name": "Mandarin Oriental Vienna",
+  "checked_at": "2026-10-08T12:59:36.503Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 6,
+      "total": 23
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.mandarinoriental.com/en/vienna/inner-city",
+      "tier": "official",
+      "chars": 7402
+    },
+    {
+      "id": "d2",
+      "url": "https://www.mandarinoriental.com/en/vienna/inner-city/about",
+      "tier": "official",
+      "chars": 6489
+    },
+    {
+      "id": "d3",
+      "url": "https://www.mandarinoriental.com/en/vienna/inner-city/dine",
+      "tier": "official",
+      "chars": 5368
+    },
+    {
+      "id": "d4",
+      "url": "https://www.mandarinoriental.com/en/vienna/inner-city/wellness",
+      "tier": "official",
+      "chars": 6678
+    },
+    {
+      "id": "d5",
+      "url": "https://www.mandarinoriental.com/en/vienna/inner-city/dine/le-sept",
+      "tier": "official",
+      "chars": 4872
+    },
+    {
+      "id": "d6",
+      "url": "https://www.mandarinoriental.com/en/vienna/inner-city/dine/atelier-7-brasserie",
+      "tier": "official",
+      "chars": 5280
+    },
+    {
+      "id": "d7",
+      "url": "https://www.mandarinoriental.com/en/vienna/inner-city/",
+      "tier": "official",
+      "chars": 7402
+    },
+    {
+      "id": "d8",
+      "url": "https://www.cntraveler.com/hotels/vienna/mandarin-oriental-vienna",
+      "tier": "editorial",
+      "chars": 8454
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel has 138 rooms and suites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "With 138 rooms and suites, ranging from elegant Superior Rooms to the grand Royal Suite",
+          "note": "138 rooms and suites",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/vienna/inner-city/about",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is housed in a former courthouse.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Housed in a former courthouse designed by Austrian architect Alfred Keller",
+          "note": "former courthouse",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/vienna/inner-city/about",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The building was designed by architect Alfred Keller.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Housed in a former courthouse designed by Austrian architect Alfred Keller",
+          "note": "architect named",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/vienna/inner-city/about",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel is located at Riemergasse 7, 1010 Wien, Austria.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Mandarin Oriental, Vienna is located at Riemergasse 7, 1010 Wien, Austria.",
+          "note": "address",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/vienna/inner-city",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The hotel has four dining venues.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Experience four different culinary destinations in Vienna",
+          "note": "four venues",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/vienna/inner-city/dine",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Le Sept is the hotel's fine dining restaurant, with a focus on seafood.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Mandarin Oriental, Vienna's fine dining restaurant is an elegant celebration of seafood",
+          "note": "fine dining, seafood",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/vienna/inner-city/dine/le-sept",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Atelier 7 Brasserie serves breakfast, lunch and dinner.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "served for breakfast, lunch, and dinner.",
+          "note": "meals",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/vienna/inner-city/dine/atelier-7-brasserie",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Spa at Mandarin Oriental, Vienna is spread over 700 square metres.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Spread over 700 square metres, this wellness haven features a stunning indoor pool",
+          "note": "700 sq m",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/vienna/inner-city",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The fitness centre is open 24 hours.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The fitness centre is open 24-hours a day",
+          "note": "24h",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/vienna/inner-city/wellness",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "In-room dining is available 24 hours.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The hotel offers 24-hour in-room dining throughout your stay",
+          "note": "24h IRD",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/vienna/inner-city/dine",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "St Stephen's Cathedral is a 5 minute walk from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "St. Stephen's Cathedral – 5 minute walk",
+          "note": "5 min",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/vienna/inner-city/about",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Hofburg Palace is a 7 minute walk from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Hofburg Palace – 7 minute walk",
+          "note": "7 min",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/vienna/inner-city/about",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The hotel's four Atelier 7 concepts sit beneath one iconic glass dome.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "A seamless interplay of four distinct concepts united beneath one iconic glass dome",
+          "note": "dome",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/vienna/inner-city/dine",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The hotel has an indoor pool at the spa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "this wellness haven features a stunning indoor pool",
+          "note": "indoor pool",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/vienna/inner-city",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-6",
+      "text": "Mandarin Oriental, Vienna is recognised as Austria's Best Opening by Falstaff.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Mandarin Oriental, Vienna is proudly recognised as Austria’s Best Opening by Falstaff",
+          "note": "Falstaff",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/vienna/inner-city",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel does not have on-site parking.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The hotel does not have on-site parking.",
+          "note": "no parking",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/vienna/inner-city/about",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Le Sept serves dinner Thursday to Sunday.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "6pm - 10pm (Thursday - Sunday)",
+          "note": "Dinner Thu-Sun",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/vienna/inner-city/dine/le-sept",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing reflects the luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, breakfast for two is free daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers can be combined with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

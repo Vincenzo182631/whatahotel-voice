@@ -1,0 +1,441 @@
+{
+  "hotel_slug": "four-seasons-silicon-valley",
+  "hotel_name": "Four Seasons Hotel Silicon Valley",
+  "checked_at": "2026-10-07T22:35:51.091Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 6,
+      "total": 24
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.fourseasons.com/siliconvalley/",
+      "tier": "official",
+      "chars": 10614
+    },
+    {
+      "id": "d2",
+      "url": "https://press.fourseasons.com/siliconvalley/hotel-facts/",
+      "tier": "official",
+      "chars": 4956
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/siliconvalley/dining/",
+      "tier": "official",
+      "chars": 5333
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/siliconvalley/spa/",
+      "tier": "official",
+      "chars": 3084
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/siliconvalley/services-and-amenities/",
+      "tier": "official",
+      "chars": 3168
+    },
+    {
+      "id": "d6",
+      "url": "https://www.fourseasons.com/siliconvalley/getting-here/",
+      "tier": "official",
+      "chars": 2926
+    },
+    {
+      "id": "d7",
+      "url": "https://www.fourseasons.com/siliconvalley/accommodations/",
+      "tier": "official",
+      "chars": 6770
+    },
+    {
+      "id": "d8",
+      "url": "https://www.fourseasons.com/siliconvalley/contact-us/",
+      "tier": "official",
+      "chars": 1600
+    },
+    {
+      "id": "d9",
+      "url": "https://www.fourseasons.com/siliconvalley/photos-and-videos/",
+      "tier": "official",
+      "chars": 2907
+    },
+    {
+      "id": "d10",
+      "url": "https://www.fourseasons.com/siliconvalley/discover/",
+      "tier": "official",
+      "chars": 1592
+    },
+    {
+      "id": "d11",
+      "url": "https://www.cntraveler.com/hotels/united-states/east-palo-alto/four-seasons-hotel-silicon-valley-at-east-palo-alto",
+      "tier": "editorial",
+      "chars": 3110
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel opened in January 2006.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "January 2006",
+          "note": "Opening date listed as January 2006",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/siliconvalley/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel has 200 rooms in total.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "**Total Number of Rooms:** 200",
+          "note": "Total rooms 200",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/siliconvalley/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel has 10 stories.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "**Number of Stories:** 10",
+          "note": "10 stories",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/siliconvalley/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel is at 2050 University Avenue, East Palo Alto, California.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "2050 University Avenue, East Palo Alto, California 94303 U.S.A.",
+          "note": "Address matches",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/siliconvalley/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Quattro is a contemporary California-Italian restaurant.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Quattro is a contemporary California-Italian restaurant near downtown Palo Alto",
+          "note": "Direct description",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/siliconvalley/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The hotel has a 24-hour Fitness Centre.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "24-hour Fitness Centre",
+          "note": "Listed among amenities",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/siliconvalley/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The spa has 7 treatment rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "**Number of Treatment Rooms:** 7",
+          "note": "7 treatment rooms",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/siliconvalley/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel has an outdoor heated pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Enjoy the outdoor heated pool and the warm California sunshine.",
+          "note": "Outdoor heated pool",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/siliconvalley/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "In-room Peloton is available upon request.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "IN-ROOM PELOTON UPON REQUEST",
+          "note": "Listed amenity",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/siliconvalley/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Complimentary sedan service takes guests to all locations within 3 miles of the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Complimentary sedan service",
+          "note": "Complimentary sedan service",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/siliconvalley/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "all other locations within 3 miles of the Hotel, around the clock",
+          "note": "3 mile radius",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/siliconvalley/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel is 2 miles from Stanford University.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "situated only 2 miles (3.2 kilometers) from the university",
+          "note": "2 miles from Stanford",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/siliconvalley/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "A digital art wall in the lobby features a rotating collection of pieces created by Bay Area artists.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Digital art wall in the lobby features a rotating collection of pieces created by Bay Area artists",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/siliconvalley/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Guest rooms have triple-paned floor-to-ceiling windows.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Guest rooms are designed for comfort and productivity with oversized desks, reading-friendly lighting and triple-paned floor-to-ceiling windows",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/siliconvalley/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Premier Rooms are upper-floor rooms with panoramic views of the Bay Area.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "These spacious, upper-floor rooms inspire leisure and business travellers alike with panoramic views of the Bay Area.",
+          "note": "Premier Room description",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/siliconvalley/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Complimentary E-Bikes are available for guest use.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Complimentary E-Bikes available for guest use",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/siliconvalley/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Booking any spa treatment includes complimentary pool access.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Book any treatment and enjoy complimentary pool access",
+          "note": "Spa page states this",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/siliconvalley/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Overnight valet parking costs USD 60.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "USD 60 Overnight",
+          "note": "Daily valet overnight USD 60",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/siliconvalley/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "A mandatory 20% gratuity is added to the bill for all dining experiences at the pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "A mandatory 20% gratuity will be added to your bill for all dining experiences at the pool.",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/siliconvalley/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing reflects the luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, breakfast for two is free daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers can be combined with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

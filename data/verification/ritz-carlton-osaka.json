@@ -1,0 +1,420 @@
+{
+  "hotel_slug": "ritz-carlton-osaka",
+  "hotel_name": "The Ritz-Carlton, Osaka",
+  "checked_at": "2026-10-09T06:07:02.611Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 0,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ritzcarlton.com/en/hotels/osarz-the-ritz-carlton-osaka/overview/",
+      "tier": "official",
+      "chars": 20415
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ritzcarlton.com/en/hotels/osarz-the-ritz-carlton-osaka/rooms/",
+      "tier": "official",
+      "chars": 8970
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ritzcarlton.com/en/hotels/osarz-the-ritz-carlton-osaka/dining/",
+      "tier": "official",
+      "chars": 7779
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ritzcarlton.com/en/hotels/osarz-the-ritz-carlton-osaka/spa/",
+      "tier": "official",
+      "chars": 9485
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ritzcarlton.com/en/hotels/osarz-the-ritz-carlton-osaka/experiences/",
+      "tier": "official",
+      "chars": 17429
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ritzcarlton.com/en/hotels/osarz-the-ritz-carlton-osaka/club/",
+      "tier": "official",
+      "chars": 6599
+    },
+    {
+      "id": "d7",
+      "url": "https://www.cntraveler.com/hotels/japan/osaka/ritz-carlton-osaka",
+      "tier": "editorial",
+      "chars": 10127
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ritzcarlton.com/en/hotels/osarz-the-ritz-carlton-osaka/experiences/holidays/",
+      "tier": "official",
+      "chars": 6905
+    },
+    {
+      "id": "d9",
+      "url": "https://www.ritzcarlton.com/en/hotels/osarz-the-ritz-carlton-osaka/reviews/",
+      "tier": "official",
+      "chars": 1033
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel stands in the heart of Umeda, Osaka.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "stands gracefully in the heart of Umeda.",
+          "note": "States location in heart of Umeda",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/osarz-the-ritz-carlton-osaka/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The interior is reminiscent of an 18th-century British aristocratic residence.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "an elegant world reminiscent of an 18th‑century British aristocratic residence",
+          "note": "Interior described as such",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/osarz-the-ritz-carlton-osaka/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "It was Japan's first Ritz-Carlton.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Since becoming Japan’s first Ritz-Carlton",
+          "note": "Page states first Ritz-Carlton in Japan",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/osarz-the-ritz-carlton-osaka/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The guest rooms and suites occupy the 24th through the 37th floors.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The guest rooms and suites at The Ritz-Carlton, Osaka occupy the 24th through the 37th floors",
+          "note": "Exact floors stated",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/osarz-the-ritz-carlton-osaka/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Xiang Tao, the Chinese restaurant, features Cantonese cuisine and other regional Chinese dishes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Xiang Tao features Cantonese cuisine and other regional Chinese delights",
+          "note": "Cantonese and other regional Chinese dishes",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/osarz-the-ritz-carlton-osaka/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Splendido is an all-day Italian restaurant on the first floor that serves breakfast.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Enjoy breakfast and simple yet delicious Italian cuisine prepared with the freshest ingredients at this all-day, Osaka restaurant on the 1st floor.",
+          "note": "Splendido is named in adjacent heading; all elements covered",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/osarz-the-ritz-carlton-osaka/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Riedel Room is a private dining room with gilt mirrors and hand-carved furnishings.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "the spectacular Riedel Room, a private dining room with gilt mirrors and hand-carved furnishings",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/japan/osaka/ritz-carlton-osaka",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Spa treatments include the Shisui Detox Facial with matcha and the Ki Purifier & Rebalancer with sake.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "the Shisui Detox Facial infused with matcha and the Ki Purifier & Rebalancer featuring sake",
+          "note": "Both treatments named",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/osarz-the-ritz-carlton-osaka/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The hotel offers staying guests complimentary activities such as running tours, origami lessons and bike rentals.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "offers complimentary, original activities for all staying guests",
+          "note": "Complimentary for staying guests",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/osarz-the-ritz-carlton-osaka/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "running tours, origami lessons or bike rentals",
+          "note": "Lists all three activities",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/osarz-the-ritz-carlton-osaka/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The Ritz Kids Night Safari for families provides a tent, mattress and lantern in the room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "The Ritz Kids Night Safari designed for two adults and two children. Rooms are kitted out with a tent, mattress, and lantern",
+          "note": "Tent, mattress, lantern in room",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/japan/osaka/ritz-carlton-osaka",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Osaka Station is less than half a mile from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "less than half a mile from Osaka Station",
+          "note": "Exact distance claim",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/japan/osaka/ritz-carlton-osaka",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "La Baie, the French restaurant, was awarded one Michelin star in the Michelin Guide Kyoto Osaka 2026.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "the French restaurant La Baie—awarded one Michelin star in the Michelin Guide Kyoto Osaka 2026",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/osarz-the-ritz-carlton-osaka/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Japanese Suite has a tateiwa stone entrance, cedar-paneled bathroom walls and a granite soaking tub.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The entrance is lined with tateiwa stone, whose beauty deepens with time; the bathroom features cedar-paneled walls and a granite soaking tub",
+          "note": "All three features stated",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/osarz-the-ritz-carlton-osaka/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Hanagatami, the Japanese restaurant, has a seven-meter cypress sushi counter and serves sumibiyaki fired over ubame oak charcoal.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Dine at the restaurant's seven-meter cypress sushi counter. Taste sumibiyaki fired over high-grade ubame oak charcoal.",
+          "note": "Both elements stated for the Japanese restaurant",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/osarz-the-ritz-carlton-osaka/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The hotel holds an art collection and offers an art tour exclusively for in-house guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "We are pleased to offer an art tour, held exclusively for our in-house guests.",
+          "note": "Art tour exclusive to in-house guests",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/osarz-the-ritz-carlton-osaka/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "is home to an collection of approximately 450 piece arts",
+          "note": "Art collection stated",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/osarz-the-ritz-carlton-osaka/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Forbes Travel Guide gave the hotel its Five-Star rating in 2026, for the fourth consecutive year.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "In 2026, the hotel was honored with the prestigious Five-Star rating from Forbes Travel Guide for the fourth consecutive year",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/osarz-the-ritz-carlton-osaka/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Umeda is a transport hub and business district.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Umeda, a transport hub and business district",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/japan/osaka/ritz-carlton-osaka",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Guests with tattoos, including small fashion tattoos, are asked not to use the spa area.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Guests with tattoos, including small fashion tattoos, are kindly requested not to use the spa area.",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/osarz-the-ritz-carlton-osaka/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "Club Lounge access requires an upgraded booking, and Marriott Bonvoy Elite Status does not provide complimentary access.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "*Club access requires an upgraded booking at the Club. Marriott Bonvoy Elite Status does not provide complimentary access to Club.",
+          "note": "Both elements stated",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/osarz-the-ritz-carlton-osaka/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

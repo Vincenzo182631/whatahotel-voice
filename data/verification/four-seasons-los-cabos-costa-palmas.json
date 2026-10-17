@@ -1,0 +1,424 @@
+{
+  "hotel_slug": "four-seasons-los-cabos-costa-palmas",
+  "hotel_name": "Four Seasons Resort Los Cabos at Costa Palmas",
+  "checked_at": "2026-10-08T00:10:46.481Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 6,
+      "total": 23
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.fourseasons.com/loscabos/",
+      "tier": "official",
+      "chars": 10455
+    },
+    {
+      "id": "d2",
+      "url": "https://press.fourseasons.com/loscabos/hotel-facts/",
+      "tier": "official",
+      "chars": 7362
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/loscabos/getting-here/",
+      "tier": "official",
+      "chars": 4154
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/loscabos/services-and-amenities/",
+      "tier": "official",
+      "chars": 4108
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/loscabos/dining/",
+      "tier": "official",
+      "chars": 9981
+    },
+    {
+      "id": "d6",
+      "url": "https://www.fourseasons.com/loscabos/spa/",
+      "tier": "official",
+      "chars": 7420
+    },
+    {
+      "id": "d7",
+      "url": "https://www.fourseasons.com/loscabos/accommodations/",
+      "tier": "official",
+      "chars": 9969
+    },
+    {
+      "id": "d8",
+      "url": "https://www.fourseasons.com/loscabos/contact-us/",
+      "tier": "official",
+      "chars": 1621
+    },
+    {
+      "id": "d9",
+      "url": "https://www.fourseasons.com/loscabos/photos-and-videos/",
+      "tier": "official",
+      "chars": 5540
+    },
+    {
+      "id": "d10",
+      "url": "https://www.fourseasons.com/loscabos/discover/",
+      "tier": "official",
+      "chars": 3701
+    },
+    {
+      "id": "d11",
+      "url": "https://www.cntraveler.com/hotels/costa-palmas/four-seasons-resort-los-cabos-at-costa-palmas",
+      "tier": "editorial",
+      "chars": 8387
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-2",
+      "text": "The resort has 141 rooms in total.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Total Number of Rooms:",
+          "note": "Label; value 141 on next line",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/loscabos/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "141",
+          "note": "Total number of rooms value",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/loscabos/hotel-facts/",
+          "tier": "official",
+          "quote_verified": false
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The resort sits on a 2 mile (3.2-kilometre) stretch of beach on the Baja Peninsula's undiscovered East Cape.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Located on a 2 mile (3.2-kilometre) stretch of beach on the Baja Peninsula’s undiscovered East Cape",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/loscabos/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The resort has seven swimming pools.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Seven swimming pools",
+          "note": "Amenities list",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/loscabos/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Oasis Spa has 10 stand-alone treatment rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "We offer 10 stand-alone treatment rooms to maximize privacy for all guests.",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/loscabos/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The resort has an 18-hole Costa Palmas Golf Club designed by Robert Trent Jones II.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "18-hole Costa Palmas Golf Club designed by Robert Trent Jones II",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/loscabos/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The resort offers 13 options for dining and drinks.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "13 options for dining and drinks",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/loscabos/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The Fitness Centre is open 24 hours every day.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Fitness CentreEvery day, 24 Hours",
+          "note": "Hours listing",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/loscabos/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The resort has an exclusive Costa Palmas marina.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Exclusive Costa Palmas marina",
+          "note": "Amenities list",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/loscabos/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Guest rooms measure 63 m2 (680 sq.ft.).",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "63 m2 (680 sq.ft.)",
+          "note": "All six guest room types list this size",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/loscabos/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Estiatorio Milos offers local and Mediterranean seafood at an elegant beachside restaurant.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Greece meets Baja at this elegant beachside restaurant that offers local and Mediterranean seafood prepared with the simplicity and precision that define Greek cuisine.",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/loscabos/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Zest has a single table for up to 12 guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "With a single table for up to 12 guests, enjoy a nine-course seasonal tasting menu crafted from the freshest garden ingredients.",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/loscabos/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Oasis Spa wet areas are available for complimentary use seven days per week, with or without a spa appointment.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Our wet areas are available for complimentary use seven days per week, with or without a spa appointment.",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/loscabos/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Kids For All Seasons program is complimentary.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "our complimentary Kids For All Seasons program offers fun, educational activities",
+          "note": "States complimentary",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/loscabos/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Adventure Concierge arranges guided ATV tours through the desert foothills of the Sierra de la Laguna Mountains.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "guided ATV tours through the desert foothills of the Sierra de la Laguna Mountains",
+          "note": "Adventure Concierge description",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/loscabos/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-6",
+      "text": "Oasis Spa was named among the 100 Best Spas in the World by Vogue for two consecutive years.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Named among the 100 Best Spas in the World by Vogue for two consecutive years",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/loscabos/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The resort is 45 minutes by car from Los Cabos International Airport.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "just 45 minutes from Los Cabos International Airport",
+          "note": "Also 45 minutes by car on page",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/loscabos/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Private cabanas at the adults-only pool are provided on a first come, first served basis.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "the serene adults-only pool, complete with luxuriously private cabanas provided on a first come, first served basis",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/loscabos/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the resort is located outside the central Cabo San Lucas area.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, breakfast for two is free daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers can be combined with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

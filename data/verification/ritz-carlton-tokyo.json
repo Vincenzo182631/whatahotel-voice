@@ -1,0 +1,378 @@
+{
+  "hotel_slug": "ritz-carlton-tokyo",
+  "hotel_name": "The Ritz Carlton Tokyo",
+  "checked_at": "2026-10-09T13:26:58.514Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 15,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 16
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ritzcarlton.com/en/hotels/tyorz-the-ritz-carlton-tokyo/overview/",
+      "tier": "official",
+      "chars": 15418
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ritzcarlton.com/en/hotels/tyorz-the-ritz-carlton-tokyo/rooms/signature-accommodations/",
+      "tier": "official",
+      "chars": 4844
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ritzcarlton.com/en/hotels/tyorz-the-ritz-carlton-tokyo/dining/",
+      "tier": "official",
+      "chars": 7658
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ritzcarlton.com/en/hotels/tyorz-the-ritz-carlton-tokyo/spa/",
+      "tier": "official",
+      "chars": 10444
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ritzcarlton.com/en/hotels/tyorz-the-ritz-carlton-tokyo/club/",
+      "tier": "official",
+      "chars": 5411
+    },
+    {
+      "id": "d6",
+      "url": "https://www.cntraveler.com/hotels/japan/tokyo/ritz-carlton-tokyo",
+      "tier": "editorial",
+      "chars": 7136
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ritzcarlton.com/en/hotels/tyorz-the-ritz-carlton-tokyo/rooms/",
+      "tier": "official",
+      "chars": 8163
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ritzcarlton.com/en/hotels/tyorz-the-ritz-carlton-tokyo/experiences/",
+      "tier": "official",
+      "chars": 12747
+    },
+    {
+      "id": "d9",
+      "url": "https://www.ritzcarlton.com/en/hotels/tyorz-the-ritz-carlton-tokyo/reviews/",
+      "tier": "official",
+      "chars": 1030
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The Bar is a cocktail bar and restaurant on the 45th floor with city skyline views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "This sophisticated cocktail bar and restaurant in Tokyo on the 45th floor pairs the city skyline views with shareable plates and an extensive drink menu.",
+          "note": "Bar on 45th floor with skyline views",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/tyorz-the-ritz-carlton-tokyo/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Afternoon tea at The Lobby Lounge is served on Arita porcelain.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Experience afternoon tea at The Lobby Lounge.",
+          "note": "Lobby Lounge afternoon tea",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/tyorz-the-ritz-carlton-tokyo/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "served on exclusive Arita porcelain",
+          "note": "Arita porcelain",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/tyorz-the-ritz-carlton-tokyo/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Ritz-Carlton Spa is on the 46th floor and has skyline views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Spanning 21,528 square feet on the 46th floor, The Ritz-Carlton Spa, Tokyo encourages wellness with a blend of Eastern and Western traditions.",
+          "note": "46th floor",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/tyorz-the-ritz-carlton-tokyo/spa/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "as each contemporary space unfolds against a backdrop of panoramic, skyline views",
+          "note": "skyline views",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/tyorz-the-ritz-carlton-tokyo/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The spa offers ESPA treatments, Bastien Gonzalez hand and foot treatments, and Shiseido Synactif treatments.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "offers facial and body treatments by ESPA, hand and foot treatments by Bastien Gonzalez, and Shiseido Synactif treatments.",
+          "note": "All three listed",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/tyorz-the-ritz-carlton-tokyo/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Hotel guests have complimentary access to the indoor pool, the fitness studio and the heat experience area.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Hotel guests have complimentary access to Indoor Pool, Fitness Studio, and Heat Experience Area.",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/tyorz-the-ritz-carlton-tokyo/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Club Lounge offers complimentary food and beverage presentations five times each day.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Five times each day, the Club Lounge at our luxury Tokyo hotel with concierge services offers complimentary food and beverage presentations.",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/tyorz-the-ritz-carlton-tokyo/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The hotel's restaurants and Club Lounge have views toward Shinjuku, the Imperial Palace or Mount Fuji.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "features a Club Lounge and fine dining with views of the Shinjuku area, the Imperial Palace, or Mount Fuji.",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/tyorz-the-ritz-carlton-tokyo/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Condé Nast Traveler describes the hotel as set in an actual neighborhood with many cafes and boutiques to discover during the day.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "plunked itself down in an actual neighborhood instead of a dedicated business district.",
+          "note": "Neighborhood setting",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/japan/tokyo/ritz-carlton-tokyo",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "heaps of cute cafes and boutiques to discover during the day.",
+          "note": "Cafes and boutiques",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/japan/tokyo/ritz-carlton-tokyo",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel occupies the top nine floors of the Midtown Tower in the Roppongi District of Tokyo.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Occupying the top nine floors of the 53-story Midtown Tower in the Roppongi District",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/tyorz-the-ritz-carlton-tokyo/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Héritage by Kei Kobayashi, the hotel's French restaurant, holds one Michelin star.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "One Michelin star restaurant, Héritage by Kei Kobayashi",
+          "note": "One Michelin star",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/tyorz-the-ritz-carlton-tokyo/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Héritage by Kei Kobayashi is our on-site French restaurant.",
+          "note": "French restaurant on site",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/tyorz-the-ritz-carlton-tokyo/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Hinokizaka, the hotel's Japanese restaurant, has separate areas for kaiseki, sushi, tempura and teppanyaki.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Hinokizaka features four areas for each of Kaiseki, Sushi, Tempura, and Teppanyaki",
+          "note": "Exact match; Japanese restaurant stated in same sentence context",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/tyorz-the-ritz-carlton-tokyo/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Ritz-Carlton Suite features Edo-Kiriko pendant lights, ebony wood flooring and a cloud-patterned carpet.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Edo-Kiriko pendant lights, ebony wood flooring, and a cloud-patterned carpet.",
+          "note": "Exact match for Ritz-Carlton Suite",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/tyorz-the-ritz-carlton-tokyo/rooms/signature-accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The hotel has a patisserie, Nina, run by pastry chef Nina Métayer.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "A patisserie by Nina Métayer, the world-renowned pastry chef",
+          "note": "Nina patisserie by Nina Métayer",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/tyorz-the-ritz-carlton-tokyo/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel does not provide shuttle service from the airports.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "This hotel does not provide shuttle service.",
+          "note": "Stated for both airports",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/tyorz-the-ritz-carlton-tokyo/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Club access requires an upgraded booking, and Marriott Bonvoy Elite Status does not provide complimentary Club access.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Club access requires an upgraded booking at the Club. Marriott Bonvoy Elite Status does not provide complimentary access to Club.",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/tyorz-the-ritz-carlton-tokyo/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes a formal atmosphere that may not suit travelers seeking a casual stay.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "hotel_slug": "crown-towers-perth",
+  "hotel_name": "Crown Towers Perth",
+  "checked_at": "2026-10-16T01:05:42.742Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 10,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 12
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.crownhotels.com.au/perth/crown-towers",
+      "tier": "official",
+      "chars": 1881
+    },
+    {
+      "id": "d2",
+      "url": "https://www.crownhotels.com.au/our-hotels/",
+      "tier": "official",
+      "chars": 8229
+    },
+    {
+      "id": "d3",
+      "url": "https://www.crownhotels.com.au/perth/crown-towers/",
+      "tier": "official",
+      "chars": 1881
+    },
+    {
+      "id": "d4",
+      "url": "https://www.crownhotels.com.au/crown-direct/sign-up/",
+      "tier": "official",
+      "chars": 612
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Crown Towers Perth is located on the eastern banks of the Swan River.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Crown Towers is located on the eastern banks of the Swan River, only minutes from the Perth city centre.",
+          "note": "states location on eastern banks of Swan River",
+          "confirmed": true,
+          "url": "https://www.crownhotels.com.au/perth/crown-towers",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel's address is Great Eastern Highway, Burswood, Perth.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Great Eastern Highway Burswood, Perth WA 6100, Australia",
+          "note": "address given on hotel page",
+          "confirmed": true,
+          "url": "https://www.crownhotels.com.au/perth/crown-towers",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Guest rooms and suites feature bespoke furniture and intuitive technology.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our beautifully appointed guest rooms and suites are unparalleled in every way. From thoughtful design, bespoke furniture, and intuitive technology, experience Perth in pure luxury.",
+          "note": "rooms and suites with bespoke furniture and intuitive technology",
+          "confirmed": true,
+          "url": "https://www.crownhotels.com.au/perth/crown-towers",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel offers villas in addition to rooms and suites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "- Rooms & Suites\n- Villas",
+          "note": "hotel page navigation lists Villas alongside Rooms & Suites",
+          "confirmed": true,
+          "url": "https://www.crownhotels.com.au/perth/crown-towers",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The pool area has plush daybeds and attentive wait staff.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Enjoy a stunning resort setting with expansive lagoon pools, plush daybeds and attentive wait staff to attend to your every need.",
+          "note": "Crown Towers Perth entry: lagoon pools, daybeds and wait staff",
+          "confirmed": true,
+          "url": "https://www.crownhotels.com.au/our-hotels/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Fine dining options at the resort range from Nobu to Rockpool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "From Nobu to Rockpool, there is an abundance of fine dining restaurants for you to choose from",
+          "note": "names Nobu and Rockpool as fine dining",
+          "confirmed": true,
+          "url": "https://www.crownhotels.com.au/perth/crown-towers",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel has a resort setting with expansive lagoon pools.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Enjoy a stunning resort setting with expansive lagoon pools, plush daybeds and attentive wait staff to attend to your every need.",
+          "note": "Crown Towers Perth entry: resort setting with expansive lagoon pools",
+          "confirmed": true,
+          "url": "https://www.crownhotels.com.au/our-hotels/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The hotel's resort facilities include the exclusive Crystal Club.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Discover an array of luxurious resort facilities including expansive pools, the exclusive Crystal Club, and the ultimate in pampering at the opulent Crown Spa.",
+          "note": "Crystal Club listed among resort facilities",
+          "confirmed": true,
+          "url": "https://www.crownhotels.com.au/perth/crown-towers",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The hotel's resort facilities include Crown Spa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Discover an array of luxurious resort facilities including expansive pools, the exclusive Crystal Club, and the ultimate in pampering at the opulent Crown Spa.",
+          "note": "Crown Spa listed among resort facilities",
+          "confirmed": true,
+          "url": "https://www.crownhotels.com.au/perth/crown-towers",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel is in Burswood on the eastern banks of the Swan River, not in the Perth city centre itself.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Crown Towers is located on the eastern banks of the Swan River, only minutes from the Perth city centre.",
+          "note": "on eastern banks, minutes from (so not in) the city centre",
+          "confirmed": true,
+          "url": "https://www.crownhotels.com.au/perth/crown-towers",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Great Eastern Highway Burswood, Perth WA 6100, Australia",
+          "note": "Burswood address",
+          "confirmed": true,
+          "url": "https://www.crownhotels.com.au/perth/crown-towers",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes the casino-integrated environment may not suit all guests.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing that reflects the luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "waldorf-astoria-beijing",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "Waldorf Astoria Beijing",
+      "city": "Beijing",
+      "country": "CN",
+      "chain": "hilton"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hilton"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Beijing, CN)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hilton.com/en/hotels/bjswawa-waldorf-astoria-beijing/"
+    ],
+    "checked_at": "2026-10-15T09:48:26.226Z",
+    "status": "confirmed",
+    "official_url": "https://www.hilton.com/en/hotels/bjswawa-waldorf-astoria-beijing/",
+    "base_url": "https://www.hilton.com/en/hotels/bjswawa-waldorf-astoria-beijing/",
+    "host": "hilton.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hilton.com/en/hotels/bjswawa-waldorf-astoria-beijing/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T09:48:46.410Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hilton.com/en/hotels/bjswawa-waldorf-astoria-beijing/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T09:48:57.276Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.cntraveler.com/hotels/beijing/waldorf-astoria-beijing",
+      "tier": "editorial",
+      "fetched_at": "2026-10-15T09:49:01.120Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 3,
+    "cache_hits": 0,
+    "direct_fetches": 1,
+    "pages": 3,
+    "chars": 9598,
+    "est_claude_tokens": 2400
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-15T09:49:01.120Z"
+}

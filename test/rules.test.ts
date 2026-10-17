@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import { HotelProfileSchema, ScriptSchema, type Script } from "../src/core/schema.js";
-import { PERKS_SIGNATURE, checkDuration, checkScript, withSignature, wordCount } from "../src/script/rules.js";
+import { PERKS_SIGNATURE, checkDuration, checkScript, signatureFor, withSignature, wordCount } from "../src/script/rules.js";
 
 const profile = HotelProfileSchema.parse(JSON.parse(readFileSync("test/fixtures/hotels/test-hotel.json", "utf8")));
 const script = (): Script =>
@@ -24,7 +24,7 @@ describe("checkScript", () => {
     it("is appended word for word by the Luxury Advisor, once", () => {
       const s = withSignature(script(), withPerks);
       const last = s.turns[s.turns.length - 1]!;
-      expect(last).toMatchObject({ speaker: "advisor", section: "bottom_line", text: PERKS_SIGNATURE, claim_ids: ["p-1", "p-5", "p-2", "p-3"] });
+      expect(last).toMatchObject({ speaker: "advisor", section: "bottom_line", text: signatureFor(withPerks), claim_ids: ["p-1", "p-5", "p-2", "p-3"] });
       expect(withSignature(s, withPerks).turns).toHaveLength(s.turns.length);
       expect(checkScript(s, withPerks).join()).not.toMatch(/signature|states the perks/);
       expect(PERKS_SIGNATURE).toMatch(/WhataHotel Preferred Rate/);
@@ -35,7 +35,7 @@ describe("checkScript", () => {
       s.turns[s.turns.length - 1]!.claim_ids = ["p-1"];
       const fixed = withSignature(s, withPerks);
       expect(fixed.turns.filter((t) => t.claim_ids.includes("p-1"))).toHaveLength(1);
-      expect(fixed.turns[fixed.turns.length - 1]!.text).toBe(PERKS_SIGNATURE);
+      expect(fixed.turns[fixed.turns.length - 1]!.text).toBe(signatureFor(withPerks));
     });
 
     it("rejects perks spoken outside the signature", () => {

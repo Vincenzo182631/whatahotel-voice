@@ -1,0 +1,398 @@
+{
+  "hotel_slug": "st-regis-new-york",
+  "hotel_name": "St. Regis New York",
+  "checked_at": "2026-10-14T07:53:05.281Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/nycxr-the-st-regis-new-york/overview/",
+      "tier": "official",
+      "chars": 20124
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/nycxr-the-st-regis-new-york/rooms/",
+      "tier": "official",
+      "chars": 7632
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/nycxr-the-st-regis-new-york/dining/",
+      "tier": "official",
+      "chars": 8584
+    },
+    {
+      "id": "d4",
+      "url": "https://www.cntraveler.com/hotels/new-york-city/the-st-regis-new-york",
+      "tier": "editorial",
+      "chars": 6105
+    },
+    {
+      "id": "d5",
+      "url": "https://www.marriott.com/en-us/hotels/nycxr-the-st-regis-new-york/experiences/",
+      "tier": "official",
+      "chars": 15331
+    },
+    {
+      "id": "d6",
+      "url": "https://www.marriott.com/en-us/hotels/nycxr-the-st-regis-new-york/experiences/holidays/",
+      "tier": "official",
+      "chars": 5263
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is at Fifth Avenue and 55th Street in Midtown Manhattan, steps from Central Park, Fifth Avenue shopping, MoMA and Rockefeller Center.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located at Fifth Avenue and 55th Street in Midtown Manhattan, our hotel is steps from Central Park, Fifth Avenue Shopping, MoMa, and the Rockefeller Center.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/nycxr-the-st-regis-new-york/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "John Jacob Astor IV founded The St. Regis New York in 1904.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "In 1904, John Jacob Astor IV founded The St. Regis New York",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/nycxr-the-st-regis-new-york/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel was declared a New York City Landmark in 1988.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "was declared a New York City Landmark in 1988.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/nycxr-the-st-regis-new-york/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The King Cole Bar is the home of the original Bloody Mary.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The hotel's famous King Cole Bar, home of the original Bloody Mary",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/nycxr-the-st-regis-new-york/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "In 1934 bartender Fernand Petiot introduced the Red Snapper, which was later renamed the Bloody Mary.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "since 1934 when a bartender Fernand Petiot introduced the “Red Snapper,” which would later be renamed the Bloody Mary.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/nycxr-the-st-regis-new-york/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Drawing Room, formerly Astor Court, is a lounge-style space next to the King Cole Bar serving sharable bites and large plates.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Formerly known as Astor Court, the area adjacent to the King Cole Bar has been reimagined as an inviting lounge-style space serving sharable bites and large plates.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/nycxr-the-st-regis-new-york/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "La Maisonette draws inspiration from the hotel's original 1910s breakfast room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "drawing inspiration from the hotel’s original 1910s breakfast room",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/nycxr-the-st-regis-new-york/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Afternoon tea is served in La Maisonette.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Indulge in our beloved Afternoon Tea experience in La Maisonette",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/nycxr-the-st-regis-new-york/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Rooms keep original elements such as crystal Waterford chandeliers and crown moldings.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Original elements such as crystal Waterford chandeliers and elegant crown moldings are accented with large and beautiful photographs",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/nycxr-the-st-regis-new-york/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel offers two-bedroom St. Regis, Grand and Milano suites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "our New York city hotel offers two-bedroom St. Regis, Grand, and Milano suites",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/nycxr-the-st-regis-new-york/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel has a rooftop ballroom with city views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "a regal rooftop ballroom with sweeping city views",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/nycxr-the-st-regis-new-york/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Bathrooms have bath amenities from Laboratoire Remede.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "lovely bath amenities from Laboratoire Remède",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york-city/the-st-regis-new-york",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Old King Cole mural in the King Cole Bar was painted by Maxfield Parrish in 1906 for the Knickerbocker hotel on 42nd Street.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The puckish mural, painted by Maxfield Parrish in 1906, was commissioned by Colonel John Jacob Astor for his 42nd Street hotel, The Knickerbocker.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/nycxr-the-st-regis-new-york/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "at the iconic King Cole Bar, under the famous mural by Maxfield Parrish",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york-city/the-st-regis-new-york",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The hotel has designer suites including the Dior Suite and the Bentley Suite, each inspired by a luxury brand.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "From the fashion-forward elegance of the Dior Suite to the sleek refinement of the Bentley Suite, each space is uniquely inspired by iconic luxury brands",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/nycxr-the-st-regis-new-york/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Guests are looked after by a personal St. Regis butler during their stay.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "During your stay, you'll enjoy the careful attention of a personal butler",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/nycxr-the-st-regis-new-york/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The afternoon tea ritual dates back to Caroline Astor, matriarch of St. Regis.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "This cherished ritual dates back to Caroline Astor, the esteemed matriarch of St. Regis",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/nycxr-the-st-regis-new-york/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Caroline Astor Suite overlooks Central Park.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "the luxurious Caroline Astor Suite offers a serene and sophisticated escape overlooking views of Central Park.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/nycxr-the-st-regis-new-york/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Valet parking is not available on Parade Days.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Available from 6am to 12am. No in-and-out privileges. Not available on Parade Days.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/nycxr-the-st-regis-new-york/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The hotel does not provide an airport shuttle service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "This hotel does not provide shuttle service.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/nycxr-the-st-regis-new-york/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes a busy Midtown location with heavy foot traffic.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

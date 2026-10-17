@@ -1,0 +1,451 @@
+{
+  "hotel_slug": "four-seasons-osaka",
+  "hotel_name": "Four Seasons Hotel Osaka",
+  "checked_at": "2026-10-08T00:06:36.044Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 6,
+      "total": 24
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://press.fourseasons.com/osaka/hotel-facts/",
+      "tier": "official",
+      "chars": 9263
+    },
+    {
+      "id": "d2",
+      "url": "https://www.fourseasons.com/osaka/",
+      "tier": "official",
+      "chars": 12479
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/osaka/dining/",
+      "tier": "official",
+      "chars": 13943
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/osaka/spa/",
+      "tier": "official",
+      "chars": 6212
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/osaka/accommodations/",
+      "tier": "official",
+      "chars": 8153
+    },
+    {
+      "id": "d6",
+      "url": "https://www.fourseasons.com/osaka/getting-here/",
+      "tier": "official",
+      "chars": 3528
+    },
+    {
+      "id": "d7",
+      "url": "https://www.fourseasons.com/osaka/services-and-amenities/",
+      "tier": "official",
+      "chars": 3622
+    },
+    {
+      "id": "d8",
+      "url": "https://www.fourseasons.com/osaka/services-and-amenities/gensui/",
+      "tier": "official",
+      "chars": 15312
+    },
+    {
+      "id": "d9",
+      "url": "https://www.fourseasons.com/osaka/contact-us/",
+      "tier": "official",
+      "chars": 1385
+    },
+    {
+      "id": "d10",
+      "url": "https://www.fourseasons.com/osaka/photos-and-videos/",
+      "tier": "official",
+      "chars": 9825
+    },
+    {
+      "id": "d11",
+      "url": "https://www.cntraveler.com/hotels/osaka/four-seasons-hotel-osaka",
+      "tier": "editorial",
+      "chars": 11630
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-2",
+      "text": "The hotel has 175 rooms and suites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "where 175 luxury hotel rooms and suites place you in the heart of the city",
+          "note": "175 rooms and suites",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/osaka/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel occupies 12 floors of One Dojima.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Occupies 12 floors of One Dojima, a soaring sailboat-inspired building",
+          "note": "12 floors of One Dojima",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/osaka/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel is at 2-4-32 Dojima, Kita-ku, Osaka.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "2-4-32, Dojima, Kita-ku, Osaka, 530-0003, Japan",
+          "note": "Address",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/osaka/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The hotel is walking distance from Umeda, a shopping, entertainment and business centre.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Walking distance from Umeda, a shopping, entertainment and business centre",
+          "note": "Walking distance from Umeda",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/osaka/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The GENSUI Modern Ryokan Floor comprises 21 rooms and suites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The “GENSUI” Modern Ryokan Floor comprises 21 rooms and suites",
+          "note": "21 rooms and suites",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/osaka/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Jiang Nan Chun is a signature Chinese restaurant serving Cantonese cuisine on the 37th floor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Jiang Nan Chun is a signature Chinese restaurant serving Cantonese cuisine",
+          "note": "Signature Chinese, Cantonese",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/osaka/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Located on the 37th floor of Four Seasons Hotel Osaka",
+          "note": "37th floor",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/osaka/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Bar Bota is a cocktail bar on the 37th floor with a circular counter.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Bar Bota, a sky-high cocktail bar in Osaka where a striking circular counter anchors sweeping wraparound views from the 37th floor",
+          "note": "Cocktail bar, circular counter, 37th floor",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/osaka/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Jardin is the all-day dining venue, with 86 indoor seats and 32 terrace seats.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "the vibrant all-day dining destination at Four Seasons Hotel Osaka",
+          "note": "All-day dining",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/osaka/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "featuring 86 indoor seats and 32 terrace seats",
+          "note": "Seat counts",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/osaka/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The spa is on the 36th floor and has five treatment rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Relax and rejuvenate in our 36th-floor spa featuring five naturally lit treatment rooms",
+          "note": "36th floor, five treatment rooms",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/osaka/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The fitness centre is open 24 hours.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The fully equipped 24-hour fitness centre offers invigorating Osaka views",
+          "note": "24-hour fitness centre",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/osaka/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Guests on the GENSUI floor have access to SABO Lounge, where they can enjoy a complimentary breakfast.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Enjoy access to SABO Lounge, where you can savour a complimentary breakfast",
+          "note": "SABO Lounge complimentary breakfast for GENSUI guests",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/osaka/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Tatami Premier Rooms offer floor-to-ceiling views of Osaka.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Framed by floor-to-ceiling views of Osaka, our modern Japanese guest rooms offer a refined interpretation of ryokan living within the GENSUI Floor.",
+          "note": "Tatami Premier Room description",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/osaka/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The spa has a couples' suite with private bath.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "five treatment rooms, including a couples’ suite with a private bath",
+          "note": "Couples suite with private bath",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/osaka/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The indoor swimming pool is 16 metres long.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The 16 m (52 ft) indoor pool",
+          "note": "16 m indoor pool",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/osaka/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Sushi L'Abysse Osaka is the third L'Abysse destination after the two-Michelin-starred L'Abysse Paris.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The third L’Abysse destination following the two-Michelin-starred L’Abysse Paris",
+          "note": "Third L'Abysse after Paris",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/osaka/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Parking is available at the hotel for an additional hourly or overnight fee.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "our Hotel for an additional hourly or overnight fee.",
+          "note": "Parking fee",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/osaka/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The hotel has 12 parking spaces.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "**Number of vehicles**: 12 (includes one space for physically challenged individuals)",
+          "note": "12 spaces",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/osaka/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "The minimum age for spa treatments is 16 years.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "**Spa Treatments:** 16 years",
+          "note": "Minimum age 16",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/osaka/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-4",
+      "text": "WhataHotel notes premium pricing reflects the luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, breakfast for two is free daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers can be combined with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

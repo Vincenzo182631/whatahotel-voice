@@ -1,0 +1,396 @@
+{
+  "hotel_slug": "la-reserve-geneve-hotel-spa-villa",
+  "hotel_name": "La Reserve Geneve Hotel, Spa & Villa",
+  "checked_at": "2026-10-15T03:47:04.642Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.lareserve-geneve.com/en/",
+      "tier": "official",
+      "chars": 7229
+    },
+    {
+      "id": "d2",
+      "url": "https://www.lareserve-geneve.com/en/luxury-spa/",
+      "tier": "official",
+      "chars": 8409
+    },
+    {
+      "id": "d3",
+      "url": "https://www.lareserve-geneve.com/en/location/",
+      "tier": "official",
+      "chars": 7965
+    },
+    {
+      "id": "d4",
+      "url": "https://www.cntraveler.com/hotels/geneva/la-reserve-geneve-hotel-and-spa",
+      "tier": "editorial",
+      "chars": 4125
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel sits in a landscaped park of 10 acres on the shores of Lake Geneva.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "In the heart of a beautifully landscaped park of 10 acres, on the shores of Lake Geneva",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.lareserve-geneve.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is five kilometers from downtown Geneva.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "five kilometers from downtown Geneva",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.lareserve-geneve.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel is 2 miles from the nearest international airport.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "2 miles from the nearest international airport",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.lareserve-geneve.com/en/location/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel's restaurant Tse Fung serves Cantonese cuisine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Tsé Fung restaurant, the only Michelin-starred Chinese establishment in Switzerland, offers fresh and subtle takes on great classics alongside the finest Cantonese cuisine.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.lareserve-geneve.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "the main act being the Cantonese, Michelin-starred Tsé Fung",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/geneva/la-reserve-geneve-hotel-and-spa",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Cafe Lauren is set at the heart of the Spa Nescens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Set at the heart of Spa Nescens, the Café Lauren",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.lareserve-geneve.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The hotel has outdoor and indoor swimming pools, a Kid's Club and sports facilities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "outdoor and indoor swimming pools, Kid’s Club, sports facilities",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.lareserve-geneve.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The spa's fitness and relaxation area includes swimming pools, a fitness center, sauna, hammam and tennis courts.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The fitness and relaxation areas (swimming pools, fitness center, sauna, hammam, tennis courts)",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.lareserve-geneve.com/en/luxury-spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Spa services are provided by a team of therapists, coaches and medical specialists in preventive, anti-aging and aesthetic medicine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Services are provided by a multi-disciplinary team of therapists, coaches and medical specialists with expertise in the realms of preventive and anti-aging medicine, as well as aesthetic medicine.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.lareserve-geneve.com/en/luxury-spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The spa offers a Rossano Ferretti Hair Spa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Rossano Ferretti Hair Spa",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.lareserve-geneve.com/en/luxury-spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel offers a villa, the Villa du Lac.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Villa du Lac",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.lareserve-geneve.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Children can use an elaborate wooden playground.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Children can tear through the elaborate wooden playground",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/geneva/la-reserve-geneve-hotel-and-spa",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The hotel has vintage motorboats for waterborne outings.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "embark on waterborne adventures aboard one of La Reserve’s vintage motorboats",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/geneva/la-reserve-geneve-hotel-and-spa",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Interiors follow an Old-World Africa theme, with gold, walnut and berry shades, glowing lanterns and dark polished floors reminiscent of Africa's luxury lodges.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Interiors seize curiously but victoriously on an Old-World Africa theme, with gold, walnut, and berry shades; glowing lanterns; and dark polished floors reminiscent of the continent’s luxury lodges.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/geneva/la-reserve-geneve-hotel-and-spa",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Spa Nescens combines treatments, nutrition and physical activity.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Spa Nescens offers you unique synergies between treatments, nutrition and physical activity",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.lareserve-geneve.com/en/luxury-spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Guests can take a motoscafo boat ride between Geneva city center and the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Enjoy an exclusive motoscafo ride between Geneva city center and La Réserve Genève.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.lareserve-geneve.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Rooms look over the gardens or the lake, and most have their own large terrace or balcony.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Rooms either gaze down upon the topiary-trimmed gardens or out over the lake, most with their own large terraces or balconies.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/geneva/la-reserve-geneve-hotel-and-spa",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Spa Nescens appears in the Vogue Global Spa Guide 2026 and received a Falstaff Spa Guide Award 2026 with 97 points.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "VOGUE GLOBAL SPA GUIDE 2026 & FALSTAFF SPA GUIDE AWARD 2026 \\| 97 POINTS",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.lareserve-geneve.com/en/luxury-spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Admission to the spa is for guests aged 14 and over, and from June 1 to September 30 the indoor pool is reserved for adults and children aged 14 and over.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Admission to the spa is for clients aged 14 and over",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.lareserve-geneve.com/en/luxury-spa/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "From June 1 to September 30: the indoor pool is reserved for adults and children aged 14 and over.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.lareserve-geneve.com/en/luxury-spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Pets are not allowed in the spa, the outdoor pool and the surrounding area.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Pets are not allowed in the Spa Nescens, outdoor pool and surrounding area.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.lareserve-geneve.com/en/luxury-spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes ultra-luxury pricing reflecting the exclusive positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

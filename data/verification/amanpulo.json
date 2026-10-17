@@ -1,0 +1,413 @@
+{
+  "hotel_slug": "amanpulo",
+  "hotel_name": "Amanpulo",
+  "checked_at": "2026-10-09T22:01:39.967Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.aman.com/resorts/amanpulo",
+      "tier": "official",
+      "chars": 1152
+    },
+    {
+      "id": "d2",
+      "url": "https://www.aman.com/resorts/amanpulo/accommodation/",
+      "tier": "official",
+      "chars": 1331
+    },
+    {
+      "id": "d3",
+      "url": "https://www.aman.com/resorts/amanpulo/accommodation/villas/",
+      "tier": "official",
+      "chars": 880
+    },
+    {
+      "id": "d4",
+      "url": "https://www.aman.com/resorts/amanpulo/wellness/",
+      "tier": "official",
+      "chars": 367
+    },
+    {
+      "id": "d5",
+      "url": "https://www.aman.com/resorts/amanpulo/experiences/whats-on/",
+      "tier": "official",
+      "chars": 4660
+    },
+    {
+      "id": "d6",
+      "url": "https://www.cntraveler.com/hotels/philippines/pamalican-island/amanpulo",
+      "tier": "editorial",
+      "chars": 4668
+    },
+    {
+      "id": "d7",
+      "url": "https://www.aman.com/resorts/amanpulo/accommodation/casitas/",
+      "tier": "official",
+      "chars": 941
+    },
+    {
+      "id": "d8",
+      "url": "https://www.aman.com/resorts/amanpulo/exclusives/extend-your-stay/",
+      "tier": "official",
+      "chars": 66
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Amanpulo is on Pamalican Island in the Cuyo Archipelago, Palawan, Philippines.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Pamalican Island Cuyo Archipelago, Palawan, 5318",
+          "note": "island, archipelago, province",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/philippines/pamalican-island/amanpulo",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "A Private Island Resort in Palawan, Philippines, Amanpulo on Vimeo",
+          "note": "Philippines",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanpulo",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The resort's getting-here page lists Clark International Airport as the airport.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Clark International Airport",
+          "note": "airport listed",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanpulo",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The resort's getting-here page lists a 90-minute flight as the transfer.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "90-minute flight",
+          "note": "transfer listed",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanpulo",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The accommodation is casitas on the beachfront, in the treetops and on the hillside.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "42 beachfront, treetop, and hillside-studded casitas",
+          "note": "casita locations",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/philippines/pamalican-island/amanpulo",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Amanpulo offers villas of up to three bedrooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Three-Bedroom Villa",
+          "note": "largest villa is three bedrooms",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanpulo/accommodation/villas/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The accommodation page lists daily afternoon tea at the Clubhouse.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Daily afternoon tea at the Clubhouse",
+          "note": "listed",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanpulo/accommodation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The wellness facilities include a Pilates studio with reformers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Pilates Studio with reformers",
+          "note": "listed",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanpulo/wellness/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The wellness facilities include a yoga and meditation pavilion.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Yoga & Meditation Pavilion",
+          "note": "listed",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanpulo/wellness/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The waters around Pamalican Island have been a self-declared marine sanctuary for over 30 years.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "waters have been a self-declared marine sanctuary for over 30 years",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanpulo/experiences/whats-on/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Amanpulo has a PADI Dive Centre that offers guided dive tours and SCUBA diving courses.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "PADI Dive Centre offers personally guided dive tours and SCUBA diving courses",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanpulo/experiences/whats-on/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The Kawayan Bar is a bamboo platform raft floating a few metres from the shore, for lounging, snorkelling and private celebrations.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Floating gently a few metres from the shore",
+          "note": "location",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanpulo/experiences/whats-on/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "famed bamboo platform raft is ideal for lounging, snorkelling and private celebrations.",
+          "note": "uses",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanpulo/experiences/whats-on/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The Private Sala is an open-air sala in a corner of the Clubhouse that looks out over the island's gardens and pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "In a secluded corner of the Clubhouse, the open-air sala looks out over the island’s gardens and pool.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanpulo/experiences/whats-on/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Kawayan Bar is a bamboo platform raft floating a few metres from the shore, for lounging, snorkelling and private celebrations.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Floating gently a few metres from the shore",
+          "note": "location",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanpulo/experiences/whats-on/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "famed bamboo platform raft is ideal for lounging, snorkelling and private celebrations.",
+          "note": "uses",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanpulo/experiences/whats-on/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The waters around Pamalican Island have been a self-declared marine sanctuary for over 30 years.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "waters have been a self-declared marine sanctuary for over 30 years",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanpulo/experiences/whats-on/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Amanpulo has a PADI Dive Centre that offers guided dive tours and SCUBA diving courses.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "PADI Dive Centre offers personally guided dive tours and SCUBA diving courses",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanpulo/experiences/whats-on/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Amanpulo has its own fleet of boats for sunset cruises, fishing expeditions and sailing lessons.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "fleet of boats, whether on a sunset cruise, a fishing expedition or a sailing lesson.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanpulo/experiences/whats-on/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The resort's getting-here page lists a 90-minute flight as the transfer, so reaching the island takes a flight.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "90-minute flight",
+          "note": "transfer is a flight",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanpulo",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The daily morning snorkelling trip from the beach is provided on a first come, first serve basis.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Daily morning snorkelling trip from the beach (to be provided on a first come, first serve basis)",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanpulo/accommodation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes ultra-luxury pricing that reflects the exclusive positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

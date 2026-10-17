@@ -1,0 +1,271 @@
+{
+  "slug": "baker-s-cay-resort",
+  "status": "ready",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Baker's Cay Resort",
+      "city": "Key Largo",
+      "country": "US"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hilton"
+    },
+    "evidence": [
+      "page is on Hilton's own site (hilton.com)",
+      "100% of the hotel name appears on the page",
+      "location matches (Key Largo, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hilton.com/en/hotels/kylcuqq-bakers-cay-resort-key-largo/"
+    ],
+    "checked_at": "2026-10-15T16:28:21.552Z",
+    "status": "confirmed",
+    "official_url": "https://www.hilton.com/en/hotels/kylcuqq-bakers-cay-resort-key-largo/",
+    "base_url": "https://www.hilton.com/en/hotels/kylcuqq-bakers-cay-resort-key-largo/",
+    "host": "hilton.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hilton.com/en/hotels/kylcuqq-bakers-cay-resort-key-largo/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:28:45.406Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hilton.com/en/hotels/kylcuqq-bakers-cay-resort-key-largo/hotel-info/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T16:30:12.569Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.cntraveler.com/hotels/key-largo/key-largo/hilton-key-largo-resort",
+      "tier": "editorial",
+      "fetched_at": "2026-10-15T16:30:18.331Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.hilton.com/en/hotels/kylcuqq-bakers-cay-resort-key-largo/rooms/",
+      "reason": "Firecrawl 500 for https://www.hilton.com/en/hotels/kylcuqq-bakers-cay-resort-key-largo/rooms/: All scraping engines failed to retrieve content from this URL. En"
+    },
+    {
+      "url": "https://www.hilton.com/en/hotels/kylcuqq-bakers-cay-resort-key-largo/dining/",
+      "reason": "Firecrawl 500 for https://www.hilton.com/en/hotels/kylcuqq-bakers-cay-resort-key-largo/dining/: All scraping engines failed to retrieve content from this URL. E"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 6,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 3,
+    "chars": 10880,
+    "est_claude_tokens": 2720
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-15T16:30:18.331Z",
+  "hotel": {
+    "name": "Baker's Cay Resort",
+    "city": "Key Largo",
+    "country": "US",
+    "confirmed_affiliation": {
+      "kind": "chain",
+      "chain": "hilton"
+    }
+  },
+  "official_url": "https://www.hilton.com/en/hotels/kylcuqq-bakers-cay-resort-key-largo/",
+  "verified_facts": [
+    {
+      "id": "r-1",
+      "category": "location",
+      "text": "The resort sits on 13 acres of private bayfront on the island of Key Largo in the Florida Keys.",
+      "source_url": "https://www.hilton.com/en/hotels/kylcuqq-bakers-cay-resort-key-largo/",
+      "source_tier": "official",
+      "excerpt": "Located on 13 acres of private bayfront, the resort is located on the island of Key Largo in the Florida Keys."
+    },
+    {
+      "id": "r-2",
+      "category": "amenities",
+      "text": "The resort has two waterfall pools and beach hammocks.",
+      "source_url": "https://www.hilton.com/en/hotels/kylcuqq-bakers-cay-resort-key-largo/",
+      "source_tier": "official",
+      "excerpt": "Our facilities include two waterfall pools and beach hammocks."
+    },
+    {
+      "id": "r-3",
+      "category": "experiences",
+      "text": "Water activities offered include diving, parasailing, catamaran sailing and deep-sea fishing.",
+      "source_url": "https://www.hilton.com/en/hotels/kylcuqq-bakers-cay-resort-key-largo/",
+      "source_tier": "official",
+      "excerpt": "We provide a wide range of water activities including diving, parasailing, catamaran sailing, and deep-sea fishing."
+    },
+    {
+      "id": "r-4",
+      "category": "amenities",
+      "text": "There are two beaches: Hammock Beach, which tends to be quiet, and a more active beach for watersports such as kayaking and paddleboarding.",
+      "source_url": "https://www.cntraveler.com/hotels/key-largo/key-largo/hilton-key-largo-resort",
+      "source_tier": "editorial",
+      "excerpt": "There are two beaches: Hammock Beach, which tends to be quiet, and a more active beach where you can try your hand at watersports, from kayaking to paddleboarding (included in the resort fee)."
+    },
+    {
+      "id": "r-5",
+      "category": "design_history",
+      "text": "The resort is whitewashed and modern, with tall ceilings and walls of windows.",
+      "source_url": "https://www.cntraveler.com/hotels/key-largo/key-largo/hilton-key-largo-resort",
+      "source_tier": "editorial",
+      "excerpt": "Whitewashed and modern, with tall ceilings and walls of windows, Baker’s Cay Resort Key Largo is the epitome of contemporary island style"
+    },
+    {
+      "id": "r-6",
+      "category": "design_history",
+      "text": "The resort is a member of Hilton's Curio Collection.",
+      "source_url": "https://www.cntraveler.com/hotels/key-largo/key-largo/hilton-key-largo-resort",
+      "source_tier": "editorial",
+      "excerpt": "The resort is a member of Hilton’s Curio Collection."
+    },
+    {
+      "id": "r-7",
+      "category": "rooms",
+      "text": "Rooms feature hardwood floors, patterns with coastal elements and sleek, modern bathrooms.",
+      "source_url": "https://www.cntraveler.com/hotels/key-largo/key-largo/hilton-key-largo-resort",
+      "source_tier": "editorial",
+      "excerpt": "Rooms feature hardwood floors, vaguely tribal patterns punctuated with coastal elements, and sleek, modern bathrooms."
+    },
+    {
+      "id": "r-8",
+      "category": "dining",
+      "text": "The indoor-outdoor Calusa serves breakfast and dinner with a Caribbean-Creole slant.",
+      "source_url": "https://www.cntraveler.com/hotels/key-largo/key-largo/hilton-key-largo-resort",
+      "source_tier": "editorial",
+      "excerpt": "The indoor-outdoor Calusa does a la carte breakfast and dinner with a Caribbean-Creole slant."
+    },
+    {
+      "id": "r-9",
+      "category": "experiences",
+      "text": "A hook-and-cook program lets guests bring their catch from a fishing excursion to the kitchen.",
+      "source_url": "https://www.cntraveler.com/hotels/key-largo/key-largo/hilton-key-largo-resort",
+      "source_tier": "editorial",
+      "excerpt": "The hotel even has a hook-and-cook program; if you get lucky on your fishing excursion, you can bring your catch to the kitchen."
+    },
+    {
+      "id": "r-10",
+      "category": "practical",
+      "text": "The daily resort charge includes bicycles, beach chairs and umbrellas, paddle boards and kayaks, fishing rods with bait, family activities and a daily sunset toast.",
+      "source_url": "https://www.hilton.com/en/hotels/kylcuqq-bakers-cay-resort-key-largo/",
+      "source_tier": "official",
+      "excerpt": "Daily Resort Charge includes: Internet access; bicycles; beach chairs & umbrellas; paddle boards & kayaks; fishing rods with bait; two water vessels, refillable throughout stay; recreational amenities & equipment; family activities; pool & beach activities/delights; daily sunset toast/ceremony."
+    },
+    {
+      "id": "r-11",
+      "category": "family",
+      "text": "The resort is pet-friendly, with a 35-pound maximum weight.",
+      "source_url": "https://www.hilton.com/en/hotels/kylcuqq-bakers-cay-resort-key-largo/",
+      "source_tier": "official",
+      "excerpt": "Max weight\n\n35 lbs"
+    },
+    {
+      "id": "r-12",
+      "category": "family",
+      "text": "The resort has a director of pet relations.",
+      "source_url": "https://www.cntraveler.com/hotels/key-largo/key-largo/hilton-key-largo-resort",
+      "source_tier": "editorial",
+      "excerpt": "There’s even a director of pet relations."
+    },
+    {
+      "id": "r-13",
+      "category": "location",
+      "text": "John Pennekamp Coral Reef State Park is 6 miles away.",
+      "source_url": "https://www.hilton.com/en/hotels/kylcuqq-bakers-cay-resort-key-largo/",
+      "source_tier": "official",
+      "excerpt": "John Pennekamp Coral Reef PK\n\n6 miles"
+    },
+    {
+      "id": "r-14",
+      "category": "location",
+      "text": "Miami International Airport is 64 miles away and there is no airport shuttle.",
+      "source_url": "https://www.hilton.com/en/hotels/kylcuqq-bakers-cay-resort-key-largo/",
+      "source_tier": "official",
+      "excerpt": "Miami International Airport\n\n64 miles\n\nAirport shuttle\n\nNot available"
+    },
+    {
+      "id": "r-15",
+      "category": "location",
+      "text": "Key Largo's main drag can be touristy, and the resort is a chic departure from that.",
+      "source_url": "https://www.cntraveler.com/hotels/key-largo/key-largo/hilton-key-largo-resort",
+      "source_tier": "editorial",
+      "excerpt": "Key Largo can be a bit touristy on the main drag—KFC, tacky T-shirt shops, that sort of thing—but this resort is a chic departure from that."
+    },
+    {
+      "id": "r-16",
+      "category": "dining",
+      "text": "Dining includes Creole-Caribbean cuisine with panoramic Florida Bay views and beachside dishes with live music at the cove bar.",
+      "source_url": "https://www.hilton.com/en/hotels/kylcuqq-bakers-cay-resort-key-largo/",
+      "source_tier": "official",
+      "excerpt": "Enjoy Creole‑Caribbean cuisine with panoramic Florida Bay views, along with beachside dishes paired with live music at our cove bar."
+    },
+    {
+      "id": "r-17",
+      "category": "practical",
+      "text": "A daily resort charge of $49 applies per night.",
+      "source_url": "https://www.hilton.com/en/hotels/kylcuqq-bakers-cay-resort-key-largo/",
+      "source_tier": "official",
+      "excerpt": "**Price includes $49.00 USD** resort charge per night"
+    },
+    {
+      "id": "r-18",
+      "category": "amenities",
+      "text": "Meeting space includes the Baker Ballroom, the Cayview Ballroom and the Grand Lawn.",
+      "source_url": "https://www.hilton.com/en/hotels/kylcuqq-bakers-cay-resort-key-largo/",
+      "source_tier": "official",
+      "excerpt": "featuring the Baker Ballroom, and Cayview Ballroom, and the Grand Lawn"
+    },
+    {
+      "id": "r-20",
+      "category": "design_history",
+      "text": "Condé Nast Traveler Readers' Choice Awards 2019 through 2026.",
+      "source_url": "https://www.cntraveler.com/hotels/key-largo/key-largo/hilton-key-largo-resort",
+      "source_tier": "editorial",
+      "excerpt": "Readers' Choice Awards 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026",
+      "as_of": "2026",
+      "needs_date_check": true
+    }
+  ],
+  "highlights": [
+    "r-1",
+    "r-4",
+    "r-2",
+    "r-9",
+    "r-5",
+    "r-3",
+    "r-12"
+  ],
+  "subjective": [
+    {
+      "id": "r-19",
+      "text": "Condé Nast Traveler calls it the epitome of contemporary island style.",
+      "reason": "the hotel's own opinion or praise; keep out of facts"
+    }
+  ],
+  "unresolved": [],
+  "rejected": [],
+  "contradictions": []
+}

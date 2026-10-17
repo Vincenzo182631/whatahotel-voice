@@ -1,0 +1,427 @@
+{
+  "slug": "caesars-palace",
+  "status": "ready",
+  "partial": true,
+  "reasons": [
+    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue",
+    "some pages were inaccessible; missing information is not proof an amenity does not exist",
+    "coverage is partial: a limit stopped the page fetch early; raise the limits and rerun to read the rest",
+    "coverage is partial: a limit stopped the page fetch early; raise the limits and rerun to read the rest"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Caesars Palace",
+      "city": "Las Vegas",
+      "country": "US"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Las Vegas, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.guestreservations.com/caesars-palace-las-vegas/booking",
+      "https://www.caesars.com/caesars-palace"
+    ],
+    "checked_at": "2026-10-15T23:35:59.156Z",
+    "status": "confirmed",
+    "official_url": "https://www.caesars.com/caesars-palace",
+    "base_url": "https://www.caesars.com/",
+    "host": "caesars.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.caesars.com/caesars-palace",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:36:07.388Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.caesars.com/caesars-palace/restaurants/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:36:11.396Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.caesars.com/caesars-palace/things-to-do/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:36:17.125Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.caesars.com/caesars-palace/faqs/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:36:20.823Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.caesars.com/email/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:36:24.965Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.caesars.com/myrewards/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:36:35.916Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.caesars.com/myrewards/air/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:36:42.110Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.caesars.com/las-vegas/hotels/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:36:48.607Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.caesars.com/caesars-palace/60/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:36:50.386Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.caesars.com/myrewards/olympus/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:36:54.067Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://www.caesars.com/caesars-palace/shows/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:36:58.317Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p12",
+      "url": "https://www.caesars.com/caesars-palace/hotel/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:37:00.887Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.caesars.com/reserve/",
+      "reason": "Firecrawl 500 for https://www.caesars.com/reserve/: All scraping engines failed to retrieve content from this URL. Engines tried: [index, fire-engine;chrome-cdp"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 16,
+    "firecrawl_searches": 1,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 12,
+    "chars": 103923,
+    "est_claude_tokens": 25981
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-15T23:37:06.045Z",
+  "hotel": {
+    "name": "Caesars Palace",
+    "city": "Las Vegas",
+    "country": "US",
+    "confirmed_affiliation": {
+      "kind": "independent"
+    }
+  },
+  "official_url": "https://www.caesars.com/caesars-palace",
+  "verified_facts": [
+    {
+      "id": "r-1",
+      "category": "location",
+      "text": "Caesars Palace sits center-Strip at 3570 Las Vegas Blvd South in Las Vegas.",
+      "source_url": "https://www.caesars.com/caesars-palace/hotel/",
+      "source_tier": "official",
+      "excerpt": "Caesars Palace is located center strip at 3570 Las Vegas Blvd South"
+    },
+    {
+      "id": "r-2",
+      "category": "design_history",
+      "text": "Caesars Palace marks its 60th anniversary in 2026, celebrating six decades since 1966.",
+      "source_url": "https://www.caesars.com/caesars-palace/60/",
+      "source_tier": "official",
+      "excerpt": "Six decades of reign 1966 - 2026",
+      "as_of": "2026"
+    },
+    {
+      "id": "r-3",
+      "category": "amenities",
+      "text": "The Garden of the Gods Pool Oasis includes seven distinct pools.",
+      "source_url": "https://www.caesars.com/caesars-palace/faqs/",
+      "source_tier": "official",
+      "excerpt": "The Garden of the Gods Pool Oasis includes seven distinct pools, allowing guests to choose from a range of atmospheres and experiences during their stay."
+    },
+    {
+      "id": "r-4",
+      "category": "amenities",
+      "text": "Neptune is a heated pool for swimming year-round.",
+      "source_url": "https://www.caesars.com/caesars-palace/hotel/",
+      "source_tier": "official",
+      "excerpt": "and swim year‑round at Neptune,"
+    },
+    {
+      "id": "r-5",
+      "category": "amenities",
+      "text": "Qua Baths & Spa opened in 2007.",
+      "source_url": "https://www.caesars.com/caesars-palace/things-to-do/",
+      "source_tier": "official",
+      "excerpt": "has garnered numerous awards since its 2007 opening.",
+      "as_of": "2007",
+      "needs_date_check": true
+    },
+    {
+      "id": "r-6",
+      "category": "amenities",
+      "text": "Qua Spa offers Roman-inspired rituals and personalized treatments.",
+      "source_url": "https://www.caesars.com/caesars-palace/60/",
+      "source_tier": "official",
+      "excerpt": "Step into Qua Spa, where Roman-inspired rituals and personalized treatments"
+    },
+    {
+      "id": "r-7",
+      "category": "experiences",
+      "text": "The Colosseum at Caesars Palace hosts headline performers.",
+      "source_url": "https://www.caesars.com/caesars-palace/things-to-do/",
+      "source_tier": "official",
+      "excerpt": "seeing one of Vegas' top headliners at The Colosseum."
+    },
+    {
+      "id": "r-9",
+      "category": "experiences",
+      "text": "The Forum Shops include approximately 160 specialty stores, restaurants and attractions.",
+      "source_url": "https://www.caesars.com/caesars-palace/things-to-do/",
+      "source_tier": "official",
+      "excerpt": "The Forum Shops include approximately 160 specialty stores, fine restaurants and attractions"
+    },
+    {
+      "id": "r-10",
+      "category": "location",
+      "text": "The Forum Shops connect directly to Caesars Palace and can be reached from inside the resort.",
+      "source_url": "https://www.caesars.com/caesars-palace/faqs/",
+      "source_tier": "official",
+      "excerpt": "The Forum Shops are directly connected to Caesars Palace and can be accessed from inside the resort"
+    },
+    {
+      "id": "r-11",
+      "category": "experiences",
+      "text": "OMNIA has a rooftop garden with panoramic views of the Las Vegas Strip.",
+      "source_url": "https://www.caesars.com/caesars-palace/things-to-do/",
+      "source_tier": "official",
+      "excerpt": "a breathtaking rooftop garden, showcasing panoramic views of the Las Vegas Strip."
+    },
+    {
+      "id": "r-12",
+      "category": "rooms",
+      "text": "Colosseum Tower rooms have a classically inspired design with pops of emerald, a nod to Cleopatra.",
+      "source_url": "https://www.caesars.com/caesars-palace/hotel/",
+      "source_tier": "official",
+      "excerpt": "Classically inspired with a simple yet bold design featuring pops of emerald, a nod to Cleopatra herself."
+    },
+    {
+      "id": "r-13",
+      "category": "rooms",
+      "text": "Colosseum Tower bathrooms feature Greek and Roman architecture in marble and stone.",
+      "source_url": "https://www.caesars.com/caesars-palace/hotel/",
+      "source_tier": "official",
+      "excerpt": "The custom designed bathroom features Greek and Roman architecture of marble and stone."
+    },
+    {
+      "id": "r-14",
+      "category": "rooms",
+      "text": "The Julius Tower sits in the center of the property with easy access to the casino.",
+      "source_url": "https://www.caesars.com/caesars-palace/hotel/",
+      "source_tier": "official",
+      "excerpt": "The Julius Tower is located in the center of the property with easy access to the casino."
+    },
+    {
+      "id": "r-15",
+      "category": "rooms",
+      "text": "Julius rooms feature custom artwork nodding to Roman-inspired sculpture and architecture.",
+      "source_url": "https://www.caesars.com/caesars-palace/hotel/",
+      "source_tier": "official",
+      "excerpt": "The custom artwork is a nod to Caesars' rich history of Roman-inspired sculpture and architecture."
+    },
+    {
+      "id": "r-16",
+      "category": "rooms",
+      "text": "The Augustus Tower pairs a classic Caesars theme with a contemporary design.",
+      "source_url": "https://www.caesars.com/caesars-palace/hotel/",
+      "source_tier": "official",
+      "excerpt": "The Augustus Tower features a classic Caesars theme, but with a contemporary design."
+    },
+    {
+      "id": "r-17",
+      "category": "rooms",
+      "text": "Villa guests at THE VILLAS have a 24-hour butler, in-villa dining and a dedicated pre-arrival concierge.",
+      "source_url": "https://www.caesars.com/caesars-palace/hotel/",
+      "source_tier": "official",
+      "excerpt": "Villa guests enjoy the personalized attention of a 24-hour butler, gourmet in-villa dining"
+    },
+    {
+      "id": "r-19",
+      "category": "rooms",
+      "text": "The Marcus Aurelius villa has an outdoor terrace with a jetted spa and firepit overlooking the Garden of the Gods Pool.",
+      "source_url": "https://www.caesars.com/caesars-palace",
+      "source_tier": "official",
+      "excerpt": "an outdoor terrace featuring a jetted spa, and firepit overlooking the Gardens of the Gods Pool"
+    },
+    {
+      "id": "r-20",
+      "category": "design_history",
+      "text": "A large marble statue of Augustus Caesar stands in the main lobby.",
+      "source_url": "https://www.caesars.com/caesars-palace/faqs/",
+      "source_tier": "official",
+      "excerpt": "a large marble statue of Augustus Caesar"
+    },
+    {
+      "id": "r-21",
+      "category": "design_history",
+      "text": "The 60 Years of Legends exhibit displays artifacts from six decades of Caesars history.",
+      "source_url": "https://www.caesars.com/caesars-palace/60/",
+      "source_tier": "official",
+      "excerpt": "Explore iconic artifacts from six decades of Caesars history",
+      "as_of": "2026"
+    },
+    {
+      "id": "r-22",
+      "category": "dining",
+      "text": "Gordon Ramsay Hell's Kitchen serves signature dishes inspired by the TV show.",
+      "source_url": "https://www.caesars.com/caesars-palace/restaurants/",
+      "source_tier": "official",
+      "excerpt": "Signature dishes from celebrity chef Gordon Ramsay, inspired by the hit TV show."
+    },
+    {
+      "id": "r-23",
+      "category": "dining",
+      "text": "Peter Luger Steak House has a location at Caesars Palace.",
+      "source_url": "https://www.caesars.com/caesars-palace/restaurants/",
+      "source_tier": "official",
+      "excerpt": "Legendary New York steak house Peter Luger extends its storied legacy to Caesars Palace"
+    },
+    {
+      "id": "r-24",
+      "category": "family",
+      "text": "The PetStay Program welcomes dogs with in-room mats and dishes.",
+      "source_url": "https://www.caesars.com/caesars-palace/hotel/",
+      "source_tier": "official",
+      "excerpt": "Our PetStay Program offers in-room mats and dishes."
+    },
+    {
+      "id": "r-25",
+      "category": "practical",
+      "text": "The resort spreads across more than 85 acres, so walking distances vary by tower.",
+      "source_url": "https://www.caesars.com/caesars-palace/faqs/",
+      "source_tier": "official",
+      "excerpt": "Because Caesars Palace spans more than 85 acres, walking distances can vary depending on tower location and destination."
+    },
+    {
+      "id": "r-26",
+      "category": "practical",
+      "text": "The hotel does not offer an airport shuttle.",
+      "source_url": "https://www.caesars.com/caesars-palace/hotel/",
+      "source_tier": "official",
+      "excerpt": "Currently, we do not offer shuttle service"
+    },
+    {
+      "id": "r-27",
+      "category": "practical",
+      "text": "Refrigerators are available for a small daily fee on request; microwaves are not available.",
+      "source_url": "https://www.caesars.com/caesars-palace/hotel/",
+      "source_tier": "official",
+      "excerpt": "Currently, refrigerators are based upon availability for a small daily fee"
+    },
+    {
+      "id": "r-30",
+      "category": "amenities",
+      "text": "The Garden of the Gods Pool Oasis is an outdoor complex with landscaped surroundings and waterfalls.",
+      "source_url": "https://www.caesars.com/caesars-palace/faqs/",
+      "source_tier": "official",
+      "excerpt": "The complex is an outdoor, resort-style environment with landscaped surroundings, waterfalls"
+    }
+  ],
+  "highlights": [
+    "r-3",
+    "r-17",
+    "r-19",
+    "r-6",
+    "r-12",
+    "r-11",
+    "r-2"
+  ],
+  "subjective": [
+    {
+      "id": "r-8",
+      "text": "Absinthe is an adults-only variety show staged as theatre-in-the-round in The Spiegeltent.",
+      "reason": "promotional wording; rewrite as a plain fact or leave out"
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "r-18",
+      "text": "AAA has recognized THE VILLAS Caesars Palace with the Five Diamond designation.",
+      "reason": "marked unresolved"
+    },
+    {
+      "id": "r-28",
+      "text": "Caesars Palace has five distinct hotel towers.",
+      "reason": "sources conflict on \"tower-count\"; held out of scripts until resolved"
+    },
+    {
+      "id": "r-29",
+      "text": "Caesars Palace has six distinct towers.",
+      "reason": "sources conflict on \"tower-count\"; held out of scripts until resolved"
+    }
+  ],
+  "rejected": [],
+  "contradictions": [
+    {
+      "topic": "tower-count",
+      "note": "p12 says five towers and also six towers; p4 lists seven (incl. Nobu Hotel)",
+      "sources": [
+        {
+          "url": "https://www.caesars.com/caesars-palace/hotel/",
+          "excerpt": "there are five distinct hotel towers, including high-end suites and villas.",
+          "quote_verified": true
+        },
+        {
+          "url": "https://www.caesars.com/caesars-palace/hotel/",
+          "excerpt": "3,500+ guest rooms and suites in six distinct towers",
+          "quote_verified": true
+        },
+        {
+          "url": "https://www.caesars.com/caesars-palace/faqs/",
+          "excerpt": "Augustus, Octavius, Julius, Palace, Forum, Colosseum, and Nobu Hotel.",
+          "quote_verified": true
+        }
+      ]
+    }
+  ]
+}
