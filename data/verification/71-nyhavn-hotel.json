@@ -1,7 +1,7 @@
 {
   "hotel_slug": "71-nyhavn-hotel",
   "hotel_name": "71 Nyhavn Hotel",
-  "checked_at": "2026-10-17T13:26:58.231Z",
+  "checked_at": "2026-10-17T13:27:43.380Z",
   "script_version": null,
   "decision": {
     "eligible": true,
@@ -73,15 +73,25 @@
     },
     {
       "claim_id": "f-2",
-      "text": "Merchant Ole Bernt and Captain Just Ludvigsen built the warehouse, which was completed in 1805.",
+      "text": "Junior Suites Deluxe on the 6th floor have slanted ceilings and a sofa bed, and the hotel calls them ideal for small families.",
       "findings": [
         {
           "verdict": "supported",
-          "doc_id": "d1",
-          "quote": "Merchant Ole Bernt and Captain Just Ludvigsen started construction of the warehouse, which was completed in 1805.",
+          "doc_id": "d2",
+          "quote": "The suites on the 6th floor feature charming slanted ceilings that create an especially cosy atmosphere. These rooms are also ideal for small families, as they are furnished with a comfortable sofa bed.",
           "note": "stated on page",
           "confirmed": true,
-          "url": "https://www.71nyhavnhotel.com/",
+          "url": "https://www.71nyhavnhotel.com/rooms-and-suites/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our Junior Suites Deluxe are located in the Red Warehouse on either the 1st or 6th floor",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.71nyhavnhotel.com/rooms-and-suites/",
           "tier": "official",
           "quote_verified": true
         }
