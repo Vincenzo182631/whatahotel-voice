@@ -2,7 +2,7 @@
 
 Checked 2026-10-17 against the hotel's own pages and Condé Nast Traveler. Result: **can be marked verified** (profile set to verified).
 
-Supported 18 · contradicted 0 · unverified 0 · WhataHotel's own statements 1 · total 19
+Supported 19 · contradicted 0 · unverified 0 · WhataHotel's own statements 1 · total 20
 
 ## Pages checked
 
@@ -31,5 +31,6 @@ Supported 18 · contradicted 0 · unverified 0 · WhataHotel's own statements 1 
 | ✅ | **h-3** The SEEN by Olivier Rooftop Bar offers panoramic views. | "making the most of the panoramic views at the SEEN by Olivier Rooftop Bar" (official, https://www.anantara.com/en/plaza-nice) |
 | ✅ | **h-4** Anantara Spa offers signature treatments. | "relaxing with the signature treatments of Anantara Spa" (official, https://www.anantara.com/en/plaza-nice) |
 | ✅ | **h-5** Hotel experiences include a visit and tasting at Chateau de Cremat. | "Visit and Tasting at Château de Crémat" (official, https://www.anantara.com/en/plaza-nice) |
+| ✅ | **c-1** There is no private parking; the hotel offers valet service to a secured public car park at extra cost. | "There is no private parking at Anantara Plaza Nice Hotel, however we do offer valet service. Cars are parked in a secured public parking at extra cost." (official, https://www.anantara.com/en/plaza-nice) |
 | ✅ | **c-2** The beach is a partner beach, Ruhl Plage, rather than the hotel's own. | "Access to our partner beach ''Ruhl Plage''" (official, https://www.anantara.com/en/plaza-nice) |
 | ➖ | **c-3** WhataHotel notes an urban setting with city noise from a busy square. | WhataHotel's own offer or statement |
