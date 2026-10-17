@@ -1,13 +1,8 @@
 {
   "slug": "hotel-casa-san-agustin",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "https://hotelcasasanagustin.com/: only 0% of the hotel name appears on the page",
-    "https://hotelcasasanagustin.com/suites-and-rooms/: only 0% of the hotel name appears on the page; page does not mention Cartagena",
-    "https://travellermade.com/hotel-partners-central-south-america/hotel-casa-san-agustin-colombia/: travellermade.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "official website could not be confirmed; flag for review"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "HOTEL CASA SAN AGUSTIN",
@@ -15,33 +10,79 @@
       "country": "CO"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://hotelcasasanagustin.com/: only 0% of the hotel name appears on the page",
-      "https://hotelcasasanagustin.com/suites-and-rooms/: only 0% of the hotel name appears on the page; page does not mention Cartagena",
-      "https://travellermade.com/hotel-partners-central-south-america/hotel-casa-san-agustin-colombia/: travellermade.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "location matches (Cartagena, CO)",
+      "confirmed by hand as this hotel's own page (only 0% of the hotel name appears on the page)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://hotelcasasanagustin.com/",
-      "https://hotelcasasanagustin.com/suites-and-rooms/",
-      "https://travellermade.com/hotel-partners-central-south-america/hotel-casa-san-agustin-colombia/"
+      "https://hotelcasasanagustin.com/"
     ],
-    "checked_at": "2026-10-17T13:13:18.839Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-17T13:31:48.149Z",
+    "status": "confirmed",
+    "official_url": "https://hotelcasasanagustin.com/",
+    "base_url": "https://hotelcasasanagustin.com/",
+    "host": "hotelcasasanagustin.com",
+    "checks": {
+      "name_coverage": 0,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://hotelcasasanagustin.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:31:53.035Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://hotelcasasanagustin.com/aurum-spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:32:02.546Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://hotelcasasanagustin.com/acasi-beach/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:32:06.443Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://hotelcasasanagustin.com/our-house/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:32:09.175Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://hotelcasasanagustin.com/gastronomy/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:32:14.127Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.cntraveler.com/hotels/colombia/cartagena/casa-san-agustin-cartagena",
+      "tier": "editorial",
+      "fetched_at": "2026-10-17T13:32:25.050Z",
+      "source": "direct"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 4,
+    "firecrawl_calls": 8,
     "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 6,
+    "chars": 27576,
+    "est_claude_tokens": 6894
   },
   "limits": {
     "maxPages": 12,
@@ -49,5 +90,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-17T13:13:33.345Z"
+  "researched_at": "2026-10-17T13:32:25.051Z"
 }

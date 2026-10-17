@@ -1,11 +1,8 @@
 {
   "slug": "explora-patagonia-torres-del-paine",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "https://www.explora.com/patagonia-chile-explora-lodge/: only 40% of the hotel name appears on the page",
-    "official website could not be confirmed; flag for review"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "Explora Patagonia Torres Del Paine",
@@ -13,29 +10,58 @@
       "country": "CL"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.explora.com/patagonia-chile-explora-lodge/: only 40% of the hotel name appears on the page",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "location matches (Patagonia, CL)",
+      "confirmed by hand as this hotel's own page (only 40% of the hotel name appears on the page)"
     ],
+    "reasons": [],
     "candidates": [
       "https://www.explora.com/patagonia-chile-explora-lodge/"
     ],
-    "checked_at": "2026-10-17T13:27:20.293Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-17T13:31:23.368Z",
+    "status": "confirmed",
+    "official_url": "https://www.explora.com/patagonia-chile-explora-lodge/",
+    "base_url": "https://www.explora.com/",
+    "host": "explora.com",
+    "checks": {
+      "name_coverage": 0.4,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.explora.com/patagonia-chile-explora-lodge/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:31:28.682Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.explora.com/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:31:36.654Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.cntraveler.com/hotels/chile/torres-del-paine-national-park/hotel-explora-patagonia-national-park",
+      "tier": "editorial",
+      "fetched_at": "2026-10-17T13:31:46.545Z",
+      "source": "direct"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 1,
-    "firecrawl_searches": 0,
+    "firecrawl_calls": 5,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 3,
+    "chars": 13717,
+    "est_claude_tokens": 3429
   },
   "limits": {
     "maxPages": 12,
@@ -43,5 +69,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-17T13:27:24.421Z"
+  "researched_at": "2026-10-17T13:31:46.545Z"
 }
