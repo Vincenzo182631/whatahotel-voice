@@ -1,12 +1,9 @@
 {
   "slug": "the-brando",
-  "status": "needs_review",
-  "partial": false,
+  "status": "awaiting_extraction",
+  "partial": true,
   "reasons": [
-    "https://thebrando.com/: page does not mention Papeete",
-    "https://tahititourisme.pf/en-pf/vacation/choice-of-accommodation/where-to-stay-accommodation/hotel/the-brando-tetiaroa-arue-en-en-pf-3375550/: tahititourisme.pf does not carry the hotel's name; an independent hotel's own site normally does",
-    "https://www.cvent.com/venues/tahiti/resort/the-brando/venue-82137d3e-626f-4f64-8cf1-0d8437b80e8d: cvent.com does not carry the hotel's name; an independent hotel's own site normally does; page does not mention Papeete",
-    "official website could not be confirmed; flag for review"
+    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue"
   ],
   "identity": {
     "hotel": {
@@ -15,33 +12,121 @@
       "country": "PF"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://thebrando.com/: page does not mention Papeete",
-      "https://tahititourisme.pf/en-pf/vacation/choice-of-accommodation/where-to-stay-accommodation/hotel/the-brando-tetiaroa-arue-en-en-pf-3375550/: tahititourisme.pf does not carry the hotel's name; an independent hotel's own site normally does",
-      "https://www.cvent.com/venues/tahiti/resort/the-brando/venue-82137d3e-626f-4f64-8cf1-0d8437b80e8d: cvent.com does not carry the hotel's name; an independent hotel's own site normally does; page does not mention Papeete",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "confirmed by hand as this hotel's own page (page does not mention Papeete)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://thebrando.com/",
-      "https://tahititourisme.pf/en-pf/vacation/choice-of-accommodation/where-to-stay-accommodation/hotel/the-brando-tetiaroa-arue-en-en-pf-3375550/",
-      "https://www.cvent.com/venues/tahiti/resort/the-brando/venue-82137d3e-626f-4f64-8cf1-0d8437b80e8d"
+      "https://thebrando.com/"
     ],
-    "checked_at": "2026-10-17T13:24:20.338Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-17T13:31:54.031Z",
+    "status": "confirmed",
+    "official_url": "https://thebrando.com/",
+    "base_url": "https://thebrando.com/",
+    "host": "thebrando.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": false
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://thebrando.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:31:58.856Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://thebrando.com/long-stay/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:32:08.369Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://thebrando.com/stay-5-pay-4/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:32:11.819Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://thebrando.com/accommodations/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:32:15.884Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://thebrando.com/kids-fly-stay-dine-play-free/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:32:20.071Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://thebrando.com/stay-4-pay-3-discover-tetiaroas-paradise-with-an-extra-night-free/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:32:23.862Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://thebrando.com/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:32:27.560Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://thebrando.com/spa-wellness/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:32:32.001Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://thebrando.com/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:32:35.787Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://thebrando.com/fly-free/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:32:39.635Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://thebrando.com/the-atoll/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:32:44.316Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p12",
+      "url": "https://thebrando.com/guardians-of-the-cycle/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:32:47.570Z",
+      "source": "firecrawl"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 4,
-    "firecrawl_searches": 1,
+    "firecrawl_calls": 15,
+    "firecrawl_searches": 0,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 12,
+    "chars": 99790,
+    "est_claude_tokens": 24948
   },
   "limits": {
     "maxPages": 12,
@@ -49,5 +134,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-17T13:24:37.283Z"
+  "researched_at": "2026-10-17T13:32:51.850Z"
 }
