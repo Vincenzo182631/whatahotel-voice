@@ -111,6 +111,8 @@ export const isErrorPage = (title: string | undefined, text: string) => {
   const t = `${title ?? ""}\n${text.slice(0, 1500)}`;
   // chain 404 pages (marriott.com) carry long booking widgets, so a 404 headline counts whatever the length
   if (/^\W*(sorry!?\s*-\s*)?page not found\b|\b404 error\b/i.test(`${title ?? ""}\n${text.trim().slice(0, 200)}`)) return true;
+  // chain 404s can put the headline below a booking widget (melia.com): a heading line that says the page is missing counts
+  if (/^#{1,3}\s*(oops[,!]?\s*)?(we can'?t find (this|that|the) page|(this |that |the )?page (was )?not found|page (can'?t|cannot) be found)/im.test(text.slice(0, 4000))) return true;
   return text.trim().length < 2000 && /something went wrong|page not found|\b404\b|page (you requested|cannot be found|can't be found|doesn't exist|does not exist)|oops!? that page/i.test(t);
 };
 
