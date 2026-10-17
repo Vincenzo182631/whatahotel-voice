@@ -1,0 +1,122 @@
+{
+  "slug": "d-resort-sibenik",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "D-Resort Sibenik",
+      "city": "Sibenik",
+      "country": "HR"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Sibenik, HR)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://dresortsibenik.com/"
+    ],
+    "checked_at": "2026-10-17T13:18:02.711Z",
+    "status": "confirmed",
+    "official_url": "https://dresortsibenik.com/",
+    "base_url": "https://dresortsibenik.com/",
+    "host": "dresortsibenik.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://dresortsibenik.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:18:08.796Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://dresortsibenik.com/accommodation/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:18:12.756Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://dresortsibenik.com/beaches/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:18:16.615Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://dresortsibenik.com/wellness-hotel/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:18:20.335Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://dresortsibenik.com/hotel-activities/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:18:24.480Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://dresortsibenik.com/hotel-experience/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:18:28.678Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://dresortsibenik.com/about/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:18:33.724Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://dresortsibenik.com/authentic-cuisine/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:18:36.647Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://dresortsibenik.com/closed-for-the-season/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:18:40.340Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 11,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 9,
+    "chars": 29932,
+    "est_claude_tokens": 7483
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-17T13:18:48.167Z"
+}

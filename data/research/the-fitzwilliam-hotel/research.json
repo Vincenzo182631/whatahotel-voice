@@ -1,0 +1,87 @@
+{
+  "slug": "the-fitzwilliam-hotel",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "The Fitzwilliam Hotel",
+      "city": "Dublin",
+      "country": "IE"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Dublin, IE)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.fitzwilliamhoteldublin.com/"
+    ],
+    "checked_at": "2026-10-17T13:14:15.864Z",
+    "status": "confirmed",
+    "official_url": "https://www.fitzwilliamhoteldublin.com/",
+    "base_url": "https://www.fitzwilliamhoteldublin.com/",
+    "host": "fitzwilliamhoteldublin.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.fitzwilliamhoteldublin.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:14:22.753Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.fitzwilliamhoteldublin.com/sleep/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:14:26.209Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.fitzwilliamhoteldublin.com/location/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:14:31.058Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.fitzwilliamhoteldublin.com/glovers-alley/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:14:42.823Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.cntraveler.com/hotels/dublin/fitzwilliam-hotel-dublin",
+      "tier": "editorial",
+      "fetched_at": "2026-10-17T13:14:50.625Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 6,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 5,
+    "chars": 23098,
+    "est_claude_tokens": 5775
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-17T13:14:50.625Z"
+}

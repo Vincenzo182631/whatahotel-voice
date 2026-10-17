@@ -1,0 +1,75 @@
+{
+  "slug": "lefay-resort-spa-lago-di-garda",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Lefay Resort & Spa Lago di Garda",
+      "city": "Gargnano",
+      "country": "IT"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Gargnano, IT)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://guide.michelin.com/us/en/hotels-stays/gargnano/lefay-resort-spa-lago-di-garda-5131",
+      "https://lagodigarda.lefayresorts.com/en",
+      "https://lagodigarda.lefayresorts.com/en/lake-garda-hotel-and-spa"
+    ],
+    "checked_at": "2026-10-17T13:13:51.798Z",
+    "status": "confirmed",
+    "official_url": "https://lagodigarda.lefayresorts.com/en/lake-garda-hotel-and-spa",
+    "base_url": "https://lagodigarda.lefayresorts.com/",
+    "host": "lagodigarda.lefayresorts.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://lagodigarda.lefayresorts.com/en/lake-garda-hotel-and-spa",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:14:13.215Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.cntraveler.com/hotels/italy/lake-garda/lefay-resort-spa-lago-di-garda",
+      "tier": "editorial",
+      "fetched_at": "2026-10-17T13:14:22.608Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://lagodigarda.lefayresorts.com/",
+      "reason": "no same-property sub-page links found on the home page"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 5,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 2,
+    "chars": 11429,
+    "est_claude_tokens": 2857
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-17T13:14:22.608Z"
+}

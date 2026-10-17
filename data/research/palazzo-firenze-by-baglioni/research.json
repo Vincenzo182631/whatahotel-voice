@@ -1,0 +1,71 @@
+{
+  "slug": "palazzo-firenze-by-baglioni",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Palazzo Firenze by Baglioni",
+      "city": "Florence",
+      "country": "IT"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Florence, IT)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://florence.baglionihotels.com/",
+      "https://florence.baglionihotels.com/offers/hotel-deal"
+    ],
+    "checked_at": "2026-10-17T13:14:46.902Z",
+    "status": "confirmed",
+    "official_url": "https://florence.baglionihotels.com/offers/hotel-deal",
+    "base_url": "https://florence.baglionihotels.com/",
+    "host": "florence.baglionihotels.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://florence.baglionihotels.com/offers/hotel-deal",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:15:00.839Z",
+      "source": "cache"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://florence.baglionihotels.com/",
+      "reason": "no same-property sub-page links found on the home page"
+    },
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 4,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 1,
+    "chars": 11287,
+    "est_claude_tokens": 2822
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-17T13:15:07.538Z"
+}

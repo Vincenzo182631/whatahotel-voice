@@ -1,0 +1,80 @@
+{
+  "slug": "hotel-madame-reve",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "Hotel Madame Reve",
+      "city": "Paris",
+      "country": "FR"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Paris, FR)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://madamereve.com/en/madame-reve-the-art-of-luxury-in-a-5-star-hotel-in-paris/"
+    ],
+    "checked_at": "2026-10-17T13:18:30.309Z",
+    "status": "confirmed",
+    "official_url": "https://madamereve.com/en/madame-reve-the-art-of-luxury-in-a-5-star-hotel-in-paris/",
+    "base_url": "https://madamereve.com/",
+    "host": "madamereve.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://madamereve.com/en/madame-reve-the-art-of-luxury-in-a-5-star-hotel-in-paris/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:18:37.321Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://madamereve.com/en/rooms-and-suites/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:18:41.794Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://madamereve.com/en/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:18:43.723Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.cntraveler.com/hotels/paris/hotel-madame-reve",
+      "tier": "editorial",
+      "fetched_at": "2026-10-17T13:18:48.134Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 5,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 4,
+    "chars": 27730,
+    "est_claude_tokens": 6933
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-17T13:18:48.134Z"
+}

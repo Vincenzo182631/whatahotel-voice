@@ -1,0 +1,108 @@
+{
+  "slug": "relais-roncolo-1888",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Relais Roncolo 1888",
+      "city": "Bologna",
+      "country": "IT"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Bologna, IT)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://roncolo1888.it/"
+    ],
+    "checked_at": "2026-10-17T13:15:35.504Z",
+    "status": "confirmed",
+    "official_url": "https://roncolo1888.it/",
+    "base_url": "https://roncolo1888.it/",
+    "host": "roncolo1888.it",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://roncolo1888.it/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:15:41.109Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://roncolo1888.it/accommodation/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:15:48.085Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://roncolo1888.it/accommodation-r/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:15:49.858Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://roncolo1888.it/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:15:53.761Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://roncolo1888.it/emilia/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:15:58.657Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://roncolo1888.it/our-story/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:16:03.172Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://roncolo1888.it/the-estate/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:16:11.632Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 9,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 7,
+    "chars": 58306,
+    "est_claude_tokens": 14577
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-17T13:16:16.407Z"
+}
