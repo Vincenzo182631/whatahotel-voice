@@ -1,0 +1,73 @@
+{
+  "slug": "grand-hotel-savoia",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Grand Hotel Savoia",
+      "city": "Cortina d'Ampezzo",
+      "country": "IT"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Cortina d'Ampezzo, IT)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.grandhotelsavoiacortina.it/en/"
+    ],
+    "checked_at": "2026-10-17T13:52:01.649Z",
+    "status": "confirmed",
+    "official_url": "https://www.grandhotelsavoiacortina.it/en/",
+    "base_url": "https://www.grandhotelsavoiacortina.it/",
+    "host": "grandhotelsavoiacortina.it",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.grandhotelsavoiacortina.it/en/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:52:05.885Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.grandhotelsavoiacortina.it/it/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:52:13.247Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 4,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 2,
+    "chars": 10010,
+    "est_claude_tokens": 2503
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-17T13:52:18.727Z"
+}
