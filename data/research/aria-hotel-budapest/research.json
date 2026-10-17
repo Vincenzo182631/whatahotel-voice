@@ -1,0 +1,73 @@
+{
+  "slug": "aria-hotel-budapest",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "Aria Hotel Budapest",
+      "city": "Budapest",
+      "country": "HU"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Budapest, HU)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.ariahotelbudapest.com/en/"
+    ],
+    "checked_at": "2026-10-17T13:10:22.213Z",
+    "status": "confirmed",
+    "official_url": "https://www.ariahotelbudapest.com/en/",
+    "base_url": "https://www.ariahotelbudapest.com/",
+    "host": "ariahotelbudapest.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.ariahotelbudapest.com/en/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:10:33.137Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.ariahotelbudapest.com/hu/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:10:36.477Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.cntraveler.com/hotels/hungary/budapest/aria-hotel-budapest",
+      "tier": "editorial",
+      "fetched_at": "2026-10-17T13:10:45.300Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 4,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 3,
+    "chars": 18441,
+    "est_claude_tokens": 4610
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-17T13:10:45.300Z"
+}

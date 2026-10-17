@@ -1,0 +1,82 @@
+{
+  "slug": "hotel-st-george-helsinki",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Hotel St. George Helsinki",
+      "city": "Helsinki",
+      "country": "FI"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "page is on Marriott's own site (marriott.com)",
+      "100% of the hotel name appears on the page",
+      "location matches (Helsinki, FI)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/heldg-hotel-st-george-helsinki-a-member-of-design-hotels/overview/"
+    ],
+    "checked_at": "2026-10-17T13:13:42.285Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/heldg-hotel-st-george-helsinki-a-member-of-design-hotels/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/heldg-hotel-st-george-helsinki-a-member-of-design-hotels/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/heldg-hotel-st-george-helsinki-a-member-of-design-hotels/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:13:54.620Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/heldg-hotel-st-george-helsinki-a-member-of-design-hotels/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:14:00.209Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/heldg-hotel-st-george-helsinki-a-member-of-design-hotels/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:14:04.969Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 5,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 3,
+    "chars": 19028,
+    "est_claude_tokens": 4757
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-17T13:14:12.489Z"
+}

@@ -1,0 +1,115 @@
+{
+  "slug": "tropica-island-resort",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Tropica Island Resort",
+      "city": "Fiji",
+      "country": "FJ"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Fiji, FJ)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.tropicaisland.com/"
+    ],
+    "checked_at": "2026-10-17T13:12:50.866Z",
+    "status": "confirmed",
+    "official_url": "https://www.tropicaisland.com/",
+    "base_url": "https://www.tropicaisland.com/",
+    "host": "tropicaisland.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.tropicaisland.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:12:57.879Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.tropicaisland.com/accommodation/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:13:10.630Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.tropicaisland.com/accommodation/beachfront-pool-bure/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:13:13.887Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.tropicaisland.com/fiji-accommodation/deluxe-pool-bure/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:13:16.804Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.tropicaisland.com/getting-here/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:13:21.159Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.tropicaisland.com/about/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:13:25.140Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.tropicaisland.com/food-wine/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:13:28.998Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.tropicaisland.com/our-people/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:13:34.895Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 10,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 8,
+    "chars": 116824,
+    "est_claude_tokens": 29206
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-17T13:13:40.567Z"
+}

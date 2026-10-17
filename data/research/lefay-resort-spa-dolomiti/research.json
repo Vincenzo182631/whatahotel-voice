@@ -1,0 +1,73 @@
+{
+  "slug": "lefay-resort-spa-dolomiti",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Lefay Resort & SPA Dolomiti",
+      "city": "The Dolomites",
+      "country": "IT"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (The Dolomites, IT)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://dolomiti.lefayresorts.com/en/hotel-resort-spa-dolomites-lefay-spa-dolomites"
+    ],
+    "checked_at": "2026-10-17T13:13:32.680Z",
+    "status": "confirmed",
+    "official_url": "https://dolomiti.lefayresorts.com/en/hotel-resort-spa-dolomites-lefay-spa-dolomites",
+    "base_url": "https://dolomiti.lefayresorts.com/",
+    "host": "dolomiti.lefayresorts.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://dolomiti.lefayresorts.com/en/hotel-resort-spa-dolomites-lefay-spa-dolomites",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:13:38.619Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.cntraveler.com/hotels/pinzolo/lefay-resort-and-spa-dolomiti",
+      "tier": "editorial",
+      "fetched_at": "2026-10-17T13:13:50.252Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://dolomiti.lefayresorts.com/",
+      "reason": "no same-property sub-page links found on the home page"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 3,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 2,
+    "chars": 5003,
+    "est_claude_tokens": 1251
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-17T13:13:50.252Z"
+}
