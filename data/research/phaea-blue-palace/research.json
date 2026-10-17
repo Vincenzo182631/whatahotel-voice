@@ -1,10 +1,9 @@
 {
   "slug": "phaea-blue-palace",
-  "status": "needs_review",
-  "partial": false,
+  "status": "awaiting_extraction",
+  "partial": true,
   "reasons": [
-    "https://phaeablue.com/en/: only 67% of the hotel name appears on the page; page does not mention Elounda",
-    "official website could not be confirmed; flag for review"
+    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue"
   ],
   "identity": {
     "hotel": {
@@ -13,29 +12,120 @@
       "country": "GR"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://phaeablue.com/en/: only 67% of the hotel name appears on the page; page does not mention Elounda",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "confirmed by hand as this hotel's own page (only 67% of the hotel name appears on the page; page does not mention Elounda)"
     ],
+    "reasons": [],
     "candidates": [
       "https://phaeablue.com/en/"
     ],
-    "checked_at": "2026-10-17T14:01:13.173Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-17T23:52:29.685Z",
+    "status": "confirmed",
+    "official_url": "https://phaeablue.com/en/",
+    "base_url": "https://phaeablue.com/",
+    "host": "phaeablue.com",
+    "checks": {
+      "name_coverage": 0.67,
+      "location_match": false
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://phaeablue.com/en/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T23:52:37.955Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://phaeablue.com/stay/bungalows/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T23:52:49.738Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://phaeablue.com/dine/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T23:52:53.798Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://phaeablue.com/wellness-spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T23:52:56.879Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://phaeablue.com/phaea-blue-experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T23:53:01.484Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://phaeablue.com/contact/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T23:53:04.615Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://phaeablue.com/mood/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T23:53:08.215Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://phaeablue.com/our-story/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T23:53:11.653Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://phaeablue.com/our-people/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T23:53:16.741Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://phaeablue.com/destination/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T23:53:21.154Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://phaeablue.com/art-craftsmanship/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T23:53:24.494Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p12",
+      "url": "https://phaeablue.com/responsible-living/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T23:53:29.693Z",
+      "source": "firecrawl"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 1,
-    "firecrawl_searches": 0,
+    "firecrawl_calls": 15,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 12,
+    "chars": 36866,
+    "est_claude_tokens": 9217
   },
   "limits": {
     "maxPages": 12,
@@ -43,5 +133,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-17T14:01:18.279Z"
+  "researched_at": "2026-10-17T23:53:38.123Z"
 }
