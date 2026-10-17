@@ -1,0 +1,94 @@
+{
+  "slug": "71-nyhavn-hotel",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "71 Nyhavn Hotel",
+      "city": "Copenhagen",
+      "country": "DK"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Copenhagen, DK)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.71nyhavnhotel.com/"
+    ],
+    "checked_at": "2026-10-17T13:21:46.241Z",
+    "status": "confirmed",
+    "official_url": "https://www.71nyhavnhotel.com/",
+    "base_url": "https://www.71nyhavnhotel.com/",
+    "host": "71nyhavnhotel.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.71nyhavnhotel.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:21:54.484Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.71nyhavnhotel.com/stayandsave/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:21:58.075Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.71nyhavnhotel.com/rooms-and-suites/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:22:02.347Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.71nyhavnhotel.com/stayandsave/create-a-stay-,-a-,-save-profile/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:22:05.524Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.71nyhavnhotel.com/facilities-and-services/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:22:09.682Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 5,
+    "chars": 40876,
+    "est_claude_tokens": 10219
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-17T13:22:15.353Z"
+}
