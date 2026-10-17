@@ -1,0 +1,81 @@
+{
+  "slug": "so-berlin-das-stue",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "SO Berlin Das Stue",
+      "city": "Berlin",
+      "country": "DE"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Berlin, DE)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://theluxurytraveller.com/hotel-reviews/so-das-stue-berlin/",
+      "https://www.das-stue.com/en/"
+    ],
+    "checked_at": "2026-10-17T13:24:40.467Z",
+    "status": "confirmed",
+    "official_url": "https://www.das-stue.com/en/",
+    "base_url": "https://www.das-stue.com/",
+    "host": "das-stue.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.das-stue.com/en/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:24:51.158Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.das-stue.com/en/location-contact/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:24:54.697Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.das-stue.com/en/specials/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:25:00.429Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.cntraveler.com/hotels/berlin/so-berlin-das-stue",
+      "tier": "editorial",
+      "fetched_at": "2026-10-17T13:25:03.671Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 6,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 4,
+    "chars": 13213,
+    "est_claude_tokens": 3303
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-17T13:25:03.671Z"
+}
