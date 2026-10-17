@@ -19,7 +19,7 @@ import { Budget, BudgetExceeded, limitsFromEnv } from "../src/research/budget.js
 import { chainOfHost, chainOfName, chainsOfHost, hostBelongsTo, isThirdParty } from "../src/research/chains.js";
 import { tierOf } from "../src/verify/evidence.js";
 import { pickPages } from "../src/research/discover.js";
-import { assessPage, baseUrlFor, englishUrl, rankCandidates, resolveOfficialSite, type IdentityDeps } from "../src/research/identity.js";
+import { assessPage, baseUrlFor, isErrorPage, englishUrl, rankCandidates, resolveOfficialSite, type IdentityDeps } from "../src/research/identity.js";
 import { assertResearchReady, chainFromCollections, importResearch, loadHotelRef, researchDir, runResearch } from "../src/research/research.js";
 import { FirecrawlClient } from "../src/sources/firecrawl.js";
 
@@ -190,6 +190,7 @@ describe("assessPage", () => {
     expect(err.reasons.join(" ")).toMatch(/error page/);
     const longErr = assessPage({ name: "The Reef at Atlantis", city: "Nassau", country: "Bahamas" }, aff, { url: "https://www.marriott.com/en-us/hotels/nasrf-the-reef-at-atlantis-autograph-collection/overview/", text: `Loading...\n\nSorry! - Page Not Found on Marriott.com (404 Error)\n\n${filler.repeat(20)} The Reef at Atlantis Nassau` });
     expect(longErr.reasons.join(" ")).toMatch(/error page/);
+    expect(isErrorPage(undefined, "Oops! That page can't be found. Discover Our Destinations")).toBe(true);
     const jobs = assessPage({ name: "Canyon Ranch Woodside", city: "Woodside", country: "United States" }, { kind: "unknown" as const }, { url: "https://careers.canyonranch.com/retreat", text: `Canyon Ranch Woodside ${filler} Woodside` });
     expect(jobs.reasons.join(" ")).toMatch(/careers site/);
     const work = assessPage({ name: "The Reef House", city: "Palm Cove", country: "Australia" }, { kind: "unknown" as const }, { url: "https://www.reefhouse.com.au/work/", text: `The Reef House ${filler} Palm Cove` });
