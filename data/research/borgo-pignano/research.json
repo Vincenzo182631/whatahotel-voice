@@ -1,0 +1,73 @@
+{
+  "slug": "borgo-pignano",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Borgo Pignano",
+      "city": "Tuscany",
+      "country": "IT"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Tuscany, IT)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.borgopignano.com/en/"
+    ],
+    "checked_at": "2026-10-17T13:51:10.640Z",
+    "status": "confirmed",
+    "official_url": "https://www.borgopignano.com/en/",
+    "base_url": "https://www.borgopignano.com/",
+    "host": "borgopignano.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.borgopignano.com/en/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:51:15.775Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.borgopignano.com/en/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:51:20.023Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 4,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 2,
+    "chars": 7077,
+    "est_claude_tokens": 1769
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-17T13:51:27.534Z"
+}

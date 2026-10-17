@@ -1,0 +1,101 @@
+{
+  "slug": "baglioni-masseria-muzza",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Baglioni Masseria Muzza",
+      "city": "Puglia",
+      "country": "IT"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Puglia, IT)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://puglia.baglionihotels.com/"
+    ],
+    "checked_at": "2026-10-17T13:50:35.086Z",
+    "status": "confirmed",
+    "official_url": "https://puglia.baglionihotels.com/",
+    "base_url": "https://puglia.baglionihotels.com/",
+    "host": "puglia.baglionihotels.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://puglia.baglionihotels.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:50:39.305Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://puglia.baglionihotels.com/accommodations/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:50:47.227Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://puglia.baglionihotels.com/accommodations/deluxe-suite/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:50:50.707Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://puglia.baglionihotels.com/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:50:56.271Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://puglia.baglionihotels.com/aura-spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:50:58.550Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://puglia.baglionihotels.com/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:51:04.182Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 8,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 6,
+    "chars": 14399,
+    "est_claude_tokens": 3600
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-17T13:51:09.038Z"
+}
