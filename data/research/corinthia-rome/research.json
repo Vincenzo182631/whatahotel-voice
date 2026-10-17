@@ -1,0 +1,115 @@
+{
+  "slug": "corinthia-rome",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Corinthia Rome",
+      "city": "Rome",
+      "country": "IT"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Rome, IT)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.corinthia.com/en-gb/rome/"
+    ],
+    "checked_at": "2026-10-17T13:53:45.816Z",
+    "status": "confirmed",
+    "official_url": "https://www.corinthia.com/en-gb/rome/",
+    "base_url": "https://www.corinthia.com/",
+    "host": "corinthia.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.corinthia.com/en-gb/rome/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:53:52.763Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.corinthia.com/en-gb/discovery/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:53:55.772Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.corinthia.com/en-gb/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:53:58.190Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.corinthia.com/it-it/rome/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:54:02.135Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.corinthia.com/en-gb/our-team/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:54:07.306Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.corinthia.com/en-gb/our-story/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:54:10.098Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.corinthia.com/en-gb/destinations/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:54:15.416Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.cntraveler.com/hotels/rome/corinthia-rome",
+      "tier": "editorial",
+      "fetched_at": "2026-10-17T13:54:23.087Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.corinthia.com/en-gb/get-inspired/",
+      "reason": "https://www.corinthia.com/en-gb/get-inspired/: page had almost no text"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 10,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 8,
+    "chars": 61866,
+    "est_claude_tokens": 15467
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-17T13:54:23.087Z"
+}
