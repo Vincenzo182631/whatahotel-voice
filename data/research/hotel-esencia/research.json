@@ -1,0 +1,80 @@
+{
+  "slug": "hotel-esencia",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "Hotel Esencia",
+      "city": "Cancun",
+      "country": "MX"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Cancun, MX)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://hotelesencia.com/"
+    ],
+    "checked_at": "2026-10-20T02:00:10.735Z",
+    "status": "confirmed",
+    "official_url": "https://hotelesencia.com/",
+    "base_url": "https://hotelesencia.com/",
+    "host": "hotelesencia.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://hotelesencia.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T02:00:17.623Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://hotelesencia.com/about/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T02:00:22.835Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://hotelesencia.com/video-tours/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T02:00:33.132Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.cntraveler.com/hotels/mexico/akumal/esencia-estate",
+      "tier": "editorial",
+      "fetched_at": "2026-10-20T02:00:43.725Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 5,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 4,
+    "chars": 24172,
+    "est_claude_tokens": 6043
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-20T02:00:43.725Z"
+}
