@@ -1,12 +1,9 @@
 {
   "slug": "mazagan-beach-golf-resort",
-  "status": "needs_review",
-  "partial": false,
+  "status": "awaiting_extraction",
+  "partial": true,
   "reasons": [
-    "https://frmg.ma/en/mazagan-beach-golf-resort-el-jadida-2/: frmg.ma does not carry the hotel's name; an independent hotel's own site normally does",
-    "https://www.mazaganbeachresort.com/: page does not mention El Jadida",
-    "https://www.nationalclubgolfer.com/travel/mazagan-beach-golf-resort-moroccan-adventure/: nationalclubgolfer.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "official website could not be confirmed; flag for review"
+    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue"
   ],
   "identity": {
     "hotel": {
@@ -15,33 +12,121 @@
       "country": "MA"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://frmg.ma/en/mazagan-beach-golf-resort-el-jadida-2/: frmg.ma does not carry the hotel's name; an independent hotel's own site normally does",
-      "https://www.mazaganbeachresort.com/: page does not mention El Jadida",
-      "https://www.nationalclubgolfer.com/travel/mazagan-beach-golf-resort-moroccan-adventure/: nationalclubgolfer.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "confirmed by hand as this hotel's own page (page does not mention El Jadida)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://frmg.ma/en/mazagan-beach-golf-resort-el-jadida-2/",
-      "https://www.mazaganbeachresort.com/",
-      "https://www.nationalclubgolfer.com/travel/mazagan-beach-golf-resort-moroccan-adventure/"
+      "https://www.mazaganbeachresort.com/"
     ],
-    "checked_at": "2026-10-20T01:57:50.273Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-20T02:19:10.043Z",
+    "status": "confirmed",
+    "official_url": "https://www.mazaganbeachresort.com/",
+    "base_url": "https://www.mazaganbeachresort.com/",
+    "host": "mazaganbeachresort.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": false
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.mazaganbeachresort.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T02:19:29.372Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.mazaganbeachresort.com/accommodation/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T02:19:39.647Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.mazaganbeachresort.com/dining/anis/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T02:19:43.487Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.mazaganbeachresort.com/dining/oasis/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T02:19:46.701Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.mazaganbeachresort.com/dining/bushra/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T02:19:50.637Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.mazaganbeachresort.com/dining/olives/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T02:19:54.732Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.mazaganbeachresort.com/dining/la-cave/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T02:19:58.640Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.mazaganbeachresort.com/dining/studio42/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T02:20:02.716Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.mazaganbeachresort.com/dining/al-firma/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T02:20:06.625Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.mazaganbeachresort.com/dining/sel-de-mer/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T02:20:10.969Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://www.mazaganbeachresort.com/dining/market-place/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T02:20:14.672Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p12",
+      "url": "https://www.mazaganbeachresort.com/dining/beach-barbecue/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T02:20:18.873Z",
+      "source": "firecrawl"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 4,
-    "firecrawl_searches": 1,
+    "firecrawl_calls": 15,
+    "firecrawl_searches": 0,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 12,
+    "chars": 32536,
+    "est_claude_tokens": 8134
   },
   "limits": {
     "maxPages": 12,
@@ -49,5 +134,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-20T01:58:23.623Z"
+  "researched_at": "2026-10-20T02:20:22.637Z"
 }

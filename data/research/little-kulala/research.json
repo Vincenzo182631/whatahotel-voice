@@ -1,12 +1,9 @@
 {
   "slug": "little-kulala",
-  "status": "needs_review",
-  "partial": false,
+  "status": "awaiting_extraction",
+  "partial": true,
   "reasons": [
-    "https://yourperfectafrica.com/game-lodges/little-kulala/: yourperfectafrica.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "https://www.wildernessdestinations.com/africa/namibia/sossusvlei/little-kulala: wildernessdestinations.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "https://www.siyabona.com/safari-lodge-little-kulala-lodge-namibia-sossusvlei.html: siyabona.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "official website could not be confirmed; flag for review"
+    "limit reached: 150000 characters of page text; progress saved (8 pages), rerun with higher limits to continue"
   ],
   "identity": {
     "hotel": {
@@ -15,33 +12,94 @@
       "country": "MA"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://yourperfectafrica.com/game-lodges/little-kulala/: yourperfectafrica.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "https://www.wildernessdestinations.com/africa/namibia/sossusvlei/little-kulala: wildernessdestinations.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "https://www.siyabona.com/safari-lodge-little-kulala-lodge-namibia-sossusvlei.html: siyabona.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Kulala Wilderness Reserve, MA)",
+      "confirmed by hand as this hotel's own page (wildernessdestinations.com does not carry the hotel's name; an independent hotel's own site normally does)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://yourperfectafrica.com/game-lodges/little-kulala/",
-      "https://www.wildernessdestinations.com/africa/namibia/sossusvlei/little-kulala",
-      "https://www.siyabona.com/safari-lodge-little-kulala-lodge-namibia-sossusvlei.html"
+      "https://www.wildernessdestinations.com/africa/namibia/sossusvlei/little-kulala"
     ],
-    "checked_at": "2026-10-20T02:00:30.136Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-20T02:20:23.775Z",
+    "status": "confirmed",
+    "official_url": "https://www.wildernessdestinations.com/africa/namibia/sossusvlei/little-kulala",
+    "base_url": "https://www.wildernessdestinations.com/",
+    "host": "wildernessdestinations.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.wildernessdestinations.com/africa/namibia/sossusvlei/little-kulala",
+      "tier": "official",
+      "fetched_at": "2026-10-20T02:20:28.600Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.wildernessdestinations.com/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T02:20:38.781Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.wildernessdestinations.com/africa/map/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T02:20:41.631Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.wildernessdestinations.com/africa/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T02:20:46.325Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.wildernessdestinations.com/journal/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T02:20:50.028Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.wildernessdestinations.com/africa/tours/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T02:20:54.866Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.wildernessdestinations.com/africa/namibia/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T02:20:57.824Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.wildernessdestinations.com/safari/when-to-go/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T02:21:01.736Z",
+      "source": "firecrawl"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 4,
-    "firecrawl_searches": 1,
+    "firecrawl_calls": 11,
+    "firecrawl_searches": 0,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 8,
+    "chars": 146836,
+    "est_claude_tokens": 36709
   },
   "limits": {
     "maxPages": 12,
@@ -49,5 +107,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-20T02:00:50.163Z"
+  "researched_at": "2026-10-20T02:21:05.793Z"
 }
