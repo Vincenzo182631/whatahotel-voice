@@ -1,0 +1,410 @@
+{
+  "hotel_slug": "the-dylan-amsterdam",
+  "hotel_name": "The Dylan Amsterdam",
+  "checked_at": "2026-10-20T01:57:45.428Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.dylanamsterdam.com/",
+      "tier": "official",
+      "chars": 2307
+    },
+    {
+      "id": "d2",
+      "url": "https://www.dylanamsterdam.com/rooms-suites/",
+      "tier": "official",
+      "chars": 4554
+    },
+    {
+      "id": "d3",
+      "url": "https://www.dylanamsterdam.com/restaurants/",
+      "tier": "official",
+      "chars": 2029
+    },
+    {
+      "id": "d4",
+      "url": "https://www.dylanamsterdam.com/meet-the-team/",
+      "tier": "official",
+      "chars": 3530
+    },
+    {
+      "id": "d5",
+      "url": "https://www.dylanamsterdam.com/spring-refresh/",
+      "tier": "official",
+      "chars": 4507
+    },
+    {
+      "id": "d6",
+      "url": "https://www.cntraveler.com/hotels/amsterdam/the-dylan-amsterdam",
+      "tier": "editorial",
+      "chars": 10074
+    },
+    {
+      "id": "d7",
+      "url": "https://www.dylanamsterdam.com/contact/",
+      "tier": "official",
+      "chars": 6982
+    },
+    {
+      "id": "d8",
+      "url": "https://www.dylanamsterdam.com/location/",
+      "tier": "official",
+      "chars": 2307
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is in the 9-streets area on the Keizersgracht canal.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located in the heart of the “9-streets” area on the prestigious “Keizersgracht” canal",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.dylanamsterdam.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The Keizersgracht, where the hotel sits, is the widest canal in the city.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "On the widest canal in the city (Keizersgracht)",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/amsterdam/the-dylan-amsterdam",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel is in Amsterdam's historic heart, steps from the Nine Streets, the Jordaan, museums and independent boutiques.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "In Amsterdam’s historic heart, steps from the Nine Streets, Jordaan, celebrated museums and independent boutiques.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.dylanamsterdam.com/spring-refresh/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel once opened as Blakes Amsterdam and is now a Leading Hotel of the World.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Once opened as the almost legendary Blakes Amsterdam, now evolved to a Leading Hotel of The World where quiet luxury speaks.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.dylanamsterdam.com/meet-the-team/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Guests enter through a small courtyard and a residential-style door.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Entering through a small courtyard, guests discover a residential-style door",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/amsterdam/the-dylan-amsterdam",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Several buildings are connected by stairs and pathways, with tiny gardens or patios, seating nooks and cozy spaces.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "where several buildings have been connected via various stairs and pathways to form a single hotel",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/amsterdam/the-dylan-amsterdam",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "a maze of hallways, staircases, tiny gardens or patios, seating nooks, and plenty of cozy spaces",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/amsterdam/the-dylan-amsterdam",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The hotel has four different room styles.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Discover our four different room styles.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.dylanamsterdam.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Rooms have a B&O sound system, an Illy espresso maker and Aesop bath amenities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "B&O sound system with Bluetooth connection, Illy espresso maker and Aesop bath amenities",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.dylanamsterdam.com/rooms-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Double Rooms in the Original building look over the garden; those in the Serendipity building look over the atrium.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The Double Rooms are located in “the Original building” with a view over the garden and in “the Serendipity building” a view over the atrium.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.dylanamsterdam.com/rooms-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The concierge team curates itineraries, from museum reservations and private art guides to countryside excursions.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Our concierge team is delighted to curate bespoke itineraries, from museum reservations and private art guides to countryside excursions and dining experiences",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.dylanamsterdam.com/spring-refresh/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Restaurant Vinkeles is situated in an 18th-century bakery.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Restaurant Vinkeles, situated in an 18th century bakery",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.dylanamsterdam.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Bar Brasserie OCCO is known for its High Wine, a take on High Tea.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Informal Bar Brasserie OCCO is famous for its “High Wine” experience, our fun take on High Tea.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.dylanamsterdam.com/restaurants/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The address was once home to the first theater in Amsterdam, dating back to the 1600s, before becoming Hotel Blakes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "This address was once home to the first theater in Amsterdam (dating back to the 1600s and Dutch painter Rembrandt van Rijn once worked as a production assistant here) before becoming Hotel Blakes, its preceding name to The Dylan.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/amsterdam/the-dylan-amsterdam",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Luxury Duplex Room, known as a staircase room, is arranged over two floors connected by a steep internal staircase.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "A Luxury Duplex Room, also uniquely known as a staircase room, is arranged over two floors connected by a steep internal staircase",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.dylanamsterdam.com/rooms-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Hand-crafted Roetz electric bikes are available for guests to borrow free of charge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Hand-crafted Roetz electric bikes are available for guests to borrow free of charge to cycle around town like a local.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/amsterdam/the-dylan-amsterdam",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Junior Suites Canal View are in the Serendipity building, in Serendipity style with natural warming shades of brown and grey.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The Junior Suites Canal View are located in “the Serendipity building” in Serendipity style with natural warming shades of brown and grey",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.dylanamsterdam.com/rooms-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Turndown service delivers Amsterdam stroopwafels made by the nearby Lanskroon bakery.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Turndown service delivers delicious Amsterdam stroopwafels, produced by nearby Lanskroon bakery",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/amsterdam/the-dylan-amsterdam",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel does not have a pool; it has a gym and offers in-room treatments.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "The Dylan does not have a pool, it does have a well equiped Gym and offers in-room treatments.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.dylanamsterdam.com/contact/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The city and the hotel are not easy to maneuver around for those with mobility issues.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "remember that the city (and this hotel) are not as easy to maneuver around for those with mobility issues",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/amsterdam/the-dylan-amsterdam",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing reflecting the luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

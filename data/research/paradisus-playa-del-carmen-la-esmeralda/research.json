@@ -1,0 +1,73 @@
+{
+  "slug": "paradisus-playa-del-carmen-la-esmeralda",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Paradisus Playa del Carmen, La Esmeralda",
+      "city": "Playa del Carmen",
+      "country": "MX"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "83% of the hotel name appears on the page",
+      "location matches (Playa del Carmen, MX)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.paradisuslaperlaresort.com/"
+    ],
+    "checked_at": "2026-10-20T01:55:57.169Z",
+    "status": "confirmed",
+    "official_url": "https://www.paradisuslaperlaresort.com/",
+    "base_url": "https://www.paradisuslaperlaresort.com/",
+    "host": "paradisuslaperlaresort.com",
+    "checks": {
+      "name_coverage": 0.83,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.paradisuslaperlaresort.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T01:56:07.804Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.cntraveler.com/hotels/mexico/playa-del-carmen/paradisus-playa-del-carmen---la-perla",
+      "tier": "editorial",
+      "fetched_at": "2026-10-20T01:56:27.925Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.paradisuslaperlaresort.com/",
+      "reason": "no same-property sub-page links found on the home page"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 3,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 2,
+    "chars": 5902,
+    "est_claude_tokens": 1476
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-20T01:56:27.926Z"
+}
