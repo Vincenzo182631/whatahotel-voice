@@ -1,10 +1,9 @@
 {
   "slug": "royal-malewane-an-all-inclusive-resort",
-  "status": "needs_review",
-  "partial": false,
+  "status": "awaiting_extraction",
+  "partial": true,
   "reasons": [
-    "https://www.theroyalportfolio.com/royal-malewane/: theroyalportfolio.com does not carry the hotel's name; an independent hotel's own site normally does; only 67% of the hotel name appears on the page; page does not mention Hoedspruit",
-    "official website could not be confirmed; flag for review"
+    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue"
   ],
   "identity": {
     "hotel": {
@@ -13,29 +12,120 @@
       "country": "ZA"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.theroyalportfolio.com/royal-malewane/: theroyalportfolio.com does not carry the hotel's name; an independent hotel's own site normally does; only 67% of the hotel name appears on the page; page does not mention Hoedspruit",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "confirmed by hand as this hotel's own page (theroyalportfolio.com does not carry the hotel's name; an independent hotel's own site normally does; only 67% of the hotel name appears on the page; page does not mention Hoedspruit)"
     ],
+    "reasons": [],
     "candidates": [
       "https://www.theroyalportfolio.com/royal-malewane/"
     ],
-    "checked_at": "2026-10-20T03:09:38.993Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-20T03:26:18.150Z",
+    "status": "confirmed",
+    "official_url": "https://www.theroyalportfolio.com/royal-malewane/",
+    "base_url": "https://www.theroyalportfolio.com/",
+    "host": "theroyalportfolio.com",
+    "checks": {
+      "name_coverage": 0.67,
+      "location_match": false
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.theroyalportfolio.com/royal-malewane/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:26:23.567Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.theroyalportfolio.com/royal-malewane/accommodation/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:26:32.798Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.theroyalportfolio.com/royal-malewane/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:26:36.714Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.theroyalportfolio.com/royal-malewane/wellness/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:26:40.599Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.theroyalportfolio.com/royal-malewane/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:26:45.602Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.theroyalportfolio.com/contact/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:26:48.878Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.theroyalportfolio.com/royal-malewane/location/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:26:52.720Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.theroyalportfolio.com/royal-malewane/faqs/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:26:56.548Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.theroyalportfolio.com/foundation/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:27:00.548Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.theroyalportfolio.com/itineraries/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:27:04.548Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://www.theroyalportfolio.com/our-history/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:27:08.792Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p12",
+      "url": "https://www.theroyalportfolio.com/la-residence/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:27:12.737Z",
+      "source": "firecrawl"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 1,
+    "firecrawl_calls": 15,
     "firecrawl_searches": 0,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 12,
+    "chars": 79792,
+    "est_claude_tokens": 19948
   },
   "limits": {
     "maxPages": 12,
@@ -43,5 +133,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-20T03:09:41.500Z"
+  "researched_at": "2026-10-20T03:27:16.815Z"
 }

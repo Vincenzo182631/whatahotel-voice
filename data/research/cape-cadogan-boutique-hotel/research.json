@@ -1,11 +1,8 @@
 {
   "slug": "cape-cadogan-boutique-hotel",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "https://www.more.co.za/capecadogan/: more.co.za does not carry the hotel's name; an independent hotel's own site normally does",
-    "official website could not be confirmed; flag for review"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "Cape Cadogan Boutique Hotel",
@@ -13,29 +10,115 @@
       "country": "ZA"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.more.co.za/capecadogan/: more.co.za does not carry the hotel's name; an independent hotel's own site normally does",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Cape Town, ZA)",
+      "confirmed by hand as this hotel's own page (more.co.za does not carry the hotel's name; an independent hotel's own site normally does)"
     ],
+    "reasons": [],
     "candidates": [
       "https://www.more.co.za/capecadogan/"
     ],
-    "checked_at": "2026-10-20T03:09:32.569Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-20T03:30:28.312Z",
+    "status": "confirmed",
+    "official_url": "https://www.more.co.za/capecadogan/",
+    "base_url": "https://www.more.co.za/",
+    "host": "more.co.za",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.more.co.za/capecadogan/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:30:33.197Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.more.co.za/capecadogan/luxury-room/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:30:44.551Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.more.co.za/capecadogan/classic-room/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:30:47.304Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.more.co.za/capecadogan/stable-suite/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:30:51.558Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.more.co.za/capecadogan/superior-luxury-room/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:30:55.155Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.more.co.za/capecadogan/2-bedroom-stable-suite/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:30:58.753Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.more.co.za/capecadogan/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:31:03.267Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.more.co.za/capecadogan/location/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:31:07.046Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.more.co.za/_next/image/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:31:09.906Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.more.co.za/travel-africa/journeys/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:31:16.371Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://www.cntraveler.com/hotels/cape-town/cape-cadogan-boutique-hotel",
+      "tier": "editorial",
+      "fetched_at": "2026-10-20T03:31:21.302Z",
+      "source": "direct"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 1,
-    "firecrawl_searches": 0,
+    "firecrawl_calls": 13,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 11,
+    "chars": 32550,
+    "est_claude_tokens": 8138
   },
   "limits": {
     "maxPages": 12,
@@ -43,5 +126,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-20T03:09:33.660Z"
+  "researched_at": "2026-10-20T03:31:21.302Z"
 }

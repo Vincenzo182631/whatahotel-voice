@@ -1,10 +1,9 @@
 {
   "slug": "the-silo-cape-town",
-  "status": "needs_review",
-  "partial": false,
+  "status": "awaiting_extraction",
+  "partial": true,
   "reasons": [
-    "https://www.theroyalportfolio.com/the-silo-hotel/: theroyalportfolio.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "official website could not be confirmed; flag for review"
+    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue"
   ],
   "identity": {
     "hotel": {
@@ -13,29 +12,122 @@
       "country": "ZA"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.theroyalportfolio.com/the-silo-hotel/: theroyalportfolio.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Cape Town, ZA)",
+      "confirmed by hand as this hotel's own page (theroyalportfolio.com does not carry the hotel's name; an independent hotel's own site normally does)"
     ],
+    "reasons": [],
     "candidates": [
       "https://www.theroyalportfolio.com/the-silo-hotel/"
     ],
-    "checked_at": "2026-10-20T03:05:49.726Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-20T03:27:58.463Z",
+    "status": "confirmed",
+    "official_url": "https://www.theroyalportfolio.com/the-silo-hotel/",
+    "base_url": "https://www.theroyalportfolio.com/",
+    "host": "theroyalportfolio.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.theroyalportfolio.com/the-silo-hotel/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:28:03.147Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.theroyalportfolio.com/the-silo-hotel/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:28:12.367Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.theroyalportfolio.com/the-silo-hotel/spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:28:16.258Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.theroyalportfolio.com/the-silo-hotel/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:28:20.243Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.theroyalportfolio.com/contact/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:28:23.134Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.theroyalportfolio.com/the-silo-hotel/location/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:28:28.301Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.theroyalportfolio.com/the-silo-hotel/faqs/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:28:34.271Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.theroyalportfolio.com/foundation/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:28:35.153Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.theroyalportfolio.com/itineraries/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:28:39.158Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.theroyalportfolio.com/our-history/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:28:43.140Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://www.theroyalportfolio.com/la-residence/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:28:47.164Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p12",
+      "url": "https://www.theroyalportfolio.com/leaders-club/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:28:51.129Z",
+      "source": "firecrawl"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 1,
+    "firecrawl_calls": 15,
     "firecrawl_searches": 0,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 12,
+    "chars": 74517,
+    "est_claude_tokens": 18629
   },
   "limits": {
     "maxPages": 12,
@@ -43,5 +135,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-20T03:05:50.903Z"
+  "researched_at": "2026-10-20T03:28:56.362Z"
 }
