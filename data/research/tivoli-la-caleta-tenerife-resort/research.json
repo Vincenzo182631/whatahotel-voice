@@ -1,0 +1,73 @@
+{
+  "slug": "tivoli-la-caleta-tenerife-resort",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Tivoli la Caleta Tenerife Resort",
+      "city": "Tenerife",
+      "country": "ES"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Tenerife, ES)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.tivolihotels.com/en/tivoli-la-caleta-tenerife"
+    ],
+    "checked_at": "2026-10-20T02:58:39.457Z",
+    "status": "confirmed",
+    "official_url": "https://www.tivolihotels.com/en/tivoli-la-caleta-tenerife",
+    "base_url": "https://www.tivolihotels.com/",
+    "host": "tivolihotels.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.tivolihotels.com/en/tivoli-la-caleta-tenerife",
+      "tier": "official",
+      "fetched_at": "2026-10-20T02:58:45.732Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.tivolihotels.com/en/tivoli-la-caleta-tenerife/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T02:58:47.880Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 4,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 2,
+    "chars": 11596,
+    "est_claude_tokens": 2899
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-20T02:58:57.475Z"
+}
