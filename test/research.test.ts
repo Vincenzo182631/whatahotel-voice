@@ -35,6 +35,9 @@ describe("chains", () => {
     expect(chainOfHost("www.mandarinoriental.com")?.id).toBe("mandarin-oriental");
     expect(isThirdParty("www.booking.com")).toBe(true);
     expect(isThirdParty("www.whatahotel.com")).toBe(true);
+    expect(isThirdParty("me-by-melia.lisbongreathotels.com")).toBe(true);
+    expect(isThirdParty("www.visitlisboa.com")).toBe(true);
+    expect(isThirdParty("guide.michelin.com")).toBe(true);
     expect(isThirdParty("www.ilsanpietro.it")).toBe(false);
   });
   it("keeps each chain's pages to its own properties, with parent-company sites as secondary", () => {

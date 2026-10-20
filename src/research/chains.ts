@@ -208,8 +208,11 @@ const THIRD_PARTY = [
   "youtube.com", "yelp.", "lonelyplanet.", "fodors.", "forbes.com", "telegraph.co.uk", "cntraveler.com", "whatahotel.com",
   "mrandmrssmith.", "smallluxuryhotels.", "slh.com", "leadinghotels.", "relaischateaux.", "preferredhotels.", "virtuoso.",
   "tablethotels.", "hotelsone.", "travelweekly.", "travelagewest.", "travelpulse.", "forbestravelguide.", "lhw.com", "lartisien.",
-  "hotelsearch.", "hotels-in-", "fivestaralliance.", "travelandleisure.", "cntraveller.", "momondo.", "skyscanner.", "jetsetter.", "com-hotel.com", "lushexperiences.", "dupontcirclebid.", "hummingbird.travel", "celticcastles.", "historichotels.org", "americanexpress.com", "hotelplanner.", "reservations.com", "google.com", "bing.com", "linkedin.com", "pinterest.", "tiktok.com",
+  "hotelsearch.", "hotels-in-", "fivestaralliance.", "travelandleisure.", "cntraveller.", "momondo.", "skyscanner.", "jetsetter.", "com-hotel.com", "lushexperiences.", "dupontcirclebid.", "hummingbird.travel", "celticcastles.", "historichotels.org", "visitlisboa.com", "guide.michelin.com", "luxurylink.", "americanexpress.com", "hotelplanner.", "reservations.com", "google.com", "bing.com", "linkedin.com", "pinterest.", "tiktok.com",
 ];
 // an entry matches at a label boundary, so "hotels.com" catches www.hotels.com but not kivotoshotels.com
 const matchesAt = (host: string, t: string) => host.startsWith(t) || host.includes(`.${t}`);
-export const isThirdParty = (host: string) => !chainOfHost(host) && THIRD_PARTY.some((t) => matchesAt(host, t));
+// city booking aggregators that put the hotel's name in a subdomain (me-by-melia.lisbongreathotels.com)
+const AGGREGATOR_HOST = /(^|\.)[a-z]+greathotels\.com$/;
+export const isThirdParty = (host: string) =>
+  !chainOfHost(host) && (AGGREGATOR_HOST.test(host) || THIRD_PARTY.some((t) => matchesAt(host, t)));
