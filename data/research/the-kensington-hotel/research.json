@@ -1,11 +1,8 @@
 {
   "slug": "the-kensington-hotel",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "https://www.doylecollection.com/hotels/the-kensington-hotel: doylecollection.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "official website could not be confirmed; flag for review"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "The Kensington Hotel",
@@ -13,29 +10,66 @@
       "country": "GB"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.doylecollection.com/hotels/the-kensington-hotel: doylecollection.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (London, GB)",
+      "confirmed by hand as this hotel's own page (doylecollection.com does not carry the hotel's name; an independent hotel's own site normally does)"
     ],
+    "reasons": [],
     "candidates": [
       "https://www.doylecollection.com/hotels/the-kensington-hotel"
     ],
-    "checked_at": "2026-10-20T06:14:25.047Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-20T07:28:40.984Z",
+    "status": "confirmed",
+    "official_url": "https://www.doylecollection.com/hotels/the-kensington-hotel",
+    "base_url": "https://www.doylecollection.com/",
+    "host": "doylecollection.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.doylecollection.com/hotels/the-kensington-hotel",
+      "tier": "official",
+      "fetched_at": "2026-10-20T07:28:47.433Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.doylecollection.com/member/forgotpassword/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T07:28:57.239Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.doylecollection.com/hotels/the-kensington-hotel/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T07:28:59.438Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.cntraveler.com/hotels/london/the-kensington-hotel",
+      "tier": "editorial",
+      "fetched_at": "2026-10-20T07:29:06.565Z",
+      "source": "direct"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 1,
-    "firecrawl_searches": 0,
+    "firecrawl_calls": 6,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 4,
+    "chars": 25273,
+    "est_claude_tokens": 6318
   },
   "limits": {
     "maxPages": 12,
@@ -43,5 +77,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-20T06:14:28.640Z"
+  "researched_at": "2026-10-20T07:29:06.565Z"
 }
