@@ -1,0 +1,66 @@
+{
+  "slug": "me-lisbon",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "ME Lisbon",
+      "city": "Lisbon",
+      "country": "PT"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Lisbon, PT)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://me-by-melia.lisbongreathotels.com/en/"
+    ],
+    "checked_at": "2026-10-20T02:54:55.463Z",
+    "status": "confirmed",
+    "official_url": "https://me-by-melia.lisbongreathotels.com/en/",
+    "base_url": "https://me-by-melia.lisbongreathotels.com/",
+    "host": "me-by-melia.lisbongreathotels.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://me-by-melia.lisbongreathotels.com/en/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T02:55:13.317Z",
+      "source": "cache"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 3,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 1,
+    "chars": 18794,
+    "est_claude_tokens": 4699
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-20T02:55:23.890Z"
+}

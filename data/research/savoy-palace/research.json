@@ -1,0 +1,73 @@
+{
+  "slug": "savoy-palace",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "Savoy Palace",
+      "city": "Madeira",
+      "country": "PT"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Madeira, PT)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.savoysignature.com/savoypalacehotel/en/"
+    ],
+    "checked_at": "2026-10-20T02:56:14.119Z",
+    "status": "confirmed",
+    "official_url": "https://www.savoysignature.com/savoypalacehotel/en/",
+    "base_url": "https://www.savoysignature.com/",
+    "host": "savoysignature.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.savoysignature.com/savoypalacehotel/en/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T02:56:21.113Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.savoysignature.com/en/access-to-other-hotels/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T02:56:24.528Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.cntraveler.com/hotels/madeira/savoy-palace",
+      "tier": "editorial",
+      "fetched_at": "2026-10-20T02:56:27.675Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 4,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 3,
+    "chars": 12794,
+    "est_claude_tokens": 3199
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-20T02:56:27.675Z"
+}
