@@ -49,6 +49,24 @@ describe("checkScript", () => {
     });
   });
 
+  it("flags spa age rules but not unrelated mentions of kids or the spa", () => {
+    const flagged = ["The spa is adults-only.", "Children aren't allowed in the spa.", "Guests under 18 can't use the thermal pools.", "The spa welcomes guests 16 and over."];
+    for (const text of flagged) {
+      const s = script();
+      s.turns[2] = { ...s.turns[2]!, text };
+      expect(checkScript(s, profile).join(), text).toMatch(/spa age rule/);
+    }
+    const ok = ["There's a kids' club for younger guests. The spa has a hammam.", "Families get a kids' club and the spa offers massages."];
+    for (const text of ok) {
+      const s = script();
+      s.turns[2] = { ...s.turns[2]!, text };
+      expect(checkScript(s, profile).join(), text).not.toMatch(/spa age rule/);
+    }
+    const s2 = script();
+    s2.short_version = { ...s2.short_version, worth_knowing: "The spa is for adults only (18+)." };
+    expect(checkScript(s2, profile).join()).toMatch(/worth_knowing mentions a spa age rule/);
+  });
+
   it("flags any mention of shuttle service, in turns and the short version", () => {
     const s = script();
     s.turns[2] = { ...s.turns[2]!, text: "There's no airport shuttle, so plan a car." };

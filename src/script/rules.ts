@@ -13,6 +13,14 @@ export const WORD_RANGE = { min: 205, max: 230 } as const;
 /** ElevenLabs Text-to-Dialogue limit per request; longer scripts get chunked. */
 export const DIALOGUE_CHAR_LIMIT = 2000;
 
+// spa age rules (adults-only spa, no children) read as a drawback, so scripts never raise them
+const SPA_WORD = /\b(spas?|wellness|sauna|hammam|thermal|steam room)\b/i;
+const AGE_LIMIT =
+  /\badults?[- ]only\b|\bminors?\b|\bunder[- ]?1\d\b|\b1\d\s*\+|\b1\d (and|or) (over|up|older)\b|\bage (limits?|restrictions?|minimums?)\b|\b(no|not for|not allowed|aren'?t allowed|can'?t|cannot|off[- ]limits)\b[^.!?]{0,30}\b(child|children|kids|teens?)\b|\b(child|children|kids|teens?)\b[^.!?]{0,30}\b(not allowed|aren'?t allowed|can'?t|cannot|off[- ]limits|excluded)\b/i;
+/** True when a sentence ties the spa to an age rule. */
+export const mentionsSpaAgeRule = (text: string) =>
+  text.split(/(?<=[.!?])\s+/).some((sentence) => SPA_WORD.test(sentence) && AGE_LIMIT.test(sentence));
+
 const BANNED: Array<[RegExp, string]> = [
   [/\bpros\b|\bcons\b/i, 'uses "pros/cons" framing; say "what stands out" / "things to consider"'],
   [/\bpodcast\b/i, 'calls itself a podcast'],
@@ -140,12 +148,14 @@ export function checkScript(script: Script, profile: HotelProfile, today: Date =
     for (const [re, why] of BANNED) {
       if (re.test(t.text)) issues.push(`turn ${i} ${why}`);
     }
+    if (mentionsSpaAgeRule(t.text)) issues.push(`turn ${i} mentions a spa age rule (children/adults-only); leave it out`);
     if (t.section !== "hook" && t.section !== "bottom_line" && t.claim_ids.length === 0 && /\d/.test(t.text)) {
       issues.push(`turn ${i} states a number without citing a claim`);
     }
   });
   for (const [field, text] of [["title", script.title], ...Object.entries(script.short_version)] as Array<[string, string]>) {
     if (/\bshuttles?\b/i.test(text)) issues.push(`${field} mentions shuttle service; leave shuttles out entirely`);
+    if (mentionsSpaAgeRule(text)) issues.push(`${field} mentions a spa age rule (children/adults-only); leave it out`);
   }
   const toKnowCites = script.turns.filter((t) => t.section === "to_know").flatMap((t) => t.claim_ids);
   if (!toKnowCites.some((id) => considerationIds.has(id))) {
