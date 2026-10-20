@@ -1,5 +1,5 @@
 # Extract verified facts for ME Dubai
-Official site confirmed: https://www.guestreservations.com/me-dubai-by-melia/booking (independent).
+Official site confirmed: https://www.melia.com/en/hotels/united-arab-emirates/dubai/me-dubai (chain: melia).
 Read /home/user/whatahotel-voice/data/research/me-dubai/index.json and the page text in /home/user/whatahotel-voice/data/research/me-dubai/pages/<id>.txt. Use ONLY those pages, never memory. Do not run other commands or fetch anything.
 Write /home/user/whatahotel-voice/data/research/me-dubai/facts.json (JSON only) with this shape:
 {"facts":[{"id":"r-1","category":"dining","kind":"fact|subjective|unresolved","text":"one atomic statement","doc_id":"p3","excerpt":"copied verbatim from that page, max 240 chars","topic":"short key, e.g. pool-count","as_of":"YYYY-MM-DD or null"}],

@@ -10,21 +10,23 @@
       "country": "AE"
     },
     "affiliation": {
-      "kind": "independent"
+      "kind": "chain",
+      "chain": "melia"
     },
     "evidence": [
+      "page is on Meliá's own site (melia.com)",
       "100% of the hotel name appears on the page",
       "location matches (Dubai, AE)"
     ],
     "reasons": [],
     "candidates": [
-      "https://www.guestreservations.com/me-dubai-by-melia/booking"
+      "https://www.melia.com/en/hotels/united-arab-emirates/dubai/me-dubai"
     ],
-    "checked_at": "2026-10-20T06:08:08.157Z",
+    "checked_at": "2026-10-20T06:14:54.881Z",
     "status": "confirmed",
-    "official_url": "https://www.guestreservations.com/me-dubai-by-melia/booking",
-    "base_url": "https://www.guestreservations.com/",
-    "host": "guestreservations.com",
+    "official_url": "https://www.melia.com/en/hotels/united-arab-emirates/dubai/me-dubai",
+    "base_url": "https://www.melia.com/en/hotels/united-arab-emirates/dubai/me-dubai/",
+    "host": "melia.com",
     "checks": {
       "name_coverage": 1,
       "location_match": true
@@ -33,42 +35,70 @@
   "pages": [
     {
       "id": "p1",
-      "url": "https://www.guestreservations.com/me-dubai-by-melia/booking",
+      "url": "https://www.melia.com/en/hotels/united-arab-emirates/dubai/me-dubai",
       "tier": "official",
-      "fetched_at": "2026-10-20T06:08:17.882Z",
-      "source": "cache"
+      "fetched_at": "2026-10-20T06:15:00.293Z",
+      "source": "firecrawl"
     },
     {
       "id": "p2",
-      "url": "https://www.guestreservations.com/redirect/grouprates/",
+      "url": "https://www.melia.com/en/hotels/united-arab-emirates/dubai/me-dubai/rooms/",
       "tier": "official",
-      "fetched_at": "2026-10-20T06:08:19.257Z",
+      "fetched_at": "2026-10-20T06:15:11.611Z",
       "source": "firecrawl"
     },
     {
       "id": "p3",
-      "url": "https://www.guestreservations.com/hotels-United_Arab_Emirates/",
+      "url": "https://www.melia.com/en/hotels/united-arab-emirates/dubai/me-dubai/restaurants/",
       "tier": "official",
-      "fetched_at": "2026-10-20T06:08:24.212Z",
+      "fetched_at": "2026-10-20T06:15:16.957Z",
       "source": "firecrawl"
     },
     {
       "id": "p4",
+      "url": "https://www.melia.com/en/hotels/united-arab-emirates/dubai/me-dubai/restaurants/salmon-guru/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T06:15:29.028Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.melia.com/en/hotels/united-arab-emirates/dubai/me-dubai/restaurants/central-cosmo-tapas-and-bar/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T06:15:42.776Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.melia.com/en/hotels/united-arab-emirates/dubai/me-dubai/me/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T06:15:47.164Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.melia.com/en/hotels/united-arab-emirates/dubai/me-dubai/reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T06:15:50.508Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
       "url": "https://www.cntraveler.com/hotels/dubai/me-dubai",
       "tier": "editorial",
-      "fetched_at": "2026-10-20T06:08:28.070Z",
+      "fetched_at": "2026-10-20T06:15:53.884Z",
       "source": "direct"
     }
   ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 5,
-    "firecrawl_searches": 2,
-    "cache_hits": 2,
+    "firecrawl_calls": 10,
+    "firecrawl_searches": 1,
+    "cache_hits": 0,
     "direct_fetches": 1,
-    "pages": 4,
-    "chars": 22962,
-    "est_claude_tokens": 5741
+    "pages": 8,
+    "chars": 79706,
+    "est_claude_tokens": 19927
   },
   "limits": {
     "maxPages": 12,
@@ -76,5 +106,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-20T06:08:28.070Z"
+  "researched_at": "2026-10-20T06:15:53.884Z"
 }
