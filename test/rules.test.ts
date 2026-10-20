@@ -49,6 +49,15 @@ describe("checkScript", () => {
     });
   });
 
+  it("flags any mention of shuttle service, in turns and the short version", () => {
+    const s = script();
+    s.turns[2] = { ...s.turns[2]!, text: "There's no airport shuttle, so plan a car." };
+    expect(checkScript(s, profile).join()).toMatch(/shuttle/);
+    const s2 = script();
+    s2.short_version = { ...s2.short_version, worth_knowing: "A shuttle runs to the beach." };
+    expect(checkScript(s2, profile).join()).toMatch(/worth_knowing mentions shuttle/);
+  });
+
   it("flags pros/cons framing", () => {
     const s = script();
     s.turns[7]!.text = s.turns[7]!.text.replace("Two things I'd tell a client.", "Now the cons.");

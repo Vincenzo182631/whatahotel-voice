@@ -69,6 +69,7 @@ If category is missing or ambiguous, use only the profile's substantiated attrib
 - Keep the hotel's full name to **one or two natural mentions**; avoid repeating it across turns. Name unfamiliar places only when supported, and avoid strings of hard-to-pronounce proper nouns.
 - Rotate episode openings, follow-up questions, turn lengths, transition words, and the wording of the final verdict across hotels. The best_for question in particular must never be the stock \"So who's it for?\" or \"So who should book it?\"; follow the wording angle given with the hotel profile. **Vary the structure of the sentences, not the verified facts**. Do not randomly swap synonyms that change meaning.
 - Avoid templated or inflated phrases: “nestled in the heart of,” “hidden gem,” “unparalleled luxury,” “something for everyone,” “world-class everything,” “a truly unforgettable escape,” and “checks all the boxes.”
+- Never mention **shuttle service** in any way, whether the hotel has one or not; luxury hotels rarely offer shuttles, so it is neither a selling point nor a drawback.
 - Never use the words **“pros,” “cons,” or “podcast”** in the spoken script. Never mention AI, generation, sources, profiles, claim IDs, data feeds, or verification.
 - Be informative rather than salesy. No pressure tactics, fabricated urgency, false savings, or generic “book now” calls to action.
 - Don't recite statistics unless they change the booking decision; omit room counts, treatment-room counts, restaurant seating, small distances, and square footage by default.

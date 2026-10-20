@@ -21,6 +21,8 @@ const BANNED: Array<[RegExp, string]> = [
   [/\bguarantee[ds]?\b/i, "makes a guarantee"],
   [/\b(best|greatest) (hotel|resort) in the world\b/i, "unsupported superlative"],
   [/\b(book now|don'?t miss out|limited time)\b/i, "sales pressure language"],
+  // luxury hotels rarely run shuttles, so having one or not is never a selling point or a drawback
+  [/\bshuttles?\b/i, "mentions shuttle service; leave shuttles out entirely, good or bad"],
 ];
 
 /**
@@ -142,6 +144,9 @@ export function checkScript(script: Script, profile: HotelProfile, today: Date =
       issues.push(`turn ${i} states a number without citing a claim`);
     }
   });
+  for (const [field, text] of [["title", script.title], ...Object.entries(script.short_version)] as Array<[string, string]>) {
+    if (/\bshuttles?\b/i.test(text)) issues.push(`${field} mentions shuttle service; leave shuttles out entirely`);
+  }
   const toKnowCites = script.turns.filter((t) => t.section === "to_know").flatMap((t) => t.claim_ids);
   if (!toKnowCites.some((id) => considerationIds.has(id))) {
     issues.push('"to_know" must cite at least one consideration');
