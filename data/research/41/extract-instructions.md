@@ -1,5 +1,5 @@
 # Extract verified facts for 41
-Official site confirmed: https://41-hotel.londonhotelsgb.com/en/ (independent).
+Official site confirmed: https://41hotel.com/ (independent).
 Read /home/user/whatahotel-voice/data/research/41/index.json and the page text in /home/user/whatahotel-voice/data/research/41/pages/<id>.txt. Use ONLY those pages, never memory. Do not run other commands or fetch anything.
 Write /home/user/whatahotel-voice/data/research/41/facts.json (JSON only) with this shape:
 {"facts":[{"id":"r-1","category":"dining","kind":"fact|subjective|unresolved","text":"one atomic statement","doc_id":"p3","excerpt":"copied verbatim from that page, max 240 chars","topic":"short key, e.g. pool-count","as_of":"YYYY-MM-DD or null"}],

@@ -1,13 +1,8 @@
 {
   "slug": "bab-al-shams-desert-resort-spa",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "https://corinthiagroup.com/bab-al-shams-desert-resort-spa-dubai/: corinthiagroup.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "https://www.secret-luxury.com/hotels/Bab-Al-Shams-Desert-Resort-Spa_en.html: secret-luxury.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "https://www.scribd.com/presentation/621581084/bab-al-shams-resort: scribd.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "official website could not be confirmed; flag for review"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "Bab Al Shams Desert Resort & Spa",
@@ -15,33 +10,86 @@
       "country": "AE"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://corinthiagroup.com/bab-al-shams-desert-resort-spa-dubai/: corinthiagroup.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "https://www.secret-luxury.com/hotels/Bab-Al-Shams-Desert-Resort-Spa_en.html: secret-luxury.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "https://www.scribd.com/presentation/621581084/bab-al-shams-resort: scribd.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Dubai, AE)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://corinthiagroup.com/bab-al-shams-desert-resort-spa-dubai/",
-      "https://www.secret-luxury.com/hotels/Bab-Al-Shams-Desert-Resort-Spa_en.html",
-      "https://www.scribd.com/presentation/621581084/bab-al-shams-resort"
+      "https://www.babalshams.com/"
     ],
-    "checked_at": "2026-10-20T06:07:47.988Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-20T06:15:47.180Z",
+    "status": "confirmed",
+    "official_url": "https://www.babalshams.com/",
+    "base_url": "https://www.babalshams.com/",
+    "host": "babalshams.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.babalshams.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T06:16:06.356Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.babalshams.com/rooms-and-suites/villas/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T06:16:14.404Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.babalshams.com/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T06:16:18.417Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.babalshams.com/wellness/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T06:16:24.635Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.babalshams.com/festive/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T06:16:27.872Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.babalshams.com/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T06:16:32.122Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.cntraveler.com/hotels/dubai/bab-al-shams-desert-resort-and-spa",
+      "tier": "editorial",
+      "fetched_at": "2026-10-20T06:16:43.102Z",
+      "source": "direct"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 4,
+    "firecrawl_calls": 9,
     "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 7,
+    "chars": 20910,
+    "est_claude_tokens": 5228
   },
   "limits": {
     "maxPages": 12,
@@ -49,5 +97,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-20T06:08:06.915Z"
+  "researched_at": "2026-10-20T06:16:43.102Z"
 }
