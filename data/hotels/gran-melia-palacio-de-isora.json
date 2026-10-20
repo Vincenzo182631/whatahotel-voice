@@ -15,55 +15,255 @@
     "Guests keen on Tenerife's nature, from stargazing on Teide to whale watching at sea"
   ],
   "facts": [
-    { "id": "f-1", "text": "The resort sits on the shores of the Atlantic Ocean at the foot of Teide.", "source_ids": ["s2"] },
-    { "id": "f-2", "text": "The resort is on the beachfront, with direct access to the beach.", "source_ids": ["s2"] },
-    { "id": "f-3", "text": "The spa is Spa by Clarins, which pairs Clarins products with manual massage techniques.", "source_ids": ["s3"] },
-    { "id": "f-4", "text": "The spa's water circuit includes a sauna, chromotherapy, hydromassage, essence showers, bi-thermal foot baths and a meditation area.", "source_ids": ["s3"] },
-    { "id": "f-5", "text": "The Deluxe Ocean Front View room has a private terrace with panoramic views of the Atlantic.", "source_ids": ["s2"] },
-    { "id": "f-6", "text": "RedLevel guests get access to a private lounge, private check-in and check-out, and an a la carte breakfast in a private area.", "source_ids": ["s4"] },
-    { "id": "f-7", "text": "The villas come with personalised butler service.", "source_ids": ["s4"] },
-    { "id": "f-8", "text": "The Mar de Nubes kids' club is a supervised area for children.", "source_ids": ["s4"] },
-    { "id": "f-9", "text": "Dos Naifes by Jorge Peñate was awarded a Sol Repsol in 2025.", "source_ids": ["s2"], "expires": "2027-06-30" },
-    { "id": "f-10", "text": "At Dos Naifes, chefs Jorge Peñate and Luis Martín focus on marine biodiversity and local seafood.", "source_ids": ["s2"] },
-    { "id": "f-11", "text": "A private guided outing explores the lava fields of the Malpaís de Rasca and ends with a volcanic wine tasting in Vilaflor.", "source_ids": ["s7"] },
-    { "id": "f-12", "text": "The hotel is very close to golf courses.", "source_ids": ["s8"] }
+    {
+      "id": "f-1",
+      "text": "The resort sits on the shores of the Atlantic Ocean at the foot of Teide.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "id": "f-2",
+      "text": "The resort is on the beachfront, with direct access to the beach.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "id": "f-3",
+      "text": "The spa is Spa by Clarins, which pairs Clarins products with manual massage techniques.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "id": "f-4",
+      "text": "The spa's water circuit includes a sauna, chromotherapy, hydromassage, essence showers, bi-thermal foot baths and a meditation area.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "id": "f-5",
+      "text": "The Deluxe Ocean Front View room has a private terrace with panoramic views of the Atlantic.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "id": "f-6",
+      "text": "RedLevel guests get access to a private lounge, private check-in and check-out, and an a la carte breakfast in a private area.",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "id": "f-7",
+      "text": "The villas come with personalised butler service.",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "id": "f-8",
+      "text": "The Mar de Nubes kids' club is a supervised area for children.",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "id": "f-9",
+      "text": "Dos Naifes by Jorge Peñate was awarded a Sol Repsol in 2025.",
+      "source_ids": [
+        "s2"
+      ],
+      "expires": "2027-06-30"
+    },
+    {
+      "id": "f-10",
+      "text": "At Dos Naifes, chefs Jorge Peñate and Luis Martín focus on marine biodiversity and local seafood.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "id": "f-11",
+      "text": "A private guided outing explores the lava fields of the Malpaís de Rasca and ends with a volcanic wine tasting in Vilaflor.",
+      "source_ids": [
+        "s7"
+      ]
+    },
+    {
+      "id": "f-12",
+      "text": "The hotel is very close to golf courses.",
+      "source_ids": [
+        "s8"
+      ]
+    }
   ],
   "highlights": [
-    { "id": "h-1", "text": "The resort has a saltwater infinity pool.", "source_ids": ["s2"] },
-    { "id": "h-2", "text": "The RedLevel Villa with Private Pool is a beachfront villa with a furnished garden and heated pool.", "source_ids": ["s2"] },
-    { "id": "h-3", "text": "The hotel offers a private stargazing experience at Mount Teide with an accredited Starlight guide and long-range telescopes.", "source_ids": ["s5"] },
-    { "id": "h-4", "text": "The hotel offers private sailing trips along the Tenerife coast aboard a Bavaria 46 Cruiser with a cetacean guide, with chances to spot dolphins and pilot whales.", "source_ids": ["s6"] }
+    {
+      "id": "h-1",
+      "text": "The resort has a saltwater infinity pool.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "id": "h-2",
+      "text": "The RedLevel Villa with Private Pool is a beachfront villa with a furnished garden and heated pool.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "id": "h-3",
+      "text": "The hotel offers a private stargazing experience at Mount Teide with an accredited Starlight guide and long-range telescopes.",
+      "source_ids": [
+        "s5"
+      ]
+    },
+    {
+      "id": "h-4",
+      "text": "The hotel offers private sailing trips along the Tenerife coast aboard a Bavaria 46 Cruiser with a cetacean guide, with chances to spot dolphins and pilot whales.",
+      "source_ids": [
+        "s6"
+      ]
+    }
   ],
   "considerations": [
-    { "id": "c-1", "text": "The private experiences are subject to weather conditions.", "source_ids": ["s5", "s6"] },
-    { "id": "c-2", "text": "Gym personal training, nutritional guidance and customised training programmes carry an extra charge.", "source_ids": ["s2"] },
-    { "id": "c-3", "text": "WhataHotel notes the large resort may feel less intimate for some guests.", "source_ids": ["s1"] }
+    {
+      "id": "c-1",
+      "text": "The private experiences are subject to weather conditions.",
+      "source_ids": [
+        "s5",
+        "s6"
+      ]
+    },
+    {
+      "id": "c-2",
+      "text": "Gym personal training, nutritional guidance and customised training programmes carry an extra charge.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "id": "c-3",
+      "text": "WhataHotel notes the large resort may feel less intimate for some guests.",
+      "source_ids": [
+        "s1"
+      ]
+    }
   ],
   "perks": [],
   "pronunciations": [
-    { "term": "Teide", "say_as": "tay-ee-deh" },
-    { "term": "Isora", "say_as": "ee-soh-rah" },
-    { "term": "Palacio", "say_as": "pah-lah-see-oh" },
-    { "term": "Melia", "say_as": "meh-lee-ah" },
-    { "term": "Clarins", "say_as": "klah-ran" },
-    { "term": "Mar de Nubes", "say_as": "mar-deh-noo-bes" },
-    { "term": "Dos Naifes", "say_as": "dohs-nigh-fes" },
-    { "term": "Jorge Peñate", "say_as": "hor-heh-peh-nyah-teh" },
-    { "term": "Luis Martín", "say_as": "loo-ees-mar-teen" },
-    { "term": "Repsol", "say_as": "rep-sol" },
-    { "term": "Malpaís de Rasca", "say_as": "mahl-pah-ees-deh-rahs-kah" },
-    { "term": "Vilaflor", "say_as": "vee-lah-flor" }
+    {
+      "term": "Teide",
+      "say_as": "tay-ee-deh"
+    },
+    {
+      "term": "Isora",
+      "say_as": "ee-soh-rah"
+    },
+    {
+      "term": "Palacio",
+      "say_as": "pah-lah-see-oh"
+    },
+    {
+      "term": "Melia",
+      "say_as": "meh-lee-ah"
+    },
+    {
+      "term": "Clarins",
+      "say_as": "klah-ran"
+    },
+    {
+      "term": "Mar de Nubes",
+      "say_as": "mar-deh-noo-bes"
+    },
+    {
+      "term": "Dos Naifes",
+      "say_as": "dohs-nigh-fes"
+    },
+    {
+      "term": "Jorge Peñate",
+      "say_as": "hor-heh-peh-nyah-teh"
+    },
+    {
+      "term": "Luis Martín",
+      "say_as": "loo-ees-mar-teen"
+    },
+    {
+      "term": "Repsol",
+      "say_as": "rep-sol"
+    },
+    {
+      "term": "Malpaís de Rasca",
+      "say_as": "mahl-pah-ees-deh-rahs-kah"
+    },
+    {
+      "term": "Vilaflor",
+      "say_as": "vee-lah-flor"
+    }
   ],
   "sources": [
-    { "id": "s1", "type": "whatahotel", "title": "WhataHotel: Gran Melia Palacio de Isora", "url": "https://www.whatahotel.com/hotels/6473/gran-melia-palacio-de-isora.html", "accessed": "2026-10-09" },
-    { "id": "s2", "type": "official", "title": "Melia - Gran Melia Palacio de Isora", "url": "https://www.melia.com/en/hotels/spain/tenerife/gran-melia-palacio-de-isora", "accessed": "2026-10-09" },
-    { "id": "s3", "type": "official", "title": "Melia - Gran Melia Palacio de Isora: Spa by Clarins", "url": "https://www.melia.com/en/hotels/spain/tenerife/gran-melia-palacio-de-isora/highlighted/spa-by-clarins/", "accessed": "2026-10-09" },
-    { "id": "s4", "type": "official", "title": "Melia - Gran Melia Palacio de Isora: RedLevel", "url": "https://www.melia.com/en/hotels/spain/tenerife/gran-melia-palacio-de-isora/redlevel/", "accessed": "2026-10-09" },
-    { "id": "s5", "type": "official", "title": "Melia - Gran Melia Palacio de Isora: The sky is the limit", "url": "https://www.melia.com/en/hotels/spain/tenerife/gran-melia-palacio-de-isora/experiences/the-sky-is-the-limit/", "accessed": "2026-10-09" },
-    { "id": "s6", "type": "official", "title": "Melia - Gran Melia Palacio de Isora: Sailing the Atlantic", "url": "https://www.melia.com/en/hotels/spain/tenerife/gran-melia-palacio-de-isora/experiences/sailing-the-atlantic/", "accessed": "2026-10-09" },
-    { "id": "s7", "type": "official", "title": "Melia - Gran Melia Palacio de Isora: Beyond the known paths", "url": "https://www.melia.com/en/hotels/spain/tenerife/gran-melia-palacio-de-isora/experiences/beyond-the-known-paths/", "accessed": "2026-10-09" },
-    { "id": "s8", "type": "official", "title": "Melia - Gran Melia Palacio de Isora: Reviews", "url": "https://www.melia.com/en/hotels/spain/tenerife/gran-melia-palacio-de-isora/reviews/", "accessed": "2026-10-09" }
+    {
+      "id": "s1",
+      "type": "whatahotel",
+      "title": "WhataHotel: Gran Melia Palacio de Isora",
+      "url": "https://www.whatahotel.com/hotels/6473/gran-melia-palacio-de-isora.html",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "s2",
+      "type": "official",
+      "title": "Melia - Gran Melia Palacio de Isora",
+      "url": "https://www.melia.com/en/hotels/spain/tenerife/gran-melia-palacio-de-isora",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "s3",
+      "type": "official",
+      "title": "Melia - Gran Melia Palacio de Isora: Spa by Clarins",
+      "url": "https://www.melia.com/en/hotels/spain/tenerife/gran-melia-palacio-de-isora/highlighted/spa-by-clarins/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "s4",
+      "type": "official",
+      "title": "Melia - Gran Melia Palacio de Isora: RedLevel",
+      "url": "https://www.melia.com/en/hotels/spain/tenerife/gran-melia-palacio-de-isora/redlevel/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "s5",
+      "type": "official",
+      "title": "Melia - Gran Melia Palacio de Isora: The sky is the limit",
+      "url": "https://www.melia.com/en/hotels/spain/tenerife/gran-melia-palacio-de-isora/experiences/the-sky-is-the-limit/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "s6",
+      "type": "official",
+      "title": "Melia - Gran Melia Palacio de Isora: Sailing the Atlantic",
+      "url": "https://www.melia.com/en/hotels/spain/tenerife/gran-melia-palacio-de-isora/experiences/sailing-the-atlantic/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "s7",
+      "type": "official",
+      "title": "Melia - Gran Melia Palacio de Isora: Beyond the known paths",
+      "url": "https://www.melia.com/en/hotels/spain/tenerife/gran-melia-palacio-de-isora/experiences/beyond-the-known-paths/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "s8",
+      "type": "official",
+      "title": "Melia - Gran Melia Palacio de Isora: Reviews",
+      "url": "https://www.melia.com/en/hotels/spain/tenerife/gran-melia-palacio-de-isora/reviews/",
+      "accessed": "2026-10-09"
+    }
   ],
-  "status": "draft",
-  "last_verified": "2026-10-09"
+  "status": "verified",
+  "last_verified": "2026-10-20"
 }
