@@ -1,12 +1,8 @@
 {
   "slug": "the-chesterfield-mayfair-hotel",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "https://the-chesterfield-mayfair.londonhotelsgb.com/en/: the-chesterfield-mayfair.londonhotelsgb.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "https://chesterfieldmayfair.com/about/faqs: only 0% of the hotel name appears on the page; page does not mention London",
-    "official website could not be confirmed; flag for review"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "The Chesterfield Mayfair Hotel",
@@ -14,31 +10,122 @@
       "country": "GB"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://the-chesterfield-mayfair.londonhotelsgb.com/en/: the-chesterfield-mayfair.londonhotelsgb.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "https://chesterfieldmayfair.com/about/faqs: only 0% of the hotel name appears on the page; page does not mention London",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "redirected from https://www.chesterfieldmayfair.com/",
+      "100% of the hotel name appears on the page",
+      "location matches (London, GB)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://the-chesterfield-mayfair.londonhotelsgb.com/en/",
-      "https://chesterfieldmayfair.com/about/faqs"
+      "https://www.chesterfieldmayfair.com/"
     ],
-    "checked_at": "2026-10-20T06:08:46.395Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-20T06:14:32.656Z",
+    "status": "confirmed",
+    "official_url": "https://chesterfieldmayfair.com/",
+    "base_url": "https://chesterfieldmayfair.com/",
+    "host": "chesterfieldmayfair.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://chesterfieldmayfair.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T06:14:38.331Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://chesterfieldmayfair.com/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T06:14:48.363Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://chesterfieldmayfair.com/dining-and-drinks/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T06:14:52.596Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://chesterfieldmayfair.com/dining-and-drinks/stanleys/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T06:14:56.337Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://chesterfieldmayfair.com/dining-and-drinks/afternoon-tea/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T06:15:02.439Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://chesterfieldmayfair.com/dining-and-drinks/sems-of-mayfair/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T06:15:05.596Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://chesterfieldmayfair.com/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T06:15:10.047Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://chesterfieldmayfair.com/about/what-not-to-miss/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T06:15:13.733Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://chesterfieldmayfair.com/about/neighbourhood-guide/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T06:15:18.951Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://chesterfieldmayfair.com/about/what-people-say-about-us/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T06:15:21.892Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://chesterfieldmayfair.com/discover/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T06:15:25.211Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p12",
+      "url": "https://www.cntraveler.com/hotels/london/the-chesterfield-mayfair",
+      "tier": "editorial",
+      "fetched_at": "2026-10-20T06:15:36.064Z",
+      "source": "direct"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 3,
+    "firecrawl_calls": 14,
     "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 12,
+    "chars": 55717,
+    "est_claude_tokens": 13929
   },
   "limits": {
     "maxPages": 12,
@@ -46,5 +133,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-20T06:09:04.795Z"
+  "researched_at": "2026-10-20T06:15:36.065Z"
 }
