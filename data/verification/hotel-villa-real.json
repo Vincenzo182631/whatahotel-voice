@@ -1,0 +1,376 @@
+{
+  "hotel_slug": "hotel-villa-real",
+  "hotel_name": "Hotel Villa Real",
+  "checked_at": "2026-10-20T03:00:21.638Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hotelvillareal.com/en",
+      "tier": "official",
+      "chars": 7055
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hotelvillareal.com/en/rooms-suites/",
+      "tier": "official",
+      "chars": 2066
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hotelvillareal.com/en/location/",
+      "tier": "official",
+      "chars": 1719
+    },
+    {
+      "id": "d4",
+      "url": "https://www.cntraveler.com/hotels/spain/madrid/hotel-villa-real",
+      "tier": "editorial",
+      "chars": 6881
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is on Plaza de las Cortes, opposite the Congress of Deputies.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Hotel Villa Real 5\\* is located on **Plaza de las Cortes**, opposite the **Congress of Deputies**",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hotelvillareal.com/en/location/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is a few steps from the museum triangle formed by the Prado, the Thyssen-Bornemisza and the Reina Sofia.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Located just a few steps from the **golden museum triangle** formed by the **Prado Museum**, the **Thyssen-Bornemisza Museum** and the **Reina Sofía Foundation**",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hotelvillareal.com/en/location/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel is a few minutes from Atocha Station and a few meters from Retiro Park.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "just a few minutes from **Atocha Station** and only a few meters from **Retiro Park**",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hotelvillareal.com/en",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Hotel Villa Real is part of Derby Hotels Collection.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Part of Derby Hotels Collection",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/spain/madrid/hotel-villa-real",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Junior Suites have balconies with views of Calle del Prado.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The Junior Suites, luxurious 38m² rooms with balconies and splendid views of Calle del Prado",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hotelvillareal.com/en/rooms-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Superior rooms overlooking the interior courtyard are very quiet.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "They are very quiet as they overlook the interior courtyard.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hotelvillareal.com/en/rooms-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Family rooms sleep up to four people over two levels, each level with its own bedroom and en-suite bathroom.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The family rooms, accommodating up to four people and spread over two levels, feature a bedroom and en-suite bathroom with shower on the lower level and a double bedroom and en-suite bathroom on the upper level.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hotelvillareal.com/en/rooms-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel has a gym.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "a fully equipped gym",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hotelvillareal.com/en",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "A Guest Relations and Concierge team provides personalized support.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our Guest Relations & Concierge team provides attentive, personalized support",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hotelvillareal.com/en",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The staff is multilingual.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Service never misses a beat here thanks to a multilingual staff",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/spain/madrid/hotel-villa-real",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Toiletries are from The White Company.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Toiletries from The White Company",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/spain/madrid/hotel-villa-real",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "East Restaurant & Bar serves Mediterranean-inspired tapas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Mediterranean-inspired tapas in a setting of luxury and elegance\n\nEast Restaurant & Bar",
+          "note": "tapas line sits directly above the East Restaurant & Bar label",
+          "confirmed": true,
+          "url": "https://www.hotelvillareal.com/en",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Guests find a collection of art and antiquities throughout the public areas, including ancient Roman sculptures and mosaics and Apulian vases.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Throughout the public areas, guests will find an impressive collection of art and antiquities. Ancient Roman sculptures and mosaics in one corner, Apulian vases in another.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/spain/madrid/hotel-villa-real",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The hotel's event spaces are decorated with authentic Roman mosaics and Apulian vases from Magna Graecia.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Decorated with **authentic Roman mosaics and Apulian vases from Magna Graecia**",
+          "note": "said of the event spaces and lounges",
+          "confirmed": true,
+          "url": "https://www.hotelvillareal.com/en",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Suites are spread over two levels and each has its own private terrace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The 40m² Suites at the 5-star Hotel Villa Real are spread over two comfortable levels and each features its own private terrace of over 15m².",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hotelvillareal.com/en/rooms-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Grand Suite is on the hotel's fifth floor and has a bedroom, bathroom, foyer and balcony.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The 56m² Grand Suite, located on the hotel's fifth floor, offers a spacious bedroom, bathroom, foyer, and balcony",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hotelvillareal.com/en/rooms-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Dogs receive a kit with a bed, food and water bowls, and toys and treats.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Your travel companion will receive a special kit with a **bed, food bowl, water bowl, and a selection of toys and treats**",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hotelvillareal.com/en",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The rooftop terrace and pool are open in summer only.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Rooftop terrace and pool (open only in summer)",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hotelvillareal.com/en",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Smoking is prohibited in all indoor areas and rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Smoking is prohibited in all indoor areas of the hotel and in the rooms",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hotelvillareal.com/en",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing that reflects the hotel's luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
