@@ -1,11 +1,9 @@
 {
   "slug": "the-artist-grand-hotel-of-art-bilbao",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
   "reasons": [
-    "https://the-artist-grand-hotel-of-art-bilbao.h-rez.com/: the-artist-grand-hotel-of-art-bilbao.h-rez.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "https://www.britishairways.com/en-gb/destinations/hotel-information/Bilbao/The-Artist-Grand-Hotel-of-Art/ES-BIO-4253300: britishairways.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "official website could not be confirmed; flag for review"
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
   ],
   "identity": {
     "hotel": {
@@ -14,31 +12,119 @@
       "country": "ES"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://the-artist-grand-hotel-of-art-bilbao.h-rez.com/: the-artist-grand-hotel-of-art-bilbao.h-rez.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "https://www.britishairways.com/en-gb/destinations/hotel-information/Bilbao/The-Artist-Grand-Hotel-of-Art/ES-BIO-4253300: britishairways.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Bilbao, ES)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://the-artist-grand-hotel-of-art-bilbao.h-rez.com/",
-      "https://www.britishairways.com/en-gb/destinations/hotel-information/Bilbao/The-Artist-Grand-Hotel-of-Art/ES-BIO-4253300"
+      "https://hoteltheartist.com/"
     ],
-    "checked_at": "2026-10-20T02:58:22.640Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-20T03:05:57.623Z",
+    "status": "confirmed",
+    "official_url": "https://hoteltheartist.com/",
+    "base_url": "https://hoteltheartist.com/",
+    "host": "hoteltheartist.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
-  "inaccessible": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://hoteltheartist.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:06:04.103Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://hoteltheartist.com/room-suites/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:06:16.241Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://hoteltheartist.com/habitaciones-suites-lujo/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:06:21.244Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://hoteltheartist.com/sixty-one-bar/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:06:25.290Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://hoteltheartist.com/services/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:06:28.969Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://hoteltheartist.com/5-stars-hotel-bilbao/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:06:32.884Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://hoteltheartist.com/olio/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:06:36.888Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://hoteltheartist.com/brunch-bilbao/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:06:40.384Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://hoteltheartist.com/rooftop-bilbao/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:06:45.347Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://hoteltheartist.com/breakfast-bilbao/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:06:49.451Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://hoteltheartist.com/art-at-the-artist/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:06:53.117Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
   "usage": {
-    "firecrawl_calls": 3,
+    "firecrawl_calls": 14,
     "firecrawl_searches": 1,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 11,
+    "chars": 35478,
+    "est_claude_tokens": 8870
   },
   "limits": {
     "maxPages": 12,
@@ -46,5 +132,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-20T02:58:37.900Z"
+  "researched_at": "2026-10-20T03:07:00.436Z"
 }
