@@ -1,5 +1,5 @@
 # Extract verified facts for Pousada de Lisboa - Praça do Comercio
-Official site confirmed: https://www.visitlisboa.com/en/places/pousada-de-lisboa-praca-do-comercio-small-luxury-hotel (independent).
+Official site confirmed: https://www.pousadas.pt/en/hotel/pousada-lisboa (independent).
 Read /home/user/whatahotel-voice/data/research/pousada-de-lisboa-pra-a-do-comercio/index.json and the page text in /home/user/whatahotel-voice/data/research/pousada-de-lisboa-pra-a-do-comercio/pages/<id>.txt. Use ONLY those pages, never memory. Do not run other commands or fetch anything.
 Write /home/user/whatahotel-voice/data/research/pousada-de-lisboa-pra-a-do-comercio/facts.json (JSON only) with this shape:
 {"facts":[{"id":"r-1","category":"dining","kind":"fact|subjective|unresolved","text":"one atomic statement","doc_id":"p3","excerpt":"copied verbatim from that page, max 240 chars","topic":"short key, e.g. pool-count","as_of":"YYYY-MM-DD or null"}],

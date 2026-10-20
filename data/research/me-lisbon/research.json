@@ -12,21 +12,23 @@
       "country": "PT"
     },
     "affiliation": {
-      "kind": "independent"
+      "kind": "chain",
+      "chain": "melia"
     },
     "evidence": [
+      "page is on Meliá's own site (melia.com)",
       "100% of the hotel name appears on the page",
       "location matches (Lisbon, PT)"
     ],
     "reasons": [],
     "candidates": [
-      "https://me-by-melia.lisbongreathotels.com/en/"
+      "https://www.melia.com/en/hotels/portugal/lisbon/me-lisbon"
     ],
-    "checked_at": "2026-10-20T02:54:55.463Z",
+    "checked_at": "2026-10-20T03:06:53.789Z",
     "status": "confirmed",
-    "official_url": "https://me-by-melia.lisbongreathotels.com/en/",
-    "base_url": "https://me-by-melia.lisbongreathotels.com/",
-    "host": "me-by-melia.lisbongreathotels.com",
+    "official_url": "https://www.melia.com/en/hotels/portugal/lisbon/me-lisbon",
+    "base_url": "https://www.melia.com/en/hotels/portugal/lisbon/me-lisbon/",
+    "host": "melia.com",
     "checks": {
       "name_coverage": 1,
       "location_match": true
@@ -35,10 +37,73 @@
   "pages": [
     {
       "id": "p1",
-      "url": "https://me-by-melia.lisbongreathotels.com/en/",
+      "url": "https://www.melia.com/en/hotels/portugal/lisbon/me-lisbon",
       "tier": "official",
-      "fetched_at": "2026-10-20T02:55:13.317Z",
-      "source": "cache"
+      "fetched_at": "2026-10-20T03:07:03.329Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.melia.com/en/hotels/portugal/lisbon/me-lisbon/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:07:12.257Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.melia.com/en/hotels/portugal/lisbon/me-lisbon/restaurants/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:07:16.266Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.melia.com/en/hotels/portugal/lisbon/me-lisbon/restaurants/attiko/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:07:20.321Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.melia.com/en/hotels/portugal/lisbon/me-lisbon/restaurants/fismuler/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:07:25.507Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.melia.com/en/hotels/portugal/lisbon/me-lisbon/highlighted/korpo-spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:07:30.837Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.melia.com/en/hotels/portugal/lisbon/me-lisbon/me/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:07:41.391Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.melia.com/en/hotels/portugal/lisbon/me-lisbon/activities/the-culture-collective/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:07:47.568Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.melia.com/en/hotels/portugal/lisbon/me-lisbon/reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:07:52.516Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.melia.com/en/hotels/portugal/lisbon/me-lisbon/highlighted/gym/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T03:07:56.103Z",
+      "source": "firecrawl"
     }
   ],
   "inaccessible": [
@@ -48,13 +113,13 @@
     }
   ],
   "usage": {
-    "firecrawl_calls": 3,
-    "firecrawl_searches": 2,
-    "cache_hits": 2,
+    "firecrawl_calls": 13,
+    "firecrawl_searches": 1,
+    "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 1,
-    "chars": 18794,
-    "est_claude_tokens": 4699
+    "pages": 10,
+    "chars": 70792,
+    "est_claude_tokens": 17698
   },
   "limits": {
     "maxPages": 12,
@@ -62,5 +127,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-20T02:55:23.890Z"
+  "researched_at": "2026-10-20T03:08:01.009Z"
 }
