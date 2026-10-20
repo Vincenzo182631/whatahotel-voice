@@ -1,0 +1,447 @@
+{
+  "hotel_slug": "100-princes-street",
+  "hotel_name": "100 Princes Street",
+  "checked_at": "2026-10-20T03:13:21.896Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://100princes-street.com/our-hotel/",
+      "tier": "official",
+      "chars": 2662
+    },
+    {
+      "id": "d2",
+      "url": "https://100princes-street.com/our-hotel/location-and-directions/",
+      "tier": "official",
+      "chars": 1744
+    },
+    {
+      "id": "d3",
+      "url": "https://100princes-street.com/our-hotel/design/",
+      "tier": "official",
+      "chars": 2181
+    },
+    {
+      "id": "d4",
+      "url": "https://100princes-street.com/our-hotel/our-partners/",
+      "tier": "official",
+      "chars": 4093
+    },
+    {
+      "id": "d5",
+      "url": "https://100princes-street.com/rooms/",
+      "tier": "official",
+      "chars": 1312
+    },
+    {
+      "id": "d6",
+      "url": "https://100princes-street.com/our-hotel/what-not-to-miss/",
+      "tier": "official",
+      "chars": 2419
+    },
+    {
+      "id": "d7",
+      "url": "https://100princes-street.com/dining-and-drinks/",
+      "tier": "official",
+      "chars": 1464
+    },
+    {
+      "id": "d8",
+      "url": "https://100princes-street.com/experiences/",
+      "tier": "official",
+      "chars": 2313
+    },
+    {
+      "id": "d9",
+      "url": "https://www.cntraveler.com/hotels/edinburgh/100-princes-street",
+      "tier": "editorial",
+      "chars": 13256
+    },
+    {
+      "id": "d10",
+      "url": "https://100princes-street.com/",
+      "tier": "official",
+      "chars": 4005
+    },
+    {
+      "id": "d11",
+      "url": "https://100princes-street.com/our-hotel/meet-the-team/",
+      "tier": "official",
+      "chars": 3652
+    },
+    {
+      "id": "d12",
+      "url": "https://100princes-street.com/our-hotel/what-people-say-about-us/",
+      "tier": "official",
+      "chars": 1597
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is set within the former headquarters of the Royal Overseas League.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "100 Princes Street is set within the historic former Royal Overseas League headquarters",
+          "note": "former ROL HQ",
+          "confirmed": true,
+          "url": "https://100princes-street.com/our-hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel directly faces Edinburgh Castle.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "directly facing Edinburgh Castle",
+          "note": "faces castle",
+          "confirmed": true,
+          "url": "https://100princes-street.com/our-hotel/location-and-directions/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Princes Street Gardens is a one-minute walk from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "**Princes Street Gardens:** 1-minute walk",
+          "note": "1 min",
+          "confirmed": true,
+          "url": "https://100princes-street.com/our-hotel/location-and-directions/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The Scottish National Gallery is a five-minute walk from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "**Scottish National Gallery:** 5-minute walk",
+          "note": "5 min",
+          "confirmed": true,
+          "url": "https://100princes-street.com/our-hotel/location-and-directions/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "A hand-painted mural telling the story of the journeys of Scottish botanists stretches the length of the five-story staircase.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "a breathtaking, hand-painted mural stands out",
+          "note": "hand-painted mural",
+          "confirmed": true,
+          "url": "https://100princes-street.com/our-hotel/design/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "This artistic marvel stretches the length of the majestic five-story staircase, and tells the story of the journeys of Scottish botanists",
+          "note": "staircase, botanists",
+          "confirmed": true,
+          "url": "https://100princes-street.com/our-hotel/design/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "At the top of the staircase hangs a chandelier shaped like a hot air balloon, custom made by a French artisan.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "culminates at the top of the staircase with an impressive chandelier shaped like an adventurer's hot air balloon, custom made by a French artisan in the south of France",
+          "note": "chandelier",
+          "confirmed": true,
+          "url": "https://100princes-street.com/our-hotel/design/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Every guest room has been individually designed.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "every one of our incredibly well-dressed guest rooms has been individually designed",
+          "note": "individually designed",
+          "confirmed": true,
+          "url": "https://100princes-street.com/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "All rooms have marble bathrooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d9",
+          "quote": "All have marble bathrooms",
+          "note": "marble bathrooms",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/edinburgh/100-princes-street",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The dining and drinking venues are reserved exclusively for residents, and The Wallace looks directly at Edinburgh Castle.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Our dining and drinking venues are reserved exclusively for residents",
+          "note": "residents only",
+          "confirmed": true,
+          "url": "https://100princes-street.com/dining-and-drinks/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Looking directly at Edinburgh Castle and helmed by the hotel’s talented chef",
+          "note": "Wallace view",
+          "confirmed": true,
+          "url": "https://100princes-street.com/dining-and-drinks/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Ghillie's Pantry is a private dining room whose walls are lined with more than one hundred whiskies.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "its walls lined by more than one hundred whiskies, Ghillie's Pantry is an elegant private dining room",
+          "note": "whiskies",
+          "confirmed": true,
+          "url": "https://100princes-street.com/dining-and-drinks/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel can arrange a porter to collect luggage from Edinburgh Waverley station.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "We would be delighted to arrange a porter to collect your luggage from the station",
+          "note": "porter",
+          "confirmed": true,
+          "url": "https://100princes-street.com/our-hotel/location-and-directions/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Edinburgh Waverley Train Station is just a 10-minute walk from 100 Princes Street.",
+          "note": "station is Waverley",
+          "confirmed": true,
+          "url": "https://100princes-street.com/our-hotel/location-and-directions/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "A hand-painted mural celebrating Scottish explorers stretches the length of the five-story staircase.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "a breathtaking, hand-painted mural stands out, celebrating the daring spirit and ingenuity of Scottish explorers",
+          "note": "mural explorers",
+          "confirmed": true,
+          "url": "https://100princes-street.com/our-hotel/design/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "This artistic marvel stretches the length of the majestic five-story staircase",
+          "note": "staircase",
+          "confirmed": true,
+          "url": "https://100princes-street.com/our-hotel/design/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Scottish designer Araminta Campbell created five tartans unique to the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "We are proud to showcase five tartans that are unique to the hotel, created by revered Scottish designer Araminta Campbell.",
+          "note": "tartans",
+          "confirmed": true,
+          "url": "https://100princes-street.com/our-hotel/our-partners/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Archibald Suite has views of Edinburgh Castle and a king-size bed.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "The Archibald Suite offers unparalleled luxury with its elegant decor and stunning views of Edinburgh Castle. This spacious suite features a plush king-size bed",
+          "note": "suite",
+          "confirmed": true,
+          "url": "https://100princes-street.com/our-hotel/what-not-to-miss/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Executive King rooms are offered with an unobstructed view of Edinburgh Castle.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Discover our Executive King rooms with an unobstructed view of Edinburgh Castle.",
+          "note": "castle view",
+          "confirmed": true,
+          "url": "https://100princes-street.com/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Guests can book a private River Tweed fishing experience with expert guidance.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "Enjoy a private River Tweed fishing experience with expert guidance, boat casting and fine dining.",
+          "note": "fishing",
+          "confirmed": true,
+          "url": "https://100princes-street.com/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel is set on one of the city's most lively thoroughfares.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "An elegant haven of calm set amidst one of the city’s most lively thoroughfares",
+          "note": "lively",
+          "confirmed": true,
+          "url": "https://100princes-street.com/our-hotel/location-and-directions/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Upper-deck passengers on Princes Street's double-decker buses can just about see inside the rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d9",
+          "quote": "the double-decker buses on Princes St, whose upper deck passengers can just about gawp inside",
+          "note": "buses",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/edinburgh/100-princes-street",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes limited parking availability in the city-centre location.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
