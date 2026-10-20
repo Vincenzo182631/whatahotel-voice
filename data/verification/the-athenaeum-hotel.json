@@ -1,0 +1,450 @@
+{
+  "hotel_slug": "the-athenaeum-hotel",
+  "hotel_name": "The Athenaeum Hotel",
+  "checked_at": "2026-10-20T06:11:43.835Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.athenaeumhotel.com/",
+      "tier": "official",
+      "chars": 11518
+    },
+    {
+      "id": "d2",
+      "url": "https://www.athenaeumhotel.com/rooms/",
+      "tier": "official",
+      "chars": 17387
+    },
+    {
+      "id": "d3",
+      "url": "https://www.athenaeumhotel.com/view-penthouse-suites/",
+      "tier": "official",
+      "chars": 11300
+    },
+    {
+      "id": "d4",
+      "url": "https://www.athenaeumhotel.com/spa/treatments/",
+      "tier": "official",
+      "chars": 14067
+    },
+    {
+      "id": "d5",
+      "url": "https://www.athenaeumhotel.com/eat-and-drink/terrace-at-the-athenaeum/",
+      "tier": "official",
+      "chars": 6675
+    },
+    {
+      "id": "d6",
+      "url": "https://www.athenaeumhotel.com/group-stays/",
+      "tier": "official",
+      "chars": 8193
+    },
+    {
+      "id": "d7",
+      "url": "https://www.athenaeumhotel.com/eat-and-drink/",
+      "tier": "official",
+      "chars": 10732
+    },
+    {
+      "id": "d8",
+      "url": "https://www.athenaeumhotel.com/eat-and-drink/menus/",
+      "tier": "official",
+      "chars": 5268
+    },
+    {
+      "id": "d9",
+      "url": "https://www.athenaeumhotel.com/eat-and-drink/afternoon-tea/",
+      "tier": "official",
+      "chars": 9301
+    },
+    {
+      "id": "d10",
+      "url": "https://www.athenaeumhotel.com/eat-and-drink/116-at-the-athenaeum/",
+      "tier": "official",
+      "chars": 10600
+    },
+    {
+      "id": "d11",
+      "url": "https://www.athenaeumhotel.com/eat-and-drink/weekend-jazz-brunches/",
+      "tier": "official",
+      "chars": 5967
+    },
+    {
+      "id": "d12",
+      "url": "https://www.athenaeumhotel.com/eat-and-drink/the-bar-at-the-athenaeum/",
+      "tier": "official",
+      "chars": 8291
+    },
+    {
+      "id": "d13",
+      "url": "https://www.cntraveler.com/hotels/united-kingdom/london/the-athenaeum-london",
+      "tier": "editorial",
+      "chars": 4240
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel sits opposite Green Park, steps from Buckingham Palace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Opposite Green Park. Steps from Buckingham Palace.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.athenaeumhotel.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The Athenaeum has welcomed guests to this corner of London since 1850.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Athenaeum has been welcoming curious people to this corner of London since 1850.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.athenaeumhotel.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Many rooms and suites face Green Park or look over the rooftops of Mayfair, with Art Deco details.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Many of our spacious hotel rooms and suites face Green Park or look out over the rooftops of Mayfair, with the Art Deco details",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.athenaeumhotel.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The View Penthouse suites on the 10th floor have floor-to-ceiling windows framing views of the London skyline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Book a stay in our new 10th floor suites for the best views our London's skyline.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.athenaeumhotel.com/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Floor to ceiling windows immerse the space in light and frame unparalleled views of London’s iconic skyline.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.athenaeumhotel.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The 10th-floor suites have British-made Paul Smith toiletries, a partnership exclusive to those suites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "all with British-made Paul Smith toiletries. A new partnership exclusive to our 10th floor suites.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.athenaeumhotel.com/view-penthouse-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "View Penthouse suite guests are greeted on arrival by a personal concierge, reachable 24/7.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "On arrival you will be greeted by your personal concierge. A dedicated number giving you 24/7 access is printed on your keycard wallet.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.athenaeumhotel.com/view-penthouse-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Spa at The Athenaeum offers calm treatments using natural British products.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "In a city that never pauses, The Spa at The Athenaeum is a place to restore. Calm treatments, natural British products",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.athenaeumhotel.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The spa has a steam room and relaxation space, and in-room treatments are available.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "- Steam room and relaxation space\n- In-room treatments available",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.athenaeumhotel.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The gym is open 24 hours, with Peloton and Technogym equipment.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The gym is open 24-hours. Peloton and Technogym, whenever you need them.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.athenaeumhotel.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "116 at The Athenaeum serves modern British dining and is open to guests and locals.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "116 at The Athenaeum - modern British dining, open to guests and locals",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.athenaeumhotel.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The Terrace on Piccadilly is framed by a living wall that the hotel describes as the oldest of its kind in London.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Set directly on Piccadilly, our terrace offers a front-row view of Mayfair life",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.athenaeumhotel.com/eat-and-drink/terrace-at-the-athenaeum/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Framed by our living wall, the oldest of its kind in London",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.athenaeumhotel.com/eat-and-drink/terrace-at-the-athenaeum/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The concierge team can secure event tickets, tables at exclusive restaurants or private art gallery showings.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "They are connected to all the right people in the city to secure tickets to events, a table at an exclusive restaurant or even a private art gallery showing.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.athenaeumhotel.com/group-stays/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Both View Penthouse suites have private balconies looking over Green Park towards Buckingham Palace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Yes, both suites have private balconies that are accessed from your room. Enjoy the best view in London, over Green Park towards Buckingham Palace and beyond.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.athenaeumhotel.com/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Green Park Suites have floor-to-ceiling views over Green Park and separate living spaces.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "With floor-to-ceiling views of Green Park and separate living spaces, our Green Park Suites capture the highlights of our locality.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.athenaeumhotel.com/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The townhouse residences have a proper kitchen, a separate sitting room and the full attention of the hotel team.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our eighteen townhouse residences are something different: a proper kitchen, a separate sitting room and the full attention of the hotel team whenever you need it.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.athenaeumhotel.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The concierge team keeps kites and bikes for families who want an afternoon in the park.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The concierge team keep kites and bikes for families who want an afternoon in the park",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.athenaeumhotel.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Spa treatments are offered in partnership with skincare brand Temple Spa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Discover our range of luxurious spa treatments in partnership with award-winning skincare brand Temple Spa",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.athenaeumhotel.com/spa/treatments/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "A service charge is added to the bill unless the guest asks for it not to be.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "so we have added a 5% service charge to your bill. If you prefer it not to be added, just let us know.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.athenaeumhotel.com/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Superior Townhouse Rooms are located in the separate townhouse residences.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Located in the separate townhouse residences",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.athenaeumhotel.com/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing that reflects the Mayfair location.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
