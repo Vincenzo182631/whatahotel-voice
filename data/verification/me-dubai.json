@@ -1,0 +1,416 @@
+{
+  "hotel_slug": "me-dubai",
+  "hotel_name": "ME Dubai",
+  "checked_at": "2026-10-20T06:19:25.618Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 18
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.melia.com/en/hotels/united-arab-emirates/dubai/me-dubai",
+      "tier": "official",
+      "chars": 28329
+    },
+    {
+      "id": "d2",
+      "url": "https://www.melia.com/en/hotels/united-arab-emirates/dubai/me-dubai/me/",
+      "tier": "official",
+      "chars": 10741
+    },
+    {
+      "id": "d3",
+      "url": "https://www.melia.com/en/hotels/united-arab-emirates/dubai/me-dubai/restaurants/",
+      "tier": "official",
+      "chars": 5259
+    },
+    {
+      "id": "d4",
+      "url": "https://www.cntraveler.com/hotels/dubai/me-dubai",
+      "tier": "editorial",
+      "chars": 7260
+    },
+    {
+      "id": "d5",
+      "url": "https://www.melia.com/en/hotels/united-arab-emirates/dubai/me-dubai/rooms/",
+      "tier": "official",
+      "chars": 15817
+    },
+    {
+      "id": "d6",
+      "url": "https://www.melia.com/en/hotels/united-arab-emirates/dubai/me-dubai/restaurants/salmon-guru/",
+      "tier": "official",
+      "chars": 4464
+    },
+    {
+      "id": "d7",
+      "url": "https://www.melia.com/en/hotels/united-arab-emirates/dubai/me-dubai/restaurants/central-cosmo-tapas-and-bar/",
+      "tier": "official",
+      "chars": 3426
+    },
+    {
+      "id": "d8",
+      "url": "https://www.melia.com/en/hotels/united-arab-emirates/dubai/me-dubai/reviews/",
+      "tier": "official",
+      "chars": 4410
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "ME Dubai is set inside The Opus building in Business Bay, Dubai.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Opus by Omniyat, Al Amal Street, Business Bay, Dubai",
+          "note": "address in The Opus, Business Bay",
+          "confirmed": true,
+          "url": "https://www.melia.com/en/hotels/united-arab-emirates/dubai/me-dubai",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "this hotel is an attractive architectural gem that blends seamlessly with the spectacular Opus building",
+          "note": "hotel is in the Opus building",
+          "confirmed": true,
+          "url": "https://www.melia.com/en/hotels/united-arab-emirates/dubai/me-dubai",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "There is a focus on art and curated exhibitions alongside furniture designed by Hadid.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "there’s a focus on art and curated exhibitions alongside Hadid’s specially designed furniture",
+          "note": "verbatim",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/dubai/me-dubai",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The rooms come in two distinct themes: one avant-garde and cosmopolitan, inspired by the city's nightlife, the other warmer and evocative of the desert around Dubai.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "feature two distinct themes. One is more avant-garde and cosmopolitan, inspired by the city's nightlife, while the other is warmer and more evocative, reminiscent of the vast desert surrounding Dubai.",
+          "note": "both themes",
+          "confirmed": true,
+          "url": "https://www.melia.com/en/hotels/united-arab-emirates/dubai/me-dubai",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Corner suites have two connecting bedrooms, views of the Burj Khalifa, a large Jacuzzi in the bathroom and a double rainshower.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located at the corners of the building, it features 2 connecting bedrooms, each with a super-king-size bed and fantastic views of Burj Khalifa. It features a huge Jacuzzi in the bathroom and a double rainshower.",
+          "note": "all elements",
+          "confirmed": true,
+          "url": "https://www.melia.com/en/hotels/united-arab-emirates/dubai/me-dubai",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "ME+ suites include private check-in and a direct line to the Aura team for reservations.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "private check-in and a direct line with our Aura team for any reservations you would like to make inside or outside the hotel",
+          "note": "ME+ benefits",
+          "confirmed": true,
+          "url": "https://www.melia.com/en/hotels/united-arab-emirates/dubai/me-dubai/me/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The spa offers a wide range of massages and treatments.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "offering a wide range of stimulating massages, exclusive treatments",
+          "note": "massages and treatments",
+          "confirmed": true,
+          "url": "https://www.melia.com/en/hotels/united-arab-emirates/dubai/me-dubai",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Health Club gym has views of the city and the pool, with personal training and fitness classes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "260m2 of space with views of the city and the pool, modern technology, and a supervised personal training programme plus exclusive fitness classes.",
+          "note": "views, training, classes",
+          "confirmed": true,
+          "url": "https://www.melia.com/en/hotels/united-arab-emirates/dubai/me-dubai",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "our exclusive Health Club reflects the lifestyle vibe and design of the ME Dubai",
+          "note": "Health Club name",
+          "confirmed": true,
+          "url": "https://www.melia.com/en/hotels/united-arab-emirates/dubai/me-dubai",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Roka serves Japanese cuisine from the robata grill.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The principle cuisine is from the Robata grill, originally used by the fishermen in the northern seas of Japan",
+          "note": "robata grill, Japanese origin",
+          "confirmed": true,
+          "url": "https://www.melia.com/en/hotels/united-arab-emirates/dubai/me-dubai/restaurants/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Japanese cuisine",
+          "note": "listed cuisine type",
+          "confirmed": true,
+          "url": "https://www.melia.com/en/hotels/united-arab-emirates/dubai/me-dubai/restaurants/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The hotel is across the street from the Dubai Canal's waterfront promenade.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Cross the street and stroll along the Dubai Canal’s waterfront promenade",
+          "note": "across the street",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/dubai/me-dubai",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel has a pet programme for dogs with no weight limit.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "We have an exclusive programme for dogs, with no weight limit",
+          "note": "verbatim",
+          "confirmed": true,
+          "url": "https://www.melia.com/en/hotels/united-arab-emirates/dubai/me-dubai",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "ME Dubai was designed by the architect Zaha Hadid.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Designed by the visionary architect Zaha Hadid, ME Dubai embodies her innovative approach",
+          "note": "designed by Hadid",
+          "confirmed": true,
+          "url": "https://www.melia.com/en/hotels/united-arab-emirates/dubai/me-dubai",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Every curved glass panel of the building's undulating void is unique.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "every curved glass panel of the undulating void is unique",
+          "note": "verbatim",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/dubai/me-dubai",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The rooftop pool has views of Dubai's skyline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The stunning rooftop pool is a calm oasis in the heart of the city. With breathtaking views of Dubai’s skyline",
+          "note": "rooftop pool skyline views",
+          "confirmed": true,
+          "url": "https://www.melia.com/en/hotels/united-arab-emirates/dubai/me-dubai",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Some rooms and suites look out on the Burj Khalifa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Perfectly located, from this room you can admire the iconic Burj Khalifa.",
+          "note": "Burj view room",
+          "confirmed": true,
+          "url": "https://www.melia.com/en/hotels/united-arab-emirates/dubai/me-dubai",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "You will have a front row seat to the impressive Burj Khalifa.",
+          "note": "suite with Burj view",
+          "confirmed": true,
+          "url": "https://www.melia.com/en/hotels/united-arab-emirates/dubai/me-dubai",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "ME+ suite guests can book experiences such as a cocktail workshop with the mixologist or a guided tour of the hotel's architecture.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "A workshop with our mixologist to make signature cocktails, a workshop with our chefs to prepare delicious desserts, a guided tour with our Aura team to learn about the architecture of the ME Dubai",
+          "note": "ME+ experiences",
+          "confirmed": true,
+          "url": "https://www.melia.com/en/hotels/united-arab-emirates/dubai/me-dubai/me/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Activities require a reservation and are subject to availability.",
+          "note": "bookable",
+          "confirmed": true,
+          "url": "https://www.melia.com/en/hotels/united-arab-emirates/dubai/me-dubai/me/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Conde Nast Traveler notes the immediate area is a bit quiet and still being developed.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "the immediate area is a bit quiet and still being developed",
+          "note": "verbatim",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/dubai/me-dubai",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Conde Nast Traveler advises booking an east-facing room for a Burj Khalifa view.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "For a Burj Khalifa view, book a room that looks east.",
+          "note": "east-facing",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/dubai/me-dubai",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes a party-focused atmosphere that may not suit all travelers.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
