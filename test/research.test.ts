@@ -38,6 +38,9 @@ describe("chains", () => {
     expect(isThirdParty("me-by-melia.lisbongreathotels.com")).toBe(true);
     expect(isThirdParty("www.visitlisboa.com")).toBe(true);
     expect(isThirdParty("www.guestreservations.com")).toBe(true);
+    expect(isThirdParty("41-hotel.londonhotelsgb.com")).toBe(true);
+    expect(isThirdParty("www.nobuhotels.com")).toBe(false);
+    expect(isThirdParty("www.starhotels.com")).toBe(false);
     expect(isThirdParty("guide.michelin.com")).toBe(true);
     expect(isThirdParty("www.ilsanpietro.it")).toBe(false);
   });

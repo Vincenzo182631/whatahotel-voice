@@ -213,6 +213,7 @@ const THIRD_PARTY = [
 // an entry matches at a label boundary, so "hotels.com" catches www.hotels.com but not kivotoshotels.com
 const matchesAt = (host: string, t: string) => host.startsWith(t) || host.includes(`.${t}`);
 // city booking aggregators that put the hotel's name in a subdomain (me-by-melia.lisbongreathotels.com)
-const AGGREGATOR_HOST = /(^|\.)[a-z]+greathotels\.com$/;
+// and city booking aggregators that host one subdomain per hotel (41-hotel.londonhotelsgb.com)
+const AGGREGATOR_HOST = /(^|\.)[a-z]+greathotels\.com$|^(?!www\.)[a-z0-9]+-[a-z0-9-]+\.[a-z]+hotels[a-z]{0,3}\.com$/;
 export const isThirdParty = (host: string) =>
   !chainOfHost(host) && (AGGREGATOR_HOST.test(host) || THIRD_PARTY.some((t) => matchesAt(host, t)));
