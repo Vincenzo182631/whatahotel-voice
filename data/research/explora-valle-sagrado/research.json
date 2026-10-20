@@ -1,11 +1,8 @@
 {
   "slug": "explora-valle-sagrado",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "https://www.explora.com/sacred-valley-information-and-services/: only 33% of the hotel name appears on the page",
-    "official website could not be confirmed; flag for review"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "Explora Valle Sagrado",
@@ -13,29 +10,58 @@
       "country": "PE"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.explora.com/sacred-valley-information-and-services/: only 33% of the hotel name appears on the page",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "location matches (Cusco, PE)",
+      "confirmed by hand as this hotel's own page (only 33% of the hotel name appears on the page)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://www.explora.com/hotels-and-travesias/sacred-valley-peru/"
+      "https://www.explora.com/sacred-valley-information-and-services/"
     ],
-    "checked_at": "2026-10-20T02:07:53.862Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-20T02:23:42.013Z",
+    "status": "confirmed",
+    "official_url": "https://www.explora.com/sacred-valley-information-and-services/",
+    "base_url": "https://www.explora.com/",
+    "host": "explora.com",
+    "checks": {
+      "name_coverage": 0.33,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.explora.com/sacred-valley-information-and-services/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T02:23:48.155Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.explora.com/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T02:23:58.307Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.cntraveler.com/hotels/peru/valle-sagrado/explora-valle-sagrado",
+      "tier": "editorial",
+      "fetched_at": "2026-10-20T02:24:12.580Z",
+      "source": "direct"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 1,
-    "firecrawl_searches": 0,
+    "firecrawl_calls": 5,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 3,
+    "chars": 12749,
+    "est_claude_tokens": 3187
   },
   "limits": {
     "maxPages": 12,
@@ -43,5 +69,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-20T02:07:58.583Z"
+  "researched_at": "2026-10-20T02:24:12.580Z"
 }

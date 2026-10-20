@@ -1,10 +1,9 @@
 {
   "slug": "hotel-xcaret-m-xico-br-all-inclusive-resort-br",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
   "reasons": [
-    "https://www.hotelxcaret.com/en/: only 57% of the hotel name appears on the page",
-    "official website could not be confirmed; flag for review"
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
   ],
   "identity": {
     "hotel": {
@@ -13,29 +12,84 @@
       "country": "MX"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.hotelxcaret.com/en/: only 57% of the hotel name appears on the page",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "location matches (Playa del Carmen, MX)",
+      "confirmed by hand as this hotel's own page (only 57% of the hotel name appears on the page)"
     ],
+    "reasons": [],
     "candidates": [
       "https://www.hotelxcaret.com/en/"
     ],
-    "checked_at": "2026-10-20T02:03:58.266Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-20T02:21:59.818Z",
+    "status": "confirmed",
+    "official_url": "https://www.hotelxcaret.com/en/",
+    "base_url": "https://www.hotelxcaret.com/",
+    "host": "hotelxcaret.com",
+    "checks": {
+      "name_coverage": 0.57,
+      "location_match": true
+    }
   },
-  "pages": [],
-  "inaccessible": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hotelxcaret.com/en/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T02:22:04.850Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hotelxcaret.com/en/restaurants-xcaret-hotels/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T02:22:15.183Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hotelxcaret.com/en/search/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T02:22:20.367Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hotelxcaret.com/en/hotel-xcaret-arte/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T02:22:24.212Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hotelxcaret.com/en/hotel-xcaret-mexico/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T02:22:27.032Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.hotelxcaret.com/en/la-casa-de-la-playa/",
+      "tier": "official",
+      "fetched_at": "2026-10-20T02:22:28.922Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
   "usage": {
-    "firecrawl_calls": 1,
-    "firecrawl_searches": 0,
+    "firecrawl_calls": 9,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 6,
+    "chars": 36826,
+    "est_claude_tokens": 9207
   },
   "limits": {
     "maxPages": 12,
@@ -43,5 +97,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-20T02:04:11.740Z"
+  "researched_at": "2026-10-20T02:22:41.126Z"
 }
