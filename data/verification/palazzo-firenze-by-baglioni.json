@@ -1,0 +1,467 @@
+{
+  "hotel_slug": "palazzo-firenze-by-baglioni",
+  "hotel_name": "Palazzo Firenze by Baglioni",
+  "checked_at": "2026-10-22T10:38:49.803Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://florence.baglionihotels.com/",
+      "tier": "official",
+      "chars": 2502
+    },
+    {
+      "id": "d2",
+      "url": "https://florence.baglionihotels.com/things-to-do/",
+      "tier": "official",
+      "chars": 2033
+    },
+    {
+      "id": "d3",
+      "url": "https://florence.baglionihotels.com/accommodations/",
+      "tier": "official",
+      "chars": 5201
+    },
+    {
+      "id": "d4",
+      "url": "https://florence.baglionihotels.com/accommodations/deluxe-room/",
+      "tier": "official",
+      "chars": 1610
+    },
+    {
+      "id": "d5",
+      "url": "https://florence.baglionihotels.com/dining/guelfi-ghibellini-restaurant/",
+      "tier": "official",
+      "chars": 1445
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel occupies an 18th-century noble residence in Florence's Santa Croce neighborhood.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Stay in an 18th-century noble residence in one of Florence’s most evocative neighborhoods",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://florence.baglionihotels.com/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Palazzo Firenze, Heritage and Design in Santa Croce",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://florence.baglionihotels.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Inside, precious stuccoes, frescoes and original features meet high-end contemporary design.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "precious stuccoes, frescoes and original features meet high-end design, contemporary lines and refined comfort",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://florence.baglionihotels.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Rooms and suites have been redesigned, each unique in character, proportion and detail.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Palazzo Firenze's rooms and suites welcome you to beautifully redesigned spaces, each unique in character, proportion and detail.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://florence.baglionihotels.com/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Bathrooms in the rooms and junior suites are finished in Tuscan Breccia Capraia marble.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Max Occupancy: 2 Guests\\| Interior: 291 ft²\\| Charming views over the streets of Santa Croce or internal courtyard\\| Elegant bathroom in prestigious Tuscan marble Breccia Capraia",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://florence.baglionihotels.com/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Charming views over the streets of Santa Croce, the Basilica or the internal courtyard\\| Elegant bathroom in prestigious Tuscan marble Breccia Capraia",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://florence.baglionihotels.com/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Deluxe rooms have Rubelli upholstery, dark parquet and custom-designed furniture.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "soft tones dialogue with refined dark parquet. Custom-designed furniture, Rubelli upholstery and natural light",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://florence.baglionihotels.com/accommodations/deluxe-room/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Deluxe room amenities include Acqua di Parma bath amenities, an Illy coffee machine, a welcome bottle of wine and evening turn-down service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Spacious bathroom in prestigious Tuscan marble with Acqua di Parma amenities",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://florence.baglionihotels.com/accommodations/deluxe-room/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "- Illy coffee machine",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://florence.baglionihotels.com/accommodations/deluxe-room/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "- Welcome bottle of wine\n- Evening turn-down service",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://florence.baglionihotels.com/accommodations/deluxe-room/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Grand Deluxe Rooms have a shower with a Turkish bath.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "They feature a shower with a Turkish bath and overlook charming Florentine streets.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://florence.baglionihotels.com/accommodations/deluxe-room/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Two-Bedroom Family Junior Suite has two bedrooms with views of the Basilica of Santa Croce and two marble bathrooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Two spacious, luminous bedrooms with views of the Basilica of Santa Croce: the perfect space for families.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://florence.baglionihotels.com/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "2 elegant bathrooms in prestigious Tuscan marble Breccia Capraia",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://florence.baglionihotels.com/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The Two-Bedroom Santa Croce Royal Suite has coffered ceilings, original decorations and three marble bathrooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Incomparable magnificence where original decorations and coffered ceilings meet thoughtfully curated contemporary furnishings. Three luxurious bathrooms in prestigious marble",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://florence.baglionihotels.com/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Attractions within walking distance include the Accademia Gallery, the Cathedral, Palazzo Vecchio, Ponte Vecchio and the Uffizi Gallery.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "You’ll find many historic attractions within walking distance",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://florence.baglionihotels.com/things-to-do/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "• Accademia Gallery (Michelangelo's \"David\")\n\n• Cathedral of Santa Maria de Fiore\n\n• Palazzo Vecchio\n\n• Ponte Vecchio\n\n• Uffizi Gallery",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://florence.baglionihotels.com/things-to-do/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Guelfi and Ghibellini Restaurant serves Tuscan and Mediterranean cuisine by Chef Antonino Pepe, combining ancient recipes with modern techniques.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Savor innovative Tuscan & Mediterranean cuisine that combines ancient recipes with modern and innovative cooking techniques. Marvel at Chef Antonino Pepe’s creative sense",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://florence.baglionihotels.com/dining/guelfi-ghibellini-restaurant/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The whole palace can be reserved for weddings and private events.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Celebrate your wedding, host private events or mark special occasions in a historic palace reserved entirely for you.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://florence.baglionihotels.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "A tour of the hotel reveals the Trestle of Santa Croce, an architectural feature once studied by Leonardo da Vinci.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "A tour of the hotel uncovers a “secret” treasure from the Renaissance era. The “Trestle of Santa Croce” is an architectural marvel that was once studied by Leonardo DaVinci.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://florence.baglionihotels.com/things-to-do/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The hotel hosts live music and intimate aperitivo concerts in its Music Room, among precious stuccoes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "From intimate aperitivo concerts amid the precious stuccoes of the Music Room",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://florence.baglionihotels.com/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Enjoy amazing live music experiences in our glorious Music Room right here in the hotel.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://florence.baglionihotels.com/things-to-do/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Studio Marco Piva transformed the hotel's signature suites, pairing historic frescoes and decorated ceilings with custom-designed furnishings.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Studio Marco Piva has transformed Palazzo Firenze's signature suites into incomparable spaces. Historic frescoes and decorated ceilings dialogue with custom-designed furnishings",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://florence.baglionihotels.com/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Junior Suite Terrace has a balcony overlooking the rooftops and the Basilica of Santa Croce.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "with the exclusive privilege of a balcony overlooking the rooftops and the Basilica of Santa Croce",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://florence.baglionihotels.com/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Some suites have original frescoed or coffered ceilings and views over the Basilica of Santa Croce or the streets of Santa Croce.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "with enchanting views over the Basilica or the winding streets of Santa Croce, in suites featuring original frescoed or coffered ceilings",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://florence.baglionihotels.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Deluxe and Grand Deluxe rooms look over the streets of Santa Croce or the internal courtyard; Basilica views are listed for some suites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Charming views over the streets of Santa Croce or internal courtyard",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://florence.baglionihotels.com/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Charming views over the Basilica of Santa Croce",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://florence.baglionihotels.com/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Small and medium-sized pets are welcome, for a supplement.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "We welcome small/medium-sized pets (max of 15 kilos/33 lbs.) A supplement",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://florence.baglionihotels.com/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing that reflects the luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
