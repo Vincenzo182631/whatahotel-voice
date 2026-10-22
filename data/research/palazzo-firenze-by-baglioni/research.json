@@ -1,10 +1,9 @@
 {
   "slug": "palazzo-firenze-by-baglioni",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
   "reasons": [
-    "https://florence.baglionihotels.com/: only 67% of the hotel name appears on the page",
-    "official website could not be confirmed; flag for review"
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
   ],
   "identity": {
     "hotel": {
@@ -13,29 +12,77 @@
       "country": "IT"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://florence.baglionihotels.com/: only 67% of the hotel name appears on the page",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "location matches (Florence, IT)",
+      "confirmed by hand as this hotel's own page (only 67% of the hotel name appears on the page)"
     ],
+    "reasons": [],
     "candidates": [
       "https://florence.baglionihotels.com/"
     ],
-    "checked_at": "2026-10-22T05:42:00.509Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-22T10:31:19.813Z",
+    "status": "confirmed",
+    "official_url": "https://florence.baglionihotels.com/",
+    "base_url": "https://florence.baglionihotels.com/",
+    "host": "florence.baglionihotels.com",
+    "checks": {
+      "name_coverage": 0.67,
+      "location_match": true
+    }
   },
-  "pages": [],
-  "inaccessible": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://florence.baglionihotels.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-22T10:31:24.447Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://florence.baglionihotels.com/things-to-do/",
+      "tier": "official",
+      "fetched_at": "2026-10-22T10:31:35.415Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://florence.baglionihotels.com/accommodations/",
+      "tier": "official",
+      "fetched_at": "2026-10-22T10:31:41.614Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://florence.baglionihotels.com/accommodations/deluxe-room/",
+      "tier": "official",
+      "fetched_at": "2026-10-22T10:31:43.590Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://florence.baglionihotels.com/dining/guelfi-ghibellini-restaurant/",
+      "tier": "official",
+      "fetched_at": "2026-10-22T10:31:48.351Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
   "usage": {
-    "firecrawl_calls": 1,
-    "firecrawl_searches": 0,
+    "firecrawl_calls": 8,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 5,
+    "chars": 12791,
+    "est_claude_tokens": 3198
   },
   "limits": {
     "maxPages": 12,
@@ -43,5 +90,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-22T05:42:05.265Z"
+  "researched_at": "2026-10-22T10:31:54.638Z"
 }

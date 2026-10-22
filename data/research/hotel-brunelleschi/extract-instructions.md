@@ -1,5 +1,5 @@
 # Extract verified facts for Hotel Brunelleschi
-Official site confirmed: https://www.hotelbrunelleschi.it/contacts/ (independent).
+Official site confirmed: https://www.hotelbrunelleschi.it/ (independent).
 Read /home/user/whatahotel-voice/data/research/hotel-brunelleschi/index.json and the page text in /home/user/whatahotel-voice/data/research/hotel-brunelleschi/pages/<id>.txt. Use ONLY those pages, never memory. Do not run other commands or fetch anything.
 Write /home/user/whatahotel-voice/data/research/hotel-brunelleschi/facts.json (JSON only) with this shape:
 {"facts":[{"id":"r-1","category":"dining","kind":"fact|subjective|unresolved","text":"one atomic statement","doc_id":"p3","excerpt":"copied verbatim from that page, max 240 chars","topic":"short key, e.g. pool-count","as_of":"YYYY-MM-DD or null"}],

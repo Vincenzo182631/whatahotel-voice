@@ -1,11 +1,8 @@
 {
   "slug": "explora-el-chalten",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "https://www.explora.com/el-chalten-lodge/: page does not mention East Grinstead",
-    "official website could not be confirmed; flag for review"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "Explora El Chalten",
@@ -13,29 +10,114 @@
       "country": "AR"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.explora.com/el-chalten-lodge/: page does not mention East Grinstead",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "confirmed by hand as this hotel's own page (page does not mention East Grinstead)"
     ],
+    "reasons": [],
     "candidates": [
       "https://www.explora.com/el-chalten-lodge/"
     ],
-    "checked_at": "2026-10-22T05:41:52.237Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-22T10:32:00.543Z",
+    "status": "confirmed",
+    "official_url": "https://www.explora.com/el-chalten-lodge/",
+    "base_url": "https://www.explora.com/",
+    "host": "explora.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": false
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.explora.com/el-chalten-lodge/",
+      "tier": "official",
+      "fetched_at": "2026-10-22T10:32:06.820Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.explora.com/how-to-get-el-chalten/",
+      "tier": "official",
+      "fetched_at": "2026-10-22T10:32:18.784Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.explora.com/patagonia-tours/",
+      "tier": "official",
+      "fetched_at": "2026-10-22T10:32:20.247Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.explora.com/el-chalten-hotel/",
+      "tier": "official",
+      "fetched_at": "2026-10-22T10:32:26.845Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.explora.com/el-chalten-tours/",
+      "tier": "official",
+      "fetched_at": "2026-10-22T10:32:32.406Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.explora.com/explora-passport/",
+      "tier": "official",
+      "fetched_at": "2026-10-22T10:32:34.684Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.explora.com/el-chalten-travel-tips/",
+      "tier": "official",
+      "fetched_at": "2026-10-22T10:32:39.138Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.explora.com/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "fetched_at": "2026-10-22T10:32:42.429Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.explora.com/torres-del-paine-conservation-reserve/",
+      "tier": "official",
+      "fetched_at": "2026-10-22T10:32:46.359Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.explora.com/our-cuisine-is-an-interpetation-of-the-patagonian-environment/",
+      "tier": "official",
+      "fetched_at": "2026-10-22T10:32:50.123Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://www.cntraveler.com/hotels/el-chalten/explora-el-chalten",
+      "tier": "editorial",
+      "fetched_at": "2026-10-22T10:32:59.868Z",
+      "source": "direct"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 1,
-    "firecrawl_searches": 0,
+    "firecrawl_calls": 13,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 11,
+    "chars": 99612,
+    "est_claude_tokens": 24903
   },
   "limits": {
     "maxPages": 12,
@@ -43,5 +125,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-22T05:41:53.250Z"
+  "researched_at": "2026-10-22T10:32:59.868Z"
 }

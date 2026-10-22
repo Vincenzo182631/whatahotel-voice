@@ -1,11 +1,8 @@
 {
   "slug": "hotel-brunelleschi",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "https://www.hotelbrunelleschi.it/: only 0% of the hotel name appears on the page",
-    "official website could not be confirmed; flag for review"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "Hotel Brunelleschi",
@@ -13,29 +10,79 @@
       "country": "IT"
     },
     "affiliation": {
-      "kind": "unknown"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.hotelbrunelleschi.it/: only 0% of the hotel name appears on the page",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "location matches (Florence, IT)",
+      "confirmed by hand as this hotel's own page (only 0% of the hotel name appears on the page)"
     ],
+    "reasons": [],
     "candidates": [
       "https://www.hotelbrunelleschi.it/"
     ],
-    "checked_at": "2026-10-22T05:41:57.236Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-22T10:30:46.195Z",
+    "status": "confirmed",
+    "official_url": "https://www.hotelbrunelleschi.it/",
+    "base_url": "https://www.hotelbrunelleschi.it/",
+    "host": "hotelbrunelleschi.it",
+    "checks": {
+      "name_coverage": 0,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hotelbrunelleschi.it/",
+      "tier": "official",
+      "fetched_at": "2026-10-22T10:30:51.762Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hotelbrunelleschi.it/rooms-and-suites/",
+      "tier": "official",
+      "fetched_at": "2026-10-22T10:31:02.285Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hotelbrunelleschi.it/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-22T10:31:06.735Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hotelbrunelleschi.it/history/",
+      "tier": "official",
+      "fetched_at": "2026-10-22T10:31:09.594Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hotelbrunelleschi.it/it/",
+      "tier": "official",
+      "fetched_at": "2026-10-22T10:31:13.229Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.cntraveler.com/hotels/florence/hotel-brunelleschi",
+      "tier": "editorial",
+      "fetched_at": "2026-10-22T10:31:18.610Z",
+      "source": "direct"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 1,
-    "firecrawl_searches": 0,
+    "firecrawl_calls": 8,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 6,
+    "chars": 14313,
+    "est_claude_tokens": 3578
   },
   "limits": {
     "maxPages": 12,
@@ -43,5 +90,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-22T05:41:59.380Z"
+  "researched_at": "2026-10-22T10:31:18.610Z"
 }
