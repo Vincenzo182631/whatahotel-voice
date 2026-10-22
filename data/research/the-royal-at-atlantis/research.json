@@ -1,9 +1,10 @@
 {
   "slug": "the-royal-at-atlantis",
-  "status": "awaiting_extraction",
+  "status": "needs_review",
   "partial": false,
   "reasons": [
-    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+    "https://www.atlantisbahamas.com/rooms/royaltowers: page does not mention Nassau",
+    "official website could not be confirmed; flag for review"
   ],
   "identity": {
     "hotel": {
@@ -12,58 +13,29 @@
       "country": "BS"
     },
     "affiliation": {
-      "kind": "chain",
-      "chain": "marriott"
+      "kind": "unknown"
     },
-    "evidence": [
-      "page is on Marriott's own site (marriott.com)",
-      "100% of the hotel name appears on the page",
-      "confirmed by hand as this hotel's own page (page does not mention Nassau)"
+    "evidence": [],
+    "reasons": [
+      "https://www.atlantisbahamas.com/rooms/royaltowers: page does not mention Nassau",
+      "official website could not be confirmed; flag for review"
     ],
-    "reasons": [],
     "candidates": [
-      "https://www.marriott.com/en-us/hotels/nasra-the-royal-at-atlantis-autograph-collection/overview/"
+      "https://www.atlantisbahamas.com/rooms/royaltowers"
     ],
-    "checked_at": "2026-10-16T01:13:54.485Z",
-    "status": "confirmed",
-    "official_url": "https://www.marriott.com/en-us/hotels/nasra-the-royal-at-atlantis-autograph-collection/overview/",
-    "base_url": "https://www.marriott.com/en-us/hotels/nasra-the-royal-at-atlantis-autograph-collection/",
-    "host": "marriott.com",
-    "checks": {
-      "name_coverage": 1,
-      "location_match": false
-    }
+    "checked_at": "2026-10-22T05:41:24.317Z",
+    "status": "needs_review"
   },
-  "pages": [
-    {
-      "id": "p1",
-      "url": "https://www.marriott.com/en-us/hotels/nasra-the-royal-at-atlantis-autograph-collection/overview/",
-      "tier": "official",
-      "fetched_at": "2026-10-16T01:14:07.052Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p2",
-      "url": "https://www.marriott.com/en-us/hotels/nasra-the-royal-at-atlantis-autograph-collection/%3CBase64-Image-Removed%3E/",
-      "tier": "official",
-      "fetched_at": "2026-10-16T01:14:13.306Z",
-      "source": "firecrawl"
-    }
-  ],
-  "inaccessible": [
-    {
-      "url": "cntraveler.com",
-      "reason": "no Condé Nast Traveler hotel page found"
-    }
-  ],
+  "pages": [],
+  "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 5,
-    "firecrawl_searches": 1,
+    "firecrawl_calls": 1,
+    "firecrawl_searches": 0,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 2,
-    "chars": 4085,
-    "est_claude_tokens": 1021
+    "pages": 0,
+    "chars": 0,
+    "est_claude_tokens": 0
   },
   "limits": {
     "maxPages": 12,
@@ -71,5 +43,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-16T01:14:19.756Z"
+  "researched_at": "2026-10-22T05:41:26.673Z"
 }

@@ -1,8 +1,11 @@
 {
   "slug": "hotel-brunelleschi",
-  "status": "awaiting_extraction",
+  "status": "needs_review",
   "partial": false,
-  "reasons": [],
+  "reasons": [
+    "https://www.hotelbrunelleschi.it/: only 0% of the hotel name appears on the page",
+    "official website could not be confirmed; flag for review"
+  ],
   "identity": {
     "hotel": {
       "name": "Hotel Brunelleschi",
@@ -10,66 +13,29 @@
       "country": "IT"
     },
     "affiliation": {
-      "kind": "independent"
+      "kind": "unknown"
     },
-    "evidence": [
-      "100% of the hotel name appears on the page",
-      "location matches (Florence, IT)"
+    "evidence": [],
+    "reasons": [
+      "https://www.hotelbrunelleschi.it/: only 0% of the hotel name appears on the page",
+      "official website could not be confirmed; flag for review"
     ],
-    "reasons": [],
     "candidates": [
-      "https://www.kiwicollection.com/hotel-detail/hotel-brunelleschi",
-      "https://www.hotelbrunelleschi.it/contacts/"
+      "https://www.hotelbrunelleschi.it/"
     ],
-    "checked_at": "2026-10-17T13:10:27.261Z",
-    "status": "confirmed",
-    "official_url": "https://www.hotelbrunelleschi.it/contacts/",
-    "base_url": "https://www.hotelbrunelleschi.it/",
-    "host": "hotelbrunelleschi.it",
-    "checks": {
-      "name_coverage": 1,
-      "location_match": true
-    }
+    "checked_at": "2026-10-22T05:41:57.236Z",
+    "status": "needs_review"
   },
-  "pages": [
-    {
-      "id": "p1",
-      "url": "https://www.hotelbrunelleschi.it/contacts/",
-      "tier": "official",
-      "fetched_at": "2026-10-17T13:10:36.212Z",
-      "source": "cache"
-    },
-    {
-      "id": "p2",
-      "url": "https://www.hotelbrunelleschi.it/it/contatti/",
-      "tier": "official",
-      "fetched_at": "2026-10-17T13:10:43.336Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p3",
-      "url": "https://www.hotelbrunelleschi.it/join-our-team/",
-      "tier": "official",
-      "fetched_at": "2026-10-17T13:10:46.348Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p4",
-      "url": "https://www.cntraveler.com/hotels/florence/hotel-brunelleschi",
-      "tier": "editorial",
-      "fetched_at": "2026-10-17T13:10:52.028Z",
-      "source": "direct"
-    }
-  ],
+  "pages": [],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 6,
-    "firecrawl_searches": 2,
-    "cache_hits": 2,
-    "direct_fetches": 1,
-    "pages": 4,
-    "chars": 7629,
-    "est_claude_tokens": 1907
+    "firecrawl_calls": 1,
+    "firecrawl_searches": 0,
+    "cache_hits": 0,
+    "direct_fetches": 0,
+    "pages": 0,
+    "chars": 0,
+    "est_claude_tokens": 0
   },
   "limits": {
     "maxPages": 12,
@@ -77,5 +43,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-17T13:10:52.028Z"
+  "researched_at": "2026-10-22T05:41:59.380Z"
 }

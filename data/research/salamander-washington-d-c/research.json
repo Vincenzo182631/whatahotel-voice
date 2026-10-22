@@ -1,9 +1,10 @@
 {
   "slug": "salamander-washington-d-c",
-  "status": "awaiting_extraction",
-  "partial": true,
+  "status": "needs_review",
+  "partial": false,
   "reasons": [
-    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue"
+    "https://www.marriott.com/en-us/hotels/waswf-the-potomac-hotel-autograph-collection/overview/: Firecrawl 500 for https://www.marriott.com/en-us/hotels/waswf-the-potomac-hotel-autograph-collection/overview/: All scraping engines failed ",
+    "official website could not be confirmed; flag for review"
   ],
   "identity": {
     "hotel": {
@@ -12,122 +13,29 @@
       "country": "US"
     },
     "affiliation": {
-      "kind": "independent"
+      "kind": "unknown"
     },
-    "evidence": [
-      "redirected from https://www.salamanderdc.com/",
-      "100% of the hotel name appears on the page",
-      "location matches (Washington DC, US)"
+    "evidence": [],
+    "reasons": [
+      "https://www.marriott.com/en-us/hotels/waswf-the-potomac-hotel-autograph-collection/overview/: Firecrawl 500 for https://www.marriott.com/en-us/hotels/waswf-the-potomac-hotel-autograph-collection/overview/: All scraping engines failed ",
+      "official website could not be confirmed; flag for review"
     ],
-    "reasons": [],
     "candidates": [
-      "https://www.salamanderdc.com/"
+      "https://www.marriott.com/en-us/hotels/waswf-the-potomac-hotel-autograph-collection/overview/"
     ],
-    "checked_at": "2026-10-15T16:31:35.828Z",
-    "status": "confirmed",
-    "official_url": "https://www.salamanderhotels.com/",
-    "base_url": "https://www.salamanderhotels.com/",
-    "host": "salamanderhotels.com",
-    "checks": {
-      "name_coverage": 1,
-      "location_match": true
-    }
+    "checked_at": "2026-10-22T05:41:15.987Z",
+    "status": "needs_review"
   },
-  "pages": [
-    {
-      "id": "p1",
-      "url": "https://www.salamanderhotels.com/",
-      "tier": "official",
-      "fetched_at": "2026-10-15T16:31:41.575Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p2",
-      "url": "https://www.salamanderhotels.com/experience/wellness/",
-      "tier": "official",
-      "fetched_at": "2026-10-15T16:31:49.489Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p3",
-      "url": "https://www.salamanderhotels.com/services/",
-      "tier": "official",
-      "fetched_at": "2026-10-15T16:31:53.513Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p4",
-      "url": "https://www.salamanderhotels.com/experience/golf/",
-      "tier": "official",
-      "fetched_at": "2026-10-15T16:31:57.626Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p5",
-      "url": "https://www.salamanderhotels.com/experience/overview/",
-      "tier": "official",
-      "fetched_at": "2026-10-15T16:32:01.469Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p6",
-      "url": "https://www.salamanderhotels.com/our-collection/half-moon/",
-      "tier": "official",
-      "fetched_at": "2026-10-15T16:32:08.138Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p7",
-      "url": "https://www.salamanderhotels.com/our-collection/innisbrook/",
-      "tier": "official",
-      "fetched_at": "2026-10-15T16:32:11.335Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p8",
-      "url": "https://www.salamanderhotels.com/our-collection/hotel-bennett/",
-      "tier": "official",
-      "fetched_at": "2026-10-15T16:32:15.569Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p9",
-      "url": "https://www.salamanderhotels.com/our-collection/aspen-meadows/",
-      "tier": "official",
-      "fetched_at": "2026-10-15T16:32:19.239Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p10",
-      "url": "https://www.salamanderhotels.com/our-collection/inn-at-middleton/",
-      "tier": "official",
-      "fetched_at": "2026-10-15T16:32:23.087Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p11",
-      "url": "https://www.salamanderhotels.com/our-collection/pga-national-resort/",
-      "tier": "official",
-      "fetched_at": "2026-10-15T16:32:27.617Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p12",
-      "url": "https://www.salamanderhotels.com/our-collection/salamander-middleburg/",
-      "tier": "official",
-      "fetched_at": "2026-10-15T16:32:32.465Z",
-      "source": "firecrawl"
-    }
-  ],
+  "pages": [],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 15,
+    "firecrawl_calls": 1,
     "firecrawl_searches": 0,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 12,
-    "chars": 50307,
-    "est_claude_tokens": 12577
+    "pages": 0,
+    "chars": 0,
+    "est_claude_tokens": 0
   },
   "limits": {
     "maxPages": 12,
@@ -135,5 +43,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-15T16:32:33.729Z"
+  "researched_at": "2026-10-22T05:42:24.781Z"
 }
