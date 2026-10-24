@@ -1,0 +1,83 @@
+{
+  "slug": "the-wellesley-knightsbridge",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "The Wellesley Knightsbridge",
+      "city": "London",
+      "country": "GB",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page; rebrand noted: \"It reopened as The Wellesley in December 2012 as an intimate luxury hotel\"",
+      "location matches (London, GB)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/lonwb-the-wellesley-knightsbridge-a-luxury-collection-hotel-london/overview/"
+    ],
+    "checked_at": "2026-10-24T06:30:48.040Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/lonwb-the-wellesley-knightsbridge-a-luxury-collection-hotel-london/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/lonwb-the-wellesley-knightsbridge-a-luxury-collection-hotel-london/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true,
+      "rebrand": "It reopened as The Wellesley in December 2012 as an intimate luxury hotel"
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/lonwb-the-wellesley-knightsbridge-a-luxury-collection-hotel-london/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:31:05.585Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/lonwb-the-wellesley-knightsbridge-a-luxury-collection-hotel-london/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:31:09.697Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/lonwb-the-wellesley-knightsbridge-a-luxury-collection-hotel-london/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:31:20.456Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.cntraveler.com/hotels/london/the-wellesley-knightsbridge-a-luxury-collection-hotel-london",
+      "tier": "editorial",
+      "fetched_at": "2026-10-24T06:31:28.681Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 6,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 4,
+    "chars": 33057,
+    "est_claude_tokens": 8264
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-24T06:31:28.681Z"
+}
