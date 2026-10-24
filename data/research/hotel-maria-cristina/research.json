@@ -1,0 +1,89 @@
+{
+  "slug": "hotel-maria-cristina",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "Hotel Maria Cristina",
+      "city": "San Sebastian",
+      "country": "ES",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (San Sebastian, ES)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/easlc-hotel-maria-cristina-a-luxury-collection-hotel-san-sebastian/overview/"
+    ],
+    "checked_at": "2026-10-24T06:23:44.149Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/easlc-hotel-maria-cristina-a-luxury-collection-hotel-san-sebastian/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/easlc-hotel-maria-cristina-a-luxury-collection-hotel-san-sebastian/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/easlc-hotel-maria-cristina-a-luxury-collection-hotel-san-sebastian/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:24:09.788Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/easlc-hotel-maria-cristina-a-luxury-collection-hotel-san-sebastian/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:24:10.041Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/easlc-hotel-maria-cristina-a-luxury-collection-hotel-san-sebastian/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:24:25.101Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/easlc-hotel-maria-cristina-a-luxury-collection-hotel-san-sebastian/dining/san-sebastian/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:24:31.774Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.cntraveler.com/hotels/san-sebastian/hotel-maria-cristina-a-luxury-collection-hotel-san-sebastian",
+      "tier": "editorial",
+      "fetched_at": "2026-10-24T06:24:39.163Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 5,
+    "chars": 48972,
+    "est_claude_tokens": 12243
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-24T06:24:39.163Z"
+}

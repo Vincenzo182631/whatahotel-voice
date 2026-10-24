@@ -1,0 +1,96 @@
+{
+  "slug": "al-manara",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Al Manara",
+      "city": "Aqaba",
+      "country": "JO",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Aqaba, JO)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/aqjlc-al-manara-a-luxury-collection-hotel-saraya-aqaba/overview/"
+    ],
+    "checked_at": "2026-10-24T06:21:37.257Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/aqjlc-al-manara-a-luxury-collection-hotel-saraya-aqaba/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/aqjlc-al-manara-a-luxury-collection-hotel-saraya-aqaba/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/aqjlc-al-manara-a-luxury-collection-hotel-saraya-aqaba/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:22:00.155Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/aqjlc-al-manara-a-luxury-collection-hotel-saraya-aqaba/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:22:09.161Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/aqjlc-al-manara-a-luxury-collection-hotel-saraya-aqaba/rooms/suites-and-villas/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:22:18.894Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/aqjlc-al-manara-a-luxury-collection-hotel-saraya-aqaba/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:22:28.483Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.marriott.com/en-us/hotels/aqjlc-al-manara-a-luxury-collection-hotel-saraya-aqaba/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:22:38.497Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 8,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 5,
+    "chars": 54334,
+    "est_claude_tokens": 13584
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-24T06:22:43.218Z"
+}
