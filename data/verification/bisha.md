@@ -2,7 +2,7 @@
 
 Checked 2026-10-24 against the hotel's own pages and Condé Nast Traveler. Result: **can be marked verified** (profile set to verified).
 
-Supported 19 · contradicted 0 · unverified 0 · WhataHotel's own statements 1 · total 20
+Supported 18 · contradicted 0 · unverified 0 · WhataHotel's own statements 1 · total 19
 
 ## Pages checked
 
@@ -33,6 +33,5 @@ Supported 19 · contradicted 0 · unverified 0 · WhataHotel's own statements 1 
 | ✅ | **h-3** Some guest rooms have private terraces. | "Private Terraces in some guestrooms" (official, https://www.marriott.com/en-us/hotels/yyzld-bisha-a-luxury-collection-hotel-toronto/rooms/) |
 | ✅ | **h-4** KOST is a rooftop restaurant with panoramic views of the city. | "Culinary excellence awaits at KŌST, a rooftop oasis" (official, https://www.marriott.com/en-us/hotels/yyzld-bisha-a-luxury-collection-hotel-toronto/overview/) |
 | ✅ | **h-5** The hotel's staff, called Experience Producers, can suggest ways to explore the city. | "be sure to ask the Bisha's so-called Experience Producers—AKA the hotel's plugged-in staff—for suggestions" (editorial, https://www.cntraveler.com/hotels/toronto/bisha-hotel-and-residences) |
-| ✅ | **c-1** The official rooms page lists no accessible rooms at this hotel. | "No Accessible Rooms Available at this Hotel" (official, https://www.marriott.com/en-us/hotels/yyzld-bisha-a-luxury-collection-hotel-toronto/rooms/) |
-| ✅ | **c-2** The minimum age to check in is 18. | "Minimum Age to Check In  18" (official, https://www.marriott.com/en-us/hotels/yyzld-bisha-a-luxury-collection-hotel-toronto/overview/) |
-| ➖ | **c-3** WhataHotel notes the urban setting may be noisy for light sleepers. | WhataHotel's own offer or statement |
+| ✅ | **c-1** The minimum age to check in is 18. | "Minimum Age to Check In  18" (official, https://www.marriott.com/en-us/hotels/yyzld-bisha-a-luxury-collection-hotel-toronto/overview/) |
+| ➖ | **c-2** WhataHotel notes the urban setting may be noisy for light sleepers. | WhataHotel's own offer or statement |

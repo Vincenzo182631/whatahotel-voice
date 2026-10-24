@@ -1,17 +1,17 @@
 {
   "hotel_slug": "bisha",
   "hotel_name": "BISHA",
-  "checked_at": "2026-10-24T05:54:23.935Z",
+  "checked_at": "2026-10-24T05:56:52.409Z",
   "script_version": null,
   "decision": {
     "eligible": true,
     "blockers": [],
     "counts": {
-      "supported": 19,
+      "supported": 18,
       "contradicted": 0,
       "unverified": 0,
       "exempt": 1,
-      "total": 20
+      "total": 19
     }
   },
   "applied": true,
@@ -370,23 +370,6 @@
     },
     {
       "claim_id": "c-1",
-      "text": "The official rooms page lists no accessible rooms at this hotel.",
-      "findings": [
-        {
-          "verdict": "supported",
-          "doc_id": "d2",
-          "quote": "No Accessible Rooms Available at this Hotel",
-          "note": "stated on page",
-          "confirmed": true,
-          "url": "https://www.marriott.com/en-us/hotels/yyzld-bisha-a-luxury-collection-hotel-toronto/rooms/",
-          "tier": "official",
-          "quote_verified": true
-        }
-      ],
-      "status": "supported"
-    },
-    {
-      "claim_id": "c-2",
       "text": "The minimum age to check in is 18.",
       "findings": [
         {
@@ -403,7 +386,7 @@
       "status": "supported"
     },
     {
-      "claim_id": "c-3",
+      "claim_id": "c-2",
       "text": "WhataHotel notes the urban setting may be noisy for light sleepers.",
       "status": "exempt",
       "findings": []
