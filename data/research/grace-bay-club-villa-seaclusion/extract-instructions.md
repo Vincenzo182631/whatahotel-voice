@@ -1,5 +1,5 @@
 # Extract verified facts for Grace Bay Club Villa Seaclusion
-Official site confirmed: https://gracebayclub.gracebayresorts.com/ (independent).
+Official site confirmed: https://privatevillacollection.gracebayresorts.com/room/seaclusion/ (independent).
 Read /home/user/whatahotel-voice/data/research/grace-bay-club-villa-seaclusion/index.json and the page text in /home/user/whatahotel-voice/data/research/grace-bay-club-villa-seaclusion/pages/<id>.txt. Use ONLY those pages, never memory. Do not run other commands or fetch anything.
 Write /home/user/whatahotel-voice/data/research/grace-bay-club-villa-seaclusion/facts.json (JSON only) with this shape:
 {"facts":[{"id":"r-1","category":"dining","kind":"fact|subjective|unresolved","text":"one atomic statement","doc_id":"p3","excerpt":"copied verbatim from that page, max 240 chars","topic":"short key, e.g. pool-count","as_of":"YYYY-MM-DD or null"}],
