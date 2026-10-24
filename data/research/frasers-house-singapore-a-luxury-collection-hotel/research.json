@@ -1,0 +1,103 @@
+{
+  "slug": "frasers-house-singapore-a-luxury-collection-hotel",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Frasers House Singapore, a Luxury Collection Hotel",
+      "city": "Singapore",
+      "country": "SG",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Singapore, SG)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/sinlb-frasers-house-a-luxury-collection-hotel-singapore/overview/"
+    ],
+    "checked_at": "2026-10-24T06:26:40.476Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/sinlb-frasers-house-a-luxury-collection-hotel-singapore/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/sinlb-frasers-house-a-luxury-collection-hotel-singapore/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/sinlb-frasers-house-a-luxury-collection-hotel-singapore/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:27:02.949Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/sinlb-frasers-house-a-luxury-collection-hotel-singapore/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:27:06.884Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/sinlb-frasers-house-a-luxury-collection-hotel-singapore/rooms/premium-accommodations/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:27:15.492Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/sinlb-frasers-house-a-luxury-collection-hotel-singapore/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:27:19.507Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.marriott.com/en-us/hotels/sinlb-frasers-house-a-luxury-collection-hotel-singapore/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:27:28.992Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.marriott.com/en-us/hotels/sinlb-frasers-house-a-luxury-collection-hotel-singapore/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:27:32.752Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 9,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 6,
+    "chars": 79531,
+    "est_claude_tokens": 19883
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-24T06:27:38.188Z"
+}

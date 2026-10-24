@@ -1,0 +1,89 @@
+{
+  "slug": "hotel-paracas",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "Hotel Paracas",
+      "city": "Paracas",
+      "country": "PE",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Paracas, PE)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/piolc-hotel-paracas-a-luxury-collection-resort-paracas/overview/"
+    ],
+    "checked_at": "2026-10-24T06:25:53.089Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/piolc-hotel-paracas-a-luxury-collection-resort-paracas/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/piolc-hotel-paracas-a-luxury-collection-resort-paracas/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/piolc-hotel-paracas-a-luxury-collection-resort-paracas/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:26:17.115Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/piolc-hotel-paracas-a-luxury-collection-resort-paracas/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:26:29.262Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/piolc-hotel-paracas-a-luxury-collection-resort-paracas/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:26:38.405Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/piolc-hotel-paracas-a-luxury-collection-resort-paracas/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:26:51.060Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.cntraveler.com/hotels/peru/paracas/hotel-paracas",
+      "tier": "editorial",
+      "fetched_at": "2026-10-24T06:26:57.287Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 5,
+    "chars": 58290,
+    "est_claude_tokens": 14573
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-24T06:26:57.288Z"
+}

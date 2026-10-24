@@ -1,0 +1,82 @@
+{
+  "slug": "grosvenor-house",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "Grosvenor House",
+      "city": "Dubai",
+      "country": "AE",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Dubai, AE)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/dxbgl-grosvenor-house-a-luxury-collection-hotel-dubai/overview/"
+    ],
+    "checked_at": "2026-10-24T06:26:37.559Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/dxbgl-grosvenor-house-a-luxury-collection-hotel-dubai/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/dxbgl-grosvenor-house-a-luxury-collection-hotel-dubai/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/dxbgl-grosvenor-house-a-luxury-collection-hotel-dubai/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:26:45.908Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/dxbgl-grosvenor-house-a-luxury-collection-hotel-dubai/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:26:58.969Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/dxbgl-grosvenor-house-a-luxury-collection-hotel-dubai/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:27:05.527Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.cntraveler.com/hotels/united-kingdom/london/grosvenor-house",
+      "tier": "editorial",
+      "fetched_at": "2026-10-24T06:27:12.276Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 6,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 4,
+    "chars": 54034,
+    "est_claude_tokens": 13509
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-24T06:27:12.276Z"
+}

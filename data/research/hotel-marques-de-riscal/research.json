@@ -1,0 +1,89 @@
+{
+  "slug": "hotel-marques-de-riscal",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "Hotel Marques de Riscal",
+      "city": "Elciego",
+      "country": "ES",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Elciego, ES)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/biolc-hotel-marques-de-riscal-a-luxury-collection-hotel-elciego/overview/"
+    ],
+    "checked_at": "2026-10-24T06:24:40.653Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/biolc-hotel-marques-de-riscal-a-luxury-collection-hotel-elciego/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/biolc-hotel-marques-de-riscal-a-luxury-collection-hotel-elciego/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/biolc-hotel-marques-de-riscal-a-luxury-collection-hotel-elciego/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:24:54.736Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/biolc-hotel-marques-de-riscal-a-luxury-collection-hotel-elciego/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:25:06.526Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/biolc-hotel-marques-de-riscal-a-luxury-collection-hotel-elciego/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:25:19.894Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/biolc-hotel-marques-de-riscal-a-luxury-collection-hotel-elciego/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:25:29.336Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.cntraveler.com/hotels/france/elciego/marques-de-riscal",
+      "tier": "editorial",
+      "fetched_at": "2026-10-24T06:25:37.890Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 5,
+    "chars": 54195,
+    "est_claude_tokens": 13549
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-24T06:25:37.890Z"
+}

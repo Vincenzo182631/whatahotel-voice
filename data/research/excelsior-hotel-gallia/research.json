@@ -1,0 +1,103 @@
+{
+  "slug": "excelsior-hotel-gallia",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Excelsior Hotel Gallia",
+      "city": "Milan",
+      "country": "IT",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Milan, IT)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/millc-excelsior-hotel-gallia-a-luxury-collection-hotel-milan/overview/"
+    ],
+    "checked_at": "2026-10-24T06:24:48.524Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/millc-excelsior-hotel-gallia-a-luxury-collection-hotel-milan/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/millc-excelsior-hotel-gallia-a-luxury-collection-hotel-milan/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/millc-excelsior-hotel-gallia-a-luxury-collection-hotel-milan/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:25:08.395Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/millc-excelsior-hotel-gallia-a-luxury-collection-hotel-milan/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:25:17.204Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/millc-excelsior-hotel-gallia-a-luxury-collection-hotel-milan/rooms/suite-collection/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:25:24.226Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/millc-excelsior-hotel-gallia-a-luxury-collection-hotel-milan/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:25:33.857Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.marriott.com/en-us/hotels/millc-excelsior-hotel-gallia-a-luxury-collection-hotel-milan/spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:25:43.829Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.marriott.com/en-us/hotels/millc-excelsior-hotel-gallia-a-luxury-collection-hotel-milan/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:25:53.159Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 9,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 6,
+    "chars": 75756,
+    "est_claude_tokens": 18939
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-24T06:25:57.884Z"
+}
