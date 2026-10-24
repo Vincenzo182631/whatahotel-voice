@@ -1,0 +1,419 @@
+{
+  "slug": "pga-national-resort",
+  "status": "ready",
+  "partial": true,
+  "reasons": [
+    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue",
+    "some pages were inaccessible; missing information is not proof an amenity does not exist",
+    "coverage is partial: a limit stopped the page fetch early; raise the limits and rerun to read the rest"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "PGA National Resort",
+      "city": "Palm Beach",
+      "country": "US"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Palm Beach, US)",
+      "confirmed by hand as this hotel's own page (pgaresort.com does not carry the hotel's name; an independent hotel's own site normally does)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.pgaresort.com/"
+    ],
+    "checked_at": "2026-10-15T20:57:28.345Z",
+    "status": "confirmed",
+    "official_url": "https://www.pgaresort.com/",
+    "base_url": "https://www.pgaresort.com/",
+    "host": "pgaresort.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.pgaresort.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:57:33.181Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.pgaresort.com/stay/suites/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:57:42.532Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.pgaresort.com/stay/cottages/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:57:46.836Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.pgaresort.com/stay/guestrooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:57:50.487Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.pgaresort.com/dining/sushi/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:57:53.165Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.pgaresort.com/spa/treatments/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:57:57.227Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.pgaresort.com/dining/honeybelle/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:58:01.194Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.pgaresort.com/dining/birdies-diner/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:58:05.191Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.pgaresort.com/dining/the-butchers-club/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:58:09.270Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.pgaresort.com/activities/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:58:14.511Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://www.pgaresort.com/spa/specials-and-promotions/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:58:31.427Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p12",
+      "url": "https://www.pgaresort.com/golf/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T20:58:36.693Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.pgaresort.com/spa/appointments/",
+      "reason": "https://www.pgaresort.com/spa/appointments/: page had almost no text"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 16,
+    "firecrawl_searches": 0,
+    "cache_hits": 0,
+    "direct_fetches": 0,
+    "pages": 12,
+    "chars": 82948,
+    "est_claude_tokens": 20737
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-15T20:58:39.948Z",
+  "hotel": {
+    "name": "PGA National Resort",
+    "city": "Palm Beach",
+    "country": "US",
+    "confirmed_affiliation": {
+      "kind": "independent"
+    }
+  },
+  "official_url": "https://www.pgaresort.com/",
+  "verified_facts": [
+    {
+      "id": "r-1",
+      "category": "golf",
+      "text": "The Champion course is home to the PGA Tour's Cognizant Classic and the Bear Trap, one of the most famed three-hole stretches in professional golf.",
+      "source_url": "https://www.pgaresort.com/golf/",
+      "source_tier": "official",
+      "excerpt": "Home course of the PGA Tour’s Cognizant Classic and \"The Bear Trap\", one of the most famed — and toughest — three-hole stretches in professional golf."
+    },
+    {
+      "id": "r-2",
+      "category": "golf",
+      "text": "The Palmer course is named after its designer, Arnold Palmer.",
+      "source_url": "https://www.pgaresort.com/golf/",
+      "source_tier": "official",
+      "excerpt": "Named after its legendary designer, Arnold Palmer, this is generally considered our most entertaining (and forgiving) course for all skill levels."
+    },
+    {
+      "id": "r-3",
+      "category": "golf",
+      "text": "The Wee Bear is a par 3 course with holes ranging from 60 to 130 yards.",
+      "source_url": "https://www.pgaresort.com/golf/",
+      "source_tier": "official",
+      "excerpt": "With holes ranging from 60–130 yards, this par 3 course is perfect for experimenting with a variety of shots and is fun for players of all abilities."
+    },
+    {
+      "id": "r-4",
+      "category": "golf",
+      "text": "The Match course was designed with match play in mind.",
+      "source_url": "https://www.pgaresort.com/golf/",
+      "source_tier": "official",
+      "excerpt": "Designed with match play in mind, The Match delivers a unique golf experience sure to appeal to purists, players and beginners alike."
+    },
+    {
+      "id": "r-5",
+      "category": "rooms",
+      "text": "The resort has cottages designed by Serena & Lily.",
+      "source_url": "https://www.pgaresort.com/stay/cottages/",
+      "source_tier": "official",
+      "excerpt": "twenty-one stunning Serena & Lily-designed cottages bring the coast to the greens in elevated leisure"
+    },
+    {
+      "id": "r-6",
+      "category": "rooms",
+      "text": "Each cottage is a two-bedroom, two-bath retreat with outdoor space.",
+      "source_url": "https://www.pgaresort.com/stay/cottages/",
+      "source_tier": "official",
+      "excerpt": "Each two-bedroom, two-bath, 1,200 sq. ft., residentially-appointed retreat offers unsurpassed privacy and prestige, plus beautiful outdoor space."
+    },
+    {
+      "id": "r-7",
+      "category": "rooms",
+      "text": "Each cottage sleeps up to six guests, or up to four guests for golf groups.",
+      "source_url": "https://www.pgaresort.com/stay/cottages/",
+      "source_tier": "official",
+      "excerpt": "Sleeps up to six guests (up to 4 guests for golf groups)"
+    },
+    {
+      "id": "r-8",
+      "category": "rooms",
+      "text": "The cottages have a fully equipped kitchen and an en suite washer and dryer.",
+      "source_url": "https://www.pgaresort.com/stay/cottages/",
+      "source_tier": "official",
+      "excerpt": "- Fully Equipped Kitchen\n- Outdoor Terrace\n- Full-Sized Pull Out Sofa Bed\n- En Suite Washer and Dryer"
+    },
+    {
+      "id": "r-9",
+      "category": "rooms",
+      "text": "Guestrooms have a private balcony or terrace, with options for views of the pool, gardens and grounds.",
+      "source_url": "https://www.pgaresort.com/stay/guestrooms/",
+      "source_tier": "official",
+      "excerpt": "With a private balcony or terrace — and options for stunning views of the pool, gardens, and grounds of our Palm Beach golf resort"
+    },
+    {
+      "id": "r-10",
+      "category": "design_history",
+      "text": "Resort View rooms feature a tropical black and white wall mural, bold color nightstands and a pink pineapple lamp.",
+      "source_url": "https://www.pgaresort.com/stay/guestrooms/",
+      "source_tier": "official",
+      "excerpt": "tropical black and white wall mural, bold color nightstands and media console, pink pineapple lamp, arc lamp"
+    },
+    {
+      "id": "r-11",
+      "category": "rooms",
+      "text": "The Presidential Suite has four balconies overlooking the pool and lake.",
+      "source_url": "https://www.pgaresort.com/stay/suites/",
+      "source_tier": "official",
+      "excerpt": "Four balconies overlook the pool and lake, with two walk-in closets providing ample space."
+    },
+    {
+      "id": "r-12",
+      "category": "amenities",
+      "text": "The spa covers 40,000 square feet.",
+      "source_url": "https://www.pgaresort.com/",
+      "source_tier": "official",
+      "excerpt": "the expansive 40,000 sq ft reimagined spa"
+    },
+    {
+      "id": "r-13",
+      "category": "amenities",
+      "text": "The spa's signature Waters of the World experience features three mineral pools, including Dead Sea and Salies-de-Bearn pools, along with an outdoor hot tub.",
+      "source_url": "https://www.pgaresort.com/spa/treatments/",
+      "source_tier": "official",
+      "excerpt": "the signature “Waters of the World” experience, featuring three mineral pools—including Dead Sea and Salies-de-Béarn pools—along with an outdoor hot tub for guided hot-and-cold contrast therapy"
+    },
+    {
+      "id": "r-14",
+      "category": "amenities",
+      "text": "The spa has steam rooms, a sauna and a Himalayan Salt Chamber.",
+      "source_url": "https://www.pgaresort.com/spa/treatments/",
+      "source_tier": "official",
+      "excerpt": "Guests may integrate cryotherapy with the spa’s steam rooms, sauna, Himalayan Salt Chamber"
+    },
+    {
+      "id": "r-15",
+      "category": "amenities",
+      "text": "The spa has a NEO Luna whole-body cryotherapy chamber designed for single guests or couples.",
+      "source_url": "https://www.pgaresort.com/spa/treatments/",
+      "source_tier": "official",
+      "excerpt": "electric whole-body cryotherapy chamber designed for single guests or couples. Cryotherapy serves as a powerful starting point"
+    },
+    {
+      "id": "r-16",
+      "category": "practical",
+      "text": "The Spa at PGA National Resort is open to the public.",
+      "source_url": "https://www.pgaresort.com/spa/treatments/",
+      "source_tier": "official",
+      "excerpt": "The Spa at PGA National Resort is open to the public."
+    },
+    {
+      "id": "r-17",
+      "category": "practical",
+      "text": "Spa services are available for guests aged 18 and older.",
+      "source_url": "https://www.pgaresort.com/spa/treatments/",
+      "source_tier": "official",
+      "excerpt": "Services are available for guests aged 18 and older."
+    },
+    {
+      "id": "r-18",
+      "category": "amenities",
+      "text": "The Sports & Racquet Club has 16 Har-Tru tennis courts, 12 new pickleball courts and 2 pop tennis courts.",
+      "source_url": "https://www.pgaresort.com/activities/",
+      "source_tier": "official",
+      "excerpt": "With 16 Har-Tru tennis courts (11 lit for night play), 12 new pickleball and 2 pop tennis courts"
+    },
+    {
+      "id": "r-19",
+      "category": "experiences",
+      "text": "The resort keeps four on-site beehives with almost 250,000 honeybees and offers a behind-the-scenes beekeeping experience.",
+      "source_url": "https://www.pgaresort.com/activities/",
+      "source_tier": "official",
+      "excerpt": "Home to almost 250,000 honeybees and their queens in four on-site hives, PGA National Resort presents a sweet-tastic behind-the-scenes experience to see the exquisite beauty of bees at work."
+    },
+    {
+      "id": "r-20",
+      "category": "amenities",
+      "text": "The main resort pool is located in the heart of the resort.",
+      "source_url": "https://www.pgaresort.com/activities/",
+      "source_tier": "official",
+      "excerpt": "Located in the heart of the resort, our main pool seamlessly blends relaxation and fun with signature South Florida flair."
+    },
+    {
+      "id": "r-21",
+      "category": "family",
+      "text": "The resort has a kids club called Banyan Buddies Kids Club.",
+      "source_url": "https://www.pgaresort.com/",
+      "source_tier": "official",
+      "excerpt": "Banyan Buddies Kids Club"
+    },
+    {
+      "id": "r-22",
+      "category": "location",
+      "text": "A rare rock beach and natural beaches are a short drive from the resort, and the concierge can arrange transportation.",
+      "source_url": "https://www.pgaresort.com/activities/",
+      "source_tier": "official",
+      "excerpt": "A rare rock beach and vast natural beaches are just a short drive from the resort. You can watch waves crash against the rocks for a relaxing stroll and sink your toes into the sand by arranging your transportation with our concierge."
+    },
+    {
+      "id": "r-23",
+      "category": "location",
+      "text": "Grassy Waters Preserve, a wetlands ecosystem with a taste of the Everglades, is 10 minutes from the resort.",
+      "source_url": "https://www.pgaresort.com/activities/",
+      "source_tier": "official",
+      "excerpt": "Get a taste of the Everglades just 10 minutes from PGA National. This 23-square-mile wetlands ecosystem in West Palm Beach"
+    },
+    {
+      "id": "r-24",
+      "category": "location",
+      "text": "The resort is at 450 Avenue of the Champions in Palm Beach Gardens, Florida.",
+      "source_url": "https://www.pgaresort.com/spa/treatments/",
+      "source_tier": "official",
+      "excerpt": "450 Avenue of the Champions\n\nPalm Beach Gardens, FL 33418"
+    },
+    {
+      "id": "r-25",
+      "category": "dining",
+      "text": "The Butcher's Club, a steakhouse from Florida native chef Jeremy Ford, is a 2025 and 2026 Michelin-recommended restaurant.",
+      "source_url": "https://www.pgaresort.com/dining/the-butchers-club/",
+      "source_tier": "official",
+      "excerpt": "Stylish and modern elegance awaits you at The Butcher’s Club, our 2025 and 2026 Michelin-recommended restaurant. Expect unforgettable culinary experiences at this modern steakhouse from Florida native Jeremy Ford",
+      "as_of": "2026",
+      "needs_date_check": true
+    },
+    {
+      "id": "r-26",
+      "category": "dining",
+      "text": "Honeybelle is a seasonal American restaurant led by chef Lindsay Autry that uses honey sourced from the resort's own property.",
+      "source_url": "https://www.pgaresort.com/dining/honeybelle/",
+      "source_tier": "official",
+      "excerpt": "each dish reflects a commitment to regional flavors, from Florida citrus-infused cocktails to honey sourced from our own property."
+    }
+  ],
+  "highlights": [
+    "r-1",
+    "r-5",
+    "r-13",
+    "r-19",
+    "r-18",
+    "r-15",
+    "r-22"
+  ],
+  "subjective": [
+    {
+      "id": "r-30",
+      "text": "The Champion is a must-play on any avid golfer's list.",
+      "reason": "the hotel's own opinion or praise; keep out of facts"
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "r-27",
+      "text": "The resort has undergone a $100 million transformation.",
+      "reason": "marked unresolved"
+    },
+    {
+      "id": "r-28",
+      "text": "The resort's golf offering totals 99 holes, including two new courses, The Match and The Staple 9-hole.",
+      "reason": "sources conflict on \"golf-hole-total\"; held out of scripts until resolved"
+    },
+    {
+      "id": "r-29",
+      "text": "PGA National Members Club features 79 holes of golf.",
+      "reason": "sources conflict on \"golf-hole-total\"; held out of scripts until resolved"
+    }
+  ],
+  "rejected": [],
+  "contradictions": [
+    {
+      "topic": "golf-hole-total",
+      "note": "p1 says the resort's courses total 99 holes and also says the Members Club features 79 holes",
+      "sources": [
+        {
+          "url": "https://www.pgaresort.com/",
+          "excerpt": "for a total of 99 holes",
+          "quote_verified": true
+        },
+        {
+          "url": "https://www.pgaresort.com/",
+          "excerpt": "PGA National Members Club features 79 holes of world-class golf",
+          "quote_verified": true
+        }
+      ]
+    }
+  ]
+}

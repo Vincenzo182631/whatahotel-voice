@@ -1,0 +1,456 @@
+{
+  "hotel_slug": "sls-playa-mujeres",
+  "hotel_name": "SLS Playa Mujeres",
+  "checked_at": "2026-10-14T06:26:06.178Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://slshotels.com/playa-mujeres/",
+      "tier": "official",
+      "chars": 9962
+    },
+    {
+      "id": "d2",
+      "url": "https://slshotels.com/playa-mujeres/rooms-and-suites/",
+      "tier": "official",
+      "chars": 24768
+    },
+    {
+      "id": "d3",
+      "url": "https://slshotels.com/playa-mujeres/rooms-and-suites/sls-elite/",
+      "tier": "official",
+      "chars": 11214
+    },
+    {
+      "id": "d4",
+      "url": "https://slshotels.com/playa-mujeres/adults/",
+      "tier": "official",
+      "chars": 6806
+    },
+    {
+      "id": "d5",
+      "url": "https://slshotels.com/playa-mujeres/families/",
+      "tier": "official",
+      "chars": 3941
+    },
+    {
+      "id": "d6",
+      "url": "https://slshotels.com/playa-mujeres/all-inclusive/",
+      "tier": "official",
+      "chars": 4923
+    },
+    {
+      "id": "d7",
+      "url": "https://slshotels.com/playa-mujeres/webcam/",
+      "tier": "official",
+      "chars": 1797
+    },
+    {
+      "id": "d8",
+      "url": "https://slshotels.com/playa-mujeres/experiences/",
+      "tier": "official",
+      "chars": 7720
+    },
+    {
+      "id": "d9",
+      "url": "https://www.cntraveler.com/hotels/playa-mujeres/sls-playa-mujeres",
+      "tier": "editorial",
+      "chars": 3741
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The resort has 17 chef-led restaurants and bars.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "17 CHEF-LED RESTAURANTS & BARS",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://slshotels.com/playa-mujeres/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The resort is all-inclusive: everything is included, from coffee, smoothies or the buffet in the morning to poolside lunch, afternoon gelato and a steakhouse dinner.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Everything is included, from your coffee, smoothie or buffet in the morning, to your poolside lunch, afternoon gelato and your steakhouse dinner.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://slshotels.com/playa-mujeres/all-inclusive/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "SLS Elite rooms and suites come with personal butler service and private check-in, pool and beach areas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "SLS Elite rooms and suites come complete with personal butler service and private check-in, pool and beach",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://slshotels.com/playa-mujeres/rooms-and-suites/sls-elite/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Coati Kids Club is a dedicated space for ages 4 to 12, with a weekly rotation of activities from arts and crafts to robot building.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Coati Kids Club is a dedicated space for ages 4–12, where imagination runs wild and high-energy play is encouraged, with a weekly rotation of activities from arts and crafts to robot building.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://slshotels.com/playa-mujeres/families/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Teen Lounge, for ages 12 to 17, has billiards, video games and activities from Fortnite tournaments to water polo.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "with billiards, video games and a program of activities from Fortnite tournaments to water polo. For ages 12–17",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://slshotels.com/playa-mujeres/families/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "TEEN LOUNGE",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://slshotels.com/playa-mujeres/families/",
+          "tier": "official",
+          "quote_verified": false
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "A kids splash zone with slides, sprinklers and tipping buckets sits alongside the family pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The water playground of kids’ dreams sits alongside the family pool for endless hours of aquatic play. Slides, sprinklers and tipping buckets",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://slshotels.com/playa-mujeres/families/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The resort has an indoor movie theatre.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "INDOOR MOVIE THEATRE",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://slshotels.com/playa-mujeres/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "SLS Sculpt offers two 24/7 gyms and a schedule of group classes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Two 24/7 gyms and a schedule of group classes balance the indulgence.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://slshotels.com/playa-mujeres/all-inclusive/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Smoke & Mirrors is a bar influenced by South American speakeasies, serving spirits alongside fine cigars.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Smoke & Mirrors",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://slshotels.com/playa-mujeres/adults/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Influenced by South American speakeasies, serving smooth liquor and spirits alongside a world-class offering of fine cigars",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://slshotels.com/playa-mujeres/adults/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Childcare is available day and night, with support from Cancun Nancy Service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Available day and night, with support from the highly-experienced Cancun Nancy Service.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://slshotels.com/playa-mujeres/families/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Kosher dining is available through the resort's Liora program.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Savor exceptional kosher dining at SLS Playa Mujeres through our Liora program.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://slshotels.com/playa-mujeres/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The Envy Three Bedroom Suite has three king bedrooms with ensuites and an expansive outdoor terrace with sea views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Three king bedrooms with ensuites, lavish living and dining spaces, and an expansive outdoor terrace with sea views",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://slshotels.com/playa-mujeres/rooms-and-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Swim-out rooms are set along a winding river pool, so guests step out of the room and into the water.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Step out of your room and into the water, in rooms perched along a winding river pool.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://slshotels.com/playa-mujeres/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Rooftop jacuzzi rooms are bi-level, with a private rooftop deck, a jacuzzi, a lounge and panoramic sea views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "These bi-level rooms feature a private rooftop deck with a jacuzzi, lounge and panoramic sea views.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://slshotels.com/playa-mujeres/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Ciel Spa is a 20,000 sq ft destination spa with massages, facials, body treatments, a hydrotherapy circuit and a full-service salon.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "A 20,000 sqft destination spa offering a curated selection of massages, facials and body treatments in addition to an immersive hydrotherapy circuit and full-service salon.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://slshotels.com/playa-mujeres/adults/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Twiggy by La Cantine is an adults-oriented restaurant and pool club; its pool is open daily to guests over 18, with multiple jacuzzis and a central swim-up bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Twiggy by La Cantine is a chic, adults-oriented restaurant and pool club",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://slshotels.com/playa-mujeres/adults/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The pool is open daily to guests over 18 and features multiple jacuzzis, a central swim-up bar",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://slshotels.com/playa-mujeres/adults/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Playa Mujeres Golf, an 18-hole, par-72 course designed by Greg Norman, is minutes from the resort.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Designed by Greg Norman, Playa Mujeres Golf is an 18-hole, par-72 masterpiece only minutes from SLS",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://slshotels.com/playa-mujeres/adults/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Some upgrades, such as SLS Elite, are offered for additional fees on top of the all-inclusive rate.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Double down on extraordinary with options that make your stay next-level, available for additional fees.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://slshotels.com/playa-mujeres/all-inclusive/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Stay like a VIP with personal butler service and private check-in, beach and pool areas.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://slshotels.com/playa-mujeres/all-inclusive/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The resort sits in a double-gated community, with multiple security checkpoints on arrival.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "DOUBLE-GATED COMMUNITY",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://slshotels.com/playa-mujeres/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Multiple security check-points offer peace of mind from the moment you arrive.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://slshotels.com/playa-mujeres/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes a higher price point that reflects the luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

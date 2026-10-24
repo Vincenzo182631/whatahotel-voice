@@ -1,0 +1,405 @@
+{
+  "hotel_slug": "the-st-regis-costa-mujeres-resort-cancun",
+  "hotel_name": "The St. Regis Costa Mujeres Resort, Cancun",
+  "checked_at": "2026-10-14T11:26:14.916Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/cuncm-the-st-regis-costa-mujeres-resort-cancun/overview/",
+      "tier": "official",
+      "chars": 13199
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/cuncm-the-st-regis-costa-mujeres-resort-cancun/rooms/",
+      "tier": "official",
+      "chars": 4517
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/cuncm-the-st-regis-costa-mujeres-resort-cancun/dining/",
+      "tier": "official",
+      "chars": 4920
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The resort is a beachfront resort in Costa Mujeres, about 30 minutes north of Cancun Airport.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Just 30 minutes north of Cancun Airport, our Costa Mujeres beachfront resort captures the spirit of Quintana Roo",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cuncm-the-st-regis-costa-mujeres-resort-cancun/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Every room and suite has a private terrace, with views of sunrise over the sea and sunset behind the mangroves of Isla Blanca.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Within 163 beautifully appointed rooms and suites, each with private terraces, guests witness the sun rise over the sea and set behind the mangroves of Isla Blanca.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cuncm-the-st-regis-costa-mujeres-resort-cancun/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Suites feature astrological motifs brought to life through light and custom fixtures.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "In our suites, astrological motifs come to life through a delicate play of light and custom fixtures.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cuncm-the-st-regis-costa-mujeres-resort-cancun/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Rooms have marble bathrooms with soaking tubs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Marble bathrooms with soaking tubs.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cuncm-the-st-regis-costa-mujeres-resort-cancun/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The resort has five restaurants: Costa Coral, Fish Market, Palmare Grill, The St. Regis Bar and Olivia.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Costa CoralFish MarketPalmare Grill The St. Regis BarOlivia",
+          "note": "list of on-property restaurants",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cuncm-the-st-regis-costa-mujeres-resort-cancun/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "5 Restaurants",
+          "note": "count stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cuncm-the-st-regis-costa-mujeres-resort-cancun/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Costa Coral serves Mexican cuisine rooted in the biodiversity of the milpa and is open for breakfast and dinner.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Rooted in Mexico's rich culinary legacy and the biodiversity of the milpa, we elevate luxury dining in Cancun.\n\nOpen for breakfast and dinner",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cuncm-the-st-regis-costa-mujeres-resort-cancun/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Mexican at Costa Coral",
+          "note": "cuisine",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cuncm-the-st-regis-costa-mujeres-resort-cancun/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Fish Market is a seafood restaurant with a raw bar, ceviches and shared rice dishes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "From the precision of our raw bar to signature ceviches and shared rice compositions, our seafood restaurant in Costa Mujeres honors the integrity of local produce.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cuncm-the-st-regis-costa-mujeres-resort-cancun/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Palmare Grill is an oceanfront restaurant serving artisanal breads, sun-seared meats and coastal dishes made for sharing.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "our oceanfront restaurant in Costa Mujeres serves artisanal breads, sun-seared meats, and coastal favorites crafted with local ingredients and designed for effortless sharing",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cuncm-the-st-regis-costa-mujeres-resort-cancun/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Olivia is a specialty coffee spot showcasing Mexican coffees with an artisanal bakery selection.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "An elevated specialty coffee hub, where each cup becomes a refined daily ritual showcasing premium Mexican coffees, artisanal brewing techniques, complemented by an artisanal bakery selection",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cuncm-the-st-regis-costa-mujeres-resort-cancun/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "St. Regis Butler service is available in all accommodations.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Available in all accommodations.",
+          "note": "under Butler Service heading",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cuncm-the-st-regis-costa-mujeres-resort-cancun/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The St. Regis Family Traditions program runs at the resort's Explorer's Club.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Family Traditions signature St. Regis program offers travelers of all ages the opportunity to explore the destination and celebrate the art of play at our Explorer's Club.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cuncm-the-st-regis-costa-mujeres-resort-cancun/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Guests can explore nearby reefs by boat.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "invite you to explore nearby reefs by boat",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cuncm-the-st-regis-costa-mujeres-resort-cancun/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The resort was designed by the firm Sordo Madaleno and reimagines Mayan legends in stone, wood and metal.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Designed by award-winning firm Sordo Madaleno, the resort reimagines Mayan legends in stone, wood, and metal",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cuncm-the-st-regis-costa-mujeres-resort-cancun/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Some suites have private pools overlooking the Mesoamerican Barrier Reef and the mangrove reserve near Isla Blanca.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Experience total privacy in suites with private pools overlooking the Mesoamerican Barrier Reef and the sprawling mangrove reserve near Isla Blanca.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cuncm-the-st-regis-costa-mujeres-resort-cancun/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Each evening butlers open bottles of Champagne with sabers to mark the transition from day to night.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Join our Butlers in celebrating the transition from day to night, where bottles of Champagne are opened with regal sabers",
+          "note": "evening ritual",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cuncm-the-st-regis-costa-mujeres-resort-cancun/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The spa offers ancestral Mayan treatments and rituals inspired by the sea and the legacy of El Meco.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "invites guests to to discover ancestral Mayan treatments and rituals inspired by the sea and and the legacy of El Meco",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cuncm-the-st-regis-costa-mujeres-resort-cancun/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The St. Regis Bar sits next to the Agave Library, a communal immersive bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "A surrealist liquid landscape where heritage mixology meets daring infusions, adjacent to the Agave Library, a communal immersive bar.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cuncm-the-st-regis-costa-mujeres-resort-cancun/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel does not provide shuttle service; Cancun International Airport is about 26.9 km away.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "This hotel does not provide shuttle service.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cuncm-the-st-regis-costa-mujeres-resort-cancun/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "CUN is located approximately 26.9 KM from the hotel.",
+          "note": "distance",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cuncm-the-st-regis-costa-mujeres-resort-cancun/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Breakfast is served at Costa Coral for a fee.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Yes, breakfast is available onsite at Costa Coral for a fee.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cuncm-the-st-regis-costa-mujeres-resort-cancun/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the resort is located away from Cancun's main tourist attractions.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

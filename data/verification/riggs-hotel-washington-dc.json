@@ -1,0 +1,305 @@
+{
+  "hotel_slug": "riggs-hotel-washington-dc",
+  "hotel_name": "Riggs Hotel Washington DC",
+  "checked_at": "2026-10-15T16:43:06.887Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 13,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 14
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.riggsdc.com/",
+      "tier": "official",
+      "chars": 3620
+    },
+    {
+      "id": "d2",
+      "url": "https://www.riggsdc.com/eat-drink/",
+      "tier": "official",
+      "chars": 2501
+    },
+    {
+      "id": "d3",
+      "url": "https://www.riggsdc.com/eat-drink/silver-lyan/",
+      "tier": "official",
+      "chars": 4384
+    },
+    {
+      "id": "d4",
+      "url": "https://www.riggsdc.com/lore-discovery/",
+      "tier": "official",
+      "chars": 4140
+    },
+    {
+      "id": "d5",
+      "url": "https://www.riggsdc.com/eat-drink/cafe-riggs/",
+      "tier": "official",
+      "chars": 4855
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The building was constructed in 1891 as a headquarters for Riggs National Bank.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Constructed in 1891, as a headquarters for Riggs National Bank",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.riggsdc.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The bank building was known as the Bank of Presidents.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "the landmark was known as the Bank of Presidents",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.riggsdc.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel is on the corner of 9th and F Street, in the former Riggs National Bank building.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Riggs is located in the historical former Riggs National Bank building on the corner of 9th and F Street",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.riggsdc.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel is in downtown D.C.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "A luxury hotel in downtown D.C., enriched with history",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.riggsdc.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Café Riggs is in the former bank tellers' hall.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "FROM CAFÉ RIGGS IN THE FORMER BANK TELLERS' HALL",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.riggsdc.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Café Riggs has an ornate ceiling and original Corinthian columns.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "against the backdrop of the space’s ornate ceiling and original Corinthian columns",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.riggsdc.com/eat-drink/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Meeting and event spaces range from the rooftop to the Riggs Suite.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "FROM THE ROOFTOP TO THE RIGGS SUITE, WE OFFER A VARIETY OF SPACES TO CONDUCT YOUR NEXT STRATEGY SESSION OR INTIMATE GATHERING.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.riggsdc.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Through the LORE DISCOVERY loyalty program, members earn DISCOVERY Dollars on stays and in the hotel's bars and restaurants.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Our guest loyalty program is designed around you. LORE DISCOVERY gives you a world of benefits",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.riggsdc.com/lore-discovery/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "banking DISCOVERY Dollars (D$)",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.riggsdc.com/lore-discovery/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "You’ll earn D$ on stays and in our bars and restaurants.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.riggsdc.com/lore-discovery/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The guest rooms and suites are designed to be reminiscent of a private safety deposit box.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Paying homage to the building’s legacy, each of the 181 guest rooms and suites are reminiscent of a private safety deposit box",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.riggsdc.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Silver Lyan, a bar in the building's original bank vault, is the first bar outside of Europe from Mr Lyan.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Silver Lyan – nestled in the former building’s original bank vault – is the first bar outside of Europe from Mr Lyan.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.riggsdc.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Moments throughout the hotel draw on a narrative inspired by the golden age of banking.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "moments throughout the 5-star hotel draw on a narrative inspired by the golden age of banking",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.riggsdc.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "After 7 pm, Silver Lyan asks all guests to have valid 21+ IDs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "After 7 pm, we ask that all guests have valid 21+ IDs",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.riggsdc.com/eat-drink/silver-lyan/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Silver Lyan recommends booking a table; walk-ins are taken first come, first served from a waitlist.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "We recommend booking a table, but walk-ins are available on a first come, first serve basis, check in with our host to be added to our waitlist.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.riggsdc.com/eat-drink/silver-lyan/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes limited parking availability in the downtown location.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

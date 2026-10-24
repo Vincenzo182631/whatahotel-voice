@@ -1,0 +1,469 @@
+{
+  "hotel_slug": "waldorf-astoria-las-vegas",
+  "hotel_name": "Waldorf Astoria Las Vegas",
+  "checked_at": "2026-10-14T23:06:37.093Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 20,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 0,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hilton.com/en/hotels/laswdwa-waldorf-astoria-las-vegas/",
+      "tier": "official",
+      "chars": 4725
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hilton.com/en/hotels/laswdwa-waldorf-astoria-las-vegas/rooms/",
+      "tier": "official",
+      "chars": 8486
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hilton.com/en/hotels/laswdwa-waldorf-astoria-las-vegas/dining/",
+      "tier": "official",
+      "chars": 3684
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hilton.com/en/hotels/laswdwa-waldorf-astoria-las-vegas/spa/",
+      "tier": "official",
+      "chars": 2400
+    },
+    {
+      "id": "d5",
+      "url": "https://www.cntraveler.com/hotels/las-vegas/waldorf-astoria-las-vegas",
+      "tier": "editorial",
+      "chars": 9888
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hilton.com/en/hotels/laswdwa-waldorf-astoria-las-vegas/amenities/",
+      "tier": "official",
+      "chars": 168
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel sits at CityCenter in the center of the Strip and is connected by sky bridge to The Shops at Crystals.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Center Strip at CityCenter, connected by sky bridge to The Shops at Crystals",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/las-vegas/waldorf-astoria-las-vegas",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is steps from T-Mobile Arena and The Shops at Crystals.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Discover a spectacular oasis steps from T-Mobile Arena and The Shops at Crystals.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laswdwa-waldorf-astoria-las-vegas/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Aria, Cosmopolitan and T-Mobile Arena are an easy walk from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "an easy walk to Aria, Cosmopolitan, and T-Mobile Arena",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/las-vegas/waldorf-astoria-las-vegas",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Rooms feature a walk-in wardrobe and a private valet closet.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Relax in modern spaces featuring chic décor, a walk-in wardrobe, and a private valet closet.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laswdwa-waldorf-astoria-las-vegas/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Rooms are done in a desert-inspired palette of soft neutrals, warm woods and jewel-tone accents.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "All 389 guest rooms and suites have been redesigned in a desert-inspired palette of soft neutrals, warm woods, and jewel-tone accents",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/las-vegas/waldorf-astoria-las-vegas",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Hard Shake's cocktails are inspired by the hard shake method.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Sip cocktails inspired by the revered hard shake method",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laswdwa-waldorf-astoria-las-vegas/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Experience a craft inspired by the revered hard shake method",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laswdwa-waldorf-astoria-las-vegas/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Zen Kitchen serves seasonal American classics.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "where vibrant, seasonal American classics take center stage",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laswdwa-waldorf-astoria-las-vegas/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Savor fresh, seasonal American cuisine",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laswdwa-waldorf-astoria-las-vegas/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The spa spans two levels above the Strip.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Step into an award-winning spa perched high above the vibrant Las Vegas Strip. Spanning two serene levels",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laswdwa-waldorf-astoria-las-vegas/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The spa has a Vitality Pool with hydrotherapy jets and mineral currents.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Spa Vitality Pool",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laswdwa-waldorf-astoria-las-vegas/spa/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Let soothing hydrotherapy jets, gentle mineral currents, and tranquil warmth prepare you for a state of pure relaxation.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laswdwa-waldorf-astoria-las-vegas/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The spa's couples experience includes a body exfoliation, an aromatherapy massage and a private hydrotherapy bath.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Couples Experience",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laswdwa-waldorf-astoria-las-vegas/spa/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Enjoy a refreshing body exfoliation, a customized aromatherapy massage, and a private hydrotherapy bath.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laswdwa-waldorf-astoria-las-vegas/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "There is a full gym and a yoga studio, and fitness classes are complimentary.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "with a full gym and yoga studio plus classes included through the resort fee",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/las-vegas/waldorf-astoria-las-vegas",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "state-of-the-art training, and scenic, complimentary fitness classes",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laswdwa-waldorf-astoria-las-vegas/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The hotel opened in 2009 as Mandarin Oriental Las Vegas and became Waldorf Astoria Las Vegas in 2018.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The hotel opened in 2009 as Mandarin Oriental Las Vegas and became Waldorf Astoria Las Vegas in 2018",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/las-vegas/waldorf-astoria-las-vegas",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel is non-gaming and non-smoking.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "retaining its non-gaming, non-smoking identity even as the branding changed",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/las-vegas/waldorf-astoria-las-vegas",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Peacock Alley, on the 23rd floor, serves Afternoon Tea, custom-crafted cocktails and bites with views of the Strip.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Enjoy the timeless tradition of Afternoon Tea, discover custom-crafted cocktails, and savor delectable bites alongside captivating views of the Strip.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laswdwa-waldorf-astoria-las-vegas/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "the 23rd floor, where Peacock Alley now serves the brand’s signature tea service",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/las-vegas/waldorf-astoria-las-vegas",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The pool deck is on the eighth floor, with panoramic city views, cabanas and loungers and no DJ.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Take a refreshing swim on our eighth-floor pool deck and enjoy panoramic views of the city.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laswdwa-waldorf-astoria-las-vegas/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "no blaring DJ set, no aggressive bottle parade, just a compact, elegant deck with cabanas and loungers",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/las-vegas/waldorf-astoria-las-vegas",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Every room and suite has floor-to-ceiling windows, city or Strip views and deep soaking tubs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Every room and suite features floor-to-ceiling windows, breathtaking city or Strip views, deep soaking tubs, and premium amenities.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laswdwa-waldorf-astoria-las-vegas/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Service includes personal concierges and twice-daily housekeeping.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "personal concierges, twice-daily housekeeping",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/las-vegas/waldorf-astoria-las-vegas",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Room rates include a nightly resort charge and exclude taxes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "resort charge per night, but excludes taxes and government charges",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laswdwa-waldorf-astoria-las-vegas/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Pets are not allowed.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Pets not allowed",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laswdwa-waldorf-astoria-las-vegas/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "Conde Nast Traveler finds it somewhat family friendly but better for adults.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Somewhat, but better for adults; the tone is quiet and refined",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/las-vegas/waldorf-astoria-las-vegas",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

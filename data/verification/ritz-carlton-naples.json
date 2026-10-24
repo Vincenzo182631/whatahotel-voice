@@ -1,0 +1,388 @@
+{
+  "hotel_slug": "ritz-carlton-naples",
+  "hotel_name": "Ritz-Carlton Naples",
+  "checked_at": "2026-10-09T13:25:34.035Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 0,
+      "total": 17
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ritzcarlton.com/en/hotels/rswrz-the-ritz-carlton-naples/overview/",
+      "tier": "official",
+      "chars": 16599
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ritzcarlton.com/en/hotels/rswrz-the-ritz-carlton-naples/rooms/",
+      "tier": "official",
+      "chars": 6243
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ritzcarlton.com/en/hotels/rswrz-the-ritz-carlton-naples/dining/",
+      "tier": "official",
+      "chars": 6861
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ritzcarlton.com/en/hotels/rswrz-the-ritz-carlton-naples/spa/",
+      "tier": "official",
+      "chars": 16121
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ritzcarlton.com/en/hotels/rswrz-the-ritz-carlton-naples/experiences/",
+      "tier": "official",
+      "chars": 17456
+    },
+    {
+      "id": "d6",
+      "url": "https://www.cntraveler.com/hotels/naples/the-ritz-carlton-naples",
+      "tier": "editorial",
+      "chars": 4115
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ritzcarlton.com/en/hotels/rswrz-the-ritz-carlton-naples/rooms/signature-suites/",
+      "tier": "official",
+      "chars": 11906
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ritzcarlton.com/en/hotels/rswrz-the-ritz-carlton-naples/experiences/holidays/",
+      "tier": "official",
+      "chars": 4507
+    },
+    {
+      "id": "d9",
+      "url": "https://www.ritzcarlton.com/en/hotels/rswrz-the-ritz-carlton-naples/club/",
+      "tier": "official",
+      "chars": 4908
+    },
+    {
+      "id": "d10",
+      "url": "https://www.ritzcarlton.com/en/hotels/rswrz-the-ritz-carlton-naples/reviews/",
+      "tier": "official",
+      "chars": 776
+    },
+    {
+      "id": "d11",
+      "url": "https://www.ritzcarlton.com/en/hotels/rswrz-the-ritz-carlton-naples/hotel-stories/",
+      "tier": "official",
+      "chars": 2570
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is at 280 Vanderbilt Beach Road in Naples, Florida.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "280 Vanderbilt Beach Rd., Naples, Florida 34108",
+          "note": "Address matches (Rd. = Road)",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/naples/the-ritz-carlton-naples",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Interiors are embellished with antiques, artwork, Waterford chandeliers and Asian carpets.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Antiques and artwork embellish interiors, as do Waterford chandeliers and Asian carpets.",
+          "note": "All four elements stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/naples/the-ritz-carlton-naples",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Guest rooms and suites include connecting family rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "including connecting family rooms for moments shared together",
+          "note": "Guest rooms and suites include connecting family rooms",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/rswrz-the-ritz-carlton-naples/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Bath essentials in the rooms are by Diptyque.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our hotel rooms in Naples, Florida, feature premium bath essentials by Diptyque",
+          "note": "Diptyque bath essentials",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/rswrz-the-ritz-carlton-naples/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Nolita serves New York-style Italian classics, including artisan pastas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Nolita serves New York-style Italian classics in Naples. Enjoy artisan pastas and family-inspired dishes",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/rswrz-the-ritz-carlton-naples/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Sofra serves Mediterranean cuisine with vegetable-forward, shareable plates.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Savor flavorful Mediterranean cuisine with vegetable-forward, shareable plates",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/rswrz-the-ritz-carlton-naples/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "DUSK serves sushi, small plates and signature cocktails.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "DUSK pairs sleek design with artful sushi, small plates, and signature cocktails.",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/rswrz-the-ritz-carlton-naples/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Gumbo Limbo is a seafood restaurant located directly on the water.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Gumbo Limbo, the casual seafood restaurant at The Ritz-Carlton, Naples. Located directly on the water",
+          "note": "Seafood, directly on the water",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/rswrz-the-ritz-carlton-naples/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Sand Bar is a beachside spot for handcrafted cocktails, reached by a tiki-torch boardwalk.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Follow a tiki-torch boardwalk to this beachside hideaway for handcrafted cocktails",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/rswrz-the-ritz-carlton-naples/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The Club Level in the Vanderbilt Tower includes a dedicated concierge, private lounge access and five daily culinary presentations.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Guests enjoy a dedicated concierge, private lounge access, five daily culinary presentations",
+          "note": "Club in Vanderbilt Tower; all three items listed",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/rswrz-the-ritz-carlton-naples/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Ritz-Carlton Club in the Vanderbilt Tower embodies thoughtful luxury and exceptional service.",
+          "note": "Vanderbilt Tower",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/rswrz-the-ritz-carlton-naples/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The U-shaped property has two Mediterranean-style towers and overlooks the Gulf of Mexico.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "This U-shaped property with two Mediterranean-style towers overlooks the Gulf of Mexico",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/naples/the-ritz-carlton-naples",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Guests can reserve a climate-controlled poolside bungalow or an open-air cabana with dedicated butler service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Reserve a climate-controlled bungalow or open-air cabana with dedicated butler service",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/rswrz-the-ritz-carlton-naples/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The spa offers a mineral bath, herbal steam room, infrared sauna, and contrast therapy with hot and cold plunges.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "mineral bath, herbal steam room, infrared sauna, and contrast therapy with hot and cold plunges",
+          "note": "All four listed",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/rswrz-the-ritz-carlton-naples/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Presidential Suite is on the 14th floor with ocean-front views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Presidential Suite, located on the 14th floor with breathtaking ocean front views",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/rswrz-the-ritz-carlton-naples/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Ritz Kids program was created with the Conservancy of Southwest Florida and has a dedicated Ritz Kids Room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "created with the Conservancy of Southwest Florida. With a dedicated Ritz Kids Room",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/rswrz-the-ritz-carlton-naples/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Spa facilities such as locker rooms and relaxation areas are available to resort guests aged 18 and over with the purchase of a treatment.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The spa facilities, including locker rooms, aqua lounges, and relaxation areas are available to resort guests 18 years and older with the purchase of a treatment.",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/rswrz-the-ritz-carlton-naples/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "The hotel does not provide shuttle service from the airports.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "This hotel does not provide shuttle service.",
+          "note": "Stated under airport transportation (the resort does run a scheduled shuttle to Tiburón)",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/rswrz-the-ritz-carlton-naples/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

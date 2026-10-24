@@ -1,0 +1,386 @@
+{
+  "hotel_slug": "inn-by-the-sea",
+  "hotel_name": "Inn by the Sea",
+  "checked_at": "2026-10-15T16:40:16.319Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://innbythesea.com/",
+      "tier": "official",
+      "chars": 2041
+    },
+    {
+      "id": "d2",
+      "url": "https://innbythesea.com/plan-your-stay/activities/",
+      "tier": "official",
+      "chars": 1822
+    },
+    {
+      "id": "d3",
+      "url": "https://innbythesea.com/spa/about-the-spa/",
+      "tier": "official",
+      "chars": 8614
+    },
+    {
+      "id": "d4",
+      "url": "https://www.cntraveler.com/hotels/united-states/cape-elizabeth/inn-by-the-sea-cape-elizabeth",
+      "tier": "editorial",
+      "chars": 6911
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Inn by the Sea is located on a mile of sandy beach on the coast of Maine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Inn by the Sea is located on a mile of sandy beach on the coast of Maine.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://innbythesea.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The inn is in Cape Elizabeth, about a 15-minute drive from downtown Portland, Maine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "this Cape Elizabeth property a 15-minute drive from downtown\nPortland, Maine,",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/cape-elizabeth/inn-by-the-sea-cape-elizabeth",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Guestrooms and one- or two-bedroom suites have private exterior entrances.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "sixty-two guestrooms and one or two-bedroom suites with private exterior entrances",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://innbythesea.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Pet-friendly accommodations are offered.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "including pet-friendly options",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://innbythesea.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The spa offers massages, facials and body treatments, with private relaxation sanctuaries, steam rooms and experience showers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "offers a variety of massages, facials, and body treatments, complemented by private relaxation sanctuaries, steam rooms, and experience showers",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://innbythesea.com/spa/about-the-spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The resort has an outdoor swimming pool and private cabanas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "outdoor swimming pool, private cabanas, and direct access to beautiful Crescent Beach",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://innbythesea.com/spa/about-the-spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The fitness center has Peloton bikes and on-demand fitness classes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "our fitness center, featuring modern cardio and strength-training equipment, Peloton bikes, and on-demand fitness classes",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://innbythesea.com/spa/about-the-spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "All of the property's clean electricity comes from solar, and there are composting programs for guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "green energy (100% of the property’s clean electricity comes from solar), and composting programs for guests",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/cape-elizabeth/inn-by-the-sea-cape-elizabeth",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The inn runs environmental programs and long-term commitments to restore the surrounding land, with green design throughout.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "with environmental programs, long-term commitments to restore the land it around it, and green design throughout",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/cape-elizabeth/inn-by-the-sea-cape-elizabeth",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "On property there are weekly Beach Ecology Walks, Garden Tours and Great Pond Walks.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "On property, we offer a variety of ways to experience Cape Elizabeth with weekly Beach Ecology Walks, Garden Tours, Great Pond Walks",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://innbythesea.com/plan-your-stay/activities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Sea Glass, the restaurant, uses ingredients from Maine farms and fishermen.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our restaurant features the freshest ingredients from land and sea provided by the wonderful farms and fisherman of the great state of Maine.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://innbythesea.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The inn partners with BabyQuip so families can rent baby gear.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "we have partnered with BabyQuip to make your family travel at Inn by the Sea a breeze",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://innbythesea.com/plan-your-stay/activities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Crescent Beach, a salt-water beach with relatively warm water, is reached from the inn by a private boardwalk.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Relatively warm water at  this classic salt-water beach is just a private boardwalk away",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://innbythesea.com/plan-your-stay/activities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Garden suites and loft suites in the main house often have two floors, Atlantic views, private decks and kitchenettes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "newly designed garden suites and loft suites in the main house—many have two floors and dramatic views of the Atlantic, private decks, equipped kitchenettes",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/cape-elizabeth/inn-by-the-sea-cape-elizabeth",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Beach suites can have views of Crescent Beach, a private outdoor patio, a fully equipped kitchen, a gas fireplace, a steam shower and an extra-large bathtub.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "soothing views of Sandy Crescent Beach, a private outdoor patio, a fully equipped kitchen, gas burning fireplace, steam shower and an extra-large bathtub",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/cape-elizabeth/inn-by-the-sea-cape-elizabeth",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Spa treatments use marine-based skincare products with seaweed extracts and marine peptides.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "marine-based skincare products rich in rejuvenating seaweed extracts, marine peptides",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://innbythesea.com/spa/about-the-spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Daily morning yoga is a mixed-level class for adults, overlooking the Atlantic.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Morning Yoga",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://innbythesea.com/plan-your-stay/activities/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "a mixed level class overlooking the Atlantic. Meet in the fitness center, yoga mats provided. Adults only, available daily.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://innbythesea.com/plan-your-stay/activities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Spa services and amenities are reserved for guests 18 and older; the minimum age for services is 16 when accompanied by an adult.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Minimum age for services is 16 accompanied by guest of 18 years or older. Spa services and amenities are reserved for guests 18 years of age and older.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://innbythesea.com/spa/about-the-spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Advance reservations are required for all spa services.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Advance reservations are required for all SPA services.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://innbythesea.com/spa/about-the-spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes a remote coastal location that requires transportation for activities, and seasonal weather limits on outdoor activities.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

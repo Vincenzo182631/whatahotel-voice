@@ -1,0 +1,475 @@
+{
+  "hotel_slug": "four-seasons-st-louis",
+  "hotel_name": "Four Seasons Hotel St. Louis",
+  "checked_at": "2026-10-07T21:44:18.073Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 20,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 6,
+      "total": 26
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://press.fourseasons.com/stlouis/hotel-facts/",
+      "tier": "official",
+      "chars": 5428
+    },
+    {
+      "id": "d2",
+      "url": "https://www.fourseasons.com/stlouis/",
+      "tier": "official",
+      "chars": 8063
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/stlouis/dining/",
+      "tier": "official",
+      "chars": 5687
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/stlouis/spa/",
+      "tier": "official",
+      "chars": 3954
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/stlouis/accommodations/",
+      "tier": "official",
+      "chars": 6189
+    },
+    {
+      "id": "d6",
+      "url": "https://www.fourseasons.com/stlouis/getting-here/",
+      "tier": "official",
+      "chars": 3800
+    },
+    {
+      "id": "d7",
+      "url": "https://www.fourseasons.com/stlouis/services-and-amenities/",
+      "tier": "official",
+      "chars": 3347
+    },
+    {
+      "id": "d8",
+      "url": "https://www.fourseasons.com/stlouis/services-and-amenities/topgolf-swing-suite/",
+      "tier": "official",
+      "chars": 4085
+    },
+    {
+      "id": "d9",
+      "url": "https://www.fourseasons.com/stlouis/services-and-amenities/pool/",
+      "tier": "official",
+      "chars": 1800
+    },
+    {
+      "id": "d10",
+      "url": "https://www.fourseasons.com/stlouis/contact-us/",
+      "tier": "official",
+      "chars": 1540
+    },
+    {
+      "id": "d11",
+      "url": "https://www.cntraveler.com/hotels/united-states/st-louis/four-seasons-hotel-st--louis",
+      "tier": "editorial",
+      "chars": 1502
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Four Seasons Hotel St. Louis is at 999 North 2nd Street.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "999 North 2nd Street, St. Louis, Missouri, 63102, USA",
+          "note": "address matches",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/stlouis/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel has 200 rooms in total.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Total Number of Rooms:** 200",
+          "note": "200 rooms total",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/stlouis/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel opened in February 2008.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "February 2008",
+          "note": "opening date February 2008",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/stlouis/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel overlooks the Mississippi River, Gateway Arch National Park and the St. Louis skyline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Overlooks Mississippi River, Gateway Arch National Park and St. Louis skyline",
+          "note": "exact match",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/stlouis/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The hotel is on the west bank of the Mississippi.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Our scenic address on the west bank of the Mississippi puts you right near the iconic Gateway Arch",
+          "note": "west bank stated",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/stlouis/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The design is a modern riverside building enclosed in a 650-foot (198-metre) glass light box.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Modern riverside building enclosed in a 650-foot (198-metre) glass light box with 500,000 LED lights",
+          "note": "design and size match",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/stlouis/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The glass light box has 500,000 LED lights.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Modern riverside building enclosed in a 650-foot (198-metre) glass light box with 500,000 LED lights",
+          "note": "500,000 LED lights",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/stlouis/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel comprises 15 floors of a 19-floor building.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Hotel comprises 15 floors of a 19-floor building",
+          "note": "exact match",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/stlouis/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Ramsay's Kitchen by Gordon Ramsay is the hotel's restaurant.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Restaurant:** Ramsay's Kitchen by Gordon Ramsay",
+          "note": "listed as the hotel restaurant",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/stlouis/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "RK Bar is a rooftop bar with views of the Gateway Arch.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "RK Bar at Four Seasons Hotel St. Louis is a rooftop bar serving expertly crafted cocktails",
+          "note": "rooftop bar",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/stlouis/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Enjoy an inviting open-air terrace with firepits and views of the Gateway Arch",
+          "note": "Arch views",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/stlouis/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Lambert-St. Louis International Airport is 20 minutes by car from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Travel Time20 minutes by car",
+          "note": "airport listed with 20 minutes by car",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/stlouis/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The Fitness Centre is open 24 hours.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "on the advanced treadmills in our 24-hour Fitness Centre",
+          "note": "24-hour",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/stlouis/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The eighth-floor Sky Terrace has an outdoor swimming pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Eighth-floor Sky Terrace with outdoor swimming pool",
+          "note": "exact match",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/stlouis/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Arch-View Room has floor-to-ceiling windows framing the Gateway Arch.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "with floor-to-ceiling windows framing the Gateway Arch from your private retreat.",
+          "note": "Arch-View Room description",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/stlouis/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The hotel has the first-ever Topgolf Swing Suite in downtown St. Louis.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Take a swing at the first-ever Topgolf Swing Suite in downtown St. Louis",
+          "note": "exact match",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/stlouis/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Spa After Dark Experience gives exclusive use of the 12,000-square-foot spa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Spa After Dark Experience with exclusive use of our 12,000-square-foot space",
+          "note": "exclusive use of 12,000 sq ft space",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/stlouis/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The hotel has a USD 7 million modern art collection.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "USD 7 million modern art collection",
+          "note": "exact match",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/stlouis/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Overnight valet parking is USD 65 plus tax per night.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "OVERNIGHT VALET PARKING – USD 65 plus tax per night",
+          "note": "exact match",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/stlouis/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Guests must be ages 16 or over to access the spa facilities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Guests must be ages 16 or over to access the spa facilities",
+          "note": "exact match",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/stlouis/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "Spa treatments run from 9:00 am to 6:00 pm daily.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Daily8:30 am – 6:30 pmSpa Treatments9:00 am – 6:00 pm",
+          "note": "daily hours, treatments 9-6",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/stlouis/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-4",
+      "text": "WhataHotel notes premium luxury pricing reflects the high-end positioning.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, breakfast for two is free daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers can be combined with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

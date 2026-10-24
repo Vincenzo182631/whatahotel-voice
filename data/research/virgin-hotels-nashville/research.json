@@ -1,0 +1,305 @@
+{
+  "slug": "virgin-hotels-nashville",
+  "status": "ready",
+  "partial": true,
+  "reasons": [
+    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue",
+    "coverage is partial: a limit stopped the page fetch early; raise the limits and rerun to read the rest"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Virgin Hotels Nashville",
+      "city": "Nashville",
+      "country": "US"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Nashville, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://virginhotels.com/nashville/"
+    ],
+    "checked_at": "2026-10-15T23:44:56.728Z",
+    "status": "confirmed",
+    "official_url": "https://virginhotels.com/nashville/",
+    "base_url": "https://virginhotels.com/",
+    "host": "virginhotels.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://virginhotels.com/nashville/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:44:58.315Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://virginhotels.com/nashville/stay/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:45:03.784Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://virginhotels.com/nashville/eat-drink/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:45:06.332Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://virginhotels.com/nashville/the-hotel/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:45:10.011Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://virginhotels.com/dallas/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:45:10.180Z",
+      "source": "cache"
+    },
+    {
+      "id": "p6",
+      "url": "https://virginhotels.com/new-york/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:45:10.181Z",
+      "source": "cache"
+    },
+    {
+      "id": "p7",
+      "url": "https://virginhotels.com/the-know/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:45:10.182Z",
+      "source": "cache"
+    },
+    {
+      "id": "p8",
+      "url": "https://virginhotels.com/las-vegas/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:45:10.184Z",
+      "source": "cache"
+    },
+    {
+      "id": "p9",
+      "url": "https://virginhotels.com/edinburgh/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:45:10.184Z",
+      "source": "cache"
+    },
+    {
+      "id": "p10",
+      "url": "https://virginhotels.com/new-orleans/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:45:10.185Z",
+      "source": "cache"
+    },
+    {
+      "id": "p11",
+      "url": "https://virginhotels.com/credit-card/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:45:10.186Z",
+      "source": "cache"
+    },
+    {
+      "id": "p12",
+      "url": "https://virginhotels.com/london-shoreditch/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:45:10.186Z",
+      "source": "cache"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 5,
+    "firecrawl_searches": 1,
+    "cache_hits": 11,
+    "direct_fetches": 0,
+    "pages": 12,
+    "chars": 48933,
+    "est_claude_tokens": 12233
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-15T23:45:15.119Z",
+  "hotel": {
+    "name": "Virgin Hotels Nashville",
+    "city": "Nashville",
+    "country": "US",
+    "confirmed_affiliation": {
+      "kind": "independent"
+    }
+  },
+  "official_url": "https://virginhotels.com/nashville/",
+  "verified_facts": [
+    {
+      "id": "r-1",
+      "category": "location",
+      "text": "The hotel is located in Nashville's Music Row, minutes from The Gulch and Downtown Nashville.",
+      "source_url": "https://virginhotels.com/nashville/",
+      "source_tier": "official",
+      "excerpt": "Located in the heart of Nashville’s Music Row, minutes from The Gulch and Downtown Nashville"
+    },
+    {
+      "id": "r-2",
+      "category": "location",
+      "text": "The hotel is steps away from Vanderbilt University and the Gulch neighborhood.",
+      "source_url": "https://virginhotels.com/nashville/",
+      "source_tier": "official",
+      "excerpt": "steps away from Vanderbilt University and the trendy Gulch neighborhood"
+    },
+    {
+      "id": "r-3",
+      "category": "rooms",
+      "text": "The signature two-chamber rooms have separate areas for sleeping and living, divided by a privacy partition.",
+      "source_url": "https://virginhotels.com/nashville/stay/",
+      "source_tier": "official",
+      "excerpt": "Our signature two-chamber hotel rooms in downtown Nashville come with designated areas for sleeping and living, separated by a privacy partition."
+    },
+    {
+      "id": "r-4",
+      "category": "rooms",
+      "text": "The hotel's beds are patented.",
+      "source_url": "https://virginhotels.com/nashville/the-hotel/",
+      "source_tier": "official",
+      "excerpt": "one-of-a-kind patented beds"
+    },
+    {
+      "id": "r-5",
+      "category": "rooms",
+      "text": "Rooms have a dedicated makeup vanity and dressing area with an over-sized mirror and flattering lights.",
+      "source_url": "https://virginhotels.com/nashville/stay/",
+      "source_tier": "official",
+      "excerpt": "take a seat at our dedicated makeup vanity and dressing area. Fitted with an over-sized mirror and flattering lights"
+    },
+    {
+      "id": "r-6",
+      "category": "rooms",
+      "text": "Rooms have SMEG fridges stocked at street prices.",
+      "source_url": "https://virginhotels.com/nashville/stay/",
+      "source_tier": "official",
+      "excerpt": "Our signature SMEG fridges are smartly stocked at street prices, so you won't be paying a premium for the convenience."
+    },
+    {
+      "id": "r-7",
+      "category": "rooms",
+      "text": "Suites include a communal space for work and play with separate chambers.",
+      "source_url": "https://virginhotels.com/nashville/stay/",
+      "source_tier": "official",
+      "excerpt": "Our luxury Nashville suites include a communal space for you to work and play, complete with separate chambers"
+    },
+    {
+      "id": "r-8",
+      "category": "amenities",
+      "text": "The Pool Club is a rooftop pool on the 14th floor with cabanas, loungers and skyline views.",
+      "source_url": "https://virginhotels.com/nashville/the-hotel/",
+      "source_tier": "official",
+      "excerpt": "enjoy canapés in your cabana or take a lazy lunch in a lounger at our 14th floor rooftop pool in downtown Nashville. Of course, we didn't forget the chill beats and skyline views to match."
+    },
+    {
+      "id": "r-9",
+      "category": "dining",
+      "text": "The Late Great is a speakeasy inspired by the spirit of Nashville's B-Room studios, with rare whiskeys and live sets.",
+      "source_url": "https://virginhotels.com/nashville/eat-drink/",
+      "source_tier": "official",
+      "excerpt": "Channeling the spirit of Nashville’s iconic B-Room studios—intimate, untouchable, and effortlessly cool. Come for the rare whiskeys, stay for the live sets and low-lit magic."
+    },
+    {
+      "id": "r-10",
+      "category": "dining",
+      "text": "At Commons Club, Chef Adam Terhune serves reinvented American classics with southern twists.",
+      "source_url": "https://virginhotels.com/nashville/the-hotel/",
+      "source_tier": "official",
+      "excerpt": "Join Chef Adam Terhune at the Commons Club in Nashville as he serves up reinvented American classics with unexpected southern twists."
+    },
+    {
+      "id": "r-11",
+      "category": "amenities",
+      "text": "Funny Library is a coffee shop and communal workspace serving La Colombe coffee.",
+      "source_url": "https://virginhotels.com/nashville/eat-drink/",
+      "source_tier": "official",
+      "excerpt": "Our whimsical coffee shop and communal workspace is where the line between work and play fades away. Refuel with caffeinated brews by La Colombe"
+    },
+    {
+      "id": "r-12",
+      "category": "family",
+      "text": "Pets stay free, with no size or breed restrictions.",
+      "source_url": "https://virginhotels.com/nashville/the-hotel/",
+      "source_tier": "official",
+      "excerpt": "pets stay free. No size or breed restrictions!"
+    },
+    {
+      "id": "r-13",
+      "category": "practical",
+      "text": "The Virgin Hotels App lets guests order room service, adjust temperature, control lights and TV, and access their room.",
+      "source_url": "https://virginhotels.com/nashville/stay/",
+      "source_tier": "official",
+      "excerpt": "Order room service, adjust the temperature, control the lights and TV or access your chamber."
+    },
+    {
+      "id": "r-14",
+      "category": "experiences",
+      "text": "The hotel runs a line-up of live entertainment and programming.",
+      "source_url": "https://virginhotels.com/nashville/",
+      "source_tier": "official",
+      "excerpt": "our line-up of live entertainment and programming at Virgin Hotels Nashville"
+    },
+    {
+      "id": "r-15",
+      "category": "amenities",
+      "text": "The gym and fitness center is on the second floor.",
+      "source_url": "https://virginhotels.com/nashville/the-hotel/",
+      "source_tier": "official",
+      "excerpt": "Walk, jog or run up to our gym and fitness center on the second floor."
+    },
+    {
+      "id": "r-16",
+      "category": "practical",
+      "text": "Wi-Fi is free.",
+      "source_url": "https://virginhotels.com/nashville/stay/",
+      "source_tier": "official",
+      "excerpt": "Fast Free Wi-Fi."
+    },
+    {
+      "id": "r-17",
+      "category": "amenities",
+      "text": "The hotel has spaces for meetings, events and weddings.",
+      "source_url": "https://virginhotels.com/nashville/the-hotel/",
+      "source_tier": "official",
+      "excerpt": "Whether you’re looking to celebrate your happily ever after, deliver a top-notch client presentation, or have a meeting of the minds, we have a space for you."
+    }
+  ],
+  "highlights": [
+    "r-3",
+    "r-8",
+    "r-4",
+    "r-9",
+    "r-1",
+    "r-12",
+    "r-5"
+  ],
+  "subjective": [
+    {
+      "id": "r-18",
+      "text": "The hotel calls its beds so comfortable you'll think you're dreaming.",
+      "reason": "the hotel's own opinion or praise; keep out of facts"
+    }
+  ],
+  "unresolved": [],
+  "rejected": [],
+  "contradictions": []
+}

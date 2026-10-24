@@ -1,0 +1,355 @@
+{
+  "hotel_slug": "ritz-carlton-santiago",
+  "hotel_name": "The Ritz-Carlton, Santiago",
+  "checked_at": "2026-10-09T14:51:44.103Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 16,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 17
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ritzcarlton.com/en/hotels/sclrz-the-ritz-carlton-santiago/overview/",
+      "tier": "official",
+      "chars": 13283
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ritzcarlton.com/en/hotels/sclrz-the-ritz-carlton-santiago/rooms/",
+      "tier": "official",
+      "chars": 7207
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ritzcarlton.com/en/hotels/sclrz-the-ritz-carlton-santiago/dining/",
+      "tier": "official",
+      "chars": 5097
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ritzcarlton.com/en/hotels/sclrz-the-ritz-carlton-santiago/spa/",
+      "tier": "official",
+      "chars": 6632
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ritzcarlton.com/en/hotels/sclrz-the-ritz-carlton-santiago/experiences/",
+      "tier": "official",
+      "chars": 13313
+    },
+    {
+      "id": "d6",
+      "url": "https://www.cntraveler.com/hotels/chile/providencia/ritz-carlton-santiago",
+      "tier": "editorial",
+      "chars": 12002
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ritzcarlton.com/en/hotels/sclrz-the-ritz-carlton-santiago/experiences/holidays/",
+      "tier": "official",
+      "chars": 4840
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ritzcarlton.com/en/hotels/sclrz-the-ritz-carlton-santiago/club/",
+      "tier": "official",
+      "chars": 3727
+    },
+    {
+      "id": "d9",
+      "url": "https://www.ritzcarlton.com/en/hotels/sclrz-the-ritz-carlton-santiago/reviews/",
+      "tier": "official",
+      "chars": 751
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is at El Alcalde 15, in the El Golf area of Las Condes, Santiago.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "El Alcalde 15, El Golf, Las Condes, Santiago, Chile",
+          "note": "Address matches",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/sclrz-the-ritz-carlton-santiago/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Opened in 2003 as the first Ritz-Carlton in South America.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "It first opened its doors in 2003 as the first Ritz-Carlton in South America.",
+          "note": "Year and first-in-South-America stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/chile/providencia/ritz-carlton-santiago",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Ritz-Carlton Bar has a dedicated pisco menu.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Pisco has its dedicated menu at The Ritz-Carlton Bar.",
+          "note": "Dedicated pisco menu stated",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/sclrz-the-ritz-carlton-santiago/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Café Ritual serves hand-roasted beans from Central and South America.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "featuring hand-roasted beans from Central and South America",
+          "note": "Cafe Ritual coffee focus with hand-roasted beans",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/sclrz-the-ritz-carlton-santiago/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The spa is a rooftop sanctuary on the upper floors of the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Tucked away within the upper floors of this hotel in Santiago, Chile, The Ritz-Carlton Spa provides a rooftop sanctuary rooted in healing and relaxation.",
+          "note": "Rooftop sanctuary on upper floors",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/sclrz-the-ritz-carlton-santiago/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Club Level is on the 10th floor and is described as a hotel within a hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Located on the 10th floor, it is a hotel within a hotel.",
+          "note": "10th floor and hotel within a hotel",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/sclrz-the-ritz-carlton-santiago/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Guest rooms have Diptyque bath amenities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Guests in our El Golf, Santiago hotel rooms can enjoy exclusive Diptyque bath amenities",
+          "note": "Diptyque bath amenities",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/sclrz-the-ritz-carlton-santiago/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Gran Torre Santiago, the tallest building in South America, is a 15-minute walk away.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "a 15-minute walk to the tallest building in South America, Gran Torre Santiago",
+          "note": "Walk time and tallest claim stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/chile/providencia/ritz-carlton-santiago",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Beaches, skiing in the Andes and the Maipo Valley wine region are described as easily accessible from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Beautiful beaches, skiing in the Andes and the Maipo Valley wine region are all easily accessible",
+          "note": "All three listed",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/sclrz-the-ritz-carlton-santiago/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The Ritz-Kids program is for children aged 4 to 12.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The Ritz-Kids program offers children aged 4 to 12 various offers and activities:",
+          "note": "Ages 4 to 12",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/sclrz-the-ritz-carlton-santiago/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "New Chilean cuisine is the focus of Estró restaurant.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "New Chilean cuisine is the star at Estró restaurant.",
+          "note": "Estro focus on New Chilean cuisine",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/sclrz-the-ritz-carlton-santiago/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Spa guests can use an indoor pool under a glass cupola that opens onto an outdoor terrace overlooking Santiago.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Spa guests also enjoy access to the indoor pool, enveloped by a glass cupola and offering access to an outdoor terrace overlooking Santiago.",
+          "note": "All elements covered",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/sclrz-the-ritz-carlton-santiago/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Room design pays homage to Pre-Columbian craftsmanship with nature-inspired patterns and rich textures.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our renewed design pays homage to Pre-Columbian craftsmanship while bringing the space to life with a modern lens. Nature-inspired patterns and rich textures",
+          "note": "Design homage, patterns and textures",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/sclrz-the-ritz-carlton-santiago/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Estró's executive chef works with a local farm that grows half of its harvest for the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "The executive chef works with a local farm that grows half of its harvest for the hotel.",
+          "note": "Matches exactly",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/chile/providencia/ritz-carlton-santiago",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel is 25.0 km from Arturo Merino Benitez International Airport.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "SCL is located approximately 25.0 KM from the hotel.",
+          "note": "Distance matches",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/sclrz-the-ritz-carlton-santiago/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Condé Nast Traveler says this is not really a kiddie kind of place.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "This is not really a kiddie kind of place",
+          "note": "Condé Nast Traveler page states this",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/chile/providencia/ritz-carlton-santiago",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the urban setting may lack resort-style recreational facilities.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

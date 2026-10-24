@@ -1,0 +1,423 @@
+{
+  "hotel_slug": "park-hyatt-paris-vendome",
+  "hotel_name": "Park Hyatt Paris-Vendome",
+  "checked_at": "2026-10-13T08:35:49.089Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/parph-park-hyatt-paris-vendome",
+      "tier": "official",
+      "chars": 8959
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/parph-park-hyatt-paris-vendome/rooms/",
+      "tier": "official",
+      "chars": 23024
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/parph-park-hyatt-paris-vendome/dining/",
+      "tier": "official",
+      "chars": 5079
+    },
+    {
+      "id": "d4",
+      "url": "https://www.cntraveler.com/hotels/france/paris/park-hyatt-paris-vendome",
+      "tier": "editorial",
+      "chars": 9643
+    },
+    {
+      "id": "d5",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/parph-park-hyatt-paris-vendome/parking-and-transportation/",
+      "tier": "official",
+      "chars": 724
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/parph-park-hyatt-paris-vendome/hotel-info/",
+      "tier": "official",
+      "chars": 1338
+    },
+    {
+      "id": "d7",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/parph-park-hyatt-paris-vendome/reviews/",
+      "tier": "official",
+      "chars": 16525
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is at 5 Rue de la Paix, 75002 Paris.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "5 Rue de la Paix, 75002 Paris, France",
+          "note": "address stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/parph-park-hyatt-paris-vendome",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Place Vendome and the Opera Garnier are steps from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Place Vendôme and Opéra Garnier are just steps away.",
+          "note": "both landmarks steps away",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/parph-park-hyatt-paris-vendome",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "SEOK serves Korean cuisine inspired by the traditions and hospitality of Seoul.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "SEOK offers authentic and generous Korean cuisine inspired by the traditions and hospitality of Seoul.",
+          "note": "stated on dining page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/parph-park-hyatt-paris-vendome/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "PUR', led by chef Jean-Francois Rouquette, offers contemporary French cuisine with an exclusive Chef's Table experience.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Michelin-starred PUR' – Jean-François Rouquette invites guests to discover contemporary French cuisine, enhanced by the exclusive Chef's Table experience.",
+          "note": "chef, cuisine and Chef's Table all stated",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/parph-park-hyatt-paris-vendome/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The spa has a jetted tub, a sauna, a steam room and treatment rooms including one for couples.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Nestled beside the inviting jetted tub, the cozy relaxation lounge is surrounded by a sauna, a steam room and 4 exquisite treatment rooms (including one duo).",
+          "note": "jetted tub, sauna, steam room, duo treatment room",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/parph-park-hyatt-paris-vendome",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "All rooms were updated in 2017 by American designer Ed Tuttle in a warm neutral and gold palette.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "All rooms, including mine on the sixth floor (639), were updated in 2017 by American designer Ed Tuttle in a warm neutral and gold palette.",
+          "note": "stated in CN Traveler review",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/france/paris/park-hyatt-paris-vendome",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Deluxe rooms have limestone bathrooms with a deep soaking tub and a separate rainfall shower.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The elegant limestone bathroom features a deep soaking tub and separate rainfall shower.",
+          "note": "1 King Bed Deluxe description",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/parph-park-hyatt-paris-vendome/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Perfumer Christophe Laudamiel created the hotel's signature scent.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Christophe Laudamiel, a respected nose who developed scents for Ralph Lauren and Clinique, among others.",
+          "note": "names the perfumer",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/france/paris/park-hyatt-paris-vendome",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Here, he created both the signature olfactive scent for the entirety of the hotel spaces",
+          "note": "he created the signature scent",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/france/paris/park-hyatt-paris-vendome",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "L'Appartement is a private apartment with a view over the roofs of Paris.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our private apartment, and contemporary designed rooms and suites are intimate and welcoming spaces.",
+          "note": "private apartment",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/parph-park-hyatt-paris-vendome",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "It’s artfully designed, offers five-star service and features a view over the roofs of Paris.",
+          "note": "view over the roofs of Paris",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/parph-park-hyatt-paris-vendome",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Cafe Jeanne serves an all-day menu at the bar, by the fireplace or on the terrace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Whether installed at the bar counter, in the restaurant seats, near the fireplace or on the terrace, a unique menu made up of gastronomic essentials is offered all day long until late night.",
+          "note": "all-day menu at bar, fireplace, terrace",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/parph-park-hyatt-paris-vendome/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Opera metro station, served by lines 3, 7 and 8, is nearby.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Metro lines 3, 7 and 8 at Opéra Metro Station provide access to the Louvre, Champ de Mars, Notre-Dame Cathedral and more.",
+          "note": "listed under getting around from the hotel",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/parph-park-hyatt-paris-vendome/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The hotel has nearly 700 square meters of meeting and event space.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "With nearly 700 square meters (7,500 square feet) of customizable space",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/parph-park-hyatt-paris-vendome",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Restaurant PUR' was redesigned by artist-architect Hugo Toro in fall 2024.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "After all those years, the restaurant finally got the design refresh it deserved in fall 2024.",
+          "note": "redesign in fall 2024",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/france/paris/park-hyatt-paris-vendome",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "blending the visionary designs of artist-architect Hugo Toro with the culinary brilliance of Michelin-starred Chef Jean-François Rouquette",
+          "note": "artist-architect Hugo Toro designed PUR'",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/parph-park-hyatt-paris-vendome/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The spa partners exclusively with the La Mer cosmetics brand.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The hotel exclusively partners with the prestigious La Mer cosmetics brand.",
+          "note": "stated in Le Spa section",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/parph-park-hyatt-paris-vendome",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Hairstylist John Nollet runs a hair salon in Suite 101 of the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "John Nollet offers an exceptional range of exclusive cutting and care protocols in his Suite 101.",
+          "note": "John Nollet Hair Salon section",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/parph-park-hyatt-paris-vendome",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Sixth-floor rooms have balconies with views of Parisian rooftops and Place Vendome.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The sixth and top floor benefits from unobstructed views of Parisian rooftops and even the Place Vendôme from the room's balconies.",
+          "note": "stated in CN Traveler review",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/france/paris/park-hyatt-paris-vendome",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "La Terrasse du Park is a sunlit terrace in the heart of the hotel, sheltered by historic facades.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Located in the heart of the hotel, sheltered by historic facades, this charming, sunlit terrace is the perfect spot to enjoy springtime lunches and lively dinners.",
+          "note": "La Terrasse du Park description",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/parph-park-hyatt-paris-vendome/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Pets are welcome for a daily fee, but not in Restaurant PUR' or the spa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "There is a daily fee of €50 per pet for pets under 10 kilograms and a €100 daily fee for pets over 10 kilograms.",
+          "note": "pets welcome with daily fee",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/parph-park-hyatt-paris-vendome",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Pets are not allowed at Restaurant PUR' - Jean-François Rouquette and our Spa.",
+          "note": "excluded from PUR' and spa",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/parph-park-hyatt-paris-vendome",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes ultra-luxury pricing that reflects the hotel's premium positioning.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the intimate boutique size may limit amenity variety.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

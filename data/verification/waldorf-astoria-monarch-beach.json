@@ -1,0 +1,385 @@
+{
+  "hotel_slug": "waldorf-astoria-monarch-beach",
+  "hotel_name": "Waldorf Astoria Monarch Beach",
+  "checked_at": "2026-10-14T23:02:34.962Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hilton.com/en/hotels/snamowa-waldorf-astoria-monarch-beach/dining/",
+      "tier": "official",
+      "chars": 3537
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hilton.com/en/hotels/snamowa-waldorf-astoria-monarch-beach/dining/aveo/",
+      "tier": "official",
+      "chars": 5648
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hilton.com/en/hotels/snamowa-waldorf-astoria-monarch-beach/dining/bourbon-steak/",
+      "tier": "official",
+      "chars": 3944
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hilton.com/en/hotels/snamowa-waldorf-astoria-monarch-beach/monarch-bay-beach-club/",
+      "tier": "official",
+      "chars": 4376
+    },
+    {
+      "id": "d5",
+      "url": "https://www.cntraveler.com/hotels/dana-point/waldorf-astoria-monarch-beach",
+      "tier": "editorial",
+      "chars": 12279
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel was built in 2001 and operated for many years as a St. Regis resort.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Built in 2001 atop the Monarch Bay, this hotel operated for many years as a St. Regis resort.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/dana-point/waldorf-astoria-monarch-beach",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "In early 2021 the resort joined the Waldorf Astoria Collection.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "In early 2021, after a few years as an independent hotel, the Monarch Beach Resort joined the Waldorf Astoria Collection",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/dana-point/waldorf-astoria-monarch-beach",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The resort's golf course was designed by Robert Trent Jones, Jr.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "the golf course (designed by Robert Trent Jones, Jr.)",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/dana-point/waldorf-astoria-monarch-beach",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Monarch Bay Beach Club has an indoor-outdoor bar and offers sunset dinners on the Beach Lawn.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Experience the warm ocean breeze through our indoor-outdoor bar or the laid-back luxury of a sunset dinner on the spacious Beach Lawn.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/snamowa-waldorf-astoria-monarch-beach/monarch-bay-beach-club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "AVEO Table + Bar has a rotating seasonal menu with ingredients predominantly grown or caught in Southern California.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "A rotating seasonal menu showcases local seafood, prime filets, savory sandwiches, and fresh salads, with ingredients predominantly grown or caught in Southern California.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/snamowa-waldorf-astoria-monarch-beach/dining/aveo/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Bourbon Steak's cocktail program pairs classic 20th-century cocktails with modern-day interpretations.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Explore the distinctions of classic 20th-century cocktails alongside modern-day interpretations.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/snamowa-waldorf-astoria-monarch-beach/dining/bourbon-steak/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "33 North is the resort's coastal-inspired living room, with a bar, a fireplace and an outdoor terrace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Join friends and family in our coastal-inspired “living room,” with its stylish bar, cozy fireplace, and sweeping outdoor terrace.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/snamowa-waldorf-astoria-monarch-beach/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "This lobby bar and terrace, 33 North, is the main hub for guests",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/dana-point/waldorf-astoria-monarch-beach",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Sombra Cantina is a poolside cantina serving fish tacos, salads and ceviche.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our poolside cantina and kitchen is ideal for the whole family, with authentic and approachable favorites including fish tacos, salads, and ceviche.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/snamowa-waldorf-astoria-monarch-beach/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Sombra cantina serves poolside favorites",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/dana-point/waldorf-astoria-monarch-beach",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Part + Parcel Market offers market-fresh foods, curated picnic baskets, fresh juices, smoothies and La Colombe coffee.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Part + Parcel Market offers market-fresh foods, curated picnic baskets, and other culinary delights including fresh juices, smoothies, and La Colombe coffee.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/snamowa-waldorf-astoria-monarch-beach/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "There are two pools, one dedicated to families.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Down at the pools—there are two, with one dedicated just for families",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/dana-point/waldorf-astoria-monarch-beach",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Several ground-floor rooms have patios leading out to the pool area.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "For families, there are several rooms on the ground floor with patios that lead out to the pool area.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/dana-point/waldorf-astoria-monarch-beach",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Bathrooms have Salvatore Ferragamo toiletries, a soaking tub and dual marble vanities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "complete with Salvatore Ferragamo toiletries, a soaking tub with a window out to the guest room (and shutters to close for privacy), and dual marble vanities",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/dana-point/waldorf-astoria-monarch-beach",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The private Monarch Bay Beach Club is exclusive to registered guests and members.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Exclusive to registered guests and members, the private Monarch Bay Beach Club is an oceanfront sanctuary.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/snamowa-waldorf-astoria-monarch-beach/monarch-bay-beach-club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Guests can ride a little tram down to the private Monarch Bay Beach Club.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "they hop an adorable little tram down to the private Monarch Bay Beach Club for drinks, dinner, and a show—the sunset",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/dana-point/waldorf-astoria-monarch-beach",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Bourbon Steak Orange County is Chef Michael Mina's take on the American steakhouse.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Bourbon Steak Orange County is Chef Michael Mina’s nod to the American steakhouse experience.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/snamowa-waldorf-astoria-monarch-beach/dining/bourbon-steak/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Monarch Beach Kids Club is open to children ages 5 to 12.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "A Monarch Beach Kids Club nearby is open for children ages 5-12",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/dana-point/waldorf-astoria-monarch-beach",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The resort sits about a half mile back from the beach.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The Waldorf Astoria Monarch Beach sits a little bit back from the beach, about a half mile",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/dana-point/waldorf-astoria-monarch-beach",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The resort charges a daily resort fee.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The resort does have a daily resort fee",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/dana-point/waldorf-astoria-monarch-beach",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes that the large resort property may require walking between amenities.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

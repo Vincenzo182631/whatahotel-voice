@@ -1,0 +1,43 @@
+# Verification checklist: Ambergris Cay - All Inclusive
+
+Checked 2026-10-20 against the hotel's own pages and Condé Nast Traveler. Result: **can be marked verified** (profile set to verified).
+
+Supported 20 · contradicted 0 · unverified 0 · WhataHotel's own statements 0 · total 20
+
+## Pages checked
+
+- official: https://www.ambergriscay.com/
+- official: https://www.ambergriscay.com/waterside-escape/
+- official: https://www.ambergriscay.com/all-inclusive-resort-activities/
+- official: https://www.ambergriscay.com/about-ambergris-cay-private-island/
+- official: https://www.ambergriscay.com/all-inclusive-luxury-resort/
+- official: https://www.ambergriscay.com/turks-and-caicos-all-inclusive-villas/
+- official: https://www.ambergriscay.com/how-to-get-to-ambergris-cay-turks-and-caicos/
+- official: https://www.ambergriscay.com/bungalows/
+- official: https://www.ambergriscay.com/bungalows/waterside-bungalows/
+- not available: cntraveler.com (no Condé Nast Traveler hotel page found for this name)
+
+## Claims
+
+| | Claim | Evidence |
+|---|---|---|
+| ✅ | **f-1** Ambergris Cay is a private island in the Turks and Caicos, on the southeast corner of the Turks and Caicos Islands, 600 miles south of Miami. | "Ambergris Cay, an exclusive private island in the Turks and Caicos, sits 600 miles south of Miami, on the southeast corner of the string of Turks and Caicos Islands" (official, https://www.ambergriscay.com/) |
+| ✅ | **f-2** Guests have access to over 1,100 acres of mostly untouched land. | "travelers seeking a secluded luxury escape can enjoy access to over 1,100 acres of mostly untouched land" (official, https://www.ambergriscay.com/) |
+| ✅ | **f-3** Guests choose between beachfront bungalows along the shore, waterside bungalows with direct calm-water access near the Club House, or privately owned homes and luxury villas. | "Guests can choose from beachfront bungalows along the shore, waterside bungalows with direct calm-water access and proximity to the Club House, or a collection of privately owned homes and luxury villas" (official, https://www.ambergriscay.com/) |
+| ✅ | **f-4** The Waterside Bungalows have modern Caribbean design with floor-to-ceiling glass. | "luminous interiors and modern Caribbean design. Floor-to-ceiling glass that erases the line between inside and out" (official, https://www.ambergriscay.com/waterside-escape/) |
+| ✅ | **f-5** Every stay is all-inclusive, covering gourmet dining, premium spirits and cocktails, non-motorized water sports, yoga, electric bikes and tennis with a pro. | "Every stay at Ambergris Cay is all-inclusive. That means gourmet dining, premium spirits and cocktails, non-motorized water sports, yoga, electric bikes, tennis with a pro" (official, https://www.ambergriscay.com/waterside-escape/) |
+| ✅ | **f-6** Dining settings include poolside bites, deserted beach picnics and all-day dining at Calico restaurant and bar. | "culinary settings, including poolside bites, deserted beach picnics, and all day dining at Calico restaurant and bar" (official, https://www.ambergriscay.com/) |
+| ✅ | **f-7** Columbus Beach is an Atlantic Coast surf beach. | "Columbus Beach, Atlantic Coast surf beach" (official, https://www.ambergriscay.com/all-inclusive-resort-activities/) |
+| ✅ | **f-8** Monck Beach is a Caribbean Coast swimming beach. | "Monck Beach, Caribbean Coast swimming beach" (official, https://www.ambergriscay.com/all-inclusive-resort-activities/) |
+| ✅ | **f-9** The island's narrow, unpaved dirt roads are meant to prevent development that damages fragile ecosystems. | "Our narrow, unpaved dirt roads allow for effortless exploration, while preventing unnecessary destruction and development known to damage fragile ecosystems" (official, https://www.ambergriscay.com/about-ambergris-cay-private-island/) |
+| ✅ | **f-10** Elevate Spa offers massages and facials, and massages can be taken in air-conditioned oceanfront cabanas. | "Elevate Spa including massages & facials" (official, https://www.ambergriscay.com/all-inclusive-resort-activities/) |
+| ✅ | **f-11** The Club House has an Explorer's Hut for kids from 5 years old, with interactive games and treasure hunts. | "It features a pool table, ping-pong tables, video games, and board games, plus an Explorer’s Hut for kids (from 5 years old) to enjoy interactive games and treasure hunts" (official, https://www.ambergriscay.com/all-inclusive-luxury-resort/) |
+| ✅ | **f-12** Each bungalow and villa has an Island Host. | "Island Host for each bungalow and villa" (official, https://www.ambergriscay.com/all-inclusive-luxury-resort/) |
+| ✅ | **h-1** Each Waterside Bungalow has a private heated plunge pool, a shaded terrace opening directly onto the water, and a kayak and paddleboard at the shore. | "each with a private heated plunge pool, a shaded terrace that opens directly onto the water, and a kayak and paddleboard waiting at the shore" (official, https://www.ambergriscay.com/waterside-escape/) |
+| ✅ | **h-2** Marine activities include kayaking through mangroves, whale watching trips, free diving for conch and bone fishing. | "from kayaking through mangroves to whale watching trips, free diving for conch, or bone fishing" (official, https://www.ambergriscay.com/all-inclusive-resort-activities/) |
+| ✅ | **h-3** Ambergris Cay has its own airstrip, purpose-built for seamless arrivals. | "Ambergris Cay has its own airstrip, purpose-built for seamless arrivals" (official, https://www.ambergriscay.com/waterside-escape/) |
+| ✅ | **h-4** Dream Estate is the largest villa on Ambergris Cay, with two private chefs and butlers, four heated swimming pools and its own private beach. | "it is the largest villa on Ambergris Cay and includes two private chef and butlers, four heated swimming pools, and its own private beach" (official, https://www.ambergriscay.com/turks-and-caicos-all-inclusive-villas/) |
+| ✅ | **h-5** The Hangover Tiki Bar is the island's floating bar, anchored in the turquoise shallows and reached by boat. | "Hop on a boat to the Hangover Tiki Bar, the island's floating bar anchored in the turquoise shallows" (official, https://www.ambergriscay.com/waterside-escape/) |
+| ✅ | **c-1** Spa treatments, motorized water sports including fishing and boat excursions, the reserve wine list, room service and private chef and dining services are not included. | "Please note the following are not included: spa treatments, motorized water sports, including fishing and other boat excursions, reserve wine list, room service, private chef and dining services." (official, https://www.ambergriscay.com/all-inclusive-resort-activities/) |
+| ✅ | **c-2** Guests arriving in South Caicos must arrive by 4:00 p.m. to make the daytime flight connection to the island. | "Please note that we do require guests to arrive by 4:00 p.m. to make the daytime flight connection" (official, https://www.ambergriscay.com/how-to-get-to-ambergris-cay-turks-and-caicos/) |
+| ✅ | **c-3** Resort casual is recommended for dinner. | "though we do recommend resort casual for dinner" (official, https://www.ambergriscay.com/all-inclusive-resort-activities/) |

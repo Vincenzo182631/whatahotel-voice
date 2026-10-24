@@ -1,0 +1,504 @@
+{
+  "hotel_slug": "waldorf-astoria-beverly-hills",
+  "hotel_name": "Waldorf Astoria Beverly Hills",
+  "checked_at": "2026-10-14T22:54:53.836Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/",
+      "tier": "official",
+      "chars": 30000
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/rooms/",
+      "tier": "official",
+      "chars": 11208
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/dining/baldi/",
+      "tier": "official",
+      "chars": 6904
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/dining/gemma/",
+      "tier": "official",
+      "chars": 6169
+    },
+    {
+      "id": "d5",
+      "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/spa/",
+      "tier": "official",
+      "chars": 7880
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/amenities/fitness/",
+      "tier": "official",
+      "chars": 3200
+    },
+    {
+      "id": "d7",
+      "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/amenities/salon-de-lucy/",
+      "tier": "official",
+      "chars": 2918
+    },
+    {
+      "id": "d8",
+      "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/experiences/",
+      "tier": "official",
+      "chars": 3663
+    },
+    {
+      "id": "d9",
+      "url": "https://www.cntraveler.com/hotels/los-angeles/waldorf-astoria-beverly-hills",
+      "tier": "editorial",
+      "chars": 8002
+    },
+    {
+      "id": "d10",
+      "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/dining/",
+      "tier": "official",
+      "chars": 1057
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is at 9850 Wilshire Boulevard in Beverly Hills.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "9850 Wilshire Blvd",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Beverly Hills, California 90210 USA",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Rooms are styled by interior designer Pierre-Yves Rochon.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Luxuriously styled by interior design legend Pierre-Yves Rochon",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Rooms and suites have floor-to-ceiling windows and terraces with views of Beverly Hills and the Santa Monica Mountains.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "designed to showcase sweeping views of Beverly Hills and the Santa Monica Mountains, each with floor-to-ceiling windows and oversized terraces",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Baldi is a Tuscan steakhouse led by Chef Edoardo 'Edo' Baldi, built on family recipes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Baldi is a Tuscan steakhouse centered on family recipes, and warm, honest Italian cooking.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/dining/baldi/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "the restaurant is led by Chef Edoardo “Edo” Baldi",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/dining/baldi/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "At Baldi, steaks are cooked over an olive wood-fired grill, alongside house-made pastas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "cooked over an olive wood–fired grill using little more than fire, time, and restraint. Beyond the grill, the menu includes house made pastas",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/dining/baldi/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Bar Baldi's wine cellar emphasizes Italian regions, particularly Piedmont and Tuscany.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The wine cellar is equally intentional, showcasing a deep selection with a strong emphasis on Italy’s most celebrated regions, particularly Piedmont and Tuscany",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/dining/baldi/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Gemma's menu includes dim sum, a 'from the wok' menu, sushi and grilled steaks including Japanese Wagyu.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "signature dishes that include delicate dim sum, an extensive ‘from the wok’ menu, a selection of pristine sushi, and premium grilled steaks – including Japanese Wagyu",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/dining/gemma/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Gemma's bar serves tiki-inspired cocktails such as a Scorpion bowl, Mai Tai and Pina colada, plus a list of sakes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Indulge in a Scorpion bowl, Mai Tai, or Piña colada from our tiki-inspired creations",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/dining/gemma/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "a special list of sakes",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/dining/gemma/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The hotel's La Prairie Spa has six treatment rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d9",
+          "quote": "the world-class La Prairie Spa has six treatment rooms",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/los-angeles/waldorf-astoria-beverly-hills",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Salon de Lucy, inside the hotel, offers haircuts, color, styling, makeup and men's grooming, and has been part of the hotel since its opening.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Located inside the Waldorf Astoria Beverly Hills, our salon has been part of the hotel since its opening",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/amenities/salon-de-lucy/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "precision haircuts, color, styling, makeup, eyebrow shaping, threading, tinting, lamination, and full men’s grooming",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/amenities/salon-de-lucy/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The hotel is pet-friendly; dogs get a dog bed, bowls and treats.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d9",
+          "quote": "The hotel is exceptionally pet-friendly; on a recent stay, my dog was treated like royalty, complete with a gorgeous plush blue dog bed stamped with the Waldorf logo, ceramic food and water bowls, and gourmet treats.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/los-angeles/waldorf-astoria-beverly-hills",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Gemma is a Pan-Asian rooftop restaurant 12 stories above the city, with views of the Santa Monica Mountains and Beverly Hills.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Perched 12 stories above the city of Los Angeles.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/dining/gemma/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Gemma features elevated Pan-Asian cuisine, paired with iconic rooftop views of the Santa Monica Mountains, Beverly Hills",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/dining/gemma/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Signature Suite bookings include private car service to and from LAX or Burbank airport, an in-suite bar cart, custom Diptyque scent, monogrammed sheets and a session with the Director of Wellness.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "available when reserving any of our Signature Suite categories",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "Private car service to and from LAX or BUR airport",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "Curated in-suite bar car",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "Bespoke amenities including custom Diptyque scent and monogrammed sheets",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "Personal training session with Director of Wellness",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Suite Ride offer gives suite guests access to a luxury vehicle such as a Rolls-Royce Cullinan or Bentley Bentayga.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "Explore our premium suites and enjoy access to a luxury vehicle tailored to your suite choice, including a Rolls-Royce Cullinan and Bentley Bentayga.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The hotel has a rooftop pool; on a clear day you can see all the way to downtown.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "rooftop pool",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d9",
+          "quote": "On a clear day, you can see all the way to downtown.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/los-angeles/waldorf-astoria-beverly-hills",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Director of Wellness Tom McKiver, a registered nutritionist, leads personal training and nutrition programs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Tom is a seasoned wellness professional and registered nutritionist",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/amenities/fitness/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "As Director of Wellness at Waldorf Astoria Beverly Hills, he creates tailored, results-driven programs",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/amenities/fitness/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "From custom training sessions including strength training and movement coaching to nutrition consultations",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/amenities/fitness/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Guests must be 16 or older to use the fitness center equipment.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Guests must be 16 years of age or older to use the fitness center. Guests under 16 can accompany their guardians but must refrain from using the equipment.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/laxwawa-waldorf-astoria-beverly-hills/amenities/fitness/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes ultra-luxury pricing that reflects the premium Beverly Hills location.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes limited on-site parking in a dense urban setting.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

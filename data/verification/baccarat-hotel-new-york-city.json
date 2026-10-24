@@ -1,0 +1,423 @@
+{
+  "hotel_slug": "baccarat-hotel-new-york-city",
+  "hotel_name": "Baccarat Hotel New York City",
+  "checked_at": "2026-10-16T01:09:05.790Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 18
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.baccarathotels.com/new-york",
+      "tier": "official",
+      "chars": 7063
+    },
+    {
+      "id": "d2",
+      "url": "https://www.baccarathotels.com/new-york/hotel-rooms/",
+      "tier": "official",
+      "chars": 9831
+    },
+    {
+      "id": "d3",
+      "url": "https://www.baccarathotels.com/new-york/amenities-services/",
+      "tier": "official",
+      "chars": 3260
+    },
+    {
+      "id": "d4",
+      "url": "https://www.baccarathotels.com/new-york/wellness/",
+      "tier": "official",
+      "chars": 4159
+    },
+    {
+      "id": "d5",
+      "url": "https://www.baccarathotels.com/new-york/",
+      "tier": "official",
+      "chars": 7063
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is at 28 West 53rd Street, in the center of midtown Manhattan.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "28 West 53rd Street",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.baccarathotels.com/new-york",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located in the center of midtown Manhattan",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.baccarathotels.com/new-york",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Guest rooms have contemporary interiors with French influences.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Contemporary interiors, French influences, and moments of calm create a stay that feels distinctly Baccarat.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.baccarathotels.com/new-york",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "In-room amenities include Baccarat crystal stemware.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Baccarat Crystal Stemware",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.baccarathotels.com/new-york/amenities-services/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Rooms are dressed with linen by Somma 1867.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Linen by Somma 1867",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.baccarathotels.com/new-york/hotel-rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Rooms have twice daily housekeeping service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Twice Daily Housekeeping Service",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.baccarathotels.com/new-york/hotel-rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Signature Suites offer accommodations for up to seven guests, with separate living spaces.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Expansive accommodations for up to seven guests,",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.baccarathotels.com/new-york/hotel-rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "separate living spaces, remarkable views",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.baccarathotels.com/new-york/hotel-rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The fitness room has Technogym and Woodway equipment and a separate room for yoga and Pilates.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "our fitness room offers top-tier equipment by Olympic supplier Technogym and professional sports supplier Woodway",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.baccarathotels.com/new-york/wellness/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Also containing a separate freestyle room for yoga and Pilates",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.baccarathotels.com/new-york/wellness/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The 53rd Street Boutique inside the hotel sells Baccarat creations and offers private shopping appointments on request.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Discover a curated selection of Baccarat creations, from lighting and barware to décor and gifts. Located within the hotel, the boutique also offers private shopping appointments upon request.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.baccarathotels.com/new-york/amenities-services/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Dogs are welcomed, with amenities designed for them.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Dogs are welcomed with the same warmth and attention extended to every guest, complete with thoughtful amenities designed to make them feel right at home.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.baccarathotels.com/new-york/amenities-services/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Dining runs from Afternoon Tea to dinner and cocktails, with the Grand Salon and The Bar among the venues.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Come for Afternoon Tea. Stay for dinner and cocktails.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.baccarathotels.com/new-york/amenities-services/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "## The Grand Salon",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.baccarathotels.com/new-york",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "## The Bar",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.baccarathotels.com/new-york",
+          "tier": "official",
+          "quote_verified": false
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Spa de La Mer is the first dedicated La Mer spa in the United States.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Spa de La Mer is the first dedicated La Mer spa in the United States",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.baccarathotels.com/new-york/wellness/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "La Piscine, the heated indoor pool, sits beneath a barrel-vaulted ceiling with Riviera-inspired cabanas, white daybeds and a checkerboard floor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The hotel offers a heated indoor swimming pool, La Piscine",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.baccarathotels.com/new-york/wellness/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Beneath a dramatic barrel-vaulted ceiling, La Piscine offers a luminous retreat in the heart of the city. Heated waters, Riviera-inspired cabanas, and white daybeds invite moments of relaxation",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.baccarathotels.com/new-york/wellness/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "the iconic checkerboard floor",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.baccarathotels.com/new-york/wellness/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Every suite stay comes with a dedicated Attaché who shapes the experience before arrival and throughout the stay.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Every suite stay is designed by a dedicated Attaché who’ll shape your experience before arrival and throughout your stay.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.baccarathotels.com/new-york/amenities-services/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Guests can ride in the hotel's Maybach house car anywhere within 15 blocks of the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Luxury house car service in our Maybach is available to guests for à propos jaunts through Manhattan—anywhere within 15 blocks of the hotel.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.baccarathotels.com/new-york/amenities-services/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "A curated collection of contemporary artworks and Baccarat creations is displayed throughout the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Throughout the hotel, a thoughtfully curated collection of contemporary artworks and Baccarat creations reflects the Maison’s enduring dialogue between art, craftsmanship, and design.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.baccarathotels.com/new-york/amenities-services/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel does not have rooms with a balcony or terrace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "### Do you have rooms with a balcony or terrace?\n\nNo, we do not.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.baccarathotels.com/new-york/hotel-rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The Maybach house car covers trips within 15 blocks of the hotel; ask the hosts about its hours.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "anywhere within 15 blocks of the hotel. Please speak with our Host team regarding hours of operation.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.baccarathotels.com/new-york/amenities-services/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium luxury pricing.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

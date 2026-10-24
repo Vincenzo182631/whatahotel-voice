@@ -1,0 +1,75 @@
+{
+  "slug": "waldorf-astoria-helsinki",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "Waldorf Astoria Helsinki",
+      "city": "Helsinki",
+      "country": "FI",
+      "chain": "hilton"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hilton"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Helsinki, FI)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hilton.com/en/hotels/helwcwa-waldorf-astoria-helsinki/"
+    ],
+    "checked_at": "2026-10-15T09:51:49.653Z",
+    "status": "confirmed",
+    "official_url": "https://www.hilton.com/en/hotels/helwcwa-waldorf-astoria-helsinki/",
+    "base_url": "https://www.hilton.com/en/hotels/helwcwa-waldorf-astoria-helsinki/",
+    "host": "hilton.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hilton.com/en/hotels/helwcwa-waldorf-astoria-helsinki/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T09:52:10.207Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hilton.com/en/hotels/helwcwa-waldorf-astoria-helsinki/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T09:52:20.609Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.cntraveler.com/hotels/helsinki/waldorf-astoria-helsinki",
+      "tier": "editorial",
+      "fetched_at": "2026-10-15T09:52:23.438Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 3,
+    "cache_hits": 0,
+    "direct_fetches": 1,
+    "pages": 3,
+    "chars": 12892,
+    "est_claude_tokens": 3223
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-15T09:52:23.438Z"
+}

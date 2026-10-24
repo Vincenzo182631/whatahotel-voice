@@ -1,0 +1,366 @@
+{
+  "hotel_slug": "ritz-carlton-boston-common",
+  "hotel_name": "The Ritz-Carlton, Boston Common",
+  "checked_at": "2026-10-09T06:06:53.374Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 18
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ritzcarlton.com/en/hotels/bosrt-the-ritz-carlton-boston/overview/",
+      "tier": "official",
+      "chars": 13338
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ritzcarlton.com/en/hotels/bosrt-the-ritz-carlton-boston/rooms/",
+      "tier": "official",
+      "chars": 8883
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ritzcarlton.com/en/hotels/bosrt-the-ritz-carlton-boston/rooms/signature-accommodations/",
+      "tier": "official",
+      "chars": 4675
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ritzcarlton.com/en/hotels/bosrt-the-ritz-carlton-boston/dining/",
+      "tier": "official",
+      "chars": 4483
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ritzcarlton.com/en/hotels/bosrt-the-ritz-carlton-boston/experiences/",
+      "tier": "official",
+      "chars": 13184
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ritzcarlton.com/en/hotels/bosrt-the-ritz-carlton-boston/club/",
+      "tier": "official",
+      "chars": 3898
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ritzcarlton.com/en/hotels/bosrt-the-ritz-carlton-boston/reviews/",
+      "tier": "official",
+      "chars": 780
+    },
+    {
+      "id": "d8",
+      "url": "https://www.cntraveler.com/hotels/united-states/boston/ritz-carlton-boston-common",
+      "tier": "editorial",
+      "chars": 3257
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is near the Theater District and Financial District.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The hotel is also near the Theater District and Financial District",
+          "note": "Stated directly",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bosrt-the-ritz-carlton-boston/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The Presidential Suite has a private study and a butler's kitchen.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Private study and Butler's Kitchen",
+          "note": "Presidential Suite amenities list both",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bosrt-the-ritz-carlton-boston/rooms/signature-accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Park View Suites overlook Boston's oldest park.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The Park View Suites offer a refined residential-style stay overlooking Boston’s oldest park.",
+          "note": "Stated directly",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bosrt-the-ritz-carlton-boston/rooms/signature-accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The Club Lounge presents complimentary culinary offerings five times daily.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Five times daily, the Club Lounge presents complimentary culinary offerings for guests to enjoy.",
+          "note": "Stated directly",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bosrt-the-ritz-carlton-boston/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Equinox Sports Club adjoins the hotel and is open to hotel guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "At the adjoining Equinox Sports Club, hotel guests enjoy access to 114,000 square feet of sunlit space",
+          "note": "Adjoining and guest access stated",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bosrt-the-ritz-carlton-boston/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Equinox Sports Club has a full basketball court and an indoor pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Challenge yourself on the full basketball court or one of four international squash courts, then refresh with a swim in the 25-yard indoor pool.",
+          "note": "Both facilities named",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bosrt-the-ritz-carlton-boston/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Artisan Bistro serves reimagined classic dishes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Artisan Bistro offers an elevated bistro in downtown Boston with reimagined classic dishes.",
+          "note": "Stated directly",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bosrt-the-ritz-carlton-boston/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Avery Bar serves craft cocktails and shareable plates.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "serving craft cocktails and shareable plates in a refined setting",
+          "note": "Stated directly",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bosrt-the-ritz-carlton-boston/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Young guests are greeted with a red wagon full of toys.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "young guests, who are greeted with a red wagon full of toys that they can enjoy during their stay",
+          "note": "Stated directly",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bosrt-the-ritz-carlton-boston/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The ballroom has silver-leaf ceilings and mother-of-pearl accents.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our ballroom, adorned with silver-leaf ceilings and delicate mother-of-pearl accents",
+          "note": "Stated directly",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bosrt-the-ritz-carlton-boston/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Boston Common is across from the hotel and is the beginning of the Freedom Trail.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "starting in Boston Common across from the hotel. The 50-acre park the oldest in the country and is the beginning of the Freedom Trail",
+          "note": "Across from hotel and start of Freedom Trail",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bosrt-the-ritz-carlton-boston/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The guest room and suite design draws inspiration from Edgar Allen Poe and Ralph Waldo Emerson.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "With a motif that draws inspiration from visionary spirits like Edgar Allen Poe and Ralph Waldo Emerson",
+          "note": "Stated directly",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bosrt-the-ritz-carlton-boston/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Club guests have complimentary access to the Equinox Sports Club.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Club guests also enjoy complimentary access to Equinox Sports Club",
+          "note": "Stated directly",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bosrt-the-ritz-carlton-boston/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Club Lounge is on the top floor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our Club Lounge is located on our exclusive top floor",
+          "note": "Stated directly",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bosrt-the-ritz-carlton-boston/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Presidential Suite has a living room centered around a gas fireplace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The living room is centered around a gas fireplace",
+          "note": "Stated directly",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bosrt-the-ritz-carlton-boston/rooms/signature-accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Marriott Bonvoy Elite Status does not provide complimentary access to Club.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Marriott Bonvoy Elite Status does not provide complimentary access to Club.",
+          "note": "Stated directly",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bosrt-the-ritz-carlton-boston/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Breakfast at Artisan Bistro is available for a fee.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Yes, breakfast is available onsite at Artisan Bistro for a fee.",
+          "note": "Stated directly",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bosrt-the-ritz-carlton-boston/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes limited parking availability in a busy downtown location.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

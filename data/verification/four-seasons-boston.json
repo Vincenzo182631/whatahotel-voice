@@ -1,0 +1,434 @@
+{
+  "hotel_slug": "four-seasons-boston",
+  "hotel_name": "Four Seasons Hotel Boston",
+  "checked_at": "2026-10-07T23:00:23.143Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 6,
+      "total": 23
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://press.fourseasons.com/boston/hotel-facts/",
+      "tier": "official",
+      "chars": 5249
+    },
+    {
+      "id": "d2",
+      "url": "https://www.fourseasons.com/boston/",
+      "tier": "official",
+      "chars": 8875
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/boston/dining/",
+      "tier": "official",
+      "chars": 4018
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/boston/services-and-amenities/",
+      "tier": "official",
+      "chars": 2888
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/boston/getting-here/",
+      "tier": "official",
+      "chars": 1315
+    },
+    {
+      "id": "d6",
+      "url": "https://www.cntraveler.com/hotels/boston/four-seasons-hotel-boston",
+      "tier": "editorial",
+      "chars": 6250
+    },
+    {
+      "id": "d7",
+      "url": "https://www.fourseasons.com/boston/accommodations/",
+      "tier": "official",
+      "chars": 7747
+    },
+    {
+      "id": "d8",
+      "url": "https://www.fourseasons.com/boston/services-and-amenities/family/",
+      "tier": "official",
+      "chars": 8454
+    },
+    {
+      "id": "d9",
+      "url": "https://www.fourseasons.com/boston/contact-us/",
+      "tier": "official",
+      "chars": 1212
+    },
+    {
+      "id": "d10",
+      "url": "https://www.fourseasons.com/boston/photos-and-videos/",
+      "tier": "official",
+      "chars": 4441
+    },
+    {
+      "id": "d11",
+      "url": "https://www.fourseasons.com/boston/discover/",
+      "tier": "official",
+      "chars": 1889
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is at 200 Boylston Street in Boston's Back Bay neighbourhood.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "200 Boylston Street, Boston, Massachusetts 02116",
+          "note": "address",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/boston/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Located in Boston’s upscale Back Bay neighbourhood",
+          "note": "neighbourhood",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/boston/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel overlooks the Public Garden.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "overlooking the Public Garden",
+          "note": "location",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/boston/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel is a 15-minute drive from Logan International Airport.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "is a 15-minute drive from Logan International Airport",
+          "note": "drive time",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/boston/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Ken Fulk designed the 2023 lobby and porte cochere renovation.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Ken Fulk (2023 lobby and porte cochere renovation)",
+          "note": "designer",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/boston/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Guest rooms were last renovated in 2017.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "The rooms here were last renovated in 2017",
+          "note": "rooms 2017",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/boston/four-seasons-hotel-boston",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Patrice Martineau is the Executive Chef.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Patrice Martineau",
+          "note": "executive chef",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/boston/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Aujourd'hui is the hotel's breakfast restaurant.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Boston’s hub for breakfast specialties",
+          "note": "breakfast venue",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/boston/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Coterie is an intimate, brasserie style lobby lounge serving lunch and dinner.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "An intimate, brasserie style lobby lounge with park views showcasing classic New England dishes with a French influence and botanically inspired cocktails.",
+          "note": "description",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/boston/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Lunch & Dinner",
+          "note": "meals",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/boston/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel has an eighth-floor heated indoor pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Eighth-floor heated indoor pool and whirlpool spa",
+          "note": "pool",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/boston/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel has a 24-hour fitness facility.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "24-hour Fitness Facility",
+          "note": "fitness",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/boston/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Vault is a complimentary snack pantry on every guest room floor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Complimentary snack pantry located on every guest room floor",
+          "note": "vault",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/boston/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Sottovento Coffee Bar offers complimentary gourmet espresso and coffee beverages for guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Cheerful lobby level coffee bar with complimentary gourmet espresso and coffee beverages for guests",
+          "note": "coffee bar",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/boston/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Coffee Concierge can have a morning cup delivered to the guest room within 20 minutes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Our Coffee Concierge can have your morning cup delivered to the comfort of your guest room within 20 minutes.",
+          "note": "concierge",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/boston/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The sixth-floor Royal Suite has a private cinema.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our expansive sixth-floor suite offers residential living at its finest, with a step-out view overlooking the Boston Public Garden, expansive dining room, private cinema",
+          "note": "royal suite",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/boston/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Executive Chef Patrice Martineau leads the Boston Run Club, a morning jog highlighting Boston's most iconic neighborhoods and historic sites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Join marathon runner and Four Seasons Hotel Boston Executive Chef Patrice Martineau for a morning jog highlighting Boston's most iconic neighborhoods and historic sites.",
+          "note": "run club",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/boston/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "There isn't a dedicated spa on-site.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "While there isn’t a dedicated spa on-site",
+          "note": "no spa",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/boston/four-seasons-hotel-boston",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "There are two Boylston Street locations in the city of Boston.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "There are two Boylston Street locations in the city of Boston.",
+          "note": "two locations",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/boston/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes that premium pricing reflects the luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, breakfast for two is free daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers can be combined with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

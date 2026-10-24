@@ -1,0 +1,563 @@
+{
+  "hotel_slug": "four-seasons-amman",
+  "hotel_name": "Four Seasons Hotel Amman",
+  "checked_at": "2026-10-07T05:48:28.768Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 21,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 5,
+      "total": 26
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://press.fourseasons.com/amman/hotel-facts/",
+      "tier": "official",
+      "chars": 7083
+    },
+    {
+      "id": "d2",
+      "url": "https://www.fourseasons.com/amman/",
+      "tier": "official",
+      "chars": 8374
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/amman/dining/",
+      "tier": "official",
+      "chars": 7589
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/amman/spa/",
+      "tier": "official",
+      "chars": 3037
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/amman/services-and-amenities/",
+      "tier": "official",
+      "chars": 3260
+    },
+    {
+      "id": "d6",
+      "url": "https://www.cntraveler.com/hotels/jordan/amman/four-seasons-hotel-amman",
+      "tier": "editorial",
+      "chars": 7492
+    },
+    {
+      "id": "d7",
+      "url": "https://www.fourseasons.com/amman/accommodations/",
+      "tier": "official",
+      "chars": 5447
+    },
+    {
+      "id": "d8",
+      "url": "https://www.fourseasons.com/amman/getting-here/",
+      "tier": "official",
+      "chars": 1751
+    },
+    {
+      "id": "d9",
+      "url": "https://www.fourseasons.com/amman/contact-us/",
+      "tier": "official",
+      "chars": 1567
+    },
+    {
+      "id": "d10",
+      "url": "https://www.fourseasons.com/amman/photos-and-videos/",
+      "tier": "official",
+      "chars": 2326
+    },
+    {
+      "id": "d11",
+      "url": "https://www.fourseasons.com/amman/discover/",
+      "tier": "official",
+      "chars": 2443
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel has 192 rooms in total.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Total Number of Rooms:** 192",
+          "note": "Press fact sheet gives 192 rooms in total.",
+          "url": "https://press.fourseasons.com/amman/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel opened in May 2003.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "May 2003",
+          "note": "Listed under the fact sheet's OPENING DATE heading.",
+          "url": "https://press.fourseasons.com/amman/hotel-facts/",
+          "tier": "official",
+          "quote_verified": false
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "It opened in 2003 to great fanfare",
+          "note": "Confirms the year; the month comes from d1.",
+          "url": "https://www.cntraveler.com/hotels/jordan/amman/four-seasons-hotel-amman",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel has 15 stories.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Number of Stories:** 15",
+          "note": "Fact sheet gives 15 stories.",
+          "url": "https://press.fourseasons.com/amman/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Four Seasons Hotel Amman is the first Four Seasons hotel built in the Middle East.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Four Seasons Hotel Amman is the first Four Seasons hotel built in the Middle East and the first luxury hotel in Jordan",
+          "note": "Stated directly.",
+          "url": "https://press.fourseasons.com/amman/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The hotel is set upon the highest of Amman's seven hills.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Set upon the highest of Amman's seven hills, with views of the modern city",
+          "note": "Stated directly.",
+          "url": "https://press.fourseasons.com/amman/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Set atop the tallest of Amman’s seven hills",
+          "note": "Equivalent wording on the official homepage.",
+          "url": "https://www.fourseasons.com/amman/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The hotel's address is 5th Circle, Al-Kindi Street, Jabal Amman.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "5th Circle, Al-Kindi Street, Jabal Amman, Amman, Jordan",
+          "note": "Address matches.",
+          "url": "https://press.fourseasons.com/amman/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "5th Circle, Al-Kindi Street, Jabal Amman, 11195 Jordan",
+          "note": "Address matches.",
+          "url": "https://www.fourseasons.com/amman/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The hotel is a 30-minute drive from Queen Alia International Airport.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "A 30-minute drive from Queen Alia International Airport",
+          "note": "Stated directly.",
+          "url": "https://press.fourseasons.com/amman/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "Travel time30 minutes by carDistance35 km/21 miles",
+          "note": "Given under Queen Alia International Airport directions.",
+          "url": "https://www.fourseasons.com/amman/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "La Capitale is a French brasserie.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Cusine:** French brasserie",
+          "note": "Listed under Restaurant: La Capitale.",
+          "url": "https://press.fourseasons.com/amman/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "La Capitale is a French brasserie that appeals to more locals than guests",
+          "note": "Editorial review confirms it.",
+          "url": "https://www.cntraveler.com/hotels/jordan/amman/four-seasons-hotel-amman",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "SIRR Japanese Lounge serves Japanese Nikkei cuisine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Join us at SIRR, our intimate lounge in Amman, offering Japanese Nikkei cuisine expertly prepared by Chef de Cuisine Patrick Caballero.",
+          "note": "Stated directly.",
+          "url": "https://www.fourseasons.com/amman/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Cuisine:** Japanese Nikkei",
+          "note": "Listed under the SIRR Japanese Lounge entry.",
+          "url": "https://press.fourseasons.com/amman/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel has a rooftop outdoor pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Rooftop outdoor pool",
+          "note": "Listed among the spa's special features.",
+          "url": "https://press.fourseasons.com/amman/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Rooftop and indoor pools",
+          "note": "Listed among the hotel's amenities.",
+          "url": "https://www.fourseasons.com/amman/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel has an indoor pool that is open all year round.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Indoor heated mosaic-tiled pool, open all year round",
+          "note": "Stated directly.",
+          "url": "https://press.fourseasons.com/amman/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Take a dip in our serene indoor pool and enjoy year-round relaxation.",
+          "note": "Confirms year-round use.",
+          "url": "https://www.fourseasons.com/amman/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The Fitness Centre is open 24 hours a day.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "open 24 hours a day and featuring a squash court",
+          "note": "Describes the Fitness Centre.",
+          "url": "https://www.fourseasons.com/amman/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "our 24-hour Fitness Centre",
+          "note": "Confirms 24-hour access.",
+          "url": "https://www.fourseasons.com/amman/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "La Capitale includes Jordan's first farm-to-glass, seasonal bar menu.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Enjoy a menu of updated French classics in this traditional brasserie that blends timeless elements with modern, fashionable details and includes Jordan’s first farm-to-glass, seasonal bar menu.",
+          "note": "Appears in the La Capitale description.",
+          "url": "https://www.fourseasons.com/amman/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Nabatean Treatment uses olive seeds, Oud oil and Argan oil for a full-body experience.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "this luxe, locally inspired ritual uses olive seeds, Oud oil and Argan oil for a full-body experience",
+          "note": "From the Nabatean Treatment description.",
+          "url": "https://www.fourseasons.com/amman/spa/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "this luxe, locally inspired ritual uses olive seeds, Oud oil and Argan oil for a full-body experience",
+          "note": "Same wording in the press fact sheet.",
+          "url": "https://press.fourseasons.com/amman/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Complimentary parking is offered for all guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Complimentary parking for all guests",
+          "note": "Stated directly.",
+          "url": "https://press.fourseasons.com/amman/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "Valet parking at the Hotel is complimentary.",
+          "note": "Consistent with complimentary parking.",
+          "url": "https://www.fourseasons.com/amman/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Condé Nast Traveler says breakfast at Olea is a window into Jordanian and Levantine cuisine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Breakfast at Olea is a window into Jordanian and Levantine cuisine.",
+          "note": "Stated directly in the Condé Nast Traveler review.",
+          "url": "https://www.cntraveler.com/hotels/jordan/amman/four-seasons-hotel-amman",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Condé Nast Traveler says the Nikkei menu serves up some of the best-quality sushi in town.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "What has made an even bigger splash in Amman, however, is the lounge’s Nikkei menu serving up some of the best-quality sushi in town.",
+          "note": "Stated directly in the Condé Nast Traveler review.",
+          "url": "https://www.cntraveler.com/hotels/jordan/amman/four-seasons-hotel-amman",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-6",
+      "text": "Condé Nast Traveler reports that recent renovations have been completed in all the rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Recent renovations have been completed in all the rooms",
+          "note": "Stated directly in the Condé Nast Traveler review.",
+          "url": "https://www.cntraveler.com/hotels/jordan/amman/four-seasons-hotel-amman",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The outdoor pool is open from May 1 through mid-October.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our outdoor pool is open from May 1 through mid-October.",
+          "note": "Stated directly.",
+          "url": "https://www.fourseasons.com/amman/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Our outdoor pool is open from May 1 through mid-October.",
+          "note": "Stated directly.",
+          "url": "https://www.fourseasons.com/amman/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Condé Nast Traveler says getting around on foot is not easy because it involves crossing many busy streets.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "though getting around on foot is not easy because it involves crossing many busy streets",
+          "note": "Stated directly in the Condé Nast Traveler review.",
+          "url": "https://www.cntraveler.com/hotels/jordan/amman/four-seasons-hotel-amman",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "Condé Nast Traveler says security is tight, with multiple checks of entering vehicles and personal belongings.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Security is tight with multiple checks of entering vehicles and personal belongings",
+          "note": "Stated directly in the Condé Nast Traveler review.",
+          "url": "https://www.cntraveler.com/hotels/jordan/amman/four-seasons-hotel-amman",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, full breakfast for two is included daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers can be combined with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

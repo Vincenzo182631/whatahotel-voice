@@ -1,0 +1,403 @@
+{
+  "hotel_slug": "park-hyatt-melbourne",
+  "hotel_name": "Park Hyatt Melbourne",
+  "checked_at": "2026-10-13T08:31:32.707Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/melph-park-hyatt-melbourne",
+      "tier": "official",
+      "chars": 10885
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/melph-park-hyatt-melbourne/rooms/",
+      "tier": "official",
+      "chars": 12577
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/melph-park-hyatt-melbourne/dining/",
+      "tier": "official",
+      "chars": 3055
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/melph-park-hyatt-melbourne/parking-and-transportation/",
+      "tier": "official",
+      "chars": 644
+    },
+    {
+      "id": "d5",
+      "url": "https://www.cntraveler.com/hotels/melbourne/park-hyatt-melbourne",
+      "tier": "editorial",
+      "chars": 5285
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/melph-park-hyatt-melbourne/hotel-info/",
+      "tier": "official",
+      "chars": 1102
+    },
+    {
+      "id": "d7",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/melph-park-hyatt-melbourne/reviews/",
+      "tier": "official",
+      "chars": 3745
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Park Hyatt Melbourne overlooks St. Patrick's Cathedral and Fitzroy Gardens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Overlooking St. Patrick’s Cathedral, Fitzroy Gardens, and the cosmopolitan mix of Victorian and modern architecture, Park Hyatt Melbourne offers exclusive, luxury accommodation",
+          "note": "overlooks both",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/melph-park-hyatt-melbourne",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Fitzroy Gardens is two minutes from the hotel's doorstep.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Just two minutes from our doorstep, explore Fitzroy Gardens",
+          "note": "two minutes from doorstep",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/melph-park-hyatt-melbourne",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel is situated minutes from the Melbourne Cricket Ground and Rod Laver Arena.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Situated just minutes from the Melbourne Cricket Ground and Rod Laver Arena",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/melph-park-hyatt-melbourne",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Parliament Train Station is a three-minute walk from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Parliament Train Station is a 3-minute walk from the hotel.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/melph-park-hyatt-melbourne/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Rooms and suites blend art deco elegance with modern comfort, featuring wood-panelled walls.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Each is a blend of art deco elegance and modern comfort, featuring wood-panelled walls",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/melph-park-hyatt-melbourne",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Guest rooms have a separate walk-in shower and deep soaking tub.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Separate walk-in shower and deep soaking tub",
+          "note": "listed in-room amenity",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/melph-park-hyatt-melbourne/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Standard rooms feature marble bathtubs, Le Labo toiletries and walk-in closets.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Marble bathtubs, Le Labo toiletries, and walk-in closets create a sense of indulgence that's rare in Australian hotels.",
+          "note": "said of the standard guest room",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/melbourne/park-hyatt-melbourne",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The spa offers facials and massages plus hair and nail services.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Indulge in rejuvenating facials and massages, complemented by a selection of hair and nail services.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/melph-park-hyatt-melbourne",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The health club has a steam room, and the spa's signature treatment is a coconut body treatment.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Check out the heated indoor pool and steam room, then surrender to the spa's signature coconut body treatment.",
+          "note": "both elements covered",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/melbourne/park-hyatt-melbourne",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "radii Restaurant serves a breakfast buffet and a la carte dishes such as Dutch Baby pancakes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "From a lavish buffet to à la carte favorites like free-range eggs, Dutch Baby pancakes, and smashed avocado",
+          "note": "radii breakfast",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/melph-park-hyatt-melbourne/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "radii Bar serves handcrafted cocktails, fine wines and premium spirits.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "radii Bar invites you to unwind with handcrafted cocktails, fine wines, and premium spirits",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/melph-park-hyatt-melbourne/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The hotel has a resident dog named Charlie.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "You may even spot Charlie, our resident pup and unofficial ambassador",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/melph-park-hyatt-melbourne",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The lead-in guest rooms measure 48 square meters (517 square feet).",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Spanning an impressive 48 square meters (517 square feet), our lead-in rooms offer more space than many suites elsewhere in the city .",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/melph-park-hyatt-melbourne",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The heated pool sits beneath an Italian mosaic, with an adjoining sundeck.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Immerse yourself in the tranquility of our heated, 25-metre pool set beneath an exquisite Italian mosaic. The adjoining sundeck completes this oasis of calm.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/melph-park-hyatt-melbourne",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The spa is on the 9th floor with six treatment spaces, including a couple's suite.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Ascend to our 9th-floor spa sanctuary that features six treatment spaces, including a couple’s suite.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/melph-park-hyatt-melbourne",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Terrace Suite has an outdoor terrace with views of St. Patrick's Cathedral and a living room with a fireplace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "the Terrace Suite unveils a sweeping outdoor terrace boasting unmatched views of St. Patrick’s Cathedral and the East Melbourne skyline. Nestled within are a plush king bed, a cosy living room with a fireplace",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/melph-park-hyatt-melbourne/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Dogs are welcome, and each dog receives a plush bed, food and water bowls and a welcome treat.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Each dog enjoys a plush bed, food and water bowls, a welcome treat and exclusive access to our in-room dining menu for Very Important Pooches.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/melph-park-hyatt-melbourne",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "we also extend our signature hospitality to guests on four legs",
+          "note": "dogs welcome",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/melph-park-hyatt-melbourne",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Check-in is at 3:00 PM and checkout at 11:00 AM.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Check-In3:00 PM",
+          "note": "check-in time",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/melph-park-hyatt-melbourne/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Checkout11:00 AM",
+          "note": "checkout time",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/melph-park-hyatt-melbourne/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes limited parking availability in the CBD location; the hotel offers valet parking 24 hours for guests.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium luxury pricing.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

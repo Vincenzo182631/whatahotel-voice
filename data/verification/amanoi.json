@@ -1,0 +1,371 @@
+{
+  "hotel_slug": "amanoi",
+  "hotel_name": "Amanoi",
+  "checked_at": "2026-10-09T22:01:58.855Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 12,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 14
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.aman.com/resorts/amanoi",
+      "tier": "official",
+      "chars": 2084
+    },
+    {
+      "id": "d2",
+      "url": "https://www.aman.com/resorts/amanoi/experiences/whats-on/",
+      "tier": "official",
+      "chars": 3496
+    },
+    {
+      "id": "d3",
+      "url": "https://www.aman.com/resorts/amanoi/dining/",
+      "tier": "official",
+      "chars": 3472
+    },
+    {
+      "id": "d4",
+      "url": "https://www.aman.com/resorts/amanoi/accommodation/",
+      "tier": "official",
+      "chars": 205
+    },
+    {
+      "id": "d5",
+      "url": "https://www.aman.com/resorts/amanoi/exclusives/extend-your-stay/",
+      "tier": "official",
+      "chars": 66
+    },
+    {
+      "id": "d6",
+      "url": "https://www.aman.com/resorts/amanoi/exclusives/wellness-pool-villa-experience/",
+      "tier": "official",
+      "chars": 127
+    },
+    {
+      "id": "d7",
+      "url": "https://www.cntraveler.com/hotels/vinh-hy/amanoi",
+      "tier": "editorial",
+      "chars": 1728
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Cam Ranh Airport (CXR) is a 75-minute drive from Amanoi.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Cam Ranh Airport (CXR)",
+          "note": "covers claim",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanoi",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "A 75-minute drive",
+          "note": "covers claim",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanoi",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Amanoi is in Vinh Hy Village, Vinh Hai Commune, Khanh Hoa Province, Vietnam.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Vinh Hy Village",
+          "note": "covers claim",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanoi",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Vinh Hai Commune",
+          "note": "covers claim",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanoi",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Khanh Hoa Province",
+          "note": "covers claim",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanoi",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Vietnam",
+          "note": "covers claim",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanoi",
+          "tier": "official",
+          "quote_verified": false
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Amanoi has a Beach Club restaurant where a barbecue dinner of seafood and grilled dishes is served on the sand every Saturday evening.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Join us every Saturday at the Beach Club restaurant for a barbecue dinner with the ocean as a spectacular backdrop. The evening features a thoughtfully prepared selection of seafood and grilled dishes, shared in a relaxed yet refined setting on the sand.",
+          "note": "covers claim",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanoi/experiences/whats-on/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Guests can have an intimate, family-style Vietnamese dinner at the home of Ba Hai in Thai An village, ten minutes from Amanoi.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Dine at the local home of Ba Hai in Thai An village, a charming coastal setting just ten minutes from Amanoi.",
+          "note": "covers claim",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanoi/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "this intimate, family style Vietnamese dinner offers a warm glimpse of local village life.",
+          "note": "covers claim",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanoi/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Guests can join a local artisan for a Cham pottery workshop, a craft still practiced in the nearby village of Bau Truc.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Try your hand at Cham pottery, a centuries-old craft still practiced in the nearby village of Bau Truc",
+          "note": "covers claim",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanoi/experiences/whats-on/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Join a local artisan for an immersive workshop",
+          "note": "covers claim",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanoi/experiences/whats-on/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Amanoi has a spa, Amanoi Spa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Embrace a day of quiet renewal at Amanoi Spa",
+          "note": "covers claim",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanoi/experiences/whats-on/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Amanoi offers a three-day Mobility and Recovery Retreat created in collaboration with Aman Global Wellness Ambassador Novak Djokovic.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "### Mobility and Recovery Retreat by Novak Djokovic",
+          "note": "covers claim",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanoi/experiences/whats-on/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "In collaboration with Aman Global Wellness Ambassador, Novak Djokovic, this immersive three-day programme",
+          "note": "covers claim",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanoi/experiences/whats-on/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Amanoi offers private dining at Lotus Lake.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Private Dining, Lotus Lake",
+          "note": "covers claim",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanoi/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "A Sacred Cham dining experience takes guests to a nearby hidden spot for local delicacies and ends with a blessing ceremony by a Cham master in the jungle.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Journey to a nearby hidden spot for an authentic Cham dining experience. Indulge in a feast of local delicacies while surrounded by nature. Conclude the unforgettable evening with a rare blessing ceremony by a respected Cham master in the mystical jungle.",
+          "note": "covers claim",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanoi/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Guests can take a private hands-on Vietnamese cooking class at the Rock Studio, surrounded by giant granite boulders.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Discover the flavours of Vietnam in a private hands-on cooking class at the Rock Studio, enveloped by giant granite boulders.",
+          "note": "covers claim",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanoi/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Lost Kingdom of Cham journey includes a guided tour of the Cham Museum and a visit to the 13th-century Po Klong Garai Cham Towers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The journey begins with a guided tour of the Cham Museum and continues at the 13th-century Po Klong Garai Cham Towers",
+          "note": "covers claim",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanoi/experiences/whats-on/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Cam Ranh Airport (CXR) is a 75-minute drive from Amanoi, so the transfer is part of the trip.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Cam Ranh Airport (CXR)",
+          "note": "covers claim",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanoi",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Transfer",
+          "note": "covers claim",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanoi",
+          "tier": "official",
+          "quote_verified": false
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "A 75-minute drive",
+          "note": "covers claim",
+          "confirmed": true,
+          "url": "https://www.aman.com/resorts/amanoi",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes the remote location requires longer travel time.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes an ultra-luxury pricing point.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

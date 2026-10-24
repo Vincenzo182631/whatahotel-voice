@@ -1,0 +1,385 @@
+{
+  "hotel_slug": "ritz-carlton-bangalore",
+  "hotel_name": "The Ritz-Carlton, Bangalore",
+  "checked_at": "2026-10-09T14:51:49.722Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 18
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ritzcarlton.com/en/hotels/blrrz-the-ritz-carlton-bangalore/overview/",
+      "tier": "official",
+      "chars": 12938
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ritzcarlton.com/en/hotels/blrrz-the-ritz-carlton-bangalore/dining/",
+      "tier": "official",
+      "chars": 10525
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ritzcarlton.com/en/hotels/blrrz-the-ritz-carlton-bangalore/spa/",
+      "tier": "official",
+      "chars": 8576
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ritzcarlton.com/en/hotels/blrrz-the-ritz-carlton-bangalore/rooms/",
+      "tier": "official",
+      "chars": 7522
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ritzcarlton.com/en/hotels/blrrz-the-ritz-carlton-bangalore/club/",
+      "tier": "official",
+      "chars": 3894
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ritzcarlton.com/en/hotels/blrrz-the-ritz-carlton-bangalore/experiences/",
+      "tier": "official",
+      "chars": 27305
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ritzcarlton.com/en/hotels/blrrz-the-ritz-carlton-bangalore/reviews/",
+      "tier": "official",
+      "chars": 769
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is centrally located on Residency Road in Bangalore.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The hotel is centrally located on Residency Road and offers 277 rooms and suites",
+          "note": "Stated directly.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/blrrz-the-ritz-carlton-bangalore/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Zarqash serves North Western Frontier cuisine, including kababs and biryanis.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Zarqash by Michelin-starred Chef Rohit Ghai, serves North Western Frontier cuisine, including succulent kababs, aromatic biryanis and soulful classics.",
+          "note": "Cuisine, kababs and biryanis all stated.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/blrrz-the-ritz-carlton-bangalore/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Zarqash has an enotica, a whiskey table, two private dining rooms and an interactive live kitchen.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "It features an enotica, a whiskey table, two private dining rooms and an interactive live kitchen.",
+          "note": "All four features stated.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/blrrz-the-ritz-carlton-bangalore/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Izu serves Japanese Nikkei fusion cuisine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "IZU redefines Japanese cuisine with inventive Nikkei fusion, combining Peruvian vibrancy and Japanese techniques.",
+          "note": "Japanese Nikkei fusion stated.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/blrrz-the-ritz-carlton-bangalore/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Yàn Yǎn is a modern Chinese restaurant and dim sum house.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Yàn Yǎn is a modern Chinese restaurant and dim sum house",
+          "note": "Stated directly.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/blrrz-the-ritz-carlton-bangalore/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "BANG is a rooftop bar with panoramic views of the city.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "BANG the event-led rooftop bar",
+          "note": "Rooftop bar confirmed.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/blrrz-the-ritz-carlton-bangalore/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "welcomes guests with expansive views of the city’s skyline and signature cocktails in a vibrant atmosphere",
+          "note": "Expansive skyline views, equivalent to panoramic city views.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/blrrz-the-ritz-carlton-bangalore/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The hotel has a wellness floor with a spa, a gym and an outdoor swimming pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The hotel also features a wellness floor with a luxurious spa, gym and an outdoor swimming pool",
+          "note": "Stated directly.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/blrrz-the-ritz-carlton-bangalore/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The spa draws on Indian and Western traditions.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "luxury healing experiences drawing from Indian and Western traditions",
+          "note": "Stated directly.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/blrrz-the-ritz-carlton-bangalore/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Rooms and suites blend modern silhouettes with traditional Indian design elements.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "blend modern silhouettes with traditional Indian design elements",
+          "note": "Stated directly.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/blrrz-the-ritz-carlton-bangalore/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The Club Lounge offers complimentary food and beverage presentations five times each day.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Five times each day, the Club Lounge offers complimentary food and beverage presentations.",
+          "note": "Stated directly.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/blrrz-the-ritz-carlton-bangalore/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel has a curated collection of over 1,200 artworks and a traditional jaali design woven throughout its architecture.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "a curated collection of over 1,200 artworks and a traditional jaali design woven throughout its architecture",
+          "note": "Stated directly.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/blrrz-the-ritz-carlton-bangalore/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Cloak Society is a theatre-inspired speakeasy cocktail bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The Cloak Society is a theatre-inspired speakeasy cocktail bar",
+          "note": "Stated directly.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/blrrz-the-ritz-carlton-bangalore/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The hotel offers a private exploration of Mysore Palace guided by a member of the royal family.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "a private two-hour exploration of Mysore Palace, guided by a member of the royal family",
+          "note": "Stated directly.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/blrrz-the-ritz-carlton-bangalore/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Curator’s Art Walk is a guided journey across the hotel's collection of Indian masters and global contemporary artists.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "The Curator’s Art Walk, a guided journey across a distinguished collection of Indian masters and global contemporary artists.",
+          "note": "Page frames it as the hotel's artistic soul.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/blrrz-the-ritz-carlton-bangalore/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Spa Suite has dual treatment beds, a private steam and shower, and a Jacuzzi.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "dual treatment beds, a private steam and shower, Jacuzzi",
+          "note": "Stated directly.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/blrrz-the-ritz-carlton-bangalore/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The nearest airport is Kempegowda International Airport, about 42 km from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The closest airport near The Ritz-Carlton, Bangalore is Kempegowda International Airport, Bengaluru (BLR).",
+          "note": "Nearest airport named.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/blrrz-the-ritz-carlton-bangalore/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "BLR is located approximately 42.0 KM from the hotel.",
+          "note": "Distance matches.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/blrrz-the-ritz-carlton-bangalore/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Club access requires an upgraded booking.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "*Club access requires an upgraded booking at the Club.",
+          "note": "Stated directly.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/blrrz-the-ritz-carlton-bangalore/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium luxury pricing reflecting the high-end positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

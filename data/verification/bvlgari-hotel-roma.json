@@ -1,0 +1,367 @@
+{
+  "hotel_slug": "bvlgari-hotel-roma",
+  "hotel_name": "Bvlgari Hotel Roma",
+  "checked_at": "2026-10-11T00:16:09.855Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 16,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 18
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.bulgarihotels.com/en_US/rome",
+      "tier": "official",
+      "chars": 4793
+    },
+    {
+      "id": "d2",
+      "url": "https://www.bulgarihotels.com/en_US/rome/dining/the-bulgari-bar/",
+      "tier": "official",
+      "chars": 4478
+    },
+    {
+      "id": "d3",
+      "url": "https://www.bulgarihotels.com/en_US/rome/dining/il-ristorante-niko-romito/",
+      "tier": "official",
+      "chars": 6257
+    },
+    {
+      "id": "d4",
+      "url": "https://www.bulgarihotels.com/en_US/rome/spa-and-fitness/the-bulgari-spa/",
+      "tier": "official",
+      "chars": 3784
+    },
+    {
+      "id": "d5",
+      "url": "https://www.cntraveler.com/hotels/rome/bulgari-hotel-roma",
+      "tier": "editorial",
+      "chars": 9267
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is at Piazza Augusto Imperatore in the Campo Marzio district of Rome.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "the new property occupies an illustrious address at Piazza Augusto Imperatore in the heart of the Campo Marzio district",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.bulgarihotels.com/en_US/rome",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The building was renovated by the architecture firm ACPV (Antonio Citterio Patricia Viel).",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "its renovation to its current majesty was masterminded by the firm of ACPV (short for Antonio Citterio Patricia Viel)",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/rome/bulgari-hotel-roma",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Il Ristorante - Niko Romito is on the fifth floor and has a view over the Mausoleum of Augustus.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Il Ristorante – Niko Romito is located on the fifth floor of the hotel and provides a splendid view over the Mausoleum of the Emperor Augustus",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.bulgarihotels.com/en_US/rome",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Chef Niko Romito's menu reinvents contemporary Italian cuisine in a concept developed exclusively for Bvlgari Hotels & Resorts.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "the menu reinvents contemporary Italian cuisine in a concept that has been developed exclusively for Bvlgari Hotels & Resorts",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.bulgarihotels.com/en_US/rome/dining/il-ristorante-niko-romito/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Bvlgari Bar has an outside bar and two terraces, one onto Via di Ripetta and one onto Piazza Augusto Imperatore.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "there is an outside bar and two large terraces, one that looks onto Via di Ripetta, and the other onto Piazza Augusto Imperatore",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.bulgarihotels.com/en_US/rome/dining/the-bulgari-bar/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Il Caffè, on the ground floor, was the first cafe created by Niko Romito.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Set on the ground floor",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.bulgarihotels.com/en_US/rome/dining/the-bulgari-bar/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "the first of its kind in Italy and the first created by Niko Romito",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.bulgarihotels.com/en_US/rome/dining/the-bulgari-bar/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The rooms are divided into four colour palettes: white, yellow, red and green.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "divided into four color palates; white, yellow, red, and green",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/rome/bulgari-hotel-roma",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The spa treatments are designed by Augustinus Bader.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Exclusive spa treatments are designed by Augustinus Bader.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.bulgarihotels.com/en_US/rome/spa-and-fitness/the-bulgari-spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The hotel has a library dedicated to the history of jewellery.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "library dedicated to the history of jewellery",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.bulgarihotels.com/en_US/rome",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The Magnificent Path, an exclusive walking tour of Rome, begins at the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Magnificent Path, an exclusive walking tour that reveals the Eternal City through the lens of Bvlgari",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.bulgarihotels.com/en_US/rome",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "the Magnificent Path begins at the Bvlgari Hotel Roma",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.bulgarihotels.com/en_US/rome",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Bvlgari Bar has a black marble bar top finished with 110 Murano glass twirls hand blown with gold dust by Barovier&Toso.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The sumptuous black marble bar top is finished with 110 Murano glass twirls that are hand blown with gold dust by Barovier&Toso.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.bulgarihotels.com/en_US/rome/dining/the-bulgari-bar/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Bvlgari Suite looks out over the Mausoleum of Emperor Augustus.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "the magnificent Bvlgari Suite, which looks out over the Mausoleum of Emperor Augustus",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.bulgarihotels.com/en_US/rome",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Bvlgari Spa evokes ancient Roman baths, with marble columns rising from the swimming pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "with marble columns that rise from the swimming pool",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.bulgarihotels.com/en_US/rome/spa-and-fitness/the-bulgari-spa/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "evokes the atmosphere of ancient Roman baths",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.bulgarihotels.com/en_US/rome/spa-and-fitness/the-bulgari-spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The private dining room has walls upholstered in Rubelli fabric depicting the twelve signs of the Zodiac.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Walls are upholstered in fabric from Rubelli, a historic Italian textile maker, and depict the twelve signs of the Zodiac",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.bulgarihotels.com/en_US/rome/dining/il-ristorante-niko-romito/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The spa has a Spa Suite with a green onyx bath.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "a state-of-the-art Spa Suite featuring a green onyx bath",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.bulgarihotels.com/en_US/rome/spa-and-fitness/the-bulgari-spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The Lobby Lounge is reserved for hotel guests throughout the day.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "is reserved for hotel guests throughout the day",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.bulgarihotels.com/en_US/rome/dining/the-bulgari-bar/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes an ultra-luxury pricing point.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes limited availability because of the hotel's exclusive size.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

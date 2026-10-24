@@ -1,0 +1,72 @@
+{
+  "slug": "the-james-nomad",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "The James NoMad",
+      "city": "New York",
+      "country": "US"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "confirmed by hand as this hotel's own page (thejames.sonesta.com does not carry the hotel's name; an independent hotel's own site normally does; only 50% of the hotel name appears on the page; page does not mention New York)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://thejames.sonesta.com/"
+    ],
+    "checked_at": "2026-10-16T01:04:17.888Z",
+    "status": "confirmed",
+    "official_url": "https://thejames.sonesta.com/",
+    "base_url": "https://thejames.sonesta.com/",
+    "host": "thejames.sonesta.com",
+    "checks": {
+      "name_coverage": 0.5,
+      "location_match": false
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://thejames.sonesta.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:04:22.670Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://thejames.sonesta.com/nautilus-miami-beach/",
+      "tier": "official",
+      "fetched_at": "2026-10-16T01:04:32.051Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 5,
+    "firecrawl_searches": 1,
+    "cache_hits": 0,
+    "direct_fetches": 0,
+    "pages": 2,
+    "chars": 16165,
+    "est_claude_tokens": 4041
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-16T01:04:40.254Z"
+}

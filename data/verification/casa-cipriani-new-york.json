@@ -1,0 +1,441 @@
+{
+  "hotel_slug": "casa-cipriani-new-york",
+  "hotel_name": "Casa Cipriani New York",
+  "checked_at": "2026-10-15T23:53:19.915Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 20,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 0,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.casaciprianinewyork.com/",
+      "tier": "official",
+      "chars": 3960
+    },
+    {
+      "id": "d2",
+      "url": "https://www.casaciprianinewyork.com/rooms-suites/",
+      "tier": "official",
+      "chars": 21894
+    },
+    {
+      "id": "d3",
+      "url": "https://www.casaciprianinewyork.com/wellness/",
+      "tier": "official",
+      "chars": 4654
+    },
+    {
+      "id": "d4",
+      "url": "https://www.casaciprianinewyork.com/location/",
+      "tier": "official",
+      "chars": 1361
+    },
+    {
+      "id": "d5",
+      "url": "https://www.casaciprianinewyork.com/club/",
+      "tier": "official",
+      "chars": 10656
+    },
+    {
+      "id": "d6",
+      "url": "https://www.casaciprianinewyork.com/membership/",
+      "tier": "official",
+      "chars": 4740
+    },
+    {
+      "id": "d7",
+      "url": "https://www.cntraveler.com/hotels/new-york/casa-cipriani",
+      "tier": "editorial",
+      "chars": 12419
+    },
+    {
+      "id": "d8",
+      "url": "https://www.casaciprianinewyork.com/contacts/",
+      "tier": "official",
+      "chars": 1131
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel sits on the water in Lower Manhattan, steps from Wall Street and the Financial District.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Located on the water in Lower Manhattan in the iconic Battery Maritime Building, steps from Wall Street and the Financial District",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.casaciprianinewyork.com/location/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The building is the former Governors Island ferry terminal.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "waterfront location in the former Governors Island ferry terminal",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.casaciprianinewyork.com/location/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The guestrooms and suites were designed by Thierry Despont, and many have private terraces overlooking the East River, the Brooklyn Bridge and the Statue of Liberty.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Designed by Thierry Despont, our forty-seven uniquely decorated Guestrooms and Suites, many with private terraces, overlooking the East River, the Brooklyn Bridge and the Statue of Liberty.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.casaciprianinewyork.com/rooms-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The corridors have lacquered hand rails and portholes on the guestroom doors.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "When you walk down the hallway en route to your room or suite",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york/casa-cipriani",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "down to the lacquered hand rail and portholes on the guestroom doors",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york/casa-cipriani",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The vaulted porch ceiling on the street-facing side of the building still has the original Guastavino tiles.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "the vaulted porch ceiling on the street-facing side of the building still has the original Guastavino tiles",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york/casa-cipriani",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Two Presidential Suites are customized with Loro Piana Interiors.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Two Presidential Suites are customized with Loro Piana Interiors.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.casaciprianinewyork.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Before check-in, guests can choose between Italian cotton or Italian linen sheets.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "The sheets on the bed are from the 150-year-old luxury linen house Rivolta Carmignani",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york/casa-cipriani",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Prior to check in guests can choose between Italian cotton or Italian linen.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york/casa-cipriani",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Casa Cipriani Wellness features cast iron architectural details and state-of-the-art equipment.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Casa Cipriani Wellness features unique cast iron architectural details, and is furnished with state-of-the-art equipment.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.casaciprianinewyork.com/wellness/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "After a workout, guests can relax in eucalyptus steam baths, cryotherapy and traditional cedar saunas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "post workout guest can relax in our eucalyptus steam baths, cryotherapy and traditional cedar saunas",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.casaciprianinewyork.com/wellness/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Casa Cipriani is a private members club in lower Manhattan.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "A true private members club in the modern sense, Casa Cipriani, located in lower Manhattan",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.casaciprianinewyork.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The formal restaurant's interior is inspired by the dining room of a French ocean liner of the thirties.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "formal restaurant is open for breakfast, lunch, and dinner every day. The elegant interior is inspired by the glamorous dining room of a French ocean liner of the thirties.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.casaciprianinewyork.com/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Guests visiting Casa Cipriani New York may enjoy a complimentary ride in the House Car.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "While you are visiting Casa Cipriani New York, you may enjoy a complimentary ride in our House Car.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.casaciprianinewyork.com/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Casa Cipriani is in the historic 1909 Battery Maritime Building, overlooking the Statue of Liberty and New York Harbor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Casa Cipriani resides in the historic 1909 Battery Maritime Building overlooking the majestic Statue of Liberty and New York Harbor",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.casaciprianinewyork.com/location/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Thierry Despont wanted guests to feel like they were on a vintage luxury ocean liner.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Despont wanted guests to feel like they were on a vintage luxury ocean liner.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york/casa-cipriani",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Roebling Presidential Suite has a wraparound terrace facing the Brooklyn Bridge, Brooklyn and the East River.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "ROEBLING PRESIDENTIAL SUITE (ONE BEDROOM)",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.casaciprianinewyork.com/rooms-suites/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "it boasts an 841-square-foot wraparound terrace facing the Brooklyn Bridge, Brooklyn, and the East River",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.casaciprianinewyork.com/rooms-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The spa's hand-picked therapists offer signature massages and treatments including acupuncture, pain management, skincare and medical stress recovery.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "offers a range of signature massages and wellness experiences from a team of hand-picked therapists, including acupuncture, pain management, skincare and medical stress recovery",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.casaciprianinewyork.com/wellness/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Jazz Cafe offers dinner with live music, with a pianist and two different jazz bands alternating each evening.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "It offers dinner with live music performances; a pianist and two different jazz bands alternate each evening",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.casaciprianinewyork.com/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "A dress code applies: members and guests are asked to respect the Beaux-Arts tradition of the landmark building through appropriate attire.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Our landmark building evokes the refined elegance of the Beaux-Arts period, and we ask that all members and guests respect the tradition of that era through appropriate attire.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.casaciprianinewyork.com/membership/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "After 5:00 PM children are not permitted in any areas of the 5th Floor or Rooftop.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "After 5:00 PM children are not permitted in any areas of the 5th Floor or Rooftop.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.casaciprianinewyork.com/membership/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "The Wellness Center is exclusively for the Casa Cipriani community, while the Spa can be reserved by non-member guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "While the Wellness Center is exclusively available to the Casa Cipriani community, the Spa can be reserved by non-member guests.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.casaciprianinewyork.com/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

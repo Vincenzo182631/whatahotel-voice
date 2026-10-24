@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import { HotelProfileSchema, ScriptSchema, type Script } from "../src/core/schema.js";
-import { PERKS_SIGNATURE, checkDuration, checkScript, withSignature, wordCount } from "../src/script/rules.js";
+import { PERKS_SIGNATURE, checkDuration, checkScript, signatureFor, withSignature, wordCount } from "../src/script/rules.js";
 
 const profile = HotelProfileSchema.parse(JSON.parse(readFileSync("test/fixtures/hotels/test-hotel.json", "utf8")));
 const script = (): Script =>
@@ -24,7 +24,7 @@ describe("checkScript", () => {
     it("is appended word for word by the Luxury Advisor, once", () => {
       const s = withSignature(script(), withPerks);
       const last = s.turns[s.turns.length - 1]!;
-      expect(last).toMatchObject({ speaker: "advisor", section: "bottom_line", text: PERKS_SIGNATURE, claim_ids: ["p-1", "p-5", "p-2", "p-3"] });
+      expect(last).toMatchObject({ speaker: "advisor", section: "bottom_line", text: signatureFor(withPerks), claim_ids: ["p-1", "p-5", "p-2", "p-3"] });
       expect(withSignature(s, withPerks).turns).toHaveLength(s.turns.length);
       expect(checkScript(s, withPerks).join()).not.toMatch(/signature|states the perks/);
       expect(PERKS_SIGNATURE).toMatch(/WhataHotel Preferred Rate/);
@@ -35,7 +35,7 @@ describe("checkScript", () => {
       s.turns[s.turns.length - 1]!.claim_ids = ["p-1"];
       const fixed = withSignature(s, withPerks);
       expect(fixed.turns.filter((t) => t.claim_ids.includes("p-1"))).toHaveLength(1);
-      expect(fixed.turns[fixed.turns.length - 1]!.text).toBe(PERKS_SIGNATURE);
+      expect(fixed.turns[fixed.turns.length - 1]!.text).toBe(signatureFor(withPerks));
     });
 
     it("rejects perks spoken outside the signature", () => {
@@ -47,6 +47,33 @@ describe("checkScript", () => {
     it("does nothing for a profile without perks", () => {
       expect(withSignature(script(), profile)).toEqual(script());
     });
+  });
+
+  it("flags spa age rules but not unrelated mentions of kids or the spa", () => {
+    const flagged = ["The spa is adults-only.", "Children aren't allowed in the spa.", "Guests under 18 can't use the thermal pools.", "The spa welcomes guests 16 and over."];
+    for (const text of flagged) {
+      const s = script();
+      s.turns[2] = { ...s.turns[2]!, text };
+      expect(checkScript(s, profile).join(), text).toMatch(/spa age rule/);
+    }
+    const ok = ["There's a kids' club for younger guests. The spa has a hammam.", "Families get a kids' club and the spa offers massages."];
+    for (const text of ok) {
+      const s = script();
+      s.turns[2] = { ...s.turns[2]!, text };
+      expect(checkScript(s, profile).join(), text).not.toMatch(/spa age rule/);
+    }
+    const s2 = script();
+    s2.short_version = { ...s2.short_version, worth_knowing: "The spa is for adults only (18+)." };
+    expect(checkScript(s2, profile).join()).toMatch(/worth_knowing mentions a spa age rule/);
+  });
+
+  it("flags any mention of shuttle service, in turns and the short version", () => {
+    const s = script();
+    s.turns[2] = { ...s.turns[2]!, text: "There's no airport shuttle, so plan a car." };
+    expect(checkScript(s, profile).join()).toMatch(/shuttle/);
+    const s2 = script();
+    s2.short_version = { ...s2.short_version, worth_knowing: "A shuttle runs to the beach." };
+    expect(checkScript(s2, profile).join()).toMatch(/worth_knowing mentions shuttle/);
   });
 
   it("flags pros/cons framing", () => {

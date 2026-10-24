@@ -1,0 +1,417 @@
+{
+  "hotel_slug": "la-reserve-paris",
+  "hotel_name": "La Reserve Paris",
+  "checked_at": "2026-10-15T02:56:11.002Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 20,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 0,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.lareserve-paris.com/en/",
+      "tier": "official",
+      "chars": 6722
+    },
+    {
+      "id": "d2",
+      "url": "https://www.lareserve-paris.com/en/spa/",
+      "tier": "official",
+      "chars": 9321
+    },
+    {
+      "id": "d3",
+      "url": "https://www.cntraveler.com/hotels/paris/paris/la-reserve-paris-hotel-and-spa",
+      "tier": "editorial",
+      "chars": 11277
+    },
+    {
+      "id": "d4",
+      "url": "https://www.lareserve-paris.com/en/find-us/",
+      "tier": "official",
+      "chars": 5932
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is at 42 Avenue Gabriel, midway between Avenue Montaigne and Rue du Faubourg St-Honore, a stone's throw from the Champs-Elysees.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "42 AVENUE GABRIEL, A CAPITAL ADDRESS",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.lareserve-paris.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Midway between Avenue Montaigne and Rue du Faubourg St-Honoré, a stone’s throw from the Champs-Elysées",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.lareserve-paris.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel overlooks the Eiffel Tower, the Pantheon, the Grand Palais and the Concorde obelisk.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "overlooks some of the city’s key sights: the Eiffel Tower, the Pantheon, the Grand Palais and the Concorde obelisk",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.lareserve-paris.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The building was built in 1854 as a private residence for the Duc de Morny, Napoleon III's half-brother.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Originally built in 1854 as a private residence for Napoleon III’s half-brother, the Duc de Morny",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/paris/la-reserve-paris-hotel-and-spa",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Under Michel Reybier's ownership and after a redesign overseen by Jacques Garcia, it opened as La Reserve in 2015.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "under the ownership of Michel Reybier and following a top-to-bottom redesign overseen by Jacques Garcia, it opened as La Réserve in 2015",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/paris/la-reserve-paris-hotel-and-spa",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Le Gabriel serves the cuisine of chef Jerome Banctel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "discover or rediscover cuisine by Jérôme Banctel",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.lareserve-paris.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "La Pagode offers French cuisine that highlights brasserie-inspired dishes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "offers resolutely French cuisine in which tradition is expressed with acute precision",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.lareserve-paris.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "the Chef revels in enhancing brasserie-inspired must-haves",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.lareserve-paris.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Bar Le Gaspard suits a business meeting, an after-work get-together, cocktails or a glass of champagne.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "ideal for a business meeting, a relaxed afterwork get-together, a cocktail with friends or a glass of champagne for two, Bar Le Gaspard",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.lareserve-paris.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "La Pagode uses the inner courtyard, and Le Gaspard the streetside area in front of the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "the inner courtyard, in the case of La Pagode, and the streetside area directly in front of the hotel in the case of Le Gaspard",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/paris/la-reserve-paris-hotel-and-spa",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Spa Nescens has an indoor pool, a hammam, a fitness studio and treatment rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "With its 16m-long indoor pool, hammam, fitness studio and three treatment rooms, Spa Nescens",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.lareserve-paris.com/en/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Hairdressing (cut and blow-dry) can be provided in your room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Hairdressing services (cut and blow-dry) can be provided in the comfort of your room.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.lareserve-paris.com/en/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The entire hotel is wheelchair-accessible, with two Prestige Junior Suite rooms designed for guests with reduced mobility.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The entire hotel is wheelchair-accessible, and two rooms in the Prestige Junior Suite category have been specifically designed for guests with reduced mobility.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/paris/la-reserve-paris-hotel-and-spa",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "A significant proportion of the rooms and suites can be connected.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "a significant proportion of the rooms and suites can be connected.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/paris/la-reserve-paris-hotel-and-spa",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The book-lined Duc de Morny Library has remained much as it was since the 2015 opening.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The Duc de Morny Library, meanwhile, remains very much as it has been since the hotel’s opening in 2015—a book-lined sliver of sumptuousness",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/paris/la-reserve-paris-hotel-and-spa",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "In the rooms, the furniture is by Henryot, the silk wallpaper by Rubelli and the fabric headboards by Prelle.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The furniture is by Henryot, the silk wallpaper by Rubelli, the fabric headboards by Prelle",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/paris/la-reserve-paris-hotel-and-spa",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The concierge can arrange an after-hours visit to Marie-Antoinette's boudoir at Versailles or a helicopter day trip to Champagne.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Should you hanker for an after-hours visit to Marie-Antoinette’s boudoir at Versailles, for instance, or a day trip to Champagne by helicopter, they can of course make the necessary arrangements",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/paris/la-reserve-paris-hotel-and-spa",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Nescens is a Swiss brand whose products are sold exclusively by the spa at La Reserve Paris.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Nescens, a Swiss brand whose products are exclusively sold by the Spa at La Réserve Paris",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.lareserve-paris.com/en/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "For children, tipis, rocking horses, and popcorn and cotton-candy machines are available on request.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Tipis, rocking horses, and even popcorn and cotton-candy machines are available on request.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/paris/la-reserve-paris-hotel-and-spa",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel has no kids' club.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "despite the absence of a kids’ club",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/paris/la-reserve-paris-hotel-and-spa",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The spa has just three treatment rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Set around the 16-meter indoor pool are just three treatment rooms",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.lareserve-paris.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "three treatment rooms",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.lareserve-paris.com/en/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "There is no formal reception; the Louis XV Salon serves that purpose.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "there’s no reception, as such, at La Réserve, just the so-called Louis XV Salon, which, furnished in period-specific splendour, serves an approximately reception-like purpose perfectly well",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/paris/la-reserve-paris-hotel-and-spa",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

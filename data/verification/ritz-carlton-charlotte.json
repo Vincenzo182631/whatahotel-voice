@@ -1,0 +1,360 @@
+{
+  "hotel_slug": "ritz-carlton-charlotte",
+  "hotel_name": "The Ritz Carlton Charlotte",
+  "checked_at": "2026-10-09T13:21:07.476Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 18
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ritzcarlton.com/en/hotels/cltrz-the-ritz-carlton-charlotte/overview/",
+      "tier": "official",
+      "chars": 13743
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ritzcarlton.com/en/hotels/cltrz-the-ritz-carlton-charlotte/rooms/",
+      "tier": "official",
+      "chars": 4096
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ritzcarlton.com/en/hotels/cltrz-the-ritz-carlton-charlotte/dining/",
+      "tier": "official",
+      "chars": 5068
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ritzcarlton.com/en/hotels/cltrz-the-ritz-carlton-charlotte/spa/",
+      "tier": "official",
+      "chars": 7360
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ritzcarlton.com/en/hotels/cltrz-the-ritz-carlton-charlotte/experiences/",
+      "tier": "official",
+      "chars": 24900
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ritzcarlton.com/en/hotels/cltrz-the-ritz-carlton-charlotte/reviews/",
+      "tier": "official",
+      "chars": 748
+    },
+    {
+      "id": "d7",
+      "url": "https://www.cntraveler.com/hotels/united-statescharlotteritz-carlton-charlotte",
+      "tier": "editorial",
+      "chars": 5221
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is a LEED Gold-certified landmark in the heart of Uptown Charlotte.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "As a LEED Gold-certified landmark in the heart of Uptown Charlotte, the hotel seamlessly blends sophisticated accommodations with sustainable practices.",
+          "note": "Matches claim",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/cltrz-the-ritz-carlton-charlotte/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is near Charlotte Spectrum Center and Bank of America Stadium.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Guests can catch major sporting and entertainment events from the hotel near Charlotte Spectrum Center and Bank of America Stadium",
+          "note": "Page states hotel is near both",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/cltrz-the-ritz-carlton-charlotte/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The spa has an Aqua Lounge, a Relaxation Lounge and Vitality Lounges.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "including the Aqua Lounge, Relaxation Lounge and Vitality Lounges",
+          "note": "All three lounges listed",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/cltrz-the-ritz-carlton-charlotte/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The spa's signature treatments include pink Himalayan salt therapies.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "signature treatments, including pink Himalayan salt therapies",
+          "note": "Matches claim",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/cltrz-the-ritz-carlton-charlotte/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The hotel's Bike Valet offers bicycles for complimentary guest use, first-come, first-served.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Bike Valets at The Ritz-Carlton, Charlotte offer bicycles for complimentary guest use. Bikes are first-come, first-served.",
+          "note": "Matches claim",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/cltrz-the-ritz-carlton-charlotte/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Rooms have floor-to-ceiling windows that overlook the Charlotte skyline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Floor-to-ceiling windows overlook the Charlotte skyline",
+          "note": "Matches claim",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/cltrz-the-ritz-carlton-charlotte/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Minibars feature locally-curated items.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "minibars feature locally-curated items",
+          "note": "Matches claim",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/cltrz-the-ritz-carlton-charlotte/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The suites have carpets inspired by a North Carolina designer.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Unwind in upscale suites complete with local touches, an elevated beverage experience, and carpets inspired by a North Carolina designer.",
+          "note": "Matches claim",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/cltrz-the-ritz-carlton-charlotte/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The Veronét Vineyards Signature Experience is a vineyard escape about 30 minutes from the city, with transportation arranged.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Guests enjoy a seamless escape just 30 minutes from the city, arriving at Veronét Vineyards ready to slow down and take in the rolling countryside, with transportation arranged to make the journey effortless.",
+          "note": "Matches claim",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/cltrz-the-ritz-carlton-charlotte/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Ritz Kids engages children to interact with the hotel's surroundings.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Ritz Kids delights and engages your children to interact with their surroundings in a fresh and exciting way",
+          "note": "Matches claim",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/cltrz-the-ritz-carlton-charlotte/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel's roof holds a chef's garden grown for the hotel's kitchens, with lavender, mint and other fresh herbs and greens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The roof at this hotel near CLT is the location for the chef’s garden, cultivated for hotel culinary purposes and featuring lavender, mint and other fresh herbs and greens",
+          "note": "Rooftop chef's garden with listed herbs",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/cltrz-the-ritz-carlton-charlotte/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The spa is a bi-level penthouse spa with organic treatments, a salt room and an Aqua Lounge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Bi-level penthouse spa with organic treatments, a salt room and Aqua Lounge.",
+          "note": "Matches claim",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/cltrz-the-ritz-carlton-charlotte/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Spa & Wellness Center has a bromine-treated swimming pool designed to avoid the effects of traditional harsh pool chemicals.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "also features a bromine-treated swimming pool designed to avoid the effects of traditional harsh pool chemicals",
+          "note": "Matches claim",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/cltrz-the-ritz-carlton-charlotte/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The hotel's dessert amenities use honey from its rooftop apiaries.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "including honey from our rooftop apiaries",
+          "note": "Dessert amenities use rooftop apiary honey",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/cltrz-the-ritz-carlton-charlotte/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Sweet July Cafe brings together California wellness and Caribbean hospitality.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Sweet July Cafe brings together California wellness and Caribbean hospitality",
+          "note": "Matches claim",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/cltrz-the-ritz-carlton-charlotte/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel does not provide shuttle service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "This hotel does not provide shuttle service.",
+          "note": "Matches claim",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/cltrz-the-ritz-carlton-charlotte/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Hotel guests may purchase access to the Spa Vitality and Relaxation Lounges for $50 per day, while the Fitness Center and Aqua Lounge are complimentary.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Hotel guests are warmly invited to enjoy The Fitness Center and Aqua Lounge on a complimentary basis and may purchase access to the Spa Vitality and Relaxation Lounges for $50 per day.",
+          "note": "Matches claim",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/cltrz-the-ritz-carlton-charlotte/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the urban location may have limited outdoor space.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
