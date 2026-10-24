@@ -1,0 +1,89 @@
+{
+  "slug": "the-park-tower-knightsbridge",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "The Park Tower Knightsbridge",
+      "city": "London",
+      "country": "GB",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (London, GB)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/lonlc-the-park-tower-knightsbridge-a-luxury-collection-hotel-london/overview/"
+    ],
+    "checked_at": "2026-10-24T06:29:35.165Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/lonlc-the-park-tower-knightsbridge-a-luxury-collection-hotel-london/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/lonlc-the-park-tower-knightsbridge-a-luxury-collection-hotel-london/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/lonlc-the-park-tower-knightsbridge-a-luxury-collection-hotel-london/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:30:18.498Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/lonlc-the-park-tower-knightsbridge-a-luxury-collection-hotel-london/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:30:22.659Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/lonlc-the-park-tower-knightsbridge-a-luxury-collection-hotel-london/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:30:25.762Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/lonlc-the-park-tower-knightsbridge-a-luxury-collection-hotel-london/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:30:37.524Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.cntraveler.com/hotels/united-kingdom/london/sheraton-park-tower",
+      "tier": "editorial",
+      "fetched_at": "2026-10-24T06:30:46.905Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 5,
+    "chars": 61716,
+    "est_claude_tokens": 15429
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-24T06:30:46.905Z"
+}
