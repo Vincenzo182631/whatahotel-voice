@@ -1,0 +1,96 @@
+{
+  "slug": "grand-hotel-river-park",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "Grand Hotel River Park",
+      "city": "Bratislava",
+      "country": "SK",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Bratislava, SK)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/btslc-grand-hotel-river-park-a-luxury-collection-hotel-bratislava/overview/"
+    ],
+    "checked_at": "2026-10-24T06:28:33.332Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/btslc-grand-hotel-river-park-a-luxury-collection-hotel-bratislava/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/btslc-grand-hotel-river-park-a-luxury-collection-hotel-bratislava/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/btslc-grand-hotel-river-park-a-luxury-collection-hotel-bratislava/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:28:55.051Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/btslc-grand-hotel-river-park-a-luxury-collection-hotel-bratislava/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:29:05.476Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/btslc-grand-hotel-river-park-a-luxury-collection-hotel-bratislava/rooms/suites/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:29:17.536Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/btslc-grand-hotel-river-park-a-luxury-collection-hotel-bratislava/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:29:27.324Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.marriott.com/en-us/hotels/btslc-grand-hotel-river-park-a-luxury-collection-hotel-bratislava/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T06:29:34.478Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.cntraveler.com/hotels/slovakia/bratislava/kempinski-hotel-river-park",
+      "tier": "editorial",
+      "fetched_at": "2026-10-24T06:29:40.787Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 8,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 6,
+    "chars": 78030,
+    "est_claude_tokens": 19508
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-24T06:29:40.788Z"
+}
