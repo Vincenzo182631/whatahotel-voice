@@ -1,0 +1,82 @@
+{
+  "slug": "the-nines",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "The Nines",
+      "city": "Portland",
+      "country": "US",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Portland, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/pdxln-the-nines-a-luxury-collection-hotel-portland/overview/"
+    ],
+    "checked_at": "2026-10-24T05:51:50.907Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/pdxln-the-nines-a-luxury-collection-hotel-portland/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/pdxln-the-nines-a-luxury-collection-hotel-portland/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/pdxln-the-nines-a-luxury-collection-hotel-portland/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T05:52:14.637Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/pdxln-the-nines-a-luxury-collection-hotel-portland/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T05:52:24.234Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/pdxln-the-nines-a-luxury-collection-hotel-portland/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T05:52:34.112Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.cntraveler.com/hotels/portland/the-nines-a-luxury-collection-hotel-portland",
+      "tier": "editorial",
+      "fetched_at": "2026-10-24T05:52:50.585Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 6,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 4,
+    "chars": 40608,
+    "est_claude_tokens": 10152
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-24T05:52:50.585Z"
+}
