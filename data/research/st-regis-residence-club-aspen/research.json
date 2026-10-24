@@ -1,0 +1,89 @@
+{
+  "slug": "st-regis-residence-club-aspen",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "St Regis Residence Club, Aspen",
+      "city": "Aspen",
+      "country": "US",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Aspen, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/asesx-st-regis-residence-club-aspen/overview/"
+    ],
+    "checked_at": "2026-10-24T05:47:59.760Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/asesx-st-regis-residence-club-aspen/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/asesx-st-regis-residence-club-aspen/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/asesx-st-regis-residence-club-aspen/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T05:48:13.653Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/asesx-st-regis-residence-club-aspen/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T05:48:18.137Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/asesx-st-regis-residence-club-aspen/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T05:48:24.347Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/asesx-st-regis-residence-club-aspen/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T05:48:26.396Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 4,
+    "chars": 24095,
+    "est_claude_tokens": 6024
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-24T05:48:33.325Z"
+}
