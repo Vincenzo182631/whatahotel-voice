@@ -1,11 +1,8 @@
 {
   "slug": "iraph-sui",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "https://www.marriott.com/en-us/hotels/okalc-iraph-sui-a-luxury-collection-hotel-miyako-okinawa/overview/: page does not mention Miyako Jima",
-    "official website could not be confirmed; flag for review"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "IRAPH SUI",
@@ -17,27 +14,70 @@
       "kind": "chain",
       "chain": "marriott"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.marriott.com/en-us/hotels/okalc-iraph-sui-a-luxury-collection-hotel-miyako-okinawa/overview/: page does not mention Miyako Jima",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "confirmed by hand as this hotel's own page (page does not mention Miyako Jima)"
     ],
+    "reasons": [],
     "candidates": [
       "https://www.marriott.com/en-us/hotels/okalc-iraph-sui-a-luxury-collection-hotel-miyako-okinawa/overview/"
     ],
-    "checked_at": "2026-10-24T07:26:57.852Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-24T07:28:44.729Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/okalc-iraph-sui-a-luxury-collection-hotel-miyako-okinawa/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/okalc-iraph-sui-a-luxury-collection-hotel-miyako-okinawa/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": false
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/okalc-iraph-sui-a-luxury-collection-hotel-miyako-okinawa/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T07:28:49.502Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/okalc-iraph-sui-a-luxury-collection-hotel-miyako-okinawa/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T07:28:57.506Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/okalc-iraph-sui-a-luxury-collection-hotel-miyako-okinawa/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T07:29:10.507Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/okalc-iraph-sui-a-luxury-collection-hotel-miyako-okinawa/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T07:29:14.934Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.cntraveler.com/hotels/okinawa/iraph-sui-a-luxury-collection-hotel-miyako-okinawa",
+      "tier": "editorial",
+      "fetched_at": "2026-10-24T07:29:23.413Z",
+      "source": "direct"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 1,
-    "firecrawl_searches": 0,
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 5,
+    "chars": 28579,
+    "est_claude_tokens": 7145
   },
   "limits": {
     "maxPages": 12,
@@ -45,5 +85,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-24T07:27:01.668Z"
+  "researched_at": "2026-10-24T07:29:23.413Z"
 }
