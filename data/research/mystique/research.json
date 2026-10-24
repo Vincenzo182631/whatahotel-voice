@@ -1,0 +1,89 @@
+{
+  "slug": "mystique",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "Mystique",
+      "city": "Santorini",
+      "country": "GR",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Santorini, GR)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/jtrml-mystique-a-luxury-collection-hotel-santorini/overview/"
+    ],
+    "checked_at": "2026-10-24T05:49:09.190Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/jtrml-mystique-a-luxury-collection-hotel-santorini/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/jtrml-mystique-a-luxury-collection-hotel-santorini/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/jtrml-mystique-a-luxury-collection-hotel-santorini/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T05:49:37.982Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/jtrml-mystique-a-luxury-collection-hotel-santorini/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T05:49:48.642Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/jtrml-mystique-a-luxury-collection-hotel-santorini/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T05:49:59.286Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/jtrml-mystique-a-luxury-collection-hotel-santorini/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T05:50:09.300Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.cntraveler.com/hotels/greece/oia/mystique-santorini",
+      "tier": "editorial",
+      "fetched_at": "2026-10-24T05:50:16.396Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 5,
+    "chars": 54440,
+    "est_claude_tokens": 13610
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-24T05:50:16.396Z"
+}
