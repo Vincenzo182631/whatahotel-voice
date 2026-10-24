@@ -1,0 +1,96 @@
+{
+  "slug": "the-london-new-york-city",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "The London, New York City",
+      "city": "New York",
+      "country": "US",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (New York, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/nycmx-the-london-a-luxury-collection-hotel-new-york-city/overview/"
+    ],
+    "checked_at": "2026-10-24T05:49:55.061Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/nycmx-the-london-a-luxury-collection-hotel-new-york-city/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/nycmx-the-london-a-luxury-collection-hotel-new-york-city/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/nycmx-the-london-a-luxury-collection-hotel-new-york-city/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T05:50:03.393Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/nycmx-the-london-a-luxury-collection-hotel-new-york-city/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T05:50:17.068Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/nycmx-the-london-a-luxury-collection-hotel-new-york-city/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T05:50:26.494Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/nycmx-the-london-a-luxury-collection-hotel-new-york-city/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T05:50:29.369Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.marriott.com/en-us/hotels/nycmx-the-london-a-luxury-collection-hotel-new-york-city/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T05:50:31.631Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.cntraveler.com/hotels/united-states/new-york/the-london-nyc--new-york",
+      "tier": "editorial",
+      "fetched_at": "2026-10-24T05:50:40.416Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 8,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 6,
+    "chars": 46083,
+    "est_claude_tokens": 11521
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-24T05:50:40.416Z"
+}

@@ -1,0 +1,380 @@
+{
+  "hotel_slug": "hotel-de-berri-champs-elysees",
+  "hotel_name": "Hotel de Berri Champs-Elysees",
+  "checked_at": "2026-10-24T05:50:59.103Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/parbe-hotel-de-berri-champs-elysees-a-luxury-collection-hotel-paris/overview/",
+      "tier": "official",
+      "chars": 13593
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/parbe-hotel-de-berri-champs-elysees-a-luxury-collection-hotel-paris/rooms/",
+      "tier": "official",
+      "chars": 7859
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/parbe-hotel-de-berri-champs-elysees-a-luxury-collection-hotel-paris/dining/",
+      "tier": "official",
+      "chars": 5031
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/parbe-hotel-de-berri-champs-elysees-a-luxury-collection-hotel-paris/experiences/",
+      "tier": "official",
+      "chars": 7461
+    },
+    {
+      "id": "d5",
+      "url": "https://www.marriott.com/en-us/hotels/parbe-hotel-de-berri-champs-elysees-a-luxury-collection-hotel-paris/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "chars": 2483
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is steps from the Champs-Élysées.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Hidden just steps from the Champs-Élysées, Hôtel de Berri invites guests",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/parbe-hotel-de-berri-champs-elysees-a-luxury-collection-hotel-paris/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is located steps from Paris's Golden Triangle.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located steps from the Champs-Élysées and Paris’s iconic Golden Triangle",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/parbe-hotel-de-berri-champs-elysees-a-luxury-collection-hotel-paris/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Each room and suite was designed by Philippe Renaud and blends curated antiques, handcrafted textures and contemporary artworks.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Designed by Philippe Renaud, each room and suite blends curated antiques, handcrafted textures, and contemporary artworks with refined Parisian sophistication.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/parbe-hotel-de-berri-champs-elysees-a-luxury-collection-hotel-paris/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The room decor blends neoclassical elegance with surrealist details.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "the décor blends neoclassical elegance, surrealist details, curated antiques, and contemporary artworks",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/parbe-hotel-de-berri-champs-elysees-a-luxury-collection-hotel-paris/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Each suite has an Apple TV and a hi-fi speaker system.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Each Suite comes equipped with all things tech, including Apple TV & HI FI Speaker System.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/parbe-hotel-de-berri-champs-elysees-a-luxury-collection-hotel-paris/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Rooms have Toto toilets and heated Italian marble floors.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Relax in luxury hotel rooms in Paris with Toto Toilets, heating Italian marble floors and mirrors.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/parbe-hotel-de-berri-champs-elysees-a-luxury-collection-hotel-paris/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The large suites are suited to families and guests who want more space.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our large suites are perfectly suited to families and those who want more space.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/parbe-hotel-de-berri-champs-elysees-a-luxury-collection-hotel-paris/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Le Schiap by Stéphane Pitré pays tribute to Elsa Schiaparelli through refined French cuisine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Le Schiap by Stéphane Pitré pays tribute to Elsa Schiaparelli through refined French cuisine, creativity, and Parisian art de vivre.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/parbe-hotel-de-berri-champs-elysees-a-luxury-collection-hotel-paris/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The Luxury Collection Concierge team arranges private museum visits, curated shopping experiences and restaurant reservations.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "From private museum visits to curated shopping experiences and restaurant reservations, our Luxury Collection Concierge team is dedicated to creating unforgettable moments in the heart of Paris.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/parbe-hotel-de-berri-champs-elysees-a-luxury-collection-hotel-paris/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Parc Monceau is a 10-minute walk from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Located just a 10-minute walk from the hotel, le Parc Monceau",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/parbe-hotel-de-berri-champs-elysees-a-luxury-collection-hotel-paris/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel is close to the Jacquemart-André museum.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Our hotel also offers close proximity to some of Paris' lesser-known museum, such as Jacquemart-André museum",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/parbe-hotel-de-berri-champs-elysees-a-luxury-collection-hotel-paris/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The hotel has a gym with cardio and strength equipment.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "We invite you to work out in our well-equipped hotel gym offering cardio and strength equipment.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/parbe-hotel-de-berri-champs-elysees-a-luxury-collection-hotel-paris/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel stands on a historic Parisian address that was once home to couturière Elsa Schiaparelli.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Hôtel de Berri stands on a historic Parisian address once home to legendary couturière Elsa Schiaparelli.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/parbe-hotel-de-berri-champs-elysees-a-luxury-collection-hotel-paris/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Parisian Suite, inspired by Elsa Schiaparelli's residence, has views over the private garden, a dining room for six, a salon, a marble bathroom and a walk-in dressing room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Inspired by the legendary residence of Elsa Schiaparelli, The Parisian Suite is Hôtel de Berri’s signature masterpiece.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/parbe-hotel-de-berri-champs-elysees-a-luxury-collection-hotel-paris/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Featuring panoramic views over the hotel’s private garden, a dining room for six, a spacious salon, marble bathroom, and walk-in dressing room",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/parbe-hotel-de-berri-champs-elysees-a-luxury-collection-hotel-paris/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Many of the rooms and suites overlook the hotel's private garden.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "each accommodation at Hôtel de Berri blends curated design, premium amenities, and generous living spaces, many overlooking the hotel’s peaceful private garden",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/parbe-hotel-de-berri-champs-elysees-a-luxury-collection-hotel-paris/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Chief Concierge curates guided tours of the hotel's surroundings for guests to rediscover the Champs-Élysées area.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Curated by our Chief Concierge, guided tours of the hotel surroundings will allow our guest to travel through time and re-discover the Champs-Elysées area.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/parbe-hotel-de-berri-champs-elysees-a-luxury-collection-hotel-paris/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Rooms do not have a fridge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "No, rooms at Hôtel de Berri Champs-Élysées, a Luxury Collection Hotel, Paris do not have a fridge.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/parbe-hotel-de-berri-champs-elysees-a-luxury-collection-hotel-paris/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Rollaway beds are not permitted in the rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "No, the rooms at Hôtel de Berri Champs-Élysées, a Luxury Collection Hotel, Paris do not permit rollaway beds.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/parbe-hotel-de-berri-champs-elysees-a-luxury-collection-hotel-paris/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes boutique size with limited facilities compared to larger hotels.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
