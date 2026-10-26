@@ -1,0 +1,108 @@
+{
+  "slug": "andaz-one-bangkok",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Andaz One Bangkok",
+      "city": "Bangkok",
+      "country": "TH",
+      "chain": "hyatt"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hyatt"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Bangkok, TH)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://newsroom.hyatt.com/Andaz-One-Bangkok-Opens-Its-Door-In-Thailand",
+      "https://www.hyatt.com/andaz/en-US/bkkaz-andaz-one-bangkok"
+    ],
+    "checked_at": "2026-10-26T22:05:48.844Z",
+    "status": "confirmed",
+    "official_url": "https://www.hyatt.com/andaz/en-US/bkkaz-andaz-one-bangkok",
+    "base_url": "https://www.hyatt.com/andaz/en-US/bkkaz-andaz-one-bangkok/",
+    "host": "hyatt.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hyatt.com/andaz/en-US/bkkaz-andaz-one-bangkok",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:06:01.092Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hyatt.com/andaz/en-US/bkkaz-andaz-one-bangkok/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:06:06.801Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hyatt.com/andaz/en-US/bkkaz-andaz-one-bangkok/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:06:11.735Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hyatt.com/andaz/en-US/bkkaz-andaz-one-bangkok/hotel-info/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:06:20.129Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hyatt.com/andaz/en-US/bkkaz-andaz-one-bangkok/reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:06:22.559Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.hyatt.com/andaz/en-US/bkkaz-andaz-one-bangkok/parking-and-transportation/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:06:31.743Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.hyatt.com/andaz/en-US/bkkaz-andaz-one-bangkok/%3CBase64-Image-Removed%3E/",
+      "reason": "https://www.hyatt.com/andaz/en-US/bkkaz-andaz-one-bangkok/%3CBase64-Image-Removed%3E/: page had almost no text"
+    },
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 11,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 6,
+    "chars": 49136,
+    "est_claude_tokens": 12284
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-26T22:06:37.203Z"
+}

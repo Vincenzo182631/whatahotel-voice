@@ -1,0 +1,110 @@
+{
+  "slug": "andaz-capital-gate-abu-dhabi",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Andaz Capital Gate, Abu Dhabi",
+      "city": "Abu Dhabi",
+      "country": "AE",
+      "chain": "hyatt"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hyatt"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Abu Dhabi, AE)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hyatt.com/andaz/en-US/abdcc-andaz-capital-gate-abu-dhabi"
+    ],
+    "checked_at": "2026-10-26T22:07:22.255Z",
+    "status": "confirmed",
+    "official_url": "https://www.hyatt.com/andaz/en-US/abdcc-andaz-capital-gate-abu-dhabi",
+    "base_url": "https://www.hyatt.com/andaz/en-US/abdcc-andaz-capital-gate-abu-dhabi/",
+    "host": "hyatt.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hyatt.com/andaz/en-US/abdcc-andaz-capital-gate-abu-dhabi",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:07:42.271Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hyatt.com/andaz/en-US/abdcc-andaz-capital-gate-abu-dhabi/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:07:42.536Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hyatt.com/andaz/en-US/abdcc-andaz-capital-gate-abu-dhabi/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:07:46.517Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hyatt.com/andaz/en-US/abdcc-andaz-capital-gate-abu-dhabi/hotel-info/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:07:58.155Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hyatt.com/andaz/en-US/abdcc-andaz-capital-gate-abu-dhabi/reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:08:00.228Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.hyatt.com/andaz/en-US/abdcc-andaz-capital-gate-abu-dhabi/parking-and-transportation/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:08:10.611Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.cntraveler.com/hotels/abu-dhabi/andaz-capital-gate",
+      "tier": "editorial",
+      "fetched_at": "2026-10-26T22:08:15.634Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.hyatt.com/andaz/en-US/abdcc-andaz-capital-gate-abu-dhabi/%3CBase64-Image-Removed%3E/",
+      "reason": "Firecrawl 500 for https://www.hyatt.com/andaz/en-US/abdcc-andaz-capital-gate-abu-dhabi/%3CBase64-Image-Removed%3E/: The URL failed to load in the browser with e"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 10,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 7,
+    "chars": 50055,
+    "est_claude_tokens": 12514
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-26T22:08:15.634Z"
+}

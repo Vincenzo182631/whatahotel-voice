@@ -1,0 +1,96 @@
+{
+  "slug": "andaz-miami-beach",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "Andaz Miami Beach",
+      "city": "Miami Beach",
+      "country": "US",
+      "chain": "hyatt"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hyatt"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Miami Beach, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hyatt.com/andaz/en-US/miaob-andaz-miami-beach"
+    ],
+    "checked_at": "2026-10-26T22:08:34.904Z",
+    "status": "confirmed",
+    "official_url": "https://www.hyatt.com/andaz/en-US/miaob-andaz-miami-beach",
+    "base_url": "https://www.hyatt.com/andaz/en-US/miaob-andaz-miami-beach/",
+    "host": "hyatt.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hyatt.com/andaz/en-US/miaob-andaz-miami-beach",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:08:40.782Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hyatt.com/andaz/en-US/miaob-andaz-miami-beach/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:08:43.160Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hyatt.com/andaz/en-US/miaob-andaz-miami-beach/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:08:50.032Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hyatt.com/andaz/en-US/miaob-andaz-miami-beach/reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:08:54.584Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hyatt.com/andaz/en-US/miaob-andaz-miami-beach/parking-and-transportation/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:08:55.101Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.cntraveler.com/hotels/miami-beach/andaz-miami-beach-by-hyatt",
+      "tier": "editorial",
+      "fetched_at": "2026-10-26T22:09:04.513Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 3,
+    "cache_hits": 3,
+    "direct_fetches": 1,
+    "pages": 6,
+    "chars": 60960,
+    "est_claude_tokens": 15240
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-26T22:09:04.513Z"
+}

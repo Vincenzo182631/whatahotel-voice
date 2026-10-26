@@ -1,0 +1,110 @@
+{
+  "slug": "andaz-san-diego",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Andaz San Diego",
+      "city": "San Diego",
+      "country": "US",
+      "chain": "hyatt"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hyatt"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (San Diego, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hyatt.com/andaz/en-US/sanas-andaz-san-diego"
+    ],
+    "checked_at": "2026-10-26T22:06:51.719Z",
+    "status": "confirmed",
+    "official_url": "https://www.hyatt.com/andaz/en-US/sanas-andaz-san-diego",
+    "base_url": "https://www.hyatt.com/andaz/en-US/sanas-andaz-san-diego/",
+    "host": "hyatt.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hyatt.com/andaz/en-US/sanas-andaz-san-diego",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:07:02.560Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hyatt.com/andaz/en-US/sanas-andaz-san-diego/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:07:05.763Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hyatt.com/andaz/en-US/sanas-andaz-san-diego/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:07:09.770Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hyatt.com/andaz/en-US/sanas-andaz-san-diego/hotel-info/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:07:20.337Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hyatt.com/andaz/en-US/sanas-andaz-san-diego/reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:07:22.670Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.hyatt.com/andaz/en-US/sanas-andaz-san-diego/parking-and-transportation/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:07:30.782Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.cntraveler.com/hotels/san-diego/andaz-san-diego",
+      "tier": "editorial",
+      "fetched_at": "2026-10-26T22:07:36.725Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.hyatt.com/andaz/en-US/sanas-andaz-san-diego/%3CBase64-Image-Removed%3E/",
+      "reason": "https://www.hyatt.com/andaz/en-US/sanas-andaz-san-diego/%3CBase64-Image-Removed%3E/: page had almost no text"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 10,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 7,
+    "chars": 48656,
+    "est_claude_tokens": 12164
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-26T22:07:36.725Z"
+}

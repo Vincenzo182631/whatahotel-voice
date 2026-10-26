@@ -1,0 +1,110 @@
+{
+  "slug": "andaz-bali",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Andaz Bali",
+      "city": "Bali",
+      "country": "ID",
+      "chain": "hyatt"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hyatt"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Bali, ID)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hyatt.com/andaz/en-US/dpsaz-andaz-bali"
+    ],
+    "checked_at": "2026-10-26T22:07:04.057Z",
+    "status": "confirmed",
+    "official_url": "https://www.hyatt.com/andaz/en-US/dpsaz-andaz-bali",
+    "base_url": "https://www.hyatt.com/andaz/en-US/dpsaz-andaz-bali/",
+    "host": "hyatt.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hyatt.com/andaz/en-US/dpsaz-andaz-bali",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:07:24.015Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hyatt.com/andaz/en-US/dpsaz-andaz-bali/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:07:27.185Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hyatt.com/andaz/en-US/dpsaz-andaz-bali/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:07:31.174Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hyatt.com/andaz/en-US/dpsaz-andaz-bali/hotel-info/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:07:47.431Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hyatt.com/andaz/en-US/dpsaz-andaz-bali/dining/fishermans-club/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:07:58.466Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.hyatt.com/andaz/en-US/dpsaz-andaz-bali/reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:08:01.056Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.hyatt.com/andaz/en-US/dpsaz-andaz-bali/parking-and-transportation/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:08:07.669Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 10,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 7,
+    "chars": 48977,
+    "est_claude_tokens": 12244
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-26T22:08:13.467Z"
+}

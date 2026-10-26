@@ -1,0 +1,111 @@
+{
+  "slug": "andaz-dubai-the-palm",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Andaz Dubai The Palm",
+      "city": "Dubai",
+      "country": "AE",
+      "chain": "hyatt"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hyatt"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Dubai, AE)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://newsroom.hyatt.com/121519Andaz-Brand-Debuts-in-Dubai-With-the-Opening-of-Andaz-Dubai-the-Palm",
+      "https://www.hyatt.com/andaz/en-US/dxbct-andaz-dubai-the-palm"
+    ],
+    "checked_at": "2026-10-26T22:08:16.565Z",
+    "status": "confirmed",
+    "official_url": "https://www.hyatt.com/andaz/en-US/dxbct-andaz-dubai-the-palm",
+    "base_url": "https://www.hyatt.com/andaz/en-US/dxbct-andaz-dubai-the-palm/",
+    "host": "hyatt.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hyatt.com/andaz/en-US/dxbct-andaz-dubai-the-palm",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:08:31.261Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hyatt.com/andaz/en-US/dxbct-andaz-dubai-the-palm/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:08:35.561Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hyatt.com/andaz/en-US/dxbct-andaz-dubai-the-palm/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:08:38.817Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hyatt.com/andaz/en-US/dxbct-andaz-dubai-the-palm/hotel-info/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:08:48.349Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hyatt.com/andaz/en-US/dxbct-andaz-dubai-the-palm/reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:08:52.030Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.hyatt.com/andaz/en-US/dxbct-andaz-dubai-the-palm/parking-and-transportation/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:09:10.207Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.cntraveler.com/hotels/united-arab-emirates/dubai/one-only-the-palm-dubai",
+      "tier": "editorial",
+      "fetched_at": "2026-10-26T22:09:15.689Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.hyatt.com/andaz/en-US/dxbct-andaz-dubai-the-palm/%3CBase64-Image-Removed%3E/",
+      "reason": "Firecrawl 500 for https://www.hyatt.com/andaz/en-US/dxbct-andaz-dubai-the-palm/%3CBase64-Image-Removed%3E/: The URL failed to load in the browser with error cod"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 11,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 7,
+    "chars": 55700,
+    "est_claude_tokens": 13925
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-26T22:09:15.689Z"
+}
