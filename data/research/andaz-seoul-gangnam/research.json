@@ -1,9 +1,9 @@
 {
   "slug": "andaz-seoul-gangnam",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
   "reasons": [
-    "several Hyatt properties match \"Andaz Seoul Gangnam\" in Seoul (https://www.hyatt.com/andaz/en-US/selaz-andaz-seoul-gangnam/, https://www.hyatt.com/andaz/ko-KR/selaz-andaz-seoul-gangnam/); confirm with --official-url"
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
   ],
   "identity": {
     "hotel": {
@@ -16,27 +16,89 @@
       "kind": "chain",
       "chain": "hyatt"
     },
-    "evidence": [],
-    "reasons": [
-      "several Hyatt properties match \"Andaz Seoul Gangnam\" in Seoul (https://www.hyatt.com/andaz/en-US/selaz-andaz-seoul-gangnam/, https://www.hyatt.com/andaz/ko-KR/selaz-andaz-seoul-gangnam/); confirm with --official-url"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Seoul, KR)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://www.hyatt.com/andaz/en-US/selaz-andaz-seoul-gangnam/",
-      "https://www.hyatt.com/andaz/ko-KR/selaz-andaz-seoul-gangnam/"
+      "https://www.hyatt.com/andaz/en-US/selaz-andaz-seoul-gangnam/"
     ],
-    "checked_at": "2026-10-26T22:05:42.683Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-26T22:16:01.670Z",
+    "status": "confirmed",
+    "official_url": "https://www.hyatt.com/andaz/en-US/selaz-andaz-seoul-gangnam/",
+    "base_url": "https://www.hyatt.com/andaz/en-US/selaz-andaz-seoul-gangnam/",
+    "host": "hyatt.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
-  "inaccessible": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hyatt.com/andaz/en-US/selaz-andaz-seoul-gangnam/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:16:06.262Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hyatt.com/andaz/en-US/selaz-andaz-seoul-gangnam/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:16:16.902Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hyatt.com/andaz/en-US/selaz-andaz-seoul-gangnam/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:16:21.497Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hyatt.com/andaz/en-US/selaz-andaz-seoul-gangnam/hotel-info/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:16:28.776Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hyatt.com/andaz/en-US/selaz-andaz-seoul-gangnam/reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:16:31.803Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.hyatt.com/andaz/en-US/selaz-andaz-seoul-gangnam/parking-and-transportation/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:16:49.845Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.cntraveler.com/hotels/seoul/andaz-seoul-gangnam",
+      "tier": "editorial",
+      "fetched_at": "2026-10-26T22:16:51.211Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.hyatt.com/andaz/en-US/selaz-andaz-seoul-gangnam/%3CBase64-Image-Removed%3E/",
+      "reason": "Firecrawl 500 for https://www.hyatt.com/andaz/en-US/selaz-andaz-seoul-gangnam/%3CBase64-Image-Removed%3E/: The URL failed to load in the browser with error code"
+    }
+  ],
   "usage": {
-    "firecrawl_calls": 2,
-    "firecrawl_searches": 2,
+    "firecrawl_calls": 10,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 7,
+    "chars": 56396,
+    "est_claude_tokens": 14099
   },
   "limits": {
     "maxPages": 12,
@@ -44,5 +106,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-26T22:05:47.946Z"
+  "researched_at": "2026-10-26T22:16:51.211Z"
 }
