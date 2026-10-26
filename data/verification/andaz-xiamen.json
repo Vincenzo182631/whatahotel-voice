@@ -1,0 +1,407 @@
+{
+  "hotel_slug": "andaz-xiamen",
+  "hotel_name": "Andaz Xiamen",
+  "checked_at": "2026-10-26T22:11:32.791Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/andaz/en-US/xmnaz-andaz-xiamen",
+      "tier": "official",
+      "chars": 7618
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/andaz/en-US/xmnaz-andaz-xiamen/rooms/",
+      "tier": "official",
+      "chars": 10286
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/andaz/en-US/xmnaz-andaz-xiamen/dining/",
+      "tier": "official",
+      "chars": 3285
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hyatt.com/andaz/en-US/xmnaz-andaz-xiamen/parking-and-transportation/",
+      "tier": "official",
+      "chars": 3208
+    },
+    {
+      "id": "d5",
+      "url": "https://www.hyatt.com/andaz/en-US/xmnaz-andaz-xiamen/hotel-info/",
+      "tier": "official",
+      "chars": 3459
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is at 101 Hubin East Road in Xiamen's Siming District.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "101 Hubin East Road, Siming District, Xiamen, 361004 China",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/xmnaz-andaz-xiamen",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel's underground parking area is shared with The MixC Xiamen mall.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Andaz Xiamen houses an underground self-parking area shared with The MixC Xiamen mall.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/xmnaz-andaz-xiamen/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Rooms feature natural textures and materials such as rattan-backed armchairs, woven bamboo wall paneling and timber louvers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "These private, thoughtfully designed spaces feature natural textures and materials such as rattan-backed armchairs, woven bamboo wall paneling and timber louvers",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/xmnaz-andaz-xiamen",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Deluxe king rooms include a study, a daybed by the window and a walk-in closet.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Features include a king bed, study, daybed by the window, walk-in closet and modern bathroom.",
+          "note": "1 King Bed, Deluxe description",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/xmnaz-andaz-xiamen/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Pool View Premium rooms look across the pool, lake or city.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Savor the breathtaking views across the pool, lake or city from this spacious and comfortable room.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/xmnaz-andaz-xiamen/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "stunning views of the pool, lake or city",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/xmnaz-andaz-xiamen/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Suites include a Chinese tea set with locally sourced tea.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Chinese tea set with locally sourced tea",
+          "note": "listed for Andaz Suite, Andaz Executive Suite and Presidential Suite (all suite types on page)",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/xmnaz-andaz-xiamen/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Andaz Executive Suite is a high-floor suite with a separate living room, dining area, kitchenette and study.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Indulge in this unique high-floor suite and enjoy the stunning views of Xiamen.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/xmnaz-andaz-xiamen/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The luxurious space features a separate living room, dining area, kitchenette, study and bedroom with a king bed.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/xmnaz-andaz-xiamen/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Rooms have a complimentary minibar with nonalcoholic drinks and snacks.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Complimentary minibar with nonalcoholic drinks and snacks",
+          "note": "listed for every room type",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/xmnaz-andaz-xiamen/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The hotel has an outdoor pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Outdoor Pool",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/xmnaz-andaz-xiamen",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel has a fitness center.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Fitness Center",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/xmnaz-andaz-xiamen",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel has a Pool House that can host events such as weddings.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Discover endless possibilities for hosting the wedding celebration of your dreams customized to your personal style, from a lavish banquet in our Ballroom to a one-of-a-kind event in our chic Pool House.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/xmnaz-andaz-xiamen",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "No. 101 is an all-day restaurant with a series of open kitchens showcasing live cooking.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The vibrant all-day restaurant houses a series of open kitchens showcasing live cooking.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/xmnaz-andaz-xiamen/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Andaz Xiamen was created by JID, which was founded by the late Indonesian designer Jaya Ibrahim.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Created by JID, which was founded by the late celebrated Indonesian designer Jaya Ibrahim",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/xmnaz-andaz-xiamen",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Andaz Xiamen is a modern Nanyang-style mansion that reflects the local culture of Xiamen as a famous hometown of overseas Chinese.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Andaz Xiamen is a modern Nanyang-style mansion that carries the local culture as a famous hometown of overseas Chinese",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/xmnaz-andaz-xiamen",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Presidential Suite has panoramic views of Yundang Lake.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "you'll enjoy panoramic views of the mirror-like Yundang Lake",
+          "note": "Presidential Suite description",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/xmnaz-andaz-xiamen/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Andaz Suite has a separate living room, a dining area and a bathroom with a circular tub.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Features include a king bedroom, separate living room, dining area and luxurious bathroom with circular tub.",
+          "note": "Andaz Suite description",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/xmnaz-andaz-xiamen/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "At Andaz Lounge, tea and coffee masters brew pour-over coffee and Fujian tea.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "tea and coffee masters work side-by-side to brew pour-over coffee and Fujian tea",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/xmnaz-andaz-xiamen/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel recommends local mapping apps such as Gaode Map or Baidu Map, as international mapping apps may not be accurate in mainland China.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "we recommend using local mapping applications such as Gaode Map or Baidu Map. International mapping apps may not be accurate in Chinese Mainland.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/xmnaz-andaz-xiamen/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Pets are not allowed at Andaz Xiamen.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Pets are not allowed at Andaz Xiamen.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/xmnaz-andaz-xiamen",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the urban setting may lack a traditional coastal resort atmosphere.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

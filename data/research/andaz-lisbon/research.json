@@ -1,0 +1,96 @@
+{
+  "slug": "andaz-lisbon",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Andaz Lisbon",
+      "city": "Lisbon",
+      "country": "PT",
+      "chain": "hyatt"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hyatt"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Lisbon, PT)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hyatt.com/andaz/en-US/lisaz-andaz-lisbon"
+    ],
+    "checked_at": "2026-10-26T22:10:47.890Z",
+    "status": "confirmed",
+    "official_url": "https://www.hyatt.com/andaz/en-US/lisaz-andaz-lisbon",
+    "base_url": "https://www.hyatt.com/andaz/en-US/lisaz-andaz-lisbon/",
+    "host": "hyatt.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hyatt.com/andaz/en-US/lisaz-andaz-lisbon",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:10:56.199Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hyatt.com/andaz/en-US/lisaz-andaz-lisbon/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:11:00.225Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hyatt.com/andaz/en-US/lisaz-andaz-lisbon/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:11:04.160Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hyatt.com/andaz/en-US/lisaz-andaz-lisbon/hotel-info/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:11:08.103Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hyatt.com/andaz/en-US/lisaz-andaz-lisbon/parking-and-transportation/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:11:22.640Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 8,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 5,
+    "chars": 27612,
+    "est_claude_tokens": 6903
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-26T22:11:27.902Z"
+}

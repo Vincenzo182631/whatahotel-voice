@@ -1,0 +1,110 @@
+{
+  "slug": "andaz-amsterdam-prinsengracht",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Andaz Amsterdam, Prinsengracht",
+      "city": "Amsterdam",
+      "country": "NL",
+      "chain": "hyatt"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hyatt"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Amsterdam, NL)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hyatt.com/andaz/en-US/amsaz-andaz-amsterdam-prinsengracht"
+    ],
+    "checked_at": "2026-10-26T22:09:56.936Z",
+    "status": "confirmed",
+    "official_url": "https://www.hyatt.com/andaz/en-US/amsaz-andaz-amsterdam-prinsengracht",
+    "base_url": "https://www.hyatt.com/andaz/en-US/amsaz-andaz-amsterdam-prinsengracht/",
+    "host": "hyatt.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hyatt.com/andaz/en-US/amsaz-andaz-amsterdam-prinsengracht",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:10:08.866Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hyatt.com/andaz/en-US/amsaz-andaz-amsterdam-prinsengracht/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:10:11.257Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hyatt.com/andaz/en-US/amsaz-andaz-amsterdam-prinsengracht/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:10:15.012Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hyatt.com/andaz/en-US/amsaz-andaz-amsterdam-prinsengracht/hotel-info/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:10:27.725Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hyatt.com/andaz/en-US/amsaz-andaz-amsterdam-prinsengracht/reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:10:31.080Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.hyatt.com/andaz/en-US/amsaz-andaz-amsterdam-prinsengracht/parking-and-transportation/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:10:40.889Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.cntraveler.com/hotels/netherlands/amsterdam/andaz-amsterdam",
+      "tier": "editorial",
+      "fetched_at": "2026-10-26T22:10:46.942Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.hyatt.com/andaz/en-US/amsaz-andaz-amsterdam-prinsengracht/%3CBase64-Image-Removed%3E/",
+      "reason": "Firecrawl 500 for https://www.hyatt.com/andaz/en-US/amsaz-andaz-amsterdam-prinsengracht/%3CBase64-Image-Removed%3E/: The URL failed to load in the browser with "
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 10,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 7,
+    "chars": 61511,
+    "est_claude_tokens": 15378
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-26T22:10:46.942Z"
+}

@@ -1,0 +1,111 @@
+{
+  "slug": "andaz-5th-avenue",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Andaz 5th Avenue",
+      "city": "New York",
+      "country": "US",
+      "chain": "hyatt"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hyatt"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (New York, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://newsroom.hyatt.com/2010-07-01-ANDAZ-5TH-AVENUE-TO-OPEN-JULY-5TH-ACROSS-FROM-THE-NEW-YORK-PUBLIC-LIBRARY",
+      "https://www.hyatt.com/andaz/en-US/nycam-andaz-5th-avenue"
+    ],
+    "checked_at": "2026-10-26T22:10:46.176Z",
+    "status": "confirmed",
+    "official_url": "https://www.hyatt.com/andaz/en-US/nycam-andaz-5th-avenue",
+    "base_url": "https://www.hyatt.com/andaz/en-US/nycam-andaz-5th-avenue/",
+    "host": "hyatt.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hyatt.com/andaz/en-US/nycam-andaz-5th-avenue",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:10:58.409Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hyatt.com/andaz/en-US/nycam-andaz-5th-avenue/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:11:06.320Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hyatt.com/andaz/en-US/nycam-andaz-5th-avenue/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:11:06.517Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hyatt.com/andaz/en-US/nycam-andaz-5th-avenue/hotel-info/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:11:17.613Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hyatt.com/andaz/en-US/nycam-andaz-5th-avenue/reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:11:23.609Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.hyatt.com/andaz/en-US/nycam-andaz-5th-avenue/parking-and-transportation/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:11:32.021Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.cntraveler.com/hotels/new-york-city/andaz-5th-avenue",
+      "tier": "editorial",
+      "fetched_at": "2026-10-26T22:11:37.180Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.hyatt.com/andaz/en-US/nycam-andaz-5th-avenue/%3CBase64-Image-Removed%3E/",
+      "reason": "https://www.hyatt.com/andaz/en-US/nycam-andaz-5th-avenue/%3CBase64-Image-Removed%3E/: page had almost no text"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 11,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 7,
+    "chars": 40530,
+    "est_claude_tokens": 10133
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-26T22:11:37.181Z"
+}

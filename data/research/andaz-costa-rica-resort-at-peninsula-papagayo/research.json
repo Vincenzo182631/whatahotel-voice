@@ -1,0 +1,107 @@
+{
+  "slug": "andaz-costa-rica-resort-at-peninsula-papagayo",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Andaz Costa Rica Resort at Peninsula Papagayo",
+      "city": "Peninsula Papagayo",
+      "country": "CR",
+      "chain": "hyatt"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hyatt"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Peninsula Papagayo, CR)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hyatt.com/andaz/en-US/liraz-andaz-peninsula-papagayo-resort-costa-rica"
+    ],
+    "checked_at": "2026-10-26T22:08:54.563Z",
+    "status": "confirmed",
+    "official_url": "https://www.hyatt.com/andaz/en-US/liraz-andaz-peninsula-papagayo-resort-costa-rica",
+    "base_url": "https://www.hyatt.com/andaz/en-US/liraz-andaz-peninsula-papagayo-resort-costa-rica/",
+    "host": "hyatt.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hyatt.com/andaz/en-US/liraz-andaz-peninsula-papagayo-resort-costa-rica",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:09:06.168Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hyatt.com/andaz/en-US/liraz-andaz-peninsula-papagayo-resort-costa-rica/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:09:09.141Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hyatt.com/andaz/en-US/liraz-andaz-peninsula-papagayo-resort-costa-rica/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:09:12.815Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hyatt.com/andaz/en-US/liraz-andaz-peninsula-papagayo-resort-costa-rica/hotel-info/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:09:22.413Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hyatt.com/andaz/en-US/liraz-andaz-peninsula-papagayo-resort-costa-rica/reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:09:24.848Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.hyatt.com/andaz/en-US/liraz-andaz-peninsula-papagayo-resort-costa-rica/parking-and-transportation/",
+      "tier": "official",
+      "fetched_at": "2026-10-26T22:09:36.574Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.hyatt.com/andaz/en-US/liraz-andaz-peninsula-papagayo-resort-costa-rica/%3CBase64-Image-Removed%3E/",
+      "reason": "https://www.hyatt.com/andaz/en-US/liraz-andaz-peninsula-papagayo-resort-costa-rica/%3CBase64-Image-Removed%3E/: page had almost no text"
+    },
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 10,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 6,
+    "chars": 57365,
+    "est_claude_tokens": 14341
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-26T22:09:42.411Z"
+}
