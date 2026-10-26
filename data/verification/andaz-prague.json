@@ -1,0 +1,385 @@
+{
+  "hotel_slug": "andaz-prague",
+  "hotel_name": "Andaz Prague",
+  "checked_at": "2026-10-26T22:17:11.305Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/andaz/en-US/prgaz-andaz-prague",
+      "tier": "official",
+      "chars": 13922
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/andaz/en-US/prgaz-andaz-prague/rooms/",
+      "tier": "official",
+      "chars": 22592
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/andaz/en-US/prgaz-andaz-prague/dining/",
+      "tier": "official",
+      "chars": 5011
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hyatt.com/andaz/en-US/prgaz-andaz-prague/hotel-info/",
+      "tier": "official",
+      "chars": 2950
+    },
+    {
+      "id": "d5",
+      "url": "https://www.hyatt.com/andaz/en-US/prgaz-andaz-prague/reviews/",
+      "tier": "official",
+      "chars": 8643
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/andaz/en-US/prgaz-andaz-prague/parking-and-transportation/",
+      "tier": "official",
+      "chars": 176
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Andaz Prague is a lifestyle hotel set in the historic Sugar Palace building.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Andaz Prague, a lifestyle hotel nestled in the iconic Sugar Palace",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/prgaz-andaz-prague",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel sits in the heart of Prague's historical center.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "sits right in the heart of Prague’s historical center",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/prgaz-andaz-prague",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Old Town Square is a short walk from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Just a short walk brings you to the famous Old Town Square and other must-see landmarks.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/prgaz-andaz-prague",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Some king rooms have a private balcony overlooking St. Henry's churchyard.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Enjoy your unique private balcony overlooking St. Henry’s churchyard in this king room",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/prgaz-andaz-prague/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Some suites overlook the Dancing Fountain, Haymarket or Jindrisska Tower.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our Junior Suite, which overlooks the Dancing Fountain, Haymarket, or Jindřišská Tower",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/prgaz-andaz-prague/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Junior Suite has art deco design influences.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "personifies contemporary sophistication with its art deco design influences",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/prgaz-andaz-prague/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Suites have Byredo bath amenities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Byredo luxury bath amenities",
+          "note": "listed in suite amenities",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/prgaz-andaz-prague/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Wintergarden Equilibrium Suite includes a private gymnasium.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Discover elevated comforts, such as a private gymnasium, in this luxurious suite",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/prgaz-andaz-prague/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The Family Room has connecting king and twin bedrooms overlooking a quiet courtyard.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Enjoy the family option with this contemporary room featuring connecting king and twin bedrooms. Complete with thoughtful details and overlooking a quiet courtyard",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/prgaz-andaz-prague/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "MEZ Bar serves cocktails inspired by Bohemian mythology.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Our mixologists reconnect with nature to surprise you with perfectly balanced cocktails infused with the ancient power and wisdom of Bohemian mythology.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/prgaz-andaz-prague/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel hosts Le Petit Chef and Friends, an immersive 3D mapping dinner show.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Join us for an unforgettable immersive 3D mapping dinner show",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/prgaz-andaz-prague/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The hotel is pet friendly and offers a VID (Very Important Dog) service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Andaz Prague gladly welcomes your furry companions to our pet-friendly hotel during your stay. For guests traveling with a dog, we offer a VID (Very Important Dog) service.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/prgaz-andaz-prague",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Rooms carry design references to Prague legends, including Bruncvik's lion above the bedpost and Princess Libuse.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Sleep well in our elegant king room guarded by Bruncvík’s lion above the bedpost or reach for a star as princess Libuše did, paying tribute to one of many legends that inspired the story of Andaz Prague.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/prgaz-andaz-prague/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Wintergarden Suites are built around a winter garden and have high ceilings.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Experience a breathtaking and unique winter garden that sits at the heart of this elegant suite. Made for pure relaxation, it features high ceilings",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/prgaz-andaz-prague/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Presidential Suite has original moldings, high ceilings, a marble fireplace and a winter garden.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Original moldings adorn the walls of high-ceilinged rooms, and a stunning marble fireplace with a decorative mirror sits at its heart, together with a unique winter garden",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/prgaz-andaz-prague/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "ZEM is an avant-garde Czech bistro whose menu blends Czech produce with occasional Japanese flavors, cooked over charcoal and steam.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "ZEM is an avant-garde Czech bistro",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/prgaz-andaz-prague/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The menu is a creative blend of Czech produce with occasional hints of Japanese flavors, crafted from a theatrical kitchen stage of charcoal and steam.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/prgaz-andaz-prague/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Vaclav Havel Airport Prague is 7.5 miles from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Václav Havel Airport Prague (PRG)",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/prgaz-andaz-prague/hotel-info/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "7.5 Miles",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/prgaz-andaz-prague/hotel-info/",
+          "tier": "official",
+          "quote_verified": false
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes premium pricing for the luxury boutique experience.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the modern design may not appeal to traditional luxury seekers.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
