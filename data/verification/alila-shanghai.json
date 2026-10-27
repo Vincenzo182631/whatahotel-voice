@@ -1,0 +1,442 @@
+{
+  "hotel_slug": "alila-shanghai",
+  "hotel_name": "Alila Shanghai",
+  "checked_at": "2026-10-27T07:59:50.682Z",
+  "script_version": null,
+  "decision": {
+    "eligible": false,
+    "blockers": [
+      "used in the script but not verified: c-2"
+    ],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 1,
+      "exempt": 0,
+      "total": 20
+    }
+  },
+  "applied": false,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/shaal-alila-shanghai",
+      "tier": "official",
+      "chars": 12094
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/shaal-alila-shanghai/rooms/",
+      "tier": "official",
+      "chars": 10346
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/shaal-alila-shanghai/dining/",
+      "tier": "official",
+      "chars": 4760
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/shaal-alila-shanghai/alila-moments/",
+      "tier": "official",
+      "chars": 5781
+    },
+    {
+      "id": "d5",
+      "url": "https://www.cntraveler.com/hotels/shanghai/alila-shanghai",
+      "tier": "editorial",
+      "chars": 10406
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/shaal-alila-shanghai/hotel-info/",
+      "tier": "official",
+      "chars": 741
+    },
+    {
+      "id": "d7",
+      "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/shaal-alila-shanghai/parking-and-transportation/",
+      "tier": "official",
+      "chars": 1134
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Alila Shanghai is at 500 Weihai Road in Shanghai's historic Jing'an district.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "500 Weihai Road, Jing’an District, Shanghai, China 200041",
+          "note": "Address confirmed.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/shaal-alila-shanghai",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Alila Shanghai places you in the historic Jing’an district",
+          "note": "Confirms the historic Jing'an district.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/shaal-alila-shanghai",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel overlooks the historic Zhangyuan Shikumen compound.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "with a prime location overlooking the historic Zhangyuan Shikumen",
+          "note": "States the hotel overlooks historic Zhangyuan Shikumen.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/shaal-alila-shanghai",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel is within walking distance or a short drive of Shanghai Grand Theatre, People's Park and Shanghai Museum, and close to Nanjing Road shopping.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "enjoy being within walking distance or a short drive to several Shanghai attractions, such as Shanghai Grand Theatre, People’s Park, Shanghai Museum and more. You’re also close to the bustling shopping street of Nanjing Road",
+          "note": "All named attractions and Nanjing Road are covered.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/shaal-alila-shanghai",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Alila Shanghai is Alila's first urban outpost in China.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "As Alila's first urban outpost in China, it perfectly captures the resort-style hotel concept the brand is known for.",
+          "note": "Editorial review states it is Alila's first urban outpost in China.",
+          "url": "https://www.cntraveler.com/hotels/shanghai/alila-shanghai",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Interiors by Beijing-based designer Ju Bin riff on traditional Chinese courtyard homes and the East-meets-West style of old Shanghai's shikumen houses.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "-based interior designer Ju Bin saw the amount of rooms reduced from 439 to 186",
+          "note": "The page names Ju Bin as a Beijing-based interior designer. 'Beijing' appears on the preceding line of the page.",
+          "url": "https://www.cntraveler.com/hotels/shanghai/alila-shanghai",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "the interiors shed their somewhat dated designs for a fresh look that riffs on traditional Chinese courtyard homes and the East-meets-West style of old Shanghai's shikumen houses",
+          "note": "Covers the design references.",
+          "url": "https://www.cntraveler.com/hotels/shanghai/alila-shanghai",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Design elements throughout the rooms celebrate Chinese craftsmanship and culture while embodying Shanghai's blend of modernity and tradition.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Design elements throughout Alila Shanghai’s 186 rooms, which include 94 suites, celebrate Chinese craftsmanship and culture while embodying Shanghai’s blend of modernity and tradition.",
+          "note": "Matches the claim.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/shaal-alila-shanghai",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Rooms have natural finishes and a spa-like bathroom with Shanghai-inspired detailing, from textured glass to bold floor tiles.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Enjoy the natural finishes and spa-like bathroom with Shanghai-inspired detailing, from textured glass to bold floor tiles.",
+          "note": "Matches the claim.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/shaal-alila-shanghai/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Penthouse Suite is on the hotel's highest floor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "opt for the 244 sqm Penthouse Suite King on the hotel’s highest floor",
+          "note": "States the Penthouse Suite is on the highest floor.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/shaal-alila-shanghai/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Spa Alila blends modern healing therapies with traditional Eastern practices, offering massages, facials, herbal scrubs and body wraps.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "skilled therapists tailor a range of innovative treatments, including blissful massages, rejuvenating facials, herbal scrubs and body wraps. Blending modern healing therapies and traditional Eastern practices",
+          "note": "Covers all the treatments named and the blend of therapies.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/shaal-alila-shanghai",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "A library on the Lobby Level holds a curated collection of books on Shanghai's history and culture.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Within this space on the Lobby Level, a curated collection of books showcase Shanghai’s history and culture",
+          "note": "Matches the claim.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/shaal-alila-shanghai",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "500 Weihai Road is the hotel's Chinese restaurant, integrating seafood into traditional Shanghai cuisine with sustainable, seasonal ingredients.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "This Chinese restaurant seamlessly integrates seafood into traditional Shanghai cuisine, placing a strong emphasis on the use of sustainable and seasonal ingredients.",
+          "note": "Description listed under the 500 Weihai Road venue.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/shaal-alila-shanghai/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Secret Roof serves coffee by day and handcrafted coffee cocktails by night, with views of historical Zhangyuan.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Enjoy expertly brewed coffee by day and handcrafted coffee cocktails by night alongside views of historical Zhangyuan at Secret Roof at Alila Shanghai.",
+          "note": "Matches the claim.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/shaal-alila-shanghai/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The fourth-floor lobby is a light-flooded courtyard in the sky, with pathways, waterworks and gardens around a ceramic and stainless steel tree sculpture by local artist Oscar Wang.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "the fourth-floor lobby, and you arrive in a light-flooded courtyard in the sky, a mesh of swirling pathways, mirror-flat waterworks, and manicured gardens",
+          "note": "Covers the lobby, courtyard, pathways, waterworks and gardens.",
+          "url": "https://www.cntraveler.com/hotels/shanghai/alila-shanghai",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "a 17-foot tree made from ceramic and stainless steel by local artist Oscar Wang",
+          "note": "Covers the tree sculpture and the artist.",
+          "url": "https://www.cntraveler.com/hotels/shanghai/alila-shanghai",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "On Level 5, an indoor infinity pool overlooks the hotel's green garden, alongside a hydrotherapy pool and a wet sauna.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "On Level 5, a 20-meter infinity pool overlooks the hotel’s green garden. Elsewhere, visitors will discover loungers, a hydrotherapy pool and a wet sauna.",
+          "note": "Listed under the Indoor Pool heading.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/shaal-alila-shanghai",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Shikumen View rooms overlook Zhangyuan's shikumen rooftops, and one room type adds a private terrace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Relax in this generous 39-sqm room overlooking Zhangyuan’s shikumen rooftops.",
+          "note": "Shikumen View room overlooks the rooftops.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/shaal-alila-shanghai/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "offers a stunning view of Zhangyuan’s shikumen rooftops, complete with a private terrace for an added touch of uniqueness",
+          "note": "Terrace room type.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/shaal-alila-shanghai/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "In-house guests can join a complimentary gong sound bath, one of the hotel's Alila Moments.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "slip into sonic stillness during this complimentary gong sound bath",
+          "note": "Listed among the Alila Moments.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/shaal-alila-shanghai/alila-moments/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Complimentary for in-house guests",
+          "note": "Confirms it is complimentary for in-house guests.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/shaal-alila-shanghai/alila-moments/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Another Alila Moment takes guests to Lei Yun Shang, a Chinese medicine clinic founded in 1734, for a personal consultation with a senior practitioner.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Enter Lei Yun Shang, a renowned TCM clinic founded in 1734, and explore its storied role in healing.",
+          "note": "Covers the clinic and the founding year.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/shaal-alila-shanghai/alila-moments/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Your visit begins with a personal health consultation by a senior TCM practitioner",
+          "note": "Covers the personal consultation.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/shaal-alila-shanghai/alila-moments/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel no longer provides bottled water or disposable in-room amenities, so guests are advised to bring their own essentials and a drinking vessel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "our hotel no longer provides bottled water or disposable in-room amenities for staying guests. We recommend bringing your own essentials and a drinking vessel to refill with drinking water available throughout the hotel.",
+          "note": "Matches the claim.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/shaal-alila-shanghai",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Views vary by floor and direction; only East-facing rooms on high floors glimpse The Bund's skyline on the horizon.",
+      "findings": [
+        {
+          "verdict": "partial",
+          "doc_id": "d5",
+          "quote": "views vary depending on the floor and rooms' direction—aim for an East-facing room on a high floor if you want a glimpse of The Bund's",
+          "note": "The page recommends East-facing high-floor rooms but does not say these are the only rooms with the view.",
+          "url": "https://www.cntraveler.com/hotels/shanghai/alila-shanghai",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "unverified",
+      "reason": "sources cover only part of the claim"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "Guests must wear a swimming cap in the pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "do note that you'll need to wear a swimming cap before jumping in (which is customary in much of China)",
+          "note": "Swim cap is required.",
+          "url": "https://www.cntraveler.com/hotels/shanghai/alila-shanghai",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}
