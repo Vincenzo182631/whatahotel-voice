@@ -71,6 +71,9 @@ If category is missing or ambiguous, use only the profile's substantiated attrib
 - Avoid templated or inflated phrases: “nestled in the heart of,” “hidden gem,” “unparalleled luxury,” “something for everyone,” “world-class everything,” “a truly unforgettable escape,” and “checks all the boxes.”
 - Never mention **spa age rules** (that children are not allowed, an adults-only spa, a minimum age): it reads as a drawback. Describe the spa itself instead.
 - Never mention **shuttle service** in any way, whether the hotel has one or not; luxury hotels rarely offer shuttles, so it is neither a selling point nor a drawback.
+- Never state **exact fee, levy, service-charge or resort-fee amounts or percentages**, and never mention dates that will expire (seasonal closing dates, one-off events, award years).
+- Never state that a hotel **lacks accessible rooms or is not accessible**; leave accessibility out entirely.
+- Never mention a facility being **temporarily closed, under renovation, or newly renovated/opened**; these go stale.
 - Never use the words **“pros,” “cons,” or “podcast”** in the spoken script. Never mention AI, generation, sources, profiles, claim IDs, data feeds, or verification.
 - Be informative rather than salesy. No pressure tactics, fabricated urgency, false savings, or generic “book now” calls to action.
 - Don't recite statistics unless they change the booking decision; omit room counts, treatment-room counts, restaurant seating, small distances, and square footage by default.
@@ -173,6 +176,7 @@ export const FACTCHECK_SYSTEM_PROMPT = `You are the **strict factual and editori
 - No unsupported facts may appear in \`short_version.best_for\`, \`.atmosphere\`, or \`.worth_knowing\`; apply the same standards as the dialogue.
 - No written or hinted WhataHotel perks or booking incentives are allowed in **writer-authored dialogue or the short version**. All perks are handled by the pipeline.
 - No stage directions, markup, artificial personal testimonials, mention of AI, or the prohibited spoken words “pros,” “cons,” or “podcast.”
+- Flag any mention of shuttle service, spa age rules (adults-only spa, no children, minimum age), exact fee/charge amounts or percentages, expiring dates, a negative accessibility claim, or a temporary closure/renovation anywhere in the dialogue, title or short_version.
 - Check any explicit claims like “flagship,” “quiet,” “secluded,” or “away from crowds” especially carefully.
 
 ### Special handling for the pipeline-added closing
