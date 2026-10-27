@@ -1,12 +1,8 @@
 # Verification checklist: Alila Shanghai
 
-Checked 2026-10-27 against the hotel's own pages and Condé Nast Traveler. Result: **needs attention**.
+Checked 2026-10-27 against the hotel's own pages and Condé Nast Traveler. Result: **can be marked verified** (profile set to verified).
 
-Supported 19 · contradicted 0 · unverified 1 · WhataHotel's own statements 0 · total 20
-
-## Blockers
-
-- used in the script but not verified: c-2
+Supported 20 · contradicted 0 · unverified 0 · WhataHotel's own statements 0 · total 20
 
 ## Pages checked
 
@@ -23,7 +19,7 @@ Supported 19 · contradicted 0 · unverified 1 · WhataHotel's own statements 0 
 | | Claim | Evidence |
 |---|---|---|
 | ✅ | **f-1** Alila Shanghai is at 500 Weihai Road in Shanghai's historic Jing'an district. | "500 Weihai Road, Jing’an District, Shanghai, China 200041" (official, https://www.hyatt.com/alila-hotels-and-resorts/en-US/shaal-alila-shanghai) |
-| ✅ | **f-2** The hotel overlooks the historic Zhangyuan Shikumen compound. | "with a prime location overlooking the historic Zhangyuan Shikumen" (official, https://www.hyatt.com/alila-hotels-and-resorts/en-US/shaal-alila-shanghai) |
+| ✅ | **f-2** The hotel overlooks the historic Zhangyuan Shikumen compound. | "a prime location overlooking the historic Zhangyuan Shikumen" (official, https://www.hyatt.com/alila-hotels-and-resorts/en-US/shaal-alila-shanghai) |
 | ✅ | **f-3** The hotel is within walking distance or a short drive of Shanghai Grand Theatre, People's Park and Shanghai Museum, and close to Nanjing Road shopping. | "enjoy being within walking distance or a short drive to several Shanghai attractions, such as Shanghai Grand Theatre, People’s Park, Shanghai Museum and more. You’re also close to the bustling shopping street of Nanjing Road" (official, https://www.hyatt.com/alila-hotels-and-resorts/en-US/shaal-alila-shanghai) |
 | ✅ | **f-4** Alila Shanghai is Alila's first urban outpost in China. | "As Alila's first urban outpost in China, it perfectly captures the resort-style hotel concept the brand is known for." (editorial, https://www.cntraveler.com/hotels/shanghai/alila-shanghai) |
 | ✅ | **f-5** Interiors by Beijing-based designer Ju Bin riff on traditional Chinese courtyard homes and the East-meets-West style of old Shanghai's shikumen houses. | "-based interior designer Ju Bin saw the amount of rooms reduced from 439 to 186" (editorial, https://www.cntraveler.com/hotels/shanghai/alila-shanghai) |
@@ -39,6 +35,6 @@ Supported 19 · contradicted 0 · unverified 1 · WhataHotel's own statements 0 
 | ✅ | **h-3** Shikumen View rooms overlook Zhangyuan's shikumen rooftops, and one room type adds a private terrace. | "Relax in this generous 39-sqm room overlooking Zhangyuan’s shikumen rooftops." (official, https://www.hyatt.com/alila-hotels-and-resorts/en-US/shaal-alila-shanghai/rooms/) |
 | ✅ | **h-4** In-house guests can join a complimentary gong sound bath, one of the hotel's Alila Moments. | "slip into sonic stillness during this complimentary gong sound bath" (official, https://www.hyatt.com/alila-hotels-and-resorts/en-US/shaal-alila-shanghai/alila-moments/) |
 | ✅ | **h-5** Another Alila Moment takes guests to Lei Yun Shang, a Chinese medicine clinic founded in 1734, for a personal consultation with a senior practitioner. | "Enter Lei Yun Shang, a renowned TCM clinic founded in 1734, and explore its storied role in healing." (official, https://www.hyatt.com/alila-hotels-and-resorts/en-US/shaal-alila-shanghai/alila-moments/) |
-| ✅ | **c-1** The hotel no longer provides bottled water or disposable in-room amenities, so guests are advised to bring their own essentials and a drinking vessel. | "our hotel no longer provides bottled water or disposable in-room amenities for staying guests. We recommend bringing your own essentials and a drinking vessel to refill with drinking water available throughout the hotel." (official, https://www.hyatt.com/alila-hotels-and-resorts/en-US/shaal-alila-shanghai) |
-| ⚠️ | **c-2** Views vary by floor and direction; only East-facing rooms on high floors glimpse The Bund's skyline on the horizon. | "views vary depending on the floor and rooms' direction—aim for an East-facing room on a high floor if you want a glimpse of The Bund's" (editorial, https://www.cntraveler.com/hotels/shanghai/alila-shanghai) |
-| ✅ | **c-3** Guests must wear a swimming cap in the pool. | "do note that you'll need to wear a swimming cap before jumping in (which is customary in much of China)" (editorial, https://www.cntraveler.com/hotels/shanghai/alila-shanghai) |
+| ✅ | **c-1** The hotel no longer provides bottled water or disposable in-room amenities, so guests are advised to bring their own essentials and a drinking vessel. | "our hotel no longer provides bottled water or disposable in-room amenities for staying guests. We recommend bringing your own essentials and a drinking vessel" (official, https://www.hyatt.com/alila-hotels-and-resorts/en-US/shaal-alila-shanghai) |
+| ✅ | **c-2** Views vary by floor and direction; East-facing rooms on high floors can glimpse The Bund's skyline. | "views vary depending on the floor and rooms' direction—aim for an East-facing room on a high floor if you want a glimpse of The Bund's" (editorial, https://www.cntraveler.com/hotels/shanghai/alila-shanghai) |
+| ✅ | **c-3** Guests must wear a swimming cap in the pool. | "you'll need to wear a swimming cap before jumping in" (editorial, https://www.cntraveler.com/hotels/shanghai/alila-shanghai) |
