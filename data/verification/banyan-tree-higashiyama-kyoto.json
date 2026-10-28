@@ -1,23 +1,20 @@
 {
   "hotel_slug": "banyan-tree-higashiyama-kyoto",
   "hotel_name": "Banyan Tree Higashiyama Kyoto",
-  "checked_at": "2026-10-28T05:47:13.406Z",
+  "checked_at": "2026-10-28T05:53:42.128Z",
   "script_version": null,
   "decision": {
-    "eligible": false,
-    "blockers": [
-      "contradicted by a source: c-1",
-      "used in the script but not verified: f-6"
-    ],
+    "eligible": true,
+    "blockers": [],
     "counts": {
-      "supported": 17,
-      "contradicted": 1,
-      "unverified": 1,
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
       "exempt": 1,
       "total": 20
     }
   },
-  "applied": false,
+  "applied": true,
   "evidence": [
     {
       "id": "d1",
@@ -108,7 +105,7 @@
           "verdict": "supported",
           "doc_id": "d1",
           "quote": "Nestled on a hill beside the renowned Kiyomizu-dera Temple and embraced by a tranquil bamboo forest, Banyan Tree Higashiyama Kyoto hotel offers an intimate retreat.",
-          "note": "Covers the hilltop setting, Kiyomizu-dera and the bamboo forest.",
+          "note": "The page states both the hill beside Kiyomizu-dera and the bamboo forest.",
           "url": "https://www.banyantree.com/japan/kyoto",
           "tier": "official",
           "quote_verified": true
@@ -123,8 +120,8 @@
         {
           "verdict": "supported",
           "doc_id": "d1",
-          "quote": "At the heart of the property stands the Bamboo Pavilion, designed by renowned architect Kengo Kuma and the only authentic stage in any Kyoto hotel, where classical performances unfold",
-          "note": "Covers location, architect and classical performances.",
+          "quote": "At the heart of the property stands the Bamboo Pavilion, designed by renowned architect Kengo Kuma and the only authentic stage in any Kyoto hotel, where classical performances unfold against a backdrop of quiet, profound beauty.",
+          "note": "Covers the location at the heart of the property, Kengo Kuma as designer and its use as a stage for classical performances.",
           "url": "https://www.banyantree.com/japan/kyoto",
           "tier": "official",
           "quote_verified": true
@@ -140,7 +137,7 @@
           "verdict": "supported",
           "doc_id": "d1",
           "quote": "Drawn from a natural hot spring on the hilltop grounds, our Natural Onsen can be enjoyed in the public bath with indoor and open-air pools, in select guest rooms with a private onsen, and in the spa's treatment suites.",
-          "note": "Covers every element of the claim.",
+          "note": "Every element of the claim is stated.",
           "url": "https://www.banyantree.com/japan/kyoto",
           "tier": "official",
           "quote_verified": true
@@ -156,7 +153,7 @@
           "verdict": "supported",
           "doc_id": "d2",
           "quote": "offers thoughtfully curated Kyoto accommodation with natural hot springs, tatami mat floors and breathtaking garden or city views.",
-          "note": "Covers tatami floors and garden or city views.",
+          "note": "Covers the tatami floors and the garden or city views.",
           "url": "https://www.banyantree.com/japan/kyoto/accommodation/",
           "tier": "official",
           "quote_verified": true
@@ -165,7 +162,7 @@
           "verdict": "supported",
           "doc_id": "d2",
           "quote": "Other amenities of our Kyoto hotel rooms include wooden soaking bathtubs, cozy sitting areas and separate walk-in showers.",
-          "note": "Covers bathtubs, sitting areas and walk-in showers.",
+          "note": "Covers the bathtubs, sitting areas and walk-in showers.",
           "url": "https://www.banyantree.com/japan/kyoto/accommodation/",
           "tier": "official",
           "quote_verified": true
@@ -180,8 +177,8 @@
         {
           "verdict": "supported",
           "doc_id": "d2",
-          "quote": "Rejuvenate in luxury with our plush King bed and private yoga space. Floor-to-ceiling windows reveal stunning city views",
-          "note": "Covers the yoga space and the floor-to-ceiling city-view windows.",
+          "quote": "Rejuvenate in luxury with our plush King bed and private yoga space. Floor-to-ceiling windows reveal stunning city views while wooden soaking tubs enhance your wellness journey.",
+          "note": "The Wellbeing Sanctuary King description states both features.",
           "url": "https://www.banyantree.com/japan/kyoto/accommodation/",
           "tier": "official",
           "quote_verified": true
@@ -191,29 +188,28 @@
     },
     {
       "claim_id": "f-6",
-      "text": "The Banyan Onsen Retreat is the most spacious room, at 74 square metres, with a private natural onsen.",
+      "text": "The Banyan Onsen Retreat, described as the hotel's most luxurious sanctuary, has a private natural onsen.",
       "findings": [
         {
-          "verdict": "partial",
+          "verdict": "supported",
           "doc_id": "d2",
           "quote": "Our most luxurious sanctuary spans 74 square meters and features magnificent views and a private natural onsen.",
-          "note": "Establishes 74 sqm and a private onsen, but the page says 'most luxurious', not 'most spacious'.",
+          "note": "This is the Banyan Onsen Retreat King description.",
           "url": "https://www.banyantree.com/japan/kyoto/accommodation/",
           "tier": "official",
           "quote_verified": true
         },
         {
-          "verdict": "partial",
+          "verdict": "supported",
           "doc_id": "d4",
-          "quote": "This beloved Kyoto Onsen hotel room boasts an impressive 74 square metres of living space",
-          "note": "Gives the size but no superlative about spaciousness.",
+          "quote": "Indulge in profound relaxation and serene pleasure with magnificent views and a private natural Onsen.",
+          "note": "The room page confirms the private natural onsen.",
           "url": "https://www.banyantree.com/japan/kyoto/accommodation/banyan-onsen-retreat-king/",
           "tier": "official",
           "quote_verified": true
         }
       ],
-      "status": "unverified",
-      "reason": "sources cover only part of the claim"
+      "status": "supported"
     },
     {
       "claim_id": "f-7",
@@ -223,7 +219,7 @@
           "verdict": "supported",
           "doc_id": "d5",
           "quote": "Indulge in tranquil massage and spa facilities with natural hot springs and steam saunas.",
-          "note": "Directly states both facilities.",
+          "note": "The spa page states both features.",
           "url": "https://www.banyantree.com/japan/kyoto/spa/banyan-tree-spa-higashiyama-kyoto/",
           "tier": "official",
           "quote_verified": true
@@ -232,7 +228,7 @@
           "verdict": "supported",
           "doc_id": "d6",
           "quote": "Indulge in luxury massage and spa facilities with natural hot springs and steam saunas at our Kyoto hotel spa.",
-          "note": "Same statement on the facilities page.",
+          "note": "The facilities page states the same.",
           "url": "https://www.banyantree.com/japan/kyoto/facilities/",
           "tier": "official",
           "quote_verified": true
@@ -248,7 +244,7 @@
           "verdict": "supported",
           "doc_id": "d5",
           "quote": "A Banyan Tree Spa Higashiyama Kyoto exclusive, this combination of a private onsen experience and a full-body treatment restores your vitality",
-          "note": "Covers exclusivity and both components.",
+          "note": "States the exclusivity and the combination of onsen and full-body treatment.",
           "url": "https://www.banyantree.com/japan/kyoto/spa/banyan-tree-spa-higashiyama-kyoto/",
           "tier": "official",
           "quote_verified": true
@@ -264,7 +260,7 @@
           "verdict": "supported",
           "doc_id": "d6",
           "quote": "Step into our enchanting bamboo garden, where towering bamboo groves create a natural sanctuary of tranquility in the heart of Kyoto.",
-          "note": "Directly supported.",
+          "note": "The page describes the bamboo garden with towering bamboo groves.",
           "url": "https://www.banyantree.com/japan/kyoto/facilities/",
           "tier": "official",
           "quote_verified": true
@@ -280,7 +276,7 @@
           "verdict": "supported",
           "doc_id": "d7",
           "quote": "Experience the refined artistry of skilled geiko and maiko performing traditional dance accompanied by shamisen music against the backdrop of a historic Noh stage.",
-          "note": "Covers dance, shamisen and the Noh stage backdrop.",
+          "note": "Listed among the hotel's experiences.",
           "url": "https://www.banyantree.com/japan/kyoto/experiences/",
           "tier": "official",
           "quote_verified": true
@@ -288,7 +284,7 @@
         {
           "verdict": "supported",
           "doc_id": "d6",
-          "quote": "It is the only hotel in Kyoto with a traditional Noh theater stage",
+          "quote": "It is the only hotel in Kyoto with a traditional Noh theater stage, “Bamboo Pavilion“, which is connected to its special location.",
           "note": "Confirms the Noh stage belongs to the hotel.",
           "url": "https://www.banyantree.com/japan/kyoto/facilities/",
           "tier": "official",
@@ -314,7 +310,7 @@
           "verdict": "supported",
           "doc_id": "d8",
           "quote": "Guests may choose from refined kaiseki courses or immersive counter dining, where chefs prepare each course with quiet precision over the grill.",
-          "note": "Covers kaiseki courses and grill counter dining.",
+          "note": "Covers the kaiseki courses and counter dining over the grill.",
           "url": "https://www.banyantree.com/japan/kyoto/dining/ryozen/",
           "tier": "official",
           "quote_verified": true
@@ -330,7 +326,7 @@
           "verdict": "supported",
           "doc_id": "d9",
           "quote": "A cozy branch of the highly acclaimed “Japanese Cuisine SEN.” Enjoy creative kaiseki cuisine at a quiet counter seat overlooking the Higashiyama area.",
-          "note": "Covers every element of the claim.",
+          "note": "Every element of the claim is stated.",
           "url": "https://www.banyantree.com/japan/kyoto/dining/",
           "tier": "official",
           "quote_verified": true
@@ -345,8 +341,8 @@
         {
           "verdict": "supported",
           "doc_id": "d1",
-          "quote": "At the heart of the property stands the Bamboo Pavilion, designed by renowned architect Kengo Kuma and the only authentic stage in any Kyoto hotel, where classical performances unfold",
-          "note": "Covers every element of the claim.",
+          "quote": "At the heart of the property stands the Bamboo Pavilion, designed by renowned architect Kengo Kuma and the only authentic stage in any Kyoto hotel, where classical performances unfold against a backdrop of quiet, profound beauty.",
+          "note": "Every element of the claim is stated.",
           "url": "https://www.banyantree.com/japan/kyoto",
           "tier": "official",
           "quote_verified": true
@@ -362,7 +358,7 @@
           "verdict": "supported",
           "doc_id": "d1",
           "quote": "Drawn from a natural hot spring on the hilltop grounds, our Natural Onsen can be enjoyed in the public bath with indoor and open-air pools, in select guest rooms with a private onsen, and in the spa's treatment suites.",
-          "note": "Covers every element of the claim.",
+          "note": "Every element of the claim is stated.",
           "url": "https://www.banyantree.com/japan/kyoto",
           "tier": "official",
           "quote_verified": true
@@ -376,19 +372,19 @@
       "findings": [
         {
           "verdict": "supported",
-          "doc_id": "d2",
-          "quote": "A private natural onsen (hot spring) and courtyard garden views create an exclusive retreat layered in traditional tatami elegance.",
-          "note": "Covers the private natural onsen and courtyard garden views.",
-          "url": "https://www.banyantree.com/japan/kyoto/accommodation/",
+          "doc_id": "d3",
+          "quote": "Set alongside a Japanese courtyard garden, the Onsen Retreats offers a rare Kyoto private onsen experience within a tranquil setting.",
+          "note": "Covers the Japanese courtyard garden and the private onsen.",
+          "url": "https://www.banyantree.com/japan/kyoto/accommodation/onsen-retreat-king/",
           "tier": "official",
           "quote_verified": true
         },
         {
           "verdict": "supported",
-          "doc_id": "d3",
-          "quote": "Set alongside a Japanese courtyard garden, the Onsen Retreats offers a rare Kyoto private onsen experience within a tranquil setting.",
-          "note": "Confirms the Japanese courtyard garden and the private onsen.",
-          "url": "https://www.banyantree.com/japan/kyoto/accommodation/onsen-retreat-king/",
+          "doc_id": "d2",
+          "quote": "A private natural onsen (hot spring) and courtyard garden views create an exclusive retreat layered in traditional tatami elegance.",
+          "note": "Confirms the onsen is natural and the room has courtyard garden views.",
+          "url": "https://www.banyantree.com/japan/kyoto/accommodation/",
           "tier": "official",
           "quote_verified": true
         }
@@ -403,7 +399,7 @@
           "verdict": "supported",
           "doc_id": "d5",
           "quote": "Indulge in an intimate hot spring retreat within our elegantly designed spa treatment rooms.",
-          "note": "Covers the private onsen experience in treatment rooms.",
+          "note": "Covers the private onsen experience in the treatment rooms.",
           "url": "https://www.banyantree.com/japan/kyoto/spa/banyan-tree-spa-higashiyama-kyoto/",
           "tier": "official",
           "quote_verified": true
@@ -411,7 +407,7 @@
         {
           "verdict": "supported",
           "doc_id": "d5",
-          "quote": "As you soak in the traditional hinoki cypress bathtub",
+          "quote": "As you soak in the traditional hinoki cypress bathtub, breathe in the gentle, naturally aromatic fragrance that emanates from the wood",
           "note": "Covers the hinoki cypress bathtub.",
           "url": "https://www.banyantree.com/japan/kyoto/spa/banyan-tree-spa-higashiyama-kyoto/",
           "tier": "official",
@@ -428,7 +424,7 @@
           "verdict": "supported",
           "doc_id": "d7",
           "quote": "Immerse yourself in the ethereal world of Noh, where haunting drum rhythms and mystical masks illuminated by candlelight create an unforgettable encounter",
-          "note": "Directly supported.",
+          "note": "The page describes masks illuminated by candlelight.",
           "url": "https://www.banyantree.com/japan/kyoto/experiences/",
           "tier": "official",
           "quote_verified": true
@@ -438,38 +434,19 @@
     },
     {
       "claim_id": "c-1",
-      "text": "The nearest airport is Kansai International; from Kyoto Station the hotel is about 20 minutes by taxi.",
+      "text": "The nearest airport is Kansai International.",
       "findings": [
         {
           "verdict": "supported",
           "doc_id": "d1",
           "quote": "Kansai International Airport (KIX) is the nearest airport to Banyan Tree Higashiyama Kyoto.",
-          "note": "Covers the nearest airport.",
+          "note": "Stated directly.",
           "url": "https://www.banyantree.com/japan/kyoto",
           "tier": "official",
-          "quote_verified": true
-        },
-        {
-          "verdict": "supported",
-          "doc_id": "d1",
-          "quote": "From Kyoto Station, it takes about 20 minutes by taxi to reach the hotel.",
-          "note": "Covers the 20-minute taxi time.",
-          "url": "https://www.banyantree.com/japan/kyoto",
-          "tier": "official",
-          "quote_verified": true
-        },
-        {
-          "verdict": "contradicted",
-          "doc_id": "d13",
-          "quote": "plus Kyoto station is around 10 minutes away by taxi",
-          "note": "The editorial review gives 10 minutes rather than 20.",
-          "url": "https://www.cntraveler.com/hotels/kyoto/banyan-tree-higashiyama-kyoto",
-          "tier": "editorial",
           "quote_verified": true
         }
       ],
-      "status": "contradicted",
-      "reason": "a source says something different"
+      "status": "supported"
     },
     {
       "claim_id": "c-2",
@@ -479,7 +456,7 @@
           "verdict": "supported",
           "doc_id": "d1",
           "quote": "(Valet service is not available.)",
-          "note": "Covers the no-valet element.",
+          "note": "Covers the valet element.",
           "url": "https://www.banyantree.com/japan/kyoto",
           "tier": "official",
           "quote_verified": true
@@ -488,7 +465,7 @@
           "verdict": "supported",
           "doc_id": "d1",
           "quote": "Parking reservations are not accepted.",
-          "note": "Covers the no-reservations element.",
+          "note": "Covers the reservations element.",
           "url": "https://www.banyantree.com/japan/kyoto",
           "tier": "official",
           "quote_verified": true

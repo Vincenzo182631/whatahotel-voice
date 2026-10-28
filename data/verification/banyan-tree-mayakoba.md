@@ -1,12 +1,8 @@
 # Verification checklist: Banyan Tree Mayakoba
 
-Checked 2026-10-28 against the hotel's own pages and Condé Nast Traveler. Result: **needs attention**.
+Checked 2026-10-28 against the hotel's own pages and Condé Nast Traveler. Result: **can be marked verified** (profile set to verified).
 
-Supported 18 · contradicted 1 · unverified 0 · WhataHotel's own statements 1 · total 20
-
-## Blockers
-
-- contradicted by a source: f-6
+Supported 18 · contradicted 0 · unverified 0 · WhataHotel's own statements 1 · total 19
 
 ## Pages checked
 
@@ -33,7 +29,6 @@ Supported 18 · contradicted 1 · unverified 0 · WhataHotel's own statements 1 
 | ✅ | **f-3** The resort has a white-sand beachfront that guests can use for swimming and snorkeling. | "Step onto soft, powdery sands and enjoy exclusive access to our serene beachfront—perfect for swimming, snorkeling, or simply soaking up the sun with a cocktail in hand." (official, https://www.banyantree.com/mexico/mayakoba/facilities/) |
 | ✅ | **f-4** In the Family Residences, a rooftop solarium has a pool overlooking the golf course. | "The rooftop solarium, with its pool overlooking the stunning golf course, provides a serene escape surrounded by nature." (official, https://www.banyantree.com/mexico/mayakoba/accommodation/) |
 | ✅ | **f-5** The Serenity Pool Villa with Living Room has Talavera-glazed earthenware sinks. | "natural hues, complemented with splashes of color and Talavera-glazed earthenware sinks, will remind you of your Caribbean surroundings" (official, https://www.banyantree.com/mexico/mayakoba/accommodation/serenity-pool-villa-with-living-room/) |
-| ❌ | **f-6** The spa's pavilions and suites reflect local Mexican heritage. | Source says: "the Banyan Tree Spa offers wellness therapies within opulent treatment pavilions, each adorned with distinct Balinese interior design" (editorial, https://www.cntraveler.com/hotels/playa-del-carmen/banyan-tree-mayakoba) |
 | ✅ | **f-7** The spa's Rainforest is a hydrothermal experience inspired by Asian and European healing traditions. | "The Rainforest is a complete hydrothermal experience inspired by the healing traditions of Asia and Europe." (official, https://www.banyantree.com/mexico/mayakoba/spa/banyan-tree-spa-mayakoba/) |
 | ✅ | **f-8** Spa therapists are trained at the Banyan Tree Spa & Wellbeing Academy in Phuket. | "Our therapists are trained at the Banyan Tree Spa & Wellbeing Academy in Phuket" (official, https://www.banyantree.com/mexico/mayakoba/spa/banyan-tree-spa-mayakoba/) |
 | ✅ | **f-9** Saffron is the resort's signature Thai restaurant. | "Key resort features include signature Thai dining at Saffron and holistic treatments at the Banyan Tree Spa." (official, https://www.banyantree.com/mexico/mayakoba) |

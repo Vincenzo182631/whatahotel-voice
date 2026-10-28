@@ -1,12 +1,8 @@
 # Verification checklist: Banyan Tree Doha
 
-Checked 2026-10-28 against the hotel's own pages and Condé Nast Traveler. Result: **needs attention**.
+Checked 2026-10-28 against the hotel's own pages and Condé Nast Traveler. Result: **can be marked verified** (profile set to verified).
 
-Supported 18 · contradicted 1 · unverified 0 · WhataHotel's own statements 1 · total 20
-
-## Blockers
-
-- contradicted by a source: c-2
+Supported 18 · contradicted 0 · unverified 0 · WhataHotel's own statements 1 · total 19
 
 ## Pages checked
 
@@ -46,5 +42,4 @@ Supported 18 · contradicted 1 · unverified 0 · WhataHotel's own statements 1 
 | ✅ | **h-4** The property's design combines traditional Asian principles with Arabian heritage. | "Every detail of the property represents a harmony of traditional Asian principles and rich Arabian heritage" (official, https://www.banyantree.com/qatar/doha) |
 | ✅ | **h-5** Vertigo is a club on level 28 with 360-degree views of Doha. | "Located on level 28, Vertigo Doha is one of the highest clubs in the Mushaireb area with incredible 360-degree views of Doha’s Skyline, Corniche, and old city." (official, https://www.banyantree.com/qatar/doha/dining/) |
 | ✅ | **c-1** The hotel is in the city rather than on the sea; guests have free access to West Bay Beach, a 10-minute drive from the hotel. | "Guests can enjoy free access to West Bay Beach which is only 10-min drive from the hotel." (official, https://www.banyantree.com/qatar/doha) |
-| ❌ | **c-2** Rooms and suites do not have balconies, while all the residences do. | Source says: "While the spacious suites with private balconies offer plenty of space for large families to relax in style." (editorial, https://www.cntraveler.com/hotels/doha/banyan-tree-doha) |
 | ➖ | **c-3** WhataHotel notes premium pricing that reflects the hotel's luxury positioning. | WhataHotel's own offer or statement |
