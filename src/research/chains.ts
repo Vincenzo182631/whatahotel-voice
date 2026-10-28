@@ -187,6 +187,7 @@ export const CHAINS: Chain[] = [
   { id: "oetker", name: "Oetker Collection", match: /oetker|le bristol paris|eden rock|jumby bay|chateau saint-martin/i, domains: ["oetkercollection.com"], base: firstTwo },
   { id: "kempinski", name: "Kempinski", match: /kempinski/i, domains: ["kempinski.com"], base: firstTwo },
   { id: "six-senses", name: "Six Senses", match: /six senses/i, domains: ["sixsenses.com"], base: firstTwo },
+  { id: "banyan-tree", name: "Banyan Tree", match: /banyan tree|\bangsana\b/i, domains: ["banyantree.com", "angsana.com"], base: firstTwo },
 ];
 
 export const chainById = (id: string) => CHAINS.find((c) => c.id === id);
