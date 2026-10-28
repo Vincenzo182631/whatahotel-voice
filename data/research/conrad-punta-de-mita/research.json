@@ -1,49 +1,117 @@
 {
   "slug": "conrad-punta-de-mita",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "https://www.hilton.com/en/hotels/pvrpmci-conrad-punta-de-mita/: https://www.hilton.com/en/hotels/pvrpmci-conrad-punta-de-mita/ is an error page, not the hotel's content",
-    "https://www.hilton.com/en/hotels/pvrpmci-conrad-punta-de-mita/hotel-location/: https://www.hilton.com/en/hotels/pvrpmci-conrad-punta-de-mita/hotel-location/ is an error page, not the hotel's content",
-    "https://www.hilton.com/en/hotels/pvrpmci-conrad-punta-de-mita/experiences/: https://www.hilton.com/en/hotels/pvrpmci-conrad-punta-de-mita/experiences/ is an error page, not the hotel's content",
-    "official website could not be confirmed; flag for review"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "Conrad Punta de Mita",
       "city": "Punta Mita",
       "country": "MX",
-      "chain": "hilton"
+      "chain": "independent"
     },
     "affiliation": {
-      "kind": "chain",
-      "chain": "hilton"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.hilton.com/en/hotels/pvrpmci-conrad-punta-de-mita/: https://www.hilton.com/en/hotels/pvrpmci-conrad-punta-de-mita/ is an error page, not the hotel's content",
-      "https://www.hilton.com/en/hotels/pvrpmci-conrad-punta-de-mita/hotel-location/: https://www.hilton.com/en/hotels/pvrpmci-conrad-punta-de-mita/hotel-location/ is an error page, not the hotel's content",
-      "https://www.hilton.com/en/hotels/pvrpmci-conrad-punta-de-mita/experiences/: https://www.hilton.com/en/hotels/pvrpmci-conrad-punta-de-mita/experiences/ is an error page, not the hotel's content",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Punta Mita, MX)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://www.hilton.com/en/hotels/pvrpmci-conrad-punta-de-mita/",
-      "https://www.hilton.com/en/hotels/pvrpmci-conrad-punta-de-mita/hotel-location/",
-      "https://www.hilton.com/en/hotels/pvrpmci-conrad-punta-de-mita/experiences/"
+      "https://www.conradpuntademita.com/"
     ],
-    "checked_at": "2026-10-28T06:24:05.208Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-28T06:34:45.434Z",
+    "status": "confirmed",
+    "official_url": "https://www.conradpuntademita.com/",
+    "base_url": "https://www.conradpuntademita.com/",
+    "host": "conradpuntademita.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.conradpuntademita.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-28T06:34:50.437Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.conradpuntademita.com/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-28T06:35:09.929Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.conradpuntademita.com/experiences/conrad-concierge/",
+      "tier": "official",
+      "fetched_at": "2026-10-28T06:35:25.159Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.conradpuntademita.com/wellness/",
+      "tier": "official",
+      "fetched_at": "2026-10-28T06:35:33.288Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.conradpuntademita.com/restaurants-bars/arbol/",
+      "tier": "official",
+      "fetched_at": "2026-10-28T06:35:40.704Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.conradpuntademita.com/restaurants-bars/codex/",
+      "tier": "official",
+      "fetched_at": "2026-10-28T06:35:48.738Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.conradpuntademita.com/restaurants-bars/mezquite/",
+      "tier": "official",
+      "fetched_at": "2026-10-28T06:36:03.090Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.conradpuntademita.com/experiences/dia-de-muertos/",
+      "tier": "official",
+      "fetched_at": "2026-10-28T06:36:08.746Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.conradpuntademita.com/riviera-nayarit/",
+      "tier": "official",
+      "fetched_at": "2026-10-28T06:36:14.566Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.cntraveler.com/hotels/sayulita/conrad-punta-de-mita",
+      "tier": "editorial",
+      "fetched_at": "2026-10-28T06:36:22.601Z",
+      "source": "direct"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 5,
-    "firecrawl_searches": 2,
+    "firecrawl_calls": 12,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 10,
+    "chars": 81269,
+    "est_claude_tokens": 20317
   },
   "limits": {
     "maxPages": 12,
@@ -51,5 +119,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-28T06:24:32.819Z"
+  "researched_at": "2026-10-28T06:36:22.601Z"
 }

@@ -1,49 +1,82 @@
 {
   "slug": "conrad-pune",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "https://www.hilton.com/en/hotels/pnqcici-conrad-pune/: https://www.hilton.com/en/hotels/pnqcici-conrad-pune/ is an error page, not the hotel's content",
-    "https://www.hilton.com/en/hotels/pnqcici-conrad-pune/amenities/: https://www.hilton.com/en/hotels/pnqcici-conrad-pune/amenities/ is an error page, not the hotel's content",
-    "https://www.hilton.com/en/hotels/pnqcici-conrad-pune/rooms/: https://www.hilton.com/en/hotels/pnqcici-conrad-pune/rooms/ is an error page, not the hotel's content",
-    "official website could not be confirmed; flag for review"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "Conrad Pune",
       "city": "Pune",
       "country": "IN",
-      "chain": "hilton"
+      "chain": "independent"
     },
     "affiliation": {
-      "kind": "chain",
-      "chain": "hilton"
+      "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.hilton.com/en/hotels/pnqcici-conrad-pune/: https://www.hilton.com/en/hotels/pnqcici-conrad-pune/ is an error page, not the hotel's content",
-      "https://www.hilton.com/en/hotels/pnqcici-conrad-pune/amenities/: https://www.hilton.com/en/hotels/pnqcici-conrad-pune/amenities/ is an error page, not the hotel's content",
-      "https://www.hilton.com/en/hotels/pnqcici-conrad-pune/rooms/: https://www.hilton.com/en/hotels/pnqcici-conrad-pune/rooms/ is an error page, not the hotel's content",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Pune, IN)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://www.hilton.com/en/hotels/pnqcici-conrad-pune/",
-      "https://www.hilton.com/en/hotels/pnqcici-conrad-pune/amenities/",
-      "https://www.hilton.com/en/hotels/pnqcici-conrad-pune/rooms/"
+      "https://conradpune.com/"
     ],
-    "checked_at": "2026-10-28T06:26:18.766Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-28T06:36:59.746Z",
+    "status": "confirmed",
+    "official_url": "https://conradpune.com/",
+    "base_url": "https://conradpune.com/",
+    "host": "conradpune.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://conradpune.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-28T06:37:05.958Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://conradpune.com/restaurants-and-bars/al-di-la/",
+      "tier": "official",
+      "fetched_at": "2026-10-28T06:37:18.199Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://conradpune.com/restaurants-and-bars/coriander-kitchen/",
+      "tier": "official",
+      "fetched_at": "2026-10-28T06:37:22.629Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://conradpune.com/wellbeing/",
+      "tier": "official",
+      "fetched_at": "2026-10-28T06:37:26.958Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.cntraveler.com/hotels/pune/conrad-pune",
+      "tier": "editorial",
+      "fetched_at": "2026-10-28T06:37:29.266Z",
+      "source": "direct"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 5,
-    "firecrawl_searches": 2,
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 5,
+    "chars": 56993,
+    "est_claude_tokens": 14248
   },
   "limits": {
     "maxPages": 12,
@@ -51,5 +84,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-28T06:27:04.976Z"
+  "researched_at": "2026-10-28T06:37:29.266Z"
 }
