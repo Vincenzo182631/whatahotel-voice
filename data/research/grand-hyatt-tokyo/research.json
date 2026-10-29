@@ -1,0 +1,103 @@
+{
+  "slug": "grand-hyatt-tokyo",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "Grand Hyatt Tokyo",
+      "city": "Tokyo",
+      "country": "JP",
+      "chain": "hyatt"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hyatt"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Tokyo, JP)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hyatt.com/grand-hyatt/en-US/tyogh-grand-hyatt-tokyo"
+    ],
+    "checked_at": "2026-10-29T03:31:32.005Z",
+    "status": "confirmed",
+    "official_url": "https://www.hyatt.com/grand-hyatt/en-US/tyogh-grand-hyatt-tokyo",
+    "base_url": "https://www.hyatt.com/grand-hyatt/en-US/tyogh-grand-hyatt-tokyo/",
+    "host": "hyatt.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/tyogh-grand-hyatt-tokyo",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:31:41.392Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/tyogh-grand-hyatt-tokyo/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:31:45.388Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/tyogh-grand-hyatt-tokyo/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:31:51.738Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/tyogh-grand-hyatt-tokyo/hotel-info/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:31:55.794Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/tyogh-grand-hyatt-tokyo/reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:31:59.665Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/tyogh-grand-hyatt-tokyo/parking-and-transportation/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:32:05.947Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.cntraveler.com/hotels/japan/tokyo/grand-hyatt-tokyo",
+      "tier": "editorial",
+      "fetched_at": "2026-10-29T03:32:18.739Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 9,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 7,
+    "chars": 100904,
+    "est_claude_tokens": 25226
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-29T03:32:18.739Z"
+}

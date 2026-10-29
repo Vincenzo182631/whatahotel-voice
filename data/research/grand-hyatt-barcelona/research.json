@@ -1,0 +1,103 @@
+{
+  "slug": "grand-hyatt-barcelona",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "Grand Hyatt Barcelona",
+      "city": "Barcelona",
+      "country": "ES",
+      "chain": "hyatt"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hyatt"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Barcelona, ES)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hyatt.com/grand-hyatt/en-US/bcnub-grand-hyatt-barcelona"
+    ],
+    "checked_at": "2026-10-29T03:32:59.225Z",
+    "status": "confirmed",
+    "official_url": "https://www.hyatt.com/grand-hyatt/en-US/bcnub-grand-hyatt-barcelona",
+    "base_url": "https://www.hyatt.com/grand-hyatt/en-US/bcnub-grand-hyatt-barcelona/",
+    "host": "hyatt.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/bcnub-grand-hyatt-barcelona",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:33:08.906Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/bcnub-grand-hyatt-barcelona/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:33:14.782Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/bcnub-grand-hyatt-barcelona/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:33:18.953Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/bcnub-grand-hyatt-barcelona/reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:33:24.253Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/bcnub-grand-hyatt-barcelona/hotel-info/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:33:27.033Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/bcnub-grand-hyatt-barcelona/parking-and-transportation/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:33:33.500Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.cntraveler.com/hotels/barcelona/grand-hyatt-barcelona",
+      "tier": "editorial",
+      "fetched_at": "2026-10-29T03:33:40.469Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 9,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 7,
+    "chars": 95236,
+    "est_claude_tokens": 23809
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-29T03:33:40.469Z"
+}

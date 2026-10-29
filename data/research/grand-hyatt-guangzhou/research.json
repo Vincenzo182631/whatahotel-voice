@@ -1,0 +1,103 @@
+{
+  "slug": "grand-hyatt-guangzhou",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "Grand Hyatt Guangzhou",
+      "city": "Guangzhou",
+      "country": "CN",
+      "chain": "hyatt"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hyatt"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Guangzhou, CN)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hyatt.com/grand-hyatt/en-US/guagh-grand-hyatt-guangzhou"
+    ],
+    "checked_at": "2026-10-29T03:31:31.863Z",
+    "status": "confirmed",
+    "official_url": "https://www.hyatt.com/grand-hyatt/en-US/guagh-grand-hyatt-guangzhou",
+    "base_url": "https://www.hyatt.com/grand-hyatt/en-US/guagh-grand-hyatt-guangzhou/",
+    "host": "hyatt.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/guagh-grand-hyatt-guangzhou",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:31:40.288Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/guagh-grand-hyatt-guangzhou/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:31:46.259Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/guagh-grand-hyatt-guangzhou/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:31:50.233Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/guagh-grand-hyatt-guangzhou/hotel-info/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:31:55.013Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/guagh-grand-hyatt-guangzhou/reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:31:58.275Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/guagh-grand-hyatt-guangzhou/parking-and-transportation/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:32:05.360Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.cntraveler.com/hotels/china/guangzhou/grand-hyatt-guangzhou",
+      "tier": "editorial",
+      "fetched_at": "2026-10-29T03:32:17.110Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 9,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 7,
+    "chars": 50692,
+    "est_claude_tokens": 12673
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-29T03:32:17.110Z"
+}

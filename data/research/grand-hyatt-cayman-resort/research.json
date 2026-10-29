@@ -1,0 +1,103 @@
+{
+  "slug": "grand-hyatt-cayman-resort",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Grand Hyatt Cayman Resort",
+      "city": "Grand Cayman",
+      "country": "KY",
+      "chain": "hyatt"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hyatt"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Grand Cayman, KY)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hyatt.com/grand-hyatt/en-US/gcmgh-grand-hyatt-grand-cayman-resort-and-spa"
+    ],
+    "checked_at": "2026-10-29T03:35:10.498Z",
+    "status": "confirmed",
+    "official_url": "https://www.hyatt.com/grand-hyatt/en-US/gcmgh-grand-hyatt-grand-cayman-resort-and-spa",
+    "base_url": "https://www.hyatt.com/grand-hyatt/en-US/gcmgh-grand-hyatt-grand-cayman-resort-and-spa/",
+    "host": "hyatt.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/gcmgh-grand-hyatt-grand-cayman-resort-and-spa",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:35:20.986Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/gcmgh-grand-hyatt-grand-cayman-resort-and-spa/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:35:25.004Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/gcmgh-grand-hyatt-grand-cayman-resort-and-spa/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:35:29.836Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/gcmgh-grand-hyatt-grand-cayman-resort-and-spa/hotel-info/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:35:32.461Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/gcmgh-grand-hyatt-grand-cayman-resort-and-spa/policies/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:35:37.005Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/gcmgh-grand-hyatt-grand-cayman-resort-and-spa/parking-and-transportation/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:35:43.532Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 9,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 6,
+    "chars": 48929,
+    "est_claude_tokens": 12232
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-29T03:35:49.147Z"
+}

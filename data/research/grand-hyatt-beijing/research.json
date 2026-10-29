@@ -1,0 +1,103 @@
+{
+  "slug": "grand-hyatt-beijing",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "Grand Hyatt Beijing",
+      "city": "Beijing",
+      "country": "CN",
+      "chain": "hyatt"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hyatt"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Beijing, CN)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hyatt.com/grand-hyatt/en-US/beigh-grand-hyatt-beijing"
+    ],
+    "checked_at": "2026-10-29T03:33:00.118Z",
+    "status": "confirmed",
+    "official_url": "https://www.hyatt.com/grand-hyatt/en-US/beigh-grand-hyatt-beijing",
+    "base_url": "https://www.hyatt.com/grand-hyatt/en-US/beigh-grand-hyatt-beijing/",
+    "host": "hyatt.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/beigh-grand-hyatt-beijing",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:33:09.572Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/beigh-grand-hyatt-beijing/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:33:15.563Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/beigh-grand-hyatt-beijing/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:33:20.482Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/beigh-grand-hyatt-beijing/hotel-info/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:33:23.658Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/beigh-grand-hyatt-beijing/reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:33:28.033Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/beigh-grand-hyatt-beijing/parking-and-transportation/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:33:33.268Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.cntraveler.com/hotels/china/beijing/grand-hyatt-beijing",
+      "tier": "editorial",
+      "fetched_at": "2026-10-29T03:33:44.293Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 9,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 7,
+    "chars": 72926,
+    "est_claude_tokens": 18232
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-29T03:33:44.293Z"
+}

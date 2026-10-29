@@ -1,0 +1,73 @@
+{
+  "slug": "grand-hyatt-abu-dhabi-hotel-residences-emirates-pearl",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Grand Hyatt Abu Dhabi Hotel & Residences Emirates Pearl",
+      "city": "Abu Dhabi",
+      "country": "AE",
+      "chain": "hyatt"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hyatt"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Abu Dhabi, AE)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://newsroom.hyatt.com/052714-Grand-Hyatt-Abu-Dhabi-Hotel-and-Residences-Emirates-Pearl-Anticipated-to-Open-in-2015",
+      "https://www.hyatt.com/grand-hyatt/en-US/auhgh-grand-hyatt-abu-dhabi-hotel-and-residences-emirates-pearl/rooms/CLBK"
+    ],
+    "checked_at": "2026-10-29T03:35:55.352Z",
+    "status": "confirmed",
+    "official_url": "https://www.hyatt.com/grand-hyatt/en-US/auhgh-grand-hyatt-abu-dhabi-hotel-and-residences-emirates-pearl/rooms/CLBK",
+    "base_url": "https://www.hyatt.com/grand-hyatt/en-US/auhgh-grand-hyatt-abu-dhabi-hotel-and-residences-emirates-pearl/",
+    "host": "hyatt.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/auhgh-grand-hyatt-abu-dhabi-hotel-and-residences-emirates-pearl/rooms/CLBK",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:36:17.662Z",
+      "source": "cache"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/auhgh-grand-hyatt-abu-dhabi-hotel-and-residences-emirates-pearl/",
+      "reason": "no same-property sub-page links found on the home page"
+    },
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 5,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 1,
+    "chars": 2836,
+    "est_claude_tokens": 709
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-29T03:36:23.872Z"
+}
