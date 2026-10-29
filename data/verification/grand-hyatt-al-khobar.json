@@ -1,0 +1,372 @@
+{
+  "hotel_slug": "grand-hyatt-al-khobar",
+  "hotel_name": "Grand Hyatt Al Khobar",
+  "checked_at": "2026-10-29T03:51:06.191Z",
+  "script_version": null,
+  "decision": {
+    "eligible": false,
+    "blockers": [
+      "contradicted by a source: h-3"
+    ],
+    "counts": {
+      "supported": 16,
+      "contradicted": 1,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 18
+    }
+  },
+  "applied": false,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/dmmgh-grand-hyatt-al-khobar",
+      "tier": "official",
+      "chars": 11525
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/dmmgh-grand-hyatt-al-khobar/rooms/",
+      "tier": "official",
+      "chars": 11462
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/dmmgh-grand-hyatt-al-khobar/dining/",
+      "tier": "official",
+      "chars": 5456
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/dmmgh-grand-hyatt-al-khobar/parking-and-transportation/",
+      "tier": "official",
+      "chars": 3401
+    },
+    {
+      "id": "d5",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/dmmgh-grand-hyatt-al-khobar/reviews/",
+      "tier": "official",
+      "chars": 20209
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/dmmgh-grand-hyatt-al-khobar/hotel-info/",
+      "tier": "official",
+      "chars": 2866
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is in the Al Olaya District of Al Khobar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Discover the many sights and attractions of Al Khobar from the ideal location of Grand Hyatt Al Khobar Hotel and Residences in Al Olaya District.",
+          "note": "Places the hotel in Al Olaya District, Al Khobar.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dmmgh-grand-hyatt-al-khobar",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Rooms and suites offer ample daylight and city or courtyard views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "All 314 rooms and suites, plus 54 luxury residential apartments, offer ample daylight, a comfortable desk and fabulous city or courtyard views.",
+          "note": "States both ample daylight and city or courtyard views.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dmmgh-grand-hyatt-al-khobar",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Rooms have a marble bathroom with a soaking tub and rain shower.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Spread out in this fabulous 44 sq m room, featuring, one king plush bed, dynamic work-space, and a glorious marble bathroom with soaking tub and rain shower.",
+          "note": "Room descriptions list a marble bathroom with soaking tub and rain shower.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dmmgh-grand-hyatt-al-khobar/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel offers serviced residences suited to business, leisure or long-term stays.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "it offers state-of-the-art venues, elegant ballrooms, diverse dining, a luxurious spa, and serviced residences—perfect for business, leisure, or long-term stays.",
+          "note": "Serviced residences for business, leisure or long-term stays.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dmmgh-grand-hyatt-al-khobar",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The One-Bedroom Apartment has a separate living and dining room, a kitchen, a guest toilet and a deep soaking tub.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Stay in this welcoming 90 sq m apartment. Featuring one king plush bed, a separate living/dining room, kitchen, guest toilet, rain shower, and a deep soaking tub.",
+          "note": "Covers every listed feature of the One-Bedroom Apartment.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dmmgh-grand-hyatt-al-khobar/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Nirvana Spa and Fitness Center has LifeFitness treadmills, bicycles, cross trainers, spinning bikes and free weights.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Cardio equipment includes LifeFitness treadmills, bicycles and cross trainers, and you’ll find spinning bikes and a weightlifting bank that includes dumbbells and free weights.",
+          "note": "Lists all the equipment named in the claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dmmgh-grand-hyatt-al-khobar",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Guests can explore the area's history and culture at Heritage Village and the King Abdulaziz Center for World Culture, known as Ithra.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Explore the area’s history and culture with visits to Heritage Village and King Abdulaziz Center for World Culture, also known as Ithra.",
+          "note": "Names both attractions and the Ithra alias.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dmmgh-grand-hyatt-al-khobar",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel has 2,300 square meters of meeting space.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "With 2,300 square meters of meeting space, Grand Hyatt Al Khobar Hotel and Residences is one of the largest",
+          "note": "States 2,300 square meters of meeting space.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dmmgh-grand-hyatt-al-khobar",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Sakana House serves pan-Asian cuisine with flavors from Japan, China and across the region.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "An artisanal multi Asian cuisine influenced by the Pan-Asian culinary tradition, features tantalizing flavors from Japan, China and across the region.",
+          "note": "Describes Sakana House's pan-Asian cuisine and its flavors.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dmmgh-grand-hyatt-al-khobar/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Grandeur Lounge, the lobby lounge, serves freshly brewed Arabic coffee, teas and local dates.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Grandeur is a welcoming lobby lounge where you can enjoy light meals and beverages throughout the day",
+          "note": "Identifies Grandeur as the lobby lounge.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dmmgh-grand-hyatt-al-khobar/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Offering carefully and freshly brewed rich Arabic coffee, teas and the taste of local dates the country is so famous for.",
+          "note": "Lists Arabic coffee, teas and local dates.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dmmgh-grand-hyatt-al-khobar/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel has direct access to Al Rashid Mall.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Grand Hyatt Al Khobar Hotel and Residences, a striking 5-star destination in the city’s prime district with direct access to Al Rashid Mall",
+          "note": "States direct access to Al Rashid Mall.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dmmgh-grand-hyatt-al-khobar",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Nirvana Spa has a Royal Moroccan hammam.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Rejuvenate at Grand Hyatt Al Khobar with the luxurious Royal Moroccan hammam at Nirvana Spa.",
+          "note": "Places a Royal Moroccan hammam at Nirvana Spa.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dmmgh-grand-hyatt-al-khobar",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The 138-square-meter Diplomatic Suite has a separate living room, dining room and fully equipped kitchen.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Live in grand style in 138 square meters of space when you stay in our Diplomatic Suite, featuring a separate living room, dining room and fully equipped kitchen.",
+          "note": "Matches the size and every listed feature.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dmmgh-grand-hyatt-al-khobar",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "contradicted",
+          "doc_id": "d2",
+          "quote": "Feel the grandness in this exceptional 138 sq m suite, featuring king plush bed, living room/dining room, kitchenette and an alluring marble bathroom",
+          "note": "The rooms page lists a kitchenette, not a fully equipped kitchen, for the Diplomat Suite.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dmmgh-grand-hyatt-al-khobar/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "contradicted",
+      "reason": "a source says something different"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Club rooms include access to the Grand Club, serving complimentary breakfast, refreshments and evening canapes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "and access to the Grand Club, serving complimentary breakfast, refreshments, and evening Canapés.",
+          "note": "Club Access rooms include Grand Club access with these offerings.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dmmgh-grand-hyatt-al-khobar/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The lap swimming pool features mood lighting, relaxation beds and a snack bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Take an exhilarating dip in our glorious lap swimming pool, featuring mood lighting, relaxation beds, and a fabulous snack bar.",
+          "note": "Lists all three pool features.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dmmgh-grand-hyatt-al-khobar",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "King Fahd International Airport is 53.7 kilometers from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "King Fahd International Airport (DMM)53.7 kilometers",
+          "note": "Gives the airport distance as 53.7 km.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dmmgh-grand-hyatt-al-khobar/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "53.7 Kilometers",
+          "note": "The hotel info page gives the same distance.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dmmgh-grand-hyatt-al-khobar/hotel-info/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Room views are of the city or a courtyard.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "All 314 rooms and suites, plus 54 luxury residential apartments, offer ample daylight, a comfortable desk and fabulous city or courtyard views.",
+          "note": "States city or courtyard views.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dmmgh-grand-hyatt-al-khobar",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing reflects the luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
