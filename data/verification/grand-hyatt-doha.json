@@ -1,0 +1,387 @@
+{
+  "hotel_slug": "grand-hyatt-doha",
+  "hotel_name": "Grand Hyatt Doha",
+  "checked_at": "2026-10-29T03:44:31.343Z",
+  "script_version": null,
+  "decision": {
+    "eligible": false,
+    "blockers": [
+      "used in the script but not verified: c-2"
+    ],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 1,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": false,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/dohgh-grand-hyatt-doha-hotel-and-villas",
+      "tier": "official",
+      "chars": 14639
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/dohgh-grand-hyatt-doha-hotel-and-villas/rooms/",
+      "tier": "official",
+      "chars": 15428
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/dohgh-grand-hyatt-doha-hotel-and-villas/dining/",
+      "tier": "official",
+      "chars": 8045
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/dohgh-grand-hyatt-doha-hotel-and-villas/hotel-info/",
+      "tier": "official",
+      "chars": 3548
+    },
+    {
+      "id": "d5",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/dohgh-grand-hyatt-doha-hotel-and-villas/reviews/",
+      "tier": "official",
+      "chars": 25988
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/dohgh-grand-hyatt-doha-hotel-and-villas/parking-and-transportation/",
+      "tier": "official",
+      "chars": 3007
+    },
+    {
+      "id": "d7",
+      "url": "https://www.cntraveler.com/hotels/qatar/doha/grand-hyatt-doha",
+      "tier": "editorial",
+      "chars": 2920
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel sits along the shoreline of West Bay Lagoon.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Nestled along the scenic shoreline of West Bay Lagoon",
+          "note": "Official page places the hotel on the West Bay Lagoon shoreline.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dohgh-grand-hyatt-doha-hotel-and-villas",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The resort has Arabian architecture and landscaped gardens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "stunning Arabian architecture, and lush landscaped gardens",
+          "note": "Both the architecture and the gardens are stated.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dohgh-grand-hyatt-doha-hotel-and-villas",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The resort spans over 150,000 square metres.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Spanning over 150,000 square metres",
+          "note": "The area figure matches.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dohgh-grand-hyatt-doha-hotel-and-villas",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel is directly across from Lagoona Mall and near The Pearl-Qatar and Lusail City.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "the hotel is directly across from Lagoona Mall and near popular destinations like The Pearl-Qatar and Lusail City",
+          "note": "All three location elements are stated.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dohgh-grand-hyatt-doha-hotel-and-villas",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Rooms are designed with contemporary Arabian decor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Relax in the luxurious comfort of our 40-square meter Grand King Room, designed with contemporary Arabian décor.",
+          "note": "Several room descriptions mention contemporary Arabian décor.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dohgh-grand-hyatt-doha-hotel-and-villas/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Each room has a balcony and a spa-like bathroom with an oversized tub and walk-in shower.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Each room offers a spacious balcony, chromecast on all our LED TVs for seamless streaming, and a spa-like bathroom with an oversized tub and walk-in shower.",
+          "note": "Covers the balcony, tub and walk-in shower elements.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dohgh-grand-hyatt-doha-hotel-and-villas/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Club Access rooms include access to the private club lounge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Enjoy exclusive access to our private club lounge for a truly premium stay.",
+          "note": "Stated in the Club Access room descriptions.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dohgh-grand-hyatt-doha-hotel-and-villas/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Family Suite combines a one-bedroom suite with a connecting standard room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "our Family Suite combines a spacious one-bedroom suite with a connecting standard room",
+          "note": "Matches the claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dohgh-grand-hyatt-doha-hotel-and-villas/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Jaula Club & Spa is designed to echo the symmetry and splendor of a royal palace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Jaula Club & Spa echoes the symmetry and splendor of a royal palace.",
+          "note": "Matches the claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dohgh-grand-hyatt-doha-hotel-and-villas",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The fitness centre is open 24/7 and has outdoor areas with views of the gardens and the sea.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our 24/7 fitness centre offers the latest equipment along with personal-training options for guests looking to get in shape or stay fit.",
+          "note": "Establishes 24/7 opening.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dohgh-grand-hyatt-doha-hotel-and-villas",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "A range of available classes—plus outdoor areas with views of landscaped gardens and the sea—means there’s no better place to get some exercise.",
+          "note": "Establishes outdoor areas with garden and sea views.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dohgh-grand-hyatt-doha-hotel-and-villas",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel offers Camp Hyatt for children.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Introducing Camp Hyatt: Big Adventures for Little Guests",
+          "note": "Camp Hyatt is offered for children.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dohgh-grand-hyatt-doha-hotel-and-villas",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Monkey Tale is a beach-side lounge overlooking the Arabian Gulf.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Monkey Tale, a beach-side lounge overlooking tranquil waters of the Arabian Gulf",
+          "note": "Matches the claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dohgh-grand-hyatt-doha-hotel-and-villas/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel has a 400-metre private beach.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "a 400-metre private beach",
+          "note": "The beach length matches.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dohgh-grand-hyatt-doha-hotel-and-villas",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The villas are adjacent to the hotel, have fully equipped kitchens and access to two swimming pools and the private beach.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our superbly designed and luxuriously furnished villas are adjacent to the hotel and offer long- or short-term rentals complete with fully equipped kitchens plus access to two swimming pools and our private beach.",
+          "note": "All elements are covered.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dohgh-grand-hyatt-doha-hotel-and-villas",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Jaula Spa has a couples treatment room with a private jetted tub.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "featuring a couples treatment room with a private jetted tub",
+          "note": "Matches the claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dohgh-grand-hyatt-doha-hotel-and-villas",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Royal Suite has a private sauna and a 106-square-metre balcony.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "featuring a luxurious king bedroom, a private sauna, and a sweeping 106 sq. m balcony",
+          "note": "Royal Suite description covers both the sauna and the balcony size.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dohgh-grand-hyatt-doha-hotel-and-villas/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The hotel has four outdoor pools and one indoor pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "one of our pools—four outdoor, one indoor—",
+          "note": "The pool counts match.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dohgh-grand-hyatt-doha-hotel-and-villas",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Hamad International Airport is 25.7 kilometres from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Hamad International Airport (DOH)25.7 kilometers",
+          "note": "The distance matches.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dohgh-grand-hyatt-doha-hotel-and-villas/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Souq Waqif is about 6 miles from the hotel, so the old city is a drive away.",
+      "findings": [
+        {
+          "verdict": "partial",
+          "doc_id": "d1",
+          "quote": "6.19 Miles away",
+          "note": "Listed under Souq Waqif, so the distance is covered. The page does not call it the old city or say it is a drive away.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/dohgh-grand-hyatt-doha-hotel-and-villas",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "unverified",
+      "reason": "sources cover only part of the claim"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing that reflects the hotel's luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "slug": "grand-hyatt-al-khobar",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Grand Hyatt Al Khobar",
+      "city": "NULL",
+      "country": "SA",
+      "chain": "hyatt"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hyatt"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "confirmed by hand as this hotel's own page (page does not mention NULL)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hyatt.com/grand-hyatt/en-US/dmmgh-grand-hyatt-al-khobar"
+    ],
+    "checked_at": "2026-10-29T03:42:25.048Z",
+    "status": "confirmed",
+    "official_url": "https://www.hyatt.com/grand-hyatt/en-US/dmmgh-grand-hyatt-al-khobar",
+    "base_url": "https://www.hyatt.com/grand-hyatt/en-US/dmmgh-grand-hyatt-al-khobar/",
+    "host": "hyatt.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": false
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/dmmgh-grand-hyatt-al-khobar",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:42:32.907Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/dmmgh-grand-hyatt-al-khobar/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:42:40.988Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/dmmgh-grand-hyatt-al-khobar/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:42:44.745Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/dmmgh-grand-hyatt-al-khobar/reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:42:48.652Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/dmmgh-grand-hyatt-al-khobar/hotel-info/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:42:54.754Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/dmmgh-grand-hyatt-al-khobar/parking-and-transportation/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:42:59.116Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 9,
+    "firecrawl_searches": 1,
+    "cache_hits": 0,
+    "direct_fetches": 0,
+    "pages": 6,
+    "chars": 54919,
+    "est_claude_tokens": 13730
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-29T03:43:06.853Z"
+}

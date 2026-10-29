@@ -1,0 +1,103 @@
+{
+  "slug": "grand-hyatt-changsha",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Grand Hyatt Changsha",
+      "city": "Changsha",
+      "country": "CN",
+      "chain": "hyatt"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hyatt"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Changsha, CN)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hyatt.com/grand-hyatt/en-US/csxgh-grand-hyatt-changsha"
+    ],
+    "checked_at": "2026-10-29T03:37:33.353Z",
+    "status": "confirmed",
+    "official_url": "https://www.hyatt.com/grand-hyatt/en-US/csxgh-grand-hyatt-changsha",
+    "base_url": "https://www.hyatt.com/grand-hyatt/en-US/csxgh-grand-hyatt-changsha/",
+    "host": "hyatt.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/csxgh-grand-hyatt-changsha",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:37:44.160Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/csxgh-grand-hyatt-changsha/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:37:47.642Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/csxgh-grand-hyatt-changsha/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:37:53.024Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/csxgh-grand-hyatt-changsha/hotel-info/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:37:56.497Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/csxgh-grand-hyatt-changsha/reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:38:01.366Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/csxgh-grand-hyatt-changsha/parking-and-transportation/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:38:06.155Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 9,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 6,
+    "chars": 55210,
+    "est_claude_tokens": 13803
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-29T03:38:11.582Z"
+}

@@ -1,0 +1,383 @@
+{
+  "hotel_slug": "grand-hyatt-taipei",
+  "hotel_name": "Grand Hyatt Taipei",
+  "checked_at": "2026-10-29T03:44:35.034Z",
+  "script_version": null,
+  "decision": {
+    "eligible": false,
+    "blockers": [
+      "used in the script but not verified: f-2"
+    ],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 1,
+      "exempt": 2,
+      "total": 20
+    }
+  },
+  "applied": false,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/taigh-grand-hyatt-taipei",
+      "tier": "official",
+      "chars": 21761
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/taigh-grand-hyatt-taipei/rooms/",
+      "tier": "official",
+      "chars": 13656
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/taigh-grand-hyatt-taipei/dining/",
+      "tier": "official",
+      "chars": 12152
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/taigh-grand-hyatt-taipei/parking-and-transportation/",
+      "tier": "official",
+      "chars": 5905
+    },
+    {
+      "id": "d5",
+      "url": "https://www.cntraveler.com/hotels/taiwan/da-an-district/grand-hyatt-taipei",
+      "tier": "editorial",
+      "chars": 3936
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/taigh-grand-hyatt-taipei/hotel-info/",
+      "tier": "official",
+      "chars": 3978
+    },
+    {
+      "id": "d7",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/taigh-grand-hyatt-taipei/reviews/",
+      "tier": "official",
+      "chars": 16859
+    },
+    {
+      "id": "d8",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/taigh-grand-hyatt-taipei/policies/",
+      "tier": "official",
+      "chars": 13211
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Major public transportation is a five-minute walk from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "take a five-minute stroll to major public transportation",
+          "note": "The official page states major public transportation is a five-minute stroll away.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/taigh-grand-hyatt-taipei",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The nearest MRT station is Taipei 101/World Trade Center.",
+      "findings": [
+        {
+          "verdict": "partial",
+          "doc_id": "d4",
+          "quote": "MRT Taipei 101/World Trade Center station0.2 kilometers",
+          "note": "The station is listed at 0.2 km, but the page never calls it the nearest. Taipei City Hall Station is also listed.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/taigh-grand-hyatt-taipei/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "unverified",
+      "reason": "sources cover only part of the claim"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Guest rooms are designed with a residential touch.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Designed with a residential touch, each room provides a personal sanctuary",
+          "note": "Stated directly on the rooms page.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/taigh-grand-hyatt-taipei/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Condé Nast Traveler notes the hotel's pastel rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "This \"grand building\" next to the Taipei 101 tower has pastel rooms",
+          "note": "The CN Traveler review mentions pastel rooms.",
+          "url": "https://www.cntraveler.com/hotels/taiwan/da-an-district/grand-hyatt-taipei",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Grand Executive 101 View Suite has a Taipei 101 view, a living room and a bedroom, a marble bathroom with a bathtub, and Grand Club Lounge access.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Enjoy the Taipei 101 view from the 893 sq ft (83 sq m) home with a living room and a bedroom, a marble bathroom with a bathtub, and access to the Grand Club Lounge.",
+          "note": "Every listed element is covered.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/taigh-grand-hyatt-taipei/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Executive suites have marble tubs from which guests can watch Taipei 101 light up at sunset.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "executive suites with \"luxurious marble tubs\" from which \"you can watch the tower light up as the sun sets.\"",
+          "note": "CN Traveler describes this; the tower is Taipei 101, per the same sentence.",
+          "url": "https://www.cntraveler.com/hotels/taiwan/da-an-district/grand-hyatt-taipei",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Diplomat Suite has a separate living area, a kitchenette, a walk-in closet and a marble bathroom.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "suite with a separate living area, a kitchenette, a walk-in closet, a marble bathroom, and access to the Grand Club Lounge.",
+          "note": "All four features are listed.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/taigh-grand-hyatt-taipei/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Club Oasis has a 24-hour fitness center and an exercise studio with classes such as yoga and aerobics.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Club Oasis features a 24-hour fitness center with modern equipment and an exercise studio offering classes such as yoga and aerobics.",
+          "note": "Matches the claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/taigh-grand-hyatt-taipei",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Club Oasis has separate men's and women's wet areas with a sauna, steam room and whirlpools.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Guests can relax in separate men’s and women’s wet areas, including a sauna, steam room, and whirlpools with micro bubble and jet systems.",
+          "note": "Matches the claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/taigh-grand-hyatt-taipei",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Pearl Liang serves Cantonese cuisine in a private-residence-style setting by designer Tony Chi.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Enjoy authentic Cantonese delicacies, fresh seafood and dim sum in an elegant ambience. Indulge in Tony Chi's \"private residence\" dining setting, known internationally for its design expertise.",
+          "note": "Confirms the Cantonese cuisine and Tony Chi's private-residence setting.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/taigh-grand-hyatt-taipei/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "At Café, a team of 30 chefs cooks Asian specialties in a show kitchen.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "A 30-chef team cooks up Asian specialties in a show kitchen at Café",
+          "note": "Matches the claim.",
+          "url": "https://www.cntraveler.com/hotels/taiwan/da-an-district/grand-hyatt-taipei",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Pets are welcome, with a pet-friendly package of rooms, amenities and services designed for dogs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Pets Are Welcome",
+          "note": "Section heading states pets are welcome.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/taigh-grand-hyatt-taipei",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "We offer a “Furry Friend” pet-friendly package featuring rooms and suites with amenities and services designed for your beloved dog companion.",
+          "note": "Describes the package of rooms, amenities and services designed for dogs.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/taigh-grand-hyatt-taipei",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel has a bridge that connects directly to Taipei 101.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Grand Hyatt Taipei, the only 5-star hotel in Taipei with a bridge that directly connects to Taipei 101",
+          "note": "Confirms the direct bridge connection.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/taigh-grand-hyatt-taipei",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Rooms and suites look out on Taipei 101, Taiwan's tallest skyscraper, right next door, as well as other city views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Grand Hyatt Taipei's rooms and suites offer stunning views of Taipei 101, which is Taiwan’s tallest skyscraper and next door, as well as other city views",
+          "note": "Matches the claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/taigh-grand-hyatt-taipei",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The temperature-controlled outdoor pool on level 5 is set in lush landscaping, with sun beds, lounge areas and a pool bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Taipei's unique temperature-controlled outdoor swimming pool on level 5, with its lush landscape, stylish yet comfortable sun beds, lounge areas and a pool bar",
+          "note": "All elements are covered.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/taigh-grand-hyatt-taipei",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Grand Club Lounge on the 22nd floor has panoramic views of the Taipei skyline, with continental breakfast, all-day refreshments and an evening cocktail experience.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located on the 22nd floor of the hotel, the Grand Club Lounge offers panoramic views of the Taipei skyline, an intimate atmosphere along with a continental breakfast, all-day refreshments and an evening cocktail experience.",
+          "note": "All elements are covered.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/taigh-grand-hyatt-taipei",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Presidential Suite is an apartment-style suite with a 24-hour private butler.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Enjoy the exclusive privileges including a 24-hour private butler and access to the Grand Club Lounge by staying in the 2,379 sq ft (221 sq m) apartment-style suite.",
+          "note": "Confirms the apartment-style suite and the 24-hour private butler.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/taigh-grand-hyatt-taipei/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel no longer provides bottled water or disposable in-room amenities, so bring your own essentials and a drinking vessel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "our hotel no longer provides bottled water or disposable in-room amenities for staying guests. We recommend bringing your own essentials and a drinking vessel",
+          "note": "Matches the claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/taigh-grand-hyatt-taipei",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes the busy urban setting may not suit travelers seeking tranquility.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing reflecting the hotel's luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

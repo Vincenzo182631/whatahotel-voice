@@ -9,14 +9,21 @@
     "kind": "chain",
     "chain": "hyatt"
   },
-  "evidence": [],
-  "reasons": [
-    "several Hyatt properties match \"Grand Hyatt Bogota\" in Bogota (https://www.hyatt.com/grand-hyatt/en-US/boggh-grand-hyatt-bogota/, https://www.hyatt.com/grand-hyatt/es-ES/boggh-grand-hyatt-bogota/); confirm with --official-url"
+  "evidence": [
+    "100% of the hotel name appears on the page",
+    "location matches (Bogota, CO)"
   ],
+  "reasons": [],
   "candidates": [
-    "https://www.hyatt.com/grand-hyatt/en-US/boggh-grand-hyatt-bogota/",
-    "https://www.hyatt.com/grand-hyatt/es-ES/boggh-grand-hyatt-bogota/"
+    "https://www.hyatt.com/grand-hyatt/en-US/boggh-grand-hyatt-bogota/"
   ],
-  "checked_at": "2026-10-29T03:36:25.014Z",
-  "status": "needs_review"
+  "checked_at": "2026-10-29T03:40:37.001Z",
+  "status": "confirmed",
+  "official_url": "https://www.hyatt.com/grand-hyatt/en-US/boggh-grand-hyatt-bogota/",
+  "base_url": "https://www.hyatt.com/grand-hyatt/en-US/boggh-grand-hyatt-bogota/",
+  "host": "hyatt.com",
+  "checks": {
+    "name_coverage": 1,
+    "location_match": true
+  }
 }

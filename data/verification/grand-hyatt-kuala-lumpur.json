@@ -1,0 +1,377 @@
+{
+  "hotel_slug": "grand-hyatt-kuala-lumpur",
+  "hotel_name": "Grand Hyatt Kuala Lumpur",
+  "checked_at": "2026-10-29T03:44:18.224Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/kuagh-grand-hyatt-kuala-lumpur",
+      "tier": "official",
+      "chars": 14671
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/kuagh-grand-hyatt-kuala-lumpur/rooms/",
+      "tier": "official",
+      "chars": 11609
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/kuagh-grand-hyatt-kuala-lumpur/dining/",
+      "tier": "official",
+      "chars": 9766
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/kuagh-grand-hyatt-kuala-lumpur/hotel-info/",
+      "tier": "official",
+      "chars": 2795
+    },
+    {
+      "id": "d5",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/kuagh-grand-hyatt-kuala-lumpur/reviews/",
+      "tier": "official",
+      "chars": 23778
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/kuagh-grand-hyatt-kuala-lumpur/parking-and-transportation/",
+      "tier": "official",
+      "chars": 3464
+    },
+    {
+      "id": "d7",
+      "url": "https://www.cntraveler.com/hotels/malaysia/kuala-lumpur/grand-hyatt-kuala-lumpur",
+      "tier": "editorial",
+      "chars": 3738
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel overlooks the Petronas Twin Towers and is adjacent to the Kuala Lumpur Convention Centre.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Overlooking the iconic Petronas Twin Towers and adjacent to Kuala Lumpur Convention Centre, Grand Hyatt Kuala Lumpur is one of the best hotels in the city",
+          "note": "Both elements are stated directly.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/kuagh-grand-hyatt-kuala-lumpur",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is within walking distance of the Golden Triangle shopping, dining and entertainment district.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "within walking distance of the Golden Triangle shopping, dining and entertainment district",
+          "note": "Stated directly.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/kuagh-grand-hyatt-kuala-lumpur",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Some rooms overlook KLCC Park.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "This elegant 47-square-meter room overlooks KLCC Park",
+          "note": "The Garden View room overlooks KLCC Park.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/kuagh-grand-hyatt-kuala-lumpur/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The Grand Suite has a living room and a round marble bathtub.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Immerse yourself in this 105-square-meter suite with city views, one king bed, a living room and a luxurious bathroom fitted with a round marble bathtub.",
+          "note": "Grand Suite description includes both features.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/kuagh-grand-hyatt-kuala-lumpur/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Grand Club Lounge offers personalized check-in and check-out, complimentary breakfast, all-day refreshments and evening cocktails with canapes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "offering exclusive benefits such as personalized check-in and check-out, complimentary breakfast, all-day refreshments, and evening cocktails with canapés.",
+          "note": "All listed benefits match.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/kuagh-grand-hyatt-kuala-lumpur",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "There is a wading pool for children, with complimentary kids' amenities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "We also offer a wading pool ideal for children with a depth of 0.45 metres and complimentary kids’ amenities.",
+          "note": "Stated directly.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/kuagh-grand-hyatt-kuala-lumpur",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The fitness centre has Technogym cardiovascular and strength-training machines.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "well-appointed with the latest cardiovascular and strength-training Technogym machines",
+          "note": "Stated directly.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/kuagh-grand-hyatt-kuala-lumpur",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The business centre is on the hotel's highest floor, in the Sky Lobby.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Stay connected at our full-service business centre, located on our highest floor in the Sky Lobby.",
+          "note": "Stated directly.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/kuagh-grand-hyatt-kuala-lumpur",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The hotel bottles its own water in-house, in reusable glass bottles.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "by making the switch to reusable glass bottles and an in-house water-bottling facility",
+          "note": "In-house bottling in reusable glass bottles.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/kuagh-grand-hyatt-kuala-lumpur",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Le Petit Chef is a theatrical dinner that pairs a 3D mapping performance with cuisines from across Asia.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Taking theatrical dining to a whole new level, Le Petit Chef features a miniscule chef of French descent",
+          "note": "Theatrical dining.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/kuagh-grand-hyatt-kuala-lumpur/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "guide patrons to embark on a journey through Asia by witnessing 90 minutes of avant-garde 3D mapping performance and being served tantalizing cuisines from various parts of the continent.",
+          "note": "3D mapping performance paired with cuisines from across Asia; hours are evening.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/kuagh-grand-hyatt-kuala-lumpur/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "JPteres serves authentic Malaysian flavours, set against greenery at the Ground Lobby.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "invites diners to embrace our locality through authentic Malaysian flavours",
+          "note": "Authentic Malaysian flavours.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/kuagh-grand-hyatt-kuala-lumpur/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Set against a cove of greenery at the Ground Lobby",
+          "note": "Location at Ground Lobby amid greenery.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/kuagh-grand-hyatt-kuala-lumpur/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The outdoor swimming pool has a view of the Petronas Twin Towers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "with a depth of 1.2 metres and a view of the Petronas Twin Towers",
+          "note": "Outdoor pool has Twin Towers view.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/kuagh-grand-hyatt-kuala-lumpur",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "ESSA Spa uses ramuan, the traditional Malay preparation of herbal healing ingredients.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "features the powerful benefits of ramuan, the traditional Malay preparation of herbal healing and invigorating ingredients",
+          "note": "Stated directly.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/kuagh-grand-hyatt-kuala-lumpur",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Deluxe corner rooms offer a 180-degree panoramic view of the Kuala Lumpur city skyline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "This spacious 65-square-meter corner room offers a 180-degree panoramic view of the Kuala Lumpur city skyline",
+          "note": "Deluxe corner room.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/kuagh-grand-hyatt-kuala-lumpur/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Guest room bathrooms have a liquid crystal glass cube that can be adjusted for privacy.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "a bathroom with a liquid crystal glass cube adjustable for privacy",
+          "note": "Stated in room descriptions.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/kuagh-grand-hyatt-kuala-lumpur/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "THIRTY8 sits on the 38th floor with a 360-degree view of the city and show kitchens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Nestled on the 38th floor with a spectacular 360-degree view of the city, THIRTY8 serves exquisite cuisines with lively show kitchens",
+          "note": "All elements stated.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/kuagh-grand-hyatt-kuala-lumpur/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel recommends booking restaurants in advance, as its dining outlets can be full for walk-ins.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "our dining outlets may encounter full-house situations where seats will not be available for walk-ins. To avoid disappointment and to help us manage expectations, we strongly recommend making advanced reservations.",
+          "note": "Stated directly.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/kuagh-grand-hyatt-kuala-lumpur/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "There are no lifeguards on duty at the pool, and children must be accompanied by an adult.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Please note that there are no lifeguards on duty and that all children must be accompanied by an adult.",
+          "note": "Stated directly.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/kuagh-grand-hyatt-kuala-lumpur",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes a busy urban location with city traffic to consider.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
