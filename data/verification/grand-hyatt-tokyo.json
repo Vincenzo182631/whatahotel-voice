@@ -1,0 +1,384 @@
+{
+  "hotel_slug": "grand-hyatt-tokyo",
+  "hotel_name": "Grand Hyatt Tokyo",
+  "checked_at": "2026-10-29T03:45:34.528Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/tyogh-grand-hyatt-tokyo",
+      "tier": "official",
+      "chars": 14690
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/tyogh-grand-hyatt-tokyo/rooms/",
+      "tier": "official",
+      "chars": 23589
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/tyogh-grand-hyatt-tokyo/dining/",
+      "tier": "official",
+      "chars": 17231
+    },
+    {
+      "id": "d4",
+      "url": "https://www.cntraveler.com/hotels/japan/tokyo/grand-hyatt-tokyo",
+      "tier": "editorial",
+      "chars": 6565
+    },
+    {
+      "id": "d5",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/tyogh-grand-hyatt-tokyo/hotel-info/",
+      "tier": "official",
+      "chars": 4086
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/tyogh-grand-hyatt-tokyo/reviews/",
+      "tier": "official",
+      "chars": 30000
+    },
+    {
+      "id": "d7",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/tyogh-grand-hyatt-tokyo/parking-and-transportation/",
+      "tier": "official",
+      "chars": 4743
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is directly connected to Roppongi Hills, which houses high-end shops and restaurants, a cinema, an art museum and an observatory.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "directly connected to Roppongi Hills, a cultural hub which houses 250 high-end shops and restaurants, a cinema, an art museum and an observatory",
+          "note": "All elements are covered.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/tyogh-grand-hyatt-tokyo",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is a short walk from Roppongi Station and provides easy access to areas such as Ginza and Shibuya.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The hotel is just a 3-minute walk from Roppongi Station and provides easy access to popular areas such as Ginza and Shibuya",
+          "note": "A 3-minute walk counts as a short walk.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/tyogh-grand-hyatt-tokyo",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The design incorporates subtle Japanese aesthetics with rich mahogany furnishings made with natural woods and fabrics.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Grand Hyatt Tokyo incorporates subtle Japanese aesthetics into the design and offers rich mahogany furnishings made with natural woods and fabrics",
+          "note": "Matches the claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/tyogh-grand-hyatt-tokyo/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Rooms feature high ceilings, furniture by B&B Italia and light earth-tone colors and textures.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Featuring high ceilings, furniture by B&B Italia and light earth-tone colors and textures, these spacious hotel rooms offer the ideal environment for relaxation.",
+          "note": "Matches the claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/tyogh-grand-hyatt-tokyo/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Rooms have a work desk with Arne Jacobsen's Oxford chair and beds with Egyptian cotton linens by Frette.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "a large work desk equipped with designer Arne Jacobsen’s Oxford™ chair and a king-sized bed with plush Egyptian cotton linens by Frette",
+          "note": "Covers both the desk chair and the Frette linens.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/tyogh-grand-hyatt-tokyo/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Room bathrooms have a deep soaking tub that fills within five minutes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "each bathroom has a deep soaking tub that fills within 5 minutes",
+          "note": "Matches the claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/tyogh-grand-hyatt-tokyo/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Suite and club room guests have access to the Grand Club, a private lounge on the 10th floor offering check-in and checkout, a personal concierge, breakfast, evening cocktails and canapes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "enjoy access to a private lounge on the 10th floor. The lounge offers check-in and checkout service, a personal concierge, a meeting room, breakfast, evening cocktails, canapés and refreshments.",
+          "note": "Appears under the Grand Club Lounge section, which says it is for suite and club room guests.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/tyogh-grand-hyatt-tokyo",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "the Grand Club is a private lounge located on the 10th floor",
+          "note": "Confirms the lounge name and floor.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/tyogh-grand-hyatt-tokyo/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Nagomi Spa uses Indigenous elements and open spaces to create a sense of comfort and wellbeing.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Nagomi Spa offers a peaceful and serene retreat for fitness and relaxation, where Indigenous elements and open spaces provide the ultimate sense of comfort and wellbeing.",
+          "note": "Matches the claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/tyogh-grand-hyatt-tokyo",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "A family suite comes with a children's tent, plushies and decorations, and a Japanese-style bathtub.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Enter a world of imagination with a children’s tent, plushies and decorations, soak up to the shoulders in our Japanese-style bathtub",
+          "note": "From the Family Suite description.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/tyogh-grand-hyatt-tokyo/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Wedding venues include the Grand Chapel and a Shinto Shrine ceremony room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "including our Grand Chapel and Shinto Shrine ceremony room",
+          "note": "Matches the claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/tyogh-grand-hyatt-tokyo",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel's restaurants and bars include Japanese, Edo-mae sushi, French bistro and steakhouse options, plus a jazz lounge with live music.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Our 10 stylish venues offer unique menus, including Japanese, Edo-mae sushi, French bistro, and steakhouse options, as well as a jazz lounge where you can enjoy live music.",
+          "note": "All listed options are covered.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/tyogh-grand-hyatt-tokyo/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Roku Roku serves Edo-mae-style sushi and sashimi using seafood selected each morning from markets across Japan.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Roku Roku restaurant serves Edo-mae-style sushi and sashimi using premium quality seafood selected each morning from local markets across Japan.",
+          "note": "Matches the claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/tyogh-grand-hyatt-tokyo/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The top-floor suite has a private heated outdoor pool and a sundeck with sweeping views of Tokyo.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "top-floor suite featuring a 138-square-meter (1,485 square feet) private heated outdoor pool and a sundeck with sweeping views of Tokyo",
+          "note": "From the Presidential Suite description.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/tyogh-grand-hyatt-tokyo/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "A Japanese-style suite has a private Japanese garden, a tatami mat dining room and floor-to-ceiling windows with views of Tokyo.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Recharge in Japanese style in a luxurious 188-square-meter (2,023 square feet) suite featuring a 12-square-meter (129 square feet) private Japanese garden, tatami mat dining room and floor-to-ceiling windows with views of Tokyo.",
+          "note": "From the Ambassador Suite description.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/tyogh-grand-hyatt-tokyo/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "A corner room on the 21st floor has its own private Japanese garden.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "corner room on the 21st floor with two luxurious queen-sized beds and a 30-square-meter (322 square feet) private Japanese garden",
+          "note": "Matches the claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/tyogh-grand-hyatt-tokyo/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Nagomi Spa and Fitness has a natural red granite indoor swimming pool surrounded by a hardwood deck, and an illuminated whirlpool adorned with platinum tiles made in Italy.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Nagomi Spa and Fitness features a natural red granite indoor swimming pool (20 m by 7 m) surrounded by a hardwood deck. The beautifully-designed illuminated whirlpool is adorned with platinum tiles made in Italy.",
+          "note": "Matches all elements of the claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/tyogh-grand-hyatt-tokyo",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Rooms on the 11th to 20th floors offer views that can include Tokyo Tower, the skyline and Mt. Fuji on a clear day.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "room on the 11th to 20th floors, with a variety of views including the iconic Tokyo Tower, Tokyo’s sparkling skyline and Mt. Fuji on a clear day",
+          "note": "Matches the claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/tyogh-grand-hyatt-tokyo/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Conde Nast Traveler says the entry-level rooms have 20-year-old decor, though they have been well cared for.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "All the trappings of 20-year-old decor are present in the entry-level rooms—and although the rooms’ vibe is a bit passé, they've been cared for very well over time.",
+          "note": "Matches the claim.",
+          "url": "https://www.cntraveler.com/hotels/japan/tokyo/grand-hyatt-tokyo",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Conde Nast Traveler notes that because of the hotel's size, guests may not get the personalized attention of a smaller property.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Grand is indeed the key word when describing its size, and as such, guests may not get the personalized attention to detail of a smaller property.",
+          "note": "Matches the claim.",
+          "url": "https://www.cntraveler.com/hotels/japan/tokyo/grand-hyatt-tokyo",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the busy urban location may not suit those seeking tranquility.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
