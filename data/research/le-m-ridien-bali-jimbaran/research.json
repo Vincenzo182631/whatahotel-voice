@@ -1,0 +1,89 @@
+{
+  "slug": "le-m-ridien-bali-jimbaran",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Le Méridien Bali Jimbaran",
+      "city": "Bali",
+      "country": "ID",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Bali, ID)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/dpsmd-le-meridien-bali-jimbaran/overview/"
+    ],
+    "checked_at": "2026-10-29T05:22:01.753Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/dpsmd-le-meridien-bali-jimbaran/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/dpsmd-le-meridien-bali-jimbaran/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/dpsmd-le-meridien-bali-jimbaran/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T05:22:29.836Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/dpsmd-le-meridien-bali-jimbaran/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T05:22:34.441Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/dpsmd-le-meridien-bali-jimbaran/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T05:22:43.764Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/dpsmd-le-meridien-bali-jimbaran/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T05:22:46.286Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 4,
+    "chars": 30937,
+    "est_claude_tokens": 7734
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-29T05:22:53.861Z"
+}

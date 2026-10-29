@@ -1,0 +1,75 @@
+{
+  "slug": "le-royal-meridien-doha",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Le Royal Meridien Doha",
+      "city": "Doha",
+      "country": "QA",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Doha, QA)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/dohmd-le-royal-meridien-doha/reviews/"
+    ],
+    "checked_at": "2026-10-29T05:19:39.958Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/dohmd-le-royal-meridien-doha/reviews/",
+    "base_url": "https://www.marriott.com/en-us/hotels/dohmd-le-royal-meridien-doha/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/dohmd-le-royal-meridien-doha/reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T05:19:57.305Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/dohmd-le-royal-meridien-doha/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T05:20:07.163Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 5,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 2,
+    "chars": 4612,
+    "est_claude_tokens": 1153
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-29T05:20:13.178Z"
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "le-royal-meridien-shanghai",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Le Royal Meridien Shanghai",
+      "city": "Shanghai",
+      "country": "CN",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "75% of the hotel name appears on the page",
+      "location matches (Shanghai, CN)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/shalm-le-meridien-shanghai-minhang/overview/"
+    ],
+    "checked_at": "2026-10-29T05:20:05.738Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/shalm-le-meridien-shanghai-minhang/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/shalm-le-meridien-shanghai-minhang/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 0.75,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/shalm-le-meridien-shanghai-minhang/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T05:20:33.703Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/shalm-le-meridien-shanghai-minhang/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T05:20:37.410Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/shalm-le-meridien-shanghai-minhang/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-29T05:20:47.356Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 6,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 3,
+    "chars": 29384,
+    "est_claude_tokens": 7346
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-29T05:20:55.076Z"
+}
