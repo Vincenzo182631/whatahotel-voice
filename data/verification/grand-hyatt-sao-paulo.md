@@ -1,12 +1,8 @@
 # Verification checklist: Grand Hyatt Sao Paulo
 
-Checked 2026-10-29 against the hotel's own pages and Condé Nast Traveler. Result: **needs attention**.
+Checked 2026-10-29 against the hotel's own pages and Condé Nast Traveler. Result: **can be marked verified** (profile set to verified).
 
-Supported 18 · contradicted 1 · unverified 0 · WhataHotel's own statements 1 · total 20
-
-## Blockers
-
-- contradicted by a source: c-1
+Supported 18 · contradicted 0 · unverified 0 · WhataHotel's own statements 1 · total 19
 
 ## Pages checked
 
@@ -35,10 +31,9 @@ Supported 18 · contradicted 1 · unverified 0 · WhataHotel's own statements 1 
 | ✅ | **f-11** The hotel is pet friendly, with a pet park that has toys and a green area. | "Your canine companions are welcome at our pet-friendly São Paulo hotel. We provide a pet park with pet toys, a green area and ample space for your furry friends to run." (official, https://www.hyatt.com/grand-hyatt/en-US/saogh-grand-hyatt-sao-paulo) |
 | ✅ | **f-12** Congonhas Airport is 6 kilometers from the hotel. | "6 Kilometers" (official, https://www.hyatt.com/grand-hyatt/en-US/saogh-grand-hyatt-sao-paulo/hotel-info/) |
 | ✅ | **h-1** The Diplomatic Suite is a corner suite with floor-to-ceiling windows, a separate dining area and panoramic views of the Ponte Estaiada bridge. | "Spread out in an exclusive 109-square-meter corner suite with a plush king bed and floor-to-ceiling windows. Also enjoy a separate dining area and panoramic views of the Ponte Estaiada bridge." (official, https://www.hyatt.com/grand-hyatt/en-US/saogh-grand-hyatt-sao-paulo/rooms/) |
-| ✅ | **h-2** Some rooms offer unobstructed views of Sao Paulo's Estaiada Bridge. | "Take in unobstructed views of São Paulo’s famous Estaiada Bridge from this 37-square-meter room that features a plush queen bed, a dedicated workspace and a spacious closet." (official, https://www.hyatt.com/grand-hyatt/en-US/saogh-grand-hyatt-sao-paulo/rooms/) |
+| ✅ | **h-2** Some rooms offer unobstructed views of Sao Paulo's Estaiada Bridge. | "Take in unobstructed views of São Paulo’s famous Estaiada Bridge from this 37-square-meter room" (official, https://www.hyatt.com/grand-hyatt/en-US/saogh-grand-hyatt-sao-paulo/rooms/) |
 | ✅ | **h-3** The Grand Club Lounge is on the 20th floor, with high ceilings and city views, and offers club and suite guests complimentary continental breakfast, Wi-Fi, cocktails and appetizers. | "Located on the 20th floor, our exclusive Grand Club Lounge provides comfort and convenience for guests in our club and suite categories." (official, https://www.hyatt.com/grand-hyatt/en-US/saogh-grand-hyatt-sao-paulo) |
 | ✅ | **h-4** Amanary Spa has seven treatment rooms, a sauna, a climatized indoor pool and a cardio and strength studio. | "Our São Paulo hotel spa facility features seven treatment rooms, a sauna, a climatized indoor pool and a cardio and strength studio." (official, https://www.hyatt.com/grand-hyatt/en-US/saogh-grand-hyatt-sao-paulo) |
 | ✅ | **h-5** The climatized indoor and outdoor pool has bar service, and a series of waterfalls spill into it to cover traffic noise. | "Enhance your experience in São Paulo with amenities like a climatized indoor and outdoor pool, plus bar service perfect for sunny days." (official, https://www.hyatt.com/grand-hyatt/en-US/saogh-grand-hyatt-sao-paulo) |
-| ❌ | **c-1** The area is not one where you can walk out the front door and explore interesting shops or cafes; taxis or Ubers are necessary. | Source says: "Easy to walk to nearby restaurants and bars." (official, https://www.hyatt.com/grand-hyatt/en-US/saogh-grand-hyatt-sao-paulo/reviews/) |
 | ✅ | **c-2** The hotel has an attached event center with 17 meeting rooms and event spaces and a grand ballroom, so expect conference and group business. | "Discover 17 meeting rooms and event spaces with high ceilings and natural light, a grand ballroom that holds 1,200 attendees and extensive catering options at our dedicated event center attached to our São Paulo hotel." (official, https://www.hyatt.com/grand-hyatt/en-US/saogh-grand-hyatt-sao-paulo) |
 | ➖ | **c-3** WhataHotel notes premium pricing reflecting the luxury positioning and Sao Paulo's cosmopolitan market. | WhataHotel's own offer or statement |
