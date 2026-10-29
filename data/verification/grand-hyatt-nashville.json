@@ -1,0 +1,420 @@
+{
+  "hotel_slug": "grand-hyatt-nashville",
+  "hotel_name": "Grand Hyatt Nashville",
+  "checked_at": "2026-10-29T03:48:29.781Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/bnarn-grand-hyatt-nashville",
+      "tier": "official",
+      "chars": 14797
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/bnarn-grand-hyatt-nashville/rooms/",
+      "tier": "official",
+      "chars": 15974
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/bnarn-grand-hyatt-nashville/dining/",
+      "tier": "official",
+      "chars": 7729
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/bnarn-grand-hyatt-nashville/hotel-info/",
+      "tier": "official",
+      "chars": 2965
+    },
+    {
+      "id": "d5",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/bnarn-grand-hyatt-nashville/reviews/",
+      "tier": "official",
+      "chars": 26888
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/bnarn-grand-hyatt-nashville/parking-and-transportation/",
+      "tier": "official",
+      "chars": 3179
+    },
+    {
+      "id": "d7",
+      "url": "https://www.cntraveler.com/hotels/nashville/grand-hyatt-nashville",
+      "tier": "editorial",
+      "chars": 3318
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is at 1000 Broadway in downtown Nashville, near The Gulch and Midtown.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "1000 Broadway, Nashville, TN 37203, United States of America",
+          "note": "Address confirmed.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bnarn-grand-hyatt-nashville",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located near The Gulch and Midtown, our downtown hotel puts you close to a rich music scene",
+          "note": "Downtown location near The Gulch and Midtown confirmed.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bnarn-grand-hyatt-nashville",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is steps from shopping at The Gulch, events at The Pinnacle and entertainment at Fifth + Broadway.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "From shopping at The Gulch to events at The Pinnacle to immersive entertainment at Fifth + Broadway, you’ll be steps from it all while staying at Grand Hyatt Nashville.",
+          "note": "All three named attractions are covered.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bnarn-grand-hyatt-nashville",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Louisville and Nashville rail lines passed directly through the hotel's site for over a century.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Inspired by legendary Louisville & Nashville rail lines that passed directly through the site of the Grand Hyatt for over a century",
+          "note": "Rail line history confirmed.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bnarn-grand-hyatt-nashville/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Rooms and suites have hardwood floors and floor-to-ceiling windows.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our luxury rooms and suites feature gorgeous hardwood floors, floor-to-ceiling windows for plenty of natural light",
+          "note": "Both features confirmed for rooms and suites.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bnarn-grand-hyatt-nashville",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Rooms include blackout curtains and Balmain bath amenities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "a few luxurious touches, including blackout curtains and Balmain bath amenities",
+          "note": "Both amenities confirmed.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bnarn-grand-hyatt-nashville/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Suites offer more room and a separate living area.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Stay in a suite and enjoy more room and a separate living area.",
+          "note": "Suite features confirmed.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bnarn-grand-hyatt-nashville/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Grand Club Lounge on the Lobby Level has an outdoor terrace overlooking downtown and serves breakfast, all-day refreshments, evening hors d'oeuvres, and beer and wine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "the Grand Club Lounge, located on the Lobby Level",
+          "note": "Lounge location confirmed.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bnarn-grand-hyatt-nashville",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "a serene outdoor terrace overlooking the energy of downtown. Savor a curated selection of breakfast offerings, all-day refreshments, evening hors d’oeuvres, and premium beer and wine.",
+          "note": "Terrace and offerings confirmed.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bnarn-grand-hyatt-nashville",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The fitness center is open 24 hours, with weight equipment, cardio machines and three Pelotons.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Re-energize during your Nashville stay in our 24-hour fitness center, complete with weight equipment, cardio machines and three Pelotons",
+          "note": "All elements confirmed.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bnarn-grand-hyatt-nashville",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The Nashville Grange on the Lobby Level serves breakfast, lunch and dinner from a 'Tennessee to table' menu, with views of Broadway and Union Station.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Serving breakfast, lunch and dinner, The Nashville Grange is located on the Lobby Level and features incredible views of famed Broadway, nearby Union Station and the vibrant, surrounding city.",
+          "note": "Meals, location and views confirmed.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bnarn-grand-hyatt-nashville/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Our “Tennessee to table” menu offers only the highest quality ingredients",
+          "note": "Menu concept confirmed.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bnarn-grand-hyatt-nashville/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Le Petit Chef is an immersive culinary and dinner theater experience at the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Le Petit Chef, an immersive culinary adventure and dinner theater experience featuring regional and international delicacies.",
+          "note": "Confirmed.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bnarn-grand-hyatt-nashville",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel offers a premium single-barrel Tennessee whiskey tasting.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Embark on a sensory journey through the rich history of Tennessee's iconic spirit as you savor the complexities of premium single-barrel whiskey at Grand Hyatt Nashville.",
+          "note": "Listed under 'Experience an exclusive whiskey tasting'.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bnarn-grand-hyatt-nashville",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The hotel welcomes dogs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our hotel will only allow dogs in your room or suite.",
+          "note": "Under 'Pets Are Welcome'; dogs are allowed.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bnarn-grand-hyatt-nashville",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The rooftop venue lou/na is named for the Louisville and Nashville rail lines that once passed through the hotel's site, and has indoor and outdoor seating with views of Nashville.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Inspired by legendary Louisville & Nashville rail lines that passed directly through the site of the Grand Hyatt for over a century",
+          "note": "Name origin confirmed.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bnarn-grand-hyatt-nashville/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "this stunning rooftop venue that features indoor and outdoor seating, entertainment and breathtaking views of Nashville and beyond",
+          "note": "Rooftop, seating and views confirmed.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bnarn-grand-hyatt-nashville/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Gulch View rooms are on the upper floors and offer sunset views facing The Gulch.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Located on floors 16–22 of the hotel, this 360-square-foot room boasts one king bed, floor-to-ceiling windows, hardwood floors and sunset views facing The Gulch.",
+          "note": "Upper floors and sunset Gulch views confirmed.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bnarn-grand-hyatt-nashville/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The heated outdoor pool and sundeck on the fifth-floor Lifestyle Level have panoramic views of downtown Nashville.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Soak up the season with a swim in our heated outdoor pool or relax on the sundeck, where panoramic views of downtown Nashville set the scene.",
+          "note": "Heated pool, sundeck and views confirmed.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bnarn-grand-hyatt-nashville",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The pool and Solstice poolside restaurant are open seasonally from early spring through late October, weather permitting, on our 5th floor Lifestyle Level.",
+          "note": "Fifth-floor Lifestyle Level confirmed.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bnarn-grand-hyatt-nashville",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The R+R Wellness spa's name stands for Recharge and Replenish and pays homage to the Nashville Yards railroad region.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Paying homage to the culture of downtown’s Nashville Yards and railroad region, R+R stands for Recharge and Replenish.",
+          "note": "Confirmed.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bnarn-grand-hyatt-nashville",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The June Presidential Suite is on the top floor and looks out over the Nashville skyline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Enjoy the sweeping Nashville skyline in this 1,550-square-foot suite with spacious seating and dining areas and a bedroom with a king bed. Located on the top floor of the hotel, this is a premium suite.",
+          "note": "Top floor and skyline views confirmed.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bnarn-grand-hyatt-nashville/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The outdoor pool is open seasonally from early spring through late October, weather permitting.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The pool and Solstice poolside restaurant are open seasonally from early spring through late October, weather permitting",
+          "note": "Seasonal hours confirmed.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bnarn-grand-hyatt-nashville",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Grand Club Lounge access is for guests of Club Access rooms and suites and select World of Hyatt tiers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Access to the Grand Club Lounge is reserved exclusively for registered guests of Club Access rooms and suites, as well as select World of Hyatt tiers.",
+          "note": "Access rules confirmed.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bnarn-grand-hyatt-nashville",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the urban setting may bring typical downtown noise levels.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

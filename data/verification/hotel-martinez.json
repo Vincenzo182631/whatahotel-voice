@@ -1,0 +1,401 @@
+{
+  "hotel_slug": "hotel-martinez",
+  "hotel_name": "Hotel Martinez",
+  "checked_at": "2026-10-29T03:48:27.509Z",
+  "script_version": null,
+  "decision": {
+    "eligible": false,
+    "blockers": [
+      "contradicted by a source: f-7"
+    ],
+    "counts": {
+      "supported": 17,
+      "contradicted": 1,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 20
+    }
+  },
+  "applied": false,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/unbound-collection/en-US/jcagh-hotel-martinez/rooms",
+      "tier": "official",
+      "chars": 27267
+    },
+    {
+      "id": "d2",
+      "url": "https://www.cntraveler.com/hotels/cannes/grand-hyatt-cannes-h-tel-martinez",
+      "tier": "editorial",
+      "chars": 11086
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Hotel Martinez sits at the centre of La Croisette, the road that curves along the coastline of Cannes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "This is the centre of La Croisette—the road that curves along the coastline of Cannes",
+          "note": "The review places the hotel at the centre of La Croisette and describes the road as curving along the Cannes coastline.",
+          "url": "https://www.cntraveler.com/hotels/cannes/grand-hyatt-cannes-h-tel-martinez",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is about a 30-second walk from the sea.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "You’re about 30 seconds walk from the ocean here",
+          "note": "States the hotel is about a 30-second walk from the ocean.",
+          "url": "https://www.cntraveler.com/hotels/cannes/grand-hyatt-cannes-h-tel-martinez",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Emmanuel Michele Martinez bought the land in 1927 and first opened it as a hotel in 1929.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "the eponymous Emmanuel Michele Martinez, son of a baron, bought the land in 1927 and opened it as a hotel for the first time in 1929",
+          "note": "Both the 1927 land purchase and the 1929 first opening are stated.",
+          "url": "https://www.cntraveler.com/hotels/cannes/grand-hyatt-cannes-h-tel-martinez",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The rooms and suites are inspired by the hotel's 1930s Art Deco style and the colors of the French Riviera.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Inspired by the iconic Art Deco style of the Hôtel Martinez in the 1930's and the soothing colors of the French Riviera, our 410 rooms and suites are an ode to the iconic Riviera style.",
+          "note": "The official page names both the 1930s Art Deco style and the Riviera colours as inspirations.",
+          "url": "https://www.hyatt.com/unbound-collection/en-US/jcagh-hotel-martinez/rooms",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The rooms were designed by Paris-based designer Pierre-Yves Rochon in pale blue, white and gold.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "designer Pierre-Yves Rochon (the man behind",
+          "note": "Under 'The rooms', the designer is named as Paris-based Pierre-Yves Rochon.",
+          "url": "https://www.cntraveler.com/hotels/cannes/grand-hyatt-cannes-h-tel-martinez",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "in his hometown) leaned into. All is pale",
+          "note": "Confirms the Paris hometown and introduces the colour scheme.",
+          "url": "https://www.cntraveler.com/hotels/cannes/grand-hyatt-cannes-h-tel-martinez",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "and golden, without edging too close to nautical-kitsch.",
+          "note": "Completes the palette description: pale blue, white and golden.",
+          "url": "https://www.cntraveler.com/hotels/cannes/grand-hyatt-cannes-h-tel-martinez",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Premium Sea View rooms with balcony open onto an Art Deco columned balcony overlooking the Mediterranean.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Relax and unwind in this spacious 36 m² room opening onto a stunning Art Deco columned balcony overlooking the Mediterranean Sea.",
+          "note": "From the Premium Sea View with Balcony room description.",
+          "url": "https://www.hyatt.com/unbound-collection/en-US/jcagh-hotel-martinez/rooms",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Oasis Suite, in the heart of L'Oasis du Martinez, has a seating area set within a winter garden.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Enjoy your stay in the heart of L’Oasis du Martinez in our approximately 43 m² suite",
+          "note": "The Oasis Suite is located in the heart of L'Oasis du Martinez.",
+          "url": "https://www.hyatt.com/unbound-collection/en-US/jcagh-hotel-martinez/rooms",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The suite features a King-size bed, a cozy seating area nestled within a winter garden, a sofa bed, a Nespresso machine, and a rejuvenating rainfall shower.",
+          "note": "The suite description names a seating area within a winter garden.",
+          "url": "https://www.hyatt.com/unbound-collection/en-US/jcagh-hotel-martinez/rooms",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "contradicted",
+          "doc_id": "d1",
+          "quote": "Indoor garden (no sitting area)",
+          "note": "The Oasis Suite amenity list conflicts with its own description by saying the indoor garden has no sitting area.",
+          "url": "https://www.hyatt.com/unbound-collection/en-US/jcagh-hotel-martinez/rooms",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "contradicted",
+      "reason": "a source says something different"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Family Room connects a Junior Suite with a Premium city-view room and sleeps up to five guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "featuring a Junior Suite (45 m²) connected to a premium city-view room (38 m²), comfortably accommodating up to five guests",
+          "note": "Covers both the connected configuration and the five-guest capacity.",
+          "url": "https://www.hyatt.com/unbound-collection/en-US/jcagh-hotel-martinez/rooms",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The spa has a traditional hammam, plus a barber, a hairdresser and space for manicures and pedicures.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "there's a barber, a hairdresser, space for manicures and pedicures and a traditional hammam with deeply soothing tiles",
+          "note": "Every listed spa element is named.",
+          "url": "https://www.cntraveler.com/hotels/cannes/grand-hyatt-cannes-h-tel-martinez",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The Penthouse Apartments come with butler service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Exceptional Butler service",
+          "note": "Listed among the Penthouse Apartments amenities.",
+          "url": "https://www.hyatt.com/unbound-collection/en-US/jcagh-hotel-martinez/rooms",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "La Palme d'Or serves its menus overlooking the Bay of Cannes from floor-to-ceiling windows.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Here, one of four movements—vegetarian, subtle, pronounced, or progressive—is served overlooking the bay of Cannes from floor-to-ceiling windows that seemingly melt into the views.",
+          "note": "'Here' refers to La Palme d'Or, named in the preceding sentence.",
+          "url": "https://www.cntraveler.com/hotels/cannes/grand-hyatt-cannes-h-tel-martinez",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Room service is available 24 hours a day.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Room service available 24/7",
+          "note": "Listed in the amenities for every room type.",
+          "url": "https://www.hyatt.com/unbound-collection/en-US/jcagh-hotel-martinez/rooms",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "On the seventh floor, the Penthouse Apartments have cinema-inspired decor paying tribute to actress Isabelle Huppert and Cannes Film Festival General Delegate Thierry Fremaux, with 180-degree views over the Bay of Cannes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located on the seventh floor, the Penthouse Apartments unveil a cinematic inspired décor, paying tribute to Isabelle Huppert, renowned French actress, and Thierry Frémaux, General Delegate of the Cannes Film Festival.",
+          "note": "Covers the seventh floor, the cinematic décor and both people with their roles.",
+          "url": "https://www.hyatt.com/unbound-collection/en-US/jcagh-hotel-martinez/rooms",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Marvel at the breathtaking 180 degree views over the Bay of Cannes",
+          "note": "Covers the 180-degree views over the Bay of Cannes.",
+          "url": "https://www.hyatt.com/unbound-collection/en-US/jcagh-hotel-martinez/rooms",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Suite des Oliviers has a 250-square-meter private terrace with sea views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Choose this exclusive contemporary Art Deco suite spanning 130 m², featuring a vast 250 m² private terrace with breathtaking sea views.",
+          "note": "From the Suite des Oliviers description.",
+          "url": "https://www.hyatt.com/unbound-collection/en-US/jcagh-hotel-martinez/rooms",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "At L'Oasis, manicured gardens lead to a swimming lane, in an area designed as a tranquil refuge from the streets outside.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Manicured gardens lead to a swimming lane",
+          "note": "Found in the L'Oasis description.",
+          "url": "https://www.cntraveler.com/hotels/cannes/grand-hyatt-cannes-h-tel-martinez",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The whole area is designed as a tranquil refuge from the thrum of the streets outside",
+          "note": "Covers the tranquil-refuge element.",
+          "url": "https://www.cntraveler.com/hotels/cannes/grand-hyatt-cannes-h-tel-martinez",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The spa is run in partnership with the French brand Carita.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "in partnership with Carita, a French brand",
+          "note": "Refers to the spa.",
+          "url": "https://www.cntraveler.com/hotels/cannes/grand-hyatt-cannes-h-tel-martinez",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "La Plage du Martinez is the hotel's beach club.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "La Plage du Martinez, the hotel’s thrumming",
+          "note": "The sentence continues on the next line with 'beach club'.",
+          "url": "https://www.cntraveler.com/hotels/cannes/grand-hyatt-cannes-h-tel-martinez",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "beach club",
+          "note": "Completes the phrase 'the hotel's thrumming beach club'.",
+          "url": "https://www.cntraveler.com/hotels/cannes/grand-hyatt-cannes-h-tel-martinez",
+          "tier": "editorial",
+          "quote_verified": false
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Rooms at the back of the hotel overlook the gardens and pool rather than the sea.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Sea-facing windows let in that glimmering ocean light, but the rooms at the back of the hotel have just as pretty views over the recently manicured gardens and pool",
+          "note": "Back rooms are contrasted with sea-facing rooms and look over the gardens and pool.",
+          "url": "https://www.cntraveler.com/hotels/cannes/grand-hyatt-cannes-h-tel-martinez",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes premium luxury pricing that reflects the exclusive Cannes location.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the high-profile location attracts celebrity clientele and paparazzi.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
