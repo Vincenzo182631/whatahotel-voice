@@ -1,0 +1,392 @@
+{
+  "hotel_slug": "intercontinental-shanghai-puxi-hotel",
+  "hotel_name": "InterContinental Shanghai Puxi Hotel",
+  "checked_at": "2026-10-30T09:16:31.331Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 0,
+      "total": 18
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail",
+      "tier": "official",
+      "chars": 7736
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail/dining/",
+      "tier": "official",
+      "chars": 6391
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail/amenities/",
+      "tier": "official",
+      "chars": 5083
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail/directions/",
+      "tier": "official",
+      "chars": 2728
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail/local-area-guide/",
+      "tier": "official",
+      "chars": 2082
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail/rooms/",
+      "tier": "official",
+      "chars": 20
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail/",
+      "tier": "official",
+      "chars": 7736
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail/hotel-reviews/",
+      "tier": "official",
+      "chars": 828
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is at No. 500 Heng Feng Road in Shanghai's Jing An District.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "No. 500 Heng Feng Road, Jing An District Shanghai, SH 200070 Mainland China",
+          "note": "address",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail/directions/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Nearby public transportation includes Shanghai Railway Station, served by Metro Lines 1, 3 and 4.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Shanghai Railway Station, Metro Line 1/3/4/",
+          "note": "station and metro lines",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail/directions/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The spa offers steam bathing.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Steam Bathing",
+          "note": "spa amenity",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The indoor pool includes a whirlpool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Pool includes: Whirlpool",
+          "note": "pool feature",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The fitness center has an onsite sports trainer.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Onsite sports trainer",
+          "note": "fitness center",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Accommodations include One Bedroom Suites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "One Bedroom Suite",
+          "note": "room type listed",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Connecting rooms are available.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Connecting rooms available",
+          "note": "convenience",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel has seven restaurants and bars, including Jade Chinese Restaurant, Ecco, Treasure Shabu, Sichuan Spice, Koi, The Avenue and Breeze Garden.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "with seven distinct restaurants and bars including Jade Chinese Restaurant, Ecco all-day dining restaurant, Treasure Shabu, Sichuan Spice, Koi Japanese restaurant, the Avenue, and Breeze Garden.",
+          "note": "all seven named",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The hotel has many meeting spaces.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "or host a memorable event at one of our many meeting spaces.",
+          "note": "meeting spaces",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "KOI serves Japanese cuisine from the Chubu and Kanto regions, alongside teppanyaki.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "KOI is celebrated for authentic Japanese cuisine from the Chubu and Kanto regions, alongside exquisite teppanyaki offerings.",
+          "note": "KOI cuisine",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel's wedding planning team customizes weddings, menus and decorations.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our exclusive wedding planning team will customize your personalized wedding, tantalizing menu and creative decorations.",
+          "note": "wedding team",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Breeze Garden has a glass-panelled, semi-open design that captures daylight by day and the city skyline by night.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "With its glass-panelled and semi-open design, it captures soft daylight by day and the city’s glittering skyline by night.",
+          "note": "design",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The hotel is in downtown Shanghai, close to West Nanjing Road, People's Square, Jing'An Temple and Shanghai Railway Station.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "InterContinental Shanghai Jing'An is located in Shanghai downtown, close to West Nanjing Road, People’s Square, Jing’An Temple, Shanghai Railway Station, and near public transportation.",
+          "note": "location",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Guests can relax in the spa and swim in the heated indoor pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Relax in the spa, swim in the indoor pool",
+          "note": "spa and indoor pool",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Water type: Heated pool",
+          "note": "heated",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The concierge team can create a custom Shanghai itinerary.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Explore the top Shanghai destinations or let our concierge team create your custom itinerary.",
+          "note": "concierge",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Shanghai Hongqiao International Airport is about 25 kilometers from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "approximately 15.53 miles away (25 kilometers) from the hotel",
+          "note": "Hongqiao distance; same sentence names SHA",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Pets are not allowed.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "No pets allowed",
+          "note": "pet policy",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "The hotel is smoke-free.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Smoke-free hotel",
+          "note": "feature",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}
