@@ -1,10 +1,8 @@
 {
   "slug": "intercontinental-singapore-robertson-quay",
-  "status": "needs_review",
+  "status": "ready",
   "partial": false,
-  "reasons": [
-    "several InterContinental properties match \"InterContinental Singapore Robertson Quay\" in Singapore (https://www.ihg.com/intercontinental/hotels/us/en/singapore/sinic/, https://www.ihg.com/intercontinental/hotels/gb/en/singapore/sinic/); confirm with --official-url"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "InterContinental Singapore Robertson Quay",
@@ -16,27 +14,98 @@
       "kind": "chain",
       "chain": "intercontinental"
     },
-    "evidence": [],
-    "reasons": [
-      "several InterContinental properties match \"InterContinental Singapore Robertson Quay\" in Singapore (https://www.ihg.com/intercontinental/hotels/us/en/singapore/sinic/, https://www.ihg.com/intercontinental/hotels/gb/en/singapore/sinic/); confirm with --official-url"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Singapore, SG)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://www.ihg.com/intercontinental/hotels/us/en/singapore/sinic/",
-      "https://www.ihg.com/intercontinental/hotels/gb/en/singapore/sinic/"
+      "https://www.ihg.com/intercontinental/hotels/us/en/singapore/sinic/hoteldetail"
     ],
-    "checked_at": "2026-10-30T06:16:55.601Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-30T06:36:34.983Z",
+    "status": "confirmed",
+    "official_url": "https://www.ihg.com/intercontinental/hotels/us/en/singapore/sinic/hoteldetail",
+    "base_url": "https://www.ihg.com/intercontinental/hotels/us/en/singapore/sinic/",
+    "host": "ihg.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/singapore/sinic/hoteldetail",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:36:39.872Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/singapore/sinic/hoteldetail/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:36:47.840Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/singapore/sinic/hoteldetail/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:36:51.845Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/singapore/sinic/hoteldetail/amenities/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:36:55.862Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/singapore/sinic/hoteldetail/directions/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:36:59.855Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/singapore/sinic/hoteldetail/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:37:03.916Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/singapore/sinic/hoteldetail/hotel-reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:37:08.072Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/singapore/sinic/hoteldetail/local-area-guide/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:37:11.921Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.cntraveler.com/hotels/singapore/intercontinental-robertson-quay",
+      "tier": "editorial",
+      "fetched_at": "2026-10-30T06:37:23.449Z",
+      "source": "direct"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 2,
-    "firecrawl_searches": 2,
+    "firecrawl_calls": 11,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 9,
+    "chars": 66941,
+    "est_claude_tokens": 16735
   },
   "limits": {
     "maxPages": 12,
@@ -44,5 +113,205 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-30T06:17:05.886Z"
+  "researched_at": "2026-10-30T06:37:23.449Z",
+  "hotel": {
+    "name": "InterContinental Singapore Robertson Quay",
+    "city": "Singapore",
+    "country": "SG",
+    "chain": "intercontinental",
+    "confirmed_affiliation": {
+      "kind": "chain",
+      "chain": "intercontinental"
+    }
+  },
+  "official_url": "https://www.ihg.com/intercontinental/hotels/us/en/singapore/sinic/hoteldetail",
+  "verified_facts": [
+    {
+      "id": "r-1",
+      "category": "location",
+      "text": "The hotel sits along the Singapore River in the Robertson Quay district.",
+      "source_url": "https://www.ihg.com/intercontinental/hotels/us/en/singapore/sinic/hoteldetail",
+      "source_tier": "official",
+      "excerpt": "Nestled along the Singapore River in the vibrant Robertson Quay district"
+    },
+    {
+      "id": "r-2",
+      "category": "location",
+      "text": "Orchard Road, Marina Bay and the CBD are moments away from the hotel.",
+      "source_url": "https://www.ihg.com/intercontinental/hotels/us/en/singapore/sinic/hoteldetail",
+      "source_tier": "official",
+      "excerpt": "with Orchard Road, Marina Bay, and the CBD just moments away"
+    },
+    {
+      "id": "r-3",
+      "category": "location",
+      "text": "The hotel is at 1 Nanson Road, Singapore.",
+      "source_url": "https://www.ihg.com/intercontinental/hotels/us/en/singapore/sinic/hoteldetail/directions/",
+      "source_tier": "official",
+      "excerpt": "1 Nanson Road Singapore, 238909 Singapore"
+    },
+    {
+      "id": "r-4",
+      "category": "practical",
+      "text": "Fort Canning MRT Station is listed as the hotel's public transportation option.",
+      "source_url": "https://www.ihg.com/intercontinental/hotels/us/en/singapore/sinic/hoteldetail/directions/",
+      "source_tier": "official",
+      "excerpt": "- Fort Canning MRT Station"
+    },
+    {
+      "id": "r-5",
+      "category": "location",
+      "text": "Fort Canning Park is about 2 kilometers from the hotel.",
+      "source_url": "https://www.ihg.com/intercontinental/hotels/us/en/singapore/sinic/hoteldetail",
+      "source_tier": "official",
+      "excerpt": "Fort Canning Park - 1.24 miles away (2 kilometers)"
+    },
+    {
+      "id": "r-6",
+      "category": "rooms",
+      "text": "The light-filled studios and suites blend elegance with a warm, residential feel.",
+      "source_url": "https://www.ihg.com/intercontinental/hotels/us/en/singapore/sinic/hoteldetail/rooms/",
+      "source_tier": "official",
+      "excerpt": "Blending elegance with a warm, residential feel, each room is designed for a modern city stay"
+    },
+    {
+      "id": "r-7",
+      "category": "rooms",
+      "text": "Rooms have floor-to-ceiling windows.",
+      "source_url": "https://www.cntraveler.com/hotels/singapore/intercontinental-robertson-quay",
+      "source_tier": "editorial",
+      "excerpt": "the floor-to-ceiling windows give them a more spacious feel"
+    },
+    {
+      "id": "r-8",
+      "category": "rooms",
+      "text": "Club InterContinental gives access to a private lounge overlooking Robertson Quay.",
+      "source_url": "https://www.ihg.com/intercontinental/hotels/us/en/singapore/sinic/hoteldetail",
+      "source_tier": "official",
+      "excerpt": "Club InterContinental, offering personalised service, exclusive privileges and access to our private lounge overlooking Robertson Quay"
+    },
+    {
+      "id": "r-9",
+      "category": "amenities",
+      "text": "The outdoor swimming pool is on the 4th floor.",
+      "source_url": "https://www.ihg.com/intercontinental/hotels/us/en/singapore/sinic/hoteldetail/amenities/",
+      "source_tier": "official",
+      "excerpt": "The Swimming Pool is located on the 4th Floor."
+    },
+    {
+      "id": "r-10",
+      "category": "experiences",
+      "text": "Complimentary Tokyo Bikes are available for exploring Robertson Quay, the Singapore River and neighbourhoods beyond.",
+      "source_url": "https://www.ihg.com/intercontinental/hotels/us/en/singapore/sinic/hoteldetail",
+      "source_tier": "official",
+      "excerpt": "Our complimentary Tokyo Bikes offer an easy way to explore Robertson Quay, the Singapore River and neighbourhoods beyond."
+    },
+    {
+      "id": "r-11",
+      "category": "experiences",
+      "text": "The Quay Insider program helps guests discover Robertson Quay through a local lens.",
+      "source_url": "https://www.ihg.com/intercontinental/hotels/us/en/singapore/sinic/hoteldetail/local-area-guide/",
+      "source_tier": "official",
+      "excerpt": "Discover Robertson Quay through a local lens with The Quay Insider."
+    },
+    {
+      "id": "r-12",
+      "category": "experiences",
+      "text": "The Concierge team gives personalised recommendations showcasing the riverfront neighbourhood.",
+      "source_url": "https://www.ihg.com/intercontinental/hotels/us/en/singapore/sinic/hoteldetail/local-area-guide/",
+      "source_tier": "official",
+      "excerpt": "personalised recommendations from our Concierge team that showcase our riverfront neighbourhood and beyond"
+    },
+    {
+      "id": "r-13",
+      "category": "experiences",
+      "text": "The riverfront area next to the hotel is a popular running route.",
+      "source_url": "https://www.cntraveler.com/hotels/singapore/intercontinental-robertson-quay",
+      "source_tier": "editorial",
+      "excerpt": "the riverfront area next to the hotel is a lovely (and popular) route for a run"
+    },
+    {
+      "id": "r-14",
+      "category": "location",
+      "text": "The hotel is in a lively food precinct with restaurants and bars at the doorstep.",
+      "source_url": "https://www.cntraveler.com/hotels/singapore/intercontinental-robertson-quay",
+      "source_tier": "editorial",
+      "excerpt": "Being smack-dab in a lively food precinct, with some of the city's coolest restaurants and bars at your doorstep."
+    },
+    {
+      "id": "r-15",
+      "category": "dining",
+      "text": "Publico Ristorante & Garden serves wood-fired pizzas and house-made pastas by the Singapore River.",
+      "source_url": "https://www.ihg.com/intercontinental/hotels/us/en/singapore/sinic/hoteldetail",
+      "source_tier": "official",
+      "excerpt": "Experience a slice of Italy by the Singapore River at Publico Ristorante & Garden, with wood-fired pizzas, house-made pastas"
+    },
+    {
+      "id": "r-16",
+      "category": "dining",
+      "text": "Ishi, on the second floor, serves Japanese fine dining at a sushi counter.",
+      "source_url": "https://www.ihg.com/intercontinental/hotels/us/en/singapore/sinic/hoteldetail/dining/",
+      "source_tier": "official",
+      "excerpt": "Perched on the second floor of the hotel, Ishi, loosely translated as \"Stone\", presents Japanese fine dining over an elegant sushi counter."
+    },
+    {
+      "id": "r-17",
+      "category": "dining",
+      "text": "CODA is an intimate cocktail bar where Asian spirits take centre stage.",
+      "source_url": "https://www.ihg.com/intercontinental/hotels/us/en/singapore/sinic/hoteldetail/dining/",
+      "source_tier": "official",
+      "excerpt": "An intimate 15 seat avant garde cocktail bar, CODA immerses guests in a world of meticulously crafted cocktails, where Asian spirits take centre stage"
+    },
+    {
+      "id": "r-18",
+      "category": "practical",
+      "text": "The hotel has a third-party GSTC sustainability certification.",
+      "source_url": "https://www.ihg.com/intercontinental/hotels/us/en/singapore/sinic/hoteldetail/amenities/",
+      "source_tier": "official",
+      "excerpt": "Certifications: Achieved GSTC Certification"
+    },
+    {
+      "id": "r-20",
+      "category": "rooms",
+      "text": "Rooms can be smaller than expected.",
+      "source_url": "https://www.cntraveler.com/hotels/singapore/intercontinental-robertson-quay",
+      "source_tier": "editorial",
+      "excerpt": "Heartbreaking: Rooms can be smaller than expected."
+    },
+    {
+      "id": "r-21",
+      "category": "amenities",
+      "text": "The gym is small.",
+      "source_url": "https://www.cntraveler.com/hotels/singapore/intercontinental-robertson-quay",
+      "source_tier": "editorial",
+      "excerpt": "small gym but the riverfront area"
+    },
+    {
+      "id": "r-22",
+      "category": "practical",
+      "text": "The hotel is smoke-free.",
+      "source_url": "https://www.ihg.com/intercontinental/hotels/us/en/singapore/sinic/hoteldetail/amenities/",
+      "source_tier": "official",
+      "excerpt": "- Smoke-free hotel"
+    }
+  ],
+  "highlights": [
+    "r-1",
+    "r-8",
+    "r-10",
+    "r-11",
+    "r-7",
+    "r-9",
+    "r-13"
+  ],
+  "subjective": [
+    {
+      "id": "r-19",
+      "text": "Only guide dogs or assistance dogs are allowed; other pets are not.",
+      "reason": "promotional wording; rewrite as a plain fact or leave out"
+    }
+  ],
+  "unresolved": [],
+  "rejected": [],
+  "contradictions": []
 }
