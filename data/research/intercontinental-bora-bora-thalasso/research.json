@@ -1,0 +1,75 @@
+{
+  "slug": "intercontinental-bora-bora-thalasso",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "InterContinental Bora Bora & Thalasso",
+      "city": "Bora Bora",
+      "country": "PF",
+      "chain": "intercontinental"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "intercontinental"
+    },
+    "evidence": [
+      "75% of the hotel name appears on the page",
+      "location matches (Bora Bora, PF)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.ihg.com/intercontinental/hotels/ae/ar/bora-bora/bobhb/hoteldetail/directions"
+    ],
+    "checked_at": "2026-10-30T06:19:55.165Z",
+    "status": "confirmed",
+    "official_url": "https://www.ihg.com/intercontinental/hotels/ae/ar/bora-bora/bobhb/hoteldetail/directions",
+    "base_url": "https://www.ihg.com/intercontinental/hotels/ae/ar/bora-bora/bobhb/",
+    "host": "ihg.com",
+    "checks": {
+      "name_coverage": 0.75,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.ihg.com/intercontinental/hotels/ae/ar/bora-bora/bobhb/hoteldetail/directions",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:20:08.973Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.cntraveler.com/hotels/french-polynesia/anau/intercontinental-bora-bora-resort-thalasso-spa",
+      "tier": "editorial",
+      "fetched_at": "2026-10-30T06:20:17.596Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.ihg.com/intercontinental/hotels/ae/ar/bora-bora/bobhb/",
+      "reason": "no same-property sub-page links found on the home page"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 4,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 2,
+    "chars": 26775,
+    "est_claude_tokens": 6694
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-30T06:20:17.596Z"
+}

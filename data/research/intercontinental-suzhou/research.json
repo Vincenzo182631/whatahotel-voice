@@ -1,0 +1,117 @@
+{
+  "slug": "intercontinental-suzhou",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "InterContinental Suzhou",
+      "city": "Suzhou",
+      "country": "CN",
+      "chain": "intercontinental"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "intercontinental"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Suzhou, CN)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail"
+    ],
+    "checked_at": "2026-10-30T06:18:05.242Z",
+    "status": "confirmed",
+    "official_url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail",
+    "base_url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/",
+    "host": "ihg.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:18:28.916Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:18:42.889Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:18:53.692Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail/amenities/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:18:59.616Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail/directions/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:19:25.358Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:19:25.649Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail/hotel-reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:19:34.639Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail/local-area-guide/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:19:43.798Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 11,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 8,
+    "chars": 52927,
+    "est_claude_tokens": 13232
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-30T06:19:48.431Z"
+}

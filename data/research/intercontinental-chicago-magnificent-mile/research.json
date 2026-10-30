@@ -1,0 +1,118 @@
+{
+  "slug": "intercontinental-chicago-magnificent-mile",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "InterContinental Chicago Magnificent Mile",
+      "city": "Chicago",
+      "country": "US",
+      "chain": "intercontinental"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "intercontinental"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Chicago, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.ihg.com/chicago-illinois/hotels-near-magnificent-mile",
+      "https://www.ihg.com/intercontinental/hotels/us/en/chicago/ordha/hoteldetail"
+    ],
+    "checked_at": "2026-10-30T06:19:56.296Z",
+    "status": "confirmed",
+    "official_url": "https://www.ihg.com/intercontinental/hotels/us/en/chicago/ordha/hoteldetail",
+    "base_url": "https://www.ihg.com/intercontinental/hotels/us/en/chicago/ordha/",
+    "host": "ihg.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/chicago/ordha/hoteldetail",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:20:12.389Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/chicago/ordha/hoteldetail/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:20:15.973Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/chicago/ordha/hoteldetail/amenities/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:20:24.698Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/chicago/ordha/hoteldetail/directions/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:20:28.071Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/chicago/ordha/hoteldetail/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:20:29.046Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/chicago/ordha/hoteldetail/hotel-reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:20:37.908Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/chicago/ordha/hoteldetail/local-area-guide/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:20:42.190Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.cntraveler.com/hotels/united-states/chicago/intercontinental-chicago-magnificent-mile",
+      "tier": "editorial",
+      "fetched_at": "2026-10-30T06:20:48.375Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/chicago/ordha/hoteldetail/dining/",
+      "reason": "Firecrawl 502 for https://www.ihg.com/intercontinental/hotels/us/en/chicago/ordha/hoteldetail/dining/: no data returned"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 12,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 8,
+    "chars": 83518,
+    "est_claude_tokens": 20880
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-30T06:20:48.375Z"
+}
