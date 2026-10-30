@@ -1,0 +1,425 @@
+{
+  "hotel_slug": "the-willard-intercontinental",
+  "hotel_name": "The Willard InterContinental",
+  "checked_at": "2026-10-30T07:01:20.607Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/washington/washa/hoteldetail",
+      "tier": "official",
+      "chars": 12049
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/washington/washa/hoteldetail/rooms/",
+      "tier": "official",
+      "chars": 5721
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/washington/washa/hoteldetail/dining/",
+      "tier": "official",
+      "chars": 7185
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/washington/washa/hoteldetail/directions/",
+      "tier": "official",
+      "chars": 3246
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/washington/washa/hoteldetail/local-area-guide/",
+      "tier": "official",
+      "chars": 5868
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/washington/washa/hoteldetail/amenities/",
+      "tier": "official",
+      "chars": 7252
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/washington/washa/hoteldetail/",
+      "tier": "official",
+      "chars": 12049
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/washington/washa/hoteldetail/hotel-reviews/",
+      "tier": "official",
+      "chars": 23630
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is at 1401 Pennsylvania Avenue NW in Washington, D.C.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "1401 Pennsylvania Ave Nw Washington, DC 20004 United States",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/washington/washa/hoteldetail/directions/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is within walking distance of many monuments, memorials and museums, including the National Mall and the White House.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Willard is walking distance to many iconic monuments, memorials and museums, including the National Mall and The White House",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/washington/washa/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The U.S. Capitol Building can be seen from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The U.S. Capitol Building seen from The Willard.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/washington/washa/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel combines American history and luxury.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "combines American history and luxury",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/washington/washa/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Classic Rooms are designed to feel like an elegant private residence.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Guests experience the welcoming hospitality and comfort of an elegant private residence in our sophisticated and spacious Classic Rooms",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/washington/washa/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Classic Rooms have a walk-in marble shower or a shower with bathtub.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "a walk-in marble shower or shower with bathtub",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/washington/washa/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The hotel has an Abraham Lincoln Suite.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "### Abraham Lincoln Suite",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/washington/washa/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel has a Martin Luther King Jr. Suite, which may include a Washington Monument view.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Martin Luther King Jr. Suite may include:\n\n- Washington Monument View",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/washington/washa/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The Round Robin Bar is known for its circular bar, oak-paneled walls and the Mint Julep.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Famous for its circular bar, oak paneled walls, and the Mint Julep",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/washington/washa/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Afternoon Tea in Peacock Alley comes with harp music, teas, finger sandwiches, pastries and freshly baked scones.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "At the newly-reimagined Peacock Alley of Willard InterContinental Washington, D.C., guests are treated to the soothing sounds of the harp while enjoying a delightful selection of teas, savory finger sandwiches, decadent pastries",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/washington/washa/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "and Willard's famous freshly-baked scones",
+          "note": "scones",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/washington/washa/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The Willard Spa has a sauna and steam bathing.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "#### The Willard Spa",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/washington/washa/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "- Masseuse\n  - Sauna\n  - Steam Bathing",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/washington/washa/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Old Town Trolley tours depart from just outside the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "They depart from just outside Willard InterContinental Washington, D.C. every 15 to 20 minutes",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/washington/washa/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Round Robin Bar has been a meeting place for the political and social elite since it was established in 1847.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "has been a lively meeting place for the political and social elite since it was established in 1847",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/washington/washa/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Rooms and suites honor figures from pioneering women to U.S. presidents through bespoke design, curated art and refined details.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "honoring legendary figures – from pioneering women to U.S. presidents – through bespoke design, curated art, and refined details",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/washington/washa/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The hotel stands steps from the White House, surrounded by historic monuments and museums.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "standing steps away from The White House and surrounded by historical monuments and world-renowned museums",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/washington/washa/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Premium Rooms may include a Washington Monument view.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Premium Rooms may include:\n\n- Washington Monument View",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/washington/washa/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Willard Spa offers custom massages and restorative skin treatments.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Escape to a revitalizing oasis at The Willard Spa and soothe your restless spirit with a custom massage or restorative skin treatment",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/washington/washa/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel does not have a pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "No, InterContinental The Willard Washington D.C. does not have a pool.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/washington/washa/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The minimum check-in age is 21.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "**Minimum check-in age:** 21",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/washington/washa/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes a busy downtown location with urban noise levels.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
