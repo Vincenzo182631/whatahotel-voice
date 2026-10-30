@@ -1,10 +1,9 @@
 {
   "slug": "intercontinental-shanghai-puxi-hotel",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
   "reasons": [
-    "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail: only 67% of the hotel name appears on the page",
-    "official website could not be confirmed; flag for review"
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
   ],
   "identity": {
     "hotel": {
@@ -17,27 +16,96 @@
       "kind": "chain",
       "chain": "intercontinental"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail: only 67% of the hotel name appears on the page",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "location matches (Shanghai, CN)",
+      "confirmed by hand as this hotel's own page (only 67% of the hotel name appears on the page)"
     ],
+    "reasons": [],
     "candidates": [
       "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail"
     ],
-    "checked_at": "2026-10-30T07:27:58.486Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-30T07:32:41.558Z",
+    "status": "confirmed",
+    "official_url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail",
+    "base_url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/",
+    "host": "ihg.com",
+    "checks": {
+      "name_coverage": 0.67,
+      "location_match": true
+    }
   },
-  "pages": [],
-  "inaccessible": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail",
+      "tier": "official",
+      "fetched_at": "2026-10-30T07:32:46.278Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T07:33:05.218Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T07:33:26.226Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail/amenities/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T07:33:29.057Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail/directions/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T07:33:34.602Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T07:33:34.858Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail/hotel-reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T07:33:49.466Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgzd/hoteldetail/local-area-guide/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T07:33:53.500Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
   "usage": {
-    "firecrawl_calls": 1,
-    "firecrawl_searches": 0,
+    "firecrawl_calls": 11,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 8,
+    "chars": 32604,
+    "est_claude_tokens": 8151
   },
   "limits": {
     "maxPages": 12,
@@ -45,5 +113,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-30T07:28:09.648Z"
+  "researched_at": "2026-10-30T07:33:58.478Z"
 }
