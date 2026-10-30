@@ -128,6 +128,19 @@ export const CHAINS: Chain[] = [
     },
   },
   {
+    id: "intercontinental",
+    name: "InterContinental",
+    match: /intercontinental/i,
+    domains: ["ihg.com"],
+    // ihg.com/intercontinental/hotels/us/en/<city>/<code>/hoteldetail -> .../hotels/us/en/<city>/<code>/
+    base: (u) => {
+      const s = seg(u);
+      const i = s.indexOf("hotels");
+      if (i >= 0 && s.length >= i + 5 && /^[a-z]{2}$/i.test(s[i + 1] ?? "") && /^[a-z]{2}$/i.test(s[i + 2] ?? "")) return `${u.origin}/${s.slice(0, i + 5).join("/")}/`;
+      return undefined;
+    },
+  },
+  {
     id: "regent",
     name: "Regent",
     match: /\bregent\b/i,
