@@ -1,0 +1,76 @@
+{
+  "slug": "intercontinental-new-york-barclay",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "InterContinental New York Barclay",
+      "city": "New York",
+      "country": "US",
+      "chain": "intercontinental"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "intercontinental"
+    },
+    "evidence": [
+      "75% of the hotel name appears on the page",
+      "location matches (New York, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.ihg.com/intercontinental/hotels/us/en/new-york/nycha/hoteldetail",
+      "https://www.ihg.com/intercontinental/hotels/us/en/new-york/nycha/hoteldetail/hotel-reviews"
+    ],
+    "checked_at": "2026-10-30T06:16:48.359Z",
+    "status": "confirmed",
+    "official_url": "https://www.ihg.com/intercontinental/hotels/us/en/new-york/nycha/hoteldetail/hotel-reviews",
+    "base_url": "https://www.ihg.com/intercontinental/hotels/us/en/new-york/nycha/",
+    "host": "ihg.com",
+    "checks": {
+      "name_coverage": 0.75,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/new-york/nycha/hoteldetail/hotel-reviews",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:18:07.896Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/new-york/nycha/hoteldetail/hotel-reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:18:18.583Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.cntraveler.com/hotels/new-york/intercontinental-new-york-barclay",
+      "tier": "editorial",
+      "fetched_at": "2026-10-30T06:18:20.126Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 6,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 3,
+    "chars": 29230,
+    "est_claude_tokens": 7308
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-30T06:18:20.126Z"
+}
