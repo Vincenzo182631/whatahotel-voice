@@ -1,10 +1,8 @@
 {
   "slug": "intercontinental-san-francisco",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "several InterContinental properties match \"InterContinental San Francisco\" in San Francisco (https://www.ihg.com/intercontinental/hotels/us/en/san-francisco/sfohb/, https://www.ihg.com/intercontinental/hotels/us/en/san-francisco/sfoha/); confirm with --official-url"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "InterContinental San Francisco",
@@ -16,27 +14,98 @@
       "kind": "chain",
       "chain": "intercontinental"
     },
-    "evidence": [],
-    "reasons": [
-      "several InterContinental properties match \"InterContinental San Francisco\" in San Francisco (https://www.ihg.com/intercontinental/hotels/us/en/san-francisco/sfohb/, https://www.ihg.com/intercontinental/hotels/us/en/san-francisco/sfoha/); confirm with --official-url"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (San Francisco, US)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://www.ihg.com/intercontinental/hotels/us/en/san-francisco/sfohb/",
-      "https://www.ihg.com/intercontinental/hotels/us/en/san-francisco/sfoha/"
+      "https://www.ihg.com/intercontinental/hotels/us/en/san-francisco/sfohb/hoteldetail"
     ],
-    "checked_at": "2026-10-30T06:18:21.268Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-30T06:28:49.830Z",
+    "status": "confirmed",
+    "official_url": "https://www.ihg.com/intercontinental/hotels/us/en/san-francisco/sfohb/hoteldetail",
+    "base_url": "https://www.ihg.com/intercontinental/hotels/us/en/san-francisco/sfohb/",
+    "host": "ihg.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/san-francisco/sfohb/hoteldetail",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:29:21.656Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/san-francisco/sfohb/hoteldetail/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:29:36.000Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/san-francisco/sfohb/hoteldetail/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:29:38.963Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/san-francisco/sfohb/hoteldetail/amenities/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:29:47.550Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/san-francisco/sfohb/hoteldetail/directions/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:29:51.129Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/san-francisco/sfohb/hoteldetail/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:29:51.816Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/san-francisco/sfohb/hoteldetail/hotel-reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:30:00.104Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/san-francisco/sfohb/hoteldetail/local-area-guide/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:30:03.328Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.cntraveler.com/hotels/united-states/san-francisco/intercontinental-san-francisco",
+      "tier": "editorial",
+      "fetched_at": "2026-10-30T06:30:12.112Z",
+      "source": "direct"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 2,
-    "firecrawl_searches": 2,
+    "firecrawl_calls": 11,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 9,
+    "chars": 87378,
+    "est_claude_tokens": 21845
   },
   "limits": {
     "maxPages": 12,
@@ -44,5 +113,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-30T06:18:26.650Z"
+  "researched_at": "2026-10-30T06:30:12.112Z"
 }
