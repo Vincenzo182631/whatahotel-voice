@@ -1,0 +1,410 @@
+{
+  "hotel_slug": "intercontinental-bordeaux-le-grand-hotel",
+  "hotel_name": "Intercontinental Bordeaux Le Grand Hotel",
+  "checked_at": "2026-10-30T06:33:10.106Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 0,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/bordeaux/bodha/hoteldetail",
+      "tier": "official",
+      "chars": 10815
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/bordeaux/bodha/hoteldetail/rooms/",
+      "tier": "official",
+      "chars": 3909
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/bordeaux/bodha/hoteldetail/dining/",
+      "tier": "official",
+      "chars": 6625
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/bordeaux/bodha/hoteldetail/amenities/",
+      "tier": "official",
+      "chars": 6699
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/bordeaux/bodha/hoteldetail/directions/",
+      "tier": "official",
+      "chars": 2766
+    },
+    {
+      "id": "d6",
+      "url": "https://www.cntraveler.com/hotels/france/bordeaux/grand-hotel-de-bordeaux---spa",
+      "tier": "editorial",
+      "chars": 4211
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/bordeaux/bodha/hoteldetail/",
+      "tier": "official",
+      "chars": 10815
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/bordeaux/bodha/hoteldetail/hotel-reviews/",
+      "tier": "official",
+      "chars": 23097
+    },
+    {
+      "id": "d9",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/bordeaux/bodha/hoteldetail/local-area-guide/",
+      "tier": "official",
+      "chars": 4331
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is at 2 Place de la Comédie in Bordeaux.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "2 Place de la Comédie Bordeaux, 33000 France",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/bordeaux/bodha/hoteldetail/directions/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "For more than 200 years, the Grand Hotel de Bordeaux has been a luxury hotel in the heart of Bordeaux.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "For more than 200 years, the Grand Hotel de Bordeaux has been the doorway to luxury travel in the heart of Bordeaux.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/bordeaux/bodha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Rooms and suites are inspired by the eighteenth century and have modern amenities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Discover elegant rooms and suites inspired by the eighteenth century, featuring state-of-the-art modern amenities.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/bordeaux/bodha/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel has an indoor pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "InterContinental Bordeaux - Le Grand Hotel has 1 indoor pool.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/bordeaux/bodha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Between treatments, guests can have fruit, tea or other drinks in the spa's tea room or, weather permitting, on a terrace with a panoramic view of Bordeaux.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Enjoy fruits, tea, or other beverages in the Spa’s tea room between treatments or, weather permitting, on the terrace offering a panoramic view of Bordeaux.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/bordeaux/bodha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "At Le Pressoir d'Argent, the menu is crafted by chef Gordon Ramsay using seasonal ingredients.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The menu is crafted by top chef Gordon Ramsay using the best seasonal ingredients",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/bordeaux/bodha/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The rooftop bar is on the 7th-floor rooftop terrace and has a 360-degree panoramic view of the city.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Location: Rooftop terrace 7th floor",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/bordeaux/bodha/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "the superb 360° panoramic view of the city",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/bordeaux/bodha/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Miroir d'Eau is about 0.6 kilometers from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Miroir d'Eau - 0.37 miles away (0.6 kilometers)",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/bordeaux/bodha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Saint-André Cathedral is about 0.7 kilometers from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Cathedrale Saint-André - 0.43 miles away (0.7 kilometers)",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/bordeaux/bodha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The concierge team can help rent electric scooters, bikes or cars.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Our Concierge team will be pleased to assist in renting electric scooters, bikes or cars.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/bordeaux/bodha/hoteldetail/directions/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Pets are welcome at the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Pets are welcome at InterContinental Bordeaux - Le Grand Hotel.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/bordeaux/bodha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The rooftop has panoramic views over the city, lush plants, bird cages, lounge furniture and a rooftop bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "This urban oasis features unrivalled panoramic views over the city, lush plants, bird cages, lounge furniture, and our rooftop bar",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/bordeaux/bodha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The spa is run by Guerlain, the house of fragrance and cosmetics, and offers a large menu of relaxing treatments.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Guerlain, the prestigious house of fragrance and exceptional cosmetics, takes over the spa at the InterContinental Bordeaux – Le Grand Hôtel to offer a vast menu of relaxing treatments.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/bordeaux/bodha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The fabrics, upholstery and carpets in the rooms were designed by Jacques Garcia.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The fabrics, upholstery, and carpets were designed by Jacques Garcia",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/bordeaux/bodha/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The hotel stands opposite the eighteenth-century Grand Théâtre.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Opposite the magnificent eighteenth-century Grand Théatre",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/france/bordeaux/grand-hotel-de-bordeaux---spa",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Some rooms offer views of the Opera.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Some rooms offer views of the Opera",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/bordeaux/bodha/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Parking under the hotel is limited and must be reserved at the time of booking.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Reservation is required at the time of booking as there is limited availability. Private and secure parking under the hotel",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/bordeaux/bodha/hoteldetail/directions/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Bordeaux-Mérignac Airport is about 20 kilometers from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Aéroport de Bordeaux Mérignac (BOD), approximately 12.43 miles away (20 kilometers)",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/bordeaux/bodha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "Le Pressoir d'Argent has a formal dress code.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Dress Code: Formal attire",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/bordeaux/bodha/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

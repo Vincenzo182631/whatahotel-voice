@@ -1,9 +1,9 @@
 {
   "slug": "intercontinental-bangkok",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
   "reasons": [
-    "several InterContinental properties match \"InterContinental Bangkok\" in Bangkok (https://www.ihg.com/intercontinental/hotels/us/en/bangkok/bkkhb/, https://www.ihg.com/intercontinental/hotels/us/en/bangkok/bkktl/, https://www.ihg.com/intercontinental/hotels/th/th/bangkok/bkkhb/, https://www.ihg.com/intercontinental/hotels/th/th/bangkok/bkktl/); confirm with --official-url"
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
   ],
   "identity": {
     "hotel": {
@@ -16,29 +16,96 @@
       "kind": "chain",
       "chain": "intercontinental"
     },
-    "evidence": [],
-    "reasons": [
-      "several InterContinental properties match \"InterContinental Bangkok\" in Bangkok (https://www.ihg.com/intercontinental/hotels/us/en/bangkok/bkkhb/, https://www.ihg.com/intercontinental/hotels/us/en/bangkok/bkktl/, https://www.ihg.com/intercontinental/hotels/th/th/bangkok/bkkhb/, https://www.ihg.com/intercontinental/hotels/th/th/bangkok/bkktl/); confirm with --official-url"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Bangkok, TH)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://www.ihg.com/intercontinental/hotels/us/en/bangkok/bkkhb/",
-      "https://www.ihg.com/intercontinental/hotels/us/en/bangkok/bkktl/",
-      "https://www.ihg.com/intercontinental/hotels/th/th/bangkok/bkkhb/",
-      "https://www.ihg.com/intercontinental/hotels/th/th/bangkok/bkktl/"
+      "https://www.ihg.com/intercontinental/hotels/us/en/bangkok/bkkhb/hoteldetail"
     ],
-    "checked_at": "2026-10-30T06:17:06.991Z",
-    "status": "needs_review"
+    "checked_at": "2026-10-30T06:31:37.526Z",
+    "status": "confirmed",
+    "official_url": "https://www.ihg.com/intercontinental/hotels/us/en/bangkok/bkkhb/hoteldetail",
+    "base_url": "https://www.ihg.com/intercontinental/hotels/us/en/bangkok/bkkhb/",
+    "host": "ihg.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
-  "inaccessible": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/bangkok/bkkhb/hoteldetail",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:31:46.112Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/bangkok/bkkhb/hoteldetail/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:32:02.999Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/bangkok/bkkhb/hoteldetail/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:32:18.858Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/bangkok/bkkhb/hoteldetail/amenities/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:32:30.397Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/bangkok/bkkhb/hoteldetail/directions/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:32:46.546Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/bangkok/bkkhb/hoteldetail/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:32:46.911Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/bangkok/bkkhb/hoteldetail/hotel-reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:33:06.744Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/bangkok/bkkhb/hoteldetail/local-area-guide/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T06:33:11.580Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
   "usage": {
-    "firecrawl_calls": 2,
-    "firecrawl_searches": 2,
+    "firecrawl_calls": 11,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 8,
+    "chars": 77885,
+    "est_claude_tokens": 19471
   },
   "limits": {
     "maxPages": 12,
@@ -46,5 +113,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-10-30T06:17:12.549Z"
+  "researched_at": "2026-10-30T06:33:16.584Z"
 }
