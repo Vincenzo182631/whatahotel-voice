@@ -1,0 +1,421 @@
+{
+  "hotel_slug": "intercontinental-sapporo",
+  "hotel_name": "InterContinental Sapporo",
+  "checked_at": "2026-10-30T09:13:41.526Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 18
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/sapporo/spkha/hoteldetail",
+      "tier": "official",
+      "chars": 7852
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/sapporo/spkha/hoteldetail/rooms/",
+      "tier": "official",
+      "chars": 4013
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/sapporo/spkha/hoteldetail/dining/",
+      "tier": "official",
+      "chars": 5704
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/sapporo/spkha/hoteldetail/amenities/",
+      "tier": "official",
+      "chars": 4960
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/sapporo/spkha/hoteldetail/directions/",
+      "tier": "official",
+      "chars": 2524
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/sapporo/spkha/hoteldetail/",
+      "tier": "official",
+      "chars": 7852
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/sapporo/spkha/hoteldetail/hotel-reviews/",
+      "tier": "official",
+      "chars": 27603
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/sapporo/spkha/hoteldetail/local-area-guide/",
+      "tier": "official",
+      "chars": 1837
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is at Minami 10-jo Nishi 1-chome in Chuo-ku, Sapporo; the nearest public transport listed is Nakajima-Koen Station, by Nakajima Park.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Minami 10-jo Nishi 1-chome 1-48, Chuo-ku Sapporo",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/sapporo/spkha/hoteldetail/directions/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Nakajima-Kōen Station",
+          "note": "listed under public transportation",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/sapporo/spkha/hoteldetail/directions/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Nakajima Park",
+          "note": "listed under public transportation",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/sapporo/spkha/hoteldetail/directions/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel has a heated pool overlooking Nakajima Park and nearby mountains.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "a heated pool overlooking Nakajima Park and nearby mountains",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/sapporo/spkha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The indoor heated pool is on the 9th floor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "in our indoor heated pool on the 9th floor",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/sapporo/spkha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Rooms start from 42 square meters.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "spacious rooms from 42 sqm",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/sapporo/spkha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Serenity Suite measures 160 square meters.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Room Size:  160 sq. m. – 160 sq. m.",
+          "note": "Serenity Suite size",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/sapporo/spkha/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Club InterContinental Lounge is on the 14th floor, with gourmet breakfasts, seasonal afternoon tea and evening cocktails.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Located on the 14th floor, the exclusive Club InterContinental Lounge offers a personalized retreat with attentive service, featuring gourmet breakfasts, seasonal afternoon tea, and evening cocktails.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/sapporo/spkha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "SAWAKA is a contemporary kappo restaurant where dishes blending traditional Japanese techniques with modern creativity are prepared at a live chef's counter.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "a contemporary kappo restaurant in Sapporo showcasing premium ingredients from Hokkaido and beyond. Experience refined dishes that blend traditional Japanese techniques with modern creativity, prepared at a live chef",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/sapporo/spkha/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Norva serves a signature afternoon tea by day and becomes a bar at night, with original cocktails and mocktails made with Hokkaido ingredients.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "By day, enjoy signature Afternoon Tea with premium teas, seasonal sweets, and savory bites. By night, the lounge transforms into an elegant bar serving original cocktails and mocktails made with Hokkaido ingredients",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/sapporo/spkha/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Guests can relax on the summer terrace with river views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "relaxing moments at the lounge, bar, or summer terrace with river views",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/sapporo/spkha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Rooms offer turndown service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Turndown service",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/sapporo/spkha/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The heated pool overlooks Nakajima Park and the nearby mountains.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "a heated pool overlooking Nakajima Park and nearby mountains",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/sapporo/spkha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Complimentary morning wellness sessions offer poolside yoga, Pilates and a floating sound bath in the indoor heated pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Start your day with complimentary morning wellness at InterContinental Sapporo. Enjoy poolside yoga, Pilates and a floating sound bath in our indoor heated pool on the 9th floor.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/sapporo/spkha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Club InterContinental Lounge on the 14th floor serves gourmet breakfasts, seasonal afternoon tea and evening cocktails.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Located on the 14th floor, the exclusive Club InterContinental Lounge offers a personalized retreat with attentive service, featuring gourmet breakfasts, seasonal afternoon tea, and evening cocktails.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/sapporo/spkha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Serenity Suite measures 160 square meters, and even standard rooms start from 42 square meters.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Room Size:  160 sq. m. – 160 sq. m.",
+          "note": "Serenity Suite size",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/sapporo/spkha/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "spacious rooms from 42 sqm",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/sapporo/spkha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Room Size:  42 sq. m. – 43 sq. m.",
+          "note": "Classic Rooms size",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/sapporo/spkha/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "SAWAKA is a contemporary kappo restaurant with a live chef's counter.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "SAWAKA is a contemporary kappo restaurant in Sapporo",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/sapporo/spkha/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "At the live chefs counter",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/sapporo/spkha/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "New Chitose Airport is about 52.8 kilometers from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "approximately 32.81 miles away (52.8 kilometers) from the hotel",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/sapporo/spkha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The minimum check-in age is 18.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "**Minimum check-in age**: 18",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/sapporo/spkha/hoteldetail/directions/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the urban city-center setting may not appeal to travelers seeking a secluded or resort-style escape.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
