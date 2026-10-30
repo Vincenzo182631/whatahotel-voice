@@ -1,0 +1,425 @@
+{
+  "hotel_slug": "intercontinental-malta",
+  "hotel_name": "InterContinental Malta",
+  "checked_at": "2026-10-30T06:42:47.189Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/malta/malha/hoteldetail",
+      "tier": "official",
+      "chars": 9976
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/malta/malha/hoteldetail/rooms/",
+      "tier": "official",
+      "chars": 5086
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/malta/malha/hoteldetail/dining/",
+      "tier": "official",
+      "chars": 9158
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/malta/malha/hoteldetail/amenities/",
+      "tier": "official",
+      "chars": 8066
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/malta/malha/hoteldetail/local-area-guide/",
+      "tier": "official",
+      "chars": 11338
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/malta/malha/hoteldetail/directions/",
+      "tier": "official",
+      "chars": 2616
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/malta/malha/hoteldetail/",
+      "tier": "official",
+      "chars": 9976
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/malta/malha/hoteldetail/hotel-reviews/",
+      "tier": "official",
+      "chars": 24949
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "InterContinental Malta is located in St. George's Bay in St. Julian's.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located in the heart of St. George’s Bay in St. Julian’s, InterContinental Malta",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/malta/malha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is by the beach in St. George's Bay, with the sea a short walk from the rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Located in St. Julian's, by the beach in St. George's Bay",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/malta/malha/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "where the sea is just a short, luxurious walk from your room.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/malta/malha/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel has three pools: two outdoor and one indoor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Unwind in refined relaxation with our 3 pools, 2 outdoor, 1 indoor.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/malta/malha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "One of the outdoor pools is lagoon-style, and the indoor pool allows swimming year-round.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "or bask in the sun at the lagoon-style Poolside Paradise. For year-round tranquility, retreat to our serene Indoor Oasis.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/malta/malha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Unwind in our hotel in Malta with indoor pool, the serene Indoor Oasis, or enjoy two outdoor pools",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/malta/malha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The on-site spa offers bespoke treatments.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Experience ultimate relaxation at our luxury spa on site. Indulge in bespoke treatments",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/malta/malha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Cynergi Health & Fitness Centre is described by the hotel as Malta's biggest fitness centre.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "After your workout in Malta’s biggest fitness centre",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/malta/malha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Rooms have plush beds, spa-like bathrooms and a private balcony.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "each room offers a luxurious retreat with plush beds, spa‑like bathrooms, and a private balcony.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/malta/malha/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Some suites may include a separate jetted bath with a walk-in rain shower.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Separate Jetted Bath with Walk-in Rain Shower",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/malta/malha/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The Club InterContinental Lounge serves breakfast, afternoon tea and evening canapes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "From a sumptuous breakfast to afternoon tea and evening canapés",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/malta/malha/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Paranga is a seaside restaurant on teak decking beside the Mediterranean, serving Sicilian flavours.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Our exquisite seaside restaurant is set on teak decking right beside the rippling Mediterranean Sea. The menu offers a superb array of Sicilian flavours",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/malta/malha/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Valletta, a UNESCO World Heritage city, is about 7 km from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "you are just 7km away from this UNESCO World Heritage city.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/malta/malha/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The hotel holds Green Key sustainability certification.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Certifications: Green Key (FEE)",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/malta/malha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The SkyBeach infinity pool sits on the 19th floor, with panoramic island and Mediterranean Sea views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Ascend to the 19th floor and relax at the stunning infinity pool. Let the world pass by with panoramic island and Mediterranean Sea views.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/malta/malha/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "All guests get complimentary access to the InterContinental Beach Club, with sunbeds, umbrellas and towels provided.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "All guests enjoy complimentary access to the InterContinental Beach Club. We provide sunbeds, umbrellas, and towels",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/malta/malha/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Club InterContinental Lounge offers private check-in and panoramic views across Malta and the Mediterranean.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Enjoy private check-in, refined service, and panoramic views across Malta and the Mediterranean.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/malta/malha/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Local fishermen deliver fresh fish and shellfish daily to Paranga, the seaside restaurant.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Local fishermen deliver fresh fish and shellfish daily",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/malta/malha/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The concierge can arrange guided tours and cruises to Gozo and Comino.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Organised guided tours and cruises are available at the concierge.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/malta/malha/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Access to the SkyBeach rooftop pool is complimentary for suite bookers; other guests pay an additional fee.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Suite bookers enjoy complimentary access to this rooftop luxury. Other guests can gain access for an additional fee",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/malta/malha/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Self-parking is available for a daily fee.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "self-parking is available for a daily rate of 17 EUR",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/malta/malha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the hotel is in a busy tourist area of St. Julian's.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
