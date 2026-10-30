@@ -1,0 +1,117 @@
+{
+  "slug": "intercontinental-al-ahsa",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "InterContinental al Ahsa",
+      "city": "Alahsa",
+      "country": "SA",
+      "chain": "intercontinental"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "intercontinental"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "confirmed by hand as this hotel's own page (page does not mention Alahsa)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.ihg.com/intercontinental/hotels/us/en/al-ahsa/hofha/hoteldetail"
+    ],
+    "checked_at": "2026-10-30T07:27:15.504Z",
+    "status": "confirmed",
+    "official_url": "https://www.ihg.com/intercontinental/hotels/us/en/al-ahsa/hofha/hoteldetail",
+    "base_url": "https://www.ihg.com/intercontinental/hotels/us/en/al-ahsa/hofha/",
+    "host": "ihg.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": false
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/al-ahsa/hofha/hoteldetail",
+      "tier": "official",
+      "fetched_at": "2026-10-30T07:27:20.316Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/al-ahsa/hofha/hoteldetail/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T07:27:45.265Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/al-ahsa/hofha/hoteldetail/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T07:27:45.458Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/al-ahsa/hofha/hoteldetail/amenities/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T07:27:52.557Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/al-ahsa/hofha/hoteldetail/directions/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T07:28:00.724Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/al-ahsa/hofha/hoteldetail/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T07:28:00.985Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/al-ahsa/hofha/hoteldetail/hotel-reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T07:28:09.266Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/al-ahsa/hofha/hoteldetail/local-area-guide/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T07:28:13.509Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 11,
+    "firecrawl_searches": 1,
+    "cache_hits": 0,
+    "direct_fetches": 0,
+    "pages": 8,
+    "chars": 55067,
+    "est_claude_tokens": 13767
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-30T07:28:18.179Z"
+}

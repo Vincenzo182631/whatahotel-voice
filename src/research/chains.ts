@@ -48,7 +48,7 @@ export const CHAINS: Chain[] = [
   {
     id: "raffles",
     name: "Raffles",
-    match: /\braffles\b/i,
+    match: /\braffles\b(?!\s+city)/i, // "Raffles City" is a mixed-use complex (InterContinental Chongqing Raffles City), not the brand
     domains: ["raffles.com"],
     secondaryDomains: ["all.accor.com"],
     // raffles.com/singapore/... -> raffles.com/singapore/ ; chain-wide sections excluded

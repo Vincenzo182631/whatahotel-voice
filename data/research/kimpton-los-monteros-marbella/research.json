@@ -1,0 +1,117 @@
+{
+  "slug": "kimpton-los-monteros-marbella",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Kimpton Los Monteros Marbella",
+      "city": "Marbella",
+      "country": "ES",
+      "chain": "intercontinental"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "intercontinental"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Marbella, ES)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail"
+    ],
+    "checked_at": "2026-10-30T07:26:57.070Z",
+    "status": "confirmed",
+    "official_url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail",
+    "base_url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/",
+    "host": "ihg.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail",
+      "tier": "official",
+      "fetched_at": "2026-10-30T07:27:06.719Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T07:27:14.900Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T07:27:18.402Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T07:27:19.256Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail/amenities/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T07:27:34.298Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail/directions/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T07:27:45.940Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail/hotel-reviews/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T07:27:49.289Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail/local-area-guide/",
+      "tier": "official",
+      "fetched_at": "2026-10-30T07:27:55.580Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 11,
+    "firecrawl_searches": 1,
+    "cache_hits": 0,
+    "direct_fetches": 0,
+    "pages": 8,
+    "chars": 63625,
+    "est_claude_tokens": 15906
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-30T07:28:00.686Z"
+}
