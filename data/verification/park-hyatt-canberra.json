@@ -1,0 +1,396 @@
+{
+  "hotel_slug": "park-hyatt-canberra",
+  "hotel_name": "Park Hyatt Canberra",
+  "checked_at": "2026-10-13T08:31:29.345Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/canbe-hyatt-hotel-canberra-a-park-hyatt-hotel",
+      "tier": "official",
+      "chars": 12068
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/canbe-hyatt-hotel-canberra-a-park-hyatt-hotel/rooms/",
+      "tier": "official",
+      "chars": 7891
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/canbe-hyatt-hotel-canberra-a-park-hyatt-hotel/dining/",
+      "tier": "official",
+      "chars": 7115
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/canbe-hyatt-hotel-canberra-a-park-hyatt-hotel/parking-and-transportation/",
+      "tier": "official",
+      "chars": 1063
+    },
+    {
+      "id": "d5",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/canbe-hyatt-hotel-canberra-a-park-hyatt-hotel/hotel-info/",
+      "tier": "official",
+      "chars": 1955
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/canbe-hyatt-hotel-canberra-a-park-hyatt-hotel/reviews/",
+      "tier": "official",
+      "chars": 8780
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel sits beside the National Triangle in Canberra.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Hyatt Hotel Canberra – A Park Hyatt Hotel is nestled beside the prestigious National Triangle",
+          "note": "official page states location beside National Triangle",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/canbe-hyatt-hotel-canberra-a-park-hyatt-hotel",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Rooms have garden or courtyard views and large marble bathrooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Enjoy spacious rooms with garden or courtyard views and large marble bathrooms.",
+          "note": "stated verbatim",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/canbe-hyatt-hotel-canberra-a-park-hyatt-hotel",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Some rooms are located in the hotel's Heritage section.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Located in the Heritage section, featuring an inviting king bed",
+          "note": "Heritage room categories listed",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/canbe-hyatt-hotel-canberra-a-park-hyatt-hotel/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The Presidential Suite's balconies overlook the gardens and Lake Burley Griffin.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "2 private balconies overlooking gardens and Lake Burley Griffin",
+          "note": "Presidential Suite amenities",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/canbe-hyatt-hotel-canberra-a-park-hyatt-hotel/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Promenade Cafe is furnished to complement the hotel's Art Deco style.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Elegantly furnished to complement the hotel's Art Deco style",
+          "note": "Promenade Cafe description",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/canbe-hyatt-hotel-canberra-a-park-hyatt-hotel/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Speaker's Corner Bar has an open fire in winter and verandas in summer.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Speaker’s Corner Bar features an open fire in winter and cooling verandas in summer.",
+          "note": "stated on dining page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/canbe-hyatt-hotel-canberra-a-park-hyatt-hotel/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Guests can relax with bar snacks and drinks in the hotel's heritage gardens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Relax in our heritage gardens, enjoying bar snacks and beverages in this iconic outdoor setting.",
+          "note": "The Garden outlet",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/canbe-hyatt-hotel-canberra-a-park-hyatt-hotel/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Clubhouse offers a gym, personal trainers, an indoor pool, a sauna, fitness classes and bike hire.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "offers a fully equipped gymnasium, personal trainers, indoor pool, sauna, fitness classes and bike hire.",
+          "note": "all six items listed",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/canbe-hyatt-hotel-canberra-a-park-hyatt-hotel",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Nearby sights include the National Museum of Australia, the National Portrait Gallery and Parliament House.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Visit the National Museum of Australia, the National Portrait Gallery, Parliament House",
+          "note": "all three named",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/canbe-hyatt-hotel-canberra-a-park-hyatt-hotel",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "EV charging in the hotel car park is free for guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "EV charging stations for guests are available in the hotel car park.",
+          "note": "location in car park",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/canbe-hyatt-hotel-canberra-a-park-hyatt-hotel/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Complimentary",
+          "note": "EV charging listed as complimentary/free",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/canbe-hyatt-hotel-canberra-a-park-hyatt-hotel/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Canberra Airport is 9 kilometers from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Canberra Airport (CBR)9 kilometers",
+          "note": "9 km stated",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/canbe-hyatt-hotel-canberra-a-park-hyatt-hotel/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "For more than a century the hotel has hosted heads of state, diplomats and captains of industry.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "For more than a century, the hotel has been the preferred residence for heads of state, diplomats, captains of industry",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/canbe-hyatt-hotel-canberra-a-park-hyatt-hotel",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Tea Lounge is in the hotel's heritage-listed residence and serves a traditional afternoon tea.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "modern luxury and old-world charm meet at The Tea Lounge in our heritage-listed residence",
+          "note": "heritage-listed residence",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/canbe-hyatt-hotel-canberra-a-park-hyatt-hotel/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "indulge in our traditional afternoon tea service",
+          "note": "traditional afternoon tea",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/canbe-hyatt-hotel-canberra-a-park-hyatt-hotel/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Presidential Suite has a baby grand piano.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "This private residence complete with a baby grand piano",
+          "note": "Presidential Suite description",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/canbe-hyatt-hotel-canberra-a-park-hyatt-hotel/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The hotel has historic Rose and Lavender Courtyards.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "our historic Rose and Lavender Courtyards",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/canbe-hyatt-hotel-canberra-a-park-hyatt-hotel",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "All rooms have large soak tubs and Le Labo amenities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "All rooms are fitted with large soak tubs and quality Le Labo amenities.",
+          "note": "stated verbatim",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/canbe-hyatt-hotel-canberra-a-park-hyatt-hotel",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "A 10% surcharge applies at the restaurants on Sundays and 15% on public holidays.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "A 10% surcharge will apply on Sundays, and a 15% surcharge will apply for all public holidays",
+          "note": "stated on dining page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/canbe-hyatt-hotel-canberra-a-park-hyatt-hotel/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "High tea at The Tea Lounge requires reservations.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Our famous High Tea stands with an array of finger sandwiches, freshly baked scones with jam and cream, and a selection of tempting cakes and slices. Reservations essential.",
+          "note": "Tea Lounge high tea; reservations essential",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/canbe-hyatt-hotel-canberra-a-park-hyatt-hotel/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the government-focused location may feel quiet on weekends.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

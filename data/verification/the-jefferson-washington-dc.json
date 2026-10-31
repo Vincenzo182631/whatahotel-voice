@@ -1,0 +1,430 @@
+{
+  "hotel_slug": "the-jefferson-washington-dc",
+  "hotel_name": "The Jefferson Washington DC",
+  "checked_at": "2026-10-15T16:33:44.145Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.jeffersondc.com/rooms-suites/",
+      "tier": "official",
+      "chars": 6475
+    },
+    {
+      "id": "d2",
+      "url": "https://www.jeffersondc.com/about/",
+      "tier": "official",
+      "chars": 3597
+    },
+    {
+      "id": "d3",
+      "url": "https://www.jeffersondc.com/dining/",
+      "tier": "official",
+      "chars": 5305
+    },
+    {
+      "id": "d4",
+      "url": "https://www.jeffersondc.com/the-jefferson-experience/",
+      "tier": "official",
+      "chars": 3282
+    },
+    {
+      "id": "d5",
+      "url": "https://www.jeffersondc.com/",
+      "tier": "official",
+      "chars": 7725
+    },
+    {
+      "id": "d6",
+      "url": "https://www.jeffersondc.com/dining/quill/",
+      "tier": "official",
+      "chars": 3784
+    },
+    {
+      "id": "d7",
+      "url": "https://www.jeffersondc.com/dining/the-greenhouse/",
+      "tier": "official",
+      "chars": 4337
+    },
+    {
+      "id": "d8",
+      "url": "https://www.jeffersondc.com/dining/all-day-dining/",
+      "tier": "official",
+      "chars": 2519
+    },
+    {
+      "id": "d9",
+      "url": "https://www.jeffersondc.com/opt-out-preferences/",
+      "tier": "official",
+      "chars": 27905
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The Jefferson started life as a luxury apartment block in 1923.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The Jefferson started life as a luxury apartment block in 1923.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.jeffersondc.com/about/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The building was designed by architect Jules Henri de Sibour in the Beaux-Arts style.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Designed by architect Jules Henri de Sibour in the stunning Beaux-Arts style",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.jeffersondc.com/about/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "By 1955 the apartments had been transformed into a hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "by 1955, the apartments had transformed into a hotel for the most discerning travelers.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.jeffersondc.com/about/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The Jefferson was reborn as a hotel in 2009.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "In 2009, The Jefferson was reborn, becoming a renowned hotel in the nation’s capital",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.jeffersondc.com/about/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Jefferson is an independent hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "An independent, iconic landmark in the nation’s capital.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.jeffersondc.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The hotel is steps from the White House.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Seasonal dining and weekend brunch beneath a restored historic skylight in Washington, DC, steps from the White House.",
+          "note": "The Greenhouse, inside the hotel, is steps from the White House",
+          "confirmed": true,
+          "url": "https://www.jeffersondc.com/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The First Lady Suite has a gas fireplace, an intimate dining room and a canopied king-size bed.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "thoughtful details like the gas fireplace, intimate dining room and canopied King-size bed",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.jeffersondc.com/rooms-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Presidential Suite has a private kitchen and a private study.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "From the private kitchen to the private study, discover true luxury in the heart of Washington.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.jeffersondc.com/rooms-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Suites include twice-daily housekeeping.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Twice-daily housekeeping",
+          "note": "listed under Suite amenities for every suite on the page",
+          "confirmed": true,
+          "url": "https://www.jeffersondc.com/rooms-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel describes itself as pet-welcoming, with special amenities for dogs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "We’re not just ‘pet friendly’, we’re ‘pet-welcoming’.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.jeffersondc.com/the-jefferson-experience/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "We love to see your canine companions in our historic Washington hotel and you’ll even find special amenities",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.jeffersondc.com/the-jefferson-experience/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The fitness center has cardio equipment including two Pelotons and a TRX Training Center.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Our residential fitness center features state-of-the-art cardio equipment including, 2 Pelotons, elliptical machines, treadmills, and a TRX Training Center.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.jeffersondc.com/the-jefferson-experience/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Quill, the bar, pairs cocktails with live piano and has private cabinet rooms and a cigar-friendly patio.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "An intimate cocktail bar in Washington, DC",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.jeffersondc.com/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "pairs expertly crafted cocktails and live piano in one of Washington DC's most intimate and sophisticated bar settings, with private cabinet rooms and a cigar-friendly patio.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.jeffersondc.com/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "During the renovation, a lobby skylight that was part of the original design and hidden since World War II was recovered.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "one of the most exciting discoveries during the renovation was the recovery of a magnificent skylight in the lobby. Part of the original design but hidden since World War II",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.jeffersondc.com/about/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Presidential Suite overlooks the Washington Monument and downtown DC from five Juliette balconies.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "overlooking the Washington monument and downtown DC from five Juliette balconies",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.jeffersondc.com/rooms-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The First Lady Suite is a top-floor suite with city views and three Juliette balconies.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "This simply charming top-floor suite offers dramatic views of the city, accentuated by three Juliette balconies.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.jeffersondc.com/rooms-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Book Room surrounds guests with leather-bound books, a place to relax in privacy.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "here our guests are surrounded by leather-bound books, to relax, and get privacy.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.jeffersondc.com/the-jefferson-experience/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "About the Book Room",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.jeffersondc.com/the-jefferson-experience/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "For every room booked, the hotel sponsors a children's book for the DC Public Library's Books from Birth program, with Dolly Parton's Imagination Library.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "For every room booked, we sponsor the purchase of a children’s book for the DC Public Library’s ‘Books from Birth’ program, in collaboration with Dolly Parton’s Imagination Library.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.jeffersondc.com/the-jefferson-experience/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Pool access is through the University Club, where guests can use the pool and an expanded fitness center.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "All guests have access to the expanded fitness center and pool located at the University Club.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.jeffersondc.com/the-jefferson-experience/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes premium pricing reflecting the luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes limited hotel amenities due to the boutique size.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

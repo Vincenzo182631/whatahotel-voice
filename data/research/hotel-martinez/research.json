@@ -1,0 +1,270 @@
+{
+  "slug": "hotel-martinez",
+  "status": "ready",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Hotel Martinez",
+      "city": "Cannes",
+      "country": "FR",
+      "chain": "hyatt"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hyatt"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Cannes, FR)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://newsroom.hyatt.com/news-releases?item=123624",
+      "https://www.hyatt.com/unbound-collection/en-US/jcagh-hotel-martinez/rooms"
+    ],
+    "checked_at": "2026-10-29T03:34:33.018Z",
+    "status": "confirmed",
+    "official_url": "https://www.hyatt.com/unbound-collection/en-US/jcagh-hotel-martinez/rooms",
+    "base_url": "https://www.hyatt.com/unbound-collection/en-US/jcagh-hotel-martinez/",
+    "host": "hyatt.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hyatt.com/unbound-collection/en-US/jcagh-hotel-martinez/rooms",
+      "tier": "official",
+      "fetched_at": "2026-10-29T03:34:49.431Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.cntraveler.com/hotels/cannes/grand-hyatt-cannes-h-tel-martinez",
+      "tier": "editorial",
+      "fetched_at": "2026-10-29T03:35:01.882Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.hyatt.com/unbound-collection/en-US/jcagh-hotel-martinez/",
+      "reason": "no same-property sub-page links found on the home page"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 5,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 2,
+    "chars": 38353,
+    "est_claude_tokens": 9588
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-29T03:35:01.882Z",
+  "hotel": {
+    "name": "Hotel Martinez",
+    "city": "Cannes",
+    "country": "FR",
+    "chain": "hyatt",
+    "confirmed_affiliation": {
+      "kind": "chain",
+      "chain": "hyatt"
+    }
+  },
+  "official_url": "https://www.hyatt.com/unbound-collection/en-US/jcagh-hotel-martinez/rooms",
+  "verified_facts": [
+    {
+      "id": "r-1",
+      "category": "location",
+      "text": "Hotel Martinez sits at the centre of La Croisette, the road that curves along the coastline of Cannes.",
+      "source_url": "https://www.cntraveler.com/hotels/cannes/grand-hyatt-cannes-h-tel-martinez",
+      "source_tier": "editorial",
+      "excerpt": "This is the centre of La Croisette—the road that curves along the coastline of Cannes"
+    },
+    {
+      "id": "r-2",
+      "category": "location",
+      "text": "The hotel is about a 30-second walk from the sea.",
+      "source_url": "https://www.cntraveler.com/hotels/cannes/grand-hyatt-cannes-h-tel-martinez",
+      "source_tier": "editorial",
+      "excerpt": "You’re about 30 seconds walk from the ocean here"
+    },
+    {
+      "id": "r-3",
+      "category": "design_history",
+      "text": "Emmanuel Michele Martinez bought the land in 1927 and first opened it as a hotel in 1929.",
+      "source_url": "https://www.cntraveler.com/hotels/cannes/grand-hyatt-cannes-h-tel-martinez",
+      "source_tier": "editorial",
+      "excerpt": "the eponymous Emmanuel Michele Martinez, son of a baron, bought the land in 1927 and opened it as a hotel for the first time in 1929"
+    },
+    {
+      "id": "r-4",
+      "category": "design_history",
+      "text": "The rooms and suites are inspired by the hotel's 1930s Art Deco style and the colours of the French Riviera.",
+      "source_url": "https://www.hyatt.com/unbound-collection/en-US/jcagh-hotel-martinez/rooms",
+      "source_tier": "official",
+      "excerpt": "Inspired by the iconic Art Deco style of the Hôtel Martinez in the 1930's and the soothing colors of the French Riviera, our 410 rooms and suites are an ode to the iconic Riviera style."
+    },
+    {
+      "id": "r-5",
+      "category": "design_history",
+      "text": "The rooms were designed by Paris-based designer Pierre-Yves Rochon in pale blue, white and gold.",
+      "source_url": "https://www.cntraveler.com/hotels/cannes/grand-hyatt-cannes-h-tel-martinez",
+      "source_tier": "editorial",
+      "excerpt": "Paris-based designer Pierre-Yves Rochon (the man behind The Savoy in London and Hotel George V in his hometown) leaned into. All is pale blue and white and golden"
+    },
+    {
+      "id": "r-6",
+      "category": "rooms",
+      "text": "On the seventh floor, the Penthouse Apartments have cinema-inspired decor paying tribute to actress Isabelle Huppert and Cannes Film Festival General Delegate Thierry Fremaux.",
+      "source_url": "https://www.hyatt.com/unbound-collection/en-US/jcagh-hotel-martinez/rooms",
+      "source_tier": "official",
+      "excerpt": "Located on the seventh floor, the Penthouse Apartments unveil a cinematic inspired décor, paying tribute to Isabelle Huppert, renowned French actress, and Thierry Frémaux, General Delegate of the Cannes Film Festival."
+    },
+    {
+      "id": "r-7",
+      "category": "rooms",
+      "text": "The Penthouse Apartments have 180-degree views over the Bay of Cannes.",
+      "source_url": "https://www.hyatt.com/unbound-collection/en-US/jcagh-hotel-martinez/rooms",
+      "source_tier": "official",
+      "excerpt": "Marvel at the breathtaking 180 degree views over the Bay of Cannes"
+    },
+    {
+      "id": "r-8",
+      "category": "rooms",
+      "text": "The Penthouse Apartments come with butler service.",
+      "source_url": "https://www.hyatt.com/unbound-collection/en-US/jcagh-hotel-martinez/rooms",
+      "source_tier": "official",
+      "excerpt": "Exceptional Butler service"
+    },
+    {
+      "id": "r-9",
+      "category": "rooms",
+      "text": "The Suite des Oliviers has a 250-square-metre private terrace with sea views.",
+      "source_url": "https://www.hyatt.com/unbound-collection/en-US/jcagh-hotel-martinez/rooms",
+      "source_tier": "official",
+      "excerpt": "featuring a vast 250 m² private terrace with breathtaking sea views"
+    },
+    {
+      "id": "r-10",
+      "category": "rooms",
+      "text": "The Oasis Suite, in the heart of L'Oasis du Martinez, has a seating area set within a winter garden.",
+      "source_url": "https://www.hyatt.com/unbound-collection/en-US/jcagh-hotel-martinez/rooms",
+      "source_tier": "official",
+      "excerpt": "Enjoy your stay in the heart of L’Oasis du Martinez in our approximately 43 m² suite, a tranquil oasis of serenity amidst the bustling city. The suite features a King-size bed, a cozy seating area nestled within a winter garden"
+    },
+    {
+      "id": "r-11",
+      "category": "rooms",
+      "text": "Premium Sea View rooms with balcony open onto an Art Deco columned balcony overlooking the Mediterranean.",
+      "source_url": "https://www.hyatt.com/unbound-collection/en-US/jcagh-hotel-martinez/rooms",
+      "source_tier": "official",
+      "excerpt": "opening onto a stunning Art Deco columned balcony overlooking the Mediterranean Sea"
+    },
+    {
+      "id": "r-12",
+      "category": "family",
+      "text": "The Family Room connects a Junior Suite with a Premium city-view room and sleeps up to five guests.",
+      "source_url": "https://www.hyatt.com/unbound-collection/en-US/jcagh-hotel-martinez/rooms",
+      "source_tier": "official",
+      "excerpt": "featuring a Junior Suite (45 m²) connected to a premium city-view room (38 m²), comfortably accommodating up to five guests"
+    },
+    {
+      "id": "r-13",
+      "category": "amenities",
+      "text": "The spa is run in partnership with the French brand Carita.",
+      "source_url": "https://www.cntraveler.com/hotels/cannes/grand-hyatt-cannes-h-tel-martinez",
+      "source_tier": "editorial",
+      "excerpt": "in partnership with Carita, a French brand"
+    },
+    {
+      "id": "r-14",
+      "category": "amenities",
+      "text": "The spa has a traditional hammam, plus a barber, a hairdresser and space for manicures and pedicures.",
+      "source_url": "https://www.cntraveler.com/hotels/cannes/grand-hyatt-cannes-h-tel-martinez",
+      "source_tier": "editorial",
+      "excerpt": "there's a barber, a hairdresser, space for manicures and pedicures and a traditional hammam with deeply soothing tiles"
+    },
+    {
+      "id": "r-15",
+      "category": "amenities",
+      "text": "At L'Oasis, manicured gardens lead to a swimming lane designed for laps.",
+      "source_url": "https://www.cntraveler.com/hotels/cannes/grand-hyatt-cannes-h-tel-martinez",
+      "source_tier": "editorial",
+      "excerpt": "Manicured gardens lead to a swimming lane"
+    },
+    {
+      "id": "r-16",
+      "category": "amenities",
+      "text": "L'Oasis is designed as a tranquil refuge, with no smoking and no loud music.",
+      "source_url": "https://www.cntraveler.com/hotels/cannes/grand-hyatt-cannes-h-tel-martinez",
+      "source_tier": "editorial",
+      "excerpt": "The whole area is designed as a tranquil refuge from the thrum of the streets outside"
+    },
+    {
+      "id": "r-17",
+      "category": "dining",
+      "text": "La Palme d'Or serves its menus overlooking the Bay of Cannes from floor-to-ceiling windows.",
+      "source_url": "https://www.cntraveler.com/hotels/cannes/grand-hyatt-cannes-h-tel-martinez",
+      "source_tier": "editorial",
+      "excerpt": "is served overlooking the bay of Cannes from floor-to-ceiling windows"
+    },
+    {
+      "id": "r-18",
+      "category": "dining",
+      "text": "La Plage du Martinez is the hotel's beach club.",
+      "source_url": "https://www.cntraveler.com/hotels/cannes/grand-hyatt-cannes-h-tel-martinez",
+      "source_tier": "editorial",
+      "excerpt": "La Plage du Martinez, the hotel’s thrumming beach club"
+    },
+    {
+      "id": "r-19",
+      "category": "practical",
+      "text": "Room service is available 24 hours a day.",
+      "source_url": "https://www.hyatt.com/unbound-collection/en-US/jcagh-hotel-martinez/rooms",
+      "source_tier": "official",
+      "excerpt": "Room service available 24/7"
+    },
+    {
+      "id": "r-20",
+      "category": "experiences",
+      "text": "Staff remember guests from one day to the next and offer to take photos at La Plage.",
+      "source_url": "https://www.cntraveler.com/hotels/cannes/grand-hyatt-cannes-h-tel-martinez",
+      "source_tier": "editorial",
+      "excerpt": "remembering you from one day to the next at breakfast, offering to take photos at La Plage"
+    },
+    {
+      "id": "r-21",
+      "category": "location",
+      "text": "Rooms at the back of the hotel overlook the gardens and pool.",
+      "source_url": "https://www.cntraveler.com/hotels/cannes/grand-hyatt-cannes-h-tel-martinez",
+      "source_tier": "editorial",
+      "excerpt": "the rooms at the back of the hotel have just as pretty views over the recently manicured gardens and pool"
+    }
+  ],
+  "highlights": [
+    "r-6",
+    "r-9",
+    "r-1",
+    "r-15",
+    "r-13",
+    "r-11",
+    "r-18"
+  ],
+  "subjective": [],
+  "unresolved": [],
+  "rejected": [],
+  "contradictions": []
+}

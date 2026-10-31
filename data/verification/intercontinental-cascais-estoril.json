@@ -1,0 +1,425 @@
+{
+  "hotel_slug": "intercontinental-cascais-estoril",
+  "hotel_name": "InterContinental Cascais-Estoril",
+  "checked_at": "2026-10-30T06:33:00.441Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ihg.com/intercontinental/hotels/pt/pt/cascais-estoril/liset/hoteldetail",
+      "tier": "official",
+      "chars": 6095
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ihg.com/intercontinental/hotels/pt/pt/cascais-estoril/liset/hoteldetail/rooms/",
+      "tier": "official",
+      "chars": 3498
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ihg.com/intercontinental/hotels/pt/pt/cascais-estoril/liset/hoteldetail/dining/",
+      "tier": "official",
+      "chars": 4200
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ihg.com/intercontinental/hotels/pt/pt/cascais-estoril/liset/hoteldetail/amenities/",
+      "tier": "official",
+      "chars": 8953
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ihg.com/intercontinental/hotels/pt/pt/cascais-estoril/liset/hoteldetail/local-area-guide/",
+      "tier": "official",
+      "chars": 3329
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ihg.com/intercontinental/hotels/pt/pt/cascais-estoril/liset/hoteldetail/directions/",
+      "tier": "official",
+      "chars": 2960
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ihg.com/intercontinental/hotels/pt/pt/cascais-estoril/liset/hoteldetail/",
+      "tier": "official",
+      "chars": 6095
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ihg.com/intercontinental/hotels/pt/pt/cascais-estoril/liset/hoteldetail/hotel-reviews/",
+      "tier": "official",
+      "chars": 20159
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The InterContinental Cascais Estoril is a luxury boutique hotel facing the Atlantic Ocean.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "O InterContinental Cascais Estoril é um hotel boutique de luxo, com 59 quartos e suites, situado em frente ao oceano Atlântico",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/pt/pt/cascais-estoril/liset/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is a luxury seaside resort on Cascais Bay.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Resort de luxo a beira-mar na Baía de Cascais",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/pt/pt/cascais-estoril/liset/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Rooms and suites have modern design, contemporary decor and views over Cascais Bay.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Desfrute do design moderno, da decoração contemporânea e das vistas sobre a Baía de Cascais",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/pt/pt/cascais-estoril/liset/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel has rooms with spacious terraces.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "o nosso hotel tem quartos com terraços amplos",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/pt/pt/cascais-estoril/liset/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The hotel's spa is the InterContinental Spa by L'Occitane.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Dedique um tempo a si e experimente o InterContinental Spa by L'Occitane",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/pt/pt/cascais-estoril/liset/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The outdoor pool is located in the hotel's gardens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Located in our lavish gardens, our outdoor pool offers the perfect relaxation after a day out",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/pt/pt/cascais-estoril/liset/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The indoor pool is heated.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Water type: Heated pool",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/pt/pt/cascais-estoril/liset/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Bago du Vin Bar & Terrace serves Portuguese and Mediterranean cuisine with fresh ingredients and Atlantic views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Jante com elegância no Bago du Vin Bar & Terrace com vistas deslumbrantes sobre o Atlântico, enquanto desfruta da rica herança culinária da cozinha portuguesa e mediterrânica com ingredientes frescos",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/pt/pt/cascais-estoril/liset/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Bago du Vin pairs its dishes with a selection of more than 100 wines.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "combinadas com uma seleção de mais de 100 vinhos",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/pt/pt/cascais-estoril/liset/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Couples can hold their wedding at Villa Atlantico, a setting beside the Atlantic Ocean.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "descubra o Villa Atlantico onde pode celebrar o amor e organizar o seu casamento num cenário idílico junto ao oceano Atlântico",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/pt/pt/cascais-estoril/liset/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The off-site Estoril Golf Club course overlooks Estoril and the sea and is set among eucalyptus, mimosa and fir trees.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Com vista para o Estoril e para o mar, este campo 5200metros de comprimento está situado entre eucaliptos, mimosas e abetos",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/pt/pt/cascais-estoril/liset/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Estoril Golf Club",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/pt/pt/cascais-estoril/liset/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Cabo da Roca, featured in the hotel's local guide, is the westernmost point of Europe.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "O Cabo da Roca é o ponto mais ocidental da Europa",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/pt/pt/cascais-estoril/liset/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel faces the Atlantic Ocean as a luxury seaside resort on Cascais Bay.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "situado em frente ao oceano Atlântico",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/pt/pt/cascais-estoril/liset/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Resort de luxo a beira-mar na Baía de Cascais",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/pt/pt/cascais-estoril/liset/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The hotel is a gentle walk along the seafront promenade from the sandy beaches of Cascais Bay.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "O InterContinental Cascais Estoril fica a um passeio suave ao longo do passeio marítimo a partir das praias de areia da deslumbrante Baía de Cascais",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/pt/pt/cascais-estoril/liset/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The hotel has a lush garden, and guests can take in the sea view from a private balcony.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Mergulhe na tranquilidade do nosso jardim sumptuoso e aprecie a vista para o mar a partir da sua varanda privada",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/pt/pt/cascais-estoril/liset/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The InterContinental Spa by L'Occitane is the hotel's spa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Dedique um tempo a si e experimente o InterContinental Spa by L'Occitane",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/pt/pt/cascais-estoril/liset/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The indoor pool area includes an indoor pool, a sauna and a steam bath.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "composed of an indoor pool, sauna and steam bath",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/pt/pt/cascais-estoril/liset/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The outdoor pool operates from April to October.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Outdoor pool operation is from April to October.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/pt/pt/cascais-estoril/liset/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The hotel welcomes dogs under 5 kg for a nightly supplement.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "We welcome dogs under 5 kgs with a supplement of 60 euros per night",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/pt/pt/cascais-estoril/liset/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the hotel is outside Lisbon city center, so exploring the city requires transport.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

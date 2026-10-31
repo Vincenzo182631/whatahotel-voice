@@ -1,0 +1,375 @@
+{
+  "hotel_slug": "ritz-carlton-cleveland",
+  "hotel_name": "The Ritz Carlton, Cleveland",
+  "checked_at": "2026-10-09T13:20:36.591Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 16,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 17
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ritzcarlton.com/en/hotels/clerz-the-ritz-carlton-cleveland/overview/",
+      "tier": "official",
+      "chars": 13065
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ritzcarlton.com/en/hotels/clerz-the-ritz-carlton-cleveland/rooms/",
+      "tier": "official",
+      "chars": 7849
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ritzcarlton.com/en/hotels/clerz-the-ritz-carlton-cleveland/experiences/",
+      "tier": "official",
+      "chars": 14282
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ritzcarlton.com/en/hotels/clerz-the-ritz-carlton-cleveland/club/",
+      "tier": "official",
+      "chars": 4744
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ritzcarlton.com/en/hotels/clerz-the-ritz-carlton-cleveland/dining/",
+      "tier": "official",
+      "chars": 7903
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ritzcarlton.com/en/hotels/clerz-the-ritz-carlton-cleveland/rooms/signature-suites/",
+      "tier": "official",
+      "chars": 18143
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ritzcarlton.com/en/hotels/clerz-the-ritz-carlton-cleveland/reviews/",
+      "tier": "official",
+      "chars": 744
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ritzcarlton.com/en/hotels/clerz-the-ritz-carlton-cleveland/hotel-stories/",
+      "tier": "official",
+      "chars": 2412
+    },
+    {
+      "id": "d9",
+      "url": "https://www.cntraveler.com/hotels/united-states/cleveland/ritz-carlton--cleveland",
+      "tier": "editorial",
+      "chars": 2832
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The design uses a palette of grey and blue with touches of metal.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "features a palette of grey and blue with touches of metal",
+          "note": "Exact design description",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/clerz-the-ritz-carlton-cleveland/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Rooms offer panoramic views of the Cuyahoga River and Lake Erie.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Enjoy panoramic views of the Cuyahoga River and Lake Erie from our hotel rooms in downtown Cleveland",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/clerz-the-ritz-carlton-cleveland/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Ritz-Carlton Club lounge is on the fourteenth floor of the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "located on the fourteenth floor of the hotel",
+          "note": "Club located on 14th floor",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/clerz-the-ritz-carlton-cleveland/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The Club Lounge offers complimentary food and beverage presentations five times each day.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Five times each day, our Cleveland Club Lounge offers complimentary food and beverage presentations.",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/clerz-the-ritz-carlton-cleveland/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Rooms have Nespresso coffeemakers and smart TVs capable of streaming Netflix.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Nespresso coffeemakers, and new smart TVs capable of streaming Netflix",
+          "note": "Both elements stated",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/clerz-the-ritz-carlton-cleveland/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The fitness center includes Peloton bikes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The fitness center includes equipment such as Cardiovascular Equipment, Elliptical Machine(s), Exercise Bike(s), Free Weights, Peloton",
+          "note": "Peloton bikes listed in fitness center equipment",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/clerz-the-ritz-carlton-cleveland/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Ritz Kids program offers daily kid-friendly activities that introduce participants to the city's history and culture.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "offers daily, kid-friendly activities that introduce participants to the city’s history and culture",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/clerz-the-ritz-carlton-cleveland/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Dogs are welcome, up to 50 pounds.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Well-mannered, disease-free dogs are welcome at our pet friendly hotel",
+          "note": "Dogs welcome",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/clerz-the-ritz-carlton-cleveland/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Each pet may weigh up to 50.0 lbs.",
+          "note": "50 lb limit",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/clerz-the-ritz-carlton-cleveland/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Overnight valet parking is USD 60 per day.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Overnight valet is USD 60 per day.",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/clerz-the-ritz-carlton-cleveland/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "TURN Bar + Kitchen, the hotel's restaurant, is a nod to the spirit and legacy of the city's steel-working industry.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "A nod to the spirit and legacy of the city’s steel-working industry, our restaurant in downtown Cleveland, Ohio, TURN Bar + Kitchen",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/clerz-the-ritz-carlton-cleveland/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "A steam whistle sounds daily at 6 p.m. to mark the end of the workday and invite guests to enjoy drinks.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "As the workday winds down, a steam whistle signals a farewell to the day, inviting guests to savor expertly crafted libations. Daily | 6 p.m.",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/clerz-the-ritz-carlton-cleveland/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Rocket Arena is connected to the hotel via an indoor walkway.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Rocket Arena is connected to our Cleveland hotel via an indoor walkway.",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/clerz-the-ritz-carlton-cleveland/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Sushi by Bou is an intimate, speakeasy-inspired omakase restaurant at the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Step into Sushi by Bou at The Ritz-Carlton, Cleveland, an intimate, speakeasy-inspired retreat where refined ambiance meets modern Japanese artistry. Experience omakase",
+          "note": "Intimate, speakeasy-inspired, omakase",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/clerz-the-ritz-carlton-cleveland/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Signature experiences include making traditional pierogi with the chefs and a glassblowing session guided by a master artist.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Discover the craft of traditional pierogi making alongside our chefs",
+          "note": "Pierogi with chefs",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/clerz-the-ritz-carlton-cleveland/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "guided by a master artist",
+          "note": "Glassblowing session (Reflections in Fire)",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/clerz-the-ritz-carlton-cleveland/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel does not provide shuttle service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "This hotel does not provide shuttle service.",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/clerz-the-ritz-carlton-cleveland/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Club access requires an upgraded booking, and Marriott Bonvoy Elite Status does not provide complimentary Club access.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Club access requires an upgraded booking at the Club. Marriott Bonvoy Elite Status does not provide complimentary access to the Club.",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/clerz-the-ritz-carlton-cleveland/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the urban setting may lack resort-style recreational facilities.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

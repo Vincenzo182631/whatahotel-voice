@@ -1,0 +1,331 @@
+{
+  "hotel_slug": "jw-marriott-hotel-lima",
+  "hotel_name": "JW Marriott Hotel Lima",
+  "checked_at": "2026-10-31T02:26:44.998Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 16,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 17
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/limdt-jw-marriott-hotel-lima/overview/",
+      "tier": "official",
+      "chars": 16121
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/limdt-jw-marriott-hotel-lima/rooms/",
+      "tier": "official",
+      "chars": 8298
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/limdt-jw-marriott-hotel-lima/dining/",
+      "tier": "official",
+      "chars": 4555
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/limdt-jw-marriott-hotel-lima/experiences/",
+      "tier": "official",
+      "chars": 9467
+    },
+    {
+      "id": "d5",
+      "url": "https://www.cntraveler.com/hotels/peru/miraflores/jw-marriott-hotel-lima",
+      "tier": "editorial",
+      "chars": 4459
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is situated within steps of the beach and the Costa Verde.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Situated within steps of the beach and Costa Verde",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/limdt-jw-marriott-hotel-lima/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel sits right across from the seaside Larcomar shopping center.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Right across from the seaside Larcomar shopping center",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/peru/miraflores/jw-marriott-hotel-lima",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Conde Nast Traveler notes much of the hotel has sweeping ocean views and is within walking distance of notable restaurants and sites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "much of the hotel delivers sweeping ocean views, plus walking distances to bucket list restaurants and sites.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/peru/miraflores/jw-marriott-hotel-lima",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Conde Nast Traveler describes the vibe as traditional luxury with a high-gloss exterior and crisp, clean, modern rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The vibe is traditional luxury with a high-gloss exterior, and rooms that are crisp, clean, and modern.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/peru/miraflores/jw-marriott-hotel-lima",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Executive Lounge offers panoramic city views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "An exclusive space offering refined comfort, premium service, and panoramic city views for guests.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/limdt-jw-marriott-hotel-lima/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Health Club has a full range of equipment and ocean views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our Health Club is furnished with a full range of equipment, plus ocean views",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/limdt-jw-marriott-hotel-lima/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The hotel has a spa for unwinding after a day in Miraflores.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Our high-end hotel spa in Lima will help you to unwind and destress after a long day in Miraflores.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/limdt-jw-marriott-hotel-lima/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel offers Zumba and Spinning classes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "We offer Zumba and Spinning classes at our hotel in Lima, Peru.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/limdt-jw-marriott-hotel-lima/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "JW Lounge serves Nikkei cuisine with a sushi bar, ceviche and signature cocktails.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "A renewed proposal with the most exquisite sushi bar, ceviche, signature cocktails, and a Nikkei restaurant in Lima.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/limdt-jw-marriott-hotel-lima/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Miraflores offers culinary options, bars, shopping and local beaches.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Explore hip Miraflores for excellent culinary options, bars, and shopping. Head to the local beaches for relaxing moments in the sun.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/limdt-jw-marriott-hotel-lima/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel holds Green Key certification for sustainability.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "we are committed to sustainability. Learn more about our Green Key certification here.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/limdt-jw-marriott-hotel-lima/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "All of the hotel's rooms and suites feature ocean views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "All 300 of our upscale hotel rooms and suites feature splendid and peaceful ocean views.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/limdt-jw-marriott-hotel-lima/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The executive rooms are on the hotel's highest floors and take in expansive Pacific Ocean views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Take in the expansive Pacific Ocean views from the comfort of one of our stylish executive hotel rooms in Lima, Peru, located on the highest floors of our Miraflores Hotel",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/limdt-jw-marriott-hotel-lima/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Executive Suites have ocean views and a whirlpool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "### Executive Suites\n\nRecenter yourself in beautiful accommodations with ocean views. These luxury suites also feature a whirlpool.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/limdt-jw-marriott-hotel-lima/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "La Vista Restaurant has Pacific Ocean views and modern cuisine from a team of Peruvian chefs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "La Vista Restaurant features gorgeous Pacific Ocean views, personalized service and modern cuisine from our team of creative Peruvian chefs.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/limdt-jw-marriott-hotel-lima/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The outdoor pool is seasonal.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "our seasonal outdoor pool provides refreshments for our guests on hot days",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/limdt-jw-marriott-hotel-lima/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes an urban hotel setting in a busy district.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

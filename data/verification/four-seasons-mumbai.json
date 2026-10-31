@@ -1,0 +1,566 @@
+{
+  "hotel_slug": "four-seasons-mumbai",
+  "hotel_name": "Four Seasons Hotel Mumbai",
+  "checked_at": "2026-10-06T06:21:41.417Z",
+  "script_version": 3,
+  "decision": {
+    "eligible": false,
+    "blockers": [
+      "contradicted by a source: f-1, f-4"
+    ],
+    "counts": {
+      "supported": 9,
+      "contradicted": 2,
+      "unverified": 0,
+      "exempt": 9,
+      "total": 20
+    }
+  },
+  "applied": false,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://press.fourseasons.com/mumbai/hotel-facts/",
+      "tier": "official",
+      "chars": 6241
+    },
+    {
+      "id": "d2",
+      "url": "https://www.fourseasons.com/mumbai/",
+      "tier": "official",
+      "chars": 7341
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/mumbai/dining/",
+      "tier": "official",
+      "chars": 5599
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/mumbai/spa/",
+      "tier": "official",
+      "chars": 2345
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/mumbai/accommodations/",
+      "tier": "official",
+      "chars": 6559
+    },
+    {
+      "id": "d6",
+      "url": "https://www.fourseasons.com/mumbai/services-and-amenities/",
+      "tier": "official",
+      "chars": 2864
+    },
+    {
+      "id": "d7",
+      "url": "https://www.fourseasons.com/mumbai/getting-here/",
+      "tier": "official",
+      "chars": 1522
+    },
+    {
+      "id": "d8",
+      "url": "https://www.fourseasons.com/mumbai/contact-us/",
+      "tier": "official",
+      "chars": 1692
+    },
+    {
+      "id": "d9",
+      "url": "https://www.fourseasons.com/mumbai/photos-and-videos/",
+      "tier": "official",
+      "chars": 2082
+    },
+    {
+      "id": "d10",
+      "url": "https://www.fourseasons.com/mumbai/discover/",
+      "tier": "official",
+      "chars": 2163
+    },
+    {
+      "id": "d11",
+      "url": "https://www.cntraveler.com/hotels/india/mumbai/four-seasons-hotel",
+      "tier": "editorial",
+      "chars": 3340
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Opened May 2008: 207 rooms (182 guest rooms and 25 suites) in a 33-storey building.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "May 2008",
+          "note": "Opening date listed on the press fact sheet.",
+          "url": "https://press.fourseasons.com/mumbai/hotel-facts/",
+          "tier": "official",
+          "quote_verified": false
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Total Number of Rooms**: 207",
+          "note": "Total of 207 rooms.",
+          "url": "https://press.fourseasons.com/mumbai/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Guest Rooms:** 182",
+          "note": "182 guest rooms.",
+          "url": "https://press.fourseasons.com/mumbai/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Suites:** 25",
+          "note": "25 suites.",
+          "url": "https://press.fourseasons.com/mumbai/hotel-facts/",
+          "tier": "official",
+          "quote_verified": false
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Number of Stories:** 33",
+          "note": "33 storeys.",
+          "url": "https://press.fourseasons.com/mumbai/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "contradicted",
+          "doc_id": "d5",
+          "quote": "our 202 accommodations – including 25 suites – fully capture Mumbai’s cosmopolitan style",
+          "note": "The accommodations page gives 202 accommodations, not 207.",
+          "url": "https://www.fourseasons.com/mumbai/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "contradicted",
+          "doc_id": "d11",
+          "quote": "at 33 stories, the tallest hotel in the country when it opened in 2009",
+          "note": "CN Traveler gives the opening year as 2009, not 2008.",
+          "url": "https://www.cntraveler.com/hotels/india/mumbai/four-seasons-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "contradicted",
+          "doc_id": "d11",
+          "quote": "The streamlined decor is better in the 202 spacious and luxurious guest rooms",
+          "note": "CN Traveler gives 202 rooms.",
+          "url": "https://www.cntraveler.com/hotels/india/mumbai/four-seasons-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "contradicted",
+      "reason": "a source says something different"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Located at 1/136 Dr. E Moses Road, Worli, overlooking the Arabian Sea, the Mahalaxmi Racecourse and the Mumbai skyline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "1/136, Dr. E Moses Road, Worli, Mumbai - 400 018, India",
+          "note": "Address.",
+          "url": "https://press.fourseasons.com/mumbai/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "In the city's centre, overlooking the Arabian Sea, the Mahalaxmi Racecourse and the Mumbai skyline",
+          "note": "Location and views.",
+          "url": "https://press.fourseasons.com/mumbai/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The design weaves Mumbai's textile heritage into a modern look, with saree-inspired patterns and rich colours.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The design harmoniously weaves Mumbai's vibrant textile heritage with modern sophistication, featuring saree-inspired patterns, rich colours, and timeless elegance",
+          "note": "Design aesthetic matches the claim.",
+          "url": "https://press.fourseasons.com/mumbai/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Dining includes Opus (Western, Asian and Indian, 45 indoor seats) and San:Qi (Japanese, Chinese, Indian and Thai, seating 180).",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Cuisine:** Western, Asian and Indian",
+          "note": "Opus cuisine.",
+          "url": "https://press.fourseasons.com/mumbai/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Indoor Seating:** 45",
+          "note": "Opus has 45 indoor seats.",
+          "url": "https://press.fourseasons.com/mumbai/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Cuisine:** Japanese, Chinese, Indian and Thai",
+          "note": "San:Qi cuisine on the press fact sheet.",
+          "url": "https://press.fourseasons.com/mumbai/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Indoor Seating:** Seats 180, including 30 in private dining rooms",
+          "note": "San:Qi seats 180.",
+          "url": "https://press.fourseasons.com/mumbai/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "contradicted",
+          "doc_id": "d3",
+          "quote": "the restaurant celebrates three distinct culinary traditions – Indian, Chinese and Thai",
+          "note": "The dining page lists only three cuisines for San:Qi, with no Japanese.",
+          "url": "https://www.fourseasons.com/mumbai/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "contradicted",
+      "reason": "a source says something different"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The spa has 8 treatment rooms on two floors; signature treatments include the White Pearl Facial and Jet Lag Recovery.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Number of Treatment Rooms:** 8",
+          "note": "8 treatment rooms.",
+          "url": "https://press.fourseasons.com/mumbai/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Bright, fresh ambience on two floors created with petal tones, natural light and soft furnishings",
+          "note": "The spa spans two floors.",
+          "url": "https://press.fourseasons.com/mumbai/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "White Pearl Facial",
+          "note": "Signature treatment.",
+          "url": "https://press.fourseasons.com/mumbai/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Jet Lag Recovery",
+          "note": "Signature treatment.",
+          "url": "https://press.fourseasons.com/mumbai/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The fitness centre is 314 sq m (3,380 sq ft), open 24 hours, with a yoga room and personal trainers on request.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Size:** 314 sq m / 3,380 sq ft",
+          "note": "Fitness facility size.",
+          "url": "https://press.fourseasons.com/mumbai/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "24x7 Operational Fitness Centre",
+          "note": "Open 24 hours.",
+          "url": "https://press.fourseasons.com/mumbai/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Personal trainer, on request",
+          "note": "Personal trainers available on request.",
+          "url": "https://press.fourseasons.com/mumbai/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Yoga Room",
+          "note": "Has a yoga room.",
+          "url": "https://press.fourseasons.com/mumbai/hotel-facts/",
+          "tier": "official",
+          "quote_verified": false
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Event space totals 1,667 sq m (17,945 sq ft), including a ballroom with a 750-guest reception capacity.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Total Size:** 1,667 sq m / 17,945 sq ft",
+          "note": "Total event space.",
+          "url": "https://press.fourseasons.com/mumbai/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**New Ballroom**\\- 750 (reception)",
+          "note": "Ballroom reception capacity of 750.",
+          "url": "https://press.fourseasons.com/mumbai/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "WhataHotel lists a 5-star rating and a 4.8 average rating for the hotel.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Yacht Club at AER is a 34th-floor rooftop bar with views of the Arabian Sea, known for sunsets and a cocktail menu themed on moods of the sky. It has a retractable roof and stays open all year.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "With unparallelled views of the Arabian Sea from the 34th floor, the Yacht Club at AER is the place to be to watch Mumbai's most spectacular sunsets.",
+          "note": "34th floor, sea views and sunsets.",
+          "url": "https://press.fourseasons.com/mumbai/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "With a cocktail menu showcasing different moods of the sky - clear, cumulus, monsoon and thunderheads, this high-energy bar offers a vibe like no other.",
+          "note": "Cocktail menu themed on moods of the sky.",
+          "url": "https://press.fourseasons.com/mumbai/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "With a retractable roof, this bar remains open all through the year",
+          "note": "Retractable roof; open all year.",
+          "url": "https://press.fourseasons.com/mumbai/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "the Four Seasons AER, the city's most iconic rooftop bar",
+          "note": "AER is described as a rooftop bar.",
+          "url": "https://www.fourseasons.com/mumbai/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Gimlet Garden at AER is a second rooftop bar, with botanical cocktails built around the bar's own AER Gin and city views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The cityscapes of Mumbai act as the most stunning background for the Gimlet Garden at AER",
+          "note": "City views.",
+          "url": "https://press.fourseasons.com/mumbai/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "with the bar's very own AER Gin at its heart, complemented by a curation of botanical forward cocktails",
+          "note": "Botanical cocktails built around AER Gin.",
+          "url": "https://press.fourseasons.com/mumbai/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "the Four Seasons AER, the city's most iconic rooftop bar",
+          "note": "AER is a rooftop venue.",
+          "url": "https://www.fourseasons.com/mumbai/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "WhataHotel's pro tip is to book a Harbor View room on floor 25 or above for sunsets over the Arabian Sea.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The spa has heated whirlpools in the men's and women's showers, experience showers and a crystal steam room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Heated whirlpool in both men's and women's showers",
+          "note": "Heated whirlpools.",
+          "url": "https://press.fourseasons.com/mumbai/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Experience showers",
+          "note": "Experience showers.",
+          "url": "https://press.fourseasons.com/mumbai/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Crystal steam",
+          "note": "Crystal steam.",
+          "url": "https://press.fourseasons.com/mumbai/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "San:Qi, the hotel's Asian restaurant, is listed as currently under renovation on the Four Seasons press fact sheet. Check whether it has reopened before relying on it.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Restaurant:** San:Qi (currently under renovation)",
+          "note": "The press fact sheet lists San:Qi as under renovation.",
+          "url": "https://press.fourseasons.com/mumbai/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "San:Qi is temporarily closed for renovations.",
+          "note": "The dining page confirms the closure and lists a reopening on October 04, 2026.",
+          "url": "https://www.fourseasons.com/mumbai/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The hotel is in a business district, so reaching traditional tourist attractions takes some travel.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium luxury pricing that reflects the five-star positioning.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, breakfast for two is free daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit for rooms or $200 for suites.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers are combinable with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

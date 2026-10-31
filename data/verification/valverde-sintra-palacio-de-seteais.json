@@ -1,0 +1,399 @@
+{
+  "hotel_slug": "valverde-sintra-palacio-de-seteais",
+  "hotel_name": "Valverde Sintra Palacio de Seteais",
+  "checked_at": "2026-10-15T03:44:14.513Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.valverdepalacioseteais.com/en/",
+      "tier": "official",
+      "chars": 8844
+    },
+    {
+      "id": "d2",
+      "url": "https://www.valverdepalacioseteais.com/en/rooms-and-suites/",
+      "tier": "official",
+      "chars": 3771
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel's setting evokes a chapter in the history of Portugal, with its court parties and aristocratic eccentricities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Valverde Sintra Palácio de Seteais evokes a chapter in the History of Portugal, of the parties in the courts, of the eccentricities of the aristocracy.",
+          "note": "matches",
+          "confirmed": true,
+          "url": "https://www.valverdepalacioseteais.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Rooms keep the same furniture as in the past.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Comfort and History together in a communion of wills. The same furniture as in the past and a singular beauty dressing the walls.",
+          "note": "rooms section",
+          "confirmed": true,
+          "url": "https://www.valverdepalacioseteais.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Royal Suite's decor is inspired by the 18th and 19th centuries, with Dona Maria-style furniture.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Its décor, inspired by the 18th and 19th centuries, is enhanced by Dona Maria-style furniture",
+          "note": "Royal Suite",
+          "confirmed": true,
+          "url": "https://www.valverdepalacioseteais.com/en/rooms-and-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The Royal Suite has a living room, an open-plan office, a relaxation area and a balcony, with views over the pool and the palace gardens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Featuring a french balcony, a living room, an open-plan office, a relaxation area, and a balcony, this suite offers a spacious and distinguished experience, complemented by views over the pool and the Palace gardens.",
+          "note": "Royal Suite",
+          "confirmed": true,
+          "url": "https://www.valverdepalacioseteais.com/en/rooms-and-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Each Signature Suite has a marble bathroom with a separate bathtub and walk-in shower.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Each suite features a spacious marble bathroom equipped with both a separate bathtub and walk-in shower.",
+          "note": "Signature Suite",
+          "confirmed": true,
+          "url": "https://www.valverdepalacioseteais.com/en/rooms-and-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Classic Rooms are in the former palace wing, look over the hotel gardens and come with a double bed.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Located on the first and second floors of the former Palace wing, the Classic Rooms stand out for their  elegant décor, and views over the hotel gardens. Available with a double bed",
+          "note": "all elements",
+          "confirmed": true,
+          "url": "https://www.valverdepalacioseteais.com/en/rooms-and-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Deluxe Rooms come with either a double bed or twin beds and a bathroom with either a bathtub or a shower.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Available with either a double bed or twin beds, they offer a comfortable setting in harmony with the historic character of the property. They feature a fully equipped bathroom with either a bathtub or a shower",
+          "note": "Deluxe Room block",
+          "confirmed": true,
+          "url": "https://www.valverdepalacioseteais.com/en/rooms-and-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The restaurant and bar serve recipes from Portugal and the world.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "These are recipes from Portugal and the world, where the navigators have been.",
+          "note": "Restaurant and Bar facility",
+          "confirmed": true,
+          "url": "https://www.valverdepalacioseteais.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The hotel has a pool and garden.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Pool and Garden",
+          "note": "facility listed",
+          "confirmed": true,
+          "url": "https://www.valverdepalacioseteais.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel has a spa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "an afternoon at the spa",
+          "note": "spa listed",
+          "confirmed": true,
+          "url": "https://www.valverdepalacioseteais.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The staged Pena Palace visit is designed for a small group.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "in a close, immersive format carefully designed for a small group",
+          "note": "staged visit",
+          "confirmed": true,
+          "url": "https://www.valverdepalacioseteais.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The hotel offers an outdoor picnic, charged per person.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "In the shade of the seasons, the towel is spread. The outdoor table waiting for conversations and laughter.",
+          "note": "outdoor picnic",
+          "confirmed": true,
+          "url": "https://www.valverdepalacioseteais.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "145€ \\| per person",
+          "note": "per person",
+          "confirmed": true,
+          "url": "https://www.valverdepalacioseteais.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Some Signature Suites have welcomed guests including Eça de Queiroz and Agatha Christie.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Some of these suites have welcomed distinguished guests, including Eça de Queiroz and Agatha Christie.",
+          "note": "Signature Suites",
+          "confirmed": true,
+          "url": "https://www.valverdepalacioseteais.com/en/rooms-and-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The hotel offers a staged visit to Pena Palace with actors, centred on the private chambers of Queen Amélia.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "An intimate and exclusive experience with actors, centered on the private chambers of Queen D. Amélia. A different way to experience Pena.",
+          "note": "Staged Visit to Pena Palace",
+          "confirmed": true,
+          "url": "https://www.valverdepalacioseteais.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Signature Suites are on the first floor of the palace, with views over the swimming pool or the Sintra valley extending to the Atlantic Ocean.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Located on the first floor of the Palace, the Signature Suites offer stunning views over the swimming pool or the Sintra valley, extending all the way to the Atlantic Ocean.",
+          "note": "all elements",
+          "confirmed": true,
+          "url": "https://www.valverdepalacioseteais.com/en/rooms-and-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Afternoon tea is served at five o'clock, with menus paying tribute to Catherine of Braganza and Carlota Joaquina.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "At five o'clock, tea is served. Catherine of Braganza (1638-1705) introduced the habit to the British court. Carlota Joaquina (1775-1830) was regent of the kingdom of Portugal in troubled times. The menus",
+          "note": "tea",
+          "confirmed": true,
+          "url": "https://www.valverdepalacioseteais.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The menus, as distinct as they are, pay tribute to them.",
+          "note": "tribute",
+          "confirmed": true,
+          "url": "https://www.valverdepalacioseteais.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Pena from Within visit explores the Pena National Palace's architecture, symbolism and landscape at a slower pace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Designed for those who wish to go beyond the essential route, this visit offers a deeper understanding of the Pena National Palace—its architecture, lived experiences, symbolism, and landscape—at a slower pace",
+          "note": "Pena from Within",
+          "confirmed": true,
+          "url": "https://www.valverdepalacioseteais.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Classic Rooms come with a double bed and look over the gardens; Deluxe Rooms offer a choice of a double bed or twin beds.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "views over the hotel gardens. Available with a double bed",
+          "note": "Classic",
+          "confirmed": true,
+          "url": "https://www.valverdepalacioseteais.com/en/rooms-and-suites/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Available with either a double bed or twin beds",
+          "note": "Deluxe",
+          "confirmed": true,
+          "url": "https://www.valverdepalacioseteais.com/en/rooms-and-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Signature Suite views differ: some look over the swimming pool, others over the Sintra valley toward the Atlantic Ocean.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "the Signature Suites offer stunning views over the swimming pool or the Sintra valley, extending all the way to the Atlantic Ocean.",
+          "note": "views differ",
+          "confirmed": true,
+          "url": "https://www.valverdepalacioseteais.com/en/rooms-and-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the historic building may have older infrastructure.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

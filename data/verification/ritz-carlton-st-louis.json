@@ -1,0 +1,375 @@
+{
+  "hotel_slug": "ritz-carlton-st-louis",
+  "hotel_name": "The Ritz-Carlton, St. Louis",
+  "checked_at": "2026-10-09T06:38:59.573Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 16,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 17
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ritzcarlton.com/en/hotels/stlrz-the-ritz-carlton-st-louis/overview/",
+      "tier": "official",
+      "chars": 11366
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ritzcarlton.com/en/hotels/stlrz-the-ritz-carlton-st-louis/rooms/",
+      "tier": "official",
+      "chars": 6279
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ritzcarlton.com/en/hotels/stlrz-the-ritz-carlton-st-louis/dining/",
+      "tier": "official",
+      "chars": 4013
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ritzcarlton.com/en/hotels/stlrz-the-ritz-carlton-st-louis/spa/",
+      "tier": "official",
+      "chars": 6935
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ritzcarlton.com/en/hotels/stlrz-the-ritz-carlton-st-louis/experiences/",
+      "tier": "official",
+      "chars": 9799
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ritzcarlton.com/en/hotels/stlrz-the-ritz-carlton-st-louis/club/",
+      "tier": "official",
+      "chars": 4988
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ritzcarlton.com/en/hotels/stlrz-the-ritz-carlton-st-louis/experiences/planning-your-trip/",
+      "tier": "official",
+      "chars": 18660
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ritzcarlton.com/en/hotels/stlrz-the-ritz-carlton-st-louis/reviews/",
+      "tier": "official",
+      "chars": 728
+    },
+    {
+      "id": "d9",
+      "url": "https://www.cntraveler.com/hotels/st-louis/ritz-carlton-st-louis",
+      "tier": "editorial",
+      "chars": 3264
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is in the Arts and Garden District of Clayton, Missouri.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Tucked within the Arts and Garden District of Clayton, Missouri, this hotel provides an elevated experience",
+          "note": "Page places hotel in Arts and Garden District of Clayton, Missouri",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/stlrz-the-ritz-carlton-st-louis/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The Club Lounge offers four presentations a day: breakfast, lunch, hors d'oeuvres and dessert.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "With four presentations per day — breakfast, lunch, hors d'oeuvres, and dessert",
+          "note": "Exact four presentations listed",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/stlrz-the-ritz-carlton-st-louis/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Missouri Black Walnut Massage uses sticks carved from locally sourced black walnuts.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Harnessing natural elements by using sticks carved from locally sourced Black walnuts",
+          "note": "Black Walnut Massage description matches",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/stlrz-the-ritz-carlton-st-louis/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The fitness center is open 24 hours.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The Ritz-Carlton, St. Louis Fitness Center is open 24 hours.",
+          "note": "Fitness center open 24 hours",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/stlrz-the-ritz-carlton-st-louis/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The fitness center has Peloton bikes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "2 Peloton Bikes",
+          "note": "Fitness center equipment lists Peloton bikes",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/stlrz-the-ritz-carlton-st-louis/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Young guests get a special registration experience and a hotel-wide scavenger hunt.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "From a special registration experience to a hotel-filled scavenger hunt, the possibilities to explore are endless.",
+          "note": "Ritz-Kids special registration and hotel scavenger hunt",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/stlrz-the-ritz-carlton-st-louis/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The hotel offers a Casa Don Alfonso Pizza Making Class as a hotel experience.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "experiences such as our Casa Don Alfonso Pizza Making Class or Healthy Mind & Body Yoga Class",
+          "note": "Listed among Hotel Experiences",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/stlrz-the-ritz-carlton-st-louis/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "St. Louis Lambert International Airport is 8.0 miles from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Distance from Property: 8.0 Miles",
+          "note": "Listed directly under St. Louis Lambert International Airport",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/stlrz-the-ritz-carlton-st-louis/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Guests must be 18 or older to access the spa facilities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Guests must be 18 or older to access the spa facilities.",
+          "note": "Age requirement stated",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/stlrz-the-ritz-carlton-st-louis/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "ACHI is an omakase experience with a 10-course tasting menu served at a 6-seat counter on select nights.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "experience an unforgettable 10-course tasting menu featuring the finest ingredients sourced from Japan and beyond. Behind an intimate 6-seat counter",
+          "note": "10-course, 6-seat counter, select nights stated on page",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/stlrz-the-ritz-carlton-st-louis/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Casa Don Alfonso, the hotel's Italian restaurant, serves Southern Italian flavors.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Savor the flavors of Southern Italy at Casa Don Alfonso",
+          "note": "Southern Italy flavors; also listed as Italian restaurant",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/stlrz-the-ritz-carlton-st-louis/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The spa's signature massages use ingredients such as Missouri red granite.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Missouri Red Rock Massage",
+          "note": "Signature massage uses Missouri red granite",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/stlrz-the-ritz-carlton-st-louis/spa/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "signature experiences incorporating ingredients such as red granite sourced from St. Louis area providers",
+          "note": "Signature experiences use red granite",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/stlrz-the-ritz-carlton-st-louis/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Club Lounge is on the 18th floor and overlooks the city's Garden and Cultural Arts District and the lights of Clayton.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Overlooking the city’s Garden and Cultural Arts District and the twinkling evening lights of Clayton",
+          "note": "View description; same passage names the 18th-floor Club Lounge",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/stlrz-the-ritz-carlton-st-louis/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Located on the 18th floor, Club Lounge provides a private sanctuary",
+          "note": "18th floor confirmed",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/stlrz-the-ritz-carlton-st-louis/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Club guest rooms and suites are on the 17th and 18th floors, steps from the Club Lounge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Guest rooms and suites are conveniently located on the 17th and 18th floors, making Club Lounge steps from your door",
+          "note": "Floors and proximity confirmed",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/stlrz-the-ritz-carlton-st-louis/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel does not provide shuttle service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "This hotel does not provide shuttle service.",
+          "note": "Stated directly",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/stlrz-the-ritz-carlton-st-louis/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Club access requires an upgraded booking; Marriott Bonvoy Elite Status does not provide complimentary access.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Club access requires an upgraded booking at the Club. Marriott Bonvoy Elite Status does not provide complimentary access to Club.",
+          "note": "Stated directly",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/stlrz-the-ritz-carlton-st-louis/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes an urban setting with limited outdoor space.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

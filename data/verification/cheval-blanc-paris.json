@@ -1,0 +1,403 @@
+{
+  "hotel_slug": "cheval-blanc-paris",
+  "hotel_name": "Cheval Blanc Paris",
+  "checked_at": "2026-10-17T13:23:43.271Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.chevalblanc.com/en/maison/paris/contact/",
+      "tier": "official",
+      "chars": 674
+    },
+    {
+      "id": "d2",
+      "url": "https://www.cntraveler.com/hotels/paris/cheval-blanc-paris",
+      "tier": "editorial",
+      "chars": 10614
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Cheval Blanc Paris is in the heart of historic Paris, in front of the Pont-Neuf, between the Louvre and Le Marais.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Cheval Blanc Paris is located at the heart of historic Paris, in front of the Pont-Neuf, between Le Louvre and Le Marais.",
+          "note": "location stated",
+          "confirmed": true,
+          "url": "https://www.chevalblanc.com/en/maison/paris/contact/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Notre Dame is a 15-minute walk away and the Louvre is 5 minutes from the front door.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Notre Dame is a 15-minute walk away on the Ile de la Cité, while the",
+          "note": "Notre Dame 15-minute walk",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/cheval-blanc-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "is just 5 minutes from the front door",
+          "note": "Louvre 5 minutes",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/cheval-blanc-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel sits within La Samaritaine, Henri Sauvage's 1928 Art Deco building and a designated historic site.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "the Paris Maison sits within Henri Sauvage's 1928 Art Déco masterpiece, La Samaritaine, a designated historic site",
+          "note": "building, architect, year, historic site",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/cheval-blanc-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "This section of La Samaritaine was restored and reworked into a hotel over five years, opening in fall 2021.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "This section of the building was meticulously restored and reworked into a hotel over the course of five years, opening in fall 2021.",
+          "note": "five years, fall 2021",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/cheval-blanc-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "In 2026, France's Ministry of Tourism awarded Cheval Blanc Paris the Palace distinction.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "In 2026, Cheval Blanc Paris was",
+          "note": "year",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/cheval-blanc-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "awarded “Palace” distinction",
+          "note": "Palace distinction",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/cheval-blanc-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "by France’s Ministry of Tourism",
+          "note": "awarding body",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/cheval-blanc-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Architect Peter Marino reworked the interiors, his first hotel project.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "architect Peter Marino, who reworked the interiors in his first hotel project",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/cheval-blanc-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The art in the shared spaces includes a Frank Gehry horse sculpture specially commissioned for the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "add pieces to the shared spaces in the spirit of a private Parisian home. Pieces include a Frank Gehry horse sculpture (specially commissioned for the Maison)",
+          "note": "shared spaces art incl. Gehry horse",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/cheval-blanc-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Guests have a dedicated butler during their stay.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "your dedicated butler, trained to anticipate your desires, can accommodate during your stay",
+          "note": "dedicated butler",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/cheval-blanc-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The bathroom amenities line was commissioned from Francois Demachy, Christian Dior's longtime in-house perfumer.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "an amenities line commissioned from François Demachy, Christian Dior's longtime in-house perfumer",
+          "note": "marble bathrooms amenities line",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/cheval-blanc-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The spa floor also has a 24/7 gym and a Rossano Ferretti hair salon.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Also on this floor: the 24/7 gym, complete the chicest Dior yoga mats, plus a Rossano Ferretti hair salon.",
+          "note": "on the spa floor",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/cheval-blanc-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Chef Arnaud Donckele and pastry chef Maxime Frederic lead the restaurants Plenitude, Hakuba and Le Tout-Paris.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Plénitude (French fare, three stars), Hakuba (Japanese, two stars), and Le Tout-Paris (French brasserie, one star). Led by chef Arnaud Donckele and pastry chef Maxime Frédéric, these venues",
+          "note": "chefs lead the three named venues",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/cheval-blanc-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The complimentary Le Carrousel kids club offers daily activities for guests up to age 12.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "the complementary Le Carrousel kids club offers daily activities for guests up to 12",
+          "note": "complementary is a typo for complimentary",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/cheval-blanc-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Dior Spa pool was designed by Peter Marino, set under a mirrored ceiling and surrounded by handcrafted mosaics by Michael Mayer.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The Dior Spa, which includes Paris’s longest indoor pool",
+          "note": "pool belongs to the Dior Spa",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/cheval-blanc-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "designed by architect Peter Marino, situated under a mirrored ceiling, and surrounded by handcrafted mosaics by Michael Mayer",
+          "note": "design details",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/cheval-blanc-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The spa has six Dior treatment suites, a marble-clad hammam, a sauna, a cold plunge and a snow shower.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Inside the spa itself, there are six Dior treatment suites, a marble-clad hammam, a sauna, cold plunge, and snow shower.",
+          "note": "all items",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/cheval-blanc-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "More than half of the rooms and suites have views of the River Seine; others look out at Parisian facades or the Louvre.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The Maison's 72 rooms and suites start at a generous 484 square feet, and more than half offer views of the River Seine (others look out at Parisian façades or the Louvre).",
+          "note": "views",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/cheval-blanc-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Guests can take a boat cruise on the Seine in a Cheval Blanc-chartered boat, accompanied by hotel staff with snacks, sweet treats and bubbles.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "a boat cruise on the Seine in a Cheval Blanc–chartered boat; hotel staff will accompany you with snacks, sweet treats, and bubbles",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/cheval-blanc-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "L'Appartement, on the 8th and 9th floors, has its own swimming pool, seven bedrooms and a panoramic terrace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "book L’Appartement, a nearly 11,000-square-foot space on the 8th and 9th floors",
+          "note": "floors",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/cheval-blanc-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "It has its own 40-foot-long swimming pool, a wellness area and a projection room, seven bedrooms, a panoramic terrace",
+          "note": "pool, bedrooms, terrace",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/cheval-blanc-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel, its restaurants and the Dior Spa are accessible to people with reduced mobility.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Maison, its restaurants and the Dior Spa Cheval Blanc are accessible to people with reduced mobility.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.chevalblanc.com/en/maison/paris/contact/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes ultra-premium pricing that reflects the hotel's luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the hotel's intimate size means availability can be limited.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

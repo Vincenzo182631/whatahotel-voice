@@ -1,0 +1,471 @@
+{
+  "hotel_slug": "four-seasons-toronto",
+  "hotel_name": "Four Seasons Hotel Toronto",
+  "checked_at": "2026-10-07T13:05:01.288Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 20,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 6,
+      "total": 26
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.fourseasons.com/toronto/",
+      "tier": "official",
+      "chars": 9006
+    },
+    {
+      "id": "d2",
+      "url": "https://press.fourseasons.com/toronto/hotel-facts/",
+      "tier": "official",
+      "chars": 4039
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/toronto/dining/",
+      "tier": "official",
+      "chars": 7639
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/toronto/services-and-amenities/",
+      "tier": "official",
+      "chars": 5291
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/toronto/getting-here/",
+      "tier": "official",
+      "chars": 3544
+    },
+    {
+      "id": "d6",
+      "url": "https://www.fourseasons.com/toronto/accommodations/specialty-suites/bellair-suite/",
+      "tier": "official",
+      "chars": 2260
+    },
+    {
+      "id": "d7",
+      "url": "https://www.cntraveler.com/hotels/toronto/four-seasons-hotel-toronto",
+      "tier": "editorial",
+      "chars": 6044
+    },
+    {
+      "id": "d8",
+      "url": "https://www.fourseasons.com/toronto/spa/",
+      "tier": "official",
+      "chars": 7313
+    },
+    {
+      "id": "d9",
+      "url": "https://www.fourseasons.com/toronto/accommodations/",
+      "tier": "official",
+      "chars": 6964
+    },
+    {
+      "id": "d10",
+      "url": "https://www.fourseasons.com/toronto/contact-us/",
+      "tier": "official",
+      "chars": 1606
+    },
+    {
+      "id": "d11",
+      "url": "https://www.fourseasons.com/toronto/photos-and-videos/",
+      "tier": "official",
+      "chars": 4846
+    },
+    {
+      "id": "d12",
+      "url": "https://www.fourseasons.com/toronto/discover/",
+      "tier": "official",
+      "chars": 2209
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Four Seasons Hotel Toronto is at 60 Yorkville Avenue, Toronto, Ontario.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "60 Yorkville Avenue, Toronto, Ontario M4W 0A4 Canada",
+          "note": "address matches",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/toronto/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is in the heart of Yorkville, near Bloor Street and Bay Street.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "located in the heart of Yorkville near Bloor Street and Bay Street",
+          "note": "location stated",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/toronto/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel opened in October 2012.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "October 2012",
+          "note": "opening date",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/toronto/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel has 259 rooms in total.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "each of the 259 rooms (including 42 suites) are bright and airy",
+          "note": "259 rooms",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/toronto/four-seasons-hotel-toronto",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The main tower has 55 stories.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "55 (main tower) and 26 (residential tower)",
+          "note": "main tower 55 stories",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/toronto/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Café Boulud is a French restaurant and brasserie by Chef Daniel Boulud.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Chef Daniel Boulud brings modern French dining with classic technique to Toronto at Café Boulud, a French restaurant and brasserie",
+          "note": "matches",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/toronto/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "d|bar by Chef Daniel Boulud is a cocktail bar, lounge and restaurant bar within the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "d\\|bar by Chef Daniel Boulud is a cocktail bar, lounge and restaurant bar located within Four Seasons Hotel Toronto",
+          "note": "matches",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/toronto/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel's spa is 30,000 square feet.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "2,787 sq m/ 30,000 sq ft",
+          "note": "spa size",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/toronto/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The spa has 19 treatment rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "and 19 treatment rooms",
+          "note": "19 treatment rooms",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/toronto/four-seasons-hotel-toronto",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel's indoor relaxation pool is on the ninth floor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Our indoor relaxation pool, hot tub and steam room are located on the ninth floor",
+          "note": "ninth floor",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/toronto/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel describes itself as a Forbes 5-Star luxury hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Four Seasons Hotel Toronto is a Forbes 5-Star luxury hotel in Toronto",
+          "note": "self-description",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/toronto/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The guest rooms and suites have floor-to-ceiling windows.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "spacious, residential-style guest rooms and suites with floor-to-ceiling windows",
+          "note": "matches",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/toronto/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Bellair Suite is on the 19th floor and has a fully equipped kitchen.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "On the 19th floor, the Bellair Suite provides an inviting and unforgettable residential atmosphere, complete with a fully equipped kitchen.",
+          "note": "floor and kitchen",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/toronto/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Royal Suite is on the 21st floor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Set on the 21st floor",
+          "note": "Royal Suite floor",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/toronto/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Canada Goose Lending Program lets guests borrow jackets during their stay.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "offers a selection of jackets available on loan during your stay",
+          "note": "jacket loan",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/toronto/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The hotel welcomes pets.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "We are delighted to welcome pets.",
+          "note": "pets welcome",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/toronto/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-6",
+      "text": "Condé Nast Traveler says all furniture in the rooms was designed and manufactured in Canada.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "all furniture has been designed and manufactured in Canada using local artisans and fabrics",
+          "note": "CN Traveler says so",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/toronto/four-seasons-hotel-toronto",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel is about 30 to 45 minutes by car from Toronto Pearson International Airport.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "which is about 30 to 45 minutes away from Toronto Pearson International Airport (YYZ)",
+          "note": "matches",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/toronto/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The fitness centre is available to registered hotel guests and residents only.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Available for registered Hotel guests and residents only.",
+          "note": "fitness centre access",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/toronto/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "d|azur is a seasonal outdoor patio.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "seasonal outdoor patio",
+          "note": "d|azur described as seasonal outdoor patio",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/toronto/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-4",
+      "text": "WhataHotel notes premium luxury pricing reflecting the upscale positioning.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, breakfast for two is free daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers can be combined with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

@@ -1,0 +1,451 @@
+{
+  "hotel_slug": "four-seasons-suzhou",
+  "hotel_name": "Four Seasons Hotel Suzhou",
+  "checked_at": "2026-10-08T03:04:36.267Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 6,
+      "total": 25
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://press.fourseasons.com/suzhou/hotel-facts/",
+      "tier": "official",
+      "chars": 10905
+    },
+    {
+      "id": "d2",
+      "url": "https://www.fourseasons.com/suzhou/",
+      "tier": "official",
+      "chars": 11579
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/suzhou/dining/",
+      "tier": "official",
+      "chars": 6303
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/suzhou/getting-here/",
+      "tier": "official",
+      "chars": 1730
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/suzhou/spa/",
+      "tier": "official",
+      "chars": 8063
+    },
+    {
+      "id": "d6",
+      "url": "https://www.fourseasons.com/suzhou/services-and-amenities/",
+      "tier": "official",
+      "chars": 3178
+    },
+    {
+      "id": "d7",
+      "url": "https://www.fourseasons.com/suzhou/services-and-amenities/family-and-kids/",
+      "tier": "official",
+      "chars": 8718
+    },
+    {
+      "id": "d8",
+      "url": "https://www.fourseasons.com/suzhou/contact-us/",
+      "tier": "official",
+      "chars": 1205
+    },
+    {
+      "id": "d9",
+      "url": "https://www.fourseasons.com/suzhou/discover/",
+      "tier": "official",
+      "chars": 2077
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel opened in December 2023.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "December 2023",
+          "note": "Opening date given as December 2023.",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/suzhou/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel has 210 accommodations.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "210 ACCOMMODATIONS, INCLUDING PENTHOUSE SUITES AND STAND-ALONE VILLAS",
+          "note": "Matches the claim.",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/suzhou/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel is a 9-hectare (22-acre) private island retreat on Jinji Lake.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "A 9-hectare (22-acre) private island retreat on Jinji Lake",
+          "note": "Matches the claim.",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/suzhou/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Accommodations include stand-alone villas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "guest rooms, suites and stand-alone villas",
+          "note": "Matches the claim.",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/suzhou/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Jin Jing Ge is the hotel's Chinese restaurant serving Jiangsu and Zhejiang cuisine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Jin Jing Ge, the specialty Chinese restaurant, puts the spotlight on sophisticated Jiangsu and Zhejiang cuisine",
+          "note": "Matches the claim.",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/suzhou/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Yun He is the hotel's all-day international dining restaurant.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Yun He is an all-day international dining restaurant",
+          "note": "Matches the claim.",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/suzhou/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Dolce Vita is the hotel's Italian restaurant and pool bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "at our Italian restaurant and pool bar in Suzhou",
+          "note": "Matches the claim.",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/suzhou/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Dolce Vita - Poolside Bar and Restaurant",
+          "note": "Names Dolce Vita as the poolside bar and restaurant",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/suzhou/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel has two swimming pools: a lake-view outdoor infinity pool and a glass-enclosed indoor pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "TWO SWIMMING POOLS: A LAKE-VIEW OUTDOOR INFINITY POOL AND A GLASS-ENCLOSED INDOOR POOL",
+          "note": "Matches the claim.",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/suzhou/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The hotel has a 24-hour fitness centre.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "24-HOUR FITNESS CENTRE",
+          "note": "Matches the claim.",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/suzhou/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel is a 60-minute drive from Shanghai Hongqiao International Airport.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "a 60-minute drive from Shanghai Hongqiao International Airport",
+          "note": "Matches the claim.",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/suzhou/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Shanghai can be reached via a short 30-minute train journey from Suzhou's railway station.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Shanghai can be reached via a short 30-minute train journey from Suzhou’s railway station.",
+          "note": "Matches the claim.",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/suzhou/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Jin Jing Ge is a Michelin-selected Chinese restaurant.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Jin Jing Ge, our Michelin‑selected Chinese restaurant in Suzhou",
+          "note": "Matches the claim.",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/suzhou/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Deluxe Lake-View Rooms have floor-to-ceiling windows with panoramic views over Jinji Lake.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Floor-to-ceiling windows fill these spaces with natural light while providing dramatic panoramic views over Jinji Lake",
+          "note": "Matches the claim.",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/suzhou/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Garden Terrace Rooms have sliding doors that lead out to a private terrace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "sliding doors that lead out to your own private terrace",
+          "note": "Matches the claim.",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/suzhou/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Puppies weighing up to 11.5 kilograms (25 pounds) are welcome.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Puppies weighing up to 11.5 kilograms (25 pounds) are welcome.",
+          "note": "Matches the claim.",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/suzhou/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Kids For All Seasons program is complimentary.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Our complimentary recreational and educational Kids For All Seasons program",
+          "note": "Matches the claim.",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/suzhou/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-6",
+      "text": "The spa welcomes guests into a sunken courtyard.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "welcomes you into a sunken courtyard",
+          "note": "Matches the claim.",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/suzhou/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The spa requires 24-hour advance reservation.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "24-hour advance reservation required",
+          "note": "Matches the claim.",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/suzhou/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The hotel is a 90-minute drive from Shanghai Pudong International Airport.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "a 90-minute drive from Shanghai Pudong International Airport",
+          "note": "Matches the claim.",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/suzhou/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing that reflects the luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, breakfast for two is free daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers can be combined with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

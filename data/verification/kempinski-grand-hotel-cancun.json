@@ -1,0 +1,429 @@
+{
+  "hotel_slug": "kempinski-grand-hotel-cancun",
+  "hotel_name": "Kempinski Grand Hotel Cancun",
+  "checked_at": "2026-10-11T04:28:58.171Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 16,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 17
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.kempinski.com/en/hotel-cancun/overview/hotel-information/prepare-your-stay/",
+      "tier": "official",
+      "chars": 4187
+    },
+    {
+      "id": "d2",
+      "url": "https://www.kempinski.com/en/hotel-cancun/overview/services-and-facilities/beach-villas/",
+      "tier": "official",
+      "chars": 1399
+    },
+    {
+      "id": "d3",
+      "url": "https://www.kempinski.com/en/hotel-cancun/overview/services-and-facilities/outdoor-pools/",
+      "tier": "official",
+      "chars": 1072
+    },
+    {
+      "id": "d4",
+      "url": "https://www.kempinski.com/en/hotel-cancun/overview/services-and-facilities/narita/",
+      "tier": "official",
+      "chars": 1802
+    },
+    {
+      "id": "d5",
+      "url": "https://www.kempinski.com/en/hotel-cancun/overview/services-and-facilities/lady-in-red/",
+      "tier": "official",
+      "chars": 2165
+    },
+    {
+      "id": "d6",
+      "url": "https://www.kempinski.com/en/hotel-cancun/overview/services-and-facilities/tennis-courts/",
+      "tier": "official",
+      "chars": 1103
+    },
+    {
+      "id": "d7",
+      "url": "https://www.kempinski.com/en/hotel-cancun/overview/services-and-facilities/kempinski-paws/",
+      "tier": "official",
+      "chars": 12957
+    },
+    {
+      "id": "d8",
+      "url": "https://www.kempinski.com/en/hotel-cancun/overview/services-and-facilities/the-club-lounge/",
+      "tier": "official",
+      "chars": 1549
+    },
+    {
+      "id": "d9",
+      "url": "https://www.kempinski.com/en/hotel-cancun/overview/services-and-facilities/pickleball-courts/",
+      "tier": "official",
+      "chars": 2632
+    },
+    {
+      "id": "d10",
+      "url": "https://www.kempinski.com/en/hotel-cancun/overview/services-and-facilities/concierge-services/",
+      "tier": "official",
+      "chars": 1402
+    },
+    {
+      "id": "d11",
+      "url": "https://www.kempinski.com/en/hotel-cancun/overview",
+      "tier": "official",
+      "chars": 1975
+    },
+    {
+      "id": "d12",
+      "url": "https://www.kempinski.com/en/hotel-cancun/overview/services-and-facilities/service-pet-policy/",
+      "tier": "official",
+      "chars": 1975
+    },
+    {
+      "id": "d13",
+      "url": "https://www.cntraveler.com/hotels/mexico/la-isla-dorado/ritz-carlton-cancun",
+      "tier": "editorial",
+      "chars": 4467
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is a beachfront resort in the Hotel Zone of Cancun.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Cancun beachfront resort",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.kempinski.com/en/hotel-cancun/overview/hotel-information/prepare-your-stay/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d13",
+          "quote": "right in the heart of Cancún’s Hotel Zone",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/mexico/la-isla-dorado/ritz-carlton-cancun",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The thatched beach villas accommodate up to four adults.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "designed to accommodate up to four adults",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.kempinski.com/en/hotel-cancun/overview/services-and-facilities/beach-villas/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Club Lounge is on the eighth floor and is for guests staying in Club rooms and suites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "Conveniently appointed on the eighth floor",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.kempinski.com/en/hotel-cancun/overview/services-and-facilities/the-club-lounge/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "exclusively designed for guests staying in the **Club rooms and suites**",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.kempinski.com/en/hotel-cancun/overview/services-and-facilities/the-club-lounge/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The tennis courts are beside the lagoon and are available to all hotel guests, booked through the concierge team.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "lagoon-side tennis courts",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.kempinski.com/en/hotel-cancun/overview/services-and-facilities/tennis-courts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "The courts are available to all hotel guests. Just book your preferred time through our concierge team.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.kempinski.com/en/hotel-cancun/overview/services-and-facilities/tennis-courts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Instructors teach beginners the rules of pickleball.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d9",
+          "quote": "we also have instructors who can teach you the rules of the game",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.kempinski.com/en/hotel-cancun/overview/services-and-facilities/pickleball-courts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The hotel has a spa, a fitness center and a kids' club.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d9",
+          "quote": "including a spa, fitness center, and kids' club",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.kempinski.com/en/hotel-cancun/overview/services-and-facilities/pickleball-courts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Boutique Narita, inside the hotel, sells international fashion, including the Camilla and La Perla boutiques.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Boutique Narita offers an exclusive selection of international fashion",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.kempinski.com/en/hotel-cancun/overview/services-and-facilities/narita/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Our boutiques, **Camilla** and **La Perla**",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.kempinski.com/en/hotel-cancun/overview/services-and-facilities/narita/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The concierge team can secure show seats and make restaurant reservations.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d10",
+          "quote": "From securing VIP seats for a show to making restaurant reservations",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.kempinski.com/en/hotel-cancun/overview/services-and-facilities/concierge-services/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The hotel operates a non-smoking policy.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "operates on a non-smoking policy",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.kempinski.com/en/hotel-cancun/overview/hotel-information/prepare-your-stay/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel has two temperature-controlled outdoor pools, a seafront hot tub and access to the Caribbean Sea.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Choose from two temperature-controlled pools, a seafront hot tub, or the Caribbean Sea.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.kempinski.com/en/hotel-cancun/overview/services-and-facilities/outdoor-pools/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Thatched-roof beach villas can be reserved on the beach at an additional cost.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Reserve your exclusive **beach villa at Kempinski Hotel Cancún** at an additional cost.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.kempinski.com/en/hotel-cancun/overview/services-and-facilities/beach-villas/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Club Lounge looks over the sunset on Nichupte Lagoon.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "Unmatched views of the sunset over the Nichupté Lagoon",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.kempinski.com/en/hotel-cancun/overview/services-and-facilities/the-club-lounge/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The hotel has pickleball courts with official measurements and lighting.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d9",
+          "quote": "as they have official measurements and lighting",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.kempinski.com/en/hotel-cancun/overview/services-and-facilities/pickleball-courts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "A host known as the Lady in Red, dressed in red, welcomes each guest and gives personalized assistance and local knowledge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Clad in a vibrant shade of red, she welcomes each guest with warmth and grace, offering personalized assistance and insider knowledge about the hotel and the local area.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.kempinski.com/en/hotel-cancun/overview/services-and-facilities/lady-in-red/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Companion dogs up to 15 kg (33 lb) are admitted under the Kempinski Paws program.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Maximum weight of 15 kg (33 lb).",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.kempinski.com/en/hotel-cancun/overview/services-and-facilities/kempinski-paws/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "_**Kempinski Paws**_ is a program exclusively intended for companion dogs.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.kempinski.com/en/hotel-cancun/overview/services-and-facilities/kempinski-paws/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "A dog's stay under Kempinski Paws needs prior confirmation by the hotel and is subject to availability.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Participation in Kempinski Paws is subject to availability and prior confirmation by Kempinski Hotel Cancún.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.kempinski.com/en/hotel-cancun/overview/services-and-facilities/kempinski-paws/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the Hotel Zone location is busy with tourist crowds.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

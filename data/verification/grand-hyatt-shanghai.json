@@ -1,0 +1,414 @@
+{
+  "hotel_slug": "grand-hyatt-shanghai",
+  "hotel_name": "Grand Hyatt Shanghai",
+  "checked_at": "2026-10-29T03:44:12.223Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 0,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/shagh-grand-hyatt-shanghai",
+      "tier": "official",
+      "chars": 9618
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/shagh-grand-hyatt-shanghai/rooms/",
+      "tier": "official",
+      "chars": 18151
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/shagh-grand-hyatt-shanghai/dining/",
+      "tier": "official",
+      "chars": 6804
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/shagh-grand-hyatt-shanghai/hotel-info/",
+      "tier": "official",
+      "chars": 2878
+    },
+    {
+      "id": "d5",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/shagh-grand-hyatt-shanghai/parking-and-transportation/",
+      "tier": "official",
+      "chars": 3233
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/shagh-grand-hyatt-shanghai/reviews/",
+      "tier": "official",
+      "chars": 30000
+    },
+    {
+      "id": "d7",
+      "url": "https://www.cntraveler.com/hotels/china/shanghai/grand-hyatt-shanghai",
+      "tier": "editorial",
+      "chars": 3410
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is in the Jin Mao Tower in the Lujiazui Financial District.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Occupying floors 54 to 87 of the iconic Jin Mao Tower in the Lujiazui Financial District",
+          "note": "States both the tower and the district.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/shagh-grand-hyatt-shanghai",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel features an octagonal pagoda design.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "the hotel features an octagonal pagoda design embodying exquisite oriental luxury",
+          "note": "Directly stated.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/shagh-grand-hyatt-shanghai",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel has a 33-storey central atrium.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "the hotel’s soaring 33-storey central atrium creates an architectural masterpiece",
+          "note": "Directly stated.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/shagh-grand-hyatt-shanghai",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Rooms combine allusions to art deco heritage with classical Chinese style.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "featuring allusions to art deco heritage combined with the essence of classical Chinese style",
+          "note": "Directly stated in the rooms description.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/shagh-grand-hyatt-shanghai",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Rooms have floor-to-ceiling windows and a separate deep-soaking bathtub.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Floor-to-ceiling windows offering sweeping views of the Pudong skyline welcome guests to this spacious 40 sq m (431 sq ft) room. Enjoy elegant art deco design, a generous work area, wireless Internet access, a separate deep-soaking bathtub",
+          "note": "Room descriptions mention both floor-to-ceiling windows and a separate deep-soaking bathtub.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/shagh-grand-hyatt-shanghai/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Club rooms include access to the Grand Club Lounge, which serves breakfast, evening cocktails and hors d'oeuvres.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Includes access to the Grand Club Lounge offering a private boardroom and serving breakfast, evening cocktails and hors d'oeuvres.",
+          "note": "Stated for the Club Access room types.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/shagh-grand-hyatt-shanghai/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Presidential Suite and Chairman Suite come with 24-hour butler service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "24-hour butler service",
+          "note": "Appears in the in-room amenity lists for both the Presidential Suite and the Chairman Suite.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/shagh-grand-hyatt-shanghai/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The fitness center is open 24 hours and private training instructors are available.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The 24-hour Fitness Center features extensive hi-tech equipment",
+          "note": "Establishes 24-hour operation.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/shagh-grand-hyatt-shanghai",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Private training instructors are also available to give a complete wellness experience.",
+          "note": "Establishes that private trainers are available.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/shagh-grand-hyatt-shanghai",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The hotel has seven restaurants and bars.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our collection of seven distinctive restaurants and bars",
+          "note": "Seven venues stated on the overview page.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/shagh-grand-hyatt-shanghai",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Seven remarkable restaurants and bars",
+          "note": "The dining page confirms seven.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/shagh-grand-hyatt-shanghai/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Club Jin Mao on the 86th floor has private dining rooms with views over both banks of the Huangpu River.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "exclusive private dining rooms deliver a tranquil retreat with sweeping views over both banks of the Huangpu River.",
+          "note": "Private dining rooms with views over both banks.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/shagh-grand-hyatt-shanghai/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Club Jin Mao on the 86th floor serves innovative Huaiyang and Shanghainese fusion dishes",
+          "note": "Confirms the 86th floor.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/shagh-grand-hyatt-shanghai/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Yu Garden is 0.96 miles from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "0.96 Miles away",
+          "note": "Listed under Yu Garden.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/shagh-grand-hyatt-shanghai",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Shanghai Metro Line 2 is 0.6 kilometers from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Shanghai Metro Line 20.6 kilometers0.6 kilometers",
+          "note": "Metro Line 2 is listed at 0.6 km.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/shagh-grand-hyatt-shanghai/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel has panoramic views of the Bund and the Huangpu River.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "it commands panoramic views of the timeless Bund scenery and the glittering Huangpu River",
+          "note": "Directly stated.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/shagh-grand-hyatt-shanghai",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The sky-high pool has panoramas of the Shanghai skyline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Feel alive in the sky-high pool, which features breathtaking panoramas of the Shanghai skyline.",
+          "note": "Directly stated.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/shagh-grand-hyatt-shanghai",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Presidential Suite has views of the skyline and the Bund, a kitchen, and a bath with a jet-spa tub and sauna.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Entertain lavishly in this 175 sq m (1,884 sq ft) suite that offers stunning skyline and the Bund views.",
+          "note": "Covers the skyline and Bund views.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/shagh-grand-hyatt-shanghai/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "a kitchen, and a large bath with a jet-spa tub, high-pressure shower and sauna.",
+          "note": "Covers the kitchen, jet-spa tub and sauna.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/shagh-grand-hyatt-shanghai/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Cloud 9 on the 87th floor is a Western-style restaurant and sky-high lounge with full-scale Shanghai views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Cloud 9 operates as a Western‑style restaurant and sky‑high lounge with full‑scale Shanghai views",
+          "note": "Describes the restaurant, lounge and views.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/shagh-grand-hyatt-shanghai/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Cloud 9 on the 87th floor combines Western",
+          "note": "Confirms the 87th floor.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/shagh-grand-hyatt-shanghai/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Pudong International Airport is 40 kilometers from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Pudong International Airport (PVG)40 kilometers40 kilometers",
+          "note": "Listed at 40 km.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/shagh-grand-hyatt-shanghai/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The hotel recommends local mapping apps such as Gaode Map or Baidu Map, as international mapping apps may not be accurate in Chinese Mainland.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "we recommend using local mapping applications such as Gaode Map or Baidu Map. International mapping apps may not be accurate in Chinese Mainland.",
+          "note": "Directly stated.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/shagh-grand-hyatt-shanghai/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "Guests must wear a swimsuit and a swimming cap in the pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "we kindly request that all guests wear an appropriate swimsuit and a swimming cap when using the pool.",
+          "note": "The hotel requests a swimsuit and swimming cap; the page phrases it as a request rather than a strict requirement.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/shagh-grand-hyatt-shanghai",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,418 @@
+{
+  "hotel_slug": "the-st-regis-toronto",
+  "hotel_name": "The St. Regis Toronto",
+  "checked_at": "2026-10-14T11:21:47.306Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/yyzxr-the-st-regis-toronto/overview/",
+      "tier": "official",
+      "chars": 17841
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/yyzxr-the-st-regis-toronto/rooms/",
+      "tier": "official",
+      "chars": 5467
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/yyzxr-the-st-regis-toronto/dining/",
+      "tier": "official",
+      "chars": 8211
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/yyzxr-the-st-regis-toronto/spa/",
+      "tier": "official",
+      "chars": 10400
+    },
+    {
+      "id": "d5",
+      "url": "https://www.marriott.com/en-us/hotels/yyzxr-the-st-regis-toronto/experiences/",
+      "tier": "official",
+      "chars": 27925
+    },
+    {
+      "id": "d6",
+      "url": "https://www.cntraveler.com/hotels/toronto/st-regis-toronto",
+      "tier": "editorial",
+      "chars": 5542
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Before becoming a St. Regis, the hotel was a Trump property and then The Adelaide.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "first as a Trump property, then as The Adelaide, and now as Canada’s first St. Regis",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/toronto/st-regis-toronto",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "LOUIX LOUIS sits 31 floors above the Toronto skyline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "LOUIX LOUIS soars 31 floors above the Toronto skyline",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/yyzxr-the-st-regis-toronto/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "LOUIX LOUIS serves American cuisine with a French twist.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Enjoy American cuisine with a French twist",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/yyzxr-the-st-regis-toronto/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel's take on the Bloody Mary is called the Rouge 140 and is served at LOUIX LOUIS.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Our version of the classic Bloody Mary, named the 'Rouge 140', is available at LOUIX LOUIS grand bar and restaurant",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/yyzxr-the-st-regis-toronto/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Afternoon tea features Midnight Blossom, a bespoke blend made for the hotel by Toronto-based Sloane Fine Tea Merchants.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Toronto-based Sloane Fine Tea Merchants who has curated an impeccable selection of fine teas including a bespoke blend made for The St. Regis Toronto, named Midnight Blossom",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/yyzxr-the-st-regis-toronto/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The 15,000-square-foot spa is on the 31st floor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Unwind at The St. Regis Spa Toronto, our 31st-floor sanctuary in the sky",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/yyzxr-the-st-regis-toronto/spa/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "the 15,000-square-foot spa hotel near downtown Toronto",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/yyzxr-the-st-regis-toronto/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Rooms start at 550 square feet.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "which start at 550 square feet",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/yyzxr-the-st-regis-toronto/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Every room and suite has a European-style wet bar and a Nespresso beverage system.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Enjoy a European-style wet bar, free Wi-Fi and a Nespresso® beverage system in every room and suite",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/yyzxr-the-st-regis-toronto/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Bathrooms have a rainfall shower, a deep-soaking tub and an in-mirror TV.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Find a rainfall shower, deep-soaking tub and in-mirror TV in your hotel room's spacious bathroom",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/yyzxr-the-st-regis-toronto/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The Caroline Astor and John Jacob Astor suites are on the 30th floor, each with a kitchen, living and dining room and two bedrooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The Caroline Astor and John Jacob Astor suites are located on the 30th floor of the hotel showcasing 1,675 and 2,035 square feet of stunning space including a kitchen, living and dining room, 2 bedrooms, and 2.5 bathrooms.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/yyzxr-the-st-regis-toronto/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "All rooms come with St. Regis butler service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "all rooms come with St. Regis butler service",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/toronto/st-regis-toronto",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Family experiences include a movie and popcorn night, an in-room Wilderness Retreat and Mrs Astor's Little Tea society.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Entertain every age with a movie and popcorn night, cozy up with our in-room Wilderness Retreat or delight little ones with Mrs Astor's Little Tea society.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/yyzxr-the-st-regis-toronto/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The St. Regis Toronto is Canada's first St. Regis hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "the country’s first St. Regis hotel",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/yyzxr-the-st-regis-toronto/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "now as Canada’s first St. Regis",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/toronto/st-regis-toronto",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "LOUIX LOUIS's interior is designed to represent the inside of a crystal whiskey glass, inspired by Toronto's distilling heritage.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Inspired by Toronto’s heritage as one of the largest distillery districts in the world during the turn of the 19th century, the dramatic interior is designed to represent the inside of a glistening crystal whiskey glass",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/yyzxr-the-st-regis-toronto/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "At the heart of LOUIX LOUIS is a two-story grand bar showcasing over 500 dark spirits.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "At the heart of the restaurant is the glamorous two-story high grand bar showcasing over 500 dark spirits.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/yyzxr-the-st-regis-toronto/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The hotel holds a champagne sabering ritual at 6 pm every day in the lobby-level Astor Lounge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The St. Regis Toronto hosts this signature ritual at 6:00 pm in Astor Lounge seven days a week, located lobby-level",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/yyzxr-the-st-regis-toronto/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "An infinity-edge lap pool and whirlpool are on the 32nd floor, along with a dry sauna and steam room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Relax even further at our infinity-edge lap pool and whirlpool on the hotel's 32nd floor, or in our detoxifying dry sauna and steam room.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/yyzxr-the-st-regis-toronto/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Billy Bishop Toronto City Airport is about 3 km away, but the hotel does not provide an airport shuttle.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "YTZ is located approximately 3.0 KM from the hotel.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/yyzxr-the-st-regis-toronto/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "No, The St. Regis Toronto does not have an airport shuttle to Billy Bishop Toronto City Airport.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/yyzxr-the-st-regis-toronto/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Self parking and valet parking each cost $70 per day.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Self parking is available for $70.00 per day. Valet parking is available for $70.00 per day.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/yyzxr-the-st-regis-toronto/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium luxury pricing reflecting the high-end positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

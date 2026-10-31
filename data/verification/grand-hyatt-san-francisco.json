@@ -1,0 +1,392 @@
+{
+  "hotel_slug": "grand-hyatt-san-francisco",
+  "hotel_name": "Grand Hyatt San Francisco",
+  "checked_at": "2026-10-29T03:49:45.800Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/sfous-grand-hyatt-san-francisco",
+      "tier": "official",
+      "chars": 11906
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/sfous-grand-hyatt-san-francisco/rooms/",
+      "tier": "official",
+      "chars": 17302
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/sfous-grand-hyatt-san-francisco/dining/",
+      "tier": "official",
+      "chars": 3844
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/sfous-grand-hyatt-san-francisco/parking-and-transportation/",
+      "tier": "official",
+      "chars": 3415
+    },
+    {
+      "id": "d5",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/sfous-grand-hyatt-san-francisco/hotel-info/",
+      "tier": "official",
+      "chars": 3647
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/sfous-grand-hyatt-san-francisco/reviews/",
+      "tier": "official",
+      "chars": 28285
+    },
+    {
+      "id": "d7",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/sfous-grand-hyatt-san-francisco/policies/",
+      "tier": "official",
+      "chars": 5202
+    },
+    {
+      "id": "d8",
+      "url": "https://www.cntraveler.com/hotels/united-states/san-francisco/grand-hyatt-san-francisco",
+      "tier": "editorial",
+      "chars": 3722
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Grand Hyatt San Francisco is a downtown high-rise hotel on Union Square.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located in the heart of the city on Union Square, our downtown high rise hotel is the perfect jumping-off point",
+          "note": "The page describes it as a downtown high-rise hotel on Union Square.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sfous-grand-hyatt-san-francisco",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is minutes from Chinatown, Golden Gate Theatre and Hayes Valley.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "You’ll be minutes away from key attractions and iconic landmarks such as Chinatown, Golden Gate Theatre, Hayes Valley and Union Square as a guest at our hotel",
+          "note": "All three named places are listed as minutes away.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sfous-grand-hyatt-san-francisco",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Floor-to-ceiling windows in each room look out on Union Square, the bay or the city.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Floor-to-ceiling windows in each room offer unbeatable Union Square, bay or city views.",
+          "note": "This matches the claim directly.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sfous-grand-hyatt-san-francisco/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Bay View rooms are on the 19th floor or higher.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "floor-to-ceiling windows with stunning San Francisco Bay views from the 19th floor or higher",
+          "note": "Stated for the 2 Double Beds Bay View room.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sfous-grand-hyatt-san-francisco/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "floor-to-ceiling windows with bay views from the 19th floor or higher",
+          "note": "Stated for the 1 King Bed Bay View room.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sfous-grand-hyatt-san-francisco/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Suites have a separate living area and hardwood floors.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Suites feature more space with a separate living area as well as hardwood floors for an elegant stay.",
+          "note": "This matches the claim directly.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sfous-grand-hyatt-san-francisco/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Deluxe Suite on the 33rd floor has a large wet bar and San Francisco Bay views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Indulge in this 655-square-foot suite on the 33rd floor, with a king bed, hardwood floors, separate living area, large wet bar and stunning San Francisco Bay views.",
+          "note": "The Deluxe Suite description covers the floor, the wet bar and the bay views.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sfous-grand-hyatt-san-francisco/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "From the 22nd floor, the Bayview Residence looks over San Francisco Bay and the Financial District.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "From the 22nd floor, this spacious residence features remarkable San Francisco Bay and Financial District views.",
+          "note": "This matches the claim directly.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sfous-grand-hyatt-san-francisco/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Rooms have Balmain bath amenities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Balmain bath amenities",
+          "note": "Listed in the in-room amenities for every room type.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sfous-grand-hyatt-san-francisco/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The concierge desk has a map of scenic jogging routes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "We also offer a business card–size map highlighting scenic jogging routes, available from the concierge desk.",
+          "note": "This matches the claim directly.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sfous-grand-hyatt-san-francisco",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "OneUP Restaurant serves a buffet breakfast of American classics.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Start your day with our delicious American classics, served buffet-style for a satisfying breakfast experience.",
+          "note": "This matches the claim directly.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sfous-grand-hyatt-san-francisco/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "OneUP Lounge, on the Mezzanine Level, serves wines, cocktails and savory bites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Located on the Mezzanine Level, OneUP Lounge is the perfect spot to gather with friends, family, or colleagues. Enjoy fine wines, crafted cocktails, and savory bites in a stylish setting.",
+          "note": "Both the location and the offerings are covered.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sfous-grand-hyatt-san-francisco/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Luxury Suite on the 34th floor has a kitchenette, a sauna, a soaking tub and floor-to-ceiling city views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Make your Union Square stay luxurious in 936 square feet, with a king bed, separate living area, kitchenette, sauna, soaking tub, hardwood floors and floor-to-ceiling city views from the 34th floor.",
+          "note": "Every element of the claim is covered.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sfous-grand-hyatt-san-francisco/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Bayview Residence is a two-bedroom apartment with a full kitchen.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Make yourself at home inside this two-bedroom, 1,250-square-foot apartment offering a full kitchen",
+          "note": "Confirms a two-bedroom apartment with a full kitchen.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sfous-grand-hyatt-san-francisco/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The 35th-floor fitness center has floor-to-ceiling windows with sweeping views of the city.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our high rise hotel’s 35th-floor facility features floor-to-ceiling windows with sweeping views of the City by the Bay to fuel your spirit as you recharge.",
+          "note": "Refers to the StayFit fitness center on the 35th floor.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sfous-grand-hyatt-san-francisco",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The hotel's wedding venues include a top-floor reception area with panoramic views of San Francisco Bay.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Let our wedding specialists help you bring your dream to life with our Union Square wedding venues, including a top-floor reception area featuring panoramic views of San Francisco Bay.",
+          "note": "This matches the claim directly.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sfous-grand-hyatt-san-francisco",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Club Access rooms include the Grand Club lounge, which serves free breakfast and snacks.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "This room also offers access to our Grand Club lounge serving free breakfast, snacks and other amenities.",
+          "note": "Stated for the 2 Double Beds Club Access room.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sfous-grand-hyatt-san-francisco/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "access to our Grand Club lounge serving free breakfast, snacks and other amenities.",
+          "note": "Stated for the 1 King Bed Club Access room.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sfous-grand-hyatt-san-francisco/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Self-parking is in the Sutter-Stockton Garage at 444 Stockton Street, not at the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Covered self-parking is available for our guests, located at Sutter-Stockton Garage, 444 Stockton Street.",
+          "note": "The garage is at 444 Stockton, a different address from the hotel at 345 Stockton Street.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sfous-grand-hyatt-san-francisco/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Guests bringing a dog must tell the hotel at least three days before arrival.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "To participate in the pet program, inform the hotel at least three days before arrival that you’ll have a pet (or pets) staying with you.",
+          "note": "The policy page states the three-day notice requirement.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sfous-grand-hyatt-san-francisco/policies/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Please inform the hotel at least three days before arrival that you’ll have a pet (or pets) staying with you.",
+          "note": "The overview page repeats the same requirement under its welcome to canine companions.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sfous-grand-hyatt-san-francisco",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes a busy downtown location with urban noise.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

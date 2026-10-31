@@ -1,0 +1,462 @@
+{
+  "hotel_slug": "intercontinental-buckhead-atlanta",
+  "hotel_name": "InterContinental Buckhead Atlanta",
+  "checked_at": "2026-10-30T06:33:29.540Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/atlanta/atlbh/hoteldetail",
+      "tier": "official",
+      "chars": 15908
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/atlanta/atlbh/hoteldetail/rooms/",
+      "tier": "official",
+      "chars": 4822
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/atlanta/atlbh/hoteldetail/dining/",
+      "tier": "official",
+      "chars": 7261
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/atlanta/atlbh/hoteldetail/amenities/",
+      "tier": "official",
+      "chars": 10774
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/atlanta/atlbh/hoteldetail/local-area-guide/",
+      "tier": "official",
+      "chars": 2648
+    },
+    {
+      "id": "d6",
+      "url": "https://www.cntraveler.com/hotels/atlanta/intercontinental-buckhead-atlanta-an-ihg-hotel",
+      "tier": "editorial",
+      "chars": 5714
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/atlanta/atlbh/hoteldetail/directions/",
+      "tier": "official",
+      "chars": 3307
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/atlanta/atlbh/hoteldetail/",
+      "tier": "official",
+      "chars": 15908
+    },
+    {
+      "id": "d9",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/atlanta/atlbh/hoteldetail/hotel-reviews/",
+      "tier": "official",
+      "chars": 26422
+    },
+    {
+      "id": "d10",
+      "url": "https://www.cntraveler.com/hotels/united-states/atlanta/intercontinental-buckhead-atlanta",
+      "tier": "editorial",
+      "chars": 5469
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is in Atlanta's Buckhead neighborhood.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "you’ll experience reimagined luxury in Atlanta’s prestigious Buckhead neighborhood",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/atlanta/atlbh/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is one block from MARTA and provides access to Buckhead Village and Lenox Square.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "One block from MARTA with complimentary house car service within two miles, the hotel provides access to Buckhead Village, Lenox Square.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/atlanta/atlbh/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The rotunda lobby has high-backed chairs around small tables, marble floors and giant planters.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Inside the rotunda lobby, high-backed chairs surround small tables and guests sit in hushed conversation. The marble floors, giant planters, and neutral tones",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/atlanta/intercontinental-buckhead-atlanta-an-ihg-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Works by Atlanta-based mixed media artist Niki Zarrabi adorn the walls of the Great Hall.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The captivating works of Niki Zarrabi, an Atlanta-based mixed media artist, adorn the walls of the Great Hall.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/atlanta/atlbh/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Rooms and suites have designer furniture and monogrammed motifs inspired by Atlanta's architecture.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "our newly reimagined Buckhead, Atlanta rooms and suites are a beautiful balance of timeless design and contemporary elegance",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/atlanta/atlbh/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "adorned with designer furniture and monogrammed motifs inspired by Atlanta’s architecture",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/atlanta/atlbh/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Rooms have a luxurious soaking tub.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "premium TV channels and a luxurious soaking tub make it easy to unwind at the end of the day",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/atlanta/atlbh/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Rooms have pillow-top beds and a separate shower and tub.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Maybe it’s the pillow-top beds, the separate shower and tub, or the tasteful potted plants.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/atlanta/intercontinental-buckhead-atlanta-an-ihg-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The spa is paired with an adjacent fitness center and a heated outdoor saltwater pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "seamlessly paired with an adjacent state-of-the-art fitness center and heated outdoor saltwater pool",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/atlanta/atlbh/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Spa treatments range from antioxidant facials to lavender mud wraps.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "The small spa offers a full menu of treatments, from antioxidant facials to lavender mud wraps",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/atlanta/intercontinental-buckhead-atlanta-an-ihg-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The fitness center has Peloton bikes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Our cutting-edge Buckhead, Atlanta hotel fitness center features Peloton bikes",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/atlanta/atlbh/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Cabanas can be booked at Peachtree Pool, with a cheese and charcuterie board paired with Chandon Garden Spritz or Whispering Angel Rosé.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Elevate your summer with a cabana stay at Peachtree Pool. Enjoy a premium cheese and charcuterie board paired perfectly with your choice of Chandon Garden Spritz or Whispering Angel Rosé.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/atlanta/atlbh/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Contact the Front Desk to book cabanas.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/atlanta/atlbh/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The Americano is helmed by chef Scott Conant and features fine steaks, freshly made pasta, Mediterranean seafood and an extensive wine list.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Helmed by celebrity chef and two-time James Beard Award-winner Chef Scott Conant, The Americano features fine steaks, freshly made pasta, Mediterranean seafood, and an extensive wine list.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/atlanta/atlbh/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Twin murals by Atlanta-based mixed media artist Niki Zarrabi in the Great Hall feature Georgia's state flower, the Cherokee Rose.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "her twin murals quite fittingly feature Georgia’s state flower, the Cherokee Rose",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/atlanta/atlbh/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The captivating works of Niki Zarrabi, an Atlanta-based mixed media artist, adorn the walls of the Great Hall.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/atlanta/atlbh/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Club InterContinental lounge is a fully staffed 21st-floor lounge with daily complimentary breakfast, snacks and evening refreshments.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Club InterContinental",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/atlanta/atlbh/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "our fully staffed 21st-floor lounge featuring daily complimentary breakfast, snacks, and evening refreshments",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/atlanta/atlbh/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The heated saltwater Peachtree Pool and Sun Terrace are open year-round.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Our heated saltwater Peachtree Pool and Sun Terrace are open year-round for swimming, socializing and summertime drinks and snacks served poolside.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/atlanta/atlbh/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Presidential Suites feature original artwork, plush furnishings and a dual-sided fireplace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Highlights of the Presidential Suites include original artwork, plush furnishings, and a chic dual-sided fireplace.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/atlanta/atlbh/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "It is an easy half-mile walk along Peachtree Road to Lenox Square and Shops Around Lenox.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "it’s an easy half-mile walk along Peachtree Road to Lenox Square (David Yurman, Escada) and Shops Around Lenox (Lululemon, Draper James)",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/atlanta/intercontinental-buckhead-atlanta-an-ihg-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "A daily destination fee is applied to each room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "To elevate your experience, a daily destination fee of $35 plus taxes",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/atlanta/atlbh/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "will be applied to each room during your stay",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/atlanta/atlbh/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The minimum check-in age is 18.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "**Minimum check-in age:** 18",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/atlanta/atlbh/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes that the urban setting may lack a resort-style atmosphere.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

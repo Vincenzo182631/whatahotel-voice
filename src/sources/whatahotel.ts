@@ -120,7 +120,17 @@ export function parseWhataHotelPage(html: string, url: string, fetchedAt = new D
 }
 
 export async function fetchWhataHotelPage(url: string): Promise<WhataHotelPage> {
-  const res = await fetch(url, { headers: { "User-Agent": "WhataHotelVoice/0.1 (+internal content pipeline)" } });
-  if (!res.ok) throw new Error(`GET ${url} -> ${res.status}`);
-  return parseWhataHotelPage(await res.text(), url);
+  let last: unknown;
+  for (let attempt = 1; attempt <= 4; attempt++) {
+    try {
+      const res = await fetch(url, { headers: { "User-Agent": "WhataHotelVoice/0.1 (+internal content pipeline)" } });
+      if (res.ok) return parseWhataHotelPage(await res.text(), url);
+      last = new Error(`GET ${url} -> ${res.status}`);
+      if (res.status < 500 && res.status !== 429) break;
+    } catch (err) {
+      last = err; // network hiccup: retry
+    }
+    await new Promise((r) => setTimeout(r, 1000 * attempt));
+  }
+  throw last;
 }

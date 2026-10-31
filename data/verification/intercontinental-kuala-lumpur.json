@@ -1,0 +1,429 @@
+{
+  "hotel_slug": "intercontinental-kuala-lumpur",
+  "hotel_name": "InterContinental Kuala Lumpur",
+  "checked_at": "2026-10-30T07:29:36.321Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/kuala-lumpur/kulha/hoteldetail",
+      "tier": "official",
+      "chars": 9729
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/kuala-lumpur/kulha/hoteldetail/rooms/",
+      "tier": "official",
+      "chars": 3612
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/kuala-lumpur/kulha/hoteldetail/dining/",
+      "tier": "official",
+      "chars": 6691
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/kuala-lumpur/kulha/hoteldetail/amenities/",
+      "tier": "official",
+      "chars": 6230
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/kuala-lumpur/kulha/hoteldetail/directions/",
+      "tier": "official",
+      "chars": 3144
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/kuala-lumpur/kulha/hoteldetail/",
+      "tier": "official",
+      "chars": 20
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/kuala-lumpur/kulha/hoteldetail/hotel-reviews/",
+      "tier": "official",
+      "chars": 23346
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/kuala-lumpur/kulha/hoteldetail/local-area-guide/",
+      "tier": "official",
+      "chars": 7667
+    },
+    {
+      "id": "d9",
+      "url": "https://www.cntraveler.com/hotels/malaysia/kuala-lumpur/intercontinental-kuala-lumpur",
+      "tier": "editorial",
+      "chars": 3658
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "InterContinental Kuala Lumpur is steps away from the Twin Towers, the Kuala Lumpur Convention Centre, and shopping and entertainment.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "InterContinental Kuala Lumpur is steps away from the iconic Twin Towers, Kuala Lumpur Convention Centre and shopping & entertainment activities.",
+          "note": "all elements stated",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/kuala-lumpur/kulha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is at 165 Jalan Ampang, Kuala Lumpur.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "165 JALAN AMPANG Kuala Lumpur, 50450 Malaysia",
+          "note": "address",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/kuala-lumpur/kulha/hoteldetail/directions/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel lists Ampang Park LRT Station and Persiaran KLCC MRT Station as nearby public transportation.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Persiaran KLCC MRT Station",
+          "note": "listed under public transportation",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/kuala-lumpur/kulha/hoteldetail/directions/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Ampang Park LRT Station",
+          "note": "listed under public transportation",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/kuala-lumpur/kulha/hoteldetail/directions/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Rooms offer a Super King-sized bed or two super single twin beds, plus a working space with a multi-media hub.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Choose from a Super King-sized bed or two super single twin beds and stay productive at the generous working space with a multi-media hub.",
+          "note": "beds and work space",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/kuala-lumpur/kulha/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Complimentary self parking is available daily.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Complimentary daily self parking",
+          "note": "parking",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/kuala-lumpur/kulha/hoteldetail/directions/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The hotel's spa is Jade Heritage Spa, with treatments including facials and foot reflexology.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Jade Heritage Spa",
+          "note": "spa name",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/kuala-lumpur/kulha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Facials",
+          "note": "treatment listed",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/kuala-lumpur/kulha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": false
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Foot Reflexology",
+          "note": "treatment listed",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/kuala-lumpur/kulha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "In-room spa services are available.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "In-room spa services",
+          "note": "listed under For your convenience",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/kuala-lumpur/kulha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel hosts events in nine venues and two pillarless ballrooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Host events in our nine venues and two pillarless ballrooms.",
+          "note": "venues",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/kuala-lumpur/kulha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Serena Brasserie is set amid a koi garden with a cascading waterfall and serves buffet spreads and an a la carte menu of local and international dishes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Set amidst a relaxing Koi garden with a cascading waterfall, this restaurant offers guests bountiful buffet spreads and an à la carte menu of local and international delicacies.",
+          "note": "Serena Brasserie section",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/kuala-lumpur/kulha/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "OneSixFive Lounge serves signature Royal High Tea sets with Beef Wellington and pastries, paired with fine teas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The lounge also features its signature Royal High Tea sets with Beef Wellington and pastries, paired with a variety of fine teas.",
+          "note": "OneSixFive Lounge section",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/kuala-lumpur/kulha/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel is single-use plastic free.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Single-use plastic-free hotel",
+          "note": "hotel feature",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/kuala-lumpur/kulha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Children's activities are offered on site.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Children's activities onsite",
+          "note": "kids activities",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/kuala-lumpur/kulha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The outdoor pool is on level 5, surrounded by lush green landscaping, with a pool bar serving cold drinks.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Located on level 5, the swimming pool offers a relaxing sanctuary surrounded by lush green landscape where guests can take a leisurely dip, sunbathe or enjoy a cold beverage served from the pool bar.",
+          "note": "level 5, landscape, pool bar",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/kuala-lumpur/kulha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Outdoor pool",
+          "note": "outdoor",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/kuala-lumpur/kulha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Club InterContinental lounge gives guests with access enhanced benefits.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Elevate your InterContinental experience with exclusive access to the luxurious Club InterContinental lounge, a refined space with an impressive level of hospitality and enhanced guest benefits.",
+          "note": "enhanced benefits",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/kuala-lumpur/kulha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Rooms have a large marble bathroom with a separate shower and bathtub.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Large marble bathroom with a separate shower & bathtub.",
+          "note": "bathroom",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/kuala-lumpur/kulha/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Tatsu Japanese Cuisine blends Japanese aesthetics with a contemporary, minimalist design across its sushi bar, teppanyaki counter and main dining room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "This restaurant combines a subtle blend of Japanese aesthetics with a contemporary, minimalist design across the sushi bar, teppanyaki counter, main dining room",
+          "note": "Tatsu section",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/kuala-lumpur/kulha/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Pets are not allowed at the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "No, pets are not allowed at InterContinental Kuala Lumpur.",
+          "note": "pets",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/kuala-lumpur/kulha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The Club InterContinental lounge has a smart casual dress code with appropriate footwear.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "We appreciate if guests kindly adhere to the Club dress code: smart casual with appropriate footwear when inside the lounge.",
+          "note": "dress code",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/kuala-lumpur/kulha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes a busy urban location with city traffic and noise.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

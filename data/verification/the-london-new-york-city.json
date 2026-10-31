@@ -1,0 +1,384 @@
+{
+  "hotel_slug": "the-london-new-york-city",
+  "hotel_name": "The London, New York City",
+  "checked_at": "2026-10-24T05:57:20.651Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 18
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/nycmx-the-london-a-luxury-collection-hotel-new-york-city/overview/",
+      "tier": "official",
+      "chars": 12446
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/nycmx-the-london-a-luxury-collection-hotel-new-york-city/rooms/",
+      "tier": "official",
+      "chars": 10486
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/nycmx-the-london-a-luxury-collection-hotel-new-york-city/dining/",
+      "tier": "official",
+      "chars": 6935
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/nycmx-the-london-a-luxury-collection-hotel-new-york-city/experiences/",
+      "tier": "official",
+      "chars": 11189
+    },
+    {
+      "id": "d5",
+      "url": "https://www.marriott.com/en-us/hotels/nycmx-the-london-a-luxury-collection-hotel-new-york-city/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "chars": 338
+    },
+    {
+      "id": "d6",
+      "url": "https://www.cntraveler.com/hotels/united-states/new-york/the-london-nyc--new-york",
+      "tier": "editorial",
+      "chars": 4689
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is at 151 West 54th Street, between Sixth and Seventh Avenues, with MoMA a block south, Carnegie Hall three blocks north and Central Park just beyond.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "151 West 54th Street, between Sixth and Seventh Avenues. MoMA sits a block south, Carnegie Hall three north, and Central Park just beyond.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/nycmx-the-london-a-luxury-collection-hotel-new-york-city/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel spans 54 floors in Midtown Manhattan.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Spanning 54 floors, The London NYC offers expansive accommodations that bring a sense of residential ease to Midtown Manhattan.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/nycmx-the-london-a-luxury-collection-hotel-new-york-city/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Nearly every accommodation at the hotel is a suite.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Because nearly every accommodation here is a suite",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/nycmx-the-london-a-luxury-collection-hotel-new-york-city/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Every suite is laid out like a London flat, with living space apart from the bedroom and a dedicated workspace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Every suite follows the logic of a London flat. Living space sits apart from where you sleep, and a dedicated workspace means the two never compete for the same corner.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/nycmx-the-london-a-luxury-collection-hotel-new-york-city/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Rooms are designed with herringbone wood floors, hand-tufted rugs and Carrara marble bathrooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Impeccably designed with herringbone wood floors, hand-tufted rugs and Carrara marble bathrooms",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/nycmx-the-london-a-luxury-collection-hotel-new-york-city/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Bathrooms have a whirlpool tub and marble vanities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "A whirlpool tub and marble vanities transform our bathrooms into a spa-like oasis.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/nycmx-the-london-a-luxury-collection-hotel-new-york-city/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "In-room comforts include an espresso machine, bathrobes and slippers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Sophisticated comforts include an in-room espresso machine, bathrobes and slippers.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/nycmx-the-london-a-luxury-collection-hotel-new-york-city/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The signature accommodations include the light-filled Atrium Suite, the Sky Suites and the Penthouse.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "From the light-filled Atrium Suite to the elevated Sky Suites and Penthouse, The London NYC’s signature accommodations offer an exceptional sense of space and privacy.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/nycmx-the-london-a-luxury-collection-hotel-new-york-city/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The fitness center features Technogym equipment, including the Technogym Kinesis Personal Heritage.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The London’s flagship fitness center brings together contemporary Technogym equipment",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/nycmx-the-london-a-luxury-collection-hotel-new-york-city/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "the Technogym Kinesis Personal Heritage supports a wide range of natural movements",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/nycmx-the-london-a-luxury-collection-hotel-new-york-city/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Dabble, the hotel's restaurant near Carnegie Hall, suits pre-theatre dining or a nightcap.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Warm and sophisticated, our Midtown Manhattan restaurant near Carnegie Hall is ideal for pre-theatre dining in NYC or a nightcap.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/nycmx-the-london-a-luxury-collection-hotel-new-york-city/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Pets are welcome.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Pets Welcome.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/nycmx-the-london-a-luxury-collection-hotel-new-york-city/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Complimentary MoMA admission is available to hotel guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Explore MoMA just steps away, with complimentary admission available to hotel guests",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/nycmx-the-london-a-luxury-collection-hotel-new-york-city/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Park View suites and the Premium Park View Apartment look out across Central Park.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our Park View suites and the 1,800 square foot Premium Park View Apartment look out across Central Park",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/nycmx-the-london-a-luxury-collection-hotel-new-york-city/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "A weekly Friday guided tour explores the hotel's art collection, with works by Matisse and Warhol alongside a Venice Biennale sculpture and a Turner Prize winner.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Discover the stories behind The London NYC’s art collection during our weekly Friday guided tour.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/nycmx-the-london-a-luxury-collection-hotel-new-york-city/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "works by Matisse and Warhol alongside a Venice Biennale sculpture and a Turner Prize winner",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/nycmx-the-london-a-luxury-collection-hotel-new-york-city/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Each evening Dabble serves a complimentary Epicurean Moment of seasonal bites paired with wines and beers made in New York State.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "It is offered daily in Dabble at 5:30, complimentary, with seasonal bites paired against wines and beers made in New York State.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/nycmx-the-london-a-luxury-collection-hotel-new-york-city/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Every evening at 5:30, a few small plates appear in Dabble.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/nycmx-the-london-a-luxury-collection-hotel-new-york-city/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The minimum age to check in is 21.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Minimum Age to Check In: 21",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/nycmx-the-london-a-luxury-collection-hotel-new-york-city/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Rollaway beds are not permitted in the rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "No, the rooms at The London, a Luxury Collection Hotel, New York City do not permit rollaway beds.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/nycmx-the-london-a-luxury-collection-hotel-new-york-city/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the Midtown setting brings bustling urban energy, street noise and foot traffic.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

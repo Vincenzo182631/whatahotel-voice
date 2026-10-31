@@ -1,0 +1,444 @@
+{
+  "hotel_slug": "thompson-denver",
+  "hotel_name": "Thompson Denver",
+  "checked_at": "2026-10-14T22:16:35.432Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/denth-thompson-denver",
+      "tier": "official",
+      "chars": 10535
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/denth-thompson-denver/rooms/",
+      "tier": "official",
+      "chars": 9972
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/denth-thompson-denver/dining/",
+      "tier": "official",
+      "chars": 3237
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/denth-thompson-denver/policies/",
+      "tier": "official",
+      "chars": 2496
+    },
+    {
+      "id": "d5",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/denth-thompson-denver/parking-and-transportation/",
+      "tier": "official",
+      "chars": 2708
+    },
+    {
+      "id": "d6",
+      "url": "https://www.cntraveler.com/hotels/denver/thompson-denver",
+      "tier": "editorial",
+      "chars": 8022
+    },
+    {
+      "id": "d7",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/denth-thompson-denver/hotel-info/",
+      "tier": "official",
+      "chars": 1135
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Thompson Denver is in the historic Lower Downtown (LoDo) neighborhood near the River North Art District.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located in the historic Lower Downtown neighborhood near the River North Art District",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/denth-thompson-denver",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Nestled in Denver’s Lower Downtown (LoDo)",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/denth-thompson-denver/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is just blocks from Ball Arena and Coors Field.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "our hotel location just blocks from Ball Arena, Coors Field, and countless shops",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/denth-thompson-denver",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Denver Union Station is a short three-and-a-half-block walk from the hotel via 16th or 17th streets.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Denver Union Station is located a short three-and-a-half-block walk from Thompson Denver via 16th or 17th streets.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/denth-thompson-denver/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Union Station has direct train service to the airport.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Union Station, which has direct train service to the airport",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/denver/thompson-denver",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The interiors were created by the design firm Parts + Labor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "With interiors created by the internationally acclaimed, award-winning design firm Parts + Labor",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/denth-thompson-denver",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Rooms feature woven wool rugs on wide-plank hardwood floors and saddle leather headboards.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "from the woven wool rug resting atop the wide-plank hardwood floors to the saddle leather headboard",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/denth-thompson-denver/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Rooms have luxury bedding with Sferra linens and D.S. & Durga bath amenities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Luxury bedding with Sferra linens",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/denth-thompson-denver/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "D.S. & Durga bath amenities",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/denth-thompson-denver/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Bar M sits in the hotel lobby at the corner of Market Street and the 16th Street Mall.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Elegantly rooted in the bustling lobby of Thompson Denver, Bar M",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/denth-thompson-denver/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Bar M, located at the corner of Market Street and 16th Street Mall",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/denth-thompson-denver/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Duel Coffee, in the hotel, serves coffee, pastries and morning starters.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Legendary coffee, pastries and morning starters shine at Duel Coffee located in the heart of Thompson Denver.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/denth-thompson-denver/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Reynard Social Spaces on the sixth floor offers a trio of event spaces with city views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Reynard Social Spaces, located on the sixth floor of the hotel, offers a trio of premium event spaces boasting incredible city views",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/denth-thompson-denver",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Chez Maggy Terrace, new in 2025, is an outdoor patio on 16th Street with French bistro chairs and umbrellas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "NEW in 2025, experience Chez Maggy Terrace for the quintessential patio dining experience.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/denth-thompson-denver/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "newly revitalized 16th Street, our outdoor patio will transport you with French bistro chairs and umbrellas",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/denth-thompson-denver/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The hotel is the first Thompson location in Colorado.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "This is the first location in the Centennial State from Hyatt’s lifestyle brand, Thompson",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/denver/thompson-denver",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Chez Maggy is chef Ludo Lefebvre's first restaurant outside of Los Angeles.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "chef Ludo Lefebvre’s first restaurant outside of Los Angeles",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/denver/thompson-denver",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Rooms feature a selection of vinyl records curated by Victrola along with Victrola turntables.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Rooms feature a selection of vinyl records specially curated by Victrola along with the Denver-based company’s signature turntables.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/denver/thompson-denver",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Thompson Suite is the hotel's largest suite and has a private terrace with seating for eight.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Step inside this expansive suite — the hotel’s largest — featuring a spacious private terrace with seating for eight",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/denth-thompson-denver/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "The 1,032-square-foot Thompson Suite is the hotel’s gem, featuring a private terrace with seating for eight",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/denver/thompson-denver",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "A two-story fireplace is the centerpiece of the lobby.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "a towering two-story fireplace is the centerpiece of the lobby",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/denth-thompson-denver",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The hotel welcomes dogs of all sizes at no additional charge, with a maximum of two dogs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "welcoming dogs of all sizes at no additional charge. Guests may bring a maximum of 2 dogs for free",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/denth-thompson-denver/policies/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "A daily destination fee applies to each room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "A daily destination fee of $30.00 (subject to change) is applied to each room of your stay",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/denth-thompson-denver/policies/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The hotel is a cash-free environment.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "It is a cash-free environment.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/denth-thompson-denver/policies/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes limited on-site parking with downtown premium rates.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

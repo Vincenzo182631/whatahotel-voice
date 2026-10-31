@@ -1,0 +1,485 @@
+{
+  "hotel_slug": "intercontinental-suzhou",
+  "hotel_name": "InterContinental Suzhou",
+  "checked_at": "2026-10-30T06:32:24.917Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail",
+      "tier": "official",
+      "chars": 9100
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail/dining/",
+      "tier": "official",
+      "chars": 4482
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail/amenities/",
+      "tier": "official",
+      "chars": 6007
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail/local-area-guide/",
+      "tier": "official",
+      "chars": 3157
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail/rooms/",
+      "tier": "official",
+      "chars": 20
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail/directions/",
+      "tier": "official",
+      "chars": 2622
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail/",
+      "tier": "official",
+      "chars": 9100
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail/hotel-reviews/",
+      "tier": "official",
+      "chars": 18439
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel sits on the shores of Jinji Lake in Suzhou.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "InterContinental Suzhou occupies a coveted location on the shores of Jinji Lake",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is a 27-storey crescent-shaped building.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The 27-storey crescent shaped hotel features 427 contemporary guestrooms",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The guestrooms, restaurants, lounges and indoor infinity pool have panoramic views of willow-fringed Jinji Lake and the new Suzhou skyline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "427 contemporary guestrooms, five eclectic restaurants and lounges, an indoor infinity pool – all boasting panoramic views of the willow-fringed Jinji Lake and the new Suzhou skyline",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The indoor pool on the 3rd floor has an infinity edge that appears to dip right into Jinji Lake.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "With an infinity edge that appears to dip right into Jinji Lake, the 28-metre Indoor Swimming Pool is located on the 3rd floor of InterContinental Suzhou.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The heated pool is accompanied by a large Jacuzzi, gender-separated steam and sauna rooms, a sun deck and a chill-out lounge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "InterContinental Suzhou’s heated infinity pool",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The 28-metre swimming pool is accompanied by a large Jacuzzi, gender-separated steam and sauna rooms, a luxurious sun deck and a chill-out lounge.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Sky Lounge 25 is on the balcony of Club InterContinental on the 25th floor, with a panoramic vista of Jinji Lake and a whisky and cocktail list.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The Sky Lounge 25 at the balcony of Club InterContinental on the 25th floor is a superb place to get some fresh air while enjoying the panoramic vista of Jinji Lake.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The bar offers a series of finest whisky and cocktails.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "XIU is the hotel's signature modern Chinese restaurant; XIU means embroidery in Mandarin, a timeless symbol of the city.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "XIU, the signature modern Chinese restaurant, celebrates regional Chinese dining while adding fresh culinary presentations and a sophisticated contemporary ambience. XIU means embroidery in Mandarin, which is a timeless symbol of the city.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel is within easy walking distance of Jinji Lake and many shopping and recreation areas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The hotel is within easy walking distance to Jinji Lake and many other shopping and recreation areas.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The Eslite Spectrum Suzhou Store, the first Eslite flagship store in Mainland China, is one step away from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "### Eslite Spectrum Suzhou Store",
+          "note": "section heading",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "It is the first flagship store in Mainland China, only one step away from InterContinental Suzhou.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Humble Administrator's Garden is about 10 kilometers from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Humble Administrator’s Garden - 6.21 miles away (10 kilometers)",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The Suzhou Museum, one of the hotel's suggested nearby sights, was designed by architect I.M. Pei.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "### Suzhou Museum",
+          "note": "listed under Things to do",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Designed by renowed architect I.M. Pei",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The hotel has extensive meeting, conference and event facilities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "For MICE events, InterContinental Suzhou offers extensive meetings, conference and event facilities.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The indoor infinity pool on the 3rd floor has an edge that appears to dip right into Jinji Lake, with a large Jacuzzi, steam and sauna rooms and a sun deck.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "With an infinity edge that appears to dip right into Jinji Lake, the 28-metre Indoor Swimming Pool is located on the 3rd floor of InterContinental Suzhou.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The 28-metre swimming pool is accompanied by a large Jacuzzi, gender-separated steam and sauna rooms, a luxurious sun deck and a chill-out lounge.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Rooms, restaurants, lounges and the pool share panoramic views of willow-fringed Jinji Lake and the new Suzhou skyline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "427 contemporary guestrooms, five eclectic restaurants and lounges, an indoor infinity pool – all boasting panoramic views of the willow-fringed Jinji Lake and the new Suzhou skyline",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "A 27-storey crescent-shaped hotel on the shores of Jinji Lake.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "InterContinental Suzhou occupies a coveted location on the shores of Jinji Lake",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The 27-storey crescent shaped hotel features 427 contemporary guestrooms",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Sky Lounge 25, on the 25th-floor balcony of Club InterContinental, looks out over Jinji Lake.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The Sky Lounge 25 at the balcony of Club InterContinental on the 25th floor is a superb place to get some fresh air while enjoying the panoramic vista of Jinji Lake.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Eslite Spectrum Suzhou Store, the first Eslite flagship in Mainland China, is one step from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "### Eslite Spectrum Suzhou Store",
+          "note": "section heading",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "It is the first flagship store in Mainland China, only one step away from InterContinental Suzhou.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel is in Suzhou Industrial Park; Humble Administrator's Garden is about 10 kilometers away.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "No. 288 Wang Dun Road, Suzhou Industrial Park Suzhou, JS 215028 Mainland China",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Humble Administrator’s Garden - 6.21 miles away (10 kilometers)",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Pets are not allowed.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "No Pet Allowed.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/suzhou/suzha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the large-scale property may feel less intimate than boutique alternatives.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

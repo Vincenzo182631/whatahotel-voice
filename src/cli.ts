@@ -7,6 +7,11 @@ import { FirecrawlClient } from "./sources/firecrawl.js";
 import { checkFreshness, isExpired, needsRefresh, WARN_DAYS } from "./core/freshness.js";
 import { promoteToCurrent, publishTake } from "./publish/blob.js";
 import { importHotel } from "./sources/import.js";
+import { verifyHotel } from "./verify/index.js";
+import { buildOffers } from "./offers/index.js";
+import { Budget, limitsFromEnv } from "./research/budget.js";
+import { assertResearchReady, importResearch, runResearch } from "./research/research.js";
+import { importFindings, prepareFactCheck, prepareVerification, prepareWriter } from "./verify/external.js";
 import { withReadOnlyDb, type Query } from "./sources/pi-db.js";
 import { WahClient } from "./sources/wah-api.js";
 import { fetchWhataHotelPage, parseWhataHotelPage } from "./sources/whatahotel.js";
@@ -19,6 +24,19 @@ Usage: npm run hotel -- <command> [options]
   scrape    --hotel <slug> | --collection pilot   Fetch whatahotel.com page(s) into data/sources/
   scrape    ... --via firecrawl                   Use Firecrawl instead of a plain fetch (needs FIRECRAWL_API_KEY)
   research  --url <url> [--out file]              Firecrawl a page to markdown (default data/research/<host>.md)
+  research  --hotel <slug> [--chain <id>|independent] [--official-url <url> [--confirm-official]] [--with-editorial] [--refresh]
+            [--max-pages N] [--max-fc-calls N] [--max-retries N] [--max-chars N]
+                                                  Confirm the hotel's official site (never guessed), fetch its
+                                                  property pages inside per-hotel limits, and write the extraction
+                                                  task. Limits default from WH_RESEARCH_MAX_PAGES/_FC_CALLS/_RETRIES/_CHARS
+  research  --hotel <slug> --import <facts.json>  Re-check every excerpt in code, hold out disputed/promotional/undated
+                                                  claims, and write data/research/<slug>/research.json. A hotel marked
+                                                  Needs review is refused by script/generate
+  offers    --hotel <slug> | --collection <name> [--chain-url <url>]   (no flag: every profile)
+                                                  Read the hotel's and its chain's WhataHotel pages, confirm which
+                                                  benefits apply to that property (conflicts and unclear terms are
+                                                  left out and flagged) and write data/research/<slug>/offers.json
+                                                  with the closing line the script will end on
   import    --hotel <slug> | --collection pilot [--from api,db] [--dry-run]
                                                   Add claims from the WhataHotel data API and the
                                                   Price Intelligence DB (read-only) to profiles
@@ -26,6 +44,7 @@ Usage: npm run hotel -- <command> [options]
   script    --hotel <slug>                        Write + check a script only (no audio)
   generate  --hotel <slug> [--provider mock|elevenlabs|gemini]
             [--from-version N] [--script-file path]  Script + audio as a new version
+            [--verified-only]                       Use only claims hotel:verify proved (also on script, batch)
   batch     --collection pilot [--provider ...]   Generate for every hotel in a collection
   publish   --hotel <slug> --version N --script-url <url> [--no-current | --current-only]
                                                   Upload an approved version to Vercel Blob (needs
@@ -35,6 +54,20 @@ Usage: npm run hotel -- <command> [options]
   freshness [--hotel <slug>] [--within N]         Claims expiring within N days (default ${WARN_DAYS}) or already
                                                   expired, and profiles not verified for 90+ days.
                                                   Exits 1 when a clip relies on an expired claim
+  verify    --hotel <slug> | --collection <name> [--apply] [--refresh]
+                                                  Check every claim against the hotel's own Four Seasons
+                                                  pages and its Condé Nast Traveler review (needs
+                                                  FIRECRAWL_API_KEY and WH_ANTHROPIC_API_KEY). Writes
+                                                  data/verification/<slug>.md. --apply marks the profile
+                                                  verified when nothing is contradicted and every claim a
+                                                  script uses is supported
+  verify    --hotel <slug> --prepare              Claude Code path: fetch the pages and write the judge task
+  verify    --hotel <slug> --import <findings.json> [--apply]
+                                                  Import a subagent's findings (quotes are re-checked in code)
+  script    --hotel <slug> --prepare [--verified-only]   Write the script-writing task for a subagent
+  check     --hotel <slug> --script-file <path> [--verified-only]
+                                                  Write the fact-check task for a subagent
+            ... --factcheck-file <path>           (script/generate) use the subagent's {passed, issues}
   list                                            Latest version and status per hotel
   review    --hotel <slug> --version N (--approve | --reject) [--note "..."] [--force]
 
@@ -62,6 +95,21 @@ const { positionals, values } = parseArgs({
     "current-only": { type: "boolean" },
     "no-current": { type: "boolean" },
     within: { type: "string" },
+    apply: { type: "boolean" },
+    "verified-only": { type: "boolean" },
+    prepare: { type: "boolean" },
+    import: { type: "string" },
+    "factcheck-file": { type: "string" },
+    refresh: { type: "boolean" },
+    chain: { type: "string" },
+    "chain-url": { type: "string" },
+    "official-url": { type: "string" },
+    "confirm-official": { type: "boolean" },
+    "with-editorial": { type: "boolean" },
+    "max-pages": { type: "string" },
+    "max-fc-calls": { type: "string" },
+    "max-retries": { type: "string" },
+    "max-chars": { type: "string" },
     help: { type: "boolean", short: "h" },
   },
 });
@@ -93,22 +141,69 @@ async function main() {
       const fc = values.via === "firecrawl" ? FirecrawlClient.fromEnv() : undefined;
       if (values.via && !fc) throw new Error(`--via accepts firecrawl (got "${values.via}")`);
       for (const h of targets) {
-        const page = fc
-          ? parseWhataHotelPage((await fc.scrape(h.url, ["rawHtml"])).rawHtml ?? "", h.url)
-          : await fetchWhataHotelPage(h.url);
-        const file = path.resolve("data/sources", `${h.slug}.whatahotel.json`);
-        await writeFile(file, JSON.stringify(page, null, 2) + "\n");
-        console.log(`✓ ${h.slug}: ${page.pros.length} highlights, ${page.cons.length} considerations`);
+        try {
+          const page = fc
+            ? parseWhataHotelPage((await fc.scrape(h.url, ["rawHtml"])).rawHtml ?? "", h.url)
+            : await fetchWhataHotelPage(h.url);
+          const file = path.resolve("data/sources", `${h.slug}.whatahotel.json`);
+          await writeFile(file, JSON.stringify(page, null, 2) + "\n");
+          console.log(`✓ ${h.slug}: ${page.pros.length} highlights, ${page.cons.length} considerations`);
+        } catch (err) {
+          process.exitCode = 1;
+          console.log(`✗ ${h.slug}: ${(err as Error).message}`);
+        }
       }
       return;
     }
 
     case "research": {
+      if (values.hotel) {
+        const slug = values.hotel;
+        if (values.import) {
+          const r = await importResearch(slug, values.import);
+          console.log(`${r.status === "ready" ? "✓" : "✗"} ${slug}: ${r.verified_facts.length} verified facts, ${r.highlights.length} highlights, ${r.rejected.length} rejected, ${r.unresolved.length} unresolved, ${r.subjective.length} subjective, ${r.contradictions.length} contradictions`);
+          for (const reason of r.reasons) console.log(`    - ${reason}`);
+          console.log(`  data/research/${slug}/research.json`);
+          return;
+        }
+        const num = (v?: string) => (v ? Number(v) : undefined);
+        const budget = new Budget(limitsFromEnv(process.env, { maxPages: num(values["max-pages"]), maxFirecrawlCalls: num(values["max-fc-calls"]), maxRetries: num(values["max-retries"]), maxChars: num(values["max-chars"]) }));
+        const r = await runResearch(slug, { fc: FirecrawlClient.fromEnv(), budget, refresh: values.refresh, chain: values.chain, officialUrl: values["official-url"], manualConfirm: values["confirm-official"], withEditorial: values["with-editorial"] });
+        const id = r.identity;
+        console.log(`${id.status === "confirmed" ? "✓" : "✗"} ${slug}: official site ${id.status}${id.official_url ? ` ${id.official_url}` : ""}`);
+        for (const e of id.evidence) console.log(`    + ${e}`);
+        for (const reason of r.reasons) console.log(`    - ${reason}`);
+        const u = r.usage;
+        console.log(`  ${r.pages.length} pages · Firecrawl ${u.firecrawl_calls}/${r.limits.maxFirecrawlCalls} calls (${u.firecrawl_searches} searches) · ${u.cache_hits} cached · ${u.direct_fetches} direct · ~${u.est_claude_tokens} tokens of page text`);
+        if (r.partial) console.log("  ⚠ partial coverage: a limit was reached, so this hotel is flagged for review (progress saved)");
+        if (r.status === "awaiting_extraction") console.log(`  Have a Claude Code subagent follow data/research/${slug}/extract-instructions.md, then run:\n  hotel:research --hotel ${slug} --import data/research/${slug}/facts.json`);
+        else console.log(`  Needs review: see data/research/${slug}/research.json`);
+        if (r.status === "needs_review") process.exitCode = 1;
+        return;
+      }
       const url = need(values.url, "url");
       const page = await FirecrawlClient.fromEnv().scrape(url);
       const file = path.resolve(values.out ?? path.join("data/research", `${new URL(url).hostname}.md`));
       await writeFile(file, `<!-- ${url} -->\n\n${page.markdown ?? ""}\n`);
       console.log(`✓ ${url} -> ${path.relative(process.cwd(), file)}`);
+      return;
+    }
+
+    case "offers": {
+      const slugs = values.hotel ? [values.hotel] : values.collection ? (await loadCollection(values.collection)).hotels.map((h) => h.slug) : await listProfileSlugs();
+      for (const slug of slugs) {
+        try {
+          const o = await buildOffers(slug, { chainUrl: values["chain-url"] });
+          console.log(`${o.status === "ready" ? "✓" : "✗"} ${slug}: ${o.benefits.filter((b) => b.status === "confirmed").map((b) => b.kind).join(", ") || "no confirmed benefits"}`);
+          for (const b of o.benefits.filter((x) => x.status !== "confirmed" && x.status !== "absent")) console.log(`    - ${b.kind}: ${b.status}`);
+          for (const i of o.issues) console.log(`    ! ${i.slice(0, 200)}`);
+          console.log(`  closing (${o.closing!.words} words, ${o.closing!.template}): ${o.closing!.text}\n  data/research/${slug}/offers.json`);
+          if (o.status === "needs_review") process.exitCode = 1;
+        } catch (err) {
+          process.exitCode = 1;
+          console.log(`✗ ${slug}: ${(err as Error).message}`);
+        }
+      }
       return;
     }
 
@@ -163,15 +258,30 @@ async function main() {
       return;
     }
 
+    case "check": {
+      const slug = need(values.hotel, "hotel");
+      const file = await prepareFactCheck(slug, need(values["script-file"], "script-file"), { verifiedOnly: values["verified-only"] });
+      console.log(`✓ ${file}\n  Have a Claude Code subagent follow it, then pass its factcheck.json to script/generate with --factcheck-file`);
+      return;
+    }
+
     case "script":
     case "generate": {
       const slug = need(values.hotel, "hotel");
+      await assertResearchReady(slug);
+      if (command === "script" && values.prepare) {
+        const file = await prepareWriter(slug, { verifiedOnly: values["verified-only"] });
+        console.log(`✓ ${file}\n  Have a Claude Code subagent follow it, then run hotel:check on the script it wrote`);
+        return;
+      }
       console.log(`→ ${slug}`);
       const result = await generateHotel(slug, {
         provider: values.provider!,
         fromVersion: values["from-version"] ? Number(values["from-version"]) : undefined,
         scriptFile: values["script-file"],
         scriptOnly: command === "script",
+        verifiedOnly: values["verified-only"],
+        factcheckFile: values["factcheck-file"],
         log,
       });
       report(result.dir, result.metadata);
@@ -183,8 +293,48 @@ async function main() {
       for (const h of collection.hotels) {
         console.log(`→ ${h.slug}`);
         try {
-          const result = await generateHotel(h.slug, { provider: values.provider!, log });
+          const result = await generateHotel(h.slug, { provider: values.provider!, verifiedOnly: values["verified-only"], log });
           report(result.dir, result.metadata);
+        } catch (err) {
+          process.exitCode = 1;
+          console.log(`  ✗ ${(err as Error).message}`);
+        }
+      }
+      return;
+    }
+
+    case "verify": {
+      const slugs = values.hotel
+        ? [values.hotel]
+        : values.collection
+          ? (await loadCollection(values.collection)).hotels.map((h) => h.slug)
+          : await listProfileSlugs();
+      if (values.prepare || values.import) {
+        const slug = need(values.hotel, "hotel");
+        if (values.prepare) {
+          const r = await prepareVerification(slug, FirecrawlClient.fromEnv(), { refresh: values.refresh });
+          console.log(`✓ ${slug}: ${r.docs} pages, ${r.claims} claims\n  Have a Claude Code subagent follow ${r.dir}/judge-instructions.md, then run:\n  hotel:verify --hotel ${slug} --import ${r.dir}/findings.json [--apply]`);
+        } else {
+          const r = await importFindings(slug, values.import!, { apply: values.apply });
+          const c = r.decision.counts;
+          console.log(`${r.decision.eligible ? "✓" : "✗"} ${slug}: ${c.supported} supported, ${c.contradicted} contradicted, ${c.unverified} unverified, ${c.exempt} WhataHotel's own${r.applied ? " · profile marked verified" : ""}`);
+          for (const b of r.decision.blockers) console.log(`    - ${b}`);
+          console.log(`  data/verification/${slug}.md`);
+        }
+        return;
+      }
+      const fc = FirecrawlClient.fromEnv();
+      for (const slug of slugs) {
+        console.log(`→ ${slug}`);
+        try {
+          const r = await verifyHotel(slug, { fc, apply: values.apply, refresh: values.refresh });
+          const c = r.decision.counts;
+          console.log(
+            `  ${r.decision.eligible ? "✓" : "✗"} ${c.supported} supported, ${c.contradicted} contradicted, ${c.unverified} unverified, ${c.exempt} WhataHotel's own · ` +
+              `${r.evidence.length} pages${r.applied ? " · profile marked verified" : ""}`,
+          );
+          for (const b of r.decision.blockers) console.log(`    - ${b}`);
+          console.log(`  data/verification/${slug}.md`);
         } catch (err) {
           process.exitCode = 1;
           console.log(`  ✗ ${(err as Error).message}`);

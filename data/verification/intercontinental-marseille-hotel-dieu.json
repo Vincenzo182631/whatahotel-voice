@@ -1,0 +1,376 @@
+{
+  "hotel_slug": "intercontinental-marseille-hotel-dieu",
+  "hotel_name": "InterContinental Marseille - Hotel Dieu",
+  "checked_at": "2026-10-30T06:37:38.330Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 18
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/marseille/mrsha/hoteldetail",
+      "tier": "official",
+      "chars": 8847
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/marseille/mrsha/hoteldetail/dining/",
+      "tier": "official",
+      "chars": 2439
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/marseille/mrsha/hoteldetail/amenities/",
+      "tier": "official",
+      "chars": 7535
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/marseille/mrsha/hoteldetail/local-area-guide/",
+      "tier": "official",
+      "chars": 6826
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/marseille/mrsha/hoteldetail/directions/",
+      "tier": "official",
+      "chars": 2283
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/marseille/mrsha/hoteldetail/",
+      "tier": "official",
+      "chars": 9497
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/marseille/mrsha/hoteldetail/hotel-reviews/",
+      "tier": "official",
+      "chars": 17357
+    },
+    {
+      "id": "d8",
+      "url": "https://www.cntraveler.com/hotels/france/marseille/intercontinental-marseille-hotel-dieu",
+      "tier": "editorial",
+      "chars": 2841
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel has a heated indoor pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Water type: Heated pool",
+          "note": "indoor pool is heated",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/marseille/mrsha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "InterContinental Marseille - Hotel Dieu has 1 indoor pool.",
+          "note": "indoor pool",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/marseille/mrsha/hoteldetail/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Guests can unwind in the indoor pool and have treatments at the Spa by Clarins.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "unwind in the indoor pool, and indulge in treatments at the Spa by Clarins",
+          "note": "pool and spa treatments",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/marseille/mrsha/hoteldetail/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Les Fenêtres restaurant and the Capian bar both have views of the Vieux Port, with dishes and cocktails that use the freshness of Provence.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "InterContinental Marseille offers two restaurants: Les Fenêtres restaurant and the Capian bar. Both feature breathtaking views of the Vieux Port and a selection of dishes and cocktails incorporating the freshness of Provence.",
+          "note": "both venues, views, Provence",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/marseille/mrsha/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "At the Capian Bar, guests can have the signature gin-based Etincelle cocktail or enjoy Vieux-Port views from a terrace table.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "savour a signature, gin-based Etincelle, or enjoy Vieux-Port views from a terrace table.",
+          "note": "Capian Bar paragraph",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/marseille/mrsha/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Accommodations include a Presidential Suite.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "### Presidential Suite",
+          "note": "listed under Accommodations",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/marseille/mrsha/hoteldetail/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The MuCEM museum is about 0.89 kilometers from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "MuCEM - 0.55 miles away (0.89 kilometers)",
+          "note": "distance",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/marseille/mrsha/hoteldetail/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "La Vieille Charité is about 0.4 kilometers from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "La Vieille Charité - 0.25 miles away (0.4 kilometers)",
+          "note": "distance",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/marseille/mrsha/hoteldetail/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Dogs receive a personalized dog kit with a plaid, a bowl and a rug.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Please ask name of dog as we offer a \"kit dog\" : a plaid, a bowl, and a rug personalised.",
+          "note": "dog kit",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/marseille/mrsha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "A nanny is available for hire.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Nanny for hire",
+          "note": "kids services",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/marseille/mrsha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel is certified with the Green Key eco-label.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Our hotel is certified with Green Key (FEE), a globally recognised eco-label",
+          "note": "certification",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/marseille/mrsha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel occupies an 18th-century landmark inaugurated by Napoleon III.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "rises above the Vieux Port in a stunning 18th-century landmark inaugurated by Napoleon III.",
+          "note": "building history",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/marseille/mrsha/hoteldetail/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The hotel sits in the heart of Marseille's historic Panier district and rises above the Vieux Port.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "In the heart of Marseille’s historic Panier, InterContinental Marseille – Hotel Dieu rises above the Vieux Port",
+          "note": "location",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/marseille/mrsha/hoteldetail/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The hotel has a panoramic terrace with a view of Notre-Dame de la Garde.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Enjoy our panoramic terrace with view of Notre-Dame de la Garde",
+          "note": "terrace",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/marseille/mrsha/hoteldetail/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The SPA by Clarins is inspired by traditional Provencal fountains and lavoirs, the old communal clothes-washing places.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Inspired by the traditional Provencal fountains and lavoirs (communal clothes’ washing places), the SPA by Clarins offers time out from everyday life.",
+          "note": "spa inspiration",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/marseille/mrsha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The concierge can help guests book a tour boat to discover the Calanques.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The Concierge will be proud and indeed delighted, to help you book a tourboat; the best way to discover the splendour of the Calanques.",
+          "note": "concierge boat booking",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/marseille/mrsha/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Guest parking is at basement level, on booking request and subject to availability.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Parking is available for guests at basement level, on booking request and upon avaibility",
+          "note": "parking",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/marseille/mrsha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Marseille Provence Airport is about 18 kilometers from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "approximately 11.18 miles away (18 kilometers) from the hotel",
+          "note": "airport distance",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/marseille/mrsha/hoteldetail/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the urban location may bring some city noise.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

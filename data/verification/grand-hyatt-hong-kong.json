@@ -1,0 +1,393 @@
+{
+  "hotel_slug": "grand-hyatt-hong-kong",
+  "hotel_name": "Grand Hyatt Hong Kong",
+  "checked_at": "2026-10-29T03:48:23.432Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/hkggh-grand-hyatt-hong-kong",
+      "tier": "official",
+      "chars": 16317
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/hkggh-grand-hyatt-hong-kong/rooms/",
+      "tier": "official",
+      "chars": 17938
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/hkggh-grand-hyatt-hong-kong/dining/",
+      "tier": "official",
+      "chars": 12588
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/hkggh-grand-hyatt-hong-kong/parking-and-transportation/",
+      "tier": "official",
+      "chars": 4515
+    },
+    {
+      "id": "d5",
+      "url": "https://www.cntraveler.com/hotels/hong-kong-s-a-r-/hong-kong/grand-hyatt-hong-kong",
+      "tier": "editorial",
+      "chars": 8111
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/hkggh-grand-hyatt-hong-kong/hotel-info/",
+      "tier": "official",
+      "chars": 3774
+    },
+    {
+      "id": "d7",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/hkggh-grand-hyatt-hong-kong/reviews/",
+      "tier": "official",
+      "chars": 30000
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is on Hong Kong Island, facing Victoria Harbour.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Situated on Hong Kong Island facing the world-famous Victoria Harbour, Grand Hyatt Hong Kong redefines hotel luxury",
+          "note": "The official page states both the island location and that the hotel faces the harbour.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/hkggh-grand-hyatt-hong-kong",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is a 5-minute walk from Exit B3 of Exhibition Centre station on the East Rail Line.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Grand Hyatt Hong Kong is a 5-minute walk from the Exit B3 of the Exhibition Centre station (East Rail Line).",
+          "note": "Walking time, exit, station and line all match.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/hkggh-grand-hyatt-hong-kong/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Guestrooms and suites are designed to blend traditional and modern aesthetics in an elegant, residential style.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Unwind in one of the 542 spacious guestrooms or suites, designed to blend traditional and modern aesthetics in an elegant, residential style.",
+          "note": "The wording matches the claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/hkggh-grand-hyatt-hong-kong/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Many of the rooms and suites have views of Victoria Harbour.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our hotel features 542 diverse and unique rooms and suites, with many commanding stunning views of Victoria Harbour.",
+          "note": "The page says many rooms have harbour views.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/hkggh-grand-hyatt-hong-kong",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Grand Suite has a 180-degree view of Victoria Harbour and the Hong Kong skyline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Set your sights on a 180-degree view of the Victoria Harbour and the Hong Kong skyline in this spacious 65-square metre suite.",
+          "note": "This sentence appears under the Grand Suite listing.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/hkggh-grand-hyatt-hong-kong/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Premier Suite overlooks the outdoor swimming pool and landscaped gardens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Enjoy the serenity of the 80-square-metre Premier Garden Suite which overlooks the outdoor swimming pool and landscaped gardens.",
+          "note": "This sentence appears under the Premier Suite heading.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/hkggh-grand-hyatt-hong-kong/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Rooms have a glass-enclosed bathroom with a standalone tub.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The rooms appear bigger than they are thanks to a glass-enclosed bathroom, where you can enjoy the view from a standalone tub.",
+          "note": "The editorial review describes a glass-enclosed bathroom with a standalone tub.",
+          "url": "https://www.cntraveler.com/hotels/hong-kong-s-a-r-/hong-kong/grand-hyatt-hong-kong",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Grand Club is a lounge exclusively for suite and club floor guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Grand Club provides a luxurious lounge exclusively for suite and club floor guests.",
+          "note": "The page states the lounge is exclusive to suite and club floor guests.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/hkggh-grand-hyatt-hong-kong",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Plateau Spa treatments take place in private treatment rooms with en suite bathrooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "result oriented treatments conducted in private treatment rooms with en suite bathrooms",
+          "note": "This sentence is in the Plateau Spa description.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/hkggh-grand-hyatt-hong-kong",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The Fitness Centre offers complimentary active wear rental for guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our Fitness Centre has an extensive range of Life Fitness exercise equipment and classes, including complimentary active wear rental services for guests.",
+          "note": "The page states active wear rental is complimentary for guests.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/hkggh-grand-hyatt-hong-kong",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "One Harbour Road serves authentic Cantonese cuisine in a setting that evokes a 1930s Taipan's mansion.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Capturing the old time splendor with elegance of a Taipan’s mansion in the 1930s, One Harbour Road serves authentic Cantonese cuisine",
+          "note": "Both the cuisine and the 1930s Taipan's mansion setting are covered.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/hkggh-grand-hyatt-hong-kong/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Le Petit Chef's Dining Room offers an immersive 3D visual dining experience.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "join us for an immersive and unforgettable 3D visual dining experience",
+          "note": "This sentence is in the Le Petit Chef's Dining Room description.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/hkggh-grand-hyatt-hong-kong/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Plateau Spa on the 11th floor is a self-contained resort within the hotel, offering privacy and seclusion from the city.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located on the 11th floor of Grand Hyatt Hong Kong, the Plateau Spa is a self-contained resort within our hotel, offering privacy, seclusion and an escape from the vibrant city.",
+          "note": "The floor, self-contained resort, privacy and seclusion are all covered.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/hkggh-grand-hyatt-hong-kong",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Plateau rooms sit within the spa facility, with access to fitness studios, a garden and other recreation areas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Escape to privacy and seclusion in a 38-square-metre room within the spa facility, offering treatments in Plateau Spa and access to fitness studios, garden and other recreation areas.",
+          "note": "The Plateau room is within the spa facility, with access to fitness studios, garden and recreation areas.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/hkggh-grand-hyatt-hong-kong/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Victoria Harbour Suite has 270-degree views of the Hong Kong skyline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Take in the 270-degree views the Hong Kong skyline with the Victoria Harbour Suite in this 90-square-metre suite.",
+          "note": "The page gives 270-degree skyline views for the Victoria Harbour Suite.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/hkggh-grand-hyatt-hong-kong/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Grand Club serves all-day Champagne and evening cocktails with a panorama of Victoria Harbour through floor-to-ceiling windows.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "all-day Champagne and evening cocktails—all under the dramatic panorama of Victoria Harbour through floor-to-ceiling windows",
+          "note": "This sentence is in the Grand Club description.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/hkggh-grand-hyatt-hong-kong",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The heated outdoor swimming pool on the 11th floor has views of the Central skyline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located on the 11th floor of our hotel, the 50-metre heated swimming pool commands spectacular views of the Central skyline.",
+          "note": "This sentence appears under the 'Outdoor Pool' heading and covers heated, 11th floor and Central skyline views.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/hkggh-grand-hyatt-hong-kong",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "the heated outdoor pool stretches for 82 feet",
+          "note": "The review confirms the pool is heated and outdoor.",
+          "url": "https://www.cntraveler.com/hotels/hong-kong-s-a-r-/hong-kong/grand-hyatt-hong-kong",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The minimum age for check-in is 18.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The minimum age for check-in is 18 years old.",
+          "note": "This states the minimum check-in age directly.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/hkggh-grand-hyatt-hong-kong/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Hong Kong International Airport is 35 kilometres away; by Airport Express, guests take the train to Hong Kong Station and then a five-minute taxi ride to the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Hong Kong International Airport (HKG)35 kilometers35 kilometers",
+          "note": "This gives the 35 km airport distance.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/hkggh-grand-hyatt-hong-kong/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Take the train to Hong Kong Station, and take a five-minute taxi ride to the Grand Hyatt Hong Kong",
+          "note": "This covers the Airport Express route via Hong Kong Station plus a five-minute taxi.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/hkggh-grand-hyatt-hong-kong/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the busy convention district location may not suit leisure-focused travelers.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

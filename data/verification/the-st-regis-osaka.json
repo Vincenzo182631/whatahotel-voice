@@ -1,0 +1,410 @@
+{
+  "hotel_slug": "the-st-regis-osaka",
+  "hotel_name": "The St. Regis Osaka",
+  "checked_at": "2026-10-14T08:10:28.651Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/osaxr-the-st-regis-osaka/overview/",
+      "tier": "official",
+      "chars": 17701
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/osaxr-the-st-regis-osaka/rooms/",
+      "tier": "official",
+      "chars": 7121
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/osaxr-the-st-regis-osaka/rooms/suites/",
+      "tier": "official",
+      "chars": 6692
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/osaxr-the-st-regis-osaka/dining/",
+      "tier": "official",
+      "chars": 10378
+    },
+    {
+      "id": "d5",
+      "url": "https://www.marriott.com/en-us/hotels/osaxr-the-st-regis-osaka/experiences/",
+      "tier": "official",
+      "chars": 17006
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel sits on Midosuji Boulevard, with access to an Osaka Metro station connecting to three subway lines.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The St. Regis Osaka is centrally located along the famed Midosuji Boulevard, the Champs-Élysées of Osaka, with seamless access to an Osaka Metro station connecting to three subway lines.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/osaxr-the-st-regis-osaka/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is a one-minute walk from Exit 7 of Hommachi Station on the Osaka Metro, in a building with direct underground access.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Just a one-minute stroll from Exit 7 of Hommachi Station on the Osaka Metro, The St. Regis Osaka resides in the building with direct underground access.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/osaxr-the-st-regis-osaka/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The building was designed by Japanese architecture firm Nikken Sekkei and stands 27 stories above Midosuji Avenue.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Designed by famed Japanese architect firm Nikken Sekkei, The St Regis Osaka stands 27 stories above Midosuji Avenue",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/osaxr-the-st-regis-osaka/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Guestroom headboards are made of Kawashima silk with motifs of gingko and cherry blossoms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "beautiful Kawashima silk headboards feature motifs of gingko and cherry blossoms",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/osaxr-the-st-regis-osaka/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Rooms have walk-in closets and spacious bathrooms with Japanese-style bathtubs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "walk-in closets, and spacious bathrooms with Japanese-style bathtubs",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/osaxr-the-st-regis-osaka/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "La Veduta is an Italian restaurant with an interior inspired by a Tuscan villa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "At La Veduta, guests can indulge in beautifully crafted Italian cuisine",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/osaxr-the-st-regis-osaka/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Our Italian restaurant features an elegant interior inspired by a Tuscan villa.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/osaxr-the-st-regis-osaka/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Brasserie RÉGINE is a modern French brasserie.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Experience the casual sophistication of Brasserie RÉGINE, a modern French brasserie",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/osaxr-the-st-regis-osaka/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Teppanyaki WAJO showcases premium Japanese beef, Seto Inland Sea seafood and seasonal Kyoto vegetables.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "discover innovative teppanyaki at Teppanyaki WAJO",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/osaxr-the-st-regis-osaka/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "our teppanyaki restaurant showcasing premium Japanese beef, Seto Inland Sea seafood, seasonal Kyoto vegetables",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/osaxr-the-st-regis-osaka/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Breakfast is served 24 hours a day.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "our 24-hour breakfast experience ensures your perfect morning meal is ready whenever you desire",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/osaxr-the-st-regis-osaka/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The IRIDIUM featuring SOTHYS spa is on the 14th floor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Iridium featuring Sothys offers tailored skin and body treatments in a serene retreat on the 14th floor of The St. Regis Osaka.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/osaxr-the-st-regis-osaka/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Spa treatments are given by aestheticians trained at the Sothys Institut in Paris.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "expert care by aestheticians trained at the Sothys Institut in Paris.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/osaxr-the-st-regis-osaka/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The hotel's afternoon tea evolves through the seasons, with distinctive themes and occasional collaborations.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "At The St. Regis Osaka, our Afternoon Tea ritual evolves through the seasons, inspired by distinctive themes and occasional exclusive collaborations",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/osaxr-the-st-regis-osaka/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Behind The St. Regis Bar, a mural of Osaka's past and present, styled after Scenes In and Around Kyoto, features the hotel itself.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Behind the bar, a mural of Osaka’s past and present—styled after Scenes In and Around Kyoto—features The St. Regis Osaka.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/osaxr-the-st-regis-osaka/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The St. Regis Suite uses bespoke Nishijin-ori silk and gold accents.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Soft textures, luminous gold accents, and bespoke Nishijin-ori silk weave a refined design story throughout the suite",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/osaxr-the-st-regis-osaka/rooms/suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The St. Regis Garden on the 12th floor is inspired by traditional Japanese stone garden architecture.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The St. Regis Garden located on the 12th floor, inspired by traditional Japanese Stone Garden architecture.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/osaxr-the-st-regis-osaka/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The hotel's signature Bloody Mary is the Shogun Mary, made with yuzu, wasabi powder and soy sauce.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Our signature Bloody Mary is the Shogun Mary",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/osaxr-the-st-regis-osaka/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "a locally inspired interpretation of the classic Bloody Mary, by adding a zest of fresh yuzu citrus, spicy wasabi powder, and soy sauce.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/osaxr-the-st-regis-osaka/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel does not provide an airport shuttle service; the closest airport is Osaka International Airport, Itami.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "This hotel does not provide shuttle service.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/osaxr-the-st-regis-osaka/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The closest airport near The St. Regis Osaka is Osaka International Airport - Itami (ITM).",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/osaxr-the-st-regis-osaka/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Osaka Castle is about a half hour from the hotel on foot.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "This beautiful castle and large park area is about a half hour away from the hotel by foot.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/osaxr-the-st-regis-osaka/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes ultra-luxury positioning with premium pricing.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

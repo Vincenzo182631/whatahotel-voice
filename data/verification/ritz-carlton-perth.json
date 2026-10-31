@@ -1,0 +1,338 @@
+{
+  "hotel_slug": "ritz-carlton-perth",
+  "hotel_name": "The Ritz Carlton Perth",
+  "checked_at": "2026-10-09T06:39:35.345Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 15,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 0,
+      "total": 15
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ritzcarlton.com/en/hotels/perrz-the-ritz-carlton-perth/experiences/",
+      "tier": "official",
+      "chars": 12009
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ritzcarlton.com/en/hotels/perrz-the-ritz-carlton-perth/hotel-stories/",
+      "tier": "official",
+      "chars": 5181
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ritzcarlton.com/en/hotels/perrz-the-ritz-carlton-perth/spa/",
+      "tier": "official",
+      "chars": 6210
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ritzcarlton.com/en/hotels/perrz-the-ritz-carlton-perth/rooms/",
+      "tier": "official",
+      "chars": 5689
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ritzcarlton.com/en/hotels/perrz-the-ritz-carlton-perth/rooms/signature-accommodations/",
+      "tier": "official",
+      "chars": 11774
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ritzcarlton.com/en/hotels/perrz-the-ritz-carlton-perth/club/",
+      "tier": "official",
+      "chars": 4483
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ritzcarlton.com/en/hotels/perrz-the-ritz-carlton-perth/dining/",
+      "tier": "official",
+      "chars": 6626
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ritzcarlton.com/en/hotels/perrz-the-ritz-carlton-perth/overview/",
+      "tier": "official",
+      "chars": 12798
+    },
+    {
+      "id": "d9",
+      "url": "https://www.ritzcarlton.com/en/hotels/perrz-the-ritz-carlton-perth/reviews/",
+      "tier": "official",
+      "chars": 795
+    },
+    {
+      "id": "d10",
+      "url": "https://www.cntraveler.com/hotels/perth/the-ritz-carlton-perth",
+      "tier": "editorial",
+      "chars": 3167
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel sits on Elizabeth Quay, where the Swan River meets the city of Perth.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Set on Elizabeth Quay where the Swan River meets the city,",
+          "note": "Page states location",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/perrz-the-ritz-carlton-perth/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel opened in November 2019.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The Ritz-Carlton, Perth opened its doors in November 2019.",
+          "note": "States opening month and year",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/perrz-the-ritz-carlton-perth/hotel-stories/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The spa has four treatment rooms, including a couple’s spa suite.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Four idyllic treatment rooms, including a couple’s spa suite",
+          "note": "Four rooms incl. couple's suite",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/perrz-the-ritz-carlton-perth/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Every room has a bathroom with a dual vanity and a standalone tub.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "All of our luxury hotel rooms, include a spacious bathroom with dual vanity and standalone tub.",
+          "note": "All rooms stated",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/perrz-the-ritz-carlton-perth/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Ritz-Carlton Suite has a master bedroom, private study, balcony, and a separate living and dining room with a butler’s kitchen.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "This suite overlooking the Swan River features a master bedroom, private study, spacious balcony, and a separate living and dining room with a butler’s kitchen.",
+          "note": "All elements covered; suite is the 277sqm presidential suite per d5",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/perrz-the-ritz-carlton-perth/rooms/signature-accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Ritz-Carlton Club offers a dedicated concierge and a private Club Lounge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "providing a dedicated Concierge, a private Club Lounge",
+          "note": "Both elements stated",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/perrz-the-ritz-carlton-perth/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Ritz Kids gives young guests a personalised check-in and an Adventurer Passport to explore the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "invites young guests to embark on their own adventure, beginning with a personalised check-in and Adventurer Passport to explore the hotel.",
+          "note": "Both elements stated",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/perrz-the-ritz-carlton-perth/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel offers a full-day Margaret River journey with winery tastings and a seasonal lunch.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Discover Margaret River on a full-day journey across Wadandi land, where vineyards, forests and coastline converge. Enjoy curated tastings at boutique wineries, followed by a seasonal lunch",
+          "note": "All elements stated",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/perrz-the-ritz-carlton-perth/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Hearth Restaurant cooks with open fire and celebrates local producers from Western Australia to the Great Southern regions.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Harnessing the power of nature and an open fire, billows of smoke and glowing embers, Hearth Restaurant in Perth CBD celebrates local producers from Western Australia to the Great Southern regions",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/perrz-the-ritz-carlton-perth/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Songbird is the hotel’s rooftop bar, with panoramic Swan River views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Songbird, our rooftop bar in Perth CBD, invites you to escape the city bustle and savor glamorous cocktails, panoramic Swan River views",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/perrz-the-ritz-carlton-perth/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The heated outdoor infinity pool looks out over the Swan River and city skyline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "heated outdoor infinity pool looks out over the Swan River and city skyline",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/perrz-the-ritz-carlton-perth/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The spa works with the skincare brands LaGaia Unedited and Biologique Recherche on its treatments.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "bespoke treatments by skincare labels Biologique Recherche and LaGaia Unedited",
+          "note": "Both brands named",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/perrz-the-ritz-carlton-perth/hotel-stories/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel does not provide shuttle service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "This hotel does not provide shuttle service.",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/perrz-the-ritz-carlton-perth/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Club access requires an upgraded booking, and Marriott Bonvoy Elite Status does not provide it for free.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Club access requires an upgraded booking at the Club. Marriott Bonvoy Elite Status does not provide complimentary access to Club.",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/perrz-the-ritz-carlton-perth/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "Pets are not allowed at the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "No, pets are not allowed at The Ritz-Carlton, Perth.",
+          "note": "Matches",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/perrz-the-ritz-carlton-perth/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

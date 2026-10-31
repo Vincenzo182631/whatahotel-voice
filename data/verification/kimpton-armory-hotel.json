@@ -1,0 +1,421 @@
+{
+  "hotel_slug": "kimpton-armory-hotel",
+  "hotel_name": "Kimpton Armory Hotel",
+  "checked_at": "2026-10-13T04:21:02.752Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 18
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/armory-hotel-bozeman-mt/bznms/hoteldetail",
+      "tier": "official",
+      "chars": 8861
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/armory-hotel-bozeman-mt/bznms/hoteldetail/dining/",
+      "tier": "official",
+      "chars": 5270
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/armory-hotel-bozeman-mt/bznms/hoteldetail/amenities/",
+      "tier": "official",
+      "chars": 5918
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/armory-hotel-bozeman-mt/bznms/hoteldetail/directions/",
+      "tier": "official",
+      "chars": 2500
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/armory-hotel-bozeman-mt/bznms/hoteldetail/local-area-guide/",
+      "tier": "official",
+      "chars": 3789
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/armory-hotel-bozeman-mt/bznms/hoteldetail/rooms/",
+      "tier": "official",
+      "chars": 3147
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/armory-hotel-bozeman-mt/bznms/hoteldetail/",
+      "tier": "official",
+      "chars": 8875
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/armory-hotel-bozeman-mt/bznms/hoteldetail/hotel-reviews/",
+      "tier": "official",
+      "chars": 813
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is located in the former art deco National Guard Armory in Bozeman.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located in the former art deco National Guard Armory",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/armory-hotel-bozeman-mt/bznms/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is in the heart of downtown Bozeman, steps from the boutiques, restaurants and art deco buildings of Main Street.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "In the heart of downtown Bozeman, Kimpton Armory Hotel is steps from the boutiques, restaurants and art deco buildings of Main Street.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/armory-hotel-bozeman-mt/bznms/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Fielding's is the hotel's all-day ground-floor restaurant serving seasonal fare from local growers and purveyors.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Fielding's is our all-day, ground-floor restaurant serving seasonal fare from local growers and purveyors.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/armory-hotel-bozeman-mt/bznms/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Fielding's is named after Fred Fielding Wilson, architect of the original Armory building.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The namesake of Fred Fielding Wilson, architect of the original Armory building",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/armory-hotel-bozeman-mt/bznms/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Tune Up is a basement-level whiskey bar with live music.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Live music reigns at Tune Up, our basement whiskey bar.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/armory-hotel-bozeman-mt/bznms/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Sky Shed is a custom glass-enclosed rooftop lounge with views of four mountain ranges visible from downtown Bozeman.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "custom Sky Shed. Light, airy and modern, this glass-enclosed gathering place is perfect for unwinding with a cocktail while you enjoy views of not one but four (yes, four) mountain ranges visible from Downtown Bozeman.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/armory-hotel-bozeman-mt/bznms/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The hotel has one outdoor pool, a rooftop pool overlooking the Bridger Mountain range.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "roof top pool overlooking the Bridger Mountain range",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/armory-hotel-bozeman-mt/bznms/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Kimpton Armory Hotel Bozeman has 1 outdoor pool.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/armory-hotel-bozeman-mt/bznms/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel offers a Pick & Play guitar loaner program with acoustic guitars, in partnership with Gibson.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "We're partnered with Gibson and have created the Pick & Play guitar loaner program.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/armory-hotel-bozeman-mt/bznms/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Kimpton Armory Hotel has acoustic guitars available for use while staying on property.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/armory-hotel-bozeman-mt/bznms/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Pets are welcome at no extra charge, with no size, weight or breed limit.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "We invite you to bring your pet no matter their size, weight, or breed, all at no extra charge.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/armory-hotel-bozeman-mt/bznms/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Loaner bikes are available.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Loaner bikes",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/armory-hotel-bozeman-mt/bznms/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Sky Shed is a custom glass-enclosed rooftop lounge with views of four mountain ranges visible from downtown Bozeman.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "custom Sky Shed. Light, airy and modern, this glass-enclosed gathering place is perfect for unwinding with a cocktail while you enjoy views of not one but four (yes, four) mountain ranges visible from Downtown Bozeman.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/armory-hotel-bozeman-mt/bznms/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The hotel is located in the former art deco National Guard Armory in Bozeman.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located in the former art deco National Guard Armory",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/armory-hotel-bozeman-mt/bznms/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The hotel offers a Pick & Play guitar loaner program with acoustic guitars, in partnership with Gibson.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "We're partnered with Gibson and have created the Pick & Play guitar loaner program.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/armory-hotel-bozeman-mt/bznms/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Kimpton Armory Hotel has acoustic guitars available for use while staying on property.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/armory-hotel-bozeman-mt/bznms/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Tune Up is a basement-level whiskey bar with live music.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Live music reigns at Tune Up, our basement whiskey bar.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/armory-hotel-bozeman-mt/bznms/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The hotel has one outdoor pool, a rooftop pool overlooking the Bridger Mountain range.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "roof top pool overlooking the Bridger Mountain range",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/armory-hotel-bozeman-mt/bznms/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Kimpton Armory Hotel Bozeman has 1 outdoor pool.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/armory-hotel-bozeman-mt/bznms/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Valet parking costs 45 USD per night.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Valet Parking is $45 per night.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/armory-hotel-bozeman-mt/bznms/hoteldetail/directions/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The hotel has no local area shuttle and no airport shuttle from Bozeman Yellowstone International Airport.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "There is no local area shuttle available at this hotel.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/armory-hotel-bozeman-mt/bznms/hoteldetail/directions/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Shuttle not available",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/armory-hotel-bozeman-mt/bznms/hoteldetail/directions/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes a higher price point typical of boutique properties.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

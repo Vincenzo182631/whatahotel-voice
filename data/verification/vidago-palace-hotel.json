@@ -1,0 +1,340 @@
+{
+  "hotel_slug": "vidago-palace-hotel",
+  "hotel_name": "Vidago Palace Hotel",
+  "checked_at": "2026-10-15T03:11:52.106Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 16,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 17
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://vidagopalace.com/en/",
+      "tier": "official",
+      "chars": 4612
+    },
+    {
+      "id": "d2",
+      "url": "https://vidagopalace.com/en/parquevidago/",
+      "tier": "official",
+      "chars": 3025
+    },
+    {
+      "id": "d3",
+      "url": "https://vidagopalace.com/en/pet-friendly/",
+      "tier": "official",
+      "chars": 2651
+    },
+    {
+      "id": "d4",
+      "url": "https://vidagopalace.com/recruitment/",
+      "tier": "official",
+      "chars": 1636
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is housed in a century-old palace in the heart of the Vidago Thermal Park, surrounded by mountains and forest.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "housed in a century-old palace in the heart of the Vidago Thermal Park, surrounded by mountains and forest",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://vidagopalace.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The palace was initially known for its thermal baths.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Initially known for its thermal baths, due to the excellence of its waters",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://vidagopalace.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The interior design is by Portuguese architects José Pedro Lopes Vieira and Diogo Rosa Lã.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The interior design is the responsibility of Portuguese architects José Pedro Lopes Vieira and Diogo Rosa Lã.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://vidagopalace.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The historic city of Chaves is 15 minutes from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "15 minutes is the time needed to reach the historic city of Chaves",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://vidagopalace.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The park's groves, paths, trails and water mirrors invite strolls through trees that change colour with the seasons.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The groves, paths, trails and water mirrors invite visitors to stroll through the trees, which change colour according to the seasons.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://vidagopalace.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Hotel venues include the restaurant Salão Nobre, the Jardim de Inverno, a bar, a pool bar and a wine shop.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Spa, Bar, Pool Bar, 4 Seasons Room, Wine Shop, restaurant \"Salão Nobre\" and \"Jardim de Inverno\"",
+          "note": "venues listed as hotel public areas",
+          "confirmed": true,
+          "url": "https://vidagopalace.com/en/pet-friendly/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The hotel has a Kids Club.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Club House, Event Rooms and Kids Club",
+          "note": "Kids Club listed among hotel public areas",
+          "confirmed": true,
+          "url": "https://vidagopalace.com/en/pet-friendly/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Pets may walk in the hotel's park on a leash.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The circulation in the Hotel's park is allowed, provided your pet is on",
+          "note": "continues 'a leash'",
+          "confirmed": true,
+          "url": "https://vidagopalace.com/en/pet-friendly/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "A portion of the park access proceeds goes to the Vidago Volunteer Fire Department.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "A portion of the proceeds goes to the Vidago Volunteer Fire Department",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://vidagopalace.com/en/parquevidago/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Vidago Palace Hotel was inaugurated on 6 October 1910, the year the First Portuguese Republic was established.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "it was on the 6th October 1910, the year in which the First Portuguese Republic was established, that the Vidago Palace Hotel was inaugurated",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://vidagopalace.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "In the 19th century, King D. Carlos I wished to see a luxury therapeutic spa built in Vidago with international projection.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "It was in the 19th century that King D. Carlos I wished to see a luxury therapeutic spa built that would have international projection. The waters of the village of Vidago were already considered to be of national interest at the time.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://vidagopalace.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The hotel's golf course was designed by architect Philip Mackenzie Ross.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "a unique golf course, designed by the famous architect Philip Mackenzie Ross",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://vidagopalace.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Spa and Club House were designed by architect Álvaro Siza Vieira.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Spa and Club House were designed by the renowned architect Álvaro Siza Vieira.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://vidagopalace.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Guided tours of the hotel's interior include a brief historical presentation and a water tasting directly from the source, subject to availability and prior booking.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "To explore the hotel's interior, including a brief historical presentation and a water tasting directly from the source, we recommend our guided tours (subject to availability and prior booking",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://vidagopalace.com/en/parquevidago/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel is about one hour from Porto.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Only one hour separates Porto from the uniqueness of a hotel like the",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://vidagopalace.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Vidago Park also admits outside visitors, who pay an entry fee; hotel guests have free access.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "• Visitors: € 2.50 per person",
+          "note": "outside visitors pay a fee",
+          "confirmed": true,
+          "url": "https://vidagopalace.com/en/parquevidago/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "• Guests of the Vidago Palace Hotel;",
+          "note": "listed under free access",
+          "confirmed": true,
+          "url": "https://vidagopalace.com/en/parquevidago/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes limited dining and entertainment options in the surrounding area.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

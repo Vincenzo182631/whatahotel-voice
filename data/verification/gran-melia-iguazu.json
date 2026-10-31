@@ -1,0 +1,420 @@
+{
+  "hotel_slug": "gran-melia-iguazu",
+  "hotel_name": "Gran Melia Iguazu",
+  "checked_at": "2026-10-16T01:13:07.379Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.melia.com/en/hotels/argentina/iguazu-national-park/gran-melia-iguazu",
+      "tier": "official",
+      "chars": 30000
+    },
+    {
+      "id": "d2",
+      "url": "https://www.melia.com/en/hotels/argentina/iguazu-national-park/gran-melia-iguazu/activities/unbeatable-experiences-in-iguazu-national-park/",
+      "tier": "official",
+      "chars": 4274
+    },
+    {
+      "id": "d3",
+      "url": "https://www.melia.com/en/hotels/argentina/iguazu-national-park/gran-melia-iguazu/highlighted/yasi-spa/",
+      "tier": "official",
+      "chars": 2626
+    },
+    {
+      "id": "d4",
+      "url": "https://www.melia.com/en/hotels/argentina/iguazu-national-park/gran-melia-iguazu/redlevel/",
+      "tier": "official",
+      "chars": 10059
+    },
+    {
+      "id": "d5",
+      "url": "https://www.melia.com/en/hotels/argentina/iguazu-national-park/gran-melia-iguazu/restaurants/asador/",
+      "tier": "official",
+      "chars": 2731
+    },
+    {
+      "id": "d6",
+      "url": "https://www.melia.com/en/hotels/argentina/iguazu-national-park/gran-melia-iguazu/activities/hotel-activities/",
+      "tier": "official",
+      "chars": 3628
+    },
+    {
+      "id": "d7",
+      "url": "https://www.melia.com/en/hotels/argentina/iguazu-national-park/gran-melia-iguazu/rooms/",
+      "tier": "official",
+      "chars": 14452
+    },
+    {
+      "id": "d8",
+      "url": "https://www.melia.com/en/hotels/argentina/iguazu-national-park/gran-melia-iguazu/restaurants/",
+      "tier": "official",
+      "chars": 4274
+    },
+    {
+      "id": "d9",
+      "url": "https://www.melia.com/en/hotels/argentina/iguazu-national-park/gran-melia-iguazu/restaurants/merkado/",
+      "tier": "official",
+      "chars": 2118
+    },
+    {
+      "id": "d10",
+      "url": "https://www.melia.com/en/hotels/argentina/iguazu-national-park/gran-melia-iguazu/reviews/",
+      "tier": "official",
+      "chars": 5600
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is located within Iguazú National Park.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "To access the hotel, located within the National Park, it is mandatory to purchase a ticket per person",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.melia.com/en/hotels/argentina/iguazu-national-park/gran-melia-iguazu",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Iguazú National Park forms the natural border between Argentina, Brazil and Paraguay and is one of the Seven Natural Wonders of the World.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "It forms the impressive natural border between Argentina, Brazil and Paraguay",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.melia.com/en/hotels/argentina/iguazu-national-park/gran-melia-iguazu/activities/unbeatable-experiences-in-iguazu-national-park/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "This natural reserve of 67 thousand hectares is one of the Seven Natural Wonders of the World.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.melia.com/en/hotels/argentina/iguazu-national-park/gran-melia-iguazu/activities/unbeatable-experiences-in-iguazu-national-park/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel has views of the Devil's Throat.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "With its privileged views of the Devil's Throat, guests enjoy an unparalleled connection with nature",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.melia.com/en/hotels/argentina/iguazu-national-park/gran-melia-iguazu",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel has an infinity pool in front of the Devil's Throat, with a pool concierge service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "swimming in our 50-meter infinity pool in front of the incredible Devil's Throat while enjoying the services of our pool concierge",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.melia.com/en/hotels/argentina/iguazu-national-park/gran-melia-iguazu",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Children have their own paddling pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The youngest members of the family have access to their own paddling pool.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.melia.com/en/hotels/argentina/iguazu-national-park/gran-melia-iguazu",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The gym has views of Iguazu Falls.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Work out in the only gym with views of Iguazu Falls.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.melia.com/en/hotels/argentina/iguazu-national-park/gran-melia-iguazu",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Family Rooms have two connected bedrooms, each with its own bathroom and private balcony.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "With two connected bedrooms, each with its own bathroom and private balcony with views of the jungle.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.melia.com/en/hotels/argentina/iguazu-national-park/gran-melia-iguazu",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "RedLevel rooms and suites are on the upper floors, with views of the Iguazú falls.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "RedLevel rooms and suites are all located on our upper floors, offering unspoiled views of the monumental Iguazú falls",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.melia.com/en/hotels/argentina/iguazu-national-park/gran-melia-iguazu/redlevel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "RedLevel rooms include a Nespresso coffee machine, exclusive toiletries and 600-thread count cotton bed linen.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Nespresso coffee machine with daily capsule restocking, exclusive toiletries and premium 600-thread count cotton bed linen.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.melia.com/en/hotels/argentina/iguazu-national-park/gran-melia-iguazu/redlevel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The Yasi Spa hydrotherapy circuit with hydromassage jets is included in the RedLevel category and is reserved for guests over 16.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The best way to enhance the therapeutic benefits of the circuit's hydromassage jets. Included in RedLevel category. Exclusive for over 16 years.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.melia.com/en/hotels/argentina/iguazu-national-park/gran-melia-iguazu/highlighted/yasi-spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Alter Rooftop Bar has panoramic views of Iguazu Falls and serves selected wines and signature cocktails.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Alter Rooftop Bar reflects the exclusive nature of its privileged location with panoramic views of Iguazu Falls and a carefully selected choice of wines and signature cocktails.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.melia.com/en/hotels/argentina/iguazu-national-park/gran-melia-iguazu",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Asador, under chef Ernesto Palomar, celebrates open-flame cooking that combines Argentine tradition with a contemporary perspective.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Under the direction of chef Ernesto Palomar, Asador celebrates open-flame cooking through a proposal that combines Argentine tradition with a contemporary perspective.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.melia.com/en/hotels/argentina/iguazu-national-park/gran-melia-iguazu/restaurants/asador/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The two-story Royal Suite RedLevel has a terrace with a private heated infinity pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "This two-story suite boasts a stunning terrace featuring a private infinity heated pool.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.melia.com/en/hotels/argentina/iguazu-national-park/gran-melia-iguazu",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Under the Full Moon takes guests to the Devil's Throat balcony by moonlight on full moon nights.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "This unique experience happens 5 nights every month, on full moon days, in the Iguazu National Park. You will reach the balcony of the majestic Garganta del Diablo (Devil's Throat) under the moonlight",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.melia.com/en/hotels/argentina/iguazu-national-park/gran-melia-iguazu/activities/unbeatable-experiences-in-iguazu-national-park/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Rainforest Ecological train to the Devil's Throat trail leaves from outside the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The most famous trip is the Devil’s Throat trail: take the Rainforest Ecological train from outside the hotel",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.melia.com/en/hotels/argentina/iguazu-national-park/gran-melia-iguazu/activities/unbeatable-experiences-in-iguazu-national-park/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Yasi Spa treatments and rituals use exclusive yerba mate products.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Our treatments and rituals are performed with exclusive yerba mate products.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.melia.com/en/hotels/argentina/iguazu-national-park/gran-melia-iguazu/highlighted/yasi-spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Every guest must buy a park ticket on the Iguazu National Park website and show it at check-in to access the hotel; park entrance is not included in the room rate.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "it is mandatory to purchase a ticket per person through the Iguazu National Park website and present it at the hotel reception at the time of check-in",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.melia.com/en/hotels/argentina/iguazu-national-park/gran-melia-iguazu",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Entrance to Iguazu National Park is not included in the rate.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.melia.com/en/hotels/argentina/iguazu-national-park/gran-melia-iguazu/activities/unbeatable-experiences-in-iguazu-national-park/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The hotel's own activities are exclusive to Meliá Rewards members and may vary by season.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Gran Melia Iguazú offers a range of exclusive activities for Melia Rewards members, designed to provide guests with unique experiences during their stay. Please note that the activities may vary according to the season.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.melia.com/en/hotels/argentina/iguazu-national-park/gran-melia-iguazu/activities/hotel-activities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the remote rainforest location requires planned transportation.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

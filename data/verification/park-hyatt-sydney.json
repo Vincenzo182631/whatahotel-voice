@@ -1,0 +1,415 @@
+{
+  "hotel_slug": "park-hyatt-sydney",
+  "hotel_name": "Park Hyatt Sydney",
+  "checked_at": "2026-10-13T08:31:35.826Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 20,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 0,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/sydph-park-hyatt-sydney",
+      "tier": "official",
+      "chars": 12458
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/sydph-park-hyatt-sydney/rooms/",
+      "tier": "official",
+      "chars": 13437
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/sydph-park-hyatt-sydney/dining/",
+      "tier": "official",
+      "chars": 2920
+    },
+    {
+      "id": "d4",
+      "url": "https://www.cntraveler.com/hotels/australia/sydney/park-hyatt-sydney",
+      "tier": "editorial",
+      "chars": 11376
+    },
+    {
+      "id": "d5",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/sydph-park-hyatt-sydney/hotel-info/",
+      "tier": "official",
+      "chars": 1010
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/sydph-park-hyatt-sydney/reviews/",
+      "tier": "official",
+      "chars": 11061
+    },
+    {
+      "id": "d7",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/sydph-park-hyatt-sydney/parking-and-transportation/",
+      "tier": "official",
+      "chars": 845
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is in The Rocks historic neighborhood on the western side of Sydney Cove.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "the hotel's location in the Rocks historic neighborhood on the western side of Sydney Cove",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/australia/sydney/park-hyatt-sydney",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Circular Quay, a main transportation hub, is about five minutes away on foot.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "At least Circular Quay, a main transportation hub, is just five-ish minutes away on foot.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/australia/sydney/park-hyatt-sydney",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel is low-rise.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "in comparison, the Park Hyatt is a refreshingly low-rise.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/australia/sydney/park-hyatt-sydney",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Bathrooms have a rain shower, bath tub and separate powder room with a heated Toto toilet.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Bathrooms feature a rain shower, bath tub and separate powder room with heated Toto toilet.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/sydph-park-hyatt-sydney/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Guest rooms come with Le Labo bath amenities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "these rooms are residential in style with luxurious appointments, complete with signature Le Labo amenities.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/sydph-park-hyatt-sydney/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The generously-sized marble bathroom was stocked with Le Labo toiletries",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/australia/sydney/park-hyatt-sydney",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The day spa has suite-inspired treatment rooms, a relaxation zone and steam rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Enjoy five suite-inspired treatment rooms, an intimate relaxation zone and two steam rooms.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/sydph-park-hyatt-sydney",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The fitness centre overlooks Dawes Point Reserve and Sydney Harbour.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The gym overlooks Dawes Point Reserve and Sydney Harbour.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/sydph-park-hyatt-sydney",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Dining Room is the hotel's signature restaurant and focuses on locally sourced produce.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Savour the finest locally sourced produce at our signature restaurant on Sydney Harbour.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/sydph-park-hyatt-sydney/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The Bar serves cocktails made with native botanicals.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The Bar boasts an award-winning wine list to locally-inspired cocktails crafted meticulously with native botanicals.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/sydph-park-hyatt-sydney/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The Living Room offers all-day dining with harbour views through floor-to-ceiling windows.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Framed by floor-to-ceiling windows with views of Sydney Harbour, enjoy a relaxing harbourside all-day dining experience.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/sydph-park-hyatt-sydney/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "In-room dining is served by a team of butlers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Allow our dedicated, professional team of butlers to provide personalised in-room dining services",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/sydph-park-hyatt-sydney/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Double Deluxe Rooms sleep up to four guests in existing bedding and are suited to families.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Accommodating a maximum of four guests in existing bedding, this room is ideal for families.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/sydph-park-hyatt-sydney/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Opera View rooms have floor-to-ceiling glass doors opening to a private balcony with direct views of the Sydney Opera House and Sydney Harbour.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Floor-to-ceiling glass doors open to a private balcony featuring direct, uninterrupted views of the iconic Sydney Opera House and Sydney Harbour.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/sydph-park-hyatt-sydney/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The hotel sits on the edge of Sydney Harbour, facing the Sydney Opera House.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located on the very edge of Sydney Harbour with front-row seats to the world-famous Opera House",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/sydph-park-hyatt-sydney",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The rooftop pool is open year-round with views of Sydney Harbour.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our exclusive rooftop pool is open year-round, with sweeping views of Sydney Harbour.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/sydph-park-hyatt-sydney",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Harbour-facing rooms look out on the New Year's Eve fireworks over the Opera House and Harbour Bridge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "when its harbor-facing rooms get front-row seats to the fireworks displays put on by both the Sydney Opera House and Harbour Bridge",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/australia/sydney/park-hyatt-sydney",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Art commissioned from Australian artists is displayed in the guest rooms and suites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Specially commissioned art by prominent Australian artists are on display, creating an art gallery of unique art pieces in all 155 guest rooms and suites.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/sydph-park-hyatt-sydney/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "King Rooms overlook Hickson Road and have no balcony or harbour views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "King Rooms overlook Hickson Road and do not feature a balcony or views of Sydney Harbour.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/sydph-park-hyatt-sydney/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Getting to city neighborhoods such as Surry Hills and Darlinghurst can feel like a trek.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "it felt like a trek commuting to the city proper, to neighborhoods that travelers would want to check out like Surry Hills and Darlinghurst",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/australia/sydney/park-hyatt-sydney",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "The better rooms tend to be farther from the elevators, meaning long walks to common spaces.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "the better rooms tend to be farther away from the elevators, making for long walks between common spaces and private rooms",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/australia/sydney/park-hyatt-sydney",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

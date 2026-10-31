@@ -1,0 +1,468 @@
+{
+  "hotel_slug": "regent-shanghai-on-the-bund",
+  "hotel_name": "Regent Shanghai on the Bund",
+  "checked_at": "2026-10-14T04:35:47.333Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ihg.com/regent/hotels/us/en/shanghai/shabn/hoteldetail",
+      "tier": "official",
+      "chars": 4324
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ihg.com/regent/hotels/us/en/shanghai/shabn/hoteldetail/rooms/",
+      "tier": "official",
+      "chars": 4171
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ihg.com/regent/hotels/us/en/shanghai/shabn/hoteldetail/dining/",
+      "tier": "official",
+      "chars": 3351
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ihg.com/regent/hotels/us/en/shanghai/shabn/hoteldetail/wellness/",
+      "tier": "official",
+      "chars": 2218
+    },
+    {
+      "id": "d5",
+      "url": "https://www.cntraveler.com/hotels/shanghai/regent-shanghai-on-the-bund",
+      "tier": "editorial",
+      "chars": 10294
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ihg.com/regent/hotels/us/en/shanghai/shabn/hoteldetail/",
+      "tier": "official",
+      "chars": 4324
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is at 60 Huangpu Road in Shanghai's Hongkou District, on the banks of the Huangpu River.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "60 Huangpu Road,   Hongkou District, Shanghai",
+          "note": "address",
+          "confirmed": true,
+          "url": "https://www.ihg.com/regent/hotels/us/en/shanghai/shabn/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "On the banks of the Huangpu River, lies a serene riverside retreat",
+          "note": "riverside",
+          "confirmed": true,
+          "url": "https://www.ihg.com/regent/hotels/us/en/shanghai/shabn/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is reachable by metro lines 10 and 12.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "metro journey to the hotel which is accessible by metro line 10 or 12.",
+          "note": "metro lines",
+          "confirmed": true,
+          "url": "https://www.ihg.com/regent/hotels/us/en/shanghai/shabn/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Shanghai Hongqiao International Airport is approximately 40 minutes by car, and Shanghai Pudong International Airport approximately 1 hour by car.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Shanghai Pudong International Airport is approximately 1 hour by car from the hotel, Shanghai Hongqiao International Airport is approximately 40 minutes by car from the hotel.",
+          "note": "both airport times",
+          "confirmed": true,
+          "url": "https://www.ihg.com/regent/hotels/us/en/shanghai/shabn/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel is minutes from Nanjing Road, just across the bridge from the main Bund promenade.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "You are right on the Bund, just across the bridge from the main promenade and minutes from bustling Nanjing Road’s famous avenue of shops and restaurants.",
+          "note": "location",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/shanghai/regent-shanghai-on-the-bund",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Historic elements of the former hotel remain, including a grand piano and a white stone spiral staircase rising to the second-floor banquet rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Historic elements of the former hotel remain today, including a grand piano and white stone, spiral staircase that rises up to the second-floor banquet rooms.",
+          "note": "historic elements",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/shanghai/regent-shanghai-on-the-bund",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Each guestroom is designed to feel like a shipboard stateroom with an Oasis Bathroom, and the majority overlook the Huangpu River and Shanghai skyline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "each guestroom feels like an elegant shipboard stateroom with an Oasis Bathroom, the majority overlooking the Huangpu River and Shanghai skyline.",
+          "note": "stateroom, Oasis Bathroom, majority river views",
+          "confirmed": true,
+          "url": "https://www.ihg.com/regent/hotels/us/en/shanghai/shabn/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Classic Garden Bridge View Room is a corner riverfront room looking onto the Garden Bridge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "From your corner riverfront oasis, awaken to watch Shanghai come to life on the Garden Bridge",
+          "note": "corner riverfront, Garden Bridge (Classic Garden Bridge View Room section)",
+          "confirmed": true,
+          "url": "https://www.ihg.com/regent/hotels/us/en/shanghai/shabn/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Conde, on the fifth floor, serves Western cuisine with views of the Shanghai skyline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Cuisine\nWestern\n\n- HOURS\n5:30 PM to 12:00 AM (Monday to Thursday)",
+          "note": "Conde cuisine Western",
+          "confirmed": true,
+          "url": "https://www.ihg.com/regent/hotels/us/en/shanghai/shabn/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "LOCATION\nFifth Floor",
+          "note": "fifth floor",
+          "confirmed": true,
+          "url": "https://www.ihg.com/regent/hotels/us/en/shanghai/shabn/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "contrast beautifully with the dazzling views of the Shanghai skyline",
+          "note": "skyline views",
+          "confirmed": true,
+          "url": "https://www.ihg.com/regent/hotels/us/en/shanghai/shabn/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Jin Lin, on the third floor, serves authentic Cantonese cuisine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Authentic Cantonese",
+          "note": "cuisine",
+          "confirmed": true,
+          "url": "https://www.ihg.com/regent/hotels/us/en/shanghai/shabn/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Jin Lin Chinese restaurant on the third floor opens for lunch and dinner with a Cantonese menu.",
+          "note": "third floor, Cantonese",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/shanghai/regent-shanghai-on-the-bund",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Harmonia's breakfast buffet has live cooking stations, including an area to watch handmade dumplings being rolled.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Its breakfast buffet has live cooking stations, complete with an area to watch handmade dumplings rolled a la minute.",
+          "note": "Harmonia buffet",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/shanghai/regent-shanghai-on-the-bund",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Conde Boutique, just off the lobby, is a pastry shop with a show kitchen, a bar counter and a garden terrace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Just off the lobby, Condé Boutique redefines the traditional pastry shop concept.",
+          "note": "off lobby, pastry shop",
+          "confirmed": true,
+          "url": "https://www.ihg.com/regent/hotels/us/en/shanghai/shabn/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "A stunning show kitchen reveals the creation of artisanal pastries, while the decadent display, convivial bar counter and garden terrace are a social hub",
+          "note": "show kitchen, bar counter, garden terrace",
+          "confirmed": true,
+          "url": "https://www.ihg.com/regent/hotels/us/en/shanghai/shabn/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The indoor swimming pool has tall windows with old Shanghai style mullions and a fountain.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "natural light streams through tall windows with old Shanghai style mullions as the subtle spray of a fountain echoes the mist of the river",
+          "note": "windows, mullions, fountain",
+          "confirmed": true,
+          "url": "https://www.ihg.com/regent/hotels/us/en/shanghai/shabn/hoteldetail/wellness/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel was once The Seagull on the Bund hotel, dating back to the mid-1980s.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "This was once The Seagull on the Bund hotel, dating back to the mid-1980s",
+          "note": "history",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/shanghai/regent-shanghai-on-the-bund",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "There are balconies in almost every room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "There are balconies in almost every room",
+          "note": "balconies",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/shanghai/regent-shanghai-on-the-bund",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The hotel sits at the crossroads of the Suzhou River, next to the Garden Bridge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "at the crossroads of the Suzhou River, just next to the famous Garden Bridge",
+          "note": "location",
+          "confirmed": true,
+          "url": "https://www.ihg.com/regent/hotels/us/en/shanghai/shabn/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Penthouse on the Bund has 270-degree views of the Shanghai skyline and historic Bund, a grand reception hall, an outdoor terrace and a private sauna.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "discover unparalleled scenic beauty with 270° framed views of the Shanghai skyline and historic Bund",
+          "note": "270 views",
+          "confirmed": true,
+          "url": "https://www.ihg.com/regent/hotels/us/en/shanghai/shabn/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "the Penthouse on the Bund is home to a grand reception hall and outdoor terrace for entertaining",
+          "note": "reception hall, terrace",
+          "confirmed": true,
+          "url": "https://www.ihg.com/regent/hotels/us/en/shanghai/shabn/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "skyline views and private sauna",
+          "note": "private sauna",
+          "confirmed": true,
+          "url": "https://www.ihg.com/regent/hotels/us/en/shanghai/shabn/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Harmonia is the all-day restaurant, with an open kitchen and a garden courtyard and terrace overlooking the Bund.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Harmonia is the second-floor, all-day dining venue.",
+          "note": "all-day",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/shanghai/regent-shanghai-on-the-bund",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "in a light-filled setting with a garden courtyard and terrace overlooking the Bund. The open kitchen is a showcase of chefs",
+          "note": "courtyard, terrace, open kitchen",
+          "confirmed": true,
+          "url": "https://www.ihg.com/regent/hotels/us/en/shanghai/shabn/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The indoor pool does not have views over the Bund.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "While it would have been nice to peer out over the Bund while swimming, the building’s design doesn’t allow for that.",
+          "note": "no Bund view from pool",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/shanghai/regent-shanghai-on-the-bund",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The Conde Boutique and lobby lounge have no windows.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "There’s also the Condé Boutique and lobby lounge, but there is no view (no windows at all).",
+          "note": "no windows",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/shanghai/regent-shanghai-on-the-bund",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes a busy tourist area with high foot traffic.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

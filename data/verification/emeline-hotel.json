@@ -1,0 +1,398 @@
+{
+  "hotel_slug": "emeline-hotel",
+  "hotel_name": "Emeline Hotel",
+  "checked_at": "2026-10-15T23:56:07.097Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://hotelemeline.com/our-story",
+      "tier": "official",
+      "chars": 3504
+    },
+    {
+      "id": "d2",
+      "url": "https://hotelemeline.com/the-archive/",
+      "tier": "official",
+      "chars": 1989
+    },
+    {
+      "id": "d3",
+      "url": "https://www.cntraveler.com/hotels/charleston/emeline",
+      "tier": "editorial",
+      "chars": 7742
+    },
+    {
+      "id": "d4",
+      "url": "https://hotelemeline.com/our-story/",
+      "tier": "official",
+      "chars": 3504
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is at 181 Church Street in Charleston.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "For well over a century, 181 Church Street has witnessed many incarnations",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://hotelemeline.com/our-story",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "181 Church St, Charleston, South Carolina 29401",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/charleston/emeline",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel sits just north of Charleston's historic open-air market.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Hotel Emeline sits just north of the historic open-air market.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/charleston/emeline",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Gibbes Museum of Art is three blocks from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The Gibbes Museum of Art, a short three blocks from Emeline",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://hotelemeline.com/the-archive/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Over the years, 181 Church Street housed a grocery business, a provisions company that supplied local hotels, restaurants and ships, and a bank.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "from a burgeoning grocery business to a provisions company that catered to local hotels, restaurants, and ships readying to set sail. It even lived a life as a bank",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://hotelemeline.com/our-story",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The hotel is by Makeready, which worked with local maker Urban Electric on its light fixtures.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Hospitality visionary Makeready, the brand behind Dallas’s",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/charleston/emeline",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Here, they tapped local maker Urban Electric for innovative light fixtures",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/charleston/emeline",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "A circular iron staircase leads to a mezzanine balcony overlooking the entry.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Check out the circular iron staircase leading to a mezzanine balcony overlooking the entry.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/charleston/emeline",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The suite Condé Nast Traveler reviewed had a bathroom with a walk-in rain shower and travertine floors.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "state-of-the-art bathroom, with walk-in rainshower, smooth travertine underfoot",
+          "note": "reviewer's suite",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/charleston/emeline",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The lobby-level Keep Shop sells curated local collectibles.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The lobby-level “Keep Shop” brims with well-curated local collectibles",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/charleston/emeline",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Horse carriages can be caught right outside the hotel's front door.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "You can catch a horse carriage literally out the front door",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/charleston/emeline",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel's restaurant, Frannie & The Fox, has a menu designed around a central wood-fired oven and opens onto an inner courtyard with a fire.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Emeline’s restaurant Frannie & The Fox is a destination in its own right.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/charleston/emeline",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "all opening onto a wide open inner courtyard with blazing fire and trellised jasmine. The menu is designed around a central wood-fired oven",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/charleston/emeline",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "A 'foxhole' speakeasy drink window gives hidden direct access to the bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "access the “foxhole” speakeasy drink window, a hidden direct access to the bar",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/charleston/emeline",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Emeline's Archive is a curated collection celebrating the Charleston Renaissance, a period from 1920 through World War II.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Emeline’s Archive celebrates the Charleston Renaissance, a time in history beginning in 1920 through World War II",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://hotelemeline.com/the-archive/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "In the curated collection you will find art, books, and inspired imagery from:",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://hotelemeline.com/the-archive/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Rooms have a Crosley turntable, and the hotel has a vinyl record collection for guests to play.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "With a vinyl record collection of 500 and growing, it’s only natural to settle into your room by slipping a record out of its sleeve, placing it on the Crosley turntable",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/charleston/emeline",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Bi-level townhouse-style 'masonette' rooms open onto the inner courtyard.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "the “masonette” bi-level townhouse-style rooms opening onto the inner courtyard",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/charleston/emeline",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The hotel runs an artist-in-residency program to connect guests with the local art scene.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "we have established an artist-in-residency program to provide our guests with a personal connection to our vibrant local art scene",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://hotelemeline.com/the-archive/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The hotel has beach cruiser bikes for pedaling around town.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "hop on one of the hotel’s beach cruisers to pedal around town",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/charleston/emeline",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel is in a heavily touristed part of historic downtown Charleston, just north of the open-air market.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Hotel Emeline sits just north of the historic open-air market. Despite this being a heavily touristed area",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/charleston/emeline",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "let us be your threshold to historic downtown Charleston",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://hotelemeline.com/our-story",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes limited parking in the busy downtown area.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes it can be noisy due to the central location.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

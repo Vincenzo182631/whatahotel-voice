@@ -1,0 +1,475 @@
+{
+  "hotel_slug": "the-palace-madrid",
+  "hotel_name": "The Palace Madrid",
+  "checked_at": "2026-10-24T07:29:21.661Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 20,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 0,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/madcl-the-palace-a-luxury-collection-hotel-madrid/overview/",
+      "tier": "official",
+      "chars": 16159
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/madcl-the-palace-a-luxury-collection-hotel-madrid/rooms/",
+      "tier": "official",
+      "chars": 11333
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/madcl-the-palace-a-luxury-collection-hotel-madrid/dining/",
+      "tier": "official",
+      "chars": 8175
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/madcl-the-palace-a-luxury-collection-hotel-madrid/experiences/",
+      "tier": "official",
+      "chars": 8999
+    },
+    {
+      "id": "d5",
+      "url": "https://www.cntraveler.com/hotels/madrid/the-palace-a-luxury-collection-hotel",
+      "tier": "editorial",
+      "chars": 12912
+    },
+    {
+      "id": "d6",
+      "url": "https://www.marriott.com/en-us/hotels/madcl-the-palace-a-luxury-collection-hotel-madrid/experiences/holidays/",
+      "tier": "official",
+      "chars": 5878
+    },
+    {
+      "id": "d7",
+      "url": "https://www.marriott.com/en-us/hotels/madcl-the-palace-a-luxury-collection-hotel-madrid/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "chars": 1944
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel stands within Madrid's UNESCO-listed Landscape of Light district.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "the hotel stands within Madrid’s UNESCO accredited Landscape of Light district",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/madcl-the-palace-a-luxury-collection-hotel-madrid/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel sits in the Golden Triangle of Art, beside the Prado, Reina Sofía and Thyssen-Bornemisza museums.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "At the heart of the Golden Triangle of Art, The Palace sits side-by-side with the city’s iconic museums, Prado, Reina Sofía and Thyssen-Bornemisza.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/madcl-the-palace-a-luxury-collection-hotel-madrid/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel is next to the Barrio de las Letras, the literary quarter linked to Cervantes and Lope de Vega.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Palace sits adjacent to the vibrant Bohemian area, Barrio de las Letras. Long associated with a rich literary tradition",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/madcl-the-palace-a-luxury-collection-hotel-madrid/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "including Miguel de Cervantes and Lope de Vega, find inspiration",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/madcl-the-palace-a-luxury-collection-hotel-madrid/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Barcelona designer Lázaro Rosa-Violán created the interiors.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Ruiz Larrea Arquitectura with Lázaro Rosa-Violán entrusted with the interiors",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/madrid/the-palace-a-luxury-collection-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Acclaimed Barcelona interior designer",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/madrid/the-palace-a-luxury-collection-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Federico García Lorca, Salvador Dalí and Luis Buñuel were among those who drank at the Palace's bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Poet Federico García Lorca, painter Salvador Dalí, and film director Luis Buñuel were among the luminaries to raise a drink at the Palace.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/madrid/the-palace-a-luxury-collection-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Many rooms and suites have city views that include the Neptuno Fountain, Cortes Square and the Congress of Deputies.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "many of the 470 guestrooms and suites at The Palace benefit from excellent views across storied landmarks",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/madcl-the-palace-a-luxury-collection-hotel-madrid/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "including views across Neptuno Fountain, Cortes Square and Congress of Deputies",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/madcl-the-palace-a-luxury-collection-hotel-madrid/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Palace Suite keeps an original fireplace, with bespoke wallpaper inspired by Surrealism.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Historical context remains with the original fireplace as a stylish centerpiece, while bespoke wallpaper draws on the destination’s affinity with the Surrealist movement.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/madcl-the-palace-a-luxury-collection-hotel-madrid/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Cervantes Suite honors Miguel de Cervantes, with handcrafted tapestry inspired by the Retiro park.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "An homage to renowned Spanish writer, Miguel de Cervantes Saavedra, this suite is furnished with handcrafted tapestry that draws inspiration from neighboring Parque del Retiro.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/madcl-the-palace-a-luxury-collection-hotel-madrid/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Room wallpapers are inspired by Retiro Park and shower mosaics evoke a bird's-eye view of the Royal Botanic Gardens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "All the wallpapers are inspired by the landscapes of the nearby Retiro Park, just as the mosaics in the showers evoke a bird's-eye view of the Royal Botanic Gardens.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/madrid/the-palace-a-luxury-collection-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "La Cúpula restaurant sits beneath a stained-glass dome and serves from breakfast onward.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "La Cúpula is a cosmopolitan Madrid restaurant beneath an imposing stained-glass dome, where guests gather from breakfast onward",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/madcl-the-palace-a-luxury-collection-hotel-madrid/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Ernest Hemingway paid literary tribute to the dry martini of the hotel's 27 Club bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Immortalized by Ernest Hemingway’s literary tribute of the club’s dry martini",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/madcl-the-palace-a-luxury-collection-hotel-madrid/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The fitness area has a sauna and a terrace-solarium, and massages, facials and body treatments are offered.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Sauna and terrace-solarium for relaxation and recovery.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/madcl-the-palace-a-luxury-collection-hotel-madrid/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Personalized massages, facial and body treatments.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/madcl-the-palace-a-luxury-collection-hotel-madrid/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The wrought iron and glass dome was designed by Eduardo Ferrés i Puig in 1912 and made by the Mauméjean Brothers glass studio.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "its wrought iron and glass dome, designed by Eduardo Ferrés i Puig in 1912, and executed by the master glassmakers at the Mauméjean Brothers studio",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/madrid/the-palace-a-luxury-collection-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The one-bedroom Royal Suite overlooks the Neptuno Fountain and has a grand dining room, a library with bar and a chef's kitchen.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The expansive one-bedroom suite, overlooking Neptuno Fountain, has been fashioned to incorporate grand dining room, library with bar and chef’s kitchen.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/madcl-the-palace-a-luxury-collection-hotel-madrid/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The hotel faces Madrid's Neptune Fountain and has been a city landmark since 1912.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Facing Madrid's iconic Neptune Fountain, The Palace Hotel, Madrid, a Luxury Collection Hotel, has been one of the city's most celebrated landmarks since 1912.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/madcl-the-palace-a-luxury-collection-hotel-madrid/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "A package with the Thyssen-Bornemisza museum includes a guided tour of the collection before opening.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "enjoy an overnight stay for two, daily breakfast and exclusive access to the Thyssen-Bornemisza National Museum",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/madcl-the-palace-a-luxury-collection-hotel-madrid/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Guests will receive a morning guided tour, where the collection’s treasures can be enjoyed pre-opening.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/madcl-the-palace-a-luxury-collection-hotel-madrid/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Palace was Spain's first hotel to have private toilets in every room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "it was Spain’s first hotel (and the second in the world) to have private toilets in every room",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/madrid/the-palace-a-luxury-collection-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Deluxe Guest rooms have a courtyard view.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Deluxe Guest room",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/madcl-the-palace-a-luxury-collection-hotel-madrid/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "1 King, Courtyard view",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/madcl-the-palace-a-luxury-collection-hotel-madrid/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "2 Twin, Courtyard view",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/madcl-the-palace-a-luxury-collection-hotel-madrid/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Breakfast at La Cúpula is available for a fee.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "breakfast is available onsite at La Cúpula Restaurant & Bar for a fee",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/madcl-the-palace-a-luxury-collection-hotel-madrid/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "The minimum age to check in is 18.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Minimum Age to Check In: 18",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/madcl-the-palace-a-luxury-collection-hotel-madrid/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,421 @@
+{
+  "hotel_slug": "jw-marriott-st-maarten-beach-resort-spa",
+  "hotel_name": "JW Marriott St. Maarten Beach Resort & Spa",
+  "checked_at": "2026-10-31T02:58:07.143Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/sxmdb-jw-marriott-st-maarten-beach-resort-and-spa/overview/",
+      "tier": "official",
+      "chars": 18900
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/sxmdb-jw-marriott-st-maarten-beach-resort-and-spa/rooms/",
+      "tier": "official",
+      "chars": 8304
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/sxmdb-jw-marriott-st-maarten-beach-resort-and-spa/dining/",
+      "tier": "official",
+      "chars": 9347
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/sxmdb-jw-marriott-st-maarten-beach-resort-and-spa/experiences/",
+      "tier": "official",
+      "chars": 15688
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The resort is set on Dawn Beach in St. Maarten.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Situated on the captivating Dawn Beach, our luxury hotel in St. Maarten is a serene island retreat",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sxmdb-jw-marriott-st-maarten-beach-resort-and-spa/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The resort is about 30 minutes from Princess Juliana International Airport.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Just 30 minutes from Princess Juliana International Airport, the resort is set directly on Dawn Beach",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sxmdb-jw-marriott-st-maarten-beach-resort-and-spa/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Room types include beachfront rooms with a balcony and a private plunge pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "1 King, Sofa bed, Beachfront, Balcony, Plunge pool",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sxmdb-jw-marriott-st-maarten-beach-resort-and-spa/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The Hibiscus Spa offers a steam room and separate men's and women's lounges.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Indulge your mind, body and spirit in our Hibiscus Spa.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sxmdb-jw-marriott-st-maarten-beach-resort-and-spa/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Separate Men & Women's Lounges\n\nSteam Room",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sxmdb-jw-marriott-st-maarten-beach-resort-and-spa/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The pool area has towel service and a dedicated children's area.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "along with towel service, a dedicated children’s area, and a swim-up bar",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sxmdb-jw-marriott-st-maarten-beach-resort-and-spa/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Cabanas are set directly along Dawn Beach.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "cabanas set directly along Dawn Beach",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sxmdb-jw-marriott-st-maarten-beach-resort-and-spa/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Carambola serves seafood-led dinners beneath open-air colonnades overlooking the shoreline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Set beneath open-air colonnades overlooking the shoreline",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sxmdb-jw-marriott-st-maarten-beach-resort-and-spa/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "evenings focus on seafood-led dinner service",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sxmdb-jw-marriott-st-maarten-beach-resort-and-spa/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Liguria is a Mediterranean restaurant with a wine list ranging from French roses to Italian reds.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "This Mediterranean St. Maarten restaurant features an abundance of fresh vegetables, seafood, citrus, grains and herbs. Complemented with a wine list ranging from French rosés to Italian reds.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sxmdb-jw-marriott-st-maarten-beach-resort-and-spa/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Live music plays on the Lower Pool Deck three nights a week, with Latin, Caribbean, steel pan and French performances.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "evenings take shape on the Lower Pool Deck with live music three nights a week, featuring Latin, Caribbean, steel pan, and French performances.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sxmdb-jw-marriott-st-maarten-beach-resort-and-spa/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Programs for children ages 3 to 12 offer hands-on activities such as arts and crafts, garden exploration and culinary classes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "have children ages 3–12 take part in programs offering hands-on activities such as arts and crafts, garden exploration, and culinary classes.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sxmdb-jw-marriott-st-maarten-beach-resort-and-spa/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Resort activities include sunrise yoga, water aerobics and a rooftop pickleball court.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Lay out your mat for sunrise yoga, step into the pool for water aerobics, or take to the pickleball court",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sxmdb-jw-marriott-st-maarten-beach-resort-and-spa/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "rooftop pickleball",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sxmdb-jw-marriott-st-maarten-beach-resort-and-spa/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Guests can sail through the America's Cup 12 Metre Challenge or on sunset sails to nearby cays.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Sail across open waters through the America’s Cup 12 Metre Challenge or during sunset sails and excursions to nearby cays.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sxmdb-jw-marriott-st-maarten-beach-resort-and-spa/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The resort sits on the Atlantic edge of Dawn Beach, where soft sand curves into clear turquoise water bordered by green hillsides.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Along the Atlantic edge of Dawn Beach, powder-soft sand curves into clear turquoise waters, bordered by lush green hillsides and the open horizon.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sxmdb-jw-marriott-st-maarten-beach-resort-and-spa/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Guest rooms and suites have private patios, balconies, open decks and private plunge pools.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our guest rooms and suites feature private patios, balconies, open decks, and private plunge pools.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sxmdb-jw-marriott-st-maarten-beach-resort-and-spa/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Hibiscus Spa has 16 specialty treatment rooms and a relaxation area.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "one of our 16 specialty treatment rooms and the relaxation area",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sxmdb-jw-marriott-st-maarten-beach-resort-and-spa/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The heated outdoor pool faces the sea and has a swim-up bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Cool off in our heated outdoor pool facing the sea, then glide over to the swim-up bar",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sxmdb-jw-marriott-st-maarten-beach-resort-and-spa/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The JW Culinary School runs hands-on cooking and mixology sessions in small groups.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Mixology takes you from building the drink to the final garnish, while culinary workshops focus on prep, searing and simmering, seasoning, and plating",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sxmdb-jw-marriott-st-maarten-beach-resort-and-spa/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "guests take part in an intimate setting limited to eight participants for culinary sessions and twelve for mixology",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sxmdb-jw-marriott-st-maarten-beach-resort-and-spa/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The minimum age to check in is 21.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Minimum Age to Check In: 21",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sxmdb-jw-marriott-st-maarten-beach-resort-and-spa/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The resort is about 30 minutes from Princess Juliana International Airport.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Just 30 minutes from Princess Juliana International Airport",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sxmdb-jw-marriott-st-maarten-beach-resort-and-spa/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes that hurricane season may affect travel plans.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

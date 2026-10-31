@@ -1,0 +1,407 @@
+{
+  "hotel_slug": "the-little-nell",
+  "hotel_name": "The Little Nell",
+  "checked_at": "2026-10-15T16:33:33.514Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.thelittlenell.com/",
+      "tier": "official",
+      "chars": 5590
+    },
+    {
+      "id": "d2",
+      "url": "https://www.thelittlenell.com/stay/",
+      "tier": "official",
+      "chars": 6216
+    },
+    {
+      "id": "d3",
+      "url": "https://www.thelittlenell.com/wellness/",
+      "tier": "official",
+      "chars": 3888
+    },
+    {
+      "id": "d4",
+      "url": "https://www.thelittlenell.com/dine/",
+      "tier": "official",
+      "chars": 4900
+    },
+    {
+      "id": "d5",
+      "url": "https://www.thelittlenell.com/experience/",
+      "tier": "official",
+      "chars": 1506
+    },
+    {
+      "id": "d6",
+      "url": "https://www.cntraveler.com/hotels/aspen/the-little-nell",
+      "tier": "editorial",
+      "chars": 11330
+    },
+    {
+      "id": "d7",
+      "url": "https://www.thelittlenell.com/learn/",
+      "tier": "official",
+      "chars": 2493
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel sits at the base of Aspen Mountain and at the center of town.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Experience warm luxury at the base of Aspen Mountain and at the center of town.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thelittlenell.com/stay/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Guests wake up steps from the Silver Queen Gondola.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "wake up steps from the Silver Queen Gondola",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thelittlenell.com/stay/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Little Nell opened in 1989.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "since opening its doors in 1989",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thelittlenell.com/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "even if it has only been open since 1989",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/aspen/the-little-nell",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Boots are heated overnight and gear is stored in the Ski Concierge room, whose doors open right onto the mountain.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Boots are heated overnight and all gear stored in the Ski Concierge room on the second floor, where the doors open right onto the mountain itself",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/aspen/the-little-nell",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The hotel runs a complimentary shuttle to Snowmass, Buttermilk and Aspen Highlands.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "The hotel also runs a luxurious complimentary shuttle service to Aspen's other mountains—Snowmass, Buttermilk, and Aspen Highlands",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/aspen/the-little-nell",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Hotel experiences run from Snowcat Powder Tours in winter to Fly Fishing and Off-Road Tours in summer.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "from First Tracks and Snowcat Powder Tours in the winter to Fly Fishing and Off-Road Tours in the summer",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thelittlenell.com/experience/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Audi Experience, a test drive of an electric Audi Q6 e-tron or Audi Q7, is complimentary for hotel guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "the fully electric Audi Q6 e-tron or Audi Q7 with our Audi Experience, a complimentary amenity for Little Nell hotel guests.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thelittlenell.com/experience/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel has a heated outdoor pool, hot tubs and saunas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "From our heated outdoor pool, hot tubs, and saunas",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thelittlenell.com/wellness/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Mountain Side rooms have balconies with views of the hotel courtyard or the mountain.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "your balcony offers views of the hotel courtyard or the mountain",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thelittlenell.com/stay/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The Residences at The Little Nell have their own dedicated rooftop pools.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "with amenities of their own, including dedicated rooftop pools",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thelittlenell.com/stay/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The wine cellar holds over 20,000 bottles.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The cellar spans over 20,000 bottles",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thelittlenell.com/dine/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "with more than 20,000 bottles",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/aspen/the-little-nell",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Cribs, strollers and PlayStations can be delivered to the room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Cribs, strollers, and Playstations delivered to your room are among the family amenities.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/aspen/the-little-nell",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "First Tracks lets skiers and riders make turns on top-to-bottom runs before Aspen Mountain officially opens to the public.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "A unique opportunity for skiers and riders to make turns on freshly groomed corduroy (or powder) on top-to-bottom runs, before Aspen Mountain officially opens to the public.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thelittlenell.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Little Nell Suite has wall-to-wall windows and two wrap-around balconies with views of Aspen Mountain.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "It has wall-to-wall windows, and two wrap-around balconies with fabulous views of Aspen Mountain.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thelittlenell.com/stay/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Roch Suite is inspired by Andre Roch, the Swiss mountaineer who planned and surveyed Aspen Mountain.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The Roch Suite",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thelittlenell.com/stay/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Inspired by André Roch, Swiss mountaineer who planned and surveyed Aspen Mountain",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thelittlenell.com/stay/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The hotel was built on the site of Aspen's original silver mine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Built on the site of Aspen’s original silver mine",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thelittlenell.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Element 47 has held the Wine Spectator Grand Award for 29 consecutive years since 1997.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Element 47 has held the Wine Spectator Grand Award for 29 consecutive years since 1997",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thelittlenell.com/dine/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Conde Nast Traveler describes the hotel's spa as small.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "The hotel's spa is small but luxe",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/aspen/the-little-nell",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes premium luxury pricing reflecting the exclusive Aspen location.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

@@ -1,0 +1,446 @@
+{
+  "hotel_slug": "waldorf-astoria-chengdu",
+  "hotel_name": "Waldorf Astoria Chengdu",
+  "checked_at": "2026-10-14T23:02:40.483Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hilton.com/en/hotels/ctuwawa-waldorf-astoria-chengdu/",
+      "tier": "official",
+      "chars": 4804
+    },
+    {
+      "id": "d2",
+      "url": "https://www.cntraveler.com/hotels/chengdu/waldorf-astoria-chengdu",
+      "tier": "editorial",
+      "chars": 7695
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hilton.com/en/hotels/ctuwawa-waldorf-astoria-chengdu/rooms/",
+      "tier": "official",
+      "chars": 8601
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hilton.com/en/hotels/ctuwawa-waldorf-astoria-chengdu/dining/",
+      "tier": "official",
+      "chars": 399
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is in the Chengdu Financial City zone in South Chengdu.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our hotel is situated on the modern Chengdu Financial City Zone in the heart of South Chengdu.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/ctuwawa-waldorf-astoria-chengdu/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel rises 52 stories above the Financial City district.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The Waldorf Astoria Chengdu rises 52 stories above the city's Financial City district",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/chengdu/waldorf-astoria-chengdu",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel is close to Jiaozi Park and the in99 shopping mall.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "we are close to the tranquil Jiaozi Park and the fashionable shopping mall 'in99'",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/ctuwawa-waldorf-astoria-chengdu/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel is a ten-minute walk from Financial City North metro station on Line 1.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "only a 10-minute walk from the Financial City North metro station on Line 1",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/chengdu/waldorf-astoria-chengdu",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Each room has a concierge cabinet, brass and walnut finishes, and a marble bathroom with a soaking tub and twin vanities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Each features concierge cabinets, chic brass and walnut finishes, a fully stocked minibar, and a marble spa bathroom with a soaking tub and twin vanities.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/ctuwawa-waldorf-astoria-chengdu/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Bathrooms are stocked with Aesop products.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "marble bathrooms stocked with Aesop products",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/ctuwawa-waldorf-astoria-chengdu/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "marble bathrooms stocked with",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/chengdu/waldorf-astoria-chengdu",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Brasserie 99 is a European-style bistro serving Western and Sichuanese food, including small hot pots and street foods.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Dine at a European style bistro with western and Sichuanese cuisine. More than 100 dishes are inspired by famous Sichuan traditional home style cuisines, such as small hot pots and street foods.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/ctuwawa-waldorf-astoria-chengdu/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Limited Edition Grill is an American grill styled by designer Jeffrey Beers, with a show kitchen.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Styled by renowned designer Jeffrey Beers, this American Grill restaurant offers a casual yet attentive dining experience in a relaxed setting with a show kitchen",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/ctuwawa-waldorf-astoria-chengdu/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Infinite Luck has four private dining rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Four contemporary private dining rooms are available.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/ctuwawa-waldorf-astoria-chengdu/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The fitness center has sauna, steam, ice and salt rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "fitness center open 24 hours for in-house guests with sauna, steam, ice, and salt rooms",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/chengdu/waldorf-astoria-chengdu",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The Waldorf Astoria Spa uses Valmont products for its treatments.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Full Waldorf Astoria Spa with Valmont treatments",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/chengdu/waldorf-astoria-chengdu",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "using Valmont products",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/chengdu/waldorf-astoria-chengdu",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "A personal concierge plans custom excursions and handles special requests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Your personal concierge will plan custom excursions and fulfill special requests.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/ctuwawa-waldorf-astoria-chengdu/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Infinite Luck, the 50th-floor Sichuanese restaurant led by chef Tony Yang, was selected for the Michelin Guide in 2026.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The restaurant was selected for the Michelin Guide in 2026 thanks to a revamp of its culinary vision by executive chef Tony Yang",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/chengdu/waldorf-astoria-chengdu",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Infinite Luck, a Michelin-selected Chinese restaurant on the 50th floor",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/chengdu/waldorf-astoria-chengdu",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Chef Tony Yang's traditional Sichuanese menu is sure to impress.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/ctuwawa-waldorf-astoria-chengdu/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Peacock Alley serves the Waldorf afternoon tea, including the signature Red Velvet Cake, to live piano.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Peacock Alley provides an enchanting ambience to enjoy light bites to the Waldorf afternoon tea, which includes the signature Red Velvet Cake",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/ctuwawa-waldorf-astoria-chengdu/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Embrace the elegant afternoon tea time to the sound of live piano.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/ctuwawa-waldorf-astoria-chengdu/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "A heated indoor pool on the 48th floor overlooks the city skyline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The 48th floor also houses a 25-meter heated indoor pool overlooking the city skyline",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/chengdu/waldorf-astoria-chengdu",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Limited Edition Sip bar pours craft cocktails with 52nd-floor city views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The hotel bar, Limited Edition-Sip, is worth a visit for its craft cocktail menu, rich leather interiors, and 52nd-floor city views.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/chengdu/waldorf-astoria-chengdu",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Rooms look over the city, the park or the Twin Towers of Financial City, which put on a light show at night.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "skyline—city, park, or the iconic Twin Towers of Financial City",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/chengdu/waldorf-astoria-chengdu",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "At night, the towers have a light show",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/chengdu/waldorf-astoria-chengdu",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel is in the Financial City business zone in South Chengdu; the nearest metro, Financial City North on Line 1, is a ten-minute walk.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our hotel is situated on the modern Chengdu Financial City Zone in the heart of South Chengdu.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/ctuwawa-waldorf-astoria-chengdu/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "only a 10-minute walk from the Financial City North metro station on Line 1",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/chengdu/waldorf-astoria-chengdu",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Pets are not allowed.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Pets not allowed",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/ctuwawa-waldorf-astoria-chengdu/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium luxury pricing at the higher end of Chengdu's hotel market.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
