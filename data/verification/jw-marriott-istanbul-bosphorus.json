@@ -1,0 +1,378 @@
+{
+  "hotel_slug": "jw-marriott-istanbul-bosphorus",
+  "hotel_name": "JW Marriott Istanbul Bosphorus",
+  "checked_at": "2026-10-31T02:44:07.932Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 0,
+      "total": 18
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/istjb-jw-marriott-istanbul-bosphorus/overview/",
+      "tier": "official",
+      "chars": 14951
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/istjb-jw-marriott-istanbul-bosphorus/rooms/",
+      "tier": "official",
+      "chars": 7203
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/istjb-jw-marriott-istanbul-bosphorus/dining/",
+      "tier": "official",
+      "chars": 6115
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/istjb-jw-marriott-istanbul-bosphorus/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "chars": 298
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is in the Karakoy neighborhood of Istanbul.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located in eclectic Karaköy, JW Marriott Istanbul Bosphorus is a luxury hotel in Istanbul.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/istjb-jw-marriott-istanbul-bosphorus/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is near boutiques, cafes and markets.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "nestled near boutiques, cafés, and markets",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/istjb-jw-marriott-istanbul-bosphorus/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel is next to Galataport.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Conveniently situated next to Galataport",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/istjb-jw-marriott-istanbul-bosphorus/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel features the historic Veli Alemdar Han, a building about 180 years old.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Featuring the historic 180-year-old Veli Alemdar Han",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/istjb-jw-marriott-istanbul-bosphorus/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The hotel has a 35-meter atrium.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "a stunning 35-meter atrium",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/istjb-jw-marriott-istanbul-bosphorus/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Rooms and suites are designed with natural elements and mindfulness in mind.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "designed with natural elements and mindfulness in mind",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/istjb-jw-marriott-istanbul-bosphorus/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The one-bedroom and two-bedroom suites have Bosphorus views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "1 Bedroom Suite, 1 King, Bosphorus view, Sea view",
+          "note": "one-bedroom suite",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/istjb-jw-marriott-istanbul-bosphorus/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "2 Bedroom Suite, Bedroom 1: 1 King, Bedroom 2: 2 Twin, Bosphorus view, Sea view",
+          "note": "two-bedroom suite",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/istjb-jw-marriott-istanbul-bosphorus/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Loft Suite overlooks the atrium.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Suite, 1 Queen, Atrium view",
+          "note": "Loft Suite listing",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/istjb-jw-marriott-istanbul-bosphorus/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The spa offers couples massages.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Couples Massages",
+          "note": "spa services list",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/istjb-jw-marriott-istanbul-bosphorus/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Galata Lounge is on the 9th floor, with a view of Galata Tower and the rooftop churches.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Located on the 9th floor and with a dominating view of the historical landmark Galata Tower and characteristic rooftop churches",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/istjb-jw-marriott-istanbul-bosphorus/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Tea Lounge has brick walls dating back almost 200 years.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Tea Lounge offers a stylish atmosphere with brick walls dating back almost 200 years",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/istjb-jw-marriott-istanbul-bosphorus/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel features the historic Veli Alemdar Han, about 180 years old, and a 35-meter atrium.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Featuring the historic 180-year-old Veli Alemdar Han and a stunning 35-meter atrium",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/istjb-jw-marriott-istanbul-bosphorus/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The spa features Turkish hammams and treatment rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our Istanbul hotel spa features luxurious Turkish Hammams and elegantly designed treatment rooms.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/istjb-jw-marriott-istanbul-bosphorus/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Premier rooms and the one-bedroom Presidential Suite have a terrace and a Galata Tower view.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Guest room, 1 Queen, Galata Tower view, Terrace",
+          "note": "Premier King listing",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/istjb-jw-marriott-istanbul-bosphorus/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "1 Bedroom Presidential Suite, 1 King, Galata Tower view, Terrace",
+          "note": "presidential suite",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/istjb-jw-marriott-istanbul-bosphorus/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The hotel offers rooms and suites with Bosphorus views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "elegantly appointed rooms and suites with breathtaking Bosphorus views",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/istjb-jw-marriott-istanbul-bosphorus/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Sky Karakoy is a rooftop venue with a 360-degree panorama of the city.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Located on the roof with an outstanding 360-degree panorama of the city",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/istjb-jw-marriott-istanbul-bosphorus/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Parking is off-site valet parking.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Off-site valet parking is available at JW Marriott Istanbul Bosphorus.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/istjb-jw-marriott-istanbul-bosphorus/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Rooms do not have a fridge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "No, rooms at JW Marriott Istanbul Bosphorus do not have a fridge.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/istjb-jw-marriott-istanbul-bosphorus/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}
