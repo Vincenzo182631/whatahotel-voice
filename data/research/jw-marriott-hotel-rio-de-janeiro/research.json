@@ -1,0 +1,82 @@
+{
+  "slug": "jw-marriott-hotel-rio-de-janeiro",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "JW Marriott Hotel Rio de Janeiro",
+      "city": "Rio de Janeiro",
+      "country": "BR",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Rio de Janeiro, BR)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/riomc-jw-marriott-hotel-rio-de-janeiro/overview/"
+    ],
+    "checked_at": "2026-10-31T01:12:10.400Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/riomc-jw-marriott-hotel-rio-de-janeiro/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/riomc-jw-marriott-hotel-rio-de-janeiro/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/riomc-jw-marriott-hotel-rio-de-janeiro/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:12:28.267Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/riomc-jw-marriott-hotel-rio-de-janeiro/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:12:36.347Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/riomc-jw-marriott-hotel-rio-de-janeiro/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:12:41.856Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.cntraveler.com/hotels/brazil/rio-de-janeiro/jw-marriott-hotel-rio-de-janeiro",
+      "tier": "editorial",
+      "fetched_at": "2026-10-31T01:12:50.728Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 6,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 4,
+    "chars": 30884,
+    "est_claude_tokens": 7721
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-31T01:12:50.728Z"
+}

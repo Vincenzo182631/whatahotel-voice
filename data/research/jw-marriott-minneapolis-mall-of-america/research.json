@@ -1,0 +1,89 @@
+{
+  "slug": "jw-marriott-minneapolis-mall-of-america",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "JW Marriott Minneapolis Mall of America",
+      "city": "Minneapolis",
+      "country": "US",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Minneapolis, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/mspjw-jw-marriott-minneapolis-mall-of-america/overview/"
+    ],
+    "checked_at": "2026-10-31T01:12:25.284Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/mspjw-jw-marriott-minneapolis-mall-of-america/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/mspjw-jw-marriott-minneapolis-mall-of-america/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/mspjw-jw-marriott-minneapolis-mall-of-america/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:12:40.508Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/mspjw-jw-marriott-minneapolis-mall-of-america/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:12:45.966Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/mspjw-jw-marriott-minneapolis-mall-of-america/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:12:51.884Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/mspjw-jw-marriott-minneapolis-mall-of-america/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:12:59.464Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.cntraveler.com/hotels/minneapolis/jw-marriott-minneapolis-mall-of-america",
+      "tier": "editorial",
+      "fetched_at": "2026-10-31T01:13:00.033Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 5,
+    "chars": 56327,
+    "est_claude_tokens": 14082
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-31T01:13:00.033Z"
+}

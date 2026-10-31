@@ -1,0 +1,82 @@
+{
+  "slug": "jw-marriott-orlando-bonnet-creek",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "JW Marriott Orlando Bonnet Creek",
+      "city": "Orlando and Disney World",
+      "country": "US",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Orlando and Disney World, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/mcojb-jw-marriott-orlando-bonnet-creek-resort-and-spa/experiences/disney-gateway/"
+    ],
+    "checked_at": "2026-10-31T01:13:12.616Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/mcojb-jw-marriott-orlando-bonnet-creek-resort-and-spa/experiences/disney-gateway/",
+    "base_url": "https://www.marriott.com/en-us/hotels/mcojb-jw-marriott-orlando-bonnet-creek-resort-and-spa/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/mcojb-jw-marriott-orlando-bonnet-creek-resort-and-spa/experiences/disney-gateway/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:13:42.141Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/mcojb-jw-marriott-orlando-bonnet-creek-resort-and-spa/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:13:47.912Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/mcojb-jw-marriott-orlando-bonnet-creek-resort-and-spa/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:13:52.754Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.cntraveler.com/hotels/orlando/jw-marriott-orlando-bonnet-creek-resort-and-spa",
+      "tier": "editorial",
+      "fetched_at": "2026-10-31T01:13:58.941Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 6,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 4,
+    "chars": 48464,
+    "est_claude_tokens": 12116
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-31T01:13:58.941Z"
+}

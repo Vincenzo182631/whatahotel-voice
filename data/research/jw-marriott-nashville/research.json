@@ -1,0 +1,89 @@
+{
+  "slug": "jw-marriott-nashville",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "JW Marriott Nashville",
+      "city": "Nashville",
+      "country": "US",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Nashville, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/bnajw-jw-marriott-nashville/overview/"
+    ],
+    "checked_at": "2026-10-31T01:13:54.414Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/bnajw-jw-marriott-nashville/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/bnajw-jw-marriott-nashville/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/bnajw-jw-marriott-nashville/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:14:13.752Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/bnajw-jw-marriott-nashville/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:14:20.254Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/bnajw-jw-marriott-nashville/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:14:26.015Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/bnajw-jw-marriott-nashville/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:14:32.709Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.cntraveler.com/hotels/jw-marriott-nashville",
+      "tier": "editorial",
+      "fetched_at": "2026-10-31T01:14:35.192Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 5,
+    "chars": 67427,
+    "est_claude_tokens": 16857
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-31T01:14:35.192Z"
+}

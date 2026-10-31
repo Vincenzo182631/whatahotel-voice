@@ -1,0 +1,89 @@
+{
+  "slug": "jw-marriott-hotel-beijing-chaoyang-district",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "JW Marriott Hotel Beijing, Chaoyang District",
+      "city": "Beijing",
+      "country": "CN",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "80% of the hotel name appears on the page",
+      "location matches (Beijing, CN)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/bjsjw-jw-marriott-hotel-beijing/overview/"
+    ],
+    "checked_at": "2026-10-31T01:14:36.698Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/bjsjw-jw-marriott-hotel-beijing/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/bjsjw-jw-marriott-hotel-beijing/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 0.8,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/bjsjw-jw-marriott-hotel-beijing/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:14:59.224Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/bjsjw-jw-marriott-hotel-beijing/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:15:04.807Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/bjsjw-jw-marriott-hotel-beijing/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:15:10.343Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/bjsjw-jw-marriott-hotel-beijing/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:15:16.797Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.cntraveler.com/hotels/china/beijing/jw-marriott-hotel-beijing",
+      "tier": "editorial",
+      "fetched_at": "2026-10-31T01:15:23.535Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 5,
+    "chars": 42405,
+    "est_claude_tokens": 10601
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-31T01:15:23.535Z"
+}

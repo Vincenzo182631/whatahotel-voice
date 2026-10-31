@@ -1,0 +1,89 @@
+{
+  "slug": "jw-marriott-costa-elena-resort-spa-all-inclusive",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "JW Marriott Costa Elena Resort & Spa, All-Inclusive",
+      "city": "Bahia Salinas",
+      "country": "CR",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "confirmed by hand as this hotel's own page (page does not mention Bahia Salinas)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/lircj-jw-marriott-costa-elena-resort-and-spa-all-inclusive/overview/"
+    ],
+    "checked_at": "2026-10-31T01:17:24.125Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/lircj-jw-marriott-costa-elena-resort-and-spa-all-inclusive/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/lircj-jw-marriott-costa-elena-resort-and-spa-all-inclusive/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": false
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/lircj-jw-marriott-costa-elena-resort-and-spa-all-inclusive/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:17:28.854Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/lircj-jw-marriott-costa-elena-resort-and-spa-all-inclusive/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:17:36.821Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/lircj-jw-marriott-costa-elena-resort-and-spa-all-inclusive/rooms/griffin-club-suites/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:17:47.844Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/lircj-jw-marriott-costa-elena-resort-and-spa-all-inclusive/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:17:54.110Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 1,
+    "cache_hits": 0,
+    "direct_fetches": 0,
+    "pages": 4,
+    "chars": 42146,
+    "est_claude_tokens": 10537
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-31T01:17:59.299Z"
+}

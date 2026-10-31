@@ -1,0 +1,89 @@
+{
+  "slug": "jw-marriott-cannes",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "JW Marriott Cannes",
+      "city": "Cannes",
+      "country": "FR",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Cannes, FR)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/ncejw-jw-marriott-cannes/overview/"
+    ],
+    "checked_at": "2026-10-31T01:11:00.901Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/ncejw-jw-marriott-cannes/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/ncejw-jw-marriott-cannes/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/ncejw-jw-marriott-cannes/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:11:25.910Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/ncejw-jw-marriott-cannes/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:11:31.641Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/ncejw-jw-marriott-cannes/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:11:36.332Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/ncejw-jw-marriott-cannes/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:11:42.466Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 4,
+    "chars": 51330,
+    "est_claude_tokens": 12833
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-31T01:11:47.268Z"
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "jw-marriott-hotel-beijing-central",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "JW Marriott Hotel Beijing Central",
+      "city": "Beijing",
+      "country": "CN",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Beijing, CN)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/bjsjc-jw-marriott-hotel-beijing-central/overview/"
+    ],
+    "checked_at": "2026-10-31T01:14:07.278Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/bjsjc-jw-marriott-hotel-beijing-central/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/bjsjc-jw-marriott-hotel-beijing-central/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/bjsjc-jw-marriott-hotel-beijing-central/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:14:24.428Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/bjsjc-jw-marriott-hotel-beijing-central/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:14:29.797Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/bjsjc-jw-marriott-hotel-beijing-central/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:14:33.045Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.cntraveler.com/hotels/beijing/jw-marriott-hotel-beijing-central",
+      "tier": "editorial",
+      "fetched_at": "2026-10-31T01:14:35.302Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 6,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 4,
+    "chars": 32001,
+    "est_claude_tokens": 8000
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-31T01:14:35.302Z"
+}

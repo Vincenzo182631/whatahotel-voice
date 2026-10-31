@@ -1,0 +1,89 @@
+{
+  "slug": "jw-marriott-miami",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "JW Marriott Miami",
+      "city": "Miami",
+      "country": "US",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Miami, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/miajw-jw-marriott-miami/overview/"
+    ],
+    "checked_at": "2026-10-31T01:11:53.809Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/miajw-jw-marriott-miami/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/miajw-jw-marriott-miami/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/miajw-jw-marriott-miami/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:12:11.505Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/miajw-jw-marriott-miami/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:12:17.861Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/miajw-jw-marriott-miami/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:12:23.450Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/miajw-jw-marriott-miami/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:12:29.311Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.cntraveler.com/hotels/miami/jw-marriott-marquis-miami",
+      "tier": "editorial",
+      "fetched_at": "2026-10-31T01:12:34.977Z",
+      "source": "cache"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 3,
+    "cache_hits": 3,
+    "direct_fetches": 0,
+    "pages": 5,
+    "chars": 43899,
+    "est_claude_tokens": 10975
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-31T01:12:34.977Z"
+}

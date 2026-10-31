@@ -1,0 +1,89 @@
+{
+  "slug": "jw-marriott-chicago",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "JW Marriott Chicago",
+      "city": "Chicago",
+      "country": "US",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Chicago, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/chijw-jw-marriott-chicago/overview/"
+    ],
+    "checked_at": "2026-10-31T01:10:44.660Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/chijw-jw-marriott-chicago/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/chijw-jw-marriott-chicago/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/chijw-jw-marriott-chicago/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:10:57.851Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/chijw-jw-marriott-chicago/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:11:08.028Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/chijw-jw-marriott-chicago/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:11:14.892Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/chijw-jw-marriott-chicago/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:11:24.358Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.cntraveler.com/hotels/united-states/chicago/jw-marriott-chicago",
+      "tier": "editorial",
+      "fetched_at": "2026-10-31T01:11:30.692Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 5,
+    "chars": 74513,
+    "est_claude_tokens": 18628
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-31T01:11:30.692Z"
+}
