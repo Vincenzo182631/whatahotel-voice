@@ -1,0 +1,82 @@
+{
+  "slug": "jw-marriott-dongdaemun-square",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "JW Marriott Dongdaemun Square",
+      "city": "Seoul",
+      "country": "KR",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Seoul, KR)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/seldp-jw-marriott-dongdaemun-square-seoul/overview/"
+    ],
+    "checked_at": "2026-10-31T01:56:25.340Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/seldp-jw-marriott-dongdaemun-square-seoul/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/seldp-jw-marriott-dongdaemun-square-seoul/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/seldp-jw-marriott-dongdaemun-square-seoul/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:56:43.037Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/seldp-jw-marriott-dongdaemun-square-seoul/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:56:47.131Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/seldp-jw-marriott-dongdaemun-square-seoul/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:56:59.335Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.cntraveler.com/hotels/south-korea/seoul/jw-marriott-dongdaemun-square-seoul",
+      "tier": "editorial",
+      "fetched_at": "2026-10-31T01:57:06.076Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 6,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 4,
+    "chars": 49411,
+    "est_claude_tokens": 12353
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-31T01:57:06.076Z"
+}

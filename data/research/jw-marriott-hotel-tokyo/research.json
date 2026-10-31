@@ -1,0 +1,96 @@
+{
+  "slug": "jw-marriott-hotel-tokyo",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "JW Marriott Hotel Tokyo",
+      "city": "Tokyo",
+      "country": "JP",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Tokyo, JP)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/tyojw-jw-marriott-hotel-tokyo/overview/"
+    ],
+    "checked_at": "2026-10-31T01:56:30.880Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/tyojw-jw-marriott-hotel-tokyo/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/tyojw-jw-marriott-hotel-tokyo/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/tyojw-jw-marriott-hotel-tokyo/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:56:48.561Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/tyojw-jw-marriott-hotel-tokyo/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:56:57.321Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/tyojw-jw-marriott-hotel-tokyo/rooms/premium-accommodations/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:57:05.501Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/tyojw-jw-marriott-hotel-tokyo/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:57:09.310Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.marriott.com/en-us/hotels/tyojw-jw-marriott-hotel-tokyo/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:57:16.969Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.cntraveler.com/hotels/tokyo/jw-marriott-hotel-tokyo",
+      "tier": "editorial",
+      "fetched_at": "2026-10-31T01:57:18.787Z",
+      "source": "cache"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 8,
+    "firecrawl_searches": 3,
+    "cache_hits": 3,
+    "direct_fetches": 0,
+    "pages": 6,
+    "chars": 75372,
+    "est_claude_tokens": 18843
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-31T01:57:18.787Z"
+}

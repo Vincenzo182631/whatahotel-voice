@@ -1,0 +1,96 @@
+{
+  "slug": "jw-marriott-resort-kaafu-atoll-island",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "JW Marriott Resort Kaafu Atoll Island",
+      "city": "Maldives",
+      "country": "MV",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Maldives, MV)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/mlejm-jw-marriott-maldives-kaafu-atoll-island-resort/overview/"
+    ],
+    "checked_at": "2026-10-31T01:55:25.297Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/mlejm-jw-marriott-maldives-kaafu-atoll-island-resort/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/mlejm-jw-marriott-maldives-kaafu-atoll-island-resort/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/mlejm-jw-marriott-maldives-kaafu-atoll-island-resort/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:55:46.646Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/mlejm-jw-marriott-maldives-kaafu-atoll-island-resort/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:55:52.963Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/mlejm-jw-marriott-maldives-kaafu-atoll-island-resort/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:55:59.804Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/mlejm-jw-marriott-maldives-kaafu-atoll-island-resort/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:56:06.302Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.marriott.com/en-us/hotels/mlejm-jw-marriott-maldives-kaafu-atoll-island-resort/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:56:11.777Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 8,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 5,
+    "chars": 56575,
+    "est_claude_tokens": 14144
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-31T01:56:16.610Z"
+}

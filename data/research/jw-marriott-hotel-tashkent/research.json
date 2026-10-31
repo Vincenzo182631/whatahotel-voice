@@ -1,0 +1,89 @@
+{
+  "slug": "jw-marriott-hotel-tashkent",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "JW Marriott Hotel Tashkent",
+      "city": "Tashkent",
+      "country": "UZ",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Tashkent, UZ)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/tasjw-jw-marriott-hotel-tashkent/overview/"
+    ],
+    "checked_at": "2026-10-31T01:56:14.667Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/tasjw-jw-marriott-hotel-tashkent/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/tasjw-jw-marriott-hotel-tashkent/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/tasjw-jw-marriott-hotel-tashkent/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:56:39.915Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/tasjw-jw-marriott-hotel-tashkent/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:56:48.969Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/tasjw-jw-marriott-hotel-tashkent/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:56:52.429Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/tasjw-jw-marriott-hotel-tashkent/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:57:03.422Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 4,
+    "chars": 43393,
+    "est_claude_tokens": 10848
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-31T01:57:08.244Z"
+}

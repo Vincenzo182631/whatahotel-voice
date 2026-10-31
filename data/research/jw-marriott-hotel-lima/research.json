@@ -1,0 +1,89 @@
+{
+  "slug": "jw-marriott-hotel-lima",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "JW Marriott Hotel Lima",
+      "city": "Lima",
+      "country": "PE",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Lima, PE)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/limdt-jw-marriott-hotel-lima/overview/"
+    ],
+    "checked_at": "2026-10-31T01:59:00.529Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/limdt-jw-marriott-hotel-lima/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/limdt-jw-marriott-hotel-lima/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/limdt-jw-marriott-hotel-lima/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:59:20.674Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/limdt-jw-marriott-hotel-lima/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:59:26.750Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/limdt-jw-marriott-hotel-lima/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:59:33.391Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/limdt-jw-marriott-hotel-lima/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-10-31T01:59:39.815Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.cntraveler.com/hotels/peru/miraflores/jw-marriott-hotel-lima",
+      "tier": "editorial",
+      "fetched_at": "2026-10-31T01:59:47.342Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 5,
+    "chars": 42900,
+    "est_claude_tokens": 10725
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-31T01:59:47.342Z"
+}
