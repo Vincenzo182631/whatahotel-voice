@@ -1,29 +1,59 @@
 {
   "hotel_slug": "jw-marriott-desert-springs-resort-spa",
   "hotel_name": "JW Marriott Desert Springs Resort & Spa",
-  "checked_at": "2026-10-31T01:21:33.849Z",
+  "checked_at": "2026-10-31T01:30:55.931Z",
   "script_version": null,
   "decision": {
     "eligible": true,
     "blockers": [],
     "counts": {
-      "supported": 16,
+      "supported": 19,
       "contradicted": 0,
       "unverified": 0,
       "exempt": 1,
-      "total": 17
+      "total": 20
     }
   },
   "applied": true,
   "evidence": [
     {
       "id": "d1",
-      "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/spa/",
+      "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/overview/",
       "tier": "official",
-      "chars": 7513
+      "chars": 26427
     },
     {
       "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/rooms/",
+      "tier": "official",
+      "chars": 11099
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/dining/",
+      "tier": "official",
+      "chars": 13391
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/experiences/",
+      "tier": "official",
+      "chars": 30000
+    },
+    {
+      "id": "d5",
+      "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/experiences/explore-palm-desert/",
+      "tier": "official",
+      "chars": 8927
+    },
+    {
+      "id": "d6",
+      "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/experiences/holidays/",
+      "tier": "official",
+      "chars": 5104
+    },
+    {
+      "id": "d7",
       "url": "https://www.cntraveler.com/hotels/united-states/palm-desert/jw-marriott-desert-springs-resort---spa--palm-desert",
       "tier": "editorial",
       "chars": 3609
@@ -33,16 +63,16 @@
   "claims": [
     {
       "claim_id": "f-1",
-      "text": "The resort is at 74-855 Country Club Drive in Palm Desert, California.",
+      "text": "The resort sits on 450 acres of desert gardens.",
       "findings": [
         {
           "verdict": "supported",
-          "doc_id": "d2",
-          "quote": "74-855 Country Club Dr., Palm Desert, California 92260",
-          "note": "stated on page",
+          "doc_id": "d1",
+          "quote": "Nestled on 450 acres of lush desert gardens",
+          "note": "page states this",
           "confirmed": true,
-          "url": "https://www.cntraveler.com/hotels/united-states/palm-desert/jw-marriott-desert-springs-resort---spa--palm-desert",
-          "tier": "editorial",
+          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/overview/",
+          "tier": "official",
           "quote_verified": true
         }
       ],
@@ -50,15 +80,15 @@
     },
     {
       "claim_id": "f-2",
-      "text": "Spa Desert Springs spans 38,000 square feet.",
+      "text": "The resort's lakes are home to swans and pink flamingos.",
       "findings": [
         {
           "verdict": "supported",
-          "doc_id": "d1",
-          "quote": "Spanning 38,000 square feet with 47 private treatment rooms, Spa Desert Springs features",
-          "note": "stated on page",
+          "doc_id": "d5",
+          "quote": "tranquil lakes — home to swans and the famous JW pink flamingos",
+          "note": "page states this",
           "confirmed": true,
-          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/spa/",
+          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/experiences/explore-palm-desert/",
           "tier": "official",
           "quote_verified": true
         }
@@ -67,15 +97,15 @@
     },
     {
       "claim_id": "f-3",
-      "text": "Spa Desert Springs is inspired by the physical, historical and social environments of Palm Desert.",
+      "text": "Desert Springs Golf Club has two championship courses, the Palm and the Valley, designed by Ted Robinson.",
       "findings": [
         {
           "verdict": "supported",
           "doc_id": "d1",
-          "quote": "Inspired by the stunning physical, historical and social environments of Palm Desert, our luxury Palm Springs spa",
-          "note": "stated on page",
+          "quote": "Designed by course architect Ted Robinson, Desert Springs Golf Club features two championship golf courses - the Palm and the Valley",
+          "note": "page states this",
           "confirmed": true,
-          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/spa/",
+          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/overview/",
           "tier": "official",
           "quote_verified": true
         }
@@ -84,15 +114,15 @@
     },
     {
       "claim_id": "f-4",
-      "text": "The spa has gender-separate and co-ed relaxation lounges, an Aromatic Hammam, a Finnish sauna and a Turkish steam room.",
+      "text": "The resort has an 18-hole natural turf putting course with bunkers, lakes, streams and waterfalls.",
       "findings": [
         {
           "verdict": "supported",
-          "doc_id": "d1",
-          "quote": "offers intimacy and privacy throughout with gender-separate and co-ed relaxation lounges, Aromatic Hammam, Finnish Sauna, Turkish Steam Room, outdoor saltwater lap pool and Spa Bistro.",
-          "note": "stated on page",
+          "doc_id": "d4",
+          "quote": "our 18-hole all-natural turf putting course is complete with contoured fairways, bunkers, lakes, streams, and waterfalls.",
+          "note": "page states this",
           "confirmed": true,
-          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/spa/",
+          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/experiences/",
           "tier": "official",
           "quote_verified": true
         }
@@ -101,15 +131,15 @@
     },
     {
       "claim_id": "f-5",
-      "text": "The spa suggests beginning a visit with hot-and-cold contrast hydrotherapy.",
+      "text": "The tennis facility has hard, clay and grass courts.",
       "findings": [
         {
           "verdict": "supported",
           "doc_id": "d1",
-          "quote": "begin your visit to our luxury Palm Springs spa with preparatory hot-and-cold contrast hydrotherapy",
-          "note": "stated on page",
+          "quote": "featuring a variety of hard, clay, and grass courts.",
+          "note": "page states this",
           "confirmed": true,
-          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/spa/",
+          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/overview/",
           "tier": "official",
           "quote_verified": true
         }
@@ -118,15 +148,15 @@
     },
     {
       "claim_id": "f-6",
-      "text": "The full-service fitness center has Technogym strength and weight machines, cardio equipment, free weights and an 800-square-foot yoga and Pilates studio.",
+      "text": "The resort's tennis program is run by Peter Burwash International for every skill level.",
       "findings": [
         {
           "verdict": "supported",
-          "doc_id": "d1",
-          "quote": "our full-service Fitness Center features an array of state of the art Technogym strength and weight machines, cardiovascular equipment, free weights, and an 800 square-foot yoga and Pilates studio.",
-          "note": "stated on page",
+          "doc_id": "d4",
+          "quote": "our comprehensive Peter Burwash International (PBI) tennis program has something for every skill level.",
+          "note": "page states this",
           "confirmed": true,
-          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/spa/",
+          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/experiences/",
           "tier": "official",
           "quote_verified": true
         }
@@ -135,15 +165,15 @@
     },
     {
       "claim_id": "f-7",
-      "text": "Regularly scheduled fitness classes and private training are available.",
+      "text": "Spa Desert Springs is a 38,000-square-foot facility with an Aromatherapy Hammam Steam Chamber.",
       "findings": [
         {
           "verdict": "supported",
           "doc_id": "d1",
-          "quote": "Regularly scheduled fitness classes and private training are available.",
-          "note": "stated on page",
+          "quote": "Spa Desert Springs features a luxurious 38,000 square-foot facility with an Aromatherapy Hammam Steam Chamber",
+          "note": "page states this",
           "confirmed": true,
-          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/spa/",
+          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/overview/",
           "tier": "official",
           "quote_verified": true
         }
@@ -152,15 +182,15 @@
     },
     {
       "claim_id": "f-8",
-      "text": "Fitness center access is complimentary for resort guests.",
+      "text": "The spa has an outdoor saltwater lap pool and a coed Wellness Lounge.",
       "findings": [
         {
           "verdict": "supported",
-          "doc_id": "d1",
-          "quote": "Complimentary access for Resort guests and guests receiving spa services.",
-          "note": "stated on page",
+          "doc_id": "d4",
+          "quote": "an outdoor saltwater lap pool, and a Coed Wellness Lounge.",
+          "note": "page states this",
           "confirmed": true,
-          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/spa/",
+          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/experiences/",
           "tier": "official",
           "quote_verified": true
         }
@@ -169,15 +199,15 @@
     },
     {
       "claim_id": "f-9",
-      "text": "The Spa Bistro serves healthy cuisine including salads, smoothies, sandwiches and sushi, along with champagne and wine.",
+      "text": "Rooms feature plush bedding, hardwood floors, modern furnishings and mountain-inspired murals in blue, gray and white.",
       "findings": [
         {
           "verdict": "supported",
-          "doc_id": "d1",
-          "quote": "The Spa Bistro features delicious, healthy cuisine, including salads, smoothies, sandwiches, and sushi, as well as tempting offerings of champagne and wine.",
-          "note": "stated on page",
+          "doc_id": "d2",
+          "quote": "Accommodations feature plush bedding, hardwood floors, modern furnishings, and mountain-inspired murals in hues of blue, gray, and crisp white.",
+          "note": "page states this",
           "confirmed": true,
-          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/spa/",
+          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/rooms/",
           "tier": "official",
           "quote_verified": true
         }
@@ -186,15 +216,49 @@
     },
     {
       "claim_id": "f-10",
-      "text": "The Spa Shop carries brands including Priori, Lululemon, Kerstin Florian and Eminence Organic Skin Care.",
+      "text": "The resort has five outdoor pools.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "five outdoor pools",
+          "note": "page states this",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/experiences/explore-palm-desert/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The resort is minutes from Acrisure Arena, the Living Desert Zoo & Garden and the Indian Wells Tennis Garden.",
       "findings": [
         {
           "verdict": "supported",
           "doc_id": "d1",
-          "quote": "The retail shop includes popular brands including Priori, Lululemon, Kerstin Florian, Eminence Organic Skin Care",
-          "note": "stated on page",
+          "quote": "The resort is minutes from Acrisure Arena, the Living Desert Zoo & Garden, the Coachella Valley Music & Arts Festival, and the Indian Wells Tennis Garden.",
+          "note": "page states this",
           "confirmed": true,
-          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/spa/",
+          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Rockwood Grill has water views from its patio.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "offers amazing water views from its patio",
+          "note": "page states this",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/dining/",
           "tier": "official",
           "quote_verified": true
         }
@@ -203,15 +267,25 @@
     },
     {
       "claim_id": "h-1",
-      "text": "The spa's Sanctuary Suite offers a private entrance, dedicated treatment rooms, a courtyard whirlpool and personalized service from a private butler.",
+      "text": "The spa's VIP Sanctuary Spa Suite is staffed by a personal butler and has a private entrance and a hydrotherapy tub in a private courtyard.",
       "findings": [
         {
           "verdict": "supported",
-          "doc_id": "d1",
-          "quote": "choose the Sanctuary Suite, offering a private entrance, dedicated treatment rooms, a courtyard whirlpool, and personalized service from a private butler.",
-          "note": "stated on page",
+          "doc_id": "d4",
+          "quote": "The 600-square-foot VIP suite is staffed by a personal butler and includes a private entrance, a hydrotherapy tub in a private courtyard, and another tub indoors.",
+          "note": "page states this",
           "confirmed": true,
-          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/spa/",
+          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Sanctuary Spa Suite",
+          "note": "page states this",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/experiences/",
           "tier": "official",
           "quote_verified": true
         }
@@ -220,15 +294,15 @@
     },
     {
       "claim_id": "h-2",
-      "text": "The spa has an outdoor saltwater lap pool.",
+      "text": "Guided boat tours through the resort's waterways depart from the lobby.",
       "findings": [
         {
           "verdict": "supported",
-          "doc_id": "d1",
-          "quote": "offers intimacy and privacy throughout with gender-separate and co-ed relaxation lounges, Aromatic Hammam, Finnish Sauna, Turkish Steam Room, outdoor saltwater lap pool and Spa Bistro.",
-          "note": "stated on page",
+          "doc_id": "d4",
+          "quote": "enjoy a serene and guided boat tour through our picturesque waterways, conveniently departing from the lobby.",
+          "note": "page states this",
           "confirmed": true,
-          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/spa/",
+          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/experiences/",
           "tier": "official",
           "quote_verified": true
         }
@@ -237,15 +311,15 @@
     },
     {
       "claim_id": "h-3",
-      "text": "The Couples Revive experience features side-by-side massages, a mineral-laden bubble bath and champagne.",
+      "text": "Frank Sinatra's last public performance took place at the resort.",
       "findings": [
         {
           "verdict": "supported",
-          "doc_id": "d1",
-          "quote": "Discover the romantic Couples Revive experience, featuring side‑by‑side massages, a mineral‑laden bubble bath, and champagne.",
-          "note": "stated on page",
+          "doc_id": "d5",
+          "quote": "Frank Sinatra's last public performance took place at the Resort?",
+          "note": "page states this",
           "confirmed": true,
-          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/spa/",
+          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/experiences/explore-palm-desert/",
           "tier": "official",
           "quote_verified": true
         }
@@ -254,15 +328,32 @@
     },
     {
       "claim_id": "h-4",
-      "text": "The spa's Spa Zone treatments are inspired by Blue Zone lifestyle principles to support longevity.",
+      "text": "The JW Entertainment Zone is an arcade with new and retro games and duckpin bowling.",
       "findings": [
         {
           "verdict": "supported",
-          "doc_id": "d1",
-          "quote": "Discover our Spa Zone treatments, inspired by Blue Zone lifestyle principles to support longevity",
-          "note": "stated on page",
+          "doc_id": "d5",
+          "quote": "The JW Entertainment Zone is a 12,000 sq. ft. arcade featuring new and retro arcade games, duckpin bowling",
+          "note": "page states this",
           "confirmed": true,
-          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/spa/",
+          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/experiences/explore-palm-desert/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Vice Presidential Suite has views of the Santa Rosa Mountains and the Coachella Valley.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Enjoy the breathtaking views of the Santa Rosa Mountains and surrounding Coachella Valley from our Vice Presidential luxury accommodations",
+          "note": "page states this",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/rooms/",
           "tier": "official",
           "quote_verified": true
         }
@@ -271,15 +362,55 @@
     },
     {
       "claim_id": "c-1",
-      "text": "Spa Desert Springs requires an appointment.",
+      "text": "A daily resort fee applies and covers amenities such as range access, mini golf, bike rental and court time.",
       "findings": [
         {
           "verdict": "supported",
           "doc_id": "d1",
-          "quote": "An appointment is required at Spa Desert Springs.",
-          "note": "stated on page",
+          "quote": "included in the daily Resort Fee",
+          "note": "page states this",
           "confirmed": true,
-          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/spa/",
+          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Daily Golf Range Access and Range Balls for Two Guests",
+          "note": "page states this",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Daily Miniature Golf for up to Four Guests",
+          "note": "page states this",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Daily Two-Hour Bike Rental for Two Guests",
+          "note": "page states this",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Daily One Hour Hard Court and Racquet Rental for Two Guests",
+          "note": "page states this",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/overview/",
           "tier": "official",
           "quote_verified": true
         }
@@ -288,15 +419,15 @@
     },
     {
       "claim_id": "c-2",
-      "text": "The spa recommends arriving at least 30 minutes before an appointment to shower and prepare.",
+      "text": "Spa services require an appointment.",
       "findings": [
         {
           "verdict": "supported",
           "doc_id": "d1",
-          "quote": "We recommend that you arrive at least 30 minutes prior to your appointment to shower and prepare for your treatment.",
-          "note": "stated on page",
+          "quote": "Appointment required",
+          "note": "page states this",
           "confirmed": true,
-          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/spa/",
+          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/overview/",
           "tier": "official",
           "quote_verified": true
         }
