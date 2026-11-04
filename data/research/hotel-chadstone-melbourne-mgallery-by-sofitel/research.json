@@ -1,10 +1,8 @@
 {
   "slug": "hotel-chadstone-melbourne-mgallery-by-sofitel",
   "status": "awaiting_extraction",
-  "partial": true,
-  "reasons": [
-    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue"
-  ],
+  "partial": false,
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "Hotel Chadstone Melbourne MGallery by Sofitel",
@@ -16,120 +14,55 @@
       "kind": "independent"
     },
     "evidence": [
-      "100% of the hotel name appears on the page",
+      "75% of the hotel name appears on the page",
       "location matches (Melbourne, AU)"
     ],
     "reasons": [],
     "candidates": [
-      "https://melbourne-mgallery-by-sofitel.melbournehotels24.com/en/",
-      "https://hospitalitysnapshots.com/projects/7253/hotel-chadstone-melbourne-mgallery-by-sofitel/",
-      "https://www.chadstone.com.au/stores/hotel-chadstone-melbourne-mgallery-collection"
+      "https://www.hotelchadstone.com.au/"
     ],
-    "checked_at": "2026-11-04T00:31:10.556Z",
+    "checked_at": "2026-11-04T00:39:48.272Z",
     "status": "confirmed",
-    "official_url": "https://www.chadstone.com.au/stores/hotel-chadstone-melbourne-mgallery-collection",
-    "base_url": "https://www.chadstone.com.au/",
-    "host": "chadstone.com.au",
+    "official_url": "https://www.hotelchadstone.com.au/",
+    "base_url": "https://www.hotelchadstone.com.au/",
+    "host": "hotelchadstone.com.au",
     "checks": {
-      "name_coverage": 1,
+      "name_coverage": 0.75,
       "location_match": true
     }
   },
   "pages": [
     {
       "id": "p1",
-      "url": "https://www.chadstone.com.au/stores/hotel-chadstone-melbourne-mgallery-collection",
+      "url": "https://www.hotelchadstone.com.au/",
       "tier": "official",
-      "fetched_at": "2026-11-04T00:31:32.965Z",
-      "source": "cache"
+      "fetched_at": "2026-11-04T00:39:57.964Z",
+      "source": "firecrawl"
     },
     {
       "id": "p2",
-      "url": "https://www.chadstone.com.au/dining/",
+      "url": "https://www.hotelchadstone.com.au/zh-hans/",
       "tier": "official",
-      "fetched_at": "2026-11-04T00:31:39.402Z",
+      "fetched_at": "2026-11-04T00:40:07.069Z",
       "source": "firecrawl"
     },
     {
       "id": "p3",
-      "url": "https://www.chadstone.com.au/services/",
-      "tier": "official",
-      "fetched_at": "2026-11-04T00:31:44.308Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p4",
-      "url": "https://www.chadstone.com.au/shopping/services/",
-      "tier": "official",
-      "fetched_at": "2026-11-04T00:31:48.115Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p5",
-      "url": "https://www.chadstone.com.au/directions/centre-map/",
-      "tier": "official",
-      "fetched_at": "2026-11-04T00:31:51.642Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p6",
-      "url": "https://www.chadstone.com.au/about-us/",
-      "tier": "official",
-      "fetched_at": "2026-11-04T00:31:58.710Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p7",
-      "url": "https://www.chadstone.com.au/shopping/",
-      "tier": "official",
-      "fetched_at": "2026-11-04T00:32:02.530Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p8",
-      "url": "https://www.chadstone.com.au/whats-on/",
-      "tier": "official",
-      "fetched_at": "2026-11-04T00:32:05.584Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p9",
-      "url": "https://www.chadstone.com.au/entertainment/",
-      "tier": "official",
-      "fetched_at": "2026-11-04T00:32:09.281Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p10",
-      "url": "https://www.chadstone.com.au/hotel-chadstone/",
-      "tier": "official",
-      "fetched_at": "2026-11-04T00:32:15.188Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p11",
-      "url": "https://www.chadstone.com.au/the-social-quarter/",
-      "tier": "official",
-      "fetched_at": "2026-11-04T00:32:18.788Z",
-      "source": "firecrawl"
-    },
-    {
-      "id": "p12",
-      "url": "https://www.chadstone.com.au/the-market-pavilion/",
-      "tier": "official",
-      "fetched_at": "2026-11-04T00:32:23.001Z",
-      "source": "firecrawl"
+      "url": "https://www.cntraveler.com/hotels/melbourne/hotel-chadstone-melbourne-mgallery-by-sofitel",
+      "tier": "editorial",
+      "fetched_at": "2026-11-04T00:40:07.617Z",
+      "source": "direct"
     }
   ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 16,
-    "firecrawl_searches": 2,
-    "cache_hits": 2,
+    "firecrawl_calls": 5,
+    "firecrawl_searches": 1,
+    "cache_hits": 0,
     "direct_fetches": 1,
-    "pages": 12,
-    "chars": 82491,
-    "est_claude_tokens": 20623
+    "pages": 3,
+    "chars": 12535,
+    "est_claude_tokens": 3134
   },
   "limits": {
     "maxPages": 12,
@@ -137,5 +70,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-11-04T00:32:25.461Z"
+  "researched_at": "2026-11-04T00:40:07.617Z"
 }

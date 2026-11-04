@@ -1,0 +1,192 @@
+{
+ "facts": [
+  {
+   "id": "r-1",
+   "category": "location",
+   "kind": "fact",
+   "text": "The hotel is in the historic Galata district, where the Golden Horn meets the Bosphorus.",
+   "doc_id": "p1",
+   "excerpt": "this historic district, where the Golden Horn meets the Bosphorus",
+   "topic": "district",
+   "as_of": null
+  },
+  {
+   "id": "r-2",
+   "category": "design_history",
+   "kind": "fact",
+   "text": "The hotel occupies the historic Baltazzi Han building in Galata.",
+   "doc_id": "p1",
+   "excerpt": "reborn within the historic walls of Baltazzi Han, one of Galata’s most magnificent and rare buildings",
+   "topic": "building",
+   "as_of": null
+  },
+  {
+   "id": "r-3",
+   "category": "design_history",
+   "kind": "fact",
+   "text": "Baltazzi Han dates back to 1836.",
+   "doc_id": "p1",
+   "excerpt": "one of Galata’s most magnificent and rare buildings dating back to 1836",
+   "topic": "building-date",
+   "as_of": null
+  },
+  {
+   "id": "r-4",
+   "category": "design_history",
+   "kind": "fact",
+   "text": "The hotel building was built in the late 19th century.",
+   "doc_id": "p1",
+   "excerpt": "Built in the late 19th century, the historic bank building has been renovated",
+   "topic": "building-date",
+   "as_of": null
+  },
+  {
+   "id": "r-5",
+   "category": "design_history",
+   "kind": "fact",
+   "text": "The hotel has welcomed guests since 2018.",
+   "doc_id": "p1",
+   "excerpt": "has been welcoming its guests with an unforgettable accommodation experience since 2018",
+   "topic": "opening",
+   "as_of": "2018"
+  },
+  {
+   "id": "r-7",
+   "category": "amenities",
+   "kind": "fact",
+   "text": "The Historical Cesme Hammam is hidden within the hotel's garden.",
+   "doc_id": "p1",
+   "excerpt": "Hidden within the hotel’s garden, the Historical Cesme Hammam has been sharing the healing power of water",
+   "topic": "hammam",
+   "as_of": null
+  },
+  {
+   "id": "r-8",
+   "category": "amenities",
+   "kind": "fact",
+   "text": "The hammam has operated since 1720.",
+   "doc_id": "p1",
+   "excerpt": "the Historical Cesme Hammam has been sharing the healing power of water since 1720",
+   "topic": "hammam-date",
+   "as_of": null
+  },
+  {
+   "id": "r-9",
+   "category": "amenities",
+   "kind": "fact",
+   "text": "The Historical Fountain Hammam was commissioned in the late 1720s.",
+   "doc_id": "p1",
+   "excerpt": "The Historical Fountain Hammam, located within The Galata Istanbul Hotel MGallery, was commissioned in the late 1720s",
+   "topic": "hammam-date",
+   "as_of": null
+  },
+  {
+   "id": "r-10",
+   "category": "amenities",
+   "kind": "fact",
+   "text": "The hammam received World Luxury Spa Awards in 2022, 2023, 2024 and 2025.",
+   "doc_id": "p1",
+   "excerpt": "Honored with the World Luxury SPA Awards in 2022 and 2023,2024 and 2025",
+   "topic": "hammam-award",
+   "as_of": "2025"
+  },
+  {
+   "id": "r-11",
+   "category": "dining",
+   "kind": "fact",
+   "text": "The hotel's restaurant serves modern and creative interpretations of Turkish cuisine.",
+   "doc_id": "p1",
+   "excerpt": "you can discover modern and creative interpretations of Turkish cuisine",
+   "topic": "restaurant-cuisine",
+   "as_of": null
+  },
+  {
+   "id": "r-12",
+   "category": "dining",
+   "kind": "fact",
+   "text": "In summer the restaurant has an open-air setting with views of the Golden Horn.",
+   "doc_id": "p1",
+   "excerpt": "During the summer months, the open air setting with views of the Golden Horn offers a truly unique backdrop",
+   "topic": "restaurant-terrace",
+   "as_of": null
+  },
+  {
+   "id": "r-13",
+   "category": "location",
+   "kind": "fact",
+   "text": "The hotel is on Bankalar Caddesi in Beyoglu, Istanbul.",
+   "doc_id": "p2",
+   "excerpt": "Arap Camii Mahallesi Bankalar Caddesi No:21",
+   "topic": "address",
+   "as_of": null
+  },
+  {
+   "id": "r-14",
+   "category": "rooms",
+   "kind": "subjective",
+   "text": "The hotel blends timeless heritage with contemporary elegance.",
+   "doc_id": "p1",
+   "excerpt": "Blending timeless heritage with contemporary elegance, the hotel offers a unique sense of place",
+   "topic": "style",
+   "as_of": null
+  },
+  {
+   "id": "r-15",
+   "category": "design_history",
+   "kind": "fact",
+   "text": "The hotel is housed in a historic bank building.",
+   "doc_id": "p1",
+   "excerpt": "the historic bank building",
+   "topic": "bank-building",
+   "as_of": null
+  },
+  {
+   "id": "r-16",
+   "category": "rooms",
+   "kind": "fact",
+   "text": "The hotel's style is contemporary with distinctive Art Deco influences.",
+   "doc_id": "p1",
+   "excerpt": "in a contemporary style with distinctive Art Deco influences",
+   "topic": "design-style",
+   "as_of": null
+  }
+ ],
+ "highlights": [
+  "r-7",
+  "r-2",
+  "r-16",
+  "r-1",
+  "r-12",
+  "r-11"
+ ],
+ "contradictions": [
+  {
+   "topic": "building-date",
+   "note": "p1 says Baltazzi Han dates back to 1836, but also says the bank building was built in the late 19th century",
+   "sources": [
+    {
+     "doc_id": "p1",
+     "excerpt": "one of Galata’s most magnificent and rare buildings dating back to 1836"
+    },
+    {
+     "doc_id": "p1",
+     "excerpt": "Built in the late 19th century, the historic bank building has been renovated"
+    }
+   ]
+  },
+  {
+   "topic": "hammam-date",
+   "note": "p1 says the hammam dates from 1720, and elsewhere that it was commissioned in the late 1720s",
+   "sources": [
+    {
+     "doc_id": "p1",
+     "excerpt": "the Historical Cesme Hammam has been sharing the healing power of water since 1720"
+    },
+    {
+     "doc_id": "p1",
+     "excerpt": "was commissioned in the late 1720s"
+    }
+   ]
+  }
+ ]
+}
