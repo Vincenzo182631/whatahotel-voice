@@ -1,13 +1,8 @@
 {
   "slug": "meadowood-napa-valley",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "https://meadowood.com/: only 33% of the hotel name appears on the page",
-    "https://meadowood.com/contact/: only 33% of the hotel name appears on the page",
-    "https://www.visitnapavalley.com/listing/meadowood-napa-valley/23/: visitnapavalley.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "official website could not be confirmed; flag for review"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "Meadowood Napa Valley",
@@ -18,31 +13,77 @@
     "affiliation": {
       "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://meadowood.com/: only 33% of the hotel name appears on the page",
-      "https://meadowood.com/contact/: only 33% of the hotel name appears on the page",
-      "https://www.visitnapavalley.com/listing/meadowood-napa-valley/23/: visitnapavalley.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "location matches (Napa Valley, US)",
+      "confirmed by hand as this hotel's own page (only 33% of the hotel name appears on the page)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://meadowood.com/",
-      "https://meadowood.com/contact/",
-      "https://www.visitnapavalley.com/listing/meadowood-napa-valley/23/"
+      "https://meadowood.com/"
     ],
-    "checked_at": "2026-11-04T01:55:32.300Z",
-    "status": "needs_review"
+    "checked_at": "2026-11-04T02:00:22.063Z",
+    "status": "confirmed",
+    "official_url": "https://meadowood.com/",
+    "base_url": "https://meadowood.com/",
+    "host": "meadowood.com",
+    "checks": {
+      "name_coverage": 0.33,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://meadowood.com/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T02:00:26.734Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://meadowood.com/dining/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T02:00:36.113Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://meadowood.com/spa/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T02:00:38.796Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://meadowood.com/activities/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T02:00:44.089Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://meadowood.com/lodgings/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T02:00:48.032Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.cntraveler.com/hotels/united-states/st-helena/meadowood-napa-valley",
+      "tier": "editorial",
+      "fetched_at": "2026-11-04T02:00:58.683Z",
+      "source": "direct"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 4,
+    "firecrawl_calls": 8,
     "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 6,
+    "chars": 94568,
+    "est_claude_tokens": 23642
   },
   "limits": {
     "maxPages": 12,
@@ -50,5 +91,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-11-04T01:55:47.919Z"
+  "researched_at": "2026-11-04T02:00:58.683Z"
 }

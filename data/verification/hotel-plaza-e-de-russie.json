@@ -1,0 +1,322 @@
+{
+  "hotel_slug": "hotel-plaza-e-de-russie",
+  "hotel_name": "Hotel Plaza e de Russie",
+  "checked_at": "2026-11-04T02:05:21.836Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 14,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 15
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.plazaederussie.com/",
+      "tier": "official",
+      "chars": 14870
+    },
+    {
+      "id": "d2",
+      "url": "https://www.plazaederussie.com/en/5-star-hotel-viareggio/",
+      "tier": "official",
+      "chars": 15264
+    },
+    {
+      "id": "d3",
+      "url": "https://www.plazaederussie.com/en/history/",
+      "tier": "official",
+      "chars": 15263
+    },
+    {
+      "id": "d4",
+      "url": "https://www.plazaederussie.com/en/viareggio-hotel-by-the-sea/",
+      "tier": "official",
+      "chars": 14386
+    },
+    {
+      "id": "d5",
+      "url": "https://www.plazaederussie.com/en/hotel-deals-viareggio/",
+      "tier": "official",
+      "chars": 13835
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is situated along a seaside promenade.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Situated along a seaside promenade",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.plazaederussie.com/en/history/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel was erected in 1871 along the route of the Grand Tour.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Erected in 1871 along the route of the Grand Tour",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.plazaederussie.com/en/history/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel describes itself as Viareggio's oldest hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Hotel Plaza e de Russie, Viareggio’s oldest hotel",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.plazaederussie.com/en/history/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Past guests included the poet Rainer Maria Rilke and Giacomo Puccini.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "from the poet Rainer Maria Rilke, who gained inspiration on long walks through the woods, to Giacomo Puccini",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.plazaederussie.com/en/history/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Each room has bathroom tiles with evocative geometries.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "such as the evocative geometries of the bathroom tiles in each room",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.plazaederussie.com/en/5-star-hotel-viareggio/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Family Suite offers space and privacy a stone's throw from the beach.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Space and privacy at a stone’s throw from the beach",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.plazaederussie.com/en/5-star-hotel-viareggio/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Lunasia Restaurant offers gourmet dining in a glamorous setting.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Lunasia Restaurant",
+          "note": "venue named; next line describes gourmet dining in a glamorous setting",
+          "confirmed": true,
+          "url": "https://www.plazaederussie.com/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Gourmetdininginaglamoroussetting",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.plazaederussie.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "From the hotel, guests can visit Tuscan art cities, Elba Island and the Cinque Terre.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Tuscan cities of art famous around the world for their masterpieces of inestimable value, and natural environments with inimitable landscapes: from the crystalline waters of Elba Island to the Cinque Terre",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.plazaederussie.com/en/viareggio-hotel-by-the-sea/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Nearby cultural events include the Puccini Festival of Torre del Lago and the Carnival of Viareggio.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "the Puccini Festival of Torre del Lago, or even the Carnivale of Viareggio itself",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.plazaederussie.com/en/viareggio-hotel-by-the-sea/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The two penthouse suites have private terraces spanning the entire suite and full-length French doors.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The hotel’s two penthouse suites are the epitome of luxury, privacy and comfort. Stunning private terraces span the entire suite, and full-length French doors let the Mediterranean sun illuminate the entire space.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.plazaederussie.com/en/5-star-hotel-viareggio/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The 'de Russie' name comes from Russian expatriates and aristocrats who found shelter at the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "First to find comfort and shelter here were Russian expatriates, fleeing from the Tsarist Empire, followed by Russian aristocracy escaping the Bolshevik Revolution.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.plazaederussie.com/en/history/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "but also the “de Russie” name, which it maintains to this day",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.plazaederussie.com/en/history/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The hotel is in Viareggio's seaside Art Nouveau district.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Situated in the heart of Viareggio’s seaside Art Nouveau district",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.plazaederussie.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Each room has its own character, with precious fabrics, warm understated tones and Italian design details.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "each has its own personal character and features a sophisticated harmony of precious fabrics; warm, understated tones, and details that embody the essence of Italian design",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.plazaederussie.com/en/5-star-hotel-viareggio/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The Junior Suite has a quiet internal outlook.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "A pied-à-terre with a quiet internal outlook",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.plazaederussie.com/en/5-star-hotel-viareggio/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes premium luxury pricing that reflects the hotel's exclusive positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

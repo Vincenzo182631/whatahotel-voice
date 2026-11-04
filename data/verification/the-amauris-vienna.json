@@ -1,0 +1,395 @@
+{
+  "hotel_slug": "the-amauris-vienna",
+  "hotel_name": "The Amauris Vienna",
+  "checked_at": "2026-11-04T02:03:08.588Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.theamauris.com/en/vienna",
+      "tier": "official",
+      "chars": 5574
+    },
+    {
+      "id": "d2",
+      "url": "https://www.cntraveler.com/hotels/vienna/the-amauris-vienna-relais-and-chateaux",
+      "tier": "editorial",
+      "chars": 9601
+    },
+    {
+      "id": "d3",
+      "url": "https://www.theamauris.com/vienna/",
+      "tier": "official",
+      "chars": 6062
+    },
+    {
+      "id": "d4",
+      "url": "https://www.theamauris.com/en/vienna/",
+      "tier": "official",
+      "chars": 5574
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The interiors combine high stucco ceilings with high-quality marble and fine woods.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Beneath high stucco ceilings, an interplay of high-quality marble, fine woods, sculptural design icons, and works of art from the host family's private collection unfolds.",
+          "note": "stucco ceilings, marble, fine woods",
+          "confirmed": true,
+          "url": "https://www.theamauris.com/en/vienna",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Conde Nast Traveler describes the hotel as an intimate palais built in 1860 on the Ringstrasse.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "An intimate, built-in-1860 palais on Vienna’s landmark-strewn Ringstrasse",
+          "note": "CNT subtitle",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/vienna/the-amauris-vienna-relais-and-chateaux",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The building once housed a bank, and the Opera suite was the manager's office.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "the space once housed the manager’s office when The Amauris welcomed Viennese as a bank",
+          "note": "Opera suite was bank manager's office",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/vienna/the-amauris-vienna-relais-and-chateaux",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "the nearly 1,300-square-foot Opera suite",
+          "note": "the space refers to Opera suite",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/vienna/the-amauris-vienna-relais-and-chateaux",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel has a turn-of-the-century cast-iron elevator.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Take the elevator, a turn-of-the-century cast-iron treasure",
+          "note": "elevator",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/vienna/the-amauris-vienna-relais-and-chateaux",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The duplex Grand Maisonette suites have freestanding bathtubs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "the duplex Grand Maisonettes starring freestanding bathtubs",
+          "note": "maisonettes",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/vienna/the-amauris-vienna-relais-and-chateaux",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Loft suite looks onto St. Charles Church.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "the Loft suite that looks onto St. Charles Church",
+          "note": "loft",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/vienna/the-amauris-vienna-relais-and-chateaux",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Bathrooms feature Acqua di Parma toiletries.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "roomy bathrooms brightened with fresh blooms and Acqua di Parma toiletries",
+          "note": "toiletries",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/vienna/the-amauris-vienna-relais-and-chateaux",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The spa has treatment rooms, a fitness center with Technogym equipment, a sauna and a steam bath.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "While there are treatment rooms, as well as a fitness center with Technogym equipment, sauna, and steam bath",
+          "note": "spa facilities",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/vienna/the-amauris-vienna-relais-and-chateaux",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The hotel is dog-friendly and welcomes dogs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "As a dog-friendly boutique hotel, we warmly welcome dogs",
+          "note": "dogs",
+          "confirmed": true,
+          "url": "https://www.theamauris.com/en/vienna",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel offers family-friendly amenities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "a wide range of family-friendly amenities",
+          "note": "family amenities",
+          "confirmed": true,
+          "url": "https://www.theamauris.com/en/vienna",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel is named after the butterfly genus Amauris, which includes the monarch butterfly.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Amauris is named after the butterfly genus Amauris, which includes the monarch butterfly.",
+          "note": "name",
+          "confirmed": true,
+          "url": "https://www.theamauris.com/en/vienna",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "At Glasswing, chef Alexandru Simon centers seasonal tasting menus on ingredients largely sourced from local farmers and producers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "chef Alexandru Simon presides over the open kitchen, centering the seasonal tasting menus on ingredients largely sourced from local farmers and producers",
+          "note": "Glasswing chef",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/vienna/the-amauris-vienna-relais-and-chateaux",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "a dinner at fine dining restaurant Glasswing is essential. Here, chef Alexandru Simon",
+          "note": "at Glasswing",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/vienna/the-amauris-vienna-relais-and-chateaux",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel is on the historic Ringstrasse between the Vienna State Opera and the Musikverein.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located on the historic Ringstrasse between the Vienna State Opera and the Musikverein",
+          "note": "location",
+          "confirmed": true,
+          "url": "https://www.theamauris.com/en/vienna",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Each room features a book, a Viennese work of art, an object from nature, a board game and a selected design piece.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Each room follows a carefully crafted concept, featuring a book, a Viennese work of art, an object from nature, a board game, and a selected design piece.",
+          "note": "room concept",
+          "confirmed": true,
+          "url": "https://www.theamauris.com/en/vienna",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Croatian designer Nikola Arambašić used more than 160 tons of marble in the interiors.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Croatian designer Nikola Arambašić embraced more than 160 tons of sleek marble",
+          "note": "marble",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/vienna/the-amauris-vienna-relais-and-chateaux",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The interiors display works of art from the host family's private collection.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "works of art from the host family's private collection",
+          "note": "art",
+          "confirmed": true,
+          "url": "https://www.theamauris.com/en/vienna",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Opera suite has a Murano chandelier, a balcony and original stucco reliefs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Complete with a monumental Murano chandelier, centerpiece balcony, and elaborate, original stucco reliefs",
+          "note": "opera suite features",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/vienna/the-amauris-vienna-relais-and-chateaux",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The pool is a wellness pool with massage jets inside the spa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "the jewel is the wellness pool buoyed by massage jets",
+          "note": "wellness pool",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/vienna/the-amauris-vienna-relais-and-chateaux",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Capped in a glass roof, the serene guest-only spa is found in The Amauris’s courtyard. While there are treatment rooms",
+          "note": "in the spa context",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/vienna/the-amauris-vienna-relais-and-chateaux",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes the limited property size typical of boutique hotels.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium luxury pricing reflecting the exclusive positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

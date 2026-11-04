@@ -1,12 +1,9 @@
 {
   "slug": "sonora-resort-br-all-inclusive",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
   "reasons": [
-    "https://sonoraresort.com/: only 40% of the hotel name appears on the page; page does not mention Richmond, BC",
-    "https://sonoraresort.com/the-resort/more/2027-rates/: only 60% of the hotel name appears on the page; page does not mention Richmond, BC",
-    "https://sonoraresort.com/the-resort/more/getting-here/: only 40% of the hotel name appears on the page; page does not mention Richmond, BC",
-    "official website could not be confirmed; flag for review"
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
   ],
   "identity": {
     "hotel": {
@@ -18,31 +15,60 @@
     "affiliation": {
       "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://sonoraresort.com/: only 40% of the hotel name appears on the page; page does not mention Richmond, BC",
-      "https://sonoraresort.com/the-resort/more/2027-rates/: only 60% of the hotel name appears on the page; page does not mention Richmond, BC",
-      "https://sonoraresort.com/the-resort/more/getting-here/: only 40% of the hotel name appears on the page; page does not mention Richmond, BC",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "confirmed by hand as this hotel's own page (only 40% of the hotel name appears on the page; page does not mention Richmond, BC)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://sonoraresort.com/",
-      "https://sonoraresort.com/the-resort/more/2027-rates/",
-      "https://sonoraresort.com/the-resort/more/getting-here/"
+      "https://sonoraresort.com/"
     ],
-    "checked_at": "2026-11-04T01:55:54.501Z",
-    "status": "needs_review"
+    "checked_at": "2026-11-04T02:00:59.637Z",
+    "status": "confirmed",
+    "official_url": "https://sonoraresort.com/",
+    "base_url": "https://sonoraresort.com/",
+    "host": "sonoraresort.com",
+    "checks": {
+      "name_coverage": 0.4,
+      "location_match": false
+    }
   },
-  "pages": [],
-  "inaccessible": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://sonoraresort.com/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T02:01:04.737Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://sonoraresort.com/all-accommodation/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T02:01:13.773Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://sonoraresort.com/activities/category/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T02:01:18.464Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
   "usage": {
-    "firecrawl_calls": 4,
+    "firecrawl_calls": 6,
     "firecrawl_searches": 1,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 3,
+    "chars": 13385,
+    "est_claude_tokens": 3346
   },
   "limits": {
     "maxPages": 12,
@@ -50,5 +76,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-11-04T01:56:07.518Z"
+  "researched_at": "2026-11-04T02:01:26.144Z"
 }
