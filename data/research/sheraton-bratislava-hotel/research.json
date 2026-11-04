@@ -1,6 +1,6 @@
 {
   "slug": "sheraton-bratislava-hotel",
-  "status": "ready",
+  "status": "awaiting_extraction",
   "partial": false,
   "reasons": [
     "some pages were inaccessible; missing information is not proof an amenity does not exist"
@@ -22,11 +22,11 @@
     ],
     "reasons": [],
     "candidates": [
-      "https://www.marriott.com/en-us/hotels/btssi-sheraton-bratislava-hotel/rooms/"
+      "https://www.marriott.com/en-us/hotels/btssi-sheraton-bratislava-hotel/overview/"
     ],
-    "checked_at": "2026-11-04T03:13:36.078Z",
+    "checked_at": "2026-11-04T03:22:09.237Z",
     "status": "confirmed",
-    "official_url": "https://www.marriott.com/en-us/hotels/btssi-sheraton-bratislava-hotel/rooms/",
+    "official_url": "https://www.marriott.com/en-us/hotels/btssi-sheraton-bratislava-hotel/overview/",
     "base_url": "https://www.marriott.com/en-us/hotels/btssi-sheraton-bratislava-hotel/",
     "host": "marriott.com",
     "checks": {
@@ -37,16 +37,30 @@
   "pages": [
     {
       "id": "p1",
-      "url": "https://www.marriott.com/en-us/hotels/btssi-sheraton-bratislava-hotel/rooms/",
+      "url": "https://www.marriott.com/en-us/hotels/btssi-sheraton-bratislava-hotel/overview/",
       "tier": "official",
-      "fetched_at": "2026-11-04T03:13:40.908Z",
+      "fetched_at": "2026-11-04T03:22:35.952Z",
       "source": "firecrawl"
     },
     {
       "id": "p2",
-      "url": "https://www.marriott.com/en-us/hotels/btssi-sheraton-bratislava-hotel/%3CBase64-Image-Removed%3E/",
+      "url": "https://www.marriott.com/en-us/hotels/btssi-sheraton-bratislava-hotel/rooms/",
       "tier": "official",
-      "fetched_at": "2026-11-04T03:13:51.671Z",
+      "fetched_at": "2026-11-04T03:22:40.225Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/btssi-sheraton-bratislava-hotel/dining/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T03:22:46.929Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/btssi-sheraton-bratislava-hotel/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T03:22:59.217Z",
       "source": "firecrawl"
     }
   ],
@@ -57,13 +71,13 @@
     }
   ],
   "usage": {
-    "firecrawl_calls": 5,
+    "firecrawl_calls": 7,
     "firecrawl_searches": 1,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 2,
-    "chars": 8295,
-    "est_claude_tokens": 2074
+    "pages": 4,
+    "chars": 39562,
+    "est_claude_tokens": 9891
   },
   "limits": {
     "maxPages": 12,
@@ -71,109 +85,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-11-04T03:13:57.575Z",
-  "hotel": {
-    "name": "Sheraton Bratislava Hotel",
-    "city": "NULL",
-    "country": "SK",
-    "chain": "marriott",
-    "confirmed_affiliation": {
-      "kind": "chain",
-      "chain": "marriott"
-    }
-  },
-  "official_url": "https://www.marriott.com/en-us/hotels/btssi-sheraton-bratislava-hotel/rooms/",
-  "verified_facts": [
-    {
-      "id": "r-1",
-      "category": "rooms",
-      "text": "The presidential suite has a terrace with river views.",
-      "source_url": "https://www.marriott.com/en-us/hotels/btssi-sheraton-bratislava-hotel/rooms/",
-      "source_tier": "official",
-      "excerpt": "Our stylish hotel with a presidential suite also includes a terrace with stunning river views."
-    },
-    {
-      "id": "r-2",
-      "category": "rooms",
-      "text": "Selected 5th-floor rooms and suites have access to an outdoor terrace with a plaza and river view.",
-      "source_url": "https://www.marriott.com/en-us/hotels/btssi-sheraton-bratislava-hotel/rooms/",
-      "source_tier": "official",
-      "excerpt": "Selected 5th floor rooms and suites offer access to an outdoor terrace with plaza and river view."
-    },
-    {
-      "id": "r-3",
-      "category": "rooms",
-      "text": "Rooms have spacious oversized bathrooms with both a rainfall shower and a bathtub.",
-      "source_url": "https://www.marriott.com/en-us/hotels/btssi-sheraton-bratislava-hotel/rooms/",
-      "source_tier": "official",
-      "excerpt": "Enjoy spacious oversized bathrooms with both a rainfall shower and a bathtub."
-    },
-    {
-      "id": "r-4",
-      "category": "rooms",
-      "text": "All rooms have plush pillowtop beds and upscale bathrooms.",
-      "source_url": "https://www.marriott.com/en-us/hotels/btssi-sheraton-bratislava-hotel/rooms/",
-      "source_tier": "official",
-      "excerpt": "All of our modern Bratislava hotel rooms offer plush, pillowtop beds and upscale bathrooms."
-    },
-    {
-      "id": "r-5",
-      "category": "amenities",
-      "text": "Club rooms and suites include access to the Sheraton Club Lounge with refreshments.",
-      "source_url": "https://www.marriott.com/en-us/hotels/btssi-sheraton-bratislava-hotel/rooms/",
-      "source_tier": "official",
-      "excerpt": "Club rooms and suites in Bratislava offer access to the Sheraton Club Lounge including refreshments."
-    },
-    {
-      "id": "r-6",
-      "category": "amenities",
-      "text": "The Club Lounge offers complimentary breakfast, all-day snacks and beverages and free Wi-Fi.",
-      "source_url": "https://www.marriott.com/en-us/hotels/btssi-sheraton-bratislava-hotel/rooms/",
-      "source_tier": "official",
-      "excerpt": "Complimentary breakfast, all-day snacks and beverages and free Wi-Fi keep you fueled and connected throughout your day."
-    },
-    {
-      "id": "r-7",
-      "category": "rooms",
-      "text": "Rooms have complimentary wireless high-speed internet access.",
-      "source_url": "https://www.marriott.com/en-us/hotels/btssi-sheraton-bratislava-hotel/rooms/",
-      "source_tier": "official",
-      "excerpt": "Use complimentary wireless high-speed internet access from our family hotel rooms in Bratislava."
-    },
-    {
-      "id": "r-8",
-      "category": "rooms",
-      "text": "Rooms have a mini fridge.",
-      "source_url": "https://www.marriott.com/en-us/hotels/btssi-sheraton-bratislava-hotel/rooms/",
-      "source_tier": "official",
-      "excerpt": "Yes, rooms at Sheraton Bratislava Hotel have a Mini fridge."
-    },
-    {
-      "id": "r-9",
-      "category": "rooms",
-      "text": "Rooms have a coffee and tea maker.",
-      "source_url": "https://www.marriott.com/en-us/hotels/btssi-sheraton-bratislava-hotel/rooms/",
-      "source_tier": "official",
-      "excerpt": "Yes, rooms at Sheraton Bratislava Hotel have a Coffee/tea maker."
-    },
-    {
-      "id": "r-10",
-      "category": "rooms",
-      "text": "Rooms have a desk for working.",
-      "source_url": "https://www.marriott.com/en-us/hotels/btssi-sheraton-bratislava-hotel/rooms/",
-      "source_tier": "official",
-      "excerpt": "Yes, rooms at Sheraton Bratislava Hotel have a desk for working."
-    }
-  ],
-  "highlights": [
-    "r-1",
-    "r-2",
-    "r-3",
-    "r-5",
-    "r-4"
-  ],
-  "subjective": [],
-  "unresolved": [],
-  "rejected": [],
-  "contradictions": []
+  "researched_at": "2026-11-04T03:23:03.579Z"
 }

@@ -1,5 +1,5 @@
 # Extract verified facts for Sheraton Rhodes Resort
-Official site confirmed: https://www.marriott.com/en-us/hotels/rhosi-sheraton-rhodes-resort/rooms/ (chain: marriott).
+Official site confirmed: https://www.marriott.com/en-us/hotels/rhosi-sheraton-rhodes-resort/overview/ (chain: marriott).
 Read /home/user/whatahotel-voice/data/research/sheraton-rhodes-resort/index.json and the page text in /home/user/whatahotel-voice/data/research/sheraton-rhodes-resort/pages/<id>.txt. Use ONLY those pages, never memory. Do not run other commands or fetch anything.
 Write /home/user/whatahotel-voice/data/research/sheraton-rhodes-resort/facts.json (JSON only) with this shape:
 {"facts":[{"id":"r-1","category":"dining","kind":"fact|subjective|unresolved","text":"one atomic statement","doc_id":"p3","excerpt":"copied verbatim from that page, max 240 chars","topic":"short key, e.g. pool-count","as_of":"YYYY-MM-DD or null"}],

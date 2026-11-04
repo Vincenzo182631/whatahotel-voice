@@ -1,6 +1,6 @@
 {
   "slug": "sheraton-rhodes-resort",
-  "status": "ready",
+  "status": "awaiting_extraction",
   "partial": false,
   "reasons": [
     "some pages were inaccessible; missing information is not proof an amenity does not exist"
@@ -9,7 +9,7 @@
     "hotel": {
       "name": "Sheraton Rhodes Resort",
       "city": "Rhodes",
-      "country": "GR",
+      "country": "Greece",
       "chain": "marriott"
     },
     "affiliation": {
@@ -18,15 +18,15 @@
     },
     "evidence": [
       "100% of the hotel name appears on the page",
-      "location matches (Rhodes, GR)"
+      "location matches (Rhodes, Greece)"
     ],
     "reasons": [],
     "candidates": [
-      "https://www.marriott.com/en-us/hotels/rhosi-sheraton-rhodes-resort/rooms/"
+      "https://www.marriott.com/en-us/hotels/rhosi-sheraton-rhodes-resort/overview/"
     ],
-    "checked_at": "2026-11-04T03:11:54.228Z",
+    "checked_at": "2026-11-04T03:22:24.550Z",
     "status": "confirmed",
-    "official_url": "https://www.marriott.com/en-us/hotels/rhosi-sheraton-rhodes-resort/rooms/",
+    "official_url": "https://www.marriott.com/en-us/hotels/rhosi-sheraton-rhodes-resort/overview/",
     "base_url": "https://www.marriott.com/en-us/hotels/rhosi-sheraton-rhodes-resort/",
     "host": "marriott.com",
     "checks": {
@@ -37,9 +37,30 @@
   "pages": [
     {
       "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/rhosi-sheraton-rhodes-resort/overview/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T03:22:29.200Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
       "url": "https://www.marriott.com/en-us/hotels/rhosi-sheraton-rhodes-resort/rooms/",
       "tier": "official",
-      "fetched_at": "2026-11-04T03:12:00.136Z",
+      "fetched_at": "2026-11-04T03:22:37.224Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/rhosi-sheraton-rhodes-resort/dining/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T03:22:54.100Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/rhosi-sheraton-rhodes-resort/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T03:23:06.835Z",
       "source": "firecrawl"
     }
   ],
@@ -50,13 +71,13 @@
     }
   ],
   "usage": {
-    "firecrawl_calls": 4,
+    "firecrawl_calls": 7,
     "firecrawl_searches": 1,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 1,
-    "chars": 8065,
-    "est_claude_tokens": 2016
+    "pages": 4,
+    "chars": 49280,
+    "est_claude_tokens": 12320
   },
   "limits": {
     "maxPages": 12,
@@ -64,151 +85,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-11-04T03:12:12.294Z",
-  "hotel": {
-    "name": "Sheraton Rhodes Resort",
-    "city": "Rhodes",
-    "country": "GR",
-    "chain": "marriott",
-    "confirmed_affiliation": {
-      "kind": "chain",
-      "chain": "marriott"
-    }
-  },
-  "official_url": "https://www.marriott.com/en-us/hotels/rhosi-sheraton-rhodes-resort/rooms/",
-  "verified_facts": [
-    {
-      "id": "r-1",
-      "category": "rooms",
-      "text": "The Aqua Deluxe Room has views over the Aegean Sea and a modern Jacuzzi on its balcony.",
-      "source_url": "https://www.marriott.com/en-us/hotels/rhosi-sheraton-rhodes-resort/rooms/",
-      "source_tier": "official",
-      "excerpt": "A spacious room with magnificent views over the Aegean Sea, introduces you the ultimate relaxation feelings by featuring a modern Jacuzzi, situated on its most picturesque spot; the balcony."
-    },
-    {
-      "id": "r-2",
-      "category": "rooms",
-      "text": "Rooms have private balconies with views over the gardens or the sea and sunset.",
-      "source_url": "https://www.marriott.com/en-us/hotels/rhosi-sheraton-rhodes-resort/rooms/",
-      "source_tier": "official",
-      "excerpt": "Rhodes accommodation with private balconies and views over the gardens or the sea and sunset."
-    },
-    {
-      "id": "r-3",
-      "category": "rooms",
-      "text": "Aelia, the presidential suite, has its own dining and living areas.",
-      "source_url": "https://www.marriott.com/en-us/hotels/rhosi-sheraton-rhodes-resort/rooms/",
-      "source_tier": "official",
-      "excerpt": "Aelia, our presidential suite, offers a homely experience with its own dining and living areas"
-    },
-    {
-      "id": "r-4",
-      "category": "rooms",
-      "text": "The Aelia Suite includes a fully equipped kitchenette area.",
-      "source_url": "https://www.marriott.com/en-us/hotels/rhosi-sheraton-rhodes-resort/rooms/",
-      "source_tier": "official",
-      "excerpt": "comfortable dining and fully equipped kitchenette area, spacious lounge with a separate space for two big single beds, and two bathrooms"
-    },
-    {
-      "id": "r-5",
-      "category": "rooms",
-      "text": "The Penthouse Suite has a sea view, a balcony and a terrace.",
-      "source_url": "https://www.marriott.com/en-us/hotels/rhosi-sheraton-rhodes-resort/rooms/",
-      "source_tier": "official",
-      "excerpt": "1 Bedroom Penthouse Suite, 1 King, Sofa bed, Sea view, Balcony, Terrace"
-    },
-    {
-      "id": "r-6",
-      "category": "rooms",
-      "text": "Junior and Aegean Suites offer more space and a set of extra amenities.",
-      "source_url": "https://www.marriott.com/en-us/hotels/rhosi-sheraton-rhodes-resort/rooms/",
-      "source_tier": "official",
-      "excerpt": "Choose a Junior or an Aegean Suite for more space and a whole set of extra amenities"
-    },
-    {
-      "id": "r-7",
-      "category": "rooms",
-      "text": "Rooms have Sheraton Sleep Experience beds.",
-      "source_url": "https://www.marriott.com/en-us/hotels/rhosi-sheraton-rhodes-resort/rooms/",
-      "source_tier": "official",
-      "excerpt": "Our hotel rooms in Rhodes feature Sheraton Sleep Experience beds."
-    },
-    {
-      "id": "r-8",
-      "category": "rooms",
-      "text": "Bathrooms are en-suite marble bathrooms with walk-in showers.",
-      "source_url": "https://www.marriott.com/en-us/hotels/rhosi-sheraton-rhodes-resort/rooms/",
-      "source_tier": "official",
-      "excerpt": "En-suite marble bathroom with walk in shower"
-    },
-    {
-      "id": "r-9",
-      "category": "family",
-      "text": "Family rooms and suites are available for guests wanting more comfort and space.",
-      "source_url": "https://www.marriott.com/en-us/hotels/rhosi-sheraton-rhodes-resort/rooms/",
-      "source_tier": "official",
-      "excerpt": "Rhodes family hotel rooms and suites are available for those wanting more comfort and space."
-    },
-    {
-      "id": "r-10",
-      "category": "dining",
-      "text": "In-room dining can be ordered through a mobile ordering option.",
-      "source_url": "https://www.marriott.com/en-us/hotels/rhosi-sheraton-rhodes-resort/rooms/",
-      "source_tier": "official",
-      "excerpt": "now enhanced with our new mobile ordering option for quick, effortless ordering from your device"
-    },
-    {
-      "id": "r-11",
-      "category": "rooms",
-      "text": "Classic Rooms have mountain views and balconies.",
-      "source_url": "https://www.marriott.com/en-us/hotels/rhosi-sheraton-rhodes-resort/rooms/",
-      "source_tier": "official",
-      "excerpt": "Guest room, 1 King, Mountain view, Balcony"
-    },
-    {
-      "id": "r-12",
-      "category": "rooms",
-      "text": "Rooms have a desk for working.",
-      "source_url": "https://www.marriott.com/en-us/hotels/rhosi-sheraton-rhodes-resort/rooms/",
-      "source_tier": "official",
-      "excerpt": "Yes, rooms at Sheraton Rhodes Resort have a desk for working."
-    },
-    {
-      "id": "r-13",
-      "category": "rooms",
-      "text": "Rooms have a mini fridge.",
-      "source_url": "https://www.marriott.com/en-us/hotels/rhosi-sheraton-rhodes-resort/rooms/",
-      "source_tier": "official",
-      "excerpt": "Yes, rooms at Sheraton Rhodes Resort have a Mini fridge."
-    },
-    {
-      "id": "r-14",
-      "category": "rooms",
-      "text": "Rooms have a coffee and tea maker.",
-      "source_url": "https://www.marriott.com/en-us/hotels/rhosi-sheraton-rhodes-resort/rooms/",
-      "source_tier": "official",
-      "excerpt": "Yes, rooms at Sheraton Rhodes Resort have a Coffee/tea maker."
-    },
-    {
-      "id": "r-15",
-      "category": "rooms",
-      "text": "Some room types have whirlpools.",
-      "source_url": "https://www.marriott.com/en-us/hotels/rhosi-sheraton-rhodes-resort/rooms/",
-      "source_tier": "official",
-      "excerpt": "Yes, some room types at Sheraton Rhodes Resort have whirlpools."
-    }
-  ],
-  "highlights": [
-    "r-1",
-    "r-2",
-    "r-3",
-    "r-5",
-    "r-6",
-    "r-8",
-    "r-9"
-  ],
-  "subjective": [],
-  "unresolved": [],
-  "rejected": [],
-  "contradictions": []
+  "researched_at": "2026-11-04T03:23:11.228Z"
 }

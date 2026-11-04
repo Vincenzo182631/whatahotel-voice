@@ -1,13 +1,13 @@
 {
   "slug": "sheraton-tel-aviv",
-  "status": "ready",
+  "status": "awaiting_extraction",
   "partial": false,
   "reasons": [],
   "identity": {
     "hotel": {
       "name": "Sheraton Tel Aviv",
       "city": "Tel Aviv",
-      "country": "IL",
+      "country": "Israel",
       "chain": "marriott"
     },
     "affiliation": {
@@ -16,15 +16,15 @@
     },
     "evidence": [
       "100% of the hotel name appears on the page",
-      "location matches (Tel Aviv, IL)"
+      "location matches (Tel Aviv, Israel)"
     ],
     "reasons": [],
     "candidates": [
-      "https://www.marriott.com/en-us/hotels/tlvsi-sheraton-grand-tel-aviv/rooms/"
+      "https://www.marriott.com/en-us/hotels/tlvsi-sheraton-grand-tel-aviv/overview/"
     ],
-    "checked_at": "2026-11-04T03:12:13.473Z",
+    "checked_at": "2026-11-04T03:23:12.357Z",
     "status": "confirmed",
-    "official_url": "https://www.marriott.com/en-us/hotels/tlvsi-sheraton-grand-tel-aviv/rooms/",
+    "official_url": "https://www.marriott.com/en-us/hotels/tlvsi-sheraton-grand-tel-aviv/overview/",
     "base_url": "https://www.marriott.com/en-us/hotels/tlvsi-sheraton-grand-tel-aviv/",
     "host": "marriott.com",
     "checks": {
@@ -35,28 +35,49 @@
   "pages": [
     {
       "id": "p1",
-      "url": "https://www.marriott.com/en-us/hotels/tlvsi-sheraton-grand-tel-aviv/rooms/",
+      "url": "https://www.marriott.com/en-us/hotels/tlvsi-sheraton-grand-tel-aviv/overview/",
       "tier": "official",
-      "fetched_at": "2026-11-04T03:12:18.248Z",
+      "fetched_at": "2026-11-04T03:23:34.531Z",
       "source": "firecrawl"
     },
     {
       "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/tlvsi-sheraton-grand-tel-aviv/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T03:23:38.782Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/tlvsi-sheraton-grand-tel-aviv/dining/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T03:23:54.953Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/tlvsi-sheraton-grand-tel-aviv/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T03:24:07.559Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
       "url": "https://www.cntraveler.com/hotels/tel-aviv-yafo/the-david-kempinski-tel-aviv",
       "tier": "editorial",
-      "fetched_at": "2026-11-04T03:12:30.722Z",
+      "fetched_at": "2026-11-04T03:24:12.199Z",
       "source": "direct"
     }
   ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 4,
+    "firecrawl_calls": 7,
     "firecrawl_searches": 1,
     "cache_hits": 0,
     "direct_fetches": 1,
-    "pages": 2,
-    "chars": 15287,
-    "est_claude_tokens": 3822
+    "pages": 5,
+    "chars": 48476,
+    "est_claude_tokens": 12119
   },
   "limits": {
     "maxPages": 12,
@@ -64,124 +85,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-11-04T03:12:30.722Z",
-  "hotel": {
-    "name": "Sheraton Tel Aviv",
-    "city": "Tel Aviv",
-    "country": "IL",
-    "chain": "marriott",
-    "confirmed_affiliation": {
-      "kind": "chain",
-      "chain": "marriott"
-    }
-  },
-  "official_url": "https://www.marriott.com/en-us/hotels/tlvsi-sheraton-grand-tel-aviv/rooms/",
-  "verified_facts": [
-    {
-      "id": "r-1",
-      "category": "rooms",
-      "text": "Suites have a view of the deep blue Mediterranean and its white sandy beaches.",
-      "source_url": "https://www.marriott.com/en-us/hotels/tlvsi-sheraton-grand-tel-aviv/rooms/",
-      "source_tier": "official",
-      "excerpt": "Unwind from your very own luxurious Tel Aviv hotel suite with a spectacular view of the deep blue Mediterranean and its white sandy beaches"
-    },
-    {
-      "id": "r-2",
-      "category": "rooms",
-      "text": "Sea view rooms include a balcony and views of the Mediterranean.",
-      "source_url": "https://www.marriott.com/en-us/hotels/tlvsi-sheraton-grand-tel-aviv/rooms/",
-      "source_tier": "official",
-      "excerpt": "Enjoy Tel Aviv Sea view rooms that include a balcony and views of the Mediterranean at our hotel."
-    },
-    {
-      "id": "r-3",
-      "category": "rooms",
-      "text": "The Club Lounge is on the 18th floor, with views of the Mediterranean Sea.",
-      "source_url": "https://www.marriott.com/en-us/hotels/tlvsi-sheraton-grand-tel-aviv/rooms/",
-      "source_tier": "official",
-      "excerpt": "The Club Lounge is a relaxing and upscale space located on the 18th floor, with breathtaking views of the Mediterranean Sea"
-    },
-    {
-      "id": "r-4",
-      "category": "rooms",
-      "text": "The Club Lounge offers complimentary breakfast, all-day hors d'oeuvres, live cooking, evening warm and cold dishes and beverages including alcohol.",
-      "source_url": "https://www.marriott.com/en-us/hotels/tlvsi-sheraton-grand-tel-aviv/rooms/",
-      "source_tier": "official",
-      "excerpt": "offering complimentary breakfast, all-day hors d'oeuvres, live cooking, evening warm and cold dishes and a variety of beverage options, including alcohol"
-    },
-    {
-      "id": "r-5",
-      "category": "rooms",
-      "text": "The Sheraton Grand Club Lounge serves a dairy breakfast, dinner, drinks and cocktails.",
-      "source_url": "https://www.marriott.com/en-us/hotels/tlvsi-sheraton-grand-tel-aviv/rooms/",
-      "source_tier": "official",
-      "excerpt": "Sheraton Grand Club Lounge, 18th floor: Adults-only with sea views, dairy breakfast, dinner, drinks & cocktails- Club & Suite guests only."
-    },
-    {
-      "id": "r-7",
-      "category": "rooms",
-      "text": "Junior Suites offer extra room for relaxation.",
-      "source_url": "https://www.marriott.com/en-us/hotels/tlvsi-sheraton-grand-tel-aviv/rooms/",
-      "source_tier": "official",
-      "excerpt": "Enjoy the added comfort and space of Junior Suites in Tel Aviv offering extra room for relaxation."
-    },
-    {
-      "id": "r-8",
-      "category": "rooms",
-      "text": "Club Level rooms provide exclusive access and enhanced amenities.",
-      "source_url": "https://www.marriott.com/en-us/hotels/tlvsi-sheraton-grand-tel-aviv/rooms/",
-      "source_tier": "official",
-      "excerpt": "Experience premium service with Club Level rooms, providing exclusive access and enhanced amenities."
-    },
-    {
-      "id": "r-9",
-      "category": "practical",
-      "text": "The hotel is pet-friendly.",
-      "source_url": "https://www.marriott.com/en-us/hotels/tlvsi-sheraton-grand-tel-aviv/rooms/",
-      "source_tier": "official",
-      "excerpt": "Our Tel Aviv accommodation is pet-friendly, with plush bedding and 5-star amenities."
-    },
-    {
-      "id": "r-10",
-      "category": "practical",
-      "text": "Wi-Fi is complimentary throughout the hotel.",
-      "source_url": "https://www.marriott.com/en-us/hotels/tlvsi-sheraton-grand-tel-aviv/rooms/",
-      "source_tier": "official",
-      "excerpt": "Stay connected with complimentary Wi-Fi throughout our luxury accommodation in Tel Aviv."
-    },
-    {
-      "id": "r-11",
-      "category": "practical",
-      "text": "Smoking is prohibited in all hotel rooms, balconies and public areas.",
-      "source_url": "https://www.marriott.com/en-us/hotels/tlvsi-sheraton-grand-tel-aviv/rooms/",
-      "source_tier": "official",
-      "excerpt": "Smoking is strictly prohibited in all hotel rooms, balconies, and public areas."
-    },
-    {
-      "id": "r-12",
-      "category": "rooms",
-      "text": "The hotel's suites are designed with modern amenities.",
-      "source_url": "https://www.marriott.com/en-us/hotels/tlvsi-sheraton-grand-tel-aviv/rooms/",
-      "source_tier": "official",
-      "excerpt": "Make yourself at home in our well-appointed Tel Aviv hotel suites, designed with modern amenities."
-    }
-  ],
-  "highlights": [
-    "r-1",
-    "r-2",
-    "r-3",
-    "r-4",
-    "r-7",
-    "r-8"
-  ],
-  "subjective": [
-    {
-      "id": "r-6",
-      "text": "The Club Lounge is adults-only and open to Club and Suite guests only.",
-      "reason": "promotional wording; rewrite as a plain fact or leave out"
-    }
-  ],
-  "unresolved": [],
-  "rejected": [],
-  "contradictions": []
+  "researched_at": "2026-11-04T03:24:12.199Z"
 }
