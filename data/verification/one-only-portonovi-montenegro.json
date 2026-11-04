@@ -1,26 +1,62 @@
 {
   "hotel_slug": "one-only-portonovi-montenegro",
   "hotel_name": "One&Only Portonovi, Montenegro",
-  "checked_at": "2026-11-04T01:24:11.557Z",
+  "checked_at": "2026-11-04T01:28:51.596Z",
   "script_version": null,
   "decision": {
     "eligible": true,
     "blockers": [],
     "counts": {
-      "supported": 16,
+      "supported": 17,
       "contradicted": 0,
       "unverified": 0,
       "exempt": 1,
-      "total": 17
+      "total": 18
     }
   },
   "applied": true,
   "evidence": [
     {
       "id": "d1",
-      "url": "https://www.oneandonlyresorts.com/portonovi/overview",
+      "url": "https://www.oneandonlyresorts.com/portonovi/stays",
       "tier": "official",
-      "chars": 5651
+      "chars": 1887
+    },
+    {
+      "id": "d2",
+      "url": "https://www.oneandonlyresorts.com/portonovi/stays/rooms/garden-room/",
+      "tier": "official",
+      "chars": 2134
+    },
+    {
+      "id": "d3",
+      "url": "https://www.oneandonlyresorts.com/portonovi/stays/rooms/bayview-room/",
+      "tier": "official",
+      "chars": 2201
+    },
+    {
+      "id": "d4",
+      "url": "https://www.oneandonlyresorts.com/portonovi/stays/rooms/portonovi-room/",
+      "tier": "official",
+      "chars": 2246
+    },
+    {
+      "id": "d5",
+      "url": "https://www.oneandonlyresorts.com/portonovi/stays/rooms/bayview-family-room/",
+      "tier": "official",
+      "chars": 2354
+    },
+    {
+      "id": "d6",
+      "url": "https://www.oneandonlyresorts.com/portonovi/stays/rooms/portonovi-family-room/",
+      "tier": "official",
+      "chars": 2317
+    },
+    {
+      "id": "d7",
+      "url": "https://www.oneandonlyresorts.com/portonovi/stays/rooms/panoramic-bayview-room/",
+      "tier": "official",
+      "chars": 2275
     }
   ],
   "skipped": [
@@ -32,15 +68,15 @@
   "claims": [
     {
       "claim_id": "f-1",
-      "text": "The resort is positioned on Montenegro's Adriatic coastline, about an hour's drive from Dubrovnik, Croatia.",
+      "text": "The resort's grounds are by the shores of Boka Bay.",
       "findings": [
         {
           "verdict": "supported",
-          "doc_id": "d1",
-          "quote": "Our storied palace is positioned on Montenegro's Adriatic coastline, just an hour's drive from Dubrovnik, Croatia.",
+          "doc_id": "d2",
+          "quote": "Wander the resort’s elegant grounds by the shores of Boka Bay",
           "note": "stated on page",
           "confirmed": true,
-          "url": "https://www.oneandonlyresorts.com/portonovi/overview",
+          "url": "https://www.oneandonlyresorts.com/portonovi/stays/rooms/garden-room/",
           "tier": "official",
           "quote_verified": true
         }
@@ -49,15 +85,15 @@
     },
     {
       "claim_id": "f-2",
-      "text": "The resort sits at the entrance to Boka Bay in Herceg Novi.",
+      "text": "The resort offers a collection of rooms, suites and villas.",
       "findings": [
         {
           "verdict": "supported",
-          "doc_id": "d1",
-          "quote": "One&Only Portonovi sits at the entrance to Boka Bay in Herceg Novi",
+          "doc_id": "d2",
+          "quote": "Find the space that suits you best among our collection of rooms, suites and villas",
           "note": "stated on page",
           "confirmed": true,
-          "url": "https://www.oneandonlyresorts.com/portonovi/overview",
+          "url": "https://www.oneandonlyresorts.com/portonovi/stays/rooms/garden-room/",
           "tier": "official",
           "quote_verified": true
         }
@@ -66,15 +102,15 @@
     },
     {
       "claim_id": "f-3",
-      "text": "Boka Bay is a UNESCO World Heritage Site, known for its Venetian architecture.",
+      "text": "Room interiors use organic hues that mirror the landscape, with raw tones and textures referencing the mountainous Montenegrin coastline.",
       "findings": [
         {
           "verdict": "supported",
-          "doc_id": "d1",
-          "quote": "Boka Bay, a UNESCO World Heritage Site rich in natural beauty, local culture and rare Venetian architecture.",
+          "doc_id": "d3",
+          "quote": "Organic hues that mirror the surrounding landscapes create a soothing space for unwinding after endless adventures outdoors, with raw tones and textures that reference the mountainous Montenegrin coastline.",
           "note": "stated on page",
           "confirmed": true,
-          "url": "https://www.oneandonlyresorts.com/portonovi/overview",
+          "url": "https://www.oneandonlyresorts.com/portonovi/stays/rooms/bayview-room/",
           "tier": "official",
           "quote_verified": true
         }
@@ -83,15 +119,15 @@
     },
     {
       "claim_id": "f-4",
-      "text": "The resort was designed by architect Jean-Michel Gathy.",
+      "text": "The Bayview Room has a sea-facing terrace or balcony.",
       "findings": [
         {
           "verdict": "supported",
           "doc_id": "d1",
-          "quote": "Designed by renowned architect Jean-Michel Gathy",
+          "quote": "Soak in sweeping views of the Adriatic Riviera from this spacious room, enjoying chic interiors and a sea-facing terrace or balcony.",
           "note": "stated on page",
           "confirmed": true,
-          "url": "https://www.oneandonlyresorts.com/portonovi/overview",
+          "url": "https://www.oneandonlyresorts.com/portonovi/stays",
           "tier": "official",
           "quote_verified": true
         }
@@ -100,15 +136,15 @@
     },
     {
       "claim_id": "f-5",
-      "text": "The design blends contemporary style with Montenegrin heritage through local craftsmanship, fireplaces and a palette inspired by the surrounding landscape.",
+      "text": "The Bayview Room has a covered deck, lounge seating and sliding floor-to-ceiling windows.",
       "findings": [
         {
           "verdict": "supported",
-          "doc_id": "d1",
-          "quote": "blends contemporary elegance with Montenegrin heritage through local craftsmanship, roaring fireplaces and a soothing palette inspired by the surrounding landscape.",
+          "doc_id": "d3",
+          "quote": "- Covered deck\n- Lounge seating\n- Sliding floor-to-ceiling windows",
           "note": "stated on page",
           "confirmed": true,
-          "url": "https://www.oneandonlyresorts.com/portonovi/overview",
+          "url": "https://www.oneandonlyresorts.com/portonovi/stays/rooms/bayview-room/",
           "tier": "official",
           "quote_verified": true
         }
@@ -117,15 +153,15 @@
     },
     {
       "claim_id": "f-6",
-      "text": "The resort is EarthCheck Gold Certified.",
+      "text": "The Bayview Room has a bathtub and walk-in rain shower.",
       "findings": [
         {
           "verdict": "supported",
-          "doc_id": "d1",
-          "quote": "EarthCheck Gold Certified, our resort is committed to reducing its environmental footprint",
+          "doc_id": "d3",
+          "quote": "- Bathtub and walk-in rain shower",
           "note": "stated on page",
           "confirmed": true,
-          "url": "https://www.oneandonlyresorts.com/portonovi/overview",
+          "url": "https://www.oneandonlyresorts.com/portonovi/stays/rooms/bayview-room/",
           "tier": "official",
           "quote_verified": true
         }
@@ -134,15 +170,15 @@
     },
     {
       "claim_id": "f-7",
-      "text": "Tivat airport is approximately 22 km from the resort and Dubrovnik airport approximately 30 km.",
+      "text": "Garden Rooms have a foyer, ensuite bedroom and a private balcony or terrace overlooking or opening onto landscaped greenery.",
       "findings": [
         {
           "verdict": "supported",
-          "doc_id": "d1",
-          "quote": "including Tivat (approximately 22 km), Dubrovnik (approximately 30 km)",
+          "doc_id": "d2",
+          "quote": "Garden Rooms at One&Only Portonovi offer a refined sense of seclusion with a welcoming foyer, ensuite bedroom and a private balcony or terrace, overlooking or opening onto landscaped greenery.",
           "note": "stated on page",
           "confirmed": true,
-          "url": "https://www.oneandonlyresorts.com/portonovi/overview",
+          "url": "https://www.oneandonlyresorts.com/portonovi/stays/rooms/garden-room/",
           "tier": "official",
           "quote_verified": true
         }
@@ -151,15 +187,15 @@
     },
     {
       "claim_id": "f-8",
-      "text": "The resort is a base for day trips to Dubrovnik.",
+      "text": "The Bayview Family Room has two adjoining rooms with bedrooms, bathrooms and private terraces.",
       "findings": [
         {
           "verdict": "supported",
-          "doc_id": "d1",
-          "quote": "making our beach resort the perfect base for day trips to Dubrovnik and beyond.",
+          "doc_id": "d5",
+          "quote": "Two adjoining rooms invite connection and quiet across the bedrooms, bathrooms and private terraces.",
           "note": "stated on page",
           "confirmed": true,
-          "url": "https://www.oneandonlyresorts.com/portonovi/overview",
+          "url": "https://www.oneandonlyresorts.com/portonovi/stays/rooms/bayview-family-room/",
           "tier": "official",
           "quote_verified": true
         }
@@ -168,15 +204,15 @@
     },
     {
       "claim_id": "f-9",
-      "text": "Complimentary high-speed WiFi is available throughout the resort.",
+      "text": "Suite One is positioned up high for uninterrupted vistas and a sense of seclusion.",
       "findings": [
         {
           "verdict": "supported",
-          "doc_id": "d1",
-          "quote": "Complimentary high-speed WiFi service is available throughout the resort.",
+          "doc_id": "d3",
+          "quote": "Plan endless Adriatic adventures from a sprawling suite, positioned up high for uninterrupted vistas and a sense of seclusion.",
           "note": "stated on page",
           "confirmed": true,
-          "url": "https://www.oneandonlyresorts.com/portonovi/overview",
+          "url": "https://www.oneandonlyresorts.com/portonovi/stays/rooms/bayview-room/",
           "tier": "official",
           "quote_verified": true
         }
@@ -185,15 +221,49 @@
     },
     {
       "claim_id": "f-10",
-      "text": "The sea is warm enough to swim from May to October.",
+      "text": "Suite Two is a two-bedroom suite styled for entertaining, with clear sea views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Share unforgettable stays from this impressive two-bedroom suite, styled for entertaining and showcasing clear sea views for a taste of coastal living.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.oneandonlyresorts.com/portonovi/stays/rooms/bayview-family-room/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The Panoramic Bayview Room includes 24-hour room service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "- 24-hour room service",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.oneandonlyresorts.com/portonovi/stays/rooms/panoramic-bayview-room/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Curated experiences range from Adriatic sailing adventures to day trips to Dubrovnik.",
       "findings": [
         {
           "verdict": "supported",
           "doc_id": "d1",
-          "quote": "the sea is warm enough to swim from May to October.",
+          "quote": "from Adriatic sailing adventures to day trips to Dubrovnik.",
           "note": "stated on page",
           "confirmed": true,
-          "url": "https://www.oneandonlyresorts.com/portonovi/overview",
+          "url": "https://www.oneandonlyresorts.com/portonovi/stays",
           "tier": "official",
           "quote_verified": true
         }
@@ -202,25 +272,15 @@
     },
     {
       "claim_id": "h-1",
-      "text": "The resort sits at the entrance to Boka Bay, a UNESCO World Heritage Site, in Herceg Novi.",
+      "text": "The Panoramic Bayview Room has a dual-aspect terrace overlooking Boka Bay and the Black Mountains.",
       "findings": [
         {
           "verdict": "supported",
-          "doc_id": "d1",
-          "quote": "One&Only Portonovi sits at the entrance to Boka Bay in Herceg Novi",
+          "doc_id": "d7",
+          "quote": "Float freely between serene interiors and a dual-aspect terrace overlooking Boka Bay and the Black Mountains.",
           "note": "stated on page",
           "confirmed": true,
-          "url": "https://www.oneandonlyresorts.com/portonovi/overview",
-          "tier": "official",
-          "quote_verified": true
-        },
-        {
-          "verdict": "supported",
-          "doc_id": "d1",
-          "quote": "Boka Bay, a UNESCO World Heritage Site",
-          "note": "stated on page",
-          "confirmed": true,
-          "url": "https://www.oneandonlyresorts.com/portonovi/overview",
+          "url": "https://www.oneandonlyresorts.com/portonovi/stays/rooms/panoramic-bayview-room/",
           "tier": "official",
           "quote_verified": true
         }
@@ -229,15 +289,25 @@
     },
     {
       "claim_id": "h-2",
-      "text": "The resort was designed by architect Jean-Michel Gathy.",
+      "text": "The Panoramic Bayview Room has a king bedroom, marble ensuite and a bayview bathtub.",
       "findings": [
         {
           "verdict": "supported",
-          "doc_id": "d1",
-          "quote": "Designed by renowned architect Jean-Michel Gathy",
+          "doc_id": "d7",
+          "quote": "the king bedroom, marble ensuite and sitting area showcase unforgettable views at all hours.",
           "note": "stated on page",
           "confirmed": true,
-          "url": "https://www.oneandonlyresorts.com/portonovi/overview",
+          "url": "https://www.oneandonlyresorts.com/portonovi/stays/rooms/panoramic-bayview-room/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Bayview bathtub",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.oneandonlyresorts.com/portonovi/stays/rooms/panoramic-bayview-room/",
           "tier": "official",
           "quote_verified": true
         }
@@ -246,15 +316,15 @@
     },
     {
       "claim_id": "h-3",
-      "text": "The design blends contemporary style with Montenegrin heritage through local craftsmanship, fireplaces and a palette inspired by the surrounding landscape.",
+      "text": "A personal host can arrange wellness treatments, adventures around the area and private dinners across the resort.",
       "findings": [
         {
           "verdict": "supported",
-          "doc_id": "d1",
-          "quote": "blends contemporary elegance with Montenegrin heritage through local craftsmanship, roaring fireplaces and a soothing palette inspired by the surrounding landscape.",
+          "doc_id": "d7",
+          "quote": "Allow your personal host to transform your experience here, arranging wellness treatments, adventures around the area, private dinners across the resort",
           "note": "stated on page",
           "confirmed": true,
-          "url": "https://www.oneandonlyresorts.com/portonovi/overview",
+          "url": "https://www.oneandonlyresorts.com/portonovi/stays/rooms/panoramic-bayview-room/",
           "tier": "official",
           "quote_verified": true
         }
@@ -263,15 +333,15 @@
     },
     {
       "claim_id": "h-4",
-      "text": "The resort is on Montenegro's Adriatic coastline, about an hour's drive from Dubrovnik, Croatia.",
+      "text": "A personal host service curates itineraries for all ages, from KidsOnly club activities to family adventures.",
       "findings": [
         {
           "verdict": "supported",
-          "doc_id": "d1",
-          "quote": "Our storied palace is positioned on Montenegro's Adriatic coastline, just an hour's drive from Dubrovnik, Croatia.",
+          "doc_id": "d6",
+          "quote": "Our personal host service is on hand to curate an itinerary for all ages, from KidsOnly club activities to family adventures far and wide.",
           "note": "stated on page",
           "confirmed": true,
-          "url": "https://www.oneandonlyresorts.com/portonovi/overview",
+          "url": "https://www.oneandonlyresorts.com/portonovi/stays/rooms/portonovi-family-room/",
           "tier": "official",
           "quote_verified": true
         }
@@ -280,15 +350,25 @@
     },
     {
       "claim_id": "c-1",
-      "text": "Sea swimming is seasonal: the sea is warm enough to swim from May to October.",
+      "text": "Not every room faces the bay: Portonovi Rooms have mountain or village views, and Garden Rooms have garden views.",
       "findings": [
         {
           "verdict": "supported",
-          "doc_id": "d1",
-          "quote": "the sea is warm enough to swim from May to October.",
+          "doc_id": "d4",
+          "quote": "Mountain or village views",
           "note": "stated on page",
           "confirmed": true,
-          "url": "https://www.oneandonlyresorts.com/portonovi/overview",
+          "url": "https://www.oneandonlyresorts.com/portonovi/stays/rooms/portonovi-room/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Garden views",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.oneandonlyresorts.com/portonovi/stays/rooms/garden-room/",
           "tier": "official",
           "quote_verified": true
         }
@@ -297,23 +377,6 @@
     },
     {
       "claim_id": "c-2",
-      "text": "Dogs up to 12kg are welcome only in designated outdoor areas, kept on a leash or in a crate.",
-      "findings": [
-        {
-          "verdict": "supported",
-          "doc_id": "d1",
-          "quote": "Dogs up to 12kg are welcome in designated outdoor areas and must be kept on a leash or in a crate at all times.",
-          "note": "stated on page",
-          "confirmed": true,
-          "url": "https://www.oneandonlyresorts.com/portonovi/overview",
-          "tier": "official",
-          "quote_verified": true
-        }
-      ],
-      "status": "supported"
-    },
-    {
-      "claim_id": "c-3",
       "text": "WhataHotel notes ultra-premium pricing for rates and on-site experiences.",
       "status": "exempt",
       "findings": []
