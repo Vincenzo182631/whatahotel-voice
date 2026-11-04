@@ -1,10 +1,8 @@
 {
   "slug": "wedgewood-hotel-and-spa",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "no candidate official site found; flag for review"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "Wedgewood Hotel and Spa",
@@ -15,24 +13,84 @@
     "affiliation": {
       "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "no candidate official site found; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Vancouver, CA)"
     ],
-    "candidates": [],
-    "checked_at": "2026-11-04T01:56:08.674Z",
-    "status": "needs_review"
+    "reasons": [],
+    "candidates": [
+      "https://wedgewoodhotel.com/"
+    ],
+    "checked_at": "2026-11-04T02:17:30.019Z",
+    "status": "confirmed",
+    "official_url": "https://wedgewoodhotel.com/",
+    "base_url": "https://wedgewoodhotel.com/",
+    "host": "wedgewoodhotel.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://wedgewoodhotel.com/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T02:17:34.690Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://wedgewoodhotel.com/accommodations/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T02:17:44.564Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://wedgewoodhotel.com/dining/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T02:17:48.184Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://wedgewoodhotel.com/dining/bacchus-restaurant/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T02:17:53.035Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://wedgewoodhotel.com/wellness/spa/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T02:17:57.244Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://wedgewoodhotel.com/about/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T02:18:01.483Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.cntraveler.com/hotels/vancouver/wedgewood-hotel-and-spa",
+      "tier": "editorial",
+      "fetched_at": "2026-11-04T02:18:05.500Z",
+      "source": "direct"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 1,
+    "firecrawl_calls": 9,
     "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 7,
+    "chars": 38018,
+    "est_claude_tokens": 9505
   },
   "limits": {
     "maxPages": 12,
@@ -40,5 +98,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-11-04T01:56:10.429Z"
+  "researched_at": "2026-11-04T02:18:05.500Z"
 }
