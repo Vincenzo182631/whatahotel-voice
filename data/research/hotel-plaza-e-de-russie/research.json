@@ -1,0 +1,99 @@
+{
+  "slug": "hotel-plaza-e-de-russie",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Hotel Plaza e de Russie",
+      "city": "Viareggio",
+      "country": "IT",
+      "chain": "independent"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Viareggio, IT)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.plazaederussie.com/"
+    ],
+    "checked_at": "2026-11-04T01:58:25.775Z",
+    "status": "confirmed",
+    "official_url": "https://www.plazaederussie.com/",
+    "base_url": "https://www.plazaederussie.com/",
+    "host": "plazaederussie.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.plazaederussie.com/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T01:58:32.918Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.plazaederussie.com/en/5-star-hotel-viareggio/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T01:58:36.713Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.plazaederussie.com/en/history/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T01:58:44.586Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.plazaederussie.com/en/hotel-deals-viareggio/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T01:58:48.932Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.plazaederussie.com/en/viareggio-hotel-by-the-sea/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T01:58:52.588Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.plazaederussie.com/[1]/",
+      "reason": "https://www.plazaederussie.com/[1]/: page had almost no text"
+    },
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 8,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 5,
+    "chars": 73618,
+    "est_claude_tokens": 18405
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-11-04T01:58:58.958Z"
+}

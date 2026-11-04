@@ -1,0 +1,109 @@
+{
+  "slug": "bela-vista-hotel-spa",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Bela Vista Hotel & Spa",
+      "city": "Portimao",
+      "country": "PT",
+      "chain": "independent"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Portimao, PT)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hotelbelavista.net/"
+    ],
+    "checked_at": "2026-11-04T01:57:04.423Z",
+    "status": "confirmed",
+    "official_url": "https://www.hotelbelavista.net/",
+    "base_url": "https://www.hotelbelavista.net/",
+    "host": "hotelbelavista.net",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hotelbelavista.net/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T01:57:11.249Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hotelbelavista.net/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T01:57:14.417Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hotelbelavista.net/dine/vista-restaurante/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T01:57:17.954Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hotelbelavista.net/wellness/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T01:57:21.547Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hotelbelavista.net/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T01:57:26.008Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.hotelbelavista.net/location/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T01:57:29.960Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.hotelbelavista.net/vouchers/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T01:57:33.507Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 9,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 7,
+    "chars": 51409,
+    "est_claude_tokens": 12852
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-11-04T01:57:41.779Z"
+}
