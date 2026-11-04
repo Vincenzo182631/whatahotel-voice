@@ -1,0 +1,96 @@
+{
+  "slug": "sheraton-puerto-rico-resort-casino",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Sheraton Puerto Rico Resort & Casino",
+      "city": "San Juan",
+      "country": "PR",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (San Juan, PR)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/sjusi-sheraton-puerto-rico-resort-and-casino/overview/"
+    ],
+    "checked_at": "2026-11-04T02:55:17.240Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/sjusi-sheraton-puerto-rico-resort-and-casino/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/sjusi-sheraton-puerto-rico-resort-and-casino/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/sjusi-sheraton-puerto-rico-resort-and-casino/overview/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T02:55:40.928Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/sjusi-sheraton-puerto-rico-resort-and-casino/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T02:55:50.958Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/sjusi-sheraton-puerto-rico-resort-and-casino/dining/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T02:55:51.182Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/sjusi-sheraton-puerto-rico-resort-and-casino/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T02:55:59.069Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.marriott.com/en-us/hotels/sjusi-sheraton-puerto-rico-resort-and-casino/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T02:56:03.126Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 8,
+    "firecrawl_searches": 1,
+    "cache_hits": 0,
+    "direct_fetches": 0,
+    "pages": 5,
+    "chars": 48474,
+    "est_claude_tokens": 12119
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-11-04T02:56:07.509Z"
+}

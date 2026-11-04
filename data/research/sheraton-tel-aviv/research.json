@@ -1,8 +1,11 @@
 {
   "slug": "sheraton-tel-aviv",
-  "status": "awaiting_extraction",
+  "status": "needs_review",
   "partial": false,
-  "reasons": [],
+  "reasons": [
+    "https://www.marriott.com/en-us/hotels/tlvsi-sheraton-grand-tel-aviv/overview/: Firecrawl 500 for https://www.marriott.com/en-us/hotels/tlvsi-sheraton-grand-tel-aviv/overview/: All scraping engines failed to retrieve con",
+    "official website could not be confirmed; flag for review"
+  ],
   "identity": {
     "hotel": {
       "name": "Sheraton Tel Aviv",
@@ -14,50 +17,27 @@
       "kind": "chain",
       "chain": "marriott"
     },
-    "evidence": [
-      "100% of the hotel name appears on the page",
-      "location matches (Tel Aviv, IL)"
+    "evidence": [],
+    "reasons": [
+      "https://www.marriott.com/en-us/hotels/tlvsi-sheraton-grand-tel-aviv/overview/: Firecrawl 500 for https://www.marriott.com/en-us/hotels/tlvsi-sheraton-grand-tel-aviv/overview/: All scraping engines failed to retrieve con",
+      "official website could not be confirmed; flag for review"
     ],
-    "reasons": [],
     "candidates": [
-      "https://www.marriott.com/en-us/hotels/tlvsi-sheraton-grand-tel-aviv/overview/",
-      "https://www.marriott.com/en-us/hotels/tlvsi-sheraton-grand-tel-aviv/rooms/"
+      "https://www.marriott.com/en-us/hotels/tlvsi-sheraton-grand-tel-aviv/overview/"
     ],
-    "checked_at": "2026-11-04T02:49:03.885Z",
-    "status": "confirmed",
-    "official_url": "https://www.marriott.com/en-us/hotels/tlvsi-sheraton-grand-tel-aviv/rooms/",
-    "base_url": "https://www.marriott.com/en-us/hotels/tlvsi-sheraton-grand-tel-aviv/",
-    "host": "marriott.com",
-    "checks": {
-      "name_coverage": 1,
-      "location_match": true
-    }
+    "checked_at": "2026-11-04T02:55:17.186Z",
+    "status": "needs_review"
   },
-  "pages": [
-    {
-      "id": "p1",
-      "url": "https://www.marriott.com/en-us/hotels/tlvsi-sheraton-grand-tel-aviv/rooms/",
-      "tier": "official",
-      "fetched_at": "2026-11-04T02:49:59.632Z",
-      "source": "cache"
-    },
-    {
-      "id": "p2",
-      "url": "https://www.cntraveler.com/hotels/tel-aviv-yafo/the-david-kempinski-tel-aviv",
-      "tier": "editorial",
-      "fetched_at": "2026-11-04T02:50:04.647Z",
-      "source": "cache"
-    }
-  ],
+  "pages": [],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 5,
-    "firecrawl_searches": 3,
-    "cache_hits": 3,
+    "firecrawl_calls": 1,
+    "firecrawl_searches": 0,
+    "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 2,
-    "chars": 15213,
-    "est_claude_tokens": 3803
+    "pages": 0,
+    "chars": 0,
+    "est_claude_tokens": 0
   },
   "limits": {
     "maxPages": 12,
@@ -65,5 +45,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-11-04T02:50:04.647Z"
+  "researched_at": "2026-11-04T02:55:47.161Z"
 }

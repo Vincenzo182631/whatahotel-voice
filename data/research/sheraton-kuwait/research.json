@@ -1,0 +1,83 @@
+{
+  "slug": "sheraton-kuwait",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Sheraton Kuwait",
+      "city": "Kuwait City",
+      "country": "KW",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Kuwait City, KW)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/offers/stay-longer-on-us-OFF-150946/KWILC-sheraton-kuwait-a-luxury-collection-hotel-kuwait-city",
+      "https://www.marriott.com/en-us/hotels/kwilc-sheraton-kuwait-a-luxury-collection-hotel-kuwait-city/overview/"
+    ],
+    "checked_at": "2026-11-04T02:52:02.371Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/kwilc-sheraton-kuwait-a-luxury-collection-hotel-kuwait-city/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/kwilc-sheraton-kuwait-a-luxury-collection-hotel-kuwait-city/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/kwilc-sheraton-kuwait-a-luxury-collection-hotel-kuwait-city/overview/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T02:52:42.305Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/kwilc-sheraton-kuwait-a-luxury-collection-hotel-kuwait-city/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T02:52:50.060Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/kwilc-sheraton-kuwait-a-luxury-collection-hotel-kuwait-city/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T02:52:52.487Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 3,
+    "chars": 17261,
+    "est_claude_tokens": 4315
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-11-04T02:52:58.888Z"
+}

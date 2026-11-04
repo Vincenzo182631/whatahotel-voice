@@ -1,0 +1,110 @@
+{
+  "slug": "sheraton-lake-como-hotel",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Sheraton Lake Como Hotel",
+      "city": "Lake Como",
+      "country": "IT",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Lake Como, IT)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/milsc-sheraton-lake-como-hotel/overview/"
+    ],
+    "checked_at": "2026-11-04T02:55:48.350Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/milsc-sheraton-lake-como-hotel/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/milsc-sheraton-lake-como-hotel/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/milsc-sheraton-lake-como-hotel/overview/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T02:55:54.586Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/milsc-sheraton-lake-como-hotel/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T02:56:02.518Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/milsc-sheraton-lake-como-hotel/rooms/premium-rooms/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T02:56:06.525Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/milsc-sheraton-lake-como-hotel/dining/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T02:56:12.904Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.marriott.com/en-us/hotels/milsc-sheraton-lake-como-hotel/experiences/spa/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T02:56:16.897Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.marriott.com/en-us/hotels/milsc-sheraton-lake-como-hotel/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T02:56:21.460Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.marriott.com/en-us/hotels/milsc-sheraton-lake-como-hotel/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T02:56:22.457Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 10,
+    "firecrawl_searches": 1,
+    "cache_hits": 0,
+    "direct_fetches": 0,
+    "pages": 7,
+    "chars": 88031,
+    "est_claude_tokens": 22008
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-11-04T02:56:30.807Z"
+}

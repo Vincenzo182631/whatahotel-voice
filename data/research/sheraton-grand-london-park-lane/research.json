@@ -1,8 +1,9 @@
 {
   "slug": "sheraton-grand-london-park-lane",
-  "status": "awaiting_extraction",
+  "status": "needs_review",
   "partial": false,
   "reasons": [
+    "no pages could be read from the confirmed official site",
     "some pages were inaccessible; missing information is not proof an amenity does not exist"
   ],
   "identity": {
@@ -22,12 +23,11 @@
     ],
     "reasons": [],
     "candidates": [
-      "https://www.marriott.com/en-us/hotels/longr-sheraton-grand-london-park-lane/overview/",
-      "https://www.marriott.com/en-us/hotels/longr-sheraton-grand-london-park-lane/dining/"
+      "https://www.marriott.com/en-us/hotels/longr-sheraton-grand-london-park-lane/overview/"
     ],
-    "checked_at": "2026-11-04T02:49:03.925Z",
+    "checked_at": "2026-11-04T02:56:08.606Z",
     "status": "confirmed",
-    "official_url": "https://www.marriott.com/en-us/hotels/longr-sheraton-grand-london-park-lane/dining/",
+    "official_url": "https://www.marriott.com/en-us/hotels/longr-sheraton-grand-london-park-lane/overview/",
     "base_url": "https://www.marriott.com/en-us/hotels/longr-sheraton-grand-london-park-lane/",
     "host": "marriott.com",
     "checks": {
@@ -35,29 +35,29 @@
       "location_match": true
     }
   },
-  "pages": [
-    {
-      "id": "p1",
-      "url": "https://www.marriott.com/en-us/hotels/longr-sheraton-grand-london-park-lane/dining/",
-      "tier": "official",
-      "fetched_at": "2026-11-04T02:49:45.630Z",
-      "source": "cache"
-    }
-  ],
+  "pages": [],
   "inaccessible": [
+    {
+      "url": "https://www.marriott.com/en-us/hotels/longr-sheraton-grand-london-park-lane/overview/",
+      "reason": "Firecrawl 500 for https://www.marriott.com/en-us/hotels/longr-sheraton-grand-london-park-lane/overview/: All scraping engines failed to retrieve content from th"
+    },
+    {
+      "url": "https://www.marriott.com/en-us/hotels/longr-sheraton-grand-london-park-lane/",
+      "reason": "no same-property sub-page links found on the home page"
+    },
     {
       "url": "cntraveler.com",
       "reason": "no Condé Nast Traveler hotel page found"
     }
   ],
   "usage": {
-    "firecrawl_calls": 5,
-    "firecrawl_searches": 3,
-    "cache_hits": 2,
+    "firecrawl_calls": 3,
+    "firecrawl_searches": 1,
+    "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 1,
-    "chars": 16449,
-    "est_claude_tokens": 4112
+    "pages": 0,
+    "chars": 0,
+    "est_claude_tokens": 0
   },
   "limits": {
     "maxPages": 12,
@@ -65,5 +65,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-11-04T02:49:50.483Z"
+  "researched_at": "2026-11-04T02:56:53.158Z"
 }
