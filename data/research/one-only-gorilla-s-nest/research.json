@@ -18,49 +18,80 @@
     },
     "evidence": [
       "100% of the hotel name appears on the page",
-      "location matches (Kigali, RW)"
+      "confirmed by hand as this hotel's own page (page does not mention Kigali)"
     ],
     "reasons": [],
     "candidates": [
-      "https://www.oneandonlyresorts.com/gorillas-nest/overview"
+      "https://www.oneandonlyresorts.com/gorillas-nest/stays"
     ],
-    "checked_at": "2026-11-04T01:12:16.134Z",
+    "checked_at": "2026-11-04T01:24:05.326Z",
     "status": "confirmed",
-    "official_url": "https://www.oneandonlyresorts.com/gorillas-nest/overview",
-    "base_url": "https://www.oneandonlyresorts.com/gorillas-nest/overview/",
+    "official_url": "https://www.oneandonlyresorts.com/gorillas-nest/stays",
+    "base_url": "https://www.oneandonlyresorts.com/gorillas-nest/stays/",
     "host": "oneandonlyresorts.com",
     "checks": {
       "name_coverage": 1,
-      "location_match": true
+      "location_match": false
     }
   },
   "pages": [
     {
       "id": "p1",
-      "url": "https://www.oneandonlyresorts.com/gorillas-nest/overview",
+      "url": "https://www.oneandonlyresorts.com/gorillas-nest/stays",
       "tier": "official",
-      "fetched_at": "2026-11-04T01:12:38.185Z",
-      "source": "cache"
+      "fetched_at": "2026-11-04T01:24:24.483Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.oneandonlyresorts.com/gorillas-nest/stays/suites/ingagi-suite/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T01:24:34.244Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.oneandonlyresorts.com/gorillas-nest/stays/suites/virunga-suite/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T01:24:38.647Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.oneandonlyresorts.com/gorillas-nest/stays/suites/silverback-suite/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T01:24:42.446Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.oneandonlyresorts.com/gorillas-nest/stays/treehouses/susa-treehouse/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T01:24:46.237Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.oneandonlyresorts.com/gorillas-nest/stays/treehouses/forest-treehouse/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T01:24:50.573Z",
+      "source": "firecrawl"
     }
   ],
   "inaccessible": [
-    {
-      "url": "https://www.oneandonlyresorts.com/gorillas-nest/overview/",
-      "reason": "no same-property sub-page links found on the home page"
-    },
     {
       "url": "cntraveler.com",
       "reason": "no Condé Nast Traveler hotel page found"
     }
   ],
   "usage": {
-    "firecrawl_calls": 4,
-    "firecrawl_searches": 3,
-    "cache_hits": 2,
+    "firecrawl_calls": 9,
+    "firecrawl_searches": 1,
+    "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 1,
-    "chars": 1973,
-    "est_claude_tokens": 493
+    "pages": 6,
+    "chars": 17166,
+    "est_claude_tokens": 4292
   },
   "limits": {
     "maxPages": 12,
@@ -68,5 +99,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-11-04T01:13:23.275Z"
+  "researched_at": "2026-11-04T01:24:56.828Z"
 }
