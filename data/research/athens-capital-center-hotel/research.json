@@ -1,10 +1,9 @@
 {
   "slug": "athens-capital-center-hotel",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
   "reasons": [
-    "https://mgallery.accor.com/en/hotels/B3X8.html: mgallery.accor.com does not carry the hotel's name; an independent hotel's own site normally does",
-    "official website could not be confirmed; flag for review"
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
   ],
   "identity": {
     "hotel": {
@@ -16,27 +15,61 @@
     "affiliation": {
       "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://mgallery.accor.com/en/hotels/B3X8.html: mgallery.accor.com does not carry the hotel's name; an independent hotel's own site normally does",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "location matches (Athens, GR)",
+      "confirmed by hand as this hotel's own page (only 67% of the hotel name appears on the page)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://mgallery.accor.com/en/hotels/B3X8.html"
+      "https://athenscapitalhotel-mgallery.com/"
     ],
-    "checked_at": "2026-11-04T00:31:45.180Z",
-    "status": "needs_review"
+    "checked_at": "2026-11-04T00:41:15.343Z",
+    "status": "confirmed",
+    "official_url": "https://athenscapitalhotel-mgallery.com/",
+    "base_url": "https://athenscapitalhotel-mgallery.com/",
+    "host": "athenscapitalhotel-mgallery.com",
+    "checks": {
+      "name_coverage": 0.67,
+      "location_match": true
+    }
   },
-  "pages": [],
-  "inaccessible": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://athenscapitalhotel-mgallery.com/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T00:41:31.532Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://athenscapitalhotel-mgallery.com/accommodation/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T00:41:38.778Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://athenscapitalhotel-mgallery.com/restaurants-bars/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T00:41:42.067Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
   "usage": {
-    "firecrawl_calls": 2,
+    "firecrawl_calls": 6,
     "firecrawl_searches": 1,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 3,
+    "chars": 27315,
+    "est_claude_tokens": 6829
   },
   "limits": {
     "maxPages": 12,
@@ -44,5 +77,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-11-04T00:31:51.627Z"
+  "researched_at": "2026-11-04T00:41:48.405Z"
 }

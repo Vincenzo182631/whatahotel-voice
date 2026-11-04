@@ -1,12 +1,9 @@
 {
   "slug": "mgallery-phuket-v-villas",
-  "status": "needs_review",
-  "partial": false,
+  "status": "awaiting_extraction",
+  "partial": true,
   "reasons": [
-    "https://www.directbooking.ro/booking-v-villas-phuket-mgallery-phuket-reservation-offer-9885655.aspx?srsltid=AYCX9vJ0ItHkbpnYUcTTu12XBxcLgodT-crpr96Pv6Is4KMORiS2MDT0: directbooking.ro does not carry the hotel's name; an independent hotel's own site normally does",
-    "https://www.directbooking.ro/booking-v-villas-phuket-mgallery-panwa-beach-reservation-offer-4319427.aspx?srsltid=AYCX9vI6_xBpR62K3i1H7pFJLLDAGTkEbVxUUbATrCo6_hml-krGbBEx: directbooking.ro does not carry the hotel's name; an independent hotel's own site normally does",
-    "https://joinpearl.co/restaurants/phuket/amanpuri: joinpearl.co does not carry the hotel's name; an independent hotel's own site normally does; only 33% of the hotel name appears on the page",
-    "official website could not be confirmed; flag for review"
+    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue"
   ],
   "identity": {
     "hotel": {
@@ -18,31 +15,120 @@
     "affiliation": {
       "kind": "independent"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.directbooking.ro/booking-v-villas-phuket-mgallery-phuket-reservation-offer-9885655.aspx?srsltid=AYCX9vJ0ItHkbpnYUcTTu12XBxcLgodT-crpr96Pv6Is4KMORiS2MDT0: directbooking.ro does not carry the hotel's name; an independent hotel's own site normally does",
-      "https://www.directbooking.ro/booking-v-villas-phuket-mgallery-panwa-beach-reservation-offer-4319427.aspx?srsltid=AYCX9vI6_xBpR62K3i1H7pFJLLDAGTkEbVxUUbATrCo6_hml-krGbBEx: directbooking.ro does not carry the hotel's name; an independent hotel's own site normally does",
-      "https://joinpearl.co/restaurants/phuket/amanpuri: joinpearl.co does not carry the hotel's name; an independent hotel's own site normally does; only 33% of the hotel name appears on the page",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Phuket, TH)",
+      "confirmed by hand as this hotel's own page (vvillasphuket.com does not carry the hotel's name; an independent hotel's own site normally does)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://www.directbooking.ro/booking-v-villas-phuket-mgallery-phuket-reservation-offer-9885655.aspx?srsltid=AYCX9vJ0ItHkbpnYUcTTu12XBxcLgodT-crpr96Pv6Is4KMORiS2MDT0",
-      "https://www.directbooking.ro/booking-v-villas-phuket-mgallery-panwa-beach-reservation-offer-4319427.aspx?srsltid=AYCX9vI6_xBpR62K3i1H7pFJLLDAGTkEbVxUUbATrCo6_hml-krGbBEx",
-      "https://joinpearl.co/restaurants/phuket/amanpuri"
+      "https://www.vvillasphuket.com/"
     ],
-    "checked_at": "2026-11-04T00:30:28.331Z",
-    "status": "needs_review"
+    "checked_at": "2026-11-04T00:40:36.079Z",
+    "status": "confirmed",
+    "official_url": "https://www.vvillasphuket.com/",
+    "base_url": "https://www.vvillasphuket.com/",
+    "host": "vvillasphuket.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.vvillasphuket.com/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T00:40:47.800Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.vvillasphuket.com/our-luxury-pool-villas/1-bedroom-sea-view-villa/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T00:40:56.492Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.vvillasphuket.com/our-luxury-pool-villas/2-bedroom-sea-view-villa/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T00:41:00.061Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.vvillasphuket.com/our-luxury-pool-villas/3-bedroom-sea-view-villa/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T00:41:04.082Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.vvillasphuket.com/our-luxury-pool-villas/1-bedroom-hill-view-villa/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T00:41:09.609Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.vvillasphuket.com/our-luxury-pool-villas/3-bedroom-executive-sea-view-villa/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T00:41:14.510Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.vvillasphuket.com/our-luxury-pool-villas/4-bedroom-presidential-hiltop-villa/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T00:41:19.547Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.vvillasphuket.com/our-luxury-pool-villas/6-bedroom-presidential-beachfront-villa/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T00:41:24.403Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.vvillasphuket.com/restaurant-bars/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T00:41:30.184Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.vvillasphuket.com/restaurant-bars/yon-ocean-house/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T00:41:35.304Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://www.vvillasphuket.com/restaurant-bars/akoya-star-lounge/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T00:41:39.234Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p12",
+      "url": "https://www.vvillasphuket.com/about-phuket/the-best-rooftop-bar-in-phuket/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T00:41:44.991Z",
+      "source": "firecrawl"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 4,
-    "firecrawl_searches": 1,
+    "firecrawl_calls": 15,
+    "firecrawl_searches": 0,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 12,
+    "chars": 45571,
+    "est_claude_tokens": 11393
   },
   "limits": {
     "maxPages": 12,
@@ -50,5 +136,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-11-04T00:30:52.899Z"
+  "researched_at": "2026-11-04T00:41:51.680Z"
 }
