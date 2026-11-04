@@ -1,0 +1,77 @@
+{
+  "slug": "one-only-kea-island",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "One&Only Kea Island",
+      "city": "Athens",
+      "country": "GR",
+      "chain": "one-and-only"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "one-and-only"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page; rebrand noted: \"#### Formerly the secret of chic, holidaying Athenians, Kéa is the closest Cycladic island to Athens: just 45 minutes away by speedboat, or a thrilling 15-minute helicopter ride\"",
+      "location matches (Athens, GR)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.oneandonlyresorts.com/kea-island",
+      "https://www.oneandonlyresorts.com/kea-island/overview"
+    ],
+    "checked_at": "2026-11-04T01:14:58.225Z",
+    "status": "confirmed",
+    "official_url": "https://www.oneandonlyresorts.com/kea-island/overview",
+    "base_url": "https://www.oneandonlyresorts.com/kea-island/overview/",
+    "host": "oneandonlyresorts.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true,
+      "rebrand": "#### Formerly the secret of chic, holidaying Athenians, Kéa is the closest Cycladic island to Athens: just 45 minutes away by speedboat, or a thrilling 15-minute helicopter ride"
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.oneandonlyresorts.com/kea-island/overview",
+      "tier": "official",
+      "fetched_at": "2026-11-04T01:15:40.551Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.cntraveler.com/hotels/kea-island/oneandonly-kea-island",
+      "tier": "editorial",
+      "fetched_at": "2026-11-04T01:16:28.361Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.oneandonlyresorts.com/kea-island/overview/",
+      "reason": "no same-property sub-page links found on the home page"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 5,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 2,
+    "chars": 21760,
+    "est_claude_tokens": 5440
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-11-04T01:16:28.361Z"
+}
