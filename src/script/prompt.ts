@@ -74,6 +74,8 @@ If category is missing or ambiguous, use only the profile's substantiated attrib
 - Never state **exact fee, levy, service-charge or resort-fee amounts or percentages**, and never mention dates that will expire (seasonal closing dates, one-off events, award years).
 - Never state that a hotel **lacks accessible rooms or is not accessible**; leave accessibility out entirely.
 - Never mention a facility being **temporarily closed, under renovation, or newly renovated/opened**; these go stale.
+- **Highlights before dining:** build the episode around the hotel's highlights (setting, rooms, spa, pools, signature experiences). Mention dining (restaurants, bars, chefs, cuisine) **at most once** in the whole script, and only if it is a real differentiator.
+- Never use the words **“free”** or **“complimentary”** anywhere in the script or short_version.
 - Never use the words **“pros,” “cons,” or “podcast”** in the spoken script. Never mention AI, generation, sources, profiles, claim IDs, data feeds, or verification.
 - Be informative rather than salesy. No pressure tactics, fabricated urgency, false savings, or generic “book now” calls to action.
 - Don't recite statistics unless they change the booking decision; omit room counts, treatment-room counts, restaurant seating, small distances, and square footage by default.
