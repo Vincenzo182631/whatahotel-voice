@@ -14,49 +14,62 @@
       "kind": "independent"
     },
     "evidence": [
-      "80% of the hotel name appears on the page",
       "location matches (Taha'a, PF)",
-      "confirmed by hand as this hotel's own page (letahaa.com does not carry the hotel's name; an independent hotel's own site normally does)"
+      "confirmed by hand as this hotel's own page (letahaa.com does not carry the hotel's name; an independent hotel's own site normally does; only 60% of the hotel name appears on the page)"
     ],
     "reasons": [],
     "candidates": [
-      "https://www.letahaa.com/en/"
+      "https://www.letahaa.com/en/rooms-suites.html"
     ],
-    "checked_at": "2026-11-04T02:16:28.688Z",
+    "checked_at": "2026-11-04T02:18:20.643Z",
     "status": "confirmed",
-    "official_url": "https://www.letahaa.com/en/",
+    "official_url": "https://www.letahaa.com/en/rooms-suites.html",
     "base_url": "https://www.letahaa.com/",
     "host": "letahaa.com",
     "checks": {
-      "name_coverage": 0.8,
+      "name_coverage": 0.6,
       "location_match": true
     }
   },
   "pages": [
     {
       "id": "p1",
-      "url": "https://www.letahaa.com/en/",
+      "url": "https://www.letahaa.com/en/rooms-suites.html",
       "tier": "official",
-      "fetched_at": "2026-11-04T02:16:33.366Z",
+      "fetched_at": "2026-11-04T02:18:26.182Z",
       "source": "firecrawl"
     },
     {
       "id": "p2",
+      "url": "https://www.letahaa.com/en/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T02:18:33.145Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.letahaa.com/fr-fr/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T02:18:38.967Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
       "url": "https://www.cntraveler.com/hotels/french-polynesia/tahaa/le-taha-a-island-resort-french-polynesia",
       "tier": "editorial",
-      "fetched_at": "2026-11-04T02:16:46.351Z",
+      "fetched_at": "2026-11-04T02:18:45.525Z",
       "source": "direct"
     }
   ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 4,
+    "firecrawl_calls": 6,
     "firecrawl_searches": 1,
     "cache_hits": 0,
     "direct_fetches": 1,
-    "pages": 2,
-    "chars": 11329,
-    "est_claude_tokens": 2832
+    "pages": 4,
+    "chars": 23255,
+    "est_claude_tokens": 5814
   },
   "limits": {
     "maxPages": 12,
@@ -64,5 +77,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-11-04T02:16:46.352Z"
+  "researched_at": "2026-11-04T02:18:45.525Z"
 }
