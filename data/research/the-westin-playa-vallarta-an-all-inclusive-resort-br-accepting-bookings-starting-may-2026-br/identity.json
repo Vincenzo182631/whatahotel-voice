@@ -9,18 +9,21 @@
     "kind": "chain",
     "chain": "marriott"
   },
-  "evidence": [],
-  "reasons": [
-    "https://www.marriott.com/en-us/hotels/pvrwa-the-westin-playa-vallarta-an-all-inclusive-resort/overview/: only 50% of the hotel name appears on the page",
-    "https://www.marriott.com/en-us/hotels/pvrwa-the-westin-playa-vallarta-an-all-inclusive-resort/rooms/: only 57% of the hotel name appears on the page",
-    "https://www.marriott.com/en-us/hotels/pvrwa-the-westin-playa-vallarta-an-all-inclusive-resort/reviews/: only 57% of the hotel name appears on the page; page does not mention Puerto Vallarta",
-    "official website could not be confirmed; flag for review"
+  "evidence": [
+    "location matches (Puerto Vallarta, MX)",
+    "confirmed by hand as this hotel's own page (only 50% of the hotel name appears on the page)"
   ],
+  "reasons": [],
   "candidates": [
-    "https://www.marriott.com/en-us/hotels/pvrwa-the-westin-playa-vallarta-an-all-inclusive-resort/overview/",
-    "https://www.marriott.com/en-us/hotels/pvrwa-the-westin-playa-vallarta-an-all-inclusive-resort/rooms/",
-    "https://www.marriott.com/en-us/hotels/pvrwa-the-westin-playa-vallarta-an-all-inclusive-resort/reviews/"
+    "https://www.marriott.com/en-us/hotels/pvrwa-the-westin-playa-vallarta-an-all-inclusive-resort/overview/"
   ],
-  "checked_at": "2026-11-05T09:22:46.456Z",
-  "status": "needs_review"
+  "checked_at": "2026-11-05T09:46:32.412Z",
+  "status": "confirmed",
+  "official_url": "https://www.marriott.com/en-us/hotels/pvrwa-the-westin-playa-vallarta-an-all-inclusive-resort/overview/",
+  "base_url": "https://www.marriott.com/en-us/hotels/pvrwa-the-westin-playa-vallarta-an-all-inclusive-resort/",
+  "host": "marriott.com",
+  "checks": {
+    "name_coverage": 0.5,
+    "location_match": true
+  }
 }

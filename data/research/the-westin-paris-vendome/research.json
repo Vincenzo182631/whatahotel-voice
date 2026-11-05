@@ -1,13 +1,8 @@
 {
   "slug": "the-westin-paris-vendome",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "https://www.marriott.com/en-us/hotels/parvd-renaissance-paris-vendome-hotel/overview/: Firecrawl 500 for https://www.marriott.com/en-us/hotels/parvd-renaissance-paris-vendome-hotel/overview/: All scraping engines failed to retr",
-    "https://www.marriott.com/en-us/hotels/parvd-renaissance-paris-vendome-hotel/experiences/: only 67% of the hotel name appears on the page",
-    "https://www.marriott.com/en-us/hotels/parvd-renaissance-paris-vendome-hotel/rooms/: only 67% of the hotel name appears on the page",
-    "official website could not be confirmed; flag for review"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "The Westin Paris Vendome",
@@ -19,31 +14,70 @@
       "kind": "chain",
       "chain": "marriott"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.marriott.com/en-us/hotels/parvd-renaissance-paris-vendome-hotel/overview/: Firecrawl 500 for https://www.marriott.com/en-us/hotels/parvd-renaissance-paris-vendome-hotel/overview/: All scraping engines failed to retr",
-      "https://www.marriott.com/en-us/hotels/parvd-renaissance-paris-vendome-hotel/experiences/: only 67% of the hotel name appears on the page",
-      "https://www.marriott.com/en-us/hotels/parvd-renaissance-paris-vendome-hotel/rooms/: only 67% of the hotel name appears on the page",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "location matches (Paris, FR)",
+      "confirmed by hand as this hotel's own page (only 67% of the hotel name appears on the page)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://www.marriott.com/en-us/hotels/parvd-renaissance-paris-vendome-hotel/overview/",
-      "https://www.marriott.com/en-us/hotels/parvd-renaissance-paris-vendome-hotel/experiences/",
-      "https://www.marriott.com/en-us/hotels/parvd-renaissance-paris-vendome-hotel/rooms/"
+      "https://www.marriott.com/en-us/hotels/parvd-renaissance-paris-vendome-hotel/overview/"
     ],
-    "checked_at": "2026-11-05T09:18:05.254Z",
-    "status": "needs_review"
+    "checked_at": "2026-11-05T09:46:04.567Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/parvd-renaissance-paris-vendome-hotel/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/parvd-renaissance-paris-vendome-hotel/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 0.67,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/parvd-renaissance-paris-vendome-hotel/overview/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:46:21.890Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/parvd-renaissance-paris-vendome-hotel/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:46:29.918Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/parvd-renaissance-paris-vendome-hotel/dining/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:46:43.389Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/parvd-renaissance-paris-vendome-hotel/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:46:43.692Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.cntraveler.com/hotels/france/paris/westin-paris-vendome",
+      "tier": "editorial",
+      "fetched_at": "2026-11-05T09:46:55.995Z",
+      "source": "direct"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 5,
-    "firecrawl_searches": 2,
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 5,
+    "chars": 47286,
+    "est_claude_tokens": 11822
   },
   "limits": {
     "maxPages": 12,
@@ -51,5 +85,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-11-05T09:19:10.077Z"
+  "researched_at": "2026-11-05T09:46:55.995Z"
 }

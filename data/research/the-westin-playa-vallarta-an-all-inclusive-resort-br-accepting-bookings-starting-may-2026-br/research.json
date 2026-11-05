@@ -1,12 +1,9 @@
 {
   "slug": "the-westin-playa-vallarta-an-all-inclusive-resort-br-accepting-bookings-starting-may-2026-br",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
   "reasons": [
-    "https://www.marriott.com/en-us/hotels/pvrwa-the-westin-playa-vallarta-an-all-inclusive-resort/overview/: only 50% of the hotel name appears on the page",
-    "https://www.marriott.com/en-us/hotels/pvrwa-the-westin-playa-vallarta-an-all-inclusive-resort/rooms/: only 57% of the hotel name appears on the page",
-    "https://www.marriott.com/en-us/hotels/pvrwa-the-westin-playa-vallarta-an-all-inclusive-resort/reviews/: only 57% of the hotel name appears on the page; page does not mention Puerto Vallarta",
-    "official website could not be confirmed; flag for review"
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
   ],
   "identity": {
     "hotel": {
@@ -19,31 +16,61 @@
       "kind": "chain",
       "chain": "marriott"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.marriott.com/en-us/hotels/pvrwa-the-westin-playa-vallarta-an-all-inclusive-resort/overview/: only 50% of the hotel name appears on the page",
-      "https://www.marriott.com/en-us/hotels/pvrwa-the-westin-playa-vallarta-an-all-inclusive-resort/rooms/: only 57% of the hotel name appears on the page",
-      "https://www.marriott.com/en-us/hotels/pvrwa-the-westin-playa-vallarta-an-all-inclusive-resort/reviews/: only 57% of the hotel name appears on the page; page does not mention Puerto Vallarta",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "location matches (Puerto Vallarta, MX)",
+      "confirmed by hand as this hotel's own page (only 50% of the hotel name appears on the page)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://www.marriott.com/en-us/hotels/pvrwa-the-westin-playa-vallarta-an-all-inclusive-resort/overview/",
-      "https://www.marriott.com/en-us/hotels/pvrwa-the-westin-playa-vallarta-an-all-inclusive-resort/rooms/",
-      "https://www.marriott.com/en-us/hotels/pvrwa-the-westin-playa-vallarta-an-all-inclusive-resort/reviews/"
+      "https://www.marriott.com/en-us/hotels/pvrwa-the-westin-playa-vallarta-an-all-inclusive-resort/overview/"
     ],
-    "checked_at": "2026-11-05T09:22:46.456Z",
-    "status": "needs_review"
+    "checked_at": "2026-11-05T09:46:32.412Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/pvrwa-the-westin-playa-vallarta-an-all-inclusive-resort/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/pvrwa-the-westin-playa-vallarta-an-all-inclusive-resort/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 0.5,
+      "location_match": true
+    }
   },
-  "pages": [],
-  "inaccessible": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/pvrwa-the-westin-playa-vallarta-an-all-inclusive-resort/overview/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:46:37.199Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/pvrwa-the-westin-playa-vallarta-an-all-inclusive-resort/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:46:45.139Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/pvrwa-the-westin-playa-vallarta-an-all-inclusive-resort/dining/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:47:05.739Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
   "usage": {
-    "firecrawl_calls": 5,
-    "firecrawl_searches": 2,
+    "firecrawl_calls": 6,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 3,
+    "chars": 45370,
+    "est_claude_tokens": 11343
   },
   "limits": {
     "maxPages": 12,
@@ -51,5 +78,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-11-05T09:23:26.529Z"
+  "researched_at": "2026-11-05T09:47:10.655Z"
 }
