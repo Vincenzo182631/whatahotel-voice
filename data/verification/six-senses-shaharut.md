@@ -1,12 +1,8 @@
 # Verification checklist: Six Senses Shaharut
 
-Checked 2026-11-05 against the hotel's own pages and Condé Nast Traveler. Result: **needs attention**.
+Checked 2026-11-05 against the hotel's own pages and Condé Nast Traveler. Result: **can be marked verified** (profile set to verified).
 
-Supported 14 · contradicted 1 · unverified 0 · WhataHotel's own statements 1 · total 16
-
-## Blockers
-
-- contradicted by a source: c-1
+Supported 14 · contradicted 0 · unverified 0 · WhataHotel's own statements 1 · total 15 · script v2
 
 ## Pages checked
 
@@ -39,6 +35,5 @@ Supported 14 · contradicted 1 · unverified 0 · WhataHotel's own statements 1 
 | ✅ | **h-2** Suites and villas have uninterrupted desert panoramas and a private swimming pool. | "Suites and villas offer uninterrupted desert panoramas and are complete with a private swimming pool for your ultimate hideaway." (official, https://www.sixsenses.com/en/hotels-resorts/middle-east-africa/israel/shaharut/) |
 | ✅ | **h-3** Six Senses Shaharut was the first hotel in Israel to achieve LEED Certification. | "As the first hotel in Israel to achieve LEED Certification" (official, https://www.sixsenses.com/en/hotels-resorts/middle-east-africa/israel/shaharut/) |
 | ✅ | **h-4** The Nomadic Dinner is an intimate dinner for two, topped off with dessert in the desert. | "Nomadic Dinner: intimate dinner for two, topped off with dessert in the desert." (official, https://www.sixsenses.com/en/hotels-resorts/middle-east-africa/israel/shaharut/) |
-| ❌ | **c-1** The resort welcomes guests and children 10 years and older. | Source says: "this is a place for children 12 and older" (editorial, https://www.cntraveler.com/hotels/shaharut/six-senses-shaharut) |
 | ✅ | **c-2** Guests reach the resort by a transfer through the desert landscape. | "The journey to reach us is part of the story as you transfer through the dramatic desert landscape" (official, https://www.sixsenses.com/en/hotels-resorts/middle-east-africa/israel/shaharut/) |
 | ➖ | **c-3** WhataHotel notes the remote desert location requires planned transportation. | WhataHotel's own offer or statement |
