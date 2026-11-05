@@ -1,0 +1,309 @@
+{
+  "hotel_slug": "the-westin-jackson",
+  "hotel_name": "The Westin Jackson",
+  "checked_at": "2026-11-05T09:58:23.767Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 14,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 15
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/janwi-the-westin-jackson/overview/",
+      "tier": "official",
+      "chars": 16790
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/janwi-the-westin-jackson/rooms/",
+      "tier": "official",
+      "chars": 7073
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/janwi-the-westin-jackson/dining/",
+      "tier": "official",
+      "chars": 7000
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/janwi-the-westin-jackson/experiences/",
+      "tier": "official",
+      "chars": 12301
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The Mississippi Coliseum is about one mile from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Located just one mile away from our contemporary hotel, The Mississippi Coliseum is home to concerts, special events, sporting events and more.",
+          "note": "States the Coliseum is one mile from the hotel.",
+          "url": "https://www.marriott.com/en-us/hotels/janwi-the-westin-jackson/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The Westin Heavenly Bed has 10 layers of bedding.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "sink into our signature Westin Heavenly® Bed that envelops you in 10 layers of blissful bedding.",
+          "note": "Confirms 10 layers of bedding.",
+          "url": "https://www.marriott.com/en-us/hotels/janwi-the-westin-jackson/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "All rooms have Westin Heavenly Bath White Tea bath and body products.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Refresh the senses with Westin Heavenly Bath® White Tea Bath & Body products in all rooms",
+          "note": "Confirms the products are in all rooms.",
+          "url": "https://www.marriott.com/en-us/hotels/janwi-the-westin-jackson/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Suites have separate living and sleeping areas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Elevate your stay in our hotel suites in Jackson, MS with separate living and sleeping areas",
+          "note": "Suites have separate living and sleeping areas.",
+          "url": "https://www.marriott.com/en-us/hotels/janwi-the-westin-jackson/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Room service is available 24 hours.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Enjoy the convenience of 24-hour room service in our hotel rooms and hotel suites in Jackson, MS",
+          "note": "Confirms 24-hour room service.",
+          "url": "https://www.marriott.com/en-us/hotels/janwi-the-westin-jackson/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Guest rooms feature separate living and sleeping areas, flat-screen TVs, and 24-hour room service.",
+          "note": "Also confirms 24-hour room service.",
+          "url": "https://www.marriott.com/en-us/hotels/janwi-the-westin-jackson/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Soul Spa has separate men's and women's lounges.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Separate Men & Women's Lounges",
+          "note": "Listed under Soul Spa services, treatments and amenities.",
+          "url": "https://www.marriott.com/en-us/hotels/janwi-the-westin-jackson/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The WestinWORKOUT Fitness Studio is open 24/7.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Elevate your workout at our 24/7 WestinWORKOUT Fitness Studio.",
+          "note": "Confirms the studio is open 24/7.",
+          "url": "https://www.marriott.com/en-us/hotels/janwi-the-westin-jackson/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Guests can explore Jackson on the hotel's custom cruiser bicycles.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Bicycle TourExplore Jackson on wheels with our custom cruisers.",
+          "note": "Confirms guests can explore Jackson on the hotel's custom cruisers.",
+          "url": "https://www.marriott.com/en-us/hotels/janwi-the-westin-jackson/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Estelle Southern Table serves modern Southern cuisine for breakfast, lunch, dinner and weekend brunch.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Estelle Southern Table brings modern Southern dining to downtown Jackson, Mississippi with locally inspired cuisine",
+          "note": "Confirms modern Southern dining.",
+          "url": "https://www.marriott.com/en-us/hotels/janwi-the-westin-jackson/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Located inside The Westin Jackson, Estelle serves breakfast, lunch, dinner and weekend brunch.",
+          "note": "Confirms the meals served.",
+          "url": "https://www.marriott.com/en-us/hotels/janwi-the-westin-jackson/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Music Legends of Mississippi package lets guests play exact replica guitars of six pioneers of American music in their room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "showcasing exact replica guitars from six legendary pioneers of American Music.",
+          "note": "Confirms exact replica guitars from six pioneers.",
+          "url": "https://www.marriott.com/en-us/hotels/janwi-the-westin-jackson/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Guests are invited to play one of these legendary replicas in the comfort of their own guest room when they book our Music Legends of Mississippi package.",
+          "note": "Confirms guests play the guitars in their room via the package.",
+          "url": "https://www.marriott.com/en-us/hotels/janwi-the-westin-jackson/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The hotel has an indoor saltwater pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Hotel guests are invited to lounge by our indoor Saltwater Pool.",
+          "note": "Confirms an indoor saltwater pool.",
+          "url": "https://www.marriott.com/en-us/hotels/janwi-the-westin-jackson/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Soul Spa is a day spa offering massages, facials and other treatments.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Soul Spa is a restorative day spa in downtown Jackson, MS, offering massages, facials and rejuvenating treatments",
+          "note": "Confirms a day spa offering massages, facials and other treatments.",
+          "url": "https://www.marriott.com/en-us/hotels/janwi-the-westin-jackson/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The hotel is within walking distance of Thalia Mara Hall, the Russell C. Davis Planetarium and the Hinds County Courthouse.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our hotel is within walking distance of Thalia Mara Hall, Jackson's historic music and arts theatre, as well as other attractions like the Russell C. Davis Planetarium and the Hinds County Courthouse.",
+          "note": "Covers all three named places.",
+          "url": "https://www.marriott.com/en-us/hotels/janwi-the-westin-jackson/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The minimum age to check in is 21.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Minimum Age to Check In: 21",
+          "note": "Confirms a minimum check-in age of 21.",
+          "url": "https://www.marriott.com/en-us/hotels/janwi-the-westin-jackson/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes the immediate downtown area has limited leisure attractions.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
