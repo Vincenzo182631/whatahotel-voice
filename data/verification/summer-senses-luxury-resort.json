@@ -1,0 +1,380 @@
+{
+  "hotel_slug": "summer-senses-luxury-resort",
+  "hotel_name": "Summer Senses Luxury Resort",
+  "checked_at": "2026-11-05T08:39:05.042Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 16,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 17
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.summersenses.gr/",
+      "tier": "official",
+      "chars": 4638
+    },
+    {
+      "id": "d2",
+      "url": "https://www.summersenses.gr/paros-luxury-accommodation/",
+      "tier": "official",
+      "chars": 4445
+    },
+    {
+      "id": "d3",
+      "url": "https://www.summersenses.gr/location/",
+      "tier": "official",
+      "chars": 11621
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The resort is on the eastern edge of Paros and has Aegean Sea views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Summer Senses Luxury Resort is located on the eastern edge of the island and boasts beautiful Aegean Sea views.",
+          "note": "Both the location and the sea views are stated.",
+          "url": "https://www.summersenses.gr/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The resort is near the seaside village of Piso Livadi, and the village of Marpissa is a stone's throw away.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Summer Senses is located near the authentic seaside village of Piso Livadi",
+          "note": "Covers the claim that the resort is near Piso Livadi.",
+          "url": "https://www.summersenses.gr/location/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "A stone’s throw from Summer Senses Luxury Resort, Marpissa is a gorgeous village",
+          "note": "Covers the claim that Marpissa is a stone's throw away.",
+          "url": "https://www.summersenses.gr/location/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The resort is about 19 km from Paroikia Port and 12 km from Naoussa town.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Paroikia Port 19 km",
+          "note": "Distance to the port.",
+          "url": "https://www.summersenses.gr/location/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Naoussa Town 12 km",
+          "note": "Distance to Naoussa.",
+          "url": "https://www.summersenses.gr/location/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Punda Beach, a two-minute walk away, is known for crystal clear, deep blue waters and has two beach bars.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "A mere heartbeat from Summer Senses, barely two minutes away on foot, is Punda Beach. Known for its crystal clear, deep blue waters, it’s a favourite in Paros",
+          "note": "Covers the two-minute walk and the waters.",
+          "url": "https://www.summersenses.gr/location/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "refreshing cocktails take centre stage at its two beach bars",
+          "note": "Covers the two beach bars.",
+          "url": "https://www.summersenses.gr/location/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The hotel has two swimming pools.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Dive into the refreshing waters of the hotel’s two swimming pools",
+          "note": "States the hotel has two pools.",
+          "url": "https://www.summersenses.gr/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Spa therapies are offered at the Anassa Spa by Idolo.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "a revitalising spa therapy at the Anassa Spa by Idolo",
+          "note": "Names the spa where therapies are offered.",
+          "url": "https://www.summersenses.gr/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Deluxe Rooms have an elegantly minimal Cycladic style and open to a private outdoor space.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our Deluxe Rooms (approx. 25 sqm) are Cycladic havens with elegantly minimal style, which open to a private outdoor space...",
+          "note": "Covers both the style and the private outdoor space.",
+          "url": "https://www.summersenses.gr/paros-luxury-accommodation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Premium Suites feature Parian marble flooring.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "A sense of luxury surrounds our Premium Suites (approx. 42 sqm), from the exquisite Parian marble used in their flooring",
+          "note": "States Parian marble is used in the flooring.",
+          "url": "https://www.summersenses.gr/paros-luxury-accommodation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Sea-view Sun Suites and Island Suites have views of the Aegean and sunrise vistas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "View: Uninterrupted views of the Aegean blue and spectacular sunrise vistas",
+          "note": "This view line appears under both Sun Suite Sea View and Island Suite with Sea View.",
+          "url": "https://www.summersenses.gr/paros-luxury-accommodation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Gaia Restaurant serves an authentic Greek breakfast.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Start your day the right way, with authentic Greek breakfast at the inviting Gaia Restaurant",
+          "note": "States Gaia Restaurant serves authentic Greek breakfast.",
+          "url": "https://www.summersenses.gr/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "A 3 km seaside path connects Punda Beach with Piso Livadi and Logaras.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Follow the path which connects Punda Beach with Piso Livadi and Logaras to savour a 3km route by the sea",
+          "note": "Covers the path, its endpoints and the 3 km length by the sea.",
+          "url": "https://www.summersenses.gr/location/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Several suite types have an outdoor private pool, including Summer Suites and Senses Suites with views of the Aegean over the coastline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Dive into an unforgettable vacation at our Summer Suite with Private Pool and Sea View",
+          "note": "Summer Suite has a private pool.",
+          "url": "https://www.summersenses.gr/paros-luxury-accommodation/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Unlock your ideal island experience in our Senses Suite Private Pool Sea View",
+          "note": "Senses Suite has a private pool and sea view.",
+          "url": "https://www.summersenses.gr/paros-luxury-accommodation/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "View: Superb views of the Aegean over the island’s coastline",
+          "note": "This view line is listed for the Summer Suite and Senses Suite sea-view types, alongside 'Outdoor private pool'.",
+          "url": "https://www.summersenses.gr/paros-luxury-accommodation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Honeymoon Suite has a private pool, a sea view and an outdoor heated jacuzzi.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The majestic Honeymoon Suite with Private Pool, Sea View & outdoor heated Jacuzzi (30 sq.m)",
+          "note": "Covers the pool, the sea view and the heated outdoor jacuzzi.",
+          "url": "https://www.summersenses.gr/paros-luxury-accommodation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Punda Beach is a two-minute walk from the resort.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "carried on the breeze from Punda Beach, just a two minute walk away",
+          "note": "States the two-minute walk.",
+          "url": "https://www.summersenses.gr/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Just a two-minute walk from Punda Beach",
+          "note": "Confirms the same distance.",
+          "url": "https://www.summersenses.gr/location/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Guests can spend an afternoon kitesurfing on Punda Beach.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "an afternoon of kitesurfing on Punda Beach",
+          "note": "Kitesurfing on Punda Beach is listed as a guest activity.",
+          "url": "https://www.summersenses.gr/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The resort is on the east coast, about 19 km from Paroikia Port and 12 km from Naoussa town.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Summer Senses Luxury Resort is located on the eastern edge of the island",
+          "note": "Covers the east-coast location.",
+          "url": "https://www.summersenses.gr/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Paroikia Port 19 km",
+          "note": "Distance to the port.",
+          "url": "https://www.summersenses.gr/location/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Naoussa Town 12 km",
+          "note": "Distance to Naoussa.",
+          "url": "https://www.summersenses.gr/location/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes the location requires transportation to Paros town center.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
