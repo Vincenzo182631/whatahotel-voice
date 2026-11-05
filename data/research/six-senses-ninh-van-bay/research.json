@@ -1,9 +1,14 @@
 {
   "slug": "six-senses-ninh-van-bay",
-  "status": "awaiting_extraction",
+  "status": "ready",
   "partial": true,
   "reasons": [
-    "limit reached: 150000 characters of page text; progress saved (11 pages), rerun with higher limits to continue"
+    "limit reached: 150000 characters of page text; progress saved (11 pages), rerun with higher limits to continue",
+    "coverage is partial: a limit stopped the page fetch early; raise the limits and rerun to read the rest",
+    "only 4 usable highlights",
+    "coverage is partial: a limit stopped the page fetch early; raise the limits and rerun to read the rest",
+    "only 4 usable highlights",
+    "coverage is partial: a limit stopped the page fetch early; raise the limits and rerun to read the rest"
   ],
   "identity": {
     "hotel": {
@@ -129,5 +134,99 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-11-05T08:05:31.123Z"
+  "researched_at": "2026-11-05T08:05:31.123Z",
+  "hotel": {
+    "name": "Six Senses Ninh Van Bay",
+    "city": "NULL",
+    "country": "VN",
+    "chain": "six-senses",
+    "confirmed_affiliation": {
+      "kind": "chain",
+      "chain": "six-senses"
+    }
+  },
+  "official_url": "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/vietnam/ninh-van-bay/",
+  "verified_facts": [
+    {
+      "id": "r-1",
+      "category": "location",
+      "text": "The resort sits on a bay looking out to the East Vietnam Sea and is reached by water.",
+      "source_url": "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/vietnam/ninh-van-bay/",
+      "source_tier": "official",
+      "excerpt": "bay looking out to the East Vietnam Sea so it can only be approached by water"
+    },
+    {
+      "id": "r-2",
+      "category": "location",
+      "text": "The setting has rock formations, a white sand beach and a backdrop of towering mountains.",
+      "source_url": "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/vietnam/ninh-van-bay/",
+      "source_tier": "official",
+      "excerpt": "Impressive rock formations, a white sand beach, and a backdrop of towering mountains add to the fantasy."
+    },
+    {
+      "id": "r-3",
+      "category": "experiences",
+      "text": "A troop of rare endangered monkeys lives in the hills behind the resort.",
+      "source_url": "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/vietnam/ninh-van-bay/",
+      "source_tier": "official",
+      "excerpt": "We have a troop of rare endangered monkeys that call the hills behind our Vietnam beach resort their home."
+    },
+    {
+      "id": "r-4",
+      "category": "rooms",
+      "text": "Villas are directly on the beach, over the water, between the rocks or on a mountain slope.",
+      "source_url": "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/vietnam/ninh-van-bay/",
+      "source_tier": "official",
+      "excerpt": "directly on the beach, over the water, between the rocks or on a mountain slope"
+    },
+    {
+      "id": "r-5",
+      "category": "rooms",
+      "text": "All villas offer panoramic ocean views.",
+      "source_url": "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/vietnam/ninh-van-bay/",
+      "source_tier": "official",
+      "excerpt": "all of which offer panoramic ocean views"
+    },
+    {
+      "id": "r-6",
+      "category": "rooms",
+      "text": "Villas have a garden terrace or sundeck.",
+      "source_url": "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/vietnam/ninh-van-bay/",
+      "source_tier": "official",
+      "excerpt": "Luxuriate in your spacious villa with garden terrace or sundeck"
+    },
+    {
+      "id": "r-7",
+      "category": "location",
+      "text": "The resort is near Nha Trang.",
+      "source_url": "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/vietnam/ninh-van-bay/",
+      "source_tier": "official",
+      "excerpt": "our proximity to Nha Trang and calm sheltered bay offers a host of land and water activities"
+    },
+    {
+      "id": "r-8",
+      "category": "experiences",
+      "text": "The calm sheltered bay offers land and water activities.",
+      "source_url": "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/vietnam/ninh-van-bay/",
+      "source_tier": "official",
+      "excerpt": "calm sheltered bay offers a host of land and water activities"
+    }
+  ],
+  "highlights": [
+    "r-4",
+    "r-1",
+    "r-2",
+    "r-5",
+    "r-3"
+  ],
+  "subjective": [],
+  "unresolved": [
+    {
+      "id": "r-9",
+      "text": "A spa experience offers a traditional bamboo massage followed by a Reiki Crystal Facial.",
+      "reason": "marked unresolved"
+    }
+  ],
+  "rejected": [],
+  "contradictions": []
 }
