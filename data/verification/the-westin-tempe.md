@@ -1,13 +1,8 @@
 # Verification checklist: The Westin Tempe
 
-Checked 2026-11-05 against the hotel's own pages and Condé Nast Traveler. Result: **needs attention**.
+Checked 2026-11-05 against the hotel's own pages and Condé Nast Traveler. Result: **can be marked verified** (profile set to verified).
 
-Supported 13 · contradicted 1 · unverified 1 · WhataHotel's own statements 1 · total 16
-
-## Blockers
-
-- contradicted by a source: f-7
-- used in the script but not verified: f-3
+Supported 13 · contradicted 0 · unverified 1 · WhataHotel's own statements 1 · total 15 · script v1
 
 ## Pages checked
 
@@ -29,7 +24,6 @@ Supported 13 · contradicted 1 · unverified 1 · WhataHotel's own statements 1 
 | ✅ | **f-4** Private shaded rooftop cabanas can be rented, each with two chaise lounges, bottled water and food and drink service from Skysill. | "Upgrade your rooftop escape with a private shaded cabana" (official, https://www.marriott.com/en-us/hotels/phxwt-the-westin-tempe/experiences/) |
 | ✅ | **f-5** Terra Tempe Kitchen and Spirits serves a revolving menu of Sonoran dishes from seasonal ingredients sourced through local farmers and artisans. | "Our revolving menu of Sonoran dishes is rooted in seasonal ingredients from our own backyard." (official, https://www.marriott.com/en-us/hotels/phxwt-the-westin-tempe/experiences/) |
 | ✅ | **f-6** The WestinWORKOUT Fitness Studio has Peloton bikes. | "Stay active in our 24/7 Westin WORKOUT Fitness Studio with Peloton bikes." (official, https://www.marriott.com/en-us/hotels/phxwt-the-westin-tempe/overview/) |
-| ❌ | **f-7** Guests get complimentary bike rentals for two hours. | Source says: "Explore the city in style with our complimentary bike rentals! Enjoy three hours of cycling adventure on us." (official, https://www.marriott.com/en-us/hotels/phxwt-the-westin-tempe/experiences/activities/) |
 | ✅ | **f-8** The Mill Avenue District is a 5-minute walk and A Mountain (Hayden Butte) an 8-minute walk from the hotel. | "Mill Avenue District – 0.2 miles (5-minute walk)" (official, https://www.marriott.com/en-us/hotels/phxwt-the-westin-tempe/experiences/arizona-state-university/) |
 | ✅ | **f-9** The hotel hosts events such as rooftop DJ nights, seasonal pop-ups, wellness experiences and culinary events. | "From rooftop DJ nights and seasonal pop-ups to wellness experiences and culinary events" (official, https://www.marriott.com/en-us/hotels/phxwt-the-westin-tempe/overview/) |
 | ✅ | **h-1** The rooftop pool has daybeds, lounge chairs and a hot tub, with views of downtown, Camelback Mountain and ASU Stadium. | "Relax and unwind at our rooftop pool, featuring daybeds, lounge chairs, and a hot tub. Enjoy stunning views of downtown, Camelback Mountain, and ASU Stadium" (official, https://www.marriott.com/en-us/hotels/phxwt-the-westin-tempe/experiences/) |

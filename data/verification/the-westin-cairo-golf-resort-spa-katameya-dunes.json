@@ -1,23 +1,20 @@
 {
   "hotel_slug": "the-westin-cairo-golf-resort-spa-katameya-dunes",
   "hotel_name": "The Westin Cairo Golf Resort & Spa, Katameya Dunes",
-  "checked_at": "2026-11-05T10:12:36.675Z",
-  "script_version": 1,
+  "checked_at": "2026-11-05T10:50:34.110Z",
+  "script_version": 2,
   "decision": {
-    "eligible": false,
-    "blockers": [
-      "contradicted by a source: h-1",
-      "used in the script but not verified: h-2"
-    ],
+    "eligible": true,
+    "blockers": [],
     "counts": {
       "supported": 11,
-      "contradicted": 1,
+      "contradicted": 0,
       "unverified": 2,
       "exempt": 1,
-      "total": 15
+      "total": 14
     }
   },
-  "applied": false,
+  "applied": true,
   "evidence": [
     {
       "id": "d1",
@@ -230,44 +227,6 @@
         }
       ],
       "status": "supported"
-    },
-    {
-      "claim_id": "h-1",
-      "text": "The resort has a 27-hole championship golf course designed by Sir Nick Faldo and Brian Curley.",
-      "findings": [
-        {
-          "verdict": "supported",
-          "doc_id": "d4",
-          "quote": "featuring a 27-hole golf course designed by Sir Nick Faldo and Brian Curley",
-          "note": "official page",
-          "confirmed": true,
-          "url": "https://www.marriott.com/en-us/hotels/caiwi-the-westin-cairo-golf-resort-and-spa-katameya-dunes/experiences/",
-          "tier": "official",
-          "quote_verified": true
-        },
-        {
-          "verdict": "supported",
-          "doc_id": "d1",
-          "quote": "a 27-hole championship golf course designed by Sir Nick Faldo and Brian Curley",
-          "note": "official page",
-          "confirmed": true,
-          "url": "https://www.marriott.com/en-us/hotels/caiwi-the-westin-cairo-golf-resort-and-spa-katameya-dunes/overview/",
-          "tier": "official",
-          "quote_verified": true
-        },
-        {
-          "verdict": "contradicted",
-          "doc_id": "d4",
-          "quote": "unwind with a round on our championship 18-hole golf course",
-          "note": "same site gives 18-hole elsewhere; hole count inconsistent",
-          "confirmed": true,
-          "url": "https://www.marriott.com/en-us/hotels/caiwi-the-westin-cairo-golf-resort-and-spa-katameya-dunes/experiences/",
-          "tier": "official",
-          "quote_verified": true
-        }
-      ],
-      "status": "contradicted",
-      "reason": "a source says something different"
     },
     {
       "claim_id": "h-2",

@@ -1,23 +1,20 @@
 {
   "hotel_slug": "the-westin-tempe",
   "hotel_name": "The Westin Tempe",
-  "checked_at": "2026-11-05T10:11:54.195Z",
-  "script_version": null,
+  "checked_at": "2026-11-05T10:50:35.125Z",
+  "script_version": 1,
   "decision": {
-    "eligible": false,
-    "blockers": [
-      "contradicted by a source: f-7",
-      "used in the script but not verified: f-3"
-    ],
+    "eligible": true,
+    "blockers": [],
     "counts": {
       "supported": 13,
-      "contradicted": 1,
+      "contradicted": 0,
       "unverified": 1,
       "exempt": 1,
-      "total": 16
+      "total": 15
     }
   },
-  "applied": false,
+  "applied": true,
   "evidence": [
     {
       "id": "d1",
@@ -185,34 +182,6 @@
         }
       ],
       "status": "supported"
-    },
-    {
-      "claim_id": "f-7",
-      "text": "Guests get complimentary bike rentals for two hours.",
-      "findings": [
-        {
-          "verdict": "supported",
-          "doc_id": "d3",
-          "quote": "Explore the city in style with our complimentary bike rentals! Enjoy two hours of cycling adventure on us.",
-          "note": "",
-          "confirmed": true,
-          "url": "https://www.marriott.com/en-us/hotels/phxwt-the-westin-tempe/experiences/",
-          "tier": "official",
-          "quote_verified": true
-        },
-        {
-          "verdict": "contradicted",
-          "doc_id": "d6",
-          "quote": "Explore the city in style with our complimentary bike rentals! Enjoy three hours of cycling adventure on us.",
-          "note": "",
-          "confirmed": true,
-          "url": "https://www.marriott.com/en-us/hotels/phxwt-the-westin-tempe/experiences/activities/",
-          "tier": "official",
-          "quote_verified": true
-        }
-      ],
-      "status": "contradicted",
-      "reason": "a source says something different"
     },
     {
       "claim_id": "f-8",

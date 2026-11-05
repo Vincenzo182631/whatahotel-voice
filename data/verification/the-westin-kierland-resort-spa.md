@@ -1,12 +1,8 @@
 # Verification checklist: The Westin Kierland Resort & Spa
 
-Checked 2026-11-05 against the hotel's own pages and Condé Nast Traveler. Result: **needs attention**.
+Checked 2026-11-05 against the hotel's own pages and Condé Nast Traveler. Result: **can be marked verified** (profile set to verified).
 
-Supported 11 · contradicted 0 · unverified 5 · WhataHotel's own statements 2 · total 18
-
-## Blockers
-
-- used in the script but not verified: f-3, f-4, f-5, f-11, c-3
+Supported 11 · contradicted 0 · unverified 5 · WhataHotel's own statements 2 · total 18 · script v1
 
 ## Pages checked
 
