@@ -1,12 +1,9 @@
 {
   "slug": "six-senses-kaplankaya",
-  "status": "needs_review",
-  "partial": false,
+  "status": "awaiting_extraction",
+  "partial": true,
   "reasons": [
-    "https://www.sixsenses.com/en/hotels-resorts/europe/turkey/kaplankaya/: page does not mention Bodrum",
-    "https://www.sixsenses.com/en/hotels-resorts/europe/turkey/kaplankaya/accommodation/: page does not mention Bodrum",
-    "https://www.sixsenses.com/en/hotels-resorts/europe/turkey/kaplankaya/experiences/: page does not mention Bodrum",
-    "official website could not be confirmed; flag for review"
+    "limit reached: 150000 characters of page text; progress saved (11 pages), rerun with higher limits to continue"
   ],
   "identity": {
     "hotel": {
@@ -19,31 +16,112 @@
       "kind": "chain",
       "chain": "six-senses"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.sixsenses.com/en/hotels-resorts/europe/turkey/kaplankaya/: page does not mention Bodrum",
-      "https://www.sixsenses.com/en/hotels-resorts/europe/turkey/kaplankaya/accommodation/: page does not mention Bodrum",
-      "https://www.sixsenses.com/en/hotels-resorts/europe/turkey/kaplankaya/experiences/: page does not mention Bodrum",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "confirmed by hand as this hotel's own page (page does not mention Bodrum)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://www.sixsenses.com/en/hotels-resorts/europe/turkey/kaplankaya/",
-      "https://www.sixsenses.com/en/hotels-resorts/europe/turkey/kaplankaya/accommodation/",
-      "https://www.sixsenses.com/en/hotels-resorts/europe/turkey/kaplankaya/experiences/"
+      "https://www.sixsenses.com/en/hotels-resorts/europe/turkey/kaplankaya/"
     ],
-    "checked_at": "2026-11-05T07:58:14.949Z",
-    "status": "needs_review"
+    "checked_at": "2026-11-05T08:01:57.628Z",
+    "status": "confirmed",
+    "official_url": "https://www.sixsenses.com/en/hotels-resorts/europe/turkey/kaplankaya/",
+    "base_url": "https://www.sixsenses.com/en/hotels-resorts/europe/",
+    "host": "sixsenses.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": false
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.sixsenses.com/en/hotels-resorts/europe/turkey/kaplankaya/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T08:02:02.479Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.sixsenses.com/en/hotels-resorts/europe/spain/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T08:02:10.331Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.sixsenses.com/en/hotels-resorts/europe/spain/ibiza/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T08:02:14.372Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.sixsenses.com/en/hotels-resorts/europe/italy/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T08:02:18.391Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.sixsenses.com/en/hotels-resorts/europe/france/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T08:02:22.358Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.sixsenses.com/en/hotels-resorts/europe/turkey/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T08:02:26.358Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.sixsenses.com/en/hotels-resorts/europe/portugal/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T08:02:30.308Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.sixsenses.com/en/hotels-resorts/europe/italy/rome/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T08:02:34.301Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.sixsenses.com/en/hotels-resorts/europe/switzerland/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T08:02:38.322Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.sixsenses.com/en/hotels-resorts/europe/united-kingdom/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T08:02:42.369Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://www.sixsenses.com/en/hotels-resorts/europe/portugal/douro-valley/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T08:02:46.530Z",
+      "source": "firecrawl"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 4,
-    "firecrawl_searches": 2,
-    "cache_hits": 1,
+    "firecrawl_calls": 14,
+    "firecrawl_searches": 0,
+    "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 11,
+    "chars": 148622,
+    "est_claude_tokens": 37156
   },
   "limits": {
     "maxPages": 12,
@@ -51,5 +129,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-11-05T07:58:35.873Z"
+  "researched_at": "2026-11-05T08:02:50.369Z"
 }

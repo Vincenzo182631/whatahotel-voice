@@ -1,9 +1,9 @@
 {
   "slug": "six-senses-southern-dunes",
-  "status": "needs_review",
-  "partial": false,
+  "status": "awaiting_extraction",
+  "partial": true,
   "reasons": [
-    "several Six Senses properties match \"Six Senses Southern Dunes\" in The Red Sea (https://www.sixsenses.com/en/corporate/news/, https://www.sixsenses.com/en/hotels-resorts/middle-east-africa/, https://www.sixsenses.com/en/corporate/media-center/); confirm with --official-url"
+    "limit reached: 150000 characters of page text; progress saved (10 pages), rerun with higher limits to continue"
   ],
   "identity": {
     "hotel": {
@@ -16,28 +16,105 @@
       "kind": "chain",
       "chain": "six-senses"
     },
-    "evidence": [],
-    "reasons": [
-      "several Six Senses properties match \"Six Senses Southern Dunes\" in The Red Sea (https://www.sixsenses.com/en/corporate/news/, https://www.sixsenses.com/en/hotels-resorts/middle-east-africa/, https://www.sixsenses.com/en/corporate/media-center/); confirm with --official-url"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (The Red Sea, SA)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://www.sixsenses.com/en/corporate/news/",
-      "https://www.sixsenses.com/en/hotels-resorts/middle-east-africa/",
-      "https://www.sixsenses.com/en/corporate/media-center/"
+      "https://www.sixsenses.com/en/hotels-resorts/middle-east-africa/saudi-arabia/southern-dunes-the-red-sea/"
     ],
-    "checked_at": "2026-11-05T07:57:24.335Z",
-    "status": "needs_review"
+    "checked_at": "2026-11-05T08:04:38.073Z",
+    "status": "confirmed",
+    "official_url": "https://www.sixsenses.com/en/hotels-resorts/middle-east-africa/saudi-arabia/southern-dunes-the-red-sea/",
+    "base_url": "https://www.sixsenses.com/en/hotels-resorts/middle-east-africa/",
+    "host": "sixsenses.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.sixsenses.com/en/hotels-resorts/middle-east-africa/saudi-arabia/southern-dunes-the-red-sea/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T08:04:42.986Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.sixsenses.com/en/hotels-resorts/middle-east-africa/oman/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T08:04:50.976Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.sixsenses.com/en/hotels-resorts/middle-east-africa/israel/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T08:04:55.041Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.sixsenses.com/en/hotels-resorts/middle-east-africa/seychelles/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T08:04:58.971Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.sixsenses.com/en/hotels-resorts/middle-east-africa/saudi-arabia/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T08:05:02.996Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.sixsenses.com/en/hotels-resorts/middle-east-africa/oman/zighy-bay/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T08:05:06.965Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.sixsenses.com/en/hotels-resorts/middle-east-africa/israel/shaharut/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T08:05:11.021Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.sixsenses.com/en/hotels-resorts/middle-east-africa/saudi-arabia/amaala/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T08:05:15.035Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.sixsenses.com/en/hotels-resorts/middle-east-africa/united-arab-emirates/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T08:05:19.024Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.sixsenses.com/en/hotels-resorts/middle-east-africa/seychelles/zil-pasyon/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T08:05:23.315Z",
+      "source": "firecrawl"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 2,
-    "firecrawl_searches": 2,
+    "firecrawl_calls": 13,
+    "firecrawl_searches": 0,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 10,
+    "chars": 140674,
+    "est_claude_tokens": 35169
   },
   "limits": {
     "maxPages": 12,
@@ -45,5 +122,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-11-05T07:57:29.866Z"
+  "researched_at": "2026-11-05T08:05:26.986Z"
 }

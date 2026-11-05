@@ -1,12 +1,9 @@
 {
   "slug": "six-senses-samui",
-  "status": "needs_review",
-  "partial": false,
+  "status": "awaiting_extraction",
+  "partial": true,
   "reasons": [
-    "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/thailand/samui/: page does not mention Koh Samui",
-    "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/thailand/samui/accommodation/: page does not mention Koh Samui",
-    "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/thailand/samui/offers/: page does not mention Koh Samui",
-    "official website could not be confirmed; flag for review"
+    "limit reached: 150000 characters of page text; progress saved (11 pages), rerun with higher limits to continue"
   ],
   "identity": {
     "hotel": {
@@ -19,31 +16,112 @@
       "kind": "chain",
       "chain": "six-senses"
     },
-    "evidence": [],
-    "reasons": [
-      "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/thailand/samui/: page does not mention Koh Samui",
-      "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/thailand/samui/accommodation/: page does not mention Koh Samui",
-      "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/thailand/samui/offers/: page does not mention Koh Samui",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "confirmed by hand as this hotel's own page (page does not mention Koh Samui)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/thailand/samui/",
-      "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/thailand/samui/accommodation/",
-      "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/thailand/samui/offers/"
+      "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/thailand/samui/"
     ],
-    "checked_at": "2026-11-05T07:56:15.117Z",
-    "status": "needs_review"
+    "checked_at": "2026-11-05T08:00:53.776Z",
+    "status": "confirmed",
+    "official_url": "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/thailand/samui/",
+    "base_url": "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/",
+    "host": "sixsenses.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": false
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/thailand/samui/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T08:01:11.053Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/india/fort-barwara/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T08:01:16.574Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/fiji/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T08:01:20.658Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/china/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T08:01:24.685Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/india/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T08:01:28.627Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/japan/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T08:01:32.624Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/bhutan/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T08:01:36.634Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/vietnam/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T08:01:40.672Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/cambodia/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T08:01:44.610Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/maldives/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T08:01:48.653Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/thailand/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T08:01:52.559Z",
+      "source": "firecrawl"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 5,
-    "firecrawl_searches": 2,
+    "firecrawl_calls": 14,
+    "firecrawl_searches": 0,
     "cache_hits": 0,
     "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "pages": 11,
+    "chars": 137882,
+    "est_claude_tokens": 34471
   },
   "limits": {
     "maxPages": 12,
@@ -51,5 +129,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-11-05T07:56:57.572Z"
+  "researched_at": "2026-11-05T08:01:56.628Z"
 }
