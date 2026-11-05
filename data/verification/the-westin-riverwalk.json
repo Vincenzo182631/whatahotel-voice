@@ -1,20 +1,22 @@
 {
   "hotel_slug": "the-westin-riverwalk",
   "hotel_name": "The Westin Riverwalk",
-  "checked_at": "2026-11-05T09:55:35.373Z",
-  "script_version": null,
+  "checked_at": "2026-11-05T10:10:58.335Z",
+  "script_version": 1,
   "decision": {
-    "eligible": true,
-    "blockers": [],
+    "eligible": false,
+    "blockers": [
+      "used in the script but not verified: f-4"
+    ],
     "counts": {
-      "supported": 17,
+      "supported": 16,
       "contradicted": 0,
-      "unverified": 0,
+      "unverified": 1,
       "exempt": 1,
       "total": 18
     }
   },
-  "applied": true,
+  "applied": false,
   "evidence": [
     {
       "id": "d1",
@@ -55,8 +57,9 @@
         {
           "verdict": "supported",
           "doc_id": "d2",
-          "quote": "Our downtown hotel offers newly renovated, spacious accommodations with incredible views of the Riverwalk or cityscape.",
-          "note": "States that rooms have Riverwalk or cityscape views.",
+          "quote": "spacious accommodations with incredible views of the Riverwalk or cityscape",
+          "note": "stated on official page",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/satvw-the-westin-riverwalk-san-antonio/rooms/",
           "tier": "official",
           "quote_verified": true
@@ -72,7 +75,8 @@
           "verdict": "supported",
           "doc_id": "d2",
           "quote": "Upgrade your stay by reserving an upscale suite, offering separate living, work and sleeping areas.",
-          "note": "Matches the claim exactly.",
+          "note": "stated on official page",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/satvw-the-westin-riverwalk-san-antonio/rooms/",
           "tier": "official",
           "quote_verified": true
@@ -88,7 +92,8 @@
           "verdict": "supported",
           "doc_id": "d2",
           "quote": "Stay in our hotel rooms in downtown San Antonio in a picturesque and quiet section of The Riverwalk",
-          "note": "Describes the location as a quiet section of the Riverwalk.",
+          "note": "stated on official page",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/satvw-the-westin-riverwalk-san-antonio/rooms/",
           "tier": "official",
           "quote_verified": true
@@ -99,18 +104,9 @@
     {
       "claim_id": "f-4",
       "text": "The lobby has River Walk views.",
-      "findings": [
-        {
-          "verdict": "supported",
-          "doc_id": "d1",
-          "quote": "Relax at the outdoor pool, WestinWORKOUT® Fitness Studio, Collaboration Center, or serene lobby with River Walk views.",
-          "note": "States the lobby has River Walk views.",
-          "url": "https://www.marriott.com/en-us/hotels/satvw-the-westin-riverwalk-san-antonio/overview/",
-          "tier": "official",
-          "quote_verified": true
-        }
-      ],
-      "status": "supported"
+      "findings": [],
+      "status": "unverified",
+      "reason": "no source states it"
     },
     {
       "claim_id": "f-5",
@@ -119,17 +115,9 @@
         {
           "verdict": "supported",
           "doc_id": "d1",
-          "quote": "Antonio, guests enjoy river-view balconies, Zocca Cuisine D'Italia's indoor-outdoor bar and patio",
-          "note": "Covers the indoor-outdoor bar and patio.",
-          "url": "https://www.marriott.com/en-us/hotels/satvw-the-westin-riverwalk-san-antonio/overview/",
-          "tier": "official",
-          "quote_verified": true
-        },
-        {
-          "verdict": "supported",
-          "doc_id": "d1",
-          "quote": "Enjoy a cocktail, glass of wine or favorite libation at our restaurant on the San Antonio River Walk.",
-          "note": "Places the restaurant on the River Walk.",
+          "quote": "Zocca Cuisine D'Italia's indoor-outdoor bar and patio",
+          "note": "stated on official page",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/satvw-the-westin-riverwalk-san-antonio/overview/",
           "tier": "official",
           "quote_verified": true
@@ -143,10 +131,11 @@
       "findings": [
         {
           "verdict": "supported",
-          "doc_id": "d1",
+          "doc_id": "d4",
           "quote": "take your seat at our vibrant blue pool bar in San Antonio overlooking our glistening outdoor pool. After a swim or stroll on the Riverwalk, stop by our bar's sunlit patio for a handcrafted cocktail and light pub fare.",
-          "note": "Covers every element of the claim.",
-          "url": "https://www.marriott.com/en-us/hotels/satvw-the-westin-riverwalk-san-antonio/overview/",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/satvw-the-westin-riverwalk-san-antonio/dining/",
           "tier": "official",
           "quote_verified": true
         }
@@ -161,7 +150,8 @@
           "verdict": "supported",
           "doc_id": "d1",
           "quote": "live music on select days, river parades, and culture-centric events",
-          "note": "Matches the claim.",
+          "note": "stated on official page",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/satvw-the-westin-riverwalk-san-antonio/overview/",
           "tier": "official",
           "quote_verified": true
@@ -177,7 +167,8 @@
           "verdict": "supported",
           "doc_id": "d3",
           "quote": "Our hotel's property Run Concierges lead guided group runs every Tuesday and Thursday at 6am (weather permitting) from our lobby.",
-          "note": "Covers the days, time, weather caveat and lobby start.",
+          "note": "stated on official page",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/satvw-the-westin-riverwalk-san-antonio/experiences/",
           "tier": "official",
           "quote_verified": true
@@ -192,8 +183,9 @@
         {
           "verdict": "supported",
           "doc_id": "d3",
-          "quote": "We greet them at check-in with a cool amenity bag with everything they'll need to explore the hotel and beyond. First, they'll unfold the big world map to find their location.",
-          "note": "Covers the amenity bag and the world map.",
+          "quote": "We greet them at check-in with a cool amenity bag",
+          "note": "stated on official page",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/satvw-the-westin-riverwalk-san-antonio/experiences/",
           "tier": "official",
           "quote_verified": true
@@ -201,8 +193,19 @@
         {
           "verdict": "supported",
           "doc_id": "d3",
-          "quote": "They can even share tall Texan tales with friends and family back home using make-your-own postcards.",
-          "note": "Covers the make-your-own postcards.",
+          "quote": "First, they'll unfold the big world map to find their location.",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/satvw-the-westin-riverwalk-san-antonio/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "using make-your-own postcards",
+          "note": "stated on official page",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/satvw-the-westin-riverwalk-san-antonio/experiences/",
           "tier": "official",
           "quote_verified": true
@@ -217,8 +220,9 @@
         {
           "verdict": "supported",
           "doc_id": "d1",
-          "quote": "We are a dog-friendly hotel. Guests are welcome to bring a canine friend weighing up to 40 pounds. We are happy to provide a Westin Heavenly Dog Bed, pet welcome kit, and food bowls with mat.",
-          "note": "Covers the dog-friendly policy, the 40-pound limit, the bed and the welcome kit.",
+          "quote": "Guests are welcome to bring a canine friend weighing up to 40 pounds. We are happy to provide a Westin Heavenly Dog Bed, pet welcome kit, and food bowls with mat.",
+          "note": "stated on official page",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/satvw-the-westin-riverwalk-san-antonio/overview/",
           "tier": "official",
           "quote_verified": true
@@ -233,8 +237,19 @@
         {
           "verdict": "supported",
           "doc_id": "d1",
-          "quote": "Situated on the Riverwalk in the energetic downtown area, our upscale hotel is just a mile from the Amtrak Train Station",
-          "note": "Places the hotel on the Riverwalk downtown.",
+          "quote": "Perfectly placed on the famous River Walk",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/satvw-the-westin-riverwalk-san-antonio/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "As a leading hotel in downtown San",
+          "note": "stated on official page",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/satvw-the-westin-riverwalk-san-antonio/overview/",
           "tier": "official",
           "quote_verified": true
@@ -248,19 +263,31 @@
       "findings": [
         {
           "verdict": "supported",
-          "doc_id": "d1",
-          "quote": "savor the view of the Tower of the Americas from beside our heated outdoor pool.",
-          "note": "Covers the heated outdoor pool and the Tower view.",
-          "url": "https://www.marriott.com/en-us/hotels/satvw-the-westin-riverwalk-san-antonio/overview/",
+          "doc_id": "d3",
+          "quote": "Views of the River Walk and the nearby Tower of the Americas make our pool area a one-of-a-kind sanctuary",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/satvw-the-westin-riverwalk-san-antonio/experiences/",
           "tier": "official",
           "quote_verified": true
         },
         {
           "verdict": "supported",
           "doc_id": "d3",
-          "quote": "Views of the River Walk and the nearby Tower of the Americas make our pool area a one-of-a-kind sanctuary in the midst of downtown San Antonio. Savor the secluded garden-style feel of our pool deck",
-          "note": "Covers the River Walk view and the garden-style deck.",
+          "quote": "Savor the secluded garden-style feel of our pool deck",
+          "note": "stated on official page",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/satvw-the-westin-riverwalk-san-antonio/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "beside our heated outdoor pool",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/satvw-the-westin-riverwalk-san-antonio/overview/",
           "tier": "official",
           "quote_verified": true
         }
@@ -274,8 +301,9 @@
         {
           "verdict": "supported",
           "doc_id": "d2",
-          "quote": "every room is adorned with Spanish Colonial décor, featuring rust-red colors, dark wood and iron accents.",
-          "note": "Matches the claim.",
+          "quote": "every room is adorned with Spanish Colonial décor, featuring rust-red colors, dark wood and iron accents",
+          "note": "stated on official page",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/satvw-the-westin-riverwalk-san-antonio/rooms/",
           "tier": "official",
           "quote_verified": true
@@ -290,8 +318,19 @@
         {
           "verdict": "supported",
           "doc_id": "d2",
-          "quote": "Feel refreshed after a night’s sleep in a Westin Heavenly® Bed, as the sunlight filters through your private balcony or terrace. Begin the day under your spa-style shower in a marble bathroom",
-          "note": "Covers the bed, the balcony or terrace, and the marble bathroom with spa-style shower.",
+          "quote": "Feel refreshed after a night’s sleep in a Westin Heavenly® Bed, as the sunlight filters through your private balcony or terrace.",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/satvw-the-westin-riverwalk-san-antonio/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "under your spa-style shower in a marble bathroom",
+          "note": "stated on official page",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/satvw-the-westin-riverwalk-san-antonio/rooms/",
           "tier": "official",
           "quote_verified": true
@@ -307,7 +346,8 @@
           "verdict": "supported",
           "doc_id": "d1",
           "quote": "The Alamo situated under a half a mile away and can be easily reached by foot.",
-          "note": "Matches the claim.",
+          "note": "stated on official page",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/satvw-the-westin-riverwalk-san-antonio/overview/",
           "tier": "official",
           "quote_verified": true
@@ -323,7 +363,8 @@
           "verdict": "supported",
           "doc_id": "d1",
           "quote": "Minimum Age to Check In: 21",
-          "note": "Matches the claim.",
+          "note": "stated on official page",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/satvw-the-westin-riverwalk-san-antonio/overview/",
           "tier": "official",
           "quote_verified": true
@@ -339,7 +380,8 @@
           "verdict": "supported",
           "doc_id": "d1",
           "quote": "SAT is located approximately 8.5 Miles from the hotel.",
-          "note": "Matches the claim.",
+          "note": "stated on official page",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/satvw-the-westin-riverwalk-san-antonio/overview/",
           "tier": "official",
           "quote_verified": true

@@ -1,0 +1,352 @@
+{
+  "hotel_slug": "the-westin-josun-seoul",
+  "hotel_name": "The Westin Josun Seoul",
+  "checked_at": "2026-11-05T10:08:23.442Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 16,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 17
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/selwi-the-westin-josun-seoul/overview/",
+      "tier": "official",
+      "chars": 23104
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/selwi-the-westin-josun-seoul/rooms/",
+      "tier": "official",
+      "chars": 9424
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/selwi-the-westin-josun-seoul/rooms/premium-accommodations/",
+      "tier": "official",
+      "chars": 8263
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/selwi-the-westin-josun-seoul/dining/",
+      "tier": "official",
+      "chars": 7251
+    },
+    {
+      "id": "d5",
+      "url": "https://www.marriott.com/en-us/hotels/selwi-the-westin-josun-seoul/experiences/",
+      "tier": "official",
+      "chars": 13684
+    },
+    {
+      "id": "d6",
+      "url": "https://www.marriott.com/en-us/hotels/selwi-the-westin-josun-seoul/experiences/explore-seoul/",
+      "tier": "official",
+      "chars": 5644
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel has a history of hosting major South Korean political, economic and cultural events.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "a rich history of hosting some of South Korea's biggest political, economic, and cultural events",
+          "note": "history",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/selwi-the-westin-josun-seoul/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is in downtown Seoul near City Hall, Myeongdong and Gwanghwamun.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Perfectly located in the heart of Seoul, near City Hall, Myeongdong, and Gwanghwamun",
+          "note": "location",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/selwi-the-westin-josun-seoul/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel is near Gyeongbokgung Palace, Seoul's largest palace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Our hotel is located near Gyeongbokgung Palace, Seoul's largest palace",
+          "note": "palace",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/selwi-the-westin-josun-seoul/experiences/explore-seoul/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel is near Bukchon Hanok Village.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "a hotel near Bukchon Hanok Village in Seoul",
+          "note": "Bukchon",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/selwi-the-westin-josun-seoul/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "One room type has a view of Hwangudan.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "We also do have a room type with the view of Hwangudan.",
+          "note": "view",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/selwi-the-westin-josun-seoul/experiences/explore-seoul/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Rooms have Nespresso machines and anti-allergy carpets.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Refreshing in-room touches such as anti-allergy carpets, a Nespresso coffee machine, and an LED TV",
+          "note": "in-room",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/selwi-the-westin-josun-seoul/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The hotel's top suite has a grand parlor and a formal dining room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The 310m² crown jewel of our hotel.",
+          "note": "top suite",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/selwi-the-westin-josun-seoul/rooms/premium-accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "this unparalleled masterpiece includes a grand parlor and elegant formal dining room to host dignitaries in regal style.",
+          "note": "parlor/dining",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/selwi-the-westin-josun-seoul/rooms/premium-accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The City Athletic Club includes a sauna, V-Spa and a fitness center.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Reenergize at our sun-lit pool and state-of-the-art fitness center, or unwind completely with our relaxing sauna, V-Spa, and signature 'On-gi' scrub program",
+          "note": "CAC facilities",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/selwi-the-westin-josun-seoul/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Room packages include curated tours such as a DMZ Tour, a Seoul City Tour and a Myeongdong NANTA Tour.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Choose from a DMZ Tour to explore Korea's history, a Seoul City Tour to visit key landmarks, or a Myeongdong NANTA Tour for a unique cultural performance.",
+          "note": "tours",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/selwi-the-westin-josun-seoul/experiences/explore-seoul/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The Lounge & Bar serves afternoon tea sets, classic cocktails and premium single-malt whiskies.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "offers delicately crafted afternoon tea sets and classic cocktails by mixologists, as well as a curated selection of premium single-malt whiskies paired with gourmet bar bites.",
+          "note": "bar",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/selwi-the-westin-josun-seoul/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel was established in 1914.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Established in 1914, we boast the title of ‘South Korea’s oldest’",
+          "note": "1914",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/selwi-the-westin-josun-seoul/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The hotel is connected to Hwangudan, a shrine complex with a coronation site and Hwanggungu.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Our hotel is connected to iconic Hwangudan place, a shrine complex consisted of two main buildings: a coronation site and Hwanggungu.",
+          "note": "Hwangudan",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/selwi-the-westin-josun-seoul/experiences/explore-seoul/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The City Athletic Club has a 25-meter indoor pool lit by natural sunlight from a glass ceiling.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Bathed in natural sunlight from a magnificent glass ceiling, our 25-meter indoor pool within the City Athletic Club is a sanctuary for your complete renewal.",
+          "note": "pool",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/selwi-the-westin-josun-seoul/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "On-gi is a Korean body scrub program at the City Athletic Club that blends traditional bathing rituals with modern wellness.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Discover 'On-gi', our premium Korean body scrub program at the City Athletic Club. Blending traditional bathing rituals with modern wellness concepts",
+          "note": "On-gi",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/selwi-the-westin-josun-seoul/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Renewal Suite blends Korean tradition with Western comfort.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our Renewal Suite is the only suite in the Westin Josun Seoul that boasts harmonious blend of Korean tradition and Western comfort.",
+          "note": "Renewal Suite",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/selwi-the-westin-josun-seoul/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "On weekends, public holidays, summer peak and year-end, City Athletic Club access is limited to once per day per guest.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "On weekends, public holidays, summer peak season, and year-end season, access to the facility is limited to once per day per guest.",
+          "note": "entry limit",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/selwi-the-westin-josun-seoul/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes the busy Myeongdong area may be crowded during peak tourist seasons.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

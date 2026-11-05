@@ -1,17 +1,18 @@
 {
   "hotel_slug": "the-westin-cairo-golf-resort-spa-katameya-dunes",
   "hotel_name": "The Westin Cairo Golf Resort & Spa, Katameya Dunes",
-  "checked_at": "2026-11-05T09:55:16.812Z",
-  "script_version": null,
+  "checked_at": "2026-11-05T10:12:36.675Z",
+  "script_version": 1,
   "decision": {
     "eligible": false,
     "blockers": [
-      "used in the script but not verified: c-1"
+      "contradicted by a source: h-1",
+      "used in the script but not verified: h-2"
     ],
     "counts": {
-      "supported": 13,
-      "contradicted": 0,
-      "unverified": 1,
+      "supported": 11,
+      "contradicted": 1,
+      "unverified": 2,
       "exempt": 1,
       "total": 15
     }
@@ -58,7 +59,8 @@
           "verdict": "supported",
           "doc_id": "d1",
           "quote": "set within a prestigious private community in New Cairo, Egypt",
-          "note": "Official overview states private community in New Cairo.",
+          "note": "official page",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/caiwi-the-westin-cairo-golf-resort-and-spa-katameya-dunes/overview/",
           "tier": "official",
           "quote_verified": true
@@ -74,7 +76,8 @@
           "verdict": "supported",
           "doc_id": "d4",
           "quote": "Located near Cairo International Airport",
-          "note": "Directly stated.",
+          "note": "official page",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/caiwi-the-westin-cairo-golf-resort-and-spa-katameya-dunes/experiences/",
           "tier": "official",
           "quote_verified": true
@@ -90,7 +93,8 @@
           "verdict": "supported",
           "doc_id": "d1",
           "quote": "The Golf Academy boasts the very latest in teaching equipment technology and is complemented by extensive practice facilities",
-          "note": "Golf Academy with extensive practice facilities.",
+          "note": "official page",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/caiwi-the-westin-cairo-golf-resort-and-spa-katameya-dunes/overview/",
           "tier": "official",
           "quote_verified": true
@@ -106,7 +110,8 @@
           "verdict": "supported",
           "doc_id": "d1",
           "quote": "Choose from thoughtfully appointed guest rooms and suites offering serene views of lush fairways.",
-          "note": "Rooms and suites with fairway views.",
+          "note": "official page",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/caiwi-the-westin-cairo-golf-resort-and-spa-katameya-dunes/overview/",
           "tier": "official",
           "quote_verified": true
@@ -122,7 +127,8 @@
           "verdict": "supported",
           "doc_id": "d2",
           "quote": "saunter out onto your private balcony and breathe in the fragrance of tropical blossoms from the gardens around",
-          "note": "Westin Suite private balcony with surrounding gardens.",
+          "note": "official page",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/caiwi-the-westin-cairo-golf-resort-and-spa-katameya-dunes/rooms/",
           "tier": "official",
           "quote_verified": true
@@ -138,7 +144,8 @@
           "verdict": "supported",
           "doc_id": "d1",
           "quote": "including a high-tech steam room, “Rain Shower”, swimming pool and whirlpool",
-          "note": "All four facilities listed for the Heavenly Spa.",
+          "note": "official page",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/caiwi-the-westin-cairo-golf-resort-and-spa-katameya-dunes/overview/",
           "tier": "official",
           "quote_verified": true
@@ -154,7 +161,8 @@
           "verdict": "supported",
           "doc_id": "d1",
           "quote": "The menu is an array of wellness treatments from Asia, such as techniques from traditional Chinese Medicine and Thai massage",
-          "note": "Asian techniques stated.",
+          "note": "official page",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/caiwi-the-westin-cairo-golf-resort-and-spa-katameya-dunes/overview/",
           "tier": "official",
           "quote_verified": true
@@ -169,8 +177,9 @@
         {
           "verdict": "supported",
           "doc_id": "d1",
-          "quote": "and also using local organic products for body scrubs and wraps",
-          "note": "Directly stated.",
+          "quote": "using local organic products for body scrubs and wraps",
+          "note": "official page",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/caiwi-the-westin-cairo-golf-resort-and-spa-katameya-dunes/overview/",
           "tier": "official",
           "quote_verified": true
@@ -184,10 +193,11 @@
       "findings": [
         {
           "verdict": "supported",
-          "doc_id": "d3",
+          "doc_id": "d1",
           "quote": "Maré Social is an intimate taberna-style restaurant and bar inspired by Two Star Michelin Chef Henrique Sá Pessoa",
-          "note": "Concept and chef.",
-          "url": "https://www.marriott.com/en-us/hotels/caiwi-the-westin-cairo-golf-resort-and-spa-katameya-dunes/dining/",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/caiwi-the-westin-cairo-golf-resort-and-spa-katameya-dunes/overview/",
           "tier": "official",
           "quote_verified": true
         },
@@ -195,7 +205,8 @@
           "verdict": "supported",
           "doc_id": "d3",
           "quote": "Maré Social provides an inviting atmosphere both indoors and outdoors, overlooking the golf course",
-          "note": "Indoor/outdoor overlooking golf course.",
+          "note": "official page",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/caiwi-the-westin-cairo-golf-resort-and-spa-katameya-dunes/dining/",
           "tier": "official",
           "quote_verified": true
@@ -211,7 +222,8 @@
           "verdict": "supported",
           "doc_id": "d4",
           "quote": "History enthusiasts can explore the treasures of the Museum of Egyptian Antiquities or plan a visit to the Pyramids and the Sphinx of Giza.",
-          "note": "Both attractions mentioned.",
+          "note": "official page",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/caiwi-the-westin-cairo-golf-resort-and-spa-katameya-dunes/experiences/",
           "tier": "official",
           "quote_verified": true
@@ -225,40 +237,55 @@
       "findings": [
         {
           "verdict": "supported",
-          "doc_id": "d1",
-          "quote": "a 27-hole championship golf course designed by Sir Nick Faldo and Brian Curley",
-          "note": "Directly stated.",
-          "url": "https://www.marriott.com/en-us/hotels/caiwi-the-westin-cairo-golf-resort-and-spa-katameya-dunes/overview/",
+          "doc_id": "d4",
+          "quote": "featuring a 27-hole golf course designed by Sir Nick Faldo and Brian Curley",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/caiwi-the-westin-cairo-golf-resort-and-spa-katameya-dunes/experiences/",
           "tier": "official",
           "quote_verified": true
         },
         {
           "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "a 27-hole championship golf course designed by Sir Nick Faldo and Brian Curley",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/caiwi-the-westin-cairo-golf-resort-and-spa-katameya-dunes/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "contradicted",
           "doc_id": "d4",
-          "quote": "featuring a 27-hole golf course designed by Sir Nick Faldo and Brian Curley",
-          "note": "Corroborates designers and hole count.",
+          "quote": "unwind with a round on our championship 18-hole golf course",
+          "note": "same site gives 18-hole elsewhere; hole count inconsistent",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/caiwi-the-westin-cairo-golf-resort-and-spa-katameya-dunes/experiences/",
           "tier": "official",
           "quote_verified": true
         }
       ],
-      "status": "supported"
+      "status": "contradicted",
+      "reason": "a source says something different"
     },
     {
       "claim_id": "h-2",
       "text": "The Presidential Suite has golf course views and a private pool.",
       "findings": [
         {
-          "verdict": "supported",
+          "verdict": "partial",
           "doc_id": "d2",
-          "quote": "reserve our Presidential Suite with breathtaking golf course views and a private pool",
-          "note": "Directly stated.",
+          "quote": "Presidential Suite, 1 King, Ground floor, Private pool",
+          "note": "only part stated (golf views / trip-planning framing not stated)",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/caiwi-the-westin-cairo-golf-resort-and-spa-katameya-dunes/rooms/",
           "tier": "official",
           "quote_verified": true
         }
       ],
-      "status": "supported"
+      "status": "unverified",
+      "reason": "sources cover only part of the claim"
     },
     {
       "claim_id": "h-3",
@@ -268,7 +295,8 @@
           "verdict": "supported",
           "doc_id": "d1",
           "quote": "Each treatment room features unique landscaping and personal shower",
-          "note": "Directly stated.",
+          "note": "official page",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/caiwi-the-westin-cairo-golf-resort-and-spa-katameya-dunes/overview/",
           "tier": "official",
           "quote_verified": true
@@ -283,8 +311,9 @@
         {
           "verdict": "partial",
           "doc_id": "d4",
-          "quote": "History enthusiasts can explore the treasures of the Museum of Egyptian Antiquities or plan a visit to the Pyramids and the Sphinx of Giza.",
-          "note": "Supports planning visits; WhataHotel's note on secluded location is not in any document.",
+          "quote": "is set within a prestigious residential community in New Cairo",
+          "note": "only part stated (golf views / trip-planning framing not stated)",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/caiwi-the-westin-cairo-golf-resort-and-spa-katameya-dunes/experiences/",
           "tier": "official",
           "quote_verified": true
@@ -292,8 +321,9 @@
         {
           "verdict": "partial",
           "doc_id": "d4",
-          "quote": "is set within a prestigious residential community in New Cairo",
-          "note": "Supports New Cairo location only.",
+          "quote": "plan a visit to the Pyramids and the Sphinx of Giza",
+          "note": "only part stated (golf views / trip-planning framing not stated)",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/caiwi-the-westin-cairo-golf-resort-and-spa-katameya-dunes/experiences/",
           "tier": "official",
           "quote_verified": true

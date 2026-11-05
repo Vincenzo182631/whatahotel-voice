@@ -1,0 +1,316 @@
+{
+  "hotel_slug": "the-westin-lake-las-vegas-resort-spa",
+  "hotel_name": "The Westin Lake Las Vegas Resort & Spa",
+  "checked_at": "2026-11-05T10:08:26.341Z",
+  "script_version": null,
+  "decision": {
+    "eligible": false,
+    "blockers": [
+      "used in the script but not verified: c-1"
+    ],
+    "counts": {
+      "supported": 13,
+      "contradicted": 0,
+      "unverified": 1,
+      "exempt": 1,
+      "total": 15
+    }
+  },
+  "applied": false,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/laswi-the-westin-lake-las-vegas-resort-and-spa/overview/",
+      "tier": "official",
+      "chars": 19369
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/laswi-the-westin-lake-las-vegas-resort-and-spa/rooms/",
+      "tier": "official",
+      "chars": 6985
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/laswi-the-westin-lake-las-vegas-resort-and-spa/dining/",
+      "tier": "official",
+      "chars": 8624
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/laswi-the-westin-lake-las-vegas-resort-and-spa/experiences/",
+      "tier": "official",
+      "chars": 15465
+    },
+    {
+      "id": "d5",
+      "url": "https://www.marriott.com/en-us/hotels/laswi-the-westin-lake-las-vegas-resort-and-spa/experiences/pools/",
+      "tier": "official",
+      "chars": 5209
+    },
+    {
+      "id": "d6",
+      "url": "https://www.cntraveler.com/hotels/henderson/the-westin-lake-las-vegas-resort-and-spa",
+      "tier": "editorial",
+      "chars": 4976
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The resort is on Lake Las Vegas, minutes from the Las Vegas Strip.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "a tranquil Lake Las Vegas hotel offering luxury accommodations and resort-style amenities minutes from the Las Vegas Strip",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/laswi-the-westin-lake-las-vegas-resort-and-spa/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Guest rooms and suites have lake views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Unwind in spacious guest rooms and suites with soothing décor, modern technology, and lake views.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/laswi-the-westin-lake-las-vegas-resort-and-spa/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Accommodation options include suites and Casbah Villas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Book a luxurious Lake Las Vegas suite or Casbah Villa in Henderson and enjoy breathtaking views.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/laswi-the-westin-lake-las-vegas-resort-and-spa/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The resort has the two-level Nuala Pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Lounge at the two-level Nuala Pool",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/laswi-the-westin-lake-las-vegas-resort-and-spa/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "A whirlpool sits next to the upper-level pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Visit the upper-level pool and take in views of the lake and beach from a comfortable lounge chair, or rent a private cabana for a more pampered experience. After practicing your backstroke, slip into the adjacent whirlpool",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/laswi-the-westin-lake-las-vegas-resort-and-spa/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "By the lower-level pool there is a basketball court and a mini-golf area.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Nearby, join a pickup basketball game or improve your putting on our mini-golf area.",
+          "note": "follows the lower-level pool description",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/laswi-the-westin-lake-las-vegas-resort-and-spa/experiences/pools/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Ah Spa by Ageless Humans is on site.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Rejuvenate at the new Ah Spa by Ageless Humans at The Westin Lake Las Vegas Resort & Spa.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/laswi-the-westin-lake-las-vegas-resort-and-spa/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Marssa Restaurant serves Certified Angus Beef and Wagyu steaks with lake and mountain views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Treat yourself to fine dining at Marssa Restaurant, our restaurant in Henderson, NV, serving Certified Angus Beef and Wagyu steaks. Dine in an elegant setting with stunning lake and mountain views",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/laswi-the-westin-lake-las-vegas-resort-and-spa/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Pets are welcome.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Yes, pets are welcome at The Westin Lake Las Vegas Resort & Spa.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/laswi-the-westin-lake-las-vegas-resort-and-spa/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel is near Lake Mead National Recreation Area.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Our hotel near Lake Mead National Recreation Area offers year-round activities",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/laswi-the-westin-lake-las-vegas-resort-and-spa/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The upper-level pool has views of the lake and beach, with private cabanas to rent.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Visit the upper-level pool and take in views of the lake and beach from a comfortable lounge chair, or rent a private cabana for a more pampered experience.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/laswi-the-westin-lake-las-vegas-resort-and-spa/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The property sits on the shores of Lake Las Vegas in Henderson, with a desert-lakeside atmosphere.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Discover resort-style relaxation at our luxury hotel in Henderson, NV, just minutes from the heart of Las Vegas.",
+          "note": "Henderson",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/laswi-the-westin-lake-las-vegas-resort-and-spa/experiences/pools/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Nestled on the shores of Lake Las Vegas, our property seamlessly blends upscale amenities with a serene desert-lakeside atmosphere.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/laswi-the-westin-lake-las-vegas-resort-and-spa/experiences/pools/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Guests can play Reflection Bay Golf Club, a Jack Nicklaus Signature Design course with lake and canyon views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "at the award-winning Reflection Bay Golf Club. This Jack Nicklaus Signature Design course offers stunning Lake Las Vegas and canyon views.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/laswi-the-westin-lake-las-vegas-resort-and-spa/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The resort is in Henderson on Lake Las Vegas, not on the Strip; WhataHotel notes guests need transportation to reach the Strip.",
+      "findings": [
+        {
+          "verdict": "partial",
+          "doc_id": "d1",
+          "quote": "a tranquil Lake Las Vegas hotel offering luxury accommodations and resort-style amenities minutes from the Las Vegas Strip",
+          "note": "Henderson/Lake Las Vegas, minutes from the Strip; transport note is WhataHotel's own",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/laswi-the-westin-lake-las-vegas-resort-and-spa/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "unverified",
+      "reason": "sources cover only part of the claim"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes limited nightlife and entertainment on site.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
