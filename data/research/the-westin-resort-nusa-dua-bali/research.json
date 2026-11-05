@@ -1,0 +1,89 @@
+{
+  "slug": "the-westin-resort-nusa-dua-bali",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "The Westin Resort Nusa Dua, Bali",
+      "city": "Bali",
+      "country": "ID",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Bali, ID)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/dpswi-the-westin-resort-nusa-dua-bali/overview/"
+    ],
+    "checked_at": "2026-11-05T09:17:44.859Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/dpswi-the-westin-resort-nusa-dua-bali/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/dpswi-the-westin-resort-nusa-dua-bali/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/dpswi-the-westin-resort-nusa-dua-bali/overview/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:17:54.211Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/dpswi-the-westin-resort-nusa-dua-bali/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:18:09.266Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/dpswi-the-westin-resort-nusa-dua-bali/dining/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:18:18.258Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/dpswi-the-westin-resort-nusa-dua-bali/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:18:28.777Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 4,
+    "chars": 52553,
+    "est_claude_tokens": 13138
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-11-05T09:18:34.318Z"
+}

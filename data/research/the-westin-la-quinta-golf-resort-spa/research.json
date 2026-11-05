@@ -1,0 +1,103 @@
+{
+  "slug": "the-westin-la-quinta-golf-resort-spa",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "The Westin La Quinta Golf Resort & Spa",
+      "city": "Marbella",
+      "country": "ES",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Marbella, ES)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/agpwi-the-westin-la-quinta-golf-resort-and-spa-benahavis-marbella/overview/"
+    ],
+    "checked_at": "2026-11-05T09:18:55.627Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/agpwi-the-westin-la-quinta-golf-resort-and-spa-benahavis-marbella/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/agpwi-the-westin-la-quinta-golf-resort-and-spa-benahavis-marbella/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/agpwi-the-westin-la-quinta-golf-resort-and-spa-benahavis-marbella/overview/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:19:18.922Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/agpwi-the-westin-la-quinta-golf-resort-and-spa-benahavis-marbella/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:19:29.846Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/agpwi-the-westin-la-quinta-golf-resort-and-spa-benahavis-marbella/rooms/suites/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:19:39.390Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/agpwi-the-westin-la-quinta-golf-resort-and-spa-benahavis-marbella/dining/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:19:49.374Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.marriott.com/en-us/hotels/agpwi-the-westin-la-quinta-golf-resort-and-spa-benahavis-marbella/spa/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:19:59.032Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.marriott.com/en-us/hotels/agpwi-the-westin-la-quinta-golf-resort-and-spa-benahavis-marbella/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:20:08.880Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 9,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 6,
+    "chars": 63660,
+    "est_claude_tokens": 15915
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-11-05T09:20:14.503Z"
+}

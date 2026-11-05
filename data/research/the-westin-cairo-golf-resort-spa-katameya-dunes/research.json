@@ -1,0 +1,89 @@
+{
+  "slug": "the-westin-cairo-golf-resort-spa-katameya-dunes",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "The Westin Cairo Golf Resort & Spa, Katameya Dunes",
+      "city": "Cairo",
+      "country": "EG",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Cairo, EG)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/caiwi-the-westin-cairo-golf-resort-and-spa-katameya-dunes/overview/"
+    ],
+    "checked_at": "2026-11-05T09:17:06.506Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/caiwi-the-westin-cairo-golf-resort-and-spa-katameya-dunes/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/caiwi-the-westin-cairo-golf-resort-and-spa-katameya-dunes/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/caiwi-the-westin-cairo-golf-resort-and-spa-katameya-dunes/overview/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:17:35.225Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/caiwi-the-westin-cairo-golf-resort-and-spa-katameya-dunes/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:17:45.052Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/caiwi-the-westin-cairo-golf-resort-and-spa-katameya-dunes/dining/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:17:50.326Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/caiwi-the-westin-cairo-golf-resort-and-spa-katameya-dunes/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:17:59.245Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 4,
+    "chars": 44558,
+    "est_claude_tokens": 11140
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-11-05T09:18:04.150Z"
+}

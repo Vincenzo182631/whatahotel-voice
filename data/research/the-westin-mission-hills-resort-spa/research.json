@@ -1,0 +1,103 @@
+{
+  "slug": "the-westin-mission-hills-resort-spa",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "The Westin Mission Hills Resort & Spa",
+      "city": "Rancho Mirage",
+      "country": "US",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "80% of the hotel name appears on the page",
+      "location matches (Rancho Mirage, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/pspwi-the-westin-rancho-mirage-golf-resort-and-spa/overview/"
+    ],
+    "checked_at": "2026-11-05T09:22:16.280Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/pspwi-the-westin-rancho-mirage-golf-resort-and-spa/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/pspwi-the-westin-rancho-mirage-golf-resort-and-spa/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 0.8,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/pspwi-the-westin-rancho-mirage-golf-resort-and-spa/overview/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:22:54.619Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/pspwi-the-westin-rancho-mirage-golf-resort-and-spa/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:23:08.277Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/pspwi-the-westin-rancho-mirage-golf-resort-and-spa/dining/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:23:17.853Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/pspwi-the-westin-rancho-mirage-golf-resort-and-spa/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:23:27.941Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.marriott.com/en-us/hotels/pspwi-the-westin-rancho-mirage-golf-resort-and-spa/racquet-sports/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:23:38.635Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.marriott.com/en-us/hotels/pspwi-the-westin-rancho-mirage-golf-resort-and-spa/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:23:48.585Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 9,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 6,
+    "chars": 64893,
+    "est_claude_tokens": 16223
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-11-05T09:23:53.384Z"
+}

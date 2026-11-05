@@ -1,0 +1,83 @@
+{
+  "slug": "the-westin-charlotte",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "The Westin Charlotte",
+      "city": "Charlotte",
+      "country": "US",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Charlotte, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/cltcw-the-westin-charlotte/overview/",
+      "https://www.marriott.com/en-us/hotels/cltcw-the-westin-charlotte/experiences/"
+    ],
+    "checked_at": "2026-11-05T09:18:36.057Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/cltcw-the-westin-charlotte/experiences/",
+    "base_url": "https://www.marriott.com/en-us/hotels/cltcw-the-westin-charlotte/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/cltcw-the-westin-charlotte/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:19:20.622Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/cltcw-the-westin-charlotte/dining/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:19:30.078Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/cltcw-the-westin-charlotte/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:19:42.257Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.cntraveler.com/hotels/the-westin-charlotte",
+      "tier": "editorial",
+      "fetched_at": "2026-11-05T09:19:45.584Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 4,
+    "chars": 34905,
+    "est_claude_tokens": 8726
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-11-05T09:19:45.584Z"
+}

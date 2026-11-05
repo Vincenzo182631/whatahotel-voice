@@ -1,0 +1,96 @@
+{
+  "slug": "the-westin-austin-downtown",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "The Westin Austin Downtown",
+      "city": "Austin",
+      "country": "US",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Austin, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/auswi-the-westin-austin-downtown/overview/"
+    ],
+    "checked_at": "2026-11-05T09:21:42.394Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/auswi-the-westin-austin-downtown/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/auswi-the-westin-austin-downtown/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/auswi-the-westin-austin-downtown/overview/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:21:51.986Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/auswi-the-westin-austin-downtown/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:22:04.743Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/auswi-the-westin-austin-downtown/dining/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:22:11.117Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/auswi-the-westin-austin-downtown/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:22:22.810Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.marriott.com/en-us/hotels/auswi-the-westin-austin-downtown/experiences/holidays/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:22:33.708Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.cntraveler.com/hotels/austin/westin-austin-downtown",
+      "tier": "editorial",
+      "fetched_at": "2026-11-05T09:22:39.727Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 8,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 6,
+    "chars": 62073,
+    "est_claude_tokens": 15518
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-11-05T09:22:39.727Z"
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "the-westin-philadelphia",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "The Westin Philadelphia",
+      "city": "Philadelphia",
+      "country": "US",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Philadelphia, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/phlwi-the-westin-philadelphia/overview/"
+    ],
+    "checked_at": "2026-11-05T09:19:46.667Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/phlwi-the-westin-philadelphia/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/phlwi-the-westin-philadelphia/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/phlwi-the-westin-philadelphia/overview/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:20:11.035Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/phlwi-the-westin-philadelphia/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:20:17.813Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/phlwi-the-westin-philadelphia/dining/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:20:27.205Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/phlwi-the-westin-philadelphia/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:20:28.458Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 4,
+    "chars": 20488,
+    "est_claude_tokens": 5122
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-11-05T09:20:36.607Z"
+}

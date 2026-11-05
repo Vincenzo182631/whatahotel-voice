@@ -1,0 +1,89 @@
+{
+  "slug": "the-westin-hapuna-beach-resort",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "The Westin Hapuna Beach Resort",
+      "city": "Big Island",
+      "country": "US",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Big Island, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/koawi-the-westin-hapuna-beach-resort/overview/"
+    ],
+    "checked_at": "2026-11-05T09:20:57.382Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/koawi-the-westin-hapuna-beach-resort/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/koawi-the-westin-hapuna-beach-resort/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/koawi-the-westin-hapuna-beach-resort/overview/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:21:23.507Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/koawi-the-westin-hapuna-beach-resort/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:21:35.792Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/koawi-the-westin-hapuna-beach-resort/dining/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:21:50.280Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/koawi-the-westin-hapuna-beach-resort/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:22:04.257Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.cntraveler.com/hotels/united-states/kamuela/hapuna-beach-prince-hotel--big-island",
+      "tier": "editorial",
+      "fetched_at": "2026-11-05T09:22:11.435Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 5,
+    "chars": 58657,
+    "est_claude_tokens": 14664
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-11-05T09:22:11.435Z"
+}
