@@ -1,0 +1,338 @@
+{
+  "hotel_slug": "the-westin-hamburg",
+  "hotel_name": "The Westin Hamburg",
+  "checked_at": "2026-11-05T09:53:44.048Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 16,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 17
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/hamwi-the-westin-hamburg-elbphilharmonie/overview/",
+      "tier": "official",
+      "chars": 25586
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/hamwi-the-westin-hamburg-elbphilharmonie/rooms/",
+      "tier": "official",
+      "chars": 7973
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/hamwi-the-westin-hamburg-elbphilharmonie/dining/",
+      "tier": "official",
+      "chars": 9964
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/hamwi-the-westin-hamburg-elbphilharmonie/experiences/",
+      "tier": "official",
+      "chars": 17125
+    },
+    {
+      "id": "d5",
+      "url": "https://www.marriott.com/en-us/hotels/hamwi-the-westin-hamburg-elbphilharmonie/experiences/holidays/",
+      "tier": "official",
+      "chars": 4403
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The Elbphilharmonie building was designed by Swiss architects Herzog & de Meuron.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "As you make your way around the building that was designed by the Swiss architects Herzog & de Meuron",
+          "note": "Names the Swiss architects Herzog & de Meuron as the designers.",
+          "url": "https://www.marriott.com/en-us/hotels/hamwi-the-westin-hamburg-elbphilharmonie/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The Elbphilharmonie is built on a historic warehouse and crowned by glass.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Built on a historic warehouse and crowned by glass reflecting sky and sea",
+          "note": "States both elements: historic warehouse base and glass crown.",
+          "url": "https://www.marriott.com/en-us/hotels/hamwi-the-westin-hamburg-elbphilharmonie/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The puristic interior design is inspired by water, sand and wind.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "get inspired by the puristic interior that is inspired by water, sand and wind.",
+          "note": "Matches all three inspirations.",
+          "url": "https://www.marriott.com/en-us/hotels/hamwi-the-westin-hamburg-elbphilharmonie/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "From select rooms guests can watch the Queen Mary II enter port.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "from select rooms in the Elbphilharmonie you can even watch the Queen Mary II enter port.",
+          "note": "Directly stated.",
+          "url": "https://www.marriott.com/en-us/hotels/hamwi-the-westin-hamburg-elbphilharmonie/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The spa has Finnish and bio saunas and steam baths.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Six treatment rooms, Finnish and bio saunas, plus two steam baths create a calm space to unwind.",
+          "note": "Lists Finnish and bio saunas and steam baths.",
+          "url": "https://www.marriott.com/en-us/hotels/hamwi-the-westin-hamburg-elbphilharmonie/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Hotel guests have complimentary access to the day spa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Recharge at our day spa—hotel guests enjoy complimentary access, external guests pay €40 to €55.",
+          "note": "States complimentary day spa access for hotel guests.",
+          "url": "https://www.marriott.com/en-us/hotels/hamwi-the-westin-hamburg-elbphilharmonie/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Heavenly Spa at The Westin Hamburg is located on the 6th floor and is included for hotel guests.",
+          "note": "States spa use is included for hotel guests.",
+          "url": "https://www.marriott.com/en-us/hotels/hamwi-the-westin-hamburg-elbphilharmonie/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Fang & Feld serves North Sea fish and fruit and vegetables from the Alte Land near Hamburg.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Fang & Feld celebrates the regional with fresh North Sea fish and the best fruit and vegetables from Alte Land near Hamburg.",
+          "note": "Covers North Sea fish and Alte Land produce.",
+          "url": "https://www.marriott.com/en-us/hotels/hamwi-the-westin-hamburg-elbphilharmonie/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "BLICK Bar on the 8th floor serves crafted cocktails and small bites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "enjoy crafted cocktails, small bites, and a relaxed vibe on the 8th floor at our cocktail bar in Hamburg.",
+          "note": "Covers the 8th floor, crafted cocktails and small bites.",
+          "url": "https://www.marriott.com/en-us/hotels/hamwi-the-westin-hamburg-elbphilharmonie/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "A tipi is available for kids under six.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "For our youngest guests, a fun tipi for kids under six is also available.",
+          "note": "Directly stated.",
+          "url": "https://www.marriott.com/en-us/hotels/hamwi-the-westin-hamburg-elbphilharmonie/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Families get exclusive pool times with water toys.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Dive into family fun during exclusive pool times featuring water toys.",
+          "note": "Part of the family program.",
+          "url": "https://www.marriott.com/en-us/hotels/hamwi-the-westin-hamburg-elbphilharmonie/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel is located directly in the Elbphilharmonie.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our hotel is directly located in the Elbphilharmonie.",
+          "note": "Directly stated.",
+          "url": "https://www.marriott.com/en-us/hotels/hamwi-the-westin-hamburg-elbphilharmonie/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Guests reach the concert hall through a revolving door on the hotel's 8th floor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "visit the iconic concert hall for an unforgettable concert by just going through a revolving door on the 8th floor of the hotel.",
+          "note": "Covers the revolving door and the 8th floor.",
+          "url": "https://www.marriott.com/en-us/hotels/hamwi-the-westin-hamburg-elbphilharmonie/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Premium Waterfront rooms look out on small boats and large cruise ships passing on the Elbe.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Watch small boats and large cruise ships passing by on the Elbe from our Premium Waterfront rooms",
+          "note": "Directly stated.",
+          "url": "https://www.marriott.com/en-us/hotels/hamwi-the-westin-hamburg-elbphilharmonie/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Heavenly Spa has an indoor pool with natural daylight above Hamburg's port.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Swim with a view in our 20-meter indoor pool with natural daylight above Hamburg's port.",
+          "note": "Listed under Heavenly Spa Highlights.",
+          "url": "https://www.marriott.com/en-us/hotels/hamwi-the-westin-hamburg-elbphilharmonie/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "A Private Spa Suite offers a private whirlpool, sauna and steam bath.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Experience ultimate relaxation in our Private Spa Suite. Unwind in complete privacy with access to the whirlpool, sauna, steam bath, and a luxurious exclusive lounge area.",
+          "note": "Covers privacy plus the whirlpool, sauna and steam bath.",
+          "url": "https://www.marriott.com/en-us/hotels/hamwi-the-westin-hamburg-elbphilharmonie/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Classic rooms do not have a view of Hamburg or the harbor because they are inside the Elbphilharmonie; choose a higher category for views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Kindly note that Classic rooms do not offer a view of Hamburg or the harbor as these are located inside the Elbphilharmonie.",
+          "note": "Confirms the lack of views and the reason.",
+          "url": "https://www.marriott.com/en-us/hotels/hamwi-the-westin-hamburg-elbphilharmonie/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Enjoy the breathtaking view of the modern Hafencity through the floor-to-ceiling glass facades in our deluxe rooms",
+          "note": "Shows that higher categories offer views.",
+          "url": "https://www.marriott.com/en-us/hotels/hamwi-the-westin-hamburg-elbphilharmonie/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes the urban setting may lack traditional Hamburg charm.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "hotel_slug": "the-westin-nashville",
+  "hotel_name": "The Westin Nashville",
+  "checked_at": "2026-11-05T09:53:43.050Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 14,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 16
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/bnawi-the-westin-nashville/overview/",
+      "tier": "official",
+      "chars": 14870
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/bnawi-the-westin-nashville/rooms/",
+      "tier": "official",
+      "chars": 8017
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/bnawi-the-westin-nashville/dining/",
+      "tier": "official",
+      "chars": 7499
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/bnawi-the-westin-nashville/experiences/",
+      "tier": "official",
+      "chars": 15970
+    },
+    {
+      "id": "d5",
+      "url": "https://www.cntraveler.com/hotels/nashville/the-westin-nashville",
+      "tier": "editorial",
+      "chars": 5920
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is in downtown Nashville near Broadway and Music City Center.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Discover an enriching hotel in downtown Nashville.",
+          "note": "Establishes the downtown Nashville location.",
+          "url": "https://www.marriott.com/en-us/hotels/bnawi-the-westin-nashville/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Our hotel near Music City Center in Nashville makes us an ideal choice for conference attendees",
+          "note": "Establishes proximity to Music City Center.",
+          "url": "https://www.marriott.com/en-us/hotels/bnawi-the-westin-nashville/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The on-site fitness center at our downtown Nashville hotel close to Broadway",
+          "note": "Establishes downtown and close to Broadway.",
+          "url": "https://www.marriott.com/en-us/hotels/bnawi-the-westin-nashville/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Oak Steakhouse pairs farm-fresh dishes with an extensive selection of Italian and Spanish wines.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "It delivers the classic American steakhouse experience with farm-fresh dishes and an expansive offering of Italian and Spanish wines.",
+          "note": "Covers farm-fresh dishes plus Italian and Spanish wines.",
+          "url": "https://www.marriott.com/en-us/hotels/bnawi-the-westin-nashville/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Rhapsody Spa has a co-ed dry cedar sauna, hydro-experience steam showers and a relaxation lounge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Craft your own restorative experience by immersing yourself in our co-ed dry cedar sauna. Drift away in the embrace of hydro-experience steam showers, and find solace in our tranquil relaxation lounge.",
+          "note": "Covers all three named features.",
+          "url": "https://www.marriott.com/en-us/hotels/bnawi-the-westin-nashville/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The fitness center has Peloton bikes and a stretch and yoga room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "featuring free weights, state-of-the-art cardio equipment, Peloton bikes and a serene stretch/yoga room.",
+          "note": "Covers both Peloton bikes and the stretch/yoga room.",
+          "url": "https://www.marriott.com/en-us/hotels/bnawi-the-westin-nashville/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Bike Program gives guests complimentary access to bicycles to explore The Gulch, Music Row and downtown.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The Westin Nashville's Bike Program offers guests complimentary access to bicycles",
+          "note": "Establishes complimentary bicycle access.",
+          "url": "https://www.marriott.com/en-us/hotels/bnawi-the-westin-nashville/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "pedal through The Gulch, Music Row and downtown",
+          "note": "Covers all three named areas.",
+          "url": "https://www.marriott.com/en-us/hotels/bnawi-the-westin-nashville/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Hotel suites feature extra room, modern design and sweeping views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our Nashville hotel suites feature extra room, modern design, and sweeping views.",
+          "note": "Direct match.",
+          "url": "https://www.marriott.com/en-us/hotels/bnawi-the-westin-nashville/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Pets are welcome at the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Yes, pets are welcome at The Westin Nashville.",
+          "note": "Direct match.",
+          "url": "https://www.marriott.com/en-us/hotels/bnawi-the-westin-nashville/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The lobby has crystal chandeliers and leather seating.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "inside, there's personality to be found in the lobby's fancy crystal chandeliers and trendy leather seating.",
+          "note": "Covers both crystal chandeliers and leather seating.",
+          "url": "https://www.cntraveler.com/hotels/nashville/the-westin-nashville",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Each guest room has a walk-in shower.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The walk-in shower may be the best part of each guest room—unless, of course, yours also has a clawfoot tub.",
+          "note": "Review indicates each guest room has a walk-in shower.",
+          "url": "https://www.cntraveler.com/hotels/nashville/the-westin-nashville",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "L27 Rooftop Pool sits 27 floors above the Nashville skyline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "A luxurious oasis perched 27 floors above the vibrant Nashville skyline",
+          "note": "Appears in the L27 Rooftop Pool section.",
+          "url": "https://www.marriott.com/en-us/hotels/bnawi-the-westin-nashville/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Rhapsody Spa offers body treatments and a custom collection of IV therapies.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Our curated range of exclusive body treatments and a custom collection of IV therapies",
+          "note": "Covers both body treatments and IV therapies.",
+          "url": "https://www.marriott.com/en-us/hotels/bnawi-the-westin-nashville/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Presidential and Executive Suites are adorned with unique artwork and playful elements.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "indulge in our newly refreshed Presidential or Executive Suites, each adorned with unique artwork and playful elements",
+          "note": "Direct match.",
+          "url": "https://www.marriott.com/en-us/hotels/bnawi-the-westin-nashville/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "L27 Rooftop Lounge offers craft cocktails, bites, live music and DJ beats with views of the downtown skyline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Elevate your evening at L27 Rooftop Lounge, the ultimate downtown Nashville rooftop bar, to take in majestic views of the bustling downtown skyline.",
+          "note": "Covers views of the downtown skyline.",
+          "url": "https://www.marriott.com/en-us/hotels/bnawi-the-westin-nashville/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "this cocktail lounge in downtown Nashville offers a sophisticated setting to sip on craft cocktails, savor delicious bites and unwind to live music and DJ beats",
+          "note": "Covers craft cocktails, bites, live music and DJ beats.",
+          "url": "https://www.marriott.com/en-us/hotels/bnawi-the-westin-nashville/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The rooftop cocktail pool is seasonal; the indoor pool is open year-round.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Indoor Pool (Open Year-Round) (Indoor)Rooftop Cocktail Pool - Seasonal (Outdoor)",
+          "note": "Covers both the seasonal rooftop pool and the year-round indoor pool.",
+          "url": "https://www.marriott.com/en-us/hotels/bnawi-the-westin-nashville/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes a busy urban setting with potential street noise.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing typical of luxury downtown hotels.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
