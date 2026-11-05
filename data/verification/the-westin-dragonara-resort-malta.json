@@ -1,0 +1,382 @@
+{
+  "hotel_slug": "the-westin-dragonara-resort-malta",
+  "hotel_name": "The Westin Dragonara Resort, Malta",
+  "checked_at": "2026-11-05T10:06:26.433Z",
+  "script_version": null,
+  "decision": {
+    "eligible": false,
+    "blockers": [
+      "used in the script but not verified: f-3"
+    ],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 1,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": false,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/mlawi-the-westin-dragonara-resort-malta/overview/",
+      "tier": "official",
+      "chars": 20280
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/mlawi-the-westin-dragonara-resort-malta/rooms/",
+      "tier": "official",
+      "chars": 6652
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/mlawi-the-westin-dragonara-resort-malta/dining/",
+      "tier": "official",
+      "chars": 6764
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/mlawi-the-westin-dragonara-resort-malta/experiences/",
+      "tier": "official",
+      "chars": 14450
+    },
+    {
+      "id": "d5",
+      "url": "https://www.marriott.com/en-us/hotels/mlawi-the-westin-dragonara-resort-malta/experiences/kids-club/",
+      "tier": "official",
+      "chars": 5441
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The resort is reached through a private gateway inscribed with Virgil's proverb, God made this gem for us.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "is accessed via a private gateway, inscribed with Virgil's thoughtful proverb, God made this gem for us.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mlawi-the-westin-dragonara-resort-malta/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The villa-style lobby has floor-to-ceiling windows and a sun-drenched terrace overlooking the coastline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The villa-style lobby is naturally light where floor-to-ceiling windows and a sun-drenched terrace overlook the unspoiled coastline.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mlawi-the-westin-dragonara-resort-malta/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Luxury Bay Suites have a kitchenette, a walk-in rain shower, a free-standing bathtub and two private terraces.",
+      "findings": [],
+      "status": "unverified",
+      "reason": "no source states it"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Luxury Bay Suites are inspired by the hues of Maltese limestone and the turquoise of the Mediterranean.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Inspired by the soft hues of Maltese limestone and turquoise of the Mediterranean Sea, the newly-designed Luxury Bay Suites",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mlawi-the-westin-dragonara-resort-malta/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The top-floor Presidential Penthouse Suites feature artworks by local artist Pawl Carbonaro.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Located in an exclusive top floor setting, the One, Two and Three -Bedroom Presidential Penthouse Suites",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mlawi-the-westin-dragonara-resort-malta/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "handpicked artworks by renowned local artist Pawl Carbonaro",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mlawi-the-westin-dragonara-resort-malta/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The resort has a heated indoor pool and the heated outdoor Bay View Pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "a heated indoor pool, free for guests",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mlawi-the-westin-dragonara-resort-malta/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Bay View Pool (Heated) (Outdoor)",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mlawi-the-westin-dragonara-resort-malta/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Spa treatments include aromatherapy, stone therapy, candle massage, body scrubs and wraps, and couple's massage.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Aromatherapy, Stone therapy, candle massage, body scrub / wrap, and Couple’s massage.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mlawi-the-westin-dragonara-resort-malta/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Divewise Malta, a dive school for recreational and technical divers, is on the resort grounds.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The Divewise Malta is located on the grounds of The Westin Dragonara Resort, which caters to both recreational and technical divers.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mlawi-the-westin-dragonara-resort-malta/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The Westin Family Kids Club is for ages 3 to 12.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Open daily from 9am–5pm for ages 3–12, the Westin Family Kids Club",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mlawi-the-westin-dragonara-resort-malta/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Quadro is the flagship restaurant, serving simple homemade dishes with fresh local produce.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Quadro, the flagship restaurant at The Westin Dragonara Resort, serves simple, homemade dishes using fresh local produce.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mlawi-the-westin-dragonara-resort-malta/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Malta International Airport and Valletta are a 20-minute drive away.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Malta International Airport & the capital Valletta are only a 20 minute drive from the Resort.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mlawi-the-westin-dragonara-resort-malta/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The resort stands on a 74,000-square-meter private peninsula in St. Julian's.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "on a private 74,000m² peninsula in St. Julian’s",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mlawi-the-westin-dragonara-resort-malta/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Dragonara casino is in a 19th-century palace built by the Marquis Scicluna, with a colonnaded veranda that meets the sea.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "the Dragonara casino is housed in a magnificent 19th-century palace, built by the Marquis Scicluna, with a surrounding colonnaded veranda that abuts directly onto the sea.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mlawi-the-westin-dragonara-resort-malta/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Luxury Bay Suites sit in their own private annex right on the water's edge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Luxury Bay Suites which are located in their own private annex, adjacent to the main hotel, right on the water’s edge.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mlawi-the-westin-dragonara-resort-malta/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Most rooms and suites have views of the St. Julian's coastline and the Mediterranean from at least one private balcony or terrace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Most of our 413 recently renovated suites and hotel rooms in Malta offer spectacular views of the St. Julian's coastline and Mediterranean Sea from at least one private balcony or terrace.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mlawi-the-westin-dragonara-resort-malta/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The grounds are landscaped around age-old artefacts, sunken gardens and pools, with ocean views throughout.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Landscaped around age-old artefacts, sunken gardens and impressive pools, our 5-star hotel in St Julian's, Malta, has stunning ocean views throughout.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mlawi-the-westin-dragonara-resort-malta/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The Reef Club Pool is closed from November to April.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Reef Club Pool (Closed from November to April)",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mlawi-the-westin-dragonara-resort-malta/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The resort sits on its own grounds but is within walking distance of the centre of St. Julian's.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Westin Dragonara Resort offers guests a tranquil location notwithstanding the fact that the hotel is still within walking distance of the centre.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mlawi-the-westin-dragonara-resort-malta/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes it can be busy during the peak summer season.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

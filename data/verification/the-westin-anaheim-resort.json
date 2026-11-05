@@ -1,8 +1,8 @@
 {
   "hotel_slug": "the-westin-anaheim-resort",
   "hotel_name": "The Westin Anaheim Resort",
-  "checked_at": "2026-11-05T09:50:45.187Z",
-  "script_version": null,
+  "checked_at": "2026-11-05T10:06:25.960Z",
+  "script_version": 1,
   "decision": {
     "eligible": true,
     "blockers": [],
@@ -69,17 +69,9 @@
           "verdict": "supported",
           "doc_id": "d1",
           "quote": "The Westin Anaheim Resort is a AAA Four Diamond hotel located across from Disneyland Resort and next to the Anaheim Convention Center.",
-          "note": "The page states both location elements directly.",
+          "note": "location",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/snawa-the-westin-anaheim-resort/overview/",
-          "tier": "official",
-          "quote_verified": true
-        },
-        {
-          "verdict": "supported",
-          "doc_id": "d6",
-          "quote": "Located across from the Disneyland® Resort and adjacent to the Anaheim Convention Center",
-          "note": "A second official page confirms both location elements.",
-          "url": "https://www.marriott.com/en-us/hotels/snawa-the-westin-anaheim-resort/experiences/",
           "tier": "official",
           "quote_verified": true
         }
@@ -94,7 +86,8 @@
           "verdict": "supported",
           "doc_id": "d4",
           "quote": "Being directly across Katella Avenue from Disney California Adventure® Park, the hotel is perfectly situated within walking distance to the Disneyland® Resort",
-          "note": "Covers both the Katella Avenue position and walking distance to the resort.",
+          "note": "location",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/snawa-the-westin-anaheim-resort/experiences/disneyland/",
           "tier": "official",
           "quote_verified": true
@@ -109,8 +102,9 @@
         {
           "verdict": "supported",
           "doc_id": "d4",
-          "quote": "As a Disney Good Neighbor Hotel, The Westin Anaheim Resort is designated in the highest category level of the Good Neighbor hotel rating system, the Superior Hotel Category.",
-          "note": "States the Good Neighbor status, the highest category and its name.",
+          "quote": "The Westin Anaheim Resort is designated in the highest category level of the Good Neighbor hotel rating system, the Superior Hotel Category.",
+          "note": "Good Neighbor",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/snawa-the-westin-anaheim-resort/experiences/disneyland/",
           "tier": "official",
           "quote_verified": true
@@ -126,7 +120,8 @@
           "verdict": "supported",
           "doc_id": "d1",
           "quote": "arranged around a spacious central courtyard, and massing gradually up to eight stories, the hotel’s contemporary classical architecture with biophilia design connects guests to nature in modern, relaxed surroundings.",
-          "note": "Covers the courtyard, the eight stories and the biophilic design.",
+          "note": "design",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/snawa-the-westin-anaheim-resort/overview/",
           "tier": "official",
           "quote_verified": true
@@ -142,7 +137,8 @@
           "verdict": "supported",
           "doc_id": "d3",
           "quote": "Live potted citrus trees border the porte cochere and front entrance of the hotel, in the lobby of the hotel, and on the rooftop of the hotel.",
-          "note": "Names all three locations: entrance, lobby and rooftop.",
+          "note": "citrus",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/snawa-the-westin-anaheim-resort/rooms/hotel-design/",
           "tier": "official",
           "quote_verified": true
@@ -158,7 +154,8 @@
           "verdict": "supported",
           "doc_id": "d3",
           "quote": "The living green wall behind the hotel check-in counters reflect the core principles of biophilia",
-          "note": "Directly states the wall's location behind the check-in counters.",
+          "note": "green wall",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/snawa-the-westin-anaheim-resort/rooms/hotel-design/",
           "tier": "official",
           "quote_verified": true
@@ -174,7 +171,8 @@
           "verdict": "supported",
           "doc_id": "d2",
           "quote": "Most of the Theme Park View rooms offer the option for a standing balcony, or larger balcony area with",
-          "note": "Directly supports the balcony option for most Theme Park View rooms.",
+          "note": "balcony",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/snawa-the-westin-anaheim-resort/rooms/",
           "tier": "official",
           "quote_verified": true
@@ -190,7 +188,8 @@
           "verdict": "supported",
           "doc_id": "d1",
           "quote": "Open 24/7, the 2,860 square feet Westin WORKOUT® Fitness Studio is outfitted with floor-to-ceiling windows with views of the resort’s outdoor pool",
-          "note": "Covers 24-hour opening, floor-to-ceiling windows and the pool view.",
+          "note": "gym",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/snawa-the-westin-anaheim-resort/overview/",
           "tier": "official",
           "quote_verified": true
@@ -205,8 +204,9 @@
         {
           "verdict": "supported",
           "doc_id": "d1",
-          "quote": "Enjoy family friendly activities including Wellness Walks, Resort Art Quest (kids search for clues to nature-inspired art pieces in the hotel), Yoga Fun for Little Ones",
-          "note": "Names both activities and describes Resort Art Quest as claimed.",
+          "quote": "Resort Art Quest (kids search for clues to nature-inspired art pieces in the hotel), Yoga Fun for Little Ones",
+          "note": "family",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/snawa-the-westin-anaheim-resort/overview/",
           "tier": "official",
           "quote_verified": true
@@ -222,7 +222,8 @@
           "verdict": "supported",
           "doc_id": "d4",
           "quote": "The hotel concierge associates can assist with Disney theme park ticket purchases and park reservations on-site, per availability.",
-          "note": "Covers ticket purchases, park reservations and the availability caveat.",
+          "note": "concierge",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/snawa-the-westin-anaheim-resort/experiences/disneyland/",
           "tier": "official",
           "quote_verified": true
@@ -236,10 +237,11 @@
       "findings": [
         {
           "verdict": "supported",
-          "doc_id": "d5",
-          "quote": "Awarded OpenTable 2025 Diners' Choice, our tapas-style Anaheim rooftop bar offers shareable plates, handcrafted cocktails, live music, and views of Disney® California Adventure Park.",
-          "note": "Covers tapas style, live music and the park views.",
-          "url": "https://www.marriott.com/en-us/hotels/snawa-the-westin-anaheim-resort/dining/",
+          "doc_id": "d1",
+          "quote": "our tapas-style Anaheim rooftop bar offers shareable plates, handcrafted cocktails, live music, and views of Disney® California Adventure Park.",
+          "note": "RISE",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/snawa-the-westin-anaheim-resort/overview/",
           "tier": "official",
           "quote_verified": true
         }
@@ -253,8 +255,9 @@
         {
           "verdict": "supported",
           "doc_id": "d2",
-          "quote": "Elevate your stay in one of the signature Theme Park View guestrooms, which have spectacular views of Disney California Adventure® Park.",
-          "note": "Establishes the views over Disney California Adventure Park.",
+          "quote": "The Theme Park View deluxe guestrooms, studios, and suites are the optimal choice to feel the energy of the theme parks and watch the Disneyland® Resort fireworks.",
+          "note": "views/fireworks",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/snawa-the-westin-anaheim-resort/rooms/",
           "tier": "official",
           "quote_verified": true
@@ -262,8 +265,9 @@
         {
           "verdict": "supported",
           "doc_id": "d2",
-          "quote": "The Theme Park View deluxe guestrooms, studios, and suites are the optimal choice to feel the energy of the theme parks and watch the Disneyland® Resort fireworks.",
-          "note": "Covers rooms, studios and suites and the fireworks viewing.",
+          "quote": "Elevate your stay in one of the signature Theme Park View guestrooms, which have spectacular views of Disney California Adventure® Park.",
+          "note": "views",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/snawa-the-westin-anaheim-resort/rooms/",
           "tier": "official",
           "quote_verified": true
@@ -279,7 +283,8 @@
           "verdict": "supported",
           "doc_id": "d1",
           "quote": "Private top-floor Club Lounge with panoramic views of Disneyland® Resort through floor-to-ceiling windows.",
-          "note": "Matches every element of the claim.",
+          "note": "club",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/snawa-the-westin-anaheim-resort/overview/",
           "tier": "official",
           "quote_verified": true
@@ -295,7 +300,8 @@
           "verdict": "supported",
           "doc_id": "d3",
           "quote": "Based on Anaheim’s historic agricultural origins, the interior design of The Westin Anaheim Resort is inspired by the modern orchard garden",
-          "note": "Links the modern orchard design to Anaheim's agricultural origins.",
+          "note": "design",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/snawa-the-westin-anaheim-resort/rooms/hotel-design/",
           "tier": "official",
           "quote_verified": true
@@ -311,7 +317,8 @@
           "verdict": "supported",
           "doc_id": "d1",
           "quote": "Ground-level, heated outdoor swimming pool and whirlpool with five luxury cabanas",
-          "note": "Covers the ground-level heated pool, the whirlpool and the cabanas.",
+          "note": "pool",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/snawa-the-westin-anaheim-resort/overview/",
           "tier": "official",
           "quote_verified": true
@@ -327,7 +334,8 @@
           "verdict": "supported",
           "doc_id": "d4",
           "quote": "within walking distance to the Disneyland® Resort, about 15-20 minutes for most Disney fans.",
-          "note": "States the walk time of about 15-20 minutes for most visitors.",
+          "note": "walk time",
+          "confirmed": true,
           "url": "https://www.marriott.com/en-us/hotels/snawa-the-westin-anaheim-resort/experiences/disneyland/",
           "tier": "official",
           "quote_verified": true
@@ -336,7 +344,8 @@
           "verdict": "supported",
           "doc_id": "d7",
           "quote": "Most guests stay here due to its proximity to Disneyland, which is about a 15- to 20-minute walk away.",
-          "note": "The editorial review confirms the 15-20 minute walk.",
+          "note": "walk time",
+          "confirmed": true,
           "url": "https://www.cntraveler.com/hotels/anaheim/the-westin-anaheim-resort",
           "tier": "editorial",
           "quote_verified": true
