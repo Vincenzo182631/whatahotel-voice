@@ -1,12 +1,8 @@
 # Verification checklist: W Taipei
 
-Checked 2026-11-06 against the hotel's own pages and Condé Nast Traveler. Result: **needs attention**.
+Checked 2026-11-06 against the hotel's own pages and Condé Nast Traveler. Result: **can be marked verified** (profile set to verified).
 
-Supported 17 · contradicted 0 · unverified 1 · WhataHotel's own statements 1 · total 19
-
-## Blockers
-
-- used in the script but not verified: f-10
+Supported 17 · contradicted 0 · unverified 0 · WhataHotel's own statements 1 · total 18
 
 ## Pages checked
 
@@ -29,7 +25,6 @@ Supported 17 · contradicted 0 · unverified 1 · WhataHotel's own statements 1 
 | ✅ | **f-7** Rooms have a flat-screen TV and a built-in BOSE sound system. | "Enjoy your room's flat-screen TV and built-in BOSE sound system." (official, https://www.marriott.com/en-us/hotels/tpewh-w-taipei/rooms/) |
 | ✅ | **f-8** Some room types have whirlpools. | "Yes, some room types at W Taipei have whirlpools." (official, https://www.marriott.com/en-us/hotels/tpewh-w-taipei/rooms/) |
 | ✅ | **f-9** Whatever/Whenever service can arrange requests like VIP box seats at a baseball game or Chinese opera lessons from a master performer. | "From a private wedding proposal at the top of Taipei 101, VIP box seats to a baseball game or Chinese opera lessons from a master performer" (official, https://www.marriott.com/en-us/hotels/tpewh-w-taipei/overview/) |
-| ⚠️ | **f-10** WOOBAR is on the 10th floor with a view of Taipei 101. | "at 10F WET pool, WET deck, and WOOBAR" (official, https://www.marriott.com/en-us/hotels/tpewh-w-taipei/overview/) |
 | ✅ | **f-11** Seasons by olivier e. on the 10th floor serves modern French cuisine. | "Head to Seasons by olivier e. on the 10th floor for modern French delicacies." (official, https://www.marriott.com/en-us/hotels/tpewh-w-taipei/dining/) |
 | ✅ | **h-1** The hotel sits atop Taipei City Hall station, next to Taipei 101 and Taipei Dome. | "Perched atop Taipei City Hall station next to iconic Taipei 101 and Taipei Dome." (official, https://www.marriott.com/en-us/hotels/tpewh-w-taipei/overview/) |
 | ✅ | **h-2** The outdoor heated WET pool is anchored at one end by larger-than-life stainless steel water drop sculptures. | "Anchored at one end by larger-than-life stainless steel water drop sculptures, our 25-meter by 6.5-meter (82-feet by 21.3-feet) outdoor heated WET® pool" (official, https://www.marriott.com/en-us/hotels/tpewh-w-taipei/overview/) |

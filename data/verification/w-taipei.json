@@ -1,22 +1,20 @@
 {
   "hotel_slug": "w-taipei",
   "hotel_name": "W Taipei",
-  "checked_at": "2026-11-06T01:01:39.353Z",
+  "checked_at": "2026-11-06T01:01:47.926Z",
   "script_version": null,
   "decision": {
-    "eligible": false,
-    "blockers": [
-      "used in the script but not verified: f-10"
-    ],
+    "eligible": true,
+    "blockers": [],
     "counts": {
       "supported": 17,
       "contradicted": 0,
-      "unverified": 1,
+      "unverified": 0,
       "exempt": 1,
-      "total": 19
+      "total": 18
     }
   },
-  "applied": false,
+  "applied": true,
   "evidence": [
     {
       "id": "d1",
@@ -213,24 +211,6 @@
         }
       ],
       "status": "supported"
-    },
-    {
-      "claim_id": "f-10",
-      "text": "WOOBAR is on the 10th floor with a view of Taipei 101.",
-      "findings": [
-        {
-          "verdict": "partial",
-          "doc_id": "d1",
-          "quote": "at 10F WET pool, WET deck, and WOOBAR",
-          "note": "10F stated only in a 2017 event note; no Taipei 101 view stated for WOOBAR",
-          "confirmed": true,
-          "url": "https://www.marriott.com/en-us/hotels/tpewh-w-taipei/overview/",
-          "tier": "official",
-          "quote_verified": true
-        }
-      ],
-      "status": "unverified",
-      "reason": "sources cover only part of the claim"
     },
     {
       "claim_id": "f-11",
