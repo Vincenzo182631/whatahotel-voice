@@ -1,0 +1,90 @@
+{
+  "slug": "w-toronto",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "W Toronto",
+      "city": "Toronto",
+      "country": "CA",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Toronto, CA)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://w-hotels.marriott.com/destinations/toronto/",
+      "https://www.marriott.com/en-us/hotels/yyzwh-w-toronto/overview/"
+    ],
+    "checked_at": "2026-11-06T00:19:37.692Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/yyzwh-w-toronto/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/yyzwh-w-toronto/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/yyzwh-w-toronto/overview/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:20:06.566Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/yyzwh-w-toronto/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:20:15.923Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/yyzwh-w-toronto/dining/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:20:26.547Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/yyzwh-w-toronto/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:20:37.036Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.cntraveler.com/hotels/toronto/w-toronto",
+      "tier": "editorial",
+      "fetched_at": "2026-11-06T00:20:40.091Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 8,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 5,
+    "chars": 62658,
+    "est_claude_tokens": 15665
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-11-06T00:20:40.091Z"
+}

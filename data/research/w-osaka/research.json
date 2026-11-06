@@ -1,0 +1,90 @@
+{
+  "slug": "w-osaka",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "W Osaka",
+      "city": "Osaka",
+      "country": "JP",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Osaka, JP)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://w-hotels.marriott.com/destinations/osaka/",
+      "https://www.marriott.com/en-us/hotels/osaow-w-osaka/overview/"
+    ],
+    "checked_at": "2026-11-06T00:11:04.103Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/osaow-w-osaka/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/osaow-w-osaka/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/osaow-w-osaka/overview/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:11:16.531Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/osaow-w-osaka/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:11:30.309Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/osaow-w-osaka/dining/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:11:40.352Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/osaow-w-osaka/spa/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:11:50.365Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.cntraveler.com/hotels/osaka/the-w-osaka",
+      "tier": "editorial",
+      "fetched_at": "2026-11-06T00:11:59.495Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 8,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 5,
+    "chars": 54737,
+    "est_claude_tokens": 13684
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-11-06T00:11:59.495Z"
+}

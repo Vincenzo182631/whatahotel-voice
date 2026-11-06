@@ -1,0 +1,104 @@
+{
+  "slug": "w-amsterdam",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "W Amsterdam",
+      "city": "Amsterdam",
+      "country": "NL",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Amsterdam, NL)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://w-hotels.marriott.com/destinations/amsterdam/",
+      "https://www.marriott.com/en-us/hotels/amswh-w-amsterdam/overview/"
+    ],
+    "checked_at": "2026-11-06T00:18:06.445Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/amswh-w-amsterdam/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/amswh-w-amsterdam/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/amswh-w-amsterdam/overview/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:18:18.771Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/amswh-w-amsterdam/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:18:33.246Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/amswh-w-amsterdam/rooms/suites/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:18:43.390Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/amswh-w-amsterdam/dining/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:18:53.168Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.marriott.com/en-us/hotels/amswh-w-amsterdam/spa/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:19:03.516Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.marriott.com/en-us/hotels/amswh-w-amsterdam/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:19:15.094Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.cntraveler.com/hotels/amsterdam/w-amsterdam",
+      "tier": "editorial",
+      "fetched_at": "2026-11-06T00:19:15.595Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 10,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 7,
+    "chars": 74040,
+    "est_claude_tokens": 18510
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-11-06T00:19:15.595Z"
+}

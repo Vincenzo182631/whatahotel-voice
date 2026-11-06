@@ -1,0 +1,97 @@
+{
+  "slug": "w-san-francisco",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "W San Francisco",
+      "city": "San Francisco",
+      "country": "US",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (San Francisco, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://w-hotels.marriott.com/destinations/san-francisco/",
+      "https://www.marriott.com/en-us/hotels/sfowh-w-san-francisco/overview/"
+    ],
+    "checked_at": "2026-11-06T00:13:28.087Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/sfowh-w-san-francisco/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/sfowh-w-san-francisco/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/sfowh-w-san-francisco/overview/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:13:40.368Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/sfowh-w-san-francisco/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:13:44.367Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/sfowh-w-san-francisco/dining/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:13:48.307Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/sfowh-w-san-francisco/overview/renovations/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:13:52.315Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.marriott.com/en-us/hotels/sfowh-w-san-francisco/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:14:05.873Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.cntraveler.com/hotels/san-francisco/w-san-francisco",
+      "tier": "editorial",
+      "fetched_at": "2026-11-06T00:14:06.542Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 9,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 6,
+    "chars": 46282,
+    "est_claude_tokens": 11571
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-11-06T00:14:06.542Z"
+}

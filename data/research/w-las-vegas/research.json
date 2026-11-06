@@ -1,0 +1,89 @@
+{
+  "slug": "w-las-vegas",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "W Las Vegas",
+      "city": "Las Vegas",
+      "country": "US",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Las Vegas, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/lasdl-w-las-vegas/overview/"
+    ],
+    "checked_at": "2026-11-06T00:12:39.819Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/lasdl-w-las-vegas/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/lasdl-w-las-vegas/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/lasdl-w-las-vegas/overview/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:13:21.080Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/lasdl-w-las-vegas/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:13:35.412Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/lasdl-w-las-vegas/dining/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:13:47.726Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/lasdl-w-las-vegas/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:13:58.109Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 4,
+    "chars": 18760,
+    "est_claude_tokens": 4690
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-11-06T00:14:02.983Z"
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "w-florence",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "W Florence",
+      "city": "Firenze",
+      "country": "IT",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Firenze, IT)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://w-hotels.marriott.com/destinations/florence/",
+      "https://www.marriott.com/en-us/hotels/flrwh-w-florence/overview/",
+      "https://www.marriott.com/en-us/hotels/flrwh-w-florence/dining/"
+    ],
+    "checked_at": "2026-11-06T00:19:25.770Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/flrwh-w-florence/dining/",
+    "base_url": "https://www.marriott.com/en-us/hotels/flrwh-w-florence/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/flrwh-w-florence/dining/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:20:05.501Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/flrwh-w-florence/dining/zefiro-rooftop/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:20:12.780Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.cntraveler.com/hotels/firenze/w-florence",
+      "tier": "editorial",
+      "fetched_at": "2026-11-06T00:20:13.395Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 1,
+    "pages": 3,
+    "chars": 20159,
+    "est_claude_tokens": 5040
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-11-06T00:20:13.396Z"
+}
