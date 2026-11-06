@@ -1,0 +1,404 @@
+{
+  "hotel_slug": "park-hyatt-beijing",
+  "hotel_name": "Park Hyatt Beijing",
+  "checked_at": "2026-10-13T08:42:19.900Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/beiph-park-hyatt-beijing",
+      "tier": "official",
+      "chars": 7875
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/beiph-park-hyatt-beijing/rooms/",
+      "tier": "official",
+      "chars": 14757
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/beiph-park-hyatt-beijing/dining/",
+      "tier": "official",
+      "chars": 3570
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/beiph-park-hyatt-beijing/parking-and-transportation/",
+      "tier": "official",
+      "chars": 1940
+    },
+    {
+      "id": "d5",
+      "url": "https://www.cntraveler.com/hotels/china/beijing/park-hyatt-beijing",
+      "tier": "editorial",
+      "chars": 10778
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/beiph-park-hyatt-beijing/hotel-info/",
+      "tier": "official",
+      "chars": 420
+    },
+    {
+      "id": "d7",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/beiph-park-hyatt-beijing/reviews/",
+      "tier": "official",
+      "chars": 6476
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is situated in Beijing's central business district.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Situated in the central business district, Park Hyatt Beijing ensures you’re central to so much of what this city offers.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/beiph-park-hyatt-beijing",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel sits within the Beijing Yintai Centre skyscraper on Chang'an Avenue.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "It sits within the tallest skyscraper (Beijing Yintai Centre) on bustling Chang’an Avenue thoroughfare",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/china/beijing/park-hyatt-beijing",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The lobby is on the 63rd floor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "directing you to the lobby on the 63rd floor",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/china/beijing/park-hyatt-beijing",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "The reception is in the 63rd floor",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/beiph-park-hyatt-beijing/reviews/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Guomao subway station is a one-minute walk from the front door.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "the nearby Guomao subway station (a one-minute walk from the front door)",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/china/beijing/park-hyatt-beijing",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "China World Mall is connected to the hotel via underground passageways.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "China World Mall is directly connected to the via underground passageways",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/china/beijing/park-hyatt-beijing",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Each room has 300-thread-count linens, down duvets, a separate shower, a walk-in closet and a coffee machine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Each room comes with 300-thread-count linens and down duvets, separate shower, walk-in closet and a coffee machine.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/beiph-park-hyatt-beijing/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Rooms have a centralized PM2.5 air purification system.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Centralized PM2.5 air purification system",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/beiph-park-hyatt-beijing/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "China Grill specialises in premium meat, fish and seafood.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Specialising in premium meat, fish and seafood",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/beiph-park-hyatt-beijing/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "At lunch and dinner, Dining Room serves Cantonese and Chaozhou-style dishes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "At lunch and dinner, the restaurant serves a refined selection of refreshing Cantonese and Chaozhou-style dishes.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/beiph-park-hyatt-beijing/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "China Bar serves vintage wines and Champagnes by the glass, cocktails, whiskeys and Cognacs, with daily live entertainment.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "serving vintage wines and Champagnes by the glass, cocktails, whiskeys and Cognacs, along with daily ‘live’ entertainment.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/beiph-park-hyatt-beijing/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Tian Spa draws on ancient Chinese wellness practices.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The spa draws on a rich history of ancient Chinese wellness practices to discover fluidity in mind and spirit.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/beiph-park-hyatt-beijing",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Breakfast includes Beijing specialties, each with a small sign explaining the dish's history.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "I was most impressed with the Beijing specialties on offer, with small signs next to each one explaining the history of the dish.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/china/beijing/park-hyatt-beijing",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "At China Grill, diners sit beneath a Chinese lantern-style glass pyramid ceiling at the building's apex, with glass walls, trees and water features.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Visitors dine beneath a dramatic Chinese “lantern” at the building’s apex, featuring a soaring glass pyramid ceiling and glass walls, and surrounded by trees and water features.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/beiph-park-hyatt-beijing/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Park Hyatt Beijing was the first Park Hyatt to open in China.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "was the first Park Hyatt to open in China",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/china/beijing/park-hyatt-beijing",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "In the rooms, one push on the doors reveals skyline views from the soaking tub or the shower.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Just one gentle push on the doors reveals skyline views from the soaking tub or the shower.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/china/beijing/park-hyatt-beijing",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Dining Room is a Chinese restaurant on the 63rd floor with panoramic city views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Dining Room – The Sky-High Chinese Restaurant at Park Hyatt Beijing, located on the 63rd floor with panoramic views of the city.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/beiph-park-hyatt-beijing/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Dining Room invites guest chefs from Hyatt hotels in other Chinese cities to bring regional flavors.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "invites guest chefs from Hyatt hotels in different cities across China to bring authentic regional flavors to Beijing diners",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/beiph-park-hyatt-beijing/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel recommends local mapping apps such as Gaode Map or Baidu Map, as international mapping apps may not be accurate in mainland China.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "we recommend using local mapping applications such as Gaode Map or Baidu Map. International mapping apps may not be accurate in Chinese Mainland.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/beiph-park-hyatt-beijing/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Many sites are blocked in China, including Google and Gmail.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "many sites are blocked in China, including Google and Gmail, among others",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/china/beijing/park-hyatt-beijing",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the business district location may lack a traditional cultural atmosphere.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

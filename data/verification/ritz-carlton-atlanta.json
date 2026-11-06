@@ -1,0 +1,336 @@
+{
+  "hotel_slug": "ritz-carlton-atlanta",
+  "hotel_name": "Ritz Carlton Atlanta",
+  "checked_at": "2026-10-09T13:23:25.168Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 15,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 16
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ritzcarlton.com/en/hotels/atlrz-the-ritz-carlton-atlanta/overview/",
+      "tier": "official",
+      "chars": 21777
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ritzcarlton.com/en/hotels/atlrz-the-ritz-carlton-atlanta/rooms/",
+      "tier": "official",
+      "chars": 9664
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ritzcarlton.com/en/hotels/atlrz-the-ritz-carlton-atlanta/dining/",
+      "tier": "official",
+      "chars": 9028
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ritzcarlton.com/en/hotels/atlrz-the-ritz-carlton-atlanta/experiences/",
+      "tier": "official",
+      "chars": 11550
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ritzcarlton.com/en/hotels/atlrz-the-ritz-carlton-atlanta/club/",
+      "tier": "official",
+      "chars": 4369
+    },
+    {
+      "id": "d6",
+      "url": "https://www.cntraveler.com/hotels/united-states/atlanta/ritz-carlton-atlanta",
+      "tier": "editorial",
+      "chars": 6307
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ritzcarlton.com/en/hotels/atlrz-the-ritz-carlton-atlanta/experiences/planning-your-trip/",
+      "tier": "official",
+      "chars": 14431
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is in the heart of downtown Atlanta and describes its style as contemporary Southern luxury.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Nestled in the heart of downtown, The Ritz-Carlton, Atlanta embodies contemporary Southern luxury.",
+          "note": "Covers location and style",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/atlrz-the-ritz-carlton-atlanta/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "AG, Modern Bar and Steakhouse has leather-clad booths lined with vintage photographs and an al fresco Veranda.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Dine at this steakhouse in downtown Atlanta in rich leather-clad booths lined with vintage photographs or al fresco on the Veranda.",
+          "note": "Booths, photographs and Veranda all stated",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/atlrz-the-ritz-carlton-atlanta/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "AG offers three private dining spaces.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "AG offers three distinctive private dining spaces, each providing a unique experience for your next intimate gathering.",
+          "note": "Three private dining spaces",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/atlrz-the-ritz-carlton-atlanta/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Lumen Lounge offers live entertainment on select evenings alongside mixology and globally inspired cuisine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "complemented by masterfully crafted mixology and live entertainment on select evenings.",
+          "note": "Live entertainment, mixology; globally inspired cuisine in same passage",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/atlrz-the-ritz-carlton-atlanta/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Enjoy locally sourced, globally inspired cuisine that speaks to the avid traveler",
+          "note": "Globally inspired cuisine at Lumen Lounge",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/atlrz-the-ritz-carlton-atlanta/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Wellness Level guestrooms have PURE air purification.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "PURE air purification, promotes improved sleep and clearer breathing.",
+          "note": "Wellness Level room feature",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/atlrz-the-ritz-carlton-atlanta/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The fitness center has TechnoGym equipment and Peloton bikes with live-streaming classes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "state-of-the-art weight and cardio equipment from TechnoGym or take your workout to the next level with live-streaming classes on a Peloton bike.",
+          "note": "TechnoGym and Peloton live-streaming classes",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/atlrz-the-ritz-carlton-atlanta/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The hotel runs a Ritz Kids program for young guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The Ritz-Carlton, Atlanta welcomes young guests with a Ritz Kids program designed to channel children’s natural curiosity into experiences.",
+          "note": "Ritz Kids program",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/atlrz-the-ritz-carlton-atlanta/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Condé Nast Traveler describes the guests as business travelers during the week and families on the weekends.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Business travelers during the week, families on the weekends",
+          "note": "Condé Nast Traveler review answer to who is staying",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/atlanta/ritz-carlton-atlanta",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel is an exclusive hotel partner of the Georgia Aquarium, and guests enjoy special access to it.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "As an exclusive hotel partner of the Georgia Aquarium, guests enjoy special access to one of the city’s most iconic destinations.",
+          "note": "Exact statement",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/atlrz-the-ritz-carlton-atlanta/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Ritz-Carlton Club Lounge is on the 24th floor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "We invite you to The Ritz-Carlton Club Lounge in Atlanta to experience luxury redefined on the 24th floor.",
+          "note": "24th floor",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/atlrz-the-ritz-carlton-atlanta/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Club Lounge hosts guided bourbon tastings.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "from a curated collection of vintage photography to guided bourbon tastings in the Club Lounge.",
+          "note": "Guided bourbon tastings in Club Lounge",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/atlrz-the-ritz-carlton-atlanta/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "In-Room Camping includes a premium tent, a plush sleeping bag, a flashlight, a book and a stuffed animal.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Bring the outdoors inside with In-Room Camping, which includes a premium tent, plush sleeping bag, flashlight, book, stuffed animal, and full setup for a magical night of adventure.",
+          "note": "All five items listed",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/atlrz-the-ritz-carlton-atlanta/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "AG has a table called the Hideout, set in a secluded corner with a privacy curtain and a leather booth.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Nestled in a secluded corner, this exclusive table offers a level of intimacy that is unmatched with a privacy curtain and cozy leather booth.",
+          "note": "Hideout at AG",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/atlrz-the-ritz-carlton-atlanta/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Club access requires an upgraded booking, and Marriott Bonvoy Elite Status does not provide complimentary access to Club.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Club access requires an upgraded booking at the Club. Marriott Bonvoy Elite Status does not provide complimentary access to Club.",
+          "note": "Exact statement",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/atlrz-the-ritz-carlton-atlanta/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The hotel does not provide shuttle service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "This hotel does not provide shuttle service.",
+          "note": "Exact statement",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/atlrz-the-ritz-carlton-atlanta/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium luxury pricing.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

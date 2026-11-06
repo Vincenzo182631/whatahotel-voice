@@ -1,0 +1,461 @@
+{
+  "hotel_slug": "four-seasons-las-vegas",
+  "hotel_name": "Four Seasons Las Vegas",
+  "checked_at": "2026-10-07T21:39:05.643Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 6,
+      "total": 24
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://press.fourseasons.com/lasvegas/hotel-facts/",
+      "tier": "official",
+      "chars": 5507
+    },
+    {
+      "id": "d2",
+      "url": "https://www.fourseasons.com/lasvegas/",
+      "tier": "official",
+      "chars": 11423
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/lasvegas/dining/",
+      "tier": "official",
+      "chars": 4531
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/lasvegas/spa/",
+      "tier": "official",
+      "chars": 4220
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/lasvegas/services-and-amenities/",
+      "tier": "official",
+      "chars": 4697
+    },
+    {
+      "id": "d6",
+      "url": "https://www.fourseasons.com/lasvegas/getting-here/",
+      "tier": "official",
+      "chars": 2890
+    },
+    {
+      "id": "d7",
+      "url": "https://www.fourseasons.com/lasvegas/accommodations/",
+      "tier": "official",
+      "chars": 11026
+    },
+    {
+      "id": "d8",
+      "url": "https://www.fourseasons.com/lasvegas/contact-us/",
+      "tier": "official",
+      "chars": 1706
+    },
+    {
+      "id": "d9",
+      "url": "https://www.fourseasons.com/lasvegas/photos-and-videos/",
+      "tier": "official",
+      "chars": 5744
+    },
+    {
+      "id": "d10",
+      "url": "https://www.fourseasons.com/lasvegas/discover/",
+      "tier": "official",
+      "chars": 2564
+    },
+    {
+      "id": "d11",
+      "url": "https://www.cntraveler.com/hotels/united-states/las-vegas/four-seasons-las-vegas",
+      "tier": "editorial",
+      "chars": 7802
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-2",
+      "text": "The hotel has a total of 424 rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Total Number of Rooms:** 424",
+          "note": "Total rooms 424",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/lasvegas/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel's guest rooms comprise floors 35 to 39 of a 43-floor building.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Hotel's guests rooms comprises floors 35 to 39 of a 43-floor building",
+          "note": "Floors 35 to 39 of a 43-floor building",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/lasvegas/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The hotel is a non-gaming and non-smoking hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "A non-gaming and non-smoking hotel, adjacent and with easy access to the Mandalay Bay Resort and Casino",
+          "note": "Non-gaming and non-smoking",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/lasvegas/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The hotel is adjacent to the Mandalay Bay Resort and Casino.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "A non-gaming and non-smoking hotel, adjacent and with easy access to the Mandalay Bay Resort and Casino",
+          "note": "Adjacent to Mandalay Bay",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/lasvegas/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Located adjacent to Mandalay Bay Resort and Casino",
+          "note": "Adjacent to Mandalay Bay",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/lasvegas/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The hotel is on the south end of the Las Vegas Strip.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "On the south end of the Las Vegas Strip, minutes from the airport",
+          "note": "South end of the Strip",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/lasvegas/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel is a 15-minute drive from Harry Reid International Airport.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Our Hotel is a short, 15-minute drive from Harry Reid International Airport.",
+          "note": "15-minute drive from airport",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/lasvegas/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Veranda – California Brasserie serves breakfast, lunch or weekend brunch.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Join us for breakfast, lunch or weekend brunch in a serene indoor-outdoor setting.",
+          "note": "Veranda serves breakfast, lunch or weekend brunch",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/lasvegas/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Bourbon Steak at the hotel is led by James Beard Award-winner Chef Michael Mina.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "James Beard Award-winner Chef Michael Mina brings Bourbon Steak to Four Seasons Hotel Las Vegas.",
+          "note": "Bourbon Steak led by James Beard winner Michael Mina",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/lasvegas/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "PRESS is the hotel's indoor-outdoor lounge, with craft cocktails as its cornerstone.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Craft cocktails are the cornerstone of our indoor-outdoor lounge",
+          "note": "PRESS entry: craft cocktails cornerstone of indoor-outdoor lounge",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/lasvegas/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "enjoy spectacular views at PRESS, our indoor-outdoor lounge",
+          "note": "PRESS is the indoor-outdoor lounge",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/lasvegas/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "In-room dining is served 24 hours a day.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "We’re happy to serve you 24 hours a day.",
+          "note": "In-Room Dining 24 hours a day",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/lasvegas/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "24-hour in-room dining",
+          "note": "24-hour in-room dining listed",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/lasvegas/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel has a Forbes Five-Star Spa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Experience desert-inspired tranquility at our Forbes Five-Star Spa.",
+          "note": "Forbes Five-Star Spa",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/lasvegas/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Four Seasons guests have access to the Mandalay Bay Pools complex, which houses a Lazy River, three swimming pools and a real-sand beach.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "the expansive Mandalay Bay Pools complex at the adjacent Mandalay Bay Resort and Casino, which houses a Lazy River, three swimming pools and a real-sand beach",
+          "note": "Matches claim exactly",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/lasvegas/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The hotel's private pool offers hourly complimentary passed amenities such as Evian spritzes and frozen fruit skewers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Enjoy hourly complimentary passed amenities such as Evian spritzes and frozen fruit skewers",
+          "note": "Hourly complimentary amenities at the lushly landscaped private pool",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/lasvegas/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The hotel has eight private pool cabanas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Four Seasons Hotel Las Vegas introduces eight private pool cabanas",
+          "note": "Eight private pool cabanas",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/lasvegas/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Strip View Room has floor-to-ceiling windows with city views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "A stylish, sophisticated interior meets endless city views through floor-to-ceiling windows",
+          "note": "Strip View Room has floor-to-ceiling windows with city views",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/lasvegas/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Spa hours of operation and spa services are subject to seasonal change.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Hours of Operation and Spa Services are subject to seasonal change",
+          "note": "Stated on spa page",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/lasvegas/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The hotel's private pool is seasonal.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "our Resort’s seasonal private pool",
+          "note": "Private pool described as seasonal",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/lasvegas/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "The Four Seasons Pool is open 8:00 AM – 6:00 PM.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "FOUR SEASONS POOL8:00 AM – 6:00 PM",
+          "note": "Pool hours 8:00 AM - 6:00 PM",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/lasvegas/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-4",
+      "text": "WhataHotel notes premium pricing for the Las Vegas market.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, breakfast for two is free daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers can be combined with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

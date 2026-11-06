@@ -1,0 +1,397 @@
+{
+  "hotel_slug": "l-escape-a-luxury-collection-hotel",
+  "hotel_name": "L'Escape, a Luxury Collection Hotel",
+  "checked_at": "2026-10-24T06:27:36.157Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 18
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/sellm-lescape-a-luxury-collection-hotel-seoul-myeongdong/overview/",
+      "tier": "official",
+      "chars": 14342
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/sellm-lescape-a-luxury-collection-hotel-seoul-myeongdong/rooms/",
+      "tier": "official",
+      "chars": 7124
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/sellm-lescape-a-luxury-collection-hotel-seoul-myeongdong/dining/",
+      "tier": "official",
+      "chars": 5659
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/sellm-lescape-a-luxury-collection-hotel-seoul-myeongdong/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "chars": 338
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is a boutique hotel in Seoul's Myeongdong neighborhood, near N Seoul Tower, Namdaemun Market and Deoksu-gung Palace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Boutique Hotel in Myeong-dong Near Seoul City Hall & N Tower",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sellm-lescape-a-luxury-collection-hotel-seoul-myeongdong/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "is near many leading attractions, including N Seoul Tower, Namdaemun Market, and Deoksu-gung Palace.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sellm-lescape-a-luxury-collection-hotel-seoul-myeongdong/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel's address is 67 Toegye-ro, Jung-gu, Seoul.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "67 Toegye-ro, Jung-gu, Seoul, South Korea, 04529",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sellm-lescape-a-luxury-collection-hotel-seoul-myeongdong/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Nearby transport includes Hoehyeon (Namdaemun Market) subway station and Seoul Station.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Hoehyeon(Namdaemun Market) Station",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sellm-lescape-a-luxury-collection-hotel-seoul-myeongdong/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Train Station\n\nSeoul Station",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sellm-lescape-a-luxury-collection-hotel-seoul-myeongdong/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Rooms blend Belle Epoque charm with modern-day comfort.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "blending Belle Époque charm with modern-day comfort",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sellm-lescape-a-luxury-collection-hotel-seoul-myeongdong/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The suites include a two-bedroom Presidential Suite.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "2 Bedroom Presidential Suite, Bedroom 1: 1 King, Bedroom 2: 1 King",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sellm-lescape-a-luxury-collection-hotel-seoul-myeongdong/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Marque d'Amour is a high-rise cocktail bar where guests can watch the sunset over creative cocktails.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "high-rise luxury cocktail bar in Myeongdong",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sellm-lescape-a-luxury-collection-hotel-seoul-myeongdong/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Admire breathtaking sunsets whilst savoring creative cocktails made by our expert mixologists.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sellm-lescape-a-luxury-collection-hotel-seoul-myeongdong/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Tea Salon, inspired by the salons of France, serves coffee, tea and desserts.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Inspired by the salons of France where art and culture freely intermingled, Tea Salon presents you relaxation with a cup of coffee, tea, and desserts.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sellm-lescape-a-luxury-collection-hotel-seoul-myeongdong/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The fitness center is open 24/7.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Open 24/7, our Fitness Center offers state-of-the-art equipment.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sellm-lescape-a-luxury-collection-hotel-seoul-myeongdong/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The hotel has event spaces for celebrations, corporate functions and boutique weddings.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "also features elevated events spaces for celebrations, corporate functions, and boutique weddings.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sellm-lescape-a-luxury-collection-hotel-seoul-myeongdong/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel is Green Key certified.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Green Key Certified",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sellm-lescape-a-luxury-collection-hotel-seoul-myeongdong/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The interiors are by Jacques Garcia, in a Belle Epoque-inspired style that recalls 19th-century Paris.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our hotel is a haven of Belle Époque-inspired elegance, where sumptuous interiors by Jacques Garcia recall the bygone glamor of 19th-century Paris.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sellm-lescape-a-luxury-collection-hotel-seoul-myeongdong/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "L'Amant Secret serves French fine dining and wines on the 26th floor, with views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "represents the height of French fine dining. Located on the 26th floor, L'Amant Secret combines exquisite gastronomy and superb wines with spectacular views.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sellm-lescape-a-luxury-collection-hotel-seoul-myeongdong/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The top three suite categories feature a mini kitchen, suited to longer stays.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "For longer stays, consider one of our top three suite categories, which feature a mini kitchen",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sellm-lescape-a-luxury-collection-hotel-seoul-myeongdong/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Swiss Perfection Spa has two treatment rooms and offers bespoke beauty and wellness treatments using Swiss Perfection products.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Swiss Perfection Spa",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sellm-lescape-a-luxury-collection-hotel-seoul-myeongdong/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "a tranquil sanctuary of relaxation and rejuvenation with two exclusive treatment rooms. Bespoke beauty and wellness treatments combine advanced Swiss technology with indulgent Swiss Perfection products.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sellm-lescape-a-luxury-collection-hotel-seoul-myeongdong/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "La Maison Boutique is the hotel's club lounge, with breakfast, Sweet Delight and a curated happy hour.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "has La Maison Boutique lounge available to qualifying guests during their stay",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sellm-lescape-a-luxury-collection-hotel-seoul-myeongdong/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Discover L’Escape’s signature boutique spaces. Enjoy refined service, an exquisite breakfast, Sweet Delight, and a curated happy hour.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sellm-lescape-a-luxury-collection-hotel-seoul-myeongdong/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "WhataHotel notes the bustling urban setting may not appeal to travelers seeking a quiet or secluded retreat.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Guests must be at least 19 to check in.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Minimum Age to Check In  19",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sellm-lescape-a-luxury-collection-hotel-seoul-myeongdong/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "The La Maison Boutique lounge is for guests 18 and older.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "### Age Restriction\n\n18 and Older",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sellm-lescape-a-luxury-collection-hotel-seoul-myeongdong/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

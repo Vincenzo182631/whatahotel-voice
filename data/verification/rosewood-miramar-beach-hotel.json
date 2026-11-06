@@ -1,0 +1,287 @@
+{
+  "hotel_slug": "rosewood-miramar-beach-hotel",
+  "hotel_name": "Rosewood Miramar Beach Hotel",
+  "checked_at": "2026-10-14T06:04:33.197Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 11,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 13
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.rosewoodhotels.com/en/miramar-beach-montecito",
+      "tier": "official",
+      "chars": 7442
+    },
+    {
+      "id": "d2",
+      "url": "https://www.rosewoodhotels.com/en/miramar-beach-montecito/dining/the-revere-room/",
+      "tier": "official",
+      "chars": 7442
+    },
+    {
+      "id": "d3",
+      "url": "https://www.rosewoodhotels.com/en/miramar-beach-montecito/dining/",
+      "tier": "official",
+      "chars": 7442
+    },
+    {
+      "id": "d4",
+      "url": "https://www.rosewoodhotels.com/en/miramar-beach-montecito/dining/carusos/",
+      "tier": "official",
+      "chars": 7442
+    },
+    {
+      "id": "d5",
+      "url": "https://www.rosewoodhotels.com/en/miramar-beach-montecito/dining/ama-sushi/",
+      "tier": "official",
+      "chars": 7442
+    },
+    {
+      "id": "d6",
+      "url": "https://www.rosewoodhotels.com/en/miramar-beach-montecito/dining/frontemare/",
+      "tier": "official",
+      "chars": 7442
+    },
+    {
+      "id": "d7",
+      "url": "https://www.rosewoodhotels.com/en/miramar-beach-montecito/dining/the-manor-bar/",
+      "tier": "official",
+      "chars": 7442
+    },
+    {
+      "id": "d8",
+      "url": "https://www.rosewoodhotels.com/en/miramar-beach-montecito/dining/miramar-beach-bar/",
+      "tier": "official",
+      "chars": 7442
+    },
+    {
+      "id": "d9",
+      "url": "https://www.rosewoodhotels.com/en/miramar-beach-montecito/experiences/shopping-in-santa-barbara/",
+      "tier": "official",
+      "chars": 7442
+    },
+    {
+      "id": "d10",
+      "url": "https://www.rosewoodhotels.com/en/miramar-beach-montecito/discover/holiday-at-rosewood/",
+      "tier": "official",
+      "chars": 7442
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Rosewood Miramar Beach is in Montecito, California.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Rosewood Miramar BeachMontecito, CA, USA",
+          "note": "property listed in Montecito, CA",
+          "confirmed": true,
+          "url": "https://www.rosewoodhotels.com/en/miramar-beach-montecito",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The accommodation is made up of beach houses, bungalows and suites facing the Pacific Ocean.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Beach houses, bungalows and suites are a front-row seat to the Pacific Ocean",
+          "note": "accommodation types facing the Pacific",
+          "confirmed": true,
+          "url": "https://www.rosewoodhotels.com/en/miramar-beach-montecito",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Garden Bungalow Suites sit within landscaped gardens in the center of the estate.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Nestled within lush landscaping in the center of our estate, unwind to the sounds of chirping birds and scents of lush gardens.",
+          "note": "Garden Bungalow Suite description",
+          "confirmed": true,
+          "url": "https://www.rosewoodhotels.com/en/miramar-beach-montecito",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Caruso's serves seasonal menus paired with fine wines and signature cocktails.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Seasonal menus, crafted with fresh ingredients, paired with fine wines and signature cocktails.",
+          "note": "Caruso's description",
+          "confirmed": true,
+          "url": "https://www.rosewoodhotels.com/en/miramar-beach-montecito",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Manor Bar serves literary cocktails in a space with a collection of books and art.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Literary cocktails, inspired stories and a lively space amid a collection of books and art.",
+          "note": "The Manor Bar description",
+          "confirmed": true,
+          "url": "https://www.rosewoodhotels.com/en/miramar-beach-montecito",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "AMA Sushi is led by California-born Chef Scott Yonamine, who has spent two decades honing his craft.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Led by California-born Chef Scott Yonamine, who has spent two decades honing his craft.",
+          "note": "AMA Sushi description",
+          "confirmed": true,
+          "url": "https://www.rosewoodhotels.com/en/miramar-beach-montecito",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Revere Room serves California dining.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Quintessential California dining in an elegant yet inviting atmosphere.",
+          "note": "The Revere Room description",
+          "confirmed": true,
+          "url": "https://www.rosewoodhotels.com/en/miramar-beach-montecito",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Miramar Beach Bar is the hotel's beachfront restaurant, serving cocktails and bites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Refreshing cocktails and bites in a lively ambiance at our beachfront restaurant.",
+          "note": "Miramar Beach Bar description",
+          "confirmed": true,
+          "url": "https://www.rosewoodhotels.com/en/miramar-beach-montecito",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "At FronteMare, the Caruso's team prepares food live along the coastline for guests gathered around a communal table.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Prepared live along the coastline, the team at Caruso’s welcomes guests to gather around a communal table.",
+          "note": "FronteMare description",
+          "confirmed": true,
+          "url": "https://www.rosewoodhotels.com/en/miramar-beach-montecito",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Miramar Surf Club offers surfing alongside local surfers as a taste of Santa Barbara's surf culture.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Catch the perfect wave alongside local legends for a taste of Santa Barbara’s surf culture.",
+          "note": "Miramar Surf Club description",
+          "confirmed": true,
+          "url": "https://www.rosewoodhotels.com/en/miramar-beach-montecito",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Luxury brand shops, from CHANEL to Zegna, are on the property within steps of the accommodations.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Rosewood Miramar Beach offers luxury brands renowned for exceptional craftsmanship and style from CHANEL to Zegna, all within steps from accommodations.",
+          "note": "shopping on property",
+          "confirmed": true,
+          "url": "https://www.rosewoodhotels.com/en/miramar-beach-montecito",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes premium luxury pricing reflecting the high-end positioning.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes limited availability because of high demand.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "hotel_slug": "ritz-carlton-wolfsburg",
+  "hotel_name": "The Ritz-Carlton, Wolfsburg",
+  "checked_at": "2026-10-09T14:51:18.245Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 15,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 17
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ritzcarlton.com/en/hotels/wfgrz-the-ritz-carlton-wolfsburg/overview/",
+      "tier": "official",
+      "chars": 18435
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ritzcarlton.com/en/hotels/wfgrz-the-ritz-carlton-wolfsburg/rooms/",
+      "tier": "official",
+      "chars": 6612
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ritzcarlton.com/en/hotels/wfgrz-the-ritz-carlton-wolfsburg/dining/",
+      "tier": "official",
+      "chars": 6861
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ritzcarlton.com/en/hotels/wfgrz-the-ritz-carlton-wolfsburg/experiences/",
+      "tier": "official",
+      "chars": 13464
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ritzcarlton.com/en/hotels/wfgrz-the-ritz-carlton-wolfsburg/club/",
+      "tier": "official",
+      "chars": 4276
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ritzcarlton.com/en/hotels/wfgrz-the-ritz-carlton-wolfsburg/experiences/holidays/",
+      "tier": "official",
+      "chars": 5412
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ritzcarlton.com/en/hotels/wfgrz-the-ritz-carlton-wolfsburg/reviews/",
+      "tier": "official",
+      "chars": 788
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel's redesign by Elliott Barnes is a contemporary update of the original design concept created by Andrée Putman.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The redesign of The Ritz-Carlton, Wolfsburg by Elliott Barnes is a contemporary update of the original design concept created by Andrée Putman.",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/wfgrz-the-ritz-carlton-wolfsburg/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Guest rooms have floor-to-ceiling windows overlooking the Autostadt or the historic Volkswagen plant, with minimalist, contemporary decor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Floor-to-ceiling windows overlooking the Autostadt or historic Volkswagen plant are juxtaposed with minimalist, contemporary décor in all our hotel rooms",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/wfgrz-the-ritz-carlton-wolfsburg/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Terra serves modern German cuisine using regional ingredients.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "At Terra, Head Chef Fabian Schröter reinterprets modern German cuisine using regional ingredients in a warm and inviting atmosphere.",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/wfgrz-the-ritz-carlton-wolfsburg/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Aura is the hotel's breakfast restaurant, with seasonal breakfast variations.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Aura offers a dynamic start to the day with fresh, seasonal breakfast variations",
+          "note": "Aura listed as breakfast restaurant with seasonal breakfast variations",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/wfgrz-the-ritz-carlton-wolfsburg/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Lobby Lounge is a setting for afternoon tea, light dishes or cocktails.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "the Lobby Lounge provides the perfect setting for afternoon tea, light dishes, or cocktails",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/wfgrz-the-ritz-carlton-wolfsburg/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Newman's Bar is the hotel's elegant bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Make yourself at home in our elegant bar in Wolfsburg with a warm and welcoming atmosphere.",
+          "note": "Listed under Newman's Bar",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/wfgrz-the-ritz-carlton-wolfsburg/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The wellness area includes a floating pool, a fitness center and two saunas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Enjoy the floating pool, fitness center and two saunas at our Wolfsburg wellness hotel.",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/wfgrz-the-ritz-carlton-wolfsburg/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Use of the spa is included for overnight guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Use of the spa is included for our overnight guests.",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/wfgrz-the-ritz-carlton-wolfsburg/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The spa uses Pharmos Natur skincare, whose formulations use fresh Aloe Vera in place of water.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Pharmos Natur brings the power of sacred plants to luxurious skincare. Fresh, untreated Aloe Vera replaces water in their formulations",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/wfgrz-the-ritz-carlton-wolfsburg/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel is an integral part of Volkswagen's Autostadt theme park.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "As an integral part of Volkswagen's Autostadt theme park, the hotel features 170 stylish guest rooms",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/wfgrz-the-ritz-carlton-wolfsburg/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The spa has a view over the canal, docks and historic VW plant, and an infinity pool in the harbor basin.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "A view over the canal, docks and historic VW plant and an infinity pool in the harbor basin.",
+          "note": "Spa and Fitness section",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/wfgrz-the-ritz-carlton-wolfsburg/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The hotel is designed as an open circle.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Designed as a striking open circle, our hotel symbolizes warmth and welcome",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/wfgrz-the-ritz-carlton-wolfsburg/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Guided tours let guests explore the Autostadt's fully automated Car Towers up close.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "On a guided tour, guests can explore the fully automated Car Towers up close",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/wfgrz-the-ritz-carlton-wolfsburg/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Ritz Kids program offers young guests a heated pool and kid-friendly meals.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Little guests can splash in our heated pool, enjoy kid-friendly meals",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/wfgrz-the-ritz-carlton-wolfsburg/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Club access requires an upgraded booking, and Marriott Bonvoy Elite Status does not provide complimentary access to Club.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Club access requires an upgraded booking at the Club. Marriott Bonvoy Elite Status does not provide complimentary access to Club.",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/wfgrz-the-ritz-carlton-wolfsburg/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes limited appeal for guests not interested in automotive culture.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes an industrial city location rather than a traditional tourist destination.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

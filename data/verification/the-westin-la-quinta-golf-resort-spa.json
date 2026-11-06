@@ -1,0 +1,345 @@
+{
+  "hotel_slug": "the-westin-la-quinta-golf-resort-spa",
+  "hotel_name": "The Westin La Quinta Golf Resort & Spa",
+  "checked_at": "2026-11-05T10:50:23.552Z",
+  "script_version": 1,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 13,
+      "contradicted": 0,
+      "unverified": 3,
+      "exempt": 1,
+      "total": 17
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/agpwi-the-westin-la-quinta-golf-resort-and-spa-benahavis-marbella/overview/",
+      "tier": "official",
+      "chars": 21751
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/agpwi-the-westin-la-quinta-golf-resort-and-spa-benahavis-marbella/rooms/",
+      "tier": "official",
+      "chars": 7509
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/agpwi-the-westin-la-quinta-golf-resort-and-spa-benahavis-marbella/rooms/suites/",
+      "tier": "official",
+      "chars": 7031
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/agpwi-the-westin-la-quinta-golf-resort-and-spa-benahavis-marbella/experiences/",
+      "tier": "official",
+      "chars": 11193
+    },
+    {
+      "id": "d5",
+      "url": "https://www.marriott.com/en-us/hotels/agpwi-the-westin-la-quinta-golf-resort-and-spa-benahavis-marbella/spa/",
+      "tier": "official",
+      "chars": 9352
+    },
+    {
+      "id": "d6",
+      "url": "https://www.marriott.com/en-us/hotels/agpwi-the-westin-la-quinta-golf-resort-and-spa-benahavis-marbella/dining/",
+      "tier": "official",
+      "chars": 6824
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The resort is surrounded by the Sierra Blanca mountains and the Mediterranean, 10 minutes by car from Marbella.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Surrounded by the beautiful landscape of Sierra Blanca mountains and the Mediterranean Sea, this oasis of relaxation is only 10 minutes away by car from Marbella.",
+          "note": "see quote",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/agpwi-the-westin-la-quinta-golf-resort-and-spa-benahavis-marbella/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "La Quinta Golf & Country Club has three 9-hole championship courses designed by Manuel Piñero.",
+      "findings": [
+        {
+          "verdict": "partial",
+          "doc_id": "d1",
+          "quote": "It has an exclusive club, a 27-hole course, a restaurant and a shop.",
+          "note": "see quote",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/agpwi-the-westin-la-quinta-golf-resort-and-spa-benahavis-marbella/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "unverified",
+      "reason": "sources cover only part of the claim"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Puerto Banús marina is about 10 minutes away.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Guests are within easy reach from the vibrant Puerto Banús Marina Harbor, just 10 minutes",
+          "note": "see quote",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/agpwi-the-westin-la-quinta-golf-resort-and-spa-benahavis-marbella/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Rooms have private terraces or balconies.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Private terraces and balconies offer captivating views across our 170 spacious hotel rooms",
+          "note": "see quote",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/agpwi-the-westin-la-quinta-golf-resort-and-spa-benahavis-marbella/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Presidential Suite has a private sauna.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "it features a private sauna, indoor and outdoor whirlpool tubs",
+          "note": "see quote",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/agpwi-the-westin-la-quinta-golf-resort-and-spa-benahavis-marbella/rooms/suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Heavenly Spa is dedicated to the history of Andalusia.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Dedicated to the passion found throughout the history of Andalusia, Heavenly Spa by Westin™",
+          "note": "see quote",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/agpwi-the-westin-la-quinta-golf-resort-and-spa-benahavis-marbella/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The spa has a Mediterranean sauna, an aromatic steam room, sensorial showers and an ice fountain.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Services: Mediterranean Sauna, Aromatic Steam room, Relaxing room, Water Circuit, 2 Sensation Shower Cabins, Ice Fountain",
+          "note": "see quote",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/agpwi-the-westin-la-quinta-golf-resort-and-spa-benahavis-marbella/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Aljama Bar is the hotel's cocktail bar, with Arabic decor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "The Aljama Bar is the hotel cocktail bar by excellence, a warm welcoming space adorned with Arabic decor.",
+          "note": "see quote",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/agpwi-the-westin-la-quinta-golf-resort-and-spa-benahavis-marbella/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "An olive oil experience connects guests with the land and traditions of Andalusia.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Experience the essence of Andalusia with a journey designed to connect you with the land, its traditions, and the art of olive oil.",
+          "note": "see quote",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/agpwi-the-westin-la-quinta-golf-resort-and-spa-benahavis-marbella/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Malaga Airport and a high-speed train station are 45 minutes away.",
+      "findings": [
+        {
+          "verdict": "partial",
+          "doc_id": "d1",
+          "quote": "Located just 45 minutes away from Malaga International Airport (AGP)",
+          "note": "see quote",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/agpwi-the-westin-la-quinta-golf-resort-and-spa-benahavis-marbella/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "unverified",
+      "reason": "sources cover only part of the claim"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The resort is in Marbella's Valley of Golf and has a 27-hole golf course.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Ideally located in the exclusive \"Valley of Golf\", The Westin La Quinta Golf Resort & Spa, Benahavís is a unique destination for golf lovers with a 27-hole course.",
+          "note": "see quote",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/agpwi-the-westin-la-quinta-golf-resort-and-spa-benahavis-marbella/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Heavenly Spa is designed in Moorish style and has a hydrotherapy pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Designed in Moorish style, the 1,500-square-meter Heavenly Spa by Westin™ comprises eight treatment rooms and one hydrotherapy pool.",
+          "note": "see quote",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/agpwi-the-westin-la-quinta-golf-resort-and-spa-benahavis-marbella/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Presidential Suite has a vast terrace with an outdoor whirlpool tub and sunbeds.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Its standout feature is the vast terrace, complete with an outdoor whirlpool tub, lounge zones, and sunbeds",
+          "note": "see quote",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/agpwi-the-westin-la-quinta-golf-resort-and-spa-benahavis-marbella/rooms/suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Panoramic Rooms look out over the pool, gardens and mountains from private terraces.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Classic and Deluxe Panoramic Rooms offer views of the pool, gardens, and mountains from private terraces",
+          "note": "see quote",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/agpwi-the-westin-la-quinta-golf-resort-and-spa-benahavis-marbella/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Clubhouse Restaurant & Bar has a large year-round terrace with panoramic golf course views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Its large terrace can be enjoyed throughout the year and boasts wonderful panoramic views to the golf course.",
+          "note": "see quote",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/agpwi-the-westin-la-quinta-golf-resort-and-spa-benahavis-marbella/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The resort is in the hills near Marbella rather than on the beach; WhataHotel notes guests need a car or taxi to reach Marbella town and the beaches.",
+      "findings": [
+        {
+          "verdict": "partial",
+          "doc_id": "d4",
+          "quote": "surrounded by the Sierra Blanca’s hills in the heart of renowned Golf Valley",
+          "note": "see quote",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/agpwi-the-westin-la-quinta-golf-resort-and-spa-benahavis-marbella/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "unverified",
+      "reason": "sources cover only part of the claim"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes premium pricing for dining, spa and golf.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

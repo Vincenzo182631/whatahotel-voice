@@ -1,0 +1,461 @@
+{
+  "hotel_slug": "imperial-hotel-osaka",
+  "hotel_name": "Imperial Hotel Osaka",
+  "checked_at": "2026-10-20T02:00:48.395Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 20,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 0,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.imperialhotel.co.jp/en/osaka/stay/room/",
+      "tier": "official",
+      "chars": 7154
+    },
+    {
+      "id": "d2",
+      "url": "https://www.imperialhotel.co.jp/en/osaka/fitness-spa/",
+      "tier": "official",
+      "chars": 4728
+    },
+    {
+      "id": "d3",
+      "url": "https://www.imperialhotel.co.jp/en/osaka/facility/",
+      "tier": "official",
+      "chars": 2515
+    },
+    {
+      "id": "d4",
+      "url": "https://www.imperialhotel.co.jp/en/osaka/stay/service/",
+      "tier": "official",
+      "chars": 2089
+    },
+    {
+      "id": "d5",
+      "url": "https://www.imperialhotel.co.jp/en/osaka/stay/experience/",
+      "tier": "official",
+      "chars": 13750
+    },
+    {
+      "id": "d6",
+      "url": "https://www.imperialhotel.co.jp/en/osaka",
+      "tier": "official",
+      "chars": 3248
+    },
+    {
+      "id": "d7",
+      "url": "https://www.imperialhotel.co.jp/en/osaka/overview/",
+      "tier": "official",
+      "chars": 1888
+    },
+    {
+      "id": "d8",
+      "url": "https://www.imperialhotel.co.jp/en/osaka/access/",
+      "tier": "official",
+      "chars": 4603
+    },
+    {
+      "id": "d9",
+      "url": "https://www.imperialhotel.co.jp/en/osaka/stay/availability/",
+      "tier": "official",
+      "chars": 2368
+    },
+    {
+      "id": "d10",
+      "url": "https://www.imperialhotel.co.jp/en/osaka/restaurant/private-rooms/",
+      "tier": "official",
+      "chars": 2206
+    },
+    {
+      "id": "d11",
+      "url": "https://www.imperialhotel.co.jp/en/osaka/restaurant/",
+      "tier": "official",
+      "chars": 7179
+    },
+    {
+      "id": "d12",
+      "url": "https://www.imperialhotel.co.jp/en/osaka/special/barrierfree/",
+      "tier": "official",
+      "chars": 3102
+    },
+    {
+      "id": "d13",
+      "url": "https://www.cntraveler.com/hotels/osaka/imperial-hotel-osaka",
+      "tier": "editorial",
+      "chars": 3050
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is at 8-50 Temmabashi 1-chome in Osaka's Kita-ku.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "8-50, Temmabashi 1-Chome, Kita-ku, Osaka 530-0042, Japan",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.imperialhotel.co.jp/en/osaka/access/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The Imperial Hotel Plaza shopping arcade lies along the bank of the Okawa River, part of Osaka Amenity Park.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "This shopping plaza lies along the bank of the Okawa River, part of Osaka Amenity Park.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.imperialhotel.co.jp/en/osaka/facility/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Imperial Floors, on floors 19 to 21, hold the hotel's highest-grade rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Imperial Floors, covering Floors 19 through to 21, contain our highest quality rooms.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.imperialhotel.co.jp/en/osaka/stay/room/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The Imperial Floor Lounge is for the exclusive use of Imperial Floor guests and suite guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "For the exclusive use of Imperial Floor guests and Suite guests.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.imperialhotel.co.jp/en/osaka/stay/service/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Regular Floor Superior rooms look down on the riverside nature, which changes with the seasons.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "You can enjoy the beautiful nature along the river that changes with the seasons right below",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.imperialhotel.co.jp/en/osaka/stay/room/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Imperial Floor Deluxe rooms have the Imperial Hotel's original bed and duvet.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Enjoy a comfortable sleep with the Imperial Hotel's original bed and duvet",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.imperialhotel.co.jp/en/osaka/stay/room/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The hotel's facilities include a pool and saunas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Enjoy a comfortable stay with our array of facilities including a pool, saunas, a members-only fitness club, and conference and meeting rooms.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.imperialhotel.co.jp/en/osaka/facility/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The fitness club has tennis courts.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "**Tennis Courts**",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.imperialhotel.co.jp/en/osaka/fitness-spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The fitness club has a golf practice course.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "**Golf practice course**",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.imperialhotel.co.jp/en/osaka/fitness-spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The restaurants and bar lounges serve French cuisine, a long tradition of the hotel, as well as Japanese, teppanyaki and Chinese cuisine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "We have restaurants and bar lounges offering different tastes, including French cuisine, a long tradition of the hotel, Japanese cuisine, teppanyaki cuisine, and Chinese cuisine.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.imperialhotel.co.jp/en/osaka",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Les Saisons, the fine French restaurant, is on the 23rd floor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Fine French Cuisine LES SAISONS (23F)",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.imperialhotel.co.jp/en/osaka/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The hotel shop carries Doorman Snoopy goods, confectionery, breads and deli items.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "This hotel shop carries Doorman Snoopy goods to commemorate your stay, confectioneries, breads, and deli items.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.imperialhotel.co.jp/en/osaka",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "From the east-facing windows of the Imperial Floor Suites you can see the distant ridgelines of the Ikoma mountain range and, below, the Okawa River.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "From windows facing east, you can see the distant ridgelines of the Ikoma mountain range, and from below, the majestic flow of the Okawa River.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.imperialhotel.co.jp/en/osaka/stay/room/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Regular Floor Suite offers a 180-degree river view.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "offering a 180-degree river view.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.imperialhotel.co.jp/en/osaka/stay/room/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The fitness club has an open, resort-like interior with plenty of natural light and greenery, across a total floor area of 4,400 square meters.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Entering the lobby, guests are immersed in the club's open, resort-like interior with its abundance of natural light and greenery.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.imperialhotel.co.jp/en/osaka/fitness-spa/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The club boasts a total floor area of 4,400 m²",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.imperialhotel.co.jp/en/osaka/fitness-spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Imperial Floor Junior Suites have a mist sauna.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The mist sauna, unique to the Junior Suites, offers a true relaxation time without the feeling of suffocation.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.imperialhotel.co.jp/en/osaka/stay/room/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The concierge team has assembled programs ranging from traditional Japanese cultural experiences to sightseeing tours.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "From only-in-Japan traditional cultural experiences to sightseeing tours to delightful urban destinations, we have assembled a range of programs to suit your interests.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.imperialhotel.co.jp/en/osaka/stay/experience/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Hotel guests pay an entrance fee to use the fitness club's pool, bath area and sauna.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Entrance Fees (for guests staying at the hotel)",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.imperialhotel.co.jp/en/osaka/fitness-spa/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Use of pool, bath area, and sauna (one time) | 2,200 yen",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.imperialhotel.co.jp/en/osaka/fitness-spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The fitness club cannot be used by persons with tattoos.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "intoxicated persons, and persons with tattoos.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.imperialhotel.co.jp/en/osaka/fitness-spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "The fitness center, pool and saunas close for maintenance on the third Tuesday of every month.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Facilities are closed for maintenance on The 3rd Tuesday of every month",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.imperialhotel.co.jp/en/osaka/fitness-spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,403 @@
+{
+  "hotel_slug": "baglioni-resort-sardinia",
+  "hotel_name": "Baglioni Resort Sardinia",
+  "checked_at": "2026-10-15T03:11:54.810Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://sardinia.baglionihotels.com/",
+      "tier": "official",
+      "chars": 5706
+    },
+    {
+      "id": "d2",
+      "url": "https://sardinia.baglionihotels.com/dining/",
+      "tier": "official",
+      "chars": 2432
+    },
+    {
+      "id": "d3",
+      "url": "https://sardinia.baglionihotels.com/aura-spa/",
+      "tier": "official",
+      "chars": 1767
+    },
+    {
+      "id": "d4",
+      "url": "https://sardinia.baglionihotels.com/experiences/",
+      "tier": "official",
+      "chars": 1122
+    },
+    {
+      "id": "d5",
+      "url": "https://sardinia.baglionihotels.com/accommodations/",
+      "tier": "official",
+      "chars": 4968
+    },
+    {
+      "id": "d6",
+      "url": "https://sardinia.baglionihotels.com/accommodations/garden-family-suite/",
+      "tier": "official",
+      "chars": 1658
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The resort is located on Sardinia's northeast coast.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located on Sardinia’s northeast coast, this peaceful resort",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://sardinia.baglionihotels.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The rooms have spacious verandas with private gardens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "spacious verandas with private gardens invite you to experience the beauty of nature",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://sardinia.baglionihotels.com/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Grand Deluxe Room (Garden View) has Orosei stone flooring.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "featuring soft tones and Orosei stone flooring, the Grand Deluxe Room offers a private veranda with garden",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://sardinia.baglionihotels.com/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The 2-Bedroom Family Room has two connecting bedrooms, two bathrooms and a private veranda with garden.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Ideal for families, this room features two connecting bedrooms, two bathrooms, and a private veranda with garden",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://sardinia.baglionihotels.com/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Sunset Terrace is a rooftop terrace above the Pool Bar for sunset aperitifs with the sea on the horizon.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "An elegant rooftop terrace above the Pool Bar, perfect for sipping an unforgettable sunset aperitif with the sea on the horizon.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://sardinia.baglionihotels.com/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Aura Spa has a steam room, a sauna and a cooling ice fountain.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "each wellness ritual—complete with steam room, sauna, and cooling ice fountain",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://sardinia.baglionihotels.com/aura-spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Garden Suite includes daily breakfast at the restaurant and guaranteed beach access with an umbrella.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Daily breakfast included at the restaurant",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://sardinia.baglionihotels.com/accommodations/garden-family-suite/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Guaranteed beach access with umbrella",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://sardinia.baglionihotels.com/accommodations/garden-family-suite/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Guests can play golf at Puntaldia Golf Club.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Take the opportunity to play golf at Puntaldía Golf Club",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://sardinia.baglionihotels.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Guests can take a cooking class with the chefs of the resort's restaurant Gusto by Sadler.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "An opportunity to learn first-hand the chefs of our own Michelin-starred restaurant, Gusto by Sadler.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://sardinia.baglionihotels.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The resort's experiences include diving and snorkeling in Tavolara.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "**Diving and Snorkeling in Tavolara**",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://sardinia.baglionihotels.com/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The resort's experiences include a Sardinia helicopter tour.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "**Sardinia Helicopter Tour**",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://sardinia.baglionihotels.com/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The resort's experiences include canyoning on Rio Pitrisconi.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "**Canyoning on Rio Pitrisconi**",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://sardinia.baglionihotels.com/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The resort is set within the Tavolara Marine Reserve, a short distance from Lu Impostu beach.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "a stunning resort setting within the Tavolara Marine Reserve, a short distance from the incomparable Lu Impostu beach",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://sardinia.baglionihotels.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Guided horseback rides go along La Cinta beach and lagoon at dawn or sunset.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Ride along Sardinia’s iconic La Cinta beach and lagoon at dawn or sunset, guided by local experts",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://sardinia.baglionihotels.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Rooftop Terrace Suite has a rooftop terrace with 360-degree sea views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "the Rooftop Terrace Suite accommodates up to four guests and features a living area, veranda, and rooftop terrace with 360° sea views.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://sardinia.baglionihotels.com/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Aura Spa has a couples' treatment room; after the massage, couples can soak in the hot tub and have an aperitivo.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Our sophisticated **couples’ treatment room** invites you to unwind together. After your massage, soak in the hot tub and toast wellness with a **refreshing _aperitivo._**",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://sardinia.baglionihotels.com/aura-spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Baglioni Kids Club offers young guests sports, games, arts and crafts and entertainment.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "At Baglioni Kids Club, our youngest guests can enjoy a variety of activities, such as sports, games, arts & crafts, entertainment & more.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://sardinia.baglionihotels.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The official site describes Lu Impostu beach as a short distance from the resort.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "a short distance from the incomparable Lu Impostu beach",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://sardinia.baglionihotels.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Aura Spa is open to people not staying at the resort as well as to hotel guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "All our treatments and services are also available to those who are not staying at **Baglioni Resort Sardinia.**",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://sardinia.baglionihotels.com/aura-spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes that the island location requires additional travel planning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

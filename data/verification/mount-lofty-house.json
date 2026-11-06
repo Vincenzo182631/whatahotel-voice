@@ -1,0 +1,393 @@
+{
+  "hotel_slug": "mount-lofty-house",
+  "hotel_name": "Mount Lofty House",
+  "checked_at": "2026-10-16T01:06:43.331Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.mtloftyhouse.com.au/",
+      "tier": "official",
+      "chars": 7715
+    },
+    {
+      "id": "d2",
+      "url": "https://www.mtloftyhouse.com.au/stay/",
+      "tier": "official",
+      "chars": 7117
+    },
+    {
+      "id": "d3",
+      "url": "https://www.mtloftyhouse.com.au/40th-anniversary/",
+      "tier": "official",
+      "chars": 12737
+    },
+    {
+      "id": "d4",
+      "url": "https://www.mtloftyhouse.com.au/function-rooms-adelaide/",
+      "tier": "official",
+      "chars": 6868
+    },
+    {
+      "id": "d5",
+      "url": "https://www.mtloftyhouse.com.au/hardys-verandah-restaurant-hvr/",
+      "tier": "official",
+      "chars": 14920
+    },
+    {
+      "id": "d6",
+      "url": "https://www.mtloftyhouse.com.au/the-art-of-high-tea-at-mount-lofty-house-adults-retreat/",
+      "tier": "official",
+      "chars": 1227
+    },
+    {
+      "id": "d7",
+      "url": "https://www.mtloftyhouse.com.au/boutique/",
+      "tier": "official",
+      "chars": 2378
+    },
+    {
+      "id": "d8",
+      "url": "https://www.mtloftyhouse.com.au/christmas-at-mount-lofty-house/",
+      "tier": "official",
+      "chars": 3197
+    },
+    {
+      "id": "d9",
+      "url": "https://www.mtloftyhouse.com.au/function-conference-venues-adelaide/",
+      "tier": "official",
+      "chars": 7086
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Mount Lofty House was built in 1852 by statesman Arthur Hardy as his summer house.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Mount Lofty House was built in 1852 by prominent statesman Arthur Hardy as his summer house.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.mtloftyhouse.com.au/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The house was built on the summit of Mount Lofty.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Hardy and his wife Martha built their summer house on the summit of Mount Lofty in 1852",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.mtloftyhouse.com.au/40th-anniversary/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The original house was burnt to the ground in the 1983 Ash Wednesday fires.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "In the disastrous 1983 fires of Ash Wednesday Mount Lofty House was burnt to the ground",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.mtloftyhouse.com.au/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "After being completely rebuilt, it reopened as a luxury boutique hotel on 12 February 1986.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Mount Lofty House & Estate proudly celebrates 40 years as a Luxury Boutique Hotel, marking the moment it reopened on 12th February 1986 after being completely rebuilt",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.mtloftyhouse.com.au/40th-anniversary/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The manor passed through several South Australian families and was a commune in the 1970s.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "the manor was passed through a number of South Australian families, including a period as commune in the 1970s",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.mtloftyhouse.com.au/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The hotel is 15 minutes from Adelaide CBD and 25 minutes from Adelaide airport.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Mount Lofty House is located only 15 minutes from Adelaide CBD and 25 minutes from the Adelaide airport",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.mtloftyhouse.com.au/function-rooms-adelaide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The swimming pool overlooks the Piccadilly Valley.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Relax in our swimming pool overlooking the Piccadilly Valley",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.mtloftyhouse.com.au/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Spa treatments are offered at Gatekeeper's Day Spa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Relax with a spa treatment at Gatekeeper’s Day Spa",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.mtloftyhouse.com.au/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Guests can play billiards or chess or relax in the house library.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Challenge your partner with a game of billiards, chess or relax in the house library",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.mtloftyhouse.com.au/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Guests can explore the Mount Lofty Estate gardens or the neighbouring Botanic Gardens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Explore Mount Lofty Estate gardens or the neighbouring Botanic Gardens",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.mtloftyhouse.com.au/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Hardy's Verandah Restaurant's wine list has more than 1300 Australian and international wines, housed in the historic 1852 wine cellar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Three Glass Wine List featuring more than 1300 bottles of Australian and International Wines which are housed in our historic 1852 wine cellar",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.mtloftyhouse.com.au/hardys-verandah-restaurant-hvr/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Hardy's Verandah Restaurant was awarded 3 hats by the Australia Good Food Guide in 2024.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Australia Good Food Guide 3-Hat for Hardy’s Verandah Restaurant 2024",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.mtloftyhouse.com.au/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Concierge hosts a nightly champagne and house history tour.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Nightly champagne and house history tour hosted by our Concierge",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.mtloftyhouse.com.au/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Sequoia Lodge suites are sustainably designed, with tree-top views over the Piccadilly Valley and vineyards.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Sequoia Lodge Suites",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.mtloftyhouse.com.au/stay/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "sustainably designed suites with unparalleled tree-top views overlook the Piccadilly Valley and vineyards",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.mtloftyhouse.com.au/stay/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Sequoia Lodge has its own reception area, lounge, breakfast room and mineral hot springs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Sequoia provides the highest level of privacy, its own reception area, lounge and breakfast room, mineral hot springs",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.mtloftyhouse.com.au/stay/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Piccadilly Valley View rooms in the Piccadilly Wing have views across the Piccadilly Valley, a sitting area and outdoor balconies.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Located in the Piccadilly Wing, our spacious Piccadilly Valley View rooms offer breathtaking views across Piccadilly Valley with sitting area and outdoor balconies.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.mtloftyhouse.com.au/stay/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Mount Lofty House is a retreat for adults.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Mount Lofty House is an Adults-only retreat.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.mtloftyhouse.com.au/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes the secluded hilltop location requires a car for city access.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing that reflects the luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

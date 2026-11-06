@@ -1,0 +1,430 @@
+{
+  "hotel_slug": "the-setai-tel-aviv-hotel",
+  "hotel_name": "The Setai Tel Aviv Hotel",
+  "checked_at": "2026-10-15T03:12:41.887Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://thesetaihotels.com/en/setai-tel-aviv/dining/",
+      "tier": "official",
+      "chars": 2436
+    },
+    {
+      "id": "d2",
+      "url": "https://thesetaihotels.com/the-setai-tel-aviv/hotel-rooms-tel-aviv/",
+      "tier": "official",
+      "chars": 3284
+    },
+    {
+      "id": "d3",
+      "url": "https://thesetaihotels.com/spa-day-in-tel-aviv/",
+      "tier": "official",
+      "chars": 3948
+    },
+    {
+      "id": "d4",
+      "url": "https://thesetaihotels.com/restaurant-in-hotel-in-tel-aviv/",
+      "tier": "official",
+      "chars": 5606
+    },
+    {
+      "id": "d5",
+      "url": "https://thesetaihotels.com/the-setai-tel-aviv/tel-aviv-restaurants/",
+      "tier": "official",
+      "chars": 2173
+    },
+    {
+      "id": "d6",
+      "url": "https://thesetaihotels.com/hotel-suites-in-tel-aviv/",
+      "tier": "official",
+      "chars": 5345
+    },
+    {
+      "id": "d7",
+      "url": "https://thesetaihotels.com/the-setai-bayit-bagalil/suites/",
+      "tier": "official",
+      "chars": 3919
+    },
+    {
+      "id": "d8",
+      "url": "https://thesetaihotels.com/sea-of-galilee/rooms-and-villas/",
+      "tier": "official",
+      "chars": 6456
+    },
+    {
+      "id": "d9",
+      "url": "https://thesetaihotels.com/accommodation-in-the-upper-galilee/",
+      "tier": "official",
+      "chars": 5666
+    },
+    {
+      "id": "d10",
+      "url": "https://thesetaihotels.com/galilee-suites-setai-sea-of-galilee/",
+      "tier": "official",
+      "chars": 6982
+    },
+    {
+      "id": "d11",
+      "url": "https://thesetaihotels.com/sea-of-galilee/sea-of-galilee-restaurants/",
+      "tier": "official",
+      "chars": 1418
+    },
+    {
+      "id": "d12",
+      "url": "https://thesetaihotels.com/couples-spa/",
+      "tier": "official",
+      "chars": 3773
+    },
+    {
+      "id": "d13",
+      "url": "https://www.cntraveler.com/hotels/tel-aviv/the-setai-tel-aviv",
+      "tier": "editorial",
+      "chars": 2945
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is in Old Jaffa, near the beach, Clock Tower Square, Jaffa Port, the HaTachana compound and the flea market.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "המלון היוקרתי ממוקם בלוקיישן מרכזי ביפו העתיקה, בקרבת חוף הים, כיכר השעון, נמל יפו, מתחם התחנה, שוק הפשפשים",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://thesetaihotels.com/spa-day-in-tel-aviv/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Preserved features of the building include large windows, ancient stone walls and arches.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "המבנה המשוחזר של המלון מעוצב בסגנון ים תיכוני ייחודי המשמר אלמנטים מקוריים מהתקופה העות'מאנית והצלבנית – חלונות גדולים, קירות אבן עתיקים וקשתות מסוגננות",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://thesetaihotels.com/spa-day-in-tel-aviv/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Kishle Bar is clad in blue Brazilian stone.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "הבר המעוצב עם חיפוי של אבן ברזילאית כחולה",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://thesetaihotels.com/the-setai-tel-aviv/tel-aviv-restaurants/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Kishle Bar serves an original cocktail menu and an extensive choice of Israeli wines.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The perfect blend of chic and style serving an original cocktail menu, an extensive choice of Israeli wines",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://thesetaihotels.com/en/setai-tel-aviv/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Kishle Restaurant's dishes are made from fresh ingredients bought at local markets, with Mediterranean flavours.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "all made from carefully selected fresh ingredients purchased locally from local markets and infused with Mediterranean flavours and aromas",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://thesetaihotels.com/en/setai-tel-aviv/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Ocean Grill is a kosher restaurant on a terrace overlooking the coastline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "המסעדה הכשרה ממוקמת בתל אביב-יפו, על מרפסת המשקיפה אל קו החוף",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://thesetaihotels.com/hotel-suites-in-tel-aviv/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Japón serves sushi and meats.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "where sushi and succulent meats meet the Mediterranean backdrop",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://thesetaihotels.com/en/setai-tel-aviv/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Guests in suites and Premium Plus rooms have access to the Mediterranean-style lounge, which has a lounge bar serving light meals.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Guests of the hotel’s suites and premium plus rooms can enjoy access to the hotel’s Mediterranean-style lounge featuring a lounge bar serving light meals",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://thesetaihotels.com/en/setai-tel-aviv/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Rooms have views of the sea, of Jaffa or of the hotel's patio.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "כל החדרים מתוכננים בקפידה רבה כחללים גדולים ומרווחים עם נוף לים, לעיר יפו או לפטיו הציורי של המלון",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://thesetaihotels.com/the-setai-tel-aviv/hotel-rooms-tel-aviv/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Bathrooms are clad in marble and granite tiles.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "חדרי רחצה מחופים באריחי שיש גרניט",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://thesetaihotels.com/the-setai-tel-aviv/hotel-rooms-tel-aviv/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The spa facilities include a Turkish hammam, a dry sauna, a pressure shower and a gym.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "מתקני הספא הכוללים: חמאם טורקי, סאונה יבשה, מקלחת לחץ וחדר כושר",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://thesetaihotels.com/spa-day-in-tel-aviv/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The Setai Tel Aviv is part of The Leading Hotels of the World.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "מלון סטאי תל אביב נמנה עם מותג היוקרה של רשת The Leading Hotels of the World",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://thesetaihotels.com/spa-day-in-tel-aviv/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel's restored building is designed in a Mediterranean style that preserves original elements from the Ottoman and Crusader periods.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "המבנה המשוחזר של המלון מעוצב בסגנון ים תיכוני ייחודי המשמר אלמנטים מקוריים מהתקופה העות'מאנית והצלבנית",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://thesetaihotels.com/spa-day-in-tel-aviv/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Kishle Bar is in an ancient stone building that was once used by the Ottoman authorities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "הבר שוכן בתוך מבנה אבן עתיק, שבעבר שימש את שלטונות האימפריה העות'מאנית",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://thesetaihotels.com/restaurant-in-hotel-in-tel-aviv/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The spa is in a stone building in an area that once housed Old Jaffa's market.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "מתחם הספא שוכן במבנה אבן מפואר, הממוקם באזור ששימש בעבר את השוק של יפו העתיקה",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://thesetaihotels.com/spa-day-in-tel-aviv/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Kishle Restaurant is set in a centuries-old Ottoman building and serves a la carte chef meals.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "A centuries-old Ottoman building provides a stunning setting to accompany and complement Kishle’s à la carte chef meals",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://thesetaihotels.com/en/setai-tel-aviv/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Rooms have Acqua di Parma bath products, exclusive to The Setai Tel Aviv.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "תכשירי טיפוח מפנקים מבית AQUA DI PARMA – בלעדיים לסטאי תל אביב",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://thesetaihotels.com/the-setai-tel-aviv/hotel-rooms-tel-aviv/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The large outdoor pool operates from April, so it is seasonal.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "ניתן לשלב ביום הכיף בילוי בבריכה החיצונית הגדולה, הפעילה החל מאפריל (בתשלום נוסף)",
+          "note": "pool operates from April",
+          "confirmed": true,
+          "url": "https://thesetaihotels.com/spa-day-in-tel-aviv/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Rooms look out over the sea, Jaffa or the hotel's patio, so not every room has a sea view.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "כל החדרים מתוכננים בקפידה רבה כחללים גדולים ומרווחים עם נוף לים, לעיר יפו או לפטיו הציורי של המלון",
+          "note": "views vary: sea, Jaffa or patio",
+          "confirmed": true,
+          "url": "https://thesetaihotels.com/the-setai-tel-aviv/hotel-rooms-tel-aviv/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing that reflects the luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

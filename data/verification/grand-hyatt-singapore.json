@@ -1,0 +1,375 @@
+{
+  "hotel_slug": "grand-hyatt-singapore",
+  "hotel_name": "Grand Hyatt Singapore",
+  "checked_at": "2026-10-29T03:44:27.131Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/sinrs-grand-hyatt-singapore",
+      "tier": "official",
+      "chars": 11268
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/sinrs-grand-hyatt-singapore/rooms/",
+      "tier": "official",
+      "chars": 15938
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/sinrs-grand-hyatt-singapore/dining/",
+      "tier": "official",
+      "chars": 11417
+    },
+    {
+      "id": "d4",
+      "url": "https://www.cntraveler.com/hotels/singapore/grand-hyatt-singapore",
+      "tier": "editorial",
+      "chars": 8728
+    },
+    {
+      "id": "d5",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/sinrs-grand-hyatt-singapore/hotel-info/",
+      "tier": "official",
+      "chars": 3967
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/sinrs-grand-hyatt-singapore/reviews/",
+      "tier": "official",
+      "chars": 22169
+    },
+    {
+      "id": "d7",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/sinrs-grand-hyatt-singapore/parking-and-transportation/",
+      "tier": "official",
+      "chars": 3990
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is in the Orchard Road area, Singapore's shopping and entertainment district.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Nestled in the Orchard Road area, Singapore’s iconic shopping and entertainment district",
+          "note": "Location and district description match.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sinrs-grand-hyatt-singapore",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel has two wings: the Grand Wing, a Grand Living Room where guests convene and celebrate, and the Terrace Wing, an urban oasis and wellness haven with lush landscaping and a cascading waterfall.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "both Grand Wing—a Grand Living Room where guests convene and celebrate—and Terrace Wing, an urban oasis and wellness haven steps from the bustling streets with lush landscaping and a cascading waterfall",
+          "note": "Both wings described as claimed.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sinrs-grand-hyatt-singapore",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Grand Wing rooms have contemporary interiors with accents that pay homage to Singapore's heritage, while Terrace Wing rooms are nature-inspired with wooden furnishings and marble-green tones.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "In the Grand Wing, contemporary interiors are enriched with accents that pay homage to Singapore’s heritage, while the Terrace Wing offers a nature‑inspired stay with wooden furnishings and marble‑green tones",
+          "note": "Room design of both wings matches.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sinrs-grand-hyatt-singapore/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The interiors were redesigned under design director Yohei Akao of Strickland, with landscape architects Grant Associates.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "resurrected under the care of design director Yohei Akao of the award-winning design firm Strickland, and renowned landscape architects Grant Associates",
+          "note": "Designer, firm and landscape architects match.",
+          "url": "https://www.cntraveler.com/hotels/singapore/grand-hyatt-singapore",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The lobby is marbled, with wooden columns and a spiral staircase.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The hotel’s cavernous marbled lobby, with its wooden columns and iconic spiral staircase",
+          "note": "Lobby features match.",
+          "url": "https://www.cntraveler.com/hotels/singapore/grand-hyatt-singapore",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Presidential Suite has a full kitchen with a separate butler entrance, a dining area, a powder room, an office and a private bedroom.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "complete with a full kitchen with separate butler entrance, dining area, powder room, office, and private bedroom",
+          "note": "All listed features match.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sinrs-grand-hyatt-singapore/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The outdoor pools include a semi-Olympic-sized pool for laps and a hydro-massage saltwater pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Enhance your fitness by swimming laps in the semi-Olympic-sized pool or unwind with a massage in the hydro-massage saltwater pool.",
+          "note": "Both pools named; described as outdoor aquatic facilities.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sinrs-grand-hyatt-singapore",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Damai, meaning peace in Malay, is the hotel's wellness haven and spa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Damai, meaning \"peace\" in Malay, is a reimagined wellness haven in Grand Hyatt Singapore",
+          "note": "Listed under DAMAI - SPA heading.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sinrs-grand-hyatt-singapore",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The Grand Club on Level 1M offers breakfast options, all-day refreshments and an evening cocktail experience.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Experience the exclusive amenities of the new Grand Club on Level 1M in an intimate atmosphere, including breakfast options, all-day refreshments, and an evening cocktail experience.",
+          "note": "Level and offerings match.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sinrs-grand-hyatt-singapore",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "StraitsKitchen is a halal-certified buffet of Singaporean dishes in a marketplace setting.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Uniquely Singaporean, savour authentic and refined local dishes in a vibrant marketplace setting. Celebrating Singapore’s diverse food culture, the halal-certified buffet is Muslim-friendly",
+          "note": "Halal buffet, Singaporean dishes, marketplace setting.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sinrs-grand-hyatt-singapore/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Room daybeds can be converted to beds that sleep two children under 12.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The daybeds in the rooms can be converted to beds that sleep two kids below the age of 12.",
+          "note": "Matches.",
+          "url": "https://www.cntraveler.com/hotels/singapore/grand-hyatt-singapore",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The hotel has its own bespoke water bottling plant.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "it now has its own bespoke water bottling plant",
+          "note": "Matches.",
+          "url": "https://www.cntraveler.com/hotels/singapore/grand-hyatt-singapore",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Garden Oasis on the fifth floor has winding paths, banyan trees and butterflies.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "the lush Garden Oasis on the fifth floor, with its winding paths, banyan trees, and butterflies",
+          "note": "Matches.",
+          "url": "https://www.cntraveler.com/hotels/singapore/grand-hyatt-singapore",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Garden Oasis is part of the Orchard Road Butterfly Trail, a green-corridor initiative developed with the national parks board and the Nature Society Singapore.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "It’s part of the Orchard Road Butterfly Trail, a green-corridor initiative developed in partnership with the national parks board and the Nature Society Singapore",
+          "note": "Matches.",
+          "url": "https://www.cntraveler.com/hotels/singapore/grand-hyatt-singapore",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Damai House has a mind-body-therapy wall and hosts functional movement classes, free for guests, from vertical yoga to tai chi.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Damai House, with its mind-body-therapy wall, is a space for functional movement classes—that are free for guests—from vertical yoga to tai chi.",
+          "note": "Matches.",
+          "url": "https://www.cntraveler.com/hotels/singapore/grand-hyatt-singapore",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Damai Spa's signature Recovery treatment, developed in-house, combines heat therapy, light therapy and acupressure massage.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "the signature, science-backed Recovery treatment, developed in-house, that combines advanced heat therapy, light therapy, and acupressure massages",
+          "note": "Matches.",
+          "url": "https://www.cntraveler.com/hotels/singapore/grand-hyatt-singapore",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Garden Studio is a studio-styled room with a high ceiling and direct access to the Terrace Wing gardens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "rejuvenating studio-styled guestroom with high ceiling and direct access to the tranquil Terrace Wing gardens",
+          "note": "Garden Studio description matches.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sinrs-grand-hyatt-singapore/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The streets around the hotel are busy with fashionable shoppers and tourists.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The streets swirl with fashionable folk and tourists.",
+          "note": "Matches.",
+          "url": "https://www.cntraveler.com/hotels/singapore/grand-hyatt-singapore",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The spa and fitness center are open to non-guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The sprawling spa and fitness center, which is open to non-guests",
+          "note": "Matches.",
+          "url": "https://www.cntraveler.com/hotels/singapore/grand-hyatt-singapore",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing that reflects the hotel's luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

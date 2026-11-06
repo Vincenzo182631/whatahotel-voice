@@ -1,0 +1,438 @@
+{
+  "hotel_slug": "four-seasons-amaala",
+  "hotel_name": "Four Seasons Resort AMAALA at Triple Bay",
+  "checked_at": "2026-10-08T03:03:43.112Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 6,
+      "total": 24
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.fourseasons.com/amaalaredsea/",
+      "tier": "official",
+      "chars": 9797
+    },
+    {
+      "id": "d2",
+      "url": "https://www.fourseasons.com/amaalaredsea/services-and-amenities/",
+      "tier": "official",
+      "chars": 5640
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/amaalaredsea/dining/",
+      "tier": "official",
+      "chars": 6309
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/amaalaredsea/getting-here/",
+      "tier": "official",
+      "chars": 2169
+    },
+    {
+      "id": "d5",
+      "url": "https://press.fourseasons.com/amaalaredsea/hotel-news/2026/now-open/",
+      "tier": "official",
+      "chars": 9850
+    },
+    {
+      "id": "d6",
+      "url": "https://www.fourseasons.com/amaalaredsea/spa/",
+      "tier": "official",
+      "chars": 4229
+    },
+    {
+      "id": "d7",
+      "url": "https://press.fourseasons.com/amaalaredsea/hotel-news/2026/la-liste-award/",
+      "tier": "official",
+      "chars": 6354
+    },
+    {
+      "id": "d8",
+      "url": "https://www.fourseasons.com/amaalaredsea/contact-us/",
+      "tier": "official",
+      "chars": 1222
+    },
+    {
+      "id": "d9",
+      "url": "https://www.fourseasons.com/amaalaredsea/discover/",
+      "tier": "official",
+      "chars": 2060
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    },
+    {
+      "url": "https://press.fourseasons.com/amaalaredsea/hotel-facts/",
+      "reason": "https://press.fourseasons.com/amaalaredsea/hotel-facts/: page had almost no text"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Four Seasons announced Resort and Residences AMAALA at Triple Bay as now open on June 15, 2026.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "is now open. Grounded in an ethos of purpose-driven wellness, the experience pairs an advanced approach to complete wellbeing with the intuitive care for which Four Seasons is known",
+          "note": "press release says the resort is now open",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/amaalaredsea/hotel-news/2026/now-open/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "June 15, 2026,",
+          "note": "release dated June 15, 2026",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/amaalaredsea/hotel-news/2026/now-open/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The resort is on Saudi Arabia's northwestern Red Sea coast.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "the new AMAALA resort destination on Saudi Arabia’s northwestern Red Sea coast",
+          "note": "location stated",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/amaalaredsea/hotel-news/2026/now-open/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The resort has 202 guest rooms, suites and garden villas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "202 guest rooms, suites and garden villas",
+          "note": "count and types match",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/amaalaredsea/hotel-news/2026/now-open/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The resort's beachfront extends 900 metres (0.6 miles).",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "900 METRES (0.6 MILES) OF PRISTINE BEACHFRONT",
+          "note": "matches",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/amaalaredsea/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The resort has five pools.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Set amidst lush gardens, our five pools invite you to bask in brilliant Red Sea sunshine",
+          "note": "five pools",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/amaalaredsea/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "HYLIAA Wellness & Spa covers 2,095 square metres (22,550 square feet).",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "At Four Seasons Resort AMAALA, this begins with the lavish wellness centre, including the 2,095 square metre (22,550 square foot)",
+          "note": "figure given, followed on next line by HYLIAA Wellness & Spa",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/amaalaredsea/hotel-news/2026/now-open/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The resort has six open-air restaurants and lounges.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Four Seasons features six open-air restaurants and lounges specializing in local and international flavours",
+          "note": "matches",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/amaalaredsea/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The resort has a 24-hour indoor-outdoor fitness centre.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "24-HOUR INDOOR-OUTDOOR FITNESS CENTRE",
+          "note": "matches",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/amaalaredsea/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The resort has two tennis courts.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "TWO TENNIS COURTS AND THREE PADEL COURTS",
+          "note": "two tennis courts",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/amaalaredsea/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The resort has three padel courts.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "TWO TENNIS COURTS AND THREE PADEL COURTS",
+          "note": "three padel courts",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/amaalaredsea/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The resort is a five-minute walk from additional dining, shops and entertainment at the Yacht Club and Marina Village.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Four Seasons is just a five-minute walk to additional dining, shops and entertainment.",
+          "note": "matches",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/amaalaredsea/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "HYLIAA Wellness & Spa has a gender-specific thermal circuit.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "enjoy our comprehensive, gender-specific thermal circuit",
+          "note": "as part of HYLIAA Wellness & Spa",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/amaalaredsea/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The resort nutritionist can work with guests to design personalized menus.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "If you prefer cuisine personalized to your wellness needs, our resort nutritionist can work with you to design menus",
+          "note": "matches",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/amaalaredsea/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The resort has a Kids For All Seasons program.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "With our Kids For All Seasons program and Teen Club",
+          "note": "matches",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/amaalaredsea/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Guests can snorkel at the resort's reef.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Snorkel at our reef or splash out with cutting-edge electric water activities, including eFoils",
+          "note": "matches",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/amaalaredsea/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Electric water activities at the resort include eFoils.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "cutting-edge electric water activities, including eFoils, e-scooters, e-surfing and SEABOBS",
+          "note": "matches",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/amaalaredsea/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-6",
+      "text": "In 2026, Four Seasons Resort and Residences AMAALA at Triple Bay was named among La Liste's Top 5 Hotel Openings of the Year.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Four Seasons Resort and Residences AMAALA at Triple Bay Named Among La Liste’s Top 5 Hotel Openings of the Year 2026",
+          "note": "press release title",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/amaalaredsea/hotel-news/2026/la-liste-award/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "ZAATAR Restaurant is listed on the dining page as opening in late 2026.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "vegetarian specialties. (Opening late 2026)",
+          "note": "ZAATAR Restaurant entry",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/amaalaredsea/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the resort is in a newly developing destination where surrounding infrastructure is still evolving.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, breakfast for two is free daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers can be combined with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

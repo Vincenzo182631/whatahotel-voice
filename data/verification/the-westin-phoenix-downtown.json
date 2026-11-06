@@ -1,0 +1,343 @@
+{
+  "hotel_slug": "the-westin-phoenix-downtown",
+  "hotel_name": "The Westin Phoenix Downtown",
+  "checked_at": "2026-11-05T10:09:59.431Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 15,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 16
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/phxiw-the-westin-phoenix-downtown/overview/",
+      "tier": "official",
+      "chars": 17776
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/phxiw-the-westin-phoenix-downtown/rooms/",
+      "tier": "official",
+      "chars": 11172
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/phxiw-the-westin-phoenix-downtown/dining/",
+      "tier": "official",
+      "chars": 9964
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/phxiw-the-westin-phoenix-downtown/experiences/",
+      "tier": "official",
+      "chars": 14989
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is within walking distance of downtown Phoenix's most dynamic neighborhoods.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Within walking distance of downtown’s most dynamic neighborhoods",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phxiw-the-westin-phoenix-downtown/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Arizona State University's downtown campus is one block from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Just one block from The Westin Phoenix Downtown, Arizona State University’s downtown campus",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phxiw-the-westin-phoenix-downtown/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Roosevelt Row arts district is less than a mile away, a 9-minute ride on the Light Rail.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Roosevelt Row is less than a mile from The Westin Phoenix Downtown and just a 9-minute ride on the Light Rail.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phxiw-the-westin-phoenix-downtown/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The WestinWORKOUT Fitness Studio is open 24/7.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Stay active while on the go with 24/7 access to our WestinWorkout® Fitness Studio",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phxiw-the-westin-phoenix-downtown/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Guests can request WestinWORKOUT gear lending kits with Hyperice and Bala recovery and strength gear.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Stay active while traveling with WestinWORKOUT® Gear Lending Kits. We've partnered with fitness experts Hyperice & Bala to bring you top recovery and strength gear. Request a kit during your stay!",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phxiw-the-westin-phoenix-downtown/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Club-level rooms include access to the Club lounge, with hot breakfast and premium food and beverages throughout the day.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Club lounge access, Guest room, 1 King, City view",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phxiw-the-westin-phoenix-downtown/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Relax and unwind in our private club lounge featuring a range of premium food and beverage options including a hot breakfast buffet and elevated snacks.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phxiw-the-westin-phoenix-downtown/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The Club Lounge offers a refined retreat with a premium selection of food and beverages throughout the day.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phxiw-the-westin-phoenix-downtown/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Jacy & Dakota's serves breakfast, lunch, dinner and happy hour, with indoor seating and a patio.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Jacy & Dakota's is a restaurant in downtown Phoenix, AZ, serving breakfast, lunch, dinner, and happy hour with inviting indoor seating and a vibrant patio",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phxiw-the-westin-phoenix-downtown/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel is pet-friendly and welcomes pets with a treat at check-in.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "We welcome pets with open arms and a treat at check-in",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phxiw-the-westin-phoenix-downtown/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Phoenix Sky Harbor International Airport is about 3.9 miles from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "PHX is located approximately 3.9 Miles from the hotel.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phxiw-the-westin-phoenix-downtown/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The heated Lapis Pool sits on an outdoor terrace overlooking Downtown Phoenix.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Go for a swim in our heated Lapis Pool while soaking up the sun on the outdoor terrace overlooking Downtown Phoenix.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phxiw-the-westin-phoenix-downtown/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Every room has floor-to-ceiling windows with panoramic city views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "every room features floor-to-ceiling windows with panoramic city views",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phxiw-the-westin-phoenix-downtown/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Premium rooms and suites have a marble Heavenly Bath with a soaking tub.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Premium rooms and suites feature our expansive marble Heavenly® Bath with soaking tub",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phxiw-the-westin-phoenix-downtown/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Game Room Parlor Suites have a pool table, board games and a tech-enabled conference table that seats up to eight.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Challenge friends or colleagues to a game of pool, dive into classic board games, or set the vibe with a portable speaker. A tech-enabled conference table seats up to eight",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phxiw-the-westin-phoenix-downtown/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Work and play come together effortlessly in Game Room Parlor Suites at The Westin Phoenix Downtown.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phxiw-the-westin-phoenix-downtown/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The hotel is directly across from the Light Rail, with easy access to the Phoenix Convention Center, Chase Field and Mortgage Matchup Center.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "directly across from the Light Rail, our central hotel offers effortless access to the Phoenix Convention Center, Chase Field, and Mortgage Matchup Center",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phxiw-the-westin-phoenix-downtown/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "This is a downtown city hotel; Sedona is a two-hour drive away.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "A two-hour scenic drive from The Westin Phoenix Downtown, Sedona offers red rock vistas",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phxiw-the-westin-phoenix-downtown/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes the downtown location can be busy during major sporting events.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

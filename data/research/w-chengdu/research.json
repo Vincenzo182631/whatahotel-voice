@@ -1,0 +1,298 @@
+{
+  "slug": "w-chengdu",
+  "status": "ready",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "W Chengdu",
+      "city": "Chengdu",
+      "country": "CN",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Chengdu, CN)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/ctuwh-w-chengdu/overview/"
+    ],
+    "checked_at": "2026-11-06T00:30:19.834Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/ctuwh-w-chengdu/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/ctuwh-w-chengdu/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/ctuwh-w-chengdu/overview/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:30:24.551Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/ctuwh-w-chengdu/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:30:32.435Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/ctuwh-w-chengdu/dining/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:30:36.444Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 6,
+    "firecrawl_searches": 1,
+    "cache_hits": 0,
+    "direct_fetches": 0,
+    "pages": 3,
+    "chars": 25307,
+    "est_claude_tokens": 6327
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-11-06T00:30:44.586Z",
+  "hotel": {
+    "name": "W Chengdu",
+    "city": "Chengdu",
+    "country": "CN",
+    "chain": "marriott",
+    "confirmed_affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    }
+  },
+  "official_url": "https://www.marriott.com/en-us/hotels/ctuwh-w-chengdu/overview/",
+  "verified_facts": [
+    {
+      "id": "r-1",
+      "category": "location",
+      "text": "W Chengdu is in the Gaoxin district.",
+      "source_url": "https://www.marriott.com/en-us/hotels/ctuwh-w-chengdu/overview/",
+      "source_tier": "official",
+      "excerpt": "W Chengdu is located in the pulsating Gaoxin district."
+    },
+    {
+      "id": "r-2",
+      "category": "location",
+      "text": "The hotel is at No 300 Jiaozi Avenue, Gaoxin District, Chengdu.",
+      "source_url": "https://www.marriott.com/en-us/hotels/ctuwh-w-chengdu/overview/",
+      "source_tier": "official",
+      "excerpt": "No 300 Jiaozi Avenue, Gaoxin District, Chengdu, Sichuan, China, 610041"
+    },
+    {
+      "id": "r-3",
+      "category": "location",
+      "text": "Nearby subway stations are Financial City Station and Jiaozi Avenue Station.",
+      "source_url": "https://www.marriott.com/en-us/hotels/ctuwh-w-chengdu/overview/",
+      "source_tier": "official",
+      "excerpt": "Financial City Station Jiaozi Avenue Station"
+    },
+    {
+      "id": "r-4",
+      "category": "amenities",
+      "text": "AWAY Spa uses the French skincare line Biologique Recherche.",
+      "source_url": "https://www.marriott.com/en-us/hotels/ctuwh-w-chengdu/overview/",
+      "source_tier": "official",
+      "excerpt": "Using French skincare line Biologique Recherche®, it offers treatments to replenish energy and reveal renewed radiance."
+    },
+    {
+      "id": "r-5",
+      "category": "amenities",
+      "text": "AWAY Spa has a double treatment room and a makeup studio.",
+      "source_url": "https://www.marriott.com/en-us/hotels/ctuwh-w-chengdu/overview/",
+      "source_tier": "official",
+      "excerpt": "Guests can indulge in AWAY® Spa, featuring 3 single treatment rooms, 1 double treatment room, and a makeup studio."
+    },
+    {
+      "id": "r-6",
+      "category": "amenities",
+      "text": "The WET pool is an indoor, heated pool.",
+      "source_url": "https://www.marriott.com/en-us/hotels/ctuwh-w-chengdu/overview/",
+      "source_tier": "official",
+      "excerpt": "Indoor. On Property\n\n* * *\n\n#### Features\n\nLifeguard on Duty\n\nPool Heated"
+    },
+    {
+      "id": "r-7",
+      "category": "amenities",
+      "text": "The FIT gym has Italian Technogym fitness equipment.",
+      "source_url": "https://www.marriott.com/en-us/hotels/ctuwh-w-chengdu/overview/",
+      "source_tier": "official",
+      "excerpt": "Italian Technogym fitness equipment"
+    },
+    {
+      "id": "r-8",
+      "category": "rooms",
+      "text": "Every room has a W MixBar.",
+      "source_url": "https://www.marriott.com/en-us/hotels/ctuwh-w-chengdu/rooms/",
+      "source_tier": "official",
+      "excerpt": "Delightful W MixBar in every room"
+    },
+    {
+      "id": "r-9",
+      "category": "rooms",
+      "text": "Rooms range in size from 48 to 368 square metres.",
+      "source_url": "https://www.marriott.com/en-us/hotels/ctuwh-w-chengdu/rooms/",
+      "source_tier": "official",
+      "excerpt": "Room size from 48 to 368 SQM"
+    },
+    {
+      "id": "r-10",
+      "category": "rooms",
+      "text": "Some one-bedroom suites include club lounge access.",
+      "source_url": "https://www.marriott.com/en-us/hotels/ctuwh-w-chengdu/rooms/",
+      "source_tier": "official",
+      "excerpt": "Club lounge access, 1 Bedroom Suite, 1 King"
+    },
+    {
+      "id": "r-12",
+      "category": "amenities",
+      "text": "The hotel offers its Whatever/Whenever signature service.",
+      "source_url": "https://www.marriott.com/en-us/hotels/ctuwh-w-chengdu/rooms/",
+      "source_tier": "official",
+      "excerpt": "Enjoy Whatever/Whenever® signature service"
+    },
+    {
+      "id": "r-13",
+      "category": "dining",
+      "text": "ZING serves creative Western cuisine infused with Sichuan flavors.",
+      "source_url": "https://www.marriott.com/en-us/hotels/ctuwh-w-chengdu/dining/",
+      "source_tier": "official",
+      "excerpt": "ZING Restaurant – a dining & tavern spot – serves creative Western cuisine infused with Sichuan flavors."
+    },
+    {
+      "id": "r-14",
+      "category": "dining",
+      "text": "SPARK turns from a chic hangout into a high-energy bar and club as night falls.",
+      "source_url": "https://www.marriott.com/en-us/hotels/ctuwh-w-chengdu/dining/",
+      "source_tier": "official",
+      "excerpt": "The vibe transitions seamlessly from chic hangout to high-energy bar/club as night falls."
+    },
+    {
+      "id": "r-15",
+      "category": "experiences",
+      "text": "SPARK features local emerging artists and DJs.",
+      "source_url": "https://www.marriott.com/en-us/hotels/ctuwh-w-chengdu/overview/",
+      "source_tier": "official",
+      "excerpt": "See and be seen at SPARK while you get lost in the euphoric beats of local emerging artists and reputable DJs."
+    },
+    {
+      "id": "r-16",
+      "category": "experiences",
+      "text": "The Living Room is a laid-back hangout by day that turns into a space for entertainment and socializing at night.",
+      "source_url": "https://www.marriott.com/en-us/hotels/ctuwh-w-chengdu/dining/",
+      "source_tier": "official",
+      "excerpt": "By day, a laid-back, cozy hangout; as night falls, it turns into an alluring space blending entertainment and socializing seamlessly."
+    },
+    {
+      "id": "r-17",
+      "category": "experiences",
+      "text": "The Living Room features music and interactive art.",
+      "source_url": "https://www.marriott.com/en-us/hotels/ctuwh-w-chengdu/overview/",
+      "source_tier": "official",
+      "excerpt": "A never-ending flow of the like-minded entangled in music and interactive art will see the Living Room transform from day to night."
+    },
+    {
+      "id": "r-18",
+      "category": "practical",
+      "text": "Pets are welcome, one per room.",
+      "source_url": "https://www.marriott.com/en-us/hotels/ctuwh-w-chengdu/overview/",
+      "source_tier": "official",
+      "excerpt": "Maximum Number of Pets in Room: 1"
+    },
+    {
+      "id": "r-19",
+      "category": "practical",
+      "text": "The hotel has an electric car charging station.",
+      "source_url": "https://www.marriott.com/en-us/hotels/ctuwh-w-chengdu/overview/",
+      "source_tier": "official",
+      "excerpt": "Electric Car Charging Station"
+    },
+    {
+      "id": "r-20",
+      "category": "practical",
+      "text": "Rooms do not have a fridge.",
+      "source_url": "https://www.marriott.com/en-us/hotels/ctuwh-w-chengdu/rooms/",
+      "source_tier": "official",
+      "excerpt": "No, rooms at W Chengdu do not have a fridge."
+    },
+    {
+      "id": "r-21",
+      "category": "practical",
+      "text": "Chengdu Tianfu International Airport is 48.5 km from the hotel.",
+      "source_url": "https://www.marriott.com/en-us/hotels/ctuwh-w-chengdu/overview/",
+      "source_tier": "official",
+      "excerpt": "Distance from Property: 48.5 KM"
+    },
+    {
+      "id": "r-22",
+      "category": "practical",
+      "text": "Chengdu Shuangliu International Airport is 10 km from the hotel.",
+      "source_url": "https://www.marriott.com/en-us/hotels/ctuwh-w-chengdu/overview/",
+      "source_tier": "official",
+      "excerpt": "Distance from Property: 10.0 KM"
+    },
+    {
+      "id": "r-23",
+      "category": "practical",
+      "text": "The minimum age to check in is 18.",
+      "source_url": "https://www.marriott.com/en-us/hotels/ctuwh-w-chengdu/overview/",
+      "source_tier": "official",
+      "excerpt": "Minimum Age to Check In  18"
+    },
+    {
+      "id": "r-24",
+      "category": "design_history",
+      "text": "ZING's flooring and table patterns echo calligraphy.",
+      "source_url": "https://www.marriott.com/en-us/hotels/ctuwh-w-chengdu/dining/",
+      "source_tier": "official",
+      "excerpt": "Flooring/table patterns echo calligraphy, matching the city’s laid-back spirit."
+    }
+  ],
+  "highlights": [
+    "r-4",
+    "r-6",
+    "r-8",
+    "r-15",
+    "r-1",
+    "r-17",
+    "r-9"
+  ],
+  "subjective": [],
+  "unresolved": [
+    {
+      "id": "r-11",
+      "text": "Guests enjoy a 270-degree city view.",
+      "reason": "marked unresolved"
+    }
+  ],
+  "rejected": [],
+  "contradictions": []
+}

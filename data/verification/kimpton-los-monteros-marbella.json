@@ -1,0 +1,418 @@
+{
+  "hotel_slug": "kimpton-los-monteros-marbella",
+  "hotel_name": "Kimpton Los Monteros Marbella",
+  "checked_at": "2026-10-30T09:14:49.953Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail",
+      "tier": "official",
+      "chars": 11163
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail/rooms/",
+      "tier": "official",
+      "chars": 4742
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail/dining/",
+      "tier": "official",
+      "chars": 7473
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail/amenities/",
+      "tier": "official",
+      "chars": 7349
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail/local-area-guide/",
+      "tier": "official",
+      "chars": 5349
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail/",
+      "tier": "official",
+      "chars": 11162
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail/directions/",
+      "tier": "official",
+      "chars": 2866
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail/hotel-reviews/",
+      "tier": "official",
+      "chars": 13522
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The Los Monteros neighborhood, where the hotel sits, is east of the city of Marbella.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The Los Monteros neighborhood, east of the city, features some of the most exclusive and opulent villas in the region.",
+          "note": "neighborhood east of city",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Breathing new life into the iconic Los Monteros hotel",
+          "note": "hotel named for and set in Los Monteros",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Marbella is on Spain's Costa del Sol and is known for its warm climate and beaches.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Marbella, located on Spain's Costa del Sol, is renowned for its warm climate, beaches, and luxurious lifestyle.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The rooms were designed by Cristina Carulla's interior studio and use natural light as a fundamental part of the Mediterranean experience.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Designed by Cristina Carulla 's interior studio, use natural lighting as a fundamental part of the Mediterranean experience",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The main pool is surrounded by gardens at the Costa Club Pool Bar, with hammocks, Bali beds, live music and DJs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Enjoy the main pool surrounded by gardens at Costa Club Pool Bar, with over 300 days of sunshine a year, hammocks, Bali beds, live music, and DJs.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Maison Codage Paris Spa offers facial and body treatments.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Indulge yourself with a exclusive facial or body treatment while enjoying our holistic space.",
+          "note": "Maison Codage Paris Spa section",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Racket Club has tennis and paddle courts to rent, and a personal trainer service is available.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "What better way to start your day than by playing tennis or paddle? Rent your court or inquire about our personal trainer service available throughout your stay.",
+          "note": "Racket Club section",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Jara, the hotel's fine-dining restaurant, is inspired by Marbella in the 70s.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The soul of fine dining at Kimpton Los Monteros: Mediterranean freshness by day and sophistication by night, inspired by Marbella in the 70s.",
+          "note": "Jara description",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel welcomes any pet that fits in its elevator, and pet accommodation is free of charge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "we welcome any pet that can fit into our elevator. However, there is one exception: we cannot accommodate untamed animals or those that may be poisonous. Pet accommodation is free of charge.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The hotel holds a BREEAM Very Good sustainability certification.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "BREEAM Very Good",
+          "note": "certification listed",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel offers a complimentary cocktail hour.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Complimentary cocktail hour",
+          "note": "listed",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "There are children's activities on site.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Children's activities onsite",
+          "note": "listed",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The protected Artola Dunes are about 8 kilometers from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Artola Dunes - 4.97 miles away (8 kilometers)",
+          "note": "distance",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "This area is protected as a Natural Monument because of its high ecological value and biological diversity.",
+          "note": "protected",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Escondido rooftop has an infinity pool with views of the Mediterranean.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "At Escondido Rooftop, relax in the infinity pool with spectacular views of the Mediterranean.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "La Cabane by Dolce&Gabbana is a beachfront space designed by Dolce & Gabbana, with food by chef Dani Garcia and private sunbeds and cabanas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Experience culinary delights crafted by the renowned chef Dani García while relaxing in a space designed by Dolce & Gabbana. Enjoy private sunbeds and cabanas right on the beachfront.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Maison Codage Paris Spa has a heated indoor pool with hydro-massage beds and water cascades.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Start or end your day in our indoor pool at 33ºC, with hydro-massage beds and water cascades to release tension.",
+          "note": "spa indoor pool",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Water type: Heated pool",
+          "note": "heated",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Kimpton Los Monteros Marbella reimagines the historic Los Monteros hotel and its lively past.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Breathing new life into the iconic Los Monteros hotel, reimagining the hotel's vivacious past",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Malaga Airport is approximately 35 kilometers from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "approximately 21.75 miles away (35 kilometers) from the hotel",
+          "note": "Malaga Airport distance",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The minimum check-in age is 18.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "**Minimum check-in age:** 18",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/los-monteros-marbella-spain/qrlkm/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes that central Marbella's dining and nightlife require a short trip from the resort.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

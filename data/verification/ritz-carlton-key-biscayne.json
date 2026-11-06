@@ -1,0 +1,448 @@
+{
+  "hotel_slug": "ritz-carlton-key-biscayne",
+  "hotel_name": "The Ritz-Carlton, Key Biscayne",
+  "checked_at": "2026-10-09T06:38:58.255Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 0,
+      "total": 17
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ritzcarlton.com/en/hotels/miakb-the-ritz-carlton-key-biscayne-miami/overview/",
+      "tier": "official",
+      "chars": 16613
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ritzcarlton.com/en/hotels/miakb-the-ritz-carlton-key-biscayne-miami/rooms/",
+      "tier": "official",
+      "chars": 6347
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ritzcarlton.com/en/hotels/miakb-the-ritz-carlton-key-biscayne-miami/experiences/",
+      "tier": "official",
+      "chars": 18364
+    },
+    {
+      "id": "d4",
+      "url": "https://www.cntraveler.com/hotels/united-states/key-biscayne/ritz-carlton-key-biscayne",
+      "tier": "editorial",
+      "chars": 14689
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ritzcarlton.com/en/hotels/miakb-the-ritz-carlton-key-biscayne-miami/dining/",
+      "tier": "official",
+      "chars": 6088
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ritzcarlton.com/en/hotels/miakb-the-ritz-carlton-key-biscayne-miami/spa/",
+      "tier": "official",
+      "chars": 12621
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ritzcarlton.com/en/hotels/miakb-the-ritz-carlton-key-biscayne-miami/hotel-stories/",
+      "tier": "official",
+      "chars": 2958
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ritzcarlton.com/en/hotels/miakb-the-ritz-carlton-key-biscayne-miami/experiences/holidays/",
+      "tier": "official",
+      "chars": 6275
+    },
+    {
+      "id": "d9",
+      "url": "https://www.ritzcarlton.com/en/hotels/miakb-the-ritz-carlton-key-biscayne-miami/club/",
+      "tier": "official",
+      "chars": 6165
+    },
+    {
+      "id": "d10",
+      "url": "https://www.ritzcarlton.com/en/hotels/miakb-the-ritz-carlton-key-biscayne-miami/reviews/",
+      "tier": "official",
+      "chars": 784
+    },
+    {
+      "id": "d11",
+      "url": "https://www.ritzcarlton.com/en/hotels/miakb-the-ritz-carlton-key-biscayne-miami/resort-shopping/",
+      "tier": "official",
+      "chars": 5096
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The resort sits on a five-mile-long barrier island, minutes from downtown Miami.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located on an exclusive five-mile-long barrier island",
+          "note": "five-mile barrier island",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/miakb-the-ritz-carlton-key-biscayne-miami/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "is just minutes from dynamic downtown",
+          "note": "minutes from downtown",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/miakb-the-ritz-carlton-key-biscayne-miami/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The resort reopened in December 2025 after the renovation.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Following its December 2025 reopening",
+          "note": "reopened December 2025 after overhaul",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/key-biscayne/ritz-carlton-key-biscayne",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Guest rooms and suites have been nearly completely redone.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Guest rooms and suites have been nearly completely redone, corner to corner",
+          "note": "matches claim",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/key-biscayne/ritz-carlton-key-biscayne",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Bathrooms have gold-veined marble, deep soaking tubs, separate showers and Diptyque bath products.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Bathrooms are generous, finished in gold-veined marble, with deep soaking tubs, separate showers, and Diptyque bath products.",
+          "note": "all bathroom elements covered",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/key-biscayne/ritz-carlton-key-biscayne",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Every accommodation has a balcony with ocean, island or resort views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Balconies with ocean, island, or resort views",
+          "note": "balcony views",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/miakb-the-ritz-carlton-key-biscayne-miami/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "are signature features of every accommodation at The Ritz",
+          "note": "applies to every accommodation",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/miakb-the-ritz-carlton-key-biscayne-miami/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Paralia, by the beach, serves Aegean-inspired dishes meant for sharing.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Out by the beach, Paralía, open for both lunch and dinner, focuses on Aegean-inspired dishes meant for sharing",
+          "note": "beach location, Aegean-inspired sharing dishes",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/key-biscayne/ritz-carlton-key-biscayne",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Dune Beach Bar is a no-reservations, toes-in-the-sand lounge serving burgers and ceviches.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "At lunchtime, Dune Beach Bar defines the resort",
+          "note": "names Dune Beach Bar",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/key-biscayne/ritz-carlton-key-biscayne",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "a no-reservations, toes-in-the-sand lounge serving burgers and ceviches",
+          "note": "describes the bar",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/key-biscayne/ritz-carlton-key-biscayne",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Ritz-Carlton Spa has sixteen treatment rooms, including couples suites, a full-service salon and several restorative lounges including a spa garden.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Sixteen treatment rooms, including couples suites, a full-service salon, and several restorative lounges—including a spa garden",
+          "note": "all elements covered",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/key-biscayne/ritz-carlton-key-biscayne",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Ritz Kids sessions are available for resort guests ages 5 through 12.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Sessions are available for resort guests ages 5 through 12",
+          "note": "ages 5-12 for resort guests; Ritz Kids named on page",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/miakb-the-ritz-carlton-key-biscayne-miami/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The Ritz-Carlton Club costs extra, with a large Club Lounge serving food throughout the day and Club-level rooms on the ninth floor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The Ritz-Carlton Club costs extra",
+          "note": "extra cost",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/key-biscayne/ritz-carlton-key-biscayne",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Access comes with a large Club Lounge serving food throughout the day, a dedicated concierge, and Club-level rooms on the ninth floor.",
+          "note": "lounge and ninth floor covered",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/key-biscayne/ritz-carlton-key-biscayne",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "A $100 million renovation was completed throughout 2025, led by developer Gencom with design studios Hart Howerton, DesignAgency and Chapi Chapo Design.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Enter a $100 million transformation completed throughout 2025, led by global luxury developer Gencom in collaboration with design studios Hart Howerton, DesignAgency, and Chapi Chapo Design.",
+          "note": "all elements covered",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/key-biscayne/ritz-carlton-key-biscayne",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Luma is an Italian grill with house-made pastas and proteins from a Josper oven, and it is the resort's signature restaurant.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Luma, an Italian grill where house-made pastas share the spotlight with well-composed proteins from the Josper oven",
+          "note": "Italian grill, pastas, Josper proteins",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/key-biscayne/ritz-carlton-key-biscayne",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "anchors the dining program as the resort’s signature restaurant",
+          "note": "signature restaurant",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/key-biscayne/ritz-carlton-key-biscayne",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The resort has two oceanfront pools: an adult pool and a zero-entry family pool with a splash pad.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Two Oceanfront Swimming Pools — Adult Pool and Zero‑Entry Family Pool with Splash Pad",
+          "note": "two oceanfront pools, adult and zero-entry family with splash pad",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/miakb-the-ritz-carlton-key-biscayne-miami/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Cliff Drysdale Racquet Garden offers tennis, padel and pickleball courts, and the resort has a long-standing connection to tennis.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "In addition to six tennis courts, three padel courts, and four pickleball courts",
+          "note": "Racquet Garden has tennis, padel, pickleball courts",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/miakb-the-ritz-carlton-key-biscayne-miami/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "continue the property’s long-standing connection to the sport",
+          "note": "long-standing tennis connection",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/key-biscayne/ritz-carlton-key-biscayne",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Key Biscayne is not the place for Miami nightlife or the South Beach scene; it suits guests who want resort life.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "If you’re hoping to immerse yourself in Miami’s nightlife or South Beach scene, I’d say this isn’t the place to stay.",
+          "note": "reviewer says not for nightlife/South Beach",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/key-biscayne/ritz-carlton-key-biscayne",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "But if resort life is the goal",
+          "note": "suits resort-life guests",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/key-biscayne/ritz-carlton-key-biscayne",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Guest rooms and suites do not have overhead lighting, so rooms can feel dark when there is no natural daylight.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The rooms and suites still don’t have overhead illumination, and during times without natural daylight, the rooms can feel dark.",
+          "note": "matches claim",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/key-biscayne/ritz-carlton-key-biscayne",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "The hotel does not provide shuttle service from Miami International Airport.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "This hotel does not provide shuttle service.",
+          "note": "listed under Miami International Airport",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/miakb-the-ritz-carlton-key-biscayne-miami/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

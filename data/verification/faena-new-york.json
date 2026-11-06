@@ -1,0 +1,430 @@
+{
+  "hotel_slug": "faena-new-york",
+  "hotel_name": "Faena New York",
+  "checked_at": "2026-10-15T23:53:08.084Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.faena.com/new-york",
+      "tier": "official",
+      "chars": 1680
+    },
+    {
+      "id": "d2",
+      "url": "https://www.faena.com/new-york/accommodations/",
+      "tier": "official",
+      "chars": 4507
+    },
+    {
+      "id": "d3",
+      "url": "https://www.faena.com/new-york/dining/",
+      "tier": "official",
+      "chars": 2956
+    },
+    {
+      "id": "d4",
+      "url": "https://www.faena.com/new-york/tierra-santa-healing-house/",
+      "tier": "official",
+      "chars": 7554
+    },
+    {
+      "id": "d5",
+      "url": "https://www.faena.com/hotel-policies/",
+      "tier": "official",
+      "chars": 10879
+    },
+    {
+      "id": "d6",
+      "url": "https://www.cntraveler.com/hotels/new-york/faena-new-york",
+      "tier": "editorial",
+      "chars": 11799
+    },
+    {
+      "id": "d7",
+      "url": "https://www.faena.com/legal/",
+      "tier": "official",
+      "chars": 5708
+    },
+    {
+      "id": "d8",
+      "url": "https://www.faena.com/new-york/",
+      "tier": "official",
+      "chars": 1680
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Faena New York is in West Chelsea, Manhattan.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Faena New York calls West Chelsea home, bringing signature style and visionary ethos to Manhattan.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.faena.com/new-york",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is steps from the High Line.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Steps from the High Line",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.faena.com/new-york/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel is in the Chelsea Art Gallery District.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Chelsea Art Gallery District location",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.faena.com/new-york/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Faena New York occupies the East Tower of One High Line, a building by Bjarke Ingels Group with a twisting geometric design.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Faena New York occupies the East Tower of One High Line—a sculptural work by",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york/faena-new-york",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Bjarke Ingels Group",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york/faena-new-york",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "whose twisting geometric design catches sunlight like a prism",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york/faena-new-york",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The rooms and suites are designed by Alan Faena with the Faena Design Team and Peter Mikic Studios.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "The 120 rooms and suites are designed by Alan Faena alongside the Faena Design Team and Peter Mikic Studios.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york/faena-new-york",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Rooms have floor-to-ceiling windows.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Floor-to-ceiling windows",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.faena.com/new-york/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Rooms feature animal-print motifs, sculptural lighting and marble bathtubs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "fabulous animal printed motifs, sculptural lighting, marble bathtubs",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york/faena-new-york",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Tierra Santa Healing House is rooted in ancient South American healing traditions.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Rooted in ancient South American healing traditions and infused with a spirit of soulful transformation",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.faena.com/new-york/tierra-santa-healing-house/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Hotel guests get complimentary access to the Thermal Sanctuary by reservation.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Guests of the hotel and non-hotel guests receiving spa treatments enjoy complimentary access to the Thermal Sanctuary by reservation.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.faena.com/new-york/tierra-santa-healing-house/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel offers twice-daily housekeeping.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Twice-daily housekeeping",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.faena.com/new-york/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "La Boca by Francis Mallmann celebrates Argentine cuisine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Celebrating the layered heritage of Argentine cuisine, La Boca by Francis Mallmann brings together bold tradition, soulful technique and a deep reverence for simplicity.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.faena.com/new-york/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The Living Room offers nightly live music and cocktails.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The Living Room offers nightly live music, seductive cocktails, and golden-age glamour",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.faena.com/new-york/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Tierra Santa Healing House spa occupies the entire underground level of the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Set across the entire underground level of Faena New York, Tierra Santa Healing House is a 17,000-square-foot sanctuary",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.faena.com/new-york/tierra-santa-healing-house/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The spa's Thermal Sanctuary includes a hammam, sauna, infrared sauna, steam room and restorative pools.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The Thermal Sanctuary includes access to a traditional hammam, sauna, infrared sauna, steam room, and restorative pools",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.faena.com/new-york/tierra-santa-healing-house/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Rooms and suites offer views of the Empire State Building and High Line Park.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "breathtaking views of the Empire State Building, High Line Park, and beyond",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.faena.com/new-york",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The lobby has a spiral staircase beside a large-scale mural by Argentine artist Diego Gravinese.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "A sand-toned spiral staircase arcs upward beside a large-scale mural by Argentine artist",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york/faena-new-york",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Diego Gravinese",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york/faena-new-york",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The concierge works with local artists and curators on private gallery or museum tours, studio visits and neighborhood walks.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "The concierge collaborates with local artists and curators to create tailored experiences like private gallery or museum tours, studio visits, and neighborhood walks",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york/faena-new-york",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel welcomes dogs up to 25 lbs; the pet policy is limited to dogs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Faena New York welcomes canine travelers up to 25 lbs. Kindly note that our pet policy is limited to dogs only.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.faena.com/hotel-policies/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Photography, videography and audio recording are not permitted in La Boca, The Living Room and public spaces.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "**photography, videography, and audio recording are not permitted** within _La Boca,_ _The Living Room and public spaces_.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.faena.com/hotel-policies/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the bold artistic design may not appeal to traditional tastes.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

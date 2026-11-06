@@ -1,0 +1,337 @@
+{
+  "hotel_slug": "kimpton-canary-hotel",
+  "hotel_name": "Kimpton Canary Hotel",
+  "checked_at": "2026-10-13T04:20:45.486Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 15,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 16
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/canary-hotel-santa-barbara-ca/sabcn/hoteldetail",
+      "tier": "official",
+      "chars": 9828
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/canary-hotel-santa-barbara-ca/sabcn/hoteldetail/dining/",
+      "tier": "official",
+      "chars": 2832
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/canary-hotel-santa-barbara-ca/sabcn/hoteldetail/amenities/",
+      "tier": "official",
+      "chars": 6138
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/canary-hotel-santa-barbara-ca/sabcn/hoteldetail/local-area-guide/",
+      "tier": "official",
+      "chars": 4370
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/canary-hotel-santa-barbara-ca/sabcn/hoteldetail/rooms/",
+      "tier": "official",
+      "chars": 3926
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/canary-hotel-santa-barbara-ca/sabcn/hoteldetail/directions/",
+      "tier": "official",
+      "chars": 2531
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/canary-hotel-santa-barbara-ca/sabcn/hoteldetail/",
+      "tier": "official",
+      "chars": 9828
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/canary-hotel-santa-barbara-ca/sabcn/hoteldetail/hotel-reviews/",
+      "tier": "official",
+      "chars": 10782
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel sits in the heart of downtown Santa Barbara, between the Santa Ynez Mountains and the ocean.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Kimpton Canary Hotel sits in the heart of downtown Santa Barbara, between the Santa Ynez Mountains and the ocean.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/canary-hotel-santa-barbara-ca/sabcn/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Guests can stroll vintage shops and cafes on State Street or tour tasting rooms on the Urban Wine Trail.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Stroll vintage shops and cafes on State Street or tour tasting rooms on the Urban Wine Trail",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/canary-hotel-santa-barbara-ca/sabcn/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel has Spanish-style architecture.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our Spanish-style architecture and dedicated staff create a warm, inviting atmosphere",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/canary-hotel-santa-barbara-ca/sabcn/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The Funk Zone is a set of walkable blocks with art galleries, tasting rooms, boutique shops and fine foods.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Several walkable blocks encompassing art galleries, tasting rooms, boutique shops and fine foods.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/canary-hotel-santa-barbara-ca/sabcn/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Finch & Fork menu features oysters, diver scallops and King salmon.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "our succulent oysters, diver scallops, and the buttery flavor of King salmon",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/canary-hotel-santa-barbara-ca/sabcn/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Finch & Fork Lounge serves playful interpretations of classic cocktails.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Playful interpretations of classic cocktails",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/canary-hotel-santa-barbara-ca/sabcn/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Guests can choose a room with a private balcony or a specialty suite.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Opt for a room with a private balcony or a specialty suite",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/canary-hotel-santa-barbara-ca/sabcn/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel provides complimentary pet bowls and beds.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Complimentary pet bowls and beds.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/canary-hotel-santa-barbara-ca/sabcn/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The rooftop pool terrace has 360-degree views stretching from the mountains to the sea.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "360-degree rooftop views stretching from the mountains to the sea",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/canary-hotel-santa-barbara-ca/sabcn/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Pets are welcome regardless of size, weight or breed, at no extra charge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "We invite you to bring your pet no matter their size, weight, or breed, all at no extra charge.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/canary-hotel-santa-barbara-ca/sabcn/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Finch & Fork serves a coastal California menu built around the bounty of Santa Barbara.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Clean, simple coastal California menu built around the bounty of Santa Barbara.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/canary-hotel-santa-barbara-ca/sabcn/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Guest rooms have four-poster canopy beds, down duvets and Italian Frette linens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "four-poster canopy beds, down duvets, and Italian Frette linens",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/canary-hotel-santa-barbara-ca/sabcn/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The hotel lists a complimentary wine hour, rental bikes, and a yoga mat in each room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "a complimentary wine hour, rental bikes, and a yoga mat in each room",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/canary-hotel-santa-barbara-ca/sabcn/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Overnight valet parking costs $55 per night.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Kimpton Canary Hotel offers overnight valet parking services for $55 per night.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/canary-hotel-santa-barbara-ca/sabcn/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "There is no local area shuttle at the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "There is no local area shuttle available at this hotel.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/canary-hotel-santa-barbara-ca/sabcn/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the boutique hotel size means fewer amenities than larger resort properties.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

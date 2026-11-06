@@ -1,0 +1,392 @@
+{
+  "hotel_slug": "grand-hyatt-berlin",
+  "hotel_name": "Grand Hyatt Berlin",
+  "checked_at": "2026-10-29T03:48:13.183Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/bergh-grand-hyatt-berlin",
+      "tier": "official",
+      "chars": 21921
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/bergh-grand-hyatt-berlin/rooms/",
+      "tier": "official",
+      "chars": 17780
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/bergh-grand-hyatt-berlin/parking-and-transportation/",
+      "tier": "official",
+      "chars": 3925
+    },
+    {
+      "id": "d4",
+      "url": "https://www.cntraveler.com/hotels/germany/berlin/grand-hyatt-berlin",
+      "tier": "editorial",
+      "chars": 4421
+    },
+    {
+      "id": "d5",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/bergh-grand-hyatt-berlin/dining/",
+      "tier": "official",
+      "chars": 10004
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/bergh-grand-hyatt-berlin/hotel-info/",
+      "tier": "official",
+      "chars": 2793
+    },
+    {
+      "id": "d7",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/bergh-grand-hyatt-berlin/reviews/",
+      "tier": "official",
+      "chars": 19206
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Grand Hyatt Berlin stands at Potsdamer Platz.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Grand Hyatt Berlin stands at Potsdamer Platz, the square at the heart of Berlin's transformation.",
+          "note": "Directly states the location.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bergh-grand-hyatt-berlin",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Brandenburg Gate, the Reichstag Building and the Tiergarten are all within walking distance of the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "with Brandenburg Gate, the Reichstag Building and the Tiergarten all within walking distance",
+          "note": "All three landmarks are listed as within walking distance.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bergh-grand-hyatt-berlin",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel is steps from the Potsdamer Platz U-Bahn station and a short walk to the site of the Berlin Wall.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "just steps away from the Potsdamer Platz U-Bahn station and a short walk to the site of the Berlin Wall",
+          "note": "Both elements are covered.",
+          "url": "https://www.cntraveler.com/hotels/germany/berlin/grand-hyatt-berlin",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Artists in the hotel's collection include Sylvie Fleury, John Armleder, Günther Förg, Dieter Roth and Jaehyo Lee.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Sylvie Fleury, John Armleder, Günther Förg, Dieter Roth and Jaehyo Lee are only a few of the names that have created the art you can explore throughout the hotel.",
+          "note": "All five artists are named.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bergh-grand-hyatt-berlin",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Design elements include a crystal-shaped roof light, Lebanese cedarwood, black granite and backlit alabaster walls.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Design elements include a crystal-shaped roof light, Lebanese cedarwood, black granite, stucco posts, backlit alabaster walls, and a large atrium lobby.",
+          "note": "All four listed elements are covered.",
+          "url": "https://www.cntraveler.com/hotels/germany/berlin/grand-hyatt-berlin",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The spa has an indoor pool, whirlpool, outdoor terrace, sauna, steam bath, solarium and fitness area.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "An indoor pool, whirlpool, outdoor terrace, sauna, steam bath, solarium and fitness area are all available",
+          "note": "Every facility in the claim is listed.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bergh-grand-hyatt-berlin",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Access to Club Olympus Spa & Fitness is complimentary for hotel guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Club Olympus Spa & Fitness is complimentary for hotel guests",
+          "note": "States complimentary access for hotel guests.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bergh-grand-hyatt-berlin",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Rooms have marble bathrooms with a deep soaking tub and walk-in shower, appointed with Balmain amenities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "the marble bathroom features a deep soaking tub and walk-in shower, appointed with Balmain amenities.",
+          "note": "Room descriptions match the claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bergh-grand-hyatt-berlin/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The Junior Suite overlooks the greenery of the Tiergarten, with cherrywood and marble finishes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "all overlooking the peaceful greenery of the Tiergarten. Rich cherrywood and marble finishes add warmth and refinement throughout",
+          "note": "Junior Suite description covers both the view and the finishes.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bergh-grand-hyatt-berlin/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "VOX Restaurant & Terrace is named after the historic Vox-Haus that once stood on the site.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Named after the historic Vox-Haus that once stood on this site, VOX Restaurant & Terrace has been a Berlin dining institution since 1998.",
+          "note": "Confirms the origin of the name.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bergh-grand-hyatt-berlin/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "VOX Bar has a collection of more than 300 spirits and whiskies.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "VOX Bar is one of Berlin's most celebrated bars, home to a collection of more than 300 spirits and whiskies.",
+          "note": "Matches the claimed figure.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bergh-grand-hyatt-berlin/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The Very Important Baby program provides cribs, nightlights, diapers, baby-changing facilities and children's bathrobes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Very Important Baby program provides cribs, nightlights, diapers, baby-changing facilities and children's bathrobes",
+          "note": "All listed items are covered.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bergh-grand-hyatt-berlin",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel houses a curated collection of over 120 pieces of art, displayed from the lobby to the restaurants and rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our curated collection of over 120 pieces of art was carefully selected to intrigue, surprise and create a vibrant and interesting atmosphere throughout the Hotel.",
+          "note": "Covers the collection size.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bergh-grand-hyatt-berlin",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "From our lobby over our restaurants to our rooms, the Grand Hyatt Berlin houses art pieces from artists from the world over.",
+          "note": "Covers display locations.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bergh-grand-hyatt-berlin",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The modern sandstone hotel was designed by Jose Rafael Moneo.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "This modern sandstone hotel in a mixed-use development, designed by José Rafael Moneo",
+          "note": "Confirms the architect and the sandstone construction.",
+          "url": "https://www.cntraveler.com/hotels/germany/berlin/grand-hyatt-berlin",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Club Olympus Spa & Fitness occupies the 8th floor, with panoramic views across the Berlin skyline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Club Olympus Spa & Fitness occupies the 8th floor of Grand Hyatt Berlin, offering spectacular panoramic views across the Berlin skyline",
+          "note": "Floor and views are confirmed.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bergh-grand-hyatt-berlin",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Maybach Suite has a grand piano and a private conference room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "elegant living and working spaces with a grand piano and a private conference room",
+          "note": "Maybach Suite description.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bergh-grand-hyatt-berlin/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Grand Club on the 7th floor offers a complimentary continental breakfast buffet, all-day refreshments and an evening cocktail hour with canapes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located on the 7th floor, it offers a level of personal, individualized service rarely found elsewhere",
+          "note": "Covers the floor.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bergh-grand-hyatt-berlin",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Each day begins with a complimentary continental breakfast buffet, followed by all-day refreshments in a lounge designed equally for relaxation, work or informal meetings.",
+          "note": "Covers breakfast and refreshments.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bergh-grand-hyatt-berlin",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "As evening approaches, the Grand Club hosts a cocktail hour with a creative selection of canapés.",
+          "note": "Covers the evening cocktail hour.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bergh-grand-hyatt-berlin",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Self-parking is in a public Q-Park garage at Potsdamer Platz, with direct access to the hotel lobby.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The driveway to the Q-Park parking garage at Potsdamer Platz is located in the Ludwig-Beck-Straße, 10785 and offers direct access to the hotel lobby. Please note that this is a public parking facility",
+          "note": "Covers Q-Park, public facility, and direct lobby access.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bergh-grand-hyatt-berlin/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes Potsdamer Platz is a lively commercial hub, which may feel less quiet than a residential neighborhood.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing reflecting the hotel's top-tier market position.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

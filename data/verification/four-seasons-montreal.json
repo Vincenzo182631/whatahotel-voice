@@ -1,0 +1,468 @@
+{
+  "hotel_slug": "four-seasons-montreal",
+  "hotel_name": "Four Seasons Hotel Montreal",
+  "checked_at": "2026-10-07T23:09:37.310Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 6,
+      "total": 25
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.fourseasons.com/montreal/",
+      "tier": "official",
+      "chars": 13821
+    },
+    {
+      "id": "d2",
+      "url": "https://www.fourseasons.com/montreal/dining/",
+      "tier": "official",
+      "chars": 5617
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/montreal/spa/",
+      "tier": "official",
+      "chars": 4019
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/montreal/services-and-amenities/",
+      "tier": "official",
+      "chars": 3516
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/montreal/getting-here/",
+      "tier": "official",
+      "chars": 1406
+    },
+    {
+      "id": "d6",
+      "url": "https://press.fourseasons.com/montreal/hotel-facts/",
+      "tier": "official",
+      "chars": 6086
+    },
+    {
+      "id": "d7",
+      "url": "https://www.cntraveler.com/hotels/montreal/four-seasons-hotel-montreal",
+      "tier": "editorial",
+      "chars": 8667
+    },
+    {
+      "id": "d8",
+      "url": "https://www.fourseasons.com/montreal/accommodations/",
+      "tier": "official",
+      "chars": 7377
+    },
+    {
+      "id": "d9",
+      "url": "https://www.fourseasons.com/montreal/services-and-amenities/art-collection/",
+      "tier": "official",
+      "chars": 2539
+    },
+    {
+      "id": "d10",
+      "url": "https://www.fourseasons.com/montreal/contact-us/",
+      "tier": "official",
+      "chars": 1245
+    },
+    {
+      "id": "d11",
+      "url": "https://www.fourseasons.com/montreal/photos-and-videos/",
+      "tier": "official",
+      "chars": 4608
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel has 169 accommodations, including 19 suites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "169 spacious accommodations, including 19 suites",
+          "note": "states both numbers",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/montreal/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is at 1440 rue de la Montagne in Montreal's Golden Square Mile.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "1440 rue de la Montagne, Montreal QC, H3G 1Z5, Canada",
+          "note": "address",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/montreal/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "In the heart of Montreal’s Golden Square Mile",
+          "note": "neighbourhood",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/montreal/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel has a direct indoor connection to Holt Renfrew Ogilvy.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Enjoy a direct indoor connection to Holt Renfrew Ogilvy",
+          "note": "direct indoor connection",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/montreal/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The hotel is a 20-minute drive from Pierre Elliott Trudeau International Airport.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "20-minute drive from Pierre Elliott Trudeau International Airport",
+          "note": "drive time",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/montreal/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The hotel's third floor combines a restaurant, terrace, lounge and bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Our open-concept third floor combines a restaurant, terrace, lounge and bar",
+          "note": "third floor",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/montreal/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Jason Morris is the executive chef at Marcus.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Executive Chef Jason Morris creates a bespoke tasting menu",
+          "note": "Marcus context",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/montreal/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "MARCUS",
+          "note": "restaurant listed with Executive Chef Jason Morris",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/montreal/hotel-facts/",
+          "tier": "official",
+          "quote_verified": false
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Guerlain Spa has eight treatment rooms, including a couples' suite.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "home to eight treatment rooms, including a couples’ suite",
+          "note": "spa",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/montreal/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The indoor swimming pool is skylit.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Skylit indoor swimming pool with unisex sauna and steam room",
+          "note": "skylit indoor pool",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/montreal/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The fitness centre is open 24 hours.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "our 24-hour Fitness Centre designed by celebrity trainer Harley Pasternak",
+          "note": "24-hour",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/montreal/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "In-room dining is available 24 hours.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "24-hour In-Room Dining",
+          "note": "24 hours",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/montreal/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Guerlain Spa is described as a Forbes Five-Star spa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Forbes Five-Star Guerlain Spa",
+          "note": "described as such",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/montreal/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The spa offers a Kneipp hydrotherapy experience.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "offers a Kneipp Hydrotherapy Experience",
+          "note": "Kneipp",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/montreal/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The indoor swimming pool has an upstream current generator.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "skylit swimming pool featuring an upstream current generator",
+          "note": "current generator",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/montreal/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Guests can take a self-guided tour of the hotel's art collection.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Enjoy a self-guided tour of the Hotel",
+          "note": "self-guided art tour",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/montreal/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Marcus offers a Chef's Counter tasting menu.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Take a front-row seat at the chef's counter at Marcus for a tasting menu experience",
+          "note": "Chef's Counter tasting menu",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/montreal/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-6",
+      "text": "Rooms have herringbone wood floors.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "with herringbone wood floors, stunning custom furniture pieces",
+          "note": "rooms",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/montreal/four-seasons-hotel-montreal",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Valet parking is available at the hotel for an applicable fee.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Valet parking is available at our Hotel for an applicable fee.",
+          "note": "valet fee",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/montreal/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The lower-level room views partially overlook the parking lot across the street.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "the lower level views partially overlook the parking lot across the street",
+          "note": "editorial statement",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/montreal/four-seasons-hotel-montreal",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "The swimming pool is exclusive to in-house guests, residents and spa guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Exclusive to In-house guests, residents and spa guests",
+          "note": "pool access",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/montreal/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-4",
+      "text": "WhataHotel notes premium luxury pricing.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, breakfast for two is free daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers can be combined with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

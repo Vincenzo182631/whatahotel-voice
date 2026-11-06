@@ -1,0 +1,89 @@
+{
+  "slug": "the-westin-paris-vendome",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "The Westin Paris Vendome",
+      "city": "Paris",
+      "country": "FR",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "location matches (Paris, FR)",
+      "confirmed by hand as this hotel's own page (only 67% of the hotel name appears on the page)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/parvd-renaissance-paris-vendome-hotel/overview/"
+    ],
+    "checked_at": "2026-11-05T09:46:04.567Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/parvd-renaissance-paris-vendome-hotel/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/parvd-renaissance-paris-vendome-hotel/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 0.67,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/parvd-renaissance-paris-vendome-hotel/overview/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:46:21.890Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/parvd-renaissance-paris-vendome-hotel/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:46:29.918Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/parvd-renaissance-paris-vendome-hotel/dining/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:46:43.389Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/parvd-renaissance-paris-vendome-hotel/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-11-05T09:46:43.692Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.cntraveler.com/hotels/france/paris/westin-paris-vendome",
+      "tier": "editorial",
+      "fetched_at": "2026-11-05T09:46:55.995Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 1,
+    "cache_hits": 0,
+    "direct_fetches": 1,
+    "pages": 5,
+    "chars": 47286,
+    "est_claude_tokens": 11822
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-11-05T09:46:55.995Z"
+}

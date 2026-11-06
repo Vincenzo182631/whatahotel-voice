@@ -1,0 +1,429 @@
+{
+  "hotel_slug": "david-intercontinental-tel-aviv",
+  "hotel_name": "David InterContinental Tel Aviv",
+  "checked_at": "2026-10-30T06:38:29.630Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 0,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/tel-aviv/tlvha/hoteldetail",
+      "tier": "official",
+      "chars": 9527
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/tel-aviv/tlvha/hoteldetail/rooms/",
+      "tier": "official",
+      "chars": 3882
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/tel-aviv/tlvha/hoteldetail/dining/",
+      "tier": "official",
+      "chars": 6120
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/tel-aviv/tlvha/hoteldetail/amenities/",
+      "tier": "official",
+      "chars": 8120
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/tel-aviv/tlvha/hoteldetail/local-area-guide/",
+      "tier": "official",
+      "chars": 8088
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/tel-aviv/tlvha/hoteldetail/directions/",
+      "tier": "official",
+      "chars": 2984
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/tel-aviv/tlvha/hoteldetail/",
+      "tier": "official",
+      "chars": 9527
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/tel-aviv/tlvha/hoteldetail/hotel-reviews/",
+      "tier": "official",
+      "chars": 22111
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel sits by the Mediterranean Sea, Neve Tzedek and Old Jaffa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Nestled by the Mediterranean Sea, Neve Tzedek, and Old Jaffa, InterContinental David Tel Aviv brings modern elegance to the Nonstop City.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/tel-aviv/tlvha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Neve Tzedek, the Carmel Market and Jaffa are close by.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Discover the wonder of Tel Aviv from our prime location within walking distance of top attractions, major business centres, and embassies. From beaches and Neve Tzedek to The Carmel Market, and ancient charm of Jaffo",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/tel-aviv/tlvha/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Rooms have marble bathrooms, a work desk and a sitting area.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our spacious rooms are warmly decorated, with relaxing bedding, marble bathrooms, a work desk and a sitting area.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/tel-aviv/tlvha/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Terrace rooms have sea views from generous private balconies.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Terrace rooms boast sea views from generous private balconies.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/tel-aviv/tlvha/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Club lounge offers check-in and check-out, breakfast, afternoon tea, all-day refreshments and evening drinks with canapes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "it offers check-in and check-out services, breakfast, afternoon tea, all-day refreshments, and evening drinks with canapés",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/tel-aviv/tlvha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Atrium Lobby Bar sits in the middle of a spacious lobby with 27-meter-high ceilings.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Located in the middle of our spectacular and spacious lobby with 27 meters of high ceilings, the Atrium Bar boasts impressive architecture.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/tel-aviv/tlvha/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Pastries by Alon Shabo, one of Israel's leading pastry chefs, are served at the Atrium Lobby Bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Discover the creations of Alon Shabo, one of Israel’s leading pastry chefs, now available at our Atrium Lobby Bar.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/tel-aviv/tlvha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "SPICE is a cocktail bar with a vintage ambiance inspired by an old world apothecary.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Step into SPICE, our sophisticated cocktail bar offering an elegant and vintage ambiance inspired by the aesthetics of an old world apothecary.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/tel-aviv/tlvha/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "A kids' pool offers a shaded, secure play area.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Our kids’ pool offers a shaded and secure play area for your little ones.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/tel-aviv/tlvha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Young travelers have a dedicated check-in area at reception and welcome amenities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Young travelers can enjoy a dedicated check-in area at our reception and special welcome amenities tailored just for them.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/tel-aviv/tlvha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Large connecting rooms are available for families.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our large connecting rooms provide ample space for the whole family to relax and unwind.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/tel-aviv/tlvha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Guests can enjoy Adanim Tea, a family-owned Israeli tea house crafting organic blends since 1982.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "guests can enjoy Adanim Tea, a family-owned Israeli tea house crafting organic blends since 1982.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/tel-aviv/tlvha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "More than 90% of the rooms have Mediterranean Sea views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "More than 90% of our rooms feature breathtaking Mediterranean Sea views",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/tel-aviv/tlvha/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Club InterContinental lounge is on the 24th floor with views of the Mediterranean Sea.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located on the 24th floor of the hotel with breathtaking views of the Mediterranean Sea, Club InterContinental is the ultimate private urban haven.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/tel-aviv/tlvha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "THE Spa has seven treatment rooms, including a couples' suite, plus saunas and a relaxation space.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "THE Spa boasts seven treatment rooms including a luxury couples’ suite, saunas, and a relaxation space.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/tel-aviv/tlvha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The outdoor pool has Mediterranean views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Lounge by our sparkling pool with stunning Mediterranean views.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/tel-aviv/tlvha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "InterContinental David Tel Aviv has 1 outdoor pool.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/tel-aviv/tlvha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Tayelet, Tel Aviv's beachfront promenade from Tel Aviv Port to Jaffa, is steps from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Tel Aviv’s Beachfront Promenade",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/tel-aviv/tlvha/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "stretches 14 km from the lively Tel Aviv Port to historic Jaffa.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/tel-aviv/tlvha/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "just steps from your sanctuary at InterContinental David Tel Aviv.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/tel-aviv/tlvha/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The pool is open seasonally.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Our pool is open seasonally.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/tel-aviv/tlvha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Kids' activities at the hotel are seasonal.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Create unforgettable family memories with a range of seasonal kids' activities and spacious pool facilities.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/tel-aviv/tlvha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

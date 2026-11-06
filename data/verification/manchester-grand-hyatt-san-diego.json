@@ -1,0 +1,390 @@
+{
+  "hotel_slug": "manchester-grand-hyatt-san-diego",
+  "hotel_name": "Manchester Grand Hyatt San Diego",
+  "checked_at": "2026-10-29T03:44:34.049Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/sanrs-manchester-grand-hyatt-san-diego",
+      "tier": "official",
+      "chars": 17732
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/sanrs-manchester-grand-hyatt-san-diego/rooms/",
+      "tier": "official",
+      "chars": 19400
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/sanrs-manchester-grand-hyatt-san-diego/dining/",
+      "tier": "official",
+      "chars": 9327
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/sanrs-manchester-grand-hyatt-san-diego/policies/",
+      "tier": "official",
+      "chars": 4860
+    },
+    {
+      "id": "d5",
+      "url": "https://www.cntraveler.com/hotels/united-states/san-diego/manchester-grand-hyatt",
+      "tier": "editorial",
+      "chars": 3612
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/sanrs-manchester-grand-hyatt-san-diego/hotel-info/",
+      "tier": "official",
+      "chars": 3682
+    },
+    {
+      "id": "d7",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/sanrs-manchester-grand-hyatt-san-diego/reviews/",
+      "tier": "official",
+      "chars": 13176
+    },
+    {
+      "id": "d8",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/sanrs-manchester-grand-hyatt-san-diego/parking-and-transportation/",
+      "tier": "official",
+      "chars": 3090
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is a waterfront hotel in downtown San Diego.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Explore Southern California’s vibrant culture and natural beauty from our waterfront hotel in downtown San Diego.",
+          "note": "The page describes the hotel as a waterfront hotel in downtown San Diego.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sanrs-manchester-grand-hyatt-san-diego",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is steps from Petco Park and the San Diego Convention Center.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located steps from the city’s top attractions, like Petco Park and the San Diego Convention Center",
+          "note": "The page names both Petco Park and the Convention Center as steps away.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sanrs-manchester-grand-hyatt-san-diego",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Embarcadero Park sits at the doorstep of the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "At the doorstep of our San Diego hotel sits Embarcadero Park",
+          "note": "The dining page states this directly.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sanrs-manchester-grand-hyatt-san-diego/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The 1,450-square-foot Penthouse Suite has top-floor views of the bay or the surrounding city.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Take in top floor views of the bay or the surrounding city from this elegant 1,450-square-foot San Diego suite",
+          "note": "Covers both the size and the top-floor bay or city views of the Penthouse Suite.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sanrs-manchester-grand-hyatt-san-diego/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The bay-view rooms have decor that blends coastal luxury with nautical charm.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Newly renovated, this 340-square-foot room offers exquisite views of San Diego Bay, one king bed, a spacious desk, a seating area, and décor that blends coastal luxury with nautical charm.",
+          "note": "This describes the 1 King Bed Bay View room.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sanrs-manchester-grand-hyatt-san-diego/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "two double beds, a spacious desk, a seating rea, and décor that blends coastal luxury with nautical charm.",
+          "note": "This describes the 2 Double Beds Bay View room.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sanrs-manchester-grand-hyatt-san-diego/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Signature Suite with two double beds connects to a standard double bed room, making it a family suite.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "This suite connects to a standard double bed room, making it the ideal family suite for a San Diego vacation.",
+          "note": "This is from the Signature Suite, 2 Double Beds description.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sanrs-manchester-grand-hyatt-san-diego/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The 700-square-foot King Bed Studio has a kitchenette with a microwave and a minifridge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Newly renovated, this 700-square-foot studio room offers views overlooking the city or the bay, featuring a kitchenette with a microwave and a minifridge",
+          "note": "Covers both the size and the kitchenette with microwave and minifridge.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sanrs-manchester-grand-hyatt-san-diego/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Coastline Pool & Lounge is on the 3rd floor of Harbor Tower, overlooking San Diego Bay.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Escape to Coastline Pool & Lounge, a refined retreat on the 3rd floor of Harbor Tower overlooking San Diego Bay.",
+          "note": "Covers both the location and the bay view.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sanrs-manchester-grand-hyatt-san-diego/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The StayFit fitness center has waterfront bay views through floor-to-ceiling windows.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "StayFit fitness center, featuring beautiful waterfront bay views through floor-to-ceiling windows",
+          "note": "The page states this directly.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sanrs-manchester-grand-hyatt-san-diego",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Sally's Waterfront Dining is an open-air restaurant with a waterfront terrace and bay views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Experience Sally’s newly transformed open-air restaurant, featuring a waterfront terrace, sweeping bay views, and vibrant coastal cuisine.",
+          "note": "Covers all three elements: open-air, waterfront terrace and bay views.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sanrs-manchester-grand-hyatt-san-diego/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel offers 320,000 square feet of meeting and event space with more than 60 breakout rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "which offers 320,000 square feet of versatile meeting and event space with more than 60 individual breakout rooms.",
+          "note": "Both figures match the claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sanrs-manchester-grand-hyatt-san-diego",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The hotel was named in Conde Nast Traveler's Readers' Choice Awards in 2018 and 2025.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Readers' Choice Awards 2018, 2025",
+          "note": "The Condé Nast Traveler page lists both years.",
+          "url": "https://www.cntraveler.com/hotels/united-states/san-diego/manchester-grand-hyatt",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Coastline Pool & Lounge has plush loungers, private cabanas and views of the Coronado Bridge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "With a stylish coastal atmosphere, plush loungers, private cabanas, and sweeping views of the Coronado Bridge",
+          "note": "All three elements are covered.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sanrs-manchester-grand-hyatt-san-diego/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Top of the Hyatt, on the 40th floor, offers panoramic views of San Diego Bay and signature drinks.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Reimagined and reopened, Top of the Hyatt offers panoramic views of San Diego Bay, signature drinks, and crafted rituals on the 40th floor above the waterfront.",
+          "note": "Covers the floor, the panoramic bay views and the signature drinks.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sanrs-manchester-grand-hyatt-san-diego/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The 1,050-square-foot Presidential Suites offer sunset views of the bay, a separate living space and upscale decor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Opt for one of our 1,050-square-foot Presidential Suites for stunning sunset views of the bay, a separate living space and upscale décor.",
+          "note": "All elements match the claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sanrs-manchester-grand-hyatt-san-diego",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Registered guests can play complimentary basketball and pickleball on the rooftop Sports Court on the 4th floor of Harbor Tower.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Registered hotel guests can enjoy complimentary basketball and pickleball on the rooftop Sports Court, located on the 4th floor of Harbor Tower.",
+          "note": "All elements match the claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sanrs-manchester-grand-hyatt-san-diego",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Grand Club lounge is on the 33rd floor and offers breakfast, appetizers and beverages.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Enjoy a private retreat high above San Diego in the Grand Club, located on the 33rd floor. Stop in for breakfast, appetizers, beverages and a comfortable place to unwind during your stay.",
+          "note": "Covers the floor and the breakfast, appetizers and beverages.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sanrs-manchester-grand-hyatt-san-diego",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "A daily destination fee is applied to each room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "A daily destination fee of $47.00 (subject to change) is applied to each room of your stay",
+          "note": "The policies page confirms a daily fee per room.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sanrs-manchester-grand-hyatt-san-diego/policies/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The hotel does not accept cash as payment; all major credit cards are accepted.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Manchester Grand Hyatt San Diego is no longer exchanging or accepting cash as a payment. All major credit cards are accepted.",
+          "note": "Covers both the no-cash policy and acceptance of major credit cards.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/sanrs-manchester-grand-hyatt-san-diego/policies/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the very large property may require longer walks to amenities.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

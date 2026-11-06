@@ -1,0 +1,370 @@
+{
+  "slug": "secret-bay",
+  "status": "ready",
+  "partial": true,
+  "reasons": [
+    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue",
+    "coverage is partial: a limit stopped the page fetch early; raise the limits and rerun to read the rest",
+    "coverage is partial: a limit stopped the page fetch early; raise the limits and rerun to read the rest"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Secret Bay",
+      "city": "Portsmouth",
+      "country": "DM",
+      "chain": "independent"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Portsmouth, DM)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://secretbay.dm/"
+    ],
+    "checked_at": "2026-11-04T01:56:38.430Z",
+    "status": "confirmed",
+    "official_url": "https://secretbay.dm/",
+    "base_url": "https://secretbay.dm/",
+    "host": "secretbay.dm",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://secretbay.dm/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T01:56:42.644Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://secretbay.dm/dining/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T01:56:49.391Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://secretbay.dm/experience/the-beaches/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T01:56:52.152Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://secretbay.dm/experience/emerald-pool/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T01:56:56.034Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://secretbay.dm/experience/sulphur-spas/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T01:57:00.095Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://secretbay.dm/experience/bubble-beach/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T01:57:04.261Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://secretbay.dm/experience/batibou-beach/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T01:57:17.097Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://secretbay.dm/experience/waitukubuli-wellness/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T01:57:18.941Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://secretbay.dm/amenities/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T01:57:21.396Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://secretbay.dm/family/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T01:57:35.903Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://secretbay.dm/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T01:57:37.785Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p12",
+      "url": "https://secretbay.dm/experience/yoga/",
+      "tier": "official",
+      "fetched_at": "2026-11-04T01:57:41.452Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 14,
+    "firecrawl_searches": 1,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 12,
+    "chars": 77046,
+    "est_claude_tokens": 19262
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-11-04T01:57:45.513Z",
+  "hotel": {
+    "name": "Secret Bay",
+    "city": "Portsmouth",
+    "country": "DM",
+    "chain": "independent",
+    "confirmed_affiliation": {
+      "kind": "independent"
+    }
+  },
+  "official_url": "https://secretbay.dm/",
+  "verified_facts": [
+    {
+      "id": "r-1",
+      "category": "location",
+      "text": "Secret Bay is an all-villa Caribbean resort in Dominica.",
+      "source_url": "https://secretbay.dm/",
+      "source_tier": "official",
+      "excerpt": "all-villa Caribbean resort in Dominica and an esteemed member of Relais & Châteaux"
+    },
+    {
+      "id": "r-2",
+      "category": "design_history",
+      "text": "Secret Bay is a member of Relais & Châteaux.",
+      "source_url": "https://secretbay.dm/",
+      "source_tier": "official",
+      "excerpt": "all-villa Caribbean resort in Dominica and an esteemed member of Relais & Châteaux"
+    },
+    {
+      "id": "r-3",
+      "category": "rooms",
+      "text": "Secret Bay's villas have private plunge pools.",
+      "source_url": "https://secretbay.dm/",
+      "source_tier": "official",
+      "excerpt": "featuring secluded residential-style villas with private plunge pools"
+    },
+    {
+      "id": "r-4",
+      "category": "practical",
+      "text": "Guests have dedicated villa hosts and an on-call concierge.",
+      "source_url": "https://secretbay.dm/",
+      "source_tier": "official",
+      "excerpt": "dedicated villa hosts, on-call concierge, private chefs and expert guides"
+    },
+    {
+      "id": "r-5",
+      "category": "design_history",
+      "text": "A funicular ascends 400 linear feet into the coastal jungle to the Clifftop, Hillside and Summit villas.",
+      "source_url": "https://secretbay.dm/amenities/",
+      "source_tier": "official",
+      "excerpt": "Ascend 400 linear feet into our coastal jungle, effortlessly accessing your Clifftop, Hillside or Summit villa"
+    },
+    {
+      "id": "r-6",
+      "category": "amenities",
+      "text": "The Gommier Spa is a treehouse-style retreat overlooking Tibay Beach.",
+      "source_url": "https://secretbay.dm/amenities/",
+      "source_tier": "official",
+      "excerpt": "Unwind at the Gommier Spa, a treehouse-style retreat overlooking Tibay Beach."
+    },
+    {
+      "id": "r-7",
+      "category": "amenities",
+      "text": "Yoga is held at the Bwa Mang Wellness Pavilion, suspended over the Cario River.",
+      "source_url": "https://secretbay.dm/amenities/",
+      "source_tier": "official",
+      "excerpt": "Begin your day with yoga at the Bwa Mang Wellness Pavilion, suspended over the Cario River."
+    },
+    {
+      "id": "r-8",
+      "category": "experiences",
+      "text": "Secret Beach is reached solely by kayak, paddle, swim or skiff and has a hidden sea cave.",
+      "source_url": "https://secretbay.dm/amenities/",
+      "source_tier": "official",
+      "excerpt": "The paradisiacal, secluded Secret Beach is accessible only by kayak, paddle, swim, or skiff with a hidden sea cave and vibrant marine life"
+    },
+    {
+      "id": "r-9",
+      "category": "location",
+      "text": "Tibay Beach is a swimmable beach that can be reached solely through Secret Bay or by water.",
+      "source_url": "https://secretbay.dm/experience/the-beaches/",
+      "source_tier": "official",
+      "excerpt": "Secret Bay’s Tibay Beach, a prized stretch of swimmable beach only accessible by Secret Bay or by water"
+    },
+    {
+      "id": "r-10",
+      "category": "amenities",
+      "text": "The oceanfront lap pool is set amid an orchard of guava trees.",
+      "source_url": "https://secretbay.dm/amenities/",
+      "source_tier": "official",
+      "excerpt": "Set in-nature, amid an orchard of guava trees relax oceanfront at our lap pool"
+    },
+    {
+      "id": "r-11",
+      "category": "amenities",
+      "text": "Gwiyavye has floating platforms nestled in guava trees.",
+      "source_url": "https://secretbay.dm/amenities/",
+      "source_tier": "official",
+      "excerpt": "Suspended between sky and sea, these floating platforms nestled in Guava trees bring a whole new magic to our amenities."
+    },
+    {
+      "id": "r-12",
+      "category": "location",
+      "text": "The Cario River winds through the property.",
+      "source_url": "https://secretbay.dm/amenities/",
+      "source_tier": "official",
+      "excerpt": "The magical Cario River winds through the property of Secret Bay"
+    },
+    {
+      "id": "r-13",
+      "category": "design_history",
+      "text": "Bwa Denn is home to more than 100 Caribbean and Latin American art pieces.",
+      "source_url": "https://secretbay.dm/amenities/",
+      "source_tier": "official",
+      "excerpt": "This modern, minimalist space is home to 100+ Caribbean and Latin American art pieces"
+    },
+    {
+      "id": "r-14",
+      "category": "dining",
+      "text": "Zing Zing is an open-air restaurant above Tibay Beach with twenty seats and a six-course Discovery Menu.",
+      "source_url": "https://secretbay.dm/dining/",
+      "source_tier": "official",
+      "excerpt": "secure one of just twenty seats at Zing Zing, our open-air restaurant above Tibay Beach, for a six-course Discovery Menu"
+    },
+    {
+      "id": "r-15",
+      "category": "dining",
+      "text": "The Botanica chef's table is set in an organic garden by the Cario River.",
+      "source_url": "https://secretbay.dm/dining/",
+      "source_tier": "official",
+      "excerpt": "Take a seat at the Botanica chef’s table, set in our organic garden by the Cario River."
+    },
+    {
+      "id": "r-16",
+      "category": "rooms",
+      "text": "The Friends & Family villas have jungle-to-ocean views extending from Morne Diablotin to sunsets over the Caribbean Sea.",
+      "source_url": "https://secretbay.dm/family/",
+      "source_tier": "official",
+      "excerpt": "With spectacular jungle-to-ocean views that extend from the Nature Island’s tallest mountain, Morne Diablotin, to endless sunset views over the Caribbean Sea"
+    },
+    {
+      "id": "r-17",
+      "category": "family",
+      "text": "Guests may combine select neighbouring villas connected by private pathways into a private estate.",
+      "source_url": "https://secretbay.dm/family/",
+      "source_tier": "official",
+      "excerpt": "Guests may combine select neighbouring villas connected by private pathways to create a private estate"
+    },
+    {
+      "id": "r-18",
+      "category": "family",
+      "text": "Secret Bay has a kids concierge and young adult offerings.",
+      "source_url": "https://secretbay.dm/family/",
+      "source_tier": "official",
+      "excerpt": "With Secret Bay’s exclusive kids concierge and young adult offerings"
+    },
+    {
+      "id": "r-19",
+      "category": "experiences",
+      "text": "The watersports base offers kayaks, paddleboards and snorkel gear.",
+      "source_url": "https://secretbay.dm/amenities/",
+      "source_tier": "official",
+      "excerpt": "from kayaks, paddleboards and snorkel gear to beach pickups for water-based excursions"
+    },
+    {
+      "id": "r-20",
+      "category": "amenities",
+      "text": "The fitness facility is open-air and zero-emissions, with self-powered equipment.",
+      "source_url": "https://secretbay.dm/amenities/",
+      "source_tier": "official",
+      "excerpt": "our zero-emissions, open-air fitness and play facility featuring self-powered equipment"
+    },
+    {
+      "id": "r-21",
+      "category": "rooms",
+      "text": "Villas have a fully-equipped European gourmet kitchen.",
+      "source_url": "https://secretbay.dm/dining/",
+      "source_tier": "official",
+      "excerpt": "cook in your fully-equipped European gourmet kitchen"
+    },
+    {
+      "id": "r-22",
+      "category": "location",
+      "text": "Secret Bay is an off-the-beaten-track destination in Dominica.",
+      "source_url": "https://secretbay.dm/",
+      "source_tier": "official",
+      "excerpt": "Secret Bay is an off-the-beaten-track Caribbean destination in Dominica"
+    },
+    {
+      "id": "r-23",
+      "category": "practical",
+      "text": "The Travel Concierge helps coordinate commercial flights, private charters or boat travel.",
+      "source_url": "https://secretbay.dm/",
+      "source_tier": "official",
+      "excerpt": "We’ll help coordinate commercial flights, private charters, or boat travel"
+    },
+    {
+      "id": "r-24",
+      "category": "practical",
+      "text": "Zing Zing is open seasonally and limited to 20 guests per evening.",
+      "source_url": "https://secretbay.dm/dining/",
+      "source_tier": "official",
+      "excerpt": "Open seasonally and limited to just 20 guests per evening"
+    }
+  ],
+  "highlights": [
+    "r-8",
+    "r-6",
+    "r-5",
+    "r-3",
+    "r-7",
+    "r-9",
+    "r-10"
+  ],
+  "subjective": [
+    {
+      "id": "r-26",
+      "text": "Secret Bay offers six-star service and amenities.",
+      "reason": "the hotel's own opinion or praise; keep out of facts"
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "r-25",
+      "text": "Secret Bay holds Two MICHELIN Keys.",
+      "reason": "marked unresolved"
+    }
+  ],
+  "rejected": [],
+  "contradictions": []
+}

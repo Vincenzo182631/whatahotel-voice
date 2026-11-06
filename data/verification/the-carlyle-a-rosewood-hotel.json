@@ -1,0 +1,509 @@
+{
+  "hotel_slug": "the-carlyle-a-rosewood-hotel",
+  "hotel_name": "The Carlyle, A Rosewood Hotel",
+  "checked_at": "2026-10-14T05:35:51.952Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 20,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 0,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.rosewoodhotels.com/en/the-carlyle-new-york",
+      "tier": "official",
+      "chars": 8628
+    },
+    {
+      "id": "d2",
+      "url": "https://www.rosewoodhotels.com/en/the-carlyle-new-york/dining/bemelmans-bar/",
+      "tier": "official",
+      "chars": 4696
+    },
+    {
+      "id": "d3",
+      "url": "https://www.rosewoodhotels.com/en/the-carlyle-new-york/dining/cafe-carlyle/",
+      "tier": "official",
+      "chars": 4950
+    },
+    {
+      "id": "d4",
+      "url": "https://www.cntraveler.com/hotels/new-york-city/the-carlyle-a-rosewood-hotel",
+      "tier": "editorial",
+      "chars": 9373
+    },
+    {
+      "id": "d5",
+      "url": "https://www.rosewoodhotels.com/en/the-carlyle-new-york/dining/dowlings-at-the-carlyle/",
+      "tier": "official",
+      "chars": 5057
+    },
+    {
+      "id": "d6",
+      "url": "https://www.rosewoodhotels.com/en/the-carlyle-new-york/accommodation/",
+      "tier": "official",
+      "chars": 8628
+    },
+    {
+      "id": "d7",
+      "url": "https://www.rosewoodhotels.com/en/the-carlyle-new-york/wellness/",
+      "tier": "official",
+      "chars": 8628
+    },
+    {
+      "id": "d8",
+      "url": "https://www.rosewoodhotels.com/en/the-carlyle-new-york/wellness/spa/",
+      "tier": "official",
+      "chars": 8628
+    },
+    {
+      "id": "d9",
+      "url": "https://www.rosewoodhotels.com/en/the-carlyle-new-york/wellness/salon/",
+      "tier": "official",
+      "chars": 8628
+    },
+    {
+      "id": "d10",
+      "url": "https://www.rosewoodhotels.com/en/the-carlyle-new-york/wellness/fitness/",
+      "tier": "official",
+      "chars": 5820
+    },
+    {
+      "id": "d11",
+      "url": "https://www.rosewoodhotels.com/en/the-carlyle-new-york/met-gala/",
+      "tier": "official",
+      "chars": 5820
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is on Manhattan's Upper East Side, right around the corner from Central Park.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Manhattan’s Upper East Side",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york-city/the-carlyle-a-rosewood-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "You’re right around the corner from Central Park",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york-city/the-carlyle-a-rosewood-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The Carlyle first opened in 1930.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "First opened in 1930",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york-city/the-carlyle-a-rosewood-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Bemelmans Bar has nightly piano and late-night jazz.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "features storied murals by Ludwig Bemelmans, nightly piano and late-night jazz",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.rosewoodhotels.com/en/the-carlyle-new-york/dining/bemelmans-bar/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "At Bemelmans Bar, a cover charge applies from 5:30 pm, starting with the pianist's opening set, followed by a jazz trio from 9 pm.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "A cover charge applies starting at 5:30 pm with the pianists opening set, followed by the jazz trio from 9 pm onward.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.rosewoodhotels.com/en/the-carlyle-new-york/dining/bemelmans-bar/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Cafe Carlyle originally opened in 1955 and headlines performers in a classic cabaret setting.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Originally opened in 1955, Café Carlyle is known for headlining world-class talent in a classic cabaret setting.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.rosewoodhotels.com/en/the-carlyle-new-york/dining/cafe-carlyle/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Dowling's at The Carlyle serves modern interpretations of New York classics, set amid a collection of more than 200 works by local artists.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Modern interpretations of timeless New York classics, set amidst a collection of over 200 works by local artists.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.rosewoodhotels.com/en/the-carlyle-new-york/dining/dowlings-at-the-carlyle/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Guestrooms were decorated by designers including Tony Chi and Thierry Despont.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Exquisitely decorated by legendary designers such as Tony Chi and Thierry Despont, our New York guestrooms",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.rosewoodhotels.com/en/the-carlyle-new-york",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Suites sit above Madison Avenue and are furnished with original artwork.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Enter your private world above Madison Avenue with suites oozing residential elegance, stylishly furnished with original artwork.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.rosewoodhotels.com/en/the-carlyle-new-york",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Signature Suites come with the attentiveness of Suite Ambassadors.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our finest suites feel like private residences. Experience elegant living with the attentiveness of our Suite Ambassadors.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.rosewoodhotels.com/en/the-carlyle-new-york",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Wellness includes a Valmont Spa for facials and body treatments, the Yves Durif Salon, and a fitness center with Technogym equipment and personal training.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Valmont Spa offers transformative facials and restorative body treatments",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.rosewoodhotels.com/en/the-carlyle-new-york",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "lead by Yves Durif and his team",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.rosewoodhotels.com/en/the-carlyle-new-york",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Fitted with state-of-the-art Technogym equipment and expert personal training services, our fitness center",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.rosewoodhotels.com/en/the-carlyle-new-york",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Bemelmans Bar offers a private martini-making masterclass with its red-jacketed bartenders.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Join our legendary red-jacketted bartenders as they share their classic techniques, modern twists, and decades of finely tuned expertise in a private martini making masterclass.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.rosewoodhotels.com/en/the-carlyle-new-york",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Hotel guests get priority when Bemelmans Bar seats walk-ins, so show your room key.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "hotel guests take priority when seating walk-ins at Bemelmans, so if you’re popping in, be sure to show your room key",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york-city/the-carlyle-a-rosewood-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "In 1947, Ludwig Bemelmans was commissioned to paint large-scale murals in Bemelmans Bar depicting all four seasons in nearby Central Park.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "It's named after Ludwig Bemelman",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york-city/the-carlyle-a-rosewood-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "in 1947, he was commissioned to paint large-scale murals in the bar depicting all four seasons in nearby Central Park",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york-city/the-carlyle-a-rosewood-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Cafe Carlyle is an intimate supper club set against Marcel Vertes' murals, with classic cabaret.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "An intimate, last-of-its-kind supper club set against Marcel Vertès’ famed murals, where timeless New York glamour meets classic cabaret.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.rosewoodhotels.com/en/the-carlyle-new-york/dining/cafe-carlyle/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Gallery, designed by decorator Renzo Mongiardino and inspired by Topkapi Palace, serves afternoon tea and light refreshments late into the night.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Designed by the legendary decorator Renzo Mongiardino and inspired by Topkapi Palace, this intimate jewel box offers afternoon tea and light refreshments late into the night.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.rosewoodhotels.com/en/the-carlyle-new-york",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "More than 20 suites have Steinway or Baldwin baby-grand pianos.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "more than 20 suites boast",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york-city/the-carlyle-a-rosewood-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "baby-grand pianos",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york-city/the-carlyle-a-rosewood-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "A town car is on hand to take guests anywhere within a 20-block radius.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "a town car on hand to take you anywhere in a 20-block radius",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york-city/the-carlyle-a-rosewood-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Common areas are fairly minimal beyond some lobby seating and the dining venues.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "the fairly minimal amount of common areas—there’s some seating in the lobby for those looking to take a breather outside their room, and of course, the aforementioned dining venues",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york-city/the-carlyle-a-rosewood-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Cafe Carlyle requires reservations and jackets, and the bars and restaurants ask guests not to wear athletic or casual wear.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Of note, reservations (and jackets) are required.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york-city/the-carlyle-a-rosewood-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "refrain from wearing athletic or casual wear",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.rosewoodhotels.com/en/the-carlyle-new-york/dining/cafe-carlyle/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "refrain from wearing athletic or casual wear",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.rosewoodhotels.com/en/the-carlyle-new-york/dining/bemelmans-bar/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "refrain from wearing athletic or casual wear",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.rosewoodhotels.com/en/the-carlyle-new-york/dining/dowlings-at-the-carlyle/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "There is a welcome amenity for children, but no formal kids club.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "there is a welcome amenity for children, though no formal kids club",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york-city/the-carlyle-a-rosewood-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

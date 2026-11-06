@@ -1,0 +1,411 @@
+{
+  "hotel_slug": "intercontinental-doha-beach",
+  "hotel_name": "InterContinental Doha Beach",
+  "checked_at": "2026-10-30T06:42:45.283Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 18
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/doha/dohha/hoteldetail",
+      "tier": "official",
+      "chars": 10841
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/doha/dohha/hoteldetail/rooms/",
+      "tier": "official",
+      "chars": 4136
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/doha/dohha/hoteldetail/dining/",
+      "tier": "official",
+      "chars": 9255
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/doha/dohha/hoteldetail/amenities/",
+      "tier": "official",
+      "chars": 7755
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/doha/dohha/hoteldetail/local-area-guide/",
+      "tier": "official",
+      "chars": 5930
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/doha/dohha/hoteldetail/directions/",
+      "tier": "official",
+      "chars": 2977
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/doha/dohha/hoteldetail/",
+      "tier": "official",
+      "chars": 10841
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/doha/dohha/hoteldetail/hotel-reviews/",
+      "tier": "official",
+      "chars": 23537
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is located on Doha's longest beach and nestled in landscaped gardens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located on Doha's longest beach and nestled in landscaped gardens",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/doha/dohha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The outdoor pool is a free-form pool at The Bay Club.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Free-form pool at The Bay Club.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/doha/dohha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Rooms are designed to be modern, comfortable and fresh with an Arabic twist, and have sleek spa-like bathrooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our furnished rooms are designed as luxurious, modern, comfortable, and fresh with an Arabic twist.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/doha/dohha/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "sleek spa-like bathrooms",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/doha/dohha/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Club InterContinental, for guests in Club rooms and suites, offers complimentary breakfast, light refreshments, afternoon tea and evening cocktails in a lounge overlooking the Doha skyline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Available exclusively to guests staying in one of our Club rooms and suites, Club InterContinental offers complimentary breakfast, light refreshments, afternoon tea, and evening cocktails. Overlooking the stunning Doha skyline",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/doha/dohha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The hotel is minutes from Lusail, downtown Doha, the Doha Exhibition and Convention Centre, City Center Mall and Doha Golf Club, and Al Qassar Metro Station is a short walk away.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Our prime location is just minutes from Lusail, downtown Doha, the Doha Exhibition and Convention Centre, City Center Mall, and Doha Golf Club. The Al Qassar Metro Station is also a short walk away.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/doha/dohha/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Katara Cultural Village is about 1 kilometer from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Katara Cultural Village - 0.62 miles away (1 kilometers)",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/doha/dohha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Bay Club has a children's pool and playground.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "children's pool and playground",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/doha/dohha/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The concierge can book a three-hour guided city tour of Doha.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Guided City Tour (3 hours)",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/doha/dohha/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Our Concierge team are happy to assist you in booking your guided city tour.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/doha/dohha/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Mykonos is a Greek taverna whose terrace, framed by olive trees, overlooks the pool and beach, with bouzouki music.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Mykonos Doha brings the flavours of the Greek islands to life in a warm, family style taverna setting.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/doha/dohha/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The terrace, framed by olive trees and overlooking the pool and beach, is accompanied by enchanting bouzouki music",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/doha/dohha/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "La Vue is a lounge overlooking Doha's skyline, with cocktails, wines, cigars, whiskies and cognacs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "La Vue is a sophisticated lounge overlooking Doha’s skyline, where expertly crafted cocktails, an extensive wine selection and a refined collection of cigars take centre stage. Complemented by premium whiskies and cognacs",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/doha/dohha/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel holds Green Key sustainability certification.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Certifications: Green Key (FEE)",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/doha/dohha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Bay Club offers Doha's longest private beach, a pool, a 24-hour gym, padel, tennis and squash courts, fitness classes and watersports.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Soak in the sunshine at Doha's longest private beach, or relax by the pool. The Bay Club offers endless recreation options like a state-of-the-art 24-hour gym, padel, tennis, and squash courts, fitness classes, watersports, and more.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/doha/dohha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "La Mar Beach is a beach lounge with views of the West Bay skyline and the Arabian Gulf, with cabanas, sunbeds and a temperature-controlled pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "La Mar Beach is a chic, contemporary beach lounge offering unmatched views of the West Bay skyline and the Arabian Gulf.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/doha/dohha/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "it features stylish cabanas, comfortable sunbeds and a temperature controlled pool",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/doha/dohha/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Spa InterContinental has treatment rooms and suites, a private indoor pool, hot tub, sauna and steam facilities, plus separate relaxation rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "featuring 16 treatment rooms and suites, private indoor pool, hot tub, sauna, and steam facilities. After your treatment, head to the Spa's separate relaxation rooms to unwind.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/doha/dohha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Suites such as the Ocean Suite may include a sea view and a separate bath and walk-in shower.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Ocean Suite may include:\n\n- Sea View\n- Separate Bath and Walk-in Shower",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/doha/dohha/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Summer temperatures spike, and the hotel recommends spending time by its chilled pool then.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Over the summer, the temperature spikes up so we recommend spending time by our chilled pool.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/doha/dohha/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The minimum check-in age is 21.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Minimum check-in age**: 21",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/doha/dohha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the hotel is located outside the central Doha district.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

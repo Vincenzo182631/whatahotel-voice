@@ -1,0 +1,39 @@
+# Verification checklist: Hotel President Wilson
+
+Checked 2026-10-24 against the hotel's own pages and Condé Nast Traveler. Result: **can be marked verified** (profile set to verified).
+
+Supported 18 · contradicted 0 · unverified 0 · WhataHotel's own statements 2 · total 20
+
+## Pages checked
+
+- official: https://www.marriott.com/en-us/hotels/gvalc-hotel-president-wilson-a-luxury-collection-hotel-geneva/overview/
+- official: https://www.marriott.com/en-us/hotels/gvalc-hotel-president-wilson-a-luxury-collection-hotel-geneva/rooms/
+- official: https://www.marriott.com/en-us/hotels/gvalc-hotel-president-wilson-a-luxury-collection-hotel-geneva/dining/
+- official: https://www.marriott.com/en-us/hotels/gvalc-hotel-president-wilson-a-luxury-collection-hotel-geneva/experiences/
+- official: https://www.marriott.com/en-us/hotels/gvalc-hotel-president-wilson-a-luxury-collection-hotel-geneva/%3CBase64-Image-Removed%3E/
+- editorial: https://www.cntraveler.com/hotels/switzerland/geneva/hotel-president-wilson
+
+## Claims
+
+| | Claim | Evidence |
+|---|---|---|
+| ✅ | **f-1** The hotel faces Lake Geneva, minutes from the parks and boutiques of rue du Rhône. | "Facing Lake Geneva and minutes from the parks and boutiques of rue du Rhône" (official, https://www.marriott.com/en-us/hotels/gvalc-hotel-president-wilson-a-luxury-collection-hotel-geneva/overview/) |
+| ✅ | **f-2** The hotel has a prime lakefront location within walking distance of the city center, in a very peaceful area. | "At once at a walking distance to the city center and at the same time on a very peaceful area, Hotel President Wilson, A Luxury Collection Hotel, Geneva, benefits from a prime lakefront location." (official, https://www.marriott.com/en-us/hotels/gvalc-hotel-president-wilson-a-luxury-collection-hotel-geneva/overview/) |
+| ✅ | **f-3** The hotel is close to international organizations including the UN, as well as diplomatic missions and consulates. | "Conveniently located close to the most recognized Swiss factories, international organizations including the UN, OMS, OMC, OMPI, diplomatic missions and consulates" (official, https://www.marriott.com/en-us/hotels/gvalc-hotel-president-wilson-a-luxury-collection-hotel-geneva/overview/) |
+| ✅ | **f-4** The hotel was designed by architect and hotelier Marcel Jacquignon and first opened in 1962. | "Designed by architect and hotelier Marcel Jacquignon, Hotel President opened its doors for the first time on May 18, 1962." (official, https://www.marriott.com/en-us/hotels/gvalc-hotel-president-wilson-a-luxury-collection-hotel-geneva/overview/) |
+| ✅ | **f-5** It reopened in 1996 as Hotel President Wilson, named in honor of Woodrow Wilson, the 28th President of the United States. | "The hotel reopened in 1996 as the new Hotel President Wilson, in honor of the 28th President of the United States of America, Woodrow Wilson" (official, https://www.marriott.com/en-us/hotels/gvalc-hotel-president-wilson-a-luxury-collection-hotel-geneva/overview/) |
+| ✅ | **f-6** Public areas are characterized by three themes conceived by South Korean artist Jae-Hyo Lee: water, surrounding landscape and light. | "renovation process covering public areas and characterized by three main themes conceptualized by South-Korean artist Jae-Hyo Lee: water, surrounding landscape and light." (official, https://www.marriott.com/en-us/hotels/gvalc-hotel-president-wilson-a-luxury-collection-hotel-geneva/overview/) |
+| ✅ | **f-7** Bathrooms are marble, with Byredo bath amenities. | "marble bathrooms feature ByRedo bath amenities" (official, https://www.marriott.com/en-us/hotels/gvalc-hotel-president-wilson-a-luxury-collection-hotel-geneva/rooms/) |
+| ✅ | **f-8** Rooms have twice-daily housekeeping. | "our twice-daily housekeeping service ensures guests are always in impeccably tidy surroundings" (official, https://www.marriott.com/en-us/hotels/gvalc-hotel-president-wilson-a-luxury-collection-hotel-geneva/rooms/) |
+| ✅ | **f-9** Spa body treatments include scrubs, massages, foot reflexology, lymphatic drainage and a hammam ritual. | "The spa offers a wide range of body treatments including scrubs, massages, foot reflexology, lymphatic drainage and hammam ritual." (official, https://www.marriott.com/en-us/hotels/gvalc-hotel-president-wilson-a-luxury-collection-hotel-geneva/experiences/) |
+| ✅ | **f-10** A Tom Ford beauty boutique is located at the hotel. | "Tom Ford beauty welcomes you every day in its Geneva boutique, located at Hotel President Wilson." (official, https://www.marriott.com/en-us/hotels/gvalc-hotel-president-wilson-a-luxury-collection-hotel-geneva/experiences/) |
+| ✅ | **f-11** Bayview offers a seasonal menu of locally sourced products with views of Lake Geneva and the Alps. | "The Chef presents a seasonal menu crafted from locally sourced products, offering an authentic gastronomic experience paired with stunning views of Lake Geneva and the Alps." (official, https://www.marriott.com/en-us/hotels/gvalc-hotel-president-wilson-a-luxury-collection-hotel-geneva/dining/) |
+| ✅ | **f-12** Arabesque serves traditional Lebanese cuisine in an oriental setting. | "The famous Lebanese Arabesque restaurant invites you for a culinary journey in an oriental setting. The cuisine is firstly authentic and pure, carried out the traditional flavors from Lebanon." (official, https://www.marriott.com/en-us/hotels/gvalc-hotel-president-wilson-a-luxury-collection-hotel-geneva/dining/) |
+| ✅ | **h-1** The hotel has the first spa in Switzerland to feature La Mer skincare products and Signature treatments. | "The Hotel President Wilson boasts the first Spa in Switzerland to feature the prestigious and sought-after La Mer skincare products and Signature treatments." (official, https://www.marriott.com/en-us/hotels/gvalc-hotel-president-wilson-a-luxury-collection-hotel-geneva/overview/) |
+| ✅ | **h-2** The Royal Penthouse Floor stretches across the entire 8th floor. | "Succumb to the ultimate luxury of our Royal Penthouse Floor, stretching on the entire 8th floor, namely 1,680 sqm." (official, https://www.marriott.com/en-us/hotels/gvalc-hotel-president-wilson-a-luxury-collection-hotel-geneva/rooms/) |
+| ✅ | **h-3** The heated outdoor pool is on the first-floor terrace and overlooks Lake Geneva, the Alps and the Mont Blanc range. | "Enjoy a leisurely swim or simply relax on a deck chair at the hotel’s heated outdoor swimming pool. Located on the first-floor terrace, our soothing swimming pool overlooks Lake Geneva and the panoramic Alps and Mont Blanc range" (official, https://www.marriott.com/en-us/hotels/gvalc-hotel-president-wilson-a-luxury-collection-hotel-geneva/experiences/) |
+| ✅ | **h-4** A private Spa Suite with steam room, sauna and relaxing area is available exclusively with spa packages. | "Enjoy the ultimate privilege of our Spa Suite including, steam room, sauna and relaxing area, available exclusively with our Spa packages." (official, https://www.marriott.com/en-us/hotels/gvalc-hotel-president-wilson-a-luxury-collection-hotel-geneva/experiences/) |
+| ✅ | **h-5** Suites have floor-to-ceiling windows with views of the lake, pool and city. | "Luxury suites in Geneva feature floor-to-ceiling windows with views of the lake, pool, and city." (official, https://www.marriott.com/en-us/hotels/gvalc-hotel-president-wilson-a-luxury-collection-hotel-geneva/rooms/) |
+| ✅ | **c-1** The swimming pool is open during summertime, not year-round. | "The swimming pool is only open during summertime from May to September." (official, https://www.marriott.com/en-us/hotels/gvalc-hotel-president-wilson-a-luxury-collection-hotel-geneva/experiences/) |
+| ➖ | **c-2** WhataHotel notes ultra-luxury pricing that reflects the premium Geneva location. | WhataHotel's own offer or statement |
+| ➖ | **c-3** WhataHotel notes the formal atmosphere may not suit all travelers. | WhataHotel's own offer or statement |

@@ -1,0 +1,422 @@
+{
+  "hotel_slug": "azur-lodge",
+  "hotel_name": "Azur Lodge",
+  "checked_at": "2026-10-20T01:59:41.318Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 0,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://azur.co.nz/",
+      "tier": "official",
+      "chars": 1378
+    },
+    {
+      "id": "d2",
+      "url": "https://azur.co.nz/activities/",
+      "tier": "official",
+      "chars": 7928
+    },
+    {
+      "id": "d3",
+      "url": "https://azur.co.nz/location/",
+      "tier": "official",
+      "chars": 2202
+    },
+    {
+      "id": "d4",
+      "url": "https://azur.co.nz/villas/",
+      "tier": "official",
+      "chars": 7574
+    },
+    {
+      "id": "d5",
+      "url": "https://www.cntraveler.com/hotels/new-zealand/wakatipu/azur",
+      "tier": "editorial",
+      "chars": 4088
+    },
+    {
+      "id": "d6",
+      "url": "https://azur.co.nz/health-safety/",
+      "tier": "official",
+      "chars": 1763
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The lodge sits on a hilltop with panoramic views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Perched on a serene hilltop with panoramic views of New Zealand’s most breathtaking landscapes",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://azur.co.nz/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The lodge and its villas sit on a steep hillside 3km west of Queenstown, with uninterrupted views of Lake Wakatipu and the Remarkables mountain range.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Commanding uninterrupted views of this ancient lake and the daunting, snow-swept Remarkables mountain range, the lodge and its 9 villas sit on steep hillside 3kms west of",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-zealand/wakatipu/azur",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Lake Wakatipu",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-zealand/wakatipu/azur",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Downtown Queenstown is five minutes away.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "just five minutes away, the vibrant energy of downtown Queenstown",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://azur.co.nz/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Each villa is an identical one-bedroom villa of 79 square metres of open-plan living, with a lounge, dining area and private sun deck.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Each identical luxury one-bedroom villa is 79sqm of open plan living in the midst of the New Zealand natural environment. Incorporating a lounge, dining area, a private sun deck",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://azur.co.nz/villas/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The villas are stand-alone, built of stone and silver beechwood.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Each of the airy, stand-alone, stone and silver beechwood villas is an oasis of luxurious privacy",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-zealand/wakatipu/azur",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Each villa has individual climate control, including a gas fireplace and under-floor heating.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Individual climate control, including gas fireplace and under-floor heating",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://azur.co.nz/villas/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "In-villa massage and mini spa treatments are offered on request.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "At Azur we can offer in-villa massage and mini spa treatments upon request.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://azur.co.nz/activities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Each villa has a yoga mat, and a private yoga teacher can be arranged on prior request.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Each villa has a yoga mat supplied for you to practice on your own, or alternatively we can recommend local classes or upon prior request arrange for a private teacher to come to you.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://azur.co.nz/activities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "In-villa dining options are available, and gourmet canapes are served in the lodge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "In-villa dining options",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://azur.co.nz/villas/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "gourmet canapés in the snug comfort of the lodge",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-zealand/wakatipu/azur",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Azur is close to the Coronet Peak and Remarkables ski fields, the Shotover River, Glenorchy, Arrowtown and the winery areas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Azur is in close proximity to Queenstown downtown, Coronet Peak & Remarkables ski fields, Shotover River, Glenorchy, Arrowtown and the winery areas.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://azur.co.nz/location/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The whole property, villas and main lodge, can be booked for exclusive use.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Azur offers an exclusive, boutique experience with nine luxurious villas and a main lodge, perfect for families, friends, or colleagues seeking privacy and comfort.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://azur.co.nz/villas/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Nightly turndown service is provided.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Nightly turndown service",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://azur.co.nz/villas/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The bathtub in each villa is set into a bay window with unobstructed views, giving a feeling of being outdoors.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Soak up the spectacular unobstructed views from the bathtub, which has been set into a bay window to give you a feeling of being outdoors.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://azur.co.nz/villas/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Uninterrupted views of Lake Wakatipu and the Remarkables mountain range from a steep hillside just west of Queenstown.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Commanding uninterrupted views of this ancient lake and the daunting, snow-swept Remarkables mountain range, the lodge and its 9 villas sit on steep hillside 3kms west of",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-zealand/wakatipu/azur",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Lake Wakatipu",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-zealand/wakatipu/azur",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Stand-alone villas built of stone and silver beechwood, each with a private sun deck.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Each of the airy, stand-alone, stone and silver beechwood villas is an oasis of luxurious privacy",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-zealand/wakatipu/azur",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "a private sun deck",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://azur.co.nz/villas/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Guests can stargaze from their private deck.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "simply relax on your private deck and stare into the glittering skies",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://azur.co.nz/activities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Children under 13 are not permitted at Azur Lodge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Children under 13 years old are not permitted at Azur Lodge.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://azur.co.nz/villas/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "There is a two-night minimum stay.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Two night minimum",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://azur.co.nz/villas/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "There is no gym on site; guests get complimentary access to a local Queenstown gym instead.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Although we do not have a gym on-site all guests receive complimentary access to our local Queenstown Gym.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://azur.co.nz/activities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

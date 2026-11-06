@@ -1,0 +1,323 @@
+{
+  "hotel_slug": "the-westin-philadelphia",
+  "hotel_name": "The Westin Philadelphia",
+  "checked_at": "2026-11-05T10:09:48.614Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 15,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 16
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/phlwi-the-westin-philadelphia/overview/",
+      "tier": "official",
+      "chars": 11269
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/phlwi-the-westin-philadelphia/rooms/",
+      "tier": "official",
+      "chars": 3613
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/phlwi-the-westin-philadelphia/dining/",
+      "tier": "official",
+      "chars": 5322
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/phlwi-the-westin-philadelphia/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "chars": 284
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is at 99 South 17th Street at Liberty Place.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "99 South 17th Street at Liberty Place, Philadelphia, Pennsylvania, USA, 19103",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phlwi-the-westin-philadelphia/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Independence Hall is 1.3 miles away.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "1.3 miles from historic Independence Hall",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phlwi-the-westin-philadelphia/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Lea Restaurant & Bar uses regionally sourced ingredients, with seasonal menus and cocktails influenced by the city's history.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Our Downtown Philadelphia restaurant features regionally sourced ingredients and seasonal menu options paired with custom-created cocktails that are influenced by the history and legacy of this great city.",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phlwi-the-westin-philadelphia/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Room service is available 24 hours a day.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Dine in Comfort with 24-hour room service available daily.",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phlwi-the-westin-philadelphia/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The hotel has a WestinWORKOUT Fitness Studio.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "WestinWORKOUT® Fitness Studio",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phlwi-the-westin-philadelphia/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "All rooms and suites have thick terry robes and complimentary bath products.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "All rooms and suites at our hotel feature thick terry robes and complimentary bath products",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phlwi-the-westin-philadelphia/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Rooms have the Westin Heavenly Bed.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "enjoy a restful night's sleep on the plush Heavenly Bed",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phlwi-the-westin-philadelphia/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Rooms have smart TVs with premium cable channels.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Smart TVs with premium cable channels help you feel at home",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phlwi-the-westin-philadelphia/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The hotel is certified under the Green Key Eco-Rating Program.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Green Key Eco-Rating Program Certified",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phlwi-the-westin-philadelphia/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel is located between City Hall and Rittenhouse Square.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Perfectly located between City Hall and Rittenhouse Square",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phlwi-the-westin-philadelphia/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Bathrooms have marble detailing.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The marble detailing in our bathrooms adds a touch of sophistication",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phlwi-the-westin-philadelphia/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Suites have extended living areas suited to family stays.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Suites with extended living areas make our hotel perfect for your family stay in Philadelphia",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phlwi-the-westin-philadelphia/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Franklin Institute and the Pennsylvania Convention Center are a 10-minute walk away.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "10 minutes walk away from the Franklin Institute & Pennsylvania Convention Center",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phlwi-the-westin-philadelphia/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Every room at the hotel welcomes pets.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "every room at our hotel welcomes pets too",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phlwi-the-westin-philadelphia/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "This is a downtown city hotel; Independence Hall is 1.3 miles away rather than next door.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "one of the premier hotels in downtown Philadelphia",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phlwi-the-westin-philadelphia/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "1.3 miles from historic Independence Hall",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phlwi-the-westin-philadelphia/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes valet parking is required in the busy Center City area.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

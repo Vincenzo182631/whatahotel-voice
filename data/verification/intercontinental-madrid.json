@@ -1,0 +1,429 @@
+{
+  "hotel_slug": "intercontinental-madrid",
+  "hotel_name": "InterContinental Madrid",
+  "checked_at": "2026-10-30T06:36:49.360Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/madrid/mddha/hoteldetail",
+      "tier": "official",
+      "chars": 10043
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/madrid/mddha/hoteldetail/rooms/",
+      "tier": "official",
+      "chars": 6568
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/madrid/mddha/hoteldetail/dining/",
+      "tier": "official",
+      "chars": 5924
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/madrid/mddha/hoteldetail/local-area-guide/",
+      "tier": "official",
+      "chars": 4311
+    },
+    {
+      "id": "d5",
+      "url": "https://www.cntraveler.com/hotels/spain/madrid/intercontinental-madrid",
+      "tier": "editorial",
+      "chars": 5743
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/madrid/mddha/hoteldetail/amenities/",
+      "tier": "official",
+      "chars": 6761
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/madrid/mddha/hoteldetail/directions/",
+      "tier": "official",
+      "chars": 2986
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/madrid/mddha/hoteldetail/",
+      "tier": "official",
+      "chars": 10244
+    },
+    {
+      "id": "d9",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/madrid/mddha/hoteldetail/hotel-reviews/",
+      "tier": "official",
+      "chars": 22684
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel sits on Paseo de la Castellana, within walking distance of museums and high-end shopping in Salamanca.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Smack in the middle of Paseo de la Castellana within walking distance of museums and high-end shopping in Salamanca",
+          "note": "location stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/spain/madrid/intercontinental-madrid",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is close to Salamanca, a luxury shopping district.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "in close proximity to Salamanca, a luxury shopping district with Michelin-starred restaurants.",
+          "note": "close to Salamanca",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/madrid/mddha/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The InterContinental opened in 1953 as Spain's first international luxury hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The InterContinental opened in 1953 as Spain’s first international luxury hotel",
+          "note": "year and status stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/spain/madrid/intercontinental-madrid",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel has hosted celebrities from Ava Gardner and Charlton Heston to visiting heads of state.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "having hosted celebrities from Ava Gardner and Charlton Heston to visiting heads of state with security detail in tow",
+          "note": "guests named",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/spain/madrid/intercontinental-madrid",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The hotel has a marble-lined lobby, where live music plays for diners.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "an exquisite marble-lined lobby",
+          "note": "lobby",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/madrid/mddha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Live music in the marble-lined lobby swoons well-dressed diners",
+          "note": "live music for diners",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/spain/madrid/intercontinental-madrid",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Rooms and suites may include a view of the Castellana.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Classic Rooms may include:\n\n- Castellana View",
+          "note": "rooms may include Castellana View; suites listed similarly",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/madrid/mddha/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Junior Suite may include:\n\n- Castellana View",
+          "note": "suites too",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/madrid/mddha/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Royal Suite has a living room, a private dining room, a kitchenette and a bath designed by Philippe Starck.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Spetacular Royal Suite with Skyline Views",
+          "note": "names the Royal Suite feature",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/madrid/mddha/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "It features a spacious living room, a private dining room, a kitchenette, and a cozy bedroom with a large dressing room and a Philippe Starck-designed luxury bath.",
+          "note": "all elements",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/madrid/mddha/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Club InterContinental gives suite guests an independent reception and a private buffet breakfast.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The InterContinental Club has been designed to provide all suite guests with exquisite, private treatment.",
+          "note": "for suite guests",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/madrid/mddha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "such as an independent reception, private buffet breakfast and much more.",
+          "note": "reception and breakfast",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/madrid/mddha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The 24/7 Fitness Studio has Technogym equipment, with Pilates and yoga classes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Transform your fitness routine with our 24/7 Fitness Studio, featuring premium Technogym equipment. Personalize your workouts with tailored sessions or invigorating Pilates and yoga classes.",
+          "note": "all elements",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/madrid/mddha/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Treatments include massages and facials, and there is a Swedish sauna.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "indulge in bespoke treatments, including relaxing massages, revitalizing facials, and our authentic Swedish sauna.",
+          "note": "all elements",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/madrid/mddha/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "At El Jardin restaurant, Chef Miguel de la Fuente cooks traditional Spanish cuisine with international influences.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "At El Jardin restaurant, our Chef Miguel de la Fuente designs delicious recipes of traditional Spanish cuisine with international influences.",
+          "note": "all elements",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/madrid/mddha/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The Sunday Brunch has live music and a pastry master class for kids.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Experience live music and a pastry master class for kids, ensuring a remarkable dining experience for everyone.",
+          "note": "in the Sunday Brunch section",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/madrid/mddha/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The InterContinental opened in 1953 as Spain's first international luxury hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The InterContinental opened in 1953 as Spain’s first international luxury hotel",
+          "note": "year and status stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/spain/madrid/intercontinental-madrid",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Ava Suite is a tribute to Ava Gardner, with a terrace overlooking Paseo de la Castellana.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Experience the luxurious Signature Suite, a tribute to Ava Gardner, with 97 m² and a 20 m² terrace overlooking Paseo de la Castellana.",
+          "note": "in the Ava Suite section",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/madrid/mddha/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Royal Suite has a terrace with views of the Madrid skyline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The 220m² terrace offers breathtaking views of the Madrid skyline.",
+          "note": "in the Royal Suite section",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/madrid/mddha/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The second-floor Club InterContinental lounge overlooks the sidewalks below, with complimentary meals and evening drinks.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "the second-floor Club InterContinental lounge where complimentary meals and evening drinks flow freely overlooking the bustling sidewalks below",
+          "note": "all elements",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/spain/madrid/intercontinental-madrid",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The lounge of the El Jardin terrace is a place to unwind with a glass of wine and tapas in a tropical garden.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "An extension of Bar 49, the lounge area of El Jardin Terrace is a place to relax and unwind with a glass of wine amongst a selection of tapas in our tropical garden.",
+          "note": "all elements",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/madrid/mddha/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel does not have a pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "No, InterContinental Madrid does not have a pool.",
+          "note": "FAQ",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/madrid/mddha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes the location is in the business district, not the historic center.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

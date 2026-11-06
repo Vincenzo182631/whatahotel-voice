@@ -1,0 +1,337 @@
+{
+  "hotel_slug": "grand-hotel-savoia",
+  "hotel_name": "Grand Hotel Savoia",
+  "checked_at": "2026-10-17T14:00:10.636Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 15,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 17
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.grandhotelsavoiacortina.it/en/",
+      "tier": "official",
+      "chars": 5040
+    },
+    {
+      "id": "d2",
+      "url": "https://www.grandhotelsavoiacortina.it/it/",
+      "tier": "official",
+      "chars": 4970
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "For over a century the hotel has had a ringside seat in Cortina d'Ampezzo, gateway to the Dolomites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "For over a century, Grand Hotel Savoia has enjoyed a ringside seat, offering the inside track to one of Italy’s most beautiful mountain destinations.",
+          "note": "century-long ringside seat",
+          "confirmed": true,
+          "url": "https://www.grandhotelsavoiacortina.it/en/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "GATEWAY TO THE DOLOMITES",
+          "note": "gateway to the Dolomites heading for the Cortina section",
+          "confirmed": true,
+          "url": "https://www.grandhotelsavoiacortina.it/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is in the heart of Cortina.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Nel cuore di Cortina",
+          "note": "in the heart of Cortina",
+          "confirmed": true,
+          "url": "https://www.grandhotelsavoiacortina.it/it/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel is part of Radisson Collection.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Grand Hotel Savoia Cortina d'Ampezzo, A Radisson Collection Hotel",
+          "note": "Radisson Collection",
+          "confirmed": true,
+          "url": "https://www.grandhotelsavoiacortina.it/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The refurbished rooms and suites are designed with a sense of contemporary luxury.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "refurbished rooms and suites are designed with a clear sense of contemporary luxury",
+          "note": "refurbished, contemporary luxury",
+          "confirmed": true,
+          "url": "https://www.grandhotelsavoiacortina.it/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Guests can enjoy views from every room and from the terraces.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Goditi la vista mozzafiato offerta da ogni camera e dalle terrazze.",
+          "note": "views from every room and the terraces",
+          "confirmed": true,
+          "url": "https://www.grandhotelsavoiacortina.it/it/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The rooms have hi-tech facilities to keep guests connected.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Hi-tech facilities will keep you connected",
+          "note": "hi-tech facilities in rooms section",
+          "confirmed": true,
+          "url": "https://www.grandhotelsavoiacortina.it/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The hotel has rooms for family breaks, romantic getaways and outdoor adventures.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "We have a variety of rooms for all occasions – from family breaks to romantic getaways and outdoor adventures.",
+          "note": "all three occasions",
+          "confirmed": true,
+          "url": "https://www.grandhotelsavoiacortina.it/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Savoia SPA uses Comfort Zone products.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Savoia SPA has chosen Comfort Zone products",
+          "note": "Comfort Zone",
+          "confirmed": true,
+          "url": "https://www.grandhotelsavoiacortina.it/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The hotel's restaurant is the Savoy restaurant.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "the refined cuisine offered by the Savoy restaurant",
+          "note": "Savoy restaurant",
+          "confirmed": true,
+          "url": "https://www.grandhotelsavoiacortina.it/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Rooms are inspired by the traditional mountain chalet, snug and wood-lined.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Rooms are inspired by the traditional mountain chalet – snug and wood-lined",
+          "note": "chalet, snug, wood-lined",
+          "confirmed": true,
+          "url": "https://www.grandhotelsavoiacortina.it/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Grand Hotel Savoia dates back to the early 20th century.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Grand Hotel Savoia may date back to the early 20th century",
+          "note": "early 20th century",
+          "confirmed": true,
+          "url": "https://www.grandhotelsavoiacortina.it/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Savoia SPA offers treatments based on the use of water, steam and heat.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "treatments based on the skilful use of water, steam and heat",
+          "note": "water, steam, heat",
+          "confirmed": true,
+          "url": "https://www.grandhotelsavoiacortina.it/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The 1224 Terrazza is an open-air lounge with views of Cortina and the Ampezzo Valley.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The 1224 Terrazza is the exclusive open-air lounge where you can regenerate after a day on the slopes, enjoying the breathtaking view of Cortina and the Ampezzo Valley",
+          "note": "open-air lounge with views",
+          "confirmed": true,
+          "url": "https://www.grandhotelsavoiacortina.it/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Rooms combine parquet flooring with luxurious fabrics and fittings, with views over the town and mountainscape.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "the warm elegance of parquet flooring is combined with luxurious fabrics and fittings, mixed with individual details and views out over the town and mountainscape",
+          "note": "parquet, fabrics, views",
+          "confirmed": true,
+          "url": "https://www.grandhotelsavoiacortina.it/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "What there is to do outdoors depends on the season: skiing and winter sports in the cold season, and long walks, trekking and mountain biking in summer.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "In the cold season, a pure white blanket of snow makes Cortina perfect for skiing and winter sports",
+          "note": "winter activities",
+          "confirmed": true,
+          "url": "https://www.grandhotelsavoiacortina.it/en/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "divenendo la destinazione ideale per lunghe passeggiate a piedi, per gli amanti del trekking, o in bici per gli appassionati di mountain bike",
+          "note": "summer walks, trekking, mountain biking",
+          "confirmed": true,
+          "url": "https://www.grandhotelsavoiacortina.it/it/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Durante l’estate la Natura trionfa",
+          "note": "summer context",
+          "confirmed": true,
+          "url": "https://www.grandhotelsavoiacortina.it/it/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes premium pricing that reflects the exclusive Cortina location.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the traditional decor may feel formal for some guests.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

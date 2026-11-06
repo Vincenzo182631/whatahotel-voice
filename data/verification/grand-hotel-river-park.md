@@ -1,0 +1,39 @@
+# Verification checklist: Grand Hotel River Park
+
+Checked 2026-10-24 against the hotel's own pages and Condé Nast Traveler. Result: **can be marked verified** (profile set to verified).
+
+Supported 19 · contradicted 0 · unverified 0 · WhataHotel's own statements 1 · total 20
+
+## Pages checked
+
+- official: https://www.marriott.com/en-us/hotels/btslc-grand-hotel-river-park-a-luxury-collection-hotel-bratislava/overview/
+- official: https://www.marriott.com/en-us/hotels/btslc-grand-hotel-river-park-a-luxury-collection-hotel-bratislava/rooms/
+- official: https://www.marriott.com/en-us/hotels/btslc-grand-hotel-river-park-a-luxury-collection-hotel-bratislava/rooms/suites/
+- official: https://www.marriott.com/en-us/hotels/btslc-grand-hotel-river-park-a-luxury-collection-hotel-bratislava/dining/
+- official: https://www.marriott.com/en-us/hotels/btslc-grand-hotel-river-park-a-luxury-collection-hotel-bratislava/experiences/
+- editorial: https://www.cntraveler.com/hotels/slovakia/bratislava/kempinski-hotel-river-park
+
+## Claims
+
+| | Claim | Evidence |
+|---|---|---|
+| ✅ | **f-1** The hotel sits on the Danube river promenade, a 15-minute walk from the historic Old Town. | "Positioned on the vibrant Danube river promenade, a scenic 15-minute walk from the historic Old Town" (official, https://www.marriott.com/en-us/hotels/btslc-grand-hotel-river-park-a-luxury-collection-hotel-bratislava/overview/) |
+| ✅ | **f-2** The riverside promenade gives a direct pedestrian connection to the historic city center and suits a morning jog, a sunset stroll or a bike ride. | "The scenic promenade is perfect for a morning jog, a leisurely sunset stroll, or a bike ride, offering refreshing views and a direct pedestrian connection to the historical city center." (official, https://www.marriott.com/en-us/hotels/btslc-grand-hotel-river-park-a-luxury-collection-hotel-bratislava/experiences/) |
+| ✅ | **f-3** ZION SPA Luxury, on the 11th floor, has panoramic Danube views, bespoke treatments, a pool, hot tubs, saunas and a steam room. | "ZION SPA Luxury, located on the 11th floor, offers panoramic Danube views, bespoke treatments, a pool, hot tubs, saunas, a steam room, and signature wellness rituals." (official, https://www.marriott.com/en-us/hotels/btslc-grand-hotel-river-park-a-luxury-collection-hotel-bratislava/overview/) |
+| ✅ | **f-4** The indoor pool on the 11th floor has hydro massage, bubble loungers and a jacuzzi with panoramic views. | "The indoor swimming pool has hydro massage and bubble loungers and a jacuzzi with panoramic views of the surrounding area from the 11th floor perch." (official, https://www.marriott.com/en-us/hotels/btslc-grand-hotel-river-park-a-luxury-collection-hotel-bratislava/overview/) |
+| ✅ | **f-5** Rooms start at 35 square meters and include high-speed wireless internet, a mini-bar and individually controlled air conditioning. | "Spanning 35 square meters or more, each spacious room features wireless high-speed internet, a mini-bar, and individually controlled air conditioning." (official, https://www.marriott.com/en-us/hotels/btslc-grand-hotel-river-park-a-luxury-collection-hotel-bratislava/rooms/) |
+| ✅ | **f-6** Suites have marble bathrooms with rainfall showers and bathtubs. | "Our luxury suites in Slovakia feature marble bathrooms with rainfall showers and bathtubs." (official, https://www.marriott.com/en-us/hotels/btslc-grand-hotel-river-park-a-luxury-collection-hotel-bratislava/rooms/) |
+| ✅ | **f-7** The Grand Living Room on the 9th floor is a lounge for relaxing or working. | "Experience the exclusive Grand Living Room on the 9th floor, offering a sophisticated space to relax or work in comfort." (official, https://www.marriott.com/en-us/hotels/btslc-grand-hotel-river-park-a-luxury-collection-hotel-bratislava/overview/) |
+| ✅ | **f-8** Connecting rooms and suites are available for families. | "Ideal for families, featuring connecting rooms and suites for ultimate comfort." (official, https://www.marriott.com/en-us/hotels/btslc-grand-hotel-river-park-a-luxury-collection-hotel-bratislava/rooms/) |
+| ✅ | **f-9** The top-floor gym has Danube views. | "Our top-floor hotel gym offers Danube views and state-of-the-art equipment." (official, https://www.marriott.com/en-us/hotels/btslc-grand-hotel-river-park-a-luxury-collection-hotel-bratislava/overview/) |
+| ✅ | **f-10** Both restaurants have outdoor terraces overlooking the Danube. | "Both of our beautiful restaurants in Bratislava have relaxed outdoor terraces with stunning views over the famous Danube River." (official, https://www.marriott.com/en-us/hotels/btslc-grand-hotel-river-park-a-luxury-collection-hotel-bratislava/dining/) |
+| ✅ | **f-11** The hotel was formerly the Kempinski River Park before joining the Luxury Collection in 2015. | "This was formerly the Kempinski River Park before joining Starwood's Luxury Collection in 2015." (editorial, https://www.cntraveler.com/hotels/slovakia/bratislava/kempinski-hotel-river-park) |
+| ✅ | **f-12** The concierge can arrange a private speedboat tour on the Danube. | "Let our Concierge arrange a private speedboat tour for you." (official, https://www.marriott.com/en-us/hotels/btslc-grand-hotel-river-park-a-luxury-collection-hotel-bratislava/experiences/) |
+| ✅ | **h-1** The Presidential Suite has handwoven Persian carpets and a bathroom with 24-karat gold tiles, onyx and black marble. | "Handwoven Persian carpets grace the floors, while the opulent bathroom boasts 24-karat gold tiles, onyx, and sleek black marble." (official, https://www.marriott.com/en-us/hotels/btslc-grand-hotel-river-park-a-luxury-collection-hotel-bratislava/rooms/suites/) |
+| ✅ | **h-2** Guests can arrive by the hotel's private rooftop heliport or private river pier. | "For an extraordinary arrival, utilize private rooftop heliport or private river pier." (official, https://www.marriott.com/en-us/hotels/btslc-grand-hotel-river-park-a-luxury-collection-hotel-bratislava/overview/) |
+| ✅ | **h-3** Every suite, from the Junior Suite to the Presidential Suite, has Danube views and access to ZION Spa Luxury. | "From the intimate Junior Suite to the grand Presidential Suite, each offers elegant design, stunning Danube views, and exclusive access to Zion Spa Luxury." (official, https://www.marriott.com/en-us/hotels/btslc-grand-hotel-river-park-a-luxury-collection-hotel-bratislava/rooms/) |
+| ✅ | **h-4** The Presidential Suite has a 75-square-meter terrace with views of Bratislava and the Danube. | "The Presidential Suite features a stunning 75 sq m terrace offering a unique view of Bratislava, the Danube River, and the picturesque surroundings of the hotel." (official, https://www.marriott.com/en-us/hotels/btslc-grand-hotel-river-park-a-luxury-collection-hotel-bratislava/rooms/suites/) |
+| ✅ | **h-5** The glass wine cellar at the Lobby Lounge holds more than 300 Slovak and international wines and is the biggest hotel wine cellar in Slovakia. | "Impressive glass wine cellar at Lobby Lounge offers more than 300 fine Slovak and international wines and is the biggest hotel wine cellar in Slovakia." (official, https://www.marriott.com/en-us/hotels/btslc-grand-hotel-river-park-a-luxury-collection-hotel-bratislava/dining/) |
+| ✅ | **c-1** Reaching the historic Old Town means a 15-minute walk along the Danube river promenade. | "Positioned on the vibrant Danube river promenade, a scenic 15-minute walk from the historic Old Town" (official, https://www.marriott.com/en-us/hotels/btslc-grand-hotel-river-park-a-luxury-collection-hotel-bratislava/overview/) |
+| ✅ | **c-2** The spa area is available at an extra charge. | "Spa area available at extra charge" (official, https://www.marriott.com/en-us/hotels/btslc-grand-hotel-river-park-a-luxury-collection-hotel-bratislava/overview/) |
+| ➖ | **c-3** WhataHotel notes the urban setting may lack a tranquil atmosphere. | WhataHotel's own offer or statement |

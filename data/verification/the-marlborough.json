@@ -1,0 +1,382 @@
+{
+  "hotel_slug": "the-marlborough",
+  "hotel_name": "The Marlborough",
+  "checked_at": "2026-10-20T01:59:58.663Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.themarlborough.co.nz/",
+      "tier": "official",
+      "chars": 3107
+    },
+    {
+      "id": "d2",
+      "url": "https://www.themarlborough.co.nz/activities/",
+      "tier": "official",
+      "chars": 2389
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The Marlborough is a small luxury hotel in the midst of a working vineyard.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "our small luxury hotel in the midst of a working vineyard",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.themarlborough.co.nz/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The estate covers 16 acres of lush gardens and a working vineyard.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Situated on 16 acres of lush gardens and a working vineyard",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.themarlborough.co.nz/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel is at 776 Rapaura Road.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located at 776 Rapaura Road",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.themarlborough.co.nz/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The estate is 10 minutes from Blenheim airport and 15 minutes from the town of Blenheim.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "a mere 10 minutes from Blenheim airport and 15 minutes from the town of Blenheim",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.themarlborough.co.nz/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The convent building was relocated to its present site in Rapaura, Marlborough.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Discover the captivating story of the Convent's relocation to its present location in Rapaura, Marlborough",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.themarlborough.co.nz/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Harvest, the onsite restaurant, celebrates seasonal produce from the region and beyond and cooks with a Mibrasa charcoal oven.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Savour the finest dining experience at Harvest, our onsite restaurant.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.themarlborough.co.nz/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "celebrates seasonal gourmet produce from the region and beyond, complemented by unique flavors from our Mibrasa charcoal oven",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.themarlborough.co.nz/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "A one-acre organic vegetable garden feeds directly into Harvest restaurant.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our 1 acre of organic vegetables feeds directly into our Harvest Restaurant.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.themarlborough.co.nz/activities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The gardens are a sanctuary for abundant birdlife.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "This secluded oasis provides a sanctuary for the abundant birdlife.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.themarlborough.co.nz/activities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The hotel can arrange private or group wine tours by vehicle, or cycling wine tours.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Enjoy a tour of your favourites or let us assist you with either a Private, Group tour by vehicle or a Cycling tour.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.themarlborough.co.nz/activities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Marlborough is at the top of New Zealand's South Island.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Marlborough is at the top of New Zealand's South Island",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.themarlborough.co.nz/activities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The estate has easy access to State Highway 1 and State Highway 6, connecting to Christchurch and Nelson.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "we provide easy access to State Highway 1 and State Highway 6, connecting you to Christchurch and Nelson.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.themarlborough.co.nz/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel is a Victorian convent originally built in 1901 for the Sisters of Mercy and carefully preserved.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Originally built in 1901 for the Sisters of Mercy, our historic Victorian Convent has been carefully preserved to retain its timeless elegance.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.themarlborough.co.nz/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The gardens have over 400 different native and exotic trees and shrubs that run down to a spring-fed creek flowing through the estate.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "gardens have over 400 different native and exotic trees and shrubs that meander down to a spring fed creek that flows through the estate.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.themarlborough.co.nz/activities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Each room has a spacious ensuite and balcony access with garden and vineyard views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "each offering a private haven with spacious ensuite and balcony access, allowing you to bask in the stunning garden and vineyard views",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.themarlborough.co.nz/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The estate's own vineyards grow Merlot, Malbec, Riesling and Sauvignon Blanc, served at Harvest restaurant and in the guest rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The estates working vineyards provide us with the Merlot, Malbec, Riesling & of course the world renown Sauvignon Blanc which can be found at Harvest restaurant or in our hotel rooms.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.themarlborough.co.nz/activities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "A garden and vineyard walking tour with the hotel's gardener runs at 9am each morning, with private tours on request at additional cost.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "WITH   OUR GARDENER",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.themarlborough.co.nz/activities/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "9am each morning or Private Tour on request at additional cost",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.themarlborough.co.nz/activities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel is out in the vineyards, 15 minutes from the town of Blenheim.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our boutique hotel in the heart of Marlborough vineyards",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.themarlborough.co.nz/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "15 minutes from the town of Blenheim",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.themarlborough.co.nz/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes the remote location requires advance planning for activities.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "Regional activities are done self-drive, guided private or with a group, organised by the hotel with partners.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Self drive, guided private or with a group let us organise the best options with one of our excellent partners.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.themarlborough.co.nz/activities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

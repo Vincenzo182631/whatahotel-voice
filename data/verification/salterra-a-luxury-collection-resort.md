@@ -1,0 +1,39 @@
+# Verification checklist: Salterra, a Luxury Collection Resort
+
+Checked 2026-10-24 against the hotel's own pages and Condé Nast Traveler. Result: **can be marked verified** (profile set to verified).
+
+Supported 18 · contradicted 0 · unverified 0 · WhataHotel's own statements 1 · total 19
+
+## Pages checked
+
+- official: https://www.marriott.com/en-us/hotels/xsclc-salterra-a-luxury-collection-resort-and-spa-south-caicos/overview/
+- official: https://www.marriott.com/en-us/hotels/xsclc-salterra-a-luxury-collection-resort-and-spa-south-caicos/rooms/
+- official: https://www.marriott.com/en-us/hotels/xsclc-salterra-a-luxury-collection-resort-and-spa-south-caicos/dining/
+- official: https://www.marriott.com/en-us/hotels/xsclc-salterra-a-luxury-collection-resort-and-spa-south-caicos/spa/
+- official: https://www.marriott.com/en-us/hotels/xsclc-salterra-a-luxury-collection-resort-and-spa-south-caicos/experiences/
+- editorial: https://www.cntraveler.com/hotels/south-caicos/salterra-a-luxury-collection-resort-and-spa-south-caicos
+- official: https://www.marriott.com/en-us/hotels/xsclc-salterra-a-luxury-collection-resort-and-spa-south-caicos/experiences/holidays/
+
+## Claims
+
+| | Claim | Evidence |
+|---|---|---|
+| ✅ | **f-1** Salterra sits on a nearly private stretch of beach on South Caicos' southern edge. | "Salterra sits on a nearly private stretch of beach on the island’s southern edge" (editorial, https://www.cntraveler.com/hotels/south-caicos/salterra-a-luxury-collection-resort-and-spa-south-caicos) |
+| ✅ | **f-2** Clear turquoise waters meet white sand beaches, rising into jagged bluffs covered in tropical flora and fauna. | "clear, turquoise waters meet white sand beaches, rising into jagged bluffs covered in unique tropical flora and fauna" (official, https://www.marriott.com/en-us/hotels/xsclc-salterra-a-luxury-collection-resort-and-spa-south-caicos/overview/) |
+| ✅ | **f-3** All rooms offer generous balconies and ocean-facing views. | "All rooms offer generous balconies and ocean-facing views" (official, https://www.marriott.com/en-us/hotels/xsclc-salterra-a-luxury-collection-resort-and-spa-south-caicos/rooms/) |
+| ✅ | **f-4** Ground-floor guestrooms feature private lanais that open directly to the beach landscape. | "ground-floor guestrooms feature private lanais that open directly to the beach landscape" (official, https://www.marriott.com/en-us/hotels/xsclc-salterra-a-luxury-collection-resort-and-spa-south-caicos/rooms/) |
+| ✅ | **f-5** The resort's colour palette is pulled from a drone photo of the salt flats at sunset. | "the colour palette is pulled directly from a drone photo of the salt flats at sunset" (editorial, https://www.cntraveler.com/hotels/south-caicos/salterra-a-luxury-collection-resort-and-spa-south-caicos) |
+| ✅ | **f-6** The low-slung lobby chairs are reminiscent of ancient Taino ceremonial chairs. | "the low-slung chairs in the lobby are reminiscent of ancient Taino ceremonial chairs" (editorial, https://www.cntraveler.com/hotels/south-caicos/salterra-a-luxury-collection-resort-and-spa-south-caicos) |
+| ✅ | **f-7** The Spa at Salterra has an aquathermal circuit featuring a salt sauna and steam room. | "Featuring a salt sauna and steam room, the aquathermal circuit is an immersive, experiential journey within the spa" (official, https://www.marriott.com/en-us/hotels/xsclc-salterra-a-luxury-collection-resort-and-spa-south-caicos/spa/) |
+| ✅ | **f-8** The spa has a dedicated spa pool, a hot tub, private treatment rooms and couples massage pavilions. | "a dedicated spa pool with loungers and umbrellas, a hot tub, a steam room, and a salt sauna, alongside private treatment rooms and couples massage pavilions" (official, https://www.marriott.com/en-us/hotels/xsclc-salterra-a-luxury-collection-resort-and-spa-south-caicos/spa/) |
+| ✅ | **f-9** Brine, the signature fine dining restaurant, serves a five-course tasting menu with curated salt pairings and wines selected by the sommelier. | "At Brine, Salterra’s signature fine dining restaurant, our five-course tasting menu is a journey through the vitality of the island—complete with curated salt pairings and wines selected by our sommelier." (official, https://www.marriott.com/en-us/hotels/xsclc-salterra-a-luxury-collection-resort-and-spa-south-caicos/dining/) |
+| ✅ | **f-10** Adventures by Salterra is the resort's entirely in-house excursions program. | "Through Adventures by Salterra, our entirely in-house excursions...See More program" (official, https://www.marriott.com/en-us/hotels/xsclc-salterra-a-luxury-collection-resort-and-spa-south-caicos/experiences/) |
+| ✅ | **f-11** Guests can snorkel among eagle rays in the Caicos Bank and paddle to uninhabited cays. | "Experience South Caicos snorkeling among eagle rays in the vibrant Caicos Bank, paddle to uninhabited cays" (official, https://www.marriott.com/en-us/hotels/xsclc-salterra-a-luxury-collection-resort-and-spa-south-caicos/experiences/) |
+| ✅ | **f-12** Salterra Kids is a kids club for ages 4 to 12, with activities from hands-on marine conservation to nature-inspired crafts. | "Kids Club for ages 4–12 blends island adventure with purposeful play—from hands‑on marine conservation to nature‑inspired crafts" (official, https://www.marriott.com/en-us/hotels/xsclc-salterra-a-luxury-collection-resort-and-spa-south-caicos/overview/) |
+| ✅ | **h-1** The island's salt-harvesting past is the throughline for everything, from the accent colours in the rooms to the stories told over a five-course dinner. | "The island’s salt-harvesting past is the throughline for everything—from the choice of accent colors in the rooms to the stories you hear over a five-course dinner." (editorial, https://www.cntraveler.com/hotels/south-caicos/salterra-a-luxury-collection-resort-and-spa-south-caicos) |
+| ✅ | **h-2** The Salinas, once the heart of South Caicos' salt industry, attract flamingos, herons and egrets. | "Once the heart of South Caicos’ salt industry, the Salinas now stand as a quiet testament to the island’s past" (official, https://www.marriott.com/en-us/hotels/xsclc-salterra-a-luxury-collection-resort-and-spa-south-caicos/experiences/) |
+| ✅ | **h-3** Guests can join a coral restoration expedition that starts at the School for Field Studies' coral lab. | "guests can join a full coral restoration expedition. Starting at the School for Field Studies’ coral lab" (editorial, https://www.cntraveler.com/hotels/south-caicos/salterra-a-luxury-collection-resort-and-spa-south-caicos) |
+| ✅ | **h-4** The two Penthouse Suites sit atop the resort with panoramic ocean views, three bedrooms, a full kitchen and dedicated butler service. | "our two Penthouse Suites sit atop the resort with panoramic ocean views and 2,800 square feet of elevated living. Featuring three bedrooms, a full kitchen, expansive indoor spaces, and dedicated butler service" (official, https://www.marriott.com/en-us/hotels/xsclc-salterra-a-luxury-collection-resort-and-spa-south-caicos/rooms/) |
+| ✅ | **c-1** Providenciales is a separate island, not accessible to South Caicos by car; guests flying into Providenciales connect via a short scenic flight. | "Guests may also fly into Providenciales (PLS) and connect via a short scenic flight. Please note: Providenciales is a separate island, not accessible to South Caicos by car." (official, https://www.marriott.com/en-us/hotels/xsclc-salterra-a-luxury-collection-resort-and-spa-south-caicos/overview/) |
+| ✅ | **c-2** South Caicos is quiet, without a downtown or a cruise port, and most guests do not come for thriving nightlife or a long list of dining options. | "is quiet, without a downtown or a cruise port" (editorial, https://www.cntraveler.com/hotels/south-caicos/salterra-a-luxury-collection-resort-and-spa-south-caicos) |
+| ➖ | **c-3** WhataHotel notes the remote Caribbean island location. | WhataHotel's own offer or statement |

@@ -1,0 +1,442 @@
+{
+  "hotel_slug": "the-greenwich-hotel",
+  "hotel_name": "The Greenwich Hotel",
+  "checked_at": "2026-10-15T03:03:23.058Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.thegreenwichhotel.com/accommodations/",
+      "tier": "official",
+      "chars": 6433
+    },
+    {
+      "id": "d2",
+      "url": "https://www.thegreenwichhotel.com/pet-friendly-hotel-nyc/",
+      "tier": "official",
+      "chars": 6706
+    },
+    {
+      "id": "d3",
+      "url": "https://www.cntraveler.com/hotels/united-states/new-york/greenwich-hotel",
+      "tier": "editorial",
+      "chars": 12409
+    },
+    {
+      "id": "d4",
+      "url": "https://www.thegreenwichhotel.com/",
+      "tier": "official",
+      "chars": 2111
+    },
+    {
+      "id": "d5",
+      "url": "https://www.thegreenwichhotel.com/ada-statement/",
+      "tier": "official",
+      "chars": 3279
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel opened in Tribeca in April 2008.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Tribeca",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/new-york/greenwich-hotel",
+          "tier": "editorial",
+          "quote_verified": false
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "opened its doors in April 2008",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/new-york/greenwich-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Actor Robert De Niro, who grew up nearby, is one of the owners.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "One of the owners is the actor Robert De Niro, who grew up nearby.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/new-york/greenwich-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Original paintings by Robert De Niro Sr. hang on the hotel's walls.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Original paintings by De Niro’s father, the abstract expressionist Robert De Niro Sr., add colorful drama to the hotel’s walls.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/new-york/greenwich-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The exterior is hand-made Pennsylvanian brick, crowned with cast bronze medallions based on historic New York City manhole cover designs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The exteriors are done in hand-made Pennsylvanian brick, garnished with custom cast bronze medallions—based on historic New York City manhole cover designs—atop the building’s crown.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/new-york/greenwich-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The lobby floors were modeled on the terra-cotta flooring of a 14th-century Italian palazzo.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "the lobby floors were modeled after the terra-cotta flooring in a 14th-century Italian palazzo.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/new-york/greenwich-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "No two of the hotel's guest rooms and suites are alike.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "86 uniquely appointed guest rooms and suites, of which no two are alike.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thegreenwichhotel.com/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Rooms are individually designed with custom furnishings, Siberian oak floors and handwoven rugs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Each, individually designed with custom furnishings, Siberian oak floors, and handwoven rugs.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thegreenwichhotel.com/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Shibui Spa takes its cue from Japanese bathing rituals.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The Shibui Spa takes its cue from Japanese bathing rituals",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/new-york/greenwich-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The indoor pool is in the basement, with no windows, and is softly lit by lanterns.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The pool is perhaps the best indoor dip in the city; though it’s housed in the basement and there are no windows, the soft lighting from the lanterns adds to the moody and serene atmosphere.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/new-york/greenwich-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The Drawing Room has a wood-burning fireplace, walls lined with bookcases and a bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "walls lined with bookcases and a wood-burning fireplace, and a bar with an extensive selection of spirits.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/new-york/greenwich-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Locanda Verde, from chef Andrew Carmellini, serves breakfast, lunch and dinner.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Over at Locanda Verde, one of the diamonds in the crown of star chef Andrew Carmellini",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/new-york/greenwich-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The restaurant does breakfast, lunch, and dinner",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/new-york/greenwich-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Locanda Verde provides 24-hour room service for the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The restaurant does breakfast, lunch, and dinner, as well as 24-hour room service for The Greenwich.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/new-york/greenwich-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Shibui Spa sits under the roof of a 250-year-old wood and bamboo farmhouse, reconstructed in the hotel by Japanese craftsmen.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The Shibui Spa takes its cue from Japanese bathing rituals",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/new-york/greenwich-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The whole spa space is framed under the roof of a 250-year old wood and bamboo farmhouse, reconstructed in the hotel by Japanese craftsmen.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/new-york/greenwich-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The TriBeCa Penthouse occupies the top two floors; designer Axel Vervoort and architect Tatsuro Miki drew on the Japanese aesthetic of wabi to create it.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Occupying the top two floors of The Greenwich hotel, Designer Axel Vervoort and architect Tatsuro Miki utilized the ancient Japanese aesthetic sense of wabi to create this meditative haven.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thegreenwichhotel.com/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "All stays include a house car for short trips within downtown NYC, on availability.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "AmenitiesAll Stays Include",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thegreenwichhotel.com/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "House car for short trips within downtown NYC on availability",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thegreenwichhotel.com/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Well-behaved dogs and cats are welcome, with no additional fee or size limit.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Yes. Well-behaved dogs and cats are welcome.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thegreenwichhotel.com/pet-friendly-hotel-nyc/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "While there is no additional fee or size limitation to pets welcome at the hotel",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thegreenwichhotel.com/pet-friendly-hotel-nyc/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Drawing Room extends into an outdoor courtyard covered by a canopy of latticed vines.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The Drawing Room extends into a calm outdoor courtyard fenced off by French doors and covered by a canopy of latticed vines.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/new-york/greenwich-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Pet owners must sign a waiver at check-in, and pets should not be left unattended in guest rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "a waiver is required to be signed upon check in by their responsible owners.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thegreenwichhotel.com/pet-friendly-hotel-nyc/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "pets should not be left unattended in guest rooms.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thegreenwichhotel.com/pet-friendly-hotel-nyc/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "An extra twin bed or crib needs to be requested in advance.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Extra twin bed or crib upon request in advance",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thegreenwichhotel.com/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the intimate boutique size means limited room inventory.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

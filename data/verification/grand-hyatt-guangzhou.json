@@ -1,0 +1,384 @@
+{
+  "hotel_slug": "grand-hyatt-guangzhou",
+  "hotel_name": "Grand Hyatt Guangzhou",
+  "checked_at": "2026-10-29T03:48:13.856Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/guagh-grand-hyatt-guangzhou",
+      "tier": "official",
+      "chars": 11661
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/guagh-grand-hyatt-guangzhou/rooms/",
+      "tier": "official",
+      "chars": 12679
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/guagh-grand-hyatt-guangzhou/dining/",
+      "tier": "official",
+      "chars": 5685
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/guagh-grand-hyatt-guangzhou/hotel-info/",
+      "tier": "official",
+      "chars": 2900
+    },
+    {
+      "id": "d5",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/guagh-grand-hyatt-guangzhou/parking-and-transportation/",
+      "tier": "official",
+      "chars": 3248
+    },
+    {
+      "id": "d6",
+      "url": "https://www.cntraveler.com/hotels/china/guangzhou/grand-hyatt-guangzhou",
+      "tier": "editorial",
+      "chars": 4180
+    },
+    {
+      "id": "d7",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/guagh-grand-hyatt-guangzhou/reviews/",
+      "tier": "official",
+      "chars": 10339
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is located in the central business district of Pearl River New Town, also called Zhujiang New Town, in Guangzhou.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located in the CBD of Pearl River New Town (Zhujiang New Town) of Guangzhou City",
+          "note": "The page states the CBD location and gives both names for the district.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/guagh-grand-hyatt-guangzhou",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Guangzhou Opera House, Guangdong Museum, Haixinsha and Xinghai Concert Hall are easy to visit from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "easily visit Guangzhou Opera House, Guangdong Museum, Haixinsha and Xinghai Concert Hall",
+          "note": "All four attractions are named as easy to visit.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/guagh-grand-hyatt-guangzhou",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Huacheng Square APM Station is 0.35 kilometers from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Huacheng Square APM Station0.35 kilometers",
+          "note": "The listed distance matches the claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/guagh-grand-hyatt-guangzhou/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The Sky Lobby is on the 22nd floor and looks out over Canton Tower.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "The Sky Lobby, which sits on the 22nd floor, looks out over the world’s second-tallest tower, the Canton Tower.",
+          "note": "This covers both the floor and the Canton Tower view.",
+          "url": "https://www.cntraveler.com/hotels/china/guangzhou/grand-hyatt-guangzhou",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Grand Club is on the 20th floor and is for guests staying in suites and Club Floor rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Grand Club is located on the 20th floor of the hotel, an exclusive and prestigious space created by Grand Hyatt Guangzhou for guests staying in Suites and Club Floor guest rooms.",
+          "note": "This covers both the floor and the eligible guests.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/guagh-grand-hyatt-guangzhou",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Grand Club guests have an exclusive check-in and check-out in the Grand Club Lounge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Concierge services with an exclusive check-in and check-out in the Grand Club Lounge",
+          "note": "This is listed among the Grand Club privileges.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/guagh-grand-hyatt-guangzhou",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The pool area has a sauna, a whirlpool, a cold plunge pool and grooming stations.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Male and female changing rooms with lockers are available along with a sauna, whirlpool, cold plunge pool and grooming stations.",
+          "note": "All four listed facilities are named.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/guagh-grand-hyatt-guangzhou",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The fitness center is on the hotel's top floor and has city views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located on the hotel’s top floor, our modern fitness center offers stunning city views",
+          "note": "This covers both the top-floor location and the city views.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/guagh-grand-hyatt-guangzhou",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The rooms provide panoramic city views of Zhujiang New Town.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "These elegant rooms provide panoramic city views of Zhujiang New Town.",
+          "note": "The wording matches the claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/guagh-grand-hyatt-guangzhou/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The Presidential Suite has a kitchen, butler service and Grand Club access.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The 270 sq m Presidential Suite features panoramic views, kitchen, separate sitting, work and dining areas, two king beds, butler service and Grand Club access.",
+          "note": "The kitchen, butler service and Grand Club access are all listed.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/guagh-grand-hyatt-guangzhou/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Family rooms are connecting rooms, one with a king bed and the other with two single beds.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our carefully designed connecting rooms consist of two 45-square-meter comfortable guest rooms.",
+          "note": "The family room is described as connecting rooms.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/guagh-grand-hyatt-guangzhou/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "One is equipped with a soft king-size bed for you to enjoy a deep sleep, and the other has two single beds",
+          "note": "This covers the bed configuration in each room.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/guagh-grand-hyatt-guangzhou/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The Penthouse restaurant serves authentic Cantonese cuisine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The Penthouse restaurant at Grand Hyatt Guangzhou serves authentic Cantonese cuisine",
+          "note": "The wording matches the claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/guagh-grand-hyatt-guangzhou/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel's Sky Lobby offers panoramic views of Canton Tower.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Hotel’s Sky Lobby offers panoramic views of Canton Tower",
+          "note": "The wording matches the claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/guagh-grand-hyatt-guangzhou",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Guanxi Lounge sits on a suspended bridge between the hotel's towers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Guanxi Lounge serves East-meets-West afternoon tea on a suspended bridge between the hotel’s towers.",
+          "note": "The editorial review places the lounge on a suspended bridge between the towers.",
+          "url": "https://www.cntraveler.com/hotels/china/guangzhou/grand-hyatt-guangzhou",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Grand Club looks out over the greenery of Huacheng Square and the cityscape of Zhujiang New Town.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "it offers panoramic views of the lush greenery of Huacheng Square and the stunning urban scenery of Zhujiang New Town",
+          "note": "This is stated in the Grand Club description.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/guagh-grand-hyatt-guangzhou",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Tower View rooms have floor-to-ceiling windows overlooking Canton Tower.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "floor-to-ceiling windows to overlook the beautiful Canton Tower views",
+          "note": "This is from the description of the 1 King Bed Tower View room.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/guagh-grand-hyatt-guangzhou/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The indoor pool is surrounded by large windows that let natural light flood in.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The 20-meter swimming pool is surrounded by large windows, allowing natural light to flood in",
+          "note": "The wording matches the claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/guagh-grand-hyatt-guangzhou",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel recommends that international guests use local mapping apps such as Gaode Map or Baidu Map.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "For seamless navigation during your stay in Chinese Mainland, we recommend using local mapping applications such as Gaode Map or Baidu Map.",
+          "note": "This appears under navigation guidance for international guests.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/guagh-grand-hyatt-guangzhou/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Grand Club lounge access is for guests in suites and Club Floor rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Grand Club is located on the 20th floor of the hotel, an exclusive and prestigious space created by Grand Hyatt Guangzhou for guests staying in Suites and Club Floor guest rooms.",
+          "note": "The page states the Grand Club is for suite and Club Floor guests.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/guagh-grand-hyatt-guangzhou",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes that this large urban hotel may lack an intimate boutique atmosphere.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

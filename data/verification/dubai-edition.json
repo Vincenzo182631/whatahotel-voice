@@ -1,0 +1,348 @@
+{
+  "hotel_slug": "dubai-edition",
+  "hotel_name": "The Dubai EDITION",
+  "checked_at": "2026-10-11T03:20:28.536Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 14,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 16
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.editionhotels.com/dubai/",
+      "tier": "official",
+      "chars": 7895
+    },
+    {
+      "id": "d2",
+      "url": "https://www.editionhotels.com/dubai/restaurants-and-bars/duomo/",
+      "tier": "official",
+      "chars": 5168
+    },
+    {
+      "id": "d3",
+      "url": "https://www.editionhotels.com/dubai/restaurants-and-bars/thia-skylounge/",
+      "tier": "official",
+      "chars": 4823
+    },
+    {
+      "id": "d4",
+      "url": "https://www.editionhotels.com/dubai/spa-and-fitness/",
+      "tier": "official",
+      "chars": 4789
+    },
+    {
+      "id": "d5",
+      "url": "https://www.editionhotels.com/dubai/services-amenities/",
+      "tier": "official",
+      "chars": 5502
+    },
+    {
+      "id": "d6",
+      "url": "https://www.editionhotels.com/dubai/rooms-and-suites/",
+      "tier": "official",
+      "chars": 4374
+    },
+    {
+      "id": "d7",
+      "url": "https://www.editionhotels.com/dubai/restaurants-and-bars/",
+      "tier": "official",
+      "chars": 5943
+    },
+    {
+      "id": "d8",
+      "url": "https://www.editionhotels.com/dubai/contact/",
+      "tier": "official",
+      "chars": 4913
+    },
+    {
+      "id": "d9",
+      "url": "https://www.editionhotels.com/dubai/getting-here/",
+      "tier": "official",
+      "chars": 1614
+    },
+    {
+      "id": "d10",
+      "url": "https://www.editionhotels.com/dubai/concierge/",
+      "tier": "official",
+      "chars": 4673
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is in Downtown Dubai, opposite Dubai Mall.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Situated in Downtown Dubai, the hotel is located in one of the city’s most popular locations, opposite the world-famous Dubai Mall.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.editionhotels.com/dubai/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel was designed with LW Design Group.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Designed with LW Design Group, the hotel features 275 guestrooms and suites.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.editionhotels.com/dubai/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The restaurant DUOMO serves classic Italian cuisine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "DUOMO promises to take classic Italian cuisine to entirely new heights of wonder.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.editionhotels.com/dubai/restaurants-and-bars/duomo/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "DUOMO has interiors in Italian satvario marble.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "expansive interiors bedecked in Italian satvario marble",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.editionhotels.com/dubai/restaurants-and-bars/duomo/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The outdoor pool terrace is on level two of the hotel, with sun loungers and cabanas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Located on level two of the hotel, the outdoor pool terrace is complete with sun loungers, luxe cabanas",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.editionhotels.com/dubai/restaurants-and-bars/thia-skylounge/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The spa is on the second floor and has three treatment rooms, including a couple's suite.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Located on the second floor of The Dubai EDITION, The SPA offers guests a wide range of services",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.editionhotels.com/dubai/spa-and-fitness/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Featuring three treatment rooms including a couple's suite",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.editionhotels.com/dubai/spa-and-fitness/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The gym is open 24 hours and is powered by Technogym.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The 24-hour Gym at The Dubai EDITION is powered by Technogym",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.editionhotels.com/dubai/spa-and-fitness/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Gym access is complimentary to in-house guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Access to the Gym is complimentary to in-house guests.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.editionhotels.com/dubai/spa-and-fitness/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel offers complimentary high-speed WiFi throughout.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Complimentary high-speed WiFi access throughout the hotel",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.editionhotels.com/dubai/services-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The hotel offers 24-hour room service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "24-hour Room Service",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.editionhotels.com/dubai/services-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "DUOMO has a waiting room with a vast crystal chandelier called Maria Theresa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "DUOMO features a waiting room boasting Maria Theresa – a vast crystal chandelier",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.editionhotels.com/dubai/restaurants-and-bars/duomo/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "DUOMO has an interior inspired by the Piazza Del Duomo in Milan.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "immerse themselves in an interior inspired by the Piazza Del Duomo in Milan",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.editionhotels.com/dubai/restaurants-and-bars/duomo/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "DUOMO has 15 metre vaulted cathedral ceilings.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Diners will be enveloped in an ever-changing artistic display beneath 15 metre vaulted cathedral ceilings.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.editionhotels.com/dubai/restaurants-and-bars/duomo/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "DUOMO has views of the Burj Khalifa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Guests can gaze at striking views of the Burj Khalifa",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.editionhotels.com/dubai/restaurants-and-bars/duomo/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes premium pricing that reflects the luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the contemporary minimalist style may not suit all preferences.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

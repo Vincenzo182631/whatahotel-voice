@@ -1,0 +1,409 @@
+{
+  "hotel_slug": "hotel-ritz-paris",
+  "hotel_name": "Hotel Ritz Paris",
+  "checked_at": "2026-10-14T23:53:36.940Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ritzparis.com/legal/legal-notice",
+      "tier": "official",
+      "chars": 16249
+    },
+    {
+      "id": "d2",
+      "url": "https://www.cntraveler.com/hotels/france/paris/hotel-ritz-paris?verso=true",
+      "tier": "editorial",
+      "chars": 10389
+    },
+    {
+      "id": "d3",
+      "url": "https://www.cntraveler.com/hotels/france/paris/hotel-ritz-paris",
+      "tier": "editorial",
+      "chars": 10389
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is at 15 Place Vendôme, 75001 Paris.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "its principal place of business (the Ritz Paris Hotel) at 15, Place Vendôme, 75001 Paris, France",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ritzparis.com/legal/legal-notice",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "In 2012 the hotel closed for the first time in its history and reopened four years later with updated technologies and new facilities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "in 2012, the hotel closed for the first time in its history, re-emerging four years later with updated technologies, new facilities",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/france/paris/hotel-ritz-paris?verso=true",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "A grand staircase winds up from the lobby.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The majestic grand staircase still winds its way up from the lobby",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/france/paris/hotel-ritz-paris?verso=true",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Higher-floor rooms and most suites have balconies or terraces.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "higher floor rooms and most suites have balconies or terraces",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/france/paris/hotel-ritz-paris?verso=true",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Rooms have signature details such as key-shaped light switches and silk tulip lampshades.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "signature flourishes like key-shaped light switches and silk tulip lampshades",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/france/paris/hotel-ritz-paris?verso=true",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Bar Vendôme is a glass-ceilinged brasserie that serves a Japanese breakfast in the morning.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "the glass-ceilinged Bar Vendôme brasserie (try the Japanese breakfast in the morning)",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/france/paris/hotel-ritz-paris?verso=true",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Afternoon tea with madeleines is served in the Salon Proust.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "the Salon Proust for a decadent afternoon tea replete with perfectly spongy Madeleines",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/france/paris/hotel-ritz-paris?verso=true",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Ritz Bar, launched in September 2021, is a lantern-topped space serving cocktails inspired by astrological signs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Launched in September 2021, the Ritz Bar is a dramatic, lantern-topped space serving glamorous cocktails",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/france/paris/hotel-ritz-paris?verso=true",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "that are inspired by astrological signs",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/france/paris/hotel-ritz-paris?verso=true",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The hotel has a pool and a central garden.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "a dip in the shimmering pool, and a quiet drink in the lush central garden",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/france/paris/hotel-ritz-paris?verso=true",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Treatments include La Prairie facials and massages with French-made oils formulated specially for Ritz Paris.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "facial treatments using La Prairie or massages featuring French-made oils formulated specially for Ritz Paris",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/france/paris/hotel-ritz-paris?verso=true",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "There is a David Mallett hair salon, a nail bar and a makeup area, plus a shopping arcade with luxury boutiques and a Ritz concept store.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "There’s also a David Mallett hair salon, a nail bar, and a special area for makeup",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/france/paris/hotel-ritz-paris?verso=true",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The shopping arcade houses luxury boutiques and a Ritz concept store.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/france/paris/hotel-ritz-paris?verso=true",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Wi-Fi is complimentary.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Wi-Fi is complimentary",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/france/paris/hotel-ritz-paris?verso=true",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Swiss hotelier César Ritz partnered with French chef Auguste Escoffier to open the hotel in 1898.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "In 1898, Swiss hotelier César Ritz partnered with French chef Auguste Escoffier to open",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/france/paris/hotel-ritz-paris?verso=true",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Coco Chanel lived at the hotel for 34 years and has a suite named for her; Ernest Hemingway, another regular, gives his name to both a suite and a bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Coco Chanel; the latter, who lived here for 34 years, has a suite named for her, while fellow regular Ernest Hemingway’s name adorns both a suite and (what else?) a bar",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/france/paris/hotel-ritz-paris?verso=true",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Guests can book a class at the Ecole Ritz Escoffier cooking school, which also offers classes for kids.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "book a class at the L'Ecole Ritz Escoffier cooking school to up your kitchen game (kids' classes are also offered)",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/france/paris/hotel-ritz-paris?verso=true",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The marble bathrooms keep peach-colored robes and towels, a hue chosen by Mr. Ritz, and golden swan bathtub taps.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "fluffy, peach-colored robes and towels (a hue personally chosen by Mr. Ritz), and golden swan bathtub taps",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/france/paris/hotel-ritz-paris?verso=true",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The marble bathrooms have been refreshed and modernized",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/france/paris/hotel-ritz-paris?verso=true",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "All rooms have marble fireplaces, and the design of each Prestige Suite aims to reflect its namesake, with antique books lining the Marcel Proust suite.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "All rooms have marble fireplaces",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/france/paris/hotel-ritz-paris?verso=true",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The design of each of the Prestige Suites aims to reflect their respective namesakes, so you’ll find antique books lining the Marcel Proust space",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/france/paris/hotel-ritz-paris?verso=true",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Most rooms have no coffee or tea making facilities, so coffee and tea are ordered from room service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "How about room service: Worth it?",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/france/paris/hotel-ritz-paris?verso=true",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "you'll need to order coffee and tea, as there are no facilities for making them in most of the rooms",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/france/paris/hotel-ritz-paris?verso=true",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes ultra-luxury pricing that reflects the hotel's palace status.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the formal atmosphere may not suit all travelers.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

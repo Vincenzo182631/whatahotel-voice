@@ -1,0 +1,402 @@
+{
+  "hotel_slug": "mgm-grand-hotel-casino",
+  "hotel_name": "MGM Grand Hotel & Casino",
+  "checked_at": "2026-10-15T23:53:37.817Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/lasgm-mgm-grand-hotel-and-casino/overview/",
+      "tier": "official",
+      "chars": 19710
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/lasgm-mgm-grand-hotel-and-casino/rooms/",
+      "tier": "official",
+      "chars": 11321
+    },
+    {
+      "id": "d3",
+      "url": "https://www.cntraveler.com/hotels/las-vegas/mgm-grand",
+      "tier": "editorial",
+      "chars": 9434
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/lasgm-mgm-grand-hotel-and-casino/dining/",
+      "tier": "official",
+      "chars": 12685
+    },
+    {
+      "id": "d5",
+      "url": "https://www.marriott.com/en-us/hotels/lasgm-mgm-grand-hotel-and-casino/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "chars": 290
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel sits on the South Strip, across from New York-New York, with easy access to T-Mobile Arena.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "South Strip, across from New York–New York with easy access to T-Mobile Arena",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/las-vegas/mgm-grand",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel has an attached Las Vegas Monorail stop that links it to mid-Strip, the Convention Center and the north end of the Strip.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "with easy access to T-Mobile Arena and a stop on the\nLas Vegas\nMonorail.",
+          "note": "Las Vegas Monorail stop",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/las-vegas/mgm-grand",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The attached monorail stop gives you a relatively stress-free way to bounce to mid-Strip, the Convention Center, or the north end",
+          "note": "attached stop, destinations",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/las-vegas/mgm-grand",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Pedestrian bridges put New York-New York, Excalibur and the T-Mobile Arena corridor within easy walking distance.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Pedestrian bridges put you within easy walking distance of New York–New York, Excalibur, and the T-Mobile Arena corridor",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/las-vegas/mgm-grand",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Skylofts come with residential living and dining spaces and 24-hour butler service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Skylofts is the fantasy: 51 two-level lofts",
+          "note": "subject is Skylofts",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/las-vegas/mgm-grand",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "residential living and dining spaces, and 24-hour butler service",
+          "note": "Skylofts description",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/las-vegas/mgm-grand",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The rooms have been freshly remodeled in a sleek, modern style.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Discover sleek, modern rooms—freshly remodeled for your Las Vegas escape.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lasgm-mgm-grand-hotel-and-casino/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The upgraded bathrooms feature walk-in glass showers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Upgraded baths feature walk-in glass showers",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lasgm-mgm-grand-hotel-and-casino/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The redesigned rooms offer views of the Strip.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Enjoy stunning Strip views from redesigned spaces",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lasgm-mgm-grand-hotel-and-casino/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Restore rooms are offered as a wellness-focused room type.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our Restore rooms provide an unprecedented opportunity for a complete wellness hotel experience.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lasgm-mgm-grand-hotel-and-casino/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The Studio Tower rooms were redone in 2022 with a midcentury desert glam look.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Studio Tower’s 700 rooms, redone in 2022, feel like midcentury desert glam",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/las-vegas/mgm-grand",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The Grand Spa has saunas, whirlpools and lounges.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "the Grand Spa has thirty treatment rooms along with saunas, whirlpools and lounges",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lasgm-mgm-grand-hotel-and-casino/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The resort has multiple theaters that host everything from long-running productions to rotating headliners.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "multiple theaters that host everything from long-running productions to rotating headliners",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/las-vegas/mgm-grand",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The Joel Robuchon restaurant was designed to resemble an Art Deco townhouse with a garden terrace and marble floors.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "### Joel Robuchon\n\nThis unforgettable Three Michelin Star restaurant caters to a sophisticated palate and was designed to resemble a luxurious Art Deco townhouse complete with a lush garden terrace and marble floors.",
+          "note": "Joel Robuchon restaurant design",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lasgm-mgm-grand-hotel-and-casino/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Grand Pool Complex has a lazy river and waterfalls.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "the 6.5-acre Grand Pool Complex with lazy river and waterfalls",
+          "note": "lazy river and waterfalls stated; acreage not in claim",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lasgm-mgm-grand-hotel-and-casino/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Skylofts are two-level lofts reached by a private elevator and Sky Lobby, with double-height Strip views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Skylofts is the fantasy: 51 two-level lofts on floors 29 and 30, reached via private elevator and Sky Lobby, with double-height Strip views",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/las-vegas/mgm-grand",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The main tower's rooms and suites completed a Gensler-led renovation in November 2025.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The main tower’s 3,969 rooms and suites finished a $300 million Gensler-led renovation in November 2025",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/las-vegas/mgm-grand",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Wet Republic adds a dedicated daylife scene with big-name DJs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Wet Republic layers on a dedicated daylife scene with big-name DJs",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/las-vegas/mgm-grand",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "When MGM Grand opened in 1993, it was wrapped in emerald glass and fronted by a giant lion.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "When MGM Grand opened in 1993, it leaned hard into a Wizard of Oz theme and family-friendly positioning, all wrapped in emerald glass and fronted by a gigantic lion.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/las-vegas/mgm-grand",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Guests must be 21 or older to check in.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Must be 21+ for check-in or to play.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lasgm-mgm-grand-hotel-and-casino/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The hotel does not have an airport shuttle to Harry Reid International Airport.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "No, MGM Grand Hotel & Casino does not have an airport shuttle to Harry Reid International Airport.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lasgm-mgm-grand-hotel-and-casino/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes that the resort's large size can mean significant walking distances.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

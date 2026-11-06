@@ -1,0 +1,412 @@
+{
+  "hotel_slug": "grand-hyatt-barcelona",
+  "hotel_name": "Grand Hyatt Barcelona",
+  "checked_at": "2026-10-29T03:48:26.659Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 20,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 0,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/bcnub-grand-hyatt-barcelona",
+      "tier": "official",
+      "chars": 22909
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/bcnub-grand-hyatt-barcelona/rooms/",
+      "tier": "official",
+      "chars": 17347
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/bcnub-grand-hyatt-barcelona/dining/",
+      "tier": "official",
+      "chars": 7934
+    },
+    {
+      "id": "d4",
+      "url": "https://www.cntraveler.com/hotels/barcelona/grand-hyatt-barcelona",
+      "tier": "editorial",
+      "chars": 9219
+    },
+    {
+      "id": "d5",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/bcnub-grand-hyatt-barcelona/reviews/",
+      "tier": "official",
+      "chars": 30000
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/bcnub-grand-hyatt-barcelona/hotel-info/",
+      "tier": "official",
+      "chars": 3890
+    },
+    {
+      "id": "d7",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/bcnub-grand-hyatt-barcelona/parking-and-transportation/",
+      "tier": "official",
+      "chars": 3937
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Grand Hyatt Barcelona is in the Pedralbes district of Barcelona.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Grand Hyatt Barcelona sits at the heart of Pedralbes, one of the city's most exclusive and sought-after districts",
+          "note": "The official page places the hotel in Pedralbes.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bcnub-grand-hyatt-barcelona",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is steps from Spotify Camp Nou, home of FC Barcelona.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Football fans will find themselves just steps from Spotify Camp Nou, home of FC Barcelona",
+          "note": "Directly states the claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bcnub-grand-hyatt-barcelona",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Monastery of Pedralbes, the Real Club de Tennis Barcelona and Les Corts Market are just steps from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Just steps from the hotel, the Monastery of Pedralbes, the Real Club de Tennis Barcelona and the local stalls of Les Corts Market reveal a quieter, residential side of the city",
+          "note": "Names all three places as steps from the hotel.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bcnub-grand-hyatt-barcelona",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Each room has custom-made furniture, a separate rain shower and WC, and Natura Bissé bathroom amenities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Custom-made furniture, a separate rain shower and WC and Natura Bissé bathroom amenities complete each room",
+          "note": "Covers all three listed elements.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bcnub-grand-hyatt-barcelona",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Junior Suite bathroom is finished in custom tilework and marble, with a deep-soaking bathtub and a walk-in shower.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "along with a bathroom finished in custom tilework and marble, with dual sinks, a striking deep-soaking bathtub and a walk-in shower",
+          "note": "From the 1 King Bed Junior Suite description.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bcnub-grand-hyatt-barcelona/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Premium King Room with View has direct views of the city and the sea.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "This room offers direct views of the city and the sea, along with a king bed, a work desk, a sitting area and a bathroom with dual sinks and a separate walk-in shower.",
+          "note": "From the 1 King Premium with View description.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bcnub-grand-hyatt-barcelona/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Grand Club Lounge on the 18th floor serves an American breakfast buffet, snacks during the day and a tapas time in the evening.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "From a delicious American Breakfast Buffet to Snacks during the day and a dedicated Tapas Time in the evening",
+          "note": "Covers the food offering.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bcnub-grand-hyatt-barcelona",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Grand Club Lounge is located on the 18th Floor.",
+          "note": "Covers the floor.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bcnub-grand-hyatt-barcelona",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Oasis Wellness & Spa by Natura Bissé has a thermal water circuit, a sauna, a steam bath, and salt and ice cabins.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Oasis Wellness & Spa by Natura Bissé is a Mediterranean sanctuary of contrasts with a thermal water circuit, sauna, steam bath, salt and ice cabins",
+          "note": "Lists all the facilities in the claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bcnub-grand-hyatt-barcelona",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Maymanta is a Peruvian restaurant on the 19th-floor rooftop, curated by chef Omar Malpartida.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Perched on the 19th-floor rooftop, Maymanta Barcelona brings the bold, authentic flavors of Peru to life with a modern twist, curated by chef Omar Malpartida",
+          "note": "Covers the location, cuisine and chef.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bcnub-grand-hyatt-barcelona/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Leña is the first Dani García restaurant in Barcelona, cooking over embers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The first and only Dani García restaurant in Barcelona, Leña reimagines the brasa experience with global flair. Here, exceptional ingredients meet the primal art of cooking over embers",
+          "note": "Covers both 'first' and the ember cooking.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bcnub-grand-hyatt-barcelona/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Complimentary children's and baby kits are available on request, including colouring sets, booster seats and cribs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Complimentary children’s and baby kits available upon request, including colouring sets, booster seats, cribs, bathtubs, and tailored in-room amenities.",
+          "note": "Listed among the in-room amenities.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bcnub-grand-hyatt-barcelona/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Dogs are welcomed with an amenity kit that includes a pet bed, food and water bowls and treats.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Dogs are warmly welcomed with a curated amenity kit featuring a plush pet bed, food and water bowls, and gourmet treats",
+          "note": "Covers every item in the kit.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bcnub-grand-hyatt-barcelona",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Penthouse Suite is a three-bedroom apartment with a show kitchen, a dining area for up to ten and views of the city, sea and mountains.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "This three-bedroom apartment includes a master bedroom, a living room with a separate show kitchen and a dining area for up to ten, with sweeping views of the city, sea and surrounding mountains.",
+          "note": "From the Penthouse Suite description.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bcnub-grand-hyatt-barcelona/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The spa has six private cabins for Natura Bissé treatments, including a double suite with a private sauna, steam room and jacuzzi.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "six private cabins for exclusive Natura Bissé treatments (including a double suite with a private sauna, steam room, and jacuzzi)",
+          "note": "From the Condé Nast Traveler review.",
+          "url": "https://www.cntraveler.com/hotels/barcelona/grand-hyatt-barcelona",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "From the 12th floor up, rooms have panoramas of Barcelona stretching down to the Mediterranean.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "the 12th floor and up offering eye-popping panoramas of Barcelona stretching all the way down to the Mediterranean",
+          "note": "Directly states the claim.",
+          "url": "https://www.cntraveler.com/hotels/barcelona/grand-hyatt-barcelona",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Suites have Art Deco-inspired design and are set on the hotel's higher floors with views of Barcelona.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "the hotel's 50 suites range from 59 to 319 square meters, with Art Deco-inspired design",
+          "note": "Covers the Art Deco design.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bcnub-grand-hyatt-barcelona",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "each is set on the hotel's higher floors with stunning views of Barcelona",
+          "note": "Covers the higher floors and views.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bcnub-grand-hyatt-barcelona",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The outdoor pool is set in a garden and is open from spring through autumn.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The outdoor pool at Grand Hyatt Barcelona unfolds within a lush, immersive garden setting, made for long, memorable afternoons with friends and family from spring through autumn.",
+          "note": "Covers both the garden setting and the season.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/bcnub-grand-hyatt-barcelona",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Rooms on the lower floors are businesslike, with a gray and white palette and restricted views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Lower floors are distinctly businesslike with their muted, gray and white color palette and restricted views.",
+          "note": "Directly states the claim.",
+          "url": "https://www.cntraveler.com/hotels/barcelona/grand-hyatt-barcelona",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "There are fewer tourist sites around the hotel than downtown; central Barcelona is about a 15-minute metro ride away.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "While you’ll find fewer tourist sites around here, there is plenty to do",
+          "note": "Covers the fewer tourist sites.",
+          "url": "https://www.cntraveler.com/hotels/barcelona/grand-hyatt-barcelona",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "just a 15-minute metro ride from central Barcelona",
+          "note": "Covers the metro time.",
+          "url": "https://www.cntraveler.com/hotels/barcelona/grand-hyatt-barcelona",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "The hotel is next to the Catalan Congress Center and the university, and attracts groups and business travelers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The plentiful rooms and setting next to the Catalan Congress Center and university attract groups and business execs",
+          "note": "Directly states the claim.",
+          "url": "https://www.cntraveler.com/hotels/barcelona/grand-hyatt-barcelona",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

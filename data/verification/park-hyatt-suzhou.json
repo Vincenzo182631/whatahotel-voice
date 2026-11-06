@@ -1,0 +1,423 @@
+{
+  "hotel_slug": "park-hyatt-suzhou",
+  "hotel_name": "Park Hyatt Suzhou",
+  "checked_at": "2026-10-13T08:35:40.249Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/suzph-park-hyatt-suzhou",
+      "tier": "official",
+      "chars": 7098
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/suzph-park-hyatt-suzhou/rooms/",
+      "tier": "official",
+      "chars": 12283
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/suzph-park-hyatt-suzhou/dining/",
+      "tier": "official",
+      "chars": 2461
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/suzph-park-hyatt-suzhou/parking-and-transportation/",
+      "tier": "official",
+      "chars": 901
+    },
+    {
+      "id": "d5",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/suzph-park-hyatt-suzhou/hotel-info/",
+      "tier": "official",
+      "chars": 701
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/suzph-park-hyatt-suzhou/reviews/",
+      "tier": "official",
+      "chars": 4243
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is at 69 Xizhou Road in Suzhou Industrial Park.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "69 Xizhou Road, Suzhou Industrial Park, Suzhou, China 215028",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/suzph-park-hyatt-suzhou",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The rooms have Asian-inspired details, including brush-ink printed screens and crabapple-shaped mirrors.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "the rooms offer Asian-inspired details, from brush-ink printed screens to crabapple-shaped mirrors.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/suzph-park-hyatt-suzhou",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Standard rooms have a semi-private 'pavilion' with living and dining or study areas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Standard rooms offer a semi-private ‘pavilion’ with living and dining/study areas",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/suzph-park-hyatt-suzhou/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Lake view rooms look out over Jinji Lake and have a marble bathroom with a deep-soaking tub and rainforest shower.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Retreat to this comfortable 50-78-sqm room blessed with views of Jinji Lake. Enjoy the semi-private ‘pavilion’ living area, sumptuous king-size bed and stylish marble bathroom with deep-soaking tub and rainforest shower.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/suzph-park-hyatt-suzhou/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Rooms have Le Labo bath amenities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Le Labo bath amenities",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/suzph-park-hyatt-suzhou/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Presidential Suite includes a karaoke room and personalized butler service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Enjoy the terrace, living room, bar and entertainment room, dining room, kitchen, KaraoKe room and personalized butler service.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/suzph-park-hyatt-suzhou/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Living Room serves light snacks, afternoon tea and premium drinks throughout the day.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Enjoy light snacks, afternoon tea and premium drinks throughout the day.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/suzph-park-hyatt-suzhou/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Xizhou Hall specializes in locally-inspired Chinese and international fare.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Xizhou Hall specializes in locally-inspired Chinese and international fare",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/suzph-park-hyatt-suzhou/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The Spa is on B1 and uses Eastern and Western healing techniques.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Spa, located on B1",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/suzph-park-hyatt-suzhou",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "our highly skilled therapists utilize the best of Eastern and Western healing techniques",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/suzph-park-hyatt-suzhou",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel has a pool and a fitness center.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Fitness Center",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/suzph-park-hyatt-suzhou",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Pool",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/suzph-park-hyatt-suzhou",
+          "tier": "official",
+          "quote_verified": false
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Wedding venues include a ballroom and the Jinji Room, with photo opportunities in the hotel gardens and around Jinji Lake.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "including a sophisticated ballroom and the elegant Jinji Room. Photo opportunities abound in the hotel gardens and around Jinji Lake.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/suzph-park-hyatt-suzhou",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The Humble Administrator's Garden is 8.19 kilometers from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Humble Administrator's Garden",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/suzph-park-hyatt-suzhou",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "8.19 Kilometers away",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/suzph-park-hyatt-suzhou",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Xizhou Hall, the hotel's Chinese restaurant, is designed as a 'Theater of Food' with open kitchens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Xizhou Hall is the hotel’s Chinese restaurant, as Black Pearl Diamond Restaurant a veritable ‘Theater of Food’ with open kitchens providing live culinary entertainment",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/suzph-park-hyatt-suzhou/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The hotel is a contemporary version of a traditional Suzhou manor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Stay in a contemporary version of a traditional Suzhou manor",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/suzph-park-hyatt-suzhou",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Living Room is a modern interpretation of the traditional Ladies' Court, with three distinctively designed spaces.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "A modern interpretation of the traditional Ladies’ Court comprises three distinctively designed spaces",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/suzph-park-hyatt-suzhou/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The rooms use a blue-green palette inspired by the colors of Lake Tai.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "178 elegant rooms in a serene blue-green palette inspired by the beautiful colors of Lake Tai",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/suzph-park-hyatt-suzhou",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Garden view rooms look out over Japanese pine and a koi fishpond.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Thoughtful 50-60 sq m (538-645 sq ft) king room with panoramic views of Japanese pine and koi fishpond.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/suzph-park-hyatt-suzhou/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Shanghai Hongqiao International Airport is 75.8 kilometers from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Shanghai Hongqiao International Airport (SHA)75.8 kilometers",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/suzph-park-hyatt-suzhou/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The hotel recommends international guests use local mapping apps such as Gaode Map or Baidu Map.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "we recommend using local mapping applications such as Gaode Map or Baidu Map",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/suzph-park-hyatt-suzhou/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes limited entertainment options within walking distance.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

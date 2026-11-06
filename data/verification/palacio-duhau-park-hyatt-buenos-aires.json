@@ -1,0 +1,463 @@
+{
+  "hotel_slug": "palacio-duhau-park-hyatt-buenos-aires",
+  "hotel_name": "Palacio Duhau - Park Hyatt Buenos Aires",
+  "checked_at": "2026-10-13T08:31:23.476Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/bueph-palacio-duhau-park-hyatt-buenos-aires",
+      "tier": "official",
+      "chars": 8508
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/bueph-palacio-duhau-park-hyatt-buenos-aires/rooms/",
+      "tier": "official",
+      "chars": 12885
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/bueph-palacio-duhau-park-hyatt-buenos-aires/dining/",
+      "tier": "official",
+      "chars": 4331
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/bueph-palacio-duhau-park-hyatt-buenos-aires/parking-and-transportation/",
+      "tier": "official",
+      "chars": 476
+    },
+    {
+      "id": "d5",
+      "url": "https://www.cntraveler.com/hotels/buenos-aires/palacio-duhau-park-hyatt-buenos-aires",
+      "tier": "editorial",
+      "chars": 6810
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/bueph-palacio-duhau-park-hyatt-buenos-aires/hotel-info/",
+      "tier": "official",
+      "chars": 408
+    },
+    {
+      "id": "d7",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/bueph-palacio-duhau-park-hyatt-buenos-aires/reviews/",
+      "tier": "official",
+      "chars": 6809
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is in the Recoleta neighborhood of Buenos Aires.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Nestled in Recoleta, our two-building complex blends aristocratic elegance with modern design.",
+          "note": "located in Recoleta",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/bueph-palacio-duhau-park-hyatt-buenos-aires",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Situated in Buenos Aires’ historic Recoleta neighborhood",
+          "note": "Recoleta neighborhood",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/bueph-palacio-duhau-park-hyatt-buenos-aires",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is made up of two buildings: a restored 1934 Palace and the contemporary Posadas building.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The hotel is composed of two buildings, offering distinct settings: a restored 1934 Palace with timeless elegance, and the Posadas building, of contemporary style and modern design.",
+          "note": "two buildings, 1934 Palace and Posadas",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/bueph-palacio-duhau-park-hyatt-buenos-aires/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Conde Nast Traveler describes the hotel as a restored neoclassical mansion from the 1930s.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "In one of the poshest corners of Recoleta is this neoclassical mansion from the 1930s that has been impeccably restored.",
+          "note": "CNT describes restored 1930s neoclassical mansion",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/buenos-aires/palacio-duhau-park-hyatt-buenos-aires",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Palace rooms include butler service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "For a memorable stay, enjoy this bright and welcoming 40–55 sq m room. It features a King bed, a work area, and large windows with views of the gardens or Alvear Avenue.",
+          "note": "1 King Palace room description",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/bueph-palacio-duhau-park-hyatt-buenos-aires/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Butler service",
+          "note": "Palace rooms list butler service",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/bueph-palacio-duhau-park-hyatt-buenos-aires/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Ahin Spa has a short-course swimming pool and a gym.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "With a short-course swimming pool, a high-end gym and an expert team, Ahín Spa offers an unparalleled escape",
+          "note": "pool and gym at Ahin Spa",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/bueph-palacio-duhau-park-hyatt-buenos-aires",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "La Vinoteca has a cheese cellar and offers wine and cheese tastings.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "La Vinoteca completes the experience with a distinctive cheese cellar and curated wine and cheese tastings that explore local terroirs and refined pairings.",
+          "note": "cheese cellar and tastings",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/bueph-palacio-duhau-park-hyatt-buenos-aires/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Gioia Cocina Botanica serves a plant-based menu.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "At Gioia Cocina Botánica, the hotel’s new restaurant, Chef Juan Simonte sources ingredients from local producers to create a plant-based menu",
+          "note": "plant-based menu",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/buenos-aires/palacio-duhau-park-hyatt-buenos-aires",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Plant-based Italian cuisine",
+          "note": "plant-based cuisine",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/bueph-palacio-duhau-park-hyatt-buenos-aires/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Duhau Patisserie is the hotel's pastry boutique, offering macarons and petits gateaux.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Duhau Pâtisserie is the exclusive pastry boutique of Palacio Duhau–Park Hyatt Buenos Aires.",
+          "note": "pastry boutique",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/bueph-palacio-duhau-park-hyatt-buenos-aires/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "from elegant macarons to a curated selection of sweets and delicate petits gâteaux",
+          "note": "macarons and petits gateaux",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/bueph-palacio-duhau-park-hyatt-buenos-aires/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The hotel has its own flower boutique, Floreria del Duhau, which also welcomes visitors from the community.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our flower boutique enchants guests with vibrant colors and captivating fragrances. This charming space creates stunning floral arrangements for the hotel’s public and private areas and welcomes visitors from the community.",
+          "note": "flower boutique welcomes community",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/bueph-palacio-duhau-park-hyatt-buenos-aires",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Florería del Duhau",
+          "note": "name of boutique",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/bueph-palacio-duhau-park-hyatt-buenos-aires",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "In-room dining is available 24 hours a day.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Enjoy an exceptional dining experience in the comfort and privacy of your room or suite with our 24-hour in-room dining service.",
+          "note": "24-hour in-room dining",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/bueph-palacio-duhau-park-hyatt-buenos-aires/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel welcomes housebroken dogs and provides a bed, a bowl and treats.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "We offer a bed, a dog bowl and treats in your suite or room. All dogs must be housebroken.",
+          "note": "dog amenities and housebroken requirement",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/bueph-palacio-duhau-park-hyatt-buenos-aires",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Valet parking includes private VIP parking with direct access to the Palace suites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "We offer valet parking for hotel guests. Our lot includes 80 parking spaces, including private VIP parking that provides direct access to the Palace suites.",
+          "note": "valet with VIP parking to Palace suites",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/bueph-palacio-duhau-park-hyatt-buenos-aires/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Paseo de las Artes Duhau is an underground art gallery at the hotel showing temporary exhibitions.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Discover Paseo de las Artes Duhau, an underground art gallery showcasing dynamic, temporary exhibitions and creative expressions.",
+          "note": "underground gallery, temporary exhibitions",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/bueph-palacio-duhau-park-hyatt-buenos-aires",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Los Salones del Piano Nobile has original frescoes and boiserie and serves a traditional afternoon tea.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "With large windows, oak floors, original frescoes and boiserie, the restaurant offers a distinguished atmosphere that evokes historical charm.",
+          "note": "frescoes and boiserie",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/bueph-palacio-duhau-park-hyatt-buenos-aires/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "our most celebrated experience: the traditional afternoon tea.",
+          "note": "traditional afternoon tea",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/bueph-palacio-duhau-park-hyatt-buenos-aires/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Butlers unpack on arrival, press clothes and shine shoes at no charge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Your butler will unpack for you upon arrival, press your clothes and shine your shoes, all at no charge.",
+          "note": "butler services at no charge",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/buenos-aires/palacio-duhau-park-hyatt-buenos-aires",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The hotel's gardens are surrounded by ancient trees and have a cascading fountain.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Find tranquility in our hotel’s serene gardens surrounded by ancient trees. Relax by the cascading fountain",
+          "note": "ancient trees and cascading fountain",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/bueph-palacio-duhau-park-hyatt-buenos-aires",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Oak Bar has medieval oak paneling and a garden-view terrace, serving cocktails, Scotch whiskies and tapas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "With its medieval oak paneling, Oak Bar offers a unique experience inspired by timeless elegance.",
+          "note": "medieval oak paneling",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/bueph-palacio-duhau-park-hyatt-buenos-aires/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Its private club-style interior and garden-view terrace create a warm and sophisticated atmosphere, perfect for enjoying classical cocktails, fine Scotch whiskies and a selection of tapas.",
+          "note": "terrace, cocktails, whiskies, tapas",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/bueph-palacio-duhau-park-hyatt-buenos-aires/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Ezeiza International Airport is 34 kilometers from the hotel; Aeroparque Jorge Newbery is 7.1 kilometers away.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Ezeiza International Airport (EZE)34 kilometers",
+          "note": "EZE 34 km",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/bueph-palacio-duhau-park-hyatt-buenos-aires/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Aeroparque Jorge Newbery (AEP)7.1 kilometers",
+          "note": "AEP 7.1 km",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/bueph-palacio-duhau-park-hyatt-buenos-aires/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes premium luxury pricing that reflects the hotel's exclusive positioning.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the formal atmosphere may not suit travelers looking for a casual experience.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

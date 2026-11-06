@@ -1,0 +1,305 @@
+{
+  "hotel_slug": "fairmont-le-chateau-frontenac",
+  "hotel_name": "Fairmont Le Chateau Frontenac",
+  "checked_at": "2026-10-10T07:35:32.393Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 14,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 15
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.fairmont.com/en/hotels/quebec-city/fairmont-le-chateau-frontenac.html",
+      "tier": "official",
+      "chars": 27997
+    },
+    {
+      "id": "d2",
+      "url": "https://www.cntraveler.com/hotels/quebec-city/fairmont-le-chateau-frontenac",
+      "tier": "editorial",
+      "chars": 8751
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fairmont.com/en/hotels/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "chars": 931
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is located within the walls of Old Québec, a UNESCO World Heritage site.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The hotel is ideally located within the walls of Old Québec, a UNESCO World Heritage site.",
+          "note": "location",
+          "confirmed": true,
+          "url": "https://www.fairmont.com/en/hotels/quebec-city/fairmont-le-chateau-frontenac.html",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel sits at the edge of the Dufferin Terrace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Perched right at the edge of the Dufferin Terrace, the Château Frontenac",
+          "note": "edge of terrace",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/quebec-city/fairmont-le-chateau-frontenac",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel has four restaurants and bars.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The Château Frontenac boasts four restaurants and bars throughout the property",
+          "note": "four",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/quebec-city/fairmont-le-chateau-frontenac",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Champlain is a restaurant with a tasting menu, and tables are not always easy to get, so booking ahead is advised.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "the tasting menu at Champlain",
+          "note": "tasting menu",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/quebec-city/fairmont-le-chateau-frontenac",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "grabbing a table at Champlain is not always easy, and you’ll definitely want to book ahead",
+          "note": "booking",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/quebec-city/fairmont-le-chateau-frontenac",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Afternoon tea is served at Place Dufferin on weekends.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Weekend afternoon tea at Place Dufferin is also well worth making time for",
+          "note": "weekend tea",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/quebec-city/fairmont-le-chateau-frontenac",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Fairmont Gold guests have access to a lounge with complimentary breakfast and evening canapes, and a private check-in and check-out on the 14th floor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Access to a luxurious lounge with complimentary Breakfast and Evening Canapes, private check-in/out on 14th floor",
+          "note": "gold",
+          "confirmed": true,
+          "url": "https://www.fairmont.com/en/hotels/quebec-city/fairmont-le-chateau-frontenac.html",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Signature Two Double room has a living room with a sofabed and is described as ideal for families and long-stay guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Spacious and elegant open space, living room with sofabed, ideal for families and long-stay guests",
+          "note": "room",
+          "confirmed": true,
+          "url": "https://www.fairmont.com/en/hotels/quebec-city/fairmont-le-chateau-frontenac.html",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel has a spa called Moment Spa Le Château Frontenac.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Moment Spa Le Château Frontenac",
+          "note": "spa name",
+          "confirmed": true,
+          "url": "https://www.fairmont.com/en/hotels/quebec-city/fairmont-le-chateau-frontenac.html",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The hotel also has a jacuzzi, a hammam and a sauna.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "It also has a jacuzzi, a hammam and a sauna you can use to relax.",
+          "note": "wellness",
+          "confirmed": true,
+          "url": "https://www.fairmont.com/en/hotels/quebec-city/fairmont-le-chateau-frontenac.html",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel has a concierge team in the main lobby that can arrange city tours, limousine transportation or restaurant reservations.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "the Concierge is located in the main lobby. The concierge team will happily arrange city tours, limousine transportation or restaurant reservations.",
+          "note": "concierge",
+          "confirmed": true,
+          "url": "https://www.fairmont.com/en/hotels/quebec-city/fairmont-le-chateau-frontenac.html",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Bar 1608, next to Champlain, is designed to look like a clock paused in time.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "the adjacent 1608 bar which is designed to look like a clock paused in time",
+          "note": "bar 1608",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/quebec-city/fairmont-le-chateau-frontenac",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The hotel has a heated indoor pool with a view of Old Quebec.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "the hotel has a heated indoor pool with a spectacular view of Old Quebec",
+          "note": "pool",
+          "confirmed": true,
+          "url": "https://www.fairmont.com/en/hotels/quebec-city/fairmont-le-chateau-frontenac.html",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "An outdoor terrace just beyond the pool has a small bar and lounge chairs overlooking Old Quebec.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "There’s a somewhat hidden outdoor terrace area just beyond the pool with a small bar and lounge chairs that overlook some of the prettiest parts of Vieux Quebec",
+          "note": "terrace",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/quebec-city/fairmont-le-chateau-frontenac",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Valet parking is available for an additional fee.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Yes, valet parking is $55 CAD per night, including in and out privileges.",
+          "note": "valet fee",
+          "confirmed": true,
+          "url": "https://www.fairmont.com/en/hotels/quebec-city/fairmont-le-chateau-frontenac.html",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Parking available for an additional fee",
+          "note": "fee",
+          "confirmed": true,
+          "url": "https://www.fairmont.com/en/hotels/quebec-city/fairmont-le-chateau-frontenac.html",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the historic building may have smaller room sizes.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

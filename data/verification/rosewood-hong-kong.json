@@ -1,0 +1,406 @@
+{
+  "hotel_slug": "rosewood-hong-kong",
+  "hotel_name": "Rosewood Hong Kong",
+  "checked_at": "2026-10-14T06:05:37.947Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.rosewoodhotels.com/en/hong-kong",
+      "tier": "official",
+      "chars": 10052
+    },
+    {
+      "id": "d2",
+      "url": "https://www.rosewoodhotels.com/en/hong-kong/dining/",
+      "tier": "official",
+      "chars": 2658
+    },
+    {
+      "id": "d3",
+      "url": "https://www.cntraveler.com/hotels/hong-kong/rosewood-hong-kong",
+      "tier": "editorial",
+      "chars": 7045
+    },
+    {
+      "id": "d4",
+      "url": "https://www.rosewoodhotels.com/en/hong-kong/accommodation/",
+      "tier": "official",
+      "chars": 10052
+    },
+    {
+      "id": "d5",
+      "url": "https://www.rosewoodhotels.com/en/hong-kong/dining/chaat/",
+      "tier": "official",
+      "chars": 10052
+    },
+    {
+      "id": "d6",
+      "url": "https://www.rosewoodhotels.com/en/hong-kong/dining/darkside/",
+      "tier": "official",
+      "chars": 10052
+    },
+    {
+      "id": "d7",
+      "url": "https://www.rosewoodhotels.com/en/hong-kong/dining/marmo-bistro/",
+      "tier": "official",
+      "chars": 10052
+    },
+    {
+      "id": "d8",
+      "url": "https://www.rosewoodhotels.com/en/hong-kong/dining/bayfare-social/",
+      "tier": "official",
+      "chars": 10052
+    },
+    {
+      "id": "d9",
+      "url": "https://www.rosewoodhotels.com/en/hong-kong/dining/the-legacy-house/",
+      "tier": "official",
+      "chars": 5426
+    },
+    {
+      "id": "d10",
+      "url": "https://www.rosewoodhotels.com/en/hong-kong/wellness/spa/",
+      "tier": "official",
+      "chars": 5426
+    },
+    {
+      "id": "d11",
+      "url": "https://www.rosewoodhotels.com/en/hong-kong/experiences/calendar/",
+      "tier": "official",
+      "chars": 10052
+    },
+    {
+      "id": "d12",
+      "url": "https://www.rosewoodhotels.com/en/hong-kong/experiences/curated-cultural-journeys-in-hong-kong/",
+      "tier": "official",
+      "chars": 10052
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel's address is 18 Salisbury Road, Hong Kong.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "No18, Salisbury Rd, Hong Kong",
+          "note": "address in CNT contact block",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/hong-kong/rosewood-hong-kong",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is near the Hong Kong Museum of Art, the harbourfront promenade and K11 Musea.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "renaissance in the area, which has seen the nearby Hong Kong Museum of Art and the harborfront promenade revamped, as well as the advent of K11 Musea",
+          "note": "all three named as in the area",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/hong-kong/rosewood-hong-kong",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The metro and ferries are close to the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Both the metro and ferries are more or less on the doorstep.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/hong-kong/rosewood-hong-kong",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel's owners, the Cheng family, originally came from Shunde in mainland China.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The Cheng family owners originally came from Shunde in mainland China.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/hong-kong/rosewood-hong-kong",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Legacy House is a Cantonese restaurant overlooking Victoria Harbour that celebrates the culinary traditions of Guangdong province.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Overlooking Victoria Harbour, this Cantonese restaurant celebrates culinary traditions from China's Guangdong province.",
+          "note": "Legacy House entry",
+          "confirmed": true,
+          "url": "https://www.rosewoodhotels.com/en/hong-kong/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "CHAAT serves refined Indian cuisine inspired by India's street food and homemade classics.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Refined Indian cuisine inspired by the vibrant street food and homemade classics of India.",
+          "note": "CHAAT entry",
+          "confirmed": true,
+          "url": "https://www.rosewoodhotels.com/en/hong-kong/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Bayfare Social serves Spanish cuisine and has a terrace with a view of Victoria Harbour.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Serving delectable Spanish cuisine made from fresh seasonal fare. Enjoy the magnificent view of Hong Kong's Victoria Harbour from the terrace.",
+          "note": "Bayfare Social entry",
+          "confirmed": true,
+          "url": "https://www.rosewoodhotels.com/en/hong-kong/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "DarkSide is a cocktail parlour with rare aged spirits and a live jazz band.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "A cocktail parlour of rare aged spirits, award winning cocktails and a sultry live jazz band.",
+          "note": "DarkSide entry",
+          "confirmed": true,
+          "url": "https://www.rosewoodhotels.com/en/hong-kong/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "BluHouse serves Italian food and donates 1% of its revenue to support underserved groups in the neighbouring community.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Taste the vibrant flavors of Italy at BluHouse. A 'business with purpose', 1% of revenue is donated to support underserved groups in the neighbouring community.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.rosewoodhotels.com/en/hong-kong/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Suites come with personalised butler service and Manor Club access.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "with a total of 91 suites enhanced by personalised butler service and Manor Club access",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.rosewoodhotels.com/en/hong-kong",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The spa floor also has a harbour-facing gym, an infinity pool and a Rossano Ferretti HairSpa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "On the same floor, you'll find a harbor-facing gym, 25-metre infinity pool, and Rossano Ferretti HairSpa.",
+          "note": "same floor as Asaya",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/hong-kong/rosewood-hong-kong",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The hotel's Cultural Ambassador curates bespoke itineraries, from temples and historical architecture to the local dining scene.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Whether you’re looking for spiritual temples and historical architecture, or the taste of the local dining scene, allow our Cultural Ambassador to curate your bespoke",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.rosewoodhotels.com/en/hong-kong",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Butterfly Room serves afternoon tea surrounded by butterfly art by Damien Hirst.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Savour a glamorous afternoon tea and refined savoury bites at this award-winning destination, surrounded by breathtaking butterfly art by Damien Hirst.",
+          "note": "The Butterfly Room entry",
+          "confirmed": true,
+          "url": "https://www.rosewoodhotels.com/en/hong-kong/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Legacy House is a MICHELIN Guide Hong Kong Macau one-star restaurant for 2024 to 2026.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "MICHELIN Guide Hong Kong Macau one-star restaurant 2024 - 2026",
+          "note": "listed under The Legacy House",
+          "confirmed": true,
+          "url": "https://www.rosewoodhotels.com/en/hong-kong",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "CHAAT is a MICHELIN Guide Hong Kong Macau one-star restaurant for 2022 to 2026.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "MICHELIN Guide Hong Kong Macau one-star restaurant 2022 - 2026",
+          "note": "listed under CHAAT",
+          "confirmed": true,
+          "url": "https://www.rosewoodhotels.com/en/hong-kong",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Asaya, the hotel's spa by Guerlain, occupies an entire floor of the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Asaya, occupying an entire floor",
+          "note": "entire floor",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/hong-kong/rosewood-hong-kong",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Step into Asaya Spa by Guerlain",
+          "note": "spa by Guerlain",
+          "confirmed": true,
+          "url": "https://www.rosewoodhotels.com/en/hong-kong",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Guests can stay overnight in an Asaya Lodge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The option to stay overnight in a tranquil Asaya Lodge is a clever addition.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/hong-kong/rosewood-hong-kong",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "WhataHotel notes premium pricing that reflects the ultra-luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes limited outdoor space due to the urban setting.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

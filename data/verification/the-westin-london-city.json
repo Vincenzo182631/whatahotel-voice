@@ -1,0 +1,323 @@
+{
+  "hotel_slug": "the-westin-london-city",
+  "hotel_name": "The Westin London City",
+  "checked_at": "2026-11-05T10:09:02.362Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 15,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 16
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/lonwi-the-westin-london-city/overview/",
+      "tier": "official",
+      "chars": 25099
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/lonwi-the-westin-london-city/rooms/",
+      "tier": "official",
+      "chars": 11212
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/lonwi-the-westin-london-city/dining/",
+      "tier": "official",
+      "chars": 9840
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/lonwi-the-westin-london-city/experiences/",
+      "tier": "official",
+      "chars": 13127
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel overlooks Bankside and is a few minutes from the West End and South Bank.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Overlooking bankside, and a few minutes away from the West End and South Bank",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lonwi-the-westin-london-city/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Some rooms have views of St Paul's Cathedral.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "1 Bedroom Suite, 1 King, St. Paul's view",
+          "note": "St Paul's Duplex listing",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lonwi-the-westin-london-city/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Presidential Suite has a private terrace facing the sunset over St Paul's.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Watch the sun setting on St. Paul’s from the comfort of your private terrace.",
+          "note": "Presidential Suite",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lonwi-the-westin-london-city/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Room interiors feature oak timber panelling, rich green hues and curved lines inspired by nature.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "furnishings seek inspiration from the natural world in its purest form and feature oak timber panelling, rich green hues, matt finishes, and curved lines.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lonwi-the-westin-london-city/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The fitness studio has Technogym bikes and equipment, TRX and a Hypervolt recovery station.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "From a world-class bike experience with Technogym bikes to TRX to Technogym exercise equipment and a bespoke Hypervolt recovery station",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lonwi-the-westin-london-city/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Champagne bar is run in partnership with Taittinger and offers flight tastings with City views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our Taittinger champagne bar in London offers Signature and Vintage Cuvée references, plus flight tastings with City views.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lonwi-the-westin-london-city/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The hotel operates a cashless policy.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Please note that we are operating a cashless policy.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lonwi-the-westin-london-city/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "One dog up to 15 kilograms is welcome per room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "1 pet 15 kg or less",
+          "note": "one pet",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lonwi-the-westin-london-city/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "We are welcoming mid-sized dogs and smaller ones (so long as your friend weighs up to 15kg).",
+          "note": "dogs",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lonwi-the-westin-london-city/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Heavenly Spa by Westin has a swimming pool, steam room, sauna, sensorial shower, vitality pool and ice fountain.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "a 12-metre swimming pool, steam room and sauna, a sensorial shower, vitality pool and ice fountain.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lonwi-the-westin-london-city/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Each residence has three bedrooms, a balcony overlooking the River Thames and a fully equipped kitchen.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Each residence boasts three bedrooms, a balcony overlooking the River Thames, and a fully equipped kitchen.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lonwi-the-westin-london-city/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The St Paul's Duplex Suites have floor-to-ceiling windows over two floors and a one-bedroom mezzanine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "These one-of-a-kind Duplex Suites feature floor-to-ceiling windows over two floors offering the ultimate London experience. These exclusives suites offer a one-bedroom mezzanine",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lonwi-the-westin-london-city/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The hotel sits between the City of London and the River Thames.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Nestled between the City of London and the River Thames",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lonwi-the-westin-london-city/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Hithe + Seek is a riverside bar and kitchen with unobstructed views across the River Thames.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Hithe + Seek is a riverside bar and kitchen with unobstructed views across the River Thames",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lonwi-the-westin-london-city/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "None of the hotel rooms face the River Thames; the river view is from the Hithe + Seek wine bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "None of our hotel rooms face the River Thames however you will be able to enjoy the river view from our beautiful wine bar Hithe + Seek.",
+          "note": "stated (residences listed separately with river view)",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lonwi-the-westin-london-city/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The nearest public car park, NCP Thames Vintry, is about a 10-minute walk away.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The closest car parking facilities to the property are the NCP Thames Vintry, this is a locally managed parking facility that is circa 10-minute walk to the property.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lonwi-the-westin-london-city/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the business district can be quieter on weekends.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "waldorf-astoria-chengdu",
+  "hotel": {
+    "name": "Waldorf Astoria Chengdu",
+    "url": "https://www.whatahotel.com/hotels/4170/waldorf-astoria-chengdu.html"
+  },
+  "chain": {
+    "name": "Hilton"
+  },
+  "checked_at": "2026-10-14T23:02:09.037Z",
+  "status": "needs_review",
+  "benefits": [
+    {
+      "kind": "breakfast",
+      "status": "confirmed",
+      "qualifiers": [],
+      "hotel_excerpt": "Free Breakfast for 2 Daily"
+    },
+    {
+      "kind": "wifi",
+      "status": "confirmed",
+      "qualifiers": [],
+      "hotel_excerpt": "Free Wi-Fi Access"
+    },
+    {
+      "kind": "upgrade",
+      "status": "confirmed",
+      "qualifiers": [
+        "availability"
+      ],
+      "hotel_excerpt": "Priority Upgrade if Available at Check-in"
+    },
+    {
+      "kind": "credit",
+      "status": "confirmed",
+      "amount": 100,
+      "qualifiers": [],
+      "hotel_excerpt": "$100 Credit"
+    },
+    {
+      "kind": "combinable",
+      "status": "unclear",
+      "qualifiers": [],
+      "hotel_excerpt": "Combinable with the Exclusive Perks"
+    }
+  ],
+  "issues": [
+    "no WhataHotel chain page found for this hotel; the chain cross-check was skipped (pass --chain-url to add it)",
+    "credit: WhataHotel mentions a higher credit for suites; the closing states only the perks table's amount",
+    "combinable: the chain page could not be checked, so combinability is not stated"
+  ],
+  "special_offers": [],
+  "restrictions": [],
+  "closing": {
+    "template": "look-for",
+    "text": "Look for the WhataHotel preferred rate, which brings free Wi-Fi access, free breakfast for two every day, a $100 property credit, and priority consideration for a room upgrade at check-in, subject to availability.",
+    "words": 33,
+    "benefits": [
+      "breakfast",
+      "wifi",
+      "upgrade",
+      "credit"
+    ]
+  }
+}

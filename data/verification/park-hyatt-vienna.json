@@ -1,0 +1,374 @@
+{
+  "hotel_slug": "park-hyatt-vienna",
+  "hotel_name": "Park Hyatt Vienna",
+  "checked_at": "2026-10-13T08:32:38.050Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 0,
+      "total": 17
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/vieph-park-hyatt-vienna",
+      "tier": "official",
+      "chars": 8489
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/vieph-park-hyatt-vienna/rooms/",
+      "tier": "official",
+      "chars": 13629
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/vieph-park-hyatt-vienna/dining/",
+      "tier": "official",
+      "chars": 5675
+    },
+    {
+      "id": "d4",
+      "url": "https://www.cntraveler.com/hotels/vienna/park-hyatt-vienna",
+      "tier": "editorial",
+      "chars": 4285
+    },
+    {
+      "id": "d5",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/vieph-park-hyatt-vienna/parking-and-transportation/",
+      "tier": "official",
+      "chars": 1764
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/vieph-park-hyatt-vienna/hotel-info/",
+      "tier": "official",
+      "chars": 472
+    },
+    {
+      "id": "d7",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/vieph-park-hyatt-vienna/reviews/",
+      "tier": "official",
+      "chars": 14425
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel occupies the reimagined former Austrian Monarchy Bank building.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "the Golden Quarter hotel occupies the reimagined 1915 Austrian Monarchy Bank",
+          "note": "editorial states hotel occupies reimagined Austrian Monarchy Bank",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/vienna/park-hyatt-vienna",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The building is a sandstone structure with columns and carved embellishments.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "an imposing sandstone structure with columns and carved embellishments",
+          "note": "stated verbatim",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/vienna/park-hyatt-vienna",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The Golden Quarter luxury shopping district is only steps away from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Shop in the most luxurious boutiques at the exclusive Golden Quarter (Goldenes Quartier), only steps away from the hotel",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/vieph-park-hyatt-vienna",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Every room features elements of wood, marble and mother-of-pearl.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Elements of wood, marble and mother-of-pearl welcome you in every room.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/vieph-park-hyatt-vienna/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Bathrooms are marble, with a separate bathtub and rain shower and heated floors.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Relax in a spacious marble bathroom with separate bathtub and rain shower, heated floors and exclusive amenities.",
+          "note": "all elements stated",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/vieph-park-hyatt-vienna/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Bank Brasserie has an open show kitchen where diners can watch the chefs at work.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The open show kitchen allows diners to watch and follow the chefs preparing delicious menus using high-quality products.",
+          "note": "stated in The Bank Brasserie & Bar section",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/vieph-park-hyatt-vienna/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Cafe Am Hof offers cakes, chocolates and tartes made by the team of Chef Patissier Oliver Ivanschits.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The display is filled with delicious cakes, chocolates and tartes lovingly prepared by the team around Chef Patissier Oliver Ivanschits.",
+          "note": "stated in Cafe Am Hof section",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/vieph-park-hyatt-vienna/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The Rossano Ferretti Hairspa is located in the hotel's former Living Room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Rossano Ferretti Hairspa is located at the former Living Room of Park Hyatt Vienna",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/vieph-park-hyatt-vienna",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Dogs receive a Very Important Dog service with treats on arrival, a dog bed and a dog bowl.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "we offer our Very Important Dog service, which includes dog treats upon arrival, a comfortable dog bed for the night and a dog bowl.",
+          "note": "all elements stated",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/vieph-park-hyatt-vienna",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Arany Spa is set in the building's former vault, and gold-bar-shaped tiles line its swimming pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "the former vault has been transformed into the Arany Spa, where gold-bar-shaped tiles line the nearly 50-foot-long swimming pool.",
+          "note": "both elements stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/vienna/park-hyatt-vienna",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Bank Brasserie & Bar is housed in the former central cashier hall.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The central cashier hall now houses the Bank Brasserie & Bar",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/vienna/park-hyatt-vienna",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Wall decorations are inspired by brooches designed by Art Nouveau artist Carl Otto Czeschka.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "maximalist wall decorations inspired by blown-up brooches originally designed by Art Nouveau artist Carl Otto Czeschka",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/vienna/park-hyatt-vienna",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "From May to October, the outdoor terrace becomes the Bollicafe, run in collaboration with Champagne Bollinger.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "From May to October, the elegant outdoor terrace of Park Hyatt Vienna transforms into the Bollicafé in collaboration with Champagne Bollinger",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/vieph-park-hyatt-vienna/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Grand Salon ballroom is where bank directors of the Laenderbank once conducted negotiations.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "this ballroom is bursting with history. Where once bank directors of the Länderbank conducted negotiations, today all types of events can be held within this historic space.",
+          "note": "stated in Grand Salon section",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/vieph-park-hyatt-vienna",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Self-parking is in the public Am Hof car park in front of the hotel, which has a height restriction of 2.05 metres.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Guests can use the public car park (Am Hof) in front of the hotel for self-parking.",
+          "note": "self-parking location stated",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/vieph-park-hyatt-vienna/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The car park has a height restriction of 2.05 metres.",
+          "note": "height restriction stated",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/vieph-park-hyatt-vienna/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The weekend brunch at The Bank Brasserie is not available in July and August.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Experience a delightful weekend at our luxurious brunch at The Bank Brasserie.",
+          "note": "weekend brunch at The Bank Brasserie",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/vieph-park-hyatt-vienna/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Not available in July and August.",
+          "note": "listed under Brunch hours",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/vieph-park-hyatt-vienna/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "Children under 16 can use the spa only when accompanied by an adult, from 11 a.m. to 6 p.m.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Children under the age of 16 are welcome when accompanied by an adult from 11 a.m.–6 p.m. daily.",
+          "note": "stated in Arany Spa / wellbeing section",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/vieph-park-hyatt-vienna",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

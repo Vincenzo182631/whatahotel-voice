@@ -1,0 +1,302 @@
+{
+  "hotel_slug": "the-westin-perth",
+  "hotel_name": "The Westin Perth",
+  "checked_at": "2026-11-05T10:09:42.119Z",
+  "script_version": 1,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 14,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 15
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/perwi-the-westin-perth/overview/",
+      "tier": "official",
+      "chars": 18781
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/perwi-the-westin-perth/rooms/",
+      "tier": "official",
+      "chars": 8237
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/perwi-the-westin-perth/rooms/suites/",
+      "tier": "official",
+      "chars": 3871
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/perwi-the-westin-perth/dining/",
+      "tier": "official",
+      "chars": 8301
+    },
+    {
+      "id": "d5",
+      "url": "https://www.marriott.com/en-us/hotels/perwi-the-westin-perth/experiences/",
+      "tier": "official",
+      "chars": 13027
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Elizabeth Quay, Kings Park, the Art Gallery of WA and the nightlife of Northbridge and the CBD are a short walk away.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Elizabeth Quay, Kings Park, The Art Gallery of WA and the bustling Perth city nightlife in Northbridge and the Perth CBD, are only a short walk away",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/perwi-the-westin-perth/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Hibernian Place, with its cafes and restaurants, is on the hotel's doorstep.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Hibernian Place is home to cafes and restaurants on the doorstop of The Westin Perth.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/perwi-the-westin-perth/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Rooms have floor-to-ceiling windows that bring in natural light.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Ceiling to floor windows enhance natural light.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/perwi-the-westin-perth/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Westin Executive suites have floor-to-ceiling windows with city views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "soak in scenic city views from the spacious Westin Executive suites which boast floor-to-ceiling windows",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/perwi-the-westin-perth/rooms/suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Westin Club Lounge offers breakfast, evening drinks and canapes, and all-day use with tea, coffee and refreshments.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Westin Club Lounge offers daily benefits including breakfast, evening drinks and canapés, and use of the lounge throughout the day with complimentary tea, coffee and refreshments.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/perwi-the-westin-perth/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Haven Lounge serves a seasonal High Tea.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Step into the elegant surrounds of Haven Lounge and enjoy our seasonal High Tea.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/perwi-the-westin-perth/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Westin Workout Fitness Studio has TRX functional training equipment.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Featuring TRX functional training equipment, work out your way whilst travelling.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/perwi-the-westin-perth/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel has a Strava running map with a running route through Perth city.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Take advantage of The Westin Perth Strava running map with a comprehensive running route throughout the Perth city",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/perwi-the-westin-perth/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The outdoor pool is on level 5, with a heated outdoor rain shower.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Dive into a complete sense of serenity on level 5 of our hotel with an outdoor pool in Perth and finish with a rejuvenating heated outdoor rain shower.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/perwi-the-westin-perth/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The hotel is home to BODHI Westin, a holistic wellness spa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "BODHI Westin is a stand-out holistic wellness destination, set in the five-star surrounds of The Westin Perth.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/perwi-the-westin-perth/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Presidential Suite is on the top floor, with a balcony, sauna, separate lounge, dining area and kitchen.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "a top floor location, spectacular views of the surrounding suburbs of Perth, a balcony, sauna, separate lounge, dining, kitchen,",
+          "note": "Presidential suite",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/perwi-the-westin-perth/rooms/suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The hotel is in Perth's east end, towering over Hibernian Place, a short stroll from the city's shopping, business, dining and cultural hub.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Positioned in the city's east end and towering over idyllic Hibernian Place, The Westin Perth is a short stroll from Perth's shopping, business, dining and cultural hub.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/perwi-the-westin-perth/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Garum is a Roman osteria by chef Guy Grossi, housed in historic Hibernian Hall.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "our Roman Osteria, a collaboration between Guy Grossi and The Westin Perth, housed in the stunning surrounds of historic Hibernian Hall.",
+          "note": "Garum",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/perwi-the-westin-perth/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Club Lounge evening drinks and canapes are for guests 18 and over; children are welcome at other times.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Drinks & canapes are available for guests 18+years 5pm-7pm. Children welcome all other times.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/perwi-the-westin-perth/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes the urban setting may not suit guests seeking a quiet retreat.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

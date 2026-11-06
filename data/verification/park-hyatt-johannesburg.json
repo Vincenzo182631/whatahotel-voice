@@ -1,0 +1,420 @@
+{
+  "hotel_slug": "park-hyatt-johannesburg",
+  "hotel_name": "Park Hyatt Johannesburg",
+  "checked_at": "2026-10-13T08:43:01.854Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/johpj-park-hyatt-johannesburg",
+      "tier": "official",
+      "chars": 8071
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/johpj-park-hyatt-johannesburg/rooms/",
+      "tier": "official",
+      "chars": 5248
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/johpj-park-hyatt-johannesburg/dining/",
+      "tier": "official",
+      "chars": 3137
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/johpj-park-hyatt-johannesburg/parking-and-transportation/",
+      "tier": "official",
+      "chars": 1440
+    },
+    {
+      "id": "d5",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/johpj-park-hyatt-johannesburg/hotel-info/",
+      "tier": "official",
+      "chars": 1810
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is at 6 Tottenham Avenue in Johannesburg.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "6 Tottenham Avenue, Johannesburg, 2196, South Africa",
+          "note": "address stated",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/johpj-park-hyatt-johannesburg",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel keeps original architectural details and has courtyard gardens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Original architectural details, tranquil courtyard gardens and exquisitely appointed interiors",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/johpj-park-hyatt-johannesburg",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The heated outdoor pool is set amid manicured gardens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Experience the crystal-blue waters of our outdoor pool, set amidst beautifully manicured gardens.",
+          "note": "outdoor pool amid gardens",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/johpj-park-hyatt-johannesburg",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "views across the hotel's tranquil courtyard gardens and heated pool",
+          "note": "pool is heated",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/johpj-park-hyatt-johannesburg/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Room 32 serves a Sunday brunch.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Experience understated luxury at brunch in Room 32 at Park Hyatt Johannesburg.",
+          "note": "brunch in Room 32",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/johpj-park-hyatt-johannesburg",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Indulge in an elegant Sunday brunch",
+          "note": "Sunday brunch",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/johpj-park-hyatt-johannesburg",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Lounge offers artisanal cocktails and light bites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The Lounge offers a refined atmosphere with artisanal cocktails and light bites",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/johpj-park-hyatt-johannesburg/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Rooms have a private patio and lounge, plus a bathtub, an open-plan shower and dual granite-top vanities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "A private patio and lounge extend the living space outdoors, while a statement bathtub, open-plan shower and dual granite-top vanities complete the spacious bathroom.",
+          "note": "1 King Bed room description",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/johpj-park-hyatt-johannesburg/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Parking is free, and valet parking is available.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Valet Parking\n\nFree\n\nSelf-Parking\n\nFree",
+          "note": "free parking incl. valet",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/johpj-park-hyatt-johannesburg/hotel-info/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Valet parking is available.",
+          "note": "valet available",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/johpj-park-hyatt-johannesburg/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Gautrain station is 0.4 kilometers from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Gautrain station\n\n0.4 Kilometers",
+          "note": "distance stated",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/johpj-park-hyatt-johannesburg/hotel-info/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Airport transfers are offered by Mercedes EQS or Mercedes V-Class.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Premium airport transfer and valet service options",
+          "note": "airport transfers",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/johpj-park-hyatt-johannesburg/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Mercedes EQS - Luxury electric sedan",
+          "note": "EQS option",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/johpj-park-hyatt-johannesburg/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Mercedes V-Class - Spacious and elegant",
+          "note": "V-Class option",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/johpj-park-hyatt-johannesburg/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel earned a One Key distinction from the Michelin Travel Guide in 2025.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Park Hyatt Johannesburg earned a One Key distinction from the Michelin Travel Guide in 2025",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/johpj-park-hyatt-johannesburg",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel was recognized among Time Magazine's World's Greatest Places in 2026.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "earned recognition among Time Magazine’s World’s Greatest Places in 2026",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/johpj-park-hyatt-johannesburg",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel is set within a restored landmark by Sir Herbert Baker in the heart of Rosebank.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Set within a restored landmark by Sir Herbert Baker in the heart of Rosebank",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/johpj-park-hyatt-johannesburg",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Room 32 is built around cooking over flame with locally sourced ingredients, celebrating South African flavors through a la carte selections and tasting menus.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Built around the art of cooking over flame and the finest locally sourced ingredients, Room 32 celebrates the richness and diversity of South African flavors through elegant à la carte selections and immersive tasting menus.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/johpj-park-hyatt-johannesburg/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The hotel offers a Personal Concierge and Butler Service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "our exclusive Personal Concierge and Butler Service",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/johpj-park-hyatt-johannesburg",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Wellness Suite has a private lounge, a hot tub and wellness-focused amenities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "A private lounge, hot tub and wellness-focused amenities create an elevated residential experience",
+          "note": "Wellness Suite description",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/johpj-park-hyatt-johannesburg/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Terrace offers alfresco dining with views of Rosebank.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The Terrace provides alfresco dining with stunning views of Rosebank",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/johpj-park-hyatt-johannesburg/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The spa is still being created; in the meantime, wellness treatments are offered in-room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our Wellness Suite and spa are in the process of being thoughtfully created to offer an elevated, holistic experience. In the meantime, in-room wellness treatments are available.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/johpj-park-hyatt-johannesburg",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The meeting space is small, accommodating up to 16 guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Accommodating up to 16 guests, the meeting space is complemented by advanced technology",
+          "note": "capacity 16 guests",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/johpj-park-hyatt-johannesburg",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the urban setting may lack a traditional safari lodge atmosphere.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

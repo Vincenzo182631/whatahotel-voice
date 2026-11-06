@@ -1,0 +1,323 @@
+{
+  "hotel_slug": "westin-galleria-houston",
+  "hotel_name": "Westin Galleria Houston",
+  "checked_at": "2026-11-05T10:12:15.028Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 15,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 16
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/hougw-the-westin-galleria-houston/overview/",
+      "tier": "official",
+      "chars": 17044
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/hougw-the-westin-galleria-houston/rooms/",
+      "tier": "official",
+      "chars": 10899
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/hougw-the-westin-galleria-houston/experiences/",
+      "tier": "official",
+      "chars": 9875
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/hougw-the-westin-galleria-houston/dining/",
+      "tier": "official",
+      "chars": 8008
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is in Uptown Houston.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Our beautifully renovated hotel is in the heart of up-town",
+          "note": "Uptown",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/hougw-the-westin-galleria-houston/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The Galleria is Texas' largest shopping center.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Galleria, Texas’ largest shopping center",
+          "note": "largest",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/hougw-the-westin-galleria-houston/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Galleria has 400 stores and restaurants across more than 2.4 million square feet.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "With over 2.4 million square feet of space, 400 stores and restaurants, The Galleria is Houston's most popular retail and tourist destination",
+          "note": "size",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/hougw-the-westin-galleria-houston/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Suites can be configured with one or two bedrooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "tailorable to meet your needs with one, or two bedroom configurations",
+          "note": "suites",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/hougw-the-westin-galleria-houston/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The fitness studio has Peloton bikes, free weights and cross trainers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "boasting cardiovascular equipment, with Peloton® bikes, free weights and cross trainers",
+          "note": "gym",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/hougw-the-westin-galleria-houston/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Guests can request WestinWORKOUT gear lending kits with Hyperice and Bala recovery and strength gear.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Stay active while traveling with WestinWORKOUT® Gear Lending Kits. We've partnered with fitness experts Hyperice & Bala to bring you top recovery and strength gear. Request a kit during your stay!",
+          "note": "kits",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/hougw-the-westin-galleria-houston/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The hotel has an outdoor pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Yes, The Westin Galleria Houston has one Outdoor pool on-site for hotel guests.",
+          "note": "pool",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/hougw-the-westin-galleria-houston/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Daily Grill serves classic American dishes made from scratch for breakfast, lunch and dinner.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "our classic American dishes are made from scratch every day for breakfast, lunch, and dinner.",
+          "note": "Daily Grill",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/hougw-the-westin-galleria-houston/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The hotel is family-friendly.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Enhance your stay at our family-friendly hotel in Houston",
+          "note": "family",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/hougw-the-westin-galleria-houston/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Guests can shop at The Galleria without leaving the building.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "You don't even need to leave the building to shop in one of the largest malls in America.",
+          "note": "shopping",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/hougw-the-westin-galleria-houston/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Concierge Lounge is on the 24th floor, with panoramic views of the Houston skyline and a full hot breakfast.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Full Hot Breakfast, and snacks throughout the day, Sodas, coffee, tea, and water, and Panoramic views of the Houston skyline. The Concierge Lounge is located on the 24th floor.",
+          "note": "lounge",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/hougw-the-westin-galleria-houston/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Suites offer views of Houston.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "our suites offer awe-inspiring views of Houston.",
+          "note": "suite views",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/hougw-the-westin-galleria-houston/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Rooms have the Westin Heavenly Bed, the Heavenly Bath, White Tea amenities and deluxe robes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Newly designed appointments include the Westin Heavenly® bed and bedding, and the Westin Heavenly® Bath, Westin White Tea Heavenly amenities and deluxe robes.",
+          "note": "rooms",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/hougw-the-westin-galleria-houston/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The WestinWORKOUT Fitness Studio has panoramic views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "WestinWORKOUT Fitness Studio, boasting panoramic views",
+          "note": "gym views",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/hougw-the-westin-galleria-houston/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel is in Uptown Houston and shares its building with The Galleria mall.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "You don't even need to leave the building to shop in one of the largest malls in America.",
+          "note": "shared building",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/hougw-the-westin-galleria-houston/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Our beautifully renovated hotel is in the heart of up-town",
+          "note": "Uptown",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/hougw-the-westin-galleria-houston/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes the busy shopping center environment may lack tranquility.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

@@ -1,0 +1,442 @@
+{
+  "hotel_slug": "the-st-regis-abu-dhabi",
+  "hotel_name": "The St. Regis Abu Dhabi",
+  "checked_at": "2026-10-14T08:16:45.559Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/auhrx-the-st-regis-abu-dhabi/overview/",
+      "tier": "official",
+      "chars": 20903
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/auhrx-the-st-regis-abu-dhabi/rooms/",
+      "tier": "official",
+      "chars": 4680
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/auhrx-the-st-regis-abu-dhabi/dining/",
+      "tier": "official",
+      "chars": 8906
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/auhrx-the-st-regis-abu-dhabi/experiences/",
+      "tier": "official",
+      "chars": 18187
+    },
+    {
+      "id": "d5",
+      "url": "https://www.cntraveler.com/hotels/united-arab-emirates/abu-dhabi/st-regis-abu-dhabi",
+      "tier": "editorial",
+      "chars": 3600
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel's address is Nation Tower, on the Corniche in Abu Dhabi.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Nation Tower, Corniche, P.O. Box 60476, Abu Dhabi, United Arab Emirates",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/auhrx-the-st-regis-abu-dhabi/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is adjacent to the Nation Galleria Mall, which has more than 60 retail shops and a cinema.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Adjacent to the Nation Galleria Mall with more than 60 retail",
+          "note": "stated on page (split by a See More link)",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/auhrx-the-st-regis-abu-dhabi/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "shops, a cinema and a variety of entertainment options",
+          "note": "stated on page (split by a See More link)",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/auhrx-the-st-regis-abu-dhabi/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel is close to the Al Bateen district, Qasr Al Watan and Emirates Palace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "in close proximity to the trendy and sophisticated district of Al Bateen, Qasr Al Watan, Emirates Palace",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/auhrx-the-st-regis-abu-dhabi/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Zayed International Airport is about 8.8 kilometers from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "AUH is located approximately 8.8 KM from the hotel.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/auhrx-the-st-regis-abu-dhabi/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Rooms are finished in Statuario Royal marble with hand-tufted wool carpeting.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Statuario Royal marble immediately communicates each hotel room's elegant ambiance while hand-tufted wool carpeting imbues a relaxed refinement",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/auhrx-the-st-regis-abu-dhabi/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Rooms have floor-to-ceiling windows.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our rooms in Abu Dhabi feature floor-to-ceiling windows allowing guests to enjoy unobstructed views.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/auhrx-the-st-regis-abu-dhabi/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Marble bathrooms have dual vanities, bathtubs and separate showers with rain shower heads.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "serene marble bathrooms enhance the rejuvenating experience, thanks to dual vanities, spacious bathtubs, and separate showers with rain shower heads",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/auhrx-the-st-regis-abu-dhabi/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel offers signature 24-hour St. Regis Butler Service, with a Butler Service desk for guest requests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Signature 24-hour Butler Service and Butler Service desk for any and all guest requests",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/auhrx-the-st-regis-abu-dhabi/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "St. Regis Butler Service has been a treasured hallmark of the St. Regis experience for more than one hundred years.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/auhrx-the-st-regis-abu-dhabi/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Villa Toscana serves regional Italian specialties with Italian wines, in a decor inspired by a Tuscan villa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "brings together regional specialties from across Italy, paired with a curated selection of Italian wines and a warm décor inspired by Tuscan villa",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/auhrx-the-st-regis-abu-dhabi/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Catch at St. Regis is a seafood restaurant highlighting caviar, oysters, sushi and crabs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Seafood at Catch at St. Regis",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/auhrx-the-st-regis-abu-dhabi/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "with a highlight on Caviar sturgeons, Oysters, Sushi and Crabs",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/auhrx-the-st-regis-abu-dhabi/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Azura Panoramic Lounge sits on the pool terrace, with Corniche views and a Mediterranean and Moroccan-inspired menu.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Nestled on the pool terrace, Azura Panoramic Lounge offers sweeping Corniche views and a Mediterranean & Moroccan-inspired menu from day to night.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/auhrx-the-st-regis-abu-dhabi/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The St. Regis Spa covers 3,200 square meters.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The St. Regis Spa at The St. Regis Abu Dhabi, where its 3,200-square-meter spa",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/auhrx-the-st-regis-abu-dhabi/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Abu Dhabi Suite spans two stories on the 48th and 49th floors, with 360-degree views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "the Abu Dhabi Suite presents 360-degree views from its two-story 48th and 49th-floor location",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/auhrx-the-st-regis-abu-dhabi/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Guests have direct access to the private Nation Riviera Beach Club, which has a sandy beach, a swimming pool, a fitness center and a kids club.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "offers direct access to the private Nation Riviera Beach Club, inclusive of a fitness center, kids club and a wonderful, swimming pool in addition to its sandy beach",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/auhrx-the-st-regis-abu-dhabi/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Crystal Lounge serves signature afternoon tea and champagne on the mezzanine above the Grand Staircase, beneath a chandelier of blown glass art.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Dedicated to serving signature Afternoon tea & the finest champagnes, Crystal Lounge",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/auhrx-the-st-regis-abu-dhabi/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "located in the open space on the mezzanine level above the Grand Staircase and features an elegant chandelier of blown glass art",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/auhrx-the-st-regis-abu-dhabi/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The St. Regis Bar has three spaces and evokes New York's Gilded Age.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Comprised of 3 spaces and exuding the epitome of New York's Gilded Age, The St. Regis Bar",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/auhrx-the-st-regis-abu-dhabi/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The book-lined Library has a barrel-vaulted ceiling and offers workstations and iPads with newspapers from around the world.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "In the book-lined library, four PC workstations",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/auhrx-the-st-regis-abu-dhabi/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "A central barrel vault in the ceiling alludes to the great libraries of Europe while iPads—on which guests can access newspapers from all over the world—are available for use.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/auhrx-the-st-regis-abu-dhabi/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel does not provide an airport shuttle; a paid luxury car service is available by reservation.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "This hotel does not provide shuttle service.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/auhrx-the-st-regis-abu-dhabi/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Luxury Car Service; fee: 500.00 AED (one way); reservation required",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/auhrx-the-st-regis-abu-dhabi/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Pets are not allowed at the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "We regret that pets are not allowed at The St. Regis Abu Dhabi.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/auhrx-the-st-regis-abu-dhabi/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium luxury pricing that reflects the hotel's high-end positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

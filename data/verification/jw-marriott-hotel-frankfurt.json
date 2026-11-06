@@ -1,0 +1,391 @@
+{
+  "hotel_slug": "jw-marriott-hotel-frankfurt",
+  "hotel_name": "JW Marriott Hotel Frankfurt",
+  "checked_at": "2026-10-31T01:29:34.795Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/frajw-jw-marriott-hotel-frankfurt/overview/",
+      "tier": "official",
+      "chars": 17319
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/frajw-jw-marriott-hotel-frankfurt/rooms/",
+      "tier": "official",
+      "chars": 10136
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/frajw-jw-marriott-hotel-frankfurt/dining/",
+      "tier": "official",
+      "chars": 9563
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/frajw-jw-marriott-hotel-frankfurt/experiences/",
+      "tier": "official",
+      "chars": 14568
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel sits in Frankfurt's financial district with direct access to the MyZeil shopping center.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "the hotel sits in Frankfurt’s financial district with direct access to MyZeil shopping center",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/frajw-jw-marriott-hotel-frankfurt/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Every room and suite is at least 80 meters above ground level and has floor-to-ceiling windows.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located a minimum of 80 meters above ground level, each accommodation is furnished with floor-to-ceiling windows that maximize on the far-reaching panorama.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/frajw-jw-marriott-hotel-frankfurt/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Guestrooms and suites start at 33 square meters.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "our portfolio of guestrooms and suites starts at 33m2",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/frajw-jw-marriott-hotel-frankfurt/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Bathrooms are designed to feel like a spa, with neutral tones and chrome fixtures.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "bathrooms are reminiscent of a spa environment where neutral tones and chrome fixtures create a serene and uplifting setting",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/frajw-jw-marriott-hotel-frankfurt/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Rooms and suites are decorated with original artworks created exclusively by Hartwig Ebersbach.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Decorated with original artworks, created exclusively by Hartwig Ebersbach",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/frajw-jw-marriott-hotel-frankfurt/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Harmony Spa is on the sixth floor and has separate male and female saunas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located on the sixth floor, Harmony Spa offers a unique sensorial journey guided by highly qualified therapists. Enjoy custom facilities, including separate male and female saunas",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/frajw-jw-marriott-hotel-frankfurt/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Harmony Spa treatments use products by the French brand Sothys.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "using products by innovative French brand, Sothys",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/frajw-jw-marriott-hotel-frankfurt/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel partners with Fitness First to give guests complimentary direct access to its training facility.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "has partnered with Fitness First to offer guests complimentary direct access to its select training facility",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/frajw-jw-marriott-hotel-frankfurt/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The GRETA OTO Frankfurt restaurant is reached by a sweeping staircase that rises from the GRETA OTO Bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Located on the first floor of JW Marriott Hotel Frankfurt, the captivating restaurant is accessed via a sweeping staircase that ascends from GRETA OTO Bar.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/frajw-jw-marriott-hotel-frankfurt/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "JW Market sells the hotel's own honey, made by bees that live on the hotel rooftop.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "JW Market is a café and shop where guests can purchase regional products, such as apple wine and local vintages, as well as our own honey supplied by hotel rooftop dwelling bees.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/frajw-jw-marriott-hotel-frankfurt/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Frankfurt's Museum Embankment, with over 39 cultural institutions, is a short stroll from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "A rich tapestry of over 39 cultural institutions awaits at Frankfurt’s Museum Embankment, a short stroll from the hotel.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/frajw-jw-marriott-hotel-frankfurt/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Frankfurt Airport is about 20 minutes by car from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Only 20 minutes by car from Frankfurt International Airport",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/frajw-jw-marriott-hotel-frankfurt/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Each room and suite sits at least 80 meters up behind floor-to-ceiling windows, with views of either the city or the River Main.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located a minimum of 80 meters above ground level, each accommodation is furnished with floor-to-ceiling windows that maximize on the far-reaching panorama.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/frajw-jw-marriott-hotel-frankfurt/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "each space offers either sweeping views of the city or the River Main",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/frajw-jw-marriott-hotel-frankfurt/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Premium suites are on the building's highest floors, and suite guests get chocolates on arrival and a complimentary minibar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "our collection of premium suites, where guests enjoy luxurious amenities, such as delicious chocolates, on arrival and complimentary minibar. Located on the building’s highest floors",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/frajw-jw-marriott-hotel-frankfurt/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Fitness First facility, reached via the sixth floor, has a 20-meter indoor pool with a relaxation area and over 60 classes every week.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Reached via the sixth floor, the studio houses an extensive suite of gym equipment, alongside a 20-meter indoor pool with relaxation area. In addition, guests benefit from a motivating schedule of over 60 classes every week",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/frajw-jw-marriott-hotel-frankfurt/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Mindful Oasis has a green wall, and relaxation nooks in the lobby offer meditative soundtracks via QR code.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Step away and recenter in the Mindful Oasis where a green wall brings nature inside or discover relaxation nooks in the Lobby, each orchestrated for opportunities of reflection where meditative soundtracks can be accessed via QR code.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/frajw-jw-marriott-hotel-frankfurt/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "An apple and lemon welcome elixir, blended with thyme from the hotel's JW Garden, is served at check-in.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Our apple and lemon-infused Welcome Elixir, served at check-in, is crafted with carefully selected ingredients and blended with aromatic thyme sourced from the JW Garden.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/frajw-jw-marriott-hotel-frankfurt/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Cash payment is not possible anywhere in the hotel; all major credit cards are accepted.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Please note that cash payment is not possible throughout the hotel. We accept all major credit cards for payment.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/frajw-jw-marriott-hotel-frankfurt/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Rollaway beds are not permitted in the rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "No, the rooms at JW Marriott Hotel Frankfurt do not permit rollaway beds.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/frajw-jw-marriott-hotel-frankfurt/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing typical of luxury business hotels.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

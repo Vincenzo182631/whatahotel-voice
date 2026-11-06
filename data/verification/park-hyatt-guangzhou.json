@@ -1,0 +1,424 @@
+{
+  "hotel_slug": "park-hyatt-guangzhou",
+  "hotel_name": "Park Hyatt Guangzhou",
+  "checked_at": "2026-10-13T08:31:38.871Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/guaph-park-hyatt-guangzhou",
+      "tier": "official",
+      "chars": 13696
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/guaph-park-hyatt-guangzhou/rooms/",
+      "tier": "official",
+      "chars": 30000
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/guaph-park-hyatt-guangzhou/dining/",
+      "tier": "official",
+      "chars": 5637
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/guaph-park-hyatt-guangzhou/parking-and-transportation/",
+      "tier": "official",
+      "chars": 7963
+    },
+    {
+      "id": "d5",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/guaph-park-hyatt-guangzhou/hotel-info/",
+      "tier": "official",
+      "chars": 513
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/guaph-park-hyatt-guangzhou/reviews/",
+      "tier": "official",
+      "chars": 15627
+    },
+    {
+      "id": "d7",
+      "url": "https://www.cntraveler.com/hotels/guangzhou/park-hyatt-guangzhou",
+      "tier": "editorial",
+      "chars": 3091
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel sits on the uppermost floors of the Yingkai Square Tower, steps from the Pearl River embankment.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Set on the uppermost floors of the Yingkai Square Tower, steps from the Pearl River embankment",
+          "note": "location stated",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/guaph-park-hyatt-guangzhou",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The Yingkai Square tower was designed by Chicago-based architecture firm Goettsch Partners.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Designed by the renowned Chicago-based architecture firm Goettsch Partners",
+          "note": "architect stated",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/guaph-park-hyatt-guangzhou",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The interior design draws on the cultural heritage of the Lingnan region.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Drawing inspiration from the rich cultural heritage of the Lingnan region",
+          "note": "Lingnan heritage stated",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/guaph-park-hyatt-guangzhou",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Rooms have a marble bathroom with a deep soaking tub with a television, a double vanity and a rain shower.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Daylight enters the marble bathroom through a sliding partition, revealing a deep soaking tub with television, double vanity, and rain shower.",
+          "note": "all bathroom elements stated",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/guaph-park-hyatt-guangzhou/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Yue Jing Xuan serves Cantonese cuisine from an open kitchen.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "guests are enveloped by the rhythmic symphony of chefs in the open kitchen, each movement showcasing century-old Cantonese recipes",
+          "note": "Cantonese, open kitchen",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/guaph-park-hyatt-guangzhou/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Dining Room serves Mediterranean cuisine and Italian wines.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "As guests savor exquisite Italian wines and flavorful Mediterranean cuisine",
+          "note": "Mediterranean cuisine and Italian wines",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/guaph-park-hyatt-guangzhou/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Living Room offers afternoon tea and curated workshops.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "with curated workshops and ever-evolving afternoon tea displays",
+          "note": "workshops and afternoon tea",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/guaph-park-hyatt-guangzhou/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "In-room dining is available 24 hours.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Open 24 Hours",
+          "note": "in-room dining hours",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/guaph-park-hyatt-guangzhou/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The Spa is bathed in natural light high above the city.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Bathed in natural light high above the city, The Spa at Park Hyatt Guangzhou is a sanctuary of warmth and calm.",
+          "note": "stated verbatim",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/guaph-park-hyatt-guangzhou",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel has kids menus at all venues, and provides baby cribs and kids bathrobes and slippers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "From baby cribs to kids bathrobes and slippers, we provide everything needed for a comfortable stay. Our kids menus at all venues offer delicious options",
+          "note": "cribs, robes, slippers, kids menus",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/guaph-park-hyatt-guangzhou",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Yue Jing Xuan is listed as Michelin Guide Selected for 2018 to 2026.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "★ 2018-2026 \\| Michelin Guide “Selected”",
+          "note": "Michelin Selected 2018-2026",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/guaph-park-hyatt-guangzhou/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Meeting Salons on the 66th floor have floor-to-ceiling windows.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located on the 66th floor, the Salons offer uninterrupted city views through floor-to-ceiling windows",
+          "note": "66th floor, floor-to-ceiling windows",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/guaph-park-hyatt-guangzhou",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel displays works by Japanese artist Tadashi Kawamata, made from reclaimed wood and inspired by the dragons of Baiyun Mountain.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Japanese artist Tadashi Kawamata’s masterful creations, crafted from reclaimed wood, evoke the majestic spirit of these mythical creatures",
+          "note": "artist and material",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/guaph-park-hyatt-guangzhou",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Incorporating sculptures and installations inspired by the legendary dragons of nearby Baiyun Mountain",
+          "note": "dragon inspiration",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/guaph-park-hyatt-guangzhou",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The interiors are by Tokyo-based design firm Super Potato.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Envisioned by Tokyo-based design firm Super Potato",
+          "note": "interior designer stated",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/guaph-park-hyatt-guangzhou",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Canton Tower view rooms face south across the Pearl River toward the Canton Tower.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Facing south, guests are treated to an unobstructed view of the iconic 604-meter-high Canton Tower (1,981 feet) across the Pearl River.",
+          "note": "south-facing, across river",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/guaph-park-hyatt-guangzhou",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Roof Bar has an outdoor terrace and live music.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The Roof Bar beckons with its outdoor terrace high above the city and live music",
+          "note": "terrace and live music",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/guaph-park-hyatt-guangzhou/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Connecting room pairs share a private entrance foyer set apart from the main guestroom corridor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "These two 52 sqm rooms share a private entrance foyer set apart from the main guestroom corridor.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/guaph-park-hyatt-guangzhou/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Guangzhou Baiyun International Airport is 40 kilometers away, about 45 to 60 minutes by car depending on traffic.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Guangzhou Baiyun International Airport (CAN)40 kilometers",
+          "note": "40 km",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/guaph-park-hyatt-guangzhou/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Travel time is approximately 45–60 minutes, depending on traffic conditions.",
+          "note": "45-60 min by car",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/guaph-park-hyatt-guangzhou/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The hotel is directly connected to Zhujiang New Town metro station, and self-parking is in the tower's basement with direct elevator access to the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Directly connected to Zhujiang New Town metro station",
+          "note": "metro connection",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/guaph-park-hyatt-guangzhou/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "self-parking is available in the basement of Yingkai Square Tower, accessible from Zhujiang West 4th Street with direct elevator access to the hotel",
+          "note": "basement parking with elevator",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/guaph-park-hyatt-guangzhou/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the business-oriented location may suit leisure travelers less.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

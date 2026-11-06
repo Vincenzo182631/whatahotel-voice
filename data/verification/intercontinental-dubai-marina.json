@@ -1,0 +1,418 @@
+{
+  "hotel_slug": "intercontinental-dubai-marina",
+  "hotel_name": "InterContinental Dubai Marina",
+  "checked_at": "2026-10-30T07:32:46.286Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/dubai/dxbpl/hoteldetail",
+      "tier": "official",
+      "chars": 9702
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/dubai/dxbpl/hoteldetail/rooms/",
+      "tier": "official",
+      "chars": 4565
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/dubai/dxbpl/hoteldetail/dining/",
+      "tier": "official",
+      "chars": 5866
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/dubai/dxbpl/hoteldetail/amenities/",
+      "tier": "official",
+      "chars": 6079
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/dubai/dxbpl/hoteldetail/local-area-guide/",
+      "tier": "official",
+      "chars": 3709
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/dubai/dxbpl/hoteldetail/directions/",
+      "tier": "official",
+      "chars": 3088
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/dubai/dxbpl/hoteldetail/",
+      "tier": "official",
+      "chars": 9612
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/dubai/dxbpl/hoteldetail/hotel-reviews/",
+      "tier": "official",
+      "chars": 22618
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is in the heart of Dubai Marina, within walking distance of Jumeirah Beach, Dubai Marina Mall and the Dubai Tram.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "InterContinental Dubai Marina is in the heart of the marina, walking distance from the Jumeirah Beach, Dubai Marina Mall, and the Dubai Tram.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/dubai/dxbpl/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel puts art at the core of its design.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "At InterContinental Dubai Marina, we have put art at the core of our design.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/dubai/dxbpl/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Rooms have high-tech amenities, stylish furnishings and modern artwork.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our luxurious rooms all have high-tech amenities, stylish furnishings, and modern artwork to create a sophisticated contemporary mood.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/dubai/dxbpl/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Rooms have floor-to-ceiling windows.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "relax and enjoy the views from the glorious floor-to-ceiling windows.",
+          "note": "rooms page describes floor-to-ceiling windows",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/dubai/dxbpl/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Accommodations include Club InterContinental and residences ranging from studios to three-bedroom hotel apartments.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Club InterContinental and newly renovated residences from studios to three-bedroom spacious hotel apartments.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/dubai/dxbpl/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The hotel has a spa and a Pilates studio.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Indulge in several social dining venues, Rooftop bar, Pool, Spa, Pilates studio, and modern meeting facilities in the heart of Dubai Marina.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/dubai/dxbpl/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Beauty Spot Spa offers hydrotherapy.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "#### Beauty Spot Spa",
+          "note": "spa name",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/dubai/dxbpl/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Hydro Therapy",
+          "note": "listed under spa amenities",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/dubai/dxbpl/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The outdoor pool at Urban Lounge is heated.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "- #### Urban Lounge",
+          "note": "pool section names Urban Lounge, outdoor pool",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/dubai/dxbpl/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Water type: Heated pool",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/dubai/dxbpl/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The pool area includes a children's pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Pool type: Children's Pool",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/dubai/dxbpl/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Kids eat free at the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "- Kids eat free",
+          "note": "hotel features list",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/dubai/dxbpl/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Ginter is an intimate gin bar with white walls, retro furniture and marina views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "If you like gin, you’ll love our intimate Ginter bar.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/dubai/dxbpl/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "With white walls, retro furniture, soft music and spectacular marina views",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/dubai/dxbpl/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The hotel is single-use plastic free.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "- Single-use plastic free hotel",
+          "note": "hotel features list",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/dubai/dxbpl/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "With design furniture and bespoke art pieces throughout, the lobby doubles as an open-space gallery with statement statues and figurines.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "With design furniture and bespoke art pieces placed throughout, the lobby area doubles as an open-space gallery with statement statues and figurines.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/dubai/dxbpl/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Walk and the beach at Jumeirah Beach Residence are a short stroll from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The Walk and the Beach on Jumeirah Beach Residence have it all and they are just a short stroll from our hotel",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/dubai/dxbpl/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "At Urban Lounge, guests can sip a drink in a private cabana on the terrace as the pool sparkles against the cityscape.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Step out onto the terrace to sip a glass of champagne or a cocktail in your private cabana as the pool sparkles against the spectacular cityscape.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/dubai/dxbpl/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The penthouse is designed with warm lighting and a soft color palette with hints of green.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "warm lighting and a soft color palette with hints of green harmoniously blend to create a tranquil oasis.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/dubai/dxbpl/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The minimum check-in age is 18.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "**Minimum check-in age:** 18",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/dubai/dxbpl/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Pets are not allowed.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "No, pets are not allowed at InterContinental Dubai Marina.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/dubai/dxbpl/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the urban marina setting may not suit travelers seeking a quiet beachfront or secluded resort.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

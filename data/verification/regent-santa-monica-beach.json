@@ -1,0 +1,404 @@
+{
+  "hotel_slug": "regent-santa-monica-beach",
+  "hotel_name": "Regent Santa Monica Beach",
+  "checked_at": "2026-10-14T04:19:55.809Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://santamonica.regenthotels.com/",
+      "tier": "official",
+      "chars": 9648
+    },
+    {
+      "id": "d2",
+      "url": "https://santamonica.regenthotels.com/rooms-suites/",
+      "tier": "official",
+      "chars": 17603
+    },
+    {
+      "id": "d3",
+      "url": "https://santamonica.regenthotels.com/dining/",
+      "tier": "official",
+      "chars": 4916
+    },
+    {
+      "id": "d4",
+      "url": "https://santamonica.regenthotels.com/wellness/guerlain-spa/",
+      "tier": "official",
+      "chars": 18066
+    },
+    {
+      "id": "d5",
+      "url": "https://santamonica.regenthotels.com/experience/",
+      "tier": "official",
+      "chars": 7635
+    },
+    {
+      "id": "d6",
+      "url": "https://www.cntraveler.com/hotels/santa-monica/regent-santa-monica-beach",
+      "tier": "editorial",
+      "chars": 12752
+    },
+    {
+      "id": "d7",
+      "url": "https://santamonica.regenthotels.com/dining/orla-restaurant/",
+      "tier": "official",
+      "chars": 4362
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is at 1700 Ocean Avenue in Santa Monica.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "1700 Ocean Avenue, Santa Monica, California 90401",
+          "note": "address listed",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/santa-monica/regent-santa-monica-beach",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Regent Santa Monica Beach at 1700 Ocean Avenue, Santa Monica, CA 90401",
+          "note": "address listed",
+          "confirmed": true,
+          "url": "https://santamonica.regenthotels.com/wellness/guerlain-spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is steps from the historic Santa Monica Pier.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "You’ll be just steps from the Historical Santa Monica Pier",
+          "note": "steps from pier",
+          "confirmed": true,
+          "url": "https://santamonica.regenthotels.com/experience/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "At Orla by Michael Mina, chef Michael Mina serves cuisine inspired by his Greek and Egyptian upbringing.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Award-winning celebrity chef and global restaurateur Michael Mina showcases cuisine inspired by his Greek and Egyptian upbringing at Orla by Michael Mina.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://santamonica.regenthotels.com/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Azure Bar serves poolside cuisine and cocktails with views of the Pacific Ocean.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Bask in the sun and enjoy poolside cuisine and creative cocktails, all with breathtaking views of the Pacific Ocean as your backdrop.",
+          "note": "Azure Bar description",
+          "confirmed": true,
+          "url": "https://santamonica.regenthotels.com/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Sweet July Cafe has a menu inspired by its founder, Ayesha Curry.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Premiering an all-new menu inspired by founder Ayesha Curry’s love for farmers market-inspired California cuisine, Sweet July Café Santa Monica",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://santamonica.regenthotels.com/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Guerlain Wellness Spa covers 10,000 square feet.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Guerlain Wellness Spa spans 10,000 square feet",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://santamonica.regenthotels.com/wellness/guerlain-spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The spa has a sauna, steam room and plunge pools in each locker room, plus a co-ed Champagne room for relaxing before or after treatments.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "The spa also features a sauna, steam room, and plunge pools in each locker room as well as a co-ed Champagne room for pre- or post-treatment relaxation.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/santa-monica/regent-santa-monica-beach",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Rooms and suites come standard with entry foyers and separate living areas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "All of the Regent’s 167 rooms and suites come standard with entry foyers and separate living areas.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/santa-monica/regent-santa-monica-beach",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Rooms have spa-like bathrooms and walk-in closets with vanity seating.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Spa-like bathrooms and walk-in closets with vanity seating create an escape within your oasis.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://santamonica.regenthotels.com/rooms-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "For families, the hotel partners with Cybex for strollers and Nestig for cribs and toddler beds.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "We partnered with Cybex to provide safe and stylish strollers for breezy beachfront walks and Nestig for crafted cribs and toddler beds",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://santamonica.regenthotels.com/rooms-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Pets are welcomed through the Tides & Tails program of pet amenities and services.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Guests’ furry little friends enjoy a warm welcome with a host of pet amenities and services via our Tides & Tails program.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://santamonica.regenthotels.com/rooms-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Surf lessons are offered steps from the hotel's beach access.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Just steps from our beach access, our surf lessons offer a fun and immersive way to experience Santa Monica.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://santamonica.regenthotels.com/experience/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The property previously housed a Loews Hotel; its original atrium was kept and now serves as the main lobby and restaurant.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "The property previously housed the business traveler-focused Loews Hotel but was more or less demolished (save for the iconic atrium that serves as the main lobby and restaurant now)",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/santa-monica/regent-santa-monica-beach",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The spa is the first Guerlain Spa on the West Coast.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "The first Guerlain Spa on the West Coast",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/santa-monica/regent-santa-monica-beach",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Orla here is Michael Mina's second outpost of the restaurant; the first is at Mandalay Bay in Las Vegas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Prolific celeb chef Michael Mina has opened his second outpost of Orla here (the first is at the\nMandalay Bay\nin Las Vegas).",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/santa-monica/regent-santa-monica-beach",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Beach butler service is complimentary with a stay, including chair and umbrella setups and food and beverage service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "beach butler service is complimentary with your stay, which includes chair and umbrella setups and food and beverage service",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/santa-monica/regent-santa-monica-beach",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Orla's private dining rooms take the Odyssey as their muse, with a custom mosaic floor depicting fish and octopus.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "With the Odyssey as its muse and a custom mosaic floor depicting fish and octopus, Orla’s Private Dining Rooms",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://santamonica.regenthotels.com/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel is a few hundred yards from the beach rather than directly on the sand.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Though the Regent is a few hundred yards from the beach",
+          "note": "stated by CN Traveler",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/santa-monica/regent-santa-monica-beach",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The hotel charges a resort fee; the Regent House Car is included within it and offered on a first-arrival basis.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Offered on a first-arrival basis, included within your resort fee.",
+          "note": "Regent House Car note",
+          "confirmed": true,
+          "url": "https://santamonica.regenthotels.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the bustling beachside location may feel lively for guests seeking a secluded retreat.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

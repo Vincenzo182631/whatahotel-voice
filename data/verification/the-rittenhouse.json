@@ -1,0 +1,436 @@
+{
+  "hotel_slug": "the-rittenhouse",
+  "hotel_name": "The Rittenhouse",
+  "checked_at": "2026-10-14T23:50:47.072Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 18
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.rittenhousehotel.com/",
+      "tier": "official",
+      "chars": 5530
+    },
+    {
+      "id": "d2",
+      "url": "https://www.rittenhousehotel.com/accommodations/rooms/",
+      "tier": "official",
+      "chars": 3775
+    },
+    {
+      "id": "d3",
+      "url": "https://www.rittenhousehotel.com/accommodations/",
+      "tier": "official",
+      "chars": 5171
+    },
+    {
+      "id": "d4",
+      "url": "https://www.rittenhousehotel.com/accommodations/specialty-suites/",
+      "tier": "official",
+      "chars": 3469
+    },
+    {
+      "id": "d5",
+      "url": "https://www.rittenhousehotel.com/dining/",
+      "tier": "official",
+      "chars": 3653
+    },
+    {
+      "id": "d6",
+      "url": "https://www.cntraveler.com/hotels/philadelphia/the-rittenhouse",
+      "tier": "editorial",
+      "chars": 6896
+    },
+    {
+      "id": "d7",
+      "url": "https://www.rittenhousehotel.com/accommodations/suites/",
+      "tier": "official",
+      "chars": 3242
+    },
+    {
+      "id": "d8",
+      "url": "https://www.rittenhousehotel.com/holiday-magic-on-the-square/",
+      "tier": "official",
+      "chars": 4919
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The Rittenhouse is at 210 West Rittenhouse Square in Philadelphia.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "210 West Rittenhouse Square",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.rittenhousehotel.com/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Philadelphia, PA",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.rittenhousehotel.com/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "210 W. Rittenhouse Square, Philadelphia, Pennsylvania 19103",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/philadelphia/the-rittenhouse",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel has an atrium pool and a spa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "our relaxing atrium pool and rejuvenating treatments from the spa",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.rittenhousehotel.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Rittenhouse Spa and Club has an indoor pool, an outdoor sun deck, a fitness center and a full-service spa and salon.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "The on-site spa, The Rittenhouse Spa and Club - Hair by Paul Labrecque, is a glorious urban escape complete with an indoor pool, outdoor sun deck, fitness center, full-service spa and salon",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/philadelphia/the-rittenhouse",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Lacroix, the hotel's restaurant, has been a fixture on Rittenhouse Square for over two decades.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "A beloved fixture on Rittenhouse Square for over two decades, Lacroix has evolved into a modern expression of refined dining",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.rittenhousehotel.com/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Explore our in-house offerings below",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.rittenhousehotel.com/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Lacroix blends French bistro influence with global flavors and has a curated wine cellar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "where French bistro influence meets global flavors",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.rittenhousehotel.com/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "an expertly curated wine cellar",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.rittenhousehotel.com/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Library Bar, just off the lobby, serves classic cocktails, rare spirits and small plates.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "A spirited hideaway just off the lobby, The Library Bar is where classic cocktails, rare spirits, and thoughtful small plates come together",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.rittenhousehotel.com/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "In-room dining serves dishes from Lacroix.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Savor curated dishes from Lacroix, thoughtfully prepared and delivered to the comfort and privacy of your room.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.rittenhousehotel.com/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Rooms have marble bathrooms with Acqua Di Parma bath amenities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Luxurious marble bathroom featuring Acqua Di Parma bath amenities",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.rittenhousehotel.com/accommodations/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Rooms get twice-daily housekeeping, including evening turndown service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Twice daily housekeeping including evening turndown service",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.rittenhousehotel.com/accommodations/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Pet-friendly suites are available.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Pet-friendly suites available",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.rittenhousehotel.com/accommodations/specialty-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel has over 12,000 square feet of event space for meetings, weddings and social gatherings.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "With over 12,000 square feet of versatile event space, The Rittenhouse provides an exceptional setting for meetings, weddings, and social gatherings of every scale.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.rittenhousehotel.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Library Bar is book-lined, with a curated collection of fine and rare books about Philadelphia, from its past to its creative present.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "in an intimate, book-lined setting",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.rittenhousehotel.com/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "explore a curated collection of fine and rare books—ranging from Philadelphia’s storied past to its vibrant creative present",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.rittenhousehotel.com/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The building's cantilevered facade was designed to give as many rooms as possible park views, which creates pointed corner nooks.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "the building’s cantilevered facade was designed to create generous park views in as many rooms as possible, creating pointed corner nooks",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/philadelphia/the-rittenhouse",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Each room overlooks either Rittenhouse Square or the city.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Each of our Rittenhouse hotel rooms quietly overlooks Rittenhouse Square or the city.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.rittenhousehotel.com/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Specialty Suites have one or two bedrooms, entertainment and dining areas, and a kitchenette.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Featuring 1 or 2 bedrooms, inviting entertainment and dining areas, and a kitchenette, Specialty Suites have all the essentials",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.rittenhousehotel.com/accommodations/specialty-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Not all rooms have king-size beds, so check the bed type before booking.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Not all rooms have king-size beds, so be sure to read the fine print before booking",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/philadelphia/the-rittenhouse",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Rooms face either Rittenhouse Square or the city, so a park view depends on the room type booked.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Each of our Rittenhouse hotel rooms quietly overlooks Rittenhouse Square or the city.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.rittenhousehotel.com/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Overlooking Rittenhouse Square, our Superior Park View guest rooms average 500 square feet",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.rittenhousehotel.com/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "our Deluxe King City View rooms",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.rittenhousehotel.com/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing that reflects the hotel's luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

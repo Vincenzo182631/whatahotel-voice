@@ -1,0 +1,465 @@
+{
+  "hotel_slug": "the-hazelton-hotel",
+  "hotel_name": "The Hazelton Hotel",
+  "checked_at": "2026-10-15T03:03:34.646Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.thehazeltonhotel.com/",
+      "tier": "official",
+      "chars": 9770
+    },
+    {
+      "id": "d2",
+      "url": "https://www.thehazeltonhotel.com/rooms-suites-2/",
+      "tier": "official",
+      "chars": 5850
+    },
+    {
+      "id": "d3",
+      "url": "https://www.thehazeltonhotel.com/rooms/bellair-suite/",
+      "tier": "official",
+      "chars": 4186
+    },
+    {
+      "id": "d4",
+      "url": "https://www.thehazeltonhotel.com/rooms/deluxe-king-room/",
+      "tier": "official",
+      "chars": 2637
+    },
+    {
+      "id": "d5",
+      "url": "https://www.thehazeltonhotel.com/rooms/deluxe-room/",
+      "tier": "official",
+      "chars": 3817
+    },
+    {
+      "id": "d6",
+      "url": "https://www.thehazeltonhotel.com/rooms/hazelton-suite/",
+      "tier": "official",
+      "chars": 4165
+    },
+    {
+      "id": "d7",
+      "url": "https://www.thehazeltonhotel.com/rooms/executive-suite/",
+      "tier": "official",
+      "chars": 3950
+    },
+    {
+      "id": "d8",
+      "url": "https://www.thehazeltonhotel.com/rooms/luxury-king-room/",
+      "tier": "official",
+      "chars": 1752
+    },
+    {
+      "id": "d9",
+      "url": "https://www.thehazeltonhotel.com/rooms/luxury-queen-room/",
+      "tier": "official",
+      "chars": 3784
+    },
+    {
+      "id": "d10",
+      "url": "https://www.thehazeltonhotel.com/rooms/deluxe-king-suite/",
+      "tier": "official",
+      "chars": 3945
+    },
+    {
+      "id": "d11",
+      "url": "https://www.thehazeltonhotel.com/rooms/deluxe-two-queen-room/",
+      "tier": "official",
+      "chars": 1728
+    },
+    {
+      "id": "d12",
+      "url": "https://www.thehazeltonhotel.com/rooms/deluxe-king-balcony-room/",
+      "tier": "official",
+      "chars": 1672
+    },
+    {
+      "id": "d13",
+      "url": "https://www.thehazeltonhotel.com/rooms/luxury-king-balcony-room/",
+      "tier": "official",
+      "chars": 3841
+    },
+    {
+      "id": "d14",
+      "url": "https://www.cntraveler.com/hotels/toronto/the-hazelton-hotel-toronto",
+      "tier": "editorial",
+      "chars": 6075
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is in the heart of Yorkville.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Two MICHELIN Key hotel in the heart of Yorkville",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thehazeltonhotel.com/rooms-suites-2/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Rooms and suites have Juliet or walk-out balconies.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Juliet or walk-out balconies bring fresh air into every room",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thehazeltonhotel.com/rooms-suites-2/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "ONE Restaurant's seasonal menu uses local and international ingredients to create globally inspired dishes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The seasonal menu utilizes the finest quality local and international ingredients to create globally inspired dishes that are flavour-forward.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thehazeltonhotel.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "ONE Restaurant offers 24-hour in-room dining.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Yes! ONE restaurant offers 24-hour in-room dining",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thehazeltonhotel.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Rooms have L'Occitane bath products, a Nespresso coffee maker and a pillow menu.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Nespresso coffee maker; pillow menu; mini bar; L’Occitane bath products",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thehazeltonhotel.com/rooms/deluxe-room/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d14",
+          "quote": "a rainfall shower, and L’Occitane products",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/toronto/the-hazelton-hotel-toronto",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Deluxe King Accessible Room has a roll-in shower with a grab bar and a built-in retractable seat.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The marble bathroom offers a wide opening, roll-in shower with a grab bar and a built-in retractable seat.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thehazeltonhotel.com/rooms-suites-2/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Luxury Two Queen Room accommodates up to four guests, with interconnecting room options available.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Accommodating up to four guests, interconnecting room options are also available.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thehazeltonhotel.com/rooms-suites-2/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Baby cribs can be booked free of charge, subject to availability.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Baby cribs can be booked free of charge, subject to availability.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thehazeltonhotel.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The hotel welcomes cats and dogs as guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "we are delighted to welcome cats and dogs as valued guests",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thehazeltonhotel.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel is a member of The Leading Hotels of the World and offers the Leaders Club loyalty program.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Hazelton Hotel is a member of The Leading Hotels of the World and offers the Leaders Club loyalty program.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thehazeltonhotel.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel has a Les Clefs d'Or concierge who can arrange airport transfers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Can you arrange for airport transfers?",
+          "note": "FAQ question answered by directing to concierge",
+          "confirmed": true,
+          "url": "https://www.thehazeltonhotel.com/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "please feel welcome to get in touch with our wonderful Les Clefs d’Or Concierge",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thehazeltonhotel.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Wi-Fi in the hotel rooms is free of charge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Yes, WiFi is available in the hotel rooms and is free of charge.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thehazeltonhotel.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel has a private 25-seat cinema, the Norman Jewison Cinema, with DCP capabilities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "the private 25-seat Norman Jewison Cinema, complete with DCP capabilities",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thehazeltonhotel.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Spa by Valmont has an indoor saltwater pool, steam rooms and a fitness centre.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Spa by Valmont, with an indoor saltwater pool, steam rooms, fitness centre and bespoke treatments",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thehazeltonhotel.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "A Macallan Bar Cart service, in partnership with The Macallan, offers cocktails and rare whisky pours prepared tableside or in-room by mixologists.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Discover an immersive cocktail experience in partnership with The Macallan.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thehazeltonhotel.com/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "our bespoke Macallan Bar Cart service offers expertly crafted cocktails and rare whisky pours, prepared tableside or in-room by our mixologists",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thehazeltonhotel.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Bellair Suite has a private walk-out balcony with views of Yorkville, a dining area for up to 10 guests, a pantry and a private bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "indulge in stunning views of Yorkville from your very own private walk-out balcony",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thehazeltonhotel.com/rooms/bellair-suite/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "a chic dining area for up to 10 guests, a convenient pantry, and a private bar",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thehazeltonhotel.com/rooms/bellair-suite/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Rooms feature original artwork alongside Galaxy Green granite bathrooms with deep soaking tubs and rainfall showers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Rich textures, and original artwork are paired with Galaxy Green granite bathrooms, deep soaking tubs and rainfall showers",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thehazeltonhotel.com/rooms-suites-2/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Valet parking only takes vehicles under 6.6 feet (2 meters); other vehicles must self-park offsite.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "All vehicles must be under 6.6 feet (2 meters). All other vehicles will be required to self-park offsite.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thehazeltonhotel.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes limited on-site recreational facilities.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing that reflects the hotel's luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

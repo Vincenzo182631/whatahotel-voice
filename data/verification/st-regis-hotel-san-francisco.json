@@ -1,0 +1,412 @@
+{
+  "hotel_slug": "st-regis-hotel-san-francisco",
+  "hotel_name": "St. Regis Hotel, San Francisco",
+  "checked_at": "2026-10-14T08:15:44.559Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/sfoxr-the-st-regis-san-francisco/overview/",
+      "tier": "official",
+      "chars": 19823
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/sfoxr-the-st-regis-san-francisco/rooms/",
+      "tier": "official",
+      "chars": 9012
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/sfoxr-the-st-regis-san-francisco/dining/",
+      "tier": "official",
+      "chars": 8753
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/sfoxr-the-st-regis-san-francisco/experiences/",
+      "tier": "official",
+      "chars": 18494
+    },
+    {
+      "id": "d5",
+      "url": "https://www.cntraveler.com/hotels/san-francisco/the-st-regis-san-francisco",
+      "tier": "editorial",
+      "chars": 6649
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is housed within the Williams Building, a 20th-century landmark.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The St. Regis San Francisco is housed within the Williams Building - a 20th century landmark combining architectural bravura with modern refinement.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sfoxr-the-st-regis-san-francisco/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is in SoMa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "a Forbes Five-Star sanctuary in the heart of SoMa",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sfoxr-the-st-regis-san-francisco/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel is adjacent to the San Francisco Museum of Modern Art (SFMOMA).",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "is situated adjacent to the San Francisco Museum of Modern Art (SFMOMA)",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sfoxr-the-st-regis-san-francisco/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel is within walking distance of the Moscone Center and the Yerba Buena Center for the Arts.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "It's also walking distance to the Moscone Center, and the Yerba Buena Center for the Arts.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/san-francisco/the-st-regis-san-francisco",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The spa features cedar saunas, eucalyptus steam rooms and a Himalayan Salt Room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "featuring cedar saunas, eucalyptus steam rooms, a Himalayan Salt Room",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sfoxr-the-st-regis-san-francisco/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The hotel has an indoor infinity pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Featuring cedar saunas, eucalyptus steam rooms, a Himalayan Salt Room, and access to the indoor infinity pool",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sfoxr-the-st-regis-san-francisco/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Astra serves modern American cuisine made with seasonal, locally sourced ingredients.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Astra offers modern American cuisine crafted with seasonal, locally sourced ingredients",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sfoxr-the-st-regis-san-francisco/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Champagne A La Carte at The St. Regis Bar features champagne and caviar pairings and oysters.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Champagne À La Carte is a curated ritual at The St. Regis Bar, featuring champagne and caviar pairings, oysters",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sfoxr-the-st-regis-san-francisco/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Afternoon tea in The Salon is inspired by Caroline Astor and features selections from TEALEAVES.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Celebrate the timeless tradition of Afternoon Tea, inspired by Caroline Astor’s legendary gatherings. Offered in The Salon Thursday through Sunday, the ritual features three curated selections from TEALEAVES",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sfoxr-the-st-regis-san-francisco/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Suite guests receive St. Regis Butler service, including unpacking and packing, morning beverage service, garment pressing and shoe shine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "For our Suite guests, unpacking and packing, morning beverage service, garment pressing and shoe shine are a few of the everyday services provided by the gracious Butlers at The St. Regis San Francisco.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sfoxr-the-st-regis-san-francisco/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The St. Regis Suites are on the 19th and 20th floors and have views of San Francisco Bay.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The exclusive St. Regis Suites sit on the 19th and 20th floors",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sfoxr-the-st-regis-san-francisco/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "San Francisco Bay",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sfoxr-the-st-regis-san-francisco/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Bathrooms have soaking tubs and separate shower areas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Bathrooms have soaking tubs and separate shower areas",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/san-francisco/the-st-regis-san-francisco",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel's building is home to the Museum of the African Diaspora (MoAD).",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The artful location is home to the Museum of the African Diaspora (MoAD)",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sfoxr-the-st-regis-san-francisco/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "the Museum of the African Diaspora is actually in the same building",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/san-francisco/the-st-regis-san-francisco",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Golden Gate Mary is the hotel's local version of the St. Regis Bloody Mary, inspired by the sunset over the Pacific.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "sip on the Golden Gate Mary, the local interpretation of the iconic St. Regis signature cocktail that is inspired by the sunset over the Pacific Ocean",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sfoxr-the-st-regis-san-francisco/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "A champagne sabrage ceremony is presented each evening in the bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "which includes opening a bottle of champagne with an elegant saber. This signature ceremony of The St. Regis Evening Rituals series is presented each evening in The St. Regis San Francisco Bar.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sfoxr-the-st-regis-san-francisco/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The spa spans 9,000 square feet across two levels.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Spanning 9,000 square feet across two levels",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sfoxr-the-st-regis-san-francisco/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Child-sized robes and slippers are available, and the Astor Library Cart offers children's books for bedtime reading.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Child-sized robes and slippers are available for the little ones, and The Astor Library Cart provides a collection of children's books to select from for bedtime reading.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sfoxr-the-st-regis-san-francisco/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel does not provide an airport shuttle.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "This hotel does not provide shuttle service.",
+          "note": "airport transportation section",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sfoxr-the-st-regis-san-francisco/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Dogs are welcome but not in the restaurant, bar, spa, pool or fitness center.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Pets Welcome.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sfoxr-the-st-regis-san-francisco/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Dogs only. Not allowed in the restaurant, bar, spa, pool or fitness center.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sfoxr-the-st-regis-san-francisco/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes an urban location in a busy downtown area.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

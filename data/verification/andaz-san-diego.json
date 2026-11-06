@@ -1,0 +1,363 @@
+{
+  "hotel_slug": "andaz-san-diego",
+  "hotel_name": "Andaz San Diego",
+  "checked_at": "2026-10-26T22:11:28.433Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 16,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 17
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/andaz/en-US/sanas-andaz-san-diego",
+      "tier": "official",
+      "chars": 10772
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/andaz/en-US/sanas-andaz-san-diego/rooms/",
+      "tier": "official",
+      "chars": 9563
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/andaz/en-US/sanas-andaz-san-diego/parking-and-transportation/",
+      "tier": "official",
+      "chars": 4085
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hyatt.com/andaz/en-US/sanas-andaz-san-diego/hotel-info/",
+      "tier": "official",
+      "chars": 3347
+    },
+    {
+      "id": "d5",
+      "url": "https://www.cntraveler.com/hotels/san-diego/andaz-san-diego",
+      "tier": "editorial",
+      "chars": 4046
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/andaz/en-US/sanas-andaz-san-diego/dining/",
+      "tier": "official",
+      "chars": 4415
+    },
+    {
+      "id": "d7",
+      "url": "https://www.hyatt.com/andaz/en-US/sanas-andaz-san-diego/reviews/",
+      "tier": "official",
+      "chars": 12428
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The boutique hotel is in San Diego's Gaslamp District, downtown.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Explore Downtown San Diego from our Boutique Gaslamp District Hotel",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/sanas-andaz-san-diego",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel's historic building opened in 1913 for the World's Fair celebrating the Panama Canal.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Opened in 1913 for the World’s Fair celebrating the Panama Canal, this historic building",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/sanas-andaz-san-diego",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Condé Nast Traveler notes the hotel was originally the Ivy Hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "at the Andaz (originally the Ivy Hotel)",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/san-diego/andaz-san-diego",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel is a half mile from Petco Park.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "this historic building is a half mile from Petco Park",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/sanas-andaz-san-diego",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The hotel is surrounded by vibrant nightlife, upscale dining and popular attractions.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our boutique hotel is surrounded by vibrant nightlife, upscale dining and popular attractions.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/sanas-andaz-san-diego",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Rooftop by STK is the hotel's open-air rooftop restaurant.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Rooftop by STK embodies the spirit of San Diego—open air energy, coastal sophistication, and effortless style.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/sanas-andaz-san-diego",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "the Gaslamp Quarter's largest rooftop, featuring a restaurant, bar and pool",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/sanas-andaz-san-diego",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "STK Steakhouse has a central lounge with leather banquettes, theatrical lighting and a DJ.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The central lounge's leather banquettes are surrounded by an elevated dining room offering a more formal atmosphere. Theatrical lights illuminate each table and large windows provide a view into San Diego while a DJ sets the mood.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/sanas-andaz-san-diego",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Registered guests can join a complimentary beer and wine tasting in the lobby each evening.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "join us in the lobby for a complimentary beer and wine tasting, for registered hotel guests only. Available daily between 5:00pm – 8:00pm.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/sanas-andaz-san-diego",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel welcomes dogs, with dog beds, Andaz bowls and a treat at the front desk.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Your canine companion can lounge in one of our cozy dog beds, stay hydrated with water from our Andaz bowls and get energized from a treat at the front desk",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/sanas-andaz-san-diego",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel has a fitness center.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "- Fitness Center",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/sanas-andaz-san-diego",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel has the Gaslamp Quarter's largest rooftop, with a restaurant, bar and pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "the Gaslamp Quarter's largest rooftop, featuring a restaurant, bar and pool",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/sanas-andaz-san-diego",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Andaz Cabana Suite has access to a private poolside cabana via a spiral staircase.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "access to a private poolside cabana via a spiral staircase from this oversized suite",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/sanas-andaz-san-diego/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "At the rooftop pool, guests can reserve a day pass, cabana or daybed with skyline views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Relax above the city at the rooftop pool at Andaz San Diego. Reserve a day pass, cabana or daybed and enjoy skyline views",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/sanas-andaz-san-diego",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Andaz Sweet Suite is a top-floor suite with city views, an eight-person dining table and two bathrooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Take in the views of San Diego’s vibrant cityscape from this extravagant top-floor suite",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/sanas-andaz-san-diego/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "an eight-person dining table, two bathrooms",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/sanas-andaz-san-diego/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Parking at the hotel is by valet.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "### Valet Parking Only",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/sanas-andaz-san-diego/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "San Diego International Airport is 2.5 miles from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "San Diego International Airport (SAN)2.5 miles",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/sanas-andaz-san-diego/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes an urban setting with potential street noise.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

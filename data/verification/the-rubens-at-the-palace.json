@@ -1,0 +1,438 @@
+{
+  "hotel_slug": "the-rubens-at-the-palace",
+  "hotel_name": "The Rubens at the Palace",
+  "checked_at": "2026-10-20T06:12:09.451Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://rubenshotel.com/",
+      "tier": "official",
+      "chars": 4373
+    },
+    {
+      "id": "d2",
+      "url": "https://rubenshotel.com/rooms/",
+      "tier": "official",
+      "chars": 3431
+    },
+    {
+      "id": "d3",
+      "url": "https://rubenshotel.com/about/neighbourhood-guide/",
+      "tier": "official",
+      "chars": 8014
+    },
+    {
+      "id": "d4",
+      "url": "https://rubenshotel.com/about/families-multi-gen-stays/",
+      "tier": "official",
+      "chars": 14932
+    },
+    {
+      "id": "d5",
+      "url": "https://rubenshotel.com/dining-and-drinks/",
+      "tier": "official",
+      "chars": 8073
+    },
+    {
+      "id": "d6",
+      "url": "https://rubenshotel.com/experiences/",
+      "tier": "official",
+      "chars": 10652
+    },
+    {
+      "id": "d7",
+      "url": "https://www.cntraveler.com/hotels/united-kingdom/london/rubens-at-the-palace-london",
+      "tier": "editorial",
+      "chars": 3954
+    },
+    {
+      "id": "d8",
+      "url": "https://rubenshotel.com/dining-and-drinks/afternoon-tea/",
+      "tier": "official",
+      "chars": 7563
+    },
+    {
+      "id": "d9",
+      "url": "https://rubenshotel.com/about/what-not-to-miss/",
+      "tier": "official",
+      "chars": 2288
+    },
+    {
+      "id": "d10",
+      "url": "https://rubenshotel.com/about/what-people-say-about-us/",
+      "tier": "official",
+      "chars": 1712
+    },
+    {
+      "id": "d11",
+      "url": "https://rubenshotel.com/discover/",
+      "tier": "official",
+      "chars": 2715
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is directly opposite the Royal Mews at Buckingham Palace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "We are proud to be located directly opposite the Royal Mews at Buckingham Palace",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://rubenshotel.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "It is a five-minute walk from Victoria Station.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "just a five-minute walk from Victoria Station",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://rubenshotel.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Houses of Parliament, Big Ben, the London Eye and Buckingham Palace are a short stroll away.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "those looking for cultural sites will find the Houses of Parliament, Big Ben, the London Eye, and Buckingham Palace a short stroll away",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://rubenshotel.com/about/neighbourhood-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The building was built in the 1800s to host debutantes attending parties at the Palace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Built in the 1800s to host debutantes attending parties at the Palace",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-kingdom/london/rubens-at-the-palace-london",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The decor is traditional English, with marble floors and crystal chandeliers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "the property has traditional English decor that includes marble floors, crystal chandeliers",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-kingdom/london/rubens-at-the-palace-london",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Rooms and suites are filled with antiques and original artwork.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "plush rooms and suites filled with antiques and original artwork",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-kingdom/london/rubens-at-the-palace-london",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Superior King rooms have a handcrafted, custom-made king Savoir bed.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Sleep beautifully, with a handcrafted, custom-made king Savoir bed.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://rubenshotel.com/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Family wings combine rooms through a private central door.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "combining rooms through a private central door for a connected yet comfortable stay",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://rubenshotel.com/about/families-multi-gen-stays/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The team can prepare cots, high chairs and extra beds in advance and arrange babysitting on request.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Our team is delighted to prepare everything in advance, from cots and high chairs to extra beds and thoughtful child-friendly touches, and can arrange trusted babysitting services on request",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://rubenshotel.com/about/families-multi-gen-stays/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel has two restaurants, a lounge overlooking the Royal Mews, two bars and 24-hour room service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "With two spectacular restaurants, a beautiful lounge overlooking the Royal Mews, two bars and 24-hour room service",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://rubenshotel.com/dining-and-drinks/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The Cavalry Bar is inspired by royal pageantry, with rich red interiors, inventive cocktails and gin tastings.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Inspired by royal pageantry, The Cavalry Bar at The Rubens pairs rich red interiors with inventive cocktails, gin tastings and light bites",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://rubenshotel.com/dining-and-drinks/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Guests can design a bespoke seven-course menu with the Executive Chef, sourcing ingredients at Borough Market.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Design a bespoke seven-course menu with our Executive Chef, sourcing ingredients at Borough Market.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://rubenshotel.com/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Royal Mews View rooms overlook the Royal Mews of Buckingham Palace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Sleep like royalty, overlooking the Royal Mews of Buckingham Palace.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://rubenshotel.com/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Royal Themed rooms are each themed in honour of past British monarchs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Each room is regally themed in honour of past British monarchs, located directly opposite Buckingham Palace.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://rubenshotel.com/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Through a partnership with Historic Royal Palaces, guests can get complimentary tickets to attractions including the Tower of London, Hampton Court Palace and Kensington Palace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Through our partnership with Historic Royal Palaces, guests can enjoy a limited allocation of complimentary tickets to renowned attractions including the Tower of London, Hampton Court Palace and Kensington Palace.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://rubenshotel.com/about/families-multi-gen-stays/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Afternoon tea is served in the Palace Lounge, with panoramic views over the Royal Mews of Buckingham Palace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "Immerse yourself in the charming ambiance of our Palace Lounge, offering panoramic views of the Royal Mews of Buckingham Palace",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://rubenshotel.com/dining-and-drinks/afternoon-tea/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "A resident artist, ShelleyTheArtist, can create bespoke personal or family portraits by appointment.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "We are delighted to introduce ShelleyTheArtist, who is available to create bespoke personal or family portraits, crafting a truly unique memento. By appointment only.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://rubenshotel.com/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The complimentary Historic Royal Palaces tickets are a limited allocation, offered first-come, first-served and subject to availability.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "guests can enjoy a limited allocation of complimentary tickets",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://rubenshotel.com/about/families-multi-gen-stays/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "complimentary tickets are offered on a first-come, first-served basis and are subject to availability",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://rubenshotel.com/about/families-multi-gen-stays/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Interconnecting rooms, interleading rooms and family wings must be booked directly through the hotel's reservations team.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "We also offer **family wings**, which connect several rooms with internal doors.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://rubenshotel.com/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "must be booked directly through our reservations team",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://rubenshotel.com/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the historic building has traditional room layouts.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

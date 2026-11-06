@@ -1,0 +1,248 @@
+{
+  "slug": "hotel-pont-royal",
+  "status": "ready",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Hotel Pont Royal",
+      "city": "Paris",
+      "country": "FR"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Paris, FR)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hotel-pont-royal.com/en/"
+    ],
+    "checked_at": "2026-10-17T13:18:50.187Z",
+    "status": "confirmed",
+    "official_url": "https://www.hotel-pont-royal.com/en/",
+    "base_url": "https://www.hotel-pont-royal.com/",
+    "host": "hotel-pont-royal.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hotel-pont-royal.com/en/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:18:56.137Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hotel-pont-royal.com/es/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:18:59.481Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hotel-pont-royal.com/fr/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:19:02.425Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hotel-pont-royal.com/pt/",
+      "tier": "official",
+      "fetched_at": "2026-10-17T13:19:07.842Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 6,
+    "firecrawl_searches": 2,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 4,
+    "chars": 39413,
+    "est_claude_tokens": 9853
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-17T13:19:15.525Z",
+  "hotel": {
+    "name": "Hotel Pont Royal",
+    "city": "Paris",
+    "country": "FR",
+    "confirmed_affiliation": {
+      "kind": "independent"
+    }
+  },
+  "official_url": "https://www.hotel-pont-royal.com/en/",
+  "verified_facts": [
+    {
+      "id": "r-1",
+      "category": "location",
+      "text": "The hotel sits on the Left Bank, between the Seine and Boulevard Saint-Germain.",
+      "source_url": "https://www.hotel-pont-royal.com/en/",
+      "source_tier": "official",
+      "excerpt": "between the Seine and Boulevard Saint-Germain"
+    },
+    {
+      "id": "r-2",
+      "category": "location",
+      "text": "The hotel is steps away from the literary cafes and art galleries of Saint-Germain-des-Prés.",
+      "source_url": "https://www.hotel-pont-royal.com/en/",
+      "source_tier": "official",
+      "excerpt": "steps away from the literary cafés and art galleries that shaped the legend of the neighbourhood"
+    },
+    {
+      "id": "r-3",
+      "category": "design_history",
+      "text": "The neighbourhood around the hotel is the Paris that inspired Hemingway, Sartre and Simone de Beauvoir.",
+      "source_url": "https://www.hotel-pont-royal.com/en/",
+      "source_tier": "official",
+      "excerpt": "the Paris that inspired Hemingway, Sartre and Simone de Beauvoir"
+    },
+    {
+      "id": "r-4",
+      "category": "design_history",
+      "text": "The hotel is wrapped in warm wood tones with an intimate atmosphere.",
+      "source_url": "https://www.hotel-pont-royal.com/en/",
+      "source_tier": "official",
+      "excerpt": "Wrapped in warm wood tones and an intimate atmosphere"
+    },
+    {
+      "id": "r-5",
+      "category": "rooms",
+      "text": "The rooms and suites are light-filled.",
+      "source_url": "https://www.hotel-pont-royal.com/en/",
+      "source_tier": "official",
+      "excerpt": "light-filled rooms and suites"
+    },
+    {
+      "id": "r-6",
+      "category": "rooms",
+      "text": "Rooms look out over Parisian rooftops, with Haussmann rooftops and monuments in sight.",
+      "source_url": "https://www.hotel-pont-royal.com/en/",
+      "source_tier": "official",
+      "excerpt": "From your room with Parisian rooftop views"
+    },
+    {
+      "id": "r-7",
+      "category": "rooms",
+      "text": "Depending on their location and orientation, certain room categories offer a view of the Eiffel Tower.",
+      "source_url": "https://www.hotel-pont-royal.com/en/",
+      "source_tier": "official",
+      "excerpt": "Depending on their location and orientation, certain room categories offer a view of the Eiffel Tower."
+    },
+    {
+      "id": "r-8",
+      "category": "family",
+      "text": "The hotel's flagship family accommodation is the 2-Bedroom Panoramic Terrace Suite, designed for up to 5 guests.",
+      "source_url": "https://www.hotel-pont-royal.com/en/",
+      "source_tier": "official",
+      "excerpt": "flagship family accommodation is the 2-Bedroom Panoramic Terrace Suite"
+    },
+    {
+      "id": "r-9",
+      "category": "family",
+      "text": "Each Junior Suite has a living area with a sofa bed for two children under the age of 12.",
+      "source_url": "https://www.hotel-pont-royal.com/en/",
+      "source_tier": "official",
+      "excerpt": "Each suite features a dedicated living area equipped with a sofa bed, carefully selected to provide a restful night"
+    },
+    {
+      "id": "r-10",
+      "category": "dining",
+      "text": "Breakfast is served overlooking the hotel's Japanese garden.",
+      "source_url": "https://www.hotel-pont-royal.com/en/",
+      "source_tier": "official",
+      "excerpt": "overlooking our Japanese garden"
+    },
+    {
+      "id": "r-11",
+      "category": "dining",
+      "text": "The hotel offers its guests direct access to L'Atelier de Joël Robuchon.",
+      "source_url": "https://www.hotel-pont-royal.com/en/",
+      "source_tier": "official",
+      "excerpt": "offers its guests a direct access to L'Atelier de Joël Robuchon"
+    },
+    {
+      "id": "r-12",
+      "category": "experiences",
+      "text": "Bar F-Sharp hosts live jazz every Monday, Thursday and Saturday evening.",
+      "source_url": "https://www.hotel-pont-royal.com/en/",
+      "source_tier": "official",
+      "excerpt": "Every Monday, Thursday and Saturday evening, let yourself be captivated by intimate live performances"
+    },
+    {
+      "id": "r-13",
+      "category": "experiences",
+      "text": "Every month the hotel's lounges host literary dinners, orchestrated by journalist and writer Olivier Barrot, bringing together an author and guests around a gastronomic dinner.",
+      "source_url": "https://www.hotel-pont-royal.com/en/",
+      "source_tier": "official",
+      "excerpt": "Orchestrated by journalist and writer Olivier Barrot, these evenings bring together an author and their guests around a gastronomic dinner"
+    },
+    {
+      "id": "r-14",
+      "category": "experiences",
+      "text": "Until 4 January 2027 the hotel hosts the exhibition Collection Parisienne by Aurélie Clérault.",
+      "source_url": "https://www.hotel-pont-royal.com/en/",
+      "source_tier": "official",
+      "excerpt": "hosts until 4 January 2027 the exhibition Collection Parisienne by Aurélie Clérault",
+      "as_of": "2026-10-17"
+    },
+    {
+      "id": "r-15",
+      "category": "practical",
+      "text": "Hotel staff will make reservations at L'Atelier de Joël Robuchon on guests' behalf; booking in advance is recommended.",
+      "source_url": "https://www.hotel-pont-royal.com/en/",
+      "source_tier": "official",
+      "excerpt": "Our staff will be glad to make the reservation on your behalf"
+    },
+    {
+      "id": "r-16",
+      "category": "practical",
+      "text": "The hotel regularly offers special rates for stays of more than 3 nights.",
+      "source_url": "https://www.hotel-pont-royal.com/en/",
+      "source_tier": "official",
+      "excerpt": "regularly offers special rates for stays of more than 3 nights"
+    },
+    {
+      "id": "r-17",
+      "category": "location",
+      "text": "Saint-Germain-des-Prés keeps a quiet, residential atmosphere while offering convenient access to the capital's major cultural attractions.",
+      "source_url": "https://www.hotel-pont-royal.com/en/",
+      "source_tier": "official",
+      "excerpt": "retaining a quiet, residential atmosphere that is hard to find in the more touristy areas"
+    }
+  ],
+  "highlights": [
+    "r-12",
+    "r-13",
+    "r-7",
+    "r-1",
+    "r-10",
+    "r-6",
+    "r-8"
+  ],
+  "subjective": [],
+  "unresolved": [],
+  "rejected": [],
+  "contradictions": []
+}

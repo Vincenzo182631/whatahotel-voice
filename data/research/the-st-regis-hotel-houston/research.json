@@ -1,0 +1,75 @@
+{
+  "slug": "the-st-regis-hotel-houston",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [],
+  "identity": {
+    "hotel": {
+      "name": "The St. Regis Hotel, Houston",
+      "city": "Houston",
+      "country": "US",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Houston, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/houxr-the-st-regis-houston/overview/"
+    ],
+    "checked_at": "2026-10-14T08:07:36.062Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/houxr-the-st-regis-houston/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/houxr-the-st-regis-houston/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/houxr-the-st-regis-houston/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T08:07:40.857Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/houxr-the-st-regis-houston/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T08:07:48.752Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.cntraveler.com/hotels/united-states/houston/st-regis-hotel-houston",
+      "tier": "editorial",
+      "fetched_at": "2026-10-14T08:07:57.603Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 5,
+    "firecrawl_searches": 1,
+    "cache_hits": 0,
+    "direct_fetches": 1,
+    "pages": 3,
+    "chars": 19638,
+    "est_claude_tokens": 4910
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-14T08:07:57.603Z"
+}

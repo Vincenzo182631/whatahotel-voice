@@ -1,0 +1,72 @@
+{
+  "slug": "waldorf-astoria-doha-west-bay",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Waldorf Astoria Doha West Bay",
+      "city": "Doha",
+      "country": "QA",
+      "chain": "hilton"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hilton"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Doha, QA)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hilton.com/en/hotels/dohnzwa-waldorf-astoria-doha-west-bay/"
+    ],
+    "checked_at": "2026-10-15T09:50:24.849Z",
+    "status": "confirmed",
+    "official_url": "https://www.hilton.com/en/hotels/dohnzwa-waldorf-astoria-doha-west-bay/",
+    "base_url": "https://www.hilton.com/en/hotels/dohnzwa-waldorf-astoria-doha-west-bay/",
+    "host": "hilton.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hilton.com/en/hotels/dohnzwa-waldorf-astoria-doha-west-bay/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T09:50:48.321Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.hilton.com/en/hotels/dohnzwa-waldorf-astoria-doha-west-bay/",
+      "reason": "no same-property sub-page links found on the home page"
+    },
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 6,
+    "firecrawl_searches": 3,
+    "cache_hits": 0,
+    "direct_fetches": 0,
+    "pages": 1,
+    "chars": 169,
+    "est_claude_tokens": 42
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-15T09:51:47.628Z"
+}

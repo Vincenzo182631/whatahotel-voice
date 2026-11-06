@@ -1,0 +1,399 @@
+{
+  "hotel_slug": "the-westin-mission-hills-resort-spa",
+  "hotel_name": "The Westin Mission Hills Resort & Spa",
+  "checked_at": "2026-11-05T10:09:39.503Z",
+  "script_version": null,
+  "decision": {
+    "eligible": false,
+    "blockers": [
+      "used in the script but not verified: f-6"
+    ],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 1,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": false,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/pspwi-the-westin-rancho-mirage-golf-resort-and-spa/overview/",
+      "tier": "official",
+      "chars": 22005
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/pspwi-the-westin-rancho-mirage-golf-resort-and-spa/rooms/",
+      "tier": "official",
+      "chars": 4599
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/pspwi-the-westin-rancho-mirage-golf-resort-and-spa/experiences/",
+      "tier": "official",
+      "chars": 19403
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/pspwi-the-westin-rancho-mirage-golf-resort-and-spa/racquet-sports/",
+      "tier": "official",
+      "chars": 6877
+    },
+    {
+      "id": "d5",
+      "url": "https://www.marriott.com/en-us/hotels/pspwi-the-westin-rancho-mirage-golf-resort-and-spa/dining/",
+      "tier": "official",
+      "chars": 9601
+    },
+    {
+      "id": "d6",
+      "url": "https://www.marriott.com/en-us/hotels/pspwi-the-westin-rancho-mirage-golf-resort-and-spa/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "chars": 2408
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The resort is at 71333 Dinah Shore Drive, Rancho Mirage, California.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "71333 Dinah Shore Drive, Rancho Mirage, California, USA, 92270",
+          "note": "supported",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/pspwi-the-westin-rancho-mirage-golf-resort-and-spa/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The resort has a Pete Dye-designed championship golf course on site.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Our Rancho Mirage hotel with waterslides, pickleball and tennis courts, lap pools, and an on-site championship golf course makes movement and fun come naturally",
+          "note": "supported",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/pspwi-the-westin-rancho-mirage-golf-resort-and-spa/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Play on our Pete Dye-designed championship course",
+          "note": "supported",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/pspwi-the-westin-rancho-mirage-golf-resort-and-spa/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The resort has three themed pools, each with its own programming.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our Rancho Mirage family resort boasts three uniquely themed pools, each offering distinct programming",
+          "note": "supported",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/pspwi-the-westin-rancho-mirage-golf-resort-and-spa/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "La Paloma Pool offers a tranquil setting to relax and unwind.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "La Paloma Pool is located between buildings 3, 4, and 5 and offers a tranquil setting to relax and unwind",
+          "note": "supported",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/pspwi-the-westin-rancho-mirage-golf-resort-and-spa/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The spa offers the HaloIR, which combines an infrared sauna with salt therapy.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Experience the exclusive HaloIR™, combining Infrared Sauna and Salt Therapy",
+          "note": "supported",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/pspwi-the-westin-rancho-mirage-golf-resort-and-spa/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Rooms and suites have views of the mountains and desert landscape.",
+      "findings": [
+        {
+          "verdict": "partial",
+          "doc_id": "d2",
+          "quote": "We offer spacious Rancho Mirage family hotel suites with luxury amenities and stunning views of the mountains and desert landscape",
+          "note": "partial",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/pspwi-the-westin-rancho-mirage-golf-resort-and-spa/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "unverified",
+      "reason": "sources cover only part of the claim"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "All rooms have Westin Heavenly Beds and Westin Heavenly Baths.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "All our Rancho Mirage family hotel rooms feature Westin Heavenly® Beds and Westin Heavenly® Baths",
+          "note": "supported",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/pspwi-the-westin-rancho-mirage-golf-resort-and-spa/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Fireside Lounge sits on the 18th hole of the Pete Dye Golf Course and serves tapas and cocktails.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located on the 18th hole of the Pete Dye Golf Course, this Rancho Mirage restaurant near Palm Springs offers tapas and cocktails",
+          "note": "supported",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/pspwi-the-westin-rancho-mirage-golf-resort-and-spa/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Pinz & Pints has duckpin bowling lanes, draft beers, brewpub eats and classic arcade games.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Pinz & Pints in Rancho Mirage is home to four lanes of duckpin bowling, ten draft beers at the bar, brewpub eats, classic arcade games, and non-stop fun for all",
+          "note": "supported",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/pspwi-the-westin-rancho-mirage-golf-resort-and-spa/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The resort has pickleball and tennis courts and lap pools.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Our Rancho Mirage hotel with waterslides, pickleball and tennis courts, lap pools, and an on-site championship golf course",
+          "note": "supported",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/pspwi-the-westin-rancho-mirage-golf-resort-and-spa/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Pet-friendly rooms offer a Westin Heavenly Dog Bed and a Patio Pooch Menu.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our pet-friendly hotel rooms offer a Westin Heavenly® Dog Bed and a Patio Pooch Menu",
+          "note": "supported",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/pspwi-the-westin-rancho-mirage-golf-resort-and-spa/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The resort is a 360-acre escape in Greater Palm Springs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Discover The Westin Rancho Mirage Golf Resort & Spa, a serene 360-acre escape in Greater Palm Springs",
+          "note": "supported",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/pspwi-the-westin-rancho-mirage-golf-resort-and-spa/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Pete Dye course is set among rolling hills with views of the surrounding desert mountains.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Set among beautiful rolling hills it offers spectacular sights of the surrounding desert mountains and includes Dye’s legendary trademark carries over water",
+          "note": "supported",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/pspwi-the-westin-rancho-mirage-golf-resort-and-spa/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Las Brisas, the largest pool, has dual 125-foot waterslides, cabana rentals and two bubbling spas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Perfect for families, Las Brisas is our largest pool and is located behind the main building",
+          "note": "supported",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/pspwi-the-westin-rancho-mirage-golf-resort-and-spa/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "This pool features dual 125-foot waterslides, cabana rentals, two bubbling spas, and pool attendants at your service throughout the day",
+          "note": "supported",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/pspwi-the-westin-rancho-mirage-golf-resort-and-spa/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The full-service spa and salon has a therapy pool, eucalyptus steam rooms and a relaxation lounge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our full-service spa and salon, features 9 massage rooms, 3 facial rooms, a therapy pool, eucalyptus steam rooms, and a relaxation lounge",
+          "note": "supported",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/pspwi-the-westin-rancho-mirage-golf-resort-and-spa/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Premium options include Deluxe Golf View Rooms, an Executive Suite and Presidential Suites, with golf course views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "From panoramic golf course vistas to spacious layouts and upscale touches, our Deluxe Golf View Rooms, Executive Suite, and Presidential Suites redefine what it means to relax in the desert",
+          "note": "supported",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/pspwi-the-westin-rancho-mirage-golf-resort-and-spa/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Tennis, pickleball and padel lessons, clinics and open play run from September to June.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "From September to June, enjoy a range of programs, including tennis, pickleball, and padel lessons, clinics, and open play",
+          "note": "supported",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/pspwi-the-westin-rancho-mirage-golf-resort-and-spa/racquet-sports/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Golf clinics run from October to May.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Our clinics are from October to May",
+          "note": "supported",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/pspwi-the-westin-rancho-mirage-golf-resort-and-spa/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes it is a large property that requires walking between facilities.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

@@ -1,0 +1,397 @@
+{
+  "hotel_slug": "the-hay-adams",
+  "hotel_name": "The Hay Adams",
+  "checked_at": "2026-10-14T23:53:32.375Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hayadams.com/",
+      "tier": "official",
+      "chars": 22523
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hayadams.com/our-hotel/",
+      "tier": "official",
+      "chars": 1649
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hayadams.com/dining/",
+      "tier": "official",
+      "chars": 1611
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hayadams.com/dining/the-lafayette/",
+      "tier": "official",
+      "chars": 1374
+    },
+    {
+      "id": "d5",
+      "url": "https://www.cntraveler.com/hotels/united-states/washington/hay-adams-hotel-washington-d-c",
+      "tier": "editorial",
+      "chars": 5545
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hayadams.com/dining/off-the-record/",
+      "tier": "official",
+      "chars": 1008
+    },
+    {
+      "id": "d7",
+      "url": "https://www.hayadams.com/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "chars": 437
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The Hay-Adams was originally designed and built as a residential hotel in the 1920s.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "originally designed and built as a residential hotel in the 1920s",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hayadams.com/our-hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel looks out over the White House, Lafayette Square and St. John's Church.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Surrounded by unparalleled views of the White House, Lafayette Square, and St. John's Church",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hayadams.com/our-hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel's address is 800 16th St. NW, Washington, D.C.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "800 16th St. NW, Washington, D.C. 20006",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/washington/hay-adams-hotel-washington-d-c",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The interiors combine Corinthian, Doric and Ionic columns, walnut wainscoting, and ceilings with Elizabethan, Italian and Tudor motifs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Corinthian, Doric, and Ionic columns, walnut wainscoting, and ceiling treatments with Elizabethan, Italian, and Tudor motifs",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/washington/hay-adams-hotel-washington-d-c",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Lafayette is the hotel's fine-dining restaurant, serving upscale contemporary American cuisine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Upscale contemporary American cuisine meets modern elegance and personalized service in our fine dining restaurant.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hayadams.com/dining/the-lafayette/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Lafayette is filled with natural light by day and candlelight in the evening.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "By day, natural light envelops you, and by evening, candlelight sets an intimate mood.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hayadams.com/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Lafayette's Private Dining Room has an ornamental fireplace and views of Lafayette Park.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "With its ornamental fireplace and views of Lafayette Park, The Lafayette's refined Private Dining Room offers a touch of exclusivity.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hayadams.com/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Off The Record is a historic bar in the hotel's basement.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "a historic bar in the hotel's basement",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/washington/hay-adams-hotel-washington-d-c",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Top of the Hay, the hotel's event space, has a wraparound balcony and French doors.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Top of the Hay is a perfect choice for your special gathering.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hayadams.com/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Its wraparound balcony and French doors bring in a glow of natural light by day",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hayadams.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel hosts Music Salons.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Music Salons at The Hay Adams",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hayadams.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel runs an Author Series.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Author Series at The Hay-Adams",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hayadams.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The Hay-Adams was awarded Two MICHELIN Keys in the MICHELIN Guide Hotel Selection 2026.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "we have been awarded Two MICHELIN Keys in the MICHELIN Guide Hotel Selection 2026",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hayadams.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Federal Suite, the Presidential Suite and the White House View Junior Suites have private balconies with views of the White House.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "book The Federal Suite, Presidential Suite or one of the White House View Junior Suites; you'll be rewarded with some epic views of the White House from your private balcony",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/washington/hay-adams-hotel-washington-d-c",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Off The Record, the hotel's bar, displays a collection of artwork created by editorial cartoonists.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Off The Record is true DC cocktail culture. From the unique collection of artwork created by renowned editorial cartoonists",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hayadams.com/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Top of the Hay is an event space with views over the White House and the city skyline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "With breathtaking views over the White House and the city skyline inspiring a sense of possibility, Top of the Hay is a perfect choice for your special gathering.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hayadams.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Each quarter, Off The Record partners with another hotel on a cocktail that brings the spirit of that hotel's destination to Washington, DC.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Off The Record’s Leading Cocktails of the World series continues",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hayadams.com/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Each quarter, we partner with an iconic hotel to bring the spirit of its destination to Washington, DC through an exceptional cocktail.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hayadams.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The fitness center is small, and there is no on-site pool or spa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The fitness center is small and there's no on-site pool or spa",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/washington/hay-adams-hotel-washington-d-c",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Rooms do not have in-room coffee and tea facilities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Rooms are oddly devoid of in-room coffee and tea facilities.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/washington/hay-adams-hotel-washington-d-c",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing reflecting the hotel's luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

@@ -1,0 +1,374 @@
+{
+  "hotel_slug": "the-westin-charlotte",
+  "hotel_name": "The Westin Charlotte",
+  "checked_at": "2026-11-05T10:06:25.965Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 15,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 16
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/cltcw-the-westin-charlotte/overview/",
+      "tier": "official",
+      "chars": 21384
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/cltcw-the-westin-charlotte/rooms/",
+      "tier": "official",
+      "chars": 15306
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/cltcw-the-westin-charlotte/experiences/",
+      "tier": "official",
+      "chars": 17023
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/cltcw-the-westin-charlotte/dining/",
+      "tier": "official",
+      "chars": 11038
+    },
+    {
+      "id": "d5",
+      "url": "https://www.cntraveler.com/hotels/the-westin-charlotte",
+      "tier": "editorial",
+      "chars": 4986
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Brooklyn Village Station on the LYNX light rail is right outside the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Your adventure starts at Brooklyn Village Station, part of the LYNX light rail, that is right outside our hotel.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cltcw-the-westin-charlotte/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is steps from Spectrum Center.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located in Uptown Charlotte, The Westin is steps from Spectrum Center, Bank of America Stadium, and the LYNX Blue Line.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cltcw-the-westin-charlotte/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Bathrooms have rain showers and Westin White Tea Heavenly amenities, and rooms have the Westin Heavenly Bed.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Feel refreshed in a hotel bathroom with a rain shower and Westin White Tea Heavenly™ amenities",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cltcw-the-westin-charlotte/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "All accommodations feature our signature Westin Heavenly® Beds 2.0",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cltcw-the-westin-charlotte/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "A Run Concierge leads a complimentary guided run through Uptown every Wednesday from the lobby.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Join our Run Concierge every Wednesday at 7:30 AM for a complimentary guided run through Uptown Charlotte.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cltcw-the-westin-charlotte/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Meet in the hotel lobby and start your day energized.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cltcw-the-westin-charlotte/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "A Gear Lending Program offers fitness, strength-training and recovery equipment.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "We have top-of-the-line fitness, strength training, and recovery equipment to use during your stay.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cltcw-the-westin-charlotte/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Dogwood Southern Table serves Southern classics with contemporary flair, inspired by a Southern garden.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Dogwood Southern Table, where Southern classics are created...See More with contemporary flair.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cltcw-the-westin-charlotte/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Inspired by the lush beauty of a Southern garden, Dogwood is a dining experience",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cltcw-the-westin-charlotte/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Cardinal Coffeehouse in the lobby serves Enderly Coffee Company roasts and pastries.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Discover coffee in Charlotte, NC, in our new Cardinal Coffeehouse, nestled in the Westin Charlotte’s elegantly redesigned lobby.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cltcw-the-westin-charlotte/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Your go-to favorite roasts and teas from Enderly Coffee Company are here along with tempting pastries",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cltcw-the-westin-charlotte/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Dogs up to 50 pounds are welcome, up to two per room, with complimentary treats.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "welcoming your four-legged companions with open arms (and complimentary treats!).",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cltcw-the-westin-charlotte/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "dogs up to 50 pounds are invited to stay—up to two per room.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cltcw-the-westin-charlotte/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel is in Uptown Charlotte, steps from the Charlotte Convention Center and Bank of America Stadium.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our Uptown Charlotte hotel benefits from an ideal location steps from the Charlotte Convention Center and Bank of America Stadium.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cltcw-the-westin-charlotte/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Room design uses subtle gold accents honoring Charlotte's past as the heart of the Carolina Gold Rush and green tones echoing the city's parks.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Subtle gold accents pay tribute to Charlotte's glittering past as the heart of the Carolina Gold Rush, while rich green tones echo the city's abundance of parks and tree-lined streets.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cltcw-the-westin-charlotte/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Many rooms have sweeping views of downtown, and suites on the upper floors have skyline views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "take in the sweeping views of downtown from one of our many city-view rooms.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cltcw-the-westin-charlotte/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our hotel suites in downtown Charlotte, NC, are spacious with skyline views from our upper floors",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cltcw-the-westin-charlotte/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Westin Club Lounge has an outdoor terrace with city views and offers breakfast, hors d'oeuvres and a bar with craft beers and cocktails.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "An outdoor terrace is also yours to enjoy, where you can take in city views while you sip on a favorite drink. Offering breakfast, afternoon hor dʼoeuvres, and a bar with craft beers and creative cocktails",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cltcw-the-westin-charlotte/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The WestinWORKOUT Fitness Studio has treadmills, TRX, Peloton bikes and free weights, with city views through floor-to-ceiling windows.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Youʼll find treadmills, TRX, Peloton Bikes, and free weights. All in a light-filled invigorating atmosphere with inspiring views of Charlotte that fill the floor-to-ceiling windows.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cltcw-the-westin-charlotte/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The minimum age to check in is 21.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Minimum Age to Check In: 21",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cltcw-the-westin-charlotte/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Charlotte Douglas International Airport is about 15 minutes away.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Charlotte Douglas International Airport is just 15 minutes away",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/cltcw-the-westin-charlotte/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the urban setting may have limited outdoor recreational space.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

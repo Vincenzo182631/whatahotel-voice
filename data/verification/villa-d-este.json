@@ -1,0 +1,382 @@
+{
+  "hotel_slug": "villa-d-este",
+  "hotel_name": "Villa d'Este",
+  "checked_at": "2026-10-14T23:54:25.358Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 15,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 16
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.villadeste.com/rooms-and-suites",
+      "tier": "official",
+      "chars": 5994
+    },
+    {
+      "id": "d2",
+      "url": "https://www.villadeste.com/services/room-service/",
+      "tier": "official",
+      "chars": 2022
+    },
+    {
+      "id": "d3",
+      "url": "https://www.villadeste.com/rooms-and-suites/deluxe-room/",
+      "tier": "official",
+      "chars": 6385
+    },
+    {
+      "id": "d4",
+      "url": "https://www.villadeste.com/rooms-and-suites/classic-room/",
+      "tier": "official",
+      "chars": 6423
+    },
+    {
+      "id": "d5",
+      "url": "https://www.villadeste.com/rooms-and-suites/cardinal-suite/",
+      "tier": "official",
+      "chars": 6553
+    },
+    {
+      "id": "d6",
+      "url": "https://www.villadeste.com/rooms-and-suites/executive-suite/",
+      "tier": "official",
+      "chars": 6541
+    },
+    {
+      "id": "d7",
+      "url": "https://www.villadeste.com/rooms-and-suites/deluxe-superior-room/",
+      "tier": "official",
+      "chars": 6529
+    },
+    {
+      "id": "d8",
+      "url": "https://www.villadeste.com/rooms-and-suites/junior-suite-exclusive/",
+      "tier": "official",
+      "chars": 6582
+    },
+    {
+      "id": "d9",
+      "url": "https://www.villadeste.com/rooms-and-suites/executive-room/",
+      "tier": "official",
+      "chars": 6496
+    },
+    {
+      "id": "d10",
+      "url": "https://www.villadeste.com/rooms-and-suites/presidential-suite/",
+      "tier": "official",
+      "chars": 6568
+    },
+    {
+      "id": "d11",
+      "url": "https://www.villadeste.com/rooms-and-suites/suite/",
+      "tier": "official",
+      "chars": 6403
+    },
+    {
+      "id": "d12",
+      "url": "https://www.villadeste.com/rooms-and-suites/junior-suite-lake-view/",
+      "tier": "official",
+      "chars": 6517
+    },
+    {
+      "id": "d13",
+      "url": "https://www.cntraveler.com/hotels/lake-como/villa-deste",
+      "tier": "editorial",
+      "chars": 10075
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel's address is Via Regina 40 in Cernobbio, Italy.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Via Regina 40, Cernobbio (CO), Italia",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.villadeste.com/rooms-and-suites",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Services include private boat transfers, a boutique, a concierge and a helipad.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "From private boat transfers to the boutique, from concierge to helipad",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.villadeste.com/rooms-and-suites",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Classic Rooms overlook the inner courtyard of the historic Cardinal's residence.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Overlooking the peaceful inner courtyard of the historic Cardinal’s residence",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.villadeste.com/rooms-and-suites/classic-room/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Deluxe Rooms are in the Cardinal's Building or the Queen's Pavilion and have a front-facing view of Lake Como.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Located in the Cardinal’s Building or the Queen’s Pavilion, these rooms offer a privileged front-facing view of Lake Como",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.villadeste.com/rooms-and-suites/deluxe-room/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Deluxe Superior Rooms are on the upper floors of the Cardinal's Building, with views of the lake.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Located on the upper floors of the Cardinal’s Building, they offer spectacular views of the lake",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.villadeste.com/rooms-and-suites/deluxe-superior-room/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Junior Suite Exclusive rooms combine yellow, red and blue with period furnishings.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "vibrant hues of yellow, red and blue blend seamlessly with the understated elegance of period furnishings",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.villadeste.com/rooms-and-suites/junior-suite-exclusive/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Presidential Suites are on the first floor of the Cardinal Building.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d10",
+          "quote": "Situated on the first floor of the Cardinal Building, the two Presidential Suites exude light and splendour.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.villadeste.com/rooms-and-suites/presidential-suite/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Rooms come with a complimentary minibar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Air conditioning, complimentary Wi-Fi, flat-screen TV and a thoughtfully curated complimentary minibar",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.villadeste.com/rooms-and-suites/classic-room/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Room service can be served in the guest's room or on the balcony.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "transforming your room or balcony into a setting of intimacy and indulgence",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.villadeste.com/services/room-service/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Cardinal Suite, on the first floor of the Cardinal Building, pays homage to Tolomeo Gallio, the visionary behind the villa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Located on the first floor of the Cardinal Building, the suite pays homage to Tolomeo Gallio, the visionary behind the Villa.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.villadeste.com/rooms-and-suites/cardinal-suite/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Four secluded villas sit in the heart of the hotel's centuries-old park.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Four secluded villas, nestled in the heart of the centuries-old park",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.villadeste.com/rooms-and-suites",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Cardinal Suite has a generous terrace overlooking the lake.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "A luxury heaven, with elegant interiors and a generous terrace overlooking the lake.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.villadeste.com/rooms-and-suites/cardinal-suite/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Executive Suite has two private balconies, one in the bedroom and one in the living room, opening onto the gardens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Two private balconies—one in the bedroom, one in the living room—open onto the gardens and glimpses of the lake.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.villadeste.com/rooms-and-suites/executive-suite/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Not every room faces the lake: Classic Rooms look onto the inner courtyard and Executive Rooms have garden views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Overlooking the peaceful inner courtyard of the historic Cardinal’s residence",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.villadeste.com/rooms-and-suites/classic-room/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d9",
+          "quote": "Garden view",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.villadeste.com/rooms-and-suites/executive-room/",
+          "tier": "official",
+          "quote_verified": false
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "For families, Classic Rooms can be interconnected, and Junior Suite Exclusive rooms can be connected to an Executive Double Room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "these rooms can be interconnected to accommodate families or guests seeking greater privacy",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.villadeste.com/rooms-and-suites/classic-room/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "They may also be connected to an Executive Double Room",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.villadeste.com/rooms-and-suites/junior-suite-exclusive/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes ultra-luxury pricing and formal dress codes in the main dining areas.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

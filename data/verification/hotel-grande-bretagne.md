@@ -1,0 +1,40 @@
+# Verification checklist: Hotel Grande Bretagne
+
+Checked 2026-10-24 against the hotel's own pages and Condé Nast Traveler. Result: **can be marked verified** (profile set to verified).
+
+Supported 19 · contradicted 0 · unverified 0 · WhataHotel's own statements 1 · total 20
+
+## Pages checked
+
+- official: https://www.marriott.com/en-us/hotels/athlc-hotel-grande-bretagne-a-luxury-collection-hotel-athens/overview/
+- official: https://www.marriott.com/en-us/hotels/athlc-hotel-grande-bretagne-a-luxury-collection-hotel-athens/rooms/
+- official: https://www.marriott.com/en-us/hotels/athlc-hotel-grande-bretagne-a-luxury-collection-hotel-athens/dining/
+- official: https://www.marriott.com/en-us/hotels/athlc-hotel-grande-bretagne-a-luxury-collection-hotel-athens/experiences/
+- official: https://www.marriott.com/en-us/hotels/athlc-hotel-grande-bretagne-a-luxury-collection-hotel-athens/overview/history/
+- editorial: https://www.cntraveler.com/hotels/athens/hotel-grande-bretagne-a-luxury-collection-hotel-athens
+- official: https://www.marriott.com/en-us/hotels/athlc-hotel-grande-bretagne-a-luxury-collection-hotel-athens/%3CBase64-Image-Removed%3E/
+
+## Claims
+
+| | Claim | Evidence |
+|---|---|---|
+| ✅ | **f-1** The hotel is on Syntagma Square in central Athens, overlooking the Hellenic Parliament and the National Garden. | "Bang on Syntagma (Constitution) Square, overlooking the Hellenic Parliament and balmy National Garden" (editorial, https://www.cntraveler.com/hotels/athens/hotel-grande-bretagne-a-luxury-collection-hotel-athens) |
+| ✅ | **f-2** The hotel is within walking distance of Monastiraki flea market, museums and the business district. | "This luxury property is within walking distance of Monastiraki flea market, museums, and the business district" (official, https://www.marriott.com/en-us/hotels/athlc-hotel-grande-bretagne-a-luxury-collection-hotel-athens/overview/) |
+| ✅ | **f-3** The hotel has stood in the heart of Athens since 1874. | "Situated in the heart of the city since 1874, this landmark hotel in Athens, Greece, near the Acropolis" (official, https://www.marriott.com/en-us/hotels/athlc-hotel-grande-bretagne-a-luxury-collection-hotel-athens/experiences/) |
+| ✅ | **f-4** When the Olympic Games were revived in 1896, the hotel was the official host of foreign missions, diplomats, statesmen and royalty. | "When the Olympic Games were revived for the first time in 1896, the Hotel Grande Bretagne was the official host of foreign missions, diplomats, statesmen, political figures and royalty." (official, https://www.marriott.com/en-us/hotels/athlc-hotel-grande-bretagne-a-luxury-collection-hotel-athens/overview/) |
+| ✅ | **f-5** Sir Winston Churchill was a frequent guest, and a meeting room in the hotel bears his name. | "Sir Winston Churchill becomes a frequent guest of the Hotel, solidifying his connection to its legacy. As a tribute to his esteemed presence, a meeting room within the Hotel now bears his name." (official, https://www.marriott.com/en-us/hotels/athlc-hotel-grande-bretagne-a-luxury-collection-hotel-athens/overview/history/) |
+| ✅ | **f-6** In-house guests can take a museum tour of the hotel's history, antiques and art masterpieces on request. | "the historic landmark graciously offers its guests a “museum tour”, every Thursday between 17:00 - 18:00, upon request." (official, https://www.marriott.com/en-us/hotels/athlc-hotel-grande-bretagne-a-luxury-collection-hotel-athens/overview/) |
+| ✅ | **f-7** Rooms and suites combine sumptuous fabrics, original artworks, museum-quality antiques and classic architectural features with modern technology. | "Sumptuous fabrics, original artworks, museum-quality...See More antiques and classic architectural features combine with modern technology" (official, https://www.marriott.com/en-us/hotels/athlc-hotel-grande-bretagne-a-luxury-collection-hotel-athens/rooms/) |
+| ✅ | **f-8** Floor-to-ceiling windows give views across Acropolis Hill and Syntagma Square. | "Floor-to-ceiling windows offer an abundance of natural light and captivating views across Acropolis Hill and Syntagma Square" (official, https://www.marriott.com/en-us/hotels/athlc-hotel-grande-bretagne-a-luxury-collection-hotel-athens/rooms/) |
+| ✅ | **f-9** Suite guests receive personalized 24-hour Butler Service and expedited check-in. | "Personalized 24-hour Butler Service and expedited check-in is offered to all 56 luxury suites at this Athens hotel." (official, https://www.marriott.com/en-us/hotels/athlc-hotel-grande-bretagne-a-luxury-collection-hotel-athens/rooms/) |
+| ✅ | **f-10** The Winter Garden is known for its afternoon tea. | "Moreover, the Winter Garden is renowned for its afternoon high tea." (official, https://www.marriott.com/en-us/hotels/athlc-hotel-grande-bretagne-a-luxury-collection-hotel-athens/dining/) |
+| ✅ | **f-11** An 18th-century tapestry of Alexander the Great is the focal point of Alexander's Bar. | "The 18th century tapestry of Alexander the Great is the focal point of the Alexander’s Bar" (official, https://www.marriott.com/en-us/hotels/athlc-hotel-grande-bretagne-a-luxury-collection-hotel-athens/dining/) |
+| ✅ | **f-12** The concierge team are Clefs d'Or members who arrange tours, dinner reservations and tickets. | "proudly wearing the “clef d’or”—the gilt insignia of the celebrated international concierge society" (official, https://www.marriott.com/en-us/hotels/athlc-hotel-grande-bretagne-a-luxury-collection-hotel-athens/overview/) |
+| ✅ | **h-1** The fifth-floor Royal Suite has one bedroom and two bathrooms, with windows framing views of Syntagma Square, the Acropolis, the Parliament and Lycabettus Hill. | "Located on the fifth floor of the Hotel Grande Bretagne, our sprawling one-bedroom, two-bathroom Royal Suite encompasses over 400 magnificent square meters" (official, https://www.marriott.com/en-us/hotels/athlc-hotel-grande-bretagne-a-luxury-collection-hotel-athens/rooms/) |
+| ✅ | **h-2** The GB Roof Garden rooftop restaurant serves Mediterranean dining with views of the Acropolis, Lycabettus Hill and Parliament. | "Take in Athens, Greece, from our rooftop restaurant, the GB Roof Garden. With Acropolis, Lycabettus Hill and Parliament views, this luxury restaurant in Athens pairs Mediterranean dining with Wine Spectator recognition." (official, https://www.marriott.com/en-us/hotels/athlc-hotel-grande-bretagne-a-luxury-collection-hotel-athens/dining/) |
+| ✅ | **h-3** The outdoor pool is on the 7th floor with backdrops of Lycabettus Hill. | "Located on the 7th floor, the 50 sq. meters outdoor pool provides a cool respite from Athens' summer sun. With picture-perfect backdrops of Lycabettus Hill" (official, https://www.marriott.com/en-us/hotels/athlc-hotel-grande-bretagne-a-luxury-collection-hotel-athens/experiences/) |
+| ✅ | **h-4** In 1960 Maria Callas stayed at the hotel, and the piano she used for rehearsals is in the Royal Suite. | "in 1960, Maria Callas, the renowned opera diva resides at the Hotel Grande Bretagne. The piano used for her rehearsals remains an exquisite addition to the Royal Suite of the Hotel." (official, https://www.marriott.com/en-us/hotels/athlc-hotel-grande-bretagne-a-luxury-collection-hotel-athens/overview/history/) |
+| ✅ | **h-5** The pool deck becomes an open-air movie theater in summer. | "the pool deck is transformed into an open-air movie theater during the summer" (editorial, https://www.cntraveler.com/hotels/athens/hotel-grande-bretagne-a-luxury-collection-hotel-athens) |
+| ✅ | **c-1** The downtown setting around the hotel has hectic energy and roaring traffic. | "While the hectic energy and roaring traffic of downtown" (editorial, https://www.cntraveler.com/hotels/athens/hotel-grande-bretagne-a-luxury-collection-hotel-athens) |
+| ✅ | **c-2** A smart dress code is strictly imposed for dinners at GB Roof Garden. | "(with a smart dress code strictly imposed)" (editorial, https://www.cntraveler.com/hotels/athens/hotel-grande-bretagne-a-luxury-collection-hotel-athens) |
+| ➖ | **c-3** WhataHotel notes premium luxury pricing at the top tier of the market. | WhataHotel's own offer or statement |

@@ -1,0 +1,427 @@
+{
+  "hotel_slug": "the-st-regis-hotel-washington-d-c",
+  "hotel_name": "The St. Regis Hotel Washington D.C.",
+  "checked_at": "2026-10-14T08:15:26.891Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 20,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 0,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/wassx-the-st-regis-washington-dc/overview/",
+      "tier": "official",
+      "chars": 12167
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/wassx-the-st-regis-washington-dc/rooms/",
+      "tier": "official",
+      "chars": 6667
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/wassx-the-st-regis-washington-dc/dining/",
+      "tier": "official",
+      "chars": 7438
+    },
+    {
+      "id": "d4",
+      "url": "https://www.cntraveler.com/hotels/united-states/washington/st-regis-washington-d-c",
+      "tier": "editorial",
+      "chars": 4213
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is located two blocks from the White House.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The hotel is desirably located just two blocks from The White House",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/wassx-the-st-regis-washington-dc/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "two blocks from the White House",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/washington/st-regis-washington-d-c",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The building has Beaux-Arts architecture.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "the hotel blends timeless Beaux-Arts architecture",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/wassx-the-st-regis-washington-dc/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel is a member of Historic Hotels of America.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The St. Regis Washington, D.C. proudly partners with Historic Hotels of America",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/wassx-the-st-regis-washington-dc/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "As a recognized member of this prestigious collection",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/wassx-the-st-regis-washington-dc/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel has hosted presidents including FDR and Truman.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "has hosted royalty, business magnates, and presidents, including FDR and Truman",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/washington/st-regis-washington-d-c",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Guest rooms have Pratesi linens and Remède Spa bath products.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "each room has Pratesi linens and wonderful bathrooms with Remède Spa products",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/washington/st-regis-washington-d-c",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "All suites come with St. Regis Butler Service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "All suites come with signature St. Regis Butler Service",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/wassx-the-st-regis-washington-dc/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "A personal butler is available around the clock.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "A personal butler is available around the clock",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/washington/st-regis-washington-d-c",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Alhambra serves shareable plates drawing on flavors of the Iberian Peninsula and the Middle East.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "shareable plates that draw on the flavors...See More of the Iberian Peninsula and the Middle East",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/wassx-the-st-regis-washington-dc/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Alhambra is open for breakfast, brunch, lunch and dinner.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Open for breakfast, brunch, lunch and dinner",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/wassx-the-st-regis-washington-dc/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Afternoon Tea is served in the hotel's lobby lounge and changes with the season.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Delight in our renowned Afternoon Tea experience in the hotel’s opulent lobby lounge. Presenting an extraordinary presentation that changes with the season",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/wassx-the-st-regis-washington-dc/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The St. Regis Bar serves seasonal cocktails, a global wine list and small bites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "enjoy seasonal cocktails, a global wine list and extraordinary small bites in the iconic St. Regis Bar",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/wassx-the-st-regis-washington-dc/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Bicycle rental is complimentary.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Bicycle Rental\n\nComplimentary",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/wassx-the-st-regis-washington-dc/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel holds a nightly Champagne Sabering ritual in the grand lobby.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "join us for our nightly Champagne Sabering ritual at 6:00 PM daily in our grand lobby",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/wassx-the-st-regis-washington-dc/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The restaurant Alhambra is named after the Alhambra palace and fortress in southern Spain.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Named after the landmark Alhambra palace and fortress in southern Spain",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/wassx-the-st-regis-washington-dc/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The grand lobby has ornate Florentine gold ceilings and crystal chandeliers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "a grand lobby adorned with ornate Florentine gold ceilings, crystal chandeliers",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/wassx-the-st-regis-washington-dc/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Presidential Suite was decorated by the interior design firm Myron Wolman Designs, and it connects with a Superior Room so it can be configured as a two-bedroom suite.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Decorated by the celebrated interior design firm, Myron Wolman Designs, the Presidential Suite",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/wassx-the-st-regis-washington-dc/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The suite connects with a Superior Room allowing the rooms to be configured as a two-bedroom suite.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/wassx-the-st-regis-washington-dc/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Capital Mary is the hotel's take on the Bloody Mary, inspired by the Chesapeake Bay region.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Experience our unique take on the traditional Bloody Mary, inspired by the cultural heritage of the nearby Chesapeake Bay region.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/wassx-the-st-regis-washington-dc/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel does not provide an airport shuttle; Ronald Reagan Washington National Airport is about 5 miles away.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "No, The St. Regis Washington, D.C. does not have an airport shuttle to Ronald Reagan Washington National Airport.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/wassx-the-st-regis-washington-dc/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "DCA is located approximately 5.0 Miles from the hotel.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/wassx-the-st-regis-washington-dc/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The minimum age to check in is 21.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Minimum Age to Check In: 21",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/wassx-the-st-regis-washington-dc/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "Pets up to 25 pounds are welcome for a non-refundable fee.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "pets are welcome at The St. Regis Washington, D.C.. with a maximum weight of 25.0 lbs. A non-refundable pet fee of $250.00 per stay applies.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/wassx-the-st-regis-washington-dc/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

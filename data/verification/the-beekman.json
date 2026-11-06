@@ -1,0 +1,471 @@
+{
+  "hotel_slug": "the-beekman",
+  "hotel_name": "The Beekman",
+  "checked_at": "2026-10-14T22:16:40.260Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 20,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 0,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/lgath-the-beekman",
+      "tier": "official",
+      "chars": 8566
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/lgath-the-beekman/dining/",
+      "tier": "official",
+      "chars": 4360
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/lgath-the-beekman/rooms/",
+      "tier": "official",
+      "chars": 23639
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/lgath-the-beekman/policies/",
+      "tier": "official",
+      "chars": 1543
+    },
+    {
+      "id": "d5",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/lgath-the-beekman/parking-and-transportation/",
+      "tier": "official",
+      "chars": 5070
+    },
+    {
+      "id": "d6",
+      "url": "https://www.cntraveler.com/hotels/new-york/the-beekman",
+      "tier": "editorial",
+      "chars": 9184
+    },
+    {
+      "id": "d7",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/lgath-the-beekman/hotel-info/",
+      "tier": "official",
+      "chars": 1132
+    },
+    {
+      "id": "d8",
+      "url": "https://www.hyatt.com/thompson-hotels/en-US/lgath-the-beekman/reviews/",
+      "tier": "official",
+      "chars": 6118
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The Beekman is at 123 Nassau Street in Lower Manhattan.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "123 Nassau Street, New York, NY 10038, United States of America",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/lgath-the-beekman",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "has been a treasure of downtown New York’s Lower Manhattan since 1761",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/lgath-the-beekman",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The nearest subway station is Fulton Street, served by the 2, 3, 4, 5, A, C, J and Z trains.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The nearest subway station to The Beekman, A Thompson Hotel is the Fulton Street station. This station is served by the 2, 3, 4, 5, A, C, J, and Z trains.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/lgath-the-beekman/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The building, once known as Temple Court, was first constructed in 1881.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "The building, once known as Temple Court, was first constructed in 1881",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york/the-beekman",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel opened in 2016 following a major restoration.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "The hotel opened in 2016 following a major restoration.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york/the-beekman",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The interiors are by designer Martin Brudnizki.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "admire curated artwork and singular aesthetics throughout, brought to life by award-winning designer Martin Brudnizki",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/lgath-the-beekman",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The artwork in the rooms and suites was curated by Katherine Gass.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "With a thought-provoking collection of artwork curated by Katherine Gass",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/lgath-the-beekman",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Rooms have aged oak floors and Carrara marble bathrooms with oversized rain showers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "High ceilings and aged oak floors are the canvas for a fusion of classic and contemporary elements",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/lgath-the-beekman/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Carrara marble-tiled bathroom with state of the art oversized rain shower",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/lgath-the-beekman/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Bathrooms stock D.S. & Durga amenities from Brooklyn.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "The bathrooms are modern classics with Carrara marble tiles, oversized rain showers, and Brooklyn-native\nD.S. & Durga\nbath amenities",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york/the-beekman",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "At Temple Court, chef Tom Colicchio serves a menu of classics, old and new, reimagined.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Join us at Temple Court where a menu of classics, old and new, are reimagined by acclaimed chef Tom Colicchio",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/lgath-the-beekman/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Le Gratin is Daniel Boulud's Bouchon Lyonnais, inspired by his hometown of Lyon.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Chef Daniel Boulud introduces Le Gratin, a Bouchon Lyonnais located in The Beekman",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/lgath-the-beekman/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Inspired by his hometown of Lyon, France, Chef Daniel Boulud opens a casual dining experience",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/lgath-the-beekman/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The fitness center is on two levels and has Peloton spin bikes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "the space is a dual-level fitness center featuring Peloton studio spin bikes",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york/the-beekman",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "A house car offers guests drop-off rides within a one-mile radius.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "We have a Lincoln Navigator available for guest use, within a 1 mile radius. Due to demand, service is drop-off only, no pickup available.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/lgath-the-beekman/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel is built around a nine-story atrium.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "mingle on the main floor of the impressive nine-story atrium",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/lgath-the-beekman",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The atrium was designated an interior landmark by the New York City Landmarks Preservation Commission in June 2024.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "the atrium was designated an interior landmark by the New York City Landmarks Preservation Commission in June 2024",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york/the-beekman",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Bar Room sits beneath the pyramidal atrium skylight and serves an all-day menu by Tom Colicchio.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Ornamental Victorian wrought-iron railings catch the light pouring in from the pyramidal atrium skylight above The Bar Room.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/lgath-the-beekman/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "enjoy an all-day menu crafted by Tom Colicchio",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/lgath-the-beekman/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Turret Penthouse is a duplex in the building's turret with a private terrace, 40-foot ceilings and a stone fireplace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "the expansive duplex penthouse suite with a private 400-square-foot-terrace balcony is truly a rare retreat",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/lgath-the-beekman/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "40-foot ceilings, curated artwork and a stone fireplace offer lavish residential comforts in a centuries-old turret",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/lgath-the-beekman/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Laissez Faire is a cocktail lounge on the hotel's cellar level, with jazz musicians on Wednesday nights.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Laissez Faire is a high-end, bespoke cocktail lounge located at 10 Theatre Alley, on the cellar level of The Beekman",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/lgath-the-beekman/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "discover why Wednesday nights at Laissez Faire have Lower Manhattan buzzing. Featuring a rotating cadre of the city’s most talented jazz musicians",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/lgath-the-beekman",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "There is no spa on site.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "While there isn’t a spa on site",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york/the-beekman",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "A daily destination fee applies to each room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "A daily destination fee of $50.00 (subject to change) is applied to each room of your stay",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/thompson-hotels/en-US/lgath-the-beekman",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "Rooms are not perfectly soundproofed from guests on the floor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Things aren’t perfectly soundproofed from the comings and goings of the guests on the floor",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york/the-beekman",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

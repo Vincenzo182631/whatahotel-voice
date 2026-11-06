@@ -1,0 +1,39 @@
+# Verification checklist: Sheraton Grande Sukhumvit
+
+Checked 2026-11-04 against the hotel's own pages and Condé Nast Traveler. Result: **can be marked verified** (profile set to verified).
+
+Supported 19 · contradicted 0 · unverified 0 · WhataHotel's own statements 1 · total 20
+
+## Pages checked
+
+- official: https://www.marriott.com/en-us/hotels/bkklc-sheraton-grande-sukhumvit-a-luxury-collection-hotel-bangkok/overview/
+- official: https://www.marriott.com/en-us/hotels/bkklc-sheraton-grande-sukhumvit-a-luxury-collection-hotel-bangkok/rooms/
+- official: https://www.marriott.com/en-us/hotels/bkklc-sheraton-grande-sukhumvit-a-luxury-collection-hotel-bangkok/experiences/
+- official: https://www.marriott.com/en-us/hotels/bkklc-sheraton-grande-sukhumvit-a-luxury-collection-hotel-bangkok/dining/
+- official: https://www.marriott.com/en-us/hotels/bkklc-sheraton-grande-sukhumvit-a-luxury-collection-hotel-bangkok/%3CBase64-Image-Removed%3E/
+- not available: cntraveler.com (no Condé Nast Traveler hotel page found for this name)
+
+## Claims
+
+| | Claim | Evidence |
+|---|---|---|
+| ✅ | **f-1** The hotel is connected by covered skywalk to Asok BTS and Sukhumvit MRT stations. | "Connected by covered skywalk to Asok BTS and Sukhumvit MRT, Sheraton Grande Sukhumvit, a Luxury Collection Hotel, puts the best of the neighborhood within a short walk or a single stop." (official, https://www.marriott.com/en-us/hotels/bkklc-sheraton-grande-sukhumvit-a-luxury-collection-hotel-bangkok/experiences/) |
+| ✅ | **f-2** Terminal 21 mall is directly connected to the hotel. | "directly connected to Asok BTS skytrain, Sukhumvit MRT subway, and Sheraton Grande Sukhumvit" (official, https://www.marriott.com/en-us/hotels/bkklc-sheraton-grande-sukhumvit-a-luxury-collection-hotel-bangkok/experiences/) |
+| ✅ | **f-3** Select rooms and suites have views of Lake Ratchada or the city skyline. | "Select rooms and suites in Bangkok, Thailand, feature views of Lake Ratchada or the city skyline" (official, https://www.marriott.com/en-us/hotels/bkklc-sheraton-grande-sukhumvit-a-luxury-collection-hotel-bangkok/rooms/) |
+| ✅ | **f-4** Rooms have locally inspired decor of teak wood and Thai silk. | "Immerse yourself in exquisite surroundings, from the locally inspired décor of teak...See More wood and Thai silk" (official, https://www.marriott.com/en-us/hotels/bkklc-sheraton-grande-sukhumvit-a-luxury-collection-hotel-bangkok/rooms/) |
+| ✅ | **f-5** Rooms and suites feature Luxury Collection bedding, bathtubs and 24-hour butler service. | "featuring Luxury Collection bedding, bathtubs, and 24-hour butler service." (official, https://www.marriott.com/en-us/hotels/bkklc-sheraton-grande-sukhumvit-a-luxury-collection-hotel-bangkok/rooms/) |
+| ✅ | **f-6** The Rama, Rajah and Rachada Suites have an authentic Thai-themed design and lush gardens. | "Immerse yourself in the beauty of lush gardens, unwind in the serene relaxation area, and be captivated by the authentic Thai-themed design." (official, https://www.marriott.com/en-us/hotels/bkklc-sheraton-grande-sukhumvit-a-luxury-collection-hotel-bangkok/overview/) |
+| ✅ | **f-7** Select suites have a whirlpool tub and a private outdoor garden or balcony. | "Reserve select suites and enjoy a whirlpool tub and your own private outdoor garden or balcony" (official, https://www.marriott.com/en-us/hotels/bkklc-sheraton-grande-sukhumvit-a-luxury-collection-hotel-bangkok/rooms/) |
+| ✅ | **f-8** Family Suites accommodate up to six guests and have separate living areas and a Kids' Corner. | "Family Suites, which can accommodate up to six guests with separate living areas and a dedicated Kids' Corner" (official, https://www.marriott.com/en-us/hotels/bkklc-sheraton-grande-sukhumvit-a-luxury-collection-hotel-bangkok/experiences/) |
+| ✅ | **f-9** The hotel has a free-form swimming pool and The Grande Spa. | "Escape the bustling city life and enter a world of serenity at our free-form swimming pool and The Grande Spa." (official, https://www.marriott.com/en-us/hotels/bkklc-sheraton-grande-sukhumvit-a-luxury-collection-hotel-bangkok/overview/) |
+| ✅ | **f-10** The pool is surrounded by a lush tropical garden. | "Retreat from the bustle of downtown Bangkok and find respite at The Sala, a lush tropical garden restaurant surrounding a beautiful free form swimming pool." (official, https://www.marriott.com/en-us/hotels/bkklc-sheraton-grande-sukhumvit-a-luxury-collection-hotel-bangkok/experiences/) |
+| ✅ | **f-11** Dine in the Dark serves a surprise 4-course menu in complete darkness, served by visually impaired hosts. | "Immerse yourself in the enigmatic world of sensory exploration as you dine in complete darkness, heightened by the absence of visual cues. Indulge in a surprise four-course menu" (official, https://www.marriott.com/en-us/hotels/bkklc-sheraton-grande-sukhumvit-a-luxury-collection-hotel-bangkok/dining/) |
+| ✅ | **f-12** Guests can learn the art of lotus folding with the hotel's florist and concierge. | "Now, you can learn the elegant art of lotus folding with an exclusive “Destination Discovery” hosted by our highly skilled florist and concierge." (official, https://www.marriott.com/en-us/hotels/bkklc-sheraton-grande-sukhumvit-a-luxury-collection-hotel-bangkok/experiences/) |
+| ✅ | **h-1** The hotel is connected by covered skywalk to Asok BTS and Sukhumvit MRT stations, with Terminal 21 mall directly connected. | "Connected by covered skywalk to Asok BTS and Sukhumvit MRT, Sheraton Grande Sukhumvit, a Luxury Collection Hotel, puts the best of the neighborhood within a short walk or a single stop." (official, https://www.marriott.com/en-us/hotels/bkklc-sheraton-grande-sukhumvit-a-luxury-collection-hotel-bangkok/experiences/) |
+| ✅ | **h-2** A free-form swimming pool surrounded by a lush tropical garden, plus The Grande Spa. | "Escape the bustling city life and enter a world of serenity at our free-form swimming pool and The Grande Spa." (official, https://www.marriott.com/en-us/hotels/bkklc-sheraton-grande-sukhumvit-a-luxury-collection-hotel-bangkok/overview/) |
+| ✅ | **h-3** The Rama, Rajah and Rachada Suites have an authentic Thai-themed design and lush gardens. | "Immerse yourself in the beauty of lush gardens, unwind in the serene relaxation area, and be captivated by the authentic Thai-themed design." (official, https://www.marriott.com/en-us/hotels/bkklc-sheraton-grande-sukhumvit-a-luxury-collection-hotel-bangkok/overview/) |
+| ✅ | **h-4** Rooms and suites feature Luxury Collection bedding, bathtubs and 24-hour butler service. | "featuring Luxury Collection bedding, bathtubs, and 24-hour butler service." (official, https://www.marriott.com/en-us/hotels/bkklc-sheraton-grande-sukhumvit-a-luxury-collection-hotel-bangkok/rooms/) |
+| ✅ | **h-5** Dine in the Dark serves a surprise 4-course menu in complete darkness, served by visually impaired hosts. | "Immerse yourself in the enigmatic world of sensory exploration as you dine in complete darkness, heightened by the absence of visual cues. Indulge in a surprise four-course menu" (official, https://www.marriott.com/en-us/hotels/bkklc-sheraton-grande-sukhumvit-a-luxury-collection-hotel-bangkok/dining/) |
+| ➖ | **c-1** WhataHotel notes a busy urban setting with high foot traffic. | WhataHotel's own offer or statement |
+| ✅ | **c-2** The Grande Spa requires an appointment. | "Indulge in a curated range of classic and modern spa services, precisely tailored to relax the body and pamper the soul.  Appointment required" (official, https://www.marriott.com/en-us/hotels/bkklc-sheraton-grande-sukhumvit-a-luxury-collection-hotel-bangkok/experiences/) |
+| ✅ | **c-3** The hotel is smoke free. | "Smoke Free Property" (official, https://www.marriott.com/en-us/hotels/bkklc-sheraton-grande-sukhumvit-a-luxury-collection-hotel-bangkok/overview/) |

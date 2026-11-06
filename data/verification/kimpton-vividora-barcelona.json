@@ -1,0 +1,409 @@
+{
+  "hotel_slug": "kimpton-vividora-barcelona",
+  "hotel_name": "Kimpton Vividora Barcelona",
+  "checked_at": "2026-10-13T04:21:56.906Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 0,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/vividora-hotel-barcelona-spain/bcnki/hoteldetail",
+      "tier": "official",
+      "chars": 9587
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/vividora-hotel-barcelona-spain/bcnki/hoteldetail/",
+      "tier": "official",
+      "chars": 9619
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/vividora-hotel-barcelona-spain/bcnki/hoteldetail/dining/",
+      "tier": "official",
+      "chars": 5878
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/vividora-hotel-barcelona-spain/bcnki/hoteldetail/amenities/",
+      "tier": "official",
+      "chars": 5915
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/vividora-hotel-barcelona-spain/bcnki/hoteldetail/rooms/",
+      "tier": "official",
+      "chars": 3413
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/vividora-hotel-barcelona-spain/bcnki/hoteldetail/directions/",
+      "tier": "official",
+      "chars": 1853
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/vividora-hotel-barcelona-spain/bcnki/hoteldetail/hotel-reviews/",
+      "tier": "official",
+      "chars": 13814
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/vividora-hotel-barcelona-spain/bcnki/hoteldetail/local-area-guide/",
+      "tier": "official",
+      "chars": 6021
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Kimpton Vividora is the first Kimpton in Spain and is located in the Gothic Quarter.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Kimpton Vividora, the first Kimpton in Spain, is located in the Gothic Quarter",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/vividora-hotel-barcelona-spain/bcnki/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel sits right next to Las Ramblas and within walking distance of Barceloneta beach.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The hotel sits right next to Las Ramblas and is within walking distance of the Barceloneta beach.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/vividora-hotel-barcelona-spain/bcnki/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Rooms use a Mediterranean color palette, natural materials and design pieces from local artisans.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "A breezy Mediterranean color palette accented with luxe natural materials and artful design pieces from local artisans",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/vividora-hotel-barcelona-spain/bcnki/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Terraza de Vivi is a rooftop terrace and bar with views over the city, serving cocktails with live music by local artists.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "this beautifully designed rooftop terrace and bar has striking views over the city and serves innovative cocktails paired with live music played by local artists.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/vividora-hotel-barcelona-spain/bcnki/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Fauna restaurant serves Mediterranean flavours with Catalan roots, by chef Jordi Delfa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Fauna, the dining room of Casa de Vivi, offers Mediterranean flavours with Catalan roots in a warm and relaxed atmosphere.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/vividora-hotel-barcelona-spain/bcnki/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "tasting traditional cuisine with an innovative touch by chef Jordi Delfa.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/vividora-hotel-barcelona-spain/bcnki/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "GOT Coffee & Cocktails is a cafe by day that becomes a bar with natural wines, artisanal vermouth and cocktails at night.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "A bustling café by day, that transitions into night with natural wines, artisanal vermouth, and clever cocktails.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/vividora-hotel-barcelona-spain/bcnki/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Terraza de Vivi serves a brunch with bottomless mimosas and Bloody Marys.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Terraza de Vivi's brunch. Indulge in a delicious variety of dishes, bottomless mimosas and Bloody Marys",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/vividora-hotel-barcelona-spain/bcnki/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The outdoor pool is next to Terraza de Vivi, the hotel's terrace and bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Adjacent to Terraza de Vivi, our terrace and bar",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/vividora-hotel-barcelona-spain/bcnki/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The fitness room is equipped with Technogym.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "a modern gym fully equipped with Technogym",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/vividora-hotel-barcelona-spain/bcnki/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel has a Wellness Room curated by Signature Spa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Kimpton Vividora Wellness Room, curated by Signature Spa",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/vividora-hotel-barcelona-spain/bcnki/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Pets of any size, weight or breed are welcome at no extra charge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "No matter their size, weight or breed and with no extra charge.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/vividora-hotel-barcelona-spain/bcnki/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The hotel offers complimentary bikes and longboards for guests to explore the city.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "discover the city with our complimentary bikes and longboards",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/vividora-hotel-barcelona-spain/bcnki/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Terraza de Vivi is a rooftop terrace and bar with views over the city, serving cocktails with live music by local artists.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "this beautifully designed rooftop terrace and bar has striking views over the city and serves innovative cocktails paired with live music played by local artists.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/vividora-hotel-barcelona-spain/bcnki/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The hotel offers complimentary bikes and longboards for guests to explore the city.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "discover the city with our complimentary bikes and longboards",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/vividora-hotel-barcelona-spain/bcnki/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "A Social Hour with complimentary drinks takes place every day on the ground floor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Join our Social Hour every day on the ground floor. Enjoy complimentary drinks",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/vividora-hotel-barcelona-spain/bcnki/hoteldetail/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Pets of any size, weight or breed are welcome at no extra charge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "No matter their size, weight or breed and with no extra charge.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/vividora-hotel-barcelona-spain/bcnki/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Guest parking is off-site at Saba Car Park on Plaza de Catalunya, at an additional cost.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Parking is available for hotel guests at Saba Car Park on Plaza de Catalunya with an additional cost.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/vividora-hotel-barcelona-spain/bcnki/hoteldetail/directions/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The hotel has no local area shuttle.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "There is no local area shuttle available at this hotel.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/vividora-hotel-barcelona-spain/bcnki/hoteldetail/directions/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "The pool is not heated.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Our non-heated pool is located adjacent to Terraza de Vivi",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/vividora-hotel-barcelona-spain/bcnki/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

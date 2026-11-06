@@ -1,0 +1,404 @@
+{
+  "hotel_slug": "grand-hyatt-sao-paulo",
+  "hotel_name": "Grand Hyatt Sao Paulo",
+  "checked_at": "2026-10-29T03:49:51.984Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/saogh-grand-hyatt-sao-paulo",
+      "tier": "official",
+      "chars": 12669
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/saogh-grand-hyatt-sao-paulo/rooms/",
+      "tier": "official",
+      "chars": 10996
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/saogh-grand-hyatt-sao-paulo/hotel-info/",
+      "tier": "official",
+      "chars": 2952
+    },
+    {
+      "id": "d4",
+      "url": "https://www.cntraveler.com/hotels/brazil/sao-paulo/grand-hyatt-sao-paulo",
+      "tier": "editorial",
+      "chars": 8437
+    },
+    {
+      "id": "d5",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/saogh-grand-hyatt-sao-paulo/dining/",
+      "tier": "official",
+      "chars": 5698
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/saogh-grand-hyatt-sao-paulo/reviews/",
+      "tier": "official",
+      "chars": 18153
+    },
+    {
+      "id": "d7",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/saogh-grand-hyatt-sao-paulo/parking-and-transportation/",
+      "tier": "official",
+      "chars": 1879
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is in Sao Paulo's business district, close to many restaurants, shopping centers and attractions.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Nestled in São Paulo’s vibrant business district, our centrally located luxury hotel puts you close to many top restaurants, shopping centers and attractions.",
+          "note": "Covers both the business-district location and the proximity to restaurants, shopping and attractions.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/saogh-grand-hyatt-sao-paulo",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is convenient to corporate offices in the business-heavy Berrini area.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Convenient to corporate offices in the business-heavy Berrini area, this mega hotel is purpose-built for groups, events, and the briefcase-toting traveler.",
+          "note": "Matches the claim directly.",
+          "url": "https://www.cntraveler.com/hotels/brazil/sao-paulo/grand-hyatt-sao-paulo",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "A metro station is a short walk from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Taxis or Ubers are necessary here, but the metro station is a short walk away.",
+          "note": "States the metro station is a short walk away.",
+          "url": "https://www.cntraveler.com/hotels/brazil/sao-paulo/grand-hyatt-sao-paulo",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Guests enter through a sunshine-filled marble lobby.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The moment you enter the sunshine-filled marble lobby, it becomes clear that this hotel is true to its name.",
+          "note": "Describes the sunshine-filled marble lobby at the entrance.",
+          "url": "https://www.cntraveler.com/hotels/brazil/sao-paulo/grand-hyatt-sao-paulo",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Rooms have Granado bath amenities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Granado bath amenities",
+          "note": "Listed among the in-room amenities for the room types.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/saogh-grand-hyatt-sao-paulo/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Bathrooms stock Brazilian-made Granado toiletry products.",
+          "note": "The editorial review confirms Granado toiletries.",
+          "url": "https://www.cntraveler.com/hotels/brazil/sao-paulo/grand-hyatt-sao-paulo",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The 2 Bedroom Residence offers panoramic views of the Estaiada Bridge, expansive windows, a kitchen, a dining area and a living area.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Enjoy panoramic views of the iconic Estaiada Bridge from this 140-square-meter residence offering expansive windows, a kitchen, a dining area and a living area.",
+          "note": "Covers every listed feature of the 2 Bedroom Residence.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/saogh-grand-hyatt-sao-paulo/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Amanary Spa offers facials, massages and body treatments.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Choose from a variety of soothing facials, therapeutic massages and invigorating body treatments to relax the mind and body.",
+          "note": "Given in the Amanary Spa description.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/saogh-grand-hyatt-sao-paulo",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The fitness center has Technogym equipment and offers boxing and yoga classes and personal trainers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Keep up your fitness routine with Technogym equipment, boxing and yoga classes, complemented by a sauna and climatized indoor pool.",
+          "note": "Covers the Technogym equipment and the boxing and yoga classes.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/saogh-grand-hyatt-sao-paulo",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The fitness center also offers personal trainers, free parking and special discounts at the hotel’s restaurants and spa.",
+          "note": "Covers personal trainers.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/saogh-grand-hyatt-sao-paulo",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Cittadino is the signature restaurant, serving contemporary Italian cuisine with fresh pasta prepared daily.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Visit our São Paulo hotel’s signature Cittadino Restaurant, which celebrates contemporary Italian cuisine with fresh pasta prepared daily, bringing authenticity and flavor to every dish.",
+          "note": "Covers the signature status, the contemporary Italian cuisine and the daily fresh pasta.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/saogh-grand-hyatt-sao-paulo/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The pool is heated with steam exhaust, and recycling and food-waste reduction programs are in place.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The pool is heated with steam exhaust, and recycling and food-waste reduction programs are in full swing.",
+          "note": "Matches the claim directly.",
+          "url": "https://www.cntraveler.com/hotels/brazil/sao-paulo/grand-hyatt-sao-paulo",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel is pet friendly, with a pet park that has toys and a green area.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Your canine companions are welcome at our pet-friendly São Paulo hotel. We provide a pet park with pet toys, a green area and ample space for your furry friends to run.",
+          "note": "Covers the pet-friendly policy and a pet park with toys and a green area.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/saogh-grand-hyatt-sao-paulo",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Congonhas Airport is 6 kilometers from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "6 Kilometers",
+          "note": "Listed as the distance under Congonhas Airport (CGH) in the Transportation section.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/saogh-grand-hyatt-sao-paulo/hotel-info/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Diplomatic Suite is a corner suite with floor-to-ceiling windows, a separate dining area and panoramic views of the Ponte Estaiada bridge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Spread out in an exclusive 109-square-meter corner suite with a plush king bed and floor-to-ceiling windows. Also enjoy a separate dining area and panoramic views of the Ponte Estaiada bridge.",
+          "note": "Covers the corner suite, floor-to-ceiling windows, separate dining area and bridge views.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/saogh-grand-hyatt-sao-paulo/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Some rooms offer unobstructed views of Sao Paulo's Estaiada Bridge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Take in unobstructed views of São Paulo’s famous Estaiada Bridge from this 37-square-meter room",
+          "note": "The 1 Queen Bed With Bridge View room offers unobstructed bridge views.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/saogh-grand-hyatt-sao-paulo/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Grand Club Lounge is on the 20th floor, with high ceilings and city views, and offers club and suite guests complimentary continental breakfast, Wi-Fi, cocktails and appetizers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located on the 20th floor, our exclusive Grand Club Lounge provides comfort and convenience for guests in our club and suite categories.",
+          "note": "Covers the 20th-floor location and that the lounge serves club and suite guests.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/saogh-grand-hyatt-sao-paulo",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Along with high ceilings and breathtaking city views, the lounge offers complimentary continental breakfast, Wi-Fi access, cocktails and appetizers.",
+          "note": "Covers the high ceilings, city views, breakfast, Wi-Fi, cocktails and appetizers.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/saogh-grand-hyatt-sao-paulo",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Amanary Spa has seven treatment rooms, a sauna, a climatized indoor pool and a cardio and strength studio.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our São Paulo hotel spa facility features seven treatment rooms, a sauna, a climatized indoor pool and a cardio and strength studio.",
+          "note": "Matches every element of the claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/saogh-grand-hyatt-sao-paulo",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The climatized indoor and outdoor pool has bar service, and a series of waterfalls spill into it to cover traffic noise.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Enhance your experience in São Paulo with amenities like a climatized indoor and outdoor pool, plus bar service perfect for sunny days.",
+          "note": "Covers the climatized indoor/outdoor pool and the bar service.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/saogh-grand-hyatt-sao-paulo",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Designers were clever enough to install a series of waterfalls that spill into the pool to cover up traffic noise from the pool’s location.",
+          "note": "Covers the waterfalls that mask traffic noise.",
+          "url": "https://www.cntraveler.com/hotels/brazil/sao-paulo/grand-hyatt-sao-paulo",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The hotel has an attached event center with 17 meeting rooms and event spaces and a grand ballroom, so expect conference and group business.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Discover 17 meeting rooms and event spaces with high ceilings and natural light, a grand ballroom that holds 1,200 attendees and extensive catering options at our dedicated event center attached to our São Paulo hotel.",
+          "note": "Covers the attached event center, the 17 meeting rooms and event spaces, and the grand ballroom.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/saogh-grand-hyatt-sao-paulo",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "this mega hotel is purpose-built for groups, events, and the briefcase-toting traveler",
+          "note": "Supports the expectation of conference and group business.",
+          "url": "https://www.cntraveler.com/hotels/brazil/sao-paulo/grand-hyatt-sao-paulo",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing reflecting the luxury positioning and Sao Paulo's cosmopolitan market.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "hotel_slug": "belmond-reids-palace",
+  "hotel_name": "Belmond Reid's Palace",
+  "checked_at": "2026-10-10T23:36:43.456Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 0,
+      "total": 17
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.belmond.com/en/hotels/europe/portugal/reids-palace-madeira",
+      "tier": "official",
+      "chars": 4874
+    },
+    {
+      "id": "d2",
+      "url": "https://www.cntraveler.com/hotels/madeira/reid-s-palace-funchal",
+      "tier": "editorial",
+      "chars": 7973
+    },
+    {
+      "id": "d3",
+      "url": "https://www.belmond.com/en/hotels/europe/portugal/reids-palace-madeira/",
+      "tier": "official",
+      "chars": 4874
+    },
+    {
+      "id": "d4",
+      "url": "https://www.belmond.com/en/hotels/europe/italy/villa-san-michele-florence/",
+      "tier": "official",
+      "chars": 5658
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Reid's Palace stands in Funchal, Madeira, above the Atlantic Ocean.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "On the craggy cliffs above the Atlantic Ocean",
+          "note": "above the Atlantic",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/madeira/reid-s-palace-funchal",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Funchal, Madeira",
+          "note": "location",
+          "confirmed": true,
+          "url": "https://www.belmond.com/en/hotels/europe/portugal/reids-palace-madeira",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Belmond took over the hotel in 1996.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Belmond took over in 1996",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/madeira/reid-s-palace-funchal",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel has three outdoor swimming pools.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "3 outdoor swimming pools",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.belmond.com/en/hotels/europe/portugal/reids-palace-madeira",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The grounds include subtropical gardens, and guests can book a garden tour.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Subtropical gardens",
+          "note": "gardens",
+          "confirmed": true,
+          "url": "https://www.belmond.com/en/hotels/europe/portugal/reids-palace-madeira",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "book a garden tour to learn all about their tree and flower collection",
+          "note": "tour",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/madeira/reid-s-palace-funchal",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Ristorante Villa Cipriani serves casual dinner on its terrace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "enjoy a casual dinner on the terrace of Ristorante Villa Cipriani",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.belmond.com/en/hotels/europe/portugal/reids-palace-madeira",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Classic afternoon tea is held on a black-and-white checkered terrace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Classic afternoon tea is held on the black-and-white checkered terrace",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/madeira/reid-s-palace-funchal",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel has a kids' club called Fun@Reid's.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Fun@Reid’s kid’s club",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.belmond.com/en/hotels/europe/portugal/reids-palace-madeira",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The hotel offers pet-friendly amenities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Pet-friendly amenities",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.belmond.com/en/hotels/europe/portugal/reids-palace-madeira",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Bathrooms have tubs and showers and soaps from the Portuguese brand Claus Porto.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "bathrooms are equipped with tubs and showers and delicious soaps from Portuguese brand Claus Porto",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/madeira/reid-s-palace-funchal",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "A saltwater pool sits at ocean level, reached by a cliff-hugging lift.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "ocean-level saltwater pool (via the iconic cliff-hugging lift",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/madeira/reid-s-palace-funchal",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Early guests who arrived by boat were carried up the cliff in hammocks.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "guests who arrive by boat are carried up the cliff in hammocks by strapping porters",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/madeira/reid-s-palace-funchal",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Interiors include Portuguese tiles and vintage photographs of Winston Churchill at a typewriter.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Portuguese tiles and vintage photographs of a cigar-smoking Winston Churchill tapping away on his typewriter",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/madeira/reid-s-palace-funchal",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The hotel was opened by the Reid family in 1891.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "since its opening by the Reid family in 1891",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.belmond.com/en/hotels/europe/portugal/reids-palace-madeira",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The hotel has direct access to the sea.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Direct access to the sea",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.belmond.com/en/hotels/europe/portugal/reids-palace-madeira",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel is a 10-minute drive from central Funchal.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "10-minute drive from central Funchal",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.belmond.com/en/hotels/europe/portugal/reids-palace-madeira",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Afternoon tea is normally fully booked with outside guests, so guests should secure a spot in advance with the front desk.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "secure a spot in advance with the front desk as it’s normally fully booked with outside guests",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/madeira/reid-s-palace-funchal",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "There is one accessible room and a few ramps, but some elevators are too small for wheelchair access.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "There is one accessible room and a few ramps throughout the hotel, but do note that some elevators are too small for wheelchair access.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/madeira/reid-s-palace-funchal",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

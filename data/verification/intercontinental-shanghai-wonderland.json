@@ -1,0 +1,408 @@
+{
+  "hotel_slug": "intercontinental-shanghai-wonderland",
+  "hotel_name": "InterContinental Shanghai Wonderland",
+  "checked_at": "2026-10-30T07:29:31.868Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shghe/hoteldetail",
+      "tier": "official",
+      "chars": 9474
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shghe/hoteldetail/rooms/",
+      "tier": "official",
+      "chars": 4051
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shghe/hoteldetail/dining/",
+      "tier": "official",
+      "chars": 7156
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shghe/hoteldetail/amenities/",
+      "tier": "official",
+      "chars": 5083
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shghe/hoteldetail/local-area-guide/",
+      "tier": "official",
+      "chars": 2645
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shghe/hoteldetail/directions/",
+      "tier": "official",
+      "chars": 2576
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shghe/hoteldetail/",
+      "tier": "official",
+      "chars": 9474
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shghe/hoteldetail/hotel-reviews/",
+      "tier": "official",
+      "chars": 13442
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel describes itself as the world's first luxury hotel built inside a quarry.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "It is the world’s first luxury hotel constructed inside a quarry.",
+          "note": "hotel's own page states it",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shghe/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel sits in the Sheshan Tourism Resort of Songjiang, Shanghai.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Nestled in the Sheshan Tourism Resort of Songjiang, Shanghai",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shghe/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel is 40 minutes from the Shanghai National Exhibition and Convention Center.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "is 40 minutes from the Shanghai National Exhibition and Convention Center",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shghe/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The lobby has a Subterranean Adventure theme, with bronze-colored walls that reproduce the layers of quarry rock.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The lobby takes \"Subterranean Adventure\" as its theme, with bronze-colored wall facades reproducing the natural appearance of quarry rock layers",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shghe/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Guest rooms have a 55-inch LCD TV, a JBL sound system, a separate shower and bathtub, and Dyson hair dryers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "equipped with 55-inch LCD TV,JBL audio player and sound system, separate shower bathtub and branded bath products. Dyson hair dryers",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shghe/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Duplex Suite may include an outdoor living area and an underwater view.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Duplex Suite may include:\n\n- Balcony\n- Outdoor Living Area\n- Underwater View",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shghe/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The indoor pool is heated.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Indoor pool\n\nHours: 7:00 AM to 10:00 PM\n\n##### Pool features\n\nLifeguard on duty during operating hours\n\nPool type: Children's Pool\n\nWater type: Heated pool",
+          "note": "indoor pool, heated",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shghe/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel's spa, Sheng Spa, offers hydrotherapy.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "#### Sheng SPA\n\n- **Email address:** 1198347819@qq.com\n\n- **Phone number:** 86-021-67661888\n\n- **Hours of operation:** 10:00 AM - 12:00 PM\n\n- N/A\n\n- **Spa Amenities**\n\n  - Hydro Therapy",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shghe/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The hotel offers pickleball.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The trendy sport pickleball has arrived at the hotel.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shghe/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "From the She Shan Lounge Lobby Bar, guests can take in the Sheshan National Scenic Area and the deep pits of Tianma Mountain.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "At the She Shan Lounge Lobby Bar, you can enjoy the beauty of Sheshan National Scenic Area and the deep pits of Tian ma Mountain.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shghe/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The Quarry Bar sits between the bottom of the quarry and the water.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The Ouarry Bar is located between the bottom of the quarry and the water.",
+          "note": "typo Ouarry on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shghe/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The Smurfs theme park at Shimao Fairy City is about 0.6 kilometers from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Blue Fairy Land, Shimao Fairy City Theme Park - 0.37 miles away (0.6 kilometers)",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shghe/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The Smurfs Park is divided into the Maoxianwang Area and the Smurfs Area.",
+          "note": "Blue Fairy Land is the Smurfs park",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shghe/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel is built on the cliff face of an abandoned quarry 88 meters below sea level.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "the hotel is built on the cliff face of an abandoned quarry 88 meters below sea level",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shghe/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Underwater View Suite may include an underwater view and a balcony.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Underwater View Suite may include:\n\n- Balcony\n- Underwater View",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shghe/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The indoor pool offers views of the waterfall.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "#### Indoor Pool\n\nThe pool offers views of the waterfall",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shghe/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Mr. Fisher, a seafood restaurant one floor below the water level, is surrounded by a custom-built display of swimming sea creatures.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "## Mr. Fisher Specialty Restaurant",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shghe/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Located one floor below the water level, this specialty seafood venue is enveloped in a sea of water creatures swimming about in a custom built display.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shghe/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Shanghai Hongqiao International Airport is about 29.9 kilometers from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "approximately 18.58 miles away (29.9 kilometers) from the hotel",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shghe/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Pets are not allowed at the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "No, pets are not allowed at InterContinental Shanghai Wonderland.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shghe/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the location is remote, outside central Shanghai.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

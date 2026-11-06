@@ -1,0 +1,386 @@
+{
+  "hotel_slug": "raffles-hotel-singapore",
+  "hotel_name": "Raffles Hotel Singapore",
+  "checked_at": "2026-10-14T03:50:50.855Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.raffles.com/singapore/",
+      "tier": "official",
+      "chars": 29746
+    },
+    {
+      "id": "d2",
+      "url": "https://www.raffles.com/singapore/suites/",
+      "tier": "official",
+      "chars": 22427
+    },
+    {
+      "id": "d3",
+      "url": "https://www.raffles.com/singapore/spa/",
+      "tier": "official",
+      "chars": 28021
+    },
+    {
+      "id": "d4",
+      "url": "https://www.raffles.com/singapore/dining/butchers-block/",
+      "tier": "official",
+      "chars": 28425
+    },
+    {
+      "id": "d5",
+      "url": "https://www.raffles.com/singapore/about/",
+      "tier": "official",
+      "chars": 30000
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is at the heart of Singapore's business and civic district, a preserved colonial building among modern skyscrapers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Raffles Singapore is at the heart of the vibrant business and civic district, a beacon of classic colonial architecture perfectly preserved among our modern-skyscraper neighbours.",
+          "note": "heart of business and civic district, preserved colonial among skyscrapers",
+          "confirmed": true,
+          "url": "https://www.raffles.com/singapore/about/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is within walking distance of the Singapore International Convention & Exhibition Centre and Esplanade - Theatres on the Bay.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "we are walking distance to Singapore International Convention & Exhibition Centre and Esplanade – Theatres on the Bay.",
+          "note": "walking distance to both",
+          "confirmed": true,
+          "url": "https://www.raffles.com/singapore/about/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Orchard Road shopping strip is a two-minute ride away on the Mass Rapid Transit.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "It is a two-minute ride on the Mass Rapid Transit to the bustling Orchard Road shopping strip",
+          "note": "two-minute MRT ride to Orchard Road",
+          "confirmed": true,
+          "url": "https://www.raffles.com/singapore/about/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel opened to the public on 1 December 1887, founded by the Armenian Sarkies brothers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "On 1 December, Raffles Hotel Singapore opened to the public as a 10-room hotel, by the Armenian Sarkies brothers.",
+          "note": "1 December opening by Armenian Sarkies brothers",
+          "confirmed": true,
+          "url": "https://www.raffles.com/singapore/about/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The birth of a legend 1887",
+          "note": "year 1887 for that timeline entry",
+          "confirmed": true,
+          "url": "https://www.raffles.com/singapore/about/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Tropical gardens occupy more than a quarter of the estate.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "lush tropical gardens which occupy more than a quarter of the estate",
+          "note": "more than a quarter of the estate",
+          "confirmed": true,
+          "url": "https://www.raffles.com/singapore/about/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The suites sit within colonial-style architecture with original 14ft ceilings.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Within distinctive colonial style architecture and original 14ft ceilings",
+          "note": "colonial architecture with original 14ft ceilings",
+          "confirmed": true,
+          "url": "https://www.raffles.com/singapore/suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The State Room Suites, in the historic Bras Basah wing, have two separate entrances, one to the parlour and one to the bedroom.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Housed in Bras Basah wing, one of the most historic sections of Raffles Singapore, the State Room Suites have two separate entrances, one leading to the parlour, the other to your sumptuous bedroom.",
+          "note": "Bras Basah wing, two entrances",
+          "confirmed": true,
+          "url": "https://www.raffles.com/singapore/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Guest amenities include personalised butler service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Amenities include luxury suites, personalised butler service, spa, fitness facilities, pool, and curated dining experiences.",
+          "note": "personalised butler service listed",
+          "confirmed": true,
+          "url": "https://www.raffles.com/singapore/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Raffles Spa's hydrotherapy includes a vitality pool filled with Peruvian pink salt, a herbal sauna, an aromatherapy steam room and an ice fountain.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "A vitality pool filled with mineral-rich Peruvian pink salt, a herbal sauna, an aromatherapy steam room that releases pure salt vapour, and an ice fountain for cooling relaxation.",
+          "note": "all four hydrothermal elements",
+          "confirmed": true,
+          "url": "https://www.raffles.com/singapore/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Butcher's Block, the wood-fire restaurant, is led by Chef de Cuisine Jordan Keao, who was born and raised in Hawaii.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Butcher’s Block is an avant-garde wood-fire dining experience, expressing the elemental affinity and finesse of cooking with wood-fire. Helmed by Chef de Cuisine Jordan Keao, who was born and raised in Hawaii",
+          "note": "wood-fire, Chef de Cuisine Keao, born and raised in Hawaii",
+          "confirmed": true,
+          "url": "https://www.raffles.com/singapore/dining/butchers-block/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Yi by Jereme Leung serves refined Chinese cuisine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "藝 yì by Jereme Leung (refined Chinese)",
+          "note": "refined Chinese",
+          "confirmed": true,
+          "url": "https://www.raffles.com/singapore/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The hotel holds Three MICHELIN Keys in the MICHELIN Guide for 2026.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "**Three MICHELIN Keys**\\\\\n\\\\\n2026",
+          "note": "Three MICHELIN Keys, 2026 (MICHELIN Guide)",
+          "confirmed": true,
+          "url": "https://www.raffles.com/singapore/about/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel's history credits Hainanese bartender Ngiam Tong Boon with creating the Singapore Sling, so that ladies of the time could enjoy alcohol in public.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Hainanese bartender Ngiam Tong Boon creates the iconic Singapore Sling, to allow ladies of the time to enjoy alcohol in public.",
+          "note": "stated in history timeline",
+          "confirmed": true,
+          "url": "https://www.raffles.com/singapore/about/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The hotel was officially declared a National Monument by the Singapore government in 1987, on its 100th anniversary.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "1987\n\n## National monument\n\nRaffles Hotel Singapore is officially declared a National Monument by the Singapore government on her 100th anniversary.",
+          "note": "1987, National Monument, 100th anniversary",
+          "confirmed": true,
+          "url": "https://www.raffles.com/singapore/about/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Palm Court Suites overlook the Palm Court, a garden reserved exclusively for hotel guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "these 35 suites overlook the verdant Palm Court, a hidden gem at Raffles Singapore reserved exclusively for our guests.",
+          "note": "overlook Palm Court reserved for guests",
+          "confirmed": true,
+          "url": "https://www.raffles.com/singapore/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Early guests included the writers Joseph Conrad, Rudyard Kipling and Somerset Maugham.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Some of our earliest guests included distinguished men of letters; Joseph Conrad, Rudyard Kipling and Somerset Maugham.",
+          "note": "all three writers named",
+          "confirmed": true,
+          "url": "https://www.raffles.com/singapore/about/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Personality Suites are a tribute to renowned past guests and feature memorabilia related to each one.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The 12 Personality Suites are a tribute to renowned guests who have visited Raffles over the last century. Featuring unique memorabilia related to each legendary name in the parlour and bedroom.",
+          "note": "tribute and memorabilia",
+          "confirmed": true,
+          "url": "https://www.raffles.com/singapore/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The setting is urban: the hotel sits in the business and civic district, surrounded by modern skyscrapers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Raffles Singapore is at the heart of the vibrant business and civic district, a beacon of classic colonial architecture perfectly preserved among our modern-skyscraper neighbours.",
+          "note": "business and civic district, skyscraper neighbours",
+          "confirmed": true,
+          "url": "https://www.raffles.com/singapore/about/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes high tourist traffic because of the hotel's fame.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing that reflects the luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

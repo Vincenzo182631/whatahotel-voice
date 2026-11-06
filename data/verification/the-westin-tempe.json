@@ -1,0 +1,359 @@
+{
+  "hotel_slug": "the-westin-tempe",
+  "hotel_name": "The Westin Tempe",
+  "checked_at": "2026-11-05T10:50:35.125Z",
+  "script_version": 1,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 13,
+      "contradicted": 0,
+      "unverified": 1,
+      "exempt": 1,
+      "total": 15
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/phxwt-the-westin-tempe/overview/",
+      "tier": "official",
+      "chars": 17716
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/phxwt-the-westin-tempe/rooms/",
+      "tier": "official",
+      "chars": 10724
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/phxwt-the-westin-tempe/experiences/",
+      "tier": "official",
+      "chars": 13283
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/phxwt-the-westin-tempe/experiences/arizona-state-university/",
+      "tier": "official",
+      "chars": 5474
+    },
+    {
+      "id": "d5",
+      "url": "https://www.marriott.com/en-us/hotels/phxwt-the-westin-tempe/dining/",
+      "tier": "official",
+      "chars": 8305
+    },
+    {
+      "id": "d6",
+      "url": "https://www.marriott.com/en-us/hotels/phxwt-the-westin-tempe/experiences/activities/",
+      "tier": "official",
+      "chars": 7765
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is in the heart of Tempe, Arizona, just steps from Arizona State University.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Hotel in the heart of Tempe, Arizona, just steps from Arizona State University.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phxwt-the-westin-tempe/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Rooms have spa-centric bathrooms with rain showers and the Westin Heavenly Bed.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "spa-centric bathrooms complete with rain showers. Enjoy a restful night's sleep on our signature Westin Heavenly Bed.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phxwt-the-westin-tempe/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Upgraded deluxe rooms and suites include corner rooms with views of Camelback and A Mountain.",
+      "findings": [
+        {
+          "verdict": "partial",
+          "doc_id": "d2",
+          "quote": "Our hotel offers several options for your stay including our upgraded deluxe guest rooms and suites that feature incredible views of Camelback and \"A\" Mountain.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phxwt-the-westin-tempe/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "unverified",
+      "reason": "sources cover only part of the claim"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Private shaded rooftop cabanas can be rented, each with two chaise lounges, bottled water and food and drink service from Skysill.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Upgrade your rooftop escape with a private shaded cabana",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phxwt-the-westin-tempe/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "each rental includes two chaise lounges, refreshing bottled water, and exclusive food & drink service from Skysill Rooftop Bar.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phxwt-the-westin-tempe/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Terra Tempe Kitchen and Spirits serves a revolving menu of Sonoran dishes from seasonal ingredients sourced through local farmers and artisans.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Our revolving menu of Sonoran dishes is rooted in seasonal ingredients from our own backyard.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phxwt-the-westin-tempe/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "provisions sourced through relationships with local farmers and artisans",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phxwt-the-westin-tempe/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The WestinWORKOUT Fitness Studio has Peloton bikes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Stay active in our 24/7 Westin WORKOUT Fitness Studio with Peloton bikes.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phxwt-the-westin-tempe/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Mill Avenue District is a 5-minute walk and A Mountain (Hayden Butte) an 8-minute walk from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Mill Avenue District – 0.2 miles (5-minute walk)",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phxwt-the-westin-tempe/experiences/arizona-state-university/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "\"A\" Mountain (Hayden Butte) – 0.4 miles (8-minute walk)",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phxwt-the-westin-tempe/experiences/arizona-state-university/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The hotel hosts events such as rooftop DJ nights, seasonal pop-ups, wellness experiences and culinary events.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "From rooftop DJ nights and seasonal pop-ups to wellness experiences and culinary events",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phxwt-the-westin-tempe/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The rooftop pool has daybeds, lounge chairs and a hot tub, with views of downtown, Camelback Mountain and ASU Stadium.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Relax and unwind at our rooftop pool, featuring daybeds, lounge chairs, and a hot tub. Enjoy stunning views of downtown, Camelback Mountain, and ASU Stadium",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phxwt-the-westin-tempe/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Guest rooms have floor-to-ceiling windows with views of Camelback Mountain, ASU Stadium and the city.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "offers stunning views of Camelback Mountain, ASU Stadium,",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phxwt-the-westin-tempe/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "and the city from guest rooms with floor-to-ceiling windows",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phxwt-the-westin-tempe/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Penthouse Suite has floor-to-ceiling windows overlooking the mountain skyline, a living and entertainment space, a wet bar, a separate king bedroom and a deep soaking garden tub.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our Penthouse Suite features stunning floor-to-ceiling windows overlooking the incredible mountain skyline, a spacious living and entertainment space, a wet bar, a separate master king bedroom,",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phxwt-the-westin-tempe/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "and a bathroom featuring a deep soaking garden tub.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phxwt-the-westin-tempe/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Skysill Rooftop Lounge is described as the highest rooftop bar in Tempe, with sweeping city views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Take in sweeping city views from the highest rooftop bar in Tempe.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phxwt-the-westin-tempe/experiences/arizona-state-university/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel is cashless; it accepts major credit cards and mobile payments.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Please note that The Westin Tempe is a cashless hotel. We accept all major credit cards and mobile payment methods; cash is not accepted.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phxwt-the-westin-tempe/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The minimum age to check in is 21.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Minimum Age to Check In: 21",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/phxwt-the-westin-tempe/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the urban setting may lack a desert resort feel.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

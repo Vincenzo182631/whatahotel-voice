@@ -1,0 +1,413 @@
+{
+  "hotel_slug": "the-strings-by-intercontinental-tokyo",
+  "hotel_name": "The Strings by InterContinental Tokyo",
+  "checked_at": "2026-10-30T06:33:16.007Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/tokyo/tyose/hoteldetail",
+      "tier": "official",
+      "chars": 9928
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/tokyo/tyose/hoteldetail/rooms/",
+      "tier": "official",
+      "chars": 3291
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/tokyo/tyose/hoteldetail/amenities/",
+      "tier": "official",
+      "chars": 4729
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/tokyo/tyose/hoteldetail/directions/",
+      "tier": "official",
+      "chars": 2683
+    },
+    {
+      "id": "d5",
+      "url": "https://www.cntraveler.com/hotels/tokyo/the-strings-by-intercontinental-tokyo",
+      "tier": "editorial",
+      "chars": 6544
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/tokyo/tyose/hoteldetail/",
+      "tier": "official",
+      "chars": 9928
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/tokyo/tyose/hoteldetail/hotel-reviews/",
+      "tier": "official",
+      "chars": 21221
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/tokyo/tyose/hoteldetail/local-area-guide/",
+      "tier": "official",
+      "chars": 4969
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is in Shinagawa, one of Tokyo's leading business districts.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The Strings is conveniently located in Shinagawa, one of Tokyo’s leading business districts.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/tokyo/tyose/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Shinagawa Station provides direct rail access to both Narita and Haneda airports.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "An internal walkway leads directly from the property to Shinagawa Station",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/tokyo/tyose/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The station also provides direct rail access to both Narita and Haneda airports.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/tokyo/tyose/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Shinagawa Station offers direct Shinkansen bullet train access to Yokohama, Osaka, Kyoto and Kobe.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The hotel is only a short walk from Shinagawa Station, with direct access via the Shinkansen bullet train to Yokohama, Osaka, Kyoto, and Kobe.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/tokyo/tyose/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel occupies floors 26 to 32 of the Shinagawa East One Tower.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "26-32/F Shinagawa East One Tower 2-16-1 Konan Tokyo",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/tokyo/tyose/hoteldetail/directions/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The hotel has a vaulted lobby.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "into the vaulted lobby of The Strings",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/tokyo/the-strings-by-intercontinental-tokyo",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Hallways leading to the rooms ring around an open atrium.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Hallways leading to the rooms ring around an open atrium",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/tokyo/the-strings-by-intercontinental-tokyo",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Each guest room has a premium bed, a spacious bathroom and a large window with a panoramic view of Tokyo's skyline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Each of our guest rooms is fitted with a premium bed to heal daily fatigue, a spacious bathroom, and a large window showcasing a panoramic view of Tokyo’s skyline.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/tokyo/tyose/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Premium Rooms may include a separate jetted bath with walk-in rain shower.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Premium Rooms may include:",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/tokyo/tyose/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Separate Jetted Bath with Walk-in Rain Shower",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/tokyo/tyose/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The Score Dining, on level 26, features daily live music.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Score Dining, on level 26, resonates with the sounds of daily live music.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/tokyo/tyose/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Kazane is the hotel's teppanyaki restaurant, where chefs cook behind a massive griddle.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Kazane, the on-site teppanyaki restaurant where resident chefs work their magic behind a massive griddle.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/tokyo/the-strings-by-intercontinental-tokyo",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel has a fitness center.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Fitness center",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/tokyo/tyose/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "An internal walkway leads directly from the hotel to Shinagawa Station, a major transport hub.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "An internal walkway leads directly from the property to Shinagawa Station, a major transport hub that connects Tokyo and other destinations around Japan.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/tokyo/tyose/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Rooms have large picture windows overlooking Tokyo Bay, Tokyo Tower and Shinagawa Station.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Aided by large picture windows overlooking Tokyo Bay, Tokyo Tower, and Shinagawa Station, the standard rooms do an admirable job of efficiently using their space.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/tokyo/the-strings-by-intercontinental-tokyo",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Club InterContinental guests have access to the Maestro Lounge, with private check-in, a welcome drink and panoramic views of Tokyo.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Guests staying in our Club InterContinental rooms or suites enjoy access to one of Tokyo’s most exclusive lounges.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/tokyo/tyose/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "From the moment you step into the Maestro Lounge, you’ll be greeted with private check-in, a refreshing welcome drink and panoramic views of Tokyo",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/tokyo/tyose/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Strings has its own identity with a light-touch musical theme.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The Strings proffers its own identity with a light-touch musical theme.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/tokyo/the-strings-by-intercontinental-tokyo",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "A sampling of uniquely prepared teas is available for free in the minibar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Check out the property's sampling of uniquely prepared teas, available for free in the minibar.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/tokyo/the-strings-by-intercontinental-tokyo",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel does not have a pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "No, InterContinental The Strings Tokyo does not have a pool.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/tokyo/tyose/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Light sleepers may hear some light clacking from trains in Shinagawa-view rooms, despite double-glazed windows.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Light sleepers should skip the Shinagawa view—trains regularly trundle some 30 floors down, and despite the double-glazed windows, there's still some light clacking.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/tokyo/the-strings-by-intercontinental-tokyo",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the business district location may lack a traditional cultural atmosphere.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

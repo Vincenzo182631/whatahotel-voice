@@ -1,0 +1,424 @@
+{
+  "slug": "hotel-bennett",
+  "status": "ready",
+  "partial": true,
+  "reasons": [
+    "limit reached: 12 pages; progress saved (12 pages), rerun with higher limits to continue",
+    "coverage is partial: a limit stopped the page fetch early; raise the limits and rerun to read the rest"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Hotel Bennett",
+      "city": "Charleston",
+      "country": "US"
+    },
+    "affiliation": {
+      "kind": "independent"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Charleston, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hotelbennett.com/"
+    ],
+    "checked_at": "2026-10-15T23:41:38.231Z",
+    "status": "confirmed",
+    "official_url": "https://www.hotelbennett.com/",
+    "base_url": "https://www.hotelbennett.com/",
+    "host": "hotelbennett.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hotelbennett.com/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:41:42.472Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.hotelbennett.com/rooms/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:41:48.502Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.hotelbennett.com/rooms/suites/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:41:52.607Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.hotelbennett.com/spa/treatments/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:41:56.436Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.hotelbennett.com/dining-and-lounges/fiat-lux/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:42:00.565Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.hotelbennett.com/dining-and-lounges/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:42:05.191Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p7",
+      "url": "https://www.hotelbennett.com/dining-and-lounges/gabrielle/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:42:07.862Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.hotelbennett.com/dining-and-lounges/camellias/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:42:14.488Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p9",
+      "url": "https://www.hotelbennett.com/dining-and-lounges/la-patisserie/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:42:16.659Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p10",
+      "url": "https://www.hotelbennett.com/spa/spa/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:42:20.246Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p11",
+      "url": "https://www.hotelbennett.com/activities/pool/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:42:25.751Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p12",
+      "url": "https://www.hotelbennett.com/activities/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T23:42:28.215Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [],
+  "usage": {
+    "firecrawl_calls": 14,
+    "firecrawl_searches": 1,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 12,
+    "chars": 59492,
+    "est_claude_tokens": 14873
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-15T23:42:32.014Z",
+  "hotel": {
+    "name": "Hotel Bennett",
+    "city": "Charleston",
+    "country": "US",
+    "confirmed_affiliation": {
+      "kind": "independent"
+    }
+  },
+  "official_url": "https://www.hotelbennett.com/",
+  "verified_facts": [
+    {
+      "id": "r-1",
+      "category": "location",
+      "text": "Hotel Bennett is in the center of historic downtown Charleston, and its doors open onto King Street.",
+      "source_url": "https://www.hotelbennett.com/",
+      "source_tier": "official",
+      "excerpt": "In the center of historic downtown, Hotel Bennett is the culmination of steep tradition, intricate European-inspired architecture, and southern hospitality. From our doors, walk onto King Street"
+    },
+    {
+      "id": "r-2",
+      "category": "design_history",
+      "text": "The hotel's architecture is intricate and European-inspired.",
+      "source_url": "https://www.hotelbennett.com/",
+      "source_tier": "official",
+      "excerpt": "intricate European-inspired architecture"
+    },
+    {
+      "id": "r-3",
+      "category": "design_history",
+      "text": "The hotel was built by native Charlestonians.",
+      "source_url": "https://www.hotelbennett.com/activities/overview/",
+      "source_tier": "official",
+      "excerpt": "Hotel Bennett embodies this spirit — built by native Charlestonians, the lavish hotel opens upon King Street"
+    },
+    {
+      "id": "r-4",
+      "category": "design_history",
+      "text": "The hotel sits on the site of the Charleston County Library.",
+      "source_url": "https://www.hotelbennett.com/activities/overview/",
+      "source_tier": "official",
+      "excerpt": "Hotel Bennett sits the location of the Charleston County Library"
+    },
+    {
+      "id": "r-5",
+      "category": "design_history",
+      "text": "The Bennett family, a local family, designed and owns the hotel.",
+      "source_url": "https://www.hotelbennett.com/rooms/suites/",
+      "source_tier": "official",
+      "excerpt": "the Bennett family, the local family which carefully designed and owns the hotel"
+    },
+    {
+      "id": "r-6",
+      "category": "amenities",
+      "text": "The heated rooftop pool is on the 9th floor above Marion Square, with panoramic views of downtown.",
+      "source_url": "https://www.hotelbennett.com/activities/pool/",
+      "source_tier": "official",
+      "excerpt": "Take in Charleston from a different perspective at Hotel Bennett’s heated rooftop pool, where panoramic views of downtown meet an elevated, unhurried poolside experience. Lounge above Marion Square on the 9th floor"
+    },
+    {
+      "id": "r-7",
+      "category": "amenities",
+      "text": "The rooftop pool is open year-round exclusively to overnight guests.",
+      "source_url": "https://www.hotelbennett.com/activities/pool/",
+      "source_tier": "official",
+      "excerpt": "Open year-round exclusively to overnight guests, the rooftop offers a peaceful escape above the energy of King Street."
+    },
+    {
+      "id": "r-8",
+      "category": "amenities",
+      "text": "Private rooftop cabanas can be reserved, with reserved chaise lounges, privacy curtains, refreshments and a complimentary bottle of Prosecco or six domestic beers.",
+      "source_url": "https://www.hotelbennett.com/activities/pool/",
+      "source_tier": "official",
+      "excerpt": "reserve one of our rooftop cabanas, complete with reserved chaise lounges, privacy curtains, refreshments and a complimentary bottle of Prosecco or six domestic beers."
+    },
+    {
+      "id": "r-9",
+      "category": "amenities",
+      "text": "The Spa at Hotel Bennett offers massages, facials and body treatments, including the Holy City Wrap.",
+      "source_url": "https://www.hotelbennett.com/spa/spa/",
+      "source_tier": "official",
+      "excerpt": "From massages and facials to body treatments, you’ll leave feeling like your best self. Unwind with uniquely luxurious treatments, like the Holy City Wrap"
+    },
+    {
+      "id": "r-10",
+      "category": "amenities",
+      "text": "Spa treatments incorporate the area's maritime surroundings.",
+      "source_url": "https://www.hotelbennett.com/activities/overview/",
+      "source_tier": "official",
+      "excerpt": "The Spa at Hotel Bennett creates an urban oasis for guests with treatments that incorporate the area’s maritime surroundings."
+    },
+    {
+      "id": "r-11",
+      "category": "practical",
+      "text": "Spa services are available for guests aged 18 and older.",
+      "source_url": "https://www.hotelbennett.com/spa/treatments/",
+      "source_tier": "official",
+      "excerpt": "Services are available for guests aged 18 and older."
+    },
+    {
+      "id": "r-12",
+      "category": "amenities",
+      "text": "The Fitness Room is on the second floor overlooking King Street and is open 24/7.",
+      "source_url": "https://www.hotelbennett.com/spa/spa/",
+      "source_tier": "official",
+      "excerpt": "Located on the second floor overlooking King Street, the Fitness Room is open 24/7"
+    },
+    {
+      "id": "r-13",
+      "category": "rooms",
+      "text": "The Citadel Square Suite is a top-floor suite overlooking the Old Citadel, Marion Square and Charleston harbor.",
+      "source_url": "https://www.hotelbennett.com/rooms/suites/",
+      "source_tier": "official",
+      "excerpt": "This one-of-a-kind, top-floor suite overlooks the historic Old Citadel, Marion Square, Charleston harbor, and provides panoramic views of the city’s famed beauty."
+    },
+    {
+      "id": "r-14",
+      "category": "rooms",
+      "text": "The St. Matthew's Suite is an upper-floor suite beneath the steeple of historic St. Matthew's Lutheran Church.",
+      "source_url": "https://www.hotelbennett.com/rooms/suites/",
+      "source_tier": "official",
+      "excerpt": "Beneath the soaring steeple of historic St. Matthew's Lutheran Church, this upper-floor suite reveals why Charleston is affectionately known as The Holy City."
+    },
+    {
+      "id": "r-15",
+      "category": "rooms",
+      "text": "The club-level Presidential Suite has a wrap-around terrace with views of the Ravenel Bridge, the Cooper and Ashley Rivers and the city skyline.",
+      "source_url": "https://www.hotelbennett.com/rooms/suites/",
+      "source_tier": "official",
+      "excerpt": "Expansive views of the Ravenel Bridge, Cooper and Ashley Rivers, and the Holy City skyline from a 1,276 square foot wrap-around exterior terrace make the Presidential Suite"
+    },
+    {
+      "id": "r-16",
+      "category": "rooms",
+      "text": "The two-story Owner's Suite, available upon request, has a gourmet kitchen, a butler's pantry and a wrap-around terrace.",
+      "source_url": "https://www.hotelbennett.com/rooms/suites/",
+      "source_tier": "official",
+      "excerpt": "This two-story, 2,380-square-foot suite features custom furnishings, including a dining area for six, an expansive living room with two sitting areas, butler’s pantry, wine cooler, and a gourmet kitchen."
+    },
+    {
+      "id": "r-17",
+      "category": "rooms",
+      "text": "Rooms and suites have bathrooms with glass-enclosed showers and deep-soaking pedestal tubs.",
+      "source_url": "https://www.hotelbennett.com/rooms/rooms/",
+      "source_tier": "official",
+      "excerpt": "the room also features a spacious bathroom with a deep-soaking pedestal tub, glass-enclosed shower, and marble vanity"
+    },
+    {
+      "id": "r-18",
+      "category": "rooms",
+      "text": "Premier King with Terrace rooms have a terrace with an outdoor dining table and chaise lounges and views of Charleston's historic peninsula.",
+      "source_url": "https://www.hotelbennett.com/rooms/rooms/",
+      "source_tier": "official",
+      "excerpt": "Stunning views of Charleston’s historic peninsula from the terrace distinguish the Premier King"
+    },
+    {
+      "id": "r-19",
+      "category": "amenities",
+      "text": "The King's Club offers a private lounge and terrace and concierge.",
+      "source_url": "https://www.hotelbennett.com/",
+      "source_tier": "official",
+      "excerpt": "Enjoy a private lounge & terrace, concierge and more"
+    },
+    {
+      "id": "r-20",
+      "category": "dining",
+      "text": "Camellias is a champagne lounge inspired by Faberge jewels, with an etched-mirror ceiling and a crystal chandelier.",
+      "source_url": "https://www.hotelbennett.com/dining-and-lounges/camellias/",
+      "source_tier": "official",
+      "excerpt": "Inspired by the renowned Fabergé jewels, Camellias' etched-mirror ceiling and crystal chandelier creates a breathtaking world unlike any other champagne lounge."
+    },
+    {
+      "id": "r-21",
+      "category": "dining",
+      "text": "Camellias' pink interiors include marble reclaimed from the library that stood on the site.",
+      "source_url": "https://www.hotelbennett.com/dining-and-lounges/camellias/",
+      "source_tier": "official",
+      "excerpt": "The bold pink interiors include marble reclaimed from the library that stood in this spot, a nod to the area’s rich history and tradition."
+    },
+    {
+      "id": "r-22",
+      "category": "dining",
+      "text": "Camellias serves Afternoon Tea, which requires reservations.",
+      "source_url": "https://www.hotelbennett.com/dining-and-lounges/camellias/",
+      "source_tier": "official",
+      "excerpt": "AFTERNOON TEA  (RESERVATIONS REQUIRED)"
+    },
+    {
+      "id": "r-23",
+      "category": "dining",
+      "text": "Fiat Lux is a rooftop bar and dining destination on the hotel's ninth floor with panoramic views of downtown Charleston.",
+      "source_url": "https://www.hotelbennett.com/dining-and-lounges/fiat-lux/",
+      "source_tier": "official",
+      "excerpt": "Perched above King Street on Hotel Bennett’s ninth floor, Fiat Lux is a rooftop bar and dining destination with panoramic views of downtown Charleston and the Holy City skyline."
+    },
+    {
+      "id": "r-24",
+      "category": "dining",
+      "text": "Gabrielle serves Lowcountry cuisine, with an outdoor dining terrace overlooking Marion Square.",
+      "source_url": "https://www.hotelbennett.com/dining-and-lounges/gabrielle/",
+      "source_tier": "official",
+      "excerpt": "This cuisine showcases Lowcountry’s fresh bounty with bold, yet refined, flavors. From the moment you arrive, Gabrielle exudes warmth and grace. Enjoy inspired dishes upon our impressive outdoor dining terrace overlooking Marion Square"
+    },
+    {
+      "id": "r-25",
+      "category": "dining",
+      "text": "La Patisserie is a Parisian-style cafe led by French Pastry Chef Remy Funfrock.",
+      "source_url": "https://www.hotelbennett.com/dining-and-lounges/la-patisserie/",
+      "source_tier": "official",
+      "excerpt": "Get carried away to Paris at La Pâtisserie, the vision of renowned French Pastry Chef and 2024 James Beard Award nominee, Rémy Fünfrock."
+    },
+    {
+      "id": "r-26",
+      "category": "experiences",
+      "text": "Guests can book a private shopping experience at Gwynn's in Mount Pleasant, with roundtrip transportation, a private suite and a dedicated stylist.",
+      "source_url": "https://www.hotelbennett.com/activities/overview/",
+      "source_tier": "official",
+      "excerpt": "Reserved exclusively for guests of Hotel Bennett, enjoy a personalized shopping experience at Gwynn’s. Allow our team to arrange roundtrip transportation, a private suite, a dedicated stylist, and light bites with bubbly."
+    },
+    {
+      "id": "r-27",
+      "category": "experiences",
+      "text": "Marsh & Magnolia is a custom hat bar steps from the guest rooms, pairing guests one-on-one with a hat stylist.",
+      "source_url": "https://www.hotelbennett.com/activities/overview/",
+      "source_tier": "official",
+      "excerpt": "Marsh & Magnolia is a custom hat bar located just steps from your guest room. This personalized hat-making experience pairs guests one-on-one with a skilled hat stylist"
+    },
+    {
+      "id": "r-28",
+      "category": "location",
+      "text": "The Charleston Farmers Market takes place in Marion Square at the hotel's entrance every Saturday morning.",
+      "source_url": "https://www.hotelbennett.com/activities/overview/",
+      "source_tier": "official",
+      "excerpt": "Upon the footsteps of the hotel’s entrance in Marion Square find a vibrant, thriving Farmers Market every Saturday morning."
+    },
+    {
+      "id": "r-29",
+      "category": "location",
+      "text": "The South Carolina Aquarium is a 15 minute walk from the hotel.",
+      "source_url": "https://www.hotelbennett.com/activities/overview/",
+      "source_tier": "official",
+      "excerpt": "The prime location is a 15 minute walk from Hotel Bennett."
+    },
+    {
+      "id": "r-30",
+      "category": "practical",
+      "text": "Check-in is at 4:00 pm and check-out at 12:00 pm.",
+      "source_url": "https://www.hotelbennett.com/rooms/rooms/",
+      "source_tier": "official",
+      "excerpt": "- Check-in: 4:00 pm\n- Check-out: 12:00 pm"
+    },
+    {
+      "id": "r-31",
+      "category": "practical",
+      "text": "Rollaway beds are not permitted in rooms with double queen beds.",
+      "source_url": "https://www.hotelbennett.com/rooms/rooms/",
+      "source_tier": "official",
+      "excerpt": "Please note that rollaway beds are not permitted for our rooms with double queen beds."
+    }
+  ],
+  "highlights": [
+    "r-6",
+    "r-13",
+    "r-14",
+    "r-4",
+    "r-21",
+    "r-15",
+    "r-26",
+    "r-27"
+  ],
+  "subjective": [
+    {
+      "id": "r-32",
+      "text": "The hotel calls its rooftop the most luxurious in Charleston.",
+      "reason": "the hotel's own opinion or praise; keep out of facts"
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "r-33",
+      "text": "The homepage cites Conde Nast Traveler as naming it the no. 1 hotel in Charleston (no date given).",
+      "reason": "marked unresolved"
+    }
+  ],
+  "rejected": [],
+  "contradictions": []
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "waldorf-astoria-atlanta-buckhead",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Waldorf Astoria Atlanta Buckhead",
+      "city": "Atlanta",
+      "country": "US",
+      "chain": "hilton"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hilton"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Atlanta, US)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hilton.com/en/hotels/atlwawa-waldorf-astoria-atlanta-buckhead/"
+    ],
+    "checked_at": "2026-10-15T09:46:43.024Z",
+    "status": "confirmed",
+    "official_url": "https://www.hilton.com/en/hotels/atlwawa-waldorf-astoria-atlanta-buckhead/",
+    "base_url": "https://www.hilton.com/en/hotels/atlwawa-waldorf-astoria-atlanta-buckhead/",
+    "host": "hilton.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hilton.com/en/hotels/atlwawa-waldorf-astoria-atlanta-buckhead/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T09:46:55.203Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.cntraveler.com/hotels/waldorf-astoria-atlanta-buckhead",
+      "tier": "editorial",
+      "fetched_at": "2026-10-15T09:47:31.447Z",
+      "source": "direct"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.hilton.com/en/hotels/atlwawa-waldorf-astoria-atlanta-buckhead/",
+      "reason": "no same-property sub-page links found on the home page"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 6,
+    "firecrawl_searches": 3,
+    "cache_hits": 0,
+    "direct_fetches": 1,
+    "pages": 2,
+    "chars": 5235,
+    "est_claude_tokens": 1309
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-15T09:47:31.448Z"
+}

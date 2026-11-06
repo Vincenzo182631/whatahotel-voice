@@ -1,0 +1,387 @@
+{
+  "hotel_slug": "the-london-west-hollywood",
+  "hotel_name": "The London West Hollywood",
+  "checked_at": "2026-10-15T16:32:46.066Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.thelondonwesthollywood.com/",
+      "tier": "official",
+      "chars": 2605
+    },
+    {
+      "id": "d2",
+      "url": "https://www.thelondonwesthollywood.com/our-hotel/",
+      "tier": "official",
+      "chars": 2466
+    },
+    {
+      "id": "d3",
+      "url": "https://www.thelondonwesthollywood.com/dining/complimentary-breakfast/",
+      "tier": "official",
+      "chars": 316
+    },
+    {
+      "id": "d4",
+      "url": "https://www.cntraveler.com/hotels/united-states/w-hollywood/london-west-hollywood",
+      "tier": "editorial",
+      "chars": 4299
+    },
+    {
+      "id": "d5",
+      "url": "https://www.thelondonwesthollywood.com/specials/advance-purchase/",
+      "tier": "official",
+      "chars": 299
+    },
+    {
+      "id": "d6",
+      "url": "https://www.thelondonwesthollywood.com/specials/regional-resident-rate/",
+      "tier": "official",
+      "chars": 1139
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is located at the crossroads of Beverly Hills and central LA.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Ideally located at the crossroads of Beverly Hills and central LA",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thelondonwesthollywood.com/our-hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is off the Sunset Strip.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "the former Bel Age hotel, off Sunset Strip",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/w-hollywood/london-west-hollywood",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel was formerly the Bel Age hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "the former Bel Age hotel, off Sunset Strip",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/w-hollywood/london-west-hollywood",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "All accommodations are suites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our spacious, all-suite accommodations",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thelondonwesthollywood.com/our-hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Suites have oversized spa-like baths by Waterworks.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Oversized spa-like luxury baths by Waterworks",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thelondonwesthollywood.com/our-hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Rooms are like bright studios with velvet sofas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "All 226 rooms are like bright studios, with velvet sofas that encourage lounging.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/w-hollywood/london-west-hollywood",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The lobby is shimmering white and gold.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The instant you enter the shimmering white-and-gold lobby",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/w-hollywood/london-west-hollywood",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The rooftop pool is exclusively reserved for hotel guests and has a spacious sundeck.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "exclusively reserved for hotel guests",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thelondonwesthollywood.com/our-hotel/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "with spacious sundeck, private cabanas, and panoramic views.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thelondonwesthollywood.com/our-hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The hotel is dog friendly.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Dog friendly",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thelondonwesthollywood.com/our-hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "A courtesy house car offers drop-off within a 2-mile radius of the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Courtesy drop off service is available within a 2-mile radius of the hotel.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thelondonwesthollywood.com/our-hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "All guests can use the Complimentary Breakfast Table in Boxwood Restaurant each morning.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "All guests of The London can start off their day with our Complimentary Breakfast Table, available in Boxwood Restaurant each morning",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thelondonwesthollywood.com/dining/complimentary-breakfast/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The hotel offers 24-hour room service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "24-Hour Room Service",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thelondonwesthollywood.com/our-hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The rooftop pool has private cabanas and views of the city.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Enjoy our expansive rooftop pool, private cabanas and unforgettable views of the city.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thelondonwesthollywood.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The suites were designed by David Collins Studio and Richard Design.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "suites designed by David Collins Studio and Richard Design",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thelondonwesthollywood.com/our-hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Suites include oversized bathrooms with walk-in showers, deep soaking bathtubs and private balconies.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "sumptuous suites - including oversized bathrooms with walk in showers, deep soaking bathtubs, and private balconies",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thelondonwesthollywood.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The hotel has a 110-seat state-of-the-art screening room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "110-seat state-of-the-art screening room",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thelondonwesthollywood.com/our-hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "A personal concierge service offers access to exclusive LA attractions.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Elite personal concierge service offering access to LA’s most exclusive attractions",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thelondonwesthollywood.com/our-hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The courtesy house car offers drop-offs only; it does not offer return pickups.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Courtesy drop off service is available within a 2-mile radius of the hotel. No return pickup service is available.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thelondonwesthollywood.com/our-hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes limited on-site dining options; several good restaurants are a short stroll away.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing reflecting the hotel's luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

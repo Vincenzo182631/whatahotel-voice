@@ -1,0 +1,373 @@
+{
+  "hotel_slug": "the-westin-copley-place",
+  "hotel_name": "The Westin Copley Place",
+  "checked_at": "2026-11-05T10:06:36.784Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 18
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/boswi-the-westin-copley-place-boston/overview/",
+      "tier": "official",
+      "chars": 23773
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/boswi-the-westin-copley-place-boston/rooms/",
+      "tier": "official",
+      "chars": 15375
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/boswi-the-westin-copley-place-boston/dining/",
+      "tier": "official",
+      "chars": 11308
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/boswi-the-westin-copley-place-boston/experiences/",
+      "tier": "official",
+      "chars": 15878
+    },
+    {
+      "id": "d5",
+      "url": "https://www.marriott.com/en-us/hotels/boswi-the-westin-copley-place-boston/experiences/explore-boston/",
+      "tier": "official",
+      "chars": 5893
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is in the heart of Back Bay along the Charles River, with an MBTA subway station steps away.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Situated in the heart of Back Bay along the Charles River with an MBTA subway station steps from the hotel",
+          "note": "supported",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/boswi-the-westin-copley-place-boston/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Trinity Church, Boston Public Library, Boston Public Garden and Boston Common are steps from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Discover some of the most iconic Boston attractions just steps from our hotel, including Trinity Church, Boston Public Library, Boston Public Garden and the Boston Common.",
+          "note": "supported",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/boswi-the-westin-copley-place-boston/experiences/explore-boston/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel is within walking distance of the Back Bay Amtrak Station.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "we're within walking distance of the Back Bay Amtrak Station",
+          "note": "supported",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/boswi-the-westin-copley-place-boston/experiences/explore-boston/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Many standard rooms offer views of downtown or the Charles River.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "many offer stimulating views of downtown or the Charles River",
+          "note": "supported",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/boswi-the-westin-copley-place-boston/experiences/explore-boston/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Guest rooms look out over Downtown, Cambridge, Copley Square and Boston Harbor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Take in stunning views of Downtown, Cambridge, Copley Square, Boston Harbor and plot your course from your own guest room.",
+          "note": "supported",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/boswi-the-westin-copley-place-boston/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Westin Club guests get complimentary daily breakfast with sunrise views across Copley Square.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Experience complimentary daily breakfast and take in the stunning sunrise across Copley Square",
+          "note": "supported",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/boswi-the-westin-copley-place-boston/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Bar 10 hosts live entertainment by local musicians every Wednesday, Thursday and Friday.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "live entertainment by local musicians every Wednesday, Thursday and Friday at Bar 10",
+          "note": "supported",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/boswi-the-westin-copley-place-boston/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "A complimentary mat Pilates class is led by Boston Body Pilates.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Start your day with a complimentary mat Pilates class led by Boston Body Pilates.",
+          "note": "supported",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/boswi-the-westin-copley-place-boston/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The Kids Camping experience includes a tent, a Boston-themed book and a teddy bear to take home.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Make your child’s stay magical with our Kids Camping experience, complete with a tent, a Boston-themed book, and a cuddly teddy bear to take home.",
+          "note": "supported",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/boswi-the-westin-copley-place-boston/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel has a Clefs d'Or concierge service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Our award-winning Les Clefs d'Or Concierge Team is there to guide you",
+          "note": "supported",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/boswi-the-westin-copley-place-boston/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel is dog-friendly, with a Heavenly Dog Bed for four-legged guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The Westin Copley Place, Boston welcomes our four-legged guests through special amenities that speak to our Back Bay dog-friendly hotel.",
+          "note": "supported",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/boswi-the-westin-copley-place-boston/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "they'll love the comfort of a plush Heavenly® Dog Bed",
+          "note": "supported",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/boswi-the-westin-copley-place-boston/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Luxury suites are penthouse-inspired, with layouts designed to highlight sweeping views of Back Bay.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "luxury suites offer penthouse-inspired accommodations architected to highlight the sweeping views of the Back Bay neighborhood",
+          "note": "supported",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/boswi-the-westin-copley-place-boston/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "River View Studio Suites look out over the Charles River.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Take in stunning scenes of the Charles River from River View Studio Suites",
+          "note": "supported",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/boswi-the-westin-copley-place-boston/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The hotel is connected to Copley Place Mall and The Shops at Prudential Center.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Shop on Newbury Street or at the high-end Copley Place mall and The Shops at Prudential Center, connected to our hotel.",
+          "note": "supported",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/boswi-the-westin-copley-place-boston/experiences/explore-boston/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The hotel offers Aescape, an intelligent bodywork system that maps the body and adapts sessions in real time.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "This intelligent bodywork system delivers personalized sessions that map your body and adapt in real time",
+          "note": "supported",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/boswi-the-westin-copley-place-boston/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Bees live on the sixth floor overlooking Copley Square, and their honey is used in the hotel's food and cocktails.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "our Back Bay, Boston restaurant has many bees as full-time residents",
+          "note": "supported",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/boswi-the-westin-copley-place-boston/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Located on the sixth floor overlooking Copley Square, their sweet suite produces hundreds of gallons of honey every year carefully harvested and infused into our culinary offerings, dining outlets, and cocktail programs.",
+          "note": "supported",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/boswi-the-westin-copley-place-boston/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Guests who do not qualify for the Westin Club can buy a daily access pass.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Daily access passes are available for purchase for non-qualifying guests",
+          "note": "supported",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/boswi-the-westin-copley-place-boston/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes it is a large convention hotel with a busy lobby atmosphere.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

@@ -13,7 +13,21 @@ export interface FirecrawlPage {
   title?: string;
 }
 
+export interface FirecrawlSearchResult {
+  url: string;
+  title?: string;
+  description?: string;
+}
+
 export class FirecrawlError extends Error {}
+
+// Hosts that serve crawlers an empty shell unless fetched through Firecrawl's stealth proxy (costs more credits per page).
+const STEALTH_HOSTS = ["hilton.com"];
+function stealthOptions(url: string): { proxy?: "stealth"; waitFor?: number } {
+  let host = "";
+  try { host = new URL(url).hostname; } catch { return {}; }
+  return STEALTH_HOSTS.some((h) => host === h || host.endsWith(`.${h}`)) ? { proxy: "stealth", waitFor: 3000 } : {};
+}
 
 export class FirecrawlClient {
   constructor(
@@ -31,7 +45,7 @@ export class FirecrawlClient {
     const res = await this.fetchFn(`${BASE_URL}/scrape`, {
       method: "POST",
       headers: { Authorization: `Bearer ${this.apiKey}`, "Content-Type": "application/json" },
-      body: JSON.stringify({ url, formats }),
+      body: JSON.stringify({ url, formats, ...stealthOptions(url) }),
     });
     const body = (await res.json().catch(() => ({}))) as {
       success?: boolean;
@@ -42,5 +56,23 @@ export class FirecrawlClient {
       throw new FirecrawlError(`Firecrawl ${res.status} for ${url}: ${body.error ?? "no data returned"}`);
     }
     return { url, markdown: body.data.markdown, rawHtml: body.data.rawHtml, title: body.data.metadata?.title };
+  }
+
+  /** Web search (https://docs.firecrawl.dev/api-reference/endpoint/search). Supports `site:` operators. */
+  async search(query: string, limit = 5): Promise<FirecrawlSearchResult[]> {
+    const res = await this.fetchFn(`${BASE_URL}/search`, {
+      method: "POST",
+      headers: { Authorization: `Bearer ${this.apiKey}`, "Content-Type": "application/json" },
+      body: JSON.stringify({ query, limit }),
+    });
+    const body = (await res.json().catch(() => ({}))) as {
+      success?: boolean;
+      error?: string;
+      data?: Array<{ url?: string; title?: string; description?: string }>;
+    };
+    if (!res.ok || !body.success || !body.data) {
+      throw new FirecrawlError(`Firecrawl ${res.status} search "${query}": ${body.error ?? "no data returned"}`);
+    }
+    return body.data.filter((r): r is FirecrawlSearchResult => typeof r.url === "string");
   }
 }

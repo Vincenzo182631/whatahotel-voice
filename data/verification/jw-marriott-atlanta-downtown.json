@@ -1,0 +1,293 @@
+{
+  "hotel_slug": "jw-marriott-atlanta-downtown",
+  "hotel_name": "JW Marriott Atlanta Downtown",
+  "checked_at": "2026-10-31T01:20:43.354Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 13,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 14
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/atljd-jw-marriott-atlanta-downtown/overview/",
+      "tier": "official",
+      "chars": 12513
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/atljd-jw-marriott-atlanta-downtown/rooms/",
+      "tier": "official",
+      "chars": 7194
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/atljd-jw-marriott-atlanta-downtown/dining/",
+      "tier": "official",
+      "chars": 6804
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is in downtown Atlanta, moments from Mercedes-Benz Stadium, the Georgia Aquarium and Centennial Olympic Park.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "our hotel in downtown Atlanta, GA, where contemporary design meets the city’s vibrant rhythm. Moments from Mercedes-Benz Stadium, the Georgia Aquarium, and Centennial Olympic Park",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/atljd-jw-marriott-atlanta-downtown/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Guest rooms and suites are spacious and airy, with warm, modern finishes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Guest rooms and suites are spacious and airy, designed with warm, modern finishes",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/atljd-jw-marriott-atlanta-downtown/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Some guest rooms have panoramic Atlanta views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Unwind in our hotel rooms with panoramic Atlanta views",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/atljd-jw-marriott-atlanta-downtown/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Suites on the Mindful floor have plush bedding and marble bathrooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Enjoy plush bedding and marble bathrooms in our luxury hotel suites in Atlanta on the Mindful floor",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/atljd-jw-marriott-atlanta-downtown/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Some rooms come with executive lounge access.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Executive lounge access\n\nExecutive Guest room, 1 King",
+          "note": "room type with executive lounge access",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/atljd-jw-marriott-atlanta-downtown/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Spa services include couples massages, body scrubs and eye treatments.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Body Scrub\n\nCouples Massages\n\nEye Treatment",
+          "note": "listed spa services",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/atljd-jw-marriott-atlanta-downtown/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The fitness center is open around the clock, with free weights, cardio and boxing.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Free weights to cardio, boxing, and more, our gym has everything.",
+          "note": "equipment",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/atljd-jw-marriott-atlanta-downtown/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Open 7 days a week, 24 hours a day",
+          "note": "hours",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/atljd-jw-marriott-atlanta-downtown/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Ledger Bar and Lounge is a cocktail lounge that blends corporate architecture with Southern hospitality.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The Ledger is a sophisticated cocktail lounge and bar in Atlanta that blends refined corporate architecture with the warmth of Southern hospitality.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/atljd-jw-marriott-atlanta-downtown/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "A rooftop pool looks out over the Atlanta skyline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "A rooftop pool offers a serene escape with breathtaking skyline views",
+          "note": "downtown Atlanta hotel",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/atljd-jw-marriott-atlanta-downtown/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Nest Spa, on the 16th floor, offers massages, facials and other treatments, with separate men's and women's lounges.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Discover elevated wellness at Nest Spa on the 16th floor. Restore body and mind with massages, facials and rejuvenating treatments, then unwind in tranquil men’s and women’s lounges.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/atljd-jw-marriott-atlanta-downtown/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Perch is a rooftop bar and restaurant serving fresh seafood and shareable small plates with skyline views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The Perch at our Atlanta hotel is a rooftop bar and restaurant offering a relaxed, elevated escape above the city. With fresh seafood and shareable small plates, it blends laid-back luxury with skyline views",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/atljd-jw-marriott-atlanta-downtown/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Suites on the Mindful floor have plush bedding and marble bathrooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Enjoy plush bedding and marble bathrooms in our luxury hotel suites in Atlanta on the Mindful floor",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/atljd-jw-marriott-atlanta-downtown/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Rooms do not have fridges, and rollaway beds are not permitted.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "No, rooms at JW Marriott Atlanta Downtown do not have a fridge.",
+          "note": "no fridge",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/atljd-jw-marriott-atlanta-downtown/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "No, the rooms at JW Marriott Atlanta Downtown do not permit rollaway beds.",
+          "note": "no rollaways",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/atljd-jw-marriott-atlanta-downtown/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the downtown setting means city noise and traffic.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

@@ -1,0 +1,377 @@
+{
+  "hotel_slug": "grand-hyatt-amman",
+  "hotel_name": "Grand Hyatt Amman",
+  "checked_at": "2026-10-29T03:44:04.872Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/ammgh-grand-hyatt-amman",
+      "tier": "official",
+      "chars": 10005
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/ammgh-grand-hyatt-amman/rooms/",
+      "tier": "official",
+      "chars": 10254
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/ammgh-grand-hyatt-amman/dining/",
+      "tier": "official",
+      "chars": 5798
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/ammgh-grand-hyatt-amman/parking-and-transportation/",
+      "tier": "official",
+      "chars": 3347
+    },
+    {
+      "id": "d5",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/ammgh-grand-hyatt-amman/hotel-info/",
+      "tier": "official",
+      "chars": 3176
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/ammgh-grand-hyatt-amman/reviews/",
+      "tier": "official",
+      "chars": 26621
+    },
+    {
+      "id": "d7",
+      "url": "https://www.cntraveler.com/hotels/jordan/amman/grand-hyatt-amman",
+      "tier": "editorial",
+      "chars": 3323
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel sits atop one of Amman's seven hills, where modern and historic Amman meet.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "At the heart of the city, where modern and historic Amman meet, a top one of the city’s most prominent seven hills, Grand Hyatt Amman stands out",
+          "note": "States the hotel is atop one of the seven hills where modern and historic Amman meet.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/ammgh-grand-hyatt-amman",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is on Hussein Bin Ali Street in Jabal Amman.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Hussein Bin Ali St., Jabal Amman, PO Box 831159, 11183 Amman, Jordan",
+          "note": "The address confirms Hussein Bin Ali St. in Jabal Amman.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/ammgh-grand-hyatt-amman",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Citadel and the Roman Theatre are close to the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "including the Citadel and Roman Theatre steps away.",
+          "note": "Describes both attractions as steps away from the hotel.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/ammgh-grand-hyatt-amman",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Rooms have a marble bathroom with a separate bathtub and shower.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "freshen up in the spacious marble bathroom that comes with a separate bathtub and shower.",
+          "note": "Room descriptions mention a marble bathroom with separate bathtub and shower.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/ammgh-grand-hyatt-amman/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Deluxe rooms with poolside access have an outdoor terrace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Feel at home in this contemporary 36-square-meter room with an outdoor terrace and poolside access.",
+          "note": "Deluxe poolside access rooms have an outdoor terrace.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/ammgh-grand-hyatt-amman/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Club rooms include access to the Grand Club Lounge on the 9th floor, with all-day refreshments, evening canapes and cocktails.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Guests staying in Club Rooms also enjoy exclusive access to the Grand Club Lounge on the 9th floor, offering all-day refreshments, evening canapés, alcoholic drinks, and cocktails.",
+          "note": "All elements are covered: the lounge name, the 9th floor, refreshments, canapés and cocktails.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/ammgh-grand-hyatt-amman/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Royal Suite with Terrace offers panoramic views of historic Amman from its terrace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Offering panoramic views of historic Amman from its spacious terrace",
+          "note": "From the Royal Suite with Terrace description.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/ammgh-grand-hyatt-amman/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Zara Spa offers body treatments.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Rebalance your physical and spiritual energy with a transforming body treatment or vigorous workout at Zara Spa on Level 1.",
+          "note": "Zara Spa offers body treatments.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/ammgh-grand-hyatt-amman",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The Zara Fitness Center has floor-to-ceiling windows that let in natural light.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located on the 1st floor, our exclusive fitness center is open 24 hours a day with floor-to-ceiling windows allowing natural light to flood the space.",
+          "note": "Appears under the Zara Fitness Center heading.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/ammgh-grand-hyatt-amman",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The Grand Hyatt Residences in the adjacent Hyatt Tower offer one- to four-bedroom serviced apartments with full kitchens and private balconies.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located in the Hyatt Tower adjacent to the hotel, the Grand Hyatt Residences features serviced apartments",
+          "note": "Confirms the location and the serviced apartments.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/ammgh-grand-hyatt-amman",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "These one- to four-bedroom units feature full kitchens and private balconies offering breathtaking views of Amman.",
+          "note": "Confirms the bedroom range, kitchens and balconies.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/ammgh-grand-hyatt-amman",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "32 North restaurant has glass walls looking onto a free-standing kitchen.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Through clever glass walls, diners can enjoy a view of the custom-made, free-standing kitchen",
+          "note": "From the 32º North description.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/ammgh-grand-hyatt-amman/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The Lombard serves Northern Italian cooking with a modern take on traditional recipes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "serving Northern Italian cooking with a modern take on traditional recipes.",
+          "note": "From The Lombard Amman description.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/ammgh-grand-hyatt-amman",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel has a distinctive carved pink stone facade and offers 360-degree views of the city.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Grand Hyatt Amman stands out with its distinctive carved pink stone façade, offering sweeping 360-degree views of the city.",
+          "note": "Both the façade and the 360-degree views are confirmed.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/ammgh-grand-hyatt-amman",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Blue Mosque View rooms overlook the old hills of Amman and the King Abdullah I Mosque with its blue mosaic dome.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "overlooking the old hills of Amman and the famous King Abdullah I Mosque which is capped by a magnificent blue mosaic dome.",
+          "note": "From the Blue Mosque View room description.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/ammgh-grand-hyatt-amman/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Grand Royal Suite with Terrace has hand-picked artworks, a deep soaking bathtub and a terrace overlooking historic Amman.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Enjoy the hand-picked artworks, deep soaking bathtub and the magnificent terrace overlooking historic Amman.",
+          "note": "From the Grand Royal Suite with Terrace description.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/ammgh-grand-hyatt-amman/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The hotel has indoor and outdoor swimming pools, with steam rooms, a sauna and a whirlpool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Unwind in a serene setting at our indoor and outdoor swimming pools, located on Level 1.",
+          "note": "Confirms the indoor and outdoor pools.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/ammgh-grand-hyatt-amman",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "or rejuvenating in the steam rooms, sauna, and whirlpool",
+          "note": "Confirms the steam rooms, sauna and whirlpool.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/ammgh-grand-hyatt-amman",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Lounge has two large open fireplaces and a conservatory with floor-to-ceiling windows.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "From the novel designer furniture and lighting fixtures to two large open fireplaces, floor-to-ceiling windows in the conservatory and a spectacular view",
+          "note": "From The Lounge description.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/ammgh-grand-hyatt-amman/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Queen Alia International Airport is about a 30-minute drive from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "30-minute drive to/from the hotel.",
+          "note": "Listed under Queen Alia International Airport (AMM), 34 kilometers.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/ammgh-grand-hyatt-amman/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes the hotel's large size may feel less intimate.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

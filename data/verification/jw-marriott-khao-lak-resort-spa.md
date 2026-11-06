@@ -1,0 +1,40 @@
+# Verification checklist: JW Marriott Khao Lak Resort & Spa
+
+Checked 2026-10-31 against the hotel's own pages and Condé Nast Traveler. Result: **can be marked verified** (profile set to verified).
+
+Supported 19 · contradicted 0 · unverified 0 · WhataHotel's own statements 1 · total 20
+
+## Pages checked
+
+- official: https://www.marriott.com/en-us/hotels/hktkl-jw-marriott-khao-lak-resort-and-spa/overview/
+- official: https://www.marriott.com/en-us/hotels/hktkl-jw-marriott-khao-lak-resort-and-spa/rooms/
+- official: https://www.marriott.com/en-us/hotels/hktkl-jw-marriott-khao-lak-resort-and-spa/experiences/
+- official: https://www.marriott.com/en-us/hotels/hktkl-jw-marriott-khao-lak-resort-and-spa/experiences/jw-garden/
+- official: https://www.marriott.com/en-us/hotels/hktkl-jw-marriott-khao-lak-resort-and-spa/experiences/good-travel/
+- editorial: https://www.cntraveler.com/hotels/thailand/khao-lak/jw-marriott-khao-lak-resort---spa
+- official: https://www.marriott.com/en-us/hotels/hktkl-jw-marriott-khao-lak-resort-and-spa/dining/
+
+## Claims
+
+| | Claim | Evidence |
+|---|---|---|
+| ✅ | **f-1** The resort sits on the golden sands of Khuk Khak Beach in Phang Nga, overlooking the Andaman Sea. | "Relax with your loved ones and reconnect with the world on the golden shores of Khuk Khak Beach, overlooking the Andaman Sea." (official, https://www.marriott.com/en-us/hotels/hktkl-jw-marriott-khao-lak-resort-and-spa/overview/) |
+| ✅ | **f-2** The setting combines sea, sand and tropical greenery with granite mountains and nearby waterfalls. | "a sense of presence unfolds amidst sun, sea, sand, tropical greenery, granite mountains and nearby waterfalls" (official, https://www.marriott.com/en-us/hotels/hktkl-jw-marriott-khao-lak-resort-and-spa/overview/) |
+| ✅ | **f-3** Modern architecture is blended with Thai touches such as curved multitiered roofs. | "Modern architecture blends aesthetically with Thai touches like the curved multitiered roofs" (editorial, https://www.cntraveler.com/hotels/thailand/khao-lak/jw-marriott-khao-lak-resort---spa) |
+| ✅ | **f-4** Rooms have floor-to-ceiling windows and contemporary Thai-style furnishings with authentic local fabrics. | "With floor-to-ceiling windows, the Khao Lak hotel rooms...See More are bathed in an abundance of natural light that brings to life the stunning décor and interior design with contemporary Thai-style furnishings and authentic local fabrics." (official, https://www.marriott.com/en-us/hotels/hktkl-jw-marriott-khao-lak-resort-and-spa/rooms/) |
+| ✅ | **f-5** Guest rooms have deep terrazzo bathtubs and generous balconies or terraces. | "are outfitted with deep terrazzo bathtubs and generous-sized balconies or terraces" (editorial, https://www.cntraveler.com/hotels/thailand/khao-lak/jw-marriott-khao-lak-resort---spa) |
+| ✅ | **f-6** Quan Spa offers signature massages and an Andaman rejuvenation body wrap. | "Enjoy our signature massages or book an Andaman rejuvenation body wrap at our Khao Lak spa." (official, https://www.marriott.com/en-us/hotels/hktkl-jw-marriott-khao-lak-resort-and-spa/overview/) |
+| ✅ | **f-7** The Aqua Play Zone has water slides, a wave pool, a fountain trampoline and a children's playground. | "experiencing our exciting Aqua Play Zone, complete with water slides, a wave pool, a fountain trampoline, a dedicated children’s playground" (official, https://www.marriott.com/en-us/hotels/hktkl-jw-marriott-khao-lak-resort-and-spa/experiences/) |
+| ✅ | **f-8** The Family by JW Club offers gardening and cooking workshops connected to the JW Garden, jungle-themed play zones and craft studios. | "From gardening and cooking workshops connected to our JW Garden, to jungle themed play zones, craft studios and gentle coastal storytelling" (official, https://www.marriott.com/en-us/hotels/hktkl-jw-marriott-khao-lak-resort-and-spa/experiences/) |
+| ✅ | **f-9** Stand-up paddle boards, sea kayaks and boogie boards are available from the Watersports Hut on Khuk Khak Beach. | "Spend hours of fun with our stand-up paddle boards, sea kayaks, or boogie boards available from the Watersports Hut on the golden sands of Khuk Khak Beach." (official, https://www.marriott.com/en-us/hotels/hktkl-jw-marriott-khao-lak-resort-and-spa/experiences/) |
+| ✅ | **f-10** The resort's location offers diving and snorkeling at the Similan and Surin Islands. | "Our location offers world-class diving and snorkeling at the Similan and Surin Islands" (official, https://www.marriott.com/en-us/hotels/hktkl-jw-marriott-khao-lak-resort-and-spa/experiences/) |
+| ✅ | **f-11** A Phang Nga cacao pod-to-bar experience at the resort's Chocolate Atelier was created with Duc de Praslin. | "Discover the journey of locally grown Phang Nga cacao through an immersive experience at JW Marriott Khao Lak, created in collaboration with Duc de Praslin." (official, https://www.marriott.com/en-us/hotels/hktkl-jw-marriott-khao-lak-resort-and-spa/experiences/) |
+| ✅ | **f-12** Olive serves authentic Italian classics with a curated selection of mono-cultivar olive oils. | "Olive presents authentic Italian classics, elevated through a curated selection of mono-cultivar olive oils and a refined wine collection." (official, https://www.marriott.com/en-us/hotels/hktkl-jw-marriott-khao-lak-resort-and-spa/overview/) |
+| ✅ | **h-1** Signature Pool Access rooms have a terrace with direct access to the lagoon pool, which the resort calls Southeast Asia's longest. | "Each Pool Access room features a terrace with direct access to the spectacular pool that meanders lazily through the entire resort" (official, https://www.marriott.com/en-us/hotels/hktkl-jw-marriott-khao-lak-resort-and-spa/rooms/) |
+| ✅ | **h-2** A Coconut Boat cruises the lagoon pool each day, serving fresh coconuts to guests. | "A truly unique experience within our lagoon pool is the Coconut Boat, which cruises gently each day past pool access rooms and public areas, serving fresh coconuts for guests to enjoy." (official, https://www.marriott.com/en-us/hotels/hktkl-jw-marriott-khao-lak-resort-and-spa/overview/) |
+| ✅ | **h-3** The JW Garden is a working farm that grows over 200 varieties of plants, fruits, vegetables, leaves and herbs for the resort, and is home to two water buffalo, goats, chickens and ducks. | "Supplying the resort with fresh organic produce, our working farm invites all guests to discover the wonders of horticulture and learn how we cultivate over 200 varieties of plants, fruits, vegetables, leaves and herbs." (official, https://www.marriott.com/en-us/hotels/hktkl-jw-marriott-khao-lak-resort-and-spa/experiences/jw-garden/) |
+| ✅ | **h-4** Guests can join the Bamboo Shark Nursery & Conservation Center to help breed and nurture bamboo sharks, and can release baby bamboo sharks back into the wild. | "Join the Bamboo Shark Nursery & Conservation Center to help breed and nurture bamboo sharks before releasing them back into the wild to restore the balance of the marine ecosystem." (official, https://www.marriott.com/en-us/hotels/hktkl-jw-marriott-khao-lak-resort-and-spa/overview/) |
+| ✅ | **h-5** The beachfront villas have private pools, ocean views and separate living, sleeping and dining quarters, with a personal villa butler on hand around the clock. | "Each villa enjoys stunning ocean views, private pools and separate living, sleeping and dining quarters." (official, https://www.marriott.com/en-us/hotels/hktkl-jw-marriott-khao-lak-resort-and-spa/rooms/) |
+| ✅ | **c-1** Phuket International Airport is about 83 km from the hotel. | "HKT is located approximately 83.0 KM from the hotel." (official, https://www.marriott.com/en-us/hotels/hktkl-jw-marriott-khao-lak-resort-and-spa/overview/) |
+| ✅ | **c-2** The minimum age to check in is 18. | "Minimum Age to Check In: 18" (official, https://www.marriott.com/en-us/hotels/hktkl-jw-marriott-khao-lak-resort-and-spa/overview/) |
+| ➖ | **c-3** WhataHotel notes the remote location requires travel time to reach local attractions. | WhataHotel's own offer or statement |

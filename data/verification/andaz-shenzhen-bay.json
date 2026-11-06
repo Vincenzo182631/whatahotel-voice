@@ -1,0 +1,389 @@
+{
+  "hotel_slug": "andaz-shenzhen-bay",
+  "hotel_name": "Andaz Shenzhen Bay",
+  "checked_at": "2026-10-26T22:11:43.283Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 18
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/andaz/en-US/szxaz-andaz-shenzhen-bay",
+      "tier": "official",
+      "chars": 8606
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/andaz/en-US/szxaz-andaz-shenzhen-bay/rooms/",
+      "tier": "official",
+      "chars": 14611
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/andaz/en-US/szxaz-andaz-shenzhen-bay/dining/",
+      "tier": "official",
+      "chars": 6125
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hyatt.com/andaz/en-US/szxaz-andaz-shenzhen-bay/parking-and-transportation/",
+      "tier": "official",
+      "chars": 3571
+    },
+    {
+      "id": "d5",
+      "url": "https://www.hyatt.com/andaz/en-US/szxaz-andaz-shenzhen-bay/hotel-info/",
+      "tier": "official",
+      "chars": 3501
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/andaz/en-US/szxaz-andaz-shenzhen-bay/reviews/",
+      "tier": "official",
+      "chars": 7349
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is at 2600 Keyuan South Road in Shenzhen's Nanshan District.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "2600 Keyuan South Road, Nanshan District, Shenzhen, 518052 China",
+          "note": "address",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/szxaz-andaz-shenzhen-bay",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is surrounded by leading tech companies, multinational firms and the landmark China Resources Building.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "surrounded by leading tech companies, multinational firms and the landmark China Resources Building",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/szxaz-andaz-shenzhen-bay",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel has a pool, a Wellness Club and a fitness center.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Pool\n\nWellness Club",
+          "note": "pool and Wellness Club",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/szxaz-andaz-shenzhen-bay",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "- Fitness Center",
+          "note": "fitness center in amenities list",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/szxaz-andaz-shenzhen-bay",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Rooms include a complimentary minibar with Andaz IPA beer.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Complimentary minibar, including Andaz IPA beer",
+          "note": "listed for every room type",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/szxaz-andaz-shenzhen-bay/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Rooms have a Dyson hair dryer and a Nespresso coffee maker.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Dyson hair dryer",
+          "note": "listed for every room type",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/szxaz-andaz-shenzhen-bay/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Nespresso coffee maker and tea-making facilities",
+          "note": "listed for every room type",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/szxaz-andaz-shenzhen-bay/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Suites come with Frette tailormade bedding and bath linens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Frette tailormade bedding and bath",
+          "note": "listed for each suite type (Premium, Executive, Presidential)",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/szxaz-andaz-shenzhen-bay/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Premium Suite has a king bedroom, a separate living room and a marble bathroom with a deep-soaking tub.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The luxe space features a king bedroom, separate living room and modern marble bathroom complete with a deep-soaking tub.",
+          "note": "Premium Suite description",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/szxaz-andaz-shenzhen-bay/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Presidential Suite has a separate living room, a recreation room and a second bathroom, with views across Shenzhen Bay.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Luxuriate in this incredible suite designed for relaxing and entertaining with dramatic views across Shenzhen Bay. Features include a plush king bed, separate living room, recreation room, second bathroom",
+          "note": "Presidential Suite",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/szxaz-andaz-shenzhen-bay/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Club House East Room serves authentic Cantonese cuisine in a room decorated with hand-painted de Gournay wallpaper in Chinese-inspired designs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Club House · East Room is a sensory delight, where guests can savor authentic Cantonese cuisine",
+          "note": "Cantonese",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/szxaz-andaz-shenzhen-bay/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The room’s ambiance is elevated by the hand-painted wallpaper, with de Gournay’s Chinese-inspired designs",
+          "note": "wallpaper",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/szxaz-andaz-shenzhen-bay/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Bar 1919 serves whiskies, wines and signature cocktails to the music of jazz singers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "guests can savor the rich complexity of whiskies from various regions, wines from both old and new world vineyards and signature cocktails by skilled mixologists. All this unfolds to the soothing melodies of jazz singers",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/szxaz-andaz-shenzhen-bay/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Shenzhen Bao'an International Airport is 26 kilometers away, roughly 35 minutes by taxi.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The 26-kilometer journey to Andaz Shenzhen Bay should take roughly 35 minutes",
+          "note": "by cab from the taxi stand",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/szxaz-andaz-shenzhen-bay/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Andaz Shenzhen Bay is a design and boutique hotel conceived as a private clubhouse for the city's elite and world talent.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "our design & boutique hotel conceived as a private clubhouse for the city’s elite and world talent",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/szxaz-andaz-shenzhen-bay",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Rooms are locally inspired and modern, with views of Shenzhen Bay MixC, Shenzhen Talent Park and the Bay.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "enjoy locally inspired, modern rooms with uninterrupted views of Shenzhen Bay MixC, Shenzhen Talent Park and the Bay",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/szxaz-andaz-shenzhen-bay",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Rooms have floor-to-ceiling windows and a marble bathroom with a deep-soaking tub and rain shower.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "floor-to-ceiling windows with dramatic views across Shenzhen Bay that will take your breath away. This elegant space in the heart of Nanshan features a plush king bed and a stylish marble bathroom with deep-soaking tub and rain shower",
+          "note": "room descriptions repeat floor-to-ceiling windows and marble bathroom with tub and rain shower",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/szxaz-andaz-shenzhen-bay/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Club House has an outdoor garden terrace with sea views of the bay area and skyline, facing sunrise in the east and sunset in the west.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "offering guests and outdoor garden terrace where they can enjoy the sea views of the bay area and skyline, witness the sunrise in the east and bask in the sunset in the west",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/szxaz-andaz-shenzhen-bay/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel recommends local mapping apps such as Gaode Map or Baidu Map, as international mapping apps may not be accurate in Chinese Mainland.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "we recommend using local mapping applications such as Gaode Map or Baidu Map. International mapping apps may not be accurate in Chinese Mainland.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/szxaz-andaz-shenzhen-bay/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Pets are not permitted at the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Pets are not permitted at the hotel.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/andaz/en-US/szxaz-andaz-shenzhen-bay",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the business-focused location may feel less authentic for leisure travelers.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

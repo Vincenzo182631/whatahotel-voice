@@ -1,0 +1,400 @@
+{
+  "hotel_slug": "raffles-boston-back-bay-hotel",
+  "hotel_name": "Raffles Boston Back Bay Hotel",
+  "checked_at": "2026-10-14T03:50:34.296Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.raffles.com/boston/",
+      "tier": "official",
+      "chars": 30000
+    },
+    {
+      "id": "d2",
+      "url": "https://www.raffles.com/boston/rooms-suites/",
+      "tier": "official",
+      "chars": 25547
+    },
+    {
+      "id": "d3",
+      "url": "https://www.raffles.com/boston/dining/long-bar-and-terrace/",
+      "tier": "official",
+      "chars": 13822
+    },
+    {
+      "id": "d4",
+      "url": "https://www.raffles.com/boston/about/",
+      "tier": "official",
+      "chars": 29318
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Raffles Boston is at 40 Trinity Place in Boston's Back Bay neighborhood.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Raffles Boston is conveniently situated at 40 Trinity Place, placing you in the heart of the city's vibrant culture and history.",
+          "note": "address",
+          "confirmed": true,
+          "url": "https://www.raffles.com/boston/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Situated in the prestigious Back Bay neighborhood,",
+          "note": "Back Bay",
+          "confirmed": true,
+          "url": "https://www.raffles.com/boston/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is adjacent to the Back Bay train station.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "adjacent to the Boston Back Bay Train Station",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.raffles.com/boston/about/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel is within a block of the high-end shopping at Copley Place.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "it is within a block of high-end shopping at Copley Place",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.raffles.com/boston/about/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The Boston Public Library is within walking distance of the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The hotel is conveniently located within walking distance to Boston's top attractions, including Boston Public Library",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.raffles.com/boston/rooms-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Hospitality design firm Stonehill Taylor created all the rooms and suites and most of the public spaces.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Award-winning hospitality design firm Stonehill Taylor created all the rooms and suites and most of our public spaces",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.raffles.com/boston/about/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Guest rooms reimagine mid-century American decor with woodgrain and warm brass.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Dramatic skies and city lights pair with woodgrain and warm brass to reimagine mid-century American decor in a thoroughly modern milieu.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.raffles.com/boston/rooms-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Long Bar and Terrace serves New England classics such as lobster rolls and oysters on the half shell.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "offering time-honoured New England classics such as lobster rolls and oysters on the half shell",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.raffles.com/boston/dining/long-bar-and-terrace/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Afternoon tea is served at Long Bar and Terrace Thursday through Sunday.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Afternoon tea at Long Bar & Terrace is a thoughtfully composed ritual above the city",
+          "note": "venue",
+          "confirmed": true,
+          "url": "https://www.raffles.com/boston/dining/long-bar-and-terrace/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Savor the art of afternoon tea Thursday through Sunday from 12 to 2 PM.",
+          "note": "days",
+          "confirmed": true,
+          "url": "https://www.raffles.com/boston/dining/long-bar-and-terrace/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "La Padrona serves refined Italian dishes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "refined Italian dishes at MICHELIN-recommended La Padrona",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.raffles.com/boston/rooms-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The Blind Duck is a speakeasy-style cocktail bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "craft cocktails at tHE Blind Duck, a speakeasy-style bar",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.raffles.com/boston/rooms-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The wellbeing floor, on the 4th floor, has four treatment rooms, a fitness center and an indoor pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Our wellbeing sanctuary on the 4th floor features four treatment rooms, a state-of-the-art fitness center and sensational 20-meter indoor pool.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.raffles.com/boston/about/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Pets are welcome for a fee per accommodation per stay; service animals are exempt.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "A pet fee of $150 per accommodation, per stay applies, while service animals are graciously exempt.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.raffles.com/boston/about/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Long Bar and Terrace sits above Back Bay and is inspired by the Long Bar at Raffles Singapore, birthplace of the Singapore Sling.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "the Long Bar and Terrace offers a sophisticated setting soaring above Back Bay",
+          "note": "above Back Bay",
+          "confirmed": true,
+          "url": "https://www.raffles.com/boston/dining/long-bar-and-terrace/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Inspired by the Long Bar at Raffles Singapore, birthplace of the Singapore Sling",
+          "note": "inspiration",
+          "confirmed": true,
+          "url": "https://www.raffles.com/boston/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Long Bar and Terrace serves the Boston Sling, the hotel's gin-based take on the Singapore Sling with bright fruit and honeyed notes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The bar also serves the **Boston Sling**, Raffles Boston’s interpretation featuring gin with bright fruit and honeyed notes.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.raffles.com/boston/dining/long-bar-and-terrace/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Copper accents throughout the hotel nod to Paul Revere's copper plating company.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Copper accents are prevalent throughout, in a nod to Paul Revere’s copper plating company",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.raffles.com/boston/about/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Raffles Butlers help with unpacking, garment pressing, dining reservations and itineraries, and are available around the clock.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Dedicated butlers anticipate guest needs, from unpacking and garment pressing to dining reservations, bespoke itineraries, and in-room preferences. Available around the clock",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.raffles.com/boston/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The ballroom is on the 19th floor, with views from Back Bay to Cambridge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Set on the 19th floor, our unique space offers views spanning from Back Bay to Cambridge for elegant banquets.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.raffles.com/boston/about/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The Long Bar terrace and its views across Back Bay are weather permitting.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Weather permitting, the terrace offers sweeping views across Back Bay",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.raffles.com/boston/dining/long-bar-and-terrace/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes parking may be limited in this urban setting.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing reflecting the luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

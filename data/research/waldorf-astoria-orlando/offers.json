@@ -1,0 +1,71 @@
+{
+  "slug": "waldorf-astoria-orlando",
+  "hotel": {
+    "name": "Waldorf Astoria Orlando",
+    "url": "https://www.whatahotel.com/hotels/2322/waldorf-astoria-orlando.html"
+  },
+  "chain": {
+    "name": "Hilton"
+  },
+  "checked_at": "2026-10-15T11:46:07.754Z",
+  "status": "needs_review",
+  "benefits": [
+    {
+      "kind": "breakfast",
+      "status": "confirmed",
+      "qualifiers": [],
+      "hotel_excerpt": "Free Breakfast for 2 Daily"
+    },
+    {
+      "kind": "wifi",
+      "status": "confirmed",
+      "qualifiers": [],
+      "hotel_excerpt": "Free Wi-Fi Access"
+    },
+    {
+      "kind": "upgrade",
+      "status": "confirmed",
+      "qualifiers": [
+        "availability"
+      ],
+      "hotel_excerpt": "Priority Upgrade if Available at Check-in"
+    },
+    {
+      "kind": "credit",
+      "status": "confirmed",
+      "amount": 100,
+      "qualifiers": [],
+      "hotel_excerpt": "$100 Credit"
+    },
+    {
+      "kind": "combinable",
+      "status": "unclear",
+      "qualifiers": [],
+      "hotel_excerpt": "Combinable with the Exclusive Perks"
+    }
+  ],
+  "issues": [
+    "no WhataHotel chain page found for this hotel; the chain cross-check was skipped (pass --chain-url to add it)",
+    "credit: WhataHotel mentions a higher credit for suites; the closing states only the perks table's amount",
+    "combinable: the chain page could not be checked, so combinability is not stated"
+  ],
+  "special_offers": [
+    "30% Off All Suites",
+    "Booking Window: 10/05/2025 - 03/31/2026",
+    "Travel Window: 10/05/2025 - 09/30/2026"
+  ],
+  "restrictions": [
+    "*For a reservation to qualify, the rate code describing the special must be available, selected & booked when completing the reservation online. As such, the special is not automatic on any booking w/o the ratecode selec"
+  ],
+  "closing": {
+    "template": "for-this",
+    "text": "For this property, WhataHotel's preferred rate adds priority for an upgrade at check-in when one is available, a $100 property credit, free daily breakfast for two, and complimentary Wi-Fi access.",
+    "words": 30,
+    "benefits": [
+      "breakfast",
+      "wifi",
+      "upgrade",
+      "credit"
+    ]
+  }
+}

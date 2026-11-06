@@ -1,0 +1,364 @@
+{
+  "hotel_slug": "grand-hyatt-kauai-resort-spa",
+  "hotel_name": "Grand Hyatt Kauai Resort & Spa",
+  "checked_at": "2026-10-29T03:44:14.092Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/kauai-grand-hyatt-kauai-resort-and-spa",
+      "tier": "official",
+      "chars": 10579
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/kauai-grand-hyatt-kauai-resort-and-spa/rooms/",
+      "tier": "official",
+      "chars": 18760
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/kauai-grand-hyatt-kauai-resort-and-spa/dining/",
+      "tier": "official",
+      "chars": 11439
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/kauai-grand-hyatt-kauai-resort-and-spa/parking-and-transportation/",
+      "tier": "official",
+      "chars": 3281
+    },
+    {
+      "id": "d5",
+      "url": "https://www.cntraveler.com/hotels/united-states/koloa/grand-hyatt-kauai-resort-and-spa",
+      "tier": "editorial",
+      "chars": 4984
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/kauai-grand-hyatt-kauai-resort-and-spa/hotel-info/",
+      "tier": "official",
+      "chars": 3549
+    },
+    {
+      "id": "d7",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/kauai-grand-hyatt-kauai-resort-and-spa/reviews/",
+      "tier": "official",
+      "chars": 20424
+    },
+    {
+      "id": "d8",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/kauai-grand-hyatt-kauai-resort-and-spa/policies/",
+      "tier": "official",
+      "chars": 5093
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The resort sits on the white sands of Poipu Beach on Kauai's sunny south shore.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Get away to the soothing white sands of Poipu Beach on Kauai’s sunny south shore at Grand Hyatt Kauai Resort & Spa.",
+          "note": "The page places the resort on Poipu Beach's white sands on the south shore.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/kauai-grand-hyatt-kauai-resort-and-spa",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Conde Nast Traveler describes a low-rise resort on Keoneloa Bay with an open-air design that recalls the island glamour of the 1920s and '30s.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "this low-rise Keoneloa Bay resort has an open-air design that recalls the island glamour of the 1920s and ’30s",
+          "note": "The Condé Nast Traveler review matches the claim exactly.",
+          "url": "https://www.cntraveler.com/hotels/united-states/koloa/grand-hyatt-kauai-resort-and-spa",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel calls itself an eco-friendly beachfront resort with lush gardens and acres of pools.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "This eco-friendly, luxury beachfront oasis with lush gardens and acres of pools offers ocean view dining",
+          "note": "The hotel describes itself as an eco-friendly beachfront oasis with lush gardens and acres of pools.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/kauai-grand-hyatt-kauai-resort-and-spa",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Rooms have a private lanai, either a balcony or a walkout patio on the ground floor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Private lanai (balcony or walkout patio on ground floor)",
+          "note": "This amenity appears in the room listings.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/kauai-grand-hyatt-kauai-resort-and-spa/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Conde Nast Traveler notes rain shower heads, Hawaiian-print linens and four-post mahogany beds.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "like rain shower shower heads, fresh Hawaiian-print linens, and four-post mahogany beds",
+          "note": "All three features are named.",
+          "url": "https://www.cntraveler.com/hotels/united-states/koloa/grand-hyatt-kauai-resort-and-spa",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Royal Suite is just steps from the beach and sleeps six.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Just steps from the beach, this suite is a Kauai oasis. One king bed, a queen sleeper sofa and a trundle bed sleep six.",
+          "note": "The page covers both elements: steps from the beach and sleeps six.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/kauai-grand-hyatt-kauai-resort-and-spa/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The pools include a quiet adult pool area.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Or find your niche in our quiet adult pool area.",
+          "note": "The page mentions a quiet adult pool area.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/kauai-grand-hyatt-kauai-resort-and-spa",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Poipu Bay Golf Course, designed by Robert Trent Jones Jr., has 18 championship holes set between lush mountains and rugged ocean cliffs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Sprawling between lush mountains and rugged ocean cliffs, Poipu Bay Golf Course boasts 18 championship holes",
+          "note": "This covers the setting and the 18 championship holes.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/kauai-grand-hyatt-kauai-resort-and-spa",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Designed by Robert Trent Jones Jr., Poipu Bay is one of the most highly acclaimed resort courses in the Pacific.",
+          "note": "This covers the designer.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/kauai-grand-hyatt-kauai-resort-and-spa",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Poipu Bay Golf Course hosted the annual PGA Grand Slam of Golf from 1994 to 2006.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "From 1994 to 2006, the course played host to the annual PGA Grand Slam of Golf",
+          "note": "The years and the event match the claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/kauai-grand-hyatt-kauai-resort-and-spa",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "For a private dining experience, the resort offers a starlit beachside dinner for two.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "For a private dining experience, the resort offers a starlit beachside dinner for two.",
+          "note": "This is a verbatim match.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/kauai-grand-hyatt-kauai-resort-and-spa/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Connecting rooms are offered for extra space.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "We offer connecting rooms for extra space.",
+          "note": "This is a verbatim match.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/kauai-grand-hyatt-kauai-resort-and-spa/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "A lava rock-lined lazy river flows past waterfalls, quiet seating nooks and secret caves, ending at a 150-foot waterslide.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Float down our lava rock-lined lazy river past waterfalls, quiet seating nooks and secret caves to end at our 150-foot waterslide.",
+          "note": "All elements are covered.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/kauai-grand-hyatt-kauai-resort-and-spa",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Tidepools serves modern Island cuisine in thatched-roof bungalows floating above a koi-filled lagoon at the base of a waterfall.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Feel the romance of Kauai in thatched-roof bungalows floating above a koi-filled lagoon at the base of a waterfall. Our modern Island cuisine is inspired by local ingredients",
+          "note": "The setting and the modern Island cuisine are both covered.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/kauai-grand-hyatt-kauai-resort-and-spa/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Anara Spa weaves traditional healing customs to inspire lokahi, the balance and harmony of body and spirit.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Anara Spa in Kauai weaves traditional healing customs to inspire “lokahi”—balance and harmony of the body and spirit.",
+          "note": "This matches the claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/kauai-grand-hyatt-kauai-resort-and-spa",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Pool Suites overlook the multilevel pools and have a walk-in wet room, a double shower and a free-standing French tub.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Overlooking our multilevel pools, these suites feature contemporary Hawaiian furnishings, one king bed, full sleeper sofa, sitting area, and large bath with a walk-in wet room, double shower and free-standing French tub.",
+          "note": "All elements are covered.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/kauai-grand-hyatt-kauai-resort-and-spa/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Guests can attend a luau, tour the hydroponic garden or take hula, ukulele or lei-making classes at the resort.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Attend a luau, held twice weekly, tour the hydroponic garden or take a hula, ukulele or lei-making class—all at our resort hotel.",
+          "note": "All listed activities are covered.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/kauai-grand-hyatt-kauai-resort-and-spa",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Lihue Airport (LIH) is 15 miles away.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Lihue Airport (LIH)15 miles",
+          "note": "The airport is listed at 15 miles.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/kauai-grand-hyatt-kauai-resort-and-spa/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes that the large resort property may feel less intimate.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing that reflects the luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

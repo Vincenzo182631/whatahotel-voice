@@ -1,0 +1,421 @@
+{
+  "hotel_slug": "the-goring-hotel",
+  "hotel_name": "The Goring Hotel",
+  "checked_at": "2026-11-04T02:06:05.595Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.thegoring.com/about/",
+      "tier": "official",
+      "chars": 4780
+    },
+    {
+      "id": "d2",
+      "url": "https://www.thegoring.com/our-suites/",
+      "tier": "official",
+      "chars": 3326
+    },
+    {
+      "id": "d3",
+      "url": "https://www.thegoring.com/food-drink/the-dining-room/",
+      "tier": "official",
+      "chars": 4798
+    },
+    {
+      "id": "d4",
+      "url": "https://www.thegoring.com/a-private-garden-in-the-heart-of-london/",
+      "tier": "official",
+      "chars": 3891
+    },
+    {
+      "id": "d5",
+      "url": "https://www.thegoring.com/location/",
+      "tier": "official",
+      "chars": 2114
+    },
+    {
+      "id": "d6",
+      "url": "https://www.thegoring.com/about/our-people/",
+      "tier": "official",
+      "chars": 7951
+    },
+    {
+      "id": "d7",
+      "url": "https://www.cntraveler.com/hotels/united-kingdom/london/the-goring-london",
+      "tier": "editorial",
+      "chars": 10478
+    },
+    {
+      "id": "d8",
+      "url": "https://www.thegoring.com/food-drink/the-goring-cocktail-bar/",
+      "tier": "official",
+      "chars": 3055
+    },
+    {
+      "id": "d9",
+      "url": "https://www.thegoring.com/our-charity/",
+      "tier": "official",
+      "chars": 2112
+    },
+    {
+      "id": "d10",
+      "url": "https://www.thegoring.com/food-drink/afternoon-tea-in-the-veranda/",
+      "tier": "official",
+      "chars": 3314
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The Goring was built in 1910 by its founder, Otto Goring.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "since 1910, when our founder, Otto Goring, built his hotel for the pleasure of his guests",
+          "note": "1910 Otto Goring",
+          "confirmed": true,
+          "url": "https://www.thegoring.com/about/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is on a Belgravia street, a 10-minute stroll from Buckingham Palace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "We are deeply proud of our spot on an elegant Belgravia street",
+          "note": "Belgravia",
+          "confirmed": true,
+          "url": "https://www.thegoring.com/location/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Our lovely neighbours at the Palace are a leisurely 10-minute stroll away.",
+          "note": "10 min",
+          "confirmed": true,
+          "url": "https://www.thegoring.com/location/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Victoria station is a five-minute walk from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Victoria station is a mere five-minute walk.",
+          "note": "victoria",
+          "confirmed": true,
+          "url": "https://www.thegoring.com/location/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Guests can play croquet in the garden.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "indulge in a lightly-competitive game of croquet",
+          "note": "croquet in garden",
+          "confirmed": true,
+          "url": "https://www.thegoring.com/a-private-garden-in-the-heart-of-london/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Belgravia Suites have a marble fireplace, historic silks and hand-crafted walnut furniture.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Sink back into plush sofas by the marble fireplace in a suite appointed in historic silks and adorned with hand-crafted walnut furniture.",
+          "note": "Belgravia Suites",
+          "confirmed": true,
+          "url": "https://www.thegoring.com/our-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Garden Family Suites have interconnecting rooms, entertainment for children and garden views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Interconnecting rooms for families with plenty of space, all sorts of entertainment for children and glorious garden views.",
+          "note": "Garden Family Suites",
+          "confirmed": true,
+          "url": "https://www.thegoring.com/our-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Conde Nast Traveler says The Goring was the world's first hotel with central heating and en suite bathrooms in every room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "the world’s first hotel to have central heating and en suite bathrooms in every room",
+          "note": "CNT",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-kingdom/london/the-goring-london",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Kate Middleton spent the night before her 2011 wedding to Prince William at the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Kate Middleton spent the night before her 2011 wedding to Prince William",
+          "note": "CNT",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-kingdom/london/the-goring-london",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Children receive The Goring Passport and can decorate desserts in the kitchen.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "they’ll receive The Goring Passport to keep a record of their trip",
+          "note": "passport",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-kingdom/london/the-goring-london",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "kiddos are also invited to come down to the kitchen for a bit of dessert decorating",
+          "note": "dessert decorating",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-kingdom/london/the-goring-london",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Footmen in red tailcoats and gold-trimmed waistcoats look after guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Ravishing in red tailcoats and gold-trimmed waistcoats, these masters of impeccable service are the touchpoint for every guest during their stay.",
+          "note": "footmen",
+          "confirmed": true,
+          "url": "https://www.thegoring.com/about/our-people/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Afternoon Tea is served on The Veranda, which overlooks the garden.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Afternoon Tea on the light-filled Veranda overlooks the majesty of our Garden",
+          "note": "veranda",
+          "confirmed": true,
+          "url": "https://www.thegoring.com/a-private-garden-in-the-heart-of-london/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The Dining Room walls are covered in monkeys drinking Champagne or bursting out of cakes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "the walls are covered in monkeys gaily drinking Champagne or bursting out of cakes",
+          "note": "dining room walls",
+          "confirmed": true,
+          "url": "https://www.thegoring.com/food-drink/the-dining-room/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel says it owns London's largest private garden, behind the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "We’re proud to own London’s largest private garden, tucked away rather unexpectedly behind the hotel in a secluded corner of Belgravia.",
+          "note": "garden",
+          "confirmed": true,
+          "url": "https://www.thegoring.com/a-private-garden-in-the-heart-of-london/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Royal Suite has a life-size portrait of Queen Victoria, letters handwritten by royalty and the same silk as Buckingham Palace's Throne Room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "decor spans from a life-size portrait of Queen Victoria to letters handwritten by royalty, as well as the same silk that can be found in Buckingham Palace’s Throne Room",
+          "note": "royal suite",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-kingdom/london/the-goring-london",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Guests in a Belgravia Suite, the Royal Suite or a Garden Suite have a dedicated footman.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Guests staying in a Belgravia, Royal Suite or Garden Suite are treated to the highest level of personal service. From arrival to departure, their dedicated footman will be on hand",
+          "note": "footman",
+          "confirmed": true,
+          "url": "https://www.thegoring.com/our-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The hotel has passed down through four generations of the Goring family.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Not only has it passed down through four generations of Gorings",
+          "note": "four generations",
+          "confirmed": true,
+          "url": "https://www.thegoring.com/about/our-people/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Teddy, a Shetland pony, is the hotel pet.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "the hotel pet, a shetland pony named Teddy",
+          "note": "Teddy",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-kingdom/london/the-goring-london",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The Dining Room dress code requests no sportswear, athletic trainers, shorts or ripped jeans.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "we kindly request no sportswear, athletic trainers, shorts or ripped jeans",
+          "note": "dress code",
+          "confirmed": true,
+          "url": "https://www.thegoring.com/food-drink/the-dining-room/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes the traditional decor may feel formal for some guests.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing reflecting the luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

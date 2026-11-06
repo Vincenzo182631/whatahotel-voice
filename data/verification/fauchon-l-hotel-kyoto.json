@@ -1,0 +1,431 @@
+{
+  "hotel_slug": "fauchon-l-hotel-kyoto",
+  "hotel_name": "Fauchon L Hotel Kyoto",
+  "checked_at": "2026-10-20T02:00:21.736Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 18
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://hotelfauchonkyoto.com/en/",
+      "tier": "official",
+      "chars": 8226
+    },
+    {
+      "id": "d2",
+      "url": "https://hotelfauchonkyoto.com/en/rooms/",
+      "tier": "official",
+      "chars": 3220
+    },
+    {
+      "id": "d3",
+      "url": "https://hotelfauchonkyoto.com/en/spa/",
+      "tier": "official",
+      "chars": 5190
+    },
+    {
+      "id": "d4",
+      "url": "https://hotelfauchonkyoto.com/en/about/",
+      "tier": "official",
+      "chars": 7640
+    },
+    {
+      "id": "d5",
+      "url": "https://hotelfauchonkyoto.com/en/access/",
+      "tier": "official",
+      "chars": 8194
+    },
+    {
+      "id": "d6",
+      "url": "https://hotelfauchonkyoto.com/en/gourmet/",
+      "tier": "official",
+      "chars": 3323
+    },
+    {
+      "id": "d7",
+      "url": "https://hotelfauchonkyoto.com/en/stayplan/",
+      "tier": "official",
+      "chars": 1758
+    },
+    {
+      "id": "d8",
+      "url": "https://hotelfauchonkyoto.com/en/contact/",
+      "tier": "official",
+      "chars": 8226
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is located along the Kamo River, often referred to as Kyoto's Seine River.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "is located along the Kamo River, which flows through the elegant neighborhoods of Kyoto and is often referred to as \"Kyoto's Seine River.\"",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://hotelfauchonkyoto.com/en/access/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is within a 10-minute walk of Gion, Higashiyama and Shijo Kawaramachi.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "It is located within a 10-minute walk of Kyoto's popular tourist attractions including Gion, Higashiyama, and Shijo Kawaramachi.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://hotelfauchonkyoto.com/en/access/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel is a 6-minute walk from Kiyomizu-Gojo Station on the Keihan Line.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "■6-minute walk from Kiyomizu-Gojo Station on the Keihan Line",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://hotelfauchonkyoto.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The design blends FAUCHON style in magenta, black and gold with nods to Kyoto, including black painted bamboo accents on the walls.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The new property is a masterful blend of FAUCHON style featuring magenta, black, and gold with a nod to our Kyoto location. There are black painted bamboo accents on the walls",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://hotelfauchonkyoto.com/en/about/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Sakura petals appear in many design elements, including the lobby ceiling lights and the fabrics in the guest rooms and suites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Sakura petals incorporated in many design elements including on the lobby ceiling lights as well as fabrics in the guest rooms and suites",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://hotelfauchonkyoto.com/en/about/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Suites are decorated in FAUCHON pink, white, black and gold on Japanese fabrics and textiles.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "the decor features the mixture of FAUCHON’s pink, white, black, and gold on Japanese fabrics and textiles to symbolize FAUCHON Meets Kyoto.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://hotelfauchonkyoto.com/en/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Fauchon Suite has a separate living room, bedroom, bathroom and walk-in closet.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Featuring a separate living room, bedroom, bathroom, and walk-in closet",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://hotelfauchonkyoto.com/en/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Le Spa FAUCHON is the world's first spa named after FAUCHON, in partnership with Credo International and KOS PARIS.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Here at Le Spa FAUCHON, the world’s first spa named after FAUCHON and introducing a new partnership to Japan with Credo International Co., Ltd. and KOS PARIS.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://hotelfauchonkyoto.com/en/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The Grand Cafe FAUCHON is on the top floor, with a panoramic view of Higashiyama.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "An impressive and stunning space on the top floor of FAUCHON L’Hotel Kyoto, The Grand Cafe FAUCHON invites diners to enjoy a rare panoramic view of Higashiyama.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://hotelfauchonkyoto.com/en/gourmet/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Teatime features a pink teapot, macarons and a tea blend, One Night In Kyoto, created especially for the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "including a pink teapot and macarons along with a special tea blend, “One Night In Kyoto” (green tea with fruity notes of cherry, pear, and tangerine) created especially for the hotel.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://hotelfauchonkyoto.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "A specially curated playlist mixes French and Japanese music.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Our specially curated playlist mixes French and Japanese music to present a new auditory experience.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://hotelfauchonkyoto.com/en/about/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The hotel offers exclusive private tours and curated experiences of Kyoto.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "From FAUCHON L’Hotel Kyoto, embark on a refined journey through the many facets of Kyoto.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://hotelfauchonkyoto.com/en/access/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "With exclusive private tours and curated experiences,",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://hotelfauchonkyoto.com/en/access/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Every room and suite has a FAUCHON Gourmet Bar, a reimagined minibar in a cabinet custom-crafted by Roche Bobois and designer Sacha Lakic, stocked with FAUCHON products including champagne and sweet and savory treats.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Nowhere else on earth can one enjoy a five-star luxury FAUCHON hotel featuring the renowned Gourmet Bar in each room and suite,",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://hotelfauchonkyoto.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "FAUCHON’s Gourmet Bar — a hotel minibar reimagined",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://hotelfauchonkyoto.com/en/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Enclosed within the stunning cabinet custom-crafted for FAUCHON by French luxury manufacturer Roche Bobois and renowned designer Sacha Lakic",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://hotelfauchonkyoto.com/en/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "the most delightful FAUCHON products including champagne and other sweet and savory FAUCHON branded treats",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://hotelfauchonkyoto.com/en/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The spa offers an optional Private Bath Ritual with a pink bathtub with rose petals floating on top.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Combine the best of French and Japanese healing treatments with our optional Private Bath Ritual. Open the door to the treatment room and see a pink bathtub with rose petals floating on top.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://hotelfauchonkyoto.com/en/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Washi paper lines the wall above the headboards in the guest rooms, and the bedside lighting represents the French millefeuille pastry.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Washi paper (used in Origami) on the wall above the headboards in the guest rooms. Another design element is the beautiful bedside lighting which represents the French millefeuille pastry.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://hotelfauchonkyoto.com/en/about/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Higashiyama-view rooms look out on Kiyomizu-dera and the Higashiyama hills.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "フォションホテル京都の東山ビューの客室からは世界遺産の清水寺と東山をご覧いただけます。",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://hotelfauchonkyoto.com/en/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "There is no parking lot at the hotel; public transportation, a taxi or car service is recommended.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "There is no parking lot at our hotel.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://hotelfauchonkyoto.com/en/access/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "We kindly recommend you use public transportation,",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://hotelfauchonkyoto.com/en/access/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "a taxi, or car service to transit to the hotel.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://hotelfauchonkyoto.com/en/access/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes premium pricing that reflects the hotel's luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

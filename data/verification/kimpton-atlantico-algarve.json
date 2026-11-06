@@ -1,0 +1,438 @@
+{
+  "hotel_slug": "kimpton-atlantico-algarve",
+  "hotel_name": "Kimpton Atlantico Algarve",
+  "checked_at": "2026-10-30T09:14:11.490Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/albufeira/faokm/hoteldetail",
+      "tier": "official",
+      "chars": 11059
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/albufeira/faokm/hoteldetail/rooms/",
+      "tier": "official",
+      "chars": 3382
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/albufeira/faokm/hoteldetail/dining/",
+      "tier": "official",
+      "chars": 6320
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/albufeira/faokm/hoteldetail/amenities/",
+      "tier": "official",
+      "chars": 11430
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/albufeira/faokm/hoteldetail/local-area-guide/",
+      "tier": "official",
+      "chars": 4807
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/albufeira/faokm/hoteldetail/directions/",
+      "tier": "official",
+      "chars": 2671
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/albufeira/faokm/hoteldetail/",
+      "tier": "official",
+      "chars": 11059
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/albufeira/faokm/hoteldetail/hotel-reviews/",
+      "tier": "official",
+      "chars": 8195
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is set along the coast of São Rafael Beach in the Algarve.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Set along the coast of São Rafael Beach, our coastal retreat captures the spirit of southern Portugal",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/albufeira/faokm/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is near the Albufeira city centre, with its shopping and dining.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Kimpton Atlântico Algarve is conveniently located near the Albufeira city centre, where visitors will find shopping, dining, and local charm.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/albufeira/faokm/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The grounds include Mediterranean gardens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Begin your morning surrounded by Mediterranean gardens",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/albufeira/faokm/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The Wellness Hub offers sunrise yoga and massages.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Rebalance mind and body in our tranquil Wellness Hub",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/albufeira/faokm/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "From sunrise yoga to soothing massages",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/albufeira/faokm/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The One Bedroom Suite has a super king bed and may include a furnished balcony.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Beds:  1 Super King Bed",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/albufeira/faokm/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "One Bedroom Suite may include:",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/albufeira/faokm/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Sombra serves an à la carte menu fusing local and international flavors.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Renowned for its exquisite à la carte menu, Sombra showcases a fusion of local and international flavors",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/albufeira/faokm/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Pets are welcome, with no weight limit per pet.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Pets are welcome at Kimpton Atlântico Algarve.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/albufeira/faokm/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Pet weight limit: No weight limit per pet",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/albufeira/faokm/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel has a 24/7 gym.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Keep your wellness routine going during your stay with our 24/7 gym",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/albufeira/faokm/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Cabanas are available for rent at the outdoor pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Cabanas (for rent)",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/albufeira/faokm/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The outdoor pool area includes a children's pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Pool type: Children's Pool",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/albufeira/faokm/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Salgados Golf Club, an 18-hole, par-72 course off-site near Salgados Beach and Salgados Lagoon Nature Reserve, has views of the Algarve coast.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Located off-site",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/albufeira/faokm/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "located near Salgados Beach and Salgados Lagoon Nature Reserve, the 18-hole, par-72 Salgados Golf Club features a stunning natural backdrop with views of the Algarve coast",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/albufeira/faokm/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel offers direct access to São Rafael Beach.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "enjoy direct access to the stunning São Rafael Beach",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/albufeira/faokm/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Wellness Hub Atlântico features a vitality pool, sauna, Turkish bath and personalised treatments.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "At Wellness Hub Atlântico, discover a space dedicated to balance and wellbeing, featuring a vitality pool, sauna, Turkish bath, personalised treatments",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/albufeira/faokm/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The hotel has a heated pool for year-round swimming.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Enjoy moments of relaxation all year round in our heated pool, designed for a soothing escape whatever the season.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/albufeira/faokm/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Guest rooms and suites overlook the sea or gardens, with soft textures and warm tones.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Unwind in refined guest rooms and suites where contemporary comfort meets Algarve authenticity. Overlooking the sea or lush gardens, each space is crafted for relaxation with soft textures, warm tones",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/albufeira/faokm/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Zénite Rooftop is a retro-inspired, Mediterranean-themed lounge that becomes a lively bar in the evening.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Zénite Rooftop is a sun drenched, retro inspired, Mediterranean themed lounge that transforms into a lively bar in the evening.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/albufeira/faokm/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Faro International Airport is approximately 28 kilometers from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "approximately 17.4 miles away (28 kilometers) from the hotel",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/albufeira/faokm/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Beach chairs and umbrellas are available for rent.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Beach chairs (for rent)",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/albufeira/faokm/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Umbrellas (for rent)",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/albufeira/faokm/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes a premium price point relative to the broader Algarve market.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

@@ -1,0 +1,436 @@
+{
+  "hotel_slug": "grand-hyatt-baha-mar",
+  "hotel_name": "Grand Hyatt Baha Mar",
+  "checked_at": "2026-10-29T03:46:03.630Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 20,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 0,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/nasgh-grand-hyatt-baha-mar",
+      "tier": "official",
+      "chars": 18052
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/nasgh-grand-hyatt-baha-mar/rooms/",
+      "tier": "official",
+      "chars": 26946
+    },
+    {
+      "id": "d3",
+      "url": "https://www.cntraveler.com/hotels/nassau/grand-hyatt-baha-mar",
+      "tier": "editorial",
+      "chars": 10790
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/nasgh-grand-hyatt-baha-mar/dining/",
+      "tier": "official",
+      "chars": 30000
+    },
+    {
+      "id": "d5",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/nasgh-grand-hyatt-baha-mar/hotel-info/",
+      "tier": "official",
+      "chars": 3608
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/nasgh-grand-hyatt-baha-mar/reviews/",
+      "tier": "official",
+      "chars": 28704
+    },
+    {
+      "id": "d7",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/nasgh-grand-hyatt-baha-mar/policies/",
+      "tier": "official",
+      "chars": 7511
+    },
+    {
+      "id": "d8",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/nasgh-grand-hyatt-baha-mar/parking-and-transportation/",
+      "tier": "official",
+      "chars": 4188
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Grand Hyatt Baha Mar is set on Cable Beach and is the most central of the hotels in the Baha Mar complex.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Set on Cable Beach, Grand Hyatt is the most central of the hotels in Baha Mar",
+          "note": "States both location on Cable Beach and most central hotel.",
+          "url": "https://www.cntraveler.com/hotels/nassau/grand-hyatt-baha-mar",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Grand Hyatt was the first hotel to open in the Baha Mar complex.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "It was the first hotel to open in the complex and is still currently the largest.",
+          "note": "Explicitly says first hotel to open.",
+          "url": "https://www.cntraveler.com/hotels/nassau/grand-hyatt-baha-mar",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "All guest rooms, suites and villas have floor-to-ceiling windows with views of the ocean, the island or the fountain show.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "All guest rooms, suites and villas include plush beds and floor-to-ceiling windows with incredible views of the ocean, island, or fountain show.",
+          "note": "Matches claim fully.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/nasgh-grand-hyatt-baha-mar",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "All room categories include balconies, ranging from Juliet balconies to fully furnished ones.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "All room categories include balconies—ranging from Juliet balconies to fully furnished ones—with views of the ocean, fountains, or lush grounds.",
+          "note": "Matches claim.",
+          "url": "https://www.cntraveler.com/hotels/nassau/grand-hyatt-baha-mar",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Rooms have Balmain bath amenities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "while Balmain bath amenities add an extra-luxe touch",
+          "note": "Rooms include Balmain bath amenities.",
+          "url": "https://www.cntraveler.com/hotels/nassau/grand-hyatt-baha-mar",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Reserve's VIP Lounge serves breakfast each morning, light refreshments through the day and hors d'oeuvres in the evening.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "VIP Lounge with breakfast each morning, light refreshments throughout the day, and hors d’oeuvres in the evening.",
+          "note": "Matches claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/nasgh-grand-hyatt-baha-mar/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Butler service is available with the two-bedroom residences in the East Tower and the two-bedroom poolside villas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "butler service (available with 2-bedroom residences in the East Tower and 2-bedroom poolside villas)",
+          "note": "Matches claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/nasgh-grand-hyatt-baha-mar/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Each of the resort's pools has its own distinct Bahamian design, with daybeds, in-pool chaises and cabanas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Enjoy eight exquisite pools, each with its own distinct Bahamian design and character. During your stay, experience them all, laze on a daybed or an in-pool chaise, or cozy up in a cabana",
+          "note": "Covers distinct design, daybeds, in-pool chaises and cabanas.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/nasgh-grand-hyatt-baha-mar",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "ESPA at Baha Mar is a 30,000-square-foot spa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The ultimate spa experience unfolds with 30,000 square feet of total tranquility with ESPA at Baha Mar.",
+          "note": "30,000 sq ft confirmed.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/nasgh-grand-hyatt-baha-mar",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The 30,000-square-foot Espa offers a striking contrast to the rest of the resort.",
+          "note": "Confirms size.",
+          "url": "https://www.cntraveler.com/hotels/nassau/grand-hyatt-baha-mar",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Royal Blue at Baha Mar is a Jack Nicklaus Signature Golf Course, with ocean vistas on the front nine and forested panoramas on the back nine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Royal Blue at Baha Mar is a Jack Nicklaus Signature Golf Course",
+          "note": "Signature course confirmed.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/nasgh-grand-hyatt-baha-mar",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "features dramatic vistas of the turquoise ocean on the front nine and forested panoramas on the second half.",
+          "note": "Ocean front nine, forested back nine.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/nasgh-grand-hyatt-baha-mar",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Baha Mar Casino has 100,000 square feet of gaming and live entertainment.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Baha Mar Casino features 100,000 square feet of world-class gaming excitement and live entertainment.",
+          "note": "Matches claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/nasgh-grand-hyatt-baha-mar",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Chef Marcus Samuelsson's Marcus at Baha Mar Fish + Chop House is on the beachfront near the pier.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Chef Marcus Samuelsson has brought his signature style and cuisine to Marcus at Baha Mar Fish + Chop House.",
+          "note": "Chef attribution.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/nasgh-grand-hyatt-baha-mar/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Location: Grand Hyatt Baha Mar - Beachfront near the Pier",
+          "note": "Location confirmed.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/nasgh-grand-hyatt-baha-mar/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Reserve is a hotel-within-a-hotel on the top floors of the East Tower, with a private VIP entrance.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The Reserve, which offers a quieter, hotel-within-a-hotel experience that occupies the top floors of the East Tower and features a private VIP entrance",
+          "note": "All elements covered.",
+          "url": "https://www.cntraveler.com/hotels/nassau/grand-hyatt-baha-mar",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Flamingos, sea turtles and tropical birds are part of the resort's wildlife experiences, and there is a daily flamingo parade.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "flamingos, sea turtles, and tropical birds are woven into the resort in a way that feels interactive rather than staged, and the daily flamingo parade is a highlight",
+          "note": "All elements covered.",
+          "url": "https://www.cntraveler.com/hotels/nassau/grand-hyatt-baha-mar",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Baha Mar resort guests have unlimited access to Baha Bay waterpark, set directly adjacent on 15 beachfront acres.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The luxe waterpark is directly adjacent to Baha Mar and set on 15 lush beachfront acres",
+          "note": "Adjacency and acreage.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/nasgh-grand-hyatt-baha-mar",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Baha Mar resort guests enjoy exclusive and unlimited access to Baha Bay waterpark.",
+          "note": "Unlimited access.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/nasgh-grand-hyatt-baha-mar",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The ESPA spa is perched above the beach.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Perched above the beach, it feels intentionally removed from the buzz.",
+          "note": "Refers to Espa.",
+          "url": "https://www.cntraveler.com/hotels/nassau/grand-hyatt-baha-mar",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Chairman Suite has four bedrooms and a private pool overlooking ocean and island views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "the exclusive Chairman Suite boasts four bedrooms, five bathrooms and a private pool overlooking panoramic ocean and island views",
+          "note": "Matches claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/nasgh-grand-hyatt-baha-mar/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "This is a large resort and is less intimate than smaller hotels.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Service is efficient, with the infrastructure to support a resort of this scale.",
+          "note": "Large scale.",
+          "url": "https://www.cntraveler.com/hotels/nassau/grand-hyatt-baha-mar",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "While less intimate than smaller hotels, it runs smoothly and reliably.",
+          "note": "Less intimate.",
+          "url": "https://www.cntraveler.com/hotels/nassau/grand-hyatt-baha-mar",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Dining and spa reservations should be planned ahead because prime slots fill quickly.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Plan ahead—especially for dining and spa reservations—as the resort’s size and popularity mean prime slots fill quickly.",
+          "note": "Matches claim.",
+          "url": "https://www.cntraveler.com/hotels/nassau/grand-hyatt-baha-mar",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "The resort is about five miles from downtown Nassau.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "about seven miles from the airport and five miles from downtown Nassau",
+          "note": "Five miles from downtown.",
+          "url": "https://www.cntraveler.com/hotels/nassau/grand-hyatt-baha-mar",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,428 @@
+{
+  "hotel_slug": "grand-wailea-a-waldorf-astoria-resort",
+  "hotel_name": "Grand Wailea, A Waldorf Astoria Resort",
+  "checked_at": "2026-10-14T23:03:09.187Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hilton.com/en/hotels/jhmgwwa-grand-wailea/",
+      "tier": "official",
+      "chars": 30000
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hilton.com/en/hotels/jhmgwwa-grand-wailea/rooms/",
+      "tier": "official",
+      "chars": 10435
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hilton.com/en/hotels/jhmgwwa-grand-wailea/dining/",
+      "tier": "official",
+      "chars": 4988
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hilton.com/en/hotels/jhmgwwa-grand-wailea/things-to-do/",
+      "tier": "official",
+      "chars": 4234
+    },
+    {
+      "id": "d5",
+      "url": "https://www.hilton.com/en/hotels/jhmgwwa-grand-wailea/things-to-do/experiences/",
+      "tier": "official",
+      "chars": 2406
+    },
+    {
+      "id": "d6",
+      "url": "https://www.cntraveler.com/hotels/united-states/kihei/grand-wailea-maui",
+      "tier": "editorial",
+      "chars": 12452
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The resort is fronted by Wailea Beach and surrounded by 40 acres of tropical landscape.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Fronted by Wailea Beach and surrounded by 40 acres of lush tropical landscape",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jhmgwwa-grand-wailea/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Guest rooms and suites have private lanais.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Featuring generous layouts and private lānais, our guest rooms and suites start at",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jhmgwwa-grand-wailea/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "every one of them has a private lanai",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/kihei/grand-wailea-maui",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Napua Suites sit on the resort's private upper floors, with dedicated Napua Club privileges.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Napua Suites offer an elevated island retreat on the resort’s private upper floors",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jhmgwwa-grand-wailea/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Guests enjoy dedicated Napua Club privileges",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jhmgwwa-grand-wailea/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Botero Lounge has live music by local artists amid nine larger-than-life sculptures by Fernando Botero.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "live music by local artists amid nine larger-than-life sculptures by renowned late artist, Fernando Botero",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jhmgwwa-grand-wailea/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Nobu Grand Wailea's signature dishes include Black Cod Miso and Yellowtail Jalapeno.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Signature dishes include the iconic Black Cod Miso and Yellowtail Jalapeño",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jhmgwwa-grand-wailea/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Olivine is named after one of Maui's primary minerals and serves coastal Italian cuisine with handmade pastas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Named after one of Maui’s primary minerals",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jhmgwwa-grand-wailea/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "the art of coastal Italian cuisine",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jhmgwwa-grand-wailea/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "featuring handmade pastas",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jhmgwwa-grand-wailea/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Grotto Bar is a swim-up bar nestled among waterfalls and poolside caves.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "nestled among cascading waterfalls and intricate poolside caves. Swim up to the bar",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jhmgwwa-grand-wailea/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Wailea Canyon Activity Pool has seven waterslides, a lazy river, caves and a swim-up Grotto Bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Wailea Canyon Activity Pool is a world of its own, with seven waterslides, a lazy river, caves, and a swim-up Grotto Bar",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/kihei/grand-wailea-maui",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Baby Beach is a child-friendly, zero-entry pool with a gradual slope.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Kids can make a splash at Baby Beach in our child-friendly, zero-entry pool with an easy, gradual slope",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jhmgwwa-grand-wailea/things-to-do/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Wailea Canyon has a giant Tarzan-style rope swing over a pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "fly through the air over a crystal blue pool from a giant Tarzan-style rope swing at Wailea Canyon",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jhmgwwa-grand-wailea/things-to-do/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The Kilohana Cultural Resource Center offers hula and ukulele lessons and Hawaiian craft techniques.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Learn to dance the hula and play the ukulele, explore Hawaiian craft techniques",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jhmgwwa-grand-wailea/things-to-do/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The fitness center has Peloton bikes, Tonal and Technogym equipment, and daily fitness classes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "featuring Peloton bikes, Tonal and Technogym equipment, and daily fitness classes",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jhmgwwa-grand-wailea/things-to-do/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Hibiscus Serenity Pool has a giant hibiscus flower made from over 630,000 pieces of Mexican glass mosaic tile inlaid at its bottom.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "a giant hibiscus flower made from over 630,000 pieces of Mexican glass mosaic tiles inlaid at the bottom of the pool",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jhmgwwa-grand-wailea/things-to-do/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Kilolani Spa is the largest spa in Hawaii, at 50,000 square feet.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Kilolani Spa, the largest spa in Hawaiʻi at 50,000 square feet",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/kihei/grand-wailea-maui",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Nobu Grand Wailea is the first Nobu in Hawaii and opened in early 2025.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "The real star is Nobu, the first in Hawaiʻi, which opened in early 2025",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/kihei/grand-wailea-maui",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Humuhumunukunukuapuaa sits in a beachfront lagoon setting with Pacific Ocean views and an aquarium bar top.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Humuhumunukunukuāpuaʻa offers a dining experience in an unforgettable beachfront lagoon setting with stunning Pacific Ocean views and an aquarium bar top",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jhmgwwa-grand-wailea/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Lava Tube Slide makes a 360-degree turn along a three-story drop.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "a 360° turn along an exhilarating three-story drop to the bottom",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jhmgwwa-grand-wailea/things-to-do/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Cabana reservations are required in advance, either at time of booking or during the stay.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Reservations are required in advance at time of booking or during your stay.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jhmgwwa-grand-wailea/things-to-do/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Room prices include a resort charge of $55 per night, with taxes extra.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "**Price includes $55.00 USD** resort charge per night, but excludes taxes and government charges",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/jhmgwwa-grand-wailea/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes a large resort property with walking distances between facilities.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

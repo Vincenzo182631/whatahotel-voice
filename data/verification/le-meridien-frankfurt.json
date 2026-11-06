@@ -1,0 +1,410 @@
+{
+  "hotel_slug": "le-meridien-frankfurt",
+  "hotel_name": "Le Meridien Frankfurt",
+  "checked_at": "2026-10-29T05:32:27.884Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/framd-le-meridien-frankfurt/overview/",
+      "tier": "official",
+      "chars": 13581
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/framd-le-meridien-frankfurt/rooms/",
+      "tier": "official",
+      "chars": 7125
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/framd-le-meridien-frankfurt/experiences/",
+      "tier": "official",
+      "chars": 14763
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/framd-le-meridien-frankfurt/dining/",
+      "tier": "official",
+      "chars": 10246
+    },
+    {
+      "id": "d5",
+      "url": "https://www.marriott.com/en-us/hotels/framd-le-meridien-frankfurt/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "chars": 2486
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Le Meridien Frankfurt is located next to the main train station.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located next to the main train station, Le Méridien Frankfurt is a hotel made for city trips and business visits.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/framd-le-meridien-frankfurt/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is set in the Bahnhofsviertel district, close to the main station.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "set close to the main station in the energetic Bahnhofsviertel",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/framd-le-meridien-frankfurt/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Chic Palais rooms blend Art Nouveau character with modern amenities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our Chic Palais rooms in Frankfurt blend Art Nouveau character with modern amenities.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/framd-le-meridien-frankfurt/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Rooms in the Legacy Wing look out over the Frankfurt skyline or the green Wiesenhuettenplatz.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Enjoy the great view of Frankfurt's skyline or green Wiesenhüttenplatz",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/framd-le-meridien-frankfurt/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "### Guest Rooms in the Legacy Wing",
+          "note": "section heading ties views to Legacy Wing rooms",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/framd-le-meridien-frankfurt/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Skyline Suite has a spacious living room with a large table for meetings or private dinners.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "It offers a spacious living room with a large table for meetings or private dinners",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/framd-le-meridien-frankfurt/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Le Meridien Hub displays art pieces from galleries and art studios in the Bahnhofsviertel district.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "A lot of galleries and art studios are located in the Bahnhofsviertel district which we support by displaying some of their art pieces at Le Méridien Hub.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/framd-le-meridien-frankfurt/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The fitness terrace has a skyline view.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The fitness terrace with skyline view invites you to cool down and relax.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/framd-le-meridien-frankfurt/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Legacy Bar & Grill serves casual, family-style dining, ribs and BBQ specialties from the smoker.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Legacy Bar & Grill, with its Frankfurt bar atmosphere, serves casual, family-style dining, ribs, and BBQ specialties from the smoker.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/framd-le-meridien-frankfurt/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The river Main is a short walk from the hotel, and its embankments make a running path.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The river Main is only a short walk or quick run from Le Méridien Frankfurt and the perfect running + jogging path in the city.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/framd-le-meridien-frankfurt/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "both sides are predestined for a run at any time of the day",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/framd-le-meridien-frankfurt/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Many museums of the Museum Embankment are a few minutes' walk from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Thanks to the proximity of Le Méridien Frankfurt to the Main riverbanks, many museums are just a few minutes' walk away.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/framd-le-meridien-frankfurt/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Messe Frankfurt is about a 15-minute walk from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "It's just a 15 minutes walk or a short ride by public transportation",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/framd-le-meridien-frankfurt/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Interconnecting rooms are available.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Interconnecting rooms are available",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/framd-le-meridien-frankfurt/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Hotel guests get complimentary access to the Schirn Kunsthalle Frankfurt through Le Meridien's Unlock Art program.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Being our guest you enjoy complimentary access to Schirn Kunsthalle Frankfurt. Discover new perspectives on our favorite city with the Le Méridien Unlock Art™ program",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/framd-le-meridien-frankfurt/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Chic Palais rooms contain objects and features dating from as far back as 1905.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "In our Chic Palais rooms you can discover objects and features that originate from as far back as 1905.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/framd-le-meridien-frankfurt/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The hotel lobby hosts changing exhibition projects of the Staedelschule art academy.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "proudly present changing exhibition projects of the Städelschule in our hotel lobby",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/framd-le-meridien-frankfurt/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Hochschule für Bildende Künste - Städelschule",
+          "note": "the Staedelschule is the fine arts academy",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/framd-le-meridien-frankfurt/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The fitness and sauna area has sun loungers outside on a roof terrace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "In the sauna or in the sun loungers outside on the roof terrace - complete relaxation awaits you",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/framd-le-meridien-frankfurt/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Skyline Suite can be combined with two connecting Deluxe Rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "You can combine it with two Deluxe Rooms that are connected to the suite.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/framd-le-meridien-frankfurt/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The Roemerberg and the Schirn are about 15 minutes from the hotel on foot along the river Main, so the old town is a walk rather than on the doorstep.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Take a walk along the river Main, in direction of the city center and you will reach the Römerberg and SCHIRN in only 15 minutes from Le Méridien Frankfurt.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/framd-le-meridien-frankfurt/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Wander through restored buildings in the New Frankfurt Old Town, just a 15 minutes walk away.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/framd-le-meridien-frankfurt/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes the urban setting may be busy for leisure travelers seeking a quiet retreat.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

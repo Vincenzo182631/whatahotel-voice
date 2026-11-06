@@ -1,0 +1,340 @@
+{
+  "hotel_slug": "the-westin-edina-galleria",
+  "hotel_name": "The Westin Edina Galleria",
+  "checked_at": "2026-11-05T10:06:42.068Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 16,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 17
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/mspwi-the-westin-edina-galleria/overview/",
+      "tier": "official",
+      "chars": 15939
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/mspwi-the-westin-edina-galleria/rooms/",
+      "tier": "official",
+      "chars": 10164
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/mspwi-the-westin-edina-galleria/dining/",
+      "tier": "official",
+      "chars": 11357
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/mspwi-the-westin-edina-galleria/experiences/",
+      "tier": "official",
+      "chars": 19759
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Southdale Center is just across the street.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Just across the street, Southdale Center presents a dynamic mix of fashion, technology, and lifestyle stores",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mspwi-the-westin-edina-galleria/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The 50th & France district, with boutiques, artisan retailers and cafes, is moments away.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "the charming 50th & France district invites visitors to explore an array of stylish boutiques, artisan retailers, and inviting cafés",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mspwi-the-westin-edina-galleria/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "an exceptional shopping experience awaits just moments from your stay",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mspwi-the-westin-edina-galleria/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel is minutes from downtown Minneapolis.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located near Southdale Center and just minutes from downtown Minneapolis",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mspwi-the-westin-edina-galleria/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Every room is centered on the signature Westin Heavenly Bed.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Every room at The Westin Edina Galleria is centered around restorative sleep, anchored by the signature Heavenly Bed",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mspwi-the-westin-edina-galleria/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The WestinWORKOUT Fitness Studio has Peloton bikes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "the WestinWORKOUT® Fitness Studio complete with Peloton Bikes",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mspwi-the-westin-edina-galleria/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The hotel has a heated indoor pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "indoor heated saltwater pool",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mspwi-the-westin-edina-galleria/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Guests can book a private bonfire with s'mores in the courtyard.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Private Bonfire and S’mores in the Courtyard",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mspwi-the-westin-edina-galleria/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel offers rotating on-property experiences such as afternoon tea and local artist installations.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "rotating on‑property experiences like afternoon tea and local artist installations",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mspwi-the-westin-edina-galleria/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "A personalized styling experience matches guests with partner stores to help find items.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "complete your style profile, match you with a preferred partner(s), and help you find the perfect items",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mspwi-the-westin-edina-galleria/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Prelude bar showcases the Reserve Collection of select spirits, including one-of-a-kind bottles and limited-production batches.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "showcasing the Reserve Collection of select spirits, including one-of-a-kind bottles sourced from renowned distilleries and limited-production batches",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mspwi-the-westin-edina-galleria/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel is directly connected to the Galleria, with designer boutiques, luxury brands and specialty shops.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Directly connected to the upscale Galleria, guests can indulge in an exquisite selection of designer boutiques, luxury brands, and curated specialty shops",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mspwi-the-westin-edina-galleria/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Each suite comes with a Lululemon Fitness Mirror programmed with workouts.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "each suite at The Westin Edina Galleria comes with a Lululemon Fitness Mirror. Programmed with a variety of workouts of different lengths",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mspwi-the-westin-edina-galleria/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Weekend Wonders packages include Paisley Park tours, paddleboard yoga and igloo dining.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "You’ll discover Paisley Park tours, paddleboard yoga, igloo dining, and much, much more",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mspwi-the-westin-edina-galleria/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "On-property activations have included turning the lobby into a ski chalet, pop-ups and tastings.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Whether it’s transforming our lobby into a ski chalet, offering unique pop-ups, or tastings",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mspwi-the-westin-edina-galleria/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Stable House is an intimate cocktail house inspired by the sporting lodges of New England and the English countryside, with rich wood, worn leather, antique brass and crystal decanters.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Stable House is an intimate cocktail house inspired by the great sporting lodges of New England and the English countryside. Rich wood, worn leather, antique brass, and crystal decanters",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mspwi-the-westin-edina-galleria/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel is in suburban Edina, minutes from downtown Minneapolis rather than in it.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "your ideal hotel in Edina, MN. Located near Southdale Center and just minutes from downtown Minneapolis",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mspwi-the-westin-edina-galleria/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes limited outdoor recreational spaces.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

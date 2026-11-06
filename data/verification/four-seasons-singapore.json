@@ -1,0 +1,461 @@
+{
+  "hotel_slug": "four-seasons-singapore",
+  "hotel_name": "Four Seasons Hotel Singapore",
+  "checked_at": "2026-10-07T13:05:11.090Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 6,
+      "total": 24
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://press.fourseasons.com/singapore/hotel-facts/",
+      "tier": "official",
+      "chars": 8169
+    },
+    {
+      "id": "d2",
+      "url": "https://www.fourseasons.com/singapore/",
+      "tier": "official",
+      "chars": 11137
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/singapore/getting-here/",
+      "tier": "official",
+      "chars": 2210
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/singapore/dining/",
+      "tier": "official",
+      "chars": 11072
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/singapore/services-and-amenities/",
+      "tier": "official",
+      "chars": 3520
+    },
+    {
+      "id": "d6",
+      "url": "https://www.fourseasons.com/singapore/spa/",
+      "tier": "official",
+      "chars": 3580
+    },
+    {
+      "id": "d7",
+      "url": "https://www.cntraveler.com/hotels/singapore/four-seasons-hotel-singapore",
+      "tier": "editorial",
+      "chars": 4799
+    },
+    {
+      "id": "d8",
+      "url": "https://www.fourseasons.com/singapore/accommodations/",
+      "tier": "official",
+      "chars": 9854
+    },
+    {
+      "id": "d9",
+      "url": "https://www.fourseasons.com/singapore/contact-us/",
+      "tier": "official",
+      "chars": 1572
+    },
+    {
+      "id": "d10",
+      "url": "https://www.fourseasons.com/singapore/photos-and-videos/",
+      "tier": "official",
+      "chars": 8075
+    },
+    {
+      "id": "d11",
+      "url": "https://www.fourseasons.com/singapore/discover/",
+      "tier": "official",
+      "chars": 4387
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel opened in 1994.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "November 1994",
+          "note": "Opening date stated",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/singapore/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is at 190 Orchard Boulevard in Singapore.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "190 Orchard Boulevard, 248646 Singapore, Singapore",
+          "note": "Address matches",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/singapore/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Orchard MRT station is a three-minute walk from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Orchard Mass Rapid Transit (MRT) service, just a three-minute walk from our Hotel.",
+          "note": "Three-minute walk stated",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/singapore/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Jiang-Nan Chun is a Michelin-recommended Cantonese restaurant at the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Jiang-Nan Chun is our award-winning Cantonese restaurant in Singapore.",
+          "note": "Cantonese restaurant at hotel",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/singapore/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "this Michelin-recommended Chinese restaurant evokes the pastoral charm",
+          "note": "Michelin-recommended",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/singapore/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Nobu Singapore serves Japanese-Peruvian cuisine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d10",
+          "quote": "Japanese-Peruvian Nobu Singapore by celebrity chef and restaurateur Nobu Matsuhisa.",
+          "note": "Nobu Singapore is Japanese-Peruvian",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/singapore/photos-and-videos/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "One-Ninety Restaurant combines Asian and Western cuisine in a botanical-inspired brasserie setting.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "One-Ninety Restaurant combines Asian and Western cuisine in a botanical-inspired brasserie setting.",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/singapore/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The rooftop Family Pool is on the 20th floor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "head to the rooftop Family Pool for panoramic city views and fun in the sun on the 20th floor.",
+          "note": "Rooftop Family Pool on 20th floor",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/singapore/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located on the 20th floor with a panoramic view of the city skyline",
+          "note": "Same",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/singapore/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The third-floor outdoor Lap and Quiet Pool is one of the hotel's two pools.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Enjoy an invigorating swim in our third-floor outdoor Lap and Quiet Pool or head to the rooftop Family Pool",
+          "note": "Two pools described; Lap and Quiet Pool on third floor",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/singapore/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "A third floor pool with an adjacent outdoor whirlpool",
+          "note": "Facts sheet lists only two pools",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/singapore/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The hotel has three outdoor courts for tennis, pickleball and padel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "We offer three outdoor courts for tennis, pickleball and padel in Singapore.",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/singapore/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The Chi Longevity Clinic is a medically licensed clinic at the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "the Chi Longevity Clinic is a medically licensed clinic offering assessments",
+          "note": "Exact match",
+          "confirmed": true,
+          "url": "https://press.fourseasons.com/singapore/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel describes its Deluxe Hypoallergenic Rooms as Singapore's first completely hypoallergenic rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Experience Singapore's first completely hypoallergenic rooms.",
+          "note": "Hotel's own description",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/singapore/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Club Room guests get all-day Executive Club access.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Elevate your Four Seasons experience and enjoy all-day Executive Club access",
+          "note": "Under Club Room",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/singapore/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Condé Nast Traveler says the Peking duck at Jiang Nan Chun isn't to be missed.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "the Peking duck at the award-winning Jiang Nan Chun restaurant isn’t to be missed",
+          "note": "CN Traveler review",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/singapore/four-seasons-hotel-singapore",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Condé Nast Traveler says the rooms start from a sprawling 527 square feet.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "the rooms start from a sprawling 527-square-foot",
+          "note": "CN Traveler review",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/singapore/four-seasons-hotel-singapore",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Spa and Wellness Lunch package includes a 90-minute Peranakan Signature Therapy Massage.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Enjoy a 90-minute Peranakan Signature Therapy Massage, followed by a healthy three-course set lunch",
+          "note": "Package inclusion",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/singapore/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The spa facilities are open from 9:00 am to 9:00 pm.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Spa Facilities9:00 am – 9:00 pm",
+          "note": "Hours match",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/singapore/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Executive Club access in the Premier Suite carries a supplement fee.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Supplement fees will apply for Executive Club access.",
+          "note": "Under Premier Suite",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/singapore/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "Singapore Changi Airport is 30 minutes by car from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Travel Time30 minutes by car",
+          "note": "Changi Airport travel time",
+          "confirmed": true,
+          "url": "https://www.fourseasons.com/singapore/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-4",
+      "text": "WhataHotel notes premium pricing reflects the hotel's luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, breakfast for two is free daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers can be combined with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

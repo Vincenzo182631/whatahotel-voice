@@ -1,0 +1,404 @@
+{
+  "hotel_slug": "omni-nashville-hotel",
+  "hotel_name": "Omni Nashville Hotel",
+  "checked_at": "2026-10-16T00:55:59.693Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.omnihotels.com/hotels/nashville",
+      "tier": "official",
+      "chars": 7117
+    },
+    {
+      "id": "d2",
+      "url": "https://www.cntraveler.com/hotels/nashville/omni-nashville-hotel",
+      "tier": "editorial",
+      "chars": 6165
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Omni Nashville Hotel is in downtown Nashville and is connected to the Country Music Hall of Fame and Museum.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Omni Nashville Hotel is located in downtown Nashville on Fifth Avenue, between Demonbreun and Korean Veterans Boulevard and connected to the Country Music Hall of Fame and Museum.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.omnihotels.com/hotels/nashville",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is near Broadway, with convenient access to Ryman Auditorium, Music City Center, Bridgestone Arena and the Johnny Cash Museum.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "is centrally located near Broadway, and also offers convenient access to Ryman Auditorium, Music City Center, Bridgestone Arena, and the Johnny Cash Museum.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.omnihotels.com/hotels/nashville",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Ryman Auditorium is about half a mile from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Omni Nashville Hotel is near the Ryman Auditorium (0.5 miles from the hotel)",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.omnihotels.com/hotels/nashville",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel is a 21-story building attached to the Music City Center.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Business travelers frequent this 21-story hotel, attached to the Music City Center.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/nashville/omni-nashville-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The hotel has a heated rooftop pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "A heated rooftop pool",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.omnihotels.com/hotels/nashville",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The full-service Mokara Spa offers a full suite of services, in addition to yoga classes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The full-service Mokara Spa is one of the prettiest in Nashville, offering a full suite of services, in addition to yoga classes.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/nashville/omni-nashville-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Rooms use dark colors, bold patterns and luxe materials.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "dark colors, bold patterns, and luxe materials are used throughout.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/nashville/omni-nashville-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Deluxe Rooms have floor-to-ceiling windows with views of downtown Nashville.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "### Deluxe Rooms",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.omnihotels.com/hotels/nashville",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The floor to ceiling windows offer a breathtaking view of downtown Nashville.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.omnihotels.com/hotels/nashville",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Suites have dedicated living spaces and a separate king bedroom.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "boast dedicated living spaces, separate king bedroom and unparalleled comfort.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.omnihotels.com/hotels/nashville",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Kitchen Notes serves traditional southern dishes and home-cooked meals, including a biscuit bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Enjoy traditional southern dishes and authentic home-cooked meals, including our famous biscuit bar at our Nashville, Tennessee hotel.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.omnihotels.com/hotels/nashville",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel is 8 miles, approximately 20 minutes, from Nashville International Airport.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Omni Nashville Hotel is located 8 miles (approximately 20 minutes) from Nashville International Airport (BNA).",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.omnihotels.com/hotels/nashville",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The hotel is pet friendly for pets under 25 pounds, with a one-time non-refundable pet fee.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Omni Nashville Hotel is a pet friendly hotel for pets under 25 pounds. There is a one-time non-refundable pet fee of $125 per reservation.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.omnihotels.com/hotels/nashville",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel is connected to the Country Music Hall of Fame and Museum.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "connected to the Country Music Hall of Fame and Museum",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.omnihotels.com/hotels/nashville",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Johnny Cash Museum Personal Tour is an Omni Signature Experience that starts with breakfast alongside the museum's curator.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "### Johnny Cash Museum Personal Tour",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.omnihotels.com/hotels/nashville",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Omni Signature Experience**",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.omnihotels.com/hotels/nashville",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Step into the world of Johnny Cash with a personal museum tour, starting with breakfast alongside the museum's curator.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.omnihotels.com/hotels/nashville",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The heated rooftop pool is only available to Omni guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "A heated rooftop pool",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.omnihotels.com/hotels/nashville",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The rooftop pool, only available to Omni guests, is worth a visit",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/nashville/omni-nashville-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Suites have soaking tubs overlooking the city.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "suites have soaking tubs overlooking the city.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/nashville/omni-nashville-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Premier rooms or suites on floors 14 and above have views of downtown and the city skyline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Book a premier room or suite on floors 14 and above for superb views of downtown and the city skyline.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/nashville/omni-nashville-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel is attached to the Music City Center and is popular with convention and trade show attendees.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The hotel is attached to the 2.1-million-square-foot Music City Center, making it one of the most desirable spots for convention and trade show attendees.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/nashville/omni-nashville-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Self-parking and valet parking are available with a nightly charge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Self-parking and valet parking with a nightly charge",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.omnihotels.com/hotels/nashville",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes a busy downtown location with urban noise levels.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

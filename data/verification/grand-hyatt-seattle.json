@@ -1,0 +1,426 @@
+{
+  "hotel_slug": "grand-hyatt-seattle",
+  "hotel_name": "Grand Hyatt Seattle",
+  "checked_at": "2026-10-29T03:44:15.346Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/seagh-grand-hyatt-seattle",
+      "tier": "official",
+      "chars": 17524
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/seagh-grand-hyatt-seattle/rooms/",
+      "tier": "official",
+      "chars": 10998
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/seagh-grand-hyatt-seattle/dining/",
+      "tier": "official",
+      "chars": 8880
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/seagh-grand-hyatt-seattle/policies/",
+      "tier": "official",
+      "chars": 9311
+    },
+    {
+      "id": "d5",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/seagh-grand-hyatt-seattle/parking-and-transportation/",
+      "tier": "official",
+      "chars": 4843
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/seagh-grand-hyatt-seattle/reviews/",
+      "tier": "official",
+      "chars": 25233
+    },
+    {
+      "id": "d7",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/seagh-grand-hyatt-seattle/hotel-info/",
+      "tier": "official",
+      "chars": 3694
+    },
+    {
+      "id": "d8",
+      "url": "https://www.cntraveler.com/hotels/seattle/grand-hyatt-seattle",
+      "tier": "editorial",
+      "chars": 3415
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is in the heart of downtown Seattle on Pine Street.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Nestled in the heart of downtown Seattle on Pine Street, our luxury hotel offers effortless access to the city's most iconic landmarks",
+          "note": "The official page states the hotel is in the heart of downtown Seattle on Pine Street.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/seagh-grand-hyatt-seattle",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel offers easy access to Pike Place Market and the historic Paramount Theatre.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "our luxury hotel offers effortless access to the city's most iconic landmarks, from the timeless charm of Pike Place Market to the historic Paramount Theatre",
+          "note": "Both landmarks are named as offering effortless access.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/seagh-grand-hyatt-seattle",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel is a mile from the Space Needle, reachable on foot or by monorail.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Just a mile from the Space Needle, guests can take a scenic stroll or ride the monorail to explore the city's vibrant energy.",
+          "note": "Covers the one-mile distance and both the walking and monorail options.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/seagh-grand-hyatt-seattle",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The Westlake Center light rail station is 1.5 blocks from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "SeaTac Airport to Westlake Center (1.5 blocks from Grand Hyatt Seattle) takes 38 minutes.",
+          "note": "Westlake Center light rail is stated to be 1.5 blocks from the hotel.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/seagh-grand-hyatt-seattle/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Grand Hyatt Seattle is located 1.5 blocks from the Light Rail station.",
+          "note": "Confirms the 1.5-block distance to the light rail station at Westlake Center.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/seagh-grand-hyatt-seattle/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Rooms and suites feature stone entryways, rich wood details and Venetian plaster walls.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "our luxury hotel rooms and decadent suites feature stone entryways, rich wood details and Venetian plaster walls that surround you with elegance",
+          "note": "All three features are listed for rooms and suites.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/seagh-grand-hyatt-seattle/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Rooms have remote-controlled floor-to-ceiling blackout curtains.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "then open your remote-controlled floor-to-ceiling blackout curtains and behold stunning views of downtown Seattle and Puget Sound",
+          "note": "Remote-controlled floor-to-ceiling blackout curtains are stated.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/seagh-grand-hyatt-seattle/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Corner Deluxe Fitness Equipped room has its own fitness area with a Peloton bike, free weights and a yoga mat.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "A fitness area includes a Peloton bike, free weights and a yoga mat.",
+          "note": "This appears in the 1 King Bed Corner Deluxe Fitness Equipped room description.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/seagh-grand-hyatt-seattle/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Grand Club Lounge serves a daily hot breakfast plus refreshments and snacks all day.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Enjoy a daily hot breakfast and an array of refreshments and snacks all day.",
+          "note": "This appears in the Grand Club Lounge description.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/seagh-grand-hyatt-seattle/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The fitness center has Peloton bikes, strength training equipment and free weights.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Hop on a Peloton bike or get pumped on advanced strength training equipment and free weights.",
+          "note": "This appears in the Fitness Center description.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/seagh-grand-hyatt-seattle",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The Elliott Bar is a Champagne bar serving Champagne cocktails and premium Champagnes and spirits.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Welcome to The Elliott Bar, a must-visit Champagne bar in downtown Seattle.",
+          "note": "Identifies the Elliott Bar as a Champagne bar.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/seagh-grand-hyatt-seattle/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "our expertly crafted Champagne cocktails and curated selection of premium Champagnes and spirits set the stage for an unforgettable evening",
+          "note": "Covers the Champagne cocktails, premium Champagnes and spirits.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/seagh-grand-hyatt-seattle/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Qiao Lin Hotpot, off the lobby, offers Chongqing hotpot.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Located off the Grand Hyatt Seattle lobby, Qiao Lin Hotpot offers an authentic Chongqing Hotpot experience",
+          "note": "Confirms both the location off the lobby and the Chongqing hotpot.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/seagh-grand-hyatt-seattle/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Dogs are welcome, and housekeeping delivers a dog bed and water bowls.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "We are delighted to welcome your canine companions at our pet-friendly downtown Seattle hotel!",
+          "note": "Dogs are welcome.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/seagh-grand-hyatt-seattle/policies/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Our housekeeping staff will deliver a dog bed and water bowls.",
+          "note": "Housekeeping delivers a dog bed and water bowls.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/seagh-grand-hyatt-seattle/policies/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Bay View rooms are on or above the 22nd floor and look out over Elliott Bay.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Delight in sweeping views of Elliott Bay from a lofty hotel room on or above our 22nd floor.",
+          "note": "This appears in the 1 King Bed Bay View description.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/seagh-grand-hyatt-seattle/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Bathrooms have Carrara marble accents and deep soaking tubs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Get ready in bathrooms with Carrera marble accents and deep soaking tubs",
+          "note": "The page spells it 'Carrera'; it refers to the same marble accents and deep soaking tubs.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/seagh-grand-hyatt-seattle/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "deep-soaking hot tubs in Carrara marble bathrooms",
+          "note": "Corroborates Carrara marble bathrooms with deep soaking tubs.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/seagh-grand-hyatt-seattle",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Club Access rooms include entry to the Grand Club Lounge on the 27th floor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Elevate your stay by opting for a Club Access room, granting you entry to our secluded lounge on the 27th floor.",
+          "note": "Club Access rooms grant entry to the 27th-floor lounge.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/seagh-grand-hyatt-seattle/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "enjoy access to our 27th-floor Grand Club Lounge, including daily breakfast & more",
+          "note": "Names the lounge as the Grand Club Lounge on the 27th floor.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/seagh-grand-hyatt-seattle/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The fitness center has a steam room, sauna and jetted tub.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Purify your body and mind in the steam room, sauna or jetted tub, all accessible daily from 6 a.m.–midnight.",
+          "note": "This appears in the Fitness Center description.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/seagh-grand-hyatt-seattle",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Rooms and suites have views of downtown Seattle and Elliott Bay.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "unwind in elegantly appointed rooms and suites, where sweeping views of downtown Seattle and Elliott Bay set the scene for relaxation",
+          "note": "Rooms and suites have views of downtown Seattle and Elliott Bay.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/seagh-grand-hyatt-seattle",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The Elaia Spa is not in the hotel itself; it is across the street at Hyatt at Olive 8.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The eco-friendly Elaia Spa, located across the street at “Hyatt at Olive8,”",
+          "note": "The spa is located across the street at Hyatt at Olive 8, not in the hotel itself.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/seagh-grand-hyatt-seattle",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The hotel is cash-free and does not accept cash as payment.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Grand Hyatt Seattle is a cash-free environment and is no longer exchanging or accepting cash as a payment.",
+          "note": "The hotel is cash-free and does not accept cash.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/seagh-grand-hyatt-seattle/policies/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes a busy urban setting with typical city noise levels.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-import { readdirSync, readFileSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync } from "node:fs";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
 import { validateProfile } from "../src/core/profile.js";
@@ -42,12 +42,15 @@ describe("pronunciation respellings", () => {
 });
 
 describe("signature perks", () => {
-  it("every hotel profile carries all the perk claims the closing line states", async () => {
+  it("every hotel profile carries the perk claims its closing states, or has a verified closing built from offers.json", async () => {
     const { PERKS_SIGNATURE_CLAIMS } = await import("../src/script/rules.js");
     for (const file of readdirSync("data/hotels").filter((f) => f.endsWith(".json"))) {
       const profile = JSON.parse(readFileSync(path.join("data/hotels", file), "utf8"));
       const ids = new Set((profile.perks as Array<{ id: string }>).map((c) => c.id));
-      for (const id of PERKS_SIGNATURE_CLAIMS) expect(ids.has(id), `${profile.slug} is missing perk ${id}`).toBe(true);
+      const offersFile = path.join("data/research", profile.slug, "offers.json");
+      const verified = existsSync(offersFile) && !!JSON.parse(readFileSync(offersFile, "utf8")).closing;
+      if (verified) continue;
+      for (const id of PERKS_SIGNATURE_CLAIMS) expect(ids.has(id), `${profile.slug} is missing perk ${id} and has no verified closing (run hotel:offers)`).toBe(true);
     }
   });
 });

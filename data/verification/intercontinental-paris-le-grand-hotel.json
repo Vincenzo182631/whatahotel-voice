@@ -1,0 +1,445 @@
+{
+  "hotel_slug": "intercontinental-paris-le-grand-hotel",
+  "hotel_name": "InterContinental Paris Le Grand Hotel",
+  "checked_at": "2026-10-30T06:33:05.680Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/paris/parhb/hoteldetail",
+      "tier": "official",
+      "chars": 9680
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/paris/parhb/hoteldetail/rooms/",
+      "tier": "official",
+      "chars": 4144
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/paris/parhb/hoteldetail/dining/",
+      "tier": "official",
+      "chars": 3745
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/paris/parhb/hoteldetail/amenities/",
+      "tier": "official",
+      "chars": 5790
+    },
+    {
+      "id": "d5",
+      "url": "https://www.cntraveler.com/hotels/paris/intercontinental-paris-le-grand",
+      "tier": "editorial",
+      "chars": 10539
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/paris/parhb/hoteldetail/directions/",
+      "tier": "official",
+      "chars": 2730
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/paris/parhb/hoteldetail/",
+      "tier": "official",
+      "chars": 9680
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/paris/parhb/hoteldetail/hotel-reviews/",
+      "tier": "official",
+      "chars": 15899
+    },
+    {
+      "id": "d9",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/paris/parhb/hoteldetail/local-area-guide/",
+      "tier": "official",
+      "chars": 5595
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel was inaugurated under Napoleon III.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Inaugurated under Napoleon III, the InterContinental Paris le Grand is a landmark of Parisian luxury",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/paris/parhb/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel opened in 1862 with a gala event hosted by Empress Eugenie.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "the doors officially opened in 1862 with a gala event hosted by Empress Eugénie",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/intercontinental-paris-le-grand",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Rooms and suites are decorated in a Second Empire style with contemporary touches.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "458 rooms and suites decorated in a Second Empire style infused with contemporary touches",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/paris/parhb/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Classic Rooms are decorated in rich colours in the Napoleon III style, with street or courtyard views and marble bathrooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Decorated in rich colours in the Napoleon III style, our Classic Room offer lovely street or courtyard views, marble bathrooms",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/paris/parhb/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Some rooms have a private balcony with views over the Parisian rooftops.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Some Room feature a private balcony with enchanting views over Parisian rooftops",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/paris/parhb/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "All rooms feature Byredo amenities and complimentary tea and coffee.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "All rooms feature Byredo amenities, complimentary tea and coffee, and a well-stocked mini bar.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/intercontinental-paris-le-grand",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Cafe de la Paix, led by Chef Laurent Andre, has been a symbol of Parisian life since 1862 and overlooks the Opera Garnier.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "has been a symbol of Parisian life since 1862. Today, this elegant restaurant led by Chef Laurent André celebrates the great classics of French gastronomy, offering an exceptional dining experience overlooking the Opera Garnier.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/paris/parhb/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The original Dry Martini was created at the hotel in 1904 by head bartender Franck Newman.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "which was created here in 1904 by head bartender Franck Newman",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/intercontinental-paris-le-grand",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The Club Lounge is open daily and serves breakfast, afternoon tea and an evening reception with canapes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Open daily, it serves breakfast, afternoon tea and an evening reception with a selection of refined canapés",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/paris/parhb/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The department stores Galeries Lafayette and Printemps are a block away.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "the city’s historic department stores—Galeries Lafayette and Printemps—sit a block away",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/intercontinental-paris-le-grand",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The Palais Royal Gardens and the Louvre are about a 15-minute walk away.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "the Palais Royal Gardens and the Louvre are an easy 15-minute walk in the other direction",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/intercontinental-paris-le-grand",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "A portrait of Sarah Bernhardt still graces the reception area.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Sarah Bernhardt– whose portrait still graces the reception area",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/intercontinental-paris-le-grand",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel is located directly opposite the Opera Garnier.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "ideally located opposite the Opera Garnier",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/paris/parhb/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "directly facing the Palais Garnier",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/intercontinental-paris-le-grand",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The five Signature Suites, designed by Pierre-Yves Rochon, have panoramic views over the rooftops of the Opera Garnier or the Eiffel Tower.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The five Signature Suites offer a refined vision of luxury, comfort and Parisian living. Designed by Pierre-Yves Rochon",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/paris/parhb/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "feature panoramic views over the rooftops of the Opera Garnier or the Eiffel Tower",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/paris/parhb/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The listed Opera ballroom, the Salon Opera, has a 14-meter-high dome with gilding, arcades, caryatids and candelabras.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "unique reception venues such as the listed Opera ballroom",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/paris/parhb/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The grand ballroom, now called the Salon Opéra",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/intercontinental-paris-le-grand",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "With its 14-meter-high dome, remarkable gilding, arcades, caryatids and candelabras",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/intercontinental-paris-le-grand",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "La Verriere is an 800-square-meter winter garden beneath a glass and metal atrium, for coffee, light dining or an aperitif.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "La Verrière is a refined 800 sqm winter garden, bathed in natural light beneath an impressive glass and metal atrium. A serene retreat in the heart of Paris, it is ideal for coffee, light dining or an aperitif.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/paris/parhb/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Algotherm Dermo Ocean Spa has the atmosphere of a Parisian apartment, with four single treatment rooms and one double suite.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The Spa offers a refined wellness experience in the elegant atmosphere of a Parisian apartment. Featuring four single treatment rooms and one double suite",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/paris/parhb/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel does not have a pool, and the fitness room is small.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "No, InterContinental Paris - Le Grand does not have a pool.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/paris/parhb/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "There is also a small fitness room with state-of-the-art machines, but no pool.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/intercontinental-paris-le-grand",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes a busy central location with high foot traffic.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing that reflects the hotel's luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

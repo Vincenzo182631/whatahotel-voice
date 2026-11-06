@@ -1,0 +1,379 @@
+{
+  "hotel_slug": "ritz-carlton-denver",
+  "hotel_name": "The Ritz-Carlton, Denver",
+  "checked_at": "2026-10-09T06:06:52.072Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 16,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 17
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ritzcarlton.com/en/hotels/denrz-the-ritz-carlton-denver/overview/",
+      "tier": "official",
+      "chars": 14963
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ritzcarlton.com/en/hotels/denrz-the-ritz-carlton-denver/rooms/",
+      "tier": "official",
+      "chars": 6233
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ritzcarlton.com/en/hotels/denrz-the-ritz-carlton-denver/dining/",
+      "tier": "official",
+      "chars": 5929
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ritzcarlton.com/en/hotels/denrz-the-ritz-carlton-denver/spa/",
+      "tier": "official",
+      "chars": 10941
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ritzcarlton.com/en/hotels/denrz-the-ritz-carlton-denver/club/",
+      "tier": "official",
+      "chars": 4510
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ritzcarlton.com/en/hotels/denrz-the-ritz-carlton-denver/experiences/",
+      "tier": "official",
+      "chars": 15648
+    },
+    {
+      "id": "d7",
+      "url": "https://www.cntraveler.com/hotels/united-states/united-states/denver/ritz-carlton-denver",
+      "tier": "editorial",
+      "chars": 5876
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ritzcarlton.com/en/hotels/denrz-the-ritz-carlton-denver/reviews/",
+      "tier": "official",
+      "chars": 736
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is near the Denver Convention Center.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "conveniently located near the Denver Convention Center",
+          "note": "Page says near the Denver Convention Center.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/denrz-the-ritz-carlton-denver/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is located just blocks away from Coors Field, Empower Field and Ball Arena.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Located just blocks away from the iconic Coors Field, Empower Field, and Ball Arena",
+          "note": "All three venues named, just blocks away.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/denrz-the-ritz-carlton-denver/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "ELWAY'S Downtown is an upscale steakhouse in the hotel lobby serving breakfast, lunch and dinner.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Upscale steakhouse in the hotel lobby in downtown Denver, serving breakfast, lunch, and dinner.",
+          "note": "Matches all elements.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/denrz-the-ritz-carlton-denver/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "ELWAY'S Downtown serves USDA prime steaks butchered in-house.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Savor the finest USDA prime steaks, expertly butchered in-house",
+          "note": "USDA prime steaks butchered in-house at ELWAY'S Downtown.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/denrz-the-ritz-carlton-denver/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "First Light at Elway's is a morning offering, designed as an extension of Elway's Downtown.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Designed as an extension of Elway",
+          "note": "Page calls it a morning offering designed as an extension of Elway's Downtown.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/denrz-the-ritz-carlton-denver/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "this morning offering brings gourmet dining to downtown Denver",
+          "note": "Morning offering.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/denrz-the-ritz-carlton-denver/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Guest rooms have 400-thread-count Frette linens, robes and five-fixture bathrooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Each of the guestrooms has plush 400-thread-count Frette linens & robes with five-fixture bathrooms",
+          "note": "Exact match.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/denrz-the-ritz-carlton-denver/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Club Lounge offers five daily culinary presentations and an open bar available throughout the day.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "the Club Lounge redefines indulgence with five daily culinary presentations and an open bar available throughout the day",
+          "note": "Exact match.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/denrz-the-ritz-carlton-denver/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel's spa is 6,000 square feet.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "with a 6,000 sq. ft. spa",
+          "note": "Spa is 6,000 sq. ft.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/denrz-the-ritz-carlton-denver/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The spa has relaxation lounges, steam rooms and whirlpools.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "plus relaxation lounges, steam rooms, and whirlpools",
+          "note": "All three listed.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/denrz-the-ritz-carlton-denver/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Condé Nast Traveler describes a lobby with dark woods, flower centerpieces and a glass chandelier.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Dark woods, elaborate flower centerpieces, and a gorgeous glass chandelier greet you in the lobby",
+          "note": "Condé Nast Traveler describes this lobby.",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/united-states/denver/ritz-carlton-denver",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Mile High Old Fashioned is a guided Colorado whiskey tasting and hands-on cocktail experience.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Discover the craft and character of Colorado whiskey through a guided tasting and hands-on cocktail experience",
+          "note": "Matches.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/denrz-the-ritz-carlton-denver/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The spa's signature treatments include a craft-beer body ritual and an oxygen-infused facial designed for high-altitude dehydration.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "a body ritual that harnesses the benefits of craft beer to tighten and hydrate your skin, or an oxygen-infused facial designed to combat the effects of high-altitude dehydration",
+          "note": "Both signature treatments described.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/denrz-the-ritz-carlton-denver/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Presidential Suite is on the 14th floor and offers city and mountain views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Indulge in our Presidential Suite on the 14th floor, offering sweeping city and mountain vistas.",
+          "note": "14th floor, city and mountain views.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/denrz-the-ritz-carlton-denver/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Leo the Lion Safari Adventure for kids ages 1 to 7 features a themed tent and take-home goodies.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Leo the Lion Safari Adventure, featuring a themed tent, take-home goodies, and fun add-ons for kids ages 1–7!",
+          "note": "Matches.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/denrz-the-ritz-carlton-denver/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Denver International Airport is 26.0 miles from the hotel, and the hotel does not provide airport shuttle service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Denver International Airport",
+          "note": "Airport listed with distance below.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/denrz-the-ritz-carlton-denver/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Distance from Property: 26.0 Miles",
+          "note": "26.0 miles for DEN entry.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/denrz-the-ritz-carlton-denver/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "This hotel does not provide shuttle service.",
+          "note": "No shuttle service stated for the airport entry.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/denrz-the-ritz-carlton-denver/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Club Lounge access requires an upgraded Club booking, and Marriott Bonvoy Elite Status does not provide complimentary access.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "*Club access requires an upgraded booking at the Club. Marriott Bonvoy Elite Status does not provide complimentary access to Club.",
+          "note": "Exact match.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/denrz-the-ritz-carlton-denver/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the urban setting may lack resort-style outdoor space.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

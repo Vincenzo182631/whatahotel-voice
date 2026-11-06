@@ -1,0 +1,381 @@
+{
+  "hotel_slug": "intercontinental-minneapolis-st-paul-airport",
+  "hotel_name": "InterContinental Minneapolis – St Paul Airport",
+  "checked_at": "2026-10-30T07:29:18.145Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 18
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/minneapolis/mspha/hoteldetail",
+      "tier": "official",
+      "chars": 10840
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/minneapolis/mspha/hoteldetail/amenities/",
+      "tier": "official",
+      "chars": 5638
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/minneapolis/mspha/hoteldetail/rooms/",
+      "tier": "official",
+      "chars": 3417
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/minneapolis/mspha/hoteldetail/dining/",
+      "tier": "official",
+      "chars": 4299
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/minneapolis/mspha/hoteldetail/directions/",
+      "tier": "official",
+      "chars": 3303
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/minneapolis/mspha/hoteldetail/",
+      "tier": "official",
+      "chars": 10840
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/minneapolis/mspha/hoteldetail/hotel-reviews/",
+      "tier": "official",
+      "chars": 21267
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/minneapolis/mspha/hoteldetail/local-area-guide/",
+      "tier": "official",
+      "chars": 2920
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The MetroTransit Light Rail Blue Line serves the hotel as public transportation.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "MetroTransit Light Rail Blue Line",
+          "note": "listed under Public transportation",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/minneapolis/mspha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Rooms offer a separate work area with an executive desk, a spa-inspired shower and luxury linens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Spacious rooms offer separate work area with executive desk, a spa-inspired shower with elevated amenities, and luxury linens.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/minneapolis/mspha/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Wingspan Suite may include skyline and runway views and a separate bath and walk-in shower.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Wingspan Suite may include:\n\n- Skyline View, Runway View\n- Separate Bath and Walk-in Shower",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/minneapolis/mspha/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The penthouse-level Altitude event space offers views of the Twin Cities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "the penthouse-level Altitude offers striking views of the Twin Cities",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/minneapolis/mspha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Passport Ballroom has vast ceiling heights and crystal teardrop chandeliers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Passport Ballroom is the perfect backdrop to make life-long memories with vast ceiling heights and crystal teardrop chandeliers",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/minneapolis/mspha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Mall of America is about 6 miles from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Mall of America - 6 miles away (9.66 kilometers)",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/minneapolis/mspha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The hotel has a 24-hour business center.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "24 hour business center",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/minneapolis/mspha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Self parking is in the parking ramp adjacent to the hotel, and valet parking is at the main entrance.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Valet parking is available at the main entrance and self parking is available in the parking ramp adjacent to the hotel.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/minneapolis/mspha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Pets are welcome, limited to dogs and cats.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Pets are welcome at InterContinental Minneapolis - St. Paul Airport.",
+          "note": "pets welcome",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/minneapolis/mspha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Pets allowed: Only dogs and cats allowed",
+          "note": "dogs and cats only",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/minneapolis/mspha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Bradstreet Craftshouse is a gaming hall with gastropub favorites, crafted cocktails, a wide beer selection and interactive entertainment.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "A revelry forward gaming hall featuring gastropub favorites, expertly crafted cocktails, a wide beer selection, and interactive entertainment",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/minneapolis/mspha/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel offers direct access to Terminal 1.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Enjoy direct access to Terminal 1",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/minneapolis/mspha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The hotel has an on-site TSA checkpoint.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our on-site TSA checkpoint",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/minneapolis/mspha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The penthouse-level event space offers a 180-degree panorama of the Minnesota River Valley with views of both the Minneapolis and St. Paul skylines.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The penthouse-level Attitude offers a 180-degree panorama view of the Minnesota River Valley bookend by dramatic sights of both Minneapolis and St. Paul skylines.",
+          "note": "stated (page spells it Attitude here, Altitude elsewhere; claim does not name it)",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/minneapolis/mspha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Premium Rooms may include a runway view from two windows.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Premium Rooms may include:\n\n- Runway View from 2 Windows",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/minneapolis/mspha/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "La Voya Brasserie serves traditional French dishes infused with Minnesotan influences.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Featuring traditional French dishes infused with Minnesotan influences, La Voya delights",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/minneapolis/mspha/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel does not have a pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "No, InterContinental Minneapolis - St. Paul Airport does not have a pool.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/minneapolis/mspha/hoteldetail",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The minimum check-in age is 18.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Minimum check-in age:** 18",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/minneapolis/mspha/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes potential aircraft noise due to the hotel's proximity to runways.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

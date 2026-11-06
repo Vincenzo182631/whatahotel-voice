@@ -1,0 +1,400 @@
+{
+  "hotel_slug": "the-joseph-nashville",
+  "hotel_name": "The Joseph Nashville",
+  "checked_at": "2026-10-24T05:58:20.814Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/bnalj-the-joseph-a-luxury-collection-hotel-nashville/overview/",
+      "tier": "official",
+      "chars": 17081
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/bnalj-the-joseph-a-luxury-collection-hotel-nashville/rooms/",
+      "tier": "official",
+      "chars": 11304
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/bnalj-the-joseph-a-luxury-collection-hotel-nashville/dining/",
+      "tier": "official",
+      "chars": 10243
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/bnalj-the-joseph-a-luxury-collection-hotel-nashville/spa/",
+      "tier": "official",
+      "chars": 9326
+    },
+    {
+      "id": "d5",
+      "url": "https://www.marriott.com/en-us/hotels/bnalj-the-joseph-a-luxury-collection-hotel-nashville/experiences/",
+      "tier": "official",
+      "chars": 18562
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The Joseph is at 401 Korean Veterans Boulevard in downtown Nashville.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "401 Korean Veterans Boulevard, Nashville, Tennessee, USA, 37203",
+          "note": "page states the claim",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bnalj-the-joseph-a-luxury-collection-hotel-nashville/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Maintain your wellness routine at our luxury hotel in downtown Nashville.",
+          "note": "page states the claim",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bnalj-the-joseph-a-luxury-collection-hotel-nashville/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Broadway's live music venues are a two-block walk from the hotel, and the Grand Ole Opry is a short drive.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "For live performances, walk two blocks to Broadway or take a short drive to the Grand Ole Opry",
+          "note": "page states the claim",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bnalj-the-joseph-a-luxury-collection-hotel-nashville/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel's developers, the Pizzuti family, are art collectors who share their collection at The Joseph.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "World-known art collectors and The Joseph's developers, the Pizzuti family shares their incomparable collection with audiences around the globe and now here, in Nashville.",
+          "note": "page states the claim",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bnalj-the-joseph-a-luxury-collection-hotel-nashville/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Each room has at least one print from the Joseph Editions' Tennessee Portfolio, featuring artists with a connection to the state.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Each room has at least one print from the Joseph Editions' Tennessee Portfolio, featuring artists with a connection to the state.",
+          "note": "page states the claim",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bnalj-the-joseph-a-luxury-collection-hotel-nashville/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Rooms and suites use a design palette of copper, oak, warm marble and brown leather, with marble bathrooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "palette of copper, oak, warm marble and brown leather",
+          "note": "page states the claim",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bnalj-the-joseph-a-luxury-collection-hotel-nashville/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "relaxing in the marble bathrooms",
+          "note": "page states the claim",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bnalj-the-joseph-a-luxury-collection-hotel-nashville/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Room pillows feature chain stitch embroidery in the style of Nudie Suits.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "pillows feature the intricate chain stitch embroidery of the famed Nudie Suits",
+          "note": "page states the claim",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bnalj-the-joseph-a-luxury-collection-hotel-nashville/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Suites have a curated selection of vinyl albums to play on Audio-Technica turntables with Bose speakers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "a curated selection of vinyl albums to play on Audio-Technica turntables with Bose speakers",
+          "note": "page states the claim",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bnalj-the-joseph-a-luxury-collection-hotel-nashville/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The rooftop pool has lounge seating and luxury cabanas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "creates an unpretentious and comfortable vibe with lounge seating and luxury cabanas",
+          "note": "page states the claim",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bnalj-the-joseph-a-luxury-collection-hotel-nashville/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Rose spa has deluxe steam rooms, Experience Showers and a co-ed Relaxation Lounge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Your journey may begin or end in the deluxe steam rooms, Nashville’s only Experience Showers, or the co-ed Relaxation Lounge.",
+          "note": "page states the claim",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bnalj-the-joseph-a-luxury-collection-hotel-nashville/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The Fitness Studio is exclusively for hotel guests and has Peloton bikes and weight training equipment.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Exclusively for guests at our hotel near Bridgestone Arena",
+          "note": "page states the claim",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bnalj-the-joseph-a-luxury-collection-hotel-nashville/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "State-of-the-art cardio equipment, Peloton bikes and weight training equipment",
+          "note": "page states the claim",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bnalj-the-joseph-a-luxury-collection-hotel-nashville/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Denim is a poolside rooftop bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Denim is a poolside rooftop bar in Nashville, TN",
+          "note": "page states the claim",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bnalj-the-joseph-a-luxury-collection-hotel-nashville/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel displays more than 1,100 pieces of rare art.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "more than 1,100 pieces of rare art",
+          "note": "page states the claim",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bnalj-the-joseph-a-luxury-collection-hotel-nashville/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The rooftop pool is an Italian-made saltwater pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "our Italian-made, saltwater pool",
+          "note": "page states the claim",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bnalj-the-joseph-a-luxury-collection-hotel-nashville/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Rose, the hotel's spa and salon, sits 21 floors above the city streets.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Nestled 21 floors above the bustling city streets, Rose is a luxury spa in downtown Nashville.",
+          "note": "page states the claim",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bnalj-the-joseph-a-luxury-collection-hotel-nashville/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Presidential Suite has an Italian marble bar and a fully restored 1920s-era Steinway Salon Grand piano.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "an Italian marble bar, and a fully restored 1920s-era Steinway Salon Grand piano",
+          "note": "page states the claim",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bnalj-the-joseph-a-luxury-collection-hotel-nashville/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The 8th-floor gallery shows photographs from Alec Soth's Songbook series and has a terrace overlooking the city.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Visit the 8th floor gallery featuring photographs from Alec Soth’s “Songbook” series, then take in the fresh air from the terrace overlooking the city below.",
+          "note": "page states the claim",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bnalj-the-joseph-a-luxury-collection-hotel-nashville/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The minimum age to check in is 21.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Minimum Age to Check In: 21",
+          "note": "page states the claim",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bnalj-the-joseph-a-luxury-collection-hotel-nashville/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Advance spa reservations are highly recommended, and appointments within 4-6 weeks are limited.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "are highly recommended to ensure your preferred service, date, and time are available. Appointments within 4-6 weeks are limited.",
+          "note": "page states the claim",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bnalj-the-joseph-a-luxury-collection-hotel-nashville/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes potential street noise from the downtown setting.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

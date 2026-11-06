@@ -1,0 +1,393 @@
+{
+  "hotel_slug": "villa-igiea-a-rocco-forte-hotel",
+  "hotel_name": "Villa Igiea, a Rocco Forte Hotel",
+  "checked_at": "2026-10-14T04:39:25.637Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.roccofortehotels.com/hotels-and-resorts/villa-igiea/",
+      "tier": "official",
+      "chars": 8928
+    },
+    {
+      "id": "d2",
+      "url": "https://www.roccofortehotels.com/hotels-and-resorts/villa-igiea/accommodation/",
+      "tier": "official",
+      "chars": 10429
+    },
+    {
+      "id": "d3",
+      "url": "https://www.roccofortehotels.com/hotels-and-resorts/villa-igiea/dining/florio-restaurant/",
+      "tier": "official",
+      "chars": 6590
+    },
+    {
+      "id": "d4",
+      "url": "https://www.roccofortehotels.com/hotels-and-resorts/villa-igiea/dining/alicetta/",
+      "tier": "official",
+      "chars": 6953
+    },
+    {
+      "id": "d5",
+      "url": "https://www.roccofortehotels.com/hotels-and-resorts/villa-igiea/dining/igiea-terrazza-bar/",
+      "tier": "official",
+      "chars": 6934
+    },
+    {
+      "id": "d6",
+      "url": "https://www.roccofortehotels.com/hotels-and-resorts/villa-igiea/experiences-activities/",
+      "tier": "official",
+      "chars": 14958
+    },
+    {
+      "id": "d7",
+      "url": "https://www.cntraveler.com/hotels/palermo/villa-igiea-a-rocco-forte-hotel",
+      "tier": "editorial",
+      "chars": 8441
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Villa Igiea was built in 1900, at the height of the Belle Epoque.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Built in 1900 at the height of the Belle Époque",
+          "note": "built 1900 at height of Belle Epoque",
+          "confirmed": true,
+          "url": "https://www.roccofortehotels.com/hotels-and-resorts/villa-igiea/dining/florio-restaurant/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The Florio family turned Villa Igiea from a private palazzo into a hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Villa Igiea was transformed by the Florio family from a private palazzo into one of Sicily’s most refined hotels",
+          "note": "Florio family transformed palazzo into hotel",
+          "confirmed": true,
+          "url": "https://www.roccofortehotels.com/hotels-and-resorts/villa-igiea/dining/florio-restaurant/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The palazzo sits at the edge of Palermo, at the foot of Mount Pellegrino on the Gulf of Palermo.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "a turn-of-the-century palazzo at the perimeter of vivid Palermo, the foot of Mount Pellegrino and the Gulf of Palermo",
+          "note": "location stated",
+          "confirmed": true,
+          "url": "https://www.roccofortehotels.com/hotels-and-resorts/villa-igiea/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The Florio Restaurant menu is designed by Chef Fulvio Pierangelini.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Designed by Chef Fulvio Pierangelini, the menu reflects a philosophy of simplicity, generosity and ultimate quality",
+          "note": "menu designed by Pierangelini",
+          "confirmed": true,
+          "url": "https://www.roccofortehotels.com/hotels-and-resorts/villa-igiea/dining/florio-restaurant/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Alicetta is a bistro on terraces between the garden and the sea.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Perched on terraces that float between the magnificent garden and the sea, Alicetta offers an enchanting view and it becomes a bona fide bistro.",
+          "note": "bistro on terraces between garden and sea",
+          "confirmed": true,
+          "url": "https://www.roccofortehotels.com/hotels-and-resorts/villa-igiea/dining/alicetta/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Aperitivo hour at the bar takes place in the villa's sandstone vaults, with a wide selection of Florio liqueurs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Discover the true meaning of aperitivo hour in Villa Igiea’s elegant sandstone vaults, and uncover the widest selection of Florio liqueurs.",
+          "note": "under Igiea Terrazza Bar heading",
+          "confirmed": true,
+          "url": "https://www.roccofortehotels.com/hotels-and-resorts/villa-igiea/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Donna Franca Suite has a separate living room and a sea-view terrace with lounges and sunbeds.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "with a separate living room and the added luxury of a breezy sea-view terrace, outfitted with lounges and sunbeds",
+          "note": "Donna Franca Suite description",
+          "confirmed": true,
+          "url": "https://www.roccofortehotels.com/hotels-and-resorts/villa-igiea/accommodation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Rocco Forte took over Villa Igiea in 2019.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "The hotelier took it over in 2019",
+          "note": "Rocco Forte took over in 2019",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/palermo/villa-igiea-a-rocco-forte-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The rooms reflect the design of Olga Polizzi, Rocco Forte's sister.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "The rooms are where you will feel the modern touch of Olga Polizzi, Rocco’s sister",
+          "note": "Olga Polizzi design",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/palermo/villa-igiea-a-rocco-forte-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The Irene Forte spa uses Irene Forte skincare, made with botanicals from the Verdura Resort farm.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "The Irene Forte spa features the eponymous skincare line that Irene, one of Rocco’s two daughters, has created using botanicals from the family’s Verdura Resort’s farm",
+          "note": "spa and skincare",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/palermo/villa-igiea-a-rocco-forte-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel has a pool and tennis courts.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "With its pool and tennis courts, this place is comfortable for families.",
+          "note": "pool and tennis courts",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/palermo/villa-igiea-a-rocco-forte-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The hotel offers boat trips along the Mondello coast that include the Capo Gallo Nature Reserve.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Enjoy a relaxing boat trip along Mondello’s stunning coast. Swim in turquoise waters, explore hidden coves, and discover Capo Gallo Nature Reserve.",
+          "note": "Villa Boats experience",
+          "confirmed": true,
+          "url": "https://www.roccofortehotels.com/hotels-and-resorts/villa-igiea/experiences-activities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The George V Suite is named after King George V, who stayed at the villa during his 1925 visit to Sicily.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "named after King George V, who took residence here during his visit to Sicily in 1925",
+          "note": "George V Suite",
+          "confirmed": true,
+          "url": "https://www.roccofortehotels.com/hotels-and-resorts/villa-igiea/accommodation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Florio Restaurant is set in the villa's historic Louis XVI hall.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "where the Florios’ most distinguished guests once dined in this historic Louis XVI hall",
+          "note": "Florio restaurant page",
+          "confirmed": true,
+          "url": "https://www.roccofortehotels.com/hotels-and-resorts/villa-igiea/dining/florio-restaurant/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Alicetta is enclosed in a metal pavilion modelled on the pavilion of the Palazzo Butera.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Alicetta is enclosed in a pretty metal pavilion modelled on the same design as the pavilion of the Palazzo Butera",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.roccofortehotels.com/hotels-and-resorts/villa-igiea/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Igiea Terrazza Bar overlooks the Gulf of Palermo and is set among 1950s frescoes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Overlooking the shimmering Gulf of Palermo, Igiea Terrazza Bar is where elegance, heritage and Mediterranean light come together. Set among 1950s frescoes",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.roccofortehotels.com/hotels-and-resorts/villa-igiea/dining/igiea-terrazza-bar/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The villa was used as a film backdrop by de Sica and Sordi.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "It then became a cinematic backdrop, used by de Sica and Sordi.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/palermo/villa-igiea-a-rocco-forte-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel is on the coast, about a 15-minute drive from central Palermo, in a suburban neighborhood.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "The hotel is located along the coast, about a 15-minute drive from central Palermo",
+          "note": "coast and 15-minute drive",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/palermo/villa-igiea-a-rocco-forte-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "The neighborhood around the resort is suburban",
+          "note": "suburban",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/palermo/villa-igiea-a-rocco-forte-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes premium luxury pricing typical of high-end heritage properties.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the historic building may have limited modern amenities in some areas.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

@@ -1,0 +1,465 @@
+{
+  "hotel_slug": "prince-waikiki",
+  "hotel_name": "Prince Waikiki",
+  "checked_at": "2026-10-15T16:38:40.141Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 20,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 0,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.princewaikiki.com/",
+      "tier": "official",
+      "chars": 11812
+    },
+    {
+      "id": "d2",
+      "url": "https://www.princewaikiki.com/stay/",
+      "tier": "official",
+      "chars": 11811
+    },
+    {
+      "id": "d3",
+      "url": "https://www.princewaikiki.com/experience/pools/",
+      "tier": "official",
+      "chars": 10249
+    },
+    {
+      "id": "d4",
+      "url": "https://www.princewaikiki.com/experience/naio-bliss/",
+      "tier": "official",
+      "chars": 8102
+    },
+    {
+      "id": "d5",
+      "url": "https://www.princewaikiki.com/experience/",
+      "tier": "official",
+      "chars": 6965
+    },
+    {
+      "id": "d6",
+      "url": "https://www.princewaikiki.com/experience/golf/",
+      "tier": "official",
+      "chars": 9179
+    },
+    {
+      "id": "d7",
+      "url": "https://www.princewaikiki.com/gather/",
+      "tier": "official",
+      "chars": 9103
+    },
+    {
+      "id": "d8",
+      "url": "https://www.princewaikiki.com/dine/hinana-bar/",
+      "tier": "official",
+      "chars": 9784
+    },
+    {
+      "id": "d9",
+      "url": "https://www.princewaikiki.com/dine/",
+      "tier": "official",
+      "chars": 6896
+    },
+    {
+      "id": "d10",
+      "url": "https://www.cntraveler.com/hotels/united-states/oahu/hawaii-prince-hotel-waikiki",
+      "tier": "editorial",
+      "chars": 5886
+    },
+    {
+      "id": "d11",
+      "url": "https://www.princewaikiki.com/dine/in-room-dining/",
+      "tier": "official",
+      "chars": 4614
+    },
+    {
+      "id": "d12",
+      "url": "https://www.princewaikiki.com/dine/katsumidori-sushi-tokyo/",
+      "tier": "official",
+      "chars": 9151
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Every room and suite at Prince Waikiki is ocean view or oceanfront.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Experience Waikiki’s only oceanfront hotel offering all ocean view and oceanfront rooms and suites.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.princewaikiki.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The rooms and suites have floor-to-ceiling windows.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Sleek interiors, fine-tuned details, elevated touches, and floor-to-ceiling windows welcome you",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.princewaikiki.com/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "- Floor-to-Ceiling Windows",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.princewaikiki.com/stay/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The floor-to-ceiling windows open to let in the sea breeze.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d10",
+          "quote": "the floor-to-ceiling windows, which open so you may capture the sea breeze",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/oahu/hawaii-prince-hotel-waikiki",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Oceanfront Harbor rooms are on lower floors and overlook yachts and the Pacific Ocean.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Lower floor oceanfront views overlooking yachts and the glimmering Pacific Ocean.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.princewaikiki.com/stay/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Rooms and suites include TOTO washlets.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "- TOTO washlets",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.princewaikiki.com/stay/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The hotel has three pools: an infinity pool for adults, a saltwater pool and a hot tub.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "one of our three pools–an adults only infinity pool, a saltwater retreat, and a restorative hot tub",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.princewaikiki.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Private poolside cabanas and daybeds are available to rent.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "our private poolside cabanas and daybeds are available for rental from 11:00 AM to 7:00 PM",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.princewaikiki.com/experience/pools/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel shares art inspired by elements native to Oahu.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Discover the rich legacy of Hawaii’s contemporary culture through artwork inspired by elements native to Oahu.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.princewaikiki.com/experience/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The on-site gym has treadmills, elliptical trainers, exercise bikes, strength machines and free weights.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Our on-site gym is equipped with treadmills, elliptical trainers, exercise bikes, strength machines, and free weights.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.princewaikiki.com/experience/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Hinana Bar hosts SunSets LIVE poolside entertainment every Friday to Sunday.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "Every Friday – Sunday, Hinana Bar is home to SunSets LIVE—hours of upbeat tunes and poolside entertainment from favorite local artists",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.princewaikiki.com/dine/hinana-bar/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Katsumidori Sushi Tokyo, at the hotel, has no other location outside Japan.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d12",
+          "quote": "In this only location outside of Japan, Executive Chef Noboru Nagumo brings four seasons of fusion flavor to Prince Waikiki.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.princewaikiki.com/dine/katsumidori-sushi-tokyo/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The hotel is minutes from the Hawaii Convention Center.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "located minutes from the Hawaii Convention Center and Honolulu’s bustle",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.princewaikiki.com/gather/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The infinity pool is oceanfront and sits over the harbor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Lounge without limits at our oceanfront infinity pool",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.princewaikiki.com/experience/naio-bliss/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d10",
+          "quote": "The infinity pool is lodged over the harbor",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/oahu/hawaii-prince-hotel-waikiki",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Hawaii Prince Golf Course was designed by Arnold Palmer and Ed Seay and has three interchangeable nine-hole courses.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Designed by Arnold Palmer and Ed Seay, this dramatic Honolulu golf course boasts three interchangeable nine-hole courses",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.princewaikiki.com/experience/golf/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Naio Bliss is the hotel's spa, with treatments inspired by elements of the land and ocean, including coconut milk body wraps and hot stone massages.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Indulge in a moment all for yourself at Naio Bliss, our laid-back Waikiki spa. Experience harmony of spirit with treatments and traditions inspired by elements of the land and ocean.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.princewaikiki.com/experience/naio-bliss/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Coconut milk body wraps, hydrating and anti-aging mask applications, hot stone massages",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.princewaikiki.com/experience/naio-bliss/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The pool deck Club Lounge is reserved for guests in club-level rooms and offers breakfast, evening grazing and ocean views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our pool deck Club Lounge is an elevated retreat reserved for guests staying in club-level rooms. It’s your all-day destination for breakfast delights, evening grazing, premium beer and wine on tap, and sweeping ocean views.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.princewaikiki.com/stay/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Club Ocean Terrace Suite has indoor-outdoor living and Pacific Ocean views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "expansive indoor-outdoor living, sweeping Pacific Ocean views, and exclusive",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.princewaikiki.com/stay/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel is on a harbor rather than on the beach.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d10",
+          "quote": "I was surprised to see that the hotel isn't on the beach, rather on a harbor.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/oahu/hawaii-prince-hotel-waikiki",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The Hawaii Prince Golf Course is about a 40-minute drive from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "about a 40-minute drive from Prince Waikiki",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.princewaikiki.com/experience/golf/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "Bookings incur a daily resort charge unless otherwise noted.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Unless otherwise noted, all bookings will incur a daily resort charge.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.princewaikiki.com/stay/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

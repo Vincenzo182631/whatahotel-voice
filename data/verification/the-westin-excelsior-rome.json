@@ -1,0 +1,330 @@
+{
+  "hotel_slug": "the-westin-excelsior-rome",
+  "hotel_name": "The Westin Excelsior Rome",
+  "checked_at": "2026-11-05T10:06:29.566Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 15,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 16
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/romwi-the-westin-excelsior-rome/overview/",
+      "tier": "official",
+      "chars": 22781
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/romwi-the-westin-excelsior-rome/rooms/",
+      "tier": "official",
+      "chars": 7712
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/romwi-the-westin-excelsior-rome/rooms/signature-suites/",
+      "tier": "official",
+      "chars": 21829
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/romwi-the-westin-excelsior-rome/dining/",
+      "tier": "official",
+      "chars": 6142
+    },
+    {
+      "id": "d5",
+      "url": "https://www.marriott.com/en-us/hotels/romwi-the-westin-excelsior-rome/experiences/",
+      "tier": "official",
+      "chars": 11937
+    },
+    {
+      "id": "d6",
+      "url": "https://www.cntraveler.com/hotels/italy/quartiere-monte-sacro/westin-excelsior-rome",
+      "tier": "editorial",
+      "chars": 4009
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is a few steps from the Spanish Steps, the Trevi Fountain and Villa Borghese.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Positioned in the heart of Rome, few steps from Spanish Steps, Trevi Fountain, Villa Borghese.",
+          "note": "all three named",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/romwi-the-westin-excelsior-rome/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Villa La Cupola is set across two floors.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Set across two floors, it combines breathtaking city views with sumptuous interiors.",
+          "note": "Villa La Cupola",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/romwi-the-westin-excelsior-rome/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "All bathrooms feature Italian polychrome marble.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "All the bathrooms in our Rome accommodations feature Italian polychrome marble.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/romwi-the-westin-excelsior-rome/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The Imperial Suite has Louis XVI and Piedmontese furnishings and a genuine Aubusson carpet.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Louis XVI and Piedmontese furnishings complement the wine red, gold, and green colour scheme, while a genuine Aubusson carpet lies underfoot",
+          "note": "Imperial Suite section",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/romwi-the-westin-excelsior-rome/rooms/signature-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Veneto Suites are on the corner of the facade, under the hotel's cupola.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Our three Veneto Suites are situated on the corner of the façade under the Cupola of the hotel.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/romwi-the-westin-excelsior-rome/rooms/signature-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Cardinale cocktail was created at the hotel's bar and is still served at Orvm Bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The Cardinale was created at the Hotel Excelsior in 1950, when a cardinal suggested a new combination of ingredients to the bartender.",
+          "note": "created at hotel",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/romwi-the-westin-excelsior-rome/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "continues to be served at Or",
+          "note": "still served at Orvm Bar (text wraps)",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/romwi-the-westin-excelsior-rome/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Doney hosts a Sunday Brunch with live stations, desserts and free-flow Italian sparkling wine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "On Sundays, enjoy Doney’s Sunday Brunch with live stations, desserts and free-flow Italian sparkling wine.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/romwi-the-westin-excelsior-rome/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel has an indoor pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "We have a small indoor pool, sauna and massage center",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/romwi-the-westin-excelsior-rome/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "In-room spa treatments are available.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "In-room Spa: Relax and revitalize in the comfort and privacy of your room with our in-room signature treatments",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/romwi-the-westin-excelsior-rome/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Villa La Cupola sits on the hotel's rooftop, with private terraces and panoramas over Rome.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located on the hotel’s rooftop, Villa La Cupola features private terraces ideal for intimate escapes or unforgettable events, with stunning panoramas over the Eternal City.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/romwi-the-westin-excelsior-rome/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Villa La Cupola's domed living room is crowned by a frescoed cupola inspired by Renaissance and Baroque Rome.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "At the heart of the suite is the majestic domed living room, crowned by a frescoed cupola inspired by Renaissance and Baroque Rome.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/romwi-the-westin-excelsior-rome/rooms/signature-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Villa La Cupola has a Pompeian-style Jacuzzi pool with a mosaic floor, vaulted ceiling and frescoes evoking ancient Roman baths.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "a magnificent Pompeian-style Jacuzzi pool, adorned with a mosaic floor, vaulted ceiling, and frescoes that evoke the ambiance of ancient Roman baths",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/romwi-the-westin-excelsior-rome/rooms/signature-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The hotel is on Via Veneto, between the Spanish Steps and the Borghese Gardens and Gallery.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "located on Via Veneto, our 5-star hotel in Rome enjoys a privileged setting between the Spanish Steps and the Borghese Gardens and Gallery",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/romwi-the-westin-excelsior-rome/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Rooms have rich furnishings in Empire or Biedermeier style, with damasks in red, green or beige.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Rich furnishings in Empire or Biedermeier style with damasks in shades of red, green or beige.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/romwi-the-westin-excelsior-rome/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Four people are not allowed in one room; a second room must be booked.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "4 people in the room are not allowed even if a SNA has been confirmed and a second room shall be booked.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/romwi-the-westin-excelsior-rome/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes the historic building may have varying room sizes.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

@@ -1,0 +1,426 @@
+{
+  "hotel_slug": "ritz-carlton-washington-d-c",
+  "hotel_name": "The Ritz-Carlton, Washington D.C.",
+  "checked_at": "2026-10-09T06:39:32.927Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 0,
+      "total": 17
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ritzcarlton.com/en/hotels/wasrt-the-ritz-carlton-washington-d-c/overview/",
+      "tier": "official",
+      "chars": 16409
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ritzcarlton.com/en/hotels/wasrt-the-ritz-carlton-washington-d-c/rooms/",
+      "tier": "official",
+      "chars": 6835
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ritzcarlton.com/en/hotels/wasrt-the-ritz-carlton-washington-d-c/rooms/signature-suites/",
+      "tier": "official",
+      "chars": 12436
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ritzcarlton.com/en/hotels/wasrt-the-ritz-carlton-washington-d-c/dining/",
+      "tier": "official",
+      "chars": 4162
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ritzcarlton.com/en/hotels/wasrt-the-ritz-carlton-washington-d-c/experiences/",
+      "tier": "official",
+      "chars": 15291
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ritzcarlton.com/en/hotels/wasrt-the-ritz-carlton-washington-d-c/club/",
+      "tier": "official",
+      "chars": 5026
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ritzcarlton.com/en/hotels/wasrt-the-ritz-carlton-washington-d-c/experiences/holidays/",
+      "tier": "official",
+      "chars": 2944
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ritzcarlton.com/en/hotels/wasrt-the-ritz-carlton-washington-d-c/reviews/",
+      "tier": "official",
+      "chars": 820
+    },
+    {
+      "id": "d9",
+      "url": "https://www.cntraveler.com/hotels/washington/the-ritz-carlton-washington-dc",
+      "tier": "editorial",
+      "chars": 3381
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is in Washington, D.C.'s West End neighborhood.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located in the heart of the city, our West End, Washington, D.C., hotel offers easy access to the city's vibrant present.",
+          "note": "Directly stated.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/wasrt-the-ritz-carlton-washington-d-c/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Nearby Metro lines serve the hotel, which the official site calls a Foggy Bottom hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Immerse yourself in the magic of the city from our Foggy Bottom hotel, where nearby Metro lines easily transport you to any D.C. destination in minutes.",
+          "note": "Directly stated.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/wasrt-the-ritz-carlton-washington-d-c/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel is close to many embassies and diplomatic offices.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The hotel is conveniently located close to many embassies and diplomatic offices.",
+          "note": "Directly stated.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/wasrt-the-ritz-carlton-washington-d-c/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The Saga is the hotel's restaurant, led by Chef Enrique Limardo, serving inventive Spanish cuisine with a Latin twist for breakfast, lunch and dinner.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The Saga by the renowned Chef Enrique Limardo, features upscale, inventive Spanish cuisine with a Latin culinary twist. Enjoy flavorful dishes and a curated beverage program for breakfast, lunch, and dinner.",
+          "note": "Directly stated.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/wasrt-the-ritz-carlton-washington-d-c/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Quadrant Bar & Lounge is the hotel's restaurant lounge, with a focus on mixology and gastronomy.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Welcome to the most exclusive restaurant lounge in Washington, D.C. Delight your senses with premier mixology and gastronomy in a unique, elegant, and entertaining environment at this exceptional Washington, D.C. bar.",
+          "note": "Directly stated.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/wasrt-the-ritz-carlton-washington-d-c/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "International at Quadrant Bar & Lounge",
+          "note": "Names the venue.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/wasrt-the-ritz-carlton-washington-d-c/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Room service is available.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Yes, room service is available at The Ritz-Carlton, Washington, D.C..",
+          "note": "Directly stated.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/wasrt-the-ritz-carlton-washington-d-c/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Rooms and suites have oversized Italian marble bathrooms and views of the West End or a quiet courtyard.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our guest rooms, one-bedroom suites, and luxury suites offer spacious layouts, oversized Italian marble bathrooms, and stunning views of West End or a tranquil courtyard.",
+          "note": "Directly stated.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/wasrt-the-ritz-carlton-washington-d-c/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Beds are dressed in Frette bedding and 400 thread count Egyptian cotton linens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Plush feather beds feature luxury Frette bedding and 400 thread count Egyptian cotton linens.",
+          "note": "Directly stated.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/wasrt-the-ritz-carlton-washington-d-c/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Club Level guests have a private Club Lounge with complimentary food and drink presentations five times each day.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Five times each day, the Club Lounge offers complimentary food and beverage presentations.",
+          "note": "Directly stated.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/wasrt-the-ritz-carlton-washington-d-c/club/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "a private Club Lounge",
+          "note": "Private lounge.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/wasrt-the-ritz-carlton-washington-d-c/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Hotel guests can use the Equinox Sports Club, which has a pool and a spa, for a daily charge per person.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Full access to all of the Equinox Sports Club classes and facilities available to hotel guests for a charge of $15 per person per day.",
+          "note": "Directly stated.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/wasrt-the-ritz-carlton-washington-d-c/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Access to Equinox Sports Club and Pool is reserved for guests 18 years and older.",
+          "note": "Pool.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/wasrt-the-ritz-carlton-washington-d-c/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Power Down in The Spa at Equinox Sports Club",
+          "note": "Spa.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/wasrt-the-ritz-carlton-washington-d-c/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "A presidential cookie tasting is held in the main lobby daily at 5:30pm.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Join us in the Main Lobby every day at 5:30pm for a presidential cookie tasting.",
+          "note": "Directly stated.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/wasrt-the-ritz-carlton-washington-d-c/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The hotel offers a spy-themed tour of Washington, guided by former CIA officers and intelligence and law enforcement professionals.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Embark on an immersive, spy-themed journey through Washington, D.C., guided by former CIA officers and seasoned intelligence and law enforcement professionals.",
+          "note": "Directly stated.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/wasrt-the-ritz-carlton-washington-d-c/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Ritz-Carlton Suite has a primary bedroom, a living room with a fireplace, a formal eight-seat dining room with an adjacent pantry, and an outdoor terrace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The suite features a primary bedroom, spacious living room with a cozy fireplace, formal eight-seat dining room with an adjacent pantry",
+          "note": "Directly stated.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/wasrt-the-ritz-carlton-washington-d-c/rooms/signature-suites/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "and an expansive outdoor terrace.",
+          "note": "Terrace.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/wasrt-the-ritz-carlton-washington-d-c/rooms/signature-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The hotel partners with its sister property, The Ritz-Carlton Georgetown, for spa treatments, with complimentary transportation to and from appointments.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "we are proud to partner with our sister property, The Ritz-Carlton Georgetown, Washington, D.C., to offer our guests the pinnacle of relaxation and rejuvenation. Enjoy complimentary transportation to and from your spa appointments",
+          "note": "Directly stated.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/wasrt-the-ritz-carlton-washington-d-c/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel does not provide an airport shuttle.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "This hotel does not provide shuttle service.",
+          "note": "Directly stated.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/wasrt-the-ritz-carlton-washington-d-c/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "No, The Ritz-Carlton, Washington, D.C. does not have an airport shuttle to Ronald Reagan Washington National Airport.",
+          "note": "FAQ.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/wasrt-the-ritz-carlton-washington-d-c/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Access to the Equinox Sports Club and its pool is reserved for guests 18 and older with valid ID.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Access to Equinox Sports Club and Pool is reserved for guests 18 years and older. Guests must present a valid ID.",
+          "note": "Directly stated.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/wasrt-the-ritz-carlton-washington-d-c/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "Club access requires an upgraded booking; Marriott Bonvoy Elite Status does not provide complimentary Club access.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Club access requires an upgraded booking at the Club. Marriott Bonvoy Elite Status does not provide complimentary access to Club.",
+          "note": "Directly stated.",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/wasrt-the-ritz-carlton-washington-d-c/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

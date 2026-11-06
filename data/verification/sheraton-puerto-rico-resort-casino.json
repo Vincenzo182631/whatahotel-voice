@@ -1,0 +1,427 @@
+{
+  "hotel_slug": "sheraton-puerto-rico-resort-casino",
+  "hotel_name": "Sheraton Puerto Rico Resort & Casino",
+  "checked_at": "2026-11-04T03:15:49.843Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/sjusi-sheraton-puerto-rico-resort-and-casino/overview/",
+      "tier": "official",
+      "chars": 18566
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/sjusi-sheraton-puerto-rico-resort-and-casino/rooms/",
+      "tier": "official",
+      "chars": 8131
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/sjusi-sheraton-puerto-rico-resort-and-casino/dining/",
+      "tier": "official",
+      "chars": 6441
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/sjusi-sheraton-puerto-rico-resort-and-casino/experiences/",
+      "tier": "official",
+      "chars": 14132
+    },
+    {
+      "id": "d5",
+      "url": "https://www.marriott.com/en-us/hotels/sjusi-sheraton-puerto-rico-resort-and-casino/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "chars": 2261
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is in San Juan's Convention District, steps from Distrito T-Mobile and the Convention Center.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Convention District just steps from Distrito T-Mobile...See More and the Convention Center",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sjusi-sheraton-puerto-rico-resort-and-casino/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "From the rooftop infinity pool there are open views of the bay, the Convention District and Distrito T-Mobile.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Enjoy the Caribbean sun from our rooftop infinity pool, with open views of the bay, the Convention District, and Distrito T-Mobile just steps away.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sjusi-sheraton-puerto-rico-resort-and-casino/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Private cabanas can be reserved on the sundeck for a shaded poolside day.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Reserve a private cabana and settle in for a slower poolside day, with shade and comfort designed for easy relaxation.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sjusi-sheraton-puerto-rico-resort-and-casino/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The pool area includes a children's pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Children's Pool",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sjusi-sheraton-puerto-rico-resort-and-casino/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The one-bedroom Bayview Suites have a separate parlor and a private balcony overlooking San Juan Bay.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Bayview Suites",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sjusi-sheraton-puerto-rico-resort-and-casino/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "This one-bedroom suite features a separate parlor area and private balcony overlooking the San Juan Bay",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sjusi-sheraton-puerto-rico-resort-and-casino/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Daily yoga classes are held at the Bella Vista Terrace on the 4th floor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Offered daily from 7:00 AM to 8:00 AM at our Bella Vista Terrace, located on the 4th floor.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sjusi-sheraton-puerto-rico-resort-and-casino/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The hotel offers daily salsa classes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Daily Salsa Classes",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sjusi-sheraton-puerto-rico-resort-and-casino/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Bay Rooftop Bar serves Italian-American dishes on the rooftop with views of San Juan sunsets.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The Bay Rooftop Bar",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sjusi-sheraton-puerto-rico-resort-and-casino/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Italian-American cuisine with a view. Rooftop dining with comforting classics, coastal breezes, and a front-row seat to San Juan sunsets.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sjusi-sheraton-puerto-rico-resort-and-casino/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Mutuo Sabor Nikkei serves Japanese-Peruvian cuisine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Mutuo Sabor Nikkei",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sjusi-sheraton-puerto-rico-resort-and-casino/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "A refined take on Japanese-Peruvian cuisine",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sjusi-sheraton-puerto-rico-resort-and-casino/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel is close to the major cruise terminals and Luis Munoz Marin International Airport.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "seamless proximity to major cruise terminals and the Luis Muñoz Marín International airport",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sjusi-sheraton-puerto-rico-resort-and-casino/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel is LEED New Construction certified.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "LEED: New Construction Certified",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sjusi-sheraton-puerto-rico-resort-and-casino/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Pets are welcome.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Yes, pets are welcome at Sheraton Puerto Rico Resort & Casino.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sjusi-sheraton-puerto-rico-resort-and-casino/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The rooftop infinity pool has panoramic views of San Juan Bay.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "our iconic rooftop infinity pool featuring panoramic views of San Juan Bay",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sjusi-sheraton-puerto-rico-resort-and-casino/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Deluxe Rooms have a private balcony with a view of San Juan Bay.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Deluxe Rooms offer a stunning view of the San Juan Bay with a private balcony",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sjusi-sheraton-puerto-rico-resort-and-casino/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The hotel's casino is open 24/7.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "testing your luck at our 24/7 casino",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sjusi-sheraton-puerto-rico-resort-and-casino/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The two-bedroom Presidential Suite has generous living and dining areas and a private terrace with bay views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Presidential Suite",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sjusi-sheraton-puerto-rico-resort-and-casino/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our two-bedroom Suite, Designed for Elevated Stays. Featuring generous living and dining areas, and a private terrace with bay views",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sjusi-sheraton-puerto-rico-resort-and-casino/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Zen Spa Retreat offers treatments designed to relax the body and clear the mind.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Take time to unwind at Zen Spa Retreat, where treatments are designed to relax your body, clear your mind, and help you feel fully refreshed.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sjusi-sheraton-puerto-rico-resort-and-casino/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Escambron Beach is one mile from the resort.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Spend the day by the turquoise waters of Escambron Beach, just one mile away from our Resort",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sjusi-sheraton-puerto-rico-resort-and-casino/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The hotel sells a Day Pass to its rooftop pool deck.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Escape to our rooftop city oasis with a Day Pass",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/sjusi-sheraton-puerto-rico-resort-and-casino/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes it is a large resort property where common areas can get crowded.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

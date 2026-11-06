@@ -1,0 +1,398 @@
+{
+  "hotel_slug": "the-st-regis-mexico-city",
+  "hotel_name": "The St Regis Mexico City",
+  "checked_at": "2026-10-14T11:22:05.175Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/mexxr-the-st-regis-mexico-city/overview/",
+      "tier": "official",
+      "chars": 30000
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/mexxr-the-st-regis-mexico-city/rooms/",
+      "tier": "official",
+      "chars": 4736
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/mexxr-the-st-regis-mexico-city/dining/",
+      "tier": "official",
+      "chars": 9648
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/mexxr-the-st-regis-mexico-city/experiences/",
+      "tier": "official",
+      "chars": 16062
+    },
+    {
+      "id": "d5",
+      "url": "https://www.cntraveler.com/hotels/mexico-city/the-st-regis-mexico-city",
+      "tier": "editorial",
+      "chars": 9081
+    },
+    {
+      "id": "d6",
+      "url": "https://www.marriott.com/en-us/hotels/mexxr-the-st-regis-mexico-city/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "chars": 2093
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel's address is Paseo de la Reforma 439 in Colonia Cuauhtemoc, Mexico City.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Paseo de la Reforma 439, Colonia Cuauhtemoc, Mexico City, Mexico, 06500",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mexxr-the-st-regis-mexico-city/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel sits directly across from the Diana the Huntress fountain on Paseo de la Reforma.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Situated directly across from the Diana the Huntress fountain on Paseo de la Reforma",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/mexico-city/the-st-regis-mexico-city",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel is a 31-story high-rise on Paseo de la Reforma.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "It’s impossible to miss the sleek, 31-story high-rise on Paseo de la Reforma",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/mexico-city/the-st-regis-mexico-city",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The rooms were designed by Yabu Pushelberg.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Designed by Yabu Pushelberg, the rooms",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/mexico-city/the-st-regis-mexico-city",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Rooms have oversized windows looking out on the Mexico City skyline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Oversized windows allow guests to marvel at the breathtaking Mexico City skyline and provide ample natural light.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mexxr-the-st-regis-mexico-city/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Rooms include a free pressing service of two clothing items per day.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our hotel rooms in Mexico City offer a free pressing service of two clothing items per day.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mexxr-the-st-regis-mexico-city/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Diana Restaurant is named for its views of the fountain of Diana the Huntress.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Diana Restaurant is aptly named for its iconic views of the fountain of Diana the Huntress.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mexxr-the-st-regis-mexico-city/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "King Cole Bar is a cocktail bar with a terrace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "With one of the most iconic terraces in Mexico City, King Cole Bar is a true cocktail destination.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mexxr-the-st-regis-mexico-city/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "King Cole Bar has a smoking lounge for premium cigars and signature cocktails.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Savor premium cigars and signature cocktails in our exclusive smoking lounge at King Cole Bar.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mexxr-the-st-regis-mexico-city/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Sushi Tatsugoro serves Japanese omakase cuisine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Sushi Tatsugoro offers a captivating culinary journey through the art of Japanese omakase cuisine.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mexxr-the-st-regis-mexico-city/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The Wellness Center next to the fitness center has a sauna, a swimming pool and Jacuzzis with skyline panoramas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Fitness Center offers state-of-the-art equipment featuring personal television screens and mobile docking stations. Additional facilities are available at the adjacent Wellness Center, including a sauna, swimming pool and Jacuzzis",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mexxr-the-st-regis-mexico-city/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The Children's Club, on the 15th floor, offers supervised play with options including art projects and video games.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "offers supervised play and engaging activities for children, located on the 15th floor of the hotel, with options including art projects and video games.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mexxr-the-st-regis-mexico-city/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "In 2024 the hotel launched new garden terrace suites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "In 2024, the hotel launched eight new garden terrace suites",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/mexico-city/the-st-regis-mexico-city",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Caroline Astor Garden Terrace Suite has a full-size private infinity pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "in the case of the Caroline Astor Garden Terrace Suite, a full-size private infinity pool",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/mexico-city/the-st-regis-mexico-city",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "St. Regis Butler Service is offered 24 hours a day, even remotely through eButler, with packing and unpacking, garment pressing and beverage service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "St. Regis Butler Service, offered 24 hours a day – even remotely, through our eButler offering. Signature benefits include packing and unpacking, garment pressing and beverage service.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mexxr-the-st-regis-mexico-city/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Krug Room is helmed by Executive Chef Diego Nino in collaboration with the House of Krug; reservations are required.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "the exclusive Krug Room, helmed by Executive Chef Diego Niño offers an exceptional experience. In collaboration with the House of Krug, guests can enjoy his innovative dining in Mexico City. Reservations required.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mexxr-the-st-regis-mexico-city/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The hotel offers an exclusive helicopter service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "elevate your stay with our hotel in Mexico City's exclusive helicopter service",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mexxr-the-st-regis-mexico-city/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Pets are limited to small dogs under 17 pounds, and pets cannot be in public areas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our accommodations in Mexico City are pet-friendly and allow for small dogs under 17 pounds.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mexxr-the-st-regis-mexico-city/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Pets cannnot be at public areas.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mexxr-the-st-regis-mexico-city/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The hotel does not provide airport shuttle service.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "This hotel does not provide shuttle service.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/mexxr-the-st-regis-mexico-city/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes ultra-luxury pricing that reflects the hotel's premium positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

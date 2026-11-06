@@ -1,0 +1,403 @@
+{
+  "hotel_slug": "the-peninsula-paris",
+  "hotel_name": "The Peninsula Paris",
+  "checked_at": "2026-10-14T00:16:46.213Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 16,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 18
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.peninsula.com/en/paris/5-star-luxury-hotel-16th-arrondissement",
+      "tier": "official",
+      "chars": 16347
+    },
+    {
+      "id": "d2",
+      "url": "https://www.peninsula.com/en/paris/luxury-hotel-room-suite-types/",
+      "tier": "official",
+      "chars": 4914
+    },
+    {
+      "id": "d3",
+      "url": "https://www.peninsula.com/en/paris/hotel-fine-dining/french-rooftop-loiseau-blanc/",
+      "tier": "official",
+      "chars": 9848
+    },
+    {
+      "id": "d4",
+      "url": "https://www.peninsula.com/en/paris/wellness/luxury-hotel-spa/",
+      "tier": "official",
+      "chars": 13619
+    },
+    {
+      "id": "d5",
+      "url": "https://www.cntraveler.com/hotels/paris/the-peninsula-paris",
+      "tier": "editorial",
+      "chars": 8784
+    },
+    {
+      "id": "d6",
+      "url": "https://www.peninsula.com/en/paris/wellness/fitness-centre/",
+      "tier": "official",
+      "chars": 4726
+    },
+    {
+      "id": "d7",
+      "url": "https://www.peninsula.com/en/paris/wellness/pool/",
+      "tier": "official",
+      "chars": 983
+    },
+    {
+      "id": "d8",
+      "url": "https://www.peninsula.com/en/paris/hotel-fine-dining/",
+      "tier": "official",
+      "chars": 1828
+    },
+    {
+      "id": "d9",
+      "url": "https://www.peninsula.com/en/paris/wellness/membership/",
+      "tier": "official",
+      "chars": 4338
+    },
+    {
+      "id": "d10",
+      "url": "https://www.peninsula.com/en/paris/pip-2026/",
+      "tier": "official",
+      "chars": 3487
+    },
+    {
+      "id": "d11",
+      "url": "https://www.peninsula.com/en/paris/5-star-luxury-hotel-16th-arrondissement/",
+      "tier": "official",
+      "chars": 16347
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is at 19 Avenue Kléber in Paris.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Peninsula Paris, 19 Avenue Kléber Paris, France, 75116",
+          "note": "address stated",
+          "confirmed": true,
+          "url": "https://www.peninsula.com/en/paris/5-star-luxury-hotel-16th-arrondissement",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is steps away from the Arc de Triomphe.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The hotel is literally steps away from the Arc de Triomphe",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/the-peninsula-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "seamless technology steps from the Arc de Triomphe",
+          "note": "official page also says steps from Arc",
+          "confirmed": true,
+          "url": "https://www.peninsula.com/en/paris/5-star-luxury-hotel-16th-arrondissement",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "More than 80 works of art, curated by Hong Kong-based Sabrina Fung Fine Arts, are displayed throughout the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "More than 80 works of art, curated by Hong Kong–based Sabrina Fung Fine Arts, thread through the hotel",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/the-peninsula-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Rooms pair Haussmannian character with sitting areas and walk-in dressing rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Apartment-like rooms pair Haussmannian character with sitting areas, walk-in dressing rooms and seamless technology",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.peninsula.com/en/paris/5-star-luxury-hotel-16th-arrondissement",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "L'Oiseau Blanc is led by Chef David Bizet.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Under the direction of Chef David Bizet, L’Oiseau Blanc offers a poetic and refined cuisine",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.peninsula.com/en/paris/hotel-fine-dining/french-rooftop-loiseau-blanc/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "LiLi, the Cantonese restaurant, hosts live traditional Chinese music Thursday through Saturday.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "LiLi, the Cantonese restaurant, hosts live traditional Chinese music Thursday through Saturday.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/the-peninsula-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Peninsula Spa blends French beauty with Asian treatment traditions.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Subtly blending the elegance of French beauty with the ancient traditions of Asian treatments",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.peninsula.com/en/paris/wellness/luxury-hotel-spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Two fitness rooms were fully renovated in March 2025 with Technogym equipment.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "two fitness rooms—fully renovated in March 2025—offer state-of-the-art Technogym equipment",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.peninsula.com/en/paris/5-star-luxury-hotel-16th-arrondissement",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The Saturday morning yoga class is complimentary for hotel guests with advance booking through the Spa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "This experience is complimentary for all our hotel guests and requires advance booking with the Spa.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.peninsula.com/en/paris/wellness/luxury-hotel-spa/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Every Saturday at 9:00 am – 1h15 of yoga & meditation.",
+          "note": "Saturday morning timing",
+          "confirmed": true,
+          "url": "https://www.peninsula.com/en/paris/wellness/luxury-hotel-spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel's car fleet includes customised Peninsula Edition MINI Cooper S Clubmans and BMW 7 Series.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "customised Peninsula Edition MINI Cooper S Clubmans or BMW 7 Series",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.peninsula.com/en/paris/5-star-luxury-hotel-16th-arrondissement",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The rooftop restaurant L'Oiseau Blanc has held two Michelin stars since 2021, renewed in 2026.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Two Michelin Stars since 2021, renewed in 2026",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.peninsula.com/en/paris/hotel-fine-dining/french-rooftop-loiseau-blanc/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Rooftop, restaurant accessible to the disabled.",
+          "note": "rooftop location",
+          "confirmed": true,
+          "url": "https://www.peninsula.com/en/paris/hotel-fine-dining/french-rooftop-loiseau-blanc/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "L'Oiseau Blanc is aviation-themed, honouring Charles Nungesser and François Coli, who attempted to cross the Atlantic in 1927 from Le Bourget.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The aviation-themed L’Oiseau Blanc restaurant celebrates the venture of ex-First World War flying aces Charles Nungesser and François Coli who attempted to cross the Atlantic in 1927 from Le Bourget.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.peninsula.com/en/paris/hotel-fine-dining/french-rooftop-loiseau-blanc/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "A four-year restoration turned the building into the Peninsula brand's first European hotel in 2014.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "a four-year restoration transformed it into the Peninsula brand's first European outpost in 2014",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/the-peninsula-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Rooftop Eiffel Suite has a private rooftop garden with Eiffel Tower views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Perched above Paris, this unique suite unveils a private rooftop garden and breathtaking Eiffel Tower views",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.peninsula.com/en/paris/luxury-hotel-room-suite-types/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Bar Kléber's oak paneling and gilded moldings recall the building's earlier life as the Majestic.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Bar Kléber's oak paneling and gilded moldings recall the building's earlier life as the Majestic",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/the-peninsula-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Children must be accompanied by a parent or guardian when using the pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "All children must be accompanied by a parent or guardian when using the pool.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.peninsula.com/en/paris/wellness/pool/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes premium pricing that reflects the hotel's ultra-luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the hotel is in a busy tourist area.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

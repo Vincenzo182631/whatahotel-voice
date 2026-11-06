@@ -1,0 +1,39 @@
+# Verification checklist: Santo Mauro, a Luxury Collection Hotel
+
+Checked 2026-10-24 against the hotel's own pages and Condé Nast Traveler. Result: **can be marked verified** (profile set to verified).
+
+Supported 19 · contradicted 0 · unverified 0 · WhataHotel's own statements 1 · total 20
+
+## Pages checked
+
+- official: https://www.marriott.com/en-us/hotels/madlc-santo-mauro-a-luxury-collection-hotel-madrid/overview/
+- official: https://www.marriott.com/en-us/hotels/madlc-santo-mauro-a-luxury-collection-hotel-madrid/rooms/
+- official: https://www.marriott.com/en-us/hotels/madlc-santo-mauro-a-luxury-collection-hotel-madrid/dining/
+- official: https://www.marriott.com/en-us/hotels/madlc-santo-mauro-a-luxury-collection-hotel-madrid/experiences/
+- official: https://www.marriott.com/en-us/hotels/madlc-santo-mauro-a-luxury-collection-hotel-madrid/%3CBase64-Image-Removed%3E/
+- editorial: https://www.cntraveler.com/hotels/hotel-santo-mauro-autograph-collection
+
+## Claims
+
+| | Claim | Evidence |
+|---|---|---|
+| ✅ | **f-1** The palace was built by architect Juan Bautista Lázaro between 1889 and 1902 as a residence for the Duke of Santo Mauro. | "The Palace of Santo Mauro was built by architect Juan Bautista Lázaro between 1889 and 1902 as a residence for the Duke of Santo Mauro." (official, https://www.marriott.com/en-us/hotels/madlc-santo-mauro-a-luxury-collection-hotel-madrid/overview/) |
+| ✅ | **f-2** The hotel consists of three buildings set in a private garden with fountains and terraces shaded by ancient chestnut trees. | "consists of three buildings set in a sophisticated private garden, with fountains and terraces shaded by ancient chestnut trees" (official, https://www.marriott.com/en-us/hotels/madlc-santo-mauro-a-luxury-collection-hotel-madrid/overview/) |
+| ✅ | **f-3** The Red Room reflects French Classicism, while oriental pieces in the Chinese Lounge recall objects the Duke collected on his travels. | "The Red Room reflects pure French Classicism, while the oriental pieces in the Chinese Lounge recall the objects the Duke used to collect on his travels." (official, https://www.marriott.com/en-us/hotels/madlc-santo-mauro-a-luxury-collection-hotel-madrid/overview/) |
+| ✅ | **f-4** The ducal family still owns the palace, acting as its stewards. | "The ducal family still retains ownership of the palace, acting as its stewards." (official, https://www.marriott.com/en-us/hotels/madlc-santo-mauro-a-luxury-collection-hotel-madrid/overview/) |
+| ✅ | **f-5** The palace is in the Golden Triangle neighborhood, long the center of aristocratic life in Madrid and home to aristocratic residences, embassies and art galleries. | "The palace is located in the neighborhood known as the Golden Triangle, which for centuries was the center of aristocratic life in Madrid and has been a popular location for aristocratic residences, embassies, and high-end art galleries." (official, https://www.marriott.com/en-us/hotels/madlc-santo-mauro-a-luxury-collection-hotel-madrid/overview/) |
+| ✅ | **f-6** The hotel is in the city center, close to the design area and the city's most renowned museums. | "The hotel's location, in the city center close to the design area and to the city's most renowned museums" (official, https://www.marriott.com/en-us/hotels/madlc-santo-mauro-a-luxury-collection-hotel-madrid/overview/) |
+| ✅ | **f-7** All rooms and suites have marble bathrooms, luxury bedding and high-speed Wi-Fi. | "All the rooms and suites are designed with high-quality finishes, marble bathrooms, luxury bedding, and high-speed Wi-Fi" (official, https://www.marriott.com/en-us/hotels/madlc-santo-mauro-a-luxury-collection-hotel-madrid/rooms/) |
+| ✅ | **f-8** The minibar holds Madrid specialties, including a local wine selected by the sommelier, local pastries and traditional Spanish crisps. | "The minibar contains some authentic examples of the gastronomy of Madrid: a local wine selected by our sommelier, delicious indigenous pastries and traditional Spanish crisps" (official, https://www.marriott.com/en-us/hotels/madlc-santo-mauro-a-luxury-collection-hotel-madrid/rooms/) |
+| ✅ | **f-9** Gresca Wine Bar has a cellar of more than 250 references, including national, international and natural wines. | "its extensive cellar of more than 250 references stands out, betting on national and international wines, as well as natural wines" (official, https://www.marriott.com/en-us/hotels/madlc-santo-mauro-a-luxury-collection-hotel-madrid/dining/) |
+| ✅ | **f-10** The signature Casilda cocktail is served complimentary to in-house guests every day. | "Served complimentary daily from 6 to 8 p.m., inviting in-house guests to unwind and savor timeless elegance." (official, https://www.marriott.com/en-us/hotels/madlc-santo-mauro-a-luxury-collection-hotel-madrid/experiences/) |
+| ✅ | **f-11** The hotel offers a walking tour of Madrid's Chamberí district. | "Immerse yourself in Madrid’s elegant Chamberí with our exclusive walking tour." (official, https://www.marriott.com/en-us/hotels/madlc-santo-mauro-a-luxury-collection-hotel-madrid/experiences/) |
+| ✅ | **f-12** The hotel has a fully equipped fitness centre open 24 hours. | "A fully equipped fitness centre, open 24 hours, for guests who wish to stay active." (official, https://www.marriott.com/en-us/hotels/madlc-santo-mauro-a-luxury-collection-hotel-madrid/overview/) |
+| ✅ | **h-1** The hotel retains its original interior design, including a Modernist staircase in the entrance hall, a small oval courtyard, an old chapel and the Duke's library. | "The hotel retains its original interior design, boasting unique details such as the Modernist staircase in the entrance hall, a small oval courtyard, an old chapel, and the Duke's library." (official, https://www.marriott.com/en-us/hotels/madlc-santo-mauro-a-luxury-collection-hotel-madrid/overview/) |
+| ✅ | **h-2** The Duke's Royal Suite was the original Duke's bedroom, with walls covered in green velvet. | "The Suite Royal The Duke's , was the original Duke's bedroom. The walls are all covered with a marvellous green velvet" (official, https://www.marriott.com/en-us/hotels/madlc-santo-mauro-a-luxury-collection-hotel-madrid/rooms/) |
+| ✅ | **h-3** The garden was shaped under the guidance of landscape artist Fernando Valero, with fountains and historic trees. | "Under the guidance of landscape artist Fernando Valero the natural beauty of this space, complemented by its striking fountains and historic trees, invites relaxation, reflection, and reinvigoration." (official, https://www.marriott.com/en-us/hotels/madlc-santo-mauro-a-luxury-collection-hotel-madrid/overview/) |
+| ✅ | **h-4** The Luxury Terrace Suite is a bi-level suite with a garden view and a terrace. | "Bi-level Suite, 1 King, Garden view, Terrace" (official, https://www.marriott.com/en-us/hotels/madlc-santo-mauro-a-luxury-collection-hotel-madrid/rooms/) |
+| ✅ | **h-5** The hotel keeps a cabinet of curiosities in the tradition of Madrid's aristocratic collectors. | "The Santo Mauro keeps that experience alive with its cabinet of curiosities." (official, https://www.marriott.com/en-us/hotels/madlc-santo-mauro-a-luxury-collection-hotel-madrid/experiences/) |
+| ✅ | **c-1** Pets are allowed but not in the indoor food and beverage outlets. | "Pets allowed, not permitted in indoor F&B outlets." (official, https://www.marriott.com/en-us/hotels/madlc-santo-mauro-a-luxury-collection-hotel-madrid/overview/) |
+| ✅ | **c-2** Rooms at the hotel do not have a fridge. | "No, rooms at Santo Mauro, a Luxury Collection Hotel, Madrid do not have a fridge." (official, https://www.marriott.com/en-us/hotels/madlc-santo-mauro-a-luxury-collection-hotel-madrid/rooms/) |
+| ➖ | **c-3** WhataHotel notes limited room inventory due to the hotel's boutique size. | WhataHotel's own offer or statement |

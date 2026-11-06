@@ -1,0 +1,610 @@
+{
+  "hotel_slug": "four-seasons-paris-george-v",
+  "hotel_name": "Four Seasons Paris, George V",
+  "checked_at": "2026-10-06T06:27:07.000Z",
+  "script_version": 2,
+  "decision": {
+    "eligible": false,
+    "blockers": [
+      "contradicted by a source: f-2, h-1"
+    ],
+    "counts": {
+      "supported": 11,
+      "contradicted": 2,
+      "unverified": 0,
+      "exempt": 7,
+      "total": 20
+    }
+  },
+  "applied": false,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://press.fourseasons.com/paris/hotel-facts/",
+      "tier": "official",
+      "chars": 5708
+    },
+    {
+      "id": "d2",
+      "url": "https://en.wikipedia.org/wiki/Four_Seasons_Hotel_George_V",
+      "tier": "press",
+      "chars": 9954
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/paris/",
+      "tier": "official",
+      "chars": 7872
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/paris/dining/",
+      "tier": "official",
+      "chars": 12116
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/paris/spa/",
+      "tier": "official",
+      "chars": 6410
+    },
+    {
+      "id": "d6",
+      "url": "https://www.fourseasons.com/paris/accommodations/",
+      "tier": "official",
+      "chars": 6589
+    },
+    {
+      "id": "d7",
+      "url": "https://www.fourseasons.com/paris/services-and-amenities/",
+      "tier": "official",
+      "chars": 2337
+    },
+    {
+      "id": "d8",
+      "url": "https://www.fourseasons.com/paris/getting-here/",
+      "tier": "official",
+      "chars": 1604
+    },
+    {
+      "id": "d9",
+      "url": "https://www.fourseasons.com/paris/contact-us/",
+      "tier": "official",
+      "chars": 1776
+    },
+    {
+      "id": "d10",
+      "url": "https://www.fourseasons.com/paris/photos-and-videos/",
+      "tier": "official",
+      "chars": 2723
+    },
+    {
+      "id": "d11",
+      "url": "https://www.fourseasons.com/paris/discover/",
+      "tier": "official",
+      "chars": 1254
+    },
+    {
+      "id": "d12",
+      "url": "https://www.cntraveler.com/hotels/paris/four-seasons-hotel-george-v-paris",
+      "tier": "editorial",
+      "chars": 6710
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The historic George V hotel was built in 1928 and became a Four Seasons hotel in 1999 after a two-year renovation.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Historic George V hotel built in 1928, converted to a Four Seasons hotel in 1999 following a two-year renovation",
+          "note": "Covers the build year, the conversion year and the two-year renovation.",
+          "url": "https://press.fourseasons.com/paris/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "He then spent $120 million renovating the hotel, closing the hotel for two years.",
+          "note": "Confirms the two-year renovation closure; the hotel reopened in December 1999.",
+          "url": "https://en.wikipedia.org/wiki/Four_Seasons_Hotel_George_V",
+          "tier": "press",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel has 243 rooms: 183 guest rooms and 60 suites, over 8 stories.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Total Number of Rooms:** 243",
+          "note": "Total room count.",
+          "url": "https://press.fourseasons.com/paris/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Guest Rooms:** 183",
+          "note": "Guest room count.",
+          "url": "https://press.fourseasons.com/paris/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Suites:** 60",
+          "note": "Suite count.",
+          "url": "https://press.fourseasons.com/paris/hotel-facts/",
+          "tier": "official",
+          "quote_verified": false
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Number of Stories:** 8",
+          "note": "Number of stories.",
+          "url": "https://press.fourseasons.com/paris/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "contradicted",
+          "doc_id": "d2",
+          "quote": "Numberofrooms | 244",
+          "note": "Wikipedia gives 244 rooms.",
+          "url": "https://en.wikipedia.org/wiki/Four_Seasons_Hotel_George_V",
+          "tier": "press",
+          "quote_verified": true
+        },
+        {
+          "verdict": "contradicted",
+          "doc_id": "d2",
+          "quote": "Numberofsuites | 59",
+          "note": "Wikipedia gives 59 suites.",
+          "url": "https://en.wikipedia.org/wiki/Four_Seasons_Hotel_George_V",
+          "tier": "press",
+          "quote_verified": true
+        },
+        {
+          "verdict": "contradicted",
+          "doc_id": "d12",
+          "quote": "the 244 rooms and suites are your dream Paris pied-à-terre",
+          "note": "Condé Nast Traveler gives 244 rooms and suites.",
+          "url": "https://www.cntraveler.com/hotels/paris/four-seasons-hotel-george-v-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "contradicted",
+      "reason": "a source says something different"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The address is 31 avenue George V, 75008 Paris, in the Golden Triangle designer shopping district, bordered by the Champs-Élysées, Avenue Marceau and Avenue Montaigne.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "31, avenue George V, 75008 Paris, France",
+          "note": "Address.",
+          "url": "https://press.fourseasons.com/paris/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "In the heart of the city's Golden Triangle designer shopping district (bordered by the Champs-Elysées, Avenue Marceau and Avenue Montaigne)",
+          "note": "Golden Triangle location and its borders.",
+          "url": "https://press.fourseasons.com/paris/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Four Seasons describes the design as historic Art Deco, with classical French furnishings combined with modern contemporary furniture; interior designer Pierre-Yves Rochon.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Historic Art Deco hotel",
+          "note": "Design aesthetic.",
+          "url": "https://press.fourseasons.com/paris/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Classical French furnishings combined with modern contemporary furniture",
+          "note": "Furnishings.",
+          "url": "https://press.fourseasons.com/paris/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Interior Designer:** Pierre-Yves Rochon",
+          "note": "Interior designer.",
+          "url": "https://press.fourseasons.com/paris/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Four Seasons lists Le Cinq (three Michelin stars, modern French cuisine, Executive Chef Christian Le Squer), L'Orangerie (two Michelin stars) and Le George (one Michelin star, Mediterranean cuisine designed for sharing).",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Restaurant:** Le Cinq\n\n- **Three Michelin Stars**\n- **Cuisine:** Elegant, modern French cuisine",
+          "note": "Le Cinq stars and cuisine.",
+          "url": "https://press.fourseasons.com/paris/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Executive Chef:** Christian Le Squer",
+          "note": "Executive chef of Le Cinq.",
+          "url": "https://press.fourseasons.com/paris/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Restaurant:** L'Orangerie\n\n- **Two Michelin Stars**",
+          "note": "L'Orangerie stars.",
+          "url": "https://press.fourseasons.com/paris/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Restaurant:** Le George\n\n- **One Michelin Star**\n- **Cuisine:** Mediterranean cuisine, designed for sharing",
+          "note": "Le George stars and cuisine.",
+          "url": "https://press.fourseasons.com/paris/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Other dining and drinking venues are the lounge La Galerie and Le Bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Lounge:** La Galerie",
+          "note": "La Galerie is listed as a lounge.",
+          "url": "https://press.fourseasons.com/paris/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Lounge:** Le Bar",
+          "note": "Le Bar is listed.",
+          "url": "https://press.fourseasons.com/paris/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Le Spa opened in July 2018 with a 17-metre swimming pool, a vitality pool, two hammams, a hair salon and a fitness centre.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Opening date:** July 2018",
+          "note": "Spa opening date.",
+          "url": "https://press.fourseasons.com/paris/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "17-metre (55-foot) swimming pool",
+          "note": "Pool length.",
+          "url": "https://press.fourseasons.com/paris/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "34°C vitality pool experience",
+          "note": "Vitality pool.",
+          "url": "https://press.fourseasons.com/paris/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "2 Hammams for men and women",
+          "note": "Two hammams.",
+          "url": "https://press.fourseasons.com/paris/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Stylish hair salon",
+          "note": "Hair salon.",
+          "url": "https://press.fourseasons.com/paris/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Fitness centre",
+          "note": "Fitness centre.",
+          "url": "https://press.fourseasons.com/paris/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel is steps from the Champs-Élysées, Arc de Triomphe, Place de la Concorde and the Eiffel Tower, per Four Seasons.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Steps to Champs-Elysées, Arc de Triomphe, Place de la Concorde, Eiffel Tower",
+          "note": "All four landmarks are listed.",
+          "url": "https://press.fourseasons.com/paris/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Le Cinq holds three Michelin stars, with Christian Le Squer as Executive Chef; two more restaurants in the hotel, L'Orangerie and Le George, hold two and one stars.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Executive Chef:** Christian Le Squer",
+          "note": "Le Cinq's executive chef.",
+          "url": "https://press.fourseasons.com/paris/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Restaurant:** Le Cinq\n\n- **Three Michelin Stars**",
+          "note": "Le Cinq has three stars.",
+          "url": "https://press.fourseasons.com/paris/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Restaurant:** L'Orangerie\n\n- **Two Michelin Stars**",
+          "note": "L'Orangerie has two stars.",
+          "url": "https://press.fourseasons.com/paris/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Restaurant:** Le George\n\n- **One Michelin Star**",
+          "note": "Le George has one star.",
+          "url": "https://press.fourseasons.com/paris/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "contradicted",
+          "doc_id": "d12",
+          "quote": "This is the first hotel in Europe to feature five Michelin stars under one roof—garnered here by three distinct restaurants.",
+          "note": "Condé Nast Traveler gives a total of five stars, which is incompatible with 3+2+1.",
+          "url": "https://www.cntraveler.com/hotels/paris/four-seasons-hotel-george-v-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "contradicted",
+      "reason": "a source says something different"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The hotel sits in the Golden Triangle shopping district, with Avenue Montaigne and the Champs-Élysées as its borders.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "In the heart of the city's Golden Triangle designer shopping district (bordered by the Champs-Elysées, Avenue Marceau and Avenue Montaigne)",
+          "note": "Both named borders are covered.",
+          "url": "https://press.fourseasons.com/paris/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Art Deco building dates to 1928, and the hotel is decorated with fresh flowers (Four Seasons cites 9,000 flowers).",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Historic Art Deco hotel",
+          "note": "Art Deco.",
+          "url": "https://press.fourseasons.com/paris/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Hotel is decorated with 9,000 flowers",
+          "note": "9,000 flowers.",
+          "url": "https://press.fourseasons.com/paris/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "An art deco landmark built in 1928",
+          "note": "Built in 1928.",
+          "url": "https://www.fourseasons.com/paris/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d10",
+          "quote": "Stunning arrangements of fresh flowers by Jeff Leatham welcome you daily",
+          "note": "Fresh flowers.",
+          "url": "https://www.fourseasons.com/paris/photos-and-videos/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Le Spa has a 17-metre pool, a 34 degree vitality pool and two hammams.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "17-metre (55-foot) swimming pool",
+          "note": "Pool length.",
+          "url": "https://press.fourseasons.com/paris/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "34°C vitality pool experience",
+          "note": "Vitality pool temperature.",
+          "url": "https://press.fourseasons.com/paris/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "2 Hammams for men and women",
+          "note": "Two hammams.",
+          "url": "https://press.fourseasons.com/paris/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Pricing is ultra-luxury, reflecting the hotel's premium positioning.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The atmosphere is formal and may not suit all travelers.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "Le Spa has six treatment rooms, including one couple's suite.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Treatment Rooms:** 6 luxury treatment rooms including 1 couple's suite",
+          "note": "Six treatment rooms including one couple's suite.",
+          "url": "https://press.fourseasons.com/paris/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Our Spa is home to six elegant treatment rooms",
+          "note": "Confirms six treatment rooms.",
+          "url": "https://www.fourseasons.com/paris/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, breakfast for two is free daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers are combinable with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

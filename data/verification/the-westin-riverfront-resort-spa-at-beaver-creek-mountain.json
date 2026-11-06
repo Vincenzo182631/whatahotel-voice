@@ -1,0 +1,340 @@
+{
+  "hotel_slug": "the-westin-riverfront-resort-spa-at-beaver-creek-mountain",
+  "hotel_name": "The Westin Riverfront Resort & Spa at Beaver Creek Mountain",
+  "checked_at": "2026-11-05T09:53:54.178Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 0,
+      "total": 17
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/egewr-the-westin-riverfront-mountain-villas-beaver-creek-mountain/overview/",
+      "tier": "official",
+      "chars": 17725
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/egewr-the-westin-riverfront-mountain-villas-beaver-creek-mountain/rooms/",
+      "tier": "official",
+      "chars": 8546
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/egewr-the-westin-riverfront-mountain-villas-beaver-creek-mountain/experiences/",
+      "tier": "official",
+      "chars": 14185
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/egewr-the-westin-riverfront-mountain-villas-beaver-creek-mountain/dining/",
+      "tier": "official",
+      "chars": 5862
+    },
+    {
+      "id": "d5",
+      "url": "https://www.marriott.com/en-us/hotels/egewr-the-westin-riverfront-mountain-villas-beaver-creek-mountain/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "chars": 2194
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The resort offers studio, one-bedroom and two-bedroom villas with furnished balconies or patios.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Your renewing retreat at The Westin Riverfront Mountain Villas is a stylish studio, one- or two-bedroom villa offering relaxing moments on furnished balconies or patios.",
+          "note": "Covers all three villa types and the furnished balconies or patios.",
+          "url": "https://www.marriott.com/en-us/hotels/egewr-the-westin-riverfront-mountain-villas-beaver-creek-mountain/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Villas have a kitchen or kitchenette, washers and dryers, and living spaces.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Villas come complete with luxurious like-home comforts including a kitchen or kitchenette, washers/dryers, living spaces, complimentary Wi-Fi, and resort amenities without the resort fees.",
+          "note": "Covers every listed element.",
+          "url": "https://www.marriott.com/en-us/hotels/egewr-the-westin-riverfront-mountain-villas-beaver-creek-mountain/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Two-bedroom villas have two living areas, separate dining spaces, and a kitchen and kitchenette.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "this spacious villa features two inviting living areas, separate dining spaces, and a well equipped kitchen and kitchenette.",
+          "note": "Appears in the two-bedroom villa section.",
+          "url": "https://www.marriott.com/en-us/hotels/egewr-the-westin-riverfront-mountain-villas-beaver-creek-mountain/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The two-bedroom villa sleeps up to eight.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The largest occupancy room at The Westin Riverfront Mountain Villas, Beaver Creek Mountain is the 2 Bedroom Villa with a maximum occupancy of 8.",
+          "note": "Maximum occupancy of 8 matches the claim.",
+          "url": "https://www.marriott.com/en-us/hotels/egewr-the-westin-riverfront-mountain-villas-beaver-creek-mountain/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Spa Anjali has a full-service salon.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Featuring 14 treatment rooms and a full-service salon",
+          "note": "Appears in the Spa Anjali description.",
+          "url": "https://www.marriott.com/en-us/hotels/egewr-the-westin-riverfront-mountain-villas-beaver-creek-mountain/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Athletic Club at Westin has Technogym and Peloton equipment and offers classes including yoga and Pilates.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "a world‑class fitness center featuring Technogym and Peloton equipment",
+          "note": "Describes the Athletic Club at Westin.",
+          "url": "https://www.marriott.com/en-us/hotels/egewr-the-westin-riverfront-mountain-villas-beaver-creek-mountain/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Enjoy a variety of fitness classes, including yoga, Pilates, and more.",
+          "note": "Covers the classes.",
+          "url": "https://www.marriott.com/en-us/hotels/egewr-the-westin-riverfront-mountain-villas-beaver-creek-mountain/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Colletta serves modern Italian cuisine with house-made pastas and wood-fired pizzas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Enjoy lively, modern Italian cuisine at Colletta, featuring house-made pastas, wood-fired pizzas, and delightful cocktails.",
+          "note": "Covers every element.",
+          "url": "https://www.marriott.com/en-us/hotels/egewr-the-westin-riverfront-mountain-villas-beaver-creek-mountain/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Year-round activities include skiing, hiking, biking, fishing and whitewater rafting.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Enjoy year-round resort activities like skiing, hiking, biking, fishing, and thrilling whitewater rafting.",
+          "note": "Lists all five activities as year-round.",
+          "url": "https://www.marriott.com/en-us/hotels/egewr-the-westin-riverfront-mountain-villas-beaver-creek-mountain/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "In summer guests can fly-fish, kayak and raft on the Eagle River.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Get up to some summertime fun in Beaver Creek with fly-fishing, kayaking and rafting on Eagle River",
+          "note": "Covers summer, fly-fishing, kayaking, rafting and the Eagle River.",
+          "url": "https://www.marriott.com/en-us/hotels/egewr-the-westin-riverfront-mountain-villas-beaver-creek-mountain/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Riverfront Express Gondola, steps from the villas, connects Avon to Beaver Creek Mountain.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Just steps from your Vail Valley villa, the Riverfront Express Gondola provides seamless access from Avon to Beaver Creek Mountain",
+          "note": "Covers the location and the connection.",
+          "url": "https://www.marriott.com/en-us/hotels/egewr-the-westin-riverfront-mountain-villas-beaver-creek-mountain/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The resort is at the base of Beaver Creek Mountain.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Nestled at the base of Beaver Creek Mountain, The Westin Riverfront Mountain Villas offers majestic views.",
+          "note": "Directly states the location.",
+          "url": "https://www.marriott.com/en-us/hotels/egewr-the-westin-riverfront-mountain-villas-beaver-creek-mountain/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The resort has a heated 25-yard saltwater lap pool, open year-round, and three infinity hot tubs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Unwind in the refreshing mountain air with a heated 25‑yard saltwater lap pool, open year‑round and ideal for both energizing swims and leisurely relaxation. Then ease into one of three infinity hot tubs",
+          "note": "Covers the pool details and three infinity hot tubs.",
+          "url": "https://www.marriott.com/en-us/hotels/egewr-the-westin-riverfront-mountain-villas-beaver-creek-mountain/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported",
+      "reason": "a source says something different"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Spa Anjali's treatments draw on Alpine European techniques, Himalayan Ayurvedic practices and Native American healing traditions of the Rocky Mountains.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Experience restorative Alpine European techniques, Himalayan Ayurvedic practices, and Native American healing traditions rooted in the Rocky Mountains",
+          "note": "Describes Spa Anjali treatments.",
+          "url": "https://www.marriott.com/en-us/hotels/egewr-the-westin-riverfront-mountain-villas-beaver-creek-mountain/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Lobby Bar & Lounge looks out over Beaver Creek and the Eagle River.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Experience breathtaking vistas of Beaver Creek and the Eagle River.",
+          "note": "Appears in The Lobby Bar & Lounge description.",
+          "url": "https://www.marriott.com/en-us/hotels/egewr-the-westin-riverfront-mountain-villas-beaver-creek-mountain/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The property is a vacation ownership resort.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Discover this vacation ownership resort",
+          "note": "Explicitly identifies the property as a vacation ownership resort.",
+          "url": "https://www.marriott.com/en-us/hotels/egewr-the-westin-riverfront-mountain-villas-beaver-creek-mountain/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Pets are not allowed.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "No, pets are not allowed at The Westin Riverfront Mountain Villas, Beaver Creek Mountain.",
+          "note": "Explicit pet policy.",
+          "url": "https://www.marriott.com/en-us/hotels/egewr-the-westin-riverfront-mountain-villas-beaver-creek-mountain/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "Eagle County Airport is the closest airport, about 35 miles away.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The closest airport near The Westin Riverfront Mountain Villas, Beaver Creek Mountain is Eagle County Airport (EGE). EGE is located approximately 35.0 Miles from the hotel.",
+          "note": "Covers both the closest airport and the distance.",
+          "url": "https://www.marriott.com/en-us/hotels/egewr-the-westin-riverfront-mountain-villas-beaver-creek-mountain/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

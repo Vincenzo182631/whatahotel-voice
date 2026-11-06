@@ -1,0 +1,375 @@
+{
+  "hotel_slug": "nimb-hotel",
+  "hotel_name": "Nimb Hotel",
+  "checked_at": "2026-10-17T13:26:45.557Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.nimb.dk/en",
+      "tier": "official",
+      "chars": 2783
+    },
+    {
+      "id": "d2",
+      "url": "https://www.nimb.dk/en/wellness/",
+      "tier": "official",
+      "chars": 3566
+    },
+    {
+      "id": "d3",
+      "url": "https://www.nimb.dk/en/hotel/",
+      "tier": "official",
+      "chars": 3030
+    },
+    {
+      "id": "d4",
+      "url": "https://www.cntraveler.com/hotels/denmark/frederiksberg/nimb-hotel",
+      "tier": "editorial",
+      "chars": 10732
+    },
+    {
+      "id": "d5",
+      "url": "https://www.nimb.dk/en/restaurant-bar/",
+      "tier": "official",
+      "chars": 2484
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Nimb is in the heart of Copenhagen and offers views to the Tivoli Gardens amusement park.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "In the heart of Copenhagen, you find unforgettable Nimb that offers views to the magical Tivoli Gardens amusement park.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.nimb.dk/en",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Nimb is right by Copenhagen's central station.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Nimb is right by the central station",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/denmark/frederiksberg/nimb-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Nimb is owned by Tivoli Gardens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Nimb is owned by Tivoli Gardens",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/denmark/frederiksberg/nimb-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "In 2007 the building underwent a massive update and reopened as a luxury boutique hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "In 2007, the building underwent a massive update and reopened as a luxury boutique hotel.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/denmark/frederiksberg/nimb-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The rooms and suites are uniquely decorated.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Nimb Hotel's 38 uniquely decorated rooms and suites blend intimate charm with timeless magic.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.nimb.dk/en/hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The rooms' look pairs Nordic minimalism with Asian opulence.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "the overall look is remarkably consistent: Nordic minimalism meets Asian opulence",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/denmark/frederiksberg/nimb-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Nimb Wellness is a 300-square-metre area with a hammam, a steam area and a relaxation area with free refreshments.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "We have created a true 300 m2 oasis for you at Nimb. Experience the wonderful hammam and steam area with beautiful changing rooms and a relaxation area with free access to refreshments.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.nimb.dk/en/wellness/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Hotel guests have free access to Nimb Wellness, including the fitness studio, hammam and relaxation area.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Nimb Club members and hotel guests enjoy free access to Nimb Wellness, including the fitness studio, hammam and relaxation area.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.nimb.dk/en/wellness/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The wellness area offers cardio training in a specially designed 34-degree hot room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Nimb Wellness also offers access to cardio-training in a specially designed 34 degrees hot room.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.nimb.dk/en/wellness/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Nimb Brasserie serves French cuisine morning, noon and evening.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "French temptations morning, noon and evening",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.nimb.dk/en/restaurant-bar/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Nimb Bar serves cocktails and afternoon tea under chandeliers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Nimb Bar entices you with well-crafted cocktails and afternoon teas served under the splendid chandeliers",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.nimb.dk/en",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Hotel guests get unlimited entries and rides at Tivoli Gardens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The magical Tivoli Gardens to which, as a hotel guest, you get access to unlimited entries—and rides.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/denmark/frederiksberg/nimb-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The roof terrace has an emerald green pool where you can swim against a built-in tide, with a view of Copenhagen and Tivoli Gardens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Jump in the emerald green pool and swim against the built-in tide. Rinse off in the outdoor shower or lounge away your time with a view of Copenhagen and Tivoli Gardens.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.nimb.dk/en/hotel/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Enjoy the exclusive roof terrace created for your enjoyment and relaxation.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.nimb.dk/en/hotel/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The hotel is housed in a 1909 Moorish-inspired palace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Housed in a 1909 Moorish-inspired palace, Nimb blends its storied heritage with impeccable design and exceptional guest care.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/denmark/frederiksberg/nimb-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "At the heart of Nimb Wellness is a vaulted Moroccan hammam with a 50-degree steam bath.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "At the heart of Nimb Wellness, you find our beautifully vaulted Moroccan hammam. Here, you can relax in the 50°C steam bath after training",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.nimb.dk/en/wellness/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Each evening, turndown service brings sweet treats, foot baths and face masks to the bedside.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "the turndown service each evening delivers sweet treats as well as foot baths and face masks to your bedside",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/denmark/frederiksberg/nimb-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Not all rooms are wheelchair accessible, although all floors are served by an elevator; ask the booking team when reserving.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "All floors at Nimb are serviced by an elevator, making the entire hotel easily accessible for wheelchair users. However, not all rooms are wheelchair accessible, so enquire with the booking team when making your reservation",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/denmark/frederiksberg/nimb-hotel",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The minimum age for the wellness facilities is 16, though younger children with an adult are welcome in the hammam and relaxation area.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The minimum age to access the facilities is 16 years. However, younger children in the company of an adult are welcome in the hammam and relaxation area.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.nimb.dk/en/wellness/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing reflecting the exclusive location and luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

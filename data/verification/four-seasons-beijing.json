@@ -1,0 +1,417 @@
+{
+  "hotel_slug": "four-seasons-beijing",
+  "hotel_name": "Four Seasons Hotel Beijing",
+  "checked_at": "2026-10-08T02:55:28.234Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 16,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 6,
+      "total": 22
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://press.fourseasons.com/beijing/hotel-facts/",
+      "tier": "official",
+      "chars": 4913
+    },
+    {
+      "id": "d2",
+      "url": "https://www.fourseasons.com/beijing/",
+      "tier": "official",
+      "chars": 9666
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/beijing/dining/",
+      "tier": "official",
+      "chars": 6622
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/beijing/spa/",
+      "tier": "official",
+      "chars": 3586
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/beijing/services-and-amenities/",
+      "tier": "official",
+      "chars": 4023
+    },
+    {
+      "id": "d6",
+      "url": "https://www.fourseasons.com/beijing/getting-here/",
+      "tier": "official",
+      "chars": 3604
+    },
+    {
+      "id": "d7",
+      "url": "https://www.cntraveler.com/hotels/china/beijing/four-seasons-hotel-beijing",
+      "tier": "editorial",
+      "chars": 3247
+    },
+    {
+      "id": "d8",
+      "url": "https://www.fourseasons.com/beijing/accommodations/",
+      "tier": "official",
+      "chars": 6274
+    },
+    {
+      "id": "d9",
+      "url": "https://www.fourseasons.com/beijing/services-and-amenities/executive-club-lounge/",
+      "tier": "official",
+      "chars": 2284
+    },
+    {
+      "id": "d10",
+      "url": "https://www.fourseasons.com/beijing/services-and-amenities/family-and-couples/",
+      "tier": "official",
+      "chars": 8083
+    },
+    {
+      "id": "d11",
+      "url": "https://www.fourseasons.com/beijing/contact-us/",
+      "tier": "official",
+      "chars": 1550
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel opened in November 2012.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "November 2012",
+          "note": "Opening date listed as November 2012",
+          "url": "https://press.fourseasons.com/beijing/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel has 313 rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d10",
+          "quote": "our 313 rooms and suites feature connecting options for families travelling together",
+          "note": "313 rooms and suites",
+          "url": "https://www.fourseasons.com/beijing/services-and-amenities/family-and-couples/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "An elegant 313-room tower in the northeast corner of the Central Business District",
+          "note": "313-room",
+          "url": "https://www.cntraveler.com/hotels/china/beijing/four-seasons-hotel-beijing",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel has 27 floors.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Rising 27 floors above Chaoyang’s Liangmahe district",
+          "note": "27 floors",
+          "url": "https://www.fourseasons.com/beijing/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel is at 48 Liang Ma Qiao Road in the Chaoyang District of Beijing.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "48 Liang Ma Qiao Road, 100125 Chaoyang District, Beijing, China",
+          "note": "Address matches",
+          "url": "https://www.fourseasons.com/beijing/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The hotel is in the Liangma area of the Chaoyang District, home to most of the city's foreign embassies.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Our Hotel is located within the Liangma area of the Chaoyang District, home to most of the city’s foreign embassies",
+          "note": "Matches",
+          "url": "https://www.fourseasons.com/beijing/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Cai Yi Xuan is the hotel's Michelin-starred Cantonese restaurant.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Indulge in our Michelin-starred Cantonese cuisine",
+          "note": "Michelin-starred Cantonese",
+          "url": "https://www.fourseasons.com/beijing/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "authentic Cantonese dishes at Michelin-starred Cai Yi Xuan",
+          "note": "Names the restaurant",
+          "url": "https://www.fourseasons.com/beijing/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Mio is the hotel's Michelin-selected Italian restaurant.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Step into our Michelin-selected Italian restaurant in Beijing",
+          "note": "Mio is described this way; intro names Mio as Michelin-selected",
+          "url": "https://www.fourseasons.com/beijing/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Savour Italian specialties at Michelin-selected Mio",
+          "note": "Names Mio",
+          "url": "https://www.fourseasons.com/beijing/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Opus Lounge is an all-day lounge that serves afternoon tea.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "afternoon tea with family and friends at Opus Lounge. Our all-day lounge boasts artwork inspired by Chinese landscapes",
+          "note": "All-day lounge with afternoon tea",
+          "url": "https://www.fourseasons.com/beijing/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Opus Bar serves signature cocktails and wines.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "indulge in signature cocktails and exquisite wines",
+          "note": "Opus Bar serves signature cocktails and wines",
+          "url": "https://www.fourseasons.com/beijing/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel has a naturally lit indoor pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Naturally lit indoor 20 m / 66 ft lap pool",
+          "note": "Naturally lit indoor pool",
+          "url": "https://press.fourseasons.com/beijing/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Our naturally lit indoor pool, adjacent to our massage pool",
+          "note": "Naturally lit indoor pool",
+          "url": "https://www.fourseasons.com/beijing/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The Executive Club Lounge is on the 26th floor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d9",
+          "quote": "Located on the 26th floor, our Executive Club Lounge offers added service",
+          "note": "26th floor",
+          "url": "https://www.fourseasons.com/beijing/services-and-amenities/executive-club-lounge/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel's central atrium has 384 stainless-steel butterflies.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "central atrium with 384 stainless-steel butterflies",
+          "note": "384 butterflies",
+          "url": "https://www.fourseasons.com/beijing/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Tea Garden sits beneath the butterfly wall and is reminiscent of a Beijing courtyard.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Nestled beneath our towering butterfly wall, discover a sanctuary reminiscent of a timeless Beijing courtyard.",
+          "note": "Tea Garden beneath butterfly wall",
+          "url": "https://www.fourseasons.com/beijing/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The spa's couple's suite has a private bath and side-by-side treatment beds.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Our couple’s suite features a private bath and side-by-side treatment beds",
+          "note": "Matches",
+          "url": "https://www.fourseasons.com/beijing/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The three-bedroom Imperial Suite takes up the entire 27th floor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "this three-bedroom, ultra-luxe suite takes up our entire 27th floor",
+          "note": "Imperial Suite",
+          "url": "https://www.fourseasons.com/beijing/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel is a 30 minute drive from the Forbidden City.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "30 minute drive from the Forbidden City",
+          "note": "Matches",
+          "url": "https://press.fourseasons.com/beijing/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes a busy urban location with city traffic and noise.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, breakfast for two is free daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers can be combined with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

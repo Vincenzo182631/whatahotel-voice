@@ -1,0 +1,409 @@
+{
+  "hotel_slug": "the-standard-miami",
+  "hotel_name": "The Standard, Miami",
+  "checked_at": "2026-10-15T16:38:05.561Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.standardhotels.com/miami/properties/miami-beach",
+      "tier": "official",
+      "chars": 10321
+    },
+    {
+      "id": "d2",
+      "url": "https://www.standardhotels.com/culture/must-do-miami-2025/",
+      "tier": "official",
+      "chars": 17781
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is located on Belle Isle, steps away from South Beach.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located on Belle Isle, steps away from the action on South Beach",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.standardhotels.com/miami/properties/miami-beach",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Belle Isle, home of the hotel, was originally named Bull Island and is part of the Venetian Islands.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Originally named Bull Island, Belle Isle is the only natural island that makes up the Venetian Islands, home of our tropical oasis.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.standardhotels.com/miami/properties/miami-beach",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Standard Spa, Miami Beach is for adults and describes itself as less a hotel and more a spa with guest rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Standard Spa, Miami Beach is less a “hotel,” and more an adults-only spa with guest rooms.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.standardhotels.com/miami/properties/miami-beach",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel is set amidst tropical gardens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Set amidst peaceful tropical gardens",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.standardhotels.com/miami/properties/miami-beach",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The spa encourages the communal rituals of ancient bathing traditions.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Spa encourages the communal rituals of ancient bathing traditions",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.standardhotels.com/miami/properties/miami-beach",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The hotel runs a daily schedule of wellness and fitness classes and a workshop series with in-house staff and international teachers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "our daily schedule workshop series, along with our dedicated in-house staff, international teachers and guides",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.standardhotels.com/miami/properties/miami-beach",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "unlimited access to the Hydrotherapy Playground, gym, daily classes, and private member events",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.standardhotels.com/miami/properties/miami-beach",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The gym has Peloton bikes, treadmills and free weights.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "including state-of-the-art Peloton bikes, treadmills, weightlifting, as well as dumbbells, kettle bells, and free weights",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.standardhotels.com/miami/properties/miami-beach",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Guests may use the pool, spa and gym before check-in and after check-out.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Want to use the Pool, Spa or The Gym at The Standard, Miami before checking in or after checking out? You are welcome to arrive as early or stay as late as you'd like during your stay.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.standardhotels.com/miami/properties/miami-beach",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The lobby hosts events such as talks, readings and pop-ups.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "It also plays host to events, such as talks and readings, as well as pop-ups.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.standardhotels.com/miami/properties/miami-beach",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The shop sells surf and sun goods, from bikinis to bronzer to board shorts.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "offers all things surf and sun, from bikinis to bronzer to board shorts",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.standardhotels.com/miami/properties/miami-beach",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Lido Bayside serves global-inspired dining on the bay.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Sun-kissed, global-inspired dining on the bay.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.standardhotels.com/miami/properties/miami-beach",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Belle is a dining spot exclusively for hotel guests and members.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Exclusively for hotel guests and members only.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.standardhotels.com/miami/properties/miami-beach",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "we've introduced our newest dining destination, Belle.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.standardhotels.com/miami/properties/miami-beach",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "An indoor and outdoor hydrotherapy playground is complimentary to hotel guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Explore and indulge in our indoor and outdoor hydrotherapy playground. Complimentary for hotel guests.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.standardhotels.com/miami/properties/miami-beach",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Spa facilities include a Turkish-style hammam, an aroma steam room, a sauna, an ice room, a Roman waterfall hot tub, an arctic plunge, treatment baths and an infinity pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "You can select from hydrotherapy, Turkish-style hammam, aroma steam room, sauna, ice room, Roman waterfall hot tub, arctic plunge, treatment baths, and an infinity pool.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.standardhotels.com/miami/properties/miami-beach",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Rooms feature private terraces, many with outdoor soaking tubs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "rooms feature private terraces, many with outdoor soaking tubs",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.standardhotels.com/miami/properties/miami-beach",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The hotel hosts retreats, lectures, classes, seminars and events led by local, national and international figures in health, fitness, spirituality, art and more.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "With our comprehensive series of retreats, lectures, classes, seminars and events led by local, national and international luminaries in health, fitness, spirituality, sexuality, art, science, business and more",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.standardhotels.com/miami/properties/miami-beach",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Hotel guests get 15% off regular-priced admission to the Bass Museum of Art with their room key card, with a blackout during Miami Art Week.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Guests of The Standard enjoy 15% regular priced admission to the museum upon presentation of the hotel room key card  (blackout applies during Miami Art Week)",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.standardhotels.com/culture/must-do-miami-2025/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Celebrating its 60th anniversary season, **The Bass** is Miami Beach’s contemporary art museum.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.standardhotels.com/culture/must-do-miami-2025/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel is for adults, so it does not suit families travelling with children.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "is less a “hotel,” and more an adults-only spa with guest rooms",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.standardhotels.com/miami/properties/miami-beach",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The pool and spa are shared with outside visitors: Monday to Thursday day passes and memberships give non-guests access.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "You can reserve Day Passes online, Monday–Thursday, which grant you access to the Pool and our third-floor Spa amenities.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.standardhotels.com/miami/properties/miami-beach",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "All of the perks — unlimited access to the Hydrotherapy Playground, gym, daily classes, and private member events.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.standardhotels.com/miami/properties/miami-beach",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the hotel is on the quieter bay side rather than the ocean beachfront.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

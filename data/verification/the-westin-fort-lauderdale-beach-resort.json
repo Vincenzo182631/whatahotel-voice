@@ -1,0 +1,386 @@
+{
+  "hotel_slug": "the-westin-fort-lauderdale-beach-resort",
+  "hotel_name": "The Westin Fort Lauderdale Beach Resort",
+  "checked_at": "2026-11-05T10:07:43.160Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 16,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 17
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/flllw-the-westin-fort-lauderdale-beach-resort/overview/",
+      "tier": "official",
+      "chars": 21524
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/flllw-the-westin-fort-lauderdale-beach-resort/rooms/",
+      "tier": "official",
+      "chars": 10386
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/flllw-the-westin-fort-lauderdale-beach-resort/spa/",
+      "tier": "official",
+      "chars": 10916
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/flllw-the-westin-fort-lauderdale-beach-resort/experiences/",
+      "tier": "official",
+      "chars": 13846
+    },
+    {
+      "id": "d5",
+      "url": "https://www.marriott.com/en-us/hotels/flllw-the-westin-fort-lauderdale-beach-resort/dining/",
+      "tier": "official",
+      "chars": 6939
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Many rooms and suites offer ocean views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Settle into one of our well-appointed rooms and suites, many of which offer ocean views.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/flllw-the-westin-fort-lauderdale-beach-resort/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The Royal Palm Presidential Suite is a top-floor ocean-view corner suite with a whirlpool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Royal Palm",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/flllw-the-westin-fort-lauderdale-beach-resort/rooms/",
+          "tier": "official",
+          "quote_verified": false
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "1 Bedroom Presidential Suite, 1 King, Ocean view, Corner room, Top floor, Whirlpool",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/flllw-the-westin-fort-lauderdale-beach-resort/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Heavenly Spa has eight treatment rooms including couples' suites, an infrared sauna and a co-ed relaxation lounge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "featuring eight treatment rooms (including couples' suites), fresh, airy modern, décor, infrared sauna and co-ed relaxation lounge",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/flllw-the-westin-fort-lauderdale-beach-resort/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The WestinWORKOUT Fitness Studio is open 24/7.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "featuring 24/7 access to state-of-the-art gym equipment",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/flllw-the-westin-fort-lauderdale-beach-resort/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Outdoor wellness programs include yoga on the terrace, HIIT workouts and oceanside cycling.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Offering a variety of activities such as HIIT workouts, yoga on the terrace, and oceanside cycling",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/flllw-the-westin-fort-lauderdale-beach-resort/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "On the beach, guests can enjoy beach chairs and non-motorized water sports.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "There, guests can enjoy beach chairs and non-motorized water sports",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/flllw-the-westin-fort-lauderdale-beach-resort/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Lona Cocina & Tequileria is a Mexican restaurant led by chef Pablo Salas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Sample our Mexican restaurant in Ft. Lauderdale, helmed by renowned chef Pablo Salas.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/flllw-the-westin-fort-lauderdale-beach-resort/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "### Lona Cocina & Tequileria",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/flllw-the-westin-fort-lauderdale-beach-resort/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Las Olas Boulevard, with a square mile of shopping and dining, is a quick walk from the hotel along the promenade.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "walk the promenade to Las Olas Boulevard. Here, you'll find a square mile of upscale shopping and dining just a quick walk from our hotel.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/flllw-the-westin-fort-lauderdale-beach-resort/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Guests can tour the 'Venice of America' aboard the Water Taxi of Fort Lauderdale.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "tour the \"Venice of America\" with a ride aboard the Water Taxi of Fort Lauderdale.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/flllw-the-westin-fort-lauderdale-beach-resort/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Up to two pets are welcome per room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "We welcome you to bring up to two pets per room",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/flllw-the-westin-fort-lauderdale-beach-resort/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel is less than five miles from the Port Everglades cruise port.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our hotel is less than five miles from the cruise port",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/flllw-the-westin-fort-lauderdale-beach-resort/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Port Everglades cruise terminal",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/flllw-the-westin-fort-lauderdale-beach-resort/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "A skywalk connects the pool deck directly to the beach.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Cross our hotel's cleverly designed skywalk, which is directly connected from the pool deck to the beach.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/flllw-the-westin-fort-lauderdale-beach-resort/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The resort has 360-degree views of the Intracoastal Waterway and the Atlantic Ocean.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "With 360-degree views of the Intracoastal Waterway and Atlantic Ocean",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/flllw-the-westin-fort-lauderdale-beach-resort/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The 8,200-square-foot Heavenly Spa offers treatments inspired by tropical destinations such as Japan, Zanzibar, Fiji, Brazil, Costa Rica and Iceland.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Step into our 8,200-square-foot sanctuary of self-care",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/flllw-the-westin-fort-lauderdale-beach-resort/spa/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Inspired by the zen and tranquility of the globe’s most sought-after tropical destinations and exotic locales – from Japan, Zanzibar, Fiji, Brazil, Costa Rica, Iceland and beyond",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/flllw-the-westin-fort-lauderdale-beach-resort/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The oceanfront pool deck has an outdoor pool and Waves, the poolside bar and grill.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Cool off from the South Florida sun with a refreshing dip in our outdoor pool.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/flllw-the-westin-fort-lauderdale-beach-resort/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "unwind on the resort’s oceanfront pool deck with a cocktail or bite from Waves, our poolside bar and grill",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/flllw-the-westin-fort-lauderdale-beach-resort/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The beach is across the street, reached by the hotel's skywalk.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "take the skywalk across the street to the beach",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/flllw-the-westin-fort-lauderdale-beach-resort/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes a busy resort atmosphere during peak season.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

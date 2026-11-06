@@ -1,0 +1,401 @@
+{
+  "hotel_slug": "nantipa-beach-resort",
+  "hotel_name": "Nantipa Beach & Resort",
+  "checked_at": "2026-10-17T13:36:45.359Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://nantipa.com/",
+      "tier": "official",
+      "chars": 16749
+    },
+    {
+      "id": "d2",
+      "url": "https://nantipa.com/stays/",
+      "tier": "official",
+      "chars": 2654
+    },
+    {
+      "id": "d3",
+      "url": "https://nantipa.com/wellness/numu/",
+      "tier": "official",
+      "chars": 4736
+    },
+    {
+      "id": "d4",
+      "url": "https://nantipa.com/about-us/getting-here-around/",
+      "tier": "official",
+      "chars": 4396
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Hotel Nantipa is a beachfront boutique hotel in Santa Teresa, Costa Rica, on the Nicoya Peninsula.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Hotel Nantipa is a luxury beachfront boutique hotel in Santa Teresa, Costa Rica, where refined comfort meets the relaxed rhythm of the Nicoya Peninsula.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://nantipa.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The Nicoya Peninsula, where Nantipa is located, is one of the world's five Blue Zones.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Located on the Nicoya Peninsula, one of the world's five Blue Zones, Nantipa offers a wellness experience",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://nantipa.com/wellness/numu/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The beach, surf breaks, local restaurants and the Santa Teresa strip are within walking distance of the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Many of the best experiences are within walking distance: the beach, surf breaks, local restaurants, and the vibrant Santa Teresa strip are just steps away.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://nantipa.com/about-us/getting-here-around/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "In the Manti bungalows, floor-to-ceiling glass doors open to garden views, surrounded by forest.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our floor to ceiling glass doors open to garden views, making Manti ideal for a memorable honeymoon or just a romantic getaway surrounded by raw nature and the mystic sound of the forest.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://nantipa.com/stays/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "designed to make your private garden and forest experience as vivid as possible",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://nantipa.com/stays/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Nanku Suites are designed for small families or groups.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our Nanku Suites are perfect for small families or groups.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://nantipa.com/stays/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Numu offers daily yoga, meditation, breathwork, Pilates and sound healing sessions.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Daily yoga, meditation, breathwork, Pilates, and sound healing sessions offer space to move with intention",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://nantipa.com/wellness/numu/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Nantipa has a dedicated Yoga Shala.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "all centered around our dedicated Yoga Shala",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://nantipa.com/wellness/numu/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Numu's treatments use natural, eco-conscious products and locally inspired ingredients.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "using natural, eco-conscious products and locally inspired ingredients",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://nantipa.com/wellness/numu/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Manzu is the hotel's beachfront restaurant, serving Costa Rican cuisine with a refined twist alongside sunset cocktails.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Start the evening at our beachfront restaurant Manzú, where sunset cocktails meet Costa Rican cuisine with a refined twist.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://nantipa.com/about-us/getting-here-around/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Nantipa supports reforestation initiatives, beach preservation and community engagement.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Nantipa supports reforestation initiatives, beach preservation, community engagement, and responsible tourism practices",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://nantipa.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The concierge team can arrange private drivers for day trips to Montezuma and Cabo Blanco Nature Reserve.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Our concierge team can arrange private drivers for day trips to Montezuma, Cabo Blanco Nature Reserve, or the Nicoya Peninsula's hidden gems.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://nantipa.com/about-us/getting-here-around/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Bicycles are available at the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Bicycles are available at the hotel, perfect for short trips along the coast and nearby shops.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://nantipa.com/about-us/getting-here-around/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Ninta Beachfront Bungalows each have a terrace, a private plunge pool, a hammock and a double indoor/outdoor shower, with floor-to-ceiling glass doors opening to ocean views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The Ninta bungalows are made up of 80 square meters (800 square feet) of luxury space including an ample terrace, a private 3.5 x 3.5 meter (10 x 10 ft) plunge pool, hammock, king bed and double indoor/outdoor shower.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://nantipa.com/stays/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our floor to ceiling glass doors open to ocean views, making Ninta ideal for a memorable honeymoon",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://nantipa.com/stays/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Beachfront Villas are private three-bedroom villas with direct beach access, a fully equipped kitchen and a private pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Private three-bedroom luxury villas with direct beach access, fully equipped kitchen, large social area and private pool.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://nantipa.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Numu Wellness Center is an open-air wellness space set within the Nantipa Gardens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Set within the Nantipa Gardens, Numu Wellness Center is an open-air wellness sanctuary in Santa Teresa, Costa Rica",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://nantipa.com/wellness/numu/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Ninta, the name of the beachfront bungalows, is the Chorotegan word for beach.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "\"Ninta\" is the Chorotegan word for \"beach\"",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://nantipa.com/stays/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Tabacon Thermal Resort & Spa in the Arenal Volcano region is Nantipa's sister property, and retreats can extend there.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "retreat experiences can also extend to Tabacón Thermal Resort & Spa, Nantipa's sister property in the Arenal Volcano region",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://nantipa.com/wellness/numu/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The closest airstrip is Cobano Airport, reached by daily scheduled flights from San Jose operated by SANSA and Green Airways.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "both SANSA and Green Airways operate daily scheduled flights to Cóbano Airport (ACO), the closest airstrip to Santa Teresa",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://nantipa.com/about-us/getting-here-around/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Guests can drive or take a private transfer from San Jose via Route 27 and the Puntarenas-Paquera ferry.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Drive or arrange a private transfer from San José via Route 27 and the Puntarenas-Paquera ferry.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://nantipa.com/about-us/getting-here-around/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the remote location requires longer travel time.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

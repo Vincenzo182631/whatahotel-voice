@@ -1,0 +1,343 @@
+{
+  "hotel_slug": "the-langham-chicago",
+  "hotel_name": "The Langham, Chicago",
+  "checked_at": "2026-10-13T05:20:04.975Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 16,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 18
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.langhamhotels.com/en/the-langham/chicago/",
+      "tier": "official",
+      "chars": 9174
+    },
+    {
+      "id": "d2",
+      "url": "https://www.langhamhotels.com/en/the-langham/chicago/stay/",
+      "tier": "official",
+      "chars": 6099
+    },
+    {
+      "id": "d3",
+      "url": "https://www.langhamhotels.com/en/the-langham/chicago/dine/travelle/",
+      "tier": "official",
+      "chars": 6134
+    },
+    {
+      "id": "d4",
+      "url": "https://www.cntraveler.com/hotels/chicago/the-langham-chicago",
+      "tier": "editorial",
+      "chars": 5987
+    },
+    {
+      "id": "d5",
+      "url": "https://www.langhamhotels.com/en/the-langham/chicago/discover/our-neighbourhood/",
+      "tier": "official",
+      "chars": 6409
+    },
+    {
+      "id": "d6",
+      "url": "https://www.langhamhotels.com/en/the-langham/chicago/holidays-at-the-langham-chicago/",
+      "tier": "official",
+      "chars": 227
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is at 330 N. Wabash Ave., Chicago.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "330 N. Wabash Ave., Chicago, Illinois 60611",
+          "note": "address listed",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/chicago/the-langham-chicago",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Travelle serves seasonal American cuisine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Travelle serves seasonal American cuisine",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.langhamhotels.com/en/the-langham/chicago/dine/travelle/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Travelle lounge overlooks the Chicago River with panoramic cityscape and skyline views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The space, overlooking the Chicago River, features panoramic cityscape and skyline views.",
+          "note": "stated for the lounge",
+          "confirmed": true,
+          "url": "https://www.langhamhotels.com/en/the-langham/chicago/dine/travelle/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Bathrooms are clad in travertine stone.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Bathrooms come clad in the travertine stone Mies van der Rohe so loved.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/chicago/the-langham-chicago",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The glass between the bedroom and shower can be switched to opaque at the push of a button.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The glass between bedroom and shower can be switched to opaque for privacy at the push of a button.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/chicago/the-langham-chicago",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Guests of Executive Club Rooms and Suites get complimentary access to The Langham Club lounge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Guests of Executive Club Rooms and Suites enjoy complimentary access to The Langham Club lounge",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.langhamhotels.com/en/the-langham/chicago/stay/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Wi-Fi is included in the room rate.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Good Wi-Fi and included in the rate.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/chicago/the-langham-chicago",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel has a Cinema Suite for private film screenings.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Gather family and friends for an exclusive film screening in our contemporary Cinema Suite.",
+          "note": "private screening in Cinema Suite",
+          "confirmed": true,
+          "url": "https://www.langhamhotels.com/en/the-langham/chicago/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Chuan Spa is the hotel's spa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Chuan Spa is known for its luxurious quarters, innovative treatments, and thoughtful wellness programming.",
+          "note": "Chuan Spa described as the hotel's spa",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/chicago/the-langham-chicago",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The Kids Suite was created through a partnership with the Chicago Children's Museum.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Young ones will enjoy a stay in the Kids Suite, enhanced with special touches through a partnership with the Chicago Children’s Museum.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/chicago/the-langham-chicago",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel is housed in the last office building designed by architect Mies van der Rohe.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Langham, Chicago resides in the last office building designed by legendary architect Mies van der Rohe.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.langhamhotels.com/en/the-langham/chicago/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Travelle, the hotel's signature restaurant and bar, has interiors by designer David Rockwell.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our signature restaurant and bar, Travelle, features interiors by renowned designer David Rockwell.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.langhamhotels.com/en/the-langham/chicago/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "More than 140 artists' works are displayed throughout the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "More than 140 artists’ works are elegantly displayed throughout the hotel.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.langhamhotels.com/en/the-langham/chicago/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Travelle's views take in the circular Marina Towers next door.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Travelle Kitchen & Bar frames postcard views of the circular Marina Towers next door.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/chicago/the-langham-chicago",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Infinity Suite has a custom-painted grand piano.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "a custom-painted grand piano",
+          "note": "Infinity Suite description",
+          "confirmed": true,
+          "url": "https://www.langhamhotels.com/en/the-langham/chicago/stay/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "WhataHotel notes premium luxury pricing reflecting the high-end positioning.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes the formal atmosphere may feel less casual for some guests.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "Complimentary Langham Club lounge access is listed for Executive Club Rooms and Suites guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Guests of Executive Club Rooms and Suites enjoy complimentary access to The Langham Club lounge",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.langhamhotels.com/en/the-langham/chicago/stay/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

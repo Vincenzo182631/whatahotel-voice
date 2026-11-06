@@ -1,0 +1,72 @@
+{
+  "slug": "waldorf-astoria-bangkok",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Waldorf Astoria Bangkok",
+      "city": "Bangkok",
+      "country": "TH",
+      "chain": "hilton"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "hilton"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Bangkok, TH)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.hilton.com/en/hotels/bkkwawa-waldorf-astoria-bangkok/"
+    ],
+    "checked_at": "2026-10-15T09:47:33.446Z",
+    "status": "confirmed",
+    "official_url": "https://www.hilton.com/en/hotels/bkkwawa-waldorf-astoria-bangkok/",
+    "base_url": "https://www.hilton.com/en/hotels/bkkwawa-waldorf-astoria-bangkok/",
+    "host": "hilton.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.hilton.com/en/hotels/bkkwawa-waldorf-astoria-bangkok/",
+      "tier": "official",
+      "fetched_at": "2026-10-15T09:47:45.607Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.hilton.com/en/hotels/bkkwawa-waldorf-astoria-bangkok/",
+      "reason": "no same-property sub-page links found on the home page"
+    },
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 6,
+    "firecrawl_searches": 3,
+    "cache_hits": 0,
+    "direct_fetches": 0,
+    "pages": 1,
+    "chars": 169,
+    "est_claude_tokens": 42
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-15T09:48:24.318Z"
+}

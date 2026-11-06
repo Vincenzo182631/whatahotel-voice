@@ -1,0 +1,369 @@
+{
+  "hotel_slug": "kempinski-hotel-brazzaville",
+  "hotel_name": "Kempinski Hotel Brazzaville",
+  "checked_at": "2026-10-11T04:28:45.739Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 15,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 17
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.kempinski.com/en/hotel-brazzaville/overview/hotel-information/location/",
+      "tier": "official",
+      "chars": 1380
+    },
+    {
+      "id": "d2",
+      "url": "https://www.kempinski.com/en/hotel-brazzaville/overview/services-and-facilities/lady-in-red/",
+      "tier": "official",
+      "chars": 480
+    },
+    {
+      "id": "d3",
+      "url": "https://www.kempinski.com/en/hotel-brazzaville/overview/destination/summer-season-in-brazzaville/",
+      "tier": "official",
+      "chars": 6580
+    },
+    {
+      "id": "d4",
+      "url": "https://www.kempinski.com/en/hotel-brazzaville/overview/destination/congo-independence-day/",
+      "tier": "official",
+      "chars": 5476
+    },
+    {
+      "id": "d5",
+      "url": "https://www.kempinski.com/en/hotel-brazzaville/overview/hotel-information/prepare-your-stay/",
+      "tier": "official",
+      "chars": 1559
+    },
+    {
+      "id": "d6",
+      "url": "https://www.kempinski.com/en/hotel-brazzaville/overview",
+      "tier": "official",
+      "chars": 1010
+    },
+    {
+      "id": "d7",
+      "url": "https://www.kempinski.com/en/hotel-brazzaville/overview/hotel-information/loyalty/",
+      "tier": "official",
+      "chars": 942
+    },
+    {
+      "id": "d8",
+      "url": "https://www.kempinski.com/en/hotel-brazzaville/overview/hotel-information/our-hotel/",
+      "tier": "official",
+      "chars": 1399
+    },
+    {
+      "id": "d9",
+      "url": "https://www.kempinski.com/en/hotel-brazzaville/overview/destination/welcome-to-brazzaville/",
+      "tier": "official",
+      "chars": 1047
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is on the Congo River in the city center of Brazzaville, on Avenue Amilcar Cabral.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Kempinski Hotel Brazzaville is located on this avenue, in the city center, overlooking the Congo River.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.kempinski.com/en/hotel-brazzaville/overview/hotel-information/location/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "then turn right onto Avenue Amilcar Cabral.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.kempinski.com/en/hotel-brazzaville/overview/hotel-information/location/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Maya-Maya International Airport is about 15 minutes by car from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "takes approximately 15 minutes by car",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.kempinski.com/en/hotel-brazzaville/overview/hotel-information/location/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Nabemba Tower is a 3-minute walk from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Nabemba Tower – 500m \\| 3 minutes walk",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.kempinski.com/en/hotel-brazzaville/overview/hotel-information/location/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Airport transfers can be arranged on request, from executive sedans to SUVs for groups and families.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Luxury transportation can be arranged upon request, with options ranging from executive sedans to spacious SUVs for groups and families.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.kempinski.com/en/hotel-brazzaville/overview/hotel-information/location/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "La Capitale and Mosaïc serve menus that combine European culinary techniques with Congolese ingredients.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "La Capitale & Mosaïc: Experience menus where European culinary techniques meet Congolese ingredients",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.kempinski.com/en/hotel-brazzaville/overview/destination/summer-season-in-brazzaville/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Le Tropical is the outdoor dining venue, with river breezes and summer cocktails.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Le Tropical: The premier destination for outdoor dining. Enjoy river breezes, refreshing summer cocktails",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.kempinski.com/en/hotel-brazzaville/overview/destination/summer-season-in-brazzaville/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Le Café de Paris offers a European-style morning with artisanal pastries and coffee.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Le Café de Paris: Perfect for guests seeking a classic European-style morning with artisanal pastries and expertly crafted coffee",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.kempinski.com/en/hotel-brazzaville/overview/destination/summer-season-in-brazzaville/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel has an infinite swimming pool and a spa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Relax beside our infinite swimming pool, enjoy a restorative treatment at our luxury spa",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.kempinski.com/en/hotel-brazzaville/overview/destination/congo-independence-day/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The spa offers tailor-made treatments inspired by local botanicals.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "our Luxury Spa offers tailor-made treatments inspired by local botanicals",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.kempinski.com/en/hotel-brazzaville/overview/destination/summer-season-in-brazzaville/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The dry season runs from June to September, with cooler temperatures and lower humidity.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The dry season, from June to September, features cooler temperatures and lower humidity",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.kempinski.com/en/hotel-brazzaville/overview/hotel-information/prepare-your-stay/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Le 12 Waypoint is a rooftop venue for sundowners with views across the river towards the Kinshasa skyline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Le 12 Waypoint: A rooftop destination ideal for sundowners, with sweeping views stretching across the river towards the Kinshasa skyline.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.kempinski.com/en/hotel-brazzaville/overview/destination/summer-season-in-brazzaville/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Congo River-view rooms and suites have panoramic river views and private balconies.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Our Congo River-view rooms and suites offer panoramic views across the river’s vast expanse, allowing guests to witness one of Africa’s great waterways from the privacy of their own balcony.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.kempinski.com/en/hotel-brazzaville/overview/destination/summer-season-in-brazzaville/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Every guest is welcomed by the hotel's Lady in Red, a host dressed in red.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "every guest has been welcomed by our Lady in Red",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.kempinski.com/en/hotel-brazzaville/overview/services-and-facilities/lady-in-red/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Dressed in striking red, this impeccable host",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.kempinski.com/en/hotel-brazzaville/overview/services-and-facilities/lady-in-red/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The concierge can arrange private Congo River charters with sundowner refreshments.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Private Congo River charters complete with sundowner refreshments",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.kempinski.com/en/hotel-brazzaville/overview/destination/summer-season-in-brazzaville/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The rainy season runs from October to May, with warm temperatures, high humidity and brief heavy showers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The rainy season runs from October to May, bringing warm temperatures, high humidity and brief but heavy showers.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.kempinski.com/en/hotel-brazzaville/overview/hotel-information/prepare-your-stay/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes Brazzaville is a less-traveled destination that needs extra planning for visas and flight connections.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the city's luxury scene is still developing, so outside dining, shopping and entertainment choices may be more limited.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

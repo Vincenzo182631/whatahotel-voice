@@ -1,0 +1,397 @@
+{
+  "hotel_slug": "park-hyatt-busan",
+  "hotel_name": "Park Hyatt Busan",
+  "checked_at": "2026-10-13T08:42:49.164Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan",
+      "tier": "official",
+      "chars": 15516
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan/rooms/",
+      "tier": "official",
+      "chars": 20601
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan/dining/",
+      "tier": "official",
+      "chars": 5748
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan/parking-and-transportation/",
+      "tier": "official",
+      "chars": 1703
+    },
+    {
+      "id": "d5",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan/hotel-info/",
+      "tier": "official",
+      "chars": 899
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan/reviews/",
+      "tier": "official",
+      "chars": 14283
+    },
+    {
+      "id": "d7",
+      "url": "https://www.cntraveler.com/hotels/south-korea/busan/park-hyatt-busan",
+      "tier": "editorial",
+      "chars": 2829
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Park Hyatt Busan is in Haeundae, Busan, with views of the ocean and Gwangan Bridge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "A luxurious landmark address with sprawling views of the ocean and the famed Gwangan Bridge, Park Hyatt Busan is situated in the heart of Haeundae",
+          "note": "location and views stated",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel sits alongside shopping malls and the Busan Exhibition and Convention Center (BEXCO).",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "alongside world-class shopping malls and Busan Exhibition and Convention Center (BEXCO)",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Bathrooms have rain showers and bathtubs with custom Le Labo products.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "complete with rain showers, bathtubs and custom Le Labo products",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Family Ocean Suites are designed specifically for families.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Designed specifically for families, our Family Ocean Suites are located on floors 6 to 16.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Dining Room also prepares Korean cuisine reinterpreted in Park Hyatt style.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "prepare Korean cuisine reinterpreted in Park Hyatt style",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Living Room is an Italian restaurant on the 31st floor serving traditional Italian comfort food.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Living Room, an Italian restaurant located on the 31st floor",
+          "note": "floor and cuisine",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "serving a selection of traditional Italian comfort foods prepared with high-quality local ingredients",
+          "note": "comfort food",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Living Room Bar holds a Champagne & Jazz Night on the last Friday of each month.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "“Champagne & Jazz Night,” held on the last Friday of each month",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Lounge is on the 30th floor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Located on the 30th floor of Park Hyatt Busan, Lounge greets its guests",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Ocelas Spa has treatment rooms designed for couples.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Ocelas Spa offers seven treatment rooms, including two designed for couples",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel has a granite indoor swimming pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our 20-meter granite indoor swimming pool",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The fitness center has a private studio for personal training.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "a private studio for personal training",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "In the Marina Ocean Corner Suites, the king bed sits at the corner of the floor-to-ceiling windows, with sunsets behind Gwangan Bridge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The king size bed is located directly at the corner of our signature floor to ceiling windows where nightly sunsets are the backdrop of Busan’s famous Gwangan Bridge.",
+          "note": "Marina Ocean Corner Suite description",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Dining Room is the hotel's steak and seafood grill on the 32nd floor, with open kitchens and an open charcoal grill.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Dining Room, Steak & Seafood Grill restaurant of the hotel located on the 32nd floor",
+          "note": "name, type, floor",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The open kitchens allow guests to watch the professional chefs cook a variety of meats and seafood over the open charcoal grill",
+          "note": "open kitchens and charcoal grill",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The pool and sauna area has views of Gwangan Bridge at night.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our pool and sauna area is particularly gorgeous at night, with ambient lighting and stunning views of Gwangan Bridge.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Living Room Bar is on the 31st floor with a view of Gwangan Bridge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Living Room Bar is located on the 31st floor. Guests can enjoy the breathtaking view of Gwangan Bridge",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Patisserie, the hotel's pastry boutique at the entrance, serves homemade European pastries, chocolates and pralines.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Patisserie, the hotel’s pastry boutique located at the entrance of the hotel, serving homemade European pastries, chocolates and pralines",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Gimhae International Airport (PUS) is 25 kilometers from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Gimhae International Airport (PUS)25 kilometers",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Hotel limousines to and from the airport must be reserved in advance.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Private limousines are available to and from the hotel and airport and must be reserved in advance.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing and limited availability during peak seasons.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

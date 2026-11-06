@@ -1,0 +1,286 @@
+{
+  "hotel_slug": "the-westin-tokyo",
+  "hotel_name": "The Westin Tokyo",
+  "checked_at": "2026-11-05T10:50:26.658Z",
+  "script_version": 1,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 12,
+      "contradicted": 0,
+      "unverified": 1,
+      "exempt": 1,
+      "total": 14
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/tyowi-the-westin-tokyo/overview/",
+      "tier": "official",
+      "chars": 23549
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/tyowi-the-westin-tokyo/rooms/",
+      "tier": "official",
+      "chars": 10212
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/tyowi-the-westin-tokyo/dining/",
+      "tier": "official",
+      "chars": 7505
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/tyowi-the-westin-tokyo/experiences/",
+      "tier": "official",
+      "chars": 16421
+    },
+    {
+      "id": "d5",
+      "url": "https://www.marriott.com/en-us/hotels/tyowi-the-westin-tokyo/overview/what-to-expect/",
+      "tier": "official",
+      "chars": 15598
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Ebisu is a quiet upscale area of central Tokyo, moments from Shibuya, Daikanyama, Roppongi and Tokyo Tower.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The Westin Tokyo is situated in Ebisu, a quiet upscale area in central Tokyo, only moments away from Tokyo's thriving business and cultural centers like Shibuya, Daikanyama, Roppongi and Tokyo Tower.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/tyowi-the-westin-tokyo/overview/what-to-expect/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The lobby is designed around the concept of an orangery.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The lobby is designed around the concept of an orangery",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/tyowi-the-westin-tokyo/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Room design blends European elements with the surrounding greenery.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The Westin Tokyo's design concept seamlessly blends authentic European elements with the natural surroundings and their connection to the area",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/tyowi-the-westin-tokyo/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The Westin Club, on the top floor, has views of Tokyo Tower.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located on the top floor of our hotel in Tokyo city center, the Westin Club offers sweeping views of Tokyo Tower",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/tyowi-the-westin-tokyo/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Le Spa Parisien offers facial and body treatments in a classical French style.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "In the ambiance of classical French style, starting with personal service and consultation, Le Spa Parisien offers variety of treatments, select the best one according to your facial and body condition",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/tyowi-the-westin-tokyo/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "A Run Concierge recommends routes around the hotel and leads group runs when available.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Discover scenic routes around the hotel recommended by our Run Concierge, or join a group run led by a Run Concierge when available.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/tyowi-the-westin-tokyo/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The teppanyaki restaurant serves Yebisu Beef with views of Mount Fuji.",
+      "findings": [
+        {
+          "verdict": "partial",
+          "doc_id": "d3",
+          "quote": "Enjoy Yebisu Beef, one of the finest wagyu varieties, known for its superb marbling and rich flavor, with selected ingredients prepared by the chef before you with dramatic flair, complemented by views of Mount Fuji.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/tyowi-the-westin-tokyo/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "unverified",
+      "reason": "sources cover only part of the claim"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel holds Green Key eco-label certification.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Westin Tokyo has earned the internationally recognized Green Key eco-label certification.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/tyowi-the-westin-tokyo/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Westin Garden was designed by landscape artist Kazuyuki Ishihara and has 300 flower varieties, seasonal blooms and a stream.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Discover the Westin Garden - an urban oasis designed by world-renowned landscape artist Kazuyuki Ishihara. Boasting 300 flower varieties, seasonal blooms, and a tranquil stream",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/tyowi-the-westin-tokyo/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The hotel is steps from Ebisu Station, within Yebisu Garden Place, one stop from Shibuya.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Just steps from Ebisu Station in Tokyo, our hotel is set within the lush greenery and cultural charm of Yebisu Garden Place. Located one stop from Shibuya",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/tyowi-the-westin-tokyo/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Rooms have urban views, including Tokyo Tower.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "our rooms feature sweeping urban views, including Tokyo Tower",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/tyowi-the-westin-tokyo/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Lounge has a 10-meter atrium with marble columns and serves afternoon tea.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Enjoy an elegant afternoon tea at our downtown Tokyo restaurant with a seasonal view. The Lounge, crowned by a stunning 10-meter atrium, features majestic marble columns",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/tyowi-the-westin-tokyo/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Haneda Airport is the closest airport, about 15 kilometers away.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The closest airport near The Westin Tokyo is Tokyo International Airport - Haneda (HND). HND is located approximately 15.0 KM from the hotel.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/tyowi-the-westin-tokyo/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes the hotel is slightly removed from central Tokyo tourist hubs, so major attractions need transit.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

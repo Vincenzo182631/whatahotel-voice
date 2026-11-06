@@ -1,0 +1,71 @@
+{
+  "slug": "waldorf-astoria-beverly-hills",
+  "hotel": {
+    "name": "Waldorf Astoria Beverly Hills",
+    "url": "https://www.whatahotel.com/hotels/3235/waldorf-astoria-beverly-hills.html"
+  },
+  "chain": {
+    "name": "Hilton"
+  },
+  "checked_at": "2026-10-14T22:54:08.748Z",
+  "status": "needs_review",
+  "benefits": [
+    {
+      "kind": "breakfast",
+      "status": "confirmed",
+      "qualifiers": [],
+      "hotel_excerpt": "Free Breakfast for 2 Daily"
+    },
+    {
+      "kind": "wifi",
+      "status": "confirmed",
+      "qualifiers": [],
+      "hotel_excerpt": "Free Wi-Fi Access"
+    },
+    {
+      "kind": "upgrade",
+      "status": "confirmed",
+      "qualifiers": [
+        "availability"
+      ],
+      "hotel_excerpt": "Priority Upgrade if Available at Check-in"
+    },
+    {
+      "kind": "credit",
+      "status": "confirmed",
+      "amount": 100,
+      "qualifiers": [],
+      "hotel_excerpt": "$100 Credit"
+    },
+    {
+      "kind": "combinable",
+      "status": "unclear",
+      "qualifiers": [],
+      "hotel_excerpt": "Combinable with the Exclusive Perks"
+    }
+  ],
+  "issues": [
+    "no WhataHotel chain page found for this hotel; the chain cross-check was skipped (pass --chain-url to add it)",
+    "credit: WhataHotel mentions a higher credit for suites; the closing states only the perks table's amount",
+    "combinable: the chain page could not be checked, so combinability is not stated"
+  ],
+  "special_offers": [
+    "Third Night Free",
+    "Valid through September 30, 2026",
+    "Perks Comparison"
+  ],
+  "restrictions": [
+    "*For a reservation to qualify, the rate code describing the free night special must be available, selected & booked when completing the reservation online. As such, the free night is not automatic on any booking w/o the "
+  ],
+  "closing": {
+    "template": "if-you-book",
+    "text": "If you book through WhataHotel, the preferred rate comes with a $100 hotel credit, priority for an upgrade at check-in when one is available, complimentary Wi-Fi, and complimentary daily breakfast for two.",
+    "words": 32,
+    "benefits": [
+      "breakfast",
+      "wifi",
+      "upgrade",
+      "credit"
+    ]
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "hotel_slug": "grand-hyatt-cayman-resort",
+  "hotel_name": "Grand Hyatt Cayman Resort",
+  "checked_at": "2026-10-29T03:50:42.935Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 18
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/gcmgh-grand-hyatt-grand-cayman-resort-and-spa",
+      "tier": "official",
+      "chars": 11038
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/gcmgh-grand-hyatt-grand-cayman-resort-and-spa/rooms/",
+      "tier": "official",
+      "chars": 22363
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/gcmgh-grand-hyatt-grand-cayman-resort-and-spa/dining/",
+      "tier": "official",
+      "chars": 5457
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/gcmgh-grand-hyatt-grand-cayman-resort-and-spa/policies/",
+      "tier": "official",
+      "chars": 3748
+    },
+    {
+      "id": "d5",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/gcmgh-grand-hyatt-grand-cayman-resort-and-spa/parking-and-transportation/",
+      "tier": "official",
+      "chars": 2784
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/gcmgh-grand-hyatt-grand-cayman-resort-and-spa/hotel-info/",
+      "tier": "official",
+      "chars": 3539
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The resort is on the southern tip of Seven Mile Beach.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Ideally situated on the southern tip of Seven Mile Beach and just 10 minutes from Owen Roberts International Airport",
+          "note": "The official page states the southern tip of Seven Mile Beach location.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/gcmgh-grand-hyatt-grand-cayman-resort-and-spa",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The resort is 10 minutes from Owen Roberts International Airport.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Ideally situated on the southern tip of Seven Mile Beach and just 10 minutes from Owen Roberts International Airport",
+          "note": "The page states 10 minutes from the airport.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/gcmgh-grand-hyatt-grand-cayman-resort-and-spa",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Rooms have floor-to-ceiling windows and natural decor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "enhanced with natural decor, one king bed, a seating area with armchair, chaise and coffee table, thoughtful amenities and charming views of the island through floor-to-ceiling windows",
+          "note": "The 1 King Bed room description mentions both natural decor and floor-to-ceiling windows.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/gcmgh-grand-hyatt-grand-cayman-resort-and-spa/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Some oceanfront suites have a full kitchen and a dining table seating six.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "a separate living area with a sleeper sofa for extra guests, a full kitchen, a dining table seating six",
+          "note": "This is from the 1 Bedroom Ocean Front Suite description.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/gcmgh-grand-hyatt-grand-cayman-resort-and-spa/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Grand Club guests get daily breakfast in an indoor lounge with an oceanfront terrace and an evening cocktail hour.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Exclusive to Grand Club guests, enjoy daily breakfast in an elegant indoor lounge, complemented by an oceanfront terrace with refined dining and lounge seating. Each evening, return for cocktail hour",
+          "note": "The page covers breakfast, the indoor lounge, the oceanfront terrace and the evening cocktail hour.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/gcmgh-grand-hyatt-grand-cayman-resort-and-spa",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Camp Hyatt offers marine-themed activities for children ages 4 to 12.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Welcome to Camp Hyatt—a playful and engaging experience for children ages 4–12. With a thoughtfully planned selection of daily activities, campers can enjoy marine-themed adventures",
+          "note": "The page gives the age range and mentions marine-themed adventures.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/gcmgh-grand-hyatt-grand-cayman-resort-and-spa",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Resort activities include nonmotorized water sports such as kayaks and stand-up paddleboards, plus snorkeling gear.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Nonmotorized water sports equipment (kayak, standing paddle board, floating raft, water tricycle)",
+          "note": "Kayaks and paddle boards are listed among the resort fee inclusions.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/gcmgh-grand-hyatt-grand-cayman-resort-and-spa/policies/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Snorkeling gear rental",
+          "note": "Snorkeling gear is listed.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/gcmgh-grand-hyatt-grand-cayman-resort-and-spa/policies/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The resort offers local cultural experiences such as marine life sessions for children and thatch art.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Local cultural experiences (activities will vary and may include: Cayman marine life educational sessions for children, custom souvenir making, sessions with local craftsman, thatch art and coasters",
+          "note": "Both marine life sessions for children and thatch art are listed.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/gcmgh-grand-hyatt-grand-cayman-resort-and-spa/policies/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The fitness center has cardio and weight training equipment and space for yoga.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our modern fitness center has you covered with the latest cardio and weight training equipment, plus plenty of space for yoga and more.",
+          "note": "The page covers cardio and weight equipment as well as yoga space.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/gcmgh-grand-hyatt-grand-cayman-resort-and-spa",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Salt + Cinder is a globally inspired restaurant built around cooking with water and fire.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Salt + Cinder is a globally inspired restaurant that celebrates the art of cooking through the primal elements of water and fire.",
+          "note": "Matches the claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/gcmgh-grand-hyatt-grand-cayman-resort-and-spa/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Hi Tide is a terrace cevicheria perched above Lo Tide, designed for watching Cayman sunsets.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Perched above Lo Tide, Hi Tide is a terrace lounge designed for savoring the famed Cayman sunsets. This stylish cevichería serves",
+          "note": "The page describes Hi Tide as a terrace cevichería above Lo Tide, designed for sunsets.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/gcmgh-grand-hyatt-grand-cayman-resort-and-spa/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The resort has oceanfront pools, including a family pool, the spa's vitality pool and a main pool with a swim-up bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our oceanfront pools are thoughtfully designed for a variety of moments—playful for family fun, restorative calm in the spa’s vitality pool and refined relaxation at the main pool with handcrafted cocktails served from our swim-up bar.",
+          "note": "The page covers the family pool, the vitality pool and the main pool with a swim-up bar.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/gcmgh-grand-hyatt-grand-cayman-resort-and-spa",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Mera Spa has 14 indoor and outdoor treatment rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "in our serene, luxurious spa with 14 indoor and outdoor rooms",
+          "note": "The page gives 14 indoor and outdoor spa rooms.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/gcmgh-grand-hyatt-grand-cayman-resort-and-spa",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The 3 Bedroom Silver Thatch Residence is an oceanfront suite with a kitchen and an oversize furnished terrace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Get ready to go full vacation mode with your group in this three-bedroom oceanfront suite",
+          "note": "This establishes it as an oceanfront suite.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/gcmgh-grand-hyatt-grand-cayman-resort-and-spa/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "a kitchen, an additional full bathroom and an oversize terrace, 2221 square feet, with furnished sitting and dining areas",
+          "note": "This establishes the kitchen and the oversize furnished terrace.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/gcmgh-grand-hyatt-grand-cayman-resort-and-spa/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Many rooms and suites have balconies and ocean views and can connect to adjoining rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Many of our rooms and suites feature balconies and ocean views and can be connected to adjoining rooms",
+          "note": "Matches the claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/gcmgh-grand-hyatt-grand-cayman-resort-and-spa/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Dogs and cats under 70 pounds are welcome, up to two per reservation, at no charge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Dogs and cats weighing under 70 pounds and a maximum number of two pets per reservation are permitted complimentary during your stay.",
+          "note": "The policy covers the weight limit, the maximum of two pets and no charge.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/gcmgh-grand-hyatt-grand-cayman-resort-and-spa/policies/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Valet parking is free for guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Our guests may use our valet parking service at no charge.",
+          "note": "Valet parking is free.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/gcmgh-grand-hyatt-grand-cayman-resort-and-spa/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing that reflects the resort's luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

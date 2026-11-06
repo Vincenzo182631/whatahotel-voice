@@ -1,0 +1,489 @@
+{
+  "hotel_slug": "the-setai",
+  "hotel_name": "The Setai",
+  "checked_at": "2026-10-14T23:57:38.028Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 20,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 0,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.thesetaihotel.com/",
+      "tier": "official",
+      "chars": 2890
+    },
+    {
+      "id": "d2",
+      "url": "https://www.thesetaihotel.com/hotel-rooms-miami/ocean-suites/",
+      "tier": "official",
+      "chars": 3929
+    },
+    {
+      "id": "d3",
+      "url": "https://www.thesetaihotel.com/hotel-rooms-miami/art-deco-suites/",
+      "tier": "official",
+      "chars": 2608
+    },
+    {
+      "id": "d4",
+      "url": "https://www.thesetaihotel.com/miami-beach-restaurants/",
+      "tier": "official",
+      "chars": 4929
+    },
+    {
+      "id": "d5",
+      "url": "https://www.thesetaihotel.com/miami-beach-restaurants/jaya/",
+      "tier": "official",
+      "chars": 3098
+    },
+    {
+      "id": "d6",
+      "url": "https://www.thesetaihotel.com/miami-beach-restaurants/japon-lp/",
+      "tier": "official",
+      "chars": 4214
+    },
+    {
+      "id": "d7",
+      "url": "https://www.cntraveler.com/hotels/united-states/miami-beach/the-setai-miami-beach",
+      "tier": "editorial",
+      "chars": 8841
+    },
+    {
+      "id": "d8",
+      "url": "https://www.thesetaihotel.com/things-to-do-miami-beach/",
+      "tier": "official",
+      "chars": 5070
+    },
+    {
+      "id": "d9",
+      "url": "https://www.thesetaihotel.com/miami-beach-restaurants/lobby-bar/",
+      "tier": "official",
+      "chars": 1249
+    },
+    {
+      "id": "d10",
+      "url": "https://www.thesetaihotel.com/miami-beach-restaurants/ocean-grill/",
+      "tier": "official",
+      "chars": 2146
+    },
+    {
+      "id": "d11",
+      "url": "https://www.thesetaihotel.com/st-maarten/",
+      "tier": "official",
+      "chars": 178
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The Setai's Asian Art Deco building was designed by architect Henry Hohauser.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Asian Art Deco Building was designed by renowned architect Henry Hohauser",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thesetaihotel.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The building originally opened as the Dempsey-Vanderbilt hotel in 1937.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "originally opened as the Dempsey-Vanderbilt hotel in 1937",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thesetaihotel.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel has an oceanfront location at Collins Avenue and 20th Street in Miami Beach.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "oceanfront location (Collins Avenue at 20th Street) places you within walking distance of Miami Beach",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thesetaihotel.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The Ocean Suites are located in a modern high-rise tower.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Located on a soaring and modern high-rise, our Ocean Suites",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thesetaihotel.com/hotel-rooms-miami/ocean-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Ocean Suites stays include round-trip transfers between the Miami or Fort Lauderdale airports and ports.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "## Ocean View Suites Amenities:",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thesetaihotel.com/hotel-rooms-miami/ocean-suites/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Round-trip Transfers between Miami or Ft. Lauderdale Airports and Ports",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thesetaihotel.com/hotel-rooms-miami/ocean-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Pool Villas sit above the Spa Building on the second floor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The distinctive Pool Villas are located above the Spa Building on the second floor",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thesetaihotel.com/hotel-rooms-miami/art-deco-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Suites have handmade Swedish Duxiana king-sized beds.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Handmade Swedish Duxiana King-sized Bed",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thesetaihotel.com/hotel-rooms-miami/art-deco-suites/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Handmade Swedish Duxiana King-sized Bed",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thesetaihotel.com/hotel-rooms-miami/ocean-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Accessible Art Deco Studio Suites have ADA-compliant features such as accessible showers, toilets and sinks.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "we offer Art Deco Studio Suites that are appointed with ADA-compliant amenities like accessible showers, toilets, and sinks",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thesetaihotel.com/hotel-rooms-miami/art-deco-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Jaya serves Indian, Chinese, Thai and Balinese dishes in an indoor dining room and an open-air courtyard.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Jaya wows guests with a delectable Indian, Chinese, Thai and Balinese fare in its beautiful indoor dining room and alfresco courtyard",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thesetaihotel.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Jaya means victory in Sanskrit.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "victory’ in Sanskrit, Jaya was conceived",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thesetaihotel.com/miami-beach-restaurants/jaya/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Japón serves contemporary Japanese cuisine with an extensive sake selection.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "contemporary Japanese cuisine, complemented by an extensive sake selection",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thesetaihotel.com/miami-beach-restaurants/japon-lp/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Jet Skis are available to rent.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "got Jet Skis for rent",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/miami-beach/the-setai-miami-beach",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel has three infinity pools, each kept at a different temperature.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "trio of infinity pools, each one of which is maintained at a different temperature",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/miami-beach/the-setai-miami-beach",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "three pristine pools",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thesetaihotel.com/hotel-rooms-miami/art-deco-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The hotel has its own private stretch of beach with day beds.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "The hotel has its own private stretch of sand where you can chill out on a day bed",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/united-states/miami-beach/the-setai-miami-beach",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The nightly Asian Night Bazaar in the open-air courtyard features live performances by aerialists and contortionists.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Nestled in a lively al fresco courtyard, this nightly event",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thesetaihotel.com/miami-beach-restaurants/jaya/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Asian Night Bazaar features mesmerizing live performances by aerialists and contortionists",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thesetaihotel.com/miami-beach-restaurants/jaya/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Penthouse spans the entire 40th floor atop the Ocean Suites tower and has a private rooftop pool with city and beach views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "situated atop The Setai's soaring Ocean Suites, and spans the entire 40th floor",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thesetaihotel.com/hotel-rooms-miami/ocean-suites/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "boasts a private rooftop pool with panoramic city and beach vistas",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thesetaihotel.com/hotel-rooms-miami/ocean-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Ocean Grill is an open-air beachfront restaurant serving Mediterranean-Italian lunch and dinner.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "A lush, open-air beachfront dining experience awaits at Ocean Grill offering Mediterranean-Italian inspired lunch and dinner menus.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thesetaihotel.com/miami-beach-restaurants/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Ocean Drive is about 2 miles from the hotel, around 13 minutes by car.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "Ocean Drive, Miami Beach, FL.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thesetaihotel.com/things-to-do-miami-beach/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "- 2 Miles from The Setai Miami Beach\n- 13 Minutes Driving",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thesetaihotel.com/things-to-do-miami-beach/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Luggage storage is not offered on the property.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Luggage storage is not offered in property.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thesetaihotel.com/miami-beach-restaurants/jaya/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "A casual elegant dress code applies at Jaya.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "a casual elegant dress code is in place at Jaya",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.thesetaihotel.com/miami-beach-restaurants/jaya/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

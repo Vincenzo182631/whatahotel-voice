@@ -1,0 +1,333 @@
+{
+  "hotel_slug": "the-westin-pasadena",
+  "hotel_name": "The Westin Pasadena",
+  "checked_at": "2026-11-05T10:09:48.488Z",
+  "script_version": 1,
+  "decision": {
+    "eligible": false,
+    "blockers": [
+      "used in the script but not verified: f-1, f-2, h-1"
+    ],
+    "counts": {
+      "supported": 11,
+      "contradicted": 0,
+      "unverified": 4,
+      "exempt": 1,
+      "total": 16
+    }
+  },
+  "applied": false,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/laxpw-the-westin-pasadena/overview/",
+      "tier": "official",
+      "chars": 11195
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/laxpw-the-westin-pasadena/rooms/",
+      "tier": "official",
+      "chars": 6383
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/laxpw-the-westin-pasadena/dining/",
+      "tier": "official",
+      "chars": 5345
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is near Old Town Pasadena, the Pasadena Convention Center, the Civic Auditorium and the Rose Bowl Stadium.",
+      "findings": [
+        {
+          "verdict": "partial",
+          "doc_id": "d1",
+          "quote": "this modern retreat offers easy access to Old Town Pasadena, the Rose Bowl, and cultural landmarks",
+          "note": "see quote",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/laxpw-the-westin-pasadena/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "unverified",
+      "reason": "sources cover only part of the claim"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Rooms and suites have the Westin Heavenly Bed, and many have patio, courtyard or mountain views.",
+      "findings": [
+        {
+          "verdict": "partial",
+          "doc_id": "d2",
+          "quote": "Our Westin Heavenly room amenities include our signature Heavenly® Bed & are curated for wellbeing.",
+          "note": "see quote",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/laxpw-the-westin-pasadena/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "unverified",
+      "reason": "sources cover only part of the claim"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Each guestroom has a mini-fridge and Starbucks coffee.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our Old Town Pasadena hotel suites offer a mini-fridge and Starbucks coffee in each guestroom.",
+          "note": "see quote",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/laxpw-the-westin-pasadena/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The Presidential Suite is a one-bedroom suite with a balcony.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "1 Bedroom Presidential Suite",
+          "note": "see quote",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/laxpw-the-westin-pasadena/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "1 King, Sofa bed, Balcony",
+          "note": "see quote",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/laxpw-the-westin-pasadena/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Pet-friendly suites have a Heavenly Dog Bed and other special amenities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Pet-friendly suites in Pasadena, CA have plush a Heavenly Dog Bed and other special amenities",
+          "note": "see quote",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/laxpw-the-westin-pasadena/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The hotel is pet-friendly, allowing up to two pets of up to 40 pounds each.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Up to 2 pets are allowed per room. Each pet may weigh up to 40.0 lbs.",
+          "note": "see quote",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/laxpw-the-westin-pasadena/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The WestinWORKOUT Fitness Studio is open 24 hours a day, seven days a week.",
+      "findings": [
+        {
+          "verdict": "partial",
+          "doc_id": "d1",
+          "quote": "Open 7 days a week, 24 hours a day",
+          "note": "see quote",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/laxpw-the-westin-pasadena/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "unverified",
+      "reason": "sources cover only part of the claim"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Hollywood Burbank Airport is the closest airport, about 16 miles from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The closest airport near The Westin Pasadena is Hollywood Burbank Airport (BUR). BUR is located approximately 16.0 Miles from the hotel.",
+          "note": "see quote",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/laxpw-the-westin-pasadena/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The heated rooftop pool has views of Historic Old Town, Pasadena City Hall and the San Gabriel Mountains.",
+      "findings": [
+        {
+          "verdict": "partial",
+          "doc_id": "d1",
+          "quote": "the only hotel in Old Town Pasadena, CA with a rooftop pool, offering sweeping views of Historic Old Town, Pasadena City Hall, and the San Gabriel Mountains",
+          "note": "see quote",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/laxpw-the-westin-pasadena/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "unverified",
+      "reason": "sources cover only part of the claim"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The hotel sits at the foot of the San Gabriel Mountains.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "an urban oasis nestled at the foot of the San Gabriel Mountains",
+          "note": "see quote",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/laxpw-the-westin-pasadena/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Rooms offer views of the San Gabriel Mountains or historic Pasadena.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our hotel rooms in Pasadena, CA offer views to the San Gabriel Mountains or historic Pasadena",
+          "note": "see quote",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/laxpw-the-westin-pasadena/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Walnut suite is a larger one-bedroom suite with a mountain view.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Walnut",
+          "note": "see quote",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/laxpw-the-westin-pasadena/rooms/",
+          "tier": "official",
+          "quote_verified": false
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "1 Bedroom Larger Suite, 1 King, Sofa bed, Mountain view",
+          "note": "see quote",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/laxpw-the-westin-pasadena/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Ventanas serves California cuisine and has a sun-dappled patio with courtyard views for outdoor dining.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Ventanas features California cuisine and a sun-dappled patio with courtyard views for outdoor dining in Pasadena.",
+          "note": "see quote",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/laxpw-the-westin-pasadena/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The minimum age to check in is 18.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Minimum Age to Check In  18",
+          "note": "see quote",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/laxpw-the-westin-pasadena/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Self-parking does not have in and out privileges.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "No in and out privileges for self parking.",
+          "note": "see quote",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/laxpw-the-westin-pasadena/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes that reaching downtown Los Angeles attractions requires a drive or rideshare.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

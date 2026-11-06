@@ -1,0 +1,89 @@
+{
+  "slug": "roomers-parkview-a-luxury-collection",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Roomers ParkView, a Luxury Collection",
+      "city": "Frankfurt",
+      "country": "DE",
+      "chain": "marriott"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "marriott"
+    },
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "location matches (Frankfurt, DE)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.marriott.com/en-us/hotels/frarp-roomers-parkview-a-luxury-collection-hotel-frankfurt/overview/"
+    ],
+    "checked_at": "2026-10-24T05:49:06.333Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/frarp-roomers-parkview-a-luxury-collection-hotel-frankfurt/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/frarp-roomers-parkview-a-luxury-collection-hotel-frankfurt/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/frarp-roomers-parkview-a-luxury-collection-hotel-frankfurt/overview/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T05:49:20.543Z",
+      "source": "cache"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/frarp-roomers-parkview-a-luxury-collection-hotel-frankfurt/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T05:49:29.728Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/frarp-roomers-parkview-a-luxury-collection-hotel-frankfurt/dining/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T05:49:39.142Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/frarp-roomers-parkview-a-luxury-collection-hotel-frankfurt/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "fetched_at": "2026-10-24T05:49:40.397Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 3,
+    "cache_hits": 2,
+    "direct_fetches": 0,
+    "pages": 4,
+    "chars": 22918,
+    "est_claude_tokens": 5730
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-24T05:49:47.981Z"
+}

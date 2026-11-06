@@ -1,0 +1,452 @@
+{
+  "hotel_slug": "arizona-biltmore-resort-and-spa",
+  "hotel_name": "Arizona Biltmore Resort and Spa",
+  "checked_at": "2026-10-14T23:03:22.401Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hilton.com/en/hotels/phxbmol-arizona-biltmore/",
+      "tier": "official",
+      "chars": 3053
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hilton.com/en/hotels/phxbmol-arizona-biltmore/things-to-do/",
+      "tier": "official",
+      "chars": 5891
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hilton.com/en/hotels/phxbmol-arizona-biltmore/things-to-do/pools/",
+      "tier": "official",
+      "chars": 5292
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hilton.com/en/hotels/phxbmol-arizona-biltmore/dining/",
+      "tier": "official",
+      "chars": 3241
+    },
+    {
+      "id": "d5",
+      "url": "https://www.hilton.com/en/hotels/phxbmol-arizona-biltmore/spa/",
+      "tier": "official",
+      "chars": 2965
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hilton.com/en/hotels/phxbmol-arizona-biltmore/rooms/",
+      "tier": "official",
+      "chars": 9687
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "Firecrawl 402 search \"\"Arizona Biltmore Resort and Spa\" site:cntraveler.com\": Insufficient credits to perform this request. For more credits, you can upgrade yo"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The resort's architecture is influenced by Frank Lloyd Wright, and it has been a Phoenix landmark since 1929.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our resort, with architecture influenced by Frank Lloyd Wright, has been a Phoenix icon since 1929.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/phxbmol-arizona-biltmore/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The grounds cover 39 acres of desert gardens and reflect the design legacy of Frank Lloyd Wright and his protege Albert Chase McArthur.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Embark on an architectural adventure across 39 acres of desert gardens, winding pathways, and iconic architecture at the Arizona Biltmore.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/phxbmol-arizona-biltmore/things-to-do/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Discover a landscape where the beauty of the Sonoran Desert meets the visionary design legacy of Frank Lloyd Wright and his protégé, Albert Chase McArthur.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/phxbmol-arizona-biltmore/things-to-do/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Guests can explore the grounds' geometric patterns and signature Biltmore Blocks on an architectural walk.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Embark on an architectural adventure across 39 acres of desert gardens, winding pathways, and iconic architecture at the Arizona Biltmore.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/phxbmol-arizona-biltmore/things-to-do/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "As you explore, you’ll encounter geometric patterns, signature Biltmore Blocks, tranquil courtyards",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/phxbmol-arizona-biltmore/things-to-do/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The resort has seven swimming pools.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "With seven unique pools, luxury cabanas, poolside dining, and curated events and activities",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/phxbmol-arizona-biltmore/things-to-do/pools/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Seven swimming pools",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/phxbmol-arizona-biltmore/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Saguaro Pool is reserved for adults.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Reserved only for adults, Saguaro Pool offers an advanced escape where relaxation and refinement meet.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/phxbmol-arizona-biltmore/things-to-do/pools/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Tierra Luna Spa's treatments and rituals center on desert botanicals, cosmic connection and dynamic recovery.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Unwind at the Tierra Luna Spa with our treatments and rituals centered around desert botanicals, cosmic connection, and dynamic recovery.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/phxbmol-arizona-biltmore/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Renata's Hearth hosts Latin evenings centered on fire and flavor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Join us in this enchanting setting for lively Latin evenings and share the delights of fire and flavor, spirit, and aromatic wonder.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/phxbmol-arizona-biltmore/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "McArthur's Restaurant & Bar, formerly Frank & Albert's, serves New American food.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Nestled at the heart of the Arizona Biltmore is our beloved eatery, McArthur’s Restaurant & Bar. Formerly known as Frank & Albert’s, this reimagined restaurant celebrates a century of great taste with New American flavors",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/phxbmol-arizona-biltmore/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Cup & Cone is an art deco inspired cafe with espresso, homemade gelato and desserts.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "A new art deco inspired café offering hand roasted espresso and coffee beverages, homemade gelato and gourmet desserts.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/phxbmol-arizona-biltmore/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Guests have access to two championship golf courses.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Enjoy our pet-friendly rooms plus access to two championship golf courses",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/phxbmol-arizona-biltmore/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Rooms are pet-friendly.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Enjoy our pet-friendly rooms",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/phxbmol-arizona-biltmore/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The resort has tennis and pickleball courts, with Har-Tru tennis courts and coaching from PBI coaches.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Take your game to the next level at our new tennis and pickleball courts. Train with our PBI coaches",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/phxbmol-arizona-biltmore/things-to-do/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our Har-Tru Tennis courts are uniquely designed to keep you cool and reduce stress on your body.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/phxbmol-arizona-biltmore/things-to-do/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Catalina Pool is a resort landmark where famous guests, from Marilyn Monroe to Frank Sinatra, have gathered.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "A beloved landmark of the Arizona Biltmore, Catalina Pool embodies the resort’s enduring legacy. Many famous people have gathered around its waters, from Marilyn Monroe to Frank Sinatra.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/phxbmol-arizona-biltmore/things-to-do/pools/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Wrigley Mansion, a historic hilltop destination with Christopher's, Geordie's Restaurant and Jamie's Wine Bar, is now part of the Arizona Biltmore experience.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "From MICHELIN-recognized Christopher’s to Geordie’s Restaurant and Jamie’s Wine Bar, the Mansion invites discovery",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/phxbmol-arizona-biltmore/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Now part of the Arizona Biltmore experience, this historic hilltop destination also offers distinctive settings for private dining, weddings and special occasions.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/phxbmol-arizona-biltmore/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Saguaro Pool is home to a 140-year-old cactus named Lloyd.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "admire our 140-year-old cactus, Lloyd",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/phxbmol-arizona-biltmore/things-to-do/pools/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Access to the spa's outdoor Sol Garden is included with any 50-minute treatment at Tierra Luna Spa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Access to the refreshing tranquility of Sol Garden is offered with any 50-minute treatment enjoyed at the Tierra Luna Spa.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/phxbmol-arizona-biltmore/spa/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Sol Garden, the outdoor space of our spa",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/phxbmol-arizona-biltmore/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Paradise Pool, aimed at families, has a splash pad, a triple 65-foot waterslide and a swim-up bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Paradise Pool For Families",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/phxbmol-arizona-biltmore/things-to-do/pools/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Splash through the dedicated splash pad, race down a triple 65 foot waterslide, enjoy refreshments from the swim-up bar",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/phxbmol-arizona-biltmore/things-to-do/pools/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Room rates include a mandatory charge of 59 US dollars per night.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "**Price includes $59.00 USD** mandatory charge per night, but excludes taxes and government charges",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.hilton.com/en/hotels/phxbmol-arizona-biltmore/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes that the large resort property requires walking between facilities.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing reflecting the luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

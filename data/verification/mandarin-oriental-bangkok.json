@@ -1,0 +1,486 @@
+{
+  "hotel_slug": "mandarin-oriental-bangkok",
+  "hotel_name": "Mandarin Oriental, Bangkok",
+  "checked_at": "2026-10-08T13:36:06.193Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 6,
+      "total": 25
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/about",
+      "tier": "official",
+      "chars": 8780
+    },
+    {
+      "id": "d2",
+      "url": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/dine/the-authors-lounge",
+      "tier": "official",
+      "chars": 5224
+    },
+    {
+      "id": "d3",
+      "url": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/dine/the-bamboo-bar",
+      "tier": "official",
+      "chars": 5511
+    },
+    {
+      "id": "d4",
+      "url": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/dine/anne-sophie-pic-at-le-normandie",
+      "tier": "official",
+      "chars": 8921
+    },
+    {
+      "id": "d5",
+      "url": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/wellness/the-spa",
+      "tier": "official",
+      "chars": 6666
+    },
+    {
+      "id": "d6",
+      "url": "https://www.cntraveler.com/hotels/bangkok/mandarin-oriental-bangkok",
+      "tier": "editorial",
+      "chars": 9935
+    },
+    {
+      "id": "d7",
+      "url": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/wellness",
+      "tier": "official",
+      "chars": 8347
+    },
+    {
+      "id": "d8",
+      "url": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/stay/authors-suite",
+      "tier": "official",
+      "chars": 5078
+    },
+    {
+      "id": "d9",
+      "url": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/",
+      "tier": "official",
+      "chars": 7244
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel began as The Oriental Hotel in 1876.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "From our beginnings as The Oriental Hotel in 1876",
+          "note": "name and year stated",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/about",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel stands on the banks of the Chao Phraya River.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "stood as a sanctuary on the banks of the Chao Phraya River",
+          "note": "riverbank location",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/about",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel has 12 restaurants and bars.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Home to 12 outstanding restaurants and bars",
+          "note": "count stated",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/about",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "There are a staggering 12 restaurants and bars on-site",
+          "note": "consistent",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/bangkok/mandarin-oriental-bangkok",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The hotel has tennis courts.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Tennis courts",
+          "note": "listed under wellness",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/about",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Tennis Courts: Daily from 7am to 9pm (advance booking required)",
+          "note": "courts with hours",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/wellness/the-spa",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The hotel operates a complimentary shuttle boat service to ICONSIAM.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d9",
+          "quote": "offers a complimentary shuttle boat service between the hotel and ICONSIAM",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The hotel also operates a complimentary shuttle boat service to ICONSIAM.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/about",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Authors' Lounge is on the ground floor of the original Oriental Hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The Authors’ Lounge is located on the ground floor of the original Oriental Hotel",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/dine/the-authors-lounge",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Bamboo Bar is a live jazz and blues bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Live Jazz & Blues Bar.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/dine/the-bamboo-bar",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The Oriental Spa has 18 treatment rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "18 treatment rooms",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/about",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "The Oriental Spa is housed in a traditional Thai residence with 18 beautifully designed treatment rooms",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/wellness",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The Oriental Spa is set within a restored century-old teakwood house.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Set within a beautifully restored century-old teakwood house, The Oriental Spa",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/wellness/the-spa",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The spa experience begins with a boat ride across the river.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "The experience begins with a calming boat ride across the river",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/wellness",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Your journey begins with a quick (complimentary) boat ride on a traditional rice barge across the Chao Phraya River.",
+          "note": "consistent",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/bangkok/mandarin-oriental-bangkok",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Authors' Lounge serves traditional afternoon tea.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Traditional afternoon tea served with old world charm.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/dine/the-authors-lounge",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Anne-Sophie Pic at Le Normandie has two MICHELIN stars.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "now distinguished with two MICHELIN stars",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/dine/anne-sophie-pic-at-le-normandie",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The hotel has been awarded Three MICHELIN Keys.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Mandarin Oriental, Bangkok has been awarded Three MICHELIN Keys",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/about",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Author's Suites are tributes to literary figures who have stayed at the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "Located in the River Wing, these suites are tributes to some of the great literary figures that have stayed with us.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/stay/authors-suite",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-6",
+      "text": "Private butler service is offered.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Private butler service",
+          "note": "listed in rooms",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/about",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The Authors' Lounge has a smart dress code for all guests, including children.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The Authors’ Lounge adheres to a smart dress code for all guests, including children.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/dine/the-authors-lounge",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The Bamboo Bar does not accept reservations.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The Bamboo Bar, being a sought-after spot, does not accept reservations.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/dine/the-bamboo-bar",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "A jacket is compulsory for gentlemen during dinner at Anne-Sophie Pic at Le Normandie.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "A jacket is compulsory for gentlemen during dinner and may be provided upon request.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/dine/anne-sophie-pic-at-le-normandie",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-4",
+      "text": "The minimum age for access to the spa and Fitness & Wellness Centre is 16 years.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The minimum age for access to the Spa and Fitness & Wellness Centre is 16 years.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/wellness/the-spa",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-5",
+      "text": "WhataHotel notes premium pricing reflects the hotel's luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, breakfast for two is free daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers can be combined with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

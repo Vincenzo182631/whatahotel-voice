@@ -1,0 +1,339 @@
+{
+  "hotel_slug": "the-westin-hapuna-beach-resort",
+  "hotel_name": "The Westin Hapuna Beach Resort",
+  "checked_at": "2026-11-05T09:56:09.608Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 16,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 18
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/koawi-the-westin-hapuna-beach-resort/overview/",
+      "tier": "official",
+      "chars": 20048
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/koawi-the-westin-hapuna-beach-resort/rooms/",
+      "tier": "official",
+      "chars": 9200
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/koawi-the-westin-hapuna-beach-resort/dining/",
+      "tier": "official",
+      "chars": 7877
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/koawi-the-westin-hapuna-beach-resort/experiences/",
+      "tier": "official",
+      "chars": 17585
+    },
+    {
+      "id": "d5",
+      "url": "https://www.cntraveler.com/hotels/united-states/kamuela/hapuna-beach-prince-hotel--big-island",
+      "tier": "editorial",
+      "chars": 3947
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The resort is on Hapuna Beach within Mauna Kea Resort, on the Kohala Coast of the Island of Hawaii.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located on beautiful Hapuna Beach within Mauna Kea Resort, The Westin Hapuna Beach Resort offers a contemporary Hawaiian retreat on the Island of Hawaii’s renowned Kohala Coast.",
+          "note": "Covers the location on Hapuna Beach, Mauna Kea Resort, the Kohala Coast and the Island of Hawaii.",
+          "url": "https://www.marriott.com/en-us/hotels/koawi-the-westin-hapuna-beach-resort/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The resort is surrounded by gardens, lava fields and cultural landmarks.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Surrounded by lush gardens, lava fields, and cultural landmarks, the resort blends natural beauty with modern comfort.",
+          "note": "Matches all three surroundings.",
+          "url": "https://www.marriott.com/en-us/hotels/koawi-the-westin-hapuna-beach-resort/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Rooms have a double-entry door with wooden privacy louvers that lets ocean breezes flow through.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "A brilliant double-entry door design allows guests to open the solid door and secure an outer one, with its wooden privacy louvers, for airflow.",
+          "note": "Double-entry door with wooden louvers for airflow.",
+          "url": "https://www.marriott.com/en-us/hotels/koawi-the-westin-hapuna-beach-resort/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our Hapuna Beach resort suites and guest rooms are designed for Hawaii’s tropical ocean breezes.",
+          "note": "Ocean breezes element.",
+          "url": "https://www.marriott.com/en-us/hotels/koawi-the-westin-hapuna-beach-resort/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "A Beach Activities Hut on Hapuna Beach in front of the hotel rents paddle boards, kayaks, body boards and snorkel gear.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Check in with our Beach Activities Hut for paddle boards, kayaks, body boards and snorkel rentals. Located on Hapuna Beach directly in front of the hotel.",
+          "note": "All rental items and the location are covered.",
+          "url": "https://www.marriott.com/en-us/hotels/koawi-the-westin-hapuna-beach-resort/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Hapuna Beach golf course is a championship links-style design by Arnold Palmer and Ed Seay, within easy walking distance of the resort.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "the Arnold Palmer / Ed Seay Hapuna Beach golf course is a championship \"links-style\" design",
+          "note": "Designers and links-style championship design.",
+          "url": "https://www.marriott.com/en-us/hotels/koawi-the-westin-hapuna-beach-resort/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Hapuna Beach Golf Course is within easy walking distance of the resort",
+          "note": "Walking distance.",
+          "url": "https://www.marriott.com/en-us/hotels/koawi-the-westin-hapuna-beach-resort/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Hawaiian culture experiences include chanting, lei making and hula lessons.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Immerse yourself in other Hawaiian culture experiences including chanting, lei making, hula lessons and more.",
+          "note": "All three experiences listed.",
+          "url": "https://www.marriott.com/en-us/hotels/koawi-the-westin-hapuna-beach-resort/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Part of the Ala Kahakai National Historic Trail crosses Hapuna Beach north to Kauna'oa Bay.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "A portion of the 175-mile Ala Kahakai National Historic Trail traverses across Hapuna Beach north to Kauna'oa Bay at Mauna Kea Beach Hotel",
+          "note": "Matches the claim.",
+          "url": "https://www.marriott.com/en-us/hotels/koawi-the-westin-hapuna-beach-resort/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Hapuna means spring of life in Hawaiian, referring to the area's underground springs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Hapuna means “spring of life” in Hawaiian and refers to the area’s underground springs.",
+          "note": "Matches the claim.",
+          "url": "https://www.marriott.com/en-us/hotels/koawi-the-westin-hapuna-beach-resort/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The restaurants use herbs and produce from the hotel's on-site half-acre garden.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Our restaurants near Hapuna Beach feature menus enhanced with herbs and produce sourced from the hotel’s on-site, half-acre garden.",
+          "note": "Matches the claim.",
+          "url": "https://www.marriott.com/en-us/hotels/koawi-the-westin-hapuna-beach-resort/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Guests have room-signing privileges at both the resort and sister property Mauna Kea Beach Hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "A complimentary evening dining shuttle is available from our Hapuna Beach hotel to sister property Mauna Kea Beach Hotel. Guests enjoy room-signing privileges at both properties.",
+          "note": "Room-signing privileges at both properties.",
+          "url": "https://www.marriott.com/en-us/hotels/koawi-the-westin-hapuna-beach-resort/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "All rooms and suites have ocean and sunset-facing views from a private lanai.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "resort suites and hotel rooms, all with beautiful ocean and sunset-facing views from their...See More private lanai (balconies)",
+          "note": "The page says all rooms and suites have ocean and sunset-facing views from a private lanai.",
+          "url": "https://www.marriott.com/en-us/hotels/koawi-the-westin-hapuna-beach-resort/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The resort has two pools: a freeform family pool and an adult-exclusive infinity pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Our resort with pools near Hapuna Beach boasts two swimming pools; a 6,800 square foot freeform family pool and an adult-exclusive infinity pool.",
+          "note": "Two pools as described.",
+          "url": "https://www.marriott.com/en-us/hotels/koawi-the-westin-hapuna-beach-resort/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "A snorkeling area called Turtle Point offers colorful reef fish and often sea turtles.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "An easily accessible snorkeling area called Turtle Point lets you see plenty of colorful reef fish, and often sea turtles.",
+          "note": "Matches the claim.",
+          "url": "https://www.marriott.com/en-us/hotels/koawi-the-westin-hapuna-beach-resort/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Guests can greet the sunrise with the Aloha Ambassador on the Hapuna Beach Lawn and hear a Hawaiian oli, or chant.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Start your day by joining our Aloha Ambassador at the Hapuna Beach Lawn. Greet the sunrise, clear your thoughts and mind, hear the Hawaiian oli (chant) and find peace within.",
+          "note": "Matches the claim.",
+          "url": "https://www.marriott.com/en-us/hotels/koawi-the-westin-hapuna-beach-resort/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Guests can join manta ray researcher James Wing for a private snorkel tour with the Mauna Kea mantas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "When you're not enjoying a round of Hapuna Beach golf, join manta ray researcher and advocate James Wing for a private tour with the Mauna Kea mantas. The snorkel includes in-water guide",
+          "note": "Private snorkel tour with James Wing.",
+          "url": "https://www.marriott.com/en-us/hotels/koawi-the-westin-hapuna-beach-resort/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The infinity pool is adult-exclusive; families swim in the freeform family pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Our resort with pools near Hapuna Beach boasts two swimming pools; a 6,800 square foot freeform family pool and an adult-exclusive infinity pool.",
+          "note": "The infinity pool is adult-exclusive and the freeform pool is the family pool.",
+          "url": "https://www.marriott.com/en-us/hotels/koawi-the-westin-hapuna-beach-resort/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes the remote Big Island location means a longer trip from the mainland US.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium luxury pricing that reflects the beachfront setting.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

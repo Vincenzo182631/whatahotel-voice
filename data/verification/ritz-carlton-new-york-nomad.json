@@ -1,0 +1,455 @@
+{
+  "hotel_slug": "ritz-carlton-new-york-nomad",
+  "hotel_name": "The Ritz-Carlton New York, NoMad",
+  "checked_at": "2026-10-09T06:44:47.587Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ritzcarlton.com/en/hotels/nycro-the-ritz-carlton-new-york-nomad/rooms/",
+      "tier": "official",
+      "chars": 10876
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ritzcarlton.com/en/hotels/nycro-the-ritz-carlton-new-york-nomad/dining/",
+      "tier": "official",
+      "chars": 10233
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ritzcarlton.com/en/hotels/nycro-the-ritz-carlton-new-york-nomad/spa/",
+      "tier": "official",
+      "chars": 9372
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ritzcarlton.com/en/hotels/nycro-the-ritz-carlton-new-york-nomad/overview/what-to-expect/",
+      "tier": "official",
+      "chars": 7468
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ritzcarlton.com/en/hotels/nycro-the-ritz-carlton-new-york-nomad/overview/",
+      "tier": "official",
+      "chars": 15386
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ritzcarlton.com/en/hotels/nycro-the-ritz-carlton-new-york-nomad/experiences/",
+      "tier": "official",
+      "chars": 14718
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ritzcarlton.com/en/hotels/nycro-the-ritz-carlton-new-york-nomad/rooms/signature-suites/",
+      "tier": "official",
+      "chars": 9326
+    },
+    {
+      "id": "d8",
+      "url": "https://www.cntraveler.com/hotels/new-york/the-ritz-carlton-new-york-nomad",
+      "tier": "editorial",
+      "chars": 8785
+    },
+    {
+      "id": "d9",
+      "url": "https://www.ritzcarlton.com/en/hotels/nycro-the-ritz-carlton-new-york-nomad/experiences/holidays/",
+      "tier": "official",
+      "chars": 2764
+    },
+    {
+      "id": "d10",
+      "url": "https://www.ritzcarlton.com/en/hotels/nycro-the-ritz-carlton-new-york-nomad/hotel-stories/",
+      "tier": "official",
+      "chars": 4511
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is on the corner of West 28th Street and Broadway.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The hotel is located on the corner of West 28th Street and Broadway.",
+          "note": "exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nycro-the-ritz-carlton-new-york-nomad/overview/what-to-expect/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Nearby attractions include Madison Square Park, the Flatiron Building, the Empire State Building, Bryant Park, Hudson Yards and the High Line.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Nearby iconic attractions include Madison Square Park, the Flatiron Building, the Empire State Building, Bryant Park, Hudson Yards and the Highline.",
+          "note": "all six listed",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nycro-the-ritz-carlton-new-york-nomad/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Zaytinya, the hotel's all-day restaurant, serves mezze inspired by Turkish, Greek and Lebanese cuisines.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Discover Mediterranean dining at Zaytinya, our all-day NoMad hotel restaurant in New York, featuring innovative mezze inspired by Turkish, Greek and Lebanese cuisines.",
+          "note": "exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nycro-the-ritz-carlton-new-york-nomad/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Nubeluz is a rooftop cocktail bar by José Andrés, designed by Martin Brudzinski.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Nubeluz is a rooftop bar in New York City, designed by Martin Brudzinski.",
+          "note": "rooftop bar and designer",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nycro-the-ritz-carlton-new-york-nomad/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Nubeluz by José Andrés is a dazzling lightbox in the sky, blending the Spanish words for cloud (nube) and light (luz).",
+          "note": "by José Andrés",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nycro-the-ritz-carlton-new-york-nomad/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "This rooftop bar in Manhattan offers modern twists on cocktails and small bites",
+          "note": "cocktail bar",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nycro-the-ritz-carlton-new-york-nomad/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Tour de José is a private guided evening through Zaytinya, Bazaar Bar, Bazaar Meat and Nubeluz.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The Tour de José is a private guided evening through four incredible restaurants and bars.",
+          "note": "private guided evening",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nycro-the-ritz-carlton-new-york-nomad/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "You’ll start at Zaytinya, celebrating the flavors of the Eastern Mediterranean, then proceed to the intimate Bazaar Bar",
+          "note": "Zaytinya and Bazaar Bar",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nycro-the-ritz-carlton-new-york-nomad/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "After that, enjoy bites and drinks at Bazaar Meat and end at Nubeluz",
+          "note": "Bazaar Meat and Nubeluz",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nycro-the-ritz-carlton-new-york-nomad/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The spa offers facials and massages by Augustinus Bader, Dr. Dennis Gross and ESPA.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "exclusive facials and massages by Augustinus Bader, Dr. Dennis Gross, and ESPA.",
+          "note": "exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nycro-the-ritz-carlton-new-york-nomad/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Bathrooms are finished in terrazzo marble and stocked with Diptyque amenities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Discover terrazzo marble bathrooms and Diptyque amenities in our Manhattan-view accommodation.",
+          "note": "exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nycro-the-ritz-carlton-new-york-nomad/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Rooms have oversized windows with views of New York City.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Our NoMad hotel in New York features rooms with oversized windows offering views of New York City.",
+          "note": "exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nycro-the-ritz-carlton-new-york-nomad/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The Penthouse Residences have full kitchens and access to The Ritz-Carlton Club Lounge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Discover our collection of one and two-bedroom Penthouse Residences featuring unforgettable Manhattan views, full kitchens, dining areas fit for entertaining, and access to The Ritz-Carlton Club Lounge.",
+          "note": "full kitchens and club lounge access",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nycro-the-ritz-carlton-new-york-nomad/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Children staying as Ritz Kids get a special check-in experience, custom amenities and itineraries from the concierge team.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Ritz Kids enjoy a special check-in experience, custom amenities, and bespoke itineraries created by our concierge team.",
+          "note": "exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nycro-the-ritz-carlton-new-york-nomad/overview/what-to-expect/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Condé Nast Traveler's review says each room has a stand-alone soaking tub and steam shower.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "Each room has a stand-alone soaking tub and steam shower.",
+          "note": "Condé Nast Traveler review",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/new-york/the-ritz-carlton-new-york-nomad",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel was conceived as a pillar of the city's historic floral district, and its decor and design draw inspiration from nature.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Conceived as a pillar of the city’s historic floral district, the hotel’s exceptionally detailed decor and design draw inspiration from the beauty of nature.",
+          "note": "exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nycro-the-ritz-carlton-new-york-nomad/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Ritz-Carlton Club lounge is on the 36th floor of the building.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "located on the 36th Floor of the building",
+          "note": "Club lounge floor",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nycro-the-ritz-carlton-new-york-nomad/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "The Club Lounge on the 36th floor of The Ritz-Carlton New York, NoMad.",
+          "note": "second source",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nycro-the-ritz-carlton-new-york-nomad/overview/what-to-expect/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Bazaar Meat is a steakhouse by chef José Andrés where wood-fired cooking is at the heart of the menu.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Begin a voyage through fire and flavor at Bazaar Meat, where wood-fired cooking is at the heart of it.",
+          "note": "wood-fired",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nycro-the-ritz-carlton-new-york-nomad/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Step into a world of culinary artistry at Bazaar Meat, a visionary reimagining of the classic steakhouse by chef José Andrés.",
+          "note": "steakhouse by José Andrés",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nycro-the-ritz-carlton-new-york-nomad/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Ritz-Carlton Spa is a subterranean space with separate relaxation lounges, saunas and steam rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "a subterranean escape with eight treatment rooms including a couple’s suite, separate relaxation lounges, experience showers, saunas, and steam rooms.",
+          "note": "exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nycro-the-ritz-carlton-new-york-nomad/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Ritz-Carlton Suite has two bedrooms, a dining area, a media room and a private wellness space.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "At 2,100 square feet, this refined Manhattan retreat features two bedrooms, a dining area for entertaining, a media room, and a private wellness space.",
+          "note": "exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nycro-the-ritz-carlton-new-york-nomad/rooms/signature-suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Club lounge access requires an upgraded booking of a Club Level guestroom or suite.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Club access requires an upgraded booking of a Club Level guestroom or suite.",
+          "note": "exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nycro-the-ritz-carlton-new-york-nomad/overview/what-to-expect/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Reservations are required for Nubeluz and The Bazaar by José Andrés.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Reservations are required for Nubeluz and The Bazaar by José Andrés.",
+          "note": "exact match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/nycro-the-ritz-carlton-new-york-nomad/overview/what-to-expect/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes a busy Midtown Manhattan location with urban noise levels.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

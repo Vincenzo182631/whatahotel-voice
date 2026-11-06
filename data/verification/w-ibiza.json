@@ -1,0 +1,333 @@
+{
+  "hotel_slug": "w-ibiza",
+  "hotel_name": "W Ibiza",
+  "checked_at": "2026-11-06T00:42:25.062Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 15,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 16
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/ibzwh-w-ibiza/overview/",
+      "tier": "official",
+      "chars": 18866
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/ibzwh-w-ibiza/rooms/",
+      "tier": "official",
+      "chars": 5970
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/ibzwh-w-ibiza/dining/",
+      "tier": "official",
+      "chars": 8169
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/ibzwh-w-ibiza/experiences/",
+      "tier": "official",
+      "chars": 13792
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is on Ibiza's east coast.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The hotel is located on the east coast",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/ibzwh-w-ibiza/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Most rooms have a walk-on balcony.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "90% of all our luxury hotel rooms in Ibiza have a walk-on balcony",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/ibzwh-w-ibiza/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The duplex Penthouse Suite is on the top floor with a very large balcony and sea views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "our one-and-only Penthouse Suite sits on the most elevated floor",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/ibzwh-w-ibiza/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Take in the sun, cocktail in hand, from the super-large balcony with far out sea views. This is duplex living",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/ibzwh-w-ibiza/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Rooms have a Mixbar in-room cocktail service with designer martini glasses.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Consider Mixbar your personal cocktail service, complete with designer martini glasses.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/ibzwh-w-ibiza/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "AWAY Spa offers more than 15 treatments, including skincare, manicures and pedicures.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Immerse in a revitalizing spa Ibiza experience with more than 15 treatments to relax from skincare, manicure and pedicure.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/ibzwh-w-ibiza/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Yes, AWAY Spa is located on-site at W Ibiza.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/ibzwh-w-ibiza/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The FIT gym is open 24/7 with Technogym equipment and graffiti-covered walls.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Open 24/7, this is where state-of-the-art Technogym equipment, free weights and a medley of private classes with specialized trainers, meet graffiti-emblazoned walls",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/ibzwh-w-ibiza/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Yellow Fish Restaurant serves grilled local fish, Spanish tapas and sangria overlooking Santa Eulalia's shore.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Overlooking the shores of Santa Eulalia, Yellow Fish Restaurant captures the Mediterranean spirit with bohemian elegance. Grilled local fish, Spanish tapas and refreshing sangrias",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/ibzwh-w-ibiza/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Santa Eulalia has a beachfront promenade that is good for bar-hopping at night.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Stroll along its famous beachfront promenade that at night becomes perfect for bar-hopping.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/ibzwh-w-ibiza/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Ibiza Airport is about 22 km from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The closest airport near W Ibiza is Ibiza Airport (IBZ). IBZ is located approximately 21.6 KM from the hotel.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/ibzwh-w-ibiza/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "WET Deck has a pool, a bar with light bites and sun loungers, with direct access to the beach.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "WET Deck combines a design-forward pool, destination bar serving light bites and comfy sun loungers, with direct access to Santa Eulalia’s sandy, palm-fringed beach.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/ibzwh-w-ibiza/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "GLOW is a rooftop with an infinity pool looking out across Santa Eulalia Bay.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "GLOW with rooftop infinity pool and premium sun loungers looks out across Eulalia Bay",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/ibzwh-w-ibiza/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "W Ibiza is on the palm-fringed beachfront of Santa Eulalia.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "W Ibiza luxury beach hotel strikes a pose on the palm-fringed, sand-drenched beachfront of Santa Eulalia.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/ibzwh-w-ibiza/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Some rooms have private pools.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "W Ibiza has direct access to the beach as well as Ibiza hotel rooms with private pools",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/ibzwh-w-ibiza/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Rooms mix splatter paints and colorful fabrics inspired by hippie summers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Mixing up kaleidoscopic splatter paints and colorful fabrics with the vibrancy of hippie summers",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/ibzwh-w-ibiza/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The hotel opens seasonally.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Open seasonally from April 29 to October 17, 2027",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/ibzwh-w-ibiza/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes the high-energy party atmosphere may not suit all travelers.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

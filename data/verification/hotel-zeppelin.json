@@ -1,0 +1,333 @@
+{
+  "hotel_slug": "hotel-zeppelin",
+  "hotel_name": "Hotel Zeppelin",
+  "checked_at": "2026-10-15T21:05:26.249Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 16,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 17
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.zhotelssf.com/hotels/zeppelin",
+      "tier": "official",
+      "chars": 3848
+    },
+    {
+      "id": "d2",
+      "url": "https://www.cntraveler.com/hotels/san-francisco/hotel-zeppelin",
+      "tier": "editorial",
+      "chars": 4355
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Hotel Zeppelin is at 545 Post Street, close to Union Square, Maiden Lane and Chinatown.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "what’s around our 545 Post Street address—think Union Square, Maiden Lane, and Chinatown to name a few",
+          "note": "address and nearby areas",
+          "confirmed": true,
+          "url": "https://www.zhotelssf.com/hotels/zeppelin",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is two blocks from Union Square.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Two blocks from Union Square",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/san-francisco/hotel-zeppelin",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Hotel Zeppelin is the sister hotel to San Francisco's Hotel Zetta.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The groovier sister to San Francisco’s Hotel Zetta",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/san-francisco/hotel-zeppelin",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel opened in early March 2016.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "the Hotel Zeppelin opened in early March of 2016",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/san-francisco/hotel-zeppelin",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The hotel bills itself as a love letter to rebels and revolutionaries, mixing free-spirited energy, artistic soul and rock 'n' roll edge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "A LOVE LETTER TO THEREBELS & REVOLUTIONARIES",
+          "note": "tagline",
+          "confirmed": true,
+          "url": "https://www.zhotelssf.com/hotels/zeppelin",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Hotel Zeppelin is a change-up from the expected—a fusion of free-spirited energy, artistic soul, and rock ‘n’ roll edge.",
+          "note": "description",
+          "confirmed": true,
+          "url": "https://www.zhotelssf.com/hotels/zeppelin",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Rooms have eclectic touches such as vintage record players and crushed velvet pillows on the beds that recall the city's counterculture roots.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "celebrates the city with eclectic amenities—think vintage record players and crushed velvet pillows on the beds—that recall its counter culture roots",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/san-francisco/hotel-zeppelin",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Bathrooms feature psychedelic wallpaper bearing the names of local bands, from the Grateful Dead to Green Day, in homage to the rock posters of the '60s and '70s.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "the bathrooms are emblazoned with the names of local bands, from the Grateful Dead to Green Day, in a psychedelic wallpaper that pays homage to the classic rock posters of the ‘60s and ‘70s",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/san-francisco/hotel-zeppelin",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel has a game room with skeeball, shuffleboard and bingo.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "There's also an epic game room, where you can play a few rounds of skeeball, shuffleboard, bingo, and more.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/san-francisco/hotel-zeppelin",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The Game Room can host social events and receptions.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Host an unforgettable social event at Hotel Zeppelin, whether you're planning a lively reception for friends, colleagues, or a special celebration. Let the good times roll in our Game Room",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.zhotelssf.com/hotels/zeppelin",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The PLS on Post bar serves retro-chic cocktails, craft brews and sangria, with a daily happy hour.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "PLS on Post bar team",
+          "note": "bar name",
+          "confirmed": true,
+          "url": "https://www.zhotelssf.com/hotels/zeppelin",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Retro-chic cocktails, craft brews and sangria flow daily",
+          "note": "drinks and daily happy hour",
+          "confirmed": true,
+          "url": "https://www.zhotelssf.com/hotels/zeppelin",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "On-site dining serves coffee pick-me-ups as well as burgers and shakes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Caffeine-infused pick-me-ups or a full-spread of burgers and shakes",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.zhotelssf.com/hotels/zeppelin",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Hotel Zeppelin was named in the Conde Nast Traveler Readers' Choice Awards in 2018, 2019, 2021 and 2025.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Readers' Choice Awards 2018, 2019, 2021, 2025",
+          "note": "CNT page lists the years",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/san-francisco/hotel-zeppelin",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Bathrooms are wrapped in psychedelic wallpaper bearing the names of local bands, from the Grateful Dead to Green Day.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "the bathrooms are emblazoned with the names of local bands, from the Grateful Dead to Green Day, in a psychedelic wallpaper",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/san-francisco/hotel-zeppelin",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Rooms come with vintage record players and crushed velvet pillows that recall San Francisco's counterculture roots.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "think vintage record players and crushed velvet pillows on the beds—that recall its counter culture roots",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/san-francisco/hotel-zeppelin",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "A game room offers skeeball, shuffleboard and bingo.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "an epic game room, where you can play a few rounds of skeeball, shuffleboard, bingo, and more",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/san-francisco/hotel-zeppelin",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The 545 Post Street address puts Union Square, Maiden Lane and Chinatown close by.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "what’s around our 545 Post Street address—think Union Square, Maiden Lane, and Chinatown",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.zhotelssf.com/hotels/zeppelin",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes compact room sizes typical of San Francisco boutique hotels.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

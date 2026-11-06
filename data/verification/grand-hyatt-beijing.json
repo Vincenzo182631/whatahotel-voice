@@ -1,0 +1,377 @@
+{
+  "hotel_slug": "grand-hyatt-beijing",
+  "hotel_name": "Grand Hyatt Beijing",
+  "checked_at": "2026-10-29T03:48:11.100Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/beigh-grand-hyatt-beijing",
+      "tier": "official",
+      "chars": 12789
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/beigh-grand-hyatt-beijing/rooms/",
+      "tier": "official",
+      "chars": 22725
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/beigh-grand-hyatt-beijing/dining/",
+      "tier": "official",
+      "chars": 4365
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/beigh-grand-hyatt-beijing/hotel-info/",
+      "tier": "official",
+      "chars": 3490
+    },
+    {
+      "id": "d5",
+      "url": "https://www.cntraveler.com/hotels/china/beijing/grand-hyatt-beijing",
+      "tier": "editorial",
+      "chars": 3603
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/beigh-grand-hyatt-beijing/reviews/",
+      "tier": "official",
+      "chars": 20222
+    },
+    {
+      "id": "d7",
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/beigh-grand-hyatt-beijing/parking-and-transportation/",
+      "tier": "official",
+      "chars": 5732
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is on Wangfujing, within walking distance of the Forbidden City and Tiananmen Square.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located on Wangfujing, within walking distance of The Forbidden City and Tiananmen Square, Grand Hyatt Beijing is part of Oriental Plaza with direct access to the adjacent shopping mall.",
+          "note": "The page states both the Wangfujing location and walking distance to both sites.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/beigh-grand-hyatt-beijing",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is part of Oriental Plaza, with direct access to the adjacent shopping mall.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Grand Hyatt Beijing is part of Oriental Plaza with direct access to the adjacent shopping mall.",
+          "note": "Matches the claim directly.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/beigh-grand-hyatt-beijing",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel is a curved glass tower.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "this curved glass tower is \"one of the places to be in Beijing.\"",
+          "note": "Condé Nast Traveler describes the hotel as a curved glass tower.",
+          "url": "https://www.cntraveler.com/hotels/china/beijing/grand-hyatt-beijing",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel blends western and oriental traditions with contemporary design.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Blending both western and oriental traditions encompassing contemporary design and classic standards of service and excellence",
+          "note": "Matches the claim directly.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/beigh-grand-hyatt-beijing",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Rooms and suites have floor-to-ceiling windows with views of historic Beijing.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "houses 518 rooms and suites with floor-to-ceiling windows showcasing striking views of historic Beijing",
+          "note": "Matches the claim directly.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/beigh-grand-hyatt-beijing/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Rooms have wood accents, goose-down duvets, marble bathrooms and Chinese artwork.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "rooms have wood accents, goose-down duvets, marble bathrooms, and Chinese artwork",
+          "note": "All four features are listed.",
+          "url": "https://www.cntraveler.com/hotels/china/beijing/grand-hyatt-beijing",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Rooms feature Bose speakers, Dyson hairdryers and Balmain toiletries in large eco-friendly bottles.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "guests will discover a host of subtle luxuries from Bose speakers to Dyson hairdryers to toiletries in large eco-friendly bottles by French fashion house Balmain",
+          "note": "All three items are covered.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/beigh-grand-hyatt-beijing/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Residence Suite includes a kitchen and a private spa room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Meticulously designed interiors complement a plush king bedroom, living and dining areas, a kitchen, and a private spa room.",
+          "note": "This is from the Residence Suite description.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/beigh-grand-hyatt-beijing/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Access to the Club Oasis indoor pool is complimentary for all in-house guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Dive into the breathtaking Club Oasis resort-style indoor swimming pool",
+          "note": "Identifies the Club Oasis indoor pool.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/beigh-grand-hyatt-beijing",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Complimentary access is offered for all in-house guests.",
+          "note": "States that access is complimentary for in-house guests.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/beigh-grand-hyatt-beijing",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The Club Oasis spa offers body and facial treatments and manicures.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The spa offers a wide range of body and facial treatments, as well as manicure services for you to rejuvenate and relax.",
+          "note": "This appears under the Club Oasis Fitness Center & Spa heading.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/beigh-grand-hyatt-beijing",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The fitness center is equipped by Technogym and guided by a professional coaching team.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Fitted throughout with the latest exercise equipment from leading fitness firm Technogym, guided by a professional coaching team.",
+          "note": "Matches the claim directly.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/beigh-grand-hyatt-beijing",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Made in China serves Beijing classics, including its signature Peking duck.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "this award-winning culinary destination has been the place to savor authentically crafted Beijing classics, including its signature Peking duck",
+          "note": "This is from the Made in China description.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/beigh-grand-hyatt-beijing/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Club Oasis indoor pool is resort-style, surrounded by tropical plants, waterfalls, pillars, stone grottos and underwater music.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Club Oasis resort-style indoor swimming pool",
+          "note": "Establishes that the pool is resort-style and indoor.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/beigh-grand-hyatt-beijing",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "surrounded by lush tropical vegetation, cascading waterfalls, majestic pillars, stone grottos and the enchanting sound of underwater music",
+          "note": "All listed elements are covered.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/beigh-grand-hyatt-beijing",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The 17th-floor Grand Club lounge looks north over the Forbidden City and south over Chang'an Avenue.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "At Grand Hyatt Beijing, the 17th-floor Grand Club offers exclusive privileges including VIP check-in/out and concierge services. Guests enjoy panoramic views of the magnificent Forbidden City to the north and Chang’an Avenue to the south.",
+          "note": "Covers the floor and both views.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/beigh-grand-hyatt-beijing",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Mansion Suite, on the top floor, has panoramic views of traditional hutong architecture and the city beyond.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "panoramic views of traditional Chinese hutong architecture and the city beyond. Located on the top floor of the hotel",
+          "note": "This is from the Mansion Suite description.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/beigh-grand-hyatt-beijing/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Duplex Capital Suite spans two floors, with a two-story atrium living room and views of Chang An Avenue.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "this extraordinary 260 sqm duplex suite on the 17th and 18th floors showcases a grand foyer that leads into a spacious living room with a two-story atrium and magnificent views of Chang An Avenue",
+          "note": "Covers the two floors, the atrium living room and the Chang An Avenue views.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/beigh-grand-hyatt-beijing/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Under Beijing government guidelines, hotels cannot place single-use items such as toothbrushes, combs and razors in rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "In accordance with the Beijing government’s guidelines, hotels in Beijing cannot voluntarily provide single-use amenities such as toothbrushes, combs, razors, etc. as part of the room setup.",
+          "note": "Matches the claim.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/beigh-grand-hyatt-beijing/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Beijing Capital International Airport is 28 kilometers from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Beijing Capital International Airport (PEK)28 kilometers",
+          "note": "States the 28 km distance.",
+          "url": "https://www.hyatt.com/grand-hyatt/en-US/beigh-grand-hyatt-beijing/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the large hotel size may feel less intimate.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

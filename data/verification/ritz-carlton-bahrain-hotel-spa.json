@@ -1,0 +1,451 @@
+{
+  "hotel_slug": "ritz-carlton-bahrain-hotel-spa",
+  "hotel_name": "The Ritz Carlton Bahrain Hotel & Spa",
+  "checked_at": "2026-10-09T13:25:37.003Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 20,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 0,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ritzcarlton.com/en/hotels/bahrz-the-ritz-carlton-bahrain/overview/",
+      "tier": "official",
+      "chars": 17891
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ritzcarlton.com/en/hotels/bahrz-the-ritz-carlton-bahrain/rooms/",
+      "tier": "official",
+      "chars": 7669
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ritzcarlton.com/en/hotels/bahrz-the-ritz-carlton-bahrain/dining/",
+      "tier": "official",
+      "chars": 14305
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ritzcarlton.com/en/hotels/bahrz-the-ritz-carlton-bahrain/experiences/",
+      "tier": "official",
+      "chars": 26832
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ritzcarlton.com/en/hotels/bahrz-the-ritz-carlton-bahrain/club/",
+      "tier": "official",
+      "chars": 4869
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ritzcarlton.com/en/hotels/bahrz-the-ritz-carlton-bahrain/reviews/",
+      "tier": "official",
+      "chars": 759
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ritzcarlton.com/en/hotels/bahrz-the-ritz-carlton-bahrain/hotel-stories/",
+      "tier": "official",
+      "chars": 4182
+    },
+    {
+      "id": "d8",
+      "url": "https://www.cntraveler.com/hotels/bahrain/manama/ritz-carlton-bahrain",
+      "tier": "editorial",
+      "chars": 3041
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel spans 70 acres of private beachfront around a lagoon in Manama.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "this 7-story, 260-room family hotel in Manama spans 70 acres of private beachfront around a picturesque lagoon",
+          "note": "Matches size, location and lagoon",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bahrz-the-ritz-carlton-bahrain/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The Royal Beach Club offers access to a private beach, lagoon and marina.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The Royal Beach Club offers access to a private beach, lagoon, and marina.",
+          "note": "Direct match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bahrz-the-ritz-carlton-bahrain/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The three-bedroom villas have direct beach access and a private pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our 3 bedroom villas offer luxury accommodation, direct beach access and private pool",
+          "note": "Direct match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bahrz-the-ritz-carlton-bahrain/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The Club Level is on the 6th and 7th floors and is described as a hotel within a hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Located on the 6th and 7th floors, the Club Level offers the comfort, convenience, and intimacy of a hotel within a hotel.",
+          "note": "Floors and hotel within a hotel",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bahrz-the-ritz-carlton-bahrain/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Club Lounge offers complimentary food and beverage presentations five times each day.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Five times each day, the Club Lounge offers complimentary food and beverage presentations.",
+          "note": "Direct match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bahrz-the-ritz-carlton-bahrain/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Nirvana is a fine dining Indian restaurant with kebabs, grilled seafood and live traditional music.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "this fine dining restaurant offers authentic dishes, including kebabs and grilled seafood, accompanied by live traditional music.",
+          "note": "Fine dining, kebabs, seafood, live music",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bahrz-the-ritz-carlton-bahrain/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Indian at Nirvana",
+          "note": "Cuisine is Indian",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bahrz-the-ritz-carlton-bahrain/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Cantina Kahlo is a Mexican restaurant with decor inspired by Mexico's art scene.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "an authentic Mexican restaurant in Manama, Bahrain, with décor inspired by Mexico's vibrant art scene",
+          "note": "Direct match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bahrz-the-ritz-carlton-bahrain/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Plums is a modern steakhouse whose specialties are premium cuts of meat and fresh seafood.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "this modern steakhouse offers dishes as rich as the décor itself. Premium cuts of meat and fresh seafood are the specialties.",
+          "note": "Direct match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bahrz-the-ritz-carlton-bahrain/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Afternoon tea is served daily in the Lobby Lounge, with a classical duo playing.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "exquisite melodies from a classical duo provide the perfect environment in which to relax over a world-famous Ritz-Carlton afternoon tea. The traditional high tea is served daily",
+          "note": "Lobby Lounge section",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bahrz-the-ritz-carlton-bahrain/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The spa uses Dead Sea minerals and has a thalassotherapy pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Minerals from the Dead Sea and our authentic thalassotherapy pool are among the water-inspired elements at this luxury spa in Bahrain.",
+          "note": "Direct match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bahrz-the-ritz-carlton-bahrain/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The Royal Beach Club has a Turkish hammam with four plunge pools at different temperatures.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Traditional Turkish Hammam consisting of four plunge pools set at different temperatures",
+          "note": "Hammam with four plunge pools, listed under Royal Beach Club",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bahrz-the-ritz-carlton-bahrain/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "temperature-controlled indoor and outdoor pools, a hammam, Pearl 1 boating and kids activities",
+          "note": "Royal Beach Club includes a hammam",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bahrz-the-ritz-carlton-bahrain/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Ritz Kids welcomes children aged 4 to 12 to join its activities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Children aged 4 to 12 are welcome to join our exciting activities.",
+          "note": "Direct match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bahrz-the-ritz-carlton-bahrain/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Ta Plage Privée is on the resort's private island and offers an air-conditioned private tent, a dedicated massage room and an exclusive beach.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "private island off the coast of the Arabian Gulf, Ta Plage Privée offers the utmost in seclusion",
+          "note": "Private island",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bahrz-the-ritz-carlton-bahrain/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "With an air-conditioned private tent where you can relax, along with a dedicated massage room and your very own exclusive beach",
+          "note": "Tent, massage room, beach",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bahrz-the-ritz-carlton-bahrain/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The three-bedroom villas have direct beach access and a private pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our 3 bedroom villas offer luxury accommodation, direct beach access and private pool",
+          "note": "Direct match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bahrz-the-ritz-carlton-bahrain/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "La Table Krug is described by the hotel as the region's first and smallest fine dining restaurant.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "La Table Krug arrives as the region's first and smallest fine dining restaurant.",
+          "note": "Direct match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bahrz-the-ritz-carlton-bahrain/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The spa uses Dead Sea minerals and has a thalassotherapy pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Minerals from the Dead Sea and our authentic thalassotherapy pool are among the water-inspired elements at this luxury spa in Bahrain.",
+          "note": "Direct match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bahrz-the-ritz-carlton-bahrain/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The resort's Pearl 1 boat runs daily sea excursions along the coast, including dolphin watching.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Pearl 1 boat for daily excursions that will have you exploring hidden enclaves",
+          "note": "Pearl 1 daily excursions",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bahrz-the-ritz-carlton-bahrain/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "watching beautiful dolphins, and more",
+          "note": "Dolphin watching included",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bahrz-the-ritz-carlton-bahrain/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The minimum age to enter the spa is 16.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Minimum age for guest to enter the spa is 16 years old.",
+          "note": "Direct match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bahrz-the-ritz-carlton-bahrain/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Club access requires an upgraded booking, and Marriott Bonvoy Elite Status does not give complimentary Club access.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Club access requires an upgraded booking at the Club. Marriott Bonvoy Elite Status does not provide complimentary access to Club.",
+          "note": "Direct match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bahrz-the-ritz-carlton-bahrain/club/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "During Ramadan, the hotel's restaurant operations change.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "During the Holy Month of Ramadan, we would like to inform you that there are changes to our restaurant operations.",
+          "note": "Direct match",
+          "confirmed": true,
+          "url": "https://www.ritzcarlton.com/en/hotels/bahrz-the-ritz-carlton-bahrain/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

@@ -1,0 +1,456 @@
+{
+  "hotel_slug": "l-auberge-del-mar",
+  "hotel_name": "L'Auberge Del Mar",
+  "checked_at": "2026-10-22T10:38:27.619Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 18
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.laubergedelmar.com/",
+      "tier": "official",
+      "chars": 8163
+    },
+    {
+      "id": "d2",
+      "url": "https://www.laubergedelmar.com/accommodations/",
+      "tier": "official",
+      "chars": 5942
+    },
+    {
+      "id": "d3",
+      "url": "https://www.laubergedelmar.com/accommodations/suites/",
+      "tier": "official",
+      "chars": 8809
+    },
+    {
+      "id": "d4",
+      "url": "https://www.laubergedelmar.com/accommodations/guest-rooms/",
+      "tier": "official",
+      "chars": 11678
+    },
+    {
+      "id": "d5",
+      "url": "https://www.laubergedelmar.com/dining/",
+      "tier": "official",
+      "chars": 6782
+    },
+    {
+      "id": "d6",
+      "url": "https://www.laubergedelmar.com/dining/pool-bars/",
+      "tier": "official",
+      "chars": 6022
+    },
+    {
+      "id": "d7",
+      "url": "https://www.laubergedelmar.com/dining/living-room-bar/",
+      "tier": "official",
+      "chars": 6172
+    },
+    {
+      "id": "d8",
+      "url": "https://www.laubergedelmar.com/stay-safe-start-living/",
+      "tier": "official",
+      "chars": 8163
+    },
+    {
+      "id": "d9",
+      "url": "https://www.laubergedelmar.com/local-weather/",
+      "tier": "official",
+      "chars": 4457
+    },
+    {
+      "id": "d10",
+      "url": "https://www.laubergedelmar.com/dining/adelaide/",
+      "tier": "official",
+      "chars": 12063
+    },
+    {
+      "id": "d11",
+      "url": "https://www.laubergedelmar.com/dining/lyric-coffee/",
+      "tier": "official",
+      "chars": 5890
+    },
+    {
+      "id": "d12",
+      "url": "https://www.laubergedelmar.com/dining/spa-lauberge-membership/",
+      "tier": "official",
+      "chars": 3932
+    },
+    {
+      "id": "d13",
+      "url": "https://www.cntraveler.com/hotels/del-mar/lauberge-del-mar",
+      "tier": "editorial",
+      "chars": 4404
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The resort overlooks the Pacific Ocean from the coastal village of Del Mar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "overlooks the Pacific Ocean from one of Southern California’s most picturesque coastal villages",
+          "note": "resort overlooks Pacific from coastal village",
+          "confirmed": true,
+          "url": "https://www.laubergedelmar.com/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located in the heart of Del Mar",
+          "note": "village is Del Mar",
+          "confirmed": true,
+          "url": "https://www.laubergedelmar.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is located in the heart of Del Mar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located in the heart of Del Mar, and affectionately known as _being_ the heart of Del Mar",
+          "note": "heart of Del Mar",
+          "confirmed": true,
+          "url": "https://www.laubergedelmar.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The resort has an ocean-view pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "tennis courts and an inviting ocean-view pool",
+          "note": "ocean-view pool",
+          "confirmed": true,
+          "url": "https://www.laubergedelmar.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Private poolside cabanas are available at the pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Guests can unwind on comfortable lounge chairs or elevate their experience with a private poolside cabana.",
+          "note": "private poolside cabana",
+          "confirmed": true,
+          "url": "https://www.laubergedelmar.com/dining/pool-bars/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The resort has tennis courts.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "tennis courts and an inviting ocean-view pool",
+          "note": "tennis courts",
+          "confirmed": true,
+          "url": "https://www.laubergedelmar.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Guest rooms feature Barclay Butera decor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Each of our guest rooms feature Barclay Butera decor",
+          "note": "Barclay Butera decor",
+          "confirmed": true,
+          "url": "https://www.laubergedelmar.com/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Rooms have private outdoor spaces.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "bright, airy rooms with plush bedding, private outdoor spaces",
+          "note": "page says rooms have private outdoor spaces",
+          "confirmed": true,
+          "url": "https://www.laubergedelmar.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Suites feature custom wood-cased bookshelves, marble bathrooms and oversized balconies.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "from the custom, wood-cased bookshelves to the elegant marble bathrooms. Relax in the calming breeze from the ocean on your oversized balcony.",
+          "note": "suite features",
+          "confirmed": true,
+          "url": "https://www.laubergedelmar.com/accommodations/suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Coastal King rooms have a private balcony with pool and partial coastal views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Private balcony with pool and partial coastal views",
+          "note": "Coastal King spec",
+          "confirmed": true,
+          "url": "https://www.laubergedelmar.com/accommodations/guest-rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Village King Fireplace rooms are third-floor rooms with a fireplace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "These third floor rooms with a cozy fireplace evoke a comfortable, seaside cottage feel.",
+          "note": "Village King Fireplace",
+          "confirmed": true,
+          "url": "https://www.laubergedelmar.com/accommodations/guest-rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Adelaide, the resort's restaurant, pairs dramatic ocean views with ocean-forward coastal California cuisine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Adelaide pairs dramatic ocean views with a refined and elevated approach to coastal California dining that is both ocean-forward and rooted in the earth.",
+          "note": "Adelaide description",
+          "confirmed": true,
+          "url": "https://www.laubergedelmar.com/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "our new restaurant at L’Auberge Del Mar",
+          "note": "Adelaide is the resort's restaurant",
+          "confirmed": true,
+          "url": "https://www.laubergedelmar.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "L'Auberge Del Mar is a pet-friendly resort.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Yes, L’Auberge Del Mar is a pet-friendly resort",
+          "note": "pet-friendly",
+          "confirmed": true,
+          "url": "https://www.laubergedelmar.com/accommodations/guest-rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "A private walking path leads from the hotel down to the local beach.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "a short stroll via our private walking path down to the local beach",
+          "note": "private path to beach",
+          "confirmed": true,
+          "url": "https://www.laubergedelmar.com/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Spa L'Auberge is set in its own seaside cottage and offers personalized treatments.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Nestled in its own seaside cottage, Spa L’Auberge offers personalized treatments",
+          "note": "spa cottage, personalized treatments",
+          "confirmed": true,
+          "url": "https://www.laubergedelmar.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Del Mar One Bedroom Suite is the largest suite, with three private balconies, two living areas (one with a fireplace), a dining table for six and a Roman tub.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The Del Mar One Bedroom Suite is the largest and most luxurious option",
+          "note": "largest suite",
+          "confirmed": true,
+          "url": "https://www.laubergedelmar.com/accommodations/suites/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "It includes three private balconies with partial coastal views, two roomy living areas (one with a fireplace), a dining table for six, and a master bathroom with a Roman tub.",
+          "note": "suite features",
+          "confirmed": true,
+          "url": "https://www.laubergedelmar.com/accommodations/suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Guests can take surf lessons and spend evenings by fire pits.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "partake in surf lessons, and enjoy a cozy evening by fire pits",
+          "note": "surf lessons and fire pits",
+          "confirmed": true,
+          "url": "https://www.laubergedelmar.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Resort King rooms have limited views and no balcony; ocean views from the Coastal rooms and the suites are partial.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Limited views and no balcony",
+          "note": "Resort King",
+          "confirmed": true,
+          "url": "https://www.laubergedelmar.com/accommodations/guest-rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Private balcony with pool and partial coastal views",
+          "note": "Coastal rooms partial",
+          "confirmed": true,
+          "url": "https://www.laubergedelmar.com/accommodations/guest-rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The Pacific One Bedroom Suite has a private balcony with partial ocean views",
+          "note": "suites partial",
+          "confirmed": true,
+          "url": "https://www.laubergedelmar.com/accommodations/suites/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The Del Mar One Bedroom Suite also features multiple balconies with partial coastal views",
+          "note": "suites partial",
+          "confirmed": true,
+          "url": "https://www.laubergedelmar.com/accommodations/suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes limited parking availability in the Del Mar village location.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

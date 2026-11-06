@@ -1,0 +1,374 @@
+{
+  "hotel_slug": "le-bristol-paris",
+  "hotel_name": "Le Bristol Paris",
+  "checked_at": "2026-10-13T06:48:27.842Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.oetkercollection.com/hotels/le-bristol-paris/",
+      "tier": "official",
+      "chars": 5102
+    },
+    {
+      "id": "d2",
+      "url": "https://www.cntraveler.com/hotels/paris/le-bristol-paris",
+      "tier": "editorial",
+      "chars": 12282
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Le Bristol Paris is at 112 rue du Faubourg Saint-Honoré in Paris.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "At 112 rue du Faubourg Saint-Honoré in the heart of the City of Light, Le Bristol Paris is a symbol of Parisian chic",
+          "note": "address stated",
+          "confirmed": true,
+          "url": "https://www.oetkercollection.com/hotels/le-bristol-paris/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "112 Rue du Faubourg Saint-Honoré, Paris, 75008",
+          "note": "address in contact block",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/le-bristol-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is a stone's throw from the Champs-Élysées, and Place de l'Opéra is within walking distance.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "It’s hard to argue with a location that’s a stone’s throw from the Champs-Elysées. Also within walking distance is the Place de l’Opéra and its surrounding shops.",
+          "note": "both locations stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/le-bristol-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Le Bristol is named after Bishop Frederick Hervey, 4th Earl of Bristol, an eighteenth-century traveller.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Named after Bishop Frederick Hervey, 4th Earl of Bristol, an eighteenth-century traveller famed for his love of comfort",
+          "note": "namesake stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/le-bristol-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "During World War II, the property served as the home of the American Embassy.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "During World War II, the property served as the home of the American Embassy",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/le-bristol-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Famous guests over the years have included Charlie Chaplin and Rita Hayworth.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Famous guests over the years have included Charlie Chaplin and Rita Hayworth",
+          "note": "both guests named",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/le-bristol-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Each room is unique in decoration and colour.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "There are 190 rooms and suites at Le Bristol, each one unique in decoration and colour",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/le-bristol-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Room decor is traditional, enhanced with original paintings and antique furniture.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Decor is traditional and enhanced with original paintings and antique furniture.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/le-bristol-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The spa is Spa Le Bristol by La Mer.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "From the moment you step into Spa Le Bristol by La Mer",
+          "note": "spa name stated",
+          "confirmed": true,
+          "url": "https://www.oetkercollection.com/hotels/le-bristol-paris/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Le Jardin Français is the hotel's courtyard garden, with a fountain.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Le Jardin Francais, Le Bristol Paris’s courtyard garden, is a calm escape from the busy Paris streets, where the trickle of water from the fountain",
+          "note": "courtyard garden with fountain",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/le-bristol-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Bristol After Dark takes place at Le Bar du Bristol.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "they might head to Bristol After Dark, at Le Bar Du Bristol, for a nightcap",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/le-bristol-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel offers guests electric bicycles to ride.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "They also offer guests electric bicycles to ride",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/le-bristol-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Wheelchairs and shower chairs are available to guests on request, and there is an accessible lift in the lobby.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Wheelchairs and shower chairs are available to guests upon request, and there is an accessible lift in the lobby.",
+          "note": "all elements stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/le-bristol-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The nautical-themed indoor pool was created by the same designer that did the Onassis yacht, and it is heated in all seasons.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The nautical-themed indoor pool, created by the same designer that did the Onassis' yacht, is heated in all seasons",
+          "note": "all elements stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/le-bristol-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The hotel's resident Burmese cat, Socrate, wears a bespoke Goyard collar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Burmese cat, Socrate, who prowls the storied halls of the hotel in his bespoke Goyard collar",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/le-bristol-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Le Bristol Paris's restaurants are led by Chef Arnaud Faye, Meilleur Ouvrier de France.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Le Bristol Paris's restaurants are a beacon of culinary excellence, spearheaded by Chef Arnaud Faye, Meilleur Ouvrier de France.",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.oetkercollection.com/hotels/le-bristol-paris/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The hotel's kitchens include a chocolatier, a pasta-making kitchen, a patisserie and a bakery where wheat is milled fresh each day.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "there’s a chocolatier, a pasta-making kitchen, a patisserie and even a bakery, where wheat is milled fresh each day",
+          "note": "all four listed",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/le-bristol-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The indoor rooftop swimming pool has views over Montmartre and the Eiffel Tower.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "A stunning indoor rooftop swimming pool with views over Montmartre and the Eiffel Tower",
+          "note": "stated on official page",
+          "confirmed": true,
+          "url": "https://www.oetkercollection.com/hotels/le-bristol-paris/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "There is no open outdoor space for children at the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "What might not seem like an ideal place for children – there’s no open outdoor space",
+          "note": "stated in families section",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/le-bristol-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The decor is traditional, with original paintings and antique furniture, rather than a contemporary look.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Decor is traditional and enhanced with original paintings and antique furniture.",
+          "note": "traditional decor stated; not contemporary implied by traditional",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/paris/le-bristol-paris",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes ultra-luxury pricing and a formal atmosphere that may not suit casual travelers.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

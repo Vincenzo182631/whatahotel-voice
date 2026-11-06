@@ -1,0 +1,72 @@
+{
+  "slug": "raffles-maldives-meradhoo-resort",
+  "status": "awaiting_extraction",
+  "partial": false,
+  "reasons": [
+    "some pages were inaccessible; missing information is not proof an amenity does not exist"
+  ],
+  "identity": {
+    "hotel": {
+      "name": "Raffles Maldives Meradhoo Resort",
+      "city": "Maldives",
+      "country": "MV",
+      "chain": "raffles"
+    },
+    "affiliation": {
+      "kind": "chain",
+      "chain": "raffles"
+    },
+    "evidence": [
+      "location matches (Maldives, MV)",
+      "confirmed by hand as this hotel's own page (only 50% of the hotel name appears on the page)"
+    ],
+    "reasons": [],
+    "candidates": [
+      "https://www.raffles.com/maldives/"
+    ],
+    "checked_at": "2026-10-14T03:53:21.767Z",
+    "status": "confirmed",
+    "official_url": "https://www.raffles.com/maldives/",
+    "base_url": "https://www.raffles.com/maldives/",
+    "host": "raffles.com",
+    "checks": {
+      "name_coverage": 0.5,
+      "location_match": true
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.raffles.com/maldives/",
+      "tier": "official",
+      "fetched_at": "2026-10-14T03:53:26.608Z",
+      "source": "firecrawl"
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.raffles.com/maldives/",
+      "reason": "no same-property sub-page links found on the home page"
+    },
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found"
+    }
+  ],
+  "usage": {
+    "firecrawl_calls": 4,
+    "firecrawl_searches": 1,
+    "cache_hits": 0,
+    "direct_fetches": 0,
+    "pages": 1,
+    "chars": 16760,
+    "est_claude_tokens": 4190
+  },
+  "limits": {
+    "maxPages": 12,
+    "maxFirecrawlCalls": 16,
+    "maxRetries": 3,
+    "maxChars": 150000
+  },
+  "researched_at": "2026-10-14T03:53:38.816Z"
+}

@@ -1,0 +1,410 @@
+{
+  "hotel_slug": "alila-bangsar-kuala-lumpur",
+  "hotel_name": "Alila Bangsar Kuala Lumpur",
+  "checked_at": "2026-10-27T07:59:12.738Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/kulal-alila-bangsar-kuala-lumpur",
+      "tier": "official",
+      "chars": 9860
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/kulal-alila-bangsar-kuala-lumpur/rooms/",
+      "tier": "official",
+      "chars": 3902
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/kulal-alila-bangsar-kuala-lumpur/dining/",
+      "tier": "official",
+      "chars": 2744
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/kulal-alila-bangsar-kuala-lumpur/alila-moments/",
+      "tier": "official",
+      "chars": 5804
+    },
+    {
+      "id": "d5",
+      "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/kulal-alila-bangsar-kuala-lumpur/parking-and-transportation/",
+      "tier": "official",
+      "chars": 1335
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/kulal-alila-bangsar-kuala-lumpur/hotel-info/",
+      "tier": "official",
+      "chars": 1405
+    },
+    {
+      "id": "d7",
+      "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/kulal-alila-bangsar-kuala-lumpur/reviews/",
+      "tier": "official",
+      "chars": 7036
+    },
+    {
+      "id": "d8",
+      "url": "https://www.cntraveler.com/hotels/kuala-lumpur/alila-bangsar-kuala-lumpur",
+      "tier": "editorial",
+      "chars": 1776
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is perched high above the Bangsar district with sweeping views of the city.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Perched high above the dynamic Bangsar district, Alila Bangsar offers a calm, contemporary retreat with sweeping views of the city.",
+          "note": "Directly states both elements.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/kulal-alila-bangsar-kuala-lumpur",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is moments from Kuala Lumpur's culinary hotspots, cultural enclaves and main transit lines.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Just moments from Kuala Lumpur’s culinary hotspots, cultural enclaves and main transit lines",
+          "note": "Matches the claim exactly.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/kulal-alila-bangsar-kuala-lumpur",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Bangsar LRT station is 0.22 kilometers from the hotel, and KL Sentral is 1.4 kilometers away.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Bangsar LRT station0.22 kilometers0.22 kilometers",
+          "note": "Gives the LRT distance.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/kulal-alila-bangsar-kuala-lumpur/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "KL Sentral1.4 kilometers1.4 kilometers",
+          "note": "Gives the KL Sentral distance.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/kulal-alila-bangsar-kuala-lumpur/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Many rooms have separate sitting areas, rainfall showers and spacious balconies.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Many boast separate sitting areas, rainfall showers, and spacious balconies.",
+          "note": "Matches the claim.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/kulal-alila-bangsar-kuala-lumpur/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Alila Suite is a one-bedroom suite with a king bed, a separate living and dining area, and a balcony.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Enjoy 2,700 square feet of space inside this one-bedroom suite, featuring one king bed, a separate living and dining area, and a balcony.",
+          "note": "All elements covered.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/kulal-alila-bangsar-kuala-lumpur/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Junior Suite is a corner room with a king bed and a separate sitting area.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Enjoy 650 square feet of space in this corner room, with one king bed, separate sitting area, and a bathroom with a rainfall shower.",
+          "note": "Junior Suite description covers corner room, king bed and sitting area.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/kulal-alila-bangsar-kuala-lumpur/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The hotel has an outdoor pool and a fitness center with cardio and strength-training equipment.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Escape the bustling city and relax by our outdoor pool or cool off with a refreshing dip.",
+          "note": "Confirms the outdoor pool.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/kulal-alila-bangsar-kuala-lumpur",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Keep up with your exercise routine while you travel at our fitness center, featuring the latest cardio and strength-training equipment.",
+          "note": "Confirms the fitness center and its equipment.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/kulal-alila-bangsar-kuala-lumpur",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Alila Moments include a sound bath with traditional handpan and singing bowls.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Surrender to the healing resonance of traditional handpan and singing bowls in a deeply restorative sound bath.",
+          "note": "Sound bath listed among Alila Moments.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/kulal-alila-bangsar-kuala-lumpur",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "A terrarium workshop lets guests build their own terrarium and take it home.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "you'll build your own terrarium, layering soil, stones and handpicked plants to create a living piece of art.",
+          "note": "Guests build their own terrarium.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/kulal-alila-bangsar-kuala-lumpur/alila-moments/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "share your design and the meaning behind it with others, then take your terrarium home",
+          "note": "Guests take the terrarium home.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/kulal-alila-bangsar-kuala-lumpur/alila-moments/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Le Comptoir is a high-rise bar and lounge with city views, artisanal cocktails and petite plates.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "An intimate, high-rise bar and lounge offering spectacular city views, artisanal cocktails, and curated petite plates.",
+          "note": "All elements covered.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/kulal-alila-bangsar-kuala-lumpur/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Botanica + Co is an all-day ground-floor restaurant where lush plants give the feeling of a greenhouse.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "At this all-day ground floor hangout, playful takes on crave-worthy foods from around the globe are prepared with fresh, seasonal ingredients. Lush plants give the feeling of being in a greenhouse.",
+          "note": "Botanica + Co description matches the claim.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/kulal-alila-bangsar-kuala-lumpur/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "All rooms and suites occupy the 35th to 40th floors, with uninterrupted views of the Kuala Lumpur skyline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Occupying the 35th to 40th floors, all our rooms and suites offer luxurious amenities and uninterrupted views of the Kuala Lumpur skyline.",
+          "note": "Matches floors and views.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/kulal-alila-bangsar-kuala-lumpur",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The Bangsar Suite is a corner suite with a king bed and a separate living area with city skyline views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Unwind within this 1,025-square-foot corner suite, furnished with one king bed, a separate living area with city skyline views, and a bathroom with a rainfall shower.",
+          "note": "Bangsar Suite description covers all elements.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/kulal-alila-bangsar-kuala-lumpur/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Alila Moments include a Malaysian origami session exploring traditional folds and cultural symbolism.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Discover the quiet power of paper in this mindful Malaysian origami session. Learn traditional folds, uncover cultural symbolism",
+          "note": "Origami session listed under Alila Moments.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/kulal-alila-bangsar-kuala-lumpur",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "A Peranakan beading workshop teaches the symbolism, history and craft of the beadwork, and guests stitch their own piece.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Learn the symbolism, history and craft behind this centuries-old practice—and stitch your own piece of cultural artistry.",
+          "note": "Peranakan beading workshop description covers all elements.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/kulal-alila-bangsar-kuala-lumpur",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Entier serves French plates in a communal dining setting on the 41st floor, with a nose-to-tail approach.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Savor French plates in a serene communal dining setting on the 41st floor.",
+          "note": "Covers the French plates, communal setting and 41st floor.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/kulal-alila-bangsar-kuala-lumpur/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "is the inspiration behind the restaurant’s nose-to-tail approach.",
+          "note": "Covers the nose-to-tail approach.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/kulal-alila-bangsar-kuala-lumpur/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Kuala Lumpur International Airport is 54.9 kilometers from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Kuala Lumpur International Airport (KUL)54.9 kilometers54.9 kilometers",
+          "note": "Airport distance matches.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/kulal-alila-bangsar-kuala-lumpur/parking-and-transportation/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The setting is a city high-rise above the Bangsar district rather than a resort.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Perched high above the dynamic Bangsar district, Alila Bangsar offers a calm, contemporary retreat with sweeping views of the city.",
+          "note": "An urban setting high above Bangsar.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/kulal-alila-bangsar-kuala-lumpur",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Occupying the 35th to 40th floors, all our rooms and suites offer luxurious amenities",
+          "note": "Rooms on high floors indicate a city high-rise.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/kulal-alila-bangsar-kuala-lumpur",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing that reflects the hotel's upscale positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

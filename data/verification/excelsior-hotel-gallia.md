@@ -1,0 +1,39 @@
+# Verification checklist: Excelsior Hotel Gallia
+
+Checked 2026-10-24 against the hotel's own pages and Condé Nast Traveler. Result: **can be marked verified** (profile set to verified).
+
+Supported 17 · contradicted 0 · unverified 0 · WhataHotel's own statements 2 · total 19
+
+## Pages checked
+
+- official: https://www.marriott.com/en-us/hotels/millc-excelsior-hotel-gallia-a-luxury-collection-hotel-milan/overview/
+- official: https://www.marriott.com/en-us/hotels/millc-excelsior-hotel-gallia-a-luxury-collection-hotel-milan/rooms/
+- official: https://www.marriott.com/en-us/hotels/millc-excelsior-hotel-gallia-a-luxury-collection-hotel-milan/rooms/suite-collection/
+- official: https://www.marriott.com/en-us/hotels/millc-excelsior-hotel-gallia-a-luxury-collection-hotel-milan/spa/
+- official: https://www.marriott.com/en-us/hotels/millc-excelsior-hotel-gallia-a-luxury-collection-hotel-milan/experiences/
+- official: https://www.marriott.com/en-us/hotels/millc-excelsior-hotel-gallia-a-luxury-collection-hotel-milan/dining/
+- not available: cntraveler.com (no Condé Nast Traveler hotel page found for this name)
+
+## Claims
+
+| | Claim | Evidence |
+|---|---|---|
+| ✅ | **f-1** The hotel stands beside Piazza Duca d'Aosta and Milano Centrale station. | "Excelsior Hotel Gallia stands beside Piazza Duca d’Aosta and Milano Centrale station" (official, https://www.marriott.com/en-us/hotels/millc-excelsior-hotel-gallia-a-luxury-collection-hotel-milan/overview/) |
+| ✅ | **f-2** Lake Como, Venice and Florence are a train journey away from the hotel. | "From the hotel, iconic destinations such as Lake Como, Venice, and Florence are just a convenient train journey away" (official, https://www.marriott.com/en-us/hotels/millc-excelsior-hotel-gallia-a-luxury-collection-hotel-milan/overview/) |
+| ✅ | **f-4** All of the hotel's furniture is made in Italy, with several pieces produced with Milanese artisans and designers. | "All of Excelsior Hotel Gallia’s furniture is Made in Italy, with several pieces produced in collaboration with Milanese artisans and designers." (official, https://www.marriott.com/en-us/hotels/millc-excelsior-hotel-gallia-a-luxury-collection-hotel-milan/overview/) |
+| ✅ | **f-5** Rooms feature handcrafted and modern elements by local ateliers including B&B Italia, Cassina, Fendi Casa and Flos. | "Each guest room embodies Milan's renowned aesthetic, boasting a seamless blend of handcrafted and modern elements meticulously curated by local ateliers such as B&B Italia, Cassina, Fendi Casa and Flos." (official, https://www.marriott.com/en-us/hotels/millc-excelsior-hotel-gallia-a-luxury-collection-hotel-milan/rooms/suite-collection/) |
+| ✅ | **f-6** Bathrooms showcase Botticino or Emperador marble with Belle Epoque bronze accents. | "Bathrooms showcase Botticino or Emperador marble set against Belle Époque bronze accents." (official, https://www.marriott.com/en-us/hotels/millc-excelsior-hotel-gallia-a-luxury-collection-hotel-milan/rooms/) |
+| ✅ | **f-7** Signature Suites take inspiration from Italian creators such as Gio Ponti and Castiglioni, and many feature their designs. | "our Signature Suites are infused with inspiration from world renowned Italian creators such as Gio Ponti and Castiglioni–many feature their designs" (official, https://www.marriott.com/en-us/hotels/millc-excelsior-hotel-gallia-a-luxury-collection-hotel-milan/overview/) |
+| ✅ | **f-8** Panoramic Suites have floor-to-ceiling windows with views of landmarks and the cityscape. | "these suites present breathtaking views of landmarks and the cityscape through expansive floor-to-ceiling windows" (official, https://www.marriott.com/en-us/hotels/millc-excelsior-hotel-gallia-a-luxury-collection-hotel-milan/rooms/suite-collection/) |
+| ✅ | **f-9** The wellness center has a Himalayan salt cabin, hydrotherapy sessions, wet and dry saunas and a steam room. | "amenities such as a Himalayan salt cabin, hydrotherapy sessions, wet and dry saunas and a steam room" (official, https://www.marriott.com/en-us/hotels/millc-excelsior-hotel-gallia-a-luxury-collection-hotel-milan/overview/) |
+| ✅ | **f-10** The Private Spa Suite has a treatment room for two, a jacuzzi, sauna, steam room, ice room and relaxation area. | "the Private Spa Suite features a treatment room for two, jacuzzi, sauna, steam room, ice room, and a serene relaxation area" (official, https://www.marriott.com/en-us/hotels/millc-excelsior-hotel-gallia-a-luxury-collection-hotel-milan/spa/) |
+| ✅ | **f-11** The hotel's wine cellar holds over 700 labels. | "The Excelsior Hotel Gallia boasts a wine cellar comprising over 700 labels from the finest vintages worldwide." (official, https://www.marriott.com/en-us/hotels/millc-excelsior-hotel-gallia-a-luxury-collection-hotel-milan/experiences/) |
+| ✅ | **f-12** The head concierge is a member of Les Clefs d'Or. | "Meet our head concierge, proud member of 'Les Clefs d'Or'." (official, https://www.marriott.com/en-us/hotels/millc-excelsior-hotel-gallia-a-luxury-collection-hotel-milan/experiences/) |
+| ✅ | **h-1** The Katara Royal Suite is a four-bedroom suite on the seventh floor with two terraces. | "This unique four-bedroom suite, located on the seventh floor, redefines Milanese grandeur. Elevating the experience are two expansive terraces" (official, https://www.marriott.com/en-us/hotels/millc-excelsior-hotel-gallia-a-luxury-collection-hotel-milan/rooms/suite-collection/) |
+| ✅ | **h-2** The Gallia Health Club and Shiseido Spa Milan spans the sixth and seventh floors, with panoramic views of the historic city center. | "Nestled on the sixth and seventh floors of the Excelsior Hotel Gallia, the 1,000-square-meter Gallia Health Club & Shiseido Spa Milan combines the prestige of the premier Shiseido brand with panoramic views of the historic city center." (official, https://www.marriott.com/en-us/hotels/millc-excelsior-hotel-gallia-a-luxury-collection-hotel-milan/overview/) |
+| ✅ | **h-3** The indoor pool is on the seventh floor and has panoramic views. | "Perched on the seventh floor of the Excelsior Hotel Gallia, the exclusive indoor pool invites guests to slow down and savor a serene interlude; an oasis of calm where refined ambiance and panoramic views" (official, https://www.marriott.com/en-us/hotels/millc-excelsior-hotel-gallia-a-luxury-collection-hotel-milan/spa/) |
+| ✅ | **h-4** The hotel has a collection of more than 500 art pieces, including paintings, sculptures and photographs, designed by Studio Marco Piva exclusively for the property. | "Discover our unique collection of more than 500 art pieces designed by Studio Marco Piva exclusively for the property, too. These include paintings, sculptures and photographs." (official, https://www.marriott.com/en-us/hotels/millc-excelsior-hotel-gallia-a-luxury-collection-hotel-milan/overview/) |
+| ✅ | **h-5** Atelier Suites are conceived as art galleries, with unique lighting and colour use. | "our Atelier Suites are conceived as art galleries, upping the theatricality ante with unique lighting and colour use" (official, https://www.marriott.com/en-us/hotels/millc-excelsior-hotel-gallia-a-luxury-collection-hotel-milan/overview/) |
+| ✅ | **c-1** The hotel sits beside Milano Centrale station on Piazza Duca d'Aosta, a major transport hub. | "Excelsior Hotel Gallia stands beside Piazza Duca d’Aosta and Milano Centrale station, placing guests at one of Italy’s most important transportation hubs" (official, https://www.marriott.com/en-us/hotels/millc-excelsior-hotel-gallia-a-luxury-collection-hotel-milan/overview/) |
+| ➖ | **c-2** WhataHotel notes the busy train station location may be noisy for light sleepers. | WhataHotel's own offer or statement |
+| ➖ | **c-3** WhataHotel notes premium luxury pricing reflecting the high-end positioning. | WhataHotel's own offer or statement |

@@ -1,0 +1,420 @@
+{
+  "hotel_slug": "alila-manggis",
+  "hotel_name": "Alila Manggis",
+  "checked_at": "2026-10-27T08:00:09.578Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 18
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsak-alila-manggis",
+      "tier": "official",
+      "chars": 20038
+    },
+    {
+      "id": "d2",
+      "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsak-alila-manggis/rooms/",
+      "tier": "official",
+      "chars": 3731
+    },
+    {
+      "id": "d3",
+      "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsak-alila-manggis/dining/",
+      "tier": "official",
+      "chars": 1386
+    },
+    {
+      "id": "d4",
+      "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsak-alila-manggis/alila-moments/",
+      "tier": "official",
+      "chars": 7401
+    },
+    {
+      "id": "d5",
+      "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsak-alila-manggis/hotel-info/",
+      "tier": "official",
+      "chars": 873
+    },
+    {
+      "id": "d6",
+      "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsak-alila-manggis/reviews/",
+      "tier": "official",
+      "chars": 6066
+    },
+    {
+      "id": "d7",
+      "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsak-alila-manggis/parking-and-transportation/",
+      "tier": "official",
+      "chars": 1070
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Alila Manggis is a seaside resort in Manggis, East Bali, set amid a coconut grove between the sea and Mount Agung.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Alila Manggis is a secluded, stylish seaside resort in Manggis, East Bali.",
+          "note": "Establishes the seaside resort in Manggis, East Bali.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsak-alila-manggis",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Set amid a coconut grove, the resort nestles between the sea and the majestic Mount Agung, Bali’s most sacred mountain.",
+          "note": "Establishes the coconut grove setting between the sea and Mount Agung.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsak-alila-manggis",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The resort's design is a contemporary interpretation of traditional Balinese architecture.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "A contemporary interpretation of traditional Balinese architecture is artfully combined with modern amenities",
+          "note": "Directly states the design approach.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsak-alila-manggis",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The Seaside King Suite is the resort's largest accommodation.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Go for the Seaside King Suite, the resort’s largest and most sophisticated dwelling at 1,220 square feet.",
+          "note": "Names the Seaside King Suite as the largest accommodation.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsak-alila-manggis/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Deluxe Rooms are on the upper floor, with a private balcony and daybed looking across the coconut grove, pool and sea.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our 34 SQM Deluxe Room is located on the upper floor and offers the best views across the coconut grove, swimming pool, and sea.",
+          "note": "Covers the upper floor and the views across the grove, pool and sea.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsak-alila-manggis/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Private balcony with daybed",
+          "note": "Covers the balcony with daybed listed for the Deluxe rooms.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsak-alila-manggis/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Seasalt's signature meal is the Megibung, a traditional East Bali shared feast served on a carved timber stand called the Dulang.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Savour the ceremony and ritual behind Seasalt’s signature meal, the Megibung.",
+          "note": "Establishes the Megibung as Seasalt's signature meal.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsak-alila-manggis/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "In the customary tradition of sharing food with friends and family during village festivals and ceremonies in East Bali, choose from a multitude of dishes served on a carved timber stand called the Dulang.",
+          "note": "Covers the East Bali sharing tradition and the Dulang timber stand.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsak-alila-manggis/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Seasalt serves Indonesian and Western dishes in a traditional pavilion set on a lotus pond.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Dine on vibrant Indonesian and Western flavours in a traditional pavilion set on a lotus pond at Seasalt, which offers all-day dining.",
+          "note": "Covers the cuisine, the pavilion and the lotus pond.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsak-alila-manggis/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Flavors of East Bali cooking experience starts with picking ingredients in the resort's garden and cooking with a chef using the traditional firewood method.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Guests will participate in on hands-on cooking with Chef at the garden, starting with picking out the ingredients to cooking them together using the traditional firewood method.",
+          "note": "Covers picking ingredients, cooking with the chef and the firewood method.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsak-alila-manggis/alila-moments/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Wander through the resort's lush organic garden",
+          "note": "Confirms the garden is the resort's own.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsak-alila-manggis/alila-moments/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Caves and Crystals experience visits the Goa Lawah bat cave temple and the salt pans of Kusamba, where sea salt is still harvested by hand.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Discover the enchanting Goa Lawah, Bali’s sacred Bat Cave, just minutes from Alila Manggis.",
+          "note": "Covers the visit to the Goa Lawah bat cave.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsak-alila-manggis/alila-moments/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Then continue to Kusamba’s coast, where sea salt is still harvested by hand in sunlit rituals passed down through generations.",
+          "note": "Covers Kusamba and the hand-harvested sea salt.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsak-alila-manggis/alila-moments/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Walk through the salt pans, learn the steps from seawater to crystal",
+          "note": "Covers the salt pans.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsak-alila-manggis/alila-moments/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The Alila Leisure Concierge team tailors activities across five themes: Cultural Learning, Conscious Living, Active Spirits, Culinary Arts and Couple Celebration.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "yours to explore with the guidance of our Alila Leisure Concierge team. Enhance your holiday with lifestyle activities tailored to individual interests across five themes:",
+          "note": "Covers the concierge team and the tailored activities across five themes.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsak-alila-manggis",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Cultural Learning (love of history and artisanship), Conscious Living (wellness, environs and community), Active Spirits (outdoor sporting pursuits), Culinary Arts (cooking school and food trails) and Couple Celebration.",
+          "note": "Lists all five themes named in the claim.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsak-alila-manggis",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The resort follows a zero-waste policy and runs a coral reef conservation programme with a local diving operation.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "the resort adheres to a zero-waste policy, conducts a coral reef conservation programme in partnership with a local diving operation",
+          "note": "Covers both the zero-waste policy and the coral reef programme.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsak-alila-manggis",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Tenganan village, known for its double-ikat Gringsing woven cloth, is near the resort.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Just near the resort, the village of Tenganan is renowned for its double-ikat or ‘Gringsing’ woven cloth.",
+          "note": "Covers Tenganan's proximity and its Gringsing cloth.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsak-alila-manggis",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "All rooms and suites face the ocean, with views across the straits to Nusa Penida.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "All rooms and suites face the ocean with clear views across the straits to Nusa Penida.",
+          "note": "Direct statement of the ocean-facing rooms and the Nusa Penida views.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsak-alila-manggis",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Rooms and suites are housed in traditional two-storey thatched Balinese pavilions angled to the beach.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Housed in traditional two-storey thatched Balinese pavilions, all 55 of our rooms and suites are angled to the beach",
+          "note": "Covers the pavilions and the angle to the beach.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsak-alila-manggis",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Spa Alila treatments take place in open-air bales facing the sea, in the shade of pandan groves.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Nestled within the shade of pandan groves and facing the endless sea, Spa Alila offers a sanctuary where nature and well-being meet. Treatments unfold in open-air bales",
+          "note": "Covers the open-air bales, the pandan grove shade and the sea-facing setting.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsak-alila-manggis",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Surya is a yoga shala overlooking the ocean on Bali's east coast, where the sun rises.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Aptly located overlooking the ocean along Bali’s east coast, where the sun rises, Surya comprises a 10m x 10m yoga shala.",
+          "note": "Covers every element of the claim.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsak-alila-manggis",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The Roots of Tenganan experience is a bike ride through rice fields to the Bali Aga village of Tenganan to meet master ikat weavers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Cycle through emerald rice fields before entering this Bali Aga settlement",
+          "note": "Covers the bike ride through rice fields to the Bali Aga village.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsak-alila-manggis/alila-moments/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "speak with master ikat weavers",
+          "note": "Covers meeting the master ikat weavers.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsak-alila-manggis/alila-moments/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The resort is about a 90-minute drive from Ngurah Rai International Airport.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located just 90 minutes’ drive from Ngurah Rai International Airport",
+          "note": "Directly states the 90-minute drive.",
+          "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsak-alila-manggis",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "WhataHotel notes limited dining and entertainment options outside the resort.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

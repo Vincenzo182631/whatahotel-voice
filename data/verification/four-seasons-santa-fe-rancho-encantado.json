@@ -1,0 +1,465 @@
+{
+  "hotel_slug": "four-seasons-santa-fe-rancho-encantado",
+  "hotel_name": "Four Seasons Resort Rancho Encantado Santa Fe",
+  "checked_at": "2026-10-08T00:05:05.814Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 6,
+      "total": 25
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://press.fourseasons.com/santafe/hotel-facts/",
+      "tier": "official",
+      "chars": 5175
+    },
+    {
+      "id": "d2",
+      "url": "https://www.fourseasons.com/santafe/",
+      "tier": "official",
+      "chars": 9515
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/santafe/getting-here/",
+      "tier": "official",
+      "chars": 6159
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/santafe/spa/",
+      "tier": "official",
+      "chars": 7570
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/santafe/dining/",
+      "tier": "official",
+      "chars": 5001
+    },
+    {
+      "id": "d6",
+      "url": "https://www.fourseasons.com/santafe/accommodations/",
+      "tier": "official",
+      "chars": 5996
+    },
+    {
+      "id": "d7",
+      "url": "https://www.fourseasons.com/santafe/services-and-amenities/",
+      "tier": "official",
+      "chars": 5067
+    },
+    {
+      "id": "d8",
+      "url": "https://www.cntraveler.com/hotels/united-states/santa-fe/four-seasons-resort-rancho-encantado-santa-fe",
+      "tier": "editorial",
+      "chars": 12169
+    },
+    {
+      "id": "d9",
+      "url": "https://www.fourseasons.com/santafe/services-and-amenities/couples/",
+      "tier": "official",
+      "chars": 6306
+    },
+    {
+      "id": "d10",
+      "url": "https://www.fourseasons.com/santafe/services-and-amenities/family/",
+      "tier": "official",
+      "chars": 9810
+    },
+    {
+      "id": "d11",
+      "url": "https://www.fourseasons.com/santafe/contact-us/",
+      "tier": "official",
+      "chars": 1637
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The resort has 65 rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "our intimate, 65-room luxury Resort",
+          "note": "65 rooms",
+          "url": "https://www.fourseasons.com/santafe/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The resort has 56 guest rooms and 9 suites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "including 56 hotel rooms and 9 suites",
+          "note": "56 rooms and 9 suites",
+          "url": "https://www.fourseasons.com/santafe/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The resort is set on 57 acres.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "spans 57 acres of high desert landscape",
+          "note": "57 acres",
+          "url": "https://www.fourseasons.com/santafe/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The resort is in the foothills of the Sangre de Cristo mountains.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Set on 57 acres in the foothills of the Sangre de Cristo mountains",
+          "note": "foothills",
+          "url": "https://www.fourseasons.com/santafe/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The resort opened as a Four Seasons in July 2012.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "July 2012",
+          "note": "opening date label",
+          "url": "https://press.fourseasons.com/santafe/hotel-facts/",
+          "tier": "official",
+          "quote_verified": false
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "in 2012, it became a Four Seasons and reclaimed the Rancho Encantado name",
+          "note": "became Four Seasons 2012",
+          "url": "https://press.fourseasons.com/santafe/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Terra is the resort's signature restaurant.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The flavours of northern New Mexico are on display at our signature restaurant",
+          "note": "Terra is signature restaurant",
+          "url": "https://www.fourseasons.com/santafe/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The spa has fifteen treatment rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Home to fifteen treatment rooms and four private soaking courtyards",
+          "note": "fifteen treatment rooms",
+          "url": "https://www.fourseasons.com/santafe/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The spa has four private soaking courtyards.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Home to fifteen treatment rooms and four private soaking courtyards",
+          "note": "four soaking courtyards",
+          "url": "https://www.fourseasons.com/santafe/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The resort has a year-round heated outdoor pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "year-round heated outdoor pool",
+          "note": "year-round heated outdoor pool",
+          "url": "https://www.fourseasons.com/santafe/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The resort offers a complimentary shuttle to and from downtown Santa Fe Plaza.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "take our complimentary shuttle to and from downtown’s Santa Fe Plaza, operating daily",
+          "note": "shuttle",
+          "url": "https://www.fourseasons.com/santafe/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The resort offers complimentary valet parking to all guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "We offer complimentary valet parking to all of our guests throughout your stay.",
+          "note": "valet",
+          "url": "https://www.fourseasons.com/santafe/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Each casita features a traditional wood-burning fireplace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "each of our luxurious Casita accommodations features a traditional wood-burning fireplace",
+          "note": "casitas",
+          "url": "https://www.fourseasons.com/santafe/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The resort offers daily complimentary guided hikes along the Camino Encantado trail.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "daily complimentary guided hikes along the Camino Encantado trail",
+          "note": "hikes",
+          "url": "https://www.fourseasons.com/santafe/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The in-casita dining menu is available 24 hours a day.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "our in-casita menu features regional and international favourites from Terra, 24 hours a day",
+          "note": "24 hours",
+          "url": "https://www.fourseasons.com/santafe/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The resort has an Art Concierge Program.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "ART CONCIERGE PROGRAM",
+          "note": "program",
+          "url": "https://www.fourseasons.com/santafe/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Through our one-of-a-kind Four Seasons Resort Rancho Encantado Art Concierge Program",
+          "note": "program",
+          "url": "https://www.fourseasons.com/santafe/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "All guest rooms were overhauled in a multimillion-dollar renovation in 2024.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "Following a massive, multimillion-dollar renovation in 2024, the property’s landscape was revitalized by",
+          "note": "2024 renovation",
+          "url": "https://www.cntraveler.com/hotels/united-states/santa-fe/four-seasons-resort-rancho-encantado-santa-fe",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": ", and all guest rooms were overhauled from top to bottom.",
+          "note": "all rooms overhauled",
+          "url": "https://www.cntraveler.com/hotels/united-states/santa-fe/four-seasons-resort-rancho-encantado-santa-fe",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Albuquerque International Sunport is a 65-minute drive from the resort.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Albuquerque International Sunport is located within a 65-minute drive",
+          "note": "65 min",
+          "url": "https://www.fourseasons.com/santafe/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The resort has one pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "1",
+          "note": "Number of Pools: 1 (value on line after label)",
+          "url": "https://press.fourseasons.com/santafe/hotel-facts/",
+          "tier": "official",
+          "quote_verified": false
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Slip into our outdoor pool for a relaxing swim",
+          "note": "single pool",
+          "url": "https://www.fourseasons.com/santafe/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "The spa is open 9:00 am to 5:00 pm Sunday through Thursday.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Sunday – Thursday9:00 am – 5:00 pmFriday & Saturday9:00 am – 6:00 pm",
+          "note": "hours",
+          "url": "https://www.fourseasons.com/santafe/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-4",
+      "text": "WhataHotel notes the secluded location requires a drive to downtown Santa Fe.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, breakfast for two is free daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers can be combined with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

@@ -1,0 +1,480 @@
+{
+  "hotel_slug": "hotel-valley-ho",
+  "hotel_name": "Hotel Valley Ho",
+  "checked_at": "2026-10-15T16:27:20.443Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://hotelvalleyho.com/",
+      "tier": "official",
+      "chars": 10279
+    },
+    {
+      "id": "d2",
+      "url": "https://hotelvalleyho.com/rooms/",
+      "tier": "official",
+      "chars": 2208
+    },
+    {
+      "id": "d3",
+      "url": "https://hotelvalleyho.com/rooms-suites/studio/",
+      "tier": "official",
+      "chars": 982
+    },
+    {
+      "id": "d4",
+      "url": "https://hotelvalleyho.com/rooms-suites/cabana/",
+      "tier": "official",
+      "chars": 1039
+    },
+    {
+      "id": "d5",
+      "url": "https://hotelvalleyho.com/rooms-suites/terrace/",
+      "tier": "official",
+      "chars": 969
+    },
+    {
+      "id": "d6",
+      "url": "https://hotelvalleyho.com/rooms-suites/hideaway/",
+      "tier": "official",
+      "chars": 1087
+    },
+    {
+      "id": "d7",
+      "url": "https://hotelvalleyho.com/rooms-suites/tower-loft/",
+      "tier": "official",
+      "chars": 1169
+    },
+    {
+      "id": "d8",
+      "url": "https://hotelvalleyho.com/rooms-suites/tower-suite/",
+      "tier": "official",
+      "chars": 1014
+    },
+    {
+      "id": "d9",
+      "url": "https://hotelvalleyho.com/rooms-suites/pool-view/",
+      "tier": "official",
+      "chars": 1040
+    },
+    {
+      "id": "d10",
+      "url": "https://hotelvalleyho.com/rooms-suites/signature/",
+      "tier": "official",
+      "chars": 964
+    },
+    {
+      "id": "d11",
+      "url": "https://hotelvalleyho.com/rooms-suites/studio-plus/",
+      "tier": "official",
+      "chars": 929
+    },
+    {
+      "id": "d12",
+      "url": "https://hotelvalleyho.com/special/hideaway-your-way/",
+      "tier": "official",
+      "chars": 1067
+    },
+    {
+      "id": "d13",
+      "url": "https://www.cntraveler.com/hotels/scottsdale/hotel-valley-ho",
+      "tier": "editorial",
+      "chars": 10848
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Hotel Valley Ho has welcomed guests in Old Town Scottsdale since 1956.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Since 1956, Hotel Valley Ho has been setting the scene for unforgettable stays in Old Town Scottsdale.",
+          "note": "opened 1956, Old Town Scottsdale",
+          "confirmed": true,
+          "url": "https://hotelvalleyho.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is in a walkable location, steps from Old Town Scottsdale's dining, nightlife and shopping.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "a walkable location just steps from the area’s best dining, nightlife and shopping",
+          "note": "walkable, steps from dining, nightlife, shopping",
+          "confirmed": true,
+          "url": "https://hotelvalleyho.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Guests can choose rooms in the historic hotel or contemporary rooms in The Tower.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Choose the historically hip hotel or upgrade to a contemporary and luxurious room in The Tower.",
+          "note": "historic hotel or Tower",
+          "confirmed": true,
+          "url": "https://hotelvalleyho.com/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Rooms have a private patio or balcony, floor-to-ceiling glass and Red Flower bath amenities.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "All our rooms are outfitted with features that will make every minute of your stay luxurious",
+          "note": "applies to all rooms",
+          "confirmed": true,
+          "url": "https://hotelvalleyho.com/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "- Private patio or balcony\n- Floor-to-ceiling glass\n- Pillow-top bed\n- Bath amenities from Red Flower",
+          "note": "list items",
+          "confirmed": true,
+          "url": "https://hotelvalleyho.com/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Cabana Guest Rooms have an oversized patio near the OH Pool or OHasis Pool, surrounded by greenery and historic architecture.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "from your oversized patio near the OH Pool or OHasis Pool, surrounded by lush greenery and historic architecture.",
+          "note": "patio near both pools, greenery, historic architecture",
+          "confirmed": true,
+          "url": "https://hotelvalleyho.com/rooms-suites/cabana/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Tower Suites have a fully appointed kitchen, in-suite laundry and a private balcony with views of Downtown Scottsdale or Camelback Mountain.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "Enjoy a fully appointed kitchen, spacious living area and in-suite laundry. Relax on your private balcony and admire views of Downtown Scottsdale or Camelback Mountain.",
+          "note": "all elements",
+          "confirmed": true,
+          "url": "https://hotelvalleyho.com/rooms-suites/tower-suite/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The OH Pool has a poolside scene with seasonal entertainment.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Grab a chaise and check out the scene poolside, complete with seasonal entertainment.",
+          "note": "OH Pool section",
+          "confirmed": true,
+          "url": "https://hotelvalleyho.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The OHasis Pool is set up for leisurely laps and lounging under the palms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Enjoy leisurely laps and poolside lounging under the palms",
+          "note": "Ohasis Pool section",
+          "confirmed": true,
+          "url": "https://hotelvalleyho.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Private daybeds and cabanas can be booked by the pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "relax like poolside royalty in your own private daybed or cabana. Book a room for special rates on lounging options.",
+          "note": "bookable daybeds and cabanas",
+          "confirmed": true,
+          "url": "https://hotelvalleyho.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The fitness center is open 24/7 and has Peloton bikes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "fitness center—open 24/7. Work out with free weights, modern equipment, Peloton bikes",
+          "note": "24/7, Peloton",
+          "confirmed": true,
+          "url": "https://hotelvalleyho.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Weddings can be held in the courtyard, with dancing on the rooftop or in the historic ballroom.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Say your vows in our lush courtyard, then dance the night away on the rooftop or in our historic ballroom.",
+          "note": "all elements",
+          "confirmed": true,
+          "url": "https://hotelvalleyho.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "ZuZu, the hotel restaurant, serves an eclectic menu, bold cocktails and inventive desserts.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Enjoy a delightfully eclectic menu, bold cocktails and inventive desserts.",
+          "note": "ZuZu section",
+          "confirmed": true,
+          "url": "https://hotelvalleyho.com/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d13",
+          "quote": "An extension of the lobby, restaurant",
+          "note": "ZuZu is the hotel's restaurant",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/scottsdale/hotel-valley-ho",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel has mid-century modern architecture and lush resort-style grounds.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Discover iconic mid-century modern architecture, lush resort-style grounds",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://hotelvalleyho.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Studio Guest Rooms have an oversized tub in the middle of the room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Enjoy a soak in the oversized tub in the middle of the room.",
+          "note": "Studio page",
+          "confirmed": true,
+          "url": "https://hotelvalleyho.com/rooms-suites/studio/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Tower Loft Suite has a full kitchen and living room upstairs, the bedroom downstairs, and views of Camelback Mountain or Downtown Scottsdale from private patios.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Upstairs is a full kitchen and spacious living room, with the master bedroom and bathroom downstairs. Enjoy views of Camelback Mountain or Downtown Scottsdale from your private patios.",
+          "note": "all elements",
+          "confirmed": true,
+          "url": "https://hotelvalleyho.com/rooms-suites/tower-loft/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Hideaway Suite has a living room with a wet bar and a wrap-around terrace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Kick back in the living room (complete with a wet bar) or lounge on the wrap-around terrace.",
+          "note": "all elements",
+          "confirmed": true,
+          "url": "https://hotelvalleyho.com/rooms-suites/hideaway/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "VH Spa offers treatments such as hot stone massages, antioxidant facials and sauna time with chromotherapy.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Treat yourself to revitalizing treatments like hot stone massages, antioxidant facials and sauna time with chromotherapy.",
+          "note": "VH Spa section",
+          "confirmed": true,
+          "url": "https://hotelvalleyho.com/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Suites such as the Terrace, Hideaway, Tower and Tower Loft Suites require a two-night minimum stay on weekends.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "two-night min. stay on weekends",
+          "note": "Terrace page",
+          "confirmed": true,
+          "url": "https://hotelvalleyho.com/rooms-suites/terrace/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "two-night min. stay on weekends",
+          "note": "Hideaway page",
+          "confirmed": true,
+          "url": "https://hotelvalleyho.com/rooms-suites/hideaway/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "two-night min. stay on weekends",
+          "note": "Tower Suite page",
+          "confirmed": true,
+          "url": "https://hotelvalleyho.com/rooms-suites/tower-suite/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "two-night min. stay on weekends",
+          "note": "Tower Loft page",
+          "confirmed": true,
+          "url": "https://hotelvalleyho.com/rooms-suites/tower-loft/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Cabana Guest Rooms require a two-night minimum stay on weekends from March to September.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "two-night min. stay on weekends (March – September)",
+          "note": "Cabana page",
+          "confirmed": true,
+          "url": "https://hotelvalleyho.com/rooms-suites/cabana/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the lively social scene may not suit guests seeking a quiet retreat.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

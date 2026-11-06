@@ -1,0 +1,385 @@
+{
+  "hotel_slug": "jw-marriott-hotel-bogota",
+  "hotel_name": "JW Marriott Hotel Bogota",
+  "checked_at": "2026-10-31T01:26:10.124Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/bogjw-jw-marriott-hotel-bogota/overview/",
+      "tier": "official",
+      "chars": 16518
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/bogjw-jw-marriott-hotel-bogota/rooms/",
+      "tier": "official",
+      "chars": 7590
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/bogjw-jw-marriott-hotel-bogota/dining/",
+      "tier": "official",
+      "chars": 8057
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/bogjw-jw-marriott-hotel-bogota/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "chars": 2117
+    },
+    {
+      "id": "d5",
+      "url": "https://www.cntraveler.com/hotels/colombia/bogota/jw-marriott-hotel-bogota",
+      "tier": "editorial",
+      "chars": 3249
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is in Bogota's financial district, steps from Zona G and Zona T.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "located in the financial district, steps away from vibrant Zona G and Zona T",
+          "note": "location stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bogjw-jw-marriott-hotel-bogota/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Zona G, near the hotel, is known for its concentration of restaurants offering diverse international cuisines.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "discover Zona G, known for its exceptional concentration of restaurants offering diverse international cuisines",
+          "note": "Zona G description",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bogjw-jw-marriott-hotel-bogota/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel is within walking distance of many restaurants, cafes and bars in Chapinero.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "JW Marriott Bogota is located within walking distance of an exceptional range of restaurants, cafés, and bars in Chapinero, Bogota.",
+          "note": "walking distance stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bogjw-jw-marriott-hotel-bogota/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Guest rooms feature soundproof windows and premium linens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "featuring soundproof windows, premium linens to encourage restful sleep",
+          "note": "both elements",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bogjw-jw-marriott-hotel-bogota/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Rooms have spacious bathrooms with walk-in showers and bathtubs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "spacious bathrooms with walk-in showers and bathtubs",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bogjw-jw-marriott-hotel-bogota/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Suites have separate living, sleeping and dining areas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Spread out in luxury hotel suites in Bogota with separate living, sleeping and dining areas.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bogjw-jw-marriott-hotel-bogota/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Deluxe Suite has a balcony.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Deluxe Suite, 1 King, Balcony",
+          "note": "room type lists balcony",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bogjw-jw-marriott-hotel-bogota/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Executive Lounge offers views and a space designed for relaxation and productivity.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Enjoy stunning views and exclusive access to a serene space designed for relaxation and productivity.",
+          "note": "Executive Lounge description",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bogjw-jw-marriott-hotel-bogota/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The Presence spa and fitness center includes a pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Reconnect in our Presence spa and fitness center, complete with a pool, offering space for holistic well-being.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bogjw-jw-marriott-hotel-bogota/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The spa offers couples massages.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Couples Massages",
+          "note": "spa services list",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bogjw-jw-marriott-hotel-bogota/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Factory Steak & Lobster is a steakhouse focused on premium cuts and fresh lobster with a curated wine selection.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "An elegant Chapinero steakhouse in Bogotá that pays tribute to the flavor of premium cuts and fresh lobster, masterfully prepared and accompanied by a carefully curated selection of wines.",
+          "note": "all elements",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bogjw-jw-marriott-hotel-bogota/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Circo is a circus-themed restaurant with cozy outdoor spaces, brick-oven pizza and live music from up-and-coming Colombian artists.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Visit Circo restaurant for cozy outdoor spaces that create a casual dining experience in a circus-themed setting.",
+          "note": "theme and outdoor spaces",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bogjw-jw-marriott-hotel-bogota/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Listen to live music from upcoming artists in Colombia while you savor a mouthwatering brick-oven pizza in Bogotá, Colombia.",
+          "note": "music and pizza",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bogjw-jw-marriott-hotel-bogota/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Presence spa uses scents extracted from medicinal plants in its wellness services.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Recharge your mind and body with wellness services that employ scents extracted from medicinal plants.",
+          "note": "Presence spa description",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bogjw-jw-marriott-hotel-bogota/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The hotel has a heated indoor lap pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Indoor Lap Pool",
+          "note": "indoor lap pool",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bogjw-jw-marriott-hotel-bogota/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Pool Heated",
+          "note": "heated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bogjw-jw-marriott-hotel-bogota/overview/",
+          "tier": "official",
+          "quote_verified": false
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Presidential Suite has expansive living spaces, contemporary design and sweeping city views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Expansive living spaces, refined contemporary design, and sweeping city views create an exclusive setting for distinguished guests",
+          "note": "Presidential Suite",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bogjw-jw-marriott-hotel-bogota/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Tanoshii serves fresh sushi with signature cocktails and sake-based drinks.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Experience the joyful flavors of fresh sushi at our luxury hotel restaurant in Bogotá with signature cocktails and sake-based drinks in a tranquil, modern atmosphere at Tanoshii.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bogjw-jw-marriott-hotel-bogota/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "El Dorado International Airport is about 6 miles from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "BOG is located approximately 6.0 Miles from the hotel.",
+          "note": "distance",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bogjw-jw-marriott-hotel-bogota/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Pets are not allowed at the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "No, pets are not allowed at JW Marriott Hotel Bogota.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/bogjw-jw-marriott-hotel-bogota/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium luxury pricing reflecting the high-end positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

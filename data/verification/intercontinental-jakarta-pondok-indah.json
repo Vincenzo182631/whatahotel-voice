@@ -1,0 +1,438 @@
+{
+  "hotel_slug": "intercontinental-jakarta-pondok-indah",
+  "hotel_name": "InterContinental Jakarta Pondok Indah",
+  "checked_at": "2026-10-30T09:12:45.206Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/jakarta/jktpi/hoteldetail",
+      "tier": "official",
+      "chars": 10482
+    },
+    {
+      "id": "d2",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/jakarta/jktpi/hoteldetail/rooms/",
+      "tier": "official",
+      "chars": 3460
+    },
+    {
+      "id": "d3",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/jakarta/jktpi/hoteldetail/amenities/",
+      "tier": "official",
+      "chars": 6771
+    },
+    {
+      "id": "d4",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/jakarta/jktpi/hoteldetail/dining/",
+      "tier": "official",
+      "chars": 4421
+    },
+    {
+      "id": "d5",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/jakarta/jktpi/hoteldetail/local-area-guide/",
+      "tier": "official",
+      "chars": 5597
+    },
+    {
+      "id": "d6",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/jakarta/jktpi/hoteldetail/directions/",
+      "tier": "official",
+      "chars": 2954
+    },
+    {
+      "id": "d7",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/jakarta/jktpi/hoteldetail/",
+      "tier": "official",
+      "chars": 10485
+    },
+    {
+      "id": "d8",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/jakarta/jktpi/hoteldetail/hotel-reviews/",
+      "tier": "official",
+      "chars": 20209
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel sits in South Jakarta's shopping and business district, as part of an entertainment complex with the Pondok Indah shopping malls and golf course.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Nestled in South Jakarta's premium shopping and business district, we are part of an entertainment complex, featuring the Pondok Indah shopping malls and golf course.",
+          "note": "page states it",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/jakarta/jktpi/hoteldetail/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Inaria Spa has hydrotherapy, a sauna and steam bathing.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Hydro Therapy\n  - Masseuse\n  - Sauna\n  - Steam Bathing",
+          "note": "page states it",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/jakarta/jktpi/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "#### Inaria Spa",
+          "note": "page states it",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/jakarta/jktpi/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": false
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Inaria Spa treatments include facials, body scrubs and foot reflexology.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Body Scrub\n  - Facials\n  - Foot Bath\n  - Foot Reflexology",
+          "note": "page states it",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/jakarta/jktpi/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The pool area has a dedicated event space for evening gatherings under the stars.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "an ideal venue for an evening gathering under the stars with a dedicated event space available",
+          "note": "page states it",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/jakarta/jktpi/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Rooms have a 55-inch TV that connects with your phone or laptop.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "a 55-inch TV that interfaces with your mobile or laptop",
+          "note": "page states it",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/jakarta/jktpi/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Suites include the Ambassador Suite and the Presidential Suite.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "## Our suites",
+          "note": "page states it",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/jakarta/jktpi/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": false
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "### Ambassador Suite",
+          "note": "page states it",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/jakarta/jktpi/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "### Presidential Suite",
+          "note": "page states it",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/jakarta/jktpi/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Shio is a Japanese teppanyaki restaurant serving seasonal dishes and omakase menus.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Our Japanese teppanyaki restaurant features elegant seasonal dishes and omakase menus.",
+          "note": "page states it",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/jakarta/jktpi/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Pondok Indah Water Park is about 0.1 kilometers from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Pondok Indah Water Park - 0.06 miles away (0.1 kilometers)",
+          "note": "page states it",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/jakarta/jktpi/hoteldetail/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Lebak Bulus MRT Station is about 10 minutes from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Conveniently located just 10 minutes from our hotel, Lebak Bulus MRT Station",
+          "note": "page states it",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/jakarta/jktpi/hoteldetail/local-area-guide/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The hotel is a single-use plastic free hotel, and kids eat free.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "- Kids eat free\n- Single-use plastic free hotel",
+          "note": "page states it",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/jakarta/jktpi/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Self parking is complimentary for hotel guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Complimentary daily self parking",
+          "note": "page states it",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/jakarta/jktpi/hoteldetail/directions/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Complimentary parking is available at InterContinental Jakarta Pondok Indah for hotel guests.",
+          "note": "page states it",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/jakarta/jktpi/hoteldetail/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel is seamlessly connected to the Pondok Indah Malls, with shopping, dining and entertainment a swing door away.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "a prime location seamlessly connected to the iconic Pondok Indah Malls. Enjoy upscale shopping, diverse dining, and vibrant entertainment just a swing door away",
+          "note": "page states it",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/jakarta/jktpi/hoteldetail/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The outdoor pool is set amid an intricately designed, lush garden with views over Pondok Indah.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "It is set amongst an intricately designed and lush garden area. With views over Pondok Indah",
+          "note": "page states it",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/jakarta/jktpi/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Outdoor pool",
+          "note": "page states it",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/jakarta/jktpi/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Pondok Indah Golf Course, designed by golf architect Robert Trent Jones Jr., is within walking distance.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "The most renowned golf course in Indonesia is within walking distance. Pondok Indah Golf Course is the country's only golf course fitting for a world cup,designed by acclaimed golf architect, Robert Trent Jones Jr.",
+          "note": "page states it",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/jakarta/jktpi/hoteldetail/amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Rooms have a spacious bathroom with a rain shower and a deep bathtub.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "a spacious bathroom featuring a calming rain shower and deep bathtub",
+          "note": "page states it",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/jakarta/jktpi/hoteldetail/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Sugar & Spice blends cuisines of five continents across six show kitchens, including a private teppanyaki restaurant.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Blending the culinary highlights and cultural nuances of five continents, our restaurant showcases a vibrant tapestry of flavors. Explore six magnificent show kitchens, including a private teppanyaki restaurant",
+          "note": "page states it",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/jakarta/jktpi/hoteldetail/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Soekarno-Hatta International Airport is about 35 kilometers from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "approximately 21.69 miles away (34.9 kilometers) from the hotel",
+          "note": "page states it",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/jakarta/jktpi/hoteldetail/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Pets are not allowed at the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "No, pets are not allowed at InterContinental Jakarta Pondok Indah.",
+          "note": "page states it",
+          "confirmed": true,
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/jakarta/jktpi/hoteldetail/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the distance from Jakarta's city center may require transportation planning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

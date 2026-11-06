@@ -48,3 +48,39 @@ describe("cleanUrl", () => {
     expect(cleanUrl("  `` ")).toBeUndefined();
   });
 });
+
+import { audioObjectJsonLd, isoDuration, renderTranscript, transcriptText } from "../src/widget/render.js";
+
+describe("transcript and AudioObject", () => {
+  const t = {
+    hotel: { name: "Hotel <X>", whatahotel_url: "https://www.whatahotel.com/hotels/1/x.html" },
+    title: "Hotel X: Highlights",
+    turns: [
+      { speaker: "advisor", name: "Luxury Advisor", text: "Hello & welcome." },
+      { speaker: "traveler", name: "Candid Traveler", text: "Fair enough." },
+    ],
+  };
+  it("formats ISO 8601 durations and hides bad values", () => {
+    expect(isoDuration(87.3)).toBe("PT1M27S");
+    expect(isoDuration(45)).toBe("PT45S");
+    expect(isoDuration(0)).toBeUndefined();
+  });
+  it("builds an AudioObject with the full transcript text", () => {
+    const ld = audioObjectJsonLd(t, "https://x.test/audio.mp3", 87) as Record<string, any>;
+    expect(ld["@type"]).toBe("AudioObject");
+    expect(ld.contentUrl).toBe("https://x.test/audio.mp3");
+    expect(ld.encodingFormat).toBe("audio/mpeg");
+    expect(ld.duration).toBe("PT1M27S");
+    expect(ld.transcript).toBe(transcriptText(t));
+    expect(ld.transcript).toContain("Luxury Advisor: Hello & welcome.");
+    expect(ld.about.name).toBe("Hotel <X>");
+    expect(audioObjectJsonLd(t, "a.mp3")).not.toHaveProperty("duration");
+  });
+  it("renders an escaped, collapsed transcript and nothing when there are no turns", () => {
+    const html = renderTranscript(t);
+    expect(html).toContain("<details");
+    expect(html).not.toMatch(/<details[^>]* open/);
+    expect(html).toContain("Hello &amp; welcome.");
+    expect(renderTranscript({ turns: [] })).toBe("");
+  });
+});

@@ -1,0 +1,436 @@
+{
+  "hotel_slug": "carlisle-bay",
+  "hotel_name": "Carlisle Bay",
+  "checked_at": "2026-10-14T23:54:10.515Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 18
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.carlisle-bay.com/contact-us",
+      "tier": "official",
+      "chars": 4098
+    },
+    {
+      "id": "d2",
+      "url": "https://www.carlisle-bay.com/suites/",
+      "tier": "official",
+      "chars": 2634
+    },
+    {
+      "id": "d3",
+      "url": "https://www.carlisle-bay.com/suites/hotel-brochure/",
+      "tier": "official",
+      "chars": 1031
+    },
+    {
+      "id": "d4",
+      "url": "https://www.carlisle-bay.com/dining/",
+      "tier": "official",
+      "chars": 4078
+    },
+    {
+      "id": "d5",
+      "url": "https://www.carlisle-bay.com/dining/indigo/",
+      "tier": "official",
+      "chars": 3842
+    },
+    {
+      "id": "d6",
+      "url": "https://www.carlisle-bay.com/dining/east/",
+      "tier": "official",
+      "chars": 3740
+    },
+    {
+      "id": "d7",
+      "url": "https://www.carlisle-bay.com/dining/the-jetty-grill/",
+      "tier": "official",
+      "chars": 3500
+    },
+    {
+      "id": "d8",
+      "url": "https://www.carlisle-bay.com/well-being/cara-spa/",
+      "tier": "official",
+      "chars": 1796
+    },
+    {
+      "id": "d9",
+      "url": "https://www.carlisle-bay.com/dining/ottimo/",
+      "tier": "official",
+      "chars": 3713
+    },
+    {
+      "id": "d10",
+      "url": "https://www.carlisle-bay.com/suites/hotel-map/",
+      "tier": "official",
+      "chars": 806
+    },
+    {
+      "id": "d11",
+      "url": "https://www.carlisle-bay.com/dining/room-service/",
+      "tier": "official",
+      "chars": 859
+    },
+    {
+      "id": "d12",
+      "url": "https://www.carlisle-bay.com/well-being/",
+      "tier": "official",
+      "chars": 870
+    },
+    {
+      "id": "d13",
+      "url": "https://www.cntraveler.com/hotels/saint-mary-parish/carlisle-bay",
+      "tier": "editorial",
+      "chars": 10813
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Carlisle Bay is on Old Road in Saint Mary's, Antigua.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Carlisle Bay, Old Road, Saint Mary's, Antigua",
+          "note": "address stated",
+          "confirmed": true,
+          "url": "https://www.carlisle-bay.com/contact-us",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Carlisle Bay is a member of Leading Hotels of the World.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Carlisle Bay, a member of Leading Hotels of the World",
+          "note": "membership stated",
+          "confirmed": true,
+          "url": "https://www.carlisle-bay.com/suites/hotel-brochure/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d13",
+          "quote": "The hotel is part of Leading Hotels of the World",
+          "note": "membership stated",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/saint-mary-parish/carlisle-bay",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Suites offer views of the ocean or tropical gardens through floor-to-ceiling windows.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "sweeping views of the ocean or tropical gardens through floor-to-ceiling windows",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.carlisle-bay.com/suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Suites include a day bed on the balcony or terrace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Day bed on balcony & terrace",
+          "note": "suite feature list",
+          "confirmed": true,
+          "url": "https://www.carlisle-bay.com/suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Complimentary afternoon tea is among the suite features.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Complimentary Afternoon Tea",
+          "note": "suite feature list",
+          "confirmed": true,
+          "url": "https://www.carlisle-bay.com/suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Indigo on the Beach holds a barbecue on Thursday evenings.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Thursday evenings feature our BBQ experience.",
+          "note": "Indigo page",
+          "confirmed": true,
+          "url": "https://www.carlisle-bay.com/dining/indigo/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The Jetty Grill serves Caribbean dishes overlooking the resort's jetty and horseshoe bay.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Arrive at the Jetty Grill and take in the beautiful views overlooking Carlisle Bay's jetty. Listen to the Caribbean Sea lapping up on to the horseshoe bay, The Jetty Grill offers the best of authentic Caribbean dishes.",
+          "note": "jetty, horseshoe bay, Caribbean dishes",
+          "confirmed": true,
+          "url": "https://www.carlisle-bay.com/dining/the-jetty-grill/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The resort also offers authentic Antiguan cuisine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "We also offer options of authentic Antiguan cuisine",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.carlisle-bay.com/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "CARA Spa offers holistic treatments, regular yoga classes and intensive health retreats.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "we have a variety of holistic oﬀerings, regular yoga classes and intensive health retreats available",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.carlisle-bay.com/well-being/cara-spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Breakfast in the suite is complimentary, with a tray charge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Guests can avail of breakfast in their suite complimentary.A tray charge of US$10 will apply per",
+          "note": "complimentary with tray charge",
+          "confirmed": true,
+          "url": "https://www.carlisle-bay.com/dining/east/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Guests can go sailing on the resort's yacht or kayak, and The Jetty Bar greets them back ashore.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "As you step ashore after a dream day on the water sailing on Carlisle Bay’s luxury yacht or kayak",
+          "note": "Jetty Bar teaser text",
+          "confirmed": true,
+          "url": "https://www.carlisle-bay.com/dining/east/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Indigo on the Beach is an open-sided room and terrace with wooden floors that merge with the sand and sea.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The open-sided room and terrace with wooden floors merge with the sand and sea.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.carlisle-bay.com/dining/indigo/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "East serves Japanese, Thai and Indonesian dishes and is entered through tall, carved Indonesian doors.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Entering through tall, carved Indonesian doors the dark wood and red interior, East provides a memorable atmosphere and gastronomic experience. Japanese, Thai and Indonesian dishes all featuring on the menu",
+          "note": "doors and cuisines",
+          "confirmed": true,
+          "url": "https://www.carlisle-bay.com/dining/east/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "CARA Spa partners with GROUND Wellbeing, an Irish wellness brand, on rituals for sleep, stress relief, hormonal balance and skin health.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "We're delighted to announce a new partnership with GROUND Wellbeing, an acclaimed Irish wellness brand.",
+          "note": "partner, Irish brand",
+          "confirmed": true,
+          "url": "https://www.carlisle-bay.com/well-being/cara-spa/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "a series of rituals designed to support sleep, stress relief, hormonal balance, and skin health",
+          "note": "ritual purposes",
+          "confirmed": true,
+          "url": "https://www.carlisle-bay.com/well-being/cara-spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Fire Pit Fridays at The Jetty Grill feature local singers and songwriters.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Join us on Fire Pit Fridays to listen to local singers & songwriters",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.carlisle-bay.com/dining/the-jetty-grill/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Ottimo! is a poolside Italian restaurant with a wood-fired pizza oven and a Little Ottimo! menu for younger guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d9",
+          "quote": "A feast of authentic Italian dining in a less formal setting, poolside under the shade.",
+          "note": "poolside Italian",
+          "confirmed": true,
+          "url": "https://www.carlisle-bay.com/dining/ottimo/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d9",
+          "quote": "The wood-fired oven produces the most sublime pizzas",
+          "note": "wood-fired pizza oven",
+          "confirmed": true,
+          "url": "https://www.carlisle-bay.com/dining/ottimo/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d9",
+          "quote": "Ottimo! looks after the younger guests too with its Little Ottimo! menu.",
+          "note": "kids menu",
+          "confirmed": true,
+          "url": "https://www.carlisle-bay.com/dining/ottimo/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Restaurant opening days are subject to change, so the resort advises booking ahead.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Restaurant opening days are subject to change; we recommend contacting us in advance to confirm availability and make reservations.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.carlisle-bay.com/dining/indigo/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing and a remote island location that requires additional travel planning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

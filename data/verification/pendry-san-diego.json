@@ -1,0 +1,423 @@
+{
+  "hotel_slug": "pendry-san-diego",
+  "hotel_name": "Pendry San Diego",
+  "checked_at": "2026-10-15T16:27:53.336Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 2,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.pendry.com/san-diego/",
+      "tier": "official",
+      "chars": 3667
+    },
+    {
+      "id": "d2",
+      "url": "https://www.pendry.com/san-diego/accommodations/",
+      "tier": "official",
+      "chars": 2080
+    },
+    {
+      "id": "d3",
+      "url": "https://www.pendry.com/san-diego/dining/",
+      "tier": "official",
+      "chars": 5146
+    },
+    {
+      "id": "d4",
+      "url": "https://www.pendry.com/san-diego/wellness/",
+      "tier": "official",
+      "chars": 1735
+    },
+    {
+      "id": "d5",
+      "url": "https://www.cntraveler.com/hotels/san-diego/pendry-san-diego",
+      "tier": "editorial",
+      "chars": 8221
+    },
+    {
+      "id": "d6",
+      "url": "https://www.pendry.com/san-diego/gatherings/",
+      "tier": "official",
+      "chars": 2029
+    },
+    {
+      "id": "d7",
+      "url": "https://www.pendry.com/san-diego/experiences/",
+      "tier": "official",
+      "chars": 2011
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "Pendry San Diego is located downtown in the heart of the Historic Gaslamp Quarter.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located downtown in the heart of the Historic Gaslamp Quarter, Pendry San Diego",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.pendry.com/san-diego/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is just blocks from the San Diego Convention Center and Petco Park.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Pendry San Diego is just blocks from the San Diego Convention Center and Petco Park",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.pendry.com/san-diego/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The guestrooms and suites have an urban coastal California aesthetic.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The guestrooms and suites set within Pendry San Diego feature an urban coastal California aesthetic",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.pendry.com/san-diego/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Guestrooms have custom furnishings and views of the bay and downtown.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Guestrooms offer custom furnishings, luxurious linens and incredible views of the bay and downtown.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.pendry.com/san-diego/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Rooms start at 350 square feet.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "rooms offer 350+ square feet of luxurious space",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.pendry.com/san-diego/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Standard rooms start at 350 square feet",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/san-diego/pendry-san-diego",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Bathrooms have glass-walled walk-in showers lined with subway tiles.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "glass-walled walk-in showers lined with subway tiles",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/san-diego/pendry-san-diego",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "At Spa Pendry, guests can book a facial, massage, sound bath or IV treatment.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "a trip to the spa, where you can book a facial, massage, sound bath, or IV treatment",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/san-diego/pendry-san-diego",
+          "tier": "editorial",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Spa Pendry is a signature, world-class beauty and wellness haven",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.pendry.com/san-diego/wellness/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The fitness center is open 24/7, with equipment including Peloton and TechnoGym.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "our 24/7 private fitness center, featuring state-of-the-art equipment, including Peloton, TechnoGym and more",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.pendry.com/san-diego/wellness/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The Pool House is an open-air rooftop lounge perched above the Gaslamp's 5th Avenue.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "is a premier rooftop lounge",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.pendry.com/san-diego/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Light, contemporary, and open-air, the indoor/outdoor space is perched above the Gaslamp’s famed 5th Avenue",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.pendry.com/san-diego/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Lionfish serves modern coastal cuisine, including sushi and seafood, in a two-floor dining room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Lionfish serves modern coastal cuisine with fresh catches and prime cuts from Executive Chef Jose",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.pendry.com/san-diego/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "sushi, seafood, and coastal cuisine on the menu in the airy, two-floor dining room",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.pendry.com/san-diego/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Guests find chocolates on their pillow each night.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "the nightly chocolates on your pillow",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/san-diego/pendry-san-diego",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Pendry was launched by the father-and-son duo Alan and Michael Fuerstman.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Launched by father-and-son duo Alan and Michael Fuerstman, it began as a new luxury brand",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/san-diego/pendry-san-diego",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "Pendry San Diego was the very first Pendry, opened in 2017 as the brand's flagship.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "This is the very first Pendry, opened in 2017 as the brand’s flagship location.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/san-diego/pendry-san-diego",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "A wellness floor brings together the gym, the spa and the rooftop pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "The wellness floor with a gym, spa, and rooftop pool",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/san-diego/pendry-san-diego",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Rooms are labeled by view, so guests can pick a skyline, bay, city or pool outlook.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "all are labeled by view, so you can have your pick of skyline, bay, city, or pool overlooks",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/san-diego/pendry-san-diego",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Suites have ocean-inspired interiors with warm blue wall coverings and a chaise lounge in classic tartan fabric.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "ocean-inspired interiors with warm blue wall coverings, a rich wood-crafted desk, chaise lounge wrapped in a classic tartan fabric",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.pendry.com/san-diego/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Nason's Beer Hall is named after Nason & Co. Farmer's Market, which occupied the same space in the early 1900s.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Its name pays homage to Nason & Co. Farmer’s Market, which occupied this unique space in the early 1900s.",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.pendry.com/san-diego/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "WhataHotel notes the downtown location can be busy and noisy at peak times.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Spa Pendry is a rooftop spa that welcomes locals as well as hotel guests.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Welcoming hotel guests and locals alike to our rooftop spa hideaway",
+          "note": "stated on page",
+          "confirmed": true,
+          "url": "https://www.pendry.com/san-diego/wellness/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes premium pricing that reflects the luxury positioning.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

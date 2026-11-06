@@ -1,0 +1,520 @@
+{
+  "hotel_slug": "four-seasons-sydney",
+  "hotel_name": "Four Seasons Hotel Sydney",
+  "checked_at": "2026-10-07T05:50:17.151Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 20,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 5,
+      "total": 25
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://press.fourseasons.com/sydney/hotel-facts/",
+      "tier": "official",
+      "chars": 7396
+    },
+    {
+      "id": "d2",
+      "url": "https://www.fourseasons.com/sydney/",
+      "tier": "official",
+      "chars": 11739
+    },
+    {
+      "id": "d3",
+      "url": "https://www.fourseasons.com/sydney/getting-here/",
+      "tier": "official",
+      "chars": 4840
+    },
+    {
+      "id": "d4",
+      "url": "https://www.fourseasons.com/sydney/services-and-amenities/",
+      "tier": "official",
+      "chars": 2986
+    },
+    {
+      "id": "d5",
+      "url": "https://www.fourseasons.com/sydney/spa/",
+      "tier": "official",
+      "chars": 1228
+    },
+    {
+      "id": "d6",
+      "url": "https://www.fourseasons.com/sydney/dining/",
+      "tier": "official",
+      "chars": 7473
+    },
+    {
+      "id": "d7",
+      "url": "https://www.fourseasons.com/sydney/accommodations/",
+      "tier": "official",
+      "chars": 8213
+    },
+    {
+      "id": "d8",
+      "url": "https://www.fourseasons.com/sydney/services-and-amenities/family/",
+      "tier": "official",
+      "chars": 6755
+    },
+    {
+      "id": "d9",
+      "url": "https://www.fourseasons.com/sydney/contact-us/",
+      "tier": "official",
+      "chars": 1810
+    },
+    {
+      "id": "d10",
+      "url": "https://www.fourseasons.com/sydney/photos-and-videos/",
+      "tier": "official",
+      "chars": 2827
+    },
+    {
+      "id": "d11",
+      "url": "https://www.cntraveler.com/hotels/sydney/four-seasons-hotel-sydney",
+      "tier": "editorial",
+      "chars": 7289
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel has 531 rooms and suites.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Rising 34 stories with 531 rooms and suites",
+          "note": "States 531 rooms and suites.",
+          "url": "https://www.fourseasons.com/sydney/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Total Number of Rooms:** 531",
+          "note": "The fact sheet lists 531 total rooms, made up of 498 guest rooms and 33 suites.",
+          "url": "https://press.fourseasons.com/sydney/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel has 34 storeys.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Number of Storeys:** 34",
+          "note": "States 34 storeys.",
+          "url": "https://press.fourseasons.com/sydney/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "The 34-storey hotel",
+          "note": "Confirms 34 storeys.",
+          "url": "https://www.fourseasons.com/sydney/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The hotel is at 199 George Street, Sydney.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "199 George Street, Sydney, New South Wales, 2000, Australia",
+          "note": "Address matches.",
+          "url": "https://press.fourseasons.com/sydney/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d9",
+          "quote": "199 George Street, Sydney, NSW 2000 Australia",
+          "note": "Address matches.",
+          "url": "https://www.fourseasons.com/sydney/contact-us/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The hotel is set in the harbourside The Rocks historic precinct of Sydney, just metres from Circular Quay.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Set in the harbourside The Rocks historic precinct of Sydney, just metres from Circular Quay",
+          "note": "Matches the claim exactly.",
+          "url": "https://press.fourseasons.com/sydney/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The hotel was built in 1982 on the site of a former colonial jail.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Built in 1982 on the site of a former colonial jail in the historic harbourside The Rocks precinct",
+          "note": "Covers both the year and the site.",
+          "url": "https://press.fourseasons.com/sydney/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The hotel's restaurant is Mode Kitchen & Bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Restaurant:** Mode Kitchen & Bar",
+          "note": "Names the restaurant.",
+          "url": "https://press.fourseasons.com/sydney/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d11",
+          "quote": "The main restaurant, Mode Kitchen & Bar, offers a breakfast buffet",
+          "note": "Confirms the main restaurant.",
+          "url": "https://www.cntraveler.com/hotels/sydney/four-seasons-hotel-sydney",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The hotel's lounge is Grain Bar.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Lounge:** Grain Bar",
+          "note": "Names the lounge.",
+          "url": "https://press.fourseasons.com/sydney/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The hotel has an outdoor swimming pool with a separate whirlpool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Largest outdoor swimming pool, with separate whirlpool and third floor sundeck",
+          "note": "Confirms an outdoor pool with a separate whirlpool.",
+          "url": "https://press.fourseasons.com/sydney/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The fitness centre is open 24 hours.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Special Features:** Open 24 hours; also features sauna and steam room",
+          "note": "States the fitness centre is open 24 hours.",
+          "url": "https://press.fourseasons.com/sydney/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d10",
+          "quote": "Floor-to-ceiling windows line our 24-hour Fitness Centre.",
+          "note": "Confirms a 24-hour fitness centre.",
+          "url": "https://www.fourseasons.com/sydney/photos-and-videos/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The fitness centre also features a sauna and steam room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Special Features:** Open 24 hours; also features sauna and steam room",
+          "note": "Lists a sauna and steam room.",
+          "url": "https://press.fourseasons.com/sydney/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "spacious locker rooms with saunas and steam rooms",
+          "note": "Confirms saunas and steam rooms.",
+          "url": "https://www.fourseasons.com/sydney/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel's art collection has more than 100 works.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "**Number of works:** More than 100",
+          "note": "Art collection has more than 100 works.",
+          "url": "https://press.fourseasons.com/sydney/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "Children's menus are among the hotel's amenities for kids.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Children’s menus",
+          "note": "Listed under 'More for kids'.",
+          "url": "https://www.fourseasons.com/sydney/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d8",
+          "quote": "CHILDREN’S MENUS",
+          "note": "Listed under 'More for Kids'.",
+          "url": "https://www.fourseasons.com/sydney/services-and-amenities/family/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The Sydney Opera House is a 10-minute walk from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Yes, we’re located just a 10-minute walk away from the Sydney Opera House.",
+          "note": "Matches the 10-minute walk.",
+          "url": "https://www.fourseasons.com/sydney/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "60 percent of rooms enjoy views of the Bridge or Opera House.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "60 percent of rooms enjoy views of the Bridge or Opera House - some both",
+          "note": "Matches the claim.",
+          "url": "https://press.fourseasons.com/sydney/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Guests staying in a Club Room, Club Suite or Signature Suite have access to Lounge 32 on level 32.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Guests staying in a Club Room, Club Suite or Signature Suite have access to Lounge 32, an exclusive retreat by Four Seasons located on level 32",
+          "note": "Covers the eligible room categories and the level.",
+          "url": "https://press.fourseasons.com/sydney/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Premium Wi-Fi is listed among the hotel's complimentary services.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Premium Wi-Fi",
+          "note": "Listed under 'Complimentary services'.",
+          "url": "https://www.fourseasons.com/sydney/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Complimentary Premium Wi-Fi",
+          "note": "Listed among featured amenities.",
+          "url": "https://www.fourseasons.com/sydney/accommodations/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "The hotel offers 24-hour in-room dining.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "24-hour In-Room Dining",
+          "note": "Listed under 'Our Services'.",
+          "url": "https://www.fourseasons.com/sydney/services-and-amenities/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "our in-room menus feature local and international, homestyle favourites, 24 hours a day",
+          "note": "Confirms 24-hour in-room dining.",
+          "url": "https://www.fourseasons.com/sydney/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The spa is open daily from 10:00 am to 6:00 pm.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Daily10:00 am – 6:00 pmIn-house guests only",
+          "note": "Spa hours are daily from 10am to 6pm.",
+          "url": "https://www.fourseasons.com/sydney/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Kingsford-Smith International Airport is 30 to 45 minutes by car from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Travel Time30 to 45 minutes by carDistance15 kilometres / 9 miles",
+          "note": "Listed under Kingsford-Smith International Airport (SYD).",
+          "url": "https://www.fourseasons.com/sydney/getting-here/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "Guests not staying in a Club Room, Club Suite or Signature Suite can purchase Lounge 32 access for an additional fee per person per night.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "For guests not staying in these room categories, access to the Lounge can be purchased for an additional fee per person per night.",
+          "note": "Matches the claim.",
+          "url": "https://press.fourseasons.com/sydney/hotel-facts/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "p-1",
+      "text": "With the WhataHotel Preferred Rate, full breakfast for two is included daily.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-2",
+      "text": "With the WhataHotel Preferred Rate, guests get a priority upgrade if available at check-in.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-3",
+      "text": "With the WhataHotel Preferred Rate, guests get a $100 hotel credit.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-4",
+      "text": "WhataHotel special offers can be combined with the exclusive perks.",
+      "status": "exempt",
+      "findings": []
+    },
+    {
+      "claim_id": "p-5",
+      "text": "With the WhataHotel Preferred Rate, guests get free Wi-Fi access.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

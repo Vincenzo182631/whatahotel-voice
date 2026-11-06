@@ -1,0 +1,38 @@
+# Verification checklist: JW Marriott Miami Turnberry Resort
+
+Checked 2026-10-31 against the hotel's own pages and Condé Nast Traveler. Result: **can be marked verified** (profile set to verified).
+
+Supported 19 · contradicted 0 · unverified 0 · WhataHotel's own statements 1 · total 20
+
+## Pages checked
+
+- official: https://www.marriott.com/en-us/hotels/miajt-jw-marriott-miami-turnberry-resort-and-spa/overview/
+- official: https://www.marriott.com/en-us/hotels/miajt-jw-marriott-miami-turnberry-resort-and-spa/rooms/
+- official: https://www.marriott.com/en-us/hotels/miajt-jw-marriott-miami-turnberry-resort-and-spa/dining/
+- official: https://www.marriott.com/en-us/hotels/miajt-jw-marriott-miami-turnberry-resort-and-spa/experiences/
+- editorial: https://www.cntraveler.com/hotels/united-states/miami/turnberry-isle-miami
+
+## Claims
+
+| | Claim | Evidence |
+|---|---|---|
+| ✅ | **f-1** The resort is in Aventura, Florida, a city that began with a country club 12 miles north of Miami. | "19999 West Country Club Drive, Aventura, Florida, USA, 33180" (official, https://www.marriott.com/en-us/hotels/miajt-jw-marriott-miami-turnberry-resort-and-spa/overview/) |
+| ✅ | **f-2** The resort spreads across a 300-acre setting with Mediterranean-inspired architecture, marble walkways and fountains. | "Across our 300-acre setting, you’ll find Mediterranean-inspired architecture, marble walkways, and sparkling fountains." (official, https://www.marriott.com/en-us/hotels/miajt-jw-marriott-miami-turnberry-resort-and-spa/overview/) |
+| ✅ | **f-3** The grounds include lush tropical gardens and a 100-year-old banyan tree. | "A celebrated setting in Miami complete with lush tropical gardens and a 100-year-old Banyan tree" (official, https://www.marriott.com/en-us/hotels/miajt-jw-marriott-miami-turnberry-resort-and-spa/overview/) |
+| ✅ | **f-4** Turnberry was at the core of Don Soffer's vision for present-day Aventura, a city planned out on a cocktail napkin. | "Turnberry was at the core of Don Soffer's vision of present-day Aventura - a city that was planned out on a cocktail napkin by Don himself." (official, https://www.marriott.com/en-us/hotels/miajt-jw-marriott-miami-turnberry-resort-and-spa/overview/) |
+| ✅ | **f-5** The interior design takes inspiration from Miami's art-deco history, with clean, geometric lines. | "The standout interior design took inspiration from Miami’s art-deco history presenting clean, geometric lines" (official, https://www.marriott.com/en-us/hotels/miajt-jw-marriott-miami-turnberry-resort-and-spa/overview/) |
+| ✅ | **f-6** Every guest room and suite has a private furnished balcony or terrace, with views of foliage, the ocean, the golf courses or the pools. | "Each features a private furnished balcony or terrace affording stunning views of lush Florida foliage in Aventura, the ocean, two championship Turnberry Isle golf courses, or beautifully landscaped pools." (official, https://www.marriott.com/en-us/hotels/miajt-jw-marriott-miami-turnberry-resort-and-spa/rooms/) |
+| ✅ | **f-7** Rooms have marble bathrooms and floor-to-ceiling windows. | "spacious rooms and suites provide relaxing comfort with marble bathrooms" (official, https://www.marriott.com/en-us/hotels/miajt-jw-marriott-miami-turnberry-resort-and-spa/overview/) |
+| ✅ | **f-8** The resort has two 18-hole championship golf courses, the Soffer and the Miller, designed by Robert Trent Jones, Sr. and reimagined by World Golf Hall of Famer Raymond Floyd. | "Our two legendary 18-hole championship golf courses in Aventura, were designed by Robert Trent Jones, Sr., and reimagined by World Golf Hall of Famer Raymond Floyd. The Soffer and Miller courses" (official, https://www.marriott.com/en-us/hotels/miajt-jw-marriott-miami-turnberry-resort-and-spa/overview/) |
+| ✅ | **f-9** The Soffer and Miller courses have hosted numerous Florida PGA and LPGA championships. | "The Soffer and Miller courses have hosted numerous Florida PGA and LPGA championships." (official, https://www.marriott.com/en-us/hotels/miajt-jw-marriott-miami-turnberry-resort-and-spa/overview/) |
+| ✅ | **f-10** On the Miller Course, pink flamingos nest on Lake Julius, named for US Open champion Julius Boros. | "Try not to be distracted by the pink flamingos nesting on Lake Julius – named for Julius Boros, US Open Champion and our first Director of Golf." (official, https://www.marriott.com/en-us/hotels/miajt-jw-marriott-miami-turnberry-resort-and-spa/experiences/) |
+| ✅ | **f-11** Bourbon Steak by Michael Mina is a steakhouse with a wood-burning grill serving steak and fresh seafood. | "### Bourbon Steak Miami, a Michael Mina Restaurant  Our award-winning steakhouse features a wood-burning grill and serves perfectly prepared cuts of steak, fresh seafood" (official, https://www.marriott.com/en-us/hotels/miajt-jw-marriott-miami-turnberry-resort-and-spa/overview/) |
+| ✅ | **f-12** Aventura Mall is a seven-minute walk from the resort. | "The shops and restaurants of the Aventura Mall are just a seven-minute walk away." (editorial, https://www.cntraveler.com/hotels/united-states/miami/turnberry-isle-miami) |
+| ✅ | **h-1** Tidal Cove Waterpark has a 60-foot tower with seven water slides, a kids pool with an aquatic play structure and 25 private cabanas. | "Tidal Cove Waterpark features a 60-foot tower with seven water slides, a 4,000-square-foot kids pool with an aquatic play structure, the first-ever FlowRider® Triple in the nation, 25 private cabanas" (official, https://www.marriott.com/en-us/hotels/miajt-jw-marriott-miami-turnberry-resort-and-spa/experiences/) |
+| ✅ | **h-2** Tidal Cove Waterpark is complimentary for two guests per room daily. | "Tidal Cove Waterpark is a complimentary amenity for two (2) guests per room daily at JW Marriott Miami Turnberry Resort & Spa." (official, https://www.marriott.com/en-us/hotels/miajt-jw-marriott-miami-turnberry-resort-and-spa/experiences/) |
+| ✅ | **h-3** Tidal Cove has the nation's first FlowRider Triple. | "Tidal Cove Waterpark features a 60-foot tower with seven water slides, a 4,000-square-foot kids pool with an aquatic play structure, the first-ever FlowRider® Triple in the nation" (official, https://www.marriott.com/en-us/hotels/miajt-jw-marriott-miami-turnberry-resort-and-spa/experiences/) |
+| ✅ | **h-4** The three-story Spa & Wellness Center offers Babor treatments and Himalayan salt rooms. | "From world-class Golf and our 5-acre Tidal Cove Waterpark, to our expansive 3-story Spa & Wellness Center" (official, https://www.marriott.com/en-us/hotels/miajt-jw-marriott-miami-turnberry-resort-and-spa/experiences/) |
+| ✅ | **h-5** The adults-only Cascata Pool sits behind the main lobby. | "Located in the back of the main lobby, the adults-only Cascata Pool offers a serene escape" (official, https://www.marriott.com/en-us/hotels/miajt-jw-marriott-miami-turnberry-resort-and-spa/experiences/) |
+| ✅ | **c-1** The resort is not on a beach. | "feels like you’ve landed on a tropical island (albeit one without a beach)" (editorial, https://www.cntraveler.com/hotels/united-states/miami/turnberry-isle-miami) |
+| ✅ | **c-2** The pools and waterpark are also open to day-pass guests, so poolside loungers can be in demand. | "Jostling for a poolside lounger can be an issue in the best of circumstances, but with the resort’s pools and on-site water park also open to day-pass guests (and no priorities given to hotel guests)" (editorial, https://www.cntraveler.com/hotels/united-states/miami/turnberry-isle-miami) |
+| ➖ | **c-3** WhataHotel notes premium pricing for the luxury resort experience. | WhataHotel's own offer or statement |
