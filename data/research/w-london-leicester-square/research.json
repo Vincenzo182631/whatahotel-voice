@@ -1,13 +1,8 @@
 {
   "slug": "w-london-leicester-square",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "https://news.marriott.com/news/2019/07/31/w-london-leicester-square-unveils-tech-based-transformation: https://news.marriott.com/news/2019/07/31/w-london-leicester-square-unveils-tech-based-transformation is a Marriott landing page, not a property page",
-    "https://w-hotels.marriott.com/destinations/london/: https://w-hotels.marriott.com/destinations/london/ is a Marriott landing page, not a property page; only 67% of the hotel name appears on the page",
-    "https://www.marriott.com/en-us/hotels/lonhw-w-london/overview/: only 33% of the hotel name appears on the page",
-    "official website could not be confirmed; flag for review"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "W London-Leicester Square",
@@ -19,31 +14,77 @@
       "kind": "chain",
       "chain": "marriott"
     },
-    "evidence": [],
-    "reasons": [
-      "https://news.marriott.com/news/2019/07/31/w-london-leicester-square-unveils-tech-based-transformation: https://news.marriott.com/news/2019/07/31/w-london-leicester-square-unveils-tech-based-transformation is a Marriott landing page, not a property page",
-      "https://w-hotels.marriott.com/destinations/london/: https://w-hotels.marriott.com/destinations/london/ is a Marriott landing page, not a property page; only 67% of the hotel name appears on the page",
-      "https://www.marriott.com/en-us/hotels/lonhw-w-london/overview/: only 33% of the hotel name appears on the page",
-      "official website could not be confirmed; flag for review"
+    "evidence": [
+      "location matches (London, GB)",
+      "confirmed by hand as this hotel's own page (only 33% of the hotel name appears on the page)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://news.marriott.com/news/2019/07/31/w-london-leicester-square-unveils-tech-based-transformation",
-      "https://w-hotels.marriott.com/destinations/london/",
       "https://www.marriott.com/en-us/hotels/lonhw-w-london/overview/"
     ],
-    "checked_at": "2026-11-06T00:20:25.398Z",
-    "status": "needs_review"
+    "checked_at": "2026-11-06T00:30:07.837Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/lonhw-w-london/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/lonhw-w-london/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 0.33,
+      "location_match": true
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/lonhw-w-london/overview/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:30:12.569Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/lonhw-w-london/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:30:20.619Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/lonhw-w-london/dining/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:30:24.543Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/lonhw-w-london/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:30:31.422Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.marriott.com/en-us/hotels/lonhw-w-london/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:30:43.377Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
+      "url": "https://www.cntraveler.com/hotels/united-kingdom/london/w-london-leicester-square",
+      "tier": "editorial",
+      "fetched_at": "2026-11-06T00:30:49.241Z",
+      "source": "direct"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 5,
-    "firecrawl_searches": 2,
+    "firecrawl_calls": 8,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 6,
+    "chars": 63125,
+    "est_claude_tokens": 15781
   },
   "limits": {
     "maxPages": 12,
@@ -51,5 +92,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-11-06T00:20:41.844Z"
+  "researched_at": "2026-11-06T00:30:49.241Z"
 }

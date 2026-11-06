@@ -9,18 +9,21 @@
     "kind": "chain",
     "chain": "marriott"
   },
-  "evidence": [],
-  "reasons": [
-    "https://news.marriott.com/news/2019/07/31/w-london-leicester-square-unveils-tech-based-transformation: https://news.marriott.com/news/2019/07/31/w-london-leicester-square-unveils-tech-based-transformation is a Marriott landing page, not a property page",
-    "https://w-hotels.marriott.com/destinations/london/: https://w-hotels.marriott.com/destinations/london/ is a Marriott landing page, not a property page; only 67% of the hotel name appears on the page",
-    "https://www.marriott.com/en-us/hotels/lonhw-w-london/overview/: only 33% of the hotel name appears on the page",
-    "official website could not be confirmed; flag for review"
+  "evidence": [
+    "location matches (London, GB)",
+    "confirmed by hand as this hotel's own page (only 33% of the hotel name appears on the page)"
   ],
+  "reasons": [],
   "candidates": [
-    "https://news.marriott.com/news/2019/07/31/w-london-leicester-square-unveils-tech-based-transformation",
-    "https://w-hotels.marriott.com/destinations/london/",
     "https://www.marriott.com/en-us/hotels/lonhw-w-london/overview/"
   ],
-  "checked_at": "2026-11-06T00:20:25.398Z",
-  "status": "needs_review"
+  "checked_at": "2026-11-06T00:30:07.837Z",
+  "status": "confirmed",
+  "official_url": "https://www.marriott.com/en-us/hotels/lonhw-w-london/overview/",
+  "base_url": "https://www.marriott.com/en-us/hotels/lonhw-w-london/",
+  "host": "marriott.com",
+  "checks": {
+    "name_coverage": 0.33,
+    "location_match": true
+  }
 }

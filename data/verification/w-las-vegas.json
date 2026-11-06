@@ -1,0 +1,316 @@
+{
+  "hotel_slug": "w-las-vegas",
+  "hotel_name": "W Las Vegas",
+  "checked_at": "2026-11-06T00:33:31.894Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 14,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 15
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/lasdl-w-las-vegas/overview/",
+      "tier": "official",
+      "chars": 11913
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/lasdl-w-las-vegas/rooms/",
+      "tier": "official",
+      "chars": 3227
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/lasdl-w-las-vegas/dining/",
+      "tier": "official",
+      "chars": 3360
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/lasdl-w-las-vegas/%3CBase64-Image-Removed%3E/",
+      "tier": "official",
+      "chars": 260
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "W Las Vegas is on the Las Vegas Strip.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "At the pulse of the Las Vegas Strip, W Las Vegas channels bold energy",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lasdl-w-las-vegas/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The suites have a sleek, sophisticated design.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Spacious all-suite guestrooms with sleek, sophisticated design.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lasdl-w-las-vegas/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "BATHHOUSE Spa is a co-ed spa.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "BATHHOUSE Spa is where relaxation meets community in a unique co-ed environment.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lasdl-w-las-vegas/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Living Room is a social hub at the heart of the hotel serving signature cocktails.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "At the heart of W Las Vegas, Living Room is a vibrant social hub where elevated design meets undeniable energy. Sip signature cocktails",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lasdl-w-las-vegas/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "3940 Coffee and Tea serves quick bites and drinks.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "3940 Coffee and Tea",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lasdl-w-las-vegas/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Perfect for a quick bite or refreshing beverage.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lasdl-w-las-vegas/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Pets are welcome.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Yes, pets are welcome at W Las Vegas.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lasdl-w-las-vegas/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The hotel has electric vehicle charging stations.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Yes, W Las Vegas has electric vehicle charging stations (subject to availability).",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lasdl-w-las-vegas/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Both self parking and valet parking are available on site.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "On-site parking is available at W Las Vegas. Self parking is available for $20.00 per day. Valet parking is available for $40.00 per day.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lasdl-w-las-vegas/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "W Las Vegas is an all-suite hotel, with many suites offering views of the Las Vegas skyline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Step into an all-suite destination where modern style meets effortless comfort, many offering sweeping views of the iconic Las Vegas skyline.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lasdl-w-las-vegas/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "BATHHOUSE Spa has plunge pools, steam rooms and saunas.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Enjoy our luxurious amenities, including therapeutic plunge pools, invigorating steam rooms, and calming saunas.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lasdl-w-las-vegas/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "Skyfall Rooftop Bar and Lounge offers a panoramic overlook of the city with artisan cocktails and shareable appetizers.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Skyfall Rooftop Bar and Lounge",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lasdl-w-las-vegas/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "With the combination of flowing cocktails and glowing moonlight, the panoramic overlook of the city from Skyfall is surreal. Enjoy artisan cocktails and shareable appetizers",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lasdl-w-las-vegas/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Rooms offer views of the Las Vegas Strip and the desert landscape.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Stunning views of the Las Vegas Strip and desert landscape.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lasdl-w-las-vegas/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Guests must be 21 or older to check in.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Must be 21+ for check-in or to play.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lasdl-w-las-vegas/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Room service is not offered.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "No, room service is not offered at W Las Vegas.",
+          "note": "",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/lasdl-w-las-vegas/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the party-focused atmosphere may not suit all travelers.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

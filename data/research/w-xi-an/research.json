@@ -1,10 +1,8 @@
 {
   "slug": "w-xi-an",
-  "status": "needs_review",
+  "status": "awaiting_extraction",
   "partial": false,
-  "reasons": [
-    "several Marriott properties match \"W Xi'an\" in Xi'an (https://www.marriott.com/en-us/hotels/xiywh-w-xian/, https://www.marriott.com/en-us/hotels/xiyjw-jw-marriott-hotel-xian/, https://www.marriott.com/en-us/hotels/xiywi-the-westin-xian/, https://www.marriott.com/en-us/hotels/xiyjs-jw-marriott-hotel-xian-southwest/, https://www.marriott.com/en-us/hotels/travel/xiyrz/); confirm with --official-url"
-  ],
+  "reasons": [],
   "identity": {
     "hotel": {
       "name": "W Xi'an",
@@ -16,30 +14,70 @@
       "kind": "chain",
       "chain": "marriott"
     },
-    "evidence": [],
-    "reasons": [
-      "several Marriott properties match \"W Xi'an\" in Xi'an (https://www.marriott.com/en-us/hotels/xiywh-w-xian/, https://www.marriott.com/en-us/hotels/xiyjw-jw-marriott-hotel-xian/, https://www.marriott.com/en-us/hotels/xiywi-the-westin-xian/, https://www.marriott.com/en-us/hotels/xiyjs-jw-marriott-hotel-xian-southwest/, https://www.marriott.com/en-us/hotels/travel/xiyrz/); confirm with --official-url"
+    "evidence": [
+      "100% of the hotel name appears on the page",
+      "confirmed by hand as this hotel's own page (page does not mention Xi'an)"
     ],
+    "reasons": [],
     "candidates": [
-      "https://www.marriott.com/en-us/hotels/xiywh-w-xian/",
-      "https://www.marriott.com/en-us/hotels/xiyjw-jw-marriott-hotel-xian/",
-      "https://www.marriott.com/en-us/hotels/xiywi-the-westin-xian/",
-      "https://www.marriott.com/en-us/hotels/xiyjs-jw-marriott-hotel-xian-southwest/",
-      "https://www.marriott.com/en-us/hotels/travel/xiyrz/"
+      "https://www.marriott.com/en-us/hotels/xiywh-w-xian/overview/"
     ],
-    "checked_at": "2026-11-06T00:12:05.544Z",
-    "status": "needs_review"
+    "checked_at": "2026-11-06T00:28:55.580Z",
+    "status": "confirmed",
+    "official_url": "https://www.marriott.com/en-us/hotels/xiywh-w-xian/overview/",
+    "base_url": "https://www.marriott.com/en-us/hotels/xiywh-w-xian/",
+    "host": "marriott.com",
+    "checks": {
+      "name_coverage": 1,
+      "location_match": false
+    }
   },
-  "pages": [],
+  "pages": [
+    {
+      "id": "p1",
+      "url": "https://www.marriott.com/en-us/hotels/xiywh-w-xian/overview/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:29:27.857Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p2",
+      "url": "https://www.marriott.com/en-us/hotels/xiywh-w-xian/rooms/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:29:44.773Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/xiywh-w-xian/dining/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:29:54.852Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/xiywh-w-xian/experiences/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:30:05.361Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.cntraveler.com/hotels/xi-an/shangri-la-hotel-xi-an",
+      "tier": "editorial",
+      "fetched_at": "2026-11-06T00:30:11.588Z",
+      "source": "direct"
+    }
+  ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 2,
-    "firecrawl_searches": 2,
+    "firecrawl_calls": 7,
+    "firecrawl_searches": 1,
     "cache_hits": 0,
-    "direct_fetches": 0,
-    "pages": 0,
-    "chars": 0,
-    "est_claude_tokens": 0
+    "direct_fetches": 1,
+    "pages": 5,
+    "chars": 37986,
+    "est_claude_tokens": 9497
   },
   "limits": {
     "maxPages": 12,
@@ -47,5 +85,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-11-06T00:12:12.653Z"
+  "researched_at": "2026-11-06T00:30:11.588Z"
 }

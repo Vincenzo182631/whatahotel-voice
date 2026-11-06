@@ -1,0 +1,450 @@
+{
+  "hotel_slug": "w-sao-paulo",
+  "hotel_name": "W Sao Paulo",
+  "checked_at": "2026-11-06T00:36:31.658Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 20,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 0,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/saowh-w-sao-paulo/overview/",
+      "tier": "official",
+      "chars": 14235
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/saowh-w-sao-paulo/rooms/",
+      "tier": "official",
+      "chars": 7435
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/saowh-w-sao-paulo/rooms/suites/",
+      "tier": "official",
+      "chars": 16750
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/saowh-w-sao-paulo/dining/",
+      "tier": "official",
+      "chars": 10138
+    },
+    {
+      "id": "d5",
+      "url": "https://www.marriott.com/en-us/hotels/saowh-w-sao-paulo/spa/",
+      "tier": "official",
+      "chars": 5902
+    },
+    {
+      "id": "d6",
+      "url": "https://www.marriott.com/en-us/hotels/saowh-w-sao-paulo/experiences/",
+      "tier": "official",
+      "chars": 10929
+    },
+    {
+      "id": "d7",
+      "url": "https://www.marriott.com/en-us/hotels/saowh-w-sao-paulo/experiences/holidays/",
+      "tier": "official",
+      "chars": 3026
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel is in the heart of Vila Olimpia.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located in the heart of Vila Olímpia",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/saowh-w-sao-paulo/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The design blends stone, wood, curves and color into a streamlined tropical-chic look drawn from Brazilian motifs.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Stone, wood, curves, color and free-flowing energy all meld together to create a modern vision of streamlined tropical-chic",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/saowh-w-sao-paulo/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "W São Paulo’s unique design draws from distinctly Brazilian motifs",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/saowh-w-sao-paulo/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Rooms feature locally inspired artwork and contemporary furniture that nod to Brazilian modernism.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Unique touches like locally inspired artwork and contemporary furniture nod to Brazilian modernism",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/saowh-w-sao-paulo/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Guests can enjoy the Sunset Ritual at the WET Deck and Stretching Bossa Nova at FIT.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Guests can enjoy the Sunset Ritual at the WET Deck, relax with Stretching Bossa Nova at FIT",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/saowh-w-sao-paulo/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The US3 beauty salon inside AWAY Spa offers hair, makeup and wellness services.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Inside AWAY Spa, discover US3, a beauty salon where tradition meets innovation.",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/saowh-w-sao-paulo/spa/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "US3 offers expert hair, makeup, and wellness services",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/saowh-w-sao-paulo/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "AWAY Spa services include couples massages, body scrubs, facials and a steam room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Body ScrubCouples MassagesEye TreatmentFacialsFoot BathMakeup ServicesManicures/PedicuresMassagesScalp & Hair TreatmentSteam Room",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/saowh-w-sao-paulo/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Yoso Bar e Cafe offers Japanese-inspired mixology and a daytime cafe.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Our cocktail bar in São Paulo's Vila Olímpia redefines culture with Japanese-inspired mixology, bold flavors, and bespoke experiences, complemented by a daytime café offering.",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/saowh-w-sao-paulo/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The Penthouse I has a lounge with a tropical-contemporary vibe, three bedrooms, two bathrooms and a bathtub.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "including a lounge with a tropical-contemporary vibe, three bedrooms, two sleek bathrooms, and a relaxing bathtub.",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/saowh-w-sao-paulo/rooms/suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Fully furnished W Sao Paulo Residences are available for short and extended stays.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Fully furnished and designed for modern living, our residences are available for short and extended stays",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/saowh-w-sao-paulo/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "The JK Iguatemi luxury mall is steps away.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Steps away from JK Iguatemi, a luxury mall with top-tier shopping, dining, and entertainment",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/saowh-w-sao-paulo/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "The hotel has easy access to Avenida Faria Lima, Sao Paulo's financial and business corridor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Easy access to Avenida Faria Lima, São Paulo’s bustling financial and business corridor",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/saowh-w-sao-paulo/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The hotel's music scene features live DJ sets, intimate sound sessions and performances by Brazilian and international artists.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "The hotel's dynamic music scene features live DJ sets, intimate sound sessions, and exclusive performances by renowned Brazilian and international artists",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/saowh-w-sao-paulo/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The WET Deck rooftop pool is on the 40th floor, with views over the city.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Soak up the vibe at our rooftop pool in Sao Paulo. Located at our 40th floor, WET DECK offers breathtaking views from the city.",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/saowh-w-sao-paulo/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "Rooms start on the 25th floor, with views of Sao Paulo.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Rooms start on the 25th floor, offering breathtaking sights of São Paulo.",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/saowh-w-sao-paulo/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "AWAY Spa is perched high above the city and offers treatments inspired by Brazil's biomes.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Perched high above the city, AWAY Spa",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/saowh-w-sao-paulo/spa/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "AWAY Spa at W São Paulo offers a sensory escape with treatments inspired by Brazil’s biomes.",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/saowh-w-sao-paulo/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Signature Suites are on the highest floors, each with panoramic city views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Located on the highest floors of the hotel, each suite offers panoramic city views",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/saowh-w-sao-paulo/rooms/suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "L40 Cozinha de Latitude is the 40th-floor rooftop bar and restaurant, with a panoramic city view and a globally inspired menu.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "On the 40th floor, L40 Cozinha de Latitude is our Rooftop Bar in São Paulo, presenting a panoramic view of the city and a globally inspired menu.",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/saowh-w-sao-paulo/dining/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Our rooftop bar and restaurant in São Paulo",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/saowh-w-sao-paulo/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The bars and restaurants have a smart casual dress code; swimwear and flip-flops are not permitted.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Smart casual, in line with the hotel's atmosphere. Swimwear, flip-flops",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/saowh-w-sao-paulo/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Rooms do not have a fridge.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "No, rooms at W São Paulo do not have a fridge.",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/saowh-w-sao-paulo/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "The minimum age to check in is 18.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Minimum Age to Check In: 18",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/saowh-w-sao-paulo/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    }
+  ]
+}

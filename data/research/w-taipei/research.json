@@ -1,8 +1,11 @@
 {
   "slug": "w-taipei",
-  "status": "awaiting_extraction",
+  "status": "needs_review",
   "partial": false,
-  "reasons": [],
+  "reasons": [
+    "https://www.marriott.com/en-us/hotels/tpewh-w-taipei/overview/: Firecrawl 500 for https://www.marriott.com/en-us/hotels/tpewh-w-taipei/overview/: All scraping engines failed to retrieve content from this ",
+    "official website could not be confirmed; flag for review"
+  ],
   "identity": {
     "hotel": {
       "name": "W Taipei",
@@ -14,51 +17,27 @@
       "kind": "chain",
       "chain": "marriott"
     },
-    "evidence": [
-      "100% of the hotel name appears on the page",
-      "location matches (Taipei, TW)"
+    "evidence": [],
+    "reasons": [
+      "https://www.marriott.com/en-us/hotels/tpewh-w-taipei/overview/: Firecrawl 500 for https://www.marriott.com/en-us/hotels/tpewh-w-taipei/overview/: All scraping engines failed to retrieve content from this ",
+      "official website could not be confirmed; flag for review"
     ],
-    "reasons": [],
     "candidates": [
-      "https://w-hotels.marriott.com/destinations/taipei/",
-      "https://www.marriott.com/en-us/hotels/tpewh-w-taipei/overview/",
-      "https://www.marriott.com/en-us/hotels/tpewh-w-taipei/rooms/"
+      "https://www.marriott.com/en-us/hotels/tpewh-w-taipei/overview/"
     ],
-    "checked_at": "2026-11-06T00:15:50.904Z",
-    "status": "confirmed",
-    "official_url": "https://www.marriott.com/en-us/hotels/tpewh-w-taipei/rooms/",
-    "base_url": "https://www.marriott.com/en-us/hotels/tpewh-w-taipei/",
-    "host": "marriott.com",
-    "checks": {
-      "name_coverage": 1,
-      "location_match": true
-    }
+    "checked_at": "2026-11-06T00:29:43.269Z",
+    "status": "needs_review"
   },
-  "pages": [
-    {
-      "id": "p1",
-      "url": "https://www.marriott.com/en-us/hotels/tpewh-w-taipei/rooms/",
-      "tier": "official",
-      "fetched_at": "2026-11-06T00:16:26.901Z",
-      "source": "cache"
-    },
-    {
-      "id": "p2",
-      "url": "https://www.cntraveler.com/hotels/taipei/w-taipei",
-      "tier": "editorial",
-      "fetched_at": "2026-11-06T00:16:28.844Z",
-      "source": "direct"
-    }
-  ],
+  "pages": [],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 6,
-    "firecrawl_searches": 3,
-    "cache_hits": 2,
-    "direct_fetches": 1,
-    "pages": 2,
-    "chars": 12635,
-    "est_claude_tokens": 3159
+    "firecrawl_calls": 1,
+    "firecrawl_searches": 0,
+    "cache_hits": 0,
+    "direct_fetches": 0,
+    "pages": 0,
+    "chars": 0,
+    "est_claude_tokens": 0
   },
   "limits": {
     "maxPages": 12,
@@ -66,5 +45,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-11-06T00:16:28.844Z"
+  "researched_at": "2026-11-06T00:30:13.584Z"
 }

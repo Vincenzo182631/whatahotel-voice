@@ -1,0 +1,407 @@
+{
+  "hotel_slug": "w-amsterdam",
+  "hotel_name": "W Amsterdam",
+  "checked_at": "2026-11-06T00:41:03.764Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 18,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/amswh-w-amsterdam/overview/",
+      "tier": "official",
+      "chars": 19491
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/amswh-w-amsterdam/rooms/",
+      "tier": "official",
+      "chars": 11028
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/amswh-w-amsterdam/rooms/suites/",
+      "tier": "official",
+      "chars": 9224
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/amswh-w-amsterdam/dining/",
+      "tier": "official",
+      "chars": 7091
+    },
+    {
+      "id": "d5",
+      "url": "https://www.marriott.com/en-us/hotels/amswh-w-amsterdam/spa/",
+      "tier": "official",
+      "chars": 10306
+    },
+    {
+      "id": "d6",
+      "url": "https://www.marriott.com/en-us/hotels/amswh-w-amsterdam/experiences/",
+      "tier": "official",
+      "chars": 11540
+    },
+    {
+      "id": "d7",
+      "url": "https://www.cntraveler.com/hotels/amsterdam/w-amsterdam",
+      "tier": "editorial",
+      "chars": 5360
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel sits between the Royal Palace and the Singel Canal.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "Marvel at the dazzling views from our home between the Royal Palace and famed Singel Canal.",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/amswh-w-amsterdam/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The former KAS Bank building was built in 1906.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Check-in to the former KAS Bank to enjoy ease in the city of Amsterdam, built in 1906.",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/amswh-w-amsterdam/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "One suite has views of the Royal Palace and Dam Square from the bed.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "From your W signature bed, take in stunning views of the Royal Palace and Dam Square.",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/amswh-w-amsterdam/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Wake up in Amsterdam in one of our luxurious suites, where innovative design meets modern comfort.",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/amswh-w-amsterdam/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "Some suites have a sunken bath in the bedroom; others have an open fire and rounded bed curves.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Choose your escape: a sunken bath in your bedroom or a suite with an open fire and soft, rounded bed curves",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/amswh-w-amsterdam/rooms/suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "Bank building rooms use warm tones and gold accents, while Exchange building rooms lean almost futuristic.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Those inside the bank building are outfitted in warm tones and gold accents, while the rooms inside the former telephone exchange leans almost futuristic",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/amsterdam/w-amsterdam",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Some Bank building rooms have gold minibars shaped like small bank vaults.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d7",
+          "quote": "Some of the rooms inside the bank building have gold minibars in the shape of small bank vault, complete with copper-colored cocktail shakers.",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.cntraveler.com/hotels/amsterdam/w-amsterdam",
+          "tier": "editorial",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "The spa's WET area includes a heated pool, sauna, steam room, jacuzzi, Japanese fire bath and gold ice plunge pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "your next choice will be between the heated pool, sauna, steam room, jacuzzi, Japanese fire bath and gold ice plunge pool.",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/amswh-w-amsterdam/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "The FIT gym has a canal view.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "FIT: an energy-charged fitness space with a canal-view opposite AWAY® Spa",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/amswh-w-amsterdam/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "The W Lounge is a cocktail bar on the 6th floor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Perched atop the 6th floor, the W Lounge invites you to unwind",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/amswh-w-amsterdam/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Let our mixologists take you on a journey of bold flavors and relaxed sophistication.",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/amswh-w-amsterdam/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "MR PORTER is a rooftop steakhouse with house DJ sets.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "For the finest rooftop steakhouse restaurant with an electric atmosphere and house DJ sets, it's MR PORTER",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/amswh-w-amsterdam/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "X BANK is a concept store for Dutch art, fashion and design.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Get the clothes to steal the show at one of the coolest concept stores in town, X BANK.",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/amswh-w-amsterdam/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "X BANK has been a destination for the best in Dutch art, fashion and design",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/amswh-w-amsterdam/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel spans two heritage buildings, the former KAS Bank and the Royal Dutch Post's communications center, steps from Dam Square.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "W Amsterdam spans two iconic heritage buildings — the former KAS Bank and the Royal Dutch Post’s communications center — just steps from Dam Square.",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/amswh-w-amsterdam/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "AWAY Spa is hidden in an old bank vault, a dimly lit underground haven.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Hidden in an old bank vault, steam, sauna, glow, and slow down in our dimly lit underground haven.",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/amswh-w-amsterdam/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Wet Deck pool is on the roof of the Exchange building, overlooking the city.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "On the roof of the exchange building, the Wet Deck is perfect to admire the city from above while chilling by the pool.",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/amswh-w-amsterdam/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "One suite has a snooker table that transforms into a dining table for eight.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Enjoy unique features like a snooker table that transforms into a dining area for eight.",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/amswh-w-amsterdam/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "Gold lines on the W Lounge windows and slim copper pipes pay tribute to the telephone wires of the former exchange.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Bold gold lines printed on the windows of the W Lounge and over 5km of slim copper pipes pay tribute to the telephone wires and electricity lines that once exchanged information",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/amswh-w-amsterdam/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "Advance appointments are required for all spa treatments and WET area access.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "advanced appointments are required for all treatments and access to the WET area.",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/amswh-w-amsterdam/spa/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "One pet up to 20 kg is allowed per room.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "One pet is allowed per room, with a maximum weight of 20.0 kgs.",
+          "note": "official page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/amswh-w-amsterdam/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the lively atmosphere may not suit guests seeking a quiet retreat.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

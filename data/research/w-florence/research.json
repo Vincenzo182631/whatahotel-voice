@@ -16,56 +16,75 @@
     },
     "evidence": [
       "100% of the hotel name appears on the page",
-      "location matches (Firenze, IT)"
+      "confirmed by hand as this hotel's own page (page does not mention Firenze)"
     ],
     "reasons": [],
     "candidates": [
-      "https://w-hotels.marriott.com/destinations/florence/",
-      "https://www.marriott.com/en-us/hotels/flrwh-w-florence/overview/",
-      "https://www.marriott.com/en-us/hotels/flrwh-w-florence/dining/"
+      "https://www.marriott.com/en-us/hotels/flrwh-w-florence/overview/"
     ],
-    "checked_at": "2026-11-06T00:19:25.770Z",
+    "checked_at": "2026-11-06T00:28:55.478Z",
     "status": "confirmed",
-    "official_url": "https://www.marriott.com/en-us/hotels/flrwh-w-florence/dining/",
+    "official_url": "https://www.marriott.com/en-us/hotels/flrwh-w-florence/overview/",
     "base_url": "https://www.marriott.com/en-us/hotels/flrwh-w-florence/",
     "host": "marriott.com",
     "checks": {
       "name_coverage": 1,
-      "location_match": true
+      "location_match": false
     }
   },
   "pages": [
     {
       "id": "p1",
-      "url": "https://www.marriott.com/en-us/hotels/flrwh-w-florence/dining/",
+      "url": "https://www.marriott.com/en-us/hotels/flrwh-w-florence/overview/",
       "tier": "official",
-      "fetched_at": "2026-11-06T00:20:05.501Z",
-      "source": "cache"
+      "fetched_at": "2026-11-06T00:29:00.141Z",
+      "source": "firecrawl"
     },
     {
       "id": "p2",
-      "url": "https://www.marriott.com/en-us/hotels/flrwh-w-florence/dining/zefiro-rooftop/",
+      "url": "https://www.marriott.com/en-us/hotels/flrwh-w-florence/rooms/",
       "tier": "official",
-      "fetched_at": "2026-11-06T00:20:12.780Z",
+      "fetched_at": "2026-11-06T00:29:19.742Z",
       "source": "firecrawl"
     },
     {
       "id": "p3",
+      "url": "https://www.marriott.com/en-us/hotels/flrwh-w-florence/rooms/signature-suites/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:29:33.654Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p4",
+      "url": "https://www.marriott.com/en-us/hotels/flrwh-w-florence/dining/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:29:33.906Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p5",
+      "url": "https://www.marriott.com/en-us/hotels/flrwh-w-florence/dining/zefiro-rooftop/",
+      "tier": "official",
+      "fetched_at": "2026-11-06T00:29:37.835Z",
+      "source": "firecrawl"
+    },
+    {
+      "id": "p6",
       "url": "https://www.cntraveler.com/hotels/firenze/w-florence",
       "tier": "editorial",
-      "fetched_at": "2026-11-06T00:20:13.395Z",
+      "fetched_at": "2026-11-06T00:29:42.317Z",
       "source": "direct"
     }
   ],
   "inaccessible": [],
   "usage": {
-    "firecrawl_calls": 7,
-    "firecrawl_searches": 3,
-    "cache_hits": 2,
+    "firecrawl_calls": 8,
+    "firecrawl_searches": 1,
+    "cache_hits": 0,
     "direct_fetches": 1,
-    "pages": 3,
-    "chars": 20159,
-    "est_claude_tokens": 5040
+    "pages": 6,
+    "chars": 61636,
+    "est_claude_tokens": 15409
   },
   "limits": {
     "maxPages": 12,
@@ -73,5 +92,5 @@
     "maxRetries": 3,
     "maxChars": 150000
   },
-  "researched_at": "2026-11-06T00:20:13.396Z"
+  "researched_at": "2026-11-06T00:29:42.317Z"
 }
