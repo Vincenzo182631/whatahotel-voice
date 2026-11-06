@@ -1,0 +1,419 @@
+{
+  "hotel_slug": "w-roma",
+  "hotel_name": "W Roma",
+  "checked_at": "2026-11-06T00:58:50.423Z",
+  "script_version": null,
+  "decision": {
+    "eligible": true,
+    "blockers": [],
+    "counts": {
+      "supported": 19,
+      "contradicted": 0,
+      "unverified": 0,
+      "exempt": 1,
+      "total": 20
+    }
+  },
+  "applied": true,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/romwv-w-rome/overview/",
+      "tier": "official",
+      "chars": 22058
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/romwv-w-rome/rooms/",
+      "tier": "official",
+      "chars": 14003
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/romwv-w-rome/rooms/suites/",
+      "tier": "official",
+      "chars": 28021
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/romwv-w-rome/dining/",
+      "tier": "official",
+      "chars": 7879
+    },
+    {
+      "id": "d5",
+      "url": "https://www.marriott.com/en-us/hotels/romwv-w-rome/experiences/",
+      "tier": "official",
+      "chars": 7950
+    },
+    {
+      "id": "d6",
+      "url": "https://www.marriott.com/en-us/hotels/romwv-w-rome/overview/w-lounge/",
+      "tier": "official",
+      "chars": 7828
+    },
+    {
+      "id": "d7",
+      "url": "https://www.marriott.com/en-us/hotels/romwv-w-rome/experiences/live-eternal/",
+      "tier": "official",
+      "chars": 4829
+    }
+  ],
+  "skipped": [
+    {
+      "url": "cntraveler.com",
+      "reason": "no Condé Nast Traveler hotel page found for this name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel's address is 26/36 Via Liguria, Rome.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "26/36 Via Liguria, Rome, Italy, 00187",
+          "note": "address",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/romwv-w-rome/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "Piazza di Spagna, the Trevi Fountain, the Pantheon and Piazza Navona are within a stroll of the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "It takes just a “passeggiata” to reach Piazza di Spagna, Trevi Fountain, Pantheon and Piazza Navona.",
+          "note": "stroll to landmarks",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/romwv-w-rome/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "Guestrooms are inspired by Italian design icons Carlo Scarpa and Ettore Sottsass.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Inspired by Italian design icons Carlo Scarpa and Ettore Sottsass",
+          "note": "rooms page",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/romwv-w-rome/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The interiors feature repeating arches, layered marble and references to landmarks like the Pantheon and Palazzo della Civilta Italiana.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "elements such as repeating arches, layered marble, and references to iconic landmarks like the Pantheon and Palazzo della Civiltà Italiana",
+          "note": "design elements",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/romwv-w-rome/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The Penthouse Suite is on the top floor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Set on the top floor, the 241 sqm Penthouse Suite offers a more expansive way to experience Rome.",
+          "note": "top floor",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/romwv-w-rome/rooms/suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "The Supreme Suite is on the fifth floor and has an expansive private terrace with outdoor living and dining spaces overlooking the city's skyline.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Located on the fifth floor, the Supreme Suite combines distinctive artworks, contemporary Italian furnishings and a spacious living area",
+          "note": "fifth floor",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/romwv-w-rome/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "An expansive private terrace offers outdoor living and dining spaces overlooking the city’s iconic skyline.",
+          "note": "terrace",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/romwv-w-rome/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Some Urban Suites have a private outdoor garden or terrace.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Some Urban Suites also come with sizeable outdoor private garden or terrace",
+          "note": "urban suites",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/romwv-w-rome/rooms/suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Select W Suites can connect to adjoining rooms.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "select W Suites can effortlessly connect to adjacent rooms",
+          "note": "connect",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/romwv-w-rome/rooms/suites/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Bathrooms are stocked with Davines amenities and a Dyson Supersonic hairdryer.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "stocked with Davines amenities and a Dyson Supersonic hairdryer",
+          "note": "bath",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/romwv-w-rome/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "Giano Restaurant is the hotel's Sicilian restaurant, led by Head Chef Ciccio Sultano.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "Our Sicilian restaurant in Rome, Giano Restaurant adds the language of cooking to W Rome's boundary pushing. Concocting crowd-pleasing dishes for the table, with his \"Cucina Educata\", Head Chef Ciccio Sultano shakes up",
+          "note": "Giano",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/romwv-w-rome/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "W Lounge is the hotel's any-hours bar with live music, DJ sets and cocktails.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d6",
+          "quote": "W Rome's any-hours destination, fueled by live music, DJ sets, and cocktail culture.",
+          "note": "W Lounge",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/romwv-w-rome/overview/w-lounge/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-12",
+      "text": "The FIT gym has Technogym equipment.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The gym is equipped with TechnoGym® fitness equipment such as Treadmills, Cardiovascular Equipment, Elliptical Machines.",
+          "note": "gym",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/romwv-w-rome/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel sits behind the facades of two 19th-century palazzos.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Behind the façades of two 19th-century palazzos",
+          "note": "palazzos",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/romwv-w-rome/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The WET DECK is on the 6th floor.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Located on the 6th floor, the WET DECK is an urban oasis amid the bustling Eternal City.",
+          "note": "6th floor",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/romwv-w-rome/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The rooftop has a plunge pool with panoramic views of the city.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "Bring relaxation to another level and pair your panoramic views of the Eternal City.",
+          "note": "panoramic views",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/romwv-w-rome/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "right by the plunge pool. Our rooftop pool is a peaceful retreat that invites you to lounge amid Rome's evening breeze.",
+          "note": "rooftop plunge pool",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/romwv-w-rome/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "The Penthouse Suite opens onto an extensive private terrace with sweeping views across Rome's rooftops.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "the suite opens onto an extensive private terrace with sweeping views across Rome’s rooftops.",
+          "note": "penthouse terrace",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/romwv-w-rome/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "A hand-painted mural by Italian artist Costanza Alvarez de Castro is inspired by Roman gardens.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Painted by Italian artist Costanza Alvarez de Castro, the mural, that took 270 hours to complete, is inspired by Roman gardens",
+          "note": "mural",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/romwv-w-rome/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The rooftop pool is a plunge pool.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d5",
+          "quote": "right by the plunge pool. Our rooftop pool is a peaceful retreat that invites you to lounge amid Rome's evening breeze.",
+          "note": "plunge pool",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/romwv-w-rome/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "Pets are welcome through the Pets Are Welcome (P.A.W.) program.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "At W Rome pets are not just welcome, they're pampered. Our signature Pets Are Welcome (P.A.W.) program",
+          "note": "pets",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/romwv-w-rome/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the bold modern design may not suit travelers who prefer a traditional style.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}

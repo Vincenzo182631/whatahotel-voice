@@ -1,0 +1,388 @@
+{
+  "hotel_slug": "w-taipei",
+  "hotel_name": "W Taipei",
+  "checked_at": "2026-11-06T01:01:39.353Z",
+  "script_version": null,
+  "decision": {
+    "eligible": false,
+    "blockers": [
+      "used in the script but not verified: f-10"
+    ],
+    "counts": {
+      "supported": 17,
+      "contradicted": 0,
+      "unverified": 1,
+      "exempt": 1,
+      "total": 19
+    }
+  },
+  "applied": false,
+  "evidence": [
+    {
+      "id": "d1",
+      "url": "https://www.marriott.com/en-us/hotels/tpewh-w-taipei/overview/",
+      "tier": "official",
+      "chars": 26142
+    },
+    {
+      "id": "d2",
+      "url": "https://www.marriott.com/en-us/hotels/tpewh-w-taipei/rooms/",
+      "tier": "official",
+      "chars": 9101
+    },
+    {
+      "id": "d3",
+      "url": "https://www.marriott.com/en-us/hotels/tpewh-w-taipei/dining/",
+      "tier": "official",
+      "chars": 6320
+    },
+    {
+      "id": "d4",
+      "url": "https://www.marriott.com/en-us/hotels/tpewh-w-taipei/experiences/",
+      "tier": "official",
+      "chars": 10536
+    },
+    {
+      "id": "d5",
+      "url": "https://www.cntraveler.com/hotels/taipei/w-taipei",
+      "tier": "editorial",
+      "chars": 3534
+    }
+  ],
+  "skipped": [],
+  "claims": [
+    {
+      "claim_id": "f-1",
+      "text": "The hotel's address is 10 Zhongxiao East Road Sec. 5, Xinyi District, Taipei.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "10 Zhongxiao East Road Sec. 5, Xinyi District, Taipei, Taiwan",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/tpewh-w-taipei/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-2",
+      "text": "The hotel is perched above the Uni department store and the City Hall MRT stop, minutes from Taipei 101.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d4",
+          "quote": "From our perch above the hip Uni department store and City Hall MRT stop, W Taipei is just minutes from Taipei 101",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/tpewh-w-taipei/experiences/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-3",
+      "text": "The poolside beach is set against the Xinyi district with sweeping city views.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "our poolside beach, set against...See More the spectacular Xinyi district with sweeping city views",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/tpewh-w-taipei/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-4",
+      "text": "The gym is a glass workout space with cardio machines and a Jacuzzi.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Glass workout space equipped with cardio machines and a Jacuzzi",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/tpewh-w-taipei/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-5",
+      "text": "The signature W bed has 350-thread-count linens and a goose duvet.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our signature W bed features 350-thread-count linens and a goose duvet.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/tpewh-w-taipei/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-6",
+      "text": "Select suites have views of Taipei 101.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Take in amazing views of iconic Taipei 101 from select Xinyi, Taipei, hotel suites.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/tpewh-w-taipei/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-7",
+      "text": "Rooms have a flat-screen TV and a built-in BOSE sound system.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Enjoy your room's flat-screen TV and built-in BOSE sound system.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/tpewh-w-taipei/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-8",
+      "text": "Some room types have whirlpools.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Yes, some room types at W Taipei have whirlpools.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/tpewh-w-taipei/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-9",
+      "text": "Whatever/Whenever service can arrange requests like VIP box seats at a baseball game or Chinese opera lessons from a master performer.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "From a private wedding proposal at the top of Taipei 101, VIP box seats to a baseball game or Chinese opera lessons from a master performer",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/tpewh-w-taipei/overview/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "all you have to do is pick up your room phone and dial Whatever/Whenever",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/tpewh-w-taipei/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "f-10",
+      "text": "WOOBAR is on the 10th floor with a view of Taipei 101.",
+      "findings": [
+        {
+          "verdict": "partial",
+          "doc_id": "d1",
+          "quote": "at 10F WET pool, WET deck, and WOOBAR",
+          "note": "10F stated only in a 2017 event note; no Taipei 101 view stated for WOOBAR",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/tpewh-w-taipei/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "unverified",
+      "reason": "sources cover only part of the claim"
+    },
+    {
+      "claim_id": "f-11",
+      "text": "Seasons by olivier e. on the 10th floor serves modern French cuisine.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d3",
+          "quote": "Head to Seasons by olivier e. on the 10th floor for modern French delicacies.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/tpewh-w-taipei/dining/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-1",
+      "text": "The hotel sits atop Taipei City Hall station, next to Taipei 101 and Taipei Dome.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Perched atop Taipei City Hall station next to iconic Taipei 101 and Taipei Dome.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/tpewh-w-taipei/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-2",
+      "text": "The outdoor heated WET pool is anchored at one end by larger-than-life stainless steel water drop sculptures.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Anchored at one end by larger-than-life stainless steel water drop sculptures, our 25-meter by 6.5-meter (82-feet by 21.3-feet) outdoor heated WET® pool",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/tpewh-w-taipei/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-3",
+      "text": "The Extreme WOW Suite is a bi-level two-bedroom suite with panoramic 270-degree views of the city and Taipei 101.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "This bi-level two-bedroom hotel suite in Taipei is not “two” much—not with panoramic 270-degree views of the city and Taipei 101.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/tpewh-w-taipei/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        },
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "The largest occupancy room at W Taipei is the Extreme WOW Suite",
+          "note": "names the suite; heading above the bi-level text",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/tpewh-w-taipei/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-4",
+      "text": "Rooms and suites feature Zodiac-inspired animal sculptures, stainless steel map installations and other artwork.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d2",
+          "quote": "Our rooms and suites are decked out with Zodiac-inspired animal sculptures, stainless steel map installations and other worldly artwork.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/tpewh-w-taipei/rooms/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "h-5",
+      "text": "AWAY Spa is inspired by the design of a space capsule.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Inspired by the design of the \"Space Capsule.\" AWAY Spa is a sanctuary",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/tpewh-w-taipei/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-1",
+      "text": "The closest airport is Taipei Songshan Airport, about 4.8 km from the hotel.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "The closest airport near W Taipei is Taipei Songshan Airport (TSA). TSA is located approximately 4.8 KM from the hotel.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/tpewh-w-taipei/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-2",
+      "text": "The landscaped poolside comes with DJ beats.",
+      "findings": [
+        {
+          "verdict": "supported",
+          "doc_id": "d1",
+          "quote": "Live it up by the beautifully landscaped poolside, where it’s all about escaping from the hustle and bustle, basking in the summertime, and chilling out to DJ’s beats.",
+          "note": "stated",
+          "confirmed": true,
+          "url": "https://www.marriott.com/en-us/hotels/tpewh-w-taipei/overview/",
+          "tier": "official",
+          "quote_verified": true
+        }
+      ],
+      "status": "supported"
+    },
+    {
+      "claim_id": "c-3",
+      "text": "WhataHotel notes the trendy atmosphere may not suit travelers who prefer traditional luxury.",
+      "status": "exempt",
+      "findings": []
+    }
+  ]
+}
